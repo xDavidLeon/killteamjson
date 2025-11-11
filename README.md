@@ -3,65 +3,137 @@ JSON Dataset for Killteam 2024. Forked form [https://github.com/vjosset/killteam
 
 See also [KT SERVITOR](https://ktservitor.xdavidleon.com/)
 
-# Structure/Hierarchy
+## JSON File Structures
 
-The root of the JSON file is an array of "killteam" objects.
+### `teams.json`
 
-- `killteams` - Array of Killteam objects
-  - `factionId` - *string* - ID for this killteam's faction
-  - `killteamId` - *string* - ID for this killteam
-  - `killteamname` - *string* - Name of this killteam
-  - `description` - *string* - Markdown description of this killteam (flavor text)
-  - `composition` - *string* - Markdown description of this killteam's composition
-  - `archetypes` - *string* - Slash-delimited list of archetypes for this killteam
-  - `opTypes` - Array of OpType (operative type) objects
-    - `killteamId` - *string* - ID for this operative type's killteam
-    - `opTypeId` - *string* - ID for this operative type
-    - `opTypeName` - *string* - Name of this operative type
-    - `MOVE` - *string* - Movement characteristic.
-    - `APL` - *string* - Action Point Limit characteristic
-    - `SAVE` - *string* - Save characteristic
-    - `WOUNDS` - *string* - Wounds characteristic
-    - `keywords` - *string* - Comma-separated keywords for this operative type
-    - `basesize` - *integer* - Base size for this operative type
-    - `nameType` - *string* - Name generation key
-    - `weapons` - Array of Weapon objects
-      - `opTypeId` - *string* - ID for this weapon's operative
-      - `wepId` - *string* - ID for this weapon
-      - `wepName` - *string* - Name of this weapon
-      - `wepType` - *string* - Weapon type (`R`: Ranged, `M`: Melee/Close Combat, `P`: Psychic, `E`: Equipment)
-      - `profiles` - Array of WeaponProfile objects
-        - `wepid` - *string* - ID for this weapon profile's weapon
-        - `seq` - *integer* - Sequence/ordering number for this profile
-        - `profileName` - *string* - Name of this weapon profile (usually blank if the weapon only has one profile)
-        - `ATK` - *string* - Attacks characteristic
-        - `HIT` - *string* - Hit characteristic
-        - `DMG` - *string* - Damage characteristic ([Normal]/[Critical])
-        - `WR` - *string* - Comma-separated list of Weapon Rules for this weapon profile
-    - `abilities` - Array of Ability objects
-      - `abilityId` - *string* - Unique ID for this ability
-      - `opTypeId` - *string* - ID of the OpType that has this ability
-      - `abilityName` - *string* - Name/title of this ability
-      - `AP` - *integer* - The AP to spend to use this ability. If `null`, this is a passive ability.
-      - `description` - *string* - Markdown-formatted description of this ability
-    - `options` - Array of Option objects (e.g. Chapter Tactics for Angels of Death)
-      - `optionId` - *string* - Unique ID for this option
-      - `opTypeId` - *string* - ID of the OpType that has this option
-      - `optionName` - *string* - Name/title of this ability
-      - `description` - *string* - Markdown-formatted description of this option
-      - `effects` - *string* - Coded string for effects to apply to the operative or its weapons
-  - `ploys` - Array of Ploy objects
-    - `ployId` - *string* - Unique ID for this ploy
-    - `killteamId` - *string* - ID of the killteam this ploy belongs to
-    - `seq` - *integer* - Sequence/ordering number for this ploy
-    - `ployType` - *string* - The type of ploy: `S` for Strategy ploys, `T` or `F` for Firefight ploys (don't ask)
-    - `ployName` - *string* - Name/title of this ploy
-    - `description` - *string* - Markdown-formatted description of this ploy
-  - `equipments` - Array of Equipment objects
-    - `eqId` - *string* - Unique ID for this equipment
-    - `killteamId` - *string* - ID of the killteam this equipment belongs to
-    - `seq` - *integer* - Sequence/ordering number for this equipment
-    - `eqName` - *string* - Name/title of this equipment
-    - `description` - *string* - Markdown-formatted description of this ploy
-    - `effects` - *string* - Coded string for effects to apply to operatives or weapons
+Kill team definitions. The root of the file is an array of kill team objects. Each kill team contains:
+
+- `factionId` - *string* - Faction identifier.
+- `killteamId` - *string* - Unique kill team identifier.
+- `killteamName` - *string* - Display name.
+- `description` - *string* - Markdown-formatted lore/flavour text.
+- `composition` - *string* - Markdown-formatted roster construction rules.
+- `archetypes` - *string* - Slash-delimited list of archetype keywords.
+- `userId` - *string | null* - Author identifier when sourced from user submissions.
+- `isPublished` - *boolean* - Indicates if the list is live in the source application.
+- `isHomebrew` - *boolean* - Flags user-created content.
+- `opTypes` - *array* - Operative type definitions for the kill team (see below).
+- `ploys` - *array* - Strategy and firefight ploys available to the team.
+- `equipments` - *array* - Kill team equipment items (see also `universal_equipment.json`).
+
+#### Operative types (`opTypes`)
+
+Each operative type object provides both profile data and runtime metadata:
+
+- `opTypeId` - *string* - Unique operative type identifier.
+- `killteamId` - *string* - Owning kill team ID.
+- `seq` - *integer* - Display ordering.
+- `opTypeName` - *string* - Name shown on datasheets.
+- `MOVE`, `APL`, `SAVE`, `WOUNDS` - *string | number* - Core stat line values.
+- `keywords` - *string* - Comma-separated gameplay keywords.
+- `basesize` - *integer* - Base diameter in millimetres.
+- `nameType` - *string* - Name generation key.
+- `isOpType` - *boolean* - Flags entries that represent selectable operative types.
+- `isActivated` - *boolean* - Runtime flag used when tracking activations.
+- `currWOUNDS` - *integer* - Current wounds tracker; defaults to maximum.
+- `opName`, `opType`, `opId` - *string | null* - Additional runtime metadata slots.
+- `weapons` - *array* - Weapon entries for the operative (see below).
+- `abilities` - *array* - Special rules tied to the operative.
+- `options` - *array* - Selectable loadout or tactic options (e.g., chapter tactics).
+
+##### Weapons (`opTypes[].weapons`)
+
+- `wepId` - *string* - Weapon identifier.
+- `opTypeId` - *string* - Parent operative type.
+- `seq` - *integer* - Display ordering.
+- `wepName` - *string* - Weapon name.
+- `wepType` - *string* - Weapon category (`R`, `M`, `P`, `E`).
+- `isDefault` - *boolean* - Indicates if the weapon is part of the default loadout.
+- `profiles` - *array* - Attack profile definitions.
+
+Weapon profiles contain:
+
+- `wepprofileId` - *string* - Profile identifier.
+- `wepId` - *string* - Parent weapon identifier.
+- `seq` - *integer* - Ordering for multi-profile weapons.
+- `profileName` - *string* - Optional profile label.
+- `ATK`, `HIT`, `DMG`, `WR` - *string* - Attack characteristics, including comma-delimited weapon rules in `WR`.
+
+##### Abilities (`opTypes[].abilities`)
+
+- `abilityId` - *string* - Unique ability identifier.
+- `opTypeId` - *string* - Parent operative type.
+- `abilityName` - *string* - Display name.
+- `AP` - *integer | null* - Action Point cost; `null` denotes passive abilities.
+- `description` - *string* - Markdown-formatted rules text.
+
+##### Options (`opTypes[].options`)
+
+- `optionId` - *string* - Unique option identifier.
+- `opTypeId` - *string* - Parent operative type.
+- `seq` - *integer* - Ordering for presentation.
+- `optionName` - *string* - Display name.
+- `description` - *string* - Markdown-formatted rules explanation.
+- `effects` - *string* - Encoded modifications applied when the option is taken.
+
+#### Ploys (`ploys`)
+
+- `ployId` - *string* - Unique ploy identifier.
+- `killteamId` - *string* - Parent kill team.
+- `seq` - *integer* - Display ordering.
+- `ployType` - *string* - `S` for Strategy ploys, `T` or `F` for Firefight ploys.
+- `ployName` - *string* - Display name.
+- `description` - *string* - Markdown-formatted rules text.
+
+#### Equipment (`equipments`)
+
+- `eqId` - *string* - Unique equipment identifier.
+- `killteamId` - *string | null* - Owning kill team (or `null` when referencing universal gear).
+- `seq` - *integer* - Display ordering.
+- `eqName` - *string* - Equipment name.
+- `description` - *string* - Markdown-formatted text.
+- `effects` - *string* - Encoded effects applied when equipped.
+
+### `mission_actions.json`
+
+Mission-pack specific actions. Root object contains an `actions` array:
+
+- `id` - *string* - Action identifier.
+- `type` - *string* - Always `mission` for this dataset.
+- `seq` - *integer* - Ordering for presentation.
+- `AP` - *integer* - Action Point cost.
+- `name` - *string* - Display name.
+- `description` - *string | null* - Markdown-formatted summary.
+- `effects` - *string[]* - Free-form rules text split into bullet descriptions.
+- `conditions` - *string[]* - Preconditions or restrictions (optional for some entries).
+- `packs` - *string[]* - Mission packs where the action is available (optional).
+
+### `universal_actions.json`
+
+Core actions available to all kill teams. Root object contains an `actions` array with the same structure as mission actions, except:
+
+- `type` - *string* - Always `universal`.
+- `packs` - *string[]* - Only present when an action is limited to specific killzones.
+
+### `universal_equipment.json`
+
+Universal equipment options. Root object contains an `equipments` array:
+
+- `eqId` - *string* - Equipment identifier (shared IDs can also appear in `teams.json`).
+- `killteamId` - *string | null* - Kill team ID when restricted, otherwise `null`.
+- `seq` - *integer* - Ordering value.
+- `eqName` - *string* - Display name.
+- `description` - *string* - Markdown-formatted rules text.
+- `effects` - *string* - Encoded effect string (may be empty).
+- `amount` - *integer* - Quantity of the item granted on selection.
+
+### `weapon_rules.json`
+
+Weapon rule glossary. Root object contains a `weapon_rules` array:
+
+- `id` - *string* - Rule identifier referenced from weapon profiles (`WR` fields).
+- `name` - *string* - Display name of the rule.
+- `variable` - *boolean* - Indicates whether the rule expects an argument (e.g., `Lethal 5+`).
+- `description` - *string* - Detailed rules text.
 
