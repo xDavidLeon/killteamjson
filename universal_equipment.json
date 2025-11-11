@@ -7,7 +7,10 @@
       "eqName": "Ammo Cache",
       "description": "Before the battle, you can set up one of your Ammo Cache markers wholly within your territory. Friendly operatives can perform the following mission action during the battle:\r **AMMO RESUPPLY (0 AP):** One of your Ammo Cache markers the active operative controls is used during this turning point.  \n\r Until the start of the next turning point, whenever this operative is shooting with a weapon from its datacard, you can re-roll one of your attack dice.</br>\r An operative cannot perform this action while within control range of an enemy operative, if that marker is not yours, or if that marker has been used this turning point.",
       "effects": "",
-      "amount": 1
+      "amount": 1,
+      "actions": [
+        "ACTION-UE-AMMO-RESUPPLY"
+      ]
     },
     {
       "eqId": "UNIVERSAL-UE-RW",
@@ -70,7 +73,10 @@
       "eqName": "Portable Barricade",
       "description": "A portable barricade is Light, Protective and Portable terrain.\nBefore the battle, you can set it up wholly within your territory, on the killzone floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.\n  \n\n**Protective:** While an operative is in cover from this terrain feature, improve its Save stat by 1 (to a maximum of 2+).  \n\n**Portable:** This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet).\nOperatives connected to the inside of it can perform the following unique action during the battle:  \n\n**Move With Barricade (1 AP):**\nThe same as the Reposition action, except the active operative can move no more than its Move stat minus 2\" and cannot climb, drop, jump, or use any killteam's rules that remove it and set it back up again (e.gh. HEARTHKYN SALVAGER Fly, MANDRAKE Shadow Passage).  \n\nBefore this operative moves, remove the portable barricade it is connected to. After it moves, set up the portable barricade so it is connected again, but the portable barricade cannot be set up within 2\" of\nother equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again.  \n\nThis action is treated as a Reposition action. An operative cannot perform this action while within control range of an enemy operative, or in the same activation in which it performed the Fall Back or Charge action.",
       "effects": "",
-      "amount": 1
+      "amount": 1,
+      "actions": [
+        "ACTION-UE-MOVE-WITH-BARRICADE"
+      ]
     },
     {
       "eqId": "UNIVERSAL-UE-UG",
@@ -79,7 +85,11 @@
       "eqName": "Utility Grenades",
       "description": "When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun).\nEach selection is a unique action your operatives can perform, but your kill team can only perform that action a total number of times during the battle equal to your selection.\n  \n\n**SMOKE GRENADE (1 AP):**  \n\n\n- Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative,\nor on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.\n- While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.\nIn addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.\n- In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed\nor at the end of the turning point (whichever comes first).\n- An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\n \n\n**STUN GRENADE (1 AP):**  \n\n\n- Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation.\n- An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\n",
       "effects": "",
-      "amount": 2
+      "amount": 2,
+      "actions": [
+        "ACTION-UE-SMOKE-GRENADE",
+        "ACTION-UE-STUN-GRENADE"
+      ]
     },
     {
       "eqId": "UNIVERSAL-UE-XG",
@@ -89,6 +99,71 @@
       "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Frag Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Rng 6\", Blast 2\", Saturate|\r \r |**Name**|**ATK**|**HIT**|**DMG**|\r |-----|:-----:|:-----:|:-----:|\r |Krak Grenade|4|4+|4/5|\r |**Weapon Rules**|\r |Rng 6\", Piercing 1, Saturate|",
       "effects": "ADDWEP:Frag Grenade|R|4|4+|2/4|Rng 6\", Blast 2\", Sat",
       "amount": 2
+    }
+  ],
+  "actions": [
+    {
+      "id": "ACTION-UE-AMMO-RESUPPLY",
+      "type": "mission",
+      "seq": 301,
+      "AP": 1,
+      "name": "Ammo Resupply",
+      "description": null,
+      "effects": [
+        "One of your Ammo Cache markers the active operative controls is used this turning point.",
+        "Until the start of the next turning point, whenever this operative is shooting with a weapon from its datacard, you can re-roll one of your attack dice."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, if that marker is not yours, or if that marker has been used this turning point."
+      ]
+    },
+    {
+      "id": "ACTION-UE-MOVE-WITH-BARRICADE",
+      "type": "universal",
+      "seq": 302,
+      "AP": 1,
+      "name": "Move With Barricade",
+      "description": null,
+      "effects": [
+        "The same as the Reposition action, except the active operative can move no more than its Move stat minus 2\" and cannot climb, drop, jump, or use any killteam's rules that remove it and set it back up again (e.gh. HEARTHKYN SALVAGER Fly, MANDRAKE Shadow Passage).",
+        "Before this operative moves, remove the portable barricade it is connected to. After it moves, set up the portable barricade so it is connected again, but the portable barricade cannot be set up within 2\" of other equipment terrain features, access points or Accessible terrain. If this is not possible, the portable barricade is not set up again."
+      ],
+      "conditions": [
+        "This action is treated as a Reposition action. An operative cannot perform the Move with Barricade action in the same turning point in which it performed the Fall Back or Charge actions."
+      ]
+    },
+    {
+      "id": "ACTION-UE-SMOKE-GRENADE",
+      "type": "ability",
+      "seq": 303,
+      "AP": 1,
+      "name": "Smoke Grenade",
+      "description": null,
+      "effects": [
+        "Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative, or on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.",
+        "While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.",
+        "In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.",
+        "In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed or at the end of the turning point (whichever comes first).",
+        "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ]
+    },
+    {
+      "id": "ACTION-UE-STUN-GRENADE",
+      "type": "ability",
+      "seq": 304,
+      "AP": 1,
+      "name": "Stun Grenade",
+      "description": null,
+      "effects": [
+        "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation.",
+        "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ]
     }
   ]
 }
