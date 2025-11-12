@@ -7,7 +7,10 @@
     "killteamName": "Angels Of Death",
     "description": "Genetically modified transhuman warriors, Space Marines are amongst Humanity\u2019s most elite fighting forces.\nAngels of Death kill teams are composed of elite specialists trained in myriad forms of combat, who are capable of overcoming almost any foe.",
     "composition": "An ANGELS OF DEATH KillTeam is composed of:\n \n- 1 ANGEL OF DEATH operative selected from the following list:\n  - ASSAULT INTERCESSOR SERGEANT with one option from each of the following:\n    - Hand flamer or heavy bolt pistol\n    - Chainsword, power fist, power weapon or thunder hammer  \n    - Or the following option:\n      - Plasma pistol; chainsword\n  - INTERCESSOR SERGEANT with one option  from each of the following:\n    - Auto bolt rifle, bolt rifle or stalker bolt rifle\n    - Chainsword, fists, power fist, power weapon or thunder hammer\n  - SPACE MARINE CAPTAIN\n- 5 ANGEL OF DEATH operatives selected from the following list:\n  - ASSAULT INTERCESSOR GRENADIER\n  - ASSAULT INTERCESSOR WARRIOR\n  - ELIMINATOR SNIPER*\n  - HEAVY INTERCESSOR GUNNER*\n  - INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists    \n  - INTERCESSOR WARRIOR with one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n*You cannot select more than one of these operatives combined.\n\nSome ANGEL OF DEATH rules refer to a 'bolt weapon'. This is a ranged weapon that includes 'bolt' in its name, e.g. stalker bolt rifle, heavy bolt pistol, etc.\n\n---\n\n**Chapter Tactics:**  \nWhen selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.\n",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-AOD-CPT",
@@ -20,8 +23,6 @@
         "WOUNDS": 15,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, SPACE MARINE CAPTAIN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-CPT-PP",
@@ -180,8 +181,6 @@
         "WOUNDS": 15,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, ASSAULT INTERCESSOR, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-ASGT-HFL",
@@ -440,8 +439,6 @@
         "WOUNDS": 15,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, INTERCESSOR, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-ISGT-ABR",
@@ -720,8 +717,6 @@
         "WOUNDS": 12,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ELIMINATOR, SNIPER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-SNP-BP",
@@ -917,8 +912,6 @@
         "WOUNDS": 14,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-GRN-HBP",
@@ -1100,8 +1093,6 @@
         "WOUNDS": 14,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-AWAR-HBP",
@@ -1236,8 +1227,6 @@
         "WOUNDS": 18,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, HEAVY INTERCESSOR, GUNNER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-HGNR-HB",
@@ -1382,8 +1371,6 @@
         "WOUNDS": 14,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, INTERCESSOR, GUNNER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-GNR-ABR",
@@ -1598,8 +1585,6 @@
         "WOUNDS": 14,
         "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, INTERCESSOR, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AOD-WAR-ABR",
@@ -1883,7 +1868,10 @@
     "killteamName": "Battleclade",
     "description": "*\"Let nothing dissuade your quest for knowledge. Let none slow your pursuit and acquisition of holy technology. Let none stand between you and the procurement of that which is rightfully the machine god\u2019s due.\"*  \n- Thusdorius Knoch, Invictus Acquisitor",
     "composition": "A BATTLECLADE KillTeam is composed of:\n\n- 1 BATTLECLADE TECHNOARCHEOLOGIST\n- 1 BATTLECLADE SERVITOR UNDERSEER\n- 8 BATTLECLADE operatives selected from the following list:\n  - AUTO-PROXY SERVITOR\n  - BREACHER SERVITOR\n  - COMBAT SERVITOR with one of the following options:\n    - Servo-claw; incendine igniter\n    - Servo-claw; meltagun\n    - Servo-claw; phosphor blaster\n  - GUN SERVITOR with heavy arc rifle and augmetic claw\n  - GUN SERVITOR with heavy bolter and augmetic claw\n  - TECHNOMEDIC SERVITOR\n\nOther than COMBAT SERVITOR operatives, your kill team can only include each operative on this list once.\nYour kill team can only include up to one COMBAT SERVITOR operative with meltagun, and it can only include up to three COMBAT SERVITOR operatives with incendine igniter.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-BC-TA",
@@ -1896,8 +1884,6 @@
         "WOUNDS": 9,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, TECH-PRIEST, LEADER, TECHNOARCHEOLOGIST",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-TA-EP",
@@ -1981,8 +1967,6 @@
         "WOUNDS": 8,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, AUTO-PROXY, SERVITOR",
         "basesize": 25,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-APS-TG",
@@ -2046,8 +2030,6 @@
         "WOUNDS": 8,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, BREACHER, SERVITOR",
         "basesize": 25,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-BBS-LC",
@@ -2134,8 +2116,6 @@
         "WOUNDS": 8,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, COMBAT, SERVITOR",
         "basesize": 25,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-BCS-II",
@@ -2245,8 +2225,6 @@
         "WOUNDS": 11,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, GUN, SERVITOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-BGS-HAR",
@@ -2346,8 +2324,6 @@
         "WOUNDS": 9,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, TECH-PRIEST, SERVITOR UNDERSEER",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-BSU-MCRP",
@@ -2431,8 +2407,6 @@
         "WOUNDS": 8,
         "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, MEDIC, TECHNOMEDIC, SERVITOR",
         "basesize": 25,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-BC-BTS-SCC",
@@ -2595,7 +2569,12 @@
     "killteamName": "Blades Of Khaine",
     "description": "Athletic, graceful and utterly lethal, the Aeldari warriors that comprise Blades of Khaine kill teams come together to undertake missions of utmost importance on behalf of their craftworlds. They are dispatched to sever specific strands of fate, ensuring that terrible events they have foreseen never come to pass.",
     "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - DIRE AVENGER EXARCH with one of the following options:\n    - Shuriken catapult; fists\n      - Twin shuriken catapult; gun butts  \n    Or one option from each of the following:\n    - Diresword or power weapon\n      - Shuriken pistol or shimmershield\n  - HOWLING BANSHEE EXARCH with one of the following options:\n    - Mirrorswords\n      - Shuriken pistol; executioner\n      - Shuriken pistol; power weapon\n      - Shuriken pistol; triskele\n      - Triskele; power weapon\n  - STRIKING SCORPION EXARCH with one of the following options:\n    - Shuriken pistol; biting blade\n      - Shuriken pistol; scorpion\u2019s claw & chainsword\n      - Twin shuriken pistols; twin chainswords  \n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - DIRE AVENGER WARRIOR\n  - HOWLING BANSHEE WARRIOR\n  - STRIKING SCORPION WARRIOR",
-    "archetypes": "Seek & Destroy/Security/Recon/Infiltration",
+    "archetypes": [
+      "Seek & Destroy",
+      "Security",
+      "Recon",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "AEL-BOK-DAX",
@@ -2608,8 +2587,6 @@
         "WOUNDS": 9,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-DAX-SC",
@@ -2800,8 +2777,6 @@
         "WOUNDS": 9,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-HBX-SP",
@@ -2965,8 +2940,6 @@
         "WOUNDS": 9,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-SSX-SP",
@@ -3110,8 +3083,6 @@
         "WOUNDS": 8,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, DIRE AVENGER, WARRIOR",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-DAW-SC",
@@ -3188,8 +3159,6 @@
         "WOUNDS": 8,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-HBW-SP",
@@ -3266,8 +3235,6 @@
         "WOUNDS": 8,
         "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-BOK-SSW-SP",
@@ -3443,7 +3410,10 @@
     "killteamName": "Blooded",
     "description": "Many Astra Militarum troops have turned to Chaos over the centuries, including entire regiments of the Astra Militarum's Imperial Army predecessors that followed the Warmaster Horus into battle against the Imperium during the Horus Heresy.\n  \n  \n\nThese Traitors represent the primary mortal troops available to the forces of Chaos, now known as the \"Traitoris Militarum\" in High Gothic to the defenders of the Imperium. Even ten millennia later, Chaos Lords are known to attract these followers of Chaos into their warbands and personal armies, which vary greatly in both size and strength.",
     "composition": "A BLOODED killteam is composed of:\n- 1 Blooded Chieftan operative with one of the following options:\n  - Autopistol or laspistol, chainsword or power weapon\n  - Bolt Pistol, chainsword\n  - Boltgun, bayonet\n  - Plasma pistol, improvised Blade *(2)*\n- 9 Blooded operatives selected from the following list:\n  - Brimstone Grenadier\n  - Butcher\n  - Commsman\n  - Corpseman  - Flenser\n  - Gunner with bayonet and Flamer *(1)*\n  - Gunner with bayonet and Grenade Launcher *(1)*\n  - Gunner with bayonet and Meltagun *(1)*\n  - Gunner with bayonet and plasma gun *(1,2)*\n  - Sharpshooter *(1)*\n  - Thug\n  - Trench Sweeper\n  - Trooper\n- 4 Blooded operatives selected from the following list:\n - Enforcer (counts as two selections)\n - Ogryn (counts as two selections)\n - Trooper\n\nOther than Trooper operatives your Kill Team can only include each operative on this list once.  \n\n**(1):** You cannot select more than three of these operatives combined  \n\n**(2):** You cannot select this option and this operative. In other words you can only have one operative with a plasma weapon.",
-    "archetypes": "Infiltration/Seek & Destroy",
+    "archetypes": [
+      "Infiltration",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-BLD-CHF",
@@ -3456,8 +3426,6 @@
         "WOUNDS": 8,
         "keywords": "BLOODED, CHAOS, CHIEFTAIN, LEADER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-CHF-AP",
@@ -3691,8 +3659,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, BRIMSTONE GRENADIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-GRN-DB",
@@ -3836,8 +3802,6 @@
         "WOUNDS": 8,
         "keywords": "BLOODED, CHAOS, BUTCHER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-BUT-PWAC",
@@ -3901,8 +3865,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, COMMSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-COM-LG",
@@ -3986,8 +3948,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, CORPSEMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-CRPS-LG",
@@ -4091,8 +4051,6 @@
         "WOUNDS": 9,
         "keywords": "BLOODED, CHAOS, ENFORCER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-ENF-BP",
@@ -4176,8 +4134,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, FLENSER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-FLN-SKB",
@@ -4241,8 +4197,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-GNR-FL",
@@ -4392,8 +4346,6 @@
         "WOUNDS": 16,
         "keywords": "BLOODED, CHAOS, OGRYN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-OGR-PMAMC",
@@ -4464,8 +4416,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, SHARPSHOOTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-SS-LL",
@@ -4559,8 +4509,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, THUG",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-THUG-HC",
@@ -4617,8 +4565,6 @@
         "WOUNDS": 9,
         "keywords": "BLOODED, CHAOS, TRENCH SWEEPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-TRS-LG",
@@ -4702,8 +4648,6 @@
         "WOUNDS": 7,
         "keywords": "BLOODED, CHAOS, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-BLD-TRP-LG",
@@ -4879,7 +4823,10 @@
     "killteamName": "Brood Brothers",
     "description": "Brood Brothers are the humans of the Genestealer Cults, who have been implanted by Genestealers and have served as hosts for their Genestealer Hybrid offspring.  \n\nMany of these Brood Brothers may be members of the local civil or military authorities, continuing to carry out their normal duties in society. They remain hidden until the cult/clan is powerful enough to completely take control of the host society. They regard and often venerate the Genestealer Patriarch as a grandfather or deity. They are especially fanatic members of the clan, motivated by intense, instinctual bonds to their Genestealer and Hybrid relatives. ",
     "composition": "A BROOD BROTHER KillTeam is composed of:\n\n- 1 BROOD BROTHER Commander operative with one of the following options:\n  - Bolt pistol, chainsword and claw\n  - Drum-fed autogun, bayonet,\n  - Laspistol, power weapon and claw=\n- 9 BROOD BROTHER operatives selected from the following list:\n  - Agitator\n  - Gunner with Flamer and bayonet (1)\n  - Gunner with Grenade Launcher and bayonet (1)\n  - Gunner with Meltagun and bayonet (1)\n  - Gunner with Plasma gun and bayonet (1)\n  - Iconward\n  - Knife Fighter\n  - Medic\n  - Sapper\n  - Sniper (1)\n  - Trooper\n  - Veteran\n  - Vox-Operator\n- 3 Brood Brother operatives selected from the following list (3):\n  - 2 Psychic Familiar operatives (Still count as one selection)\n  - Magus (Count as two selections) (2)\n  - Patriarch (Count as three selections) (2)\n  - Primus (Count as two selections) (2)\n  - Trooper\n\nOther than Trooper operatives, your kill team can only include each option on this list once.  \n\n(1) You cannot select more than three of these operatives combined.  \n\n(2) Your Kill team can only include up to one BROODCOVEN operative. If one of these operatives is selected for deployment, your Commander operative loses the Leader keyword for the battle.  \n\n(3) Up to three times, instead of selecting one of these operatives, you can select one BROOD BROTHER ploy to cost you 0CP for the battle. Note that \"count as\" selections still apply; for example, if you select a Patriarch operative, you could not do this.",
-    "archetypes": "Infiltration/Security",
+    "archetypes": [
+      "Infiltration",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "TYR-BBRO-CMDR",
@@ -4892,8 +4839,6 @@
         "WOUNDS": 8,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, LEADER, COMMANDER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-CMDR-BP",
@@ -5050,8 +4995,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, AGITATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-AGIT-SM",
@@ -5115,8 +5058,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-GNR-FL",
@@ -5266,8 +5207,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, ICONWARD",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-IW-LK",
@@ -5331,8 +5270,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, KNIFE FIGHTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-KF-PFK",
@@ -5396,8 +5333,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-MED-LG",
@@ -5501,8 +5436,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SAPPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-SAP-DC",
@@ -5593,8 +5526,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SNIPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-SNP-SNP",
@@ -5691,8 +5622,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VETERAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-VET-CSG",
@@ -5786,8 +5715,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VOX OPERATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-VOX-LG",
@@ -5871,8 +5798,6 @@
         "WOUNDS": 7,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-TRP-LG",
@@ -5949,8 +5874,6 @@
         "WOUNDS": 9,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, MAGUS",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-MAG-AP",
@@ -6061,8 +5984,6 @@
         "WOUNDS": 3,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, PSYCHIC FAMILIAR",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-FAM-C",
@@ -6133,8 +6054,6 @@
         "WOUNDS": 21,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, PATRIARCH",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-PAT-C",
@@ -6212,8 +6131,6 @@
         "WOUNDS": 9,
         "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PRIMUS",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-BBRO-PRIM-SNP",
@@ -6413,7 +6330,10 @@
     "killteamName": "Canoptek Circle",
     "description": "Canoptek Circle kill teams comprise sinister alien constructs in thrall to their Cryptek master. The emotionless and unliving Canoptek constructs overcome obstacles to a Cryptek\u2019s ambitions, whether rock and metal or the bodies of the living, while their master accesses nodes of power and data to charge the constructs\u2019 ancient abilities further.",
     "composition": "A CANOPTEK CIRCLE Killteam is composed of:\n\n- 1 CANOPTEK CIRCLE GEOMANCER operative\n- 2 CANOPTEK CIRCLE TOMB CRAWLER operatives with one of the following options (select separately for each):\n  - Twin gauss reapers; claws\n  - Transdimensional isolator; claws*\n- 1 CANOPTEK CIRCLE ACCELERATOR operative\n- 1 CANOPTEK CIRCLE REANIMATOR operative\n- 3 CANOPTEK CIRCLE WARRIOR operatives with one of the following options (select separately for each):\n  - Gauss scalpel; claws & tail\n  - Tesla caster; claws & tail\n\n*Your kill team can only include up to one transdimensional isolator. ",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "NEC-CAN-GEO",
@@ -6426,8 +6346,6 @@
         "WOUNDS": 14,
         "keywords": "CANOPTEK CIRCLE, NECRON, CANOPTEK, MACROCYTE, REANIMATOR",
         "basesize": 28,
-        "nameType": "NECRON",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-CAN-GEO-TGR",
@@ -6535,8 +6453,6 @@
         "WOUNDS": 7,
         "keywords": "CANOPTEK CIRCLE, NECRON, CANOPTEK, MACROCYTE, ACCELERATOR",
         "basesize": 28,
-        "nameType": "NECRON",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-CAN-ACC-SP",
@@ -6620,8 +6536,6 @@
         "WOUNDS": 7,
         "keywords": "CANOPTEK CIRCLE , NECRON, CANOPTEK, MACROCYTE, REANIMATOR",
         "basesize": 28,
-        "nameType": "NECRON",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-CAN-REA-AB",
@@ -6705,8 +6619,6 @@
         "WOUNDS": 7,
         "keywords": "CANOPTEK CIRCLE, NECRON, CANOPTEK, MACROCYTE, WARRIOR",
         "basesize": 28,
-        "nameType": "NECRON",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-CAN-WAR-GS",
@@ -6827,8 +6739,6 @@
         "WOUNDS": 21,
         "keywords": "CANOPTEK CIRCLE, NECRON, CANOPTEK, TOMB CRAWLER",
         "basesize": 50,
-        "nameType": "NECRON",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-CAN-TC-TDI",
@@ -7048,7 +6958,10 @@
     "killteamName": "Chaos Cult",
     "description": "Wherever bitterness and discontent fester, so does the worship of the Dark Gods take hold. Zealous bands of cultists throng to the banners of malefic powers. The most monstrous of these zealots are warped beyond recognition, sprouting chitinous claws, leathery wings and all manner of mutations with which to slaughter their enemies.",
     "composition": "A CHAOS CULT killteam is composed of:\n \n- 1 CULT DEMAGOGUE operative\n- 2 BLESSED BLADE operatives\n- 9 CHAOS DEVOTEE operatives\n- 1 ICONARCH operative\n- 1 MINDWITCH operative\n",
-    "archetypes": "Infiltration/Seek & Destroy",
+    "archetypes": [
+      "Infiltration",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-CULT-DEMA",
@@ -7061,8 +6974,6 @@
         "WOUNDS": 8,
         "keywords": "CHAOS CULT, CHAOS, LEADER, DARK COMMUNE, CULT DEMAGOGUE",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-DEMA-P",
@@ -7173,8 +7084,6 @@
         "WOUNDS": 8,
         "keywords": "CHAOS CULT, CHAOS, DARK COMMUNE, BLESSED BLADE",
         "basesize": 28,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-BLBL-CB",
@@ -7245,8 +7154,6 @@
         "WOUNDS": 8,
         "keywords": "CHAOS CULT, CHAOS, DARK COMMUNE, ICONARCH",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-ICON-BS",
@@ -7357,8 +7264,6 @@
         "WOUNDS": 8,
         "keywords": "CHAOS CULT, CHAOS, DARK COMMUNE, PSYKER, MINDWITCH",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-MW-IG",
@@ -7449,8 +7354,6 @@
         "WOUNDS": 7,
         "keywords": "CHAOS CULT, CHAOS, DEVOTEE",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-DEV-P",
@@ -7534,8 +7437,6 @@
         "WOUNDS": 7,
         "keywords": "CHAOS CULT, CHAOS, MUTANT",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-MUT-BA",
@@ -7655,8 +7556,6 @@
         "WOUNDS": 13,
         "keywords": "CHAOS CULT, CHAOS, TORMENT",
         "basesize": 32,
-        "nameType": "CULTIST",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-CULT-TOR-HM",
@@ -7875,7 +7774,10 @@
     "killteamName": "Corsair Voidscarred",
     "description": "Aeldari Corsairs or Anhrathe are bands of piratical Aeldari Outcasts. They are a constant threat to merchant shipping, though very rarely pose a threat to a major Imperial battlefleet.\n  \n  \n\nThere are many bands of so-called Corsairs scattered across the galaxy, and all are savage and deadly raiders. Outcasts from the strict confines of the Craftworlds, the Corsairs live in self-imposed exile, seeking to explore the galaxy and experience the full gamut of emotion and sensation accessible to the Eldar\u2019s sensitive psyche. ",
     "composition": "A CORSAIR VOIDSCARRED killteam is composed of:\n- 1 CORSAIR VOIDSCARRED Felarch operative with one of the following options:\n  - Shuriken rifle, shuriken pistol, power weapon\n  - Neuro Disruptor, Power weapon\n- 8 CORSAIR VOIDSCARRED operatives selected from the following list:\n  - Fate Dealer\n  - Gunner with one of the following options:\n  - Blaster (X), Shuriken pistol, fists\n    - Shredder, Shuriken pistol, fists\n  - Heavy Gunner with one of the following options:\n    - Shuriken Cannon, Shuriken pistol, fists\n    - Wraithcannon (X), Shuriken pistol, fists  \n  - Kurnathi\n  - Kurnite Hunter\n  - Shade Runner\n  - Soul Weaver\n  - Starstorm Duelist\n  - Warrior with one of the following options:\n    - Shuriken pistol, power weapon\n  - Shuriken rifle, fists  \n  - Way Seeker\n\nOther than Warrior operatives your kill team can only include each operative on this lists once.  \n\n(X) Your kill team cannot include both a blaster and a wraithcannon.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "AEL-COR-FEL",
@@ -7888,8 +7790,6 @@
         "WOUNDS": 9,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FELARCH, LEADER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-FEL-ND",
@@ -8020,8 +7920,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, GUNNER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-GNR-BL",
@@ -8131,8 +8029,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-HGNR-SCP",
@@ -8252,8 +8148,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FATE DEALER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-FD-RLR",
@@ -8367,8 +8261,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNATHI",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-KUR-SP",
@@ -8452,8 +8344,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNITE HUNTER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-HNT-FAO",
@@ -8557,8 +8447,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SOUL WEAVER, PSYKER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-SW-SP",
@@ -8642,8 +8530,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SHADE RUNNER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-SR-SP",
@@ -8747,8 +8633,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, STARSTORM DUELLIST",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-SD-FP",
@@ -8852,8 +8736,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, PSYKER, WAY SEEKER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-WS-FG",
@@ -8977,8 +8859,6 @@
         "WOUNDS": 8,
         "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, WARRIOR",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-COR-WAR-SP",
@@ -9201,7 +9081,10 @@
     "killteamName": "Death Korps",
     "description": "Grim, fatalistic and utterly uncompromising, the Death Korps of Krieg are famed for their endurance and ability to do\nbattle in the most horrific conditions. Death Korps kill teams are made up of veteran specialists who have seen more fighting that many Astra Militarum soldiers will experience in their entire lifetime.",
     "composition": "A DEATH KORPS KillTeam is composed of:\n\n- 1 DEATH KORPS WATCHMASTER operative with the following:\n  - Boltgun; bayonet  \n  Or one option from each of the following:\n  - Bolt pistol, plasma pistol or relic laspistol\n  - Chainsword or power weapon\n- 4 TROOPER operatives*\n- 9 DEATH KORPS operatives selected from the following list:\n  - BRUISER\n  - CONFIDANT with one of the following options:\n    - Boltgun or lasgun; bayonet\n    - Bolt pistol or relic laspistol; chainsword    \n  - GUNNER with bayonet and flamer\n  - GUNNER with bayonet and grenade launcher\n  - GUNNER with bayonet and meltagun\n  - GUNNER with bayonet and plasma gun\n  - MEDIC\n  - SAPPER\n  - SNIPER\n  - SPOTTER\n  - TROOPER\n  - VETERAN\n  - VOX-OPERATOR\n  - ZEALOT\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*Up to four times, instead of taking one of these TROOPER operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-DKK-WM",
@@ -9214,8 +9097,6 @@
         "WOUNDS": 8,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, LEADER, WATCHMASTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-WM-BP",
@@ -9402,8 +9283,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, BRUISER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-BRU-LG",
@@ -9473,8 +9352,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-CON-BP",
@@ -9638,8 +9515,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-GNR-FL",
@@ -9781,8 +9656,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-MDC-LG",
@@ -9859,8 +9732,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SAPPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-SAP-LG",
@@ -9957,8 +9828,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SNIPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-SNP-LL",
@@ -10048,8 +9917,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SPOTTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-SPT-LG",
@@ -10139,8 +10006,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-TRP-LG",
@@ -10210,8 +10075,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VETERAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-VET-LG",
@@ -10288,8 +10151,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-VOX-LG",
@@ -10366,8 +10227,6 @@
         "WOUNDS": 7,
         "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, ZEALOT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DKK-ZLT-LG",
@@ -10543,7 +10402,10 @@
     "killteamName": "Deathwatch",
     "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity\u2019s most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
     "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
-    "archetypes": "Seek & Destroy/Security",
+    "archetypes": [
+      "Seek & Destroy",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-DW-SGT",
@@ -10556,8 +10418,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, LEADER, WATCH SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-SGT-PP",
@@ -10658,8 +10518,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, AEGIS",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-AEG-BP",
@@ -10750,8 +10608,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, BLADEMASTER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-BLM-SIBP",
@@ -10852,8 +10708,6 @@
         "WOUNDS": 18,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, BOMBARD",
         "basesize": 40,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-BOM-BP",
@@ -10960,8 +10814,6 @@
         "WOUNDS": 18,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, BREACHER",
         "basesize": 40,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-BRC-AGL",
@@ -11088,8 +10940,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, DEMOLISHER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-DEM-BP",
@@ -11180,8 +11030,6 @@
         "WOUNDS": 13,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, DISRUPTOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-DIS-MBC",
@@ -11272,8 +11120,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GUNNER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-GNR-BP",
@@ -11380,8 +11226,6 @@
         "WOUNDS": 13,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, HEADTAKER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-HTK-SIBP",
@@ -11472,8 +11316,6 @@
         "WOUNDS": 18,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, HORDE-SLAYER",
         "basesize": 40,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-HSL-BP",
@@ -11590,8 +11432,6 @@
         "WOUNDS": 15,
         "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, MARKSMAN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-DW-MRK-SBR",
@@ -11784,7 +11624,10 @@
     "killteamName": "Elucidian Starstriders",
     "description": "Elucia Vhane is a scion of a noble mercantile dynasty. Leaving behind her family\u2019s operations in the galactic north, Vhane led her Elucidian Starstriders to the Eastern Fringe. Alongside her esoteric crew, the bold Rogue Trader seeks to eclipse the rich history of her ancestors with her own rise to glory \u2013 or die trying.",
     "composition": "Note that you do not select your operatives from a list.\nThis kill team\u2019s operatives are specified.\n\nAn ELUCIDIAN STARSTRIDERS killteam is composed of every ELUCIDIAN STARSTRIDER operative in the following list:\n\n- 1 ELUCIA VHANE\n- 1 CANID\n- 1 DEATH CULT EXECUTIONER\n- 1 LECTRO-MAESTER\n- 1 REJUVENAT ADEPT\n- 1 VOIDMASTER\n- 3 VOIDSMAN with lasgun and gun butt\n- 1 VOIDSMAN with rotor cannon and gun butt\n",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-ESS-EV",
@@ -11797,8 +11640,6 @@
         "WOUNDS": 8,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, LEADER, ELUCIA VHANE",
         "basesize": 32,
-        "nameType": "Elucia Vhane",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-EV-HRP",
@@ -11903,8 +11744,6 @@
         "WOUNDS": 7,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, CANID",
         "basesize": 32,
-        "nameType": "Aximillion",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-CAN-VB",
@@ -11975,8 +11814,6 @@
         "WOUNDS": 8,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, DEATH CULT EXECUTIONER",
         "basesize": 32,
-        "nameType": "Knosso Prond",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-DCE-DM",
@@ -12067,8 +11904,6 @@
         "WOUNDS": 8,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, LECTRO-MAESTER",
         "basesize": 32,
-        "nameType": "Larsen van der Gauss",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-LM-VP",
@@ -12152,8 +11987,6 @@
         "WOUNDS": 8,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, MEDIC, REJUVENAT ADEPT",
         "basesize": 32,
-        "nameType": "Sanistasia Minst",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-REJAD-LP",
@@ -12237,8 +12070,6 @@
         "WOUNDS": 8,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, NAVIS, VOIDMASTER",
         "basesize": 32,
-        "nameType": "Voidmaster Nitsch",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-VMST-ASG",
@@ -12359,8 +12190,6 @@
         "WOUNDS": 7,
         "keywords": "ELUCIDIAN STARSTRIDER, IMPERIUM, NAVIS, VOIDSMAN",
         "basesize": 32,
-        "nameType": "Stromian Grell",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-ESS-VM-LG",
@@ -12566,7 +12395,10 @@
     "killteamName": "Exaction Squad",
     "description": "It is the responsibility of the Adeptus Arbites to enforce Imperial law. Exaction Squads are formed from the most\nhighly skilled and experienced Arbitrators. They are tasked with hunting down and securing the most heinous of\ncriminals, returning them alive to face the full extent of the Emperor\u2019s justice.",
     "composition": "An EXACTION SQUAD KillTeam is composed of:\n\n- 1 EXACTION SQUAD PROCTOR-EXACTANT operative with one of the following options:\n  - Combat shotgun; repression baton\n  - Shotpistol; dominator maul & assault shield\n- 10 EXACTION SQUAD operatives selected from the following list:\n  - CASTIGATOR\n  - CHIRURGANT\n  - LEASHMASTER\n  - R-VR CYBER-MASTIFF\n  - MALOCATOR\n  - MARKSMAN\n  - REVELATUM\n  - SUBDUCTOR\n  - VIGILANT\n  - VOX-SIGNIFIER\n  - GUNNER with one of the following options:\n    - Grenade launcher; repression baton\n    - Heavy stubber; repression baton\n    - Webber; repression baton\n        \n\n  \n\nOther than GUNNER, SUBDUCTOR and VIGILANT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives (each must have a different option) and up to four SUBDUCTOR operatives.",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-AES-PE",
@@ -12579,8 +12411,6 @@
         "WOUNDS": 9,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, LEADER, ARBITES, PROCTOR-EXACTANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-PE-CS",
@@ -12735,8 +12565,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, CASTIGATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-CAST-CS",
@@ -12844,8 +12672,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, MEDIC, ARBITES, CHIRURGANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-CHI-CS",
@@ -12946,8 +12772,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-GNR-GL",
@@ -13074,8 +12898,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, LEASHMASTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-LSH-CS",
@@ -13203,8 +13025,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, R-VR CYBER-MASTIFF",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-RVR-MB",
@@ -13275,8 +13095,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, MALOCATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-MAL-CS",
@@ -13377,8 +13195,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, MARKSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-MRK-ESG",
@@ -13489,8 +13305,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, REVELATUM",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-REV-SSP",
@@ -13591,8 +13405,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, SUBDUCTOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-SUB-SP",
@@ -13683,8 +13495,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, VIGILANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-VIG-CS",
@@ -13778,8 +13588,6 @@
         "WOUNDS": 8,
         "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, VOX-SIGNIFIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-AES-VOX-CS",
@@ -13972,7 +13780,10 @@
     "killteamName": "Farstalker Kinband",
     "description": "Farstalker Kinbands operate as scouts for the Kroot species. They range far and wide throughout the galaxy, seeking new and valuable genetic material to return to their Shapers. Farstalker Kinbands contain expert trackers, hunters and guerrilla fighters who are capable of matching far more technologically advanced foes.",
     "composition": "A FARSTALKER KINBAND killteam is composed of:\n\n- 1 FARSTALKER KINBAND KILL-BROKER operative with one of the following options:\n  - Kroot rifle; ritual blade\n  - Pulse weapon; ritual blade\n- 11 FARSTALKER KINBAND operatives selected from the following list:\n  - BOW-HUNTER\n  - COLD-BLOOD\n  - CUT-SKIN\n  - HOUND\n  - LONG-SIGHT\n  - PISTOLIER\n  - STALKER\n  - TRACKER\n  - HEAVY GUNNER with one of the following options:\n    - Dvorgite skinner; blade\n    - Londaxi tribalest; blade    \n  - WARRIOR with one of the following options:\n    - Kroot rifle; blade\n    - Kroot scattergun; blade\n        \nOther than HOUND and WARRIOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two HOUND operatives.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "TAU-FSKB-KB",
@@ -13985,8 +13796,6 @@
         "WOUNDS": 9,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, LEADER, KROOT, KILL-BROKER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-KB-KR",
@@ -14090,8 +13899,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, BOW-HUNTER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-BH-AB",
@@ -14188,8 +13995,6 @@
         "WOUNDS": 9,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, COLD-BLOOD",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-CB-KR",
@@ -14273,8 +14078,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, CUT-SKIN",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-CS-CSB",
@@ -14338,8 +14141,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-HGNR-DV",
@@ -14429,8 +14230,6 @@
         "WOUNDS": 7,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, HOUND",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-HND-RF",
@@ -14501,8 +14300,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, LONG-SIGHT",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-LS-KHR",
@@ -14606,8 +14403,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, PISTOLIER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-PST-DKP",
@@ -14701,8 +14496,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, STALKER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-STK-KSG",
@@ -14786,8 +14579,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, TRACKER",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-TRK-KR",
@@ -14871,8 +14662,6 @@
         "WOUNDS": 8,
         "keywords": "FARSTALKER KINBAND, T\u2019AU EMPIRE, KROOT, WARRIOR",
         "basesize": 32,
-        "nameType": "KROOT",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-FSKB-WAR-KR",
@@ -15068,7 +14857,10 @@
     "killteamName": "Fellgor Ravagers",
     "description": "Of all the mutant Beastmen in thrall to the Dark Gods, Fellgor Ravagers believe themselves the greatest and most powerful.\nThey stalk space hulks, underhives and warp-tainted ruins, using their keen senses to track unsuspecting prey through the darkness before striking and butchering their foes with savage glee.",
     "composition": "A FELLGOR RAVAGERS KillTeam is composed of:\n\n- 1 FELLGOR RAVAGER IRONHORN operative with one of the following options:\n  - Corrupted pistol; corrupted chainsword\n  - Plasma pistol; bludgeon\n- 9 FELLGOR RAVAGER operatives selected from the following list:\n  - DEATHKNELL\n  - FLUXBRAY\n  - GNARLSCAR\n  - GOREHORN\n  - HERD-GOAD\n  - MANGLER\n  - SHAMAN\n  - TOXHORN\n  - VANDAL\n  - WARRIOR with one of the following options:\n    - Autopistol; bludgeon\n    - Autopistol; cleaver\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Recon/Seek & Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-FELL-IH",
@@ -15081,8 +14873,6 @@
         "WOUNDS": 11,
         "keywords": "FELLGOR RAVAGER, CHAOS, LEADER, IRONHORN",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-IH-CP",
@@ -15209,8 +14999,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, DEATHKNELL",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-DK-AP",
@@ -15301,8 +15089,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, FLUXBRAY",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-FB-3C",
@@ -15366,8 +15152,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, GNARLSCAR",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-GS-AP",
@@ -15451,8 +15235,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, GOREHORN",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-GH-AP",
@@ -15536,8 +15318,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, HERD-GOAD",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-HG-AP",
@@ -15641,8 +15421,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, MANGLER",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-MNG-VC",
@@ -15713,8 +15491,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, SHAMAN",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-SHA-AP",
@@ -15818,8 +15594,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, TOXHORN",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-TOX-AP",
@@ -15903,8 +15677,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, VANDAL",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-VND-MC",
@@ -15968,8 +15740,6 @@
         "WOUNDS": 10,
         "keywords": "FELLGOR RAVAGER, CHAOS, WARRIOR",
         "basesize": 32,
-        "nameType": "BEASTMAN",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-FELL-WAR-AP",
@@ -16165,7 +15935,10 @@
     "killteamName": "Gellerpox Infected",
     "description": "Corrupted by a gruesome techno-organic affliction, the Gellerpox Infected are nightmarish meldings of flesh,\nmachinery and rampant disease. Most of these hideous beings began as loyal servants of the God-Emperor. Those\norigins are long gone, however, wiped away by supernatural sickness and a compulsion to spread their infection\nacross the stars.",
     "composition": "Note that other than MUTOID VERMIN, you do not select your operatives from a list.  \n\nThis kill team\u2019s operatives are specified.  \n\nA GELLERPOX INFECTED killteam is composed of every GELLERPOX INFECTED operative in the following list:\n\n- 1 GELLERPOX INFECTED VULGRAR THRICE-CURSED\n- 1 GELLERPOX INFECTED BLOATSPAWN\n- 1 GELLERPOX INFECTED FLESHSCREAMER\n- 1 GELLERPOX INFECTED LUMBERGHAST\n- 4 GELLERPOX INFECTED GLITCHLING\n- 1 GELLERPOX INFECTED MUTANT with frag grenade and heavy axe\n- 2 GELLERPOX INFECTED MUTANT with frag grenade and improvised weapon\n\nIf you selected the Mutoid Vermin faction equipment:  \n\nSpecified number of GELLERPOX INFECTED operatives selected from the following list:\n\n- CURSEMITE\n- EYESTINGER SWARM\n- SLUDGE-GRUB\n",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-GPI-VTC",
@@ -16178,8 +15951,6 @@
         "WOUNDS": 21,
         "keywords": "GELLERPOX INFECTED, CHAOS, NIGHTMARE HULK, LEADER, VULGRAR THRICE-CURSED",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-VTC-PG",
@@ -16312,8 +16083,6 @@
         "WOUNDS": 20,
         "keywords": "GELLERPOX INFECTED, CHAOS, NIGHTMARE HULK,  BLOATSPAWN",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-BS-MT",
@@ -16446,8 +16215,6 @@
         "WOUNDS": 20,
         "keywords": "GELLERPOX INFECTED, CHAOS, NIGHTMARE HULK,  FLESHSCREAMER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-FS-MFC",
@@ -16553,8 +16320,6 @@
         "WOUNDS": 20,
         "keywords": "GELLERPOX INFECTED, CHAOS, NIGHTMARE HULK,  LUMBERGHAST",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-LG-MC",
@@ -16650,8 +16415,6 @@
         "WOUNDS": 7,
         "keywords": "GELLERPOX INFECTED, CHAOS, GELLERPOX MUTANT",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-GM-HA",
@@ -16787,8 +16550,6 @@
         "WOUNDS": 3,
         "keywords": "GELLERPOX INFECTED, CHAOS, GLITCHLING",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-GL-DE",
@@ -16904,8 +16665,6 @@
         "WOUNDS": 2,
         "keywords": "GELLERPOX INFECTED, CHAOS, MUTOID VERMIN, FLY, CURSEMITE",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-CM-BSP",
@@ -16994,8 +16753,6 @@
         "WOUNDS": 2,
         "keywords": "GELLERPOX INFECTED, CHAOS, MUTOID VERMIN, FLY, EYESTINGER SWARM",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-ESS-SW",
@@ -17097,8 +16854,6 @@
         "WOUNDS": 2,
         "keywords": "GELLERPOX INFECTED, CHAOS, MUTOID VERMIN, SLUDGE-GRUB",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GPI-SG-AS",
@@ -17306,7 +17061,10 @@
     "killteamName": "Goremongers",
     "description": "Goremongers are among the most lucid and reliable of Khorne\u2019s troops, pumping a constant flow of combat stimms mixed with drops of their masters\u2019 blood into their systems while still retaining a modicum of cunning and level-headedness. The first thing they do is to cut off their own legs and graft on a new mechanical pair that brings them closer to the ideal physical form, armed with blood letting chainweapons and ritual daggers..",
     "composition": "A GOREMONGER kill team is composed of:\n\n- 1 GOREMONGER BLOOD HERALD\n- 7 GOREMONGER operatives selected from the following list:\n  - ASPIRANT\n  - BLOODTAKER\n  - IMPALER\n  - INCITER\n  - SKULLCLAIMER\n  - STALKER\n\nOther than ASPIRANT operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Recon/Seek & Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-GORE-BH",
@@ -17319,8 +17077,6 @@
         "WOUNDS": 11,
         "keywords": "GOREMONGER, CHAOS, LEADER, BLOOD HERALD",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-BH-IOK",
@@ -17418,8 +17174,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, ASPIRANT",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-ASP-AP",
@@ -17510,8 +17264,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, BLOODTAKER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-BT-AP",
@@ -17609,8 +17361,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, IMPALER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-IMP-AP",
@@ -17728,8 +17478,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, INCITER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-INC-DAPR",
@@ -17827,8 +17575,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, SKULLCLAIMER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-SC-AP",
@@ -17926,8 +17672,6 @@
         "WOUNDS": 10,
         "keywords": "GOREMONGER, CHAOS, STALKER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-GORE-ST-AP",
@@ -18124,7 +17868,10 @@
     "killteamName": "Hand Of The Archon",
     "description": "The Archons of the Drukhari Kabals are forever plotting to expand their sprawling criminal empires. Should their\nschemes require a subtle touch, they may turn to Hand of the Archon kill teams. These bands of assassins, thieves,\ntorturers and worse wield an array of esoteric and macabre weapons to aid them in their diabolical missions.",
     "composition": "A HAND OF THE ARCHON KillTeam is composed of:\n\n- 1 HAND OF THE ARCHON ARCHSYBARITE operative with one of the following options:\n  - Blast pistol; venom blade\n  - Splinter pistol; venom blade\n  - Splinter pistol; agoniser\n  - Splinter pistol; power weapon\n  - Splinter rifle; array of blades\n- 8 HAND OF THE ARCHON operatives selected from the following list:\n  - AGENT\n  - CRIMSON DUELLIST\n  - DISCIPLE OF YAELINDRA\n  - ELIXICANT\n  - FLAYER\n  - GUNNER with one of the following options:\n    - Blaster; array of blades\n    - Shredder; array of blades\n  - HEAVY GUNNER with one of the following options:\n    - Dark lance; array of blades\n    - Splinter cannon; array of blades\n  - SKYSPLINTER ASSASSIN\n\nOther than AGENT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two darklight weapons (blast pistol, blaster and dark lance are darklight weapons).",
-    "archetypes": "Recon/Seek and Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek and Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "AEL-HOTA-KAS",
@@ -18137,8 +17884,6 @@
         "WOUNDS": 9,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, LEADER, ARCHSYBARITE",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KAS-BP",
@@ -18322,8 +18067,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, AGENT",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KAG-SR",
@@ -18407,8 +18150,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, CRIMSON DUELLIST",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KCD-SP",
@@ -18499,8 +18240,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, DISCIPLE OF YAELINDRA",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KDOY-SP",
@@ -18584,8 +18323,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, ELIXICANT",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KELX-SR",
@@ -18696,8 +18433,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, FLAYER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KFLAY-PS",
@@ -18761,8 +18496,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, GUNNER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KGNR-BL",
@@ -18852,8 +18585,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KHGNR-DL",
@@ -18953,8 +18684,6 @@
         "WOUNDS": 8,
         "keywords": "HAND OF THE ARCHON, AELDARI, DRUKHARI, SKYSPLINTER ASSASSIN",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-HOTA-KSA-RW",
@@ -19164,7 +18893,10 @@
     "killteamName": "Hearthkyn Salvagers",
     "description": "Highly adept warriors and explorers of wrecked voidships and abandoned space stations, Hearthkyn Salvagers are tasked with identifying valuable material and marking it for later retrieval.\nHeavily armed and utterly resolute, Hearthkyn Salvager kill teams seize and defend such claims with the steadfast determination typical of the Kin.",
     "composition": "A HEARTHKYN SALVAGERS KillTeam is composed of:\n\n- 1 HEARTHKYN SALVAGER THEYN operative with one option from each of the following:\n  - Autoch-pattern bolt pistol, Autoch-pattern bolter, bolt revolver, EtaCarn plasma pistol, ion blaster or ion pistol\n  - Concussion gauntlet or plasma weapon\n- 9 HEARTHKYN SALVAGER operatives selected from the following list:\n  - D\u00d4ZR\n  - FIELD MEDIC\n  - GRENADIER\n  - JUMP PACK WARRIOR\n  - KINLYNK*\n  - KOGNIT\u00c2AR*\n  - LOK\u00c2TR*\n  - LUGGER*\n  - WARRIOR*\n  - GUNNER with one of the following options:\n    - EtaCarn plasma beamer; fists\n    - HYLas auto rifle; fists\n    - HYLas rotary cannon; fists\n    - L7 missile launcher; fists\n    - Magna rail rifle; fists\n\nOther than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to three GUNNER operatives (each must have a different option).\n\n*With one of the following options:\n\n- Autoch-pattern bolter; fists\n- Ion blaster; fists\n",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "VOT-HKS-TH",
@@ -19177,8 +18909,6 @@
         "WOUNDS": 9,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, LEADER, THEYN",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-TH-APBP",
@@ -19382,8 +19112,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, DOZR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-DO-APBP",
@@ -19467,8 +19195,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, MEDIC, FIELD MEDIC",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-MDC-BR",
@@ -19552,8 +19278,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, GRENADIER",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-GRN-APBP",
@@ -19711,8 +19435,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, GUNNER",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-GNR-ECPB",
@@ -19889,8 +19611,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, FLY, JUMP PACK WARRIOR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-JMP-APBP",
@@ -19974,8 +19694,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, KINLYNK",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-KL-APB",
@@ -20079,8 +19797,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, KOGNITAAR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-KOG-APB",
@@ -20184,8 +19900,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, LOKATR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-LOK-APB",
@@ -20289,8 +20003,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, LUGGER",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-LUG-APB",
@@ -20394,8 +20106,6 @@
         "WOUNDS": 8,
         "keywords": "HEARTHKYN SALVAGER, VOTANN, WARRIOR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKS-WAR-APBP",
@@ -20591,7 +20301,10 @@
     "killteamName": "Hernkyn Yaegirs",
     "description": "The Hernkyn are those Kin who serve as the Leagues of Votann's explorers, scouts, prospectors and pioneers. To the Kin, any region of blank space upon their star charts is a mystery in need of solving. The desire to plumb the depths of the void, to discover its secrets and claim its riches is deeply ingrained in their psyche, as is the need to know what -- if any -- sources of peril might lurk amidst the shadows. ",
     "composition": "A HERNKYN YAEGIR killteam is composed of:\n\n- 1 HERNKYN YAEGIR Theyn operative\n- 9 HERNKYN YAEGIR operatives selected from the following list:\n  - Bladekyn\n  - Bombast\n  - Gunner\n  - Ironbreak\n  - Riflekyn\n  - Tracker\n  - Warrior with one of the following options:\n    - Bolt Revolver, plasma knife\n    - Bolt Shotgun, Fists\nOther than Warrior operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Infiltration/Seek & Destroy",
+    "archetypes": [
+      "Infiltration",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "VOT-HKY-THEYN",
@@ -20604,8 +20317,6 @@
         "WOUNDS": 9,
         "keywords": "HERNKYN YAEGIR, VOTANN, LEADER, THEYN",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-THEYN-BR",
@@ -20726,8 +20437,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, BLADEKYN",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-BLD-TPK",
@@ -20818,8 +20527,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, BOMBAST",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-BOMB-WLR",
@@ -20910,8 +20617,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, GUNNER",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-GNR-APM",
@@ -21015,8 +20720,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, IRONBRAEK",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-IRN-BR",
@@ -21107,8 +20810,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, RIFLEKYN",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-RFL-MCR",
@@ -21219,8 +20920,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, TRACKER",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-TRK-SINR",
@@ -21331,8 +21030,6 @@
         "WOUNDS": 8,
         "keywords": "HERNKYN YAEGIR, VOTANN, WARRIOR",
         "basesize": 32,
-        "nameType": "BEARAXE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "VOT-HKY-WAR-BR",
@@ -21565,7 +21262,10 @@
     "killteamName": "Hierotek Circle",
     "description": "Led by ambitious and devious Crypteks, Hierotek Circles employ Necron soldiery and unique Canoptek constructs\nto further the rise of their own dynasties. They achieve this by learning of their lords\u2019 enemies and undermining the\npower of these rivals through artifice, sabotage, theft and murder.",
     "composition": "A HIEROTEK CIRCLE KillTeam is composed of:\n\n- 1 HIEROTEK CIRCLE operative selected from the following list:\n  - CHRONOMANCER operative with one of the following options:\n    - Aeonstave\n    - Entropic lance\n  - PSYCHOMANCER\n  - TECHNOMANCER\n- 1 PLASMACYTE ACCELERATOR operative\n- 1 PLASMACYTE REANIMATOR operative\n- 5 HIEROTEK CIRCLE operatives selected from the following list:\n  - APPRENTEK\n  - DEATHMARK\n  - DESPOTEK with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet    \n  - GUARDIAN with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet\n        \nOther than DEATHMARK and GUARDIAN operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "NEC-HIER-CHRON",
@@ -21578,8 +21278,6 @@
         "WOUNDS": 14,
         "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, CHRONOMANCER",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-CHRON-ASR",
@@ -21731,8 +21429,6 @@
         "WOUNDS": 14,
         "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, PSYCHOMANCER",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-PSYCH-ALR",
@@ -21844,8 +21540,6 @@
         "WOUNDS": 14,
         "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, TECHNOMANCER",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-TECH-SOLR",
@@ -21957,8 +21651,6 @@
         "WOUNDS": 5,
         "keywords": "HIEROTEK CIRCLE, NECRON, PLASMACYTE, ACCELERATOR",
         "basesize": 32,
-        "nameType": "Accelerator",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-PA-SP",
@@ -22049,8 +21741,6 @@
         "WOUNDS": 5,
         "keywords": "HIEROTEK CIRCLE, NECRON, MEDIC, PLASMACYTE, REANIMATOR",
         "basesize": 32,
-        "nameType": "Reanimator",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-PR-AB",
@@ -22141,8 +21831,6 @@
         "WOUNDS": 11,
         "keywords": "HIEROTEK CIRCLE, NECRON, APPRENTEK",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-APP-ACR",
@@ -22233,8 +21921,6 @@
         "WOUNDS": 10,
         "keywords": "HIEROTEK CIRCLE, NECRON, DEATHMARK",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-DM-SD",
@@ -22325,8 +22011,6 @@
         "WOUNDS": 11,
         "keywords": "HIEROTEK CIRCLE, NECRON, IMMORTAL, DESPOTEK",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-ID-GB",
@@ -22437,8 +22121,6 @@
         "WOUNDS": 10,
         "keywords": "HIEROTEK CIRCLE, NECRON, IMMORTAL, GUARDIAN",
         "basesize": 32,
-        "nameType": "NECRON,HIEROTEK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "NEC-HIER-IG-GB",
@@ -22641,7 +22323,10 @@
     "killteamName": "Hunter Clade",
     "description": "To the techno-zealots of the Adeptus Mechanicus, the galaxy is a complex mechanism, its workings the creation of\ntheir Machine God. They see the acquisition of knowledge as holy work, and task their cybernetically altered servants\nwith carrying it out, no matter the cost.",
     "composition": "A HUNTER CLADE killteam is composed of:\r \r - 1 HUNTER CLADE operative selected from the following list:\r   - SICARIAN INFILTRATOR PRINCEPS with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER PRINCEPS\r   - SKITARII RANGER ALPHA with one of the following options:\r     - Galvanic rifle; gun butt\r       - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r   - SKITARII VANGUARD ALPHA with one of the following options:\r     - Radium carbine; gun butt\r     - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r - 9 HUNTER CLADE operatives selected from the following list:\r   - SICARIAN INFILTRATOR WARRIOR* with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER WARRIOR* with one of the following options:\r     - Chordclaw & transonic razor\r     - Transonic blades\r   - SKITARII RANGER DIKTAT\r   - SKITARII RANGER GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus\r   - SKITARII RANGER SURVEYOR\r   - SKITARII RANGER WARRIOR\r   - SKITARII VANGUARD DIKTAT\r   - SKITARII VANGUARD GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus    \r   - SKITARII VANGUARD SURVEYOR\r   - SKITARII VANGUARD WARRIOR\r \r \r *You cannot select more than 7 of these operatives combined.  \r \r Other than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.\r Your kill team can only include up to one DIKTAT operative, up to one SURVEYOR operative and up to five SICARIAN operatives.  \r \r Your kill team can only include up to one arc rifle, up to one plasma caliver and up to one transuranic arquebus.",
-    "archetypes": "Recon/Seek & Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-HC-SRSP",
@@ -22654,8 +22339,6 @@
         "WOUNDS": 11,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, RUSTSTALKER, PRINCEPS",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRSP-CCATB",
@@ -22726,8 +22409,6 @@
         "WOUNDS": 11,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, INFILTRATOR, PRINCEPS",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SIP-FB",
@@ -22851,8 +22532,6 @@
         "WOUNDS": 8,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, RANGER, ALPHA",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRGA-AP",
@@ -23063,8 +22742,6 @@
         "WOUNDS": 8,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, VANGUARD, ALPHA",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SVA-AP",
@@ -23275,8 +22952,6 @@
         "WOUNDS": 10,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, INFILTRATOR, WARRIOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SIW-FB",
@@ -23386,8 +23061,6 @@
         "WOUNDS": 10,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, RUSTSTALKER, WARRIOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRSW-CCATB",
@@ -23464,8 +23137,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, DIKTAT",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRGD-GR",
@@ -23549,8 +23220,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, GUNNER",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRGG-AR",
@@ -23687,8 +23356,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, SURVEYOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRGS-GR",
@@ -23772,8 +23439,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, WARRIOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SRGW-GR",
@@ -23850,8 +23515,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, DIKTAT",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SVD-RC",
@@ -23935,8 +23598,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, GUNNER",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SVG-AR",
@@ -24073,8 +23734,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, SURVEYOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SVS-RC",
@@ -24158,8 +23817,6 @@
         "WOUNDS": 7,
         "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, WARRIOR",
         "basesize": 32,
-        "nameType": "ADMECH",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-HC-SVW-RC",
@@ -24335,7 +23992,10 @@
     "killteamName": "Imperial Navy Breachers",
     "description": "Counted amongst the complement of many Navis Imperialis vessels, Navy Breachers are elite Voidsmen who are outfitted, trained and endlessly drilled in boarding actions and void-based combat. Wielding a wide array of cutting gear, boarding shields and close-range weapons, they are well-suited to deadly combat in close confines.",
     "composition": "An IMPERIAL NAVY BREACHERS killteam is composed of:\n- 1 IMPERIAL NAVY BREACHER SERGEANT-AT-ARMS operative with the following:  \n  - Navis shotgun and Navis hatchet  \n  Or one option from each of the following:  \n  - Bolt pistol or heirloom autopistol\n  - Chainsword or power weapon\n- 10 IMPERIAL NAVY BREACHER operatives selected from the following list:\n  - ARMSMAN\n  - AXEJACK\n  - C.A.T. UNIT\n  - ENDURANT\n  - GHEISTSKULL\n  - GRENADIER\n  - GUNNER with Navis las-volley and gun butt\n  - GUNNER with meltagun and gun butt\n  - GUNNER with plasma gun and gun butt\n  - HATCHCUTTER\n  - SURVEYOR\n  - VOID-JAMMER\n\nOther than ARMSMAN operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two GUNNER operatives.  \n\nYour kill team can only include a GHEISTSKULL operative if it also includes a VOID-JAMMER operative, and it can only include a C.A.T. UNIT operative if it also includes a SURVEYOR operative.  \n\nThese operatives count as half a selection each, meaning you can select both of them and it\u2019s treated as one selection in total.",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-INB-SGT",
@@ -24348,8 +24008,6 @@
         "WOUNDS": 9,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, LEADER, NAVIS, SERGEANT-AT-ARMS",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-SGT-BP",
@@ -24523,8 +24181,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-ARM-NS",
@@ -24618,8 +24274,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-AXE-AP",
@@ -24703,8 +24357,6 @@
         "WOUNDS": 5,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [],
         "abilities": [
           {
@@ -24761,8 +24413,6 @@
         "WOUNDS": 11,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-END-NHS",
@@ -24870,8 +24520,6 @@
         "WOUNDS": 5,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [],
         "abilities": [
           {
@@ -24928,8 +24576,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-GRN-DC",
@@ -25083,8 +24729,6 @@
         "WOUNDS": 9,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-GNR-MG",
@@ -25221,8 +24865,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-HC-AP",
@@ -25313,8 +24955,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-SRV-NS",
@@ -25415,8 +25055,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INB-VJ-GD",
@@ -25636,7 +25274,12 @@
     "killteamName": "Inquisitorial Agents",
     "description": "The reach of the Inquisition extends across the vastness of the Imperium. Inquisitorial kill teams bring together agents from all strata of Imperial society, from elite soldiers to zealous priests. Together, these disparate elements combine their skills to deadly effect, enabling them to root out and destroy heretics, aliens and the servants of Chaos.",
     "composition": "An INQUISITORIAL AGENTS killteam is composed of:\n\n- 1 INQUISITORIAL AGENT INTERROGATOR operative\n- 1 INQUISITORIAL AGENT TOME-SKULL operative\n- 5 INQUISITORIAL AGENT operatives selected from the following list:\n  - AUTOSAVANT\n  - QUESTKEEPER\n  - DEATH WORLD VETERAN\n  - ENLIGHTENER\n  - HEXORCIST\n  - MYSTIC\n  - PENAL LEGIONNAIRE\n  - PISTOLIER\n  - GUN SERVITOR with one of the following options:\n    - Heavy bolter; servo-claw\n    - Multi-melta; servo-claw\n    - Plasma cannon; servo-claw\n- 5 INQUISITORIAL AGENT operatives selected from the list above, or REQUISITIONED operatives from one group in the Inquisitorial Requisition faction rule (you cannot select REQUISITIONED operatives from different groups).\n  \nYour kill team can only include each operative on this list once, unless you\u2019re not including any REQUISITIONED operatives, in which case you can include up to two GUN SERVITOR operatives, but each one must have different options.  \n\nYour kill team (including any REQUISITIONED operatives) cannot include more than one weapon with the Piercing 2 weapon rule, and cannot include more than three weapons with the Piercing X (excluding Piercing Crits X) weapon rule combined.",
-    "archetypes": "Recon/Security/Seek & Destroy/Infiltration",
+    "archetypes": [
+      "Recon",
+      "Security",
+      "Seek & Destroy",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-INQ-INQ24-INT",
@@ -25649,8 +25292,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, LEADER, INTERROGATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-INT-ESAP",
@@ -25720,8 +25361,6 @@
         "WOUNDS": 5,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, TOME-SKULL",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [],
         "abilities": [
           {
@@ -25771,8 +25410,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, AUTOSAVANT",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-AS-MA",
@@ -25836,8 +25473,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, QUESTKEEPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-QK-AP",
@@ -25914,8 +25549,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, DEATH WORLD VETERAN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-VET-AP",
@@ -26012,8 +25645,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, ENLIGHTENER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-ENL-AP",
@@ -26090,8 +25721,6 @@
         "WOUNDS": 11,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, GUN SERVITOR",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-GUNS-HB",
@@ -26221,8 +25850,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, HEXORCIST",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-HEX-SG",
@@ -26299,8 +25926,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, MYSTIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-MYS-AP",
@@ -26384,8 +26009,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PENAL LEGIONNAIRE",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-PEN-HF",
@@ -26462,8 +26085,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PISTOLIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ24-PST-SPP",
@@ -26570,8 +26191,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, PROSECUTOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-SOS24-SOSPRO-BG",
@@ -26641,8 +26260,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, VIGILATOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-SOS24-SOSVIG-EGB",
@@ -26692,8 +26309,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, WITCHSEEKER",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-SOS24-SOSWSK-FL",
@@ -26763,8 +26378,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, BRUISER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-BRU-LG",
@@ -26834,8 +26447,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-CON-BP",
@@ -26985,8 +26596,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-GNR-FL",
@@ -27128,8 +26737,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-MDC-LG",
@@ -27206,8 +26813,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SAPPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-SAP-LG",
@@ -27304,8 +26909,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SNIPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
@@ -27395,8 +26998,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-TRP-LG",
@@ -27466,8 +27067,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VETERAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-VET-LG",
@@ -27544,8 +27143,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-VOX-LG",
@@ -27622,8 +27219,6 @@
         "WOUNDS": 7,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, ZEALOT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-DKK24-ZLT-LG",
@@ -27700,8 +27295,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, COMMS",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-TS24-TSVOX-HSLG",
@@ -27771,8 +27364,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-TS24-TSGUN-FL",
@@ -27944,8 +27535,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-TS24-TSMED-HSLG",
@@ -28022,8 +27611,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-TS24-TSTRP-HSLG",
@@ -28093,8 +27680,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, CASTIGATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-CAST-CS",
@@ -28195,8 +27780,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, MEDIC, ARBITES, CHIRURGANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-CHI-CS",
@@ -28290,8 +27873,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-GNR-GL",
@@ -28411,8 +27992,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, LEASHMASTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-LSH-CS",
@@ -28513,8 +28092,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, R-VR CYBER-MASTIFF",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-RVR-MB",
@@ -28578,8 +28155,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MALOCATOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-MAL-CS",
@@ -28673,8 +28248,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MARKSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
@@ -28778,8 +28351,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, REVELATUM",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-REV-SSP",
@@ -28873,8 +28444,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, SUBDUCTOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-SUB-SP",
@@ -28958,8 +28527,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VIGILANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-VIG-CS",
@@ -29046,8 +28613,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VOX-SIGNIFIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-AES24-VOX-CS",
@@ -29134,8 +28699,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-ARM-NS",
@@ -29222,8 +28785,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-AXE-AP",
@@ -29300,8 +28861,6 @@
         "WOUNDS": 5,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [],
         "abilities": [
           {
@@ -29351,8 +28910,6 @@
         "WOUNDS": 10,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-END-NHS",
@@ -29453,8 +29010,6 @@
         "WOUNDS": 5,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [],
         "abilities": [
           {
@@ -29504,8 +29059,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-GRN-DC",
@@ -29652,8 +29205,6 @@
         "WOUNDS": 8,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-GNR-MG",
@@ -29783,8 +29334,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-HC-AP",
@@ -29868,8 +29417,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-SRV-NS",
@@ -29963,8 +29510,6 @@
         "WOUNDS": 7,
         "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-INB24-VJ-GD",
@@ -30078,8 +29623,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC, COMBAT MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-MDC-HSLG",
@@ -30156,8 +29699,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, DEMO-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-DT-HSLP",
@@ -30241,8 +29782,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-GNR-FL",
@@ -30414,8 +29953,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, RECON-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-RT-HSLG",
@@ -30485,8 +30022,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SHARPSHOOTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
@@ -30583,8 +30118,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-TRP-HSLG",
@@ -30654,8 +30187,6 @@
         "WOUNDS": 8,
         "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-INQ-INQ-KAS24-VOX-HSLG",
@@ -30824,7 +30355,10 @@
     "killteamName": "Kasrkin",
     "description": "Amongst Cadia's most elite warriors, the Kasrkin are trained from birth in the art of war.\nClad in carapace armour and bearing a wide range of specialist wargear, they are the special forces of the Cadian regiments, tasked with completing nigh impossible missions in the defence and furtherance of the Imperial cause.",
     "composition": "A KASRKIN KillTeam is composed of:\n\n- 1 KASRKIN SERGEANT operative with one of the following options:\n  - Bolt pistol; power weapon\n  - Hot-shot lasgun; gun butt\n  - Hot-shot laspistol; power weapon\n  - Plasma pistol; chainsword\n- 9 KASRKIN operatives selected from the following list:\n  - COMBAT MEDIC\n  - DEMO-TROOPER\n  - GUNNER with flamer and gun butt*\n  - GUNNER with grenade launcher and gun butt*\n  - GUNNER with hot-shot volley gun and gun butt*\n  - GUNNER with meltagun and gun butt*\n  - GUNNER with plasma gun and gun butt*\n  - RECON-TROOPER\n  - SHARPSHOOTER*\n  - TROOPER\n  - VOX-TROOPER\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*You cannot select more than four of these operatives combined.  \n\nSome KASRKIN rules refer to a \u2018hot-shot weapon\u2019. This is a ranged weapon that includes \u2018hot-shot\u2019 in its name, e.g. hot-shot lasgun, all profiles of a hot-shot marksman rifle, etc.",
-    "archetypes": "Security/Seek and Destroy",
+    "archetypes": [
+      "Security",
+      "Seek and Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-KAS-SGT",
@@ -30837,8 +30371,6 @@
         "WOUNDS": 9,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, LEADER, SERGEANT",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-SGT-BP",
@@ -31025,8 +30557,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, MEDIC, COMBAT MEDIC",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-MDC-HSLG",
@@ -31110,8 +30640,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, DEMO-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-DT-HSLP",
@@ -31202,8 +30730,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-GNR-FL",
@@ -31383,8 +30909,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, RECON-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-RT-HSLG",
@@ -31468,8 +30992,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, SHARPSHOOTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-SS-HSMR",
@@ -31573,8 +31095,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-TRP-HSLG",
@@ -31651,8 +31171,6 @@
         "WOUNDS": 8,
         "keywords": "KASRKIN, IMPERIUM, ASTRA MILITARUM, VOX-TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-KAS-VOX-HSLG",
@@ -31828,7 +31346,10 @@
     "killteamName": "Kommandos",
     "description": "A Kommando is an Ork Boy specialist who prefers to rely on \"kunning trikz\" instead of fighting his opponents head-on like most other Greenskins.\n  \n  \n\nKommandoz serve as the Orks' infiltrators and saboteurs, and are masters of the arts of stealth, ambush, unconventional tactics and striking at the opponent from a totally unexpected quarter. ",
     "composition": "A KOMMANDOS KillTeam is composed of:\n\n- 1 KOMMANDO Boss Nob operative with one of the following options:\n  - Slugga; Big Choppa\n  - Slugga; Power Klaw\n- 9 KOMMANDO operatives selected from the following list:\n  - Bomb Squig (X)\n  - Boy\n  - Breacha Boy\n  - Burna Boy\n  - Comms Boy\n  - Dakka Boy\n  - Grot (X)\n  - Rokkit Boy\n  - Slasha Boy\n  - Snipa Boy\n\nOther than BOY operatives, your kill team can only include each operative on this list once.  \n\n(X) These operatives count as half a selection each, meaning you can select both of them and it's treated as one selection in total.",
-    "archetypes": "Seek & Destroy/Infiltration",
+    "archetypes": [
+      "Seek & Destroy",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "ORK-KOM-NOB",
@@ -31841,8 +31362,6 @@
         "WOUNDS": 14,
         "keywords": "KOMMANDO, ORK, BOSS NOB",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-NOB-SLG",
@@ -31939,8 +31458,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-BOY-SLG",
@@ -32017,8 +31534,6 @@
         "WOUNDS": 5,
         "keywords": "KOMMANDO, ORK, GROT",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-GROT-GC",
@@ -32082,8 +31597,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, SLASHA BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-SLS-TK",
@@ -32160,8 +31673,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, BREACHA BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-BRC-SLG",
@@ -32238,8 +31749,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, SNIPA BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-SNP-SBS",
@@ -32336,8 +31845,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, DAKKA BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-DAK-DS",
@@ -32424,8 +31931,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, COMMS BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-COMMS-SHO",
@@ -32509,8 +32014,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, BURNA BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-BRN-BRN",
@@ -32597,8 +32100,6 @@
         "WOUNDS": 10,
         "keywords": "KOMMANDO, ORK, ROKKIT BOY",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-RKT-RL",
@@ -32678,8 +32179,6 @@
         "WOUNDS": 5,
         "keywords": "KOMMANDO, ORK, BOMB SQUIG",
         "basesize": 32,
-        "nameType": "Skwiglz",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-KOM-SQUIG-EXPL",
@@ -32869,7 +32368,10 @@
     "killteamName": "Legionaries",
     "description": "Legionary kill teams are bitter veterans who possess centuries of combat experience. Some are little more than\nravening killers who desire only to reave, slaughter and despoil. Others are devoted worshippers of the Dark Gods,\nseeking to conduct fell rituals in the hope of pleasing their infernal patrons and attaining greater power.",
     "composition": "A LEGIONARIES KillTeam is composed of:\n\n- 1 LEGIONARY operative selected from the following list:\n  - ASPIRING CHAMPION with one option from each of the following:\n    - Plasma pistol or tainted bolt pistol\n    - Power fist, power maul, power weapon or tainted chainsword  \n  - CHOSEN with one of the following options:\n    - Plasma pistol; daemon blade\n    - Tainted bolt pistol; daemon blade\n- 5 LEGIONARY operatives selected from the following list:\n  - ANOINTED\n  - BALEFIRE ACOLYTE\n  - BUTCHER\n  - ICON BEARER with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword  \n  - SHRIVETALON\n    - WARRIOR with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword    \n  - GUNNER with one of the following options:\n    - Bolt pistol; flamer; fists\n      - Bolt pistol; meltagun; fists\n      - Bolt pistol; plasma gun; fists   \n  - HEAVY GUNNER with one of the following options:\n    - Bolt pistol; heavy bolter; fists\n    - Bolt pistol; missile launcher; fists\n    - Bolt pistol; reaper chaincannon; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-LEG-AC",
@@ -32882,8 +32384,6 @@
         "WOUNDS": 15,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, LEADER, ASPIRING CHAMPION",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-AC-PP",
@@ -33098,8 +32598,6 @@
         "WOUNDS": 15,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, LEADER, CHOSEN",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-CHO-PP",
@@ -33261,8 +32759,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, ANOINTED",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-ANO-BP",
@@ -33387,8 +32883,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, PSYKER, BALEFIRE ACOLYTE",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-BA-BP",
@@ -33553,8 +33047,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, BUTCHER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-BUT-BP",
@@ -33679,8 +33171,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-GNR-BP",
@@ -33868,8 +33358,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-HGNR-BP",
@@ -34077,8 +33565,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, ICON BEARER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-IB-BP",
@@ -34250,8 +33736,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, SHRIVETALON",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-STL-BP",
@@ -34390,8 +33874,6 @@
         "WOUNDS": 14,
         "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, WARRIOR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-LEG-WAR-BP",
@@ -34655,7 +34137,10 @@
     "killteamName": "Mandrakes",
     "description": "The Mandrakes can be found in Aelindrach, a region of Commorragh. Literally fallen into shadow, it is one of the several districts of Commorragh that exists in more than one dimension at once. In Aelindrach, shadows thicken and writhe as living things, flowing into one another and attempting to capture those that venture into the district.\n  \n  \n\nIt is in Aelindrach that Mandrakes and Shaderavens make their lairs. Rumour has it that somewhere in Aelindrach lies a portal to a world where shade-daemons exist who can freeze the soul with but a touch. ",
     "composition": "A MANDRAKE killteam is composed of:\n\n- 1 MANDRAKE Nightfiend\n- 8 MANDRAKE operatives selected from the following list:  \n  - Abyssal\n  - Chooser of the Flesh\n  - Dirgemaw\n  - Shadeweaver\n  - Warrior\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "AEL-MND-NF",
@@ -34668,8 +34153,6 @@
         "WOUNDS": 9,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, LEADER, NIGHTFIEND",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-NF-BB",
@@ -34774,8 +34257,6 @@
         "WOUNDS": 8,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, CHOOSER OF THE FLESH",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-COTF-BB",
@@ -34880,8 +34361,6 @@
         "WOUNDS": 8,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, ABYSSAL",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-ABS-BS",
@@ -34996,8 +34475,6 @@
         "WOUNDS": 8,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, DIRGEMAW",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-DM-BB",
@@ -35122,8 +34599,6 @@
         "WOUNDS": 8,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, SHADEWEAVER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-SW-BB",
@@ -35228,8 +34703,6 @@
         "WOUNDS": 8,
         "keywords": "MANDRAKE, AELDARI, DRUKHARI, WARRIOR",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-MND-WAR-BB",
@@ -35426,7 +34899,10 @@
     "killteamName": "Nemesis Claw",
     "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
     "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
-    "archetypes": "Infiltration/Seek & Destroy",
+    "archetypes": [
+      "Infiltration",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-NC-VIS",
@@ -35439,8 +34915,6 @@
         "WOUNDS": 15,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, LEADER, PSYKER, VISIONARY",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-VIS-BP",
@@ -35621,8 +35095,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, FEARMONGER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-FRM-SCP",
@@ -35750,8 +35222,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-GNR-BP",
@@ -35898,8 +35368,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-HGNR-BP",
@@ -36036,8 +35504,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, SCREECHER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-SCR-LC",
@@ -36108,8 +35574,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, SKINTHIEF",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-SKT-BP",
@@ -36200,8 +35664,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, VENTRILOKAR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-VEN-BP",
@@ -36292,8 +35754,6 @@
         "WOUNDS": 14,
         "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, WARRIOR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-NC-WAR-BP",
@@ -36516,7 +35976,7 @@
     "killteamName": "Non-Player Operatives",
     "description": "Non-player operatives for joint operations in KT2024.",
     "composition": "",
-    "archetypes": "",
+    "archetypes": [],
     "opTypes": [
       {
         "opTypeId": "SPEC-NPO-BR-TRP",
@@ -36529,8 +35989,6 @@
         "WOUNDS": 7,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-BR-TRP-B",
@@ -36580,8 +36038,6 @@
         "WOUNDS": 10,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-BR-TGH-B",
@@ -36631,8 +36087,6 @@
         "WOUNDS": 14,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-BR-HVY-B",
@@ -36689,8 +36143,6 @@
         "WOUNDS": 7,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-MM-TRP-FA",
@@ -36787,8 +36239,6 @@
         "WOUNDS": 8,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-MM-WAR-FA",
@@ -36858,8 +36308,6 @@
         "WOUNDS": 14,
         "keywords": "",
         "basesize": 32,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-MM-HVY-FA",
@@ -36936,8 +36384,6 @@
         "WOUNDS": 12,
         "keywords": "",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-NPO-SNP-SNP",
@@ -37022,7 +36468,10 @@
     "killteamName": "Novitiates",
     "description": "New inductees into the ranks of the Adepta Sororitas, Sisters Novitiate who display great zeal and determination are\noften deployed together in kill teams to hunt down apostates or root out heretics. In performing such duties, they may one day rise to become full Sisters, spreading the Emperor\u2019s light ever further.",
     "composition": "A NOVITIATES killteam is composed of:\n\n- 1 NOVITIATE SUPERIOR operative with one of the following options:\n  - Plasma pistol; power weapon\n  - Relic boltgun; gun butt\n  - Relic bolt pistol; power weapon\n- 9 NOVITIATE operatives selected from the following list:\n  - CONDEMNOR\n  - DIALOGUS\n  - DUELLIST\n  - EXACTOR\n  - HOSPITALLER\n  - PENITENT\n  - PRECEPTOR\n  - PRONATUS\n  - PURGATUS\n  - RELIQUARIUS\n  - MILITANT with one of the following options:\n    - Autopistol; Novitiate blade\n    - Autogun; gun butt\n\nOther than MILITANT and PURGATUS operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two PURGATUS operatives.",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-NOV-SUP",
@@ -37035,8 +36484,6 @@
         "WOUNDS": 9,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, LEADER, SUPERIOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-SUP-PP",
@@ -37183,8 +36630,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, CONDEMNOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-CON-CST",
@@ -37268,8 +36713,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS,PRECEPTOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-DIA-AP",
@@ -37353,8 +36796,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, DUELLIST",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-DUE-AP",
@@ -37431,8 +36872,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, EXACTOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-EXA-NWR",
@@ -37509,8 +36948,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, HOSPITALLER",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-HOS-AP",
@@ -37594,8 +37031,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, MILITANT",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-MIL-AG",
@@ -37712,8 +37147,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PENITENT",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-PEN-AP",
@@ -37797,8 +37230,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRECEPTOR",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-PRE-MOTR",
@@ -37862,8 +37293,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRONATUS",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-PRO-AP",
@@ -37947,8 +37376,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PURGATUS",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-PUR-MF",
@@ -38025,8 +37452,6 @@
         "WOUNDS": 7,
         "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, RELIQUARIUS",
         "basesize": 32,
-        "nameType": "DECAETA",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-NOV-REL-AP",
@@ -38209,7 +37634,10 @@
     "killteamName": "Pathfinders",
     "description": "Specialist reconnaissance infantry, T\u2019au Pathfinders range far ahead of their allies. Pathfinder kill teams are capable\nof operating independently of the main T\u2019au force, and are equipped for almost any situation. Their advanced wargear\nand potent weaponry enable them to disrupt communications, perform acts of sabotage and destroy targets.",
     "composition": "A PATHFINDERS KillTeam is composed of:\n\n- 1 PATHFINDER SHAS\u2019UI operative\n- 11 PATHFINDER operatives selected from the following list:\n  - ASSAULT GRENADIER\n  - BLOODED\n  - COMMS SPECIALIST\n  - DRONE CONTROLLER\n  - MARKSMAN\n  - MEDICAL TECHNICIAN\n  - SHAS\u2019LA\n  - TRANSPECTRAL INTERFERENCE\n  - MB3 RECON DRONE (counts as two selections)\n  - MV31 PULSE ACCELERATOR DRONE\n  - MV33 GRAV-INHIBITOR DRONE\n  - MV1 GUN DRONE\n  - MV4 SHIELD DRONE\n  - MV7 MARKER DRONE\n  - WEAPONS EXPERT with one of the following:\n    - Ion rifle; gun butt\n    - Rail rifle; gun butt\n        \nOther than SHAS\u2019LA and WEAPONS EXPERT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two WEAPONS EXPERT operatives.  \n\nSome PATHFINDER rules refer to a \u2018pulse weapon\u2019. The following weapons are pulse weapons: burst cannon, pulse carbine, suppressed pulse carbine, twin pulse carbine.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "TAU-PF-SU",
@@ -38222,8 +37650,6 @@
         "WOUNDS": 8,
         "keywords": "PATHFINDER, T'AU EMPIRE, LEADER, SHAS\u2019UI",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-SU-PC",
@@ -38300,8 +37726,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, ASSAULT GRENADIER",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-AG-FG",
@@ -38398,8 +37822,6 @@
         "WOUNDS": 8,
         "keywords": "PATHFINDER, T'AU EMPIRE, BLOODED",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-BL-SPC",
@@ -38476,8 +37898,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, COMMS SPECIALIST",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-COMMS-PC",
@@ -38554,8 +37974,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, DRONE CONTROLLER",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-DC-PC",
@@ -38639,8 +38057,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MARKSMAN",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MARKS-MRR",
@@ -38727,8 +38143,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MEDIC, MEDICAL TECHNICIAN",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MDC-PC",
@@ -38812,8 +38226,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, SHAS\u2019LA",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-SL-PC",
@@ -38897,8 +38309,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, TRANSPECTRAL INTERFERENCE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-TSI-PC",
@@ -38982,8 +38392,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, WEAPONS EXPERT",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-WE-IR",
@@ -39083,8 +38491,6 @@
         "WOUNDS": 12,
         "keywords": "PATHFINDER, T'AU EMPIRE, MB3 RECON, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MB3-BC",
@@ -39178,8 +38584,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MV1 GUN, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MV1-TPC",
@@ -39256,8 +38660,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MV4 SHIELD, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MV4-R",
@@ -39321,8 +38723,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MV7 MARKER, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MV7-R",
@@ -39386,8 +38786,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MV31 PULSE ACCELERATOR, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MV31-R",
@@ -39451,8 +38849,6 @@
         "WOUNDS": 7,
         "keywords": "PATHFINDER, T'AU EMPIRE, MV33 GRAV-INHIBITOR, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-PF-MV33-R",
@@ -39615,7 +39011,10 @@
     "killteamName": "Phobos Strike Team",
     "description": "Masters of stealth and subterfuge, Phobos Strike Teams consist of Space Marine Infiltrators, Incursors and Reivers.\nPossessed of transhuman strength and equipped with a range of explosives, communications equipment and precise weaponry, they are capable of outmanoeuvring and overwhelming enemy forces many times their own size.",
     "composition": "A PHOBOS STRIKE TEAM KillTeam is composed of:\n\n- 1 PHOBOS STRIKE TEAM operative selected from the following list:\n  - INFILTRATOR SERGEANT\n  - INCURSOR SERGEANT\n  - REIVER SERGEANT with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n- 5 PHOBOS STRIKE TEAM operatives selected from the following list:\n  - INFILTRATOR COMMSMAN\n  - INFILTRATOR HELIX ADEPT\n  - INFILTRATOR SABOTEUR\n  - INFILTRATOR VETERAN\n  - INFILTRATOR VOXBREAKER\n  - INFILTRATOR WARRIOR\n  - INCURSOR MARKSMAN\n  - INCURSOR MINELAYER\n  - INCURSOR WARRIOR\n  - REIVER WARRIOR with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-PHO-INFSGT",
@@ -39628,8 +39027,6 @@
         "WOUNDS": 13,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, INFILTRATOR, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFSGT-MBC",
@@ -39713,8 +39110,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, COMMSMAN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFCOM-MBC",
@@ -39805,8 +39200,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, MEDIC, INFILTRATOR, HELIX ADEPT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFHEL-MBC",
@@ -39897,8 +39290,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, SABOTEUR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFSAB-MBC",
@@ -40009,8 +39400,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, VETERAN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFVET-CBC",
@@ -40135,8 +39524,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, VOXBREAKER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFVOX-MBC",
@@ -40227,8 +39614,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INFWAR-MBC",
@@ -40312,8 +39697,6 @@
         "WOUNDS": 13,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, INCURSOR, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INCSGT-OBC",
@@ -40397,8 +39780,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, MARKSMAN",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INCMARK-SMBC",
@@ -40482,8 +39863,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, MINELAYER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INCML-OBC",
@@ -40574,8 +39953,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-INCWAR-OBC",
@@ -40659,8 +40036,6 @@
         "WOUNDS": 13,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, REIVER, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-RVRSGT-BC",
@@ -40791,8 +40166,6 @@
         "WOUNDS": 12,
         "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, REIVER, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-PHO-RVRWAR-BC",
@@ -41022,7 +40395,10 @@
     "killteamName": "Plague Marines",
     "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
     "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-PM-CHAMP",
@@ -41035,8 +40411,6 @@
         "WOUNDS": 15,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, LEADER, CHAMPION",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-CHAMP-PP",
@@ -41144,8 +40518,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, PSYKER, MALIGNANT PLAGUECASTER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-MAL-ENT",
@@ -41263,8 +40635,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, BOMBARDIER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-BOMB-BG",
@@ -41402,8 +40772,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, FIGHTER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-FTR-FOC",
@@ -41474,8 +40842,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-HGNR-PS",
@@ -41559,8 +40925,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, ICON BEARER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-IB-BP",
@@ -41658,8 +41022,6 @@
         "WOUNDS": 14,
         "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, WARRIOR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-PM-WAR-BG",
@@ -41856,7 +41218,10 @@
     "killteamName": "Ratlings",
     "description": "Though less resilient than their baseline Human comrades, Ratlings are naturally excellent shots. It is said that Ratling marksmen can take the head off a Heretic from over a kilometre away. Coupled with their knack for staying out of harm's way, this makes Ratlings formidable snipers who can exact a withering toll upon superior enemy forces. ",
     "composition": "A RATLING KillTeam is composed of:\n\n- 1 RATLING FIXER operative with one of the following options:  \n  - Battle Rifle, Fists\n  - Sniper Rifle, Fists\n- 10 RATLING operatives selected from the following list:\n  - BATTLEMUTT\n  - BULLGRYN* with one from each of the following:\n    - Grenadier Gauntlet or Power Maul\n    - Brute Shield or Slabshield  \n  - OGRYN*\n  - BIG SHOT\n  - BOMBER\n  - HARDBIT\n  - RAIDER\n  - SNEAK\n  - SNIPER\n  - SPOTTER\n  - STASHMASTER\n  - VOX-THIEF\n\n*You cannot select more than three of these operatives combined. Up to three times, instead of selecting one of these operatives, you can select one RATLING ploy to cost you 0CP for the battle.  \n\nOther than BULLGRYN, OGRYN, and SNIPER operatives, your KillTeam can only include each operative above once.",
-    "archetypes": "Security/Infiltration",
+    "archetypes": [
+      "Security",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-RAT-FIX",
@@ -41869,8 +41234,6 @@
         "WOUNDS": 7,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, LEADER, FIXER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-FIX-BR",
@@ -41984,8 +41347,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BIG SHOT",
         "basesize": 28,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-BIG-TSR",
@@ -42065,8 +41426,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, HARDBIT",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-HARD-BR",
@@ -42150,8 +41509,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SPOTTER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-SPOT-SR",
@@ -42238,8 +41595,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BOMBER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-BOMB-EXA",
@@ -42353,8 +41708,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, STASHMASTER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-STASH-SR",
@@ -42448,8 +41801,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, RAIDER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-RAID-SSR",
@@ -42543,8 +41894,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SNIPER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-SNP-SR",
@@ -42624,8 +41973,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, VOX-THIEF",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-VOX-SR",
@@ -42712,8 +42059,6 @@
         "WOUNDS": 6,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SNEAK",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-SNK-SSR",
@@ -42807,8 +42152,6 @@
         "WOUNDS": 16,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, OGRYN",
         "basesize": 40,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-OGR-RG",
@@ -42892,8 +42235,6 @@
         "WOUNDS": 16,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BULLGRYN",
         "basesize": 40,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-BULL-GG",
@@ -43034,8 +42375,6 @@
         "WOUNDS": 4,
         "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BATTLEMUTT",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-RAT-MUTT-B",
@@ -43198,7 +42537,10 @@
     "killteamName": "Raveners",
     "description": "Ravener kill teams are hyperadapted to such an extent that they are able to overcome all manner of a prey species\u2019 defences. Driven by alien synaptic imperatives, Raveners burrow with horrific speed to strike at prey from vulnerable angles, before using razor-sharp talons, chitinous claws and virulent biotoxins to enact the Hive Mind\u2019s will.",
     "composition": "A RAVENERS KillTeam  is composed of:\n\n- 1 RAVENER PRIME\n- 4 RAVENER operatives selected from the following list:\n  - FELLTALON\n  - TREMORSCYTHE\n  - VENOMSPITTER\n  - WARRIOR\n  - WRECKER\n\nOther than WARRIOR operatives, your KillTeam can only include each operative on this list once.",
-    "archetypes": "Seek & Destroy/Infiltration",
+    "archetypes": [
+      "Seek & Destroy",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "TYR-RAV-PRM",
@@ -43211,8 +42553,6 @@
         "WOUNDS": 21,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, LEADER, PRIME",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-PRM-TB",
@@ -43310,8 +42650,6 @@
         "WOUNDS": 20,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, FELLTALON",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-FTL-PT",
@@ -43429,8 +42767,6 @@
         "WOUNDS": 20,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, TREMORSCYTHE",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-TRS-PT",
@@ -43528,8 +42864,6 @@
         "WOUNDS": 20,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, VENOMSPITTER",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-VSP-PT",
@@ -43657,8 +42991,6 @@
         "WOUNDS": 20,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WARRIOR",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-WAR-PT",
@@ -43749,8 +43081,6 @@
         "WOUNDS": 20,
         "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WRECKER",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-RAV-WRK-BM",
@@ -43947,7 +43277,10 @@
     "killteamName": "Sanctifiers",
     "description": "As the Great Gun reloads and its hallowed ammunition is transported across Hive Fissilicus, great processions of pilgrims and preachers accompany these holy relics to their final assembly points. They are far from a peaceful congregation, and any who seek to disrupt the great Day of Firing will find themselves lit by the flames and faith wielded by the Sanctifiers.",
     "composition": "A SANCTIFIER kill team is composed of:\n\n- 1 SANCTIFIER CONFESSOR\n- 1 SANCTIFIER CHERUB\n- 9 SANCTIFIER operatives selected from the following list:\n  - CONFLAGRATOR\n  - DEATH CULT ASSASSIN\n  - DRILL ABBOT\n  - MIRACULIST\n  - MISSIONARY with one of the following options:\n    - Ministorum flamer; brazier of holy fire\n    - Ministorum flamer; gun butt; holy relic\n  - MISSIONARY with one of the following options:\n    - Meltagun; chainsword; holy relic\n    - Plasma gun; chainsword; brazier of holy fire\n  - PERSECUTOR\n  - PREACHER\n  - RELIQUANT\n  - SALVATIONIST\n\nOther than PREACHER operatives, your kill team can only include each operative above once.  \n\nYour kill team can only include up to four PREACHER operatives.  \n\nYou cannot select an option that includes a brazier of holy fire more than once per battle.",
-    "archetypes": "Security/Seek & Destroy",
+    "archetypes": [
+      "Security",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-SANC-CFS",
@@ -43960,8 +43293,6 @@
         "WOUNDS": 10,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, LEADER, CONFESSOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-CFS-MOC",
@@ -44025,8 +43356,6 @@
         "WOUNDS": 5,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, CHERUB",
         "basesize": 25,
-        "nameType": "",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-CRB-INC",
@@ -44097,8 +43426,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, CONFLAGRATOR",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-CFG-THF",
@@ -44199,8 +43526,6 @@
         "WOUNDS": 8,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, DEATH CULT ASSASSIN",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-ASS-TK",
@@ -44284,8 +43609,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, DRILL ABBOT",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-ABB-GH",
@@ -44349,8 +43672,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, PERSECUTOR",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-PER-HF",
@@ -44441,8 +43762,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, MIRACULIST",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-MIR-HL",
@@ -44573,8 +43892,6 @@
         "WOUNDS": 8,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, MISSIONARY",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-MIS-BOHFR",
@@ -44775,8 +44092,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, PREACHER",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-PRC-HF",
@@ -44860,8 +44175,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, RELIQUANT",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-REL-HF",
@@ -44952,8 +44265,6 @@
         "WOUNDS": 7,
         "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, SALVATIONIST",
         "basesize": 25,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SANC-SAL-SS",
@@ -45116,7 +44427,10 @@
     "killteamName": "Scout Squad",
     "description": "Scouts are the new recruits of a Space Marine chapter who have advanced far enough in the early stages of their training and biological transformation to take part in battle with the rest of the Chapter.\n  \n  \n\nMore lightly armed and armoured than full Battle brothers, their role is to range ahead of the main Space Marine force, preparing the way for the main advance by infiltrating enemy lines, sabotaging and gathering intelligence \u2014 causing as much chaos and disruption as possible.",
     "composition": "A SCOUT SQUAD killteam is composed of:\n\n- 1 SCOUT SQUAD Sergeant operative with one of the following options:\n  - Astartes shotgun, fists\n  - Boltgun, fists\n  - Bolt Pistol, Chainsword\n- 8 SCOUT SQUAD operatives selected from the following list:\n  - Heavy Gunner with Fists, Bolt Pistol and Heavy Bolter\n  - Heavy Gunner with Fists, Bolt Pistol and Missile Launcher\n  - Hunter\n  - Sniper\n  - Tracker\n  - Warrior with one of the following options:\n    - Astartes Shotgun, fists\n    - Boltgun, Fists\n    - Bolt Pistol, Combat Blade\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-SCT-SGT",
@@ -45129,8 +44443,6 @@
         "WOUNDS": 11,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, LEADER, SERGEANT",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-SGT-ASG",
@@ -45274,8 +44586,6 @@
         "WOUNDS": 10,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-HGNR-BP",
@@ -45397,8 +44707,6 @@
         "WOUNDS": 10,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, HUNTER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-HNT-BP",
@@ -45475,8 +44783,6 @@
         "WOUNDS": 10,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, SNIPER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-SNP-BP",
@@ -45583,8 +44889,6 @@
         "WOUNDS": 10,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, TRACKER",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-TRK-BG",
@@ -45661,8 +44965,6 @@
         "WOUNDS": 10,
         "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, WARRIOR",
         "basesize": 32,
-        "nameType": "CORVIUS",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-SCT-WAR-ASG",
@@ -45891,7 +45193,10 @@
     "killteamName": "Tempestus Aquilon",
     "description": "\"It doesn't matter who or what the enemy are. If they stand between us and following our orders, they'll die for it.\"  \n\n*--Tempestus Aquilon Therka Drayv, prior to the Ossinium Drop*",
     "composition": "A TEMPESTUS AQUILON KillTeam is composed of:\n\n- 1 TEMPESTUS AQUILON TEMPESTOR operative with one of the following options:\n  - Hot-Shot Laspistol; Power Weapon\n  - Relic Bolt Pistol; Chainsword\n  - Hot-Shot Lascarbine; Fists\n- 1 SERVO-SENTRY with one of the following options:\n  - Flamer\n  - Grenade Launcher\n  - Hot-Shot Volley Gun\n- 9 TEMPESTUS AQUILON operatives selected from the following list:\n  - GRENADIER\n  - GUNFIGHTER\n  - GUNNER with Melta Carbine and Fists\n  - GUNNER with Plasma Carbine and Fists\n  - MARKSMAN\n  - PRECURSOR\n  - TROOPER\n\nOther than TROOPER operatives, your killteam can only include each operative above once.",
-    "archetypes": "Recon/Seek & Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "IMP-TEMPAQ-TEMP",
@@ -45904,8 +45209,6 @@
         "WOUNDS": 9,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, LEADER, TEMPESTOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-TEMP-HSLC",
@@ -46076,8 +45379,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, GRENADIER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-GRN-HSLP",
@@ -46181,8 +45482,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNFIGHTER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-GF-HSLP",
@@ -46283,8 +45582,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-GNR-MC",
@@ -46391,8 +45688,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, MARKSMAN",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-MRK-HSLL",
@@ -46503,8 +45798,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, PRECURSOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-PRE-HSLP",
@@ -46595,8 +45888,6 @@
         "WOUNDS": 10,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, SERVO-SENTRY",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-SS-FL",
@@ -46727,8 +46018,6 @@
         "WOUNDS": 8,
         "keywords": "TEMPESTUS AQUILON, IMPERIUM, TROOPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "IMP-TEMPAQ-TRP-HSLC",
@@ -46918,7 +46207,7 @@
     "killteamName": "Titus Mission Pack",
     "description": "The Lieutenant Titus Mission Pack is a spin-off of Warhammer 40,000: Kill Team. Its parent game includes an expanded range of detailed miniatures, evocative terrain and unique rules. Fight tactical battles against opponents with your team of elite operatives, all set within the grim darkness of the far future.",
     "composition": "One of each of the Space Marines.\n\n1 Tyranid Warrior and 6 NPOs containing any combination of Hormagaunts and Termagants. Set them up within 3\" of objective marker 1, with intervening terrain within their control range when viewed from the player drop zone.",
-    "archetypes": "",
+    "archetypes": [],
     "opTypes": [
       {
         "opTypeId": "SPEC-TITUS-TIT",
@@ -46931,8 +46220,6 @@
         "WOUNDS": 14,
         "keywords": "",
         "basesize": 40,
-        "nameType": "Titus",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-TIT-HBP",
@@ -47009,8 +46296,6 @@
         "WOUNDS": 14,
         "keywords": "",
         "basesize": 32,
-        "nameType": "Gadriel",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-GAD-BR",
@@ -47087,8 +46372,6 @@
         "WOUNDS": 14,
         "keywords": "",
         "basesize": 32,
-        "nameType": "Chairon",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-CHA-BR",
@@ -47165,8 +46448,6 @@
         "WOUNDS": 6,
         "keywords": "",
         "basesize": 28,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-HOR-SC",
@@ -47216,8 +46497,6 @@
         "WOUNDS": 6,
         "keywords": "",
         "basesize": 28,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-TER-RBW",
@@ -47287,8 +46566,6 @@
         "WOUNDS": 16,
         "keywords": "",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-WAR-RBW",
@@ -47372,8 +46649,6 @@
         "WOUNDS": 20,
         "keywords": "",
         "basesize": 40,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "SPEC-TITUS-LIC-CAT",
@@ -47431,7 +46706,10 @@
     "killteamName": "Vespid Stingwings",
     "description": "\"So swift and so deadly are the Mal'Kor, it is as though they fury of the D'Yangi moon tempests had swept the enemy away. I almost pity those who stand against them\"  \n\n*--Shas'o Vior'la Shem*",
     "composition": "A VESPID STINGWINGS killteam is composed of:\n\n- 1 VESPID STINGWING STRAIN LEADER operative\n- 1 VESPID STINGWING OVERSIGHT DRONE operative\n- 9 VESPID STINGWING operatives selected from the following list:\n  - LONGSTING\n  - SHADESTRAIN\n  - SKYBLAST\n  - SWARMGUARD\n  - WARRIOR\n\nOther than WARRIOR operatives, your killteam can only include each operative above once.",
-    "archetypes": "Recon/Seek & Destroy",
+    "archetypes": [
+      "Recon",
+      "Seek & Destroy"
+    ],
     "opTypes": [
       {
         "opTypeId": "TAU-VESP-VSL",
@@ -47444,8 +46722,6 @@
         "WOUNDS": 10,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, STRAIN, LEADER",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-VSL-NB",
@@ -47543,8 +46819,6 @@
         "WOUNDS": 5,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, OVERSIGHT, DRONE",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-OSD-RAM",
@@ -47622,8 +46896,6 @@
         "WOUNDS": 9,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, LONGSTING",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-VLS-NRR",
@@ -47724,8 +46996,6 @@
         "WOUNDS": 9,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, SHADESTRAIN",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-VSS-NS",
@@ -47843,8 +47113,6 @@
         "WOUNDS": 9,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, SKYBLAST",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-VSB-NGL",
@@ -47942,8 +47210,6 @@
         "WOUNDS": 9,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, SWARMGUARD",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-VSG-FL",
@@ -48058,8 +47324,6 @@
         "WOUNDS": 9,
         "keywords": "VESPID STINGWING, T'AU EMPIRE, WARRIOR",
         "basesize": 32,
-        "nameType": "TAU",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TAU-VESP-WAR-NB",
@@ -48249,7 +47513,10 @@
     "killteamName": "Void-Dancer Troupe",
     "description": "Even amongst the agile Aeldari, the Harlequins of the Void-dancer Troupes display an almost preternatural level of dexterity and skill. Performance and war merge in their actions, precisely directed to shape the fate of their race.",
     "composition": "A VOID-DANCER TROUPE killteam is composed of:\n\n- 1 VOID-DANCER TROUPE LEAD PLAYER operative with one option from each of the following:\n  - Fusion pistol, neuro disruptor or shuriken pistol\n  - Blade, caress, embrace, kiss or power weapon\n- 7 VOID-DANCER TROUPE operatives selected from the following list:\n  - DEATH JESTER\n  - PLAYER with one option from each of the following:\n    - Fusion pistol, neuro disruptor or shuriken pistol\n    - Blade, caress, embrace or kiss    \n  - SHADOWSEER with hallucinogen grenade and one of the following options:\n    - Neuro disruptor; miststave\n    - Shuriken pistol; miststave\n\nOther than PLAYER operatives, your kill team can only include each operative on this list once. Your kill team can only include up to one fusion pistol and up to one neuro disruptor.\n",
-    "archetypes": "Infiltration/Recon",
+    "archetypes": [
+      "Infiltration",
+      "Recon"
+    ],
     "opTypes": [
       {
         "opTypeId": "AEL-VDT-LPL",
@@ -48262,8 +47529,6 @@
         "WOUNDS": 9,
         "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, LEADER, LEAD PLAYER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-VDT-LPL-FP",
@@ -48467,8 +47732,6 @@
         "WOUNDS": 9,
         "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, DEATH JESTER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-VDT-DJS-SC",
@@ -48562,8 +47825,6 @@
         "WOUNDS": 8,
         "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, PLAYER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-VDT-PLAY-FP",
@@ -48747,8 +48008,6 @@
         "WOUNDS": 9,
         "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, PSYKER, SHADOWSEER",
         "basesize": 32,
-        "nameType": "AESBAER",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "AEL-VDT-SDS-HG",
@@ -48978,7 +48237,10 @@
     "killteamName": "Warp Coven",
     "description": "Many are the dark and terrible secrets of the galaxy, and the Thousand Sons seek to learn them all. Gathering\nrelentless Rubricae and degenerate mutants, Warpcoven kill teams employ sorcery and savagery alike as they sweep\naside those who stand in their way.",
     "composition": "A WARP COVEN KillTeam is composed of 6 WARPCOVEN operatives selected from the following list:\n\n- SORCERER OF DESTIN *(1)*\n- SORCERER OF TEMPYRION *(1)*\n- SORCERER OF WARPFIRE *(1)*\n- RUBRIC MARINE GUNNER with one of the following options:\n  - Warpflamer; fists\n  - Soulreaper cannon *(2)*; fists\n- RUBRIC MARINE ICON BEARER\n- RUBRIC MARINE WARRIOR\n- TZAANGOR CHAMPION *(3)* with one of the following options:\n  - Greataxe\n  - Greatblade\n- TZAANGOR HORN BEARER *(3)*\n- TZAANGOR ICON BEARER *(3)*\n- TZAANGOR WARRIOR *(3)* with one of the following options:\n- Tzaangor blades\n  - Tzaangor blade & shield\n  - Autopistol; chainsword\n\n**(1):** With force stave, PSYCHIC weapons on their datacard and one of the following options:\n- Inferno bolt pistol\n- Prosperine khopesh\n- Warpflame pistol\n\n**(2):** Your kill team can only include up to one warpflame pistol and up to one soulreaper cannon.  \n\n**(3):** These operatives count as half a selection each.  \n\nYou must select at least one friendly SORCERER operative, and one of your selected SORCERER operatives must have the LEADER keyword for the battle.\nAdd 1 to that LEADER operative's Wounds stat for the battle.  \n\nOther than WARRIOR and GUNNER operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives.",
-    "archetypes": "Recon/Security",
+    "archetypes": [
+      "Recon",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "CHAOS-WC-SOD",
@@ -48991,8 +48253,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, DESTINY",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-SOD-IBP",
@@ -49232,8 +48492,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, TEMPYRION",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-SOT-IBP",
@@ -49473,8 +48731,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, WARPFIRE",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-SOW-IBP",
@@ -49734,8 +48990,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, GUNNER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-GNR-SRC",
@@ -49923,8 +49177,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, ICON BEARER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-IB-IBG",
@@ -50089,8 +49341,6 @@
         "WOUNDS": 14,
         "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, WARRIOR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-WAR-IBG",
@@ -50255,8 +49505,6 @@
         "WOUNDS": 10,
         "keywords": "WARPCOVEN, CHAOS, TZAANGOR, CHAMPION",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-TZC-GA",
@@ -50407,8 +49655,6 @@
         "WOUNDS": 9,
         "keywords": "WARPCOVEN, CHAOS, TZAANGOR, HORN BEARER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-TZHB-D",
@@ -50539,8 +49785,6 @@
         "WOUNDS": 9,
         "keywords": "WARPCOVEN, CHAOS, TZAANGOR, ICON BEARER",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-TZIB-D",
@@ -50678,8 +49922,6 @@
         "WOUNDS": 9,
         "keywords": "WARPCOVEN, CHAOS, TZAANGOR, WARRIOR",
         "basesize": 32,
-        "nameType": "KASSOTHOR",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "CHAOS-WC-TZWAR-AP",
@@ -50976,7 +50218,10 @@
     "killteamName": "Wrecka Krew",
     "description": "Wrecka Crews are infamous Ork Kill Team Units, that love to commit explosive combat during their murderous rampages.\r They are considered the best of their species and are larger and stronger than the typical Ork. Wrecka Crews also make use of weapons that create explosions and the thought of this empowers them to become Tanked Up and ready to fight. These attributes and their use of 'eavy Armour, makes the Wrecka Crews incredibly durable and deadly in battle.",
     "composition": "A WRECKA KREW KillTeam is composed of:\n\n- 1 WRECKA KREW BOSS NOB operative with one of the following options:\n  - Rokkit Pistol; Smash Hammer\n  - Two Rokkit Pistols; Choppa\n- 2 WRECKA KREW BOMB SQUIG operatives\n- 5 WRECKA KREW operatives selected from the following list:\n  - BREAKA BOY DEMOLISHA\n  - BREAKA BOY FIGHTER\n  - BREAKA BOY KRUSHA\n  - TANKBUSTA GUNNER with one of the following options:\n    - 'Eavy Rokkit Launcha; Fists\n    - Rokkit Launcha; Fists    \n  - TANKBUSTA ROKKITEER with one of the following options:\n    - Rokkit Launcha; Pusla Rokkit; Fists\n    - Rokkit Launcha; Rokkit Rack; Fists\n\nOther than BOMB SQUIG, BREAKA BOY FIGHTER, and TANKBUSTA GUNNER operatives, your KillTeam can only include each operative above once.",
-    "archetypes": "Seek & Destroy/Security",
+    "archetypes": [
+      "Seek & Destroy",
+      "Security"
+    ],
     "opTypes": [
       {
         "opTypeId": "ORK-WK-NOB",
@@ -50989,8 +50234,6 @@
         "WOUNDS": 14,
         "keywords": "WRECKA KREW, ORK, LEADER, BOSS NOB",
         "basesize": 40,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-NOB-RP",
@@ -51131,8 +50374,6 @@
         "WOUNDS": 12,
         "keywords": "WRECKA KREW, ORK, BREAKA BOY, FIGHTER",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-BBFTR-SH",
@@ -51196,8 +50437,6 @@
         "WOUNDS": 12,
         "keywords": "WRECKA KREW, ORK, BREAKA BOY, DEMOLISHA",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-BBDEMO-TH",
@@ -51278,8 +50517,6 @@
         "WOUNDS": 12,
         "keywords": "WRECKA KREW, ORK, BREAKA BOY, KRUSHA",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-BBKRU-KB",
@@ -51350,8 +50587,6 @@
         "WOUNDS": 12,
         "keywords": "WRECKA KREW, ORK, TANKBUSTA, GUNNER",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-TBGNR-ERL",
@@ -51455,8 +50690,6 @@
         "WOUNDS": 12,
         "keywords": "WRECKA KREW, ORK, TANKBUSTA, ROKKITEER",
         "basesize": 32,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-TBROK-PR",
@@ -51587,8 +50820,6 @@
         "WOUNDS": 5,
         "keywords": "WRECKA KREW, ORK, BOMB SQUIG",
         "basesize": 25,
-        "nameType": "ORK",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "ORK-WK-SQUIG-EX",
@@ -51792,7 +51023,10 @@
     "killteamName": "Wyrmblade",
     "description": "Genestealer Cults are insidious broods of Human-xenos hybrids that spread unnoticed on Imperial worlds, sometimes for generations. They infiltrate the Imperium\u2019s social, industrial and military fabric, and their elite Wyrmblade kill teams squirm undetected into perfect ambush sites.",
     "composition": "A WYRMBLADE killteam is composed of:\n\n- 1 WYRMBLADE NEOPHYTE LEADER operative with one of the following options:  \n  - Autogun; gun butt\n  - Shotgun; gun butt  \n  Or one option from each of the following:\n  - Bolt pistol, master-crafted autopistol or web pistol\n  - Chainsword, power maul or power pick\n- 13 WYRMBLADE operatives selected from the following list: \n  - KELERMORPH*\n  - LOCUS*\n  - GUNNER with flamer and gun butt\n  - GUNNER with grenade launcher and gun butt\n  - GUNNER with webber and gun butt\n  - HEAVY GUNNER with heavy stubber and gun butt\n  - HEAVY GUNNER with mining laser and gun butt\n  - HEAVY GUNNER with seismic cannon and gun butt\n  - ICON BEARER with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n  - SANCTUS SNIPER*\n  - SANCTUS TALON*\n  - WARRIOR with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n\n*These operatives count as two selections each.  \nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives, up to two HEAVY GUNNER operatives and up to two CULT AGENT operatives.",
-    "archetypes": "Seek & Destroy/Infiltration",
+    "archetypes": [
+      "Seek & Destroy",
+      "Infiltration"
+    ],
     "opTypes": [
       {
         "opTypeId": "TYR-WB-LDR",
@@ -51805,8 +51039,6 @@
         "WOUNDS": 8,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, LEADER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-LDR-AG",
@@ -52030,8 +51262,6 @@
         "WOUNDS": 9,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, KELERMORPH",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-KLM-LAS",
@@ -52149,8 +51379,6 @@
         "WOUNDS": 9,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, LOCUS",
         "basesize": 32,
-        "nameType": "TYRANID",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-LOC-BT",
@@ -52248,8 +51476,6 @@
         "WOUNDS": 7,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-GNR-FL",
@@ -52376,8 +51602,6 @@
         "WOUNDS": 7,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, HEAVY GUNNER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-HGNR-HS",
@@ -52521,8 +51745,6 @@
         "WOUNDS": 7,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, ICON BEARER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-IB-AG",
@@ -52633,8 +51855,6 @@
         "WOUNDS": 9,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, SNIPER",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-SNP-SSR",
@@ -52735,8 +51955,6 @@
         "WOUNDS": 9,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, TALON",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-TAL-SBD",
@@ -52814,8 +52032,6 @@
         "WOUNDS": 7,
         "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, WARRIOR",
         "basesize": 32,
-        "nameType": "STACEY,GEORGE",
-        "isOpType": true,
         "weapons": [
           {
             "wepId": "TYR-WB-WAR-AG",
