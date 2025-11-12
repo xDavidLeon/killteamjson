@@ -4818,8 +4818,8 @@
   {
     "factionId": "TYR",
     "killteamId": "TYR-BBRO",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_brood_brothers-yvgipmpwxt-i6a8apbmju.pdf",
     "killteamName": "Brood Brothers",
     "description": "Brood Brothers are the humans of the Genestealer Cults, who have been implanted by Genestealers and have served as hosts for their Genestealer Hybrid offspring.  \n\nMany of these Brood Brothers may be members of the local civil or military authorities, continuing to carry out their normal duties in society. They remain hidden until the cult/clan is powerful enough to completely take control of the host society. They regard and often venerate the Genestealer Patriarch as a grandfather or deity. They are especially fanatic members of the clan, motivated by intense, instinctual bonds to their Genestealer and Hybrid relatives. ",
     "composition": "A BROOD BROTHER KillTeam is composed of:\n\n- 1 BROOD BROTHER Commander operative with one of the following options:\n  - Bolt pistol, chainsword and claw\n  - Drum-fed autogun, bayonet,\n  - Laspistol, power weapon and claw=\n- 9 BROOD BROTHER operatives selected from the following list:\n  - Agitator\n  - Gunner with Flamer and bayonet (1)\n  - Gunner with Grenade Launcher and bayonet (1)\n  - Gunner with Meltagun and bayonet (1)\n  - Gunner with Plasma gun and bayonet (1)\n  - Iconward\n  - Knife Fighter\n  - Medic\n  - Sapper\n  - Sniper (1)\n  - Trooper\n  - Veteran\n  - Vox-Operator\n- 3 Brood Brother operatives selected from the following list (3):\n  - 2 Psychic Familiar operatives (Still count as one selection)\n  - Magus (Count as two selections) (2)\n  - Patriarch (Count as three selections) (2)\n  - Primus (Count as two selections) (2)\n  - Trooper\n\nOther than Trooper operatives, your kill team can only include each option on this list once.  \n\n(1) You cannot select more than three of these operatives combined.  \n\n(2) Your Kill team can only include up to one BROODCOVEN operative. If one of these operatives is selected for deployment, your Commander operative loses the Leader keyword for the battle.  \n\n(3) Up to three times, instead of selecting one of these operatives, you can select one BROOD BROTHER ploy to cost you 0CP for the battle. Note that \"count as\" selections still apply; for example, if you select a Patriarch operative, you could not do this.",
@@ -6325,8 +6325,8 @@
   {
     "factionId": "NEC",
     "killteamId": "NEC-CAN",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_canoptek_circle-phfovhebev-eutxfo8ln9.pdf",
     "killteamName": "Canoptek Circle",
     "description": "Canoptek Circle kill teams comprise sinister alien constructs in thrall to their Cryptek master. The emotionless and unliving Canoptek constructs overcome obstacles to a Cryptek\u2019s ambitions, whether rock and metal or the bodies of the living, while their master accesses nodes of power and data to charge the constructs\u2019 ancient abilities further.",
     "composition": "A CANOPTEK CIRCLE Killteam is composed of:\n\n- 1 CANOPTEK CIRCLE GEOMANCER operative\n- 2 CANOPTEK CIRCLE TOMB CRAWLER operatives with one of the following options (select separately for each):\n  - Twin gauss reapers; claws\n  - Transdimensional isolator; claws*\n- 1 CANOPTEK CIRCLE ACCELERATOR operative\n- 1 CANOPTEK CIRCLE REANIMATOR operative\n- 3 CANOPTEK CIRCLE WARRIOR operatives with one of the following options (select separately for each):\n  - Gauss scalpel; claws & tail\n  - Tesla caster; claws & tail\n\n*Your kill team can only include up to one transdimensional isolator. ",
@@ -6370,9 +6370,9 @@
                 "wepId": "NEC-CAN-GEO-TGR",
                 "seq": 2,
                 "profileName": "Quake",
-                "ATK": "6",
+                "ATK": "5",
                 "HIT": "3+",
-                "DMG": "1/3",
+                "DMG": "1/2",
                 "WR": "Blast 2\", Seek Light, Stun"
               }
             ]
@@ -6425,7 +6425,7 @@
             "opTypeId": "NEC-CAN-GEO",
             "abilityName": "Obelisk Node Matrix",
             "AP": null,
-            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat."
+            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
           },
           {
             "abilityId": "NEC-CAN-GEO-SNC",
@@ -6515,7 +6515,7 @@
             "opTypeId": "NEC-CAN-ACC",
             "abilityName": "Obelisk Node Matrix",
             "AP": null,
-            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat."
+            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
           }
         ],
         "options": [],
@@ -6584,14 +6584,14 @@
             "opTypeId": "NEC-CAN-REA",
             "abilityName": "Nanoscarab Beam",
             "AP": 1,
-            "description": "Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE operative within your OBELISK NODE MATRIX.\nThe selected operative regains up to 3D3 lost wounds. It cannot be an operative that the Reanimate rule was used on during this turning point.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+            "description": "Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE operative within your OBELISK NODE MATRIX.\nThe selected operative regains up to 3D3 lost wounds. It cannot be an operative that the Reanimate rule was used on during this turning point.\n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
           },
           {
             "abilityId": "NEC-CAN-REA-ONM",
             "opTypeId": "NEC-CAN-REA",
             "abilityName": "Obelisk Node Matrix",
             "AP": null,
-            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat."
+            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
           },
           {
             "abilityId": "NEC-CAN-REA-REA",
@@ -6718,7 +6718,7 @@
             "opTypeId": "NEC-CAN-WAR",
             "abilityName": "Obelisk Node Matrix",
             "AP": null,
-            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat."
+            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
           }
         ],
         "options": [],
@@ -6817,14 +6817,14 @@
             "opTypeId": "NEC-CAN-TC",
             "abilityName": "*Dimensional Banishment",
             "AP": null,
-            "description": "After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the target wasn\u2019t incapacitated, roll 2D6: if the result is higher than the target\u2019s remaining wounds, the target is incapacitated."
+            "description": "After this operative uses this weapon, if you inflicted damage or retained any critical successes, if the target wasn\u2019t incapacitated, roll 2D6: if the result is higher than the target\u2019s remaining wounds, the target is incapacitated (taking precedence over rules that prevent incapacitation, e.g. Medic!, FELLGOR RAVAGER, Frenzy) and your opponent cannot place a Reanimation marker (HIEROTEK CIRCLE ) for that operative, if relevant."
           },
           {
             "abilityId": "NEC-CAN-TC-ONM",
             "opTypeId": "NEC-CAN-TC",
             "abilityName": "Obelisk Node Matrix",
             "AP": null,
-            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat."
+            "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
           },
           {
             "abilityId": "NEC-CAN-TC-SF",
@@ -7769,8 +7769,8 @@
   {
     "factionId": "AEL",
     "killteamId": "AEL-COR",
-    "version": "",
-    "file": "",
+    "version": "1.2",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_corsair_voidscarred-avo1ekc7vh-drtpdts08c.pdf",
     "killteamName": "Corsair Voidscarred",
     "description": "Aeldari Corsairs or Anhrathe are bands of piratical Aeldari Outcasts. They are a constant threat to merchant shipping, though very rarely pose a threat to a major Imperial battlefleet.\n  \n  \n\nThere are many bands of so-called Corsairs scattered across the galaxy, and all are savage and deadly raiders. Outcasts from the strict confines of the Craftworlds, the Corsairs live in self-imposed exile, seeking to explore the galaxy and experience the full gamut of emotion and sensation accessible to the Eldar\u2019s sensitive psyche. ",
     "composition": "A CORSAIR VOIDSCARRED killteam is composed of:\n- 1 CORSAIR VOIDSCARRED Felarch operative with one of the following options:\n  - Shuriken rifle, shuriken pistol, power weapon\n  - Neuro Disruptor, Power weapon\n- 8 CORSAIR VOIDSCARRED operatives selected from the following list:\n  - Fate Dealer\n  - Gunner with one of the following options:\n  - Blaster (X), Shuriken pistol, fists\n    - Shredder, Shuriken pistol, fists\n  - Heavy Gunner with one of the following options:\n    - Shuriken Cannon, Shuriken pistol, fists\n    - Wraithcannon (X), Shuriken pistol, fists  \n  - Kurnathi\n  - Kurnite Hunter\n  - Shade Runner\n  - Soul Weaver\n  - Starstorm Duelist\n  - Warrior with one of the following options:\n    - Shuriken pistol, power weapon\n  - Shuriken rifle, fists  \n  - Way Seeker\n\nOther than Warrior operatives your kill team can only include each operative on this lists once.  \n\n(X) Your kill team cannot include both a blaster and a wraithcannon.",
@@ -11619,8 +11619,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-ESS",
-    "version": "",
-    "file": "",
+    "version": "1.2",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_elucidian_starstriders-gnqnu5qxog-frsppd8ctt.pdf",
     "killteamName": "Elucidian Starstriders",
     "description": "Elucia Vhane is a scion of a noble mercantile dynasty. Leaving behind her family\u2019s operations in the galactic north, Vhane led her Elucidian Starstriders to the Eastern Fringe. Alongside her esoteric crew, the bold Rogue Trader seeks to eclipse the rich history of her ancestors with her own rise to glory \u2013 or die trying.",
     "composition": "Note that you do not select your operatives from a list.\nThis kill team\u2019s operatives are specified.\n\nAn ELUCIDIAN STARSTRIDERS killteam is composed of every ELUCIDIAN STARSTRIDER operative in the following list:\n\n- 1 ELUCIA VHANE\n- 1 CANID\n- 1 DEATH CULT EXECUTIONER\n- 1 LECTRO-MAESTER\n- 1 REJUVENAT ADEPT\n- 1 VOIDMASTER\n- 3 VOIDSMAN with lasgun and gun butt\n- 1 VOIDSMAN with rotor cannon and gun butt\n",
