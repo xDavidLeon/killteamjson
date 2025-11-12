@@ -47509,8 +47509,8 @@ normal success instead of discarding it."
   {
     "factionId": "AEL",
     "killteamId": "AEL-VDT",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kty_teamrules_void-dancer_troupe-p2t5lqusto-ddpnpllhnq.pdf",
     "killteamName": "Void-Dancer Troupe",
     "description": "Even amongst the agile Aeldari, the Harlequins of the Void-dancer Troupes display an almost preternatural level of dexterity and skill. Performance and war merge in their actions, precisely directed to shape the fate of their race.",
     "composition": "A VOID-DANCER TROUPE killteam is composed of:\n\n- 1 VOID-DANCER TROUPE LEAD PLAYER operative with one option from each of the following:\n  - Fusion pistol, neuro disruptor or shuriken pistol\n  - Blade, caress, embrace, kiss or power weapon\n- 7 VOID-DANCER TROUPE operatives selected from the following list:\n  - DEATH JESTER\n  - PLAYER with one option from each of the following:\n    - Fusion pistol, neuro disruptor or shuriken pistol\n    - Blade, caress, embrace or kiss    \n  - SHADOWSEER with hallucinogen grenade and one of the following options:\n    - Neuro disruptor; miststave\n    - Shuriken pistol; miststave\n\nOther than PLAYER operatives, your kill team can only include each operative on this list once. Your kill team can only include up to one fusion pistol and up to one neuro disruptor.\n",
@@ -47606,8 +47606,8 @@ normal success instead of discarding it."
                 "profileName": "",
                 "ATK": "5",
                 "HIT": "3+",
-                "DMG": "4/5",
-                "WR": "Severe"
+                "DMG": "4/6",
+                "WR": ""
               }
             ]
           },
@@ -47698,7 +47698,7 @@ normal success instead of discarding it."
             "opTypeId": "AEL-VDT-LPL",
             "abilityName": "Harlequin's Panoply",
             "AP": null,
-            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, ignore the Piercing weapon rule.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
           },
           {
             "abilityId": "AEL-VDT-LPL-A-LTP",
@@ -47798,7 +47798,7 @@ normal success instead of discarding it."
             "opTypeId": "AEL-VDT-DJS",
             "abilityName": "Harlequin's Panoply",
             "AP": null,
-            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, ignore the Piercing weapon rule.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
           },
           {
             "abilityId": "AEL-VDT-DJS-A-SAE",
@@ -47902,8 +47902,8 @@ normal success instead of discarding it."
                 "profileName": "",
                 "ATK": "5",
                 "HIT": "3+",
-                "DMG": "4/5",
-                "WR": "Severe"
+                "DMG": "4/6",
+                "WR": ""
               }
             ]
           },
@@ -47974,7 +47974,7 @@ normal success instead of discarding it."
             "opTypeId": "AEL-VDT-PLAY",
             "abilityName": "Harlequin's Panoply",
             "AP": null,
-            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, ignore the Piercing weapon rule.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
           },
           {
             "abilityId": "AEL-VDT-PLAY-A-LOTLG",
@@ -48026,7 +48026,7 @@ normal success instead of discarding it."
                 "ATK": "4",
                 "HIT": "3+",
                 "DMG": "1/1",
-                "WR": "Rng 6\", Blast 2\", Lethal 5+, Seek, Silent, Stun"
+                "WR": "Rng 6\", Blast 2\", Lethal 5+, Seek Light, Silent, Stun"
               }
             ]
           },
@@ -48097,7 +48097,7 @@ normal success instead of discarding it."
             "opTypeId": "AEL-VDT-SDS",
             "abilityName": "Harlequin's Panoply",
             "AP": null,
-            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, ignore the Piercing weapon rule.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+            "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
           },
           {
             "abilityId": "AEL-VDT-SDS-A-SAE",
@@ -48192,7 +48192,7 @@ normal success instead of discarding it."
         "ployType": "T",
         "seq": 1,
         "ployName": "The Curtain Falls",
-        "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting, after you strike with a critical success.\nEnd that sequence (any remaining attack dice are discarded) and immediately perform a free Dash or Fall Back action up to 3\" with that operative (then the Fight action ends).\nThat operative can do so even if it\u2019s performed an action that prevents it from performing the Dash or Fall Back action."
+        "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting, after you strike with a critical success, if the enemyu operative isn't incapacitated.\nEnd that sequence (any remaining attack dice are discarded) and immediately perform a free Fall Back action up to 3\" with that operative (then the Fight action ends).\nThat operative can do so even if it\u2019s performed an action that prevents it from performing the Fall Back action."
       }
     ],
     "equipments": [
@@ -51019,8 +51019,8 @@ normal success instead of discarding it."
   {
     "factionId": "TYR",
     "killteamId": "TYR-WB",
-    "version": "",
-    "file": "",
+    "version": "1.0",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_wyrmblade-ewxxxogagv-mk51xr1be9.pdf",
     "killteamName": "Wyrmblade",
     "description": "Genestealer Cults are insidious broods of Human-xenos hybrids that spread unnoticed on Imperial worlds, sometimes for generations. They infiltrate the Imperium\u2019s social, industrial and military fabric, and their elite Wyrmblade kill teams squirm undetected into perfect ambush sites.",
     "composition": "A WYRMBLADE killteam is composed of:\n\n- 1 WYRMBLADE NEOPHYTE LEADER operative with one of the following options:  \n  - Autogun; gun butt\n  - Shotgun; gun butt  \n  Or one option from each of the following:\n  - Bolt pistol, master-crafted autopistol or web pistol\n  - Chainsword, power maul or power pick\n- 13 WYRMBLADE operatives selected from the following list: \n  - KELERMORPH*\n  - LOCUS*\n  - GUNNER with flamer and gun butt\n  - GUNNER with grenade launcher and gun butt\n  - GUNNER with webber and gun butt\n  - HEAVY GUNNER with heavy stubber and gun butt\n  - HEAVY GUNNER with mining laser and gun butt\n  - HEAVY GUNNER with seismic cannon and gun butt\n  - ICON BEARER with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n  - SANCTUS SNIPER*\n  - SANCTUS TALON*\n  - WARRIOR with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n\n*These operatives count as two selections each.  \nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives, up to two HEAVY GUNNER operatives and up to two CULT AGENT operatives.",
