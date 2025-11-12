@@ -12390,8 +12390,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-AES",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_exaction_squad-o0ltgcp7ds-dawhxuzywy.pdf",
     "killteamName": "Exaction Squad",
     "description": "It is the responsibility of the Adeptus Arbites to enforce Imperial law. Exaction Squads are formed from the most\nhighly skilled and experienced Arbitrators. They are tasked with hunting down and securing the most heinous of\ncriminals, returning them alive to face the full extent of the Emperor\u2019s justice.",
     "composition": "An EXACTION SQUAD KillTeam is composed of:\n\n- 1 EXACTION SQUAD PROCTOR-EXACTANT operative with one of the following options:\n  - Combat shotgun; repression baton\n  - Shotpistol; dominator maul & assault shield\n- 10 EXACTION SQUAD operatives selected from the following list:\n  - CASTIGATOR\n  - CHIRURGANT\n  - LEASHMASTER\n  - R-VR CYBER-MASTIFF\n  - MALOCATOR\n  - MARKSMAN\n  - REVELATUM\n  - SUBDUCTOR\n  - VIGILANT\n  - VOX-SIGNIFIER\n  - GUNNER with one of the following options:\n    - Grenade launcher; repression baton\n    - Heavy stubber; repression baton\n    - Webber; repression baton\n        \n\n  \n\nOther than GUNNER, SUBDUCTOR and VIGILANT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives (each must have a different option) and up to four SUBDUCTOR operatives.",
@@ -13174,7 +13174,7 @@
             "opTypeId": "IMP-AES-MAL",
             "abilityName": "Veriscant",
             "AP": 1,
-            "description": "Select one enemy operative visible to this operative. Until the start of this operative\u2019s next activation, until it\u2019s incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative\u2019s weapons have the Severe weapon rule;\r if the weapon already has that weapon rule, it also has the Lethal 5+ weapon rule.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+            "description": "Select one enemy operative visible to this operative. Until the start of this operative\u2019s next activation, until it\u2019s incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative\u2019s weapons have the Lethal 5+ and Severe weapon rules.\n\r This operative cannot perform this action while within control range of an enemy operative."
           }
         ],
         "options": [],
@@ -13759,7 +13759,7 @@
         "killteamId": "IMP-AES",
         "seq": 3,
         "eqName": "Special-Issue Shells",
-        "description": "Once per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n",
+        "description": "Up to twice per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n",
         "effects": ""
       },
       {
@@ -36463,8 +36463,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-NOV",
-    "version": "",
-    "file": "",
+    "version": "July '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_novitiates-hamlyduj0r-xbib8bjpqw.pdf",
     "killteamName": "Novitiates",
     "description": "New inductees into the ranks of the Adepta Sororitas, Sisters Novitiate who display great zeal and determination are\noften deployed together in kill teams to hunt down apostates or root out heretics. In performing such duties, they may one day rise to become full Sisters, spreading the Emperor\u2019s light ever further.",
     "composition": "A NOVITIATES killteam is composed of:\n\n- 1 NOVITIATE SUPERIOR operative with one of the following options:\n  - Plasma pistol; power weapon\n  - Relic boltgun; gun butt\n  - Relic bolt pistol; power weapon\n- 9 NOVITIATE operatives selected from the following list:\n  - CONDEMNOR\n  - DIALOGUS\n  - DUELLIST\n  - EXACTOR\n  - HOSPITALLER\n  - PENITENT\n  - PRECEPTOR\n  - PRONATUS\n  - PURGATUS\n  - RELIQUARIUS\n  - MILITANT with one of the following options:\n    - Autopistol; Novitiate blade\n    - Autogun; gun butt\n\nOther than MILITANT and PURGATUS operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two PURGATUS operatives.",
