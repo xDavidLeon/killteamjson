@@ -1863,8 +1863,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-BC",
-    "version": "",
-    "file": "",
+    "version": "August '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_battleclade-aeapdfcbyd-ryxszqx3xb.pdf",
     "killteamName": "Battleclade",
     "description": "*\"Let nothing dissuade your quest for knowledge. Let none slow your pursuit and acquisition of holy technology. Let none stand between you and the procurement of that which is rightfully the machine god\u2019s due.\"*  \n- Thusdorius Knoch, Invictus Acquisitor",
     "composition": "A BATTLECLADE KillTeam is composed of:\n\n- 1 BATTLECLADE TECHNOARCHEOLOGIST\n- 1 BATTLECLADE SERVITOR UNDERSEER\n- 8 BATTLECLADE operatives selected from the following list:\n  - AUTO-PROXY SERVITOR\n  - BREACHER SERVITOR\n  - COMBAT SERVITOR with one of the following options:\n    - Servo-claw; incendine igniter\n    - Servo-claw; meltagun\n    - Servo-claw; phosphor blaster\n  - GUN SERVITOR with heavy arc rifle and augmetic claw\n  - GUN SERVITOR with heavy bolter and augmetic claw\n  - TECHNOMEDIC SERVITOR\n\nOther than COMBAT SERVITOR operatives, your kill team can only include each operative on this list once.\nYour kill team can only include up to one COMBAT SERVITOR operative with meltagun, and it can only include up to three COMBAT SERVITOR operatives with incendine igniter.",
@@ -2379,14 +2379,14 @@
             "opTypeId": "IMP-BC-BSU",
             "abilityName": "Network Override",
             "AP": 1,
-            "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don\u2019t have to TRANSFER POWER to do so).\nContinue this operative\u2019s activation after doing so.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+            "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don\u2019t have to TRANSFER POWER to do so).\nContinue this operative\u2019s activation after doing so.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
           },
           {
             "abilityId": "IMP-BC-BSU-NSS",
             "opTypeId": "IMP-BC-BSU",
             "abilityName": "Noospheric Spur",
             "AP": 1,
-            "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately perform a free Dash action.\nYou cannot select each friendly SERVITOR operative for this rule more than once per turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+            "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately perform a free Dash action.\nYou cannot select each friendly SERVITOR operative for this rule more than once per turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker" 
           }
         ],
         "options": [],
@@ -2515,7 +2515,7 @@
         "ployType": "T",
         "seq": 1,
         "ployName": "System Exorcism",
-        "description": "Use this firefight ploy when you would activate a friendly BATTLECLADE operative. Remove one rules effect or stat change your opponent has applied to it (e.g. Poison token, -1APL, cannot be activated or perform actions, etc), then activate it. This ploy cannot allow it to regain lost wounds, ignore the effects of being injured, or remove -1APL that you have applied to it (i.e. from TRANSFER POWER)."
+        "description": "Use this firefight ploy when you would activate a friendly BATTLECLADE operative. Remove one rules effect or stat change your opponent has applied to it (e.g. Poison token, -1APL, cannot be activated or perform actions, etc), then activate it. This ploy cannot allow it to regain lost wounds, ignore the effects of being injured, remove mission pack rulesor remove -1APL that you have applied to it (i.e. from TRANSFER POWER)."
       },
       {
         "ployId": "IMP-BC-T-SS",
@@ -10397,8 +10397,8 @@
   {
     "factionId": "IMP",
     "killteamId": "IMP-DW",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_deathwatch-n9uexmycj0-mnutiohz2j.pdf",
     "killteamName": "Deathwatch",
     "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity\u2019s most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
     "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
@@ -10988,7 +10988,7 @@
             "opTypeId": "IMP-DW-DEM",
             "abilityName": "Aggressive Force",
             "AP": null,
-            "description": "Whenever this operative is fighting or retaliating, subtract 1 from both Dmg stats of the weapons the enemy operative in that sequence has (to a minimum of 2)."
+            "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
           },
           {
             "abilityId": "IMP-DW-DEM-BA",
@@ -22319,8 +22319,8 @@ normal success instead of discarding it."
   {
     "factionId": "IMP",
     "killteamId": "IMP-HC",
-    "version": "",
-    "file": "",
+    "version": "July '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_hunter_clade-lskv24wuji-e3mudbrre9.pdf",
     "killteamName": "Hunter Clade",
     "description": "To the techno-zealots of the Adeptus Mechanicus, the galaxy is a complex mechanism, its workings the creation of\ntheir Machine God. They see the acquisition of knowledge as holy work, and task their cybernetically altered servants\nwith carrying it out, no matter the cost.",
     "composition": "A HUNTER CLADE killteam is composed of:\r \r - 1 HUNTER CLADE operative selected from the following list:\r   - SICARIAN INFILTRATOR PRINCEPS with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER PRINCEPS\r   - SKITARII RANGER ALPHA with one of the following options:\r     - Galvanic rifle; gun butt\r       - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r   - SKITARII VANGUARD ALPHA with one of the following options:\r     - Radium carbine; gun butt\r     - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r - 9 HUNTER CLADE operatives selected from the following list:\r   - SICARIAN INFILTRATOR WARRIOR* with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER WARRIOR* with one of the following options:\r     - Chordclaw & transonic razor\r     - Transonic blades\r   - SKITARII RANGER DIKTAT\r   - SKITARII RANGER GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus\r   - SKITARII RANGER SURVEYOR\r   - SKITARII RANGER WARRIOR\r   - SKITARII VANGUARD DIKTAT\r   - SKITARII VANGUARD GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus    \r   - SKITARII VANGUARD SURVEYOR\r   - SKITARII VANGUARD WARRIOR\r \r \r *You cannot select more than 7 of these operatives combined.  \r \r Other than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.\r Your kill team can only include up to one DIKTAT operative, up to one SURVEYOR operative and up to five SICARIAN operatives.  \r \r Your kill team can only include up to one arc rifle, up to one plasma caliver and up to one transuranic arquebus.",
@@ -25270,8 +25270,8 @@ normal success instead of discarding it."
   {
     "factionId": "IMP",
     "killteamId": "IMP-INQ",
-    "version": "",
-    "file": "",
+    "version": "June '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_inquisitorial_agents-pemf215mz7-dsnh4qx9ij.pdf",
     "killteamName": "Inquisitorial Agents",
     "description": "The reach of the Inquisition extends across the vastness of the Imperium. Inquisitorial kill teams bring together agents from all strata of Imperial society, from elite soldiers to zealous priests. Together, these disparate elements combine their skills to deadly effect, enabling them to root out and destroy heretics, aliens and the servants of Chaos.",
     "composition": "An INQUISITORIAL AGENTS killteam is composed of:\n\n- 1 INQUISITORIAL AGENT INTERROGATOR operative\n- 1 INQUISITORIAL AGENT TOME-SKULL operative\n- 5 INQUISITORIAL AGENT operatives selected from the following list:\n  - AUTOSAVANT\n  - QUESTKEEPER\n  - DEATH WORLD VETERAN\n  - ENLIGHTENER\n  - HEXORCIST\n  - MYSTIC\n  - PENAL LEGIONNAIRE\n  - PISTOLIER\n  - GUN SERVITOR with one of the following options:\n    - Heavy bolter; servo-claw\n    - Multi-melta; servo-claw\n    - Plasma cannon; servo-claw\n- 5 INQUISITORIAL AGENT operatives selected from the list above, or REQUISITIONED operatives from one group in the Inquisitorial Requisition faction rule (you cannot select REQUISITIONED operatives from different groups).\n  \nYour kill team can only include each operative on this list once, unless you\u2019re not including any REQUISITIONED operatives, in which case you can include up to two GUN SERVITOR operatives, but each one must have different options.  \n\nYour kill team (including any REQUISITIONED operatives) cannot include more than one weapon with the Piercing 2 weapon rule, and cannot include more than three weapons with the Piercing X (excluding Piercing Crits X) weapon rule combined.",
@@ -32364,8 +32364,8 @@ normal success instead of discarding it."
   {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-LEG",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_legionaries-e5hsbsasn6-l5akyfyeyu.pdf",
     "killteamName": "Legionaries",
     "description": "Legionary kill teams are bitter veterans who possess centuries of combat experience. Some are little more than\nravening killers who desire only to reave, slaughter and despoil. Others are devoted worshippers of the Dark Gods,\nseeking to conduct fell rituals in the hope of pleasing their infernal patrons and attaining greater power.",
     "composition": "A LEGIONARIES KillTeam is composed of:\n\n- 1 LEGIONARY operative selected from the following list:\n  - ASPIRING CHAMPION with one option from each of the following:\n    - Plasma pistol or tainted bolt pistol\n    - Power fist, power maul, power weapon or tainted chainsword  \n  - CHOSEN with one of the following options:\n    - Plasma pistol; daemon blade\n    - Tainted bolt pistol; daemon blade\n- 5 LEGIONARY operatives selected from the following list:\n  - ANOINTED\n  - BALEFIRE ACOLYTE\n  - BUTCHER\n  - ICON BEARER with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword  \n  - SHRIVETALON\n    - WARRIOR with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword    \n  - GUNNER with one of the following options:\n    - Bolt pistol; flamer; fists\n      - Bolt pistol; meltagun; fists\n      - Bolt pistol; plasma gun; fists   \n  - HEAVY GUNNER with one of the following options:\n    - Bolt pistol; heavy bolter; fists\n    - Bolt pistol; missile launcher; fists\n    - Bolt pistol; reaper chaincannon; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
@@ -34076,7 +34076,7 @@ normal success instead of discarding it."
         "ployType": "T",
         "seq": 1,
         "ployName": "Mutability And Change",
-        "description": "Use this firefight ploy when a friendly LEGIONARY TZEENTCH operative is activated. Until the end of that operative\u2019s activation, add 1 to its APL stat.  \nIf it\u2019s a WARRIOR operative, that operative\u2019s Marks of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule)."
+        "description": "Use this firefight ploy when a friendly LEGIONARY TZEENTCH operative is activated. Until the end of that operative\u2019s activation, add 1 to its APL stat, but it cannot perform the same action more than once during that activation.\nIf it\u2019s a WARRIOR operative, that operative\u2019s Marks of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule)."
       },
       {
         "ployId": "CHAOS-LEG-T-SC",
@@ -44423,8 +44423,8 @@ normal success instead of discarding it."
   {
     "factionId": "IMP",
     "killteamId": "IMP-SCT",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_scout_squad-e8hfnecv2k-17reba063p.pdf",
     "killteamName": "Scout Squad",
     "description": "Scouts are the new recruits of a Space Marine chapter who have advanced far enough in the early stages of their training and biological transformation to take part in battle with the rest of the Chapter.\n  \n  \n\nMore lightly armed and armoured than full Battle brothers, their role is to range ahead of the main Space Marine force, preparing the way for the main advance by infiltrating enemy lines, sabotaging and gathering intelligence \u2014 causing as much chaos and disruption as possible.",
     "composition": "A SCOUT SQUAD killteam is composed of:\n\n- 1 SCOUT SQUAD Sergeant operative with one of the following options:\n  - Astartes shotgun, fists\n  - Boltgun, fists\n  - Bolt Pistol, Chainsword\n- 8 SCOUT SQUAD operatives selected from the following list:\n  - Heavy Gunner with Fists, Bolt Pistol and Heavy Bolter\n  - Heavy Gunner with Fists, Bolt Pistol and Missile Launcher\n  - Hunter\n  - Sniper\n  - Tracker\n  - Warrior with one of the following options:\n    - Astartes Shotgun, fists\n    - Boltgun, Fists\n    - Bolt Pistol, Combat Blade\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
@@ -44831,7 +44831,7 @@ normal success instead of discarding it."
                 "ATK": "4",
                 "HIT": "2+",
                 "DMG": "3/3",
-                "WR": "Hvy, Dev 3, Silent"
+                "WR": "Hvy(Dash), Dev 3, Silent"
               }
             ]
           },
@@ -45087,20 +45087,20 @@ normal success instead of discarding it."
     ],
     "ploys": [
       {
-        "ployId": "IMP-SCT-S-BA",
+        "ployId": "IMP-SCT-S-AM",
         "killteamId": "IMP-SCT",
         "ployType": "S",
         "seq": 1,
-        "ployName": "Blade Ambush",
-        "description": "Whenever a friendly SCOUT SQUAD operative is fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its melee weapons have the Ceaseless weapon rule.\n- If the target is expended, its melee weapons also have the rending rule.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+        "ployName": "Ambush",
+        "description": "Whenever a friendly SCOUT SQUAD operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its weapons have the Balanced weapon rule.\n- If the target is expended, its  weapons have the Ceaseless weapon rule instead.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Balanced:** Can re-roll one Attack die."
       },
       {
-        "ployId": "IMP-SCT-S-GA",
+        "ployId": "IMP-SCT-S-AD",
         "killteamId": "IMP-SCT",
         "ployType": "S",
         "seq": 1,
-        "ployName": "Gunfire Ambush",
-        "description": "Whenever a friendly SCOUT SQUAD operative is shooting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its ranged weapons have the Balanced weapon rule.\n- If the target is expended, its ranged weapons have the Ceaseless weapon rule instead.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Balanced:** Can re-roll one Attack die."
+        "ployName": "Adaptable Training",
+        "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 6\" from enemy operatives to Engage."
       },
       {
         "ployId": "IMP-SCT-S-GE",
@@ -45116,7 +45116,7 @@ normal success instead of discarding it."
         "ployType": "S",
         "seq": 1,
         "ployName": "Stealth Relocation",
-        "description": "Select one friendly SCOUT SQUAD operative more than 6\" from enemy operatives. You can immediately perform a free Dash action with that operative and/or change its order. You cannot use this ploy during the first turning point."
+        "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 6\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
       },
       {
         "ployId": "IMP-SCT-T-AT",
