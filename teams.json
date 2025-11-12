@@ -37629,8 +37629,8 @@
   {
     "factionId": "TAU",
     "killteamId": "TAU-PF",
-    "version": "",
-    "file": "",
+    "version": "July '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_pathfinders-gf6lgyt6w3-t70izsfkmt.pdf",
     "killteamName": "Pathfinders",
     "description": "Specialist reconnaissance infantry, T\u2019au Pathfinders range far ahead of their allies. Pathfinder kill teams are capable\nof operating independently of the main T\u2019au force, and are equipped for almost any situation. Their advanced wargear\nand potent weaponry enable them to disrupt communications, perform acts of sabotage and destroy targets.",
     "composition": "A PATHFINDERS KillTeam is composed of:\n\n- 1 PATHFINDER SHAS\u2019UI operative\n- 11 PATHFINDER operatives selected from the following list:\n  - ASSAULT GRENADIER\n  - BLOODED\n  - COMMS SPECIALIST\n  - DRONE CONTROLLER\n  - MARKSMAN\n  - MEDICAL TECHNICIAN\n  - SHAS\u2019LA\n  - TRANSPECTRAL INTERFERENCE\n  - MB3 RECON DRONE (counts as two selections)\n  - MV31 PULSE ACCELERATOR DRONE\n  - MV33 GRAV-INHIBITOR DRONE\n  - MV1 GUN DRONE\n  - MV4 SHIELD DRONE\n  - MV7 MARKER DRONE\n  - WEAPONS EXPERT with one of the following:\n    - Ion rifle; gun butt\n    - Rail rifle; gun butt\n        \nOther than SHAS\u2019LA and WEAPONS EXPERT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two WEAPONS EXPERT operatives.  \n\nSome PATHFINDER rules refer to a \u2018pulse weapon\u2019. The following weapons are pulse weapons: burst cannon, pulse carbine, suppressed pulse carbine, twin pulse carbine.",
@@ -50213,8 +50213,8 @@
   {
     "factionId": "ORK",
     "killteamId": "ORK-WK",
-    "version": "",
-    "file": "",
+    "version": "October '25",
+    "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_wrecka_krew-pyqbpxzdfq-q1rfbxc4zb.pdf",
     "killteamName": "Wrecka Krew",
     "description": "Wrecka Crews are infamous Ork Kill Team Units, that love to commit explosive combat during their murderous rampages.\r They are considered the best of their species and are larger and stronger than the typical Ork. Wrecka Crews also make use of weapons that create explosions and the thought of this empowers them to become Tanked Up and ready to fight. These attributes and their use of 'eavy Armour, makes the Wrecka Crews incredibly durable and deadly in battle.",
     "composition": "A WRECKA KREW KillTeam is composed of:\n\n- 1 WRECKA KREW BOSS NOB operative with one of the following options:\n  - Rokkit Pistol; Smash Hammer\n  - Two Rokkit Pistols; Choppa\n- 2 WRECKA KREW BOMB SQUIG operatives\n- 5 WRECKA KREW operatives selected from the following list:\n  - BREAKA BOY DEMOLISHA\n  - BREAKA BOY FIGHTER\n  - BREAKA BOY KRUSHA\n  - TANKBUSTA GUNNER with one of the following options:\n    - 'Eavy Rokkit Launcha; Fists\n    - Rokkit Launcha; Fists    \n  - TANKBUSTA ROKKITEER with one of the following options:\n    - Rokkit Launcha; Pusla Rokkit; Fists\n    - Rokkit Launcha; Rokkit Rack; Fists\n\nOther than BOMB SQUIG, BREAKA BOY FIGHTER, and TANKBUSTA GUNNER operatives, your KillTeam can only include each operative above once.",
@@ -50353,7 +50353,7 @@
             "opTypeId": "ORK-WK-NOB",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50409,7 +50409,7 @@
             "opTypeId": "ORK-WK-BBFTR",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           },
           {
             "abilityId": "ORK-WK-BBFTR-BS",
@@ -50496,7 +50496,7 @@
             "opTypeId": "ORK-WK-BBDEMO",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50566,7 +50566,7 @@
             "opTypeId": "ORK-WK-BBKRU",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50669,7 +50669,7 @@
             "opTypeId": "ORK-WK-TBGNR",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50799,7 +50799,7 @@
             "opTypeId": "ORK-WK-TBROK",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50903,7 +50903,7 @@
             "opTypeId": "ORK-WK-SQUIG",
             "abilityName": "Tanked Up",
             "AP": null,
-            "description": "Whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs the Fight or Shoot action (excluding Guard), add 1 to its APL stat until the start of its next activation."
+            "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
           }
         ],
         "options": [],
@@ -50994,7 +50994,7 @@
         "killteamId": "ORK-WK",
         "seq": 2,
         "eqName": "Extra Armour",
-        "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives and add 1 to their Wounds stat. This excludes BOMB SQUIG operatives.",
+        "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment.",
         "effects": "M|-1"
       },
       {
