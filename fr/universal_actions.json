@@ -5,14 +5,14 @@
       "type": "universal",
       "seq": 101,
       "AP": 1,
-      "name": "Reposition",
+      "name": "Repositionner",
       "description": null,
       "effects": [
-        "Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch."
+        "Move l'opératif actif up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch."
       ],
       "conditions": [
-        "It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.",
-        "An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Fall Back or Charge action."
+        "It cannot move dans la portée de contrôle of an opératif ennemi, unless one or more other opératifs alliés are already dans la portée de contrôle of that opératif ennemi, in which case it can move dans la portée de contrôle of that opératif ennemi but cannot finish the move there.",
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or during the same activation in which it performed the Repli or Charge action."
       ]
     },
     {
@@ -20,13 +20,13 @@
       "type": "universal",
       "seq": 102,
       "AP": 1,
-      "name": "Dash",
+      "name": "Ruée",
       "description": null,
       "effects": [
-        "The same as the Reposition action, except don't use the active operative's Move stat - it can move up to 3\" instead. In addition, it cannot climb during this move, but it can drop and jump."
+        "The same as the Repositionner action, except don't use l'opératif actif's Move stat - it can move up to 3\" instead. In addition, it cannot climb during this move, but it can drop and jump."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Charge action."
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or during the same activation in which it performed the Charge action."
       ]
     },
     {
@@ -34,13 +34,13 @@
       "type": "universal",
       "seq": 103,
       "AP": 2,
-      "name": "Fall Back",
+      "name": "Repli",
       "description": null,
       "effects": [
-        "The same as the Reposition action, except the active operative can move within control range of an enemy operative, but cannot finish the move there."
+        "The same as the Repositionner action, except l'opératif actif can move dans la portée de contrôle of an opératif ennemi, but cannot finish the move there."
       ],
       "conditions": [
-        "An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the Reposition or Charge action."
+        "Un opératif cannot perform this action unless an opératif ennemi is within its portée de contrôle. It cannot perform this action during the same activation in which it performed the Repositionner or Charge action."
       ]
     },
     {
@@ -51,11 +51,11 @@
       "name": "Charge",
       "description": null,
       "effects": [
-        "The same as the Reposition action, except the active operative can move an additional 2\".",
-        "It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative's control range."
+        "The same as the Repositionner action, except l'opératif actif can move an additional 2\".",
+        "It can move, and must finish the move, dans la portée de contrôle of an opératif ennemi. If it moves dans la portée de contrôle of an opératif ennemi that no other opératifs alliés are dans la portée de contrôle of, it cannot leave that opératif's portée de contrôle."
       ],
       "conditions": [
-        "An operative cannot perform this action while it has a Conceal order, if it's already within control range of an enemy operative, or during the same activation in which it performed the Reposition, Dash or Fall Back action."
+        "Un opératif cannot perform this action while it has a Conceal order, if it's already dans la portée de contrôle of an opératif ennemi, or during the same activation in which it performed the Repositionner, Ruée or Repli action."
       ]
     },
     {
@@ -63,13 +63,13 @@
       "type": "universal",
       "seq": 105,
       "AP": 1,
-      "name": "Pick Up Marker",
+      "name": "Ramasser un Marqueur",
       "description": null,
       "effects": [
-        "Remove a marker the active operative controls that the Pick Up Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker."
+        "Remove a marker l'opératif actif controls that the Ramasser un Marqueur action can be performed upon. That opératif is now carrying, contesting and controlling that marker."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or while it's already carrying a marker."
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or while it's already carrying a marker."
       ]
     },
     {
@@ -77,14 +77,14 @@
       "type": "universal",
       "seq": 106,
       "AP": 1,
-      "name": "Place Marker",
+      "name": "Placer un Marqueur",
       "description": null,
       "effects": [
-        "Place a marker the active operative is carrying within its control range.",
-        "If an operative carrying a marker is incapacitated, it must perform this action before being removed from the killzone, but does so for 0AP. This takes precedence over all rules that prevent it from doing so."
+        "Place a marker l'opératif actif is carrying within its portée de contrôle.",
+        "If Un opératif carrying a marker is hors de combat, it must perform this action before being removed from the zone de combat, but does so for 0AP. This takes precedence over all rules that prevent it from doing so."
       ],
       "conditions": [
-        "An operative cannot perform this action during the same activation in which it already performed the Pick Up Marker action (unless incapacitated)."
+        "Un opératif cannot perform this action during the same activation in which it already performed the Ramasser un Marqueur action (unless hors de combat)."
       ]
     },
     {
@@ -92,13 +92,13 @@
       "type": "universal",
       "seq": 107,
       "AP": 1,
-      "name": "Shoot",
+      "name": "Tirer",
       "description": null,
       "effects": [
-        "Shoot with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+        "Tirer with l'opératif actif by following the sequence below. l'opératif actif's player is the attacker. The selected opératif ennemi's player is the defender."
       ],
       "conditions": [
-        "An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+        "Un opératif cannot perform this action while it has a Conceal order, or while dans la portée de contrôle of an opératif ennemi."
       ]
     },
     {
@@ -106,13 +106,13 @@
       "type": "universal",
       "seq": 108,
       "AP": 1,
-      "name": "Fight",
+      "name": "Combattre",
       "description": null,
       "effects": [
-        "Fight with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+        "Combattre with l'opératif actif by following the sequence below. l'opératif actif's player is the attacker. The selected opératif ennemi's player is the defender."
       ],
       "conditions": [
-        "An operative cannot perform this action unless an enemy operative is within its control range."
+        "Un opératif cannot perform this action unless an opératif ennemi is within its portée de contrôle."
       ]
     },
     {
@@ -120,8 +120,8 @@
       "type": "universal",
       "seq": 109,
       "AP": 0,
-      "name": "Counteract",
-      "description": "When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an Engage order to perform a 1AP action for free (Excluding Guard). Each operative can only counteract once per turning point, and cannot move more than 2\", or must be set up wholly within 2\" if it's removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). Counteracting is optional, so you can choose not to. In either case, activation alternates back to your opponent afterwards.",
+      "name": "Contre-attaquer",
+      "description": "When you would activate a ready opératif allié, if all your opératifs are expended but your opponent still has ready opératifs, you can select an expended opératif allié with an Engage order to perform a 1AP action for free (Excluding Vigilance). Each opératif can only Contre-attaquer once per point tournant, and cannot move more than 2\", or must be set up wholly within 2\" if it's removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). Counteracting is optional, so you can choose not to. In either case, activation alternates back to your opponent afterwards.",
       "effects": []
     },
     {
@@ -129,17 +129,17 @@
       "type": "universal",
       "seq": 110,
       "AP": 1,
-      "name": "Guard",
+      "name": "Vigilance",
       "description": null,
       "effects": [
-        "The operative goes on guard (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An enemy operative ends an action within its control range and you don't interrupt that activation (see below).\n - Its order is changed.\n - It's the start of the next turning point."
+        "The opératif goes on Vigilance (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An opératif ennemi ends an action within its portée de contrôle and you don't interrupt that activation (see below).\n - Its order is changed.\n - It's the start of the next point tournant."
       ],
       "conditions": [
-        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+        "This action is treated as a Tirer action. Un opératif cannot perform this action while it has a Conceal order, or while it's dans la portée de contrôle of an opératif ennemi."
       ],
       "packs": [
-        "Killzone: Gallowdark",
-        "Killzone: Tomb World"
+        "zone de combat: Gallowdark",
+        "zone de combat: Tomb World"
       ]
     },
     {
@@ -147,18 +147,18 @@
       "type": "universal",
       "seq": 111,
       "AP": 1,
-      "name": "Hatchway Fight",
+      "name": "Hatchway Combattre",
       "description": null,
       "effects": [
-        "Fight with the active operative",
-        "In the Select Enemy Operative step, instead select an enemy operative within 2\" of, and on the other side of, an open hatchway's access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+        "Combattre with l'opératif actif",
+        "In the Select opératif ennemi step, instead select an opératif ennemi within 2\" of, and on the other side of, an open hatchway's access point l'opératif actif is touching. For the duration of that action, those opératifs are treated as being within each other's portée de contrôle."
       ],
       "conditions": [
-        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+        "This action is treated as a Tirer action. Un opératif cannot perform this action while it has a Conceal order, or while it's dans la portée de contrôle of an opératif ennemi."
       ],
       "packs": [
-        "Killzone: Gallowdark",
-        "Killzone: Tomb World"
+        "zone de combat: Gallowdark",
+        "zone de combat: Tomb World"
       ]
     },
     {
@@ -166,17 +166,17 @@
       "type": "universal",
       "seq": 112,
       "AP": 1,
-      "name": "Door Fight",
+      "name": "Door Combattre",
       "description": null,
       "effects": [
-        "Fight with the active operative",
-        "In the Select Enemy Operative step, select an enemy operative within 2\" of, and on the other side of, a door the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+        "Combattre with l'opératif actif",
+        "In the Select opératif ennemi step, select an opératif ennemi within 2\" of, and on the other side of, a door l'opératif actif is touching. For the duration of that action, those opératifs are treated as being within each other's portée de contrôle."
       ],
       "conditions": [
-        "This action is treated as a Fight action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn't touching a door."
+        "This action is treated as a Combattre action. Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or if its base isn't touching a door."
       ],
       "packs": [
-        "Killzone: Volkus"
+        "zone de combat: Volkus"
       ]
     }
   ]

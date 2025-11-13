@@ -8,15 +8,15 @@
       "name": "Operate Hatch",
       "description": null,
       "effects": [
-        "Open or close a hatchway that's access point is within the operative's control range.",
-        "An operative can perform this action during a Dash or Reposition action, and any remaining move distance can be used after it does so."
+        "Open or close a hatchway that's access point is within the opératif's portée de contrôle.",
+        "Un opératif can perform this action during a Ruée or Repositionner action, and any remaining move distance can be used after it does so."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative's control range."
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or if that hatchway is open and its access point is within an opératif ennemi's portée de contrôle."
       ],
       "packs": [
-        "Killzone: Gallowdark",
-        "Killzone: Tomb World"
+        "zone de combat: Gallowdark",
+        "zone de combat: Tomb World"
       ]
     },
     {
@@ -27,15 +27,15 @@
       "name": "Breach",
       "description": null,
       "effects": [
-        "Open a closed breach point thats access point is within the operative's control range.",
-        "An operative that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).",
-        "Roll one D6 separately for each operative that's on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative's APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up)."
+        "Open a closed breach point thats access point is within the opératif's portée de contrôle.",
+        "Un opératif that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/contre-attaque in which it performed the Charge or Tirer action (or vice versa).",
+        "Roll one D6 separately for each opératif that's on the other side of the access point and has that access point within its portée de contrôle: on a 4+, subtract 1 from that opératif's APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up)."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an operative, or if that breach point is open."
+        "Un opératif cannot perform this action while dans la portée de contrôle of Un opératif, or if that breach point is open."
       ],
       "packs": [
-        "Killzone: Tomb World"
+        "zone de combat: Tomb World"
       ]
     },
     {
@@ -46,13 +46,13 @@
       "name": "Open Stockade Door",
       "description": null,
       "effects": [
-        "Open a stockade terrain feature that has a door, if the inside of its breach point is within the operative's control range."
+        "Open a stockade terrain feature that has a door, if the inside of its breach point is within the opératif's portée de contrôle."
       ],
       "conditions": [
-        "An operative cannot perform this action if it's on the outside of the stockade, if that stockade is already open or it doesn't have a door."
+        "Un opératif cannot perform this action if it's on the outside of the stockade, if that stockade is already open or it doesn't have a door."
       ],
       "packs": [
-        "Killzone Upgrade: Compound Siege"
+        "zone de combat Upgrade: Compound Siege"
       ]
     },
     {
@@ -67,7 +67,7 @@
         "Draw a card."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or while more than 3\" from the shrine statue terrain feature's plinth."
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, or while more than 3\" from the shrine statue terrain feature's plinth."
       ],
       "packs": [
         "Mission Pack: Blood and Zeal"
@@ -81,11 +81,11 @@
       "name": "Hallow / Defile",
       "description": null,
       "effects": [
-        "One shrine statue terrain feature the active operative controls is hallowed/defiled.",
+        "One shrine statue terrain feature l'opératif actif controls is hallowed/defiled.",
         "Draw a card."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, if it doesn't control the shrine statue terrain feature, or if the shrine statue has already been hallowed/defiled during this turning point."
+        "Un opératif cannot perform this action while dans la portée de contrôle of an opératif ennemi, if it doesn't control the shrine statue terrain feature, or if the shrine statue has already been hallowed/defiled during this point tournant."
       ],
       "packs": [
         "Mission Pack: Blood and Zeal"
