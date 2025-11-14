@@ -184,14 +184,14 @@
       "type": "mission",
       "seq": 101,
       "AP": 1,
-      "name": "Operate Hatch",
+      "name": "Operar Portillo",
       "description": null,
       "effects": [
-        "Open or close a hatchway that's access point is within the operative's control range.",
-        "An operative can perform this action during a Dash or Reposition action, and any remaining move distance can be used after it does so."
+        "Abre o cierra una escotilla cuyo punto de acceso está en la zona de control del agente.",
+        "Un agente puede realizar esta acción durante una acción de Correr o Reposicionar, y puede usar cualquier movimiento restante después de ello."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative's control range."
+        "No se puede realizar esta acción estando en la zona de control de un agente enemigo, o si la escotilla está abierta y su punto de acceso está en la zona de control de un agente enemigo."
       ],
       "packs": [
         "Killzone: Gallowdark",
@@ -203,15 +203,15 @@
       "type": "mission",
       "seq": 102,
       "AP": 2,
-      "name": "Breach",
+      "name": "Brecha",
       "description": null,
       "effects": [
-        "Open a closed breach point thats access point is within the operative's control range.",
-        "An operative that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).",
-        "Roll one D6 separately for each operative that's on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative's APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up)."
+        "Abre un punto de brecha cerrado cuyo punto de acceso esté en la zona de control del agente.",
+        "Un agente que tenga las palabras \"marcador de brecha\", \"granadero\" o \"mina\" en su tarjeta de datos, o que tenga un arma con la regla de armas Penetración 2 o Críticos de penetración 2 (salvo armas con la regla de armas Área o Ráfaga), puede realizar esta acción por 1 PA menos (hasta un mínimo de 1 PA), pero no puede hacerlo durante una activación/reacción en la que haya realizado la acción Cargar o Disparar (o viceversa).",
+        "Tira 1D6 por separado por cada agente que se encuentre en el otro lado de un punto de acceso y tenga ese punto de acceso en su zona de control: con un 4+, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación e inflígele daño igual a la mitad del resultado del dado (redondeando al alza)."
       ],
       "conditions": [
-        "An operative cannot perform this action while within control range of an operative, or if that breach point is open."
+        "Un agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si el punto de brecha está abierto."
       ],
       "packs": [
         "Killzone: Tomb World"
