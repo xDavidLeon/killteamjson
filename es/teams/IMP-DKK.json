@@ -1,0 +1,1349 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-DKK",
+  "version": "1.2",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_death_korps-cxs24twanf-b6n2jvrgdd.pdf",
+  "killteamName": "Death Korps",
+  "description": "Grim, fatalistic and utterly uncompromising, the Death Korps of Krieg are famed for their endurance and ability to do\nbattle in the most horrific conditions. Death Korps kill teams are made up of veteran specialists who have seen more fighting that many Astra Militarum soldiers will experience in their entire lifetime.",
+  "composition": "A DEATH KORPS KillTeam is composed of:\n\n- 1 DEATH KORPS WATCHMASTER operative with the following:\n  - Boltgun; bayonet  \n  Or one option from each of the following:\n  - Bolt pistol, plasma pistol or relic laspistol\n  - Chainsword or power weapon\n- 4 TROOPER operatives*\n- 9 DEATH KORPS operatives selected from the following list:\n  - BRUISER\n  - CONFIDANT with one of the following options:\n    - Boltgun or lasgun; bayonet\n    - Bolt pistol or relic laspistol; chainsword    \n  - GUNNER with bayonet and flamer\n  - GUNNER with bayonet and grenade launcher\n  - GUNNER with bayonet and meltagun\n  - GUNNER with bayonet and plasma gun\n  - MEDIC\n  - SAPPER\n  - SNIPER\n  - SPOTTER\n  - TROOPER\n  - VETERAN\n  - VOX-OPERATOR\n  - ZEALOT\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*Up to four times, instead of taking one of these TROOPER operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-DKK-S-CTL",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Clear The Line",
+      "description": "Friendly DEATH KORPS operatives' melee weapons have the Accurate 1 weapon rule. Whenever a friendly DEATH KORPS operative is fighting wholly within your territory, or whenever it's retaliating, its melee weapons also have the Severe weapon rule.  \n **Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it.  \n **Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. The Devastating and Piercing Crits weapon rules still take effect, but Punishing and Rending don't."
+    },
+    {
+      "ployId": "IMP-DKK-S-RG",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Regroup",
+      "description": "**SUPPORT**\nSelect one friendly DEATH KORPS operative that is more than 3\" from enemy operatives.\nEach other friendly DEATH KORPS operative within 5\" of that operative and not within control range of enemy operatives can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to that operative.\nNote that a Comms Device from universal equipment only affects the second distance of this rule.  \n\nYou cannot use this ploy and the Chronometer faction equipment STRATEGIC GAMBIT in the same turning point."
+    },
+    {
+      "ployId": "IMP-DKK-S-SWF",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Siege Warfare",
+      "description": "Friendly DEATH KORPS operatives' ranged weapons have the Saturate and Accurate 1 weapon rules.  \n**Saturate:** The defender cannot retain Cover saves.  \n**Accurate x:** You can retain up to x Attack Dice as normal successes without rolling them."
+    },
+    {
+      "ployId": "IMP-DKK-S-TC",
+      "killteamId": "IMP-DKK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Take Cover",
+      "description": "Whenever an operative is shooting a friendly DEATH KORPS operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
+    },
+    {
+      "ployId": "IMP-DKK-T-CA",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Combined Arms",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATH KORPS operative, if it is shooting an enemy operative that has been shot by another friendly DEATH KORPS operative during this turning point.\r You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-DKK-T-IDA",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "In Death, Atonement",
+      "description": "Use this firefight ploy when a ready friendly DEATH KORPS operative is incapacitated, if it is not within control range of enemy operatives.\r Before it is removed from the killzone, it can immediately perform one free action.\r Unless otherwise specified, the operative would be injured for this. Note that that friendly operative is injured for the duration of that action."
+    },
+    {
+      "ployId": "IMP-DKK-T-IL",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Inspirational Leadership",
+      "description": "**SUPPORT**\nUse this firefight ploy during a friendly DEATH KORPS WATCHMASTER or DEATH KORPS CONFIDANT operative's activation, before or after it performs an action.\nIt issues a GUARDSMAN ORDER."
+    },
+    {
+      "ployId": "IMP-DKK-T-ILS",
+      "killteamId": "IMP-DKK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "In Life, Shame",
+      "description": "Use this firefight ploy when a friendly DEATH KORPS operative is activated and given an Engage order.\nIt receives every GUARDSMAN ORDER. This takes precedence over the normal rule that operatives cannot benefit from more than one GUARDSMAN ORDER at once."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-DKK-CM",
+      "killteamId": "IMP-DKK",
+      "seq": 1,
+      "eqName": "Chronometer",
+      "description": "Once per battle STRATEGIC GAMBIT in the first or second turning point.\nEach friendly DEATH KORPS operative wholly within your territory can immediately perform a free Dash action in an order of your choice, but each that does so must end that move closer to an opponent's drop zone or killzone edge.  \n\nYou cannot use this STRATEGIC GAMBIT and the Regroup strategy ploy during the same turning point.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DKK-CB",
+      "killteamId": "IMP-DKK",
+      "seq": 2,
+      "eqName": "Comm-Beads",
+      "description": "Whenever a friendly DEATH KORPS WATCHMASTER or friendly DEATH KORPS CONFIDANT operative issues a GUARDSMAN ORDER, you can use this rule.\nIf you do, instead of each friendly DEATH KORPS operative within 6\" of it receiving that order, you can select one friendly DEATH KORPS operative to receive that order.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DKK-HA",
+      "killteamId": "IMP-DKK",
+      "seq": 3,
+      "eqName": "Hand Axes",
+      "description": "Friendly DEATH KORPS operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Hand Axe|3|4+|3/4|\n",
+      "effects": "ADDWEP:Hand Axe|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-DKK-GB",
+      "killteamId": "IMP-DKK",
+      "seq": 4,
+      "eqName": "Gas Bombardment",
+      "description": "Once per battle STRATEGIC GAMBIT. Place your Gas marker in the killzone; it cannot be placed underneath Vantage terrain.\nWhenever an operative is within 3\" of that marker, subtract 1 from its APL stat. In the Ready step of the next Strategy phase, remove that marker.\nNote that an operative's APL stat is only changed while it is within 3\" of that marker. If it moves more than 3\" from that marker, its APL stat is no longer changed by this rule.",
+      "effects": ""
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-DKK-WM",
+      "killteamId": "IMP-DKK",
+      "seq": 1,
+      "opTypeName": "Death Korps Watchmaster",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, LEADER, WATCHMASTER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-WM-BP",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-BP-0",
+              "wepId": "IMP-DKK-WM-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-BG",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-BG-0",
+              "wepId": "IMP-DKK-WM-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-PP",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 2,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-PP-0",
+              "wepId": "IMP-DKK-WM-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DKK-WM-PP-1",
+              "wepId": "IMP-DKK-WM-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-RLP",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 3,
+          "wepName": "Relic Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-RLP-0",
+              "wepId": "IMP-DKK-WM-RLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-B",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-B-0",
+              "wepId": "IMP-DKK-WM-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-CS",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 5,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-CS-0",
+              "wepId": "IMP-DKK-WM-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-WM-PW",
+          "opTypeId": "IMP-DKK-WM",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-WM-PW-0",
+              "wepId": "IMP-DKK-WM-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-WM-A-AO",
+          "opTypeId": "IMP-DKK-WM",
+          "abilityName": "Adaptive Orders",
+          "description": "If this operative doesn't issue a GUARDSMAN ORDER as a STRATEGIC GAMBIT, you can use the Inspirational Leadership firefight ploy for 0CP during this operative's activation."
+        },
+        {
+          "abilityId": "IMP-DKK-WM-A-GO",
+          "opTypeId": "IMP-DKK-WM",
+          "abilityName": "Guardsmen Orders",
+          "description": "**STRATEGIC GAMBIT** and **SUPPORT**\n A friendly DEATH KORPS WATCHMASTER operative can issue a GUARDSMAN ORDER.\n Whenever it does, select one GUARDSMAN ORDER for all friendly DEATH KORPS operatives within 6\" of it to receive.\n Whenever a friendly operative receives a GUARDSMAN ORDER, apply its rules until the end of the turning point.\n Operatives cannot benefit from more than one GUARDSMAN ORDER at once; they only benefit from the most recent order they received during the turning point.\n \n - **Take Aim!**  \n\n Ranged weapons of operatives that received this order (excluding mortar barrage and remote detonator) have the Ceaseless weapon rule.\n - **Fix Bayonets!**  \n\n Melee weapons of operatives that received this order have the Ceaseless weapon rule.\n - **Dig In!**  \n\n Whenever an operative is shooting a friendly operative that has received this order, if you can retain any cover saves, you can re-roll any of your defence dice results of one result (e.g. results of 2).\n - **Move! Move! Move!**  \n\n Whenever an operative that's received this order is performing the Reposition action, add 1\" to its Move stat.\n "
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-BRU",
+      "killteamId": "IMP-DKK",
+      "seq": 2,
+      "opTypeName": "Death Korps Bruiser",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, BRUISER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-BRU-LG",
+          "opTypeId": "IMP-DKK-BRU",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-BRU-LG-0",
+              "wepId": "IMP-DKK-BRU-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-BRU-TC",
+          "opTypeId": "IMP-DKK-BRU",
+          "seq": 1,
+          "wepName": "Trench Club",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-BRU-TC-0",
+              "wepId": "IMP-DKK-BRU-TC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-BRU-A-BRU",
+          "opTypeId": "IMP-DKK-BRU",
+          "abilityName": "Bruiser",
+          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-CON",
+      "killteamId": "IMP-DKK",
+      "seq": 3,
+      "opTypeName": "Death Korps Confidant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-CON-BP",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-BP-0",
+              "wepId": "IMP-DKK-CON-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-CON-BG",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-BG-0",
+              "wepId": "IMP-DKK-CON-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-CON-LG",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 2,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-LG-0",
+              "wepId": "IMP-DKK-CON-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-CON-RLP",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 3,
+          "wepName": "Relic Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-RLP-0",
+              "wepId": "IMP-DKK-CON-RLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-CON-B",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-B-0",
+              "wepId": "IMP-DKK-CON-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-CON-CS",
+          "opTypeId": "IMP-DKK-CON",
+          "seq": 5,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-CON-CS-0",
+              "wepId": "IMP-DKK-CON-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-CON-A-DIR",
+          "opTypeId": "IMP-DKK-CON",
+          "abilityName": "Directive",
+          "description": "Whenever this operative is activated, if you have not used the Second in Command rule during the battle, you can select one other ready friendly DEATH KORPS operative visible to and within 6\" of it.\nWhen this operative is expended, activate that other friendly operative before your opponent activates (if that operative is a TROOPER, ignore its Group Activation rule)."
+        },
+        {
+          "abilityId": "IMP-DKK-CON-A-GO",
+          "opTypeId": "IMP-DKK-CON",
+          "abilityName": "Guardsmen Orders",
+          "description": "**STRATEGIC GAMBIT** and **SUPPORT**\n A friendly DEATH KORPS WATCHMASTER operative can issue a GUARDSMAN ORDER.\n Whenever it does, select one GUARDSMAN ORDER for all friendly DEATH KORPS operatives within 6\" of it to receive.\n Whenever a friendly operative receives a GUARDSMAN ORDER, apply its rules until the end of the turning point.\n Operatives cannot benefit from more than one GUARDSMAN ORDER at once; they only benefit from the most recent order they received during the turning point.\n \n - **Take Aim!**  \n\n Ranged weapons of operatives that received this order (excluding mortar barrage and remote detonator) have the Ceaseless weapon rule.\n - **Fix Bayonets!**  \n\n Melee weapons of operatives that received this order have the Ceaseless weapon rule.\n - **Dig In!**  \n\n Whenever an operative is shooting a friendly operative that has received this order, if you can retain any cover saves, you can re-roll any of your defence dice results of one result (e.g. results of 2).\n - **Move! Move! Move!**  \n\n Whenever an operative that's received this order is performing the Reposition action, add 1\" to its Move stat.\n "
+        },
+        {
+          "abilityId": "IMP-DKK-CON-A-SIC",
+          "opTypeId": "IMP-DKK-CON",
+          "abilityName": "Second In Command",
+          "description": "If a friendly WATCHMASTER operative is incapacitated and removed from the killzone, you can use this rule.\nIf you do, until the end of the battle, this operative can issue a GUARDSMAN ORDER as a STRATEGIC GAMBIT (even though it is not a WATCHMASTER operative)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-GNR",
+      "killteamId": "IMP-DKK",
+      "seq": 4,
+      "opTypeName": "Death Korps Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, GUNNER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-GNR-FL",
+          "opTypeId": "IMP-DKK-GNR",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-GNR-FL-0",
+              "wepId": "IMP-DKK-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-GNR-GL",
+          "opTypeId": "IMP-DKK-GNR",
+          "seq": 1,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-GNR-GL-0",
+              "wepId": "IMP-DKK-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DKK-GNR-GL-1",
+              "wepId": "IMP-DKK-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-GNR-MG",
+          "opTypeId": "IMP-DKK-GNR",
+          "seq": 2,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-GNR-MG-0",
+              "wepId": "IMP-DKK-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-GNR-PG",
+          "opTypeId": "IMP-DKK-GNR",
+          "seq": 3,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-GNR-PG-0",
+              "wepId": "IMP-DKK-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DKK-GNR-PG-1",
+              "wepId": "IMP-DKK-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-GNR-B",
+          "opTypeId": "IMP-DKK-GNR",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-GNR-B-0",
+              "wepId": "IMP-DKK-GNR-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DKK-MDC",
+      "killteamId": "IMP-DKK",
+      "seq": 5,
+      "opTypeName": "Death Korps Medic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, MEDIC",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-MDC-LG",
+          "opTypeId": "IMP-DKK-MDC",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-MDC-LG-0",
+              "wepId": "IMP-DKK-MDC-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-MDC-B",
+          "opTypeId": "IMP-DKK-MDC",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-MDC-B-0",
+              "wepId": "IMP-DKK-MDC-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-MDC-A-MDC",
+          "opTypeId": "IMP-DKK-MDC",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly DEATH KORPS operative would be incapacitated while visible to and within 3\" of this operative, you can use this rule,\r providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action.\rAfter that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "IMP-DKK-MDC-MDK",
+          "opTypeId": "IMP-DKK-MDC",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-SAP",
+      "killteamId": "IMP-DKK",
+      "seq": 6,
+      "opTypeName": "Death Korps Sapper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SAPPER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-SAP-LG",
+          "opTypeId": "IMP-DKK-SAP",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SAP-LG-0",
+              "wepId": "IMP-DKK-SAP-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-SAP-RD",
+          "opTypeId": "IMP-DKK-SAP",
+          "seq": 1,
+          "wepName": "Remote Detonator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SAP-RD-0",
+              "wepId": "IMP-DKK-SAP-RD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-SAP-B",
+          "opTypeId": "IMP-DKK-SAP",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SAP-B-0",
+              "wepId": "IMP-DKK-SAP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-SAP-A-ML",
+          "opTypeId": "IMP-DKK-SAP",
+          "abilityName": "Mine Layer",
+          "description": "This operative is carrying your Mine marker. It can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-SNP",
+      "killteamId": "IMP-DKK",
+      "seq": 7,
+      "opTypeName": "Death Korps Sniper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SNIPER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-SNP-LL",
+          "opTypeId": "IMP-DKK-SNP",
+          "seq": 0,
+          "wepName": "Long-Las",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SNP-LL-0",
+              "wepId": "IMP-DKK-SNP-LL",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DKK-SNP-LL-1",
+              "wepId": "IMP-DKK-SNP-LL",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-DKK-SNP-LL-2",
+              "wepId": "IMP-DKK-SNP-LL",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-SNP-B",
+          "opTypeId": "IMP-DKK-SNP",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SNP-B-0",
+              "wepId": "IMP-DKK-SNP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DKK-SPT",
+      "killteamId": "IMP-DKK",
+      "seq": 8,
+      "opTypeName": "Death Korps Spotter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, SPOTTER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-SPT-LG",
+          "opTypeId": "IMP-DKK-SPT",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SPT-LG-0",
+              "wepId": "IMP-DKK-SPT-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-SPT-MB",
+          "opTypeId": "IMP-DKK-SPT",
+          "seq": 1,
+          "wepName": "Mortar Barrage",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SPT-MB-0",
+              "wepId": "IMP-DKK-SPT-MB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-SPT-B",
+          "opTypeId": "IMP-DKK-SPT",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-SPT-B-0",
+              "wepId": "IMP-DKK-SPT-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-SPT-SPT",
+          "opTypeId": "IMP-DKK-SPT",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-TRP",
+      "killteamId": "IMP-DKK",
+      "seq": 9,
+      "opTypeName": "Death Korps Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, TROOPER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-TRP-LG",
+          "opTypeId": "IMP-DKK-TRP",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-TRP-LG-0",
+              "wepId": "IMP-DKK-TRP-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-TRP-B",
+          "opTypeId": "IMP-DKK-TRP",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-TRP-B-0",
+              "wepId": "IMP-DKK-TRP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-TRP-A-GA",
+          "opTypeId": "IMP-DKK-TRP",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly DEATH KORPS TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-VET",
+      "killteamId": "IMP-DKK",
+      "seq": 10,
+      "opTypeName": "Death Korps Veteran",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VETERAN",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-VET-LG",
+          "opTypeId": "IMP-DKK-VET",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-VET-LG-0",
+              "wepId": "IMP-DKK-VET-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-VET-BA",
+          "opTypeId": "IMP-DKK-VET",
+          "seq": 1,
+          "wepName": "Bionic Arm",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-VET-BA-0",
+              "wepId": "IMP-DKK-VET-BA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-VET-A-BIO",
+          "opTypeId": "IMP-DKK-VET",
+          "abilityName": "Bionics",
+          "description": "Normal Dmg of 3 or more inflicts 1 less damage on this operative."
+        },
+        {
+          "abilityId": "IMP-DKK-VET-A-VG",
+          "opTypeId": "IMP-DKK-VET",
+          "abilityName": "Veteran Guardsman",
+          "description": "Whenever this operative is activated, it can receive one GUARDSMAN ORDER."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-VOX",
+      "killteamId": "IMP-DKK",
+      "seq": 11,
+      "opTypeName": "Death Korps Vox-Operator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-VOX-LG",
+          "opTypeId": "IMP-DKK-VOX",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-VOX-LG-0",
+              "wepId": "IMP-DKK-VOX-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-VOX-B",
+          "opTypeId": "IMP-DKK-VOX",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-VOX-B-0",
+              "wepId": "IMP-DKK-VOX-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-VOX-A-RO",
+          "opTypeId": "IMP-DKK-VOX",
+          "abilityName": "Relay Orders",
+          "description": "Once per turning point, when this operative receives a GUARDSMAN ORDER, if it's not within control range of enemy operatives, it can relay that order.\nWhenever an order is relayed, all friendly DEATH KORPS operatives in the killzone receive that order, then subtract 1 from this operative's APL stat until the end of its next activation."
+        },
+        {
+          "abilityId": "IMP-DKK-VOX-SIG",
+          "opTypeId": "IMP-DKK-VOX",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DKK-ZLT",
+      "killteamId": "IMP-DKK",
+      "seq": 12,
+      "opTypeName": "Death Korps Zealot",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "DEATH KORPS, IMPERIUM, ASTRA MILITARUM, ZEALOT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-DKK-ZLT-LG",
+          "opTypeId": "IMP-DKK-ZLT",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-ZLT-LG-0",
+              "wepId": "IMP-DKK-ZLT-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DKK-ZLT-B",
+          "opTypeId": "IMP-DKK-ZLT",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DKK-ZLT-B-0",
+              "wepId": "IMP-DKK-ZLT-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DKK-ZLT-A-TEP",
+          "opTypeId": "IMP-DKK-ZLT",
+          "abilityName": "The Emperor Protects",
+          "description": "Whenever an operative is shooting this operative, you can re-roll any of your defence dice."
+        },
+        {
+          "abilityId": "IMP-DKK-ZLT-A-UP",
+          "opTypeId": "IMP-DKK-ZLT",
+          "abilityName": "Uplifting Primer",
+          "description": "**SUPPORT**\nWhenever a friendly DEATH KORPS operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,683 @@
+{
+  "factionId": "TAU",
+  "killteamId": "TAU-VESP",
+  "version": "June '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_vespid_stingwings-ky5h2gokob-sfyqxxchxd.pdf",
+  "killteamName": "Vespid Stingwings",
+  "description": "\"So swift and so deadly are the Mal'Kor, it is as though they fury of the D'Yangi moon tempests had swept the enemy away. I almost pity those who stand against them\"  \n\n*--Shas'o Vior'la Shem*",
+  "composition": "A VESPID STINGWINGS killteam is composed of:\n\n- 1 VESPID STINGWING STRAIN LEADER operative\n- 1 VESPID STINGWING OVERSIGHT DRONE operative\n- 9 VESPID STINGWING operatives selected from the following list:\n  - LONGSTING\n  - SHADESTRAIN\n  - SKYBLAST\n  - SWARMGUARD\n  - WARRIOR\n\nOther than WARRIOR operatives, your killteam can only include each operative above once.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "TAU-VESP-S-AA",
+      "killteamId": "TAU-VESP",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Aerial Agility",
+      "description": "Whenever an operative is shooting a friendly VESPID STINGWING operative while counteracting, or during an activation in which that shooting operative moved or was setup, roll 1D6 whenever a normal sucess would inflict damage.\nOn a 5+, ignore that inflicted damage. A maximum of one Attack Die can be ignored per shooting sequence."
+    },
+    {
+      "ployId": "TAU-VESP-S-AP",
+      "killteamId": "TAU-VESP",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Airborne Predators",
+      "description": "Whenever a friendly VESPID STINGWING operative moves or uses FLY, its weapons have the Balanced weapon rule until the end of that activation.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "TAU-VESP-S-HES",
+      "killteamId": "TAU-VESP",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Hardened Exoskeleton",
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting or retaliating, Normal Damage of 4 or more inflicts 1 less damage on it."
+    },
+    {
+      "ployId": "TAU-VESP-S-ST",
+      "killteamId": "TAU-VESP",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Sting",
+      "description": "Improve the Hit stat of friendly VESPID STINGWING operatives' claws by 1, and those weapons have the Lethal 5+ and Shock weapon rules."
+    },
+    {
+      "ployId": "TAU-VESP-T-VV",
+      "killteamId": "TAU-VESP",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Vicious Venom",
+      "description": "Use this Firefight Ploy when a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting and strikes with a critical success. Inflict D3 additional damage."
+    },
+    {
+      "ployId": "TAU-VESP-T-OCL",
+      "killteamId": "TAU-VESP",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Ocelli",
+      "description": "Use this Firefight Ploy when a friendly VESPID STINGWING operative performs the Shoot action during an activation in which it has used FLY.\r Until the end of that action, it gains all benefits from the first and second main features of Vantage terrain. When determining the height difference between operatives for Vantage terrain rules, treat that friendly operative as being 3\" higher than it currently is (but not when determining the distance for Communion)."
+    },
+    {
+      "ployId": "TAU-VESP-T-NO",
+      "killteamId": "TAU-VESP",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Neutron Overload",
+      "description": "Use this Firefight Ploy when you resolve a critical success for a friendly VESPID STINGWING operative that is shooting with a Neutron weapon during an activation in which it has moved or used FLY. If the target is within 4\" of it, inflict D3 additional damage."
+    },
+    {
+      "ployId": "TAU-VESP-T-DFL",
+      "killteamId": "TAU-VESP",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Darting Flight",
+      "description": "Use this Firefight Ploy when a friendly VESPID STINGWING operative performs the Reposition action. Until the end of that action, it can move an additional D3\", or be set up an additional D3\" away if it uses FLY. In either case, it cannot perform Fight or Shoot actions for the rest of the Turning Point."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TAU-VESP-NS",
+      "killteamId": "TAU-VESP",
+      "seq": 1,
+      "eqName": "Neurostimulant",
+      "description": "In the Ready step of each Strategy phase, when determining how many Communion points to gain, you can roll two D3 and select one D3 to use.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-VESP-AGS",
+      "killteamId": "TAU-VESP",
+      "seq": 2,
+      "eqName": "Aggression Stimulant",
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting, its melee weapons have the Ceaseless weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-VESP-AS",
+      "killteamId": "TAU-VESP",
+      "seq": 2,
+      "eqName": "Accelerant Stimulant",
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) performs the Charge or Dash action, it can move an additional 1\". If it uses FLY for this action, you can set it back up 1\" further away.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-VESP-CS",
+      "killteamId": "TAU-VESP",
+      "seq": 2,
+      "eqName": "Convergence Stimulant",
+      "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-VESP-TA-NECH",
+      "abilityName": "Neutron Charge",
+      "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
+    },
+    {
+      "abilityId": "TAU-VESP-TA-CO",
+      "abilityName": "Communion",
+      "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
+    },
+    {
+      "abilityId": "TAU-VESP-TA-FL",
+      "abilityName": "Fly",
+      "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TAU-VESP-VSL",
+      "killteamId": "TAU-VESP",
+      "seq": 0,
+      "opTypeName": "Vespid Strain Leader",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, STRAIN, LEADER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-VSL-NB",
+          "opTypeId": "TAU-VESP-VSL",
+          "seq": 0,
+          "wepName": "Neutron Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSL-NB-0",
+              "wepId": "TAU-VESP-VSL-NB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VSL-C",
+          "opTypeId": "TAU-VESP-VSL",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSL-C-0",
+              "wepId": "TAU-VESP-VSL-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-VSL-A-CH",
+          "opTypeId": "TAU-VESP-VSL",
+          "abilityName": "Communion Helm",
+          "description": "Once during each of this operative's activations, you can spend one Communion Point for free."
+        },
+        {
+          "abilityId": "TAU-VESP-VSL-A-COM",
+          "opTypeId": "TAU-VESP-VSL",
+          "abilityName": "Commune",
+          "description": "When selecting your operatives for the battle, also select one VESPID STINGWING Strategy Ploy. Whenever this operative is in the killzone and not within control range of an enemy operative, that Ploy costs you 0CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-VESP-OSD",
+      "killteamId": "TAU-VESP",
+      "seq": 1,
+      "opTypeName": "Oversight Drone",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "2+",
+      "WOUNDS": 5,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, OVERSIGHT, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-OSD-RAM",
+          "opTypeId": "TAU-VESP-OSD",
+          "seq": 0,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-OSD-RAM-0",
+              "wepId": "TAU-VESP-OSD-RAM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-OSD-A-EDR",
+          "opTypeId": "TAU-VESP-OSD",
+          "abilityName": "Evasive Drone",
+          "description": "\r - This operative cannot perform any action other than Aerial Guidance, Charge, Dash, Fall Back, Fight, or Reposition.\r - Whenever determining control of objective markers, treat this operative's APL stat as 1 lower.\r - Whenever determining what is Visible To this operative, the round disc at the top of the miniature is its head.\r - Whenever this operative has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\r "
+        },
+        {
+          "abilityId": "TAU-VESP-OSD-AG",
+          "opTypeId": "TAU-VESP-OSD",
+          "abilityName": "Aerial Guidance",
+          "AP": 1,
+          "description": "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-VESP-VLS",
+      "killteamId": "TAU-VESP",
+      "seq": 2,
+      "opTypeName": "Vespid Longsting",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, LONGSTING",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-VLS-NRR",
+          "opTypeId": "TAU-VESP-VLS",
+          "seq": 0,
+          "wepName": "Neutron Rail Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VLS-NRR-0",
+              "wepId": "TAU-VESP-VLS-NRR",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-TAU-VESP-NEUTRON"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-VESP-VLS-NRR-1",
+              "wepId": "TAU-VESP-VLS-NRR",
+              "seq": 1,
+              "profileName": "Aimed",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-TAU-VESP-NEUTRON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VLS-C",
+          "opTypeId": "TAU-VESP-VLS",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VLS-C-0",
+              "wepId": "TAU-VESP-VLS-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "TAU-VESP-VSS",
+      "killteamId": "TAU-VESP",
+      "seq": 3,
+      "opTypeName": "Vespid Shadestrain",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, SHADESTRAIN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-VSS-NS",
+          "opTypeId": "TAU-VESP-VSS",
+          "seq": 0,
+          "wepName": "Neutron Sting",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSS-NS-0",
+              "wepId": "TAU-VESP-VSS-NS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VSS-NG",
+          "opTypeId": "TAU-VESP-VSS",
+          "seq": 1,
+          "wepName": "Neutron Grenade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSS-NG-0",
+              "wepId": "TAU-VESP-VSS-NG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VSS-C",
+          "opTypeId": "TAU-VESP-VSS",
+          "seq": 2,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSS-C-0",
+              "wepId": "TAU-VESP-VSS-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-VSS-A-CAM",
+          "opTypeId": "TAU-VESP-VSS",
+          "abilityName": "Camouflaged",
+          "description": "Whenever an operative is shooting this operative, ignore the Piercing weapon rule and all Cover saves are retained as critical successes. This rule has no effect if this operative is not selected as the valid target, e.g. if it is a secondary target from the Blast weapon rule."
+        },
+        {
+          "abilityId": "TAU-VESP-VSS-A-GR",
+          "opTypeId": "TAU-VESP-VSS",
+          "abilityName": "Ghost Rig",
+          "description": "While this operative has a Conceal order, your opponent cannot select it as a valid target unless it is within 6\" of the operative trying to target it. Note that this rule has no effect if this operative is not selected as the valid target, e.g. if it is a secondary target from the Blast weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-VESP-VSB",
+      "killteamId": "TAU-VESP",
+      "seq": 4,
+      "opTypeName": "Vespid Skyblast",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, SKYBLAST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-VSB-NGL",
+          "opTypeId": "TAU-VESP-VSB",
+          "seq": 0,
+          "wepName": "Neutron Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSB-NGL-0",
+              "wepId": "TAU-VESP-VSB-NGL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-TAU-VESP-NEUTRONB"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VSB-C",
+          "opTypeId": "TAU-VESP-VSB",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSB-C-0",
+              "wepId": "TAU-VESP-VSB-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-VSB-A-NF",
+          "opTypeId": "TAU-VESP-VSB",
+          "abilityName": "Neutron Fallout",
+          "description": "Once during each enemy operative's activation, as soon as it is within 2\" of one of your Neutron Fallout markers, inflict 1D3 damage on it (multiple markers are not cumulative)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-VESP-VSG",
+      "killteamId": "TAU-VESP",
+      "seq": 5,
+      "opTypeName": "Vespid Swarmguard",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, SWARMGUARD",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-VSG-FL",
+          "opTypeId": "TAU-VESP-VSG",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSG-FL-0",
+              "wepId": "TAU-VESP-VSG-FL",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-VESP-VSG-FL-1",
+              "wepId": "TAU-VESP-VSG-FL",
+              "seq": 1,
+              "profileName": "Skytorch",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-TAU-VESP-SKYTORCH"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-VSG-C",
+          "opTypeId": "TAU-VESP-VSG",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-VSG-C-0",
+              "wepId": "TAU-VESP-VSG-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-VSG-ST",
+          "opTypeId": "TAU-VESP-VSG",
+          "abilityName": "Skytorch Assault",
+          "AP": 2,
+          "description": "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-VESP-WAR",
+      "killteamId": "TAU-VESP",
+      "seq": 6,
+      "opTypeName": "Vespid Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "VESPID STINGWING, T'AU EMPIRE, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-VESP-WAR-NB",
+          "opTypeId": "TAU-VESP-WAR",
+          "seq": 0,
+          "wepName": "Neutron Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-WAR-NB-0",
+              "wepId": "TAU-VESP-WAR-NB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-VESP-WAR-C",
+          "opTypeId": "TAU-VESP-WAR",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-VESP-WAR-C-0",
+              "wepId": "TAU-VESP-WAR-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-VESP-WAR-A-WI",
+          "opTypeId": "TAU-VESP-WAR",
+          "abilityName": "Warrior Instincts",
+          "description": "Whenever this operative is shooting, if you do not spend Communion points during that sequence, its Neutron Blaster has the Accurate 1 weapon rule until the end of that sequence."
+        }
+      ]
+    }
+  ]
+}

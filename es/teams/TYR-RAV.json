@@ -1,0 +1,676 @@
+{
+  "factionId": "TYR",
+  "killteamId": "TYR-RAV",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_raveners-xxitloe7cr-ek2wvejuci.pdf",
+  "killteamName": "Raveners",
+  "description": "Ravener kill teams are hyperadapted to such an extent that they are able to overcome all manner of a prey species' defences. Driven by alien synaptic imperatives, Raveners burrow with horrific speed to strike at prey from vulnerable angles, before using razor-sharp talons, chitinous claws and virulent biotoxins to enact the Hive Mind's will.",
+  "composition": "A RAVENERS KillTeam  is composed of:\n\n- 1 RAVENER PRIME\n- 4 RAVENER operatives selected from the following list:\n  - FELLTALON\n  - TREMORSCYTHE\n  - VENOMSPITTER\n  - WARRIOR\n  - WRECKER\n\nOther than WARRIOR operatives, your KillTeam can only include each operative on this list once.",
+  "archetypes": [
+    "Seek & Destroy",
+    "Infiltration"
+  ],
+  "ploys": [
+    {
+      "ployId": "TYR-RAV-S-TL",
+      "killteamId": "TYR-RAV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Tunnel Lurkers",
+      "description": "Whenever a friendly RAVENER operative is on your TUNNEL it's in cover, unless it's within 2\" of the active operative. Treat this as cover provided by Light terrain (therefore it's affected by rules that prevent this, e.g. Seek Light and Vantage terrain)."
+    },
+    {
+      "ployId": "TYR-RAV-S-WOOS",
+      "killteamId": "TYR-RAV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Writhe Out Of Sight",
+      "description": "Select one friendly RAVENER operative in the killzone. That friendly operative can immediately perform a free Burrow action. If it's within 2\" of your TUNNEL, it can immediately perform a free Fall Back or Reposition action before it does so."
+    },
+    {
+      "ployId": "TYR-RAV-S-WCE",
+      "killteamId": "TYR-RAV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Whipcord Emergence",
+      "description": "Whenever an operative is shooting a friendly RAVENER operative:\n\n- f that friendly operative has performed the Burrow action during that turning point, you can re-roll one of your defence dice.\n- f that friendly operative is on your TUNNEL, you can re-roll any of your defence dice.\n"
+    },
+    {
+      "ployId": "TYR-RAV-S-DFB",
+      "killteamId": "TYR-RAV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Death From Below",
+      "description": "Whenever a friendly RAVENER operative is fighting:\n\n- If it's performed the Burrow action during that activation/counteraction, its melee weapons have the Balanced weapon rule.\n- If it's on your TUNNEL, its melee weapons have the Ceaseless weapon rule.\n"
+    },
+    {
+      "ployId": "TYR-RAV-T-STH",
+      "killteamId": "TYR-RAV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Subterranean Horror",
+      "description": "Use this firefight ploy when an enemy operative is performing the Fight action and selects a friendly RAVENER operative on your TUNNEL to fight against.\nIn the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e. defender instead of attacker)."
+    },
+    {
+      "ployId": "TYR-RAV-T-SE",
+      "killteamId": "TYR-RAV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Slithering Evasion",
+      "description": "Use this firefight ploy during a friendly RAVENER operative's activation or counteraction, before or after it performs an action. During that activation/ counteraction, that operative can:\n\n- Perform the Fall Back action for 1 less AP.\n- Perform the Charge action while within control range of an enemy operative, and can leave that operative's control range to do so (but then normal requirements for that move apply).\n"
+    },
+    {
+      "ployId": "TYR-RAV-T-DF",
+      "killteamId": "TYR-RAV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Death Frenzy",
+      "description": "Use this firefight ploy when a friendly RAVENER operative is incapacitated. Before that operative is removed from the killzone, inflict D3 damage on each enemy operative within its control range (roll separately for each).\nIf that friendly operative is a VENOMSPITTER that's currently benefitting from the effects of its Distend Dorsal Sac action, inflict 2D3 damage instead."
+    },
+    {
+      "ployId": "TYR-RAV-T-BS",
+      "killteamId": "TYR-RAV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Burrowing Strike",
+      "description": "Use this firefight ploy when a friendly RAVENER operative performs the Burrow action. Before that operative is removed from the killzone, or after setting it up on your TUNNEL, inflict D3+1 damage on each enemy operative within its control range (roll separately for each).\nYou cannot use this ploy in the Strategy phase, or during a FELLTALON operative's activation or counteraction if it performs the Toxic Lunge action (and vice versa)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TYR-RAV-CPC",
+      "killteamId": "TYR-RAV",
+      "seq": 1,
+      "eqName": "Chromatospore Camouflage",
+      "description": "Whenever an operative is shooting a friendly RAVENER operative, if you can retain any cover saves, you can retain one additional cover save. This isn't cumulative with improved cover saves from Vantage terrain.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-RAV-AB",
+      "killteamId": "TYR-RAV",
+      "seq": 2,
+      "eqName": "Acid Blood",
+      "description": "Whenever a friendly RAVENER operative is fighting or retaliating, whenever an attack dice inflicts damage on it, roll one D6: on a 5+, inflict 1 damage on the enemy operative in that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-RAV-MMF",
+      "killteamId": "TYR-RAV",
+      "seq": 3,
+      "eqName": "Metamorphic Flesh",
+      "description": "Whenever a friendly RAVENER operative is activated, it regains up to D3 lost wounds.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-RAV-HS",
+      "killteamId": "TYR-RAV",
+      "seq": 4,
+      "eqName": "Heightened Senses",
+      "description": "Once per battle, after rolling off to decide initiative, if a friendly RAVENER operative is underground and an enemy operative is within 5\" of your TUNNEL, you can re-roll your dice.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-RAV-TA-BU",
+      "abilityName": "Burrow",
+      "AP": 1,
+      "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
+    },
+    {
+      "abilityId": "TYR-RAV-TA-PRIN",
+      "abilityName": "Predatory Instincts",
+      "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
+    },
+    {
+      "abilityId": "TYR-RAV-TA-TU",
+      "abilityName": "Tunnel",
+      "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TYR-RAV-PRM",
+      "killteamId": "TYR-RAV",
+      "seq": 1,
+      "opTypeName": "Ravener Prime",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 21,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, LEADER, PRIME",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-PRM-TB",
+          "opTypeId": "TYR-RAV-PRM",
+          "seq": 1,
+          "wepName": "Tail Blade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-PRM-TB-1",
+              "wepId": "TYR-RAV-PRM-TB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-PRM-STRC",
+          "opTypeId": "TYR-RAV-PRM",
+          "seq": 2,
+          "wepName": "Scything Talons & Rending Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-PRM-STRC-1",
+              "wepId": "TYR-RAV-PRM-STRC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-PRM-A-NPC",
+          "opTypeId": "TYR-RAV-PRM",
+          "abilityName": "Neuropredatory Crest",
+          "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative.\nNote this isn't a change to the APL stat, so any changes are cumulative with this. Whenever an enemy operative is within 3\" of this operative:\n\n- Your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Your opponent cannot re-roll their attack or defence dice for that operative.\n"
+        },
+        {
+          "abilityId": "TYR-RAV-PRM-A-SL",
+          "opTypeId": "TYR-RAV-PRM",
+          "abilityName": "Synaptic Link",
+          "description": "STRATEGIC GAMBIT if this operative isn't incapacitated.  \n\nRoll one D6 and compare the result to the number of the current turning point; if the result is:\n\n- Twice as high or higher, you gain 1CP.\n- Less: inflict damage on this operative equal to the result.\n\n- Any other result, nothing happens.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-RAV-FTL",
+      "killteamId": "TYR-RAV",
+      "seq": 2,
+      "opTypeName": "Ravener Felltalon",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 20,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, FELLTALON",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-FTL-PT",
+          "opTypeId": "TYR-RAV-FTL",
+          "seq": 1,
+          "wepName": "Pincer Tail",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-FTL-PT-1",
+              "wepId": "TYR-RAV-FTL-PT",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-FTL-TG",
+          "opTypeId": "TYR-RAV-FTL",
+          "seq": 2,
+          "wepName": "Toxic Glands",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-FTL-TG-1",
+              "wepId": "TYR-RAV-FTL-TG",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-FTL-TS",
+          "opTypeId": "TYR-RAV-FTL",
+          "seq": 3,
+          "wepName": "Toxic Scythes",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-FTL-TS-1",
+              "wepId": "TYR-RAV-FTL-TS",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-FTL-A-PSN",
+          "opTypeId": "TYR-RAV-FTL",
+          "abilityName": "*Poison",
+          "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+        },
+        {
+          "abilityId": "TYR-RAV-FTL-TL",
+          "opTypeId": "TYR-RAV-FTL",
+          "abilityName": "Toxic Lunge",
+          "AP": 1,
+          "description": "\n- Select one enemy operative within 2\" of this operative. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).\n- This operative can perform this action while underground (this takes precedence over the normal Burrow rules).\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-RAV-TRS",
+      "killteamId": "TYR-RAV",
+      "seq": 3,
+      "opTypeName": "Ravener Tremorscythe",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 20,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, TREMORSCYTHE",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-TRS-PT",
+          "opTypeId": "TYR-RAV-TRS",
+          "seq": 1,
+          "wepName": "Pincer Tail",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-TRS-PT-1",
+              "wepId": "TYR-RAV-TRS-PT",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-TRS-ST",
+          "opTypeId": "TYR-RAV-TRS",
+          "seq": 2,
+          "wepName": "Scything Talons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-TRS-ST-1",
+              "wepId": "TYR-RAV-TRS-ST",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-TRS-A-HSH",
+          "opTypeId": "TYR-RAV-TRS",
+          "abilityName": "Hypersensory Hunter",
+          "description": "This operative can perform the Charge action while it has a Conceal order if it performed the Burrow action during the same activation/ counteraction."
+        },
+        {
+          "abilityId": "TYR-RAV-TRS-A-STA",
+          "opTypeId": "TYR-RAV-TRS",
+          "abilityName": "Subterranean Ambush",
+          "description": "Once per turning point, after an enemy operative performs an action in\nwhich it moves more than 2\" and ends within 2\" of your TUNNEL, if this operative is underground\nand is either ready or hasn't counteracted during this turning point, you can interrupt that enemy\noperative's activation/counteraction to use this rule.  \n\nIf you do, activate or counteract with this operative (as appropriate), but during its activation/\ncounteraction it must fight against or shoot against that enemy operative, and cannot do so\nagainst any other enemy operatives until it does (if this isn't possible, this operative's activation/\ncounteraction is cancelled and this rule hasn't been used). After completing this operative's\nactivation/counteraction, continue that enemy operative's activation/counteraction (if possible)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-RAV-VSP",
+      "killteamId": "TYR-RAV",
+      "seq": 4,
+      "opTypeName": "Ravener Venomspitter",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 20,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, VENOMSPITTER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-VSP-PT",
+          "opTypeId": "TYR-RAV-VSP",
+          "seq": 1,
+          "wepName": "Pincer Tail",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-VSP-PT-1",
+              "wepId": "TYR-RAV-VSP-PT",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-VSP-VB",
+          "opTypeId": "TYR-RAV-VSP",
+          "seq": 2,
+          "wepName": "Venom Blast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-VSP-VB-1",
+              "wepId": "TYR-RAV-VSP-VB",
+              "seq": 1,
+              "profileName": "Blast",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-RAV-VSP-VB-2",
+              "wepId": "TYR-RAV-VSP-VB",
+              "seq": 2,
+              "profileName": "Focused",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-VSP-ST",
+          "opTypeId": "TYR-RAV-VSP",
+          "seq": 3,
+          "wepName": "Scything Talons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-VSP-ST-1",
+              "wepId": "TYR-RAV-VSP-ST",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-VSP-A-PSN",
+          "opTypeId": "TYR-RAV-VSP",
+          "abilityName": "*Poison",
+          "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+        },
+        {
+          "abilityId": "TYR-RAV-VSP-DDS",
+          "opTypeId": "TYR-RAV-VSP",
+          "abilityName": "Distended Dorsal Sac",
+          "AP": 1,
+          "description": "Until this operative has shot with its venom bolt or until it performs the Burrow action (whichever comes first), all profiles of its venom bolt have the Lethal 5+ weapon rule, have 1 added to their Atk stat and the Range 8\" weapon rule removed."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-RAV-WAR",
+      "killteamId": "TYR-RAV",
+      "seq": 5,
+      "opTypeName": "Ravener Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 20,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WARRIOR",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-WAR-PT",
+          "opTypeId": "TYR-RAV-WAR",
+          "seq": 1,
+          "wepName": "Pincer Tail",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-WAR-PT-1",
+              "wepId": "TYR-RAV-WAR-PT",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-WAR-ST",
+          "opTypeId": "TYR-RAV-WAR",
+          "seq": 2,
+          "wepName": "Scything Talons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-WAR-ST-1",
+              "wepId": "TYR-RAV-WAR-ST",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-WAR-A-IB",
+          "opTypeId": "TYR-RAV-WAR",
+          "abilityName": "Instinctive Behaviour",
+          "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, or an enemy operative that performed the Fall Back action during this turning point, this operative's weapons have the Lethal 5+ weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-RAV-WRK",
+      "killteamId": "TYR-RAV",
+      "seq": 6,
+      "opTypeName": "Ravener Wrecker",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 20,
+      "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WRECKER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "TYR-RAV-WRK-BM",
+          "opTypeId": "TYR-RAV-WRK",
+          "seq": 1,
+          "wepName": "Bone Mace",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-WRK-BM-1",
+              "wepId": "TYR-RAV-WRK-BM",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-RAV-WRK-STCC",
+          "opTypeId": "TYR-RAV-WRK",
+          "seq": 2,
+          "wepName": "Scything Talons & Crushing Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-RAV-WRK-STCC-1",
+              "wepId": "TYR-RAV-WRK-STCC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-TYR-RAV-CRUSH"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-RAV-WRK-A-RIC",
+          "opTypeId": "TYR-RAV-WRK",
+          "abilityName": "Reinforced Carapace",
+          "description": "Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative."
+        }
+      ]
+    }
+  ]
+}

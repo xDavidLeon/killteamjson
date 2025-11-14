@@ -1,0 +1,1763 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-HC",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_hunter_clade-lskv24wuji-e3mudbrre9.pdf",
+  "killteamName": "Hunter Clade",
+  "description": "To the techno-zealots of the Adeptus Mechanicus, the galaxy is a complex mechanism, its workings the creation of\ntheir Machine God. They see the acquisition of knowledge as holy work, and task their cybernetically altered servants\nwith carrying it out, no matter the cost.",
+  "composition": "A HUNTER CLADE killteam is composed of:\r \r - 1 HUNTER CLADE operative selected from the following list:\r   - SICARIAN INFILTRATOR PRINCEPS with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER PRINCEPS\r   - SKITARII RANGER ALPHA with one of the following options:\r     - Galvanic rifle; gun butt\r       - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r   - SKITARII VANGUARD ALPHA with one of the following options:\r     - Radium carbine; gun butt\r     - Master-crafted radium pistol; power weapon  \r     Or one option from each of the following:\r     - Arc pistol or phosphor blast pistol\r     - Arc maul or taser goad\r - 9 HUNTER CLADE operatives selected from the following list:\r   - SICARIAN INFILTRATOR WARRIOR* with one option from each of the following:\r     - Flechette blaster or stubcarbine\r     - Power weapon or taser goad\r   - SICARIAN RUSTSTALKER WARRIOR* with one of the following options:\r     - Chordclaw & transonic razor\r     - Transonic blades\r   - SKITARII RANGER DIKTAT\r   - SKITARII RANGER GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus\r   - SKITARII RANGER SURVEYOR\r   - SKITARII RANGER WARRIOR\r   - SKITARII VANGUARD DIKTAT\r   - SKITARII VANGUARD GUNNER* with gun butt and one of the following options:\r     - Arc rifle, plasma caliver or transuranic arquebus    \r   - SKITARII VANGUARD SURVEYOR\r   - SKITARII VANGUARD WARRIOR\r \r \r *You cannot select more than 7 of these operatives combined.  \r \r Other than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.\r Your kill team can only include up to one DIKTAT operative, up to one SURVEYOR operative and up to five SICARIAN operatives.  \r \r Your kill team can only include up to one arc rifle, up to one plasma caliver and up to one transuranic arquebus.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-HC-S-AA",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Accelerant Agents",
+      "description": "During each friendly HUNTER CLADE RUSTSTALKER operative's activation, it can perform two Fight actions, and one of them can be free."
+    },
+    {
+      "ployId": "IMP-HC-S-DI",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Debilitating Irradiation",
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly HUNTER CLADE VANGUARD operative, if that enemy operative is under the effects of the Rad-Saturation rule\n(see VANGUARD operatives), subtract 1 from the Normal Dmg stat of its weapons (to a minimum of 3)."
+    },
+    {
+      "ployId": "IMP-HC-S-NSI",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Neurostatic Interference",
+      "description": "Whenever an enemy operative within 6\" of a friendly HUNTER CLADE INFILTRATOR operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
+    },
+    {
+      "ployId": "IMP-HC-S-SP",
+      "killteamId": "IMP-HC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Scouting Protocol",
+      "description": "Each friendly HUNTER CLADE RANGER operative that has a Conceal order and is more than 6\" from enemy operatives can immediately perform a free Dash action in an order of your choice. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-HC-T-CE",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Control Edict",
+      "description": "Use this firefight ploy when it's your turn to activate a friendly operative. Select one friendly HUNTER CLADE LEADER operative and one other ready friendly HUNTER CLADE operative visible to and within 3\" of that LEADER operative;\nactivate one of them as normal. When that first friendly operative you activate is expended, you can activate the other friendly operative before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal. Whenever you use this ploy, you cannot select more than one HUNTER CLADE SICARIAN operative."
+    },
+    {
+      "ployId": "IMP-HC-T-COR",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Command Override",
+      "description": "Use this firefight ploy when you activate a friendly HUNTER CLADE operative. Select a DOCTRINA IMPERATIVE for that operative to have instead of its current one (if any) until the Ready step of the next Strategy phase."
+    },
+    {
+      "ployId": "IMP-HC-T-OI",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Omnissiah's Imperative",
+      "description": "Use this firefight ploy during a friendly HUNTER CLADE operative's activation. Alternatively, use it when an enemy operative is shooting a friendly HUNTER CLADE operative, at the end of the Roll Attack Dice step. Until the Ready step of the next Strategy phase, that friendly operative has an additional rule determined by its current DOCTRINA IMPERATIVE as follows:\r <uL>\r - **Protector:** This operative's ranged weapons have the Severe weapon rule.\r - **Conqueror:** Whenever this operative is fighting, after resolving your first attack dice during that sequence, you can immediately resolve another (before your opponent).\r - **Bulwark: Improve this operative's Save stat by 1. In addition, whenever an operative is shooting this operative, you can collect and roll an additional defence dice. If you use this ploy during a Shoot action, this operative's Save stat is changed immediately (this takes precedence over the core rules).\r - **Aggressor: You can ignore the first vertical distance of 2\" this operative moves during one climb up.\r - **Neutral: None.\r \r Note that you can use this ploy after rolling attack or defence dice for this operative, or before or after retaining or re-rolling those dice."
+    },
+    {
+      "ployId": "IMP-HC-T-SCO",
+      "killteamId": "IMP-HC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Scrap Code Overload",
+      "description": "Use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative is activated. Alternatively, use this firefight ploy when a friendly HUNTER CLADE INFILTRATOR operative, or an enemy operative within 3\" of that friendly\noperative, would perform the Pick Up Marker or a mission action (excluding Operate Hatch). Until the start of that friendly operative's next activation, whenever determining control of a marker, treat the total APL stat of enemy\noperatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of that friendly operative. Note this isn't a change to the APL stat, so any changes are cumulative with this, and this can change control of a marker before performing the action."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-HC-RB",
+      "killteamId": "IMP-HC",
+      "seq": 1,
+      "eqName": "Rad Bombardment",
+      "description": "Once per battle STRATEGIC GAMBIT in any turning point after the first. Select one objective marker or your opponent's drop zone.\nRoll one D6 separately for each enemy operative within control range of that selected objective marker or within that drop zone, and subtract 1 if any part of that enemy operative's base is underneath Vantage terrain:  \n\non a 4+, subtract 1 from that operative's APL stat until the end of its next activation;  \n\non a 6, also inflict D3 damage on it (roll separately for each).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-RS",
+      "killteamId": "IMP-HC",
+      "seq": 2,
+      "eqName": "Redundancy Systems",
+      "description": "Once per turning point, when a friendly HUNTER CLADE operative is activated, if it's not within control range of enemy operatives, you can use this rule.\nIf you do, that friendly operative regains up to D3+2 lost wounds.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-RF",
+      "killteamId": "IMP-HC",
+      "seq": 3,
+      "eqName": "Refractor Field",
+      "description": "Once per turning point, when an operative is shooting a friendly HUNTER CLADE operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-HC-EML",
+      "killteamId": "IMP-HC",
+      "seq": 4,
+      "eqName": "Extremis Mind-Link",
+      "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-HC-TA-DOIM",
+      "abilityName": "Doctrina Imperatives",
+      "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-HC-SRSP",
+      "killteamId": "IMP-HC",
+      "seq": 1,
+      "opTypeName": "Sicarian Ruststalker Princeps",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 11,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, RUSTSTALKER, PRINCEPS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRSP-CCATB",
+          "opTypeId": "IMP-HC-SRSP",
+          "seq": 0,
+          "wepName": "Chordclaw & Transonic Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRSP-CCATB-0",
+              "wepId": "IMP-HC-SRSP-CCATB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRSP-A-COD",
+          "opTypeId": "IMP-HC-SRSP",
+          "abilityName": "Canticle Of Destruction",
+          "description": "Whenever a friendly HUNTER CLADE RUSTSTALKER operative within 3\" of this operative is fighting, the first time you strike with a critical success during that sequence, inflict 1 additional damage."
+        },
+        {
+          "abilityId": "IMP-HC-SRSP-A-CP",
+          "opTypeId": "IMP-HC-SRSP",
+          "abilityName": "Control Protocol",
+          "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
+        },
+        {
+          "abilityId": "IMP-HC-SRSP-A-WS",
+          "opTypeId": "IMP-HC-SRSP",
+          "abilityName": "Wasteland Stalker",
+          "description": "Whenever an operative is shooting this operative, if you\ncan retain any cover saves, you can retain one additional cover save, or you\ncan retain one cover save as a critical success instead. This isn't cumulative\nwith improved cover saves from Vantage terrain."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SIP",
+      "killteamId": "IMP-HC",
+      "seq": 2,
+      "opTypeName": "Sicarian Infiltrator Princeps",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 11,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, INFILTRATOR, PRINCEPS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SIP-FB",
+          "opTypeId": "IMP-HC-SIP",
+          "seq": 0,
+          "wepName": "Flechette Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIP-FB-0",
+              "wepId": "IMP-HC-SIP-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIP-SC",
+          "opTypeId": "IMP-HC-SIP",
+          "seq": 1,
+          "wepName": "Stubcarbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIP-SC-0",
+              "wepId": "IMP-HC-SIP-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIP-PW",
+          "opTypeId": "IMP-HC-SIP",
+          "seq": 2,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIP-PW-0",
+              "wepId": "IMP-HC-SIP-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIP-TG",
+          "opTypeId": "IMP-HC-SIP",
+          "seq": 3,
+          "wepName": "Taser Goad",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIP-TG-0",
+              "wepId": "IMP-HC-SIP-TG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SIP-A-COS",
+          "opTypeId": "IMP-HC-SIP",
+          "abilityName": "Canticle Of Shroudpsalm",
+          "description": "Whenever a friendly HUNTER CLADE INFILTRATOR operative is within 3\" of this operative, has a Conceal order and is in cover, that friendly operative cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+        },
+        {
+          "abilityId": "IMP-HC-SIP-A-CP",
+          "opTypeId": "IMP-HC-SIP",
+          "abilityName": "Control Protocol",
+          "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SRGA",
+      "killteamId": "IMP-HC",
+      "seq": 3,
+      "opTypeName": "Skitarii Ranger Alpha",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, RANGER, ALPHA",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRGA-AP",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 0,
+          "wepName": "Arc Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-AP-0",
+              "wepId": "IMP-HC-SRGA-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-GR",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 1,
+          "wepName": "Galvanic Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-GR-0",
+              "wepId": "IMP-HC-SRGA-GR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-MCRP",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 2,
+          "wepName": "Master-Crafted Radium Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-MCRP-0",
+              "wepId": "IMP-HC-SRGA-MCRP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-PBP",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 3,
+          "wepName": "Phosphor Blast Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-PBP-0",
+              "wepId": "IMP-HC-SRGA-PBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-AM",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 4,
+          "wepName": "Arc Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-AM-0",
+              "wepId": "IMP-HC-SRGA-AM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-GB",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 5,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-GB-0",
+              "wepId": "IMP-HC-SRGA-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-PW",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-PW-0",
+              "wepId": "IMP-HC-SRGA-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGA-TG",
+          "opTypeId": "IMP-HC-SRGA",
+          "seq": 7,
+          "wepName": "Taser Goad",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGA-TG-0",
+              "wepId": "IMP-HC-SRGA-TG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRGA-A-COE",
+          "opTypeId": "IMP-HC-SRGA",
+          "abilityName": "Canticle Of Elimination",
+          "description": "Whenever a friendly HUNTER CLADE RANGER operative is within 3\" of this operative, that friendly operative's ranged weapons have the Punishing weapon rule."
+        },
+        {
+          "abilityId": "IMP-HC-SRGA-A-CP",
+          "opTypeId": "IMP-HC-SRGA",
+          "abilityName": "Control Protocol",
+          "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
+        },
+        {
+          "abilityId": "IMP-HC-SRGA-A-TP",
+          "opTypeId": "IMP-HC-SRGA",
+          "abilityName": "Targeting Protocol",
+          "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SVA",
+      "killteamId": "IMP-HC",
+      "seq": 4,
+      "opTypeName": "Skitarii Vanguard Alpha",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, VANGUARD, ALPHA",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SVA-AP",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 0,
+          "wepName": "Arc Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-AP-0",
+              "wepId": "IMP-HC-SVA-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-MCRP",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 1,
+          "wepName": "Master-Crafted Radium Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-MCRP-0",
+              "wepId": "IMP-HC-SVA-MCRP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-PBP",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 2,
+          "wepName": "Phosphor Blast Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-PBP-0",
+              "wepId": "IMP-HC-SVA-PBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-RC",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 3,
+          "wepName": "Radium Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-RC-0",
+              "wepId": "IMP-HC-SVA-RC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-AM",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 4,
+          "wepName": "Arc Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-AM-0",
+              "wepId": "IMP-HC-SVA-AM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-GB",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 5,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-GB-0",
+              "wepId": "IMP-HC-SVA-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-PW",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-PW-0",
+              "wepId": "IMP-HC-SVA-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVA-TG",
+          "opTypeId": "IMP-HC-SVA",
+          "seq": 7,
+          "wepName": "Taser Goad",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVA-TG-0",
+              "wepId": "IMP-HC-SVA-TG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SVA-A-COG",
+          "opTypeId": "IMP-HC-SVA",
+          "abilityName": "Canticle Of The Glow",
+          "description": "Whenever an enemy operative is within 3\" of this operative, if it is under the effects of the Rad-Saturation rule, also subtract 1 from the Atk stat of that enemy operative's weapons."
+        },
+        {
+          "abilityId": "IMP-HC-SVA-A-CP",
+          "opTypeId": "IMP-HC-SVA",
+          "abilityName": "Control Protocol",
+          "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
+        },
+        {
+          "abilityId": "IMP-HC-SVA-A-RS",
+          "opTypeId": "IMP-HC-SVA",
+          "abilityName": "Rad-Saturation",
+          "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SIW",
+      "killteamId": "IMP-HC",
+      "seq": 5,
+      "opTypeName": "Sicarian Infiltrator Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, INFILTRATOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SIW-FB",
+          "opTypeId": "IMP-HC-SIW",
+          "seq": 0,
+          "wepName": "Flechette Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIW-FB-0",
+              "wepId": "IMP-HC-SIW-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIW-SC",
+          "opTypeId": "IMP-HC-SIW",
+          "seq": 1,
+          "wepName": "Stubcarbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIW-SC-0",
+              "wepId": "IMP-HC-SIW-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIW-PW",
+          "opTypeId": "IMP-HC-SIW",
+          "seq": 2,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIW-PW-0",
+              "wepId": "IMP-HC-SIW-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SIW-TG",
+          "opTypeId": "IMP-HC-SIW",
+          "seq": 3,
+          "wepName": "Taser Goad",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SIW-TG-0",
+              "wepId": "IMP-HC-SIW-TG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-HC-SRSW",
+      "killteamId": "IMP-HC",
+      "seq": 6,
+      "opTypeName": "Sicarian Ruststalker Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, RUSTSTALKER, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRSW-CCATB",
+          "opTypeId": "IMP-HC-SRSW",
+          "seq": 0,
+          "wepName": "Chordclaw & Transonic Razor",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRSW-CCATB-0",
+              "wepId": "IMP-HC-SRSW-CCATB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRSW-TB",
+          "opTypeId": "IMP-HC-SRSW",
+          "seq": 1,
+          "wepName": "Transonic Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRSW-TB-0",
+              "wepId": "IMP-HC-SRSW-TB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRSW-A-WS",
+          "opTypeId": "IMP-HC-SRSW",
+          "abilityName": "Wasteland Stalker",
+          "description": "Whenever an operative is shooting this operative, if you\ncan retain any cover saves, you can retain one additional cover save, or you\ncan retain one cover save as a critical success instead. This isn't cumulative\nwith improved cover saves from Vantage terrain."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SRGD",
+      "killteamId": "IMP-HC",
+      "seq": 7,
+      "opTypeName": "Skitarii Ranger Diktat",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, DIKTAT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRGD-GR",
+          "opTypeId": "IMP-HC-SRGD",
+          "seq": 0,
+          "wepName": "Galvanic Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGD-GR-0",
+              "wepId": "IMP-HC-SRGD-GR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGD-GB",
+          "opTypeId": "IMP-HC-SRGD",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGD-GB-0",
+              "wepId": "IMP-HC-SRGD-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRGD-A-TP",
+          "opTypeId": "IMP-HC-SRGD",
+          "abilityName": "Targeting Protocol",
+          "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
+        },
+        {
+          "abilityId": "IMP-HC-SRGD-SIG",
+          "opTypeId": "IMP-HC-SRGD",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT** Select one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SRGG",
+      "killteamId": "IMP-HC",
+      "seq": 8,
+      "opTypeName": "Skitarii Ranger Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRGG-AR",
+          "opTypeId": "IMP-HC-SRGG",
+          "seq": 0,
+          "wepName": "Arc Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGG-AR-0",
+              "wepId": "IMP-HC-SRGG-AR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGG-PC",
+          "opTypeId": "IMP-HC-SRGG",
+          "seq": 1,
+          "wepName": "Plasma Caliver",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGG-PC-0",
+              "wepId": "IMP-HC-SRGG-PC",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-HC-SRGG-PC-1",
+              "wepId": "IMP-HC-SRGG-PC",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGG-TA",
+          "opTypeId": "IMP-HC-SRGG",
+          "seq": 2,
+          "wepName": "Transuranic Arquebus",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGG-TA-0",
+              "wepId": "IMP-HC-SRGG-TA",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-HC-SRGG-TA-1",
+              "wepId": "IMP-HC-SRGG-TA",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGG-GB",
+          "opTypeId": "IMP-HC-SRGG",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGG-GB-0",
+              "wepId": "IMP-HC-SRGG-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRGG-A-TP",
+          "opTypeId": "IMP-HC-SRGG",
+          "abilityName": "Targeting Protocol",
+          "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SRGS",
+      "killteamId": "IMP-HC",
+      "seq": 9,
+      "opTypeName": "Skitarii Ranger Surveyor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, SURVEYOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRGS-GR",
+          "opTypeId": "IMP-HC-SRGS",
+          "seq": 0,
+          "wepName": "Galvanic Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGS-GR-0",
+              "wepId": "IMP-HC-SRGS-GR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGS-GB",
+          "opTypeId": "IMP-HC-SRGS",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGS-GB-0",
+              "wepId": "IMP-HC-SRGS-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRGS-A-TP",
+          "opTypeId": "IMP-HC-SRGS",
+          "abilityName": "Targeting Protocol",
+          "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
+        },
+        {
+          "abilityId": "IMP-HC-SRGS-SPT",
+          "opTypeId": "IMP-HC-SRGS",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SRGW",
+      "killteamId": "IMP-HC",
+      "seq": 10,
+      "opTypeName": "Skitarii Ranger Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SRGW-GR",
+          "opTypeId": "IMP-HC-SRGW",
+          "seq": 0,
+          "wepName": "Galvanic Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGW-GR-0",
+              "wepId": "IMP-HC-SRGW-GR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SRGW-GB",
+          "opTypeId": "IMP-HC-SRGW",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SRGW-GB-0",
+              "wepId": "IMP-HC-SRGW-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SRGW-A-TP",
+          "opTypeId": "IMP-HC-SRGW",
+          "abilityName": "Targeting Protocol",
+          "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SVD",
+      "killteamId": "IMP-HC",
+      "seq": 11,
+      "opTypeName": "Skitarii Vanguard Diktat",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, DIKTAT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SVD-RC",
+          "opTypeId": "IMP-HC-SVD",
+          "seq": 0,
+          "wepName": "Radium Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVD-RC-0",
+              "wepId": "IMP-HC-SVD-RC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVD-GB",
+          "opTypeId": "IMP-HC-SVD",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVD-GB-0",
+              "wepId": "IMP-HC-SVD-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SVD-A-RS",
+          "opTypeId": "IMP-HC-SVD",
+          "abilityName": "Rad-Saturation",
+          "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+        },
+        {
+          "abilityId": "IMP-HC-SVD-SIG",
+          "opTypeId": "IMP-HC-SVD",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SVG",
+      "killteamId": "IMP-HC",
+      "seq": 12,
+      "opTypeName": "Skitarii Vanguard Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SVG-AR",
+          "opTypeId": "IMP-HC-SVG",
+          "seq": 0,
+          "wepName": "Arc Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVG-AR-0",
+              "wepId": "IMP-HC-SVG-AR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVG-PC",
+          "opTypeId": "IMP-HC-SVG",
+          "seq": 1,
+          "wepName": "Plasma Caliver",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVG-PC-0",
+              "wepId": "IMP-HC-SVG-PC",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-HC-SVG-PC-1",
+              "wepId": "IMP-HC-SVG-PC",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVG-TA",
+          "opTypeId": "IMP-HC-SVG",
+          "seq": 2,
+          "wepName": "Transuranic Arquebus",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVG-TA-0",
+              "wepId": "IMP-HC-SVG-TA",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-HC-SVG-TA-1",
+              "wepId": "IMP-HC-SVG-TA",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVG-GB",
+          "opTypeId": "IMP-HC-SVG",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVG-GB-0",
+              "wepId": "IMP-HC-SVG-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SVG-A-RS",
+          "opTypeId": "IMP-HC-SVG",
+          "abilityName": "Rad-Saturation",
+          "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SVS",
+      "killteamId": "IMP-HC",
+      "seq": 13,
+      "opTypeName": "Skitarii Vanguard Surveyor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, SURVEYOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SVS-RC",
+          "opTypeId": "IMP-HC-SVS",
+          "seq": 0,
+          "wepName": "Radium Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVS-RC-0",
+              "wepId": "IMP-HC-SVS-RC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVS-GB",
+          "opTypeId": "IMP-HC-SVS",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVS-GB-0",
+              "wepId": "IMP-HC-SVS-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SVS-A-RS",
+          "opTypeId": "IMP-HC-SVS",
+          "abilityName": "Rad-Saturation",
+          "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+        },
+        {
+          "abilityId": "IMP-HC-SVS-SPT",
+          "opTypeId": "IMP-HC-SVS",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-HC-SVW",
+      "killteamId": "IMP-HC",
+      "seq": 14,
+      "opTypeName": "Skitarii Vanguard Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-HC-SVW-RC",
+          "opTypeId": "IMP-HC-SVW",
+          "seq": 0,
+          "wepName": "Radium Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVW-RC-0",
+              "wepId": "IMP-HC-SVW-RC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-HC-SVW-GB",
+          "opTypeId": "IMP-HC-SVW",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-HC-SVW-GB-0",
+              "wepId": "IMP-HC-SVW-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-HC-SVW-A-RS",
+          "opTypeId": "IMP-HC-SVW",
+          "abilityName": "Rad-Saturation",
+          "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+        }
+      ]
+    }
+  ]
+}

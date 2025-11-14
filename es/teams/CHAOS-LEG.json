@@ -1,0 +1,1419 @@
+{
+  "factionId": "CHAOS",
+  "killteamId": "CHAOS-LEG",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_legionaries-e5hsbsasn6-l5akyfyeyu.pdf",
+  "killteamName": "Legionaries",
+  "description": "Legionary kill teams are bitter veterans who possess centuries of combat experience. Some are little more than\nravening killers who desire only to reave, slaughter and despoil. Others are devoted worshippers of the Dark Gods,\nseeking to conduct fell rituals in the hope of pleasing their infernal patrons and attaining greater power.",
+  "composition": "A LEGIONARIES KillTeam is composed of:\n\n- 1 LEGIONARY operative selected from the following list:\n  - ASPIRING CHAMPION with one option from each of the following:\n    - Plasma pistol or tainted bolt pistol\n    - Power fist, power maul, power weapon or tainted chainsword  \n  - CHOSEN with one of the following options:\n    - Plasma pistol; daemon blade\n    - Tainted bolt pistol; daemon blade\n- 5 LEGIONARY operatives selected from the following list:\n  - ANOINTED\n  - BALEFIRE ACOLYTE\n  - BUTCHER\n  - ICON BEARER with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword  \n  - SHRIVETALON\n    - WARRIOR with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword    \n  - GUNNER with one of the following options:\n    - Bolt pistol; flamer; fists\n      - Bolt pistol; meltagun; fists\n      - Bolt pistol; plasma gun; fists   \n  - HEAVY GUNNER with one of the following options:\n    - Bolt pistol; heavy bolter; fists\n    - Bolt pistol; missile launcher; fists\n    - Bolt pistol; reaper chaincannon; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-LEG-S-BFTBG",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blood For The Blood God",
+      "description": "Whenever a friendly LEGIONARY operative (excluding KHORNE) is fighting, the first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).  \r \r Add 1 to both Dmg stats of friendly LEGIONARY KHORNE operatives' melee weapons (to a maximum of 7)."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-FF",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Fickle Fates",
+      "description": "Whenever a friendly LEGIONARY operative is shooting a ready enemy operative, that friendly operative's ranged weapons have the Balanced weapon rule.   \nWhenever an operative is shooting a ready friendly LEGIONARY TZEENTCH operative, in the Roll Defence Dice step, if you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it.   \n \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-IMP",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Implacable",
+      "description": "Whenever an operative is shooting a friendly LEGIONARY operative, weapons with the Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead.\n\nYou can ignore any changes to the stats of friendly LEGIONARY NURGLE operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "CHAOS-LEG-S-QSS",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Quicksilver Speed",
+      "description": "Whenever a friendly LEGIONARY operative that performed an action in which it moved during this turning point is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1.  \n\r Whenever an operative is shooting a friendly LEGIONARY SLAANESH operative more than 6\" from it that performed an action in which it moved during this turning point, worsen the Hit stat of the enemy operative's weapons by 1.  \n\r In all cases for this ploy, this is not cumulative with being injured."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-MA",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Malignant Aura",
+      "description": "Use this firefight ploy when a friendly LEGIONARY NURGLE operative is performing the Shoot action, when you select a valid target.\nUntil the end of that action, whenever that friendly operative is shooting an enemy operative within 3\" of it (i.e. including secondary targets, if any),\nthat friendly operative's ranged weapons have the Piercing 1 weapon rule.  \n\n**Piercing 1:** The defender collects 1 less Defence die."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-MAC",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Mutability And Change",
+      "description": "Use this firefight ploy when a friendly LEGIONARY TZEENTCH operative is activated. Until the end of that operative's activation, add 1 to its APL stat, but it cannot perform the same action more than once during that activation.\nIf it's a WARRIOR operative, that operative's Marks of Chaos keyword cannot be changed during this turning point (see Infernal Pact additional rule)."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-SC",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Sickening Captivation",
+      "description": "Use this firefight ploy during a friendly LEGIONARY SLAANESH operative's activation, before or after it performs an action.\nSelect one enemy operative visible to and within 4\" of that friendly operative. Until the end of that enemy operative's next activation, subtract 1 from its APL stat."
+    },
+    {
+      "ployId": "CHAOS-LEG-T-UEBS",
+      "killteamId": "CHAOS-LEG",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unending Bloodshed",
+      "description": "Use this firefight ploy when a friendly LEGIONARY KHORNE operative is incapacitated while fighting or retaliating.  \n\nYou can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-LEG-WA",
+      "killteamId": "CHAOS-LEG",
+      "seq": 51,
+      "eqName": "Warded Armour",
+      "description": "**STRATEGIC GAMBIT** Select one friendly LEGIONARY operative. Until the Ready step of the next Strategy phase, change that operative's Save stat to 2+.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-LEG-MB",
+      "killteamId": "CHAOS-LEG",
+      "seq": 52,
+      "eqName": "Malefic Blades",
+      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
+      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
+    },
+    {
+      "eqId": "CHAOS-LEG-TR",
+      "killteamId": "CHAOS-LEG",
+      "seq": 53,
+      "eqName": "Tainted Rounds",
+      "description": "Once per turning point, when a friendly LEGIONARY operative is performing the Shoot action and you select a bolt pistol or boltgun, you can use this rule.\nIf you do, until the end of that action, that weapon has the Rending weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-LEG-CT",
+      "killteamId": "CHAOS-LEG",
+      "seq": 54,
+      "eqName": "Chaos Talismans",
+      "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice).",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-LEG-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-MAOFCH",
+      "abilityName": "Mark Of Chaos",
+      "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-KHWRON",
+      "abilityName": "Khorne - Wrathful Onslaught",
+      "description": "This operative's melee weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-NUDIVI",
+      "abilityName": "Nurgle - Disgusting Vigour",
+      "description": "Whenever Normal Dmg of 3 or more is inflicted on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-SLUNAG",
+      "abilityName": "Slaanesh - Unnatural Agility",
+      "description": "Add 1\" to this operative's Move stat."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-TZEMGU",
+      "abilityName": "Tzeentch - Empyreal Guidance",
+      "description": "This operative's ranged weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-UNVIRE",
+      "abilityName": "Undivided - Vicious Reavers",
+      "description": "Whenever this operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, this operative's weapons have the Ceaseless weapon rule."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "CHAOS-LEG-AC",
+      "killteamId": "CHAOS-LEG",
+      "seq": 1,
+      "opTypeName": "Legionary Aspiring Champion",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, LEADER, ASPIRING CHAMPION",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-AC-PP",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 0,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-PP-0",
+              "wepId": "CHAOS-LEG-AC-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-AC-PP-1",
+              "wepId": "CHAOS-LEG-AC-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-AC-TBP",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 1,
+          "wepName": "Tainted Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-TBP-0",
+              "wepId": "CHAOS-LEG-AC-TBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-AC-PF",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 2,
+          "wepName": "Power Fist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-PF-0",
+              "wepId": "CHAOS-LEG-AC-PF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-AC-PM",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 3,
+          "wepName": "Power Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-PM-0",
+              "wepId": "CHAOS-LEG-AC-PM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-AC-PW",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 4,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-PW-0",
+              "wepId": "CHAOS-LEG-AC-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-AC-TCS",
+          "opTypeId": "CHAOS-LEG-AC",
+          "seq": 5,
+          "wepName": "Tainted Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-AC-TCS-0",
+              "wepId": "CHAOS-LEG-AC-TCS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-AC-A-ITEOTG",
+          "opTypeId": "CHAOS-LEG-AC",
+          "abilityName": "In The Eyes Of The Gods",
+          "description": "Once during each of this operative's activations, if it incapacitates an enemy operative, add 1 to its APL stat until the end of that activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-LEG-CHO",
+      "killteamId": "CHAOS-LEG",
+      "seq": 2,
+      "opTypeName": "Legionary Chosen",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, LEADER, CHOSEN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-CHO-PP",
+          "opTypeId": "CHAOS-LEG-CHO",
+          "seq": 0,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-CHO-PP-0",
+              "wepId": "CHAOS-LEG-CHO-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-CHO-PP-1",
+              "wepId": "CHAOS-LEG-CHO-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-CHO-TBP",
+          "opTypeId": "CHAOS-LEG-CHO",
+          "seq": 1,
+          "wepName": "Tainted Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-CHO-TBP-0",
+              "wepId": "CHAOS-LEG-CHO-TBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-CHO-DB",
+          "opTypeId": "CHAOS-LEG-CHO",
+          "seq": 2,
+          "wepName": "Daemon Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-CHO-DB-0",
+              "wepId": "CHAOS-LEG-CHO-DB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-CHO-A-DA",
+          "opTypeId": "CHAOS-LEG-CHO",
+          "abilityName": "Daemonic Aura",
+          "description": "Whenever an enemy operative performs the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, roll one D6: on a 3+, that enemy operative cannot perform that action during that activation/counteraction (the AP spent on it is refunded)."
+        },
+        {
+          "abilityId": "CHAOS-LEG-CHO-A-SG",
+          "opTypeId": "CHAOS-LEG-CHO",
+          "abilityName": "Soul Gorge",
+          "description": "After this operative fights or retaliates, if it is not incapacitated, but it incapacitated an enemy operative during that sequence, it regains D3+1 lost wounds."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-LEG-ANO",
+      "killteamId": "CHAOS-LEG",
+      "seq": 3,
+      "opTypeName": "Legionary Anointed",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, ANOINTED",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-ANO-BP",
+          "opTypeId": "CHAOS-LEG-ANO",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-ANO-BP-0",
+              "wepId": "CHAOS-LEG-ANO-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-ANO-DC",
+          "opTypeId": "CHAOS-LEG-ANO",
+          "seq": 1,
+          "wepName": "Daemonic Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-ANO-DC-0",
+              "wepId": "CHAOS-LEG-ANO-DC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-ANO-A-UD",
+          "opTypeId": "CHAOS-LEG-ANO",
+          "abilityName": "Unleash Daemon",
+          "description": "Once per battle, when this operative is activated, you can use this rule. If you do, until the end of the battle:\r \r - This operative cannot perform the Pick Up Marker or mission actions (excluding Operate Hatch). If it's carrying a marker, it must immediately perform the Place Marker action for 0AP (this takes precedence over all other rules).\r - Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative.  \nIf this operative has the NURGLE keyword, you cannot reduce the damage of an attack dice by more than 1. In other words, you cannot use both rules to reduce Normal Dmg of 4 or more by 2.\r - Its daemonic claw has the Ceaseless and Lethal 5+ weapon rules.\r "
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-LEG-BA",
+      "killteamId": "CHAOS-LEG",
+      "seq": 4,
+      "opTypeName": "Legionary Balefire Acolyte",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, PSYKER, BALEFIRE ACOLYTE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-BA-BP",
+          "opTypeId": "CHAOS-LEG-BA",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BA-BP-0",
+              "wepId": "CHAOS-LEG-BA-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-BA-FB",
+          "opTypeId": "CHAOS-LEG-BA",
+          "seq": 1,
+          "wepName": "Fireblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BA-FB-0",
+              "wepId": "CHAOS-LEG-BA-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1,
+                  "prefix_num": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-BA-LS",
+          "opTypeId": "CHAOS-LEG-BA",
+          "seq": 2,
+          "wepName": "Life Syphon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BA-LS-0",
+              "wepId": "CHAOS-LEG-BA-LS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-CHAOS-LEG-SIPHON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-BA-FD",
+          "opTypeId": "CHAOS-LEG-BA",
+          "seq": 3,
+          "wepName": "Fell Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BA-FD-0",
+              "wepId": "CHAOS-LEG-BA-FD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-CHAOS-LEG-SIPHON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-LEG-BUT",
+      "killteamId": "CHAOS-LEG",
+      "seq": 5,
+      "opTypeName": "Legionary Butcher",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, BUTCHER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-BUT-BP",
+          "opTypeId": "CHAOS-LEG-BUT",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BUT-BP-0",
+              "wepId": "CHAOS-LEG-BUT-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-BUT-DHCA",
+          "opTypeId": "CHAOS-LEG-BUT",
+          "seq": 1,
+          "wepName": "Double-Handed Chainaxe",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-BUT-DHCA-0",
+              "wepId": "CHAOS-LEG-BUT-DHCA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-LEG-GNR",
+      "killteamId": "CHAOS-LEG",
+      "seq": 6,
+      "opTypeName": "Legionary Gunner",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-GNR-BP",
+          "opTypeId": "CHAOS-LEG-GNR",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-BP-0",
+              "wepId": "CHAOS-LEG-GNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-GNR-FL",
+          "opTypeId": "CHAOS-LEG-GNR",
+          "seq": 1,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-FL-0",
+              "wepId": "CHAOS-LEG-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-GNR-MG",
+          "opTypeId": "CHAOS-LEG-GNR",
+          "seq": 2,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-MG-0",
+              "wepId": "CHAOS-LEG-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-GNR-PG",
+          "opTypeId": "CHAOS-LEG-GNR",
+          "seq": 3,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-PG-0",
+              "wepId": "CHAOS-LEG-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-PG-1",
+              "wepId": "CHAOS-LEG-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-GNR-F",
+          "opTypeId": "CHAOS-LEG-GNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-GNR-F-0",
+              "wepId": "CHAOS-LEG-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-LEG-HGNR",
+      "killteamId": "CHAOS-LEG",
+      "seq": 7,
+      "opTypeName": "Legionary Heavy Gunner",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-HGNR-BP",
+          "opTypeId": "CHAOS-LEG-HGNR",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-BP-0",
+              "wepId": "CHAOS-LEG-HGNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-HGNR-HB",
+          "opTypeId": "CHAOS-LEG-HGNR",
+          "seq": 1,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-HB-0",
+              "wepId": "CHAOS-LEG-HGNR-HB",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-HB-1",
+              "wepId": "CHAOS-LEG-HGNR-HB",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-HGNR-ML",
+          "opTypeId": "CHAOS-LEG-HGNR",
+          "seq": 2,
+          "wepName": "Missile Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-ML-0",
+              "wepId": "CHAOS-LEG-HGNR-ML",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-ML-1",
+              "wepId": "CHAOS-LEG-HGNR-ML",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-HGNR-RCC",
+          "opTypeId": "CHAOS-LEG-HGNR",
+          "seq": 3,
+          "wepName": "Reaper Chaincannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-RCC-0",
+              "wepId": "CHAOS-LEG-HGNR-RCC",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PUNISHING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-RCC-1",
+              "wepId": "CHAOS-LEG-HGNR-RCC",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PUNISHING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-HGNR-F",
+          "opTypeId": "CHAOS-LEG-HGNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-HGNR-F-0",
+              "wepId": "CHAOS-LEG-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-LEG-IB",
+      "killteamId": "CHAOS-LEG",
+      "seq": 8,
+      "opTypeName": "Legionary Icon Bearer",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, ICON BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-IB-BP",
+          "opTypeId": "CHAOS-LEG-IB",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-IB-BP-0",
+              "wepId": "CHAOS-LEG-IB-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-IB-BG",
+          "opTypeId": "CHAOS-LEG-IB",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-IB-BG-0",
+              "wepId": "CHAOS-LEG-IB-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-IB-CS",
+          "opTypeId": "CHAOS-LEG-IB",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-IB-CS-0",
+              "wepId": "CHAOS-LEG-IB-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-IB-F",
+          "opTypeId": "CHAOS-LEG-IB",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-IB-F-0",
+              "wepId": "CHAOS-LEG-IB-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-IB-A-FOTDG",
+          "opTypeId": "CHAOS-LEG-IB",
+          "abilityName": "Favoured Of The Dark Gods",
+          "description": "In the Ready step of each Strategy phase, if this operative controls an objective marker that isn't tainted, that objective marker is tainted for the battle and you gain 1CP. Note that if any operative (including enemy operatives) has tainted an objective marker, you cannot taint that objective marker."
+        },
+        {
+          "abilityId": "CHAOS-LEG-IB-A-IB",
+          "opTypeId": "CHAOS-LEG-IB",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-LEG-STL",
+      "killteamId": "CHAOS-LEG",
+      "seq": 9,
+      "opTypeName": "Legionary Shrivetalon",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, SHRIVETALON",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-STL-BP",
+          "opTypeId": "CHAOS-LEG-STL",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-STL-BP-0",
+              "wepId": "CHAOS-LEG-STL-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-STL-FB",
+          "opTypeId": "CHAOS-LEG-STL",
+          "seq": 1,
+          "wepName": "Flensing Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-STL-FB-0",
+              "wepId": "CHAOS-LEG-STL-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-STL-A-HDM",
+          "opTypeId": "CHAOS-LEG-STL",
+          "abilityName": "Horrifying Dismemberment",
+          "description": "Whenever this operative incapacitates an enemy operative while fighting or retaliating, select one other enemy operative visible to and within 3\" of either this operative or the incapacitated enemy\noperative. Subtract 1 from that enemy operative's APL stat until the end of its next activation."
+        },
+        {
+          "abilityId": "CHAOS-LEG-STL-A-VR",
+          "opTypeId": "CHAOS-LEG-STL",
+          "abilityName": "Vicious Reflexes",
+          "description": "Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker)."
+        },
+        {
+          "abilityId": "CHAOS-LEG-STL-GM",
+          "opTypeId": "CHAOS-LEG-STL",
+          "abilityName": "Grisly Mark",
+          "AP": 2,
+          "description": "Place your Grisly marker within this operative's control range.\n\n- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-LEG-WAR",
+      "killteamId": "CHAOS-LEG",
+      "seq": 10,
+      "opTypeName": "Legionary Warrior",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "LEGIONARY, CHAOS, HERETIC ASTARTES, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-WAR-BP",
+          "opTypeId": "CHAOS-LEG-WAR",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-WAR-BP-0",
+              "wepId": "CHAOS-LEG-WAR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-WAR-BG",
+          "opTypeId": "CHAOS-LEG-WAR",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-WAR-BG-0",
+              "wepId": "CHAOS-LEG-WAR-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-WAR-CS",
+          "opTypeId": "CHAOS-LEG-WAR",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-WAR-CS-0",
+              "wepId": "CHAOS-LEG-WAR-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-LEG-WAR-F",
+          "opTypeId": "CHAOS-LEG-WAR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-LEG-WAR-F-0",
+              "wepId": "CHAOS-LEG-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-LEG-WAR-A-IP",
+          "opTypeId": "CHAOS-LEG-WAR",
+          "abilityName": "Infernal Pact",
+          "description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative's Marks of Chaos keyword."
+        }
+      ]
+    }
+  ]
+}

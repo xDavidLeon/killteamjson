@@ -1,0 +1,791 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-SCT",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_scout_squad-e8hfnecv2k-17reba063p.pdf",
+  "killteamName": "Scout Squad",
+  "description": "Scouts are the new recruits of a Space Marine chapter who have advanced far enough in the early stages of their training and biological transformation to take part in battle with the rest of the Chapter.\n  \n  \n\nMore lightly armed and armoured than full Battle brothers, their role is to range ahead of the main Space Marine force, preparing the way for the main advance by infiltrating enemy lines, sabotaging and gathering intelligence - causing as much chaos and disruption as possible.",
+  "composition": "A SCOUT SQUAD killteam is composed of:\n\n- 1 SCOUT SQUAD Sergeant operative with one of the following options:\n  - Astartes shotgun, fists\n  - Boltgun, fists\n  - Bolt Pistol, Chainsword\n- 8 SCOUT SQUAD operatives selected from the following list:\n  - Heavy Gunner with Fists, Bolt Pistol and Heavy Bolter\n  - Heavy Gunner with Fists, Bolt Pistol and Missile Launcher\n  - Hunter\n  - Sniper\n  - Tracker\n  - Warrior with one of the following options:\n    - Astartes Shotgun, fists\n    - Boltgun, Fists\n    - Bolt Pistol, Combat Blade\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-SCT-S-AM",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ambush",
+      "description": "Whenever a friendly SCOUT SQUAD operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it was not visible to enemy operatives at the start of that activation:\n\n- Its weapons have the Balanced weapon rule.\n- If the target is expended, its  weapons have the Ceaseless weapon rule instead.\n  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-SCT-S-AD",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Adaptable Training",
+      "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 6\" from enemy operatives to Engage."
+    },
+    {
+      "ployId": "IMP-SCT-S-GE",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Guerilla Engagement",
+      "description": "Whenever an enemy operative is shooting a friendly SCOUT SQUAD operative, if that friendly operative is in cover and more than 6\" from enemy operatives it is visible to, you can re- roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-SCT-S-SR",
+      "killteamId": "IMP-SCT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Stealth Relocation",
+      "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 6\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-SCT-T-AT",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Astartes Training",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the end of that activation, that operative can either perform 2 Fight actions, or 2 Shoot actions if an Astartes Shotgun, Bolt Pistol, or Boltgun is selected for at least one of them."
+    },
+    {
+      "ployId": "IMP-SCT-T-CP",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Covert Position",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\r Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+    },
+    {
+      "ployId": "IMP-SCT-T-EA",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Emboldened Aspirant",
+      "description": "Use this firefight ploy when a friendly SCOUT SQUAD operative performs the Fight or Shoot action.\r If it is the first friendly operative to perform either of those actions during this turning point, or if the enemy operative in that action (Primary target, if relevant) has a higher Wounds stat than that friendly Scout Squad operative, you can retain one of your normal successes as a critical success instead."
+    },
+    {
+      "ployId": "IMP-SCT-T-RP",
+      "killteamId": "IMP-SCT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Raw Physiology",
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the start of its next activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-SCT-CC",
+      "killteamId": "IMP-SCT",
+      "seq": 1,
+      "eqName": "Camo Cloak",
+      "description": "Whenever an operative is shooting a friendly SCOUT SQUAD operative (excluding SNIPER), if you can retain any cover saves, you can retain one additional cover save.  \n\r This is not cumulative with improved cover saves from vantage terrain.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SCT-CBAK",
+      "killteamId": "IMP-SCT",
+      "seq": 2,
+      "eqName": "Combat Blades",
+      "description": "Friendly SCOUT SQUAD operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|Combat Blade|3|3+|4/5|",
+      "effects": "ADDWEP:Combat Blade|M|3|3+|4/5|"
+    },
+    {
+      "eqId": "IMP-SCT-HWBP",
+      "killteamId": "IMP-SCT",
+      "seq": 3,
+      "eqName": "Heavy Weapon Bipod",
+      "description": "Whenever a friendly SCOUT SQUAD HEAVY GUNNER operative is shooting with a heavy bolter or missile launcher, if it has not moved during the activation, or if it is a counteraction, that weapon has the Ceaseless rule; if the weapon already has that weapon rule it has the Relentless weapon rule. Note that operative is not restricted from moving after shooting.<hr/>\n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n\n**Relentless:** Can re-roll any or all Attack dice",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SCT-TO",
+      "killteamId": "IMP-SCT",
+      "seq": 4,
+      "eqName": "Targeting Oculars",
+      "description": "Up to twice per turning point, when a friendly SCOUT SQUAD operative is performing the Shoot action and you are selecting a valid target, you can use this rule. If you do, until the end of that action, its ranged weapons have the Lethal 5+ and Saturate weapon rules.<hr/>\r **Saturate:** The defender cannot retain Cover saves.",
+      "effects": ""
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-SCT-SGT",
+      "killteamId": "IMP-SCT",
+      "seq": 1,
+      "opTypeName": "Scout Sergeant",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 11,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, LEADER, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-SGT-ASG",
+          "opTypeId": "IMP-SCT-SGT",
+          "seq": 1,
+          "wepName": "Astartes Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SGT-ASG-0",
+              "wepId": "IMP-SCT-SGT-ASG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SGT-BP",
+          "opTypeId": "IMP-SCT-SGT",
+          "seq": 2,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SGT-BP-0",
+              "wepId": "IMP-SCT-SGT-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SGT-BG",
+          "opTypeId": "IMP-SCT-SGT",
+          "seq": 3,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SGT-BG-0",
+              "wepId": "IMP-SCT-SGT-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SGT-CS",
+          "opTypeId": "IMP-SCT-SGT",
+          "seq": 4,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SGT-CS-0",
+              "wepId": "IMP-SCT-SGT-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SGT-F",
+          "opTypeId": "IMP-SCT-SGT",
+          "seq": 5,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SGT-F-0",
+              "wepId": "IMP-SCT-SGT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-SGT-A-AST",
+          "opTypeId": "IMP-SCT-SGT",
+          "abilityName": "Astartes",
+          "description": "During this operative's activation, it can perform either 2 shoot actions or 2 fight actions.\nIf it is 2 shoot actions, an Astartes Shotgun, Bolt Pistol, or Boltgun must be selected for at least one of them.\nThis operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "IMP-SCT-SGT-A-FS",
+          "opTypeId": "IMP-SCT-SGT",
+          "abilityName": "Forward Scouting",
+          "description": "At the end of the Set Up Operatives step, you can select and resolve up to six Forward Scouting options.\nEach option has a number in brackets which is the maximum number of times you can select and resolve it for the battle.\nFor example, your five selections could be Reposition (2), Trip Alarm (1), Booby Trap (1) and Diversion (1).\nIf both players have this rule, alternate resolving selection by selection, starting with the player that has initiative.  \n  \n\n**BOOBY TRAP (1):**  \n\nPlace one of your Booby Trap markers more than 6\" from your opponent's drop zone and more than 2\" from other markers, access points, and Accessible terrain.\nThe first time your Booby Trap marker is within an enemy operative's control range, remove that marker and inflict 2D3 damage on that operative.\nIf it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.  \n  \n\n**DESIGNATE TARGET (1):**  \n\nSelect one enemy operative to gain one of your Target tokens.\nWhenever a friendly SCOUT SQUAD operative is shooting against, fighting against, or retaliating against an enemy operative that has one of your Target tokens, you can re-roll once of your attack dice.  \n  \n\n**DEVISE PLAN (1):**  \n\nYou gain 1CP.  \n\n\n\n**DIVERSION (1):**  \n\nOnce per battle STRATEGIC GAMBIT. Select one enemy operative within 6\" of a killzone edge.\nUntil the end of that operative's next activation, subtract 1 from its APL stat.  \n  \n\n**REDEPLOY (1):**  \n\nChange the set up of one third of your operatives (Rounding up).  \n  \n\n**REPOSITION (2):**  \n\nPerform a free reposition action with one friendly operative that is wholly within your drop zone.\nIt must end that move wholly within 3\" of your drop zone.  \n  \n\n**SPY (1):**  \n\nAPPROVED OPS ONLY. Your opponent must reveal their selected tac op.  \n  \n\n**TRIP ALARM (2):**  \n\nPlace one of your Trip Alarm markers more than 6\" from your opponent's drop zone.\nDuring the first and second turning point, whenever a friendly Scout Squad operative is shooting an enemy that is within 2\" of that marker, its range weapons have the Seek Weapon rule.\nIn the ready step of the third Strategy phase, remove that marker.  \n  \n\n**TACTICAL MANOEUVRE (1):**  \n\nOnce per battle STRATEGIC GAMBIT. Select one friendly operative. Until the end of that operative's next activation, add 1 to its APL stat."
+        },
+        {
+          "abilityId": "IMP-SCT-SGT-A-GAE",
+          "opTypeId": "IMP-SCT-SGT",
+          "abilityName": "Guidance And Experience",
+          "description": "Once during each of this operative's activations, you can select one other friendly SCOUT SQUAD operative visible to it.\nUntil the end of that operative's next activation, add 1 to its APL stat."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SCT-HGNR",
+      "killteamId": "IMP-SCT",
+      "seq": 2,
+      "opTypeName": "Scout Heavy Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-HGNR-BP",
+          "opTypeId": "IMP-SCT-HGNR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HGNR-BP-0",
+              "wepId": "IMP-SCT-HGNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-HGNR-HB",
+          "opTypeId": "IMP-SCT-HGNR",
+          "seq": 2,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HGNR-HB-0",
+              "wepId": "IMP-SCT-HGNR-HB",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-SCT-HGNR-HB-1",
+              "wepId": "IMP-SCT-HGNR-HB",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-HGNR-ML",
+          "opTypeId": "IMP-SCT-HGNR",
+          "seq": 3,
+          "wepName": "Missile Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HGNR-ML-0",
+              "wepId": "IMP-SCT-HGNR-ML",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-SCT-HGNR-ML-1",
+              "wepId": "IMP-SCT-HGNR-ML",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-HGNR-F",
+          "opTypeId": "IMP-SCT-HGNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HGNR-F-0",
+              "wepId": "IMP-SCT-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-SCT-HNT",
+      "killteamId": "IMP-SCT",
+      "seq": 3,
+      "opTypeName": "Scout Hunter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, HUNTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-HNT-BP",
+          "opTypeId": "IMP-SCT-HNT",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HNT-BP-0",
+              "wepId": "IMP-SCT-HNT-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-HNT-CB",
+          "opTypeId": "IMP-SCT-HNT",
+          "seq": 2,
+          "wepName": "Combat Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-HNT-CB-0",
+              "wepId": "IMP-SCT-HNT-CB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-HNT-A-GA",
+          "opTypeId": "IMP-SCT-HNT",
+          "abilityName": "Grapnel Assault",
+          "description": "Whenever this operative performs the Charge action during its activation, if it climbs, drops, jumps, or its base moves underneath Vantage terrain during that action, its melee weapons have the Lethal 3+ weapon rule until the end of that activation."
+        },
+        {
+          "abilityId": "IMP-SCT-HNT-A-GL",
+          "opTypeId": "IMP-SCT-HNT",
+          "abilityName": "Grapnel Launcher",
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative moves vertically)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SCT-SNP",
+      "killteamId": "IMP-SCT",
+      "seq": 4,
+      "opTypeName": "Scout Sniper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, SNIPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-SNP-BP",
+          "opTypeId": "IMP-SCT-SNP",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SNP-BP-0",
+              "wepId": "IMP-SCT-SNP-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SNP-SNP",
+          "opTypeId": "IMP-SCT-SNP",
+          "seq": 2,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SNP-SNP-0",
+              "wepId": "IMP-SCT-SNP-SNP",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-SCT-SNP-SNP-1",
+              "wepId": "IMP-SCT-SNP-SNP",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-SNP-F",
+          "opTypeId": "IMP-SCT-SNP",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-SNP-F-0",
+              "wepId": "IMP-SCT-SNP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-SNP-A-CAM",
+          "opTypeId": "IMP-SCT-SNP",
+          "abilityName": "Camo Cloak",
+          "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This is not cumulative with improved cover saves from vantage terrain.\n"
+        },
+        {
+          "abilityId": "IMP-SCT-SNP-OPT",
+          "opTypeId": "IMP-SCT-SNP",
+          "abilityName": "Optics",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SCT-TRK",
+      "killteamId": "IMP-SCT",
+      "seq": 5,
+      "opTypeName": "Scout Tracker",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, TRACKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-TRK-BG",
+          "opTypeId": "IMP-SCT-TRK",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-TRK-BG-0",
+              "wepId": "IMP-SCT-TRK-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-TRK-F",
+          "opTypeId": "IMP-SCT-TRK",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-TRK-F-0",
+              "wepId": "IMP-SCT-TRK-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-TRK-AS",
+          "opTypeId": "IMP-SCT-TRK",
+          "abilityName": "Auspex Scan",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation or until it is Incapacitated (whichever comes first),\nwhenever a friendly SCOUT SQUAD operative is shooting an enemy operative within 8\" of this operative,\nthat enemy operative cannot be obscured.\nIf that friendly operative is a SNIPER that is currently benefitting from the effects of its Optics action, its ranged weapons also have the Seek Light weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "IMP-SCT-TRK-TE",
+          "opTypeId": "IMP-SCT-TRK",
+          "abilityName": "Track Enemy",
+          "AP": 1,
+          "description": "Select one expended enemy operative within 8\" of this operative. Until the end of the turning point, whenever a friendly SCOUT SQUAD operative is shooting that enemy operative, its ranged weapons have the Seek Light rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SCT-WAR",
+      "killteamId": "IMP-SCT",
+      "seq": 6,
+      "opTypeName": "Scout Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "SCOUT SQUAD, IMPERIUM, ADEPTUS ASTARTES, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SCT-WAR-ASG",
+          "opTypeId": "IMP-SCT-WAR",
+          "seq": 1,
+          "wepName": "Astartes Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-WAR-ASG-0",
+              "wepId": "IMP-SCT-WAR-ASG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-WAR-BP",
+          "opTypeId": "IMP-SCT-WAR",
+          "seq": 2,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-WAR-BP-0",
+              "wepId": "IMP-SCT-WAR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-WAR-BG",
+          "opTypeId": "IMP-SCT-WAR",
+          "seq": 3,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-WAR-BG-0",
+              "wepId": "IMP-SCT-WAR-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-WAR-CB",
+          "opTypeId": "IMP-SCT-WAR",
+          "seq": 4,
+          "wepName": "Combat Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-WAR-CB-0",
+              "wepId": "IMP-SCT-WAR-CB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SCT-WAR-F",
+          "opTypeId": "IMP-SCT-WAR",
+          "seq": 5,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SCT-WAR-F-0",
+              "wepId": "IMP-SCT-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-WAR-A-AE",
+          "opTypeId": "IMP-SCT-WAR",
+          "abilityName": "Adaptive Equipment",
+          "description": "You can do one of each of the following once per turning point.\n\n- One friendly SCOUT SQUAD WARRIOR can perform the Smoke Grenade action.\n- One friendly SCOUT SQUAD WARRIOR can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e, if you select those grenades from equipment)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "factionId": "SPEC",
+  "killteamId": "SPEC-TITUS",
+  "version": "",
+  "file": "",
+  "killteamName": "Titus Mission Pack",
+  "description": "The Lieutenant Titus Mission Pack is a spin-off of Warhammer 40,000: Kill Team. Its parent game includes an expanded range of detailed miniatures, evocative terrain and unique rules. Fight tactical battles against opponents with your team of elite operatives, all set within the grim darkness of the far future.",
+  "composition": "One of each of the Space Marines.\n\n1 Tyranid Warrior and 6 NPOs containing any combination of Hormagaunts and Termagants. Set them up within 3\" of objective marker 1, with intervening terrain within their control range when viewed from the player drop zone.",
+  "archetypes": [],
+  "ploys": [],
+  "equipments": [],
+  "opTypes": [
+    {
+      "opTypeId": "SPEC-TITUS-TIT",
+      "killteamId": "SPEC-TITUS",
+      "seq": 1,
+      "opTypeName": "Lieutenant Titus",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-TIT-HBP",
+          "opTypeId": "SPEC-TITUS-TIT",
+          "seq": 1,
+          "wepName": "Heavy Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-TIT-HBP-0",
+              "wepId": "SPEC-TITUS-TIT-HBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-TITUS-TIT-CS",
+          "opTypeId": "SPEC-TITUS-TIT",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-TIT-CS-0",
+              "wepId": "SPEC-TITUS-TIT-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-TIT-UA-RF",
+          "opTypeId": "SPEC-TITUS-TIT",
+          "abilityName": "Righteous Fury",
+          "AP": 1,
+          "description": "Player operatives within 6\" of this operative regain up to D3+3 lost wounds (roll separately for each), then remove all Mortal Wound tokens from those operatives.  \n This operative cannot perform this action more than once per battle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-GAD",
+      "killteamId": "SPEC-TITUS",
+      "seq": 2,
+      "opTypeName": "Gadriel",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-GAD-BR",
+          "opTypeId": "SPEC-TITUS-GAD",
+          "seq": 1,
+          "wepName": "Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-GAD-BR-0",
+              "wepId": "SPEC-TITUS-GAD-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-TITUS-GAD-CS",
+          "opTypeId": "SPEC-TITUS-GAD",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-GAD-CS-0",
+              "wepId": "SPEC-TITUS-GAD-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-GAD-UA-BC",
+          "opTypeId": "SPEC-TITUS-GAD",
+          "abilityName": "Battle Cry",
+          "AP": 1,
+          "description": "Inflict D3+3 damage on each enemy operative within 3\" of this operative (roll separately for each).  \nThis operative cannot perform this action more than once per battle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-CHA",
+      "killteamId": "SPEC-TITUS",
+      "seq": 3,
+      "opTypeName": "Chairon",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-CHA-BR",
+          "opTypeId": "SPEC-TITUS-CHA",
+          "seq": 1,
+          "wepName": "Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-CHA-BR-0",
+              "wepId": "SPEC-TITUS-CHA-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-TITUS-CHA-CS",
+          "opTypeId": "SPEC-TITUS-CHA",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-CHA-CS-0",
+              "wepId": "SPEC-TITUS-CHA-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-CHA-UA-AS",
+          "opTypeId": "SPEC-TITUS-CHA",
+          "abilityName": "Auspex Scan",
+          "AP": 1,
+          "description": "Until the end of this operative's next activation, whenever a player operative is shooting, fighting or retaliating, add 1 to the Critical Dmg stat of its weapons, and its successes equal to or greater than 5 are critical successes.  \nThis operative cannot perform this action more than once per battle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-HOR",
+      "killteamId": "SPEC-TITUS",
+      "seq": 4,
+      "opTypeName": "Hormagaunt",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "",
+      "basesize": 28,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-HOR-SC",
+          "opTypeId": "SPEC-TITUS-HOR",
+          "seq": 1,
+          "wepName": "Scything Talons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-HOR-SC-0",
+              "wepId": "SPEC-TITUS-HOR-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-HOR-A-BEH",
+          "opTypeId": "SPEC-TITUS-HOR",
+          "abilityName": "Behavior",
+          "description": "1. Fight.  \n\n2. Charge the closest player operative via the shortest possible route.  \n\n3. Reposition towards the closest player operative via the shortest possible route.  \n\n4. Dash towards the closest player operative via the shortest possible route.  \n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-TER",
+      "killteamId": "SPEC-TITUS",
+      "seq": 5,
+      "opTypeName": "Termagant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "",
+      "basesize": 28,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-TER-RBW",
+          "opTypeId": "SPEC-TITUS-TER",
+          "seq": 1,
+          "wepName": "Ranged Bio-Weapon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-TER-RBW-0",
+              "wepId": "SPEC-TITUS-TER-RBW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-TITUS-TER-CAT",
+          "opTypeId": "SPEC-TITUS-TER",
+          "seq": 2,
+          "wepName": "Claws & Teeth",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-TER-CAT-0",
+              "wepId": "SPEC-TITUS-TER-CAT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-TER-A-BEH",
+          "opTypeId": "SPEC-TITUS-TER",
+          "abilityName": "Behavior",
+          "description": "1. Fall Back. If possible, to a location where there's a valid target.  \n\n2. Reposition towards the closest player operative, to cover if possible. Additionally, to a location where there's a valid target if possible.  \n\n3. Shoot.  \n\n4. Dash towards the closest player operative, to cover if possible.  \n\n5. Fight"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-WAR",
+      "killteamId": "SPEC-TITUS",
+      "seq": 6,
+      "opTypeName": "Tyranid Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 16,
+      "keywords": "",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-WAR-RBW",
+          "opTypeId": "SPEC-TITUS-WAR",
+          "seq": 1,
+          "wepName": "Ranged Bio-Weapon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-WAR-RBW-0",
+              "wepId": "SPEC-TITUS-WAR-RBW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-TITUS-WAR-BS",
+          "opTypeId": "SPEC-TITUS-WAR",
+          "seq": 2,
+          "wepName": "Boneswords",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-WAR-BS-0",
+              "wepId": "SPEC-TITUS-WAR-BS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-WAR-A-BEH",
+          "opTypeId": "SPEC-TITUS-WAR",
+          "abilityName": "Behavior",
+          "description": "1. Fight  \n\n2. Charge the closest player operative via the shortest possible route.  \n\n3. Shoot the closest player operative.  \n\n4. Reposition towards the closest player operative.  \n\n5. Dash towards the closest player operative."
+        },
+        {
+          "abilityId": "SPEC-TITUS-WAR-A-SBL",
+          "opTypeId": "SPEC-TITUS-WAR",
+          "abilityName": "Synaptic Backlash",
+          "description": "Whenever this operative is incapacitated, before it is removed from the killzone, inflict D3 damage on each Hormagaunt and Termagant within 3\" of it (roll separately for each)."
+        },
+        {
+          "abilityId": "SPEC-TITUS-WAR-A-SYN",
+          "opTypeId": "SPEC-TITUS-WAR",
+          "abilityName": "Synapse",
+          "description": "Whenever a Hormagaunt or Termagant NPO is shooting or fighting within 3\" of this operative, retain one attack dice as a normal success for that operative without rolling it."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-TITUS-LIC",
+      "killteamId": "SPEC-TITUS",
+      "seq": 7,
+      "opTypeName": "Lictor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 20,
+      "keywords": "",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "SPEC-TITUS-LIC-CAT",
+          "opTypeId": "SPEC-TITUS-LIC",
+          "seq": 1,
+          "wepName": "Claws & Talons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-TITUS-LIC-CAT-0",
+              "wepId": "SPEC-TITUS-LIC-CAT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-TITUS-LIC-A-BEH",
+          "opTypeId": "SPEC-TITUS-LIC",
+          "abilityName": "Behavior",
+          "description": "1. Fight.  \n\n2. Charge the closest player operative via the shortest possible route.  \n\n3. Reposition towards the closest player operative, to cover if possible (a subsequent Dash action can fulfil this, if able).  \n\n4. Dash towards the closest player operative, to cover if possible."
+        },
+        {
+          "abilityId": "SPEC-TITUS-LIC-A-HP",
+          "opTypeId": "SPEC-TITUS-LIC",
+          "abilityName": "Hiddden Predator",
+          "description": "After this operative performs the Fight action, it immediately performs a free Fall Back action, to cover if possible. Whenever this operative is in cover from a player operative, it is not visible to that player operative."
+        }
+      ]
+    }
+  ]
+}

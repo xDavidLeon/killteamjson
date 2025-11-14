@@ -1,0 +1,1174 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-DW",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_deathwatch-n9uexmycj0-mnutiohz2j.pdf",
+  "killteamName": "Deathwatch",
+  "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity's most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
+  "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
+  "archetypes": [
+    "Seek & Destroy",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-DW-S-MT",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Mission Tactics",
+      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against or fighting against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "IMP-DW-S-TLV",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 2,
+      "ployName": "The Long Vigil",
+      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's within your territory, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "IMP-DW-S-TSTS",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 3,
+      "ployName": "The Shield That Slays",
+      "description": "Whenever a friendly DEATHWATCH operative is within your opponent's territory, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
+    },
+    {
+      "ployId": "IMP-DW-S-ATSKNF",
+      "killteamId": "IMP-DW",
+      "ployType": "S",
+      "seq": 4,
+      "ployName": "And They Shall Know No Fear",
+      "description": "You can ignore any changes to the stats of friendly DEATHWATCH operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "IMP-DW-T-SNTA",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 5,
+      "ployName": "Suffer Not The Alien",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against or fighting against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-DW-T-AT",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 6,
+      "ployName": "Auspicator Tracking",
+      "description": "Use this firefight ploy when a friendly DEATHWATCH operative is counteracting, before it performs any actions. You can change its order."
+    },
+    {
+      "ployId": "IMP-DW-T-AAS",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 7,
+      "ployName": "Advanced Auspex Scan",
+      "description": "Use this firefight ploy when a friendly DEATHWATCH operative performs the Shoot action. Until the end of the activation/counteraction, its ranged weapons have the Saturate weapon rule and enemy operatives cannot be obscured."
+    },
+    {
+      "ployId": "IMP-DW-T-THP",
+      "killteamId": "IMP-DW",
+      "ployType": "T",
+      "seq": 8,
+      "ployName": "Transhuman Physiology",
+      "description": "Use this firefight ploy when an operative is shooting a friendly DEATHWATCH operative, in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-DW-DW",
+      "killteamId": "IMP-DW",
+      "seq": 1,
+      "eqName": "Digital Weapons",
+      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-SST",
+      "killteamId": "IMP-DW",
+      "seq": 2,
+      "eqName": "Scrutavore Servo-Thrall",
+      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-SVBSC",
+      "killteamId": "IMP-DW",
+      "seq": 3,
+      "eqName": "Sanctus-V Bioscryer Cuffs",
+      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-DW-AR",
+      "killteamId": "IMP-DW",
+      "seq": 4,
+      "eqName": "Ammunition Reserve",
+      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-DW-TA-VEAS",
+      "abilityName": "Veteran Astartes",
+      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+    },
+    {
+      "abilityId": "IMP-DW-TA-SPISAM",
+      "abilityName": "Special Issue Ammunition",
+      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-DW-SGT",
+      "killteamId": "IMP-DW",
+      "seq": 1,
+      "opTypeName": "Deathwatch Watch Sergeant",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, LEADER, WATCH SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-SGT-PP",
+          "opTypeId": "IMP-DW-SGT",
+          "seq": 1,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-SGT-PP-01",
+              "wepId": "IMP-DW-SGT-PP",
+              "seq": 1,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-SGT-PP-02",
+              "wepId": "IMP-DW-SGT-PP",
+              "seq": 2,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-SGT-PW",
+          "opTypeId": "IMP-DW-SGT",
+          "seq": 2,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-SGT-PW-01",
+              "wepId": "IMP-DW-SGT-PW",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-SGT-AA",
+          "opTypeId": "IMP-DW-SGT",
+          "abilityName": "Adaptable Armoury",
+          "description": "You can select one additional equipment option."
+        },
+        {
+          "abilityId": "IMP-DW-SGT-SC",
+          "opTypeId": "IMP-DW-SGT",
+          "abilityName": "Strategic Command",
+          "description": "You can do each of the following once per battle if this operative is in the killzone:\n- Use a DEATHWATCH strategy ploy for 0CP.\n- Use a DEATHWATCH firefight ploy for 0CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-AEG",
+      "killteamId": "IMP-DW",
+      "seq": 2,
+      "opTypeName": "Deathwatch Aegis Veteran",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "2+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, AEGIS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-AEG-BP",
+          "opTypeId": "IMP-DW-AEG",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-AEG-BP-01",
+              "wepId": "IMP-DW-AEG-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-AEG-PMSS",
+          "opTypeId": "IMP-DW-AEG",
+          "seq": 2,
+          "wepName": "Power Maul & Storm Shield",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-AEG-PMSS-01",
+              "wepId": "IMP-DW-AEG-PMSS",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-CHAOS-BLD-SHIELD"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-AEG-SH",
+          "opTypeId": "IMP-DW-AEG",
+          "abilityName": "*Shield",
+          "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+        },
+        {
+          "abilityId": "IMP-DW-AEG-SS",
+          "opTypeId": "IMP-DW-AEG",
+          "abilityName": "Storm Shield",
+          "description": "Whenever an operative is shooting this operative, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-BLM",
+      "killteamId": "IMP-DW",
+      "seq": 3,
+      "opTypeName": "Deathwatch Blademaster Veteran",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, BLADEMASTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-BLM-SIBP",
+          "opTypeId": "IMP-DW-BLM",
+          "seq": 1,
+          "wepName": "Special Issue Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BLM-SIBP-01",
+              "wepId": "IMP-DW-BLM-SIBP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BLM-XPB",
+          "opTypeId": "IMP-DW-BLM",
+          "seq": 2,
+          "wepName": "Xenophase Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BLM-XPB-01",
+              "wepId": "IMP-DW-BLM-XPB",
+              "seq": 1,
+              "profileName": "Duel",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-BLM-XPB-02",
+              "wepId": "IMP-DW-BLM-XPB",
+              "seq": 2,
+              "profileName": "Phase Sweep",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-IMP-DW-PHASE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-BLM-AS",
+          "opTypeId": "IMP-DW-BLM",
+          "abilityName": "Adaptive Swordsmanship",
+          "description": "You can ignore any changes to the Hit stat of this operative's Xenophase blade. Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-BOM",
+      "killteamId": "IMP-DW",
+      "seq": 4,
+      "opTypeName": "Deathwatch Bombard Veteran",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 18,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, BOMBARD",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-BOM-BP",
+          "opTypeId": "IMP-DW-BOM",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BOM-BP-01",
+              "wepId": "IMP-DW-BOM-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BOM-FC",
+          "opTypeId": "IMP-DW-BOM",
+          "seq": 2,
+          "wepName": "Frag Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BOM-FC-01",
+              "wepId": "IMP-DW-BOM-FC",
+              "seq": 1,
+              "profileName": "Shell",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-BOM-FC-02",
+              "wepId": "IMP-DW-BOM-FC",
+              "seq": 2,
+              "profileName": "Shrapnel",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BOM-F",
+          "opTypeId": "IMP-DW-BOM",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BOM-F-01",
+              "wepId": "IMP-DW-BOM-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DW-BRC",
+      "killteamId": "IMP-DW",
+      "seq": 5,
+      "opTypeName": "Deathwatch Breacher Veteran",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 18,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, BREACHER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-BRC-AGL",
+          "opTypeId": "IMP-DW-BRC",
+          "seq": 1,
+          "wepName": "Auxiliary Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BRC-AGL-01",
+              "wepId": "IMP-DW-BRC-AGL",
+              "seq": 1,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-BRC-AGL-02",
+              "wepId": "IMP-DW-BRC-AGL",
+              "seq": 2,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BRC-HSBR",
+          "opTypeId": "IMP-DW-BRC",
+          "seq": 2,
+          "wepName": "Hellstorm Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BRC-HSBR-01",
+              "wepId": "IMP-DW-BRC-HSBR",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BRC-MB",
+          "opTypeId": "IMP-DW-BRC",
+          "seq": 3,
+          "wepName": "Melta Bomb",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BRC-MB-01",
+              "wepId": "IMP-DW-BRC-MB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-BRC-F",
+          "opTypeId": "IMP-DW-BRC",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-BRC-F-01",
+              "wepId": "IMP-DW-BRC-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DW-DEM",
+      "killteamId": "IMP-DW",
+      "seq": 6,
+      "opTypeName": "Deathwatch Demolisher Veteran",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, DEMOLISHER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-DEM-BP",
+          "opTypeId": "IMP-DW-DEM",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-DEM-BP-01",
+              "wepId": "IMP-DW-DEM-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-DEM-HTH",
+          "opTypeId": "IMP-DW-DEM",
+          "seq": 2,
+          "wepName": "Heavy Thunder Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-DEM-HTH-01",
+              "wepId": "IMP-DW-DEM-HTH",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "6/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-DEM-AF",
+          "opTypeId": "IMP-DW-DEM",
+          "abilityName": "Aggressive Force",
+          "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-DIS",
+      "killteamId": "IMP-DW",
+      "seq": 7,
+      "opTypeName": "Deathwatch Disruptor Veteran",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, DISRUPTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-DIS-MBC",
+          "opTypeId": "IMP-DW-DIS",
+          "seq": 1,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-DIS-MBC-01",
+              "wepId": "IMP-DW-DIS-MBC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-DIS-F",
+          "opTypeId": "IMP-DW-DIS",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-DIS-F-01",
+              "wepId": "IMP-DW-DIS-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-DIS-AOS",
+          "opTypeId": "IMP-DW-DIS",
+          "abilityName": "Advanced Omni-Scrambler",
+          "description": "STRATEGIC GAMBIT.\nSelect one enemy operative visible to or within 6\" of this operative, then roll one D6. In the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n- Your opponent has activated a number of enemy operatives equal to the result of the D6.\n- It's the last enemy operative to be activated."
+        },
+        {
+          "abilityId": "IMP-DW-DIS-AT",
+          "opTypeId": "IMP-DW-DIS",
+          "abilityName": "Auspex Triangulation",
+          "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-GNR",
+      "killteamId": "IMP-DW",
+      "seq": 8,
+      "opTypeName": "Deathwatch Gunner Veteran",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-GNR-BP",
+          "opTypeId": "IMP-DW-GNR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-GNR-BP-01",
+              "wepId": "IMP-DW-GNR-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-GNR-HPI",
+          "opTypeId": "IMP-DW-GNR",
+          "seq": 2,
+          "wepName": "Heavy Plasma Incinerator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-GNR-HPI-01",
+              "wepId": "IMP-DW-GNR-HPI",
+              "seq": 1,
+              "profileName": "Standard",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-GNR-HPI-02",
+              "wepId": "IMP-DW-GNR-HPI",
+              "seq": 2,
+              "profileName": "Supercharge",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-GNR-F",
+          "opTypeId": "IMP-DW-GNR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-GNR-F-01",
+              "wepId": "IMP-DW-GNR-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DW-HTK",
+      "killteamId": "IMP-DW",
+      "seq": 9,
+      "opTypeName": "Deathwatch Headtaker Veteran",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, HEADTAKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-HTK-SIBP",
+          "opTypeId": "IMP-DW-HTK",
+          "seq": 1,
+          "wepName": "Special Issue Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-HTK-SIBP-01",
+              "wepId": "IMP-DW-HTK-SIBP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-HTK-CK",
+          "opTypeId": "IMP-DW-HTK",
+          "seq": 2,
+          "wepName": "Combat Knives",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-HTK-CK-01",
+              "wepId": "IMP-DW-HTK-CK",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-HTK-CHT",
+          "opTypeId": "IMP-DW-HTK",
+          "abilityName": "Clandestine Headtaker",
+          "description": "This operative can perform the Charge action while it has a Conceal order. Whenever this operative is fighting against an operative it wasn't visible to at the start of the activation/counteraction, the first time you strike during that sequence, you can immediately resolve another of your successes as a strike (before your opponent)."
+        },
+        {
+          "abilityId": "IMP-DW-HTK-GCGL",
+          "opTypeId": "IMP-DW-HTK",
+          "abilityName": "Grav-chute and Grapnel Launcher",
+          "description": "Whenever this operative is climbing, treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-DW-HSL",
+      "killteamId": "IMP-DW",
+      "seq": 10,
+      "opTypeName": "Deathwatch Horde-Slayer Veteran",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 18,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, GRAVIS, HORDE-SLAYER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-HSL-BP",
+          "opTypeId": "IMP-DW-HSL",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-HSL-BP-01",
+              "wepId": "IMP-DW-HSL-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-HSL-IHB",
+          "opTypeId": "IMP-DW-HSL",
+          "seq": 2,
+          "wepName": "Infernus Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-HSL-IHB-01",
+              "wepId": "IMP-DW-HSL-IHB",
+              "seq": 1,
+              "profileName": "Flame",
+              "ATK": "5",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-HSL-IHB-02",
+              "wepId": "IMP-DW-HSL-IHB",
+              "seq": 2,
+              "profileName": "Focused Bolt",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-DW-HSL-IHB-03",
+              "wepId": "IMP-DW-HSL-IHB",
+              "seq": 3,
+              "profileName": "Sweeping Bolt",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-HSL-F",
+          "opTypeId": "IMP-DW-HSL",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-HSL-F-01",
+              "wepId": "IMP-DW-HSL-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-DW-MRK",
+      "killteamId": "IMP-DW",
+      "seq": 11,
+      "opTypeName": "Deathwatch Marksman Veteran",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "DEATHWATCH, IMPERIUM, ADEPTUS ASTARTES, MARKSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-DW-MRK-SBR",
+          "opTypeId": "IMP-DW-MRK",
+          "seq": 1,
+          "wepName": "Stalker Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-MRK-SBR-01",
+              "wepId": "IMP-DW-MRK-SBR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-DW-MRK-SBR-02",
+              "wepId": "IMP-DW-MRK-SBR",
+              "seq": 2,
+              "profileName": "Heavy",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-DW-MRK-F",
+          "opTypeId": "IMP-DW-MRK",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-DW-MRK-F-01",
+              "wepId": "IMP-DW-MRK-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-DW-MRK-VIG",
+          "opTypeId": "IMP-DW-MRK",
+          "abilityName": "Vigilant Marksman",
+          "description": "This operative can perform the Guard action during its activation regardless of the killzone (see close quarters rules, Kill Team: Tomb World).\nWhen using the close quarters rules, once per turning point, after this operative performs a free Shoot action on guard, it can immediately perform a free Guard action.\nHowever, if it does, it cannot counteract (nor Guard twice if it's counteracted)."
+        }
+      ]
+    }
+  ]
+}

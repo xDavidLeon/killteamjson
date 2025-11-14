@@ -1,0 +1,1089 @@
+{
+  "factionId": "CHAOS",
+  "killteamId": "CHAOS-NC",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_nemesis_claw-peo49ae3hw-pmnycgsgle.pdf",
+  "killteamName": "Nemesis Claw",
+  "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
+  "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
+  "archetypes": [
+    "Infiltration",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-NC-S-PS",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Preysight",
+      "description": "Whenever you are selecting a valid target for a friendly NEMESIS CLAW operative, enemy operatives within 6\" cannot use Light terrain for cover.\nWhile this can allow such operatives to be targeted (assuming they are visible), it does not remove their cover save (if any)."
+    },
+    {
+      "ployId": "CHAOS-NC-S-RTD",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Return To Darkness",
+      "description": "One friendly NEMESIS CLAW operative can immediately perform a free Fall Back or Reposition action, but it must end that move with Heavy terrain within its Control range, or any part of its base underneath Vantage terrain.\r In addition, it cannot move more than 4\" during that action and it cannot end that move closer to enemy operatives (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, ignore Wall terrain when determining this)."
+    },
+    {
+      "ployId": "CHAOS-NC-S-TBH",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "The Black Hunt",
+      "description": "Whenever a friendly NEMESIS CLAW operative is shooting against, fighting against or retaliating against a wounded enemy operative, you can re-roll one of your attack dice."
+    },
+    {
+      "ployId": "CHAOS-NC-S-WHCFY",
+      "killteamId": "CHAOS-NC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "We Have Come For You",
+      "description": "Whenever a friendly NEMESIS CLAW operative is activated, if the first action it performs during that activation is the Charge action, when it ends its move during that action, you can inflict D3 damage on one enemy operative within its control range."
+    },
+    {
+      "ployId": "CHAOS-NC-T-DF",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Dirty Fighter",
+      "description": "Use this firefight ploy when a friendly NEMESIS CLAW operative is retaliating, at the start of the Resolve Attack Dice step.\nYou can resolve one of your successes before the normal order. If you do you cannot resolve any other successes during that sequence."
+    },
+    {
+      "ployId": "CHAOS-NC-T-DTTFE",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Death To The False Emperor",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly NEMESIS CLAW operative, if it's shooting against, fighting against or retaliating against an enemy operative that has the IMPERIUM keyword. That friendly operative's weapons have the Ceaseless weapon rule until the end of the sequence; if that enemy operative also has the Adeptus Astartes keyword, that friendly operative's weapons have the Relentless weapon rule until the end of that sequence instead.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "CHAOS-NC-T-PFM",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Proclivity For Murder",
+      "description": "Use this firefight ploy after a friendly NEMESIS CLAW operative incapacitates an enemy operative whin its control range.\nThat friendly operative can immediately perform a free Charge or Dash action (for the former, it cannot move more than 3\") even if it has performed an action that prevents it from performing the Charge or Dash action."
+    },
+    {
+      "ployId": "CHAOS-NC-T-VS",
+      "killteamId": "CHAOS-NC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Vox Scream",
+      "description": "Use this firefight ploy when your opponent would activate an enemy operative that's visible to a friendly NEMESIS CLAW operative. Roll one D6; if the result is higher than that enemy operative's APL stat, your opponent cannot activate it during this activation; if the result is less than or equal to that enemy operative's APL stat, this ploy isn't used, the CP spent on it is refunded and you cannot use this ploy again during this turning point. If there are no other enemy operatives eligible to be activated, this ploy has no effect."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-NC-CS",
+      "killteamId": "CHAOS-NC",
+      "seq": 1,
+      "eqName": "Chain Snare",
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it).",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-CJ",
+      "killteamId": "CHAOS-NC",
+      "seq": 2,
+      "eqName": "Comms Jammer",
+      "description": "Whenever an enemy operative is within 3\" of a friendly NEMESIS CLAW operative, that enemy operative's APL stat cannot be added to. Note that this does not affect APL stats that have already been changed.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-FS",
+      "killteamId": "CHAOS-NC",
+      "seq": 3,
+      "eqName": "Flayed Skin",
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly NEMESIS CLAW operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-NC-GT",
+      "killteamId": "CHAOS-NC",
+      "seq": 4,
+      "eqName": "Grisly Trophy",
+      "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-NC-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-NC-TA-INMICL",
+      "abilityName": "In Midnight Clad",
+      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "CHAOS-NC-VIS",
+      "killteamId": "CHAOS-NC",
+      "seq": 1,
+      "opTypeName": "Night Lord Visionary",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, LEADER, PSYKER, VISIONARY",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-VIS-BP",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-BP-0",
+              "wepId": "CHAOS-NC-VIS-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VIS-PP",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 2,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-PP-0",
+              "wepId": "CHAOS-NC-VIS-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-NC-VIS-PP-1",
+              "wepId": "CHAOS-NC-VIS-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VIS-NCB",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 3,
+          "wepName": "Nostraman Chainblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-NCB-0",
+              "wepId": "CHAOS-NC-VIS-NCB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VIS-PF",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 4,
+          "wepName": "Power Fist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-PF-0",
+              "wepId": "CHAOS-NC-VIS-PF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VIS-PM",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 5,
+          "wepName": "Power Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-PM-0",
+              "wepId": "CHAOS-NC-VIS-PM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VIS-PW",
+          "opTypeId": "CHAOS-NC-VIS",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VIS-PW-0",
+              "wepId": "CHAOS-NC-VIS-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-VIS-A-PRE",
+          "opTypeId": "CHAOS-NC-VIS",
+          "abilityName": "Prescience",
+          "description": "*PSYCHIC*  \r \r In the ready step of each Strategy phase, you gain 1D3 Prescience points.\r At the end of each turning point, discard your Prescience points. You can spend your Prescience points in the Firefight phase as follows (you cannot use each of the following rules more than once per turning point).\r \r - Foreboding: *PSYCHIC* Whenever it is your turn to activate a friendly operative, you can spend 1 of your Prescience points to skip that activation.\r - Portent: *PSYCHIC* Whenever an attack dice inflicts normal damage on this operative, you can spend 1 of your Prescience points to ignore that inflicted damage.\r \r You cannot gain or spend your Prescience points if this operative is incapacitated."
+        },
+        {
+          "abilityId": "CHAOS-NC-VIS-PREM",
+          "opTypeId": "CHAOS-NC-VIS",
+          "abilityName": "Premonition",
+          "AP": 1,
+          "description": "*PSYCHIC* Spend 1 of your Prescience points to gain 1CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-NC-FRM",
+      "killteamId": "CHAOS-NC",
+      "seq": 2,
+      "opTypeName": "Night Lord Fearmonger",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, FEARMONGER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-FRM-SCP",
+          "opTypeId": "CHAOS-NC-FRM",
+          "seq": 1,
+          "wepName": "Scoped Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-FRM-SCP-0",
+              "wepId": "CHAOS-NC-FRM-SCP",
+              "seq": 0,
+              "profileName": "Short Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-NC-FRM-SCP-1",
+              "wepId": "CHAOS-NC-FRM-SCP",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-FRM-TCV",
+          "opTypeId": "CHAOS-NC-FRM",
+          "seq": 2,
+          "wepName": "Terrorchem Vial",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-FRM-TCV-0",
+              "wepId": "CHAOS-NC-FRM-TCV",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/0",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-CHAOS-NC-TERRORCHEM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-FRM-TB",
+          "opTypeId": "CHAOS-NC-FRM",
+          "seq": 3,
+          "wepName": "Tainted Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-FRM-TB-0",
+              "wepId": "CHAOS-NC-FRM-TB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-CHAOS-NC-TERRORCHEM"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-FRM-A-TCP",
+          "opTypeId": "CHAOS-NC-FRM",
+          "abilityName": "Terrochem Poison",
+          "description": "Whenever an operative that has one of your Terrorchem tokens is activated, inflict 1D3 damage on it."
+        },
+        {
+          "abilityId": "CHAOS-NC-FRM-PO",
+          "opTypeId": "CHAOS-NC-FRM",
+          "abilityName": "Poison Objective",
+          "AP": 1,
+          "description": "Select one objective marker this operative controls to gain one of your Terrorchem tokens.\nIt cannot be an objective marker within control range of an enemy operative, or one that already has one of your Terrorchem tokens.\nThe first time that objective marker is within control range of an enemy operative that does not have one of your Terrorchem tokens, that operative gains that Terrorchem token, then inflicts 2D3 damage on it\n(if it is during an action, at the end of that action)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-NC-GNR",
+      "killteamId": "CHAOS-NC",
+      "seq": 3,
+      "opTypeName": "Night Lord Gunner",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-GNR-BP",
+          "opTypeId": "CHAOS-NC-GNR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-GNR-BP-0",
+              "wepId": "CHAOS-NC-GNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-GNR-FL",
+          "opTypeId": "CHAOS-NC-GNR",
+          "seq": 2,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-GNR-FL-0",
+              "wepId": "CHAOS-NC-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-GNR-MG",
+          "opTypeId": "CHAOS-NC-GNR",
+          "seq": 3,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-GNR-MG-0",
+              "wepId": "CHAOS-NC-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-GNR-PG",
+          "opTypeId": "CHAOS-NC-GNR",
+          "seq": 4,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-GNR-PG-0",
+              "wepId": "CHAOS-NC-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-NC-GNR-PG-1",
+              "wepId": "CHAOS-NC-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-GNR-F",
+          "opTypeId": "CHAOS-NC-GNR",
+          "seq": 5,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-GNR-F-0",
+              "wepId": "CHAOS-NC-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-NC-HGNR",
+      "killteamId": "CHAOS-NC",
+      "seq": 4,
+      "opTypeName": "Night Lord Heavy Gunner",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-HGNR-BP",
+          "opTypeId": "CHAOS-NC-HGNR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-BP-0",
+              "wepId": "CHAOS-NC-HGNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-HGNR-HB",
+          "opTypeId": "CHAOS-NC-HGNR",
+          "seq": 2,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-HB-0",
+              "wepId": "CHAOS-NC-HGNR-HB",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-HB-1",
+              "wepId": "CHAOS-NC-HGNR-HB",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-HGNR-ML",
+          "opTypeId": "CHAOS-NC-HGNR",
+          "seq": 3,
+          "wepName": "Missile Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-ML-0",
+              "wepId": "CHAOS-NC-HGNR-ML",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-ML-1",
+              "wepId": "CHAOS-NC-HGNR-ML",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-HGNR-F",
+          "opTypeId": "CHAOS-NC-HGNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-HGNR-F-0",
+              "wepId": "CHAOS-NC-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-NC-SCR",
+      "killteamId": "CHAOS-NC",
+      "seq": 5,
+      "opTypeName": "Night Lord Screecher",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, SCREECHER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-SCR-LC",
+          "opTypeId": "CHAOS-NC-SCR",
+          "seq": 1,
+          "wepName": "Lightning Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-SCR-LC-0",
+              "wepId": "CHAOS-NC-SCR-LC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-SCR-A-AFC",
+          "opTypeId": "CHAOS-NC-SCR",
+          "abilityName": "Appetite For Cruelty",
+          "description": "Whenever this operative is fighting against a wounded enemy operative, this operative's lightning claws gain the Lethal 4+ weapon Rule."
+        },
+        {
+          "abilityId": "CHAOS-NC-SCR-A-SCR",
+          "opTypeId": "CHAOS-NC-SCR",
+          "abilityName": "Screecher",
+          "description": "Whenever an enemy operative within 3\" of this operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-NC-SKT",
+      "killteamId": "CHAOS-NC",
+      "seq": 6,
+      "opTypeName": "Night Lord Skinthief",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, SKINTHIEF",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-SKT-BP",
+          "opTypeId": "CHAOS-NC-SKT",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-SKT-BP-0",
+              "wepId": "CHAOS-NC-SKT-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-SKT-NCG",
+          "opTypeId": "CHAOS-NC-SKT",
+          "seq": 2,
+          "wepName": "Nostraman Chainglaive",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-SKT-NCG-0",
+              "wepId": "CHAOS-NC-SKT-NCG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-SKT-A-FTA",
+          "opTypeId": "CHAOS-NC-SKT",
+          "abilityName": "Flay Them Alive",
+          "description": "Once per turning point, when this operative incapacitates an enemy operative within its control range, you can select one other enemy operative visible to and within 6\" of either this operative or the incapacitated operative.\nUntil the start of the next turning point, that other enemy operative cannot control markers or perform the Pick Up Marker or mission actions."
+        },
+        {
+          "abilityId": "CHAOS-NC-SKT-A-TOTSP",
+          "opTypeId": "CHAOS-NC-SKT",
+          "abilityName": "Tyrant Of The Skinning Pits",
+          "description": "Whenever this operative is fighting or retaliating, Normal and Critical damage of 3 or more inflicts 1 less damage on it."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-NC-VEN",
+      "killteamId": "CHAOS-NC",
+      "seq": 7,
+      "opTypeName": "Night Lord Ventrilokar",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, VENTRILOKAR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-VEN-BP",
+          "opTypeId": "CHAOS-NC-VEN",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VEN-BP-0",
+              "wepId": "CHAOS-NC-VEN-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-VEN-CS",
+          "opTypeId": "CHAOS-NC-VEN",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-VEN-CS-0",
+              "wepId": "CHAOS-NC-VEN-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-VEN-A-IB",
+          "opTypeId": "CHAOS-NC-VEN",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "CHAOS-NC-VEN-DCM",
+          "opTypeId": "CHAOS-NC-VEN",
+          "abilityName": "Disconcerting Mimicry",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\nSelect one enemy operative within 6\" of this operative, then select one of the following for that enemy operative (you can only select each option once per battle):\n\n- Until the end of the next activation, subtract 1 from its APL stat\n- Change its order\n- Perform a free dash with it (specify the location for your opponent to move it to)\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-NC-WAR",
+      "killteamId": "CHAOS-NC",
+      "seq": 8,
+      "opTypeName": "Night Lord Warrior",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "NEMESIS CLAW, CHAOS, HERETIC ASTARTES, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-NC-WAR-BP",
+          "opTypeId": "CHAOS-NC-WAR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-WAR-BP-0",
+              "wepId": "CHAOS-NC-WAR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-WAR-BG",
+          "opTypeId": "CHAOS-NC-WAR",
+          "seq": 2,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-WAR-BG-0",
+              "wepId": "CHAOS-NC-WAR-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-WAR-CS",
+          "opTypeId": "CHAOS-NC-WAR",
+          "seq": 3,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-WAR-CS-0",
+              "wepId": "CHAOS-NC-WAR-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-NC-WAR-F",
+          "opTypeId": "CHAOS-NC-WAR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-NC-WAR-F-0",
+              "wepId": "CHAOS-NC-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-NC-WAR-A-CT",
+          "opTypeId": "CHAOS-NC-WAR",
+          "abilityName": "Cruel Tormentor",
+          "description": "Whenever this operative is shooting against, fighting against, or retaliating against an injured enemy operative, or an enemy operative that has a wounds stat of 7 or less, its weapons have the Lethal 5+ rule."
+        }
+      ]
+    }
+  ]
+}

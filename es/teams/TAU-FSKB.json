@@ -1,0 +1,1012 @@
+{
+  "factionId": "TAU",
+  "killteamId": "TAU-FSKB",
+  "version": "June '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_farstalker_kinband-c0p0a01n39-1gxzkcsgjy.pdf",
+  "killteamName": "Farstalker Kinband",
+  "description": "Farstalker Kinbands operate as scouts for the Kroot species. They range far and wide throughout the galaxy, seeking new and valuable genetic material to return to their Shapers. Farstalker Kinbands contain expert trackers, hunters and guerrilla fighters who are capable of matching far more technologically advanced foes.",
+  "composition": "A FARSTALKER KINBAND killteam is composed of:\n\n- 1 FARSTALKER KINBAND KILL-BROKER operative with one of the following options:\n  - Kroot rifle; ritual blade\n  - Pulse weapon; ritual blade\n- 11 FARSTALKER KINBAND operatives selected from the following list:\n  - BOW-HUNTER\n  - COLD-BLOOD\n  - CUT-SKIN\n  - HOUND\n  - LONG-SIGHT\n  - PISTOLIER\n  - STALKER\n  - TRACKER\n  - HEAVY GUNNER with one of the following options:\n    - Dvorgite skinner; blade\n    - Londaxi tribalest; blade    \n  - WARRIOR with one of the following options:\n    - Kroot rifle; blade\n    - Kroot scattergun; blade\n        \nOther than HOUND and WARRIOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two HOUND operatives.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "TAU-FSKB-S-BND",
+      "killteamId": "TAU-FSKB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Bound",
+      "description": "During each friendly FARSTALKER KINBAND operative's activation, you can ignore the first vertical distance of 2\" they move during one climb up."
+    },
+    {
+      "ployId": "TAU-FSKB-S-CT",
+      "killteamId": "TAU-FSKB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cut-Throats",
+      "description": "Add 1 to the Atk stat of friendly FARSTALKER KINBAND operatives' melee weapons (to a maximum of 5)."
+    },
+    {
+      "ployId": "TAU-FSKB-S-PR",
+      "killteamId": "TAU-FSKB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Prey",
+      "description": "Whenever a friendly FARSTALKER KINBAND operative is shooting during an activation in which it hasn't performed the Charge, Fall Back or Reposition action, its ranged weapons have the Balanced and Severe weapon rules; if the weapon already has the Balanced weapon rule, it has the Ceaseless and Severe weapon rules instead.\r Note that operative isn't restricted from performing those actions after shooting.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "TAU-FSKB-S-RG",
+      "killteamId": "TAU-FSKB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Rogue",
+      "description": "Whenever an operative is shooting a friendly FARSTALKER KINBAND operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n  \n**Saturate:** The defender cannot retain Cover saves."
+    },
+    {
+      "ployId": "TAU-FSKB-T-PCH",
+      "killteamId": "TAU-FSKB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Poach",
+      "description": "Use this firefight ploy during a friendly FARSTALKER KINBAND operative's activation. Until the end of that activation, that operative doesn't have to control a marker to perform the Pick Up Marker or mission actions that usually require this (taking precedence over that action's conditions - it only needs to contest the marker)."
+    },
+    {
+      "ployId": "TAU-FSKB-T-SA",
+      "killteamId": "TAU-FSKB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Slip Away",
+      "description": "Use this firefight ploy during a friendly FARSTALKER KINBAND operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "TAU-FSKB-T-SAMB",
+      "killteamId": "TAU-FSKB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Savage Ambush",
+      "description": "Use this firefight ploy during the Fight action when a ready friendly FARSTALKER KINBAND operative that has Light or Heavy terrain within its control range is selected to fight against.\nIn the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e. defender instead of attacker)."
+    },
+    {
+      "ployId": "TAU-FSKB-T-VFTKB",
+      "killteamId": "TAU-FSKB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Vengeance For The Kinband",
+      "description": "Use this firefight ploy when a friendly FARSTALKER KINBAND operative is incapacitated by an enemy operative.\nUntil the end of the battle, whenever another friendly FARSTALKER KINBAND operative is shooting against, fighting against or retaliating against that enemy operative, that other friendly operative's weapons have the Relentless weapon rule.\nYou cannot use this ploy again during the battle until that enemy operative is incapacitated.  \n**Relentless:** Can re-roll any or all Attack dice."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TAU-FSKB-PS",
+      "killteamId": "TAU-FSKB",
+      "seq": 1,
+      "eqName": "Piercing Shot",
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Piercing 1 weapon rule.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-FSKB-TS",
+      "killteamId": "TAU-FSKB",
+      "seq": 2,
+      "eqName": "Toxin Shot",
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Lethal 5+ and Stun weapon rules.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-FSKB-MEAT",
+      "killteamId": "TAU-FSKB",
+      "seq": 3,
+      "eqName": "Meat",
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative (excluding HOUND) is activated, if it's not within control range of enemy operatives, you can use this rule. If you do, that friendly operative regains D3+1 lost wounds.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-FSKB-TRP",
+      "killteamId": "TAU-FSKB",
+      "seq": 4,
+      "eqName": "Trophy",
+      "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-FSKB-TA-FA",
+      "abilityName": "Farstalkers",
+      "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TAU-FSKB-KB",
+      "killteamId": "TAU-FSKB",
+      "seq": 0,
+      "opTypeName": "Kroot Kill-Broker",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, LEADER, KROOT, KILL-BROKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-KB-KR",
+          "opTypeId": "TAU-FSKB-KB",
+          "seq": 0,
+          "wepName": "Kroot Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-KB-KR-0",
+              "wepId": "TAU-FSKB-KB-KR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-KB-PC",
+          "opTypeId": "TAU-FSKB-KB",
+          "seq": 1,
+          "wepName": "Pulse Weapon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-KB-PC-0",
+              "wepId": "TAU-FSKB-KB-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-KB-RB",
+          "opTypeId": "TAU-FSKB-KB",
+          "seq": 3,
+          "wepName": "Ritual Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-KB-RB-0",
+              "wepId": "TAU-FSKB-KB-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-KB-A-CTK",
+          "opTypeId": "TAU-FSKB-KB",
+          "abilityName": "Call The Kill",
+          "description": "**STRATEGIC GAMBIT**\r Select one enemy operative to be your mark for the turning point.\r Whenever a friendly FARSTALKER KINBAND operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Balanced weapon rule.\r Whenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
+        },
+        {
+          "abilityId": "TAU-FSKB-KB-A-VS",
+          "opTypeId": "TAU-FSKB-KB",
+          "abilityName": "Victory Shriek",
+          "description": "Whenever your mark is incapacitated, you can select one friendly FARSTALKER KINBAND operative within 6\" of this operative.\r Until the end of the battle, that operative's weapons have the Balanced weapon rule. Each friendly operative can only be selected for this rule once per battle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-BH",
+      "killteamId": "TAU-FSKB",
+      "seq": 1,
+      "opTypeName": "Kroot Bow-Hunter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, BOW-HUNTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-BH-AB",
+          "opTypeId": "TAU-FSKB-BH",
+          "seq": 0,
+          "wepName": "Accelerator Bow",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-BH-AB-0",
+              "wepId": "TAU-FSKB-BH-AB",
+              "seq": 0,
+              "profileName": "Fused Arrow",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-FSKB-BH-AB-1",
+              "wepId": "TAU-FSKB-BH-AB",
+              "seq": 1,
+              "profileName": "Glide Arrow",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-FSKB-BH-AB-2",
+              "wepId": "TAU-FSKB-BH-AB",
+              "seq": 2,
+              "profileName": "Voltaic Arrow",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-BH-BL",
+          "opTypeId": "TAU-FSKB-BH",
+          "seq": 1,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-BH-BL-0",
+              "wepId": "TAU-FSKB-BH-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-BH-NRG",
+          "opTypeId": "TAU-FSKB-BH",
+          "abilityName": "Energise",
+          "AP": 1,
+          "description": "Until the end of the turning point or until this operative has shot with its accelerator bow (whichever comes first), all profiles of its accelerator bow have the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-CB",
+      "killteamId": "TAU-FSKB",
+      "seq": 2,
+      "opTypeName": "Kroot Cold-Blood",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, COLD-BLOOD",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-CB-KR",
+          "opTypeId": "TAU-FSKB-CB",
+          "seq": 0,
+          "wepName": "Kroot Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-CB-KR-0",
+              "wepId": "TAU-FSKB-CB-KR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-CB-BL",
+          "opTypeId": "TAU-FSKB-CB",
+          "seq": 1,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-CB-BL-0",
+              "wepId": "TAU-FSKB-CB-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-CB-A-CB",
+          "opTypeId": "TAU-FSKB-CB",
+          "abilityName": "Cold-Blooded",
+          "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, this operative's weapons have the Lethal 5+ weapon rule;\nif that enemy operative is also injured, this operative's weapons also have the Rending weapon rule."
+        },
+        {
+          "abilityId": "TAU-FSKB-CB-A-HRD",
+          "opTypeId": "TAU-FSKB-CB",
+          "abilityName": "Hardy",
+          "description": "Whenever an attack dice would inflict Critical Dmg on this operative, you can choose for that attack dice to inflict Normal Dmg instead."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-CS",
+      "killteamId": "TAU-FSKB",
+      "seq": 3,
+      "opTypeName": "Kroot Cut-Skin",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, CUT-SKIN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-CS-CSB",
+          "opTypeId": "TAU-FSKB-CS",
+          "seq": 0,
+          "wepName": "Cut-Skin's Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-CS-CSB-0",
+              "wepId": "TAU-FSKB-CS-CSB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-CS-A-SA",
+          "opTypeId": "TAU-FSKB-CS",
+          "abilityName": "Savage Assault",
+          "description": "The first time this operative performs the Fight action during each of its activations, if neither it nor the enemy operative in that sequence is incapacitated,\nthis operative can immediately perform a free Fight action afterwards, but it can only fight against that enemy operative (and only if it's still valid to fight against).\nThis takes precedence over action restrictions."
+        },
+        {
+          "abilityId": "TAU-FSKB-CS-A-VD",
+          "opTypeId": "TAU-FSKB-CS",
+          "abilityName": "Vicious Duellist",
+          "description": "Whenever this operative is fighting or retaliating, for each attack dice your opponent discards as a fail, inflict 1 damage on the enemy operative in that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-HGNR",
+      "killteamId": "TAU-FSKB",
+      "seq": 4,
+      "opTypeName": "Kroot Heavy Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-HGNR-DV",
+          "opTypeId": "TAU-FSKB-HGNR",
+          "seq": 0,
+          "wepName": "Dvorgite Skinner",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-HGNR-DV-0",
+              "wepId": "TAU-FSKB-HGNR-DV",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-HGNR-LT",
+          "opTypeId": "TAU-FSKB-HGNR",
+          "seq": 1,
+          "wepName": "Londaxi Trabalest",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-HGNR-LT-0",
+              "wepId": "TAU-FSKB-HGNR-LT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-HGNR-BL",
+          "opTypeId": "TAU-FSKB-HGNR",
+          "seq": 2,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-HGNR-BL-0",
+              "wepId": "TAU-FSKB-HGNR-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "TAU-FSKB-HND",
+      "killteamId": "TAU-FSKB",
+      "seq": 5,
+      "opTypeName": "Kroot Hound",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, HOUND",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-HND-RF",
+          "opTypeId": "TAU-FSKB-HND",
+          "seq": 0,
+          "wepName": "Ripping Fangs",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-HND-RF-0",
+              "wepId": "TAU-FSKB-HND-RF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-HND-A-BST",
+          "opTypeId": "TAU-FSKB-HND",
+          "abilityName": "Beast",
+          "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Gather, Guard, Reposition, Pick Up Marker and Place Marker. It cannot use any weapons that aren't on its datacard."
+        },
+        {
+          "abilityId": "TAU-FSKB-HND-A-BT",
+          "opTypeId": "TAU-FSKB-HND",
+          "abilityName": "Bad-Tempered",
+          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
+        },
+        {
+          "abilityId": "TAU-FSKB-HND-GAT",
+          "opTypeId": "TAU-FSKB-HND",
+          "abilityName": "Gather",
+          "AP": 1,
+          "description": "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative (you can determine control during that action to do so),\nand any remaining move distance it had from the Dash or Reposition action can be used after it does so."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-LS",
+      "killteamId": "TAU-FSKB",
+      "seq": 6,
+      "opTypeName": "Kroot Long-Sight",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, LONG-SIGHT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-LS-KHR",
+          "opTypeId": "TAU-FSKB-LS",
+          "seq": 0,
+          "wepName": "Kroot Hunting Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-LS-KHR-0",
+              "wepId": "TAU-FSKB-LS-KHR",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-FSKB-LS-KHR-1",
+              "wepId": "TAU-FSKB-LS-KHR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "TAU-FSKB-LS-KHR-2",
+              "wepId": "TAU-FSKB-LS-KHR",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-LS-BL",
+          "opTypeId": "TAU-FSKB-LS",
+          "seq": 1,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-LS-BL-0",
+              "wepId": "TAU-FSKB-LS-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-LS-LS",
+          "opTypeId": "TAU-FSKB-LS",
+          "abilityName": "Long-Sight",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its Kroot hunting rifle have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its Kroot hunting rifle, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-PST",
+      "killteamId": "TAU-FSKB",
+      "seq": 7,
+      "opTypeName": "Kroot Pistolier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, PISTOLIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-PST-DKP",
+          "opTypeId": "TAU-FSKB-PST",
+          "seq": 0,
+          "wepName": "Dual Kroot Pistols",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-PST-DKP-0",
+              "wepId": "TAU-FSKB-PST-DKP",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-FSKB-PST-DKP-1",
+              "wepId": "TAU-FSKB-PST-DKP",
+              "seq": 1,
+              "profileName": "Salvo",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-IMP-TEMPAQ-SALVO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-PST-BL",
+          "opTypeId": "TAU-FSKB-PST",
+          "seq": 1,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-PST-BL-0",
+              "wepId": "TAU-FSKB-PST-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-PST-A-QD",
+          "opTypeId": "TAU-FSKB-PST",
+          "abilityName": "Quick Draw",
+          "description": "Once per turning point, when an enemy operative is performing the Shoot action and this operative is selected as the valid target (or if it will be a secondary target from the Blast weapon rule),\nif this operative is ready, you can interrupt that action to use this rule.\nIf you do, this operative can immediately perform a free Shoot action with its dual Kroot pistols (focused) against that enemy operative (you can change its order to Engage to do so),\nbut that enemy operative must be a valid target."
+        },
+        {
+          "abilityId": "TAU-FSKB-PST-A-SLV",
+          "opTypeId": "TAU-FSKB-PST",
+          "abilityName": "*Salvo",
+          "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-STK",
+      "killteamId": "TAU-FSKB",
+      "seq": 8,
+      "opTypeName": "Kroot Stalker",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, STALKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-STK-KSG",
+          "opTypeId": "TAU-FSKB-STK",
+          "seq": 0,
+          "wepName": "Kroot Scattergun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-STK-KSG-0",
+              "wepId": "TAU-FSKB-STK-KSG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-STK-SB",
+          "opTypeId": "TAU-FSKB-STK",
+          "seq": 1,
+          "wepName": "Stalker's Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-STK-SB-0",
+              "wepId": "TAU-FSKB-STK-SB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-STK-A-STK",
+          "opTypeId": "TAU-FSKB-STK",
+          "abilityName": "Stalker",
+          "description": "This operative can perform the Charge action while it has a Conceal order."
+        },
+        {
+          "abilityId": "TAU-FSKB-STK-SA",
+          "opTypeId": "TAU-FSKB-STK",
+          "abilityName": "Stealth Attack",
+          "AP": 2,
+          "description": "Perform a free Charge action with this operative, but don't exceed its Move stat (i.e. don't add 2\"). Then immediately perform a free Fight action with this operative.\nThe first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent).  \n\nThis operative cannot perform this action while it has an Engage order, while within control range of an enemy operative, or if it isn't within 1\" of Light or Heavy terrain."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-TRK",
+      "killteamId": "TAU-FSKB",
+      "seq": 9,
+      "opTypeName": "Kroot Tracker",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, TRACKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-TRK-KR",
+          "opTypeId": "TAU-FSKB-TRK",
+          "seq": 0,
+          "wepName": "Kroot Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-TRK-KR-0",
+              "wepId": "TAU-FSKB-TRK-KR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-TRK-BL",
+          "opTypeId": "TAU-FSKB-TRK",
+          "seq": 1,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-TRK-BL-0",
+              "wepId": "TAU-FSKB-TRK-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-TRK-FTEA",
+          "opTypeId": "TAU-FSKB-TRK",
+          "abilityName": "From The Eye Above",
+          "AP": 1,
+          "description": "**SUPPORT** Select one other friendly FARSTALKER KINBAND operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TAU-FSKB-TRK-MFTH",
+          "opTypeId": "TAU-FSKB-TRK",
+          "abilityName": "Marked For The Hunt",
+          "AP": 1,
+          "description": "Remove your Pech'ra marker from the killzone (if any). Then place your Pech'ra marker visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.\nWhenever a friendly FARSTALKER KINBAND operative is shooting an enemy operative that has that marker within its control range, that friendly operative's ranged weapons have the Seek Light weapon rule.  \n\nAt the start of this operative's next activation or if it's removed from the killzone (whichever comes first), remove your Pech'ra marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-FSKB-WAR",
+      "killteamId": "TAU-FSKB",
+      "seq": 10,
+      "opTypeName": "Kroot Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "FARSTALKER KINBAND, T'AU EMPIRE, KROOT, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-FSKB-WAR-KR",
+          "opTypeId": "TAU-FSKB-WAR",
+          "seq": 0,
+          "wepName": "Kroot Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-WAR-KR-0",
+              "wepId": "TAU-FSKB-WAR-KR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-WAR-KSG",
+          "opTypeId": "TAU-FSKB-WAR",
+          "seq": 1,
+          "wepName": "Kroot Scattergun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-WAR-KSG-0",
+              "wepId": "TAU-FSKB-WAR-KSG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-FSKB-WAR-BL",
+          "opTypeId": "TAU-FSKB-WAR",
+          "seq": 2,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-FSKB-WAR-BL-0",
+              "wepId": "TAU-FSKB-WAR-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-FSKB-WAR-A-RFA",
+          "opTypeId": "TAU-FSKB-WAR",
+          "abilityName": "Ready For Anything",
+          "description": "Once per turning point, during a friendly WARRIOR operative's activation, you can use the Meat, Piercing Shot or Toxin Shot rule (see faction equipment) for that operative. Doing so doesn't count for its once per turning point limit."
+        }
+      ]
+    }
+  ]
+}

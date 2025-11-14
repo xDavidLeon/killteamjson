@@ -1,0 +1,1117 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-NOV",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_novitiates-hamlyduj0r-xbib8bjpqw.pdf",
+  "killteamName": "Novitiates",
+  "description": "New inductees into the ranks of the Adepta Sororitas, Sisters Novitiate who display great zeal and determination are\noften deployed together in kill teams to hunt down apostates or root out heretics. In performing such duties, they may one day rise to become full Sisters, spreading the Emperor's light ever further.",
+  "composition": "A NOVITIATES killteam is composed of:\n\n- 1 NOVITIATE SUPERIOR operative with one of the following options:\n  - Plasma pistol; power weapon\n  - Relic boltgun; gun butt\n  - Relic bolt pistol; power weapon\n- 9 NOVITIATE operatives selected from the following list:\n  - CONDEMNOR\n  - DIALOGUS\n  - DUELLIST\n  - EXACTOR\n  - HOSPITALLER\n  - PENITENT\n  - PRECEPTOR\n  - PRONATUS\n  - PURGATUS\n  - RELIQUARIUS\n  - MILITANT with one of the following options:\n    - Autopistol; Novitiate blade\n    - Autogun; gun butt\n\nOther than MILITANT and PURGATUS operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two PURGATUS operatives.",
+  "archetypes": [
+    "Recon",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-NOV-S-AV",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ardent Vengeance",
+      "description": "Whenever a friendly NOVITIATE operative is shooting against, fighting against or retaliating against an expended enemy operative, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "IMP-NOV-S-BR",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blessed Rejuvenation",
+      "description": "Whenever you spend Faith points, at the end of that action, the friendly operative you spent them oncan regain up to D3 lost Wounds.\r Note this ploy has no effect if the ACT OF FAITH doesn't cost any Faith points, e.g. Auto-chastisers equipment."
+    },
+    {
+      "ployId": "IMP-NOV-S-DOTF",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Defenders Of The Faith",
+      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly NOVITIATE operative that contests an objective marker,\r in the Resolve Attack Dice step of that sequence, you can halve the damage inflicted (rounding up and to a minimum of 2) on that friendly operative from one normal success."
+    },
+    {
+      "ployId": "IMP-NOV-S-RA",
+      "killteamId": "IMP-NOV",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Righteous Advance",
+      "description": "Up to one third of the friendly NOVITIATE operatives in the killzone (rounding down, to a minimum of 1) can immediately perform a free Dash action in an order of your choice,\nbut each that does so must end that move closer to its closest enemy operative, its closest objective marker or your opponent's drop zone (you can choose separately for each).  \n\nYou cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-NOV-T-BA",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blinding Aura",
+      "description": "Use this firefight ploy when an enemy operative is performing the Shoot action and selects a friendly NOVITIATE operative as the valid target.\nUntil the end of that activation/counteraction, while that friendly operative is more than 2\" from that enemy operative, your opponent cannot select it as a valid target.\nIf there are no other valid targets that your opponent can select, that action ends (it's not cancelled, so that operative has still performed it).\nNote this ploy has no effect if it's not the selected operative, e.g. if it's a secondary target from the Blast weapon rule."
+    },
+    {
+      "ployId": "IMP-NOV-T-BI",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blazing Inferno",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is shooting with a Ministorum flamer and you inflict damage with any critical successes.\r The target gains one of your Blaze tokens (if it doesn't already have one). Whenever an operative that has one of your Blaze tokens is activated:\r \r - Inflict D3 damage on it.\r - Its controlling player can subtract 1 from that operative's APL stat until the end of that activation to remove that token. Note that this must be done before that operative performs any actions during that activation.\r "
+    },
+    {
+      "ployId": "IMP-NOV-T-GBF",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Guided By Faith",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is performing the Shoot action and you're selecting a ranged weapon.\nUntil the end of that action, whenever that operative is shooting an operative within 6\" of it, that weapon has the Seek Light weapon rule.  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
+    },
+    {
+      "ployId": "IMP-NOV-T-GM",
+      "killteamId": "IMP-NOV",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Glorious Martyrdom",
+      "description": "Use this firefight ploy when a friendly NOVITIATE operative is incapacitated, before it is removed from the killzone. For each enemy operative visible to and within 2\" of it, you gain 1 Faith point and inflict D3 damage on that enemy operative (roll separately for each)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-NOV-IOF",
+      "killteamId": "IMP-NOV",
+      "seq": 1,
+      "eqName": "Icon Of Faith",
+      "description": "Once per turning point, you can use up to two ACTS OF FAITH during a sequence, but each one must be different. This takes precedence over the normal ACTS OF FAITH rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-SR",
+      "killteamId": "IMP-NOV",
+      "seq": 2,
+      "eqName": "Sanctified Rounds",
+      "description": "Whenever a friendly NOVITIATE operative is shooting with an autogun, autopistol, relic bolt pistol or relic boltgun, if you spend a Faith point, that weapon has the Piercing Crits 1 weapon rule until the end of that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-AC",
+      "killteamId": "IMP-NOV",
+      "seq": 3,
+      "eqName": "Auto-Chastisers",
+      "description": "Once per turning point, when a friendly NOVITIATE operative is shooting, fighting or retaliating, in the Roll Attack Dice step,\nyou can inflict 1-3 damage on that friendly operative (but not enough to incapacitate it).\nIf you do, you can use one ACT OF FAITH for free during that sequence with a Faith points cost no more than the damage you inflicted from this rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-NOV-HE",
+      "killteamId": "IMP-NOV",
+      "seq": 4,
+      "eqName": "Holy Embrocations",
+      "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured.",
+      "effects": "NOINJMOV"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-NOV-TA-ACOFFA",
+      "abilityName": "Acts Of Faith",
+      "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-NOV-SUP",
+      "killteamId": "IMP-NOV",
+      "seq": 1,
+      "opTypeName": "Novitiate Superior",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, LEADER, SUPERIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-SUP-PP",
+          "opTypeId": "IMP-NOV-SUP",
+          "seq": 1,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-SUP-PP-0",
+              "wepId": "IMP-NOV-SUP-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-NOV-SUP-PP-1",
+              "wepId": "IMP-NOV-SUP-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-SUP-RBP",
+          "opTypeId": "IMP-NOV-SUP",
+          "seq": 2,
+          "wepName": "Relic Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-SUP-RBP-0",
+              "wepId": "IMP-NOV-SUP-RBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-SUP-RBG",
+          "opTypeId": "IMP-NOV-SUP",
+          "seq": 3,
+          "wepName": "Relic Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-SUP-RBG-0",
+              "wepId": "IMP-NOV-SUP-RBG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-SUP-GB",
+          "opTypeId": "IMP-NOV-SUP",
+          "seq": 4,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-SUP-GB-0",
+              "wepId": "IMP-NOV-SUP-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-SUP-PW",
+          "opTypeId": "IMP-NOV-SUP",
+          "seq": 5,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-SUP-PW-0",
+              "wepId": "IMP-NOV-SUP-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-SUP-A-IE",
+          "opTypeId": "IMP-NOV-SUP",
+          "abilityName": "Inspirational Example",
+          "description": "Whenever this operative incapacitates an enemy operative, you gain 1 Faith point, or 2 Faith points if that enemy operative had a Wounds stat of 12 or more.\nThis rule has no effect when using the Glorious Martyrdom firefight ploy."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-CON",
+      "killteamId": "IMP-NOV",
+      "seq": 2,
+      "opTypeName": "Novitiate Condemnor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, CONDEMNOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-CON-CST",
+          "opTypeId": "IMP-NOV-CON",
+          "seq": 1,
+          "wepName": "Condemnor Stakethrower",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-CON-CST-0",
+              "wepId": "IMP-NOV-CON-CST",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-NOV-ANTI-PSYKER"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-CON-NR",
+          "opTypeId": "IMP-NOV-CON",
+          "seq": 2,
+          "wepName": "Null Rod",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-CON-NR-0",
+              "wepId": "IMP-NOV-CON-NR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-IMP-NOV-ANTI-PSYKER"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-CON-A-NR",
+          "opTypeId": "IMP-NOV-CON",
+          "abilityName": "Null Rod",
+          "description": "PSYCHIC ranged weapons cannot inflict damage on this operative.\nFor the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-DIA",
+      "killteamId": "IMP-NOV",
+      "seq": 3,
+      "opTypeName": "Novitiate Dialogus",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS,PRECEPTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-DIA-AP",
+          "opTypeId": "IMP-NOV-DIA",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-DIA-AP-0",
+              "wepId": "IMP-NOV-DIA-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-DIA-DS",
+          "opTypeId": "IMP-NOV-DIA",
+          "seq": 2,
+          "wepName": "Dialogus Stave",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-DIA-DS-0",
+              "wepId": "IMP-NOV-DIA-DS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-DIA-ABC",
+          "opTypeId": "IMP-NOV-DIA",
+          "abilityName": "Auto-Broadcaster",
+          "AP": 0,
+          "description": "If your Auto-broadcaster marker isn't in the killzone, place it within 8\" horizontally of this operative; otherwise, move your Auto-broadcaster marker up to 8\" horizontally.\nIf this operative is removed from the killzone, remove your Auto-broadcaster marker from the killzone.  \n\nWhenever an enemy operative within 3\" of your Auto-broadcaster marker is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "IMP-NOV-DIA-SR",
+          "opTypeId": "IMP-NOV-DIA",
+          "abilityName": "Stirring Rhetoric",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly NOVITIATE operative visible to and within 6\" of this operative, or within 6\" of your Auto-broadcaster marker.\nUntil the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-DUE",
+      "killteamId": "IMP-NOV",
+      "seq": 4,
+      "opTypeName": "Novitiate Duellist",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, DUELLIST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-DUE-AP",
+          "opTypeId": "IMP-NOV-DUE",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-DUE-AP-0",
+              "wepId": "IMP-NOV-DUE-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-DUE-DB",
+          "opTypeId": "IMP-NOV-DUE",
+          "seq": 2,
+          "wepName": "Duelling Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-DUE-DB-0",
+              "wepId": "IMP-NOV-DUE-DB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-IMP-NOV-RIPOSTE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-NOV-EXA",
+      "killteamId": "IMP-NOV",
+      "seq": 5,
+      "opTypeName": "Novitiate Exactor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, EXACTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-EXA-NWR",
+          "opTypeId": "IMP-NOV-EXA",
+          "seq": 1,
+          "wepName": "Neural Whips",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-EXA-NWR-0",
+              "wepId": "IMP-NOV-EXA-NWR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-EXA-NWM",
+          "opTypeId": "IMP-NOV-EXA",
+          "seq": 2,
+          "wepName": "Neural Whips",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-EXA-NWM-0",
+              "wepId": "IMP-NOV-EXA-NWM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-EXA-WIF",
+          "opTypeId": "IMP-NOV-EXA",
+          "abilityName": "Whip Into Frenzy",
+          "AP": 1,
+          "description": "Select one other friendly NOVITIATE operative (excluding SUPERIOR) visible to and within 3\" of this operative that isn't currently benefitting from the effects of this action.\nUntil the end of that operative's next activation, add 1\" to its Move stat, it can perform two Fight actions during its next activation, and one of them can be free.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-HOS",
+      "killteamId": "IMP-NOV",
+      "seq": 6,
+      "opTypeName": "Novitiate Hospitaller",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, HOSPITALLER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-HOS-AP",
+          "opTypeId": "IMP-NOV-HOS",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-HOS-AP-0",
+              "wepId": "IMP-NOV-HOS-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-HOS-SS",
+          "opTypeId": "IMP-NOV-HOS",
+          "seq": 2,
+          "wepName": "Surgical Saw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-HOS-SS-0",
+              "wepId": "IMP-NOV-HOS-SS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-HOS-A-MDC",
+          "opTypeId": "IMP-NOV-HOS",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly NOVITIATE operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's\r control range. Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "IMP-NOV-HOS-CT",
+          "opTypeId": "IMP-NOV-HOS",
+          "abilityName": "Chirurgeon's Tools",
+          "AP": 1,
+          "description": "Select one friendly NOVITIATE operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-MIL",
+      "killteamId": "IMP-NOV",
+      "seq": 7,
+      "opTypeName": "Novitiate Militant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, MILITANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-MIL-AG",
+          "opTypeId": "IMP-NOV-MIL",
+          "seq": 1,
+          "wepName": "Autogun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-MIL-AG-0",
+              "wepId": "IMP-NOV-MIL-AG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-MIL-AP",
+          "opTypeId": "IMP-NOV-MIL",
+          "seq": 2,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-MIL-AP-0",
+              "wepId": "IMP-NOV-MIL-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-MIL-GB",
+          "opTypeId": "IMP-NOV-MIL",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-MIL-GB-0",
+              "wepId": "IMP-NOV-MIL-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-MIL-NB",
+          "opTypeId": "IMP-NOV-MIL",
+          "seq": 4,
+          "wepName": "Novitiate Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-MIL-NB-0",
+              "wepId": "IMP-NOV-MIL-NB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-MIL-A-MF",
+          "opTypeId": "IMP-NOV-MIL",
+          "abilityName": "Militant Faith",
+          "description": "Whenever this operative is shooting, fighting or retaliating, if you use an ACT OF FAITH during that sequence and an enemy operative is incapacitated,\nthe Faith points spent on that ACT OF FAITH are refunded. If you use the Icon of Faith equipment, Faith points are only refunded for one of those ACTS OF FAITH (your choice)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-PEN",
+      "killteamId": "IMP-NOV",
+      "seq": 8,
+      "opTypeName": "Novitiate Penitent",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PENITENT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-PEN-AP",
+          "opTypeId": "IMP-NOV-PEN",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PEN-AP-0",
+              "wepId": "IMP-NOV-PEN-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-PEN-PE",
+          "opTypeId": "IMP-NOV-PEN",
+          "seq": 2,
+          "wepName": "Penitent Eviscerator",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PEN-PE-0",
+              "wepId": "IMP-NOV-PEN-PE",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-IMP-NOV-ZEALOUS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-PEN-A-ATD",
+          "opTypeId": "IMP-NOV-PEN",
+          "abilityName": "Absolution Through Destruction",
+          "description": "Whenever this operative performs the Fight action, if it isn't incapacitated, it can immediately perform a free Fight action afterwards.\nThis takes precedence over action restrictions, and you cannot perform more than two Fight actions in succession as a result of this rule.\nIf this operative is benefitting from the effects of the Whip Into Frenzy action (see EXACTOR), this applies to each of the Fight actions from those effects."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-PRE",
+      "killteamId": "IMP-NOV",
+      "seq": 9,
+      "opTypeName": "Novitiate Preceptor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRECEPTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-PRE-MOTR",
+          "opTypeId": "IMP-NOV-PRE",
+          "seq": 1,
+          "wepName": "Mace Of The Righteous",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PRE-MOTR-0",
+              "wepId": "IMP-NOV-PRE-MOTR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-PRE-A-GH",
+          "opTypeId": "IMP-NOV-PRE",
+          "abilityName": "Glorious Hymnal",
+          "description": "**SUPPORT** Whenever a friendly NOVITIATE operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule."
+        },
+        {
+          "abilityId": "IMP-NOV-PRE-A-UE",
+          "opTypeId": "IMP-NOV-PRE",
+          "abilityName": "Unflinching Example",
+          "description": "Whenever this operative incapacitates a ready enemy operative within its control range, you gain 1 Faith point, or 2 Faith points if that enemy operative had a Wounds stat of 12 or more."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-PRO",
+      "killteamId": "IMP-NOV",
+      "seq": 10,
+      "opTypeName": "Novitiate Pronatus",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRONATUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-PRO-AP",
+          "opTypeId": "IMP-NOV-PRO",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PRO-AP-0",
+              "wepId": "IMP-NOV-PRO-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-PRO-GB",
+          "opTypeId": "IMP-NOV-PRO",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PRO-GB-0",
+              "wepId": "IMP-NOV-PRO-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-PRO-A-DA",
+          "opTypeId": "IMP-NOV-PRO",
+          "abilityName": "Divine Acquisition",
+          "description": "Once per turning point, when this operative performs a mission action that requires it to control an objective or mission marker, you gain a number of Faith points equal to the turning point number."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-PUR",
+      "killteamId": "IMP-NOV",
+      "seq": 11,
+      "opTypeName": "Novitiate Purgatus",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PURGATUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-PUR-MF",
+          "opTypeId": "IMP-NOV-PUR",
+          "seq": 1,
+          "wepName": "Ministorum Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PUR-MF-0",
+              "wepId": "IMP-NOV-PUR-MF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-PUR-GB",
+          "opTypeId": "IMP-NOV-PUR",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-PUR-GB-0",
+              "wepId": "IMP-NOV-PUR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-PUR-A-PWF",
+          "opTypeId": "IMP-NOV-PUR",
+          "abilityName": "Purge With Flame",
+          "description": "Once per turning point, you can use the Inferno firefight ploy for 0CP if this is the specified friendly NOVITIATE operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-NOV-REL",
+      "killteamId": "IMP-NOV",
+      "seq": 12,
+      "opTypeName": "Novitiate Reliquarius",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, RELIQUARIUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-NOV-REL-AP",
+          "opTypeId": "IMP-NOV-REL",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-REL-AP-0",
+              "wepId": "IMP-NOV-REL-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-NOV-REL-GB",
+          "opTypeId": "IMP-NOV-REL",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-NOV-REL-GB-0",
+              "wepId": "IMP-NOV-REL-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-NOV-REL-A-IB",
+          "opTypeId": "IMP-NOV-REL",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "IMP-NOV-REL-RI",
+          "opTypeId": "IMP-NOV-REL",
+          "abilityName": "Raise Icon",
+          "AP": 1,
+          "description": "You gain 1 Faith point. If this operative controls an objective marker, you also gain a number of Faith points equal to the turning point number.  \n\nThis operative can only perform this action once per turning point, and cannot perform it while within control range of an enemy operative."
+        }
+      ]
+    }
+  ]
+}

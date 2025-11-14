@@ -1,0 +1,1244 @@
+{
+  "factionId": "TYR",
+  "killteamId": "TYR-WB",
+  "version": "1.0",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_wyrmblade-ewxxxogagv-mk51xr1be9.pdf",
+  "killteamName": "Wyrmblade",
+  "description": "Genestealer Cults are insidious broods of Human-xenos hybrids that spread unnoticed on Imperial worlds, sometimes for generations. They infiltrate the Imperium's social, industrial and military fabric, and their elite Wyrmblade kill teams squirm undetected into perfect ambush sites.",
+  "composition": "A WYRMBLADE killteam is composed of:\n\n- 1 WYRMBLADE NEOPHYTE LEADER operative with one of the following options:  \n  - Autogun; gun butt\n  - Shotgun; gun butt  \n  Or one option from each of the following:\n  - Bolt pistol, master-crafted autopistol or web pistol\n  - Chainsword, power maul or power pick\n- 13 WYRMBLADE operatives selected from the following list: \n  - KELERMORPH*\n  - LOCUS*\n  - GUNNER with flamer and gun butt\n  - GUNNER with grenade launcher and gun butt\n  - GUNNER with webber and gun butt\n  - HEAVY GUNNER with heavy stubber and gun butt\n  - HEAVY GUNNER with mining laser and gun butt\n  - HEAVY GUNNER with seismic cannon and gun butt\n  - ICON BEARER with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n  - SANCTUS SNIPER*\n  - SANCTUS TALON*\n  - WARRIOR with one of the following options:\n      - Autogun; gun butt\n      - Shotgun; gun butt\n\n*These operatives count as two selections each.  \nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives, up to two HEAVY GUNNER operatives and up to two CULT AGENT operatives.",
+  "archetypes": [
+    "Seek & Destroy",
+    "Infiltration"
+  ],
+  "ploys": [
+    {
+      "ployId": "TYR-WB-S-TDIAH",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "The Day Is At Hand",
+      "description": "Whenever a friendly WYRMBLADE operative is activated, if its order is changed from Conceal to Engage, until the end of that activation:\n\n- Its ranged weapons have the Rending weapon rule.\n- Add 1 to the Atk stat of its melee weapons (to a maximum of 5).\n  \n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+    },
+    {
+      "ployId": "TYR-WB-S-OWTS",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "One With The Shadows",
+      "description": "Whenever an operative is shooting a friendly WYRMBLADE operative that has a Conceal order, if Light terrain is intervening, that friendly operative is obscured (unless the intervening Light terrain is within 1\" of either operative)."
+    },
+    {
+      "ployId": "TYR-WB-S-DAD",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Divert And Disappear",
+      "description": "Up to three friendly WYRMBLADE operatives can immediately perform a free Dash or Charge action in an order of your choice (choose separately for each, and for the latter, it cannot move more than 3\").\nIf a WYRMBLADE CULT AGENT operative is selected for this ploy, it counts as two operatives, and it can perform a free Fall Back action instead (it cannot move more than 3\"); if it does, subtract 1 from its APL stat until the end of its next activation."
+    },
+    {
+      "ployId": "TYR-WB-S-CF",
+      "killteamId": "TYR-WB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Crossfire",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting an operative that another friendly WYRMBLADE operative has already shot during this turning point, that first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "TYR-WB-T-UQL",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unquestioning Loyalty",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE CULT AGENT or WYRMBLADE LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly WYRMBLADE NEOPHYTE operative (excluding LEADER) visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\r If it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    },
+    {
+      "ployId": "TYR-WB-T-SID",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Slink Into Darkness",
+      "description": "Use this firefight ploy at the end of a friendly WYRMBLADE operative's activation. If that operative has an Engage order, change it to Conceal. You cannot use this ploy for each friendly operative more than once per battle."
+    },
+    {
+      "ployId": "TYR-WB-T-CS",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Coiled Serpent",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE operative is shooting or fighting, after rolling your attack dice.\nIf that friendly operative's order was changed from Conceal to Engage at the start of that activation and this is the first time it has performed either the Shoot or Fight action during that activation,\nyou can retain one of your normal successes as a critical success instead. Note this ploy cannot come into effect more than once per activation (you cannot use it during both the Shoot and Fight action in the same activation)."
+    },
+    {
+      "ployId": "TYR-WB-T-APGITM",
+      "killteamId": "TYR-WB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "A Plan Generations In The Making",
+      "description": "Use this firefight ploy when a friendly WYRMBLADE NEOPHYTE operative is incapacitated. It can perform a free mission action before it's removed from the killzone."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TYR-WB-BC",
+      "killteamId": "TYR-WB",
+      "seq": 1,
+      "eqName": "Blasting Charges",
+      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n",
+      "effects": "ADDWEP:Blasting Charge|R|4|4+|3/5|"
+    },
+    {
+      "eqId": "TYR-WB-CK",
+      "killteamId": "TYR-WB",
+      "seq": 2,
+      "eqName": "Cult Knives",
+      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
+      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "TYR-WB-XT",
+      "killteamId": "TYR-WB",
+      "seq": 3,
+      "eqName": "Explosive Traps",
+      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-WB-SL",
+      "killteamId": "TYR-WB",
+      "seq": 4,
+      "eqName": "Spotlights",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-WB-TA-CUAM",
+      "abilityName": "Cult Ambush",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TYR-WB-LDR",
+      "killteamId": "TYR-WB",
+      "seq": 1,
+      "opTypeName": "Neophyte Leader",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, LEADER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-LDR-AG",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 1,
+          "wepName": "Autogun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-AG-0",
+              "wepId": "TYR-WB-LDR-AG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-BP",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 2,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-BP-0",
+              "wepId": "TYR-WB-LDR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-MCAP",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 3,
+          "wepName": "Master-Crafter AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-MCAP-0",
+              "wepId": "TYR-WB-LDR-MCAP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-SG",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 4,
+          "wepName": "Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-SG-0",
+              "wepId": "TYR-WB-LDR-SG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-WB",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 5,
+          "wepName": "Web Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-WB-0",
+              "wepId": "TYR-WB-LDR-WB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-CS",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 6,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-CS-0",
+              "wepId": "TYR-WB-LDR-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-GB",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 7,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-GB-0",
+              "wepId": "TYR-WB-LDR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-PM",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 8,
+          "wepName": "Power Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-PM-0",
+              "wepId": "TYR-WB-LDR-PM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LDR-PP",
+          "opTypeId": "TYR-WB-LDR",
+          "seq": 9,
+          "wepName": "Power Pick",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LDR-PP-0",
+              "wepId": "TYR-WB-LDR-PP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-LDR-A-FT",
+          "opTypeId": "TYR-WB-LDR",
+          "abilityName": "Familiar Territory",
+          "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
+        },
+        {
+          "abilityId": "TYR-WB-LDR-A-SV",
+          "opTypeId": "TYR-WB-LDR",
+          "abilityName": "Shadow Vector",
+          "description": "Once per turning point, you can use the Slink Into Darkness or Coiled Serpent firefight ploy for 0CP if the specified friendly WYRMBLADE operative is a NEOPHYTE visible to this operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-KLM",
+      "killteamId": "TYR-WB",
+      "seq": 2,
+      "opTypeName": "Kelermorph",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, KELERMORPH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-KLM-LAS",
+          "opTypeId": "TYR-WB-KLM",
+          "seq": 1,
+          "wepName": "Liberator Autostubs",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-KLM-LAS-0",
+              "wepId": "TYR-WB-KLM-LAS",
+              "seq": 0,
+              "profileName": "Hypersense",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-TYR-WB-HYPERSENSE"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-WB-KLM-LAS-1",
+              "wepId": "TYR-WB-KLM-LAS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-WB-KLM-LAS-2",
+              "wepId": "TYR-WB-KLM-LAS",
+              "seq": 2,
+              "profileName": "Short Range",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-KLM-KK",
+          "opTypeId": "TYR-WB-KLM",
+          "seq": 2,
+          "wepName": "Kelermorph Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-KLM-KK-0",
+              "wepId": "TYR-WB-KLM-KK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-KLM-A-CA",
+          "opTypeId": "TYR-WB-KLM",
+          "abilityName": "Cult Agent",
+          "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
+        },
+        {
+          "abilityId": "TYR-WB-KLM-A-EGS",
+          "opTypeId": "TYR-WB-KLM",
+          "abilityName": "Expert Gunslinger",
+          "description": "This operative can perform two Shoot actions during its activation."
+        },
+        {
+          "abilityId": "TYR-WB-KLM-A-HI",
+          "opTypeId": "TYR-WB-KLM",
+          "abilityName": "Heroic Inspiration",
+          "description": "Whenever a friendly WYRMBLADE NEOPHYTE operative visible to and within 3\" of this operative is shooting, fighting or retaliating, if this operative has incapacitated an enemy operative during this turning point, that friendly operative's weapons have the Severe weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-LOC",
+      "killteamId": "TYR-WB",
+      "seq": 3,
+      "opTypeName": "Locus",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, LOCUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-LOC-BT",
+          "opTypeId": "TYR-WB-LOC",
+          "seq": 1,
+          "wepName": "Barbed Tail",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LOC-BT-0",
+              "wepId": "TYR-WB-LOC-BT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-LOC-LB",
+          "opTypeId": "TYR-WB-LOC",
+          "seq": 2,
+          "wepName": "Locus Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-LOC-LB-0",
+              "wepId": "TYR-WB-LOC-LB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-LOC-A-BS",
+          "opTypeId": "TYR-WB-LOC",
+          "abilityName": "Bladed Stance",
+          "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+        },
+        {
+          "abilityId": "TYR-WB-LOC-A-CA",
+          "opTypeId": "TYR-WB-LOC",
+          "abilityName": "Cult Agent",
+          "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
+        },
+        {
+          "abilityId": "TYR-WB-LOC-A-ESM",
+          "opTypeId": "TYR-WB-LOC",
+          "abilityName": "Expert Swordsman",
+          "description": "This operative can perform two Fight actions during its activation. Whenever this operative ends the Fight action, if it's no longer within control range of enemy operatives, it can immediately perform a free Charge action (even if it's already performed the Charge action during that activation), but it cannot move more than 3\" during that action.\nDoing so doesn't prevent it from performing the Dash action afterwards during that activation."
+        },
+        {
+          "abilityId": "TYR-WB-LOC-A-QSS",
+          "opTypeId": "TYR-WB-LOC",
+          "abilityName": "Quicksilver Strike",
+          "description": "Once per turning point, after an enemy operative performs an action in which it moves or is set up, you can interrupt that activation/counteraction to use this rule.\nIf you do, this operative can immediately perform a free Charge action (you can change its order to do so), but it cannot move more than 3\", and it must end that move within control range of that enemy operative.\nIf this isn't possible, the interruption is cancelled and this rule hasn't been used."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-GNR",
+      "killteamId": "TYR-WB",
+      "seq": 4,
+      "opTypeName": "Neophyte Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-GNR-FL",
+          "opTypeId": "TYR-WB-GNR",
+          "seq": 1,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-GNR-FL-0",
+              "wepId": "TYR-WB-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-GNR-GL",
+          "opTypeId": "TYR-WB-GNR",
+          "seq": 2,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-GNR-GL-0",
+              "wepId": "TYR-WB-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-WB-GNR-GL-1",
+              "wepId": "TYR-WB-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-GNR-WB",
+          "opTypeId": "TYR-WB-GNR",
+          "seq": 3,
+          "wepName": "Webber",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-GNR-WB-0",
+              "wepId": "TYR-WB-GNR-WB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 12
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-GNR-GB",
+          "opTypeId": "TYR-WB-GNR",
+          "seq": 4,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-GNR-GB-0",
+              "wepId": "TYR-WB-GNR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-GNR-A-FT",
+          "opTypeId": "TYR-WB-GNR",
+          "abilityName": "Familiar Territory",
+          "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-HGNR",
+      "killteamId": "TYR-WB",
+      "seq": 5,
+      "opTypeName": "Neophyte Heavy Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-HGNR-HS",
+          "opTypeId": "TYR-WB-HGNR",
+          "seq": 1,
+          "wepName": "Heavy Stubber",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-HGNR-HS-0",
+              "wepId": "TYR-WB-HGNR-HS",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-WB-HGNR-HS-1",
+              "wepId": "TYR-WB-HGNR-HS",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-HGNR-ML",
+          "opTypeId": "TYR-WB-HGNR",
+          "seq": 2,
+          "wepName": "Mining Laser",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-HGNR-ML-0",
+              "wepId": "TYR-WB-HGNR-ML",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-HGNR-SC",
+          "opTypeId": "TYR-WB-HGNR",
+          "seq": 3,
+          "wepName": "Seismic Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-HGNR-SC-0",
+              "wepId": "TYR-WB-HGNR-SC",
+              "seq": 0,
+              "profileName": "Long-Wave",
+              "ATK": "6",
+              "HIT": "4+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-WB-HGNR-SC-1",
+              "wepId": "TYR-WB-HGNR-SC",
+              "seq": 1,
+              "profileName": "Short-Wave",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-HGNR-GB",
+          "opTypeId": "TYR-WB-HGNR",
+          "seq": 4,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-HGNR-GB-0",
+              "wepId": "TYR-WB-HGNR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-HGNR-A-FT",
+          "opTypeId": "TYR-WB-HGNR",
+          "abilityName": "Familiar Territory",
+          "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-IB",
+      "killteamId": "TYR-WB",
+      "seq": 6,
+      "opTypeName": "Neophyte Icon Bearer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, ICON BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-IB-AG",
+          "opTypeId": "TYR-WB-IB",
+          "seq": 1,
+          "wepName": "Autogun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-IB-AG-0",
+              "wepId": "TYR-WB-IB-AG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-IB-SG",
+          "opTypeId": "TYR-WB-IB",
+          "seq": 2,
+          "wepName": "Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-IB-SG-0",
+              "wepId": "TYR-WB-IB-SG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-IB-GB",
+          "opTypeId": "TYR-WB-IB",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-IB-GB-0",
+              "wepId": "TYR-WB-IB-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-IB-A-FT",
+          "opTypeId": "TYR-WB-IB",
+          "abilityName": "Familiar Territory",
+          "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
+        },
+        {
+          "abilityId": "TYR-WB-IB-A-IB",
+          "opTypeId": "TYR-WB-IB",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher.\nNote this is not a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "TYR-WB-IB-A-OTO",
+          "opTypeId": "TYR-WB-IB",
+          "abilityName": "Overthrow The Oppressors",
+          "description": "Once per turning point, when a ready friendly WYRMBLADE NEOPHYTE operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\nIf you do, before that operative is removed from the killzone, it can either perform one free Shoot action (you can change its order to do so), or you can use the A Plan Generations in the Making firefight ploy for 0CP if that incapacitated\noperative is the specified friendly WYRMBLADE NEOPHYTE operative.  \n\nIt is then removed from the killzone as normal."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-SNP",
+      "killteamId": "TYR-WB",
+      "seq": 7,
+      "opTypeName": "Sanctus Sniper",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, SNIPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-SNP-SSR",
+          "opTypeId": "TYR-WB-SNP",
+          "seq": 1,
+          "wepName": "Sanctus Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-SNP-SSR-0",
+              "wepId": "TYR-WB-SNP-SSR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "TYR-WB-SNP-SSR-1",
+              "wepId": "TYR-WB-SNP-SSR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-SNP-F",
+          "opTypeId": "TYR-WB-SNP",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-SNP-F-0",
+              "wepId": "TYR-WB-SNP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-SNP-A-CA",
+          "opTypeId": "TYR-WB-SNP",
+          "abilityName": "Cult Agent",
+          "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
+        },
+        {
+          "abilityId": "TYR-WB-SNP-FSS",
+          "opTypeId": "TYR-WB-SNP",
+          "abilityName": "Familiar's Soulsight",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),\nthat enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,\nall profiles of this operative's Sanctus sniper rifle have the Saturate weapon rule and that enemy operative cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TYR-WB-SNP-TV",
+          "opTypeId": "TYR-WB-SNP",
+          "abilityName": "Target Vulnerability",
+          "AP": 1,
+          "description": "Until the end of this operative's activation, the stationary profile of its Sanctus sniper rifle has the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-TAL",
+      "killteamId": "TYR-WB",
+      "seq": 8,
+      "opTypeName": "Sanctus Talon",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, CULT AGENT, SANCTUS, TALON",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-TAL-SBD",
+          "opTypeId": "TYR-WB-TAL",
+          "seq": 1,
+          "wepName": "Sanctus Bio-Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-TAL-SBD-0",
+              "wepId": "TYR-WB-TAL-SBD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-TAL-A-CA",
+          "opTypeId": "TYR-WB-TAL",
+          "abilityName": "Cult Agent",
+          "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
+        },
+        {
+          "abilityId": "TYR-WB-TAL-A-CS",
+          "opTypeId": "TYR-WB-TAL",
+          "abilityName": "Creeping Shadow",
+          "description": "This operative can perform the Charge action while it has a Conceal order. Whenever this operative performs the Fight action, it can immediately perform a free Dash or Fall Back action afterwards\n(for the latter, it cannot move more than 3\"), even if it's performed an action that prevents it from performing those actions."
+        },
+        {
+          "abilityId": "TYR-WB-TAL-ASS",
+          "opTypeId": "TYR-WB-TAL",
+          "abilityName": "Assassinate",
+          "AP": 2,
+          "description": "Select one enemy operative this operative isn't visible to.\nPerform a free Charge action with this operative, but do not exceed its Move stat (i.e. do not add 2\"), and it must end that move within control range of that enemy operative.\nThen immediately perform a free Fight action with this operative against that enemy operative. The first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent).  \n\nThis operative cannot perform this action while it has an Engage order, or while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TYR-WB-TAL-FSS",
+          "opTypeId": "TYR-WB-TAL",
+          "abilityName": "Familiar's Soulsight",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),\nthat enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,\nits Sanctus bio-dagger has the Brutal and Balanced weapon rules.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-WB-WAR",
+      "killteamId": "TYR-WB",
+      "seq": 9,
+      "opTypeName": "Neophyte Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-WB-WAR-AG",
+          "opTypeId": "TYR-WB-WAR",
+          "seq": 1,
+          "wepName": "Autogun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-WAR-AG-0",
+              "wepId": "TYR-WB-WAR-AG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-WAR-SG",
+          "opTypeId": "TYR-WB-WAR",
+          "seq": 2,
+          "wepName": "Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-WAR-SG-0",
+              "wepId": "TYR-WB-WAR-SG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-WB-WAR-GB",
+          "opTypeId": "TYR-WB-WAR",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-WB-WAR-GB-0",
+              "wepId": "TYR-WB-WAR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-WB-WAR-A-FT",
+          "opTypeId": "TYR-WB-WAR",
+          "abilityName": "Familiar Territory",
+          "description": "When setting up a WYRMBLADE kill team before the battle, one third of your kill team can be set up in HIDING: place them to one side instead of in the killzone.\nCULT AGENT operatives cannot be set up in HIDING.  \n\nIn the Firefight phase, friendly WYRMBLADE operatives set up in HIDING are activated as normal.\nWhen you do, you can either expend that operative or have it emerge. If it emerges, set it up in the killzone in a location it can be placed as follows (it's no longer set up in HIDING):\n\n- Wholly within 6\" of your drop zone.\n- More than 6\" from enemy operatives.\n- With an order of your choice.\n\nThe operative is treated as performing the Reposition action (spend the AP accordingly), then continue its activation as normal. If the operative is a WARRIOR, ignore its Group Activation rule.\nFriendly operatives still in HIDING at the end of the second turning point are incapacitated."
+        },
+        {
+          "abilityId": "TYR-WB-WAR-A-GA",
+          "opTypeId": "TYR-WB-WAR",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly WYRMBLADE WARRIOR operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
+        }
+      ]
+    }
+  ]
+}

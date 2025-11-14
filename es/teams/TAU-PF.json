@@ -1,0 +1,1234 @@
+{
+  "factionId": "TAU",
+  "killteamId": "TAU-PF",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_pathfinders-gf6lgyt6w3-t70izsfkmt.pdf",
+  "killteamName": "Pathfinders",
+  "description": "Specialist reconnaissance infantry, T'au Pathfinders range far ahead of their allies. Pathfinder kill teams are capable\nof operating independently of the main T'au force, and are equipped for almost any situation. Their advanced wargear\nand potent weaponry enable them to disrupt communications, perform acts of sabotage and destroy targets.",
+  "composition": "A PATHFINDERS KillTeam is composed of:\n\n- 1 PATHFINDER SHAS'UI operative\n- 11 PATHFINDER operatives selected from the following list:\n  - ASSAULT GRENADIER\n  - BLOODED\n  - COMMS SPECIALIST\n  - DRONE CONTROLLER\n  - MARKSMAN\n  - MEDICAL TECHNICIAN\n  - SHAS'LA\n  - TRANSPECTRAL INTERFERENCE\n  - MB3 RECON DRONE (counts as two selections)\n  - MV31 PULSE ACCELERATOR DRONE\n  - MV33 GRAV-INHIBITOR DRONE\n  - MV1 GUN DRONE\n  - MV4 SHIELD DRONE\n  - MV7 MARKER DRONE\n  - WEAPONS EXPERT with one of the following:\n    - Ion rifle; gun butt\n    - Rail rifle; gun butt\n        \nOther than SHAS'LA and WEAPONS EXPERT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two WEAPONS EXPERT operatives.  \n\nSome PATHFINDER rules refer to a 'pulse weapon'. The following weapons are pulse weapons: burst cannon, pulse carbine, suppressed pulse carbine, twin pulse carbine.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "TAU-PF-S-BND",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Bonded",
+      "description": "Whenever a friendly PATHFINDER operative (excluding DRONE) is shooting or retaliating with a ranged weapon (see Point-Blank Fusillade firefight ploy), if it's within 3\" of another friendly PATHFINDER operative (excluding DRONE),\nthat first friendly operative's ranged weapons have the Accurate 1 weapon rule.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "TAU-PF-S-RS",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Recon Sweep",
+      "description": "Select one killzone edge (excluding your own). Each friendly PATHFINDER operative that's wholly within 6\" of that edge can immediately perform a free Dash action in an order of your choice, but each that does so must end that move wholly within 6\" of a killzone edge (excluding your own). You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "TAU-PF-S-SF",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Suppressing Fire",
+      "description": "Whenever an enemy operative is performing the Shoot action, if the target (the primary target if the weapon has the Blast or Torrent weapon rules) isn't the closest valid target,\nyour opponent cannot re-roll their attack dice. Ignore friendly PATHFINDER operatives that have a Conceal order or are obscured when determining this."
+    },
+    {
+      "ployId": "TAU-PF-S-TC",
+      "killteamId": "TAU-PF",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Take Cover",
+      "description": "Whenever an operative is shooting a friendly PATHFINDER operative, if you can retain any cover saves, improve that friendly operative's Save stat by 1."
+    },
+    {
+      "ployId": "TAU-PF-T-AWC",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "A Worthy Cause",
+      "description": "Use this firefight ploy at the start of the Firefight phase. One friendly PATHFINDER operative (excluding DRONE) can immediately perform a free mission action."
+    },
+    {
+      "ployId": "TAU-PF-T-PBF",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Point-Blank Fusillade",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is retaliating, if it wasn't within control range of enemy operatives at the start of that activation/counteraction.\r You can use one of its ranged weapons as a melee weapon (excluding a weapon that has the word 'grenade' in its name) during that sequence.\r If you do, you cannot block during that sequence, and the following weapon rules have no effect on its weapons until the end of that sequence: Devastating, Piercing, Torrent.  \nIf that friendly operative is ready, has an Engage order and is retaliating with a pulse weapon, you resolve the first attack dice (i.e. defender instead of attacker)."
+    },
+    {
+      "ployId": "TAU-PF-T-SF2",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Supporting Fire",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative is performing the Shoot action and you're selecting a valid target within 6\" of it. Having other friendly PATHFINDER\noperatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+    },
+    {
+      "ployId": "TAU-PF-T-SP",
+      "killteamId": "TAU-PF",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Saviour Protocols",
+      "description": "Use this firefight ploy when a friendly PATHFINDER operative (excluding DRONE) is selected as the valid target of a Shoot action.\r Select one friendly PATHFINDER DRONE operative visible to and within 3\" of that first friendly operative to become the valid target instead (even if it wouldn't normally be valid for this).\r That friendly DRONE operative is only in cover if the originatl target was. This ploy has no effect if the ranged weapon has the Blast or Torrent weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TAU-PF-TAO",
+      "killteamId": "TAU-PF",
+      "seq": 1,
+      "eqName": "Target Analysis Optic",
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-OSUL",
+      "killteamId": "TAU-PF",
+      "seq": 2,
+      "eqName": "Orbital Survey Uplink",
+      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules.",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-HIML",
+      "killteamId": "TAU-PF",
+      "seq": 3,
+      "eqName": "High-Intensity Markerlight",
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one).",
+      "effects": ""
+    },
+    {
+      "eqId": "TAU-PF-PG",
+      "killteamId": "TAU-PF",
+      "seq": 4,
+      "eqName": "Photon Grenade",
+      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-PF-TA-MA",
+      "abilityName": "Markerlight",
+      "AP": 1,
+      "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TAU-PF-SU",
+      "killteamId": "TAU-PF",
+      "seq": 1,
+      "opTypeName": "Shas'Ui Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "PATHFINDER, T'AU EMPIRE, LEADER, SHAS'UI",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-SU-PC",
+          "opTypeId": "TAU-PF-SU",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-SU-PC-0",
+              "wepId": "TAU-PF-SU-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-SU-GB",
+          "opTypeId": "TAU-PF-SU",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-SU-GB-0",
+              "wepId": "TAU-PF-SU-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-SU-A-AOW",
+          "opTypeId": "TAU-PF-SU",
+          "abilityName": "Art Of War",
+          "description": "Once per battle STRATEGIC GAMBIT. Select one of the following and apply its rules until the end of the turning point:\n\n- Mont'ka: Add 1\" to the Move stat of friendly PATHFINDER operatives.\n- Kauyon: Friendly PATHFINDER operatives can perform a free Markerlight action during their activation if they have a Conceal order\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-AG",
+      "killteamId": "TAU-PF",
+      "seq": 2,
+      "opTypeName": "Assault Grenadier Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, ASSAULT GRENADIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-AG-FG",
+          "opTypeId": "TAU-PF-AG",
+          "seq": 0,
+          "wepName": "Fusion Grenade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-AG-FG-0",
+              "wepId": "TAU-PF-AG-FG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-AG-PC",
+          "opTypeId": "TAU-PF-AG",
+          "seq": 1,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-AG-PC-0",
+              "wepId": "TAU-PF-AG-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-AG-GB",
+          "opTypeId": "TAU-PF-AG",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-AG-GB-0",
+              "wepId": "TAU-PF-AG-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-AG-A-GS",
+          "opTypeId": "TAU-PF-AG",
+          "abilityName": "Grenadier Specialist",
+          "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-BL",
+      "killteamId": "TAU-PF",
+      "seq": 3,
+      "opTypeName": "Blooded Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "PATHFINDER, T'AU EMPIRE, BLOODED",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-BL-SPC",
+          "opTypeId": "TAU-PF-BL",
+          "seq": 0,
+          "wepName": "Suppressed Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-BL-SPC-0",
+              "wepId": "TAU-PF-BL-SPC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-BL-BA",
+          "opTypeId": "TAU-PF-BL",
+          "seq": 1,
+          "wepName": "Bionic Arm",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-BL-BA-0",
+              "wepId": "TAU-PF-BL-BA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-BL-A-VET",
+          "opTypeId": "TAU-PF-BL",
+          "abilityName": "Veteran",
+          "description": "During a turning point in which you have used a friendly SHAS'UI operative's Art of War STRATEGIC GAMBIT and you selected Mont'ka, this operative can use Kauyon instead during its activation (and vice versa)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-COMMS",
+      "killteamId": "TAU-PF",
+      "seq": 4,
+      "opTypeName": "Comms Specialist Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, COMMS SPECIALIST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-COMMS-PC",
+          "opTypeId": "TAU-PF-COMMS",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-COMMS-PC-0",
+              "wepId": "TAU-PF-COMMS-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-COMMS-F",
+          "opTypeId": "TAU-PF-COMMS",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-COMMS-F-0",
+              "wepId": "TAU-PF-COMMS-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-COMMS-SIG",
+          "opTypeId": "TAU-PF-COMMS",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly PATHFINDER operative visible to and within 6\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-DC",
+      "killteamId": "TAU-PF",
+      "seq": 5,
+      "opTypeName": "Drone Controller Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, DRONE CONTROLLER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-DC-PC",
+          "opTypeId": "TAU-PF-DC",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-DC-PC-0",
+              "wepId": "TAU-PF-DC-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-DC-GB",
+          "opTypeId": "TAU-PF-DC",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-DC-GB-0",
+              "wepId": "TAU-PF-DC-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-DC-A-DC",
+          "opTypeId": "TAU-PF-DC",
+          "abilityName": "Drone Controller",
+          "description": "Whenever this operative is in the killzone:\n\n- Add 2\" to the Move stat of friendly PATHFINDER DRONE operatives.\n- The Saviour Protocols firefight ploy costs you 0CP.\n"
+        },
+        {
+          "abilityId": "TAU-PF-DC-RP",
+          "opTypeId": "TAU-PF-DC",
+          "abilityName": "Remote Pilot",
+          "AP": 1,
+          "description": "One friendly PATHFINDER DRONE operative can immediately perform one free action, but it cannot move more than 2\" during that action.\nThat action can be one that's normally restricted by its drone rule (this takes precedence over that rule).  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nThis operative can perform this action more than once during its activation, but if it does, the same DRONE operative cannot perform the same free action more than once per activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MARKS",
+      "killteamId": "TAU-PF",
+      "seq": 6,
+      "opTypeName": "Marksman Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MARKSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MARKS-MRR",
+          "opTypeId": "TAU-PF-MARKS",
+          "seq": 0,
+          "wepName": "Marksman Rail Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MARKS-MRR-0",
+              "wepId": "TAU-PF-MARKS-MRR",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-PF-MARKS-MRR-1",
+              "wepId": "TAU-PF-MARKS-MRR",
+              "seq": 1,
+              "profileName": "Dart Round",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-MARKS-GB",
+          "opTypeId": "TAU-PF-MARKS",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MARKS-GB-0",
+              "wepId": "TAU-PF-MARKS-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MARKS-A-ID",
+          "opTypeId": "TAU-PF-MARKS",
+          "abilityName": "Inertial Dampener",
+          "description": "You can ignore any changes to the Hit stat of this operative's marksman rail rifle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MDC",
+      "killteamId": "TAU-PF",
+      "seq": 7,
+      "opTypeName": "Medical Technician Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MEDIC, MEDICAL TECHNICIAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MDC-PC",
+          "opTypeId": "TAU-PF-MDC",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MDC-PC-0",
+              "wepId": "TAU-PF-MDC-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-MDC-GB",
+          "opTypeId": "TAU-PF-MDC",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MDC-GB-0",
+              "wepId": "TAU-PF-MDC-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MDC-A-MDC",
+          "opTypeId": "TAU-PF-MDC",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly PATHFINDER operative (excluding DRONE) would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative is not incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "TAU-PF-MDC-MDK",
+          "opTypeId": "TAU-PF-MDC",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly PATHFINDER operative (excluding DRONE) within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-SL",
+      "killteamId": "TAU-PF",
+      "seq": 8,
+      "opTypeName": "Shas'La Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, SHAS'LA",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-SL-PC",
+          "opTypeId": "TAU-PF-SL",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-SL-PC-0",
+              "wepId": "TAU-PF-SL-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-SL-GB",
+          "opTypeId": "TAU-PF-SL",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-SL-GB-0",
+              "wepId": "TAU-PF-SL-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-SL-A-FOTFL",
+          "opTypeId": "TAU-PF-SL",
+          "abilityName": "Fearless On The Frontline",
+          "description": "This operative can perform the Markerlight action while within control range of an enemy operative (taking precedence over the Markerlight action's normal conditions).\nIn addition, this operative can perform the Fall Back action for 1 less AP."
+        },
+        {
+          "abilityId": "TAU-PF-SL-A-GA",
+          "opTypeId": "TAU-PF-SL",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly PATHFINDER SHAS'LA operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-TSI",
+      "killteamId": "TAU-PF",
+      "seq": 9,
+      "opTypeName": "Transpectral Interference Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, TRANSPECTRAL INTERFERENCE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-TSI-PC",
+          "opTypeId": "TAU-PF-TSI",
+          "seq": 0,
+          "wepName": "Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-TSI-PC-0",
+              "wepId": "TAU-PF-TSI-PC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-TSI-GB",
+          "opTypeId": "TAU-PF-TSI",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-TSI-GB-0",
+              "wepId": "TAU-PF-TSI-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-TSI-MDV",
+          "opTypeId": "TAU-PF-TSI",
+          "abilityName": "Multi-Dimensional Vision",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, whenever it's shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TAU-PF-TSI-SJ",
+          "opTypeId": "TAU-PF-TSI",
+          "abilityName": "System Jam",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-WE",
+      "killteamId": "TAU-PF",
+      "seq": 10,
+      "opTypeName": "Weapons Expert Pathfinder",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, WEAPONS EXPERT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-WE-IR",
+          "opTypeId": "TAU-PF-WE",
+          "seq": 0,
+          "wepName": "Ion Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-WE-IR-0",
+              "wepId": "TAU-PF-WE-IR",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-PF-WE-IR-1",
+              "wepId": "TAU-PF-WE-IR",
+              "seq": 1,
+              "profileName": "Overcharge",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-WE-RR",
+          "opTypeId": "TAU-PF-WE",
+          "seq": 1,
+          "wepName": "Rail Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-WE-RR-0",
+              "wepId": "TAU-PF-WE-RR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-WE-GB",
+          "opTypeId": "TAU-PF-WE",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-WE-GB-0",
+              "wepId": "TAU-PF-WE-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "TAU-PF-MB3",
+      "killteamId": "TAU-PF",
+      "seq": 11,
+      "opTypeName": "MB3 Recon Drone",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MB3 RECON, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MB3-BC",
+          "opTypeId": "TAU-PF-MB3",
+          "seq": 0,
+          "wepName": "Burst Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MB3-BC-0",
+              "wepId": "TAU-PF-MB3-BC",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PUNISHING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TAU-PF-MB3-BC-1",
+              "wepId": "TAU-PF-MB3-BC",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PUNISHING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-MB3-R",
+          "opTypeId": "TAU-PF-MB3",
+          "seq": 1,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MB3-R-0",
+              "wepId": "TAU-PF-MB3-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MB3-A-ANA",
+          "opTypeId": "TAU-PF-MB3",
+          "abilityName": "Analyse",
+          "description": "Whenever this operative performs the Markerlight action, each other enemy operative that's both visible to this operative and within 3\" of the enemy operative you selected for that action also gains one of your Markerlight tokens."
+        },
+        {
+          "abilityId": "TAU-PF-MB3-A-DR",
+          "opTypeId": "TAU-PF-MB3",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MV1",
+      "killteamId": "TAU-PF",
+      "seq": 12,
+      "opTypeName": "MV1 Gun Drone",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MV1 GUN, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MV1-TPC",
+          "opTypeId": "TAU-PF-MV1",
+          "seq": 0,
+          "wepName": "Twin Pulse Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV1-TPC-0",
+              "wepId": "TAU-PF-MV1-TPC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-PF-MV1-R",
+          "opTypeId": "TAU-PF-MV1",
+          "seq": 1,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV1-R-0",
+              "wepId": "TAU-PF-MV1-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MV1-A-DR",
+          "opTypeId": "TAU-PF-MV1",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MV4",
+      "killteamId": "TAU-PF",
+      "seq": 13,
+      "opTypeName": "MV4 Shield Drone",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MV4 SHIELD, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MV4-R",
+          "opTypeId": "TAU-PF-MV4",
+          "seq": 0,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV4-R-0",
+              "wepId": "TAU-PF-MV4-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MV4-A-DR",
+          "opTypeId": "TAU-PF-MV4",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        },
+        {
+          "abilityId": "TAU-PF-MV4-A-SG",
+          "opTypeId": "TAU-PF-MV4",
+          "abilityName": "Shield Generator",
+          "description": "\n- This operative ignores the Piercing weapon rule.\n- Once per turning point, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage.\n- You can use the Saviour Protocols firefight ploy for 0CP if this is the specified DRONE operative.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MV7",
+      "killteamId": "TAU-PF",
+      "seq": 14,
+      "opTypeName": "MV7 Marker Drone",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MV7 MARKER, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MV7-R",
+          "opTypeId": "TAU-PF-MV7",
+          "seq": 0,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV7-R-0",
+              "wepId": "TAU-PF-MV7-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MV7-A-DR",
+          "opTypeId": "TAU-PF-MV7",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        },
+        {
+          "abilityId": "TAU-PF-MV7-A-HIML",
+          "opTypeId": "TAU-PF-MV7",
+          "abilityName": "High-Intensity Markerlight",
+          "description": "Whenever this operative performs the Markerlight action, the selected enemy operative gains two of your Markerlight tokens (instead of one)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MV31",
+      "killteamId": "TAU-PF",
+      "seq": 15,
+      "opTypeName": "MV31 Pulse Accelerator Drone",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MV31 PULSE ACCELERATOR, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MV31-R",
+          "opTypeId": "TAU-PF-MV31",
+          "seq": 0,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV31-R-0",
+              "wepId": "TAU-PF-MV31-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MV31-A-DR",
+          "opTypeId": "TAU-PF-MV31",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        },
+        {
+          "abilityId": "TAU-PF-MV31-PA",
+          "opTypeId": "TAU-PF-MV31",
+          "abilityName": "Pulse Accelerator",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever another friendly PATHFINDER operative is shooting with a pulse weapon within 3\" of this operative, that weapon has the Lethal 5+ and Severe weapon rules."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TAU-PF-MV33",
+      "killteamId": "TAU-PF",
+      "seq": 16,
+      "opTypeName": "MV33 Grav-Inhibitor Drone",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "PATHFINDER, T'AU EMPIRE, MV33 GRAV-INHIBITOR, DRONE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TAU-PF-MV33-R",
+          "opTypeId": "TAU-PF-MV33",
+          "seq": 0,
+          "wepName": "Ram",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TAU-PF-MV33-R-0",
+              "wepId": "TAU-PF-MV33-R",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TAU-PF-MV33-A-DR",
+          "opTypeId": "TAU-PF-MV33",
+          "abilityName": "Drone",
+          "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
+        },
+        {
+          "abilityId": "TAU-PF-MV33-A-GI",
+          "opTypeId": "TAU-PF-MV33",
+          "abilityName": "Grav-Inhibitor",
+          "description": "\r - Whenever an enemy operative performs an action in which it moves (excluding Dash), if it would move visible to and within 6\" of this operative, treat the distance as an additional 2\" and ignore the additional distances from the Obstructing and Accessible terrain rules. Note this isn't a change to the Move stat.\r - Whenever an enemy operative is fighting or retaliating while visible to and within 6\" of this operative, worsen the Hit stat of that enemy operative's melee weapons by 1. This is cumulative with being injured.\r "
+        }
+      ]
+    }
+  ]
+}

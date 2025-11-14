@@ -1,0 +1,274 @@
+{
+  "actions": [
+    {
+      "id": "ACTION-REPOSITION",
+      "type": "universal",
+      "seq": 101,
+      "AP": 1,
+      "name": "Reposition",
+      "description": null,
+      "effects": [
+        "Move the active operative up to its Move stat to a location it can be placed. This must be done in one or more straight-line increments, and increments are always rounded up to the nearest inch."
+      ],
+      "conditions": [
+        "It cannot move within control range of an enemy operative, unless one or more other friendly operatives are already within control range of that enemy operative, in which case it can move within control range of that enemy operative but cannot finish the move there.",
+        "An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Fall Back or Charge action."
+      ]
+    },
+    {
+      "id": "ACTION-DASH",
+      "type": "universal",
+      "seq": 102,
+      "AP": 1,
+      "name": "Dash",
+      "description": null,
+      "effects": [
+        "The same as the Reposition action, except don't use the active operative's Move stat - it can move up to 3\" instead. In addition, it cannot climb during this move, but it can drop and jump."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or during the same activation in which it performed the Charge action."
+      ]
+    },
+    {
+      "id": "ACTION-FALL-BACK",
+      "type": "universal",
+      "seq": 103,
+      "AP": 2,
+      "name": "Fall Back",
+      "description": null,
+      "effects": [
+        "The same as the Reposition action, except the active operative can move within control range of an enemy operative, but cannot finish the move there."
+      ],
+      "conditions": [
+        "An operative cannot perform this action unless an enemy operative is within its control range. It cannot perform this action during the same activation in which it performed the Reposition or Charge action."
+      ]
+    },
+    {
+      "id": "ACTION-CHARGE",
+      "type": "universal",
+      "seq": 104,
+      "AP": 1,
+      "name": "Charge",
+      "description": null,
+      "effects": [
+        "The same as the Reposition action, except the active operative can move an additional 2\".",
+        "It can move, and must finish the move, within control range of an enemy operative. If it moves within control range of an enemy operative that no other friendly operatives are within control range of, it cannot leave that operative's control range."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while it has a Conceal order, if it's already within control range of an enemy operative, or during the same activation in which it performed the Reposition, Dash or Fall Back action."
+      ]
+    },
+    {
+      "id": "ACTION-PICK-UP-MARKER",
+      "type": "universal",
+      "seq": 105,
+      "AP": 1,
+      "name": "Pick Up Marker",
+      "description": null,
+      "effects": [
+        "Remove a marker the active operative controls that the Pick Up Marker action can be performed upon. That operative is now carrying, contesting and controlling that marker."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or while it's already carrying a marker."
+      ]
+    },
+    {
+      "id": "ACTION-PLACE-MARKER",
+      "type": "universal",
+      "seq": 106,
+      "AP": 1,
+      "name": "Place Marker",
+      "description": null,
+      "effects": [
+        "Place a marker the active operative is carrying within its control range.",
+        "If an operative carrying a marker is incapacitated, it must perform this action before being removed from the killzone, but does so for 0AP. This takes precedence over all rules that prevent it from doing so."
+      ],
+      "conditions": [
+        "An operative cannot perform this action during the same activation in which it already performed the Pick Up Marker action (unless incapacitated)."
+      ]
+    },
+    {
+      "id": "ACTION-SHOOT",
+      "type": "universal",
+      "seq": 107,
+      "AP": 1,
+      "name": "Shoot",
+      "description": null,
+      "effects": [
+        "Shoot with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+      ]
+    },
+    {
+      "id": "ACTION-FIGHT",
+      "type": "universal",
+      "seq": 108,
+      "AP": 1,
+      "name": "Fight",
+      "description": null,
+      "effects": [
+        "Fight with the active operative by following the sequence below. The active operative's player is the attacker. The selected enemy operative's player is the defender."
+      ],
+      "conditions": [
+        "An operative cannot perform this action unless an enemy operative is within its control range."
+      ]
+    },
+    {
+      "id": "ACTION-COUNTERACT",
+      "type": "universal",
+      "seq": 109,
+      "AP": 0,
+      "name": "Counteract",
+      "description": "When you would activate a ready friendly operative, if all your operatives are expended but your opponent still has ready operatives, you can select an expended friendly operative with an Engage order to perform a 1AP action for free (Excluding Guard). Each operative can only counteract once per turning point, and cannot move more than 2\", or must be set up wholly within 2\" if it's removed and set up again, while counteracting (this is not a change to its Move stat, and takes precedence over all other rules). Counteracting is optional, so you can choose not to. In either case, activation alternates back to your opponent afterwards.",
+      "effects": []
+    },
+    {
+      "id": "ACTION-GUARD",
+      "type": "universal",
+      "seq": 110,
+      "AP": 1,
+      "name": "Guard",
+      "description": null,
+      "effects": [
+        "The operative goes on guard (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An enemy operative ends an action within its control range and you don't interrupt that activation (see below).\n - Its order is changed.\n - It's the start of the next turning point."
+      ],
+      "conditions": [
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-HATCHWAY-FIGHT",
+      "type": "universal",
+      "seq": 111,
+      "AP": 1,
+      "name": "Hatchway Fight",
+      "description": null,
+      "effects": [
+        "Fight with the active operative",
+        "In the Select Enemy Operative step, instead select an enemy operative within 2\" of, and on the other side of, an open hatchway's access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+      ],
+      "conditions": [
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-DOOR-FIGHT",
+      "type": "universal",
+      "seq": 112,
+      "AP": 1,
+      "name": "Door Fight",
+      "description": null,
+      "effects": [
+        "Fight with the active operative",
+        "In the Select Enemy Operative step, select an enemy operative within 2\" of, and on the other side of, a door the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+      ],
+      "conditions": [
+        "This action is treated as a Fight action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn't touching a door."
+      ],
+      "packs": [
+        "Killzone: Volkus"
+      ]
+    },
+    {
+      "id": "ACTION-OPERATE-HATCH",
+      "type": "mission",
+      "seq": 101,
+      "AP": 1,
+      "name": "Operate Hatch",
+      "description": null,
+      "effects": [
+        "Open or close a hatchway that's access point is within the operative's control range.",
+        "An operative can perform this action during a Dash or Reposition action, and any remaining move distance can be used after it does so."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative's control range."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-BREACH",
+      "type": "mission",
+      "seq": 102,
+      "AP": 2,
+      "name": "Breach",
+      "description": null,
+      "effects": [
+        "Open a closed breach point thats access point is within the operative's control range.",
+        "An operative that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).",
+        "Roll one D6 separately for each operative that's on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative's APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up)."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an operative, or if that breach point is open."
+      ],
+      "packs": [
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-OPEN-STOCKADE-DOOR",
+      "type": "mission",
+      "seq": 103,
+      "AP": 1,
+      "name": "Open Stockade Door",
+      "description": null,
+      "effects": [
+        "Open a stockade terrain feature that has a door, if the inside of its breach point is within the operative's control range."
+      ],
+      "conditions": [
+        "An operative cannot perform this action if it's on the outside of the stockade, if that stockade is already open or it doesn't have a door."
+      ],
+      "packs": [
+        "Killzone Upgrade: Compound Siege"
+      ]
+    },
+    {
+      "id": "ACTION-PRAISE-BLASPHEME",
+      "type": "mission",
+      "seq": 104,
+      "AP": 1,
+      "name": "Praise / Blaspheme",
+      "description": null,
+      "effects": [
+        "Shuffle one card from your hand, or two of your discarded cards, back into their respective deck(s). Note that your discarded cards are potentially worth VPs at the end of the battle, so doing so could affect this.",
+        "Draw a card."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or while more than 3\" from the shrine statue terrain feature's plinth."
+      ],
+      "packs": [
+        "Mission Pack: Blood and Zeal"
+      ]
+    },
+    {
+      "id": "ACTION-HALLOW-DEFILE",
+      "type": "mission",
+      "seq": 105,
+      "AP": 1,
+      "name": "Hallow / Defile",
+      "description": null,
+      "effects": [
+        "One shrine statue terrain feature the active operative controls is hallowed/defiled.",
+        "Draw a card."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, if it doesn't control the shrine statue terrain feature, or if the shrine statue has already been hallowed/defiled during this turning point."
+      ],
+      "packs": [
+        "Mission Pack: Blood and Zeal"
+      ]
+    }
+  ]
+}

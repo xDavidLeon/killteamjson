@@ -1,0 +1,758 @@
+{
+  "factionId": "ORK",
+  "killteamId": "ORK-WK",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_wrecka_krew-pyqbpxzdfq-q1rfbxc4zb.pdf",
+  "killteamName": "Wrecka Krew",
+  "description": "Wrecka Crews are infamous Ork Kill Team Units, that love to commit explosive combat during their murderous rampages.\r They are considered the best of their species and are larger and stronger than the typical Ork. Wrecka Crews also make use of weapons that create explosions and the thought of this empowers them to become Tanked Up and ready to fight. These attributes and their use of 'eavy Armour, makes the Wrecka Crews incredibly durable and deadly in battle.",
+  "composition": "A WRECKA KREW KillTeam is composed of:\n\n- 1 WRECKA KREW BOSS NOB operative with one of the following options:\n  - Rokkit Pistol; Smash Hammer\n  - Two Rokkit Pistols; Choppa\n- 2 WRECKA KREW BOMB SQUIG operatives\n- 5 WRECKA KREW operatives selected from the following list:\n  - BREAKA BOY DEMOLISHA\n  - BREAKA BOY FIGHTER\n  - BREAKA BOY KRUSHA\n  - TANKBUSTA GUNNER with one of the following options:\n    - 'Eavy Rokkit Launcha; Fists\n    - Rokkit Launcha; Fists    \n  - TANKBUSTA ROKKITEER with one of the following options:\n    - Rokkit Launcha; Pusla Rokkit; Fists\n    - Rokkit Launcha; Rokkit Rack; Fists\n\nOther than BOMB SQUIG, BREAKA BOY FIGHTER, and TANKBUSTA GUNNER operatives, your KillTeam can only include each operative above once.",
+  "archetypes": [
+    "Seek & Destroy",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "ORK-WK-S-AMP",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Amped Up",
+      "description": "Each friendly WRECKA KREW operative that has an Engage order can immediately reagin 1D3+1 lost Wounds (roll separately for each)."
+    },
+    {
+      "ployId": "ORK-WK-S-DES",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Destruction",
+      "description": "Friendly WRECKA KREW operatives' ranged weapons have the Saturate weapon rule."
+    },
+    {
+      "ployId": "ORK-WK-S-TG",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Tuff Gitz",
+      "description": "Whenever an operative is shooting a friendly WRECKA KREW operative that has an Engage order, you can re-roll one of your Defense dice."
+    },
+    {
+      "ployId": "ORK-WK-S-WAAAGH",
+      "killteamId": "ORK-WK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "WAAAGH!",
+      "description": "Friendly WRECKA KREW operatives' melee weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "ORK-WK-T-DEMO",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Demolition Job",
+      "description": "Use this Firefight ploy after a friendly WRECKA KREW operative performs the Fight or Shoot action; just before incapacitated operatives are removed (if any).\nPlace one of your Demolition markers within the target's Control Range (if it is using a Blast weapon, the primary target).\nWhenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is shooting against, fighting against, or retaliating against an operative that is within 3\" of that marker,\nyou can spend a Wrecka Point for free (even if you have none).\nIn the Ready step of the next Strategy phase, remove that marker."
+    },
+    {
+      "ployId": "ORK-WK-T-JSA",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Just A Scratch",
+      "description": "Use this Firefight ploy when an attack die inflicts Normal dmg on a friendly WRECKA KREW operative (excluding BOMB SQUIG).\nIgnore that inflicted damage."
+    },
+    {
+      "ployId": "ORK-WK-T-KB",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Kaboom!",
+      "description": "Use this Firefight ploy when a friendly WRECKA KREW operative performs the Shoot action and a weapon with the Blast weapon rule is selected.\nUntil the end of that action, add 1\" to that weapons' Blast and it has the Severe weapon rule when shooting the primary target.\nYou cannot use this ploy and the Drill Rokkit rule (see equipment) during the same action.\nNote that Sever does not generate a Wrecka point (as it is not a 6)."
+    },
+    {
+      "ployId": "ORK-WK-T-PS",
+      "killteamId": "ORK-WK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Proppa Scrap",
+      "description": "Use this Firefight ploy during a friendly WRECKA KREW BREAKA BOY or WRECKA KREW BOSS NOB operative's activation.\nDuring that activation, that operative can perform two Fight actions."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "ORK-WK-DR",
+      "killteamId": "ORK-WK",
+      "seq": 1,
+      "eqName": "Drill Rokkits",
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative is performing the Shoot action and you select a Rokkit Launcha or 'Eavy Rokkit Launcha, you can use this rule.\nIf you do, until the end of that action, that weapon loses the Blast weapon rule but has the Piercing 1 weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "ORK-WK-XA",
+      "killteamId": "ORK-WK",
+      "seq": 2,
+      "eqName": "Extra Armour",
+      "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment.",
+      "effects": "M|-1"
+    },
+    {
+      "eqId": "ORK-WK-EO",
+      "killteamId": "ORK-WK",
+      "seq": 3,
+      "eqName": "Engine Oil",
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is activated, you can use this rule.\nIf you do, until the end of that activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats).",
+      "effects": ""
+    },
+    {
+      "eqId": "ORK-WK-GL",
+      "killteamId": "ORK-WK",
+      "seq": 4,
+      "eqName": "Glyphs",
+      "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "ORK-WK-TA-TAUP",
+      "abilityName": "Tanked Up",
+      "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
+    },
+    {
+      "abilityId": "ORK-WK-TA-WRRA",
+      "abilityName": "Wrecka Rampage",
+      "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "ORK-WK-NOB",
+      "killteamId": "ORK-WK",
+      "seq": 1,
+      "opTypeName": "Wrecka Boss Nob",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 14,
+      "keywords": "WRECKA KREW, ORK, LEADER, BOSS NOB",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-NOB-RP",
+          "opTypeId": "ORK-WK-NOB",
+          "seq": 1,
+          "wepName": "Rokkit Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-NOB-RP-0",
+              "wepId": "ORK-WK-NOB-RP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-NOB-2RP",
+          "opTypeId": "ORK-WK-NOB",
+          "seq": 2,
+          "wepName": "Two Rokkit Pistols",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-NOB-2RP-0",
+              "wepId": "ORK-WK-NOB-2RP",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "6",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "ORK-WK-NOB-2RP-1",
+              "wepId": "ORK-WK-NOB-2RP",
+              "seq": 1,
+              "profileName": "Salvo",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-TEMPAQ-SALVO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-NOB-CHOP",
+          "opTypeId": "ORK-WK-NOB",
+          "seq": 3,
+          "wepName": "Choppa",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-NOB-CHOP-0",
+              "wepId": "ORK-WK-NOB-CHOP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-NOB-SH",
+          "opTypeId": "ORK-WK-NOB",
+          "seq": 4,
+          "wepName": "Smash Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-NOB-SH-0",
+              "wepId": "ORK-WK-NOB-SH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-NOB-A-BOSS",
+          "opTypeId": "ORK-WK-NOB",
+          "abilityName": "Wrecka Boss",
+          "description": "Whenever this operative performs a Fight or Shoot action (excluding Guard), you gain 1 Wrecka point."
+        },
+        {
+          "abilityId": "ORK-WK-NOB-A-SALVO",
+          "opTypeId": "ORK-WK-NOB",
+          "abilityName": "*Salvo",
+          "description": "Select up to two valid targets. Shoot this weapon against both primary targets in an order of your choice, then against all remaining secondary targets in the same manner (roll each sequence separately).\nEach target (primary or secondary) cannot be shot more than once during the action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-BBFTR",
+      "killteamId": "ORK-WK",
+      "seq": 2,
+      "opTypeName": "Breaka Boy Fighter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "WRECKA KREW, ORK, BREAKA BOY, FIGHTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-BBFTR-SH",
+          "opTypeId": "ORK-WK-BBFTR",
+          "seq": 1,
+          "wepName": "Smash Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-BBFTR-SH-0",
+              "wepId": "ORK-WK-BBFTR-SH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-BBFTR-BS",
+          "opTypeId": "ORK-WK-BBFTR",
+          "abilityName": "Break Stuff",
+          "AP": 1,
+          "description": "Select a terrain feature within this operative's control range.\nIf it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-BBDEMO",
+      "killteamId": "ORK-WK",
+      "seq": 3,
+      "opTypeName": "Breaka Boy Demolisha",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "WRECKA KREW, ORK, BREAKA BOY, DEMOLISHA",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-BBDEMO-TH",
+          "opTypeId": "ORK-WK-BBDEMO",
+          "seq": 1,
+          "wepName": "Tankhammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-BBDEMO-TH-0",
+              "wepId": "ORK-WK-BBDEMO-TH",
+              "seq": 0,
+              "profileName": "Bash",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            },
+            {
+              "wepprofileId": "ORK-WK-BBDEMO-TH-1",
+              "wepId": "ORK-WK-BBDEMO-TH",
+              "seq": 1,
+              "profileName": "Detonate",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "*",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-BBDEMO-A-DET",
+          "opTypeId": "ORK-WK-BBDEMO",
+          "abilityName": "*Detonate",
+          "description": "The first time this operative would inflict damage on an enemy operative with this weapon profile during the battle,\r separately inflict 1D6+6 damage on that operative and each other operative within that enemy operative's control range if it is a Normal success,\r or 2D6+6 damage if it is a Critical success.\r Then the action ends and you gain 1 Wrecka point, plus 1 for each operative that was incapacitated during that action. Damage from this weapon rule cannot be ignored or reduced."
+        },
+        {
+          "abilityId": "ORK-WK-BBDEMO-A-RT",
+          "opTypeId": "ORK-WK-BBDEMO",
+          "abilityName": "Reckless Temperament",
+          "description": "Normal Dmg of 4 or more inflicts 1 less damage on this operative; if this operative has an Engage order, Critical Dmg or 4 or more also inflicts 1 less damage on this operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-BBKRU",
+      "killteamId": "ORK-WK",
+      "seq": 4,
+      "opTypeName": "Breaka Boy Krusha",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "WRECKA KREW, ORK, BREAKA BOY, KRUSHA",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-BBKRU-KB",
+          "opTypeId": "ORK-WK-BBKRU",
+          "seq": 1,
+          "wepName": "Knucklebustas",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-BBKRU-KB-0",
+              "wepId": "ORK-WK-BBKRU-KB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-ORK-WK-SMASH"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-BBKRU-A-AU",
+          "opTypeId": "ORK-WK-BBKRU",
+          "abilityName": "Armoured Up",
+          "description": "Whenever an enemy operative is shooting this operative, or this operative is fighting or retaliating, your opponent cannot retain attack dice results of less than 6 as critical successes (e.g. as a result of the Lethal, Rending or Severe weapon rules)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-TBGNR",
+      "killteamId": "ORK-WK",
+      "seq": 5,
+      "opTypeName": "Tankbusta Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "WRECKA KREW, ORK, TANKBUSTA, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-TBGNR-ERL",
+          "opTypeId": "ORK-WK-TBGNR",
+          "seq": 1,
+          "wepName": "'Eavy Rokkit Launcha",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBGNR-ERL-0",
+              "wepId": "ORK-WK-TBGNR-ERL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "(Dash)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-TBGNR-RL",
+          "opTypeId": "ORK-WK-TBGNR",
+          "seq": 2,
+          "wepName": "Rokkit Launcha",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBGNR-RL-0",
+              "wepId": "ORK-WK-TBGNR-RL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-TBGNR-F",
+          "opTypeId": "ORK-WK-TBGNR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBGNR-F-0",
+              "wepId": "ORK-WK-TBGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-TBGNR-A-KS",
+          "opTypeId": "ORK-WK-TBGNR",
+          "abilityName": "Kompetitive Streak",
+          "description": "Once per Shoot action, if this operative shoots an enemy operative that another friendly operative has already shot during this Turning Point, you gain 1 Wrecka point.\nDetermine this when you select a valid target, but you can include any secondary targets when doing so (e.g. from the Blast weapon rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-TBROK",
+      "killteamId": "ORK-WK",
+      "seq": 6,
+      "opTypeName": "Tankbusta Rokkiteer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 12,
+      "keywords": "WRECKA KREW, ORK, TANKBUSTA, ROKKITEER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-TBROK-PR",
+          "opTypeId": "ORK-WK-TBROK",
+          "seq": 1,
+          "wepName": "Pulsa Rokkit",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBROK-PR-0",
+              "wepId": "ORK-WK-TBROK-PR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "-",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "RepoOnly"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-ORK-WK-PULSA"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-TBROK-RL",
+          "opTypeId": "ORK-WK-TBROK",
+          "seq": 2,
+          "wepName": "Rokkit Launcha",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBROK-RL-0",
+              "wepId": "ORK-WK-TBROK-RL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-TBROK-RR",
+          "opTypeId": "ORK-WK-TBROK",
+          "seq": 3,
+          "wepName": "Rokkit Rack",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBROK-RR-0",
+              "wepId": "ORK-WK-TBROK-RR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "5+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-TBROK-F",
+          "opTypeId": "ORK-WK-TBROK",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-TBROK-F-0",
+              "wepId": "ORK-WK-TBROK-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-TBROK-A-SA",
+          "opTypeId": "ORK-WK-TBROK",
+          "abilityName": "Shokkwave",
+          "description": "Whenever an operative is withing x\" of your Pulsa marker, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis is cumulative with being injured.\nX is that marker's Pulsa points. In the Ready step of each Strategy phase, subtract 1 from your Pulsa marker's points.\nIf a Pulsa marker ever has 0 points, remove it."
+        }
+      ]
+    },
+    {
+      "opTypeId": "ORK-WK-SQUIG",
+      "killteamId": "ORK-WK",
+      "seq": 7,
+      "opTypeName": "Wrecka Bomb Squig",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "WRECKA KREW, ORK, BOMB SQUIG",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "ORK-WK-SQUIG-EX",
+          "opTypeId": "ORK-WK-SQUIG",
+          "seq": 1,
+          "wepName": "Explosives",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-SQUIG-EX-0",
+              "wepId": "ORK-WK-SQUIG-EX",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-ORK-KOM-EXPLOSIVE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "ORK-WK-SQUIG-B",
+          "opTypeId": "ORK-WK-SQUIG",
+          "seq": 2,
+          "wepName": "Bite",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "ORK-WK-SQUIG-B-0",
+              "wepId": "ORK-WK-SQUIG-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "ORK-WK-SQUIG-A-BOOM",
+          "opTypeId": "ORK-WK-SQUIG",
+          "abilityName": "Boom!",
+          "description": "Whenever this operative is incapacitated during a battle in which it has not used its Explosives, roll 1D6, or 2D6 if you wish.\nIf any result is a 4+, this operative performs a free Shoot action with its Explosives before it is removed from the killzone."
+        },
+        {
+          "abilityId": "ORK-WK-SQUIG-A-EX",
+          "opTypeId": "ORK-WK-SQUIG",
+          "abilityName": "*Explosive",
+          "description": "This operative can perform the Shoot action with this weapon while within Control Range of an enemy operative.\nDo not select a valid target. Instead, this operative is always the primary target and cannot be in Cover or Obscured."
+        },
+        {
+          "abilityId": "ORK-WK-SQUIG-A-EXP",
+          "opTypeId": "ORK-WK-SQUIG",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it is incapacitated, and when determining your starting number of operatives).\r It is also ignored for victory conditions and scoring VPs if either require operatives to \"escape\", \"survive\", or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "ORK-WK-SQUIG-A-ST",
+          "opTypeId": "ORK-WK-SQUIG",
+          "abilityName": "Stoopid",
+          "description": "During the Firefight phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition, and Shoot, or use any weapons that are not on its datacard."
+        }
+      ]
+    }
+  ]
+}

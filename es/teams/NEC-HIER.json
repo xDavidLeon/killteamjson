@@ -1,0 +1,969 @@
+{
+  "factionId": "NEC",
+  "killteamId": "NEC-HIER",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_hierotek_circle-20joapaot2-izu3oqudxn.pdf",
+  "killteamName": "Hierotek Circle",
+  "description": "Led by ambitious and devious Crypteks, Hierotek Circles employ Necron soldiery and unique Canoptek constructs\nto further the rise of their own dynasties. They achieve this by learning of their lords' enemies and undermining the\npower of these rivals through artifice, sabotage, theft and murder.",
+  "composition": "A HIEROTEK CIRCLE KillTeam is composed of:\n\n- 1 HIEROTEK CIRCLE operative selected from the following list:\n  - CHRONOMANCER operative with one of the following options:\n    - Aeonstave\n    - Entropic lance\n  - PSYCHOMANCER\n  - TECHNOMANCER\n- 1 PLASMACYTE ACCELERATOR operative\n- 1 PLASMACYTE REANIMATOR operative\n- 5 HIEROTEK CIRCLE operatives selected from the following list:\n  - APPRENTEK\n  - DEATHMARK\n  - DESPOTEK with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet    \n  - GUARDIAN with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet\n        \nOther than DEATHMARK and GUARDIAN operatives, your kill team can only include each operative on this list once.",
+  "archetypes": [
+    "Recon",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "NEC-HIER-S-CU",
+      "killteamId": "NEC-HIER",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Command Underlings",
+      "description": "Select one of the following:\n\n- **SUPPORT** Each other friendly HIEROTEK CIRCLE operative visible to and within 6\" of a friendly CRYPTEK operative can immediately perform a free Dash action in an order of your choice.\n- **SUPPORT** Each other friendly HIEROTEK CIRCLE operative (excluding CRYPTEK) visible to and within 3\" of a friendly APPRENTEK operative can immediately perform a free Dash action in an order of your choice.\n"
+    },
+    {
+      "ployId": "NEC-HIER-S-ME",
+      "killteamId": "NEC-HIER",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Methodical Elimination",
+      "description": "Friendly HIEROTEK CIRCLE operatives' melee weapons have the Accurate 1 weapon rule.\nWhenever a friendly HIEROTEK CIRCLE operative is fighting during an activation in which it has not moved more than its Move stat, or whenever it is retaliating, its melee weapons have the Accurate 2 weapon rule instead.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "NEC-HIER-S-ROS",
+      "killteamId": "NEC-HIER",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Relentless Onslaught",
+      "description": "Whenever a friendly HIEROTEK CIRCLE operative is shooting an operative within 8\" of it, that friendly operative's ranged weapons have the Balanced weapon rule.\nNote that when you are using the Magnify weapon rule, this operative must still be within 8\" of the target to use this rule (not the other friendly operative from which you're determining a valid target).  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "NEC-HIER-S-UDA",
+      "killteamId": "NEC-HIER",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Undying Androids",
+      "description": "Whenever an operative is shooting a friendly HIEROTEK CIRCLE operative, if you cannot retain any cover saves, you can retain one of your defence dice as a normal success without rolling it."
+    },
+    {
+      "ployId": "NEC-HIER-T-CC",
+      "killteamId": "NEC-HIER",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Cortical Control",
+      "description": "Use this firefight ploy when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative performs a SUPPORT unique action.\nUntil the end of that action, for the purposes of selecting another friendly operative, ignore the distance requirement (only visibility is a requirement)."
+    },
+    {
+      "ployId": "NEC-HIER-T-DA",
+      "killteamId": "NEC-HIER",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Dimensional Ambush",
+      "description": "Use this firefight ploy during a friendly HIEROTEK CIRCLE DEATHMARK operative's activation, if it has a Conceal order.\nDuring that activation, that operative can perform the Guard action (see close quarters rules, Kill Team Core Book) in any killzone and while it has a Conceal order,\nbut when you perform the free Fight or Shoot action during the interruption, you must change its order to Engage."
+    },
+    {
+      "ployId": "NEC-HIER-T-LL",
+      "killteamId": "NEC-HIER",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Living Lightning",
+      "description": "Use this firefight ploy when a friendly HIEROTEK CIRCLE IMMORTAL operative is performing the Shoot action and you select a tesla carbine.\nUntil the end of that action, that weapon doesn't have the 2\" from its Devastating weapon rule but has the Blast 2\" weapon rule."
+    },
+    {
+      "ployId": "NEC-HIER-T-RAF",
+      "killteamId": "NEC-HIER",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Reanimated Function",
+      "description": "Use this firefight ploy when determining control of a marker.\nSelect one of your Reanimation markers. Until the start of the next turning point, whenever determining control of a marker, treat that Reanimation marker as a friendly HIEROTEK CIRCLE operative that has an APL stat of 1. For the purposes of the Martyrs tac op (Approved Ops 2025), this ploy has no effect."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "NEC-HIER-MC",
+      "killteamId": "NEC-HIER",
+      "seq": 1,
+      "eqName": "Magnification Conduits",
+      "description": "Once per turning point, when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative is performing the Shoot action, you can use this rule.\nIf you do, select one other friendly HIEROTEK CIRCLE operative (excluding PLASMACYTE) that has an Engage order and is visible to that friendly operative.\nUntil the end of that action, that other friendly operative can be treated as the active operative for the Magnify weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-HIER-PS",
+      "killteamId": "NEC-HIER",
+      "seq": 2,
+      "eqName": "Phase Shifter",
+      "description": "Once per turning point, when an operative is shooting a friendly CRYPTEK operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence.\nNote that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-HIER-TC",
+      "killteamId": "NEC-HIER",
+      "seq": 3,
+      "eqName": "Tesseract Cube",
+      "description": "In the Ready step of each Strategy phase, when you gain CP, if a friendly CRYPTEK operative is not incapacitated, is not within control range of enemy operatives, and has not been REANIMATED this turning point,\nyou can use this rule.\nIf you do, roll one D6: on a 1, you cannot use this rule for the rest of the battle; on a 4+, you gain 1CP.\nOnce you have gained 2CP from this rule, you cannot use it for the rest of the battle.",
+      "effects": ""
+    },
+    {
+      "eqId": "NEC-HIER-TW",
+      "killteamId": "NEC-HIER",
+      "seq": 4,
+      "eqName": "Tesla Weave",
+      "description": "Once per turning point, when an enemy operative ends the Charge action with friendly HIEROTEK CIRCLE operatives within its control range, you can use this rule. If you do, inflict D3+1 damage on that enemy operative.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "NEC-HIER-TA-LIME",
+      "abilityName": "Living Metal",
+      "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
+    },
+    {
+      "abilityId": "NEC-HIER-TA-REPR",
+      "abilityName": "Reanimation Protocols",
+      "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops..."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "NEC-HIER-CHRON",
+      "killteamId": "NEC-HIER",
+      "seq": 1,
+      "opTypeName": "Chronomancer",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, CHRONOMANCER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-CHRON-ASR",
+          "opTypeId": "NEC-HIER-CHRON",
+          "seq": 0,
+          "wepName": "Aeonstave",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-CHRON-ASR-0",
+              "wepId": "NEC-HIER-CHRON-ASR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-NEC-HIER-MAGNIFY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-CHRON-ELR",
+          "opTypeId": "NEC-HIER-CHRON",
+          "seq": 1,
+          "wepName": "Entropic Lance",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-CHRON-ELR-0",
+              "wepId": "NEC-HIER-CHRON-ELR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-NEC-HIER-MAGNIFY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-CHRON-ASM",
+          "opTypeId": "NEC-HIER-CHRON",
+          "seq": 2,
+          "wepName": "Aeonstave",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-CHRON-ASM-0",
+              "wepId": "NEC-HIER-CHRON-ASM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-CHRON-ELM",
+          "opTypeId": "NEC-HIER-CHRON",
+          "seq": 3,
+          "wepName": "Entropic Lance",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-CHRON-ELM-0",
+              "wepId": "NEC-HIER-CHRON-ELM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/6",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-CHRON-CM",
+          "opTypeId": "NEC-HIER-CHRON",
+          "abilityName": "Chronometron",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative.\nUntil the start of this operative's next activation, until this operative is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nsubtract 1 from the Atk stat of an operative's weapons whenever it is shooting that selected operative.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-CHRON-CTNM",
+          "opTypeId": "NEC-HIER-CHRON",
+          "abilityName": "Countertemporal Nanomine",
+          "AP": 1,
+          "description": "Place your Countertemporal Nanomine marker visible to this operative, or on Vantage terrain of a terrain feature that is visible to this operative.\r Whenever an enemy operative is within 4\" of your Countertemporal Nanomine marker, subtract 2\" from its Move stat.\r When this operative is next activated, is incapacitated or this action is performed again by a friendly operative (whichever comes first), remove that marker.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-CHRON-ISC",
+          "opTypeId": "NEC-HIER-CHRON",
+          "abilityName": "Interstitial Command",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+        },
+        {
+          "abilityId": "NEC-HIER-CHRON-RS",
+          "opTypeId": "NEC-HIER-CHRON",
+          "abilityName": "Timesplinter",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one expended friendly HIEROTEK CIRCLE operative visible to and within 5\" of this operative.\r Remove it from the killzone and set it back up visible to and within 5\" of this operative, measuring the horizontal distance only, in a location it can be placed.\r Each friendly operative can only be selected for this rule once per turning point. Note that a Comms device from universal equipment only affects the first distance of this rule.  \r \r This operative cannot perform this action while within control range of an enemy operative, during the first turning point, or if a friendly operative has already performed this action during this turning point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-PSYCH",
+      "killteamId": "NEC-HIER",
+      "seq": 2,
+      "opTypeName": "Psychomancer",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, PSYCHOMANCER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-PSYCH-ALR",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "seq": 0,
+          "wepName": "Abyssal Lance",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PSYCH-ALR-0",
+              "wepId": "NEC-HIER-PSYCH-ALR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1,
+                  "prefix_num": 2
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-NEC-HIER-MAGNIFY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-PSYCH-ALM",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "seq": 1,
+          "wepName": "Abyssal Lance",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PSYCH-ALM-0",
+              "wepId": "NEC-HIER-PSYCH-ALM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-PSYCH-HOD",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "abilityName": "Harbinger Of Despair",
+          "AP": 1,
+          "description": "Place your Despair marker visible to this operative, or on Vantage terrain of a terrain feature that is visible to this operative.\nWhen this operative is next activated, is incapacitated or this action is performed again by a friendly operative (whichever comes first), remove that marker.  \n\nWhenever an enemy operative is within 2\" of your Despair marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\nWhenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 2\" of your Despair marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-PSYCH-NS",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "abilityName": "Nightmare Shroud",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r whenever an enemy operative within 4\" of this operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice and cannot retain attack dice results of less than 6 as critical successes (e.g. as a results of the Lethal, Rending, or Severe weapon rules).  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-PSYCH-RS",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "abilityName": "Interstitial Command",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+        },
+        {
+          "abilityId": "NEC-HIER-PSYCH-VOM",
+          "opTypeId": "NEC-HIER-PSYCH",
+          "abilityName": "Vision Of Madness",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative.\nUntil the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nthat selected operative gains one of your Madness tokens.  \n\nWhenever your opponent would activate an enemy operative that has one of your Madness tokens, you can roll one D6: if the result is equal to or higher than that enemy operative's APL,\nthey cannot activate it during this activation. If that operative is successfully activated, or there are no other enemy operatives eligible to be activated, remove its Madness token.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-TECH",
+      "killteamId": "NEC-HIER",
+      "seq": 3,
+      "opTypeName": "Technomancer",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, TECHNOMANCER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-TECH-SOLR",
+          "opTypeId": "NEC-HIER-TECH",
+          "seq": 0,
+          "wepName": "Staff Of Light",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-TECH-SOLR-0",
+              "wepId": "NEC-HIER-TECH-SOLR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-NEC-HIER-MAGNIFY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-TECH-SOLM",
+          "opTypeId": "NEC-HIER-TECH",
+          "seq": 1,
+          "wepName": "Staff Of Light",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-TECH-SOLM-0",
+              "wepId": "NEC-HIER-TECH-SOLM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-TECH-AW",
+          "opTypeId": "NEC-HIER-TECH",
+          "abilityName": "Augment Weapon",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r select two of the following weapon rules for one weapon from that selected operative's datacard to have:  \n\r Lethal 5+  \n\r Rending  \n\r Saturate  \n\r Severe  \n\rNote that if you select a staff of light or arcane conduit, you only select the additional weapon rules for either the ranged or melee profile of that weapon.  \nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-TECH-CR",
+          "opTypeId": "NEC-HIER-TECH",
+          "abilityName": "Canoptek Repair",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds.  \n\r This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
+        },
+        {
+          "abilityId": "NEC-HIER-TECH-RIM",
+          "opTypeId": "NEC-HIER-TECH",
+          "abilityName": "Reinforce Metal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative.\nUntil the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nwhenever an attack dice inflicts damage of 3 or more on that operative, subtract 1 from that inflicted damage.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "NEC-HIER-TECH-RS",
+          "opTypeId": "NEC-HIER-TECH",
+          "abilityName": "Interstitial Command",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-PA",
+      "killteamId": "NEC-HIER",
+      "seq": 4,
+      "opTypeName": "Plasmacyte Accelerator",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "HIEROTEK CIRCLE, NECRON, PLASMACYTE, ACCELERATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-PA-SP",
+          "opTypeId": "NEC-HIER-PA",
+          "seq": 0,
+          "wepName": "Spark",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PA-SP-0",
+              "wepId": "NEC-HIER-PA-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-PA-CL",
+          "opTypeId": "NEC-HIER-PA",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PA-CL-0",
+              "wepId": "NEC-HIER-PA-CL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-PA-A-SC",
+          "opTypeId": "NEC-HIER-PA",
+          "abilityName": "Scuttler",
+          "description": "\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - This operative can perform the Fall Back action for 1 less AP.\r - This operative cannot use any weapons that aren't on its datacard, or perform unique actions other than Accelerate.\r "
+        },
+        {
+          "abilityId": "NEC-HIER-PA-ACC",
+          "opTypeId": "NEC-HIER-PA",
+          "abilityName": "Accelerate",
+          "AP": 1,
+          "description": "Select one friendly DEATHMARK or IMMORTAL operative visible to and within 6\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-PR",
+      "killteamId": "NEC-HIER",
+      "seq": 5,
+      "opTypeName": "Plasmacyte Reanimator",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "HIEROTEK CIRCLE, NECRON, MEDIC, PLASMACYTE, REANIMATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-PR-AB",
+          "opTypeId": "NEC-HIER-PR",
+          "seq": 0,
+          "wepName": "Atomiser Beam",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PR-AB-0",
+              "wepId": "NEC-HIER-PR-AB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-PR-CL",
+          "opTypeId": "NEC-HIER-PR",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-PR-CL-0",
+              "wepId": "NEC-HIER-PR-CL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-PR-A-SC",
+          "opTypeId": "NEC-HIER-PR",
+          "abilityName": "Scuttler",
+          "description": "\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - This operative can perform the Fall Back action for 1 less AP.\r - This operative cannot use any weapons that aren't on its datacard, or perform unique actions other than Reanimate.\r "
+        },
+        {
+          "abilityId": "NEC-HIER-PR-RA",
+          "opTypeId": "NEC-HIER-PR",
+          "abilityName": "Reanimate",
+          "AP": 1,
+          "description": "Select one of your Reanimation markers visible to and within 6\" of this operative.\nRoll one D6: on a 3+, a friendly operative is REANIMATED; if you spent 1 additional AP, a friendly operative is automatically REANIMATED (you don't need to roll one D6).\nAn operative that is REANIMATED from this unique action is set up expended if it was already expended during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-APP",
+      "killteamId": "NEC-HIER",
+      "seq": 6,
+      "opTypeName": "Apprentek",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 11,
+      "keywords": "HIEROTEK CIRCLE, NECRON, APPRENTEK",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-APP-ACR",
+          "opTypeId": "NEC-HIER-APP",
+          "seq": 0,
+          "wepName": "Arcane Conduit",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-APP-ACR-0",
+              "wepId": "NEC-HIER-APP-ACR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-NEC-HIER-MAGNIFY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-APP-ACM",
+          "opTypeId": "NEC-HIER-APP",
+          "seq": 1,
+          "wepName": "Arcane Conduit",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-APP-ACM-0",
+              "wepId": "NEC-HIER-APP-ACM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-APP-A-AA",
+          "opTypeId": "NEC-HIER-APP",
+          "abilityName": "Apprentek Assistance",
+          "description": "This operative has the same unique actions as your CRYPTEK operative selected for the battle, but can only perform one CRYPTEK unique action per turning point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-DM",
+      "killteamId": "NEC-HIER",
+      "seq": 7,
+      "opTypeName": "Deathmark",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 10,
+      "keywords": "HIEROTEK CIRCLE, NECRON, DEATHMARK",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-DM-SD",
+          "opTypeId": "NEC-HIER-DM",
+          "seq": 0,
+          "wepName": "Synaptic Disintegrator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-DM-SD-0",
+              "wepId": "NEC-HIER-DM-SD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-DM-F",
+          "opTypeId": "NEC-HIER-DM",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-DM-F-0",
+              "wepId": "NEC-HIER-DM-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-DM-A-DM",
+          "opTypeId": "NEC-HIER-DM",
+          "abilityName": "Deathmarked",
+          "description": "Whenever this operative ends the Shoot action, the target gains one of your Deathmarked tokens if it was not incapacitated (the primary target, if relevant).\nWhenever a friendly HIEROTEK CIRCLE DEATHMARK operative is shooting an enemy operative that has one of your Deathmarked tokens, that friendly operative's ranged weapons have the Seek weapon rule."
+        },
+        {
+          "abilityId": "NEC-HIER-DM-MDV",
+          "opTypeId": "NEC-HIER-DM",
+          "abilityName": "Multi-Dimensional Vision",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-ID",
+      "killteamId": "NEC-HIER",
+      "seq": 8,
+      "opTypeName": "Immortal Despotek",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 11,
+      "keywords": "HIEROTEK CIRCLE, NECRON, IMMORTAL, DESPOTEK",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-ID-GB",
+          "opTypeId": "NEC-HIER-ID",
+          "seq": 0,
+          "wepName": "Gauss Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-ID-GB-0",
+              "wepId": "NEC-HIER-ID-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-ID-TC",
+          "opTypeId": "NEC-HIER-ID",
+          "seq": 1,
+          "wepName": "Tesla Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-ID-TC-0",
+              "wepId": "NEC-HIER-ID-TC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1,
+                  "prefix_num": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-ID-B",
+          "opTypeId": "NEC-HIER-ID",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-ID-B-0",
+              "wepId": "NEC-HIER-ID-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-ID-A-SF",
+          "opTypeId": "NEC-HIER-ID",
+          "abilityName": "Steadfast",
+          "description": "Whenever determining control of a marker, you can treat this operative's APL stat as 3. If you do, this takes precedence over all other rules, meaning any changes to its APL stat are ignored for this."
+        },
+        {
+          "abilityId": "NEC-HIER-ID-RS",
+          "opTypeId": "NEC-HIER-ID",
+          "abilityName": "Interstitial Command",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "NEC-HIER-IG",
+      "killteamId": "NEC-HIER",
+      "seq": 9,
+      "opTypeName": "Immortal Guardian",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 10,
+      "keywords": "HIEROTEK CIRCLE, NECRON, IMMORTAL, GUARDIAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "NEC-HIER-IG-GB",
+          "opTypeId": "NEC-HIER-IG",
+          "seq": 0,
+          "wepName": "Gauss Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-IG-GB-0",
+              "wepId": "NEC-HIER-IG-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-IG-TC",
+          "opTypeId": "NEC-HIER-IG",
+          "seq": 1,
+          "wepName": "Tesla Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-IG-TC-0",
+              "wepId": "NEC-HIER-IG-TC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1,
+                  "prefix_num": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "NEC-HIER-IG-B",
+          "opTypeId": "NEC-HIER-IG",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "NEC-HIER-IG-B-0",
+              "wepId": "NEC-HIER-IG-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "NEC-HIER-IG-A-SF",
+          "opTypeId": "NEC-HIER-IG",
+          "abilityName": "Steadfast",
+          "description": "Whenever determining control of a marker, you can treat this operative's APL stat as 3. If you do, this takes precedence over all other rules, meaning any changes to its APL stat are ignored for this."
+        }
+      ]
+    }
+  ]
+}

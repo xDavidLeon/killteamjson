@@ -1,0 +1,1457 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-AOD",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_angels_of_death-izke7kijsn-r2qyap8d7a.pdf",
+  "killteamName": "Angels Of Death",
+  "description": "Genetically modified transhuman warriors, Space Marines are amongst Humanity's most elite fighting forces.\nAngels of Death kill teams are composed of elite specialists trained in myriad forms of combat, who are capable of overcoming almost any foe.",
+  "composition": "An ANGELS OF DEATH KillTeam is composed of:\n \n- 1 ANGEL OF DEATH operative selected from the following list:\n  - ASSAULT INTERCESSOR SERGEANT with one option from each of the following:\n    - Hand flamer or heavy bolt pistol\n    - Chainsword, power fist, power weapon or thunder hammer  \n    - Or the following option:\n      - Plasma pistol; chainsword\n  - INTERCESSOR SERGEANT with one option  from each of the following:\n    - Auto bolt rifle, bolt rifle or stalker bolt rifle\n    - Chainsword, fists, power fist, power weapon or thunder hammer\n  - SPACE MARINE CAPTAIN\n- 5 ANGEL OF DEATH operatives selected from the following list:\n  - ASSAULT INTERCESSOR GRENADIER\n  - ASSAULT INTERCESSOR WARRIOR\n  - ELIMINATOR SNIPER*\n  - HEAVY INTERCESSOR GUNNER*\n  - INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists    \n  - INTERCESSOR WARRIOR with one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n*You cannot select more than one of these operatives combined.\n\nSome ANGEL OF DEATH rules refer to a 'bolt weapon'. This is a ranged weapon that includes 'bolt' in its name, e.g. stalker bolt rifle, heavy bolt pistol, etc.\n\n---\n\n**Chapter Tactics:**  \nWhen selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.\n",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-AOD-S-ADT",
+      "killteamId": "IMP-AOD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Adaptive Tactics",
+      "description": "Change your secondary CHAPTER TACTIC. Note this ploy only lasts until the end of the turning point, at which point your original secondary CHAPTER TACTIC returns."
+    },
+    {
+      "ployId": "IMP-AOD-S-ATSKNF",
+      "killteamId": "IMP-AOD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "And They Shall Know No Fear",
+      "description": "You can ignore any changes to the stats of friendly ANGEL OF DEATH operatives from being injured."
+    },
+    {
+      "ployId": "IMP-AOD-S-CD",
+      "killteamId": "IMP-AOD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Combat Doctrine",
+      "description": "Select one COMBAT DOCTRINE from those presented below. Whenever a friendly ANGEL OF DEATH operative is x, its weapons have the Balanced weapon rule. X is the COMBAT DOCTRINE you selected.  \n\n\n- **Devastator Doctrine:** Shooting an operative more than 6\" from it.\n- **Tactical Doctrine:** Shooting an operative within 6\" of it.\n- **Assault Doctrine:** Fighting or retaliating.\n\n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-AOD-S-IND",
+      "killteamId": "IMP-AOD",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Indomitus",
+      "description": "Whenever an operative is shooting a friendly ANGEL OF DEATH operative, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
+    },
+    {
+      "ployId": "IMP-AOD-T-ADJT",
+      "killteamId": "IMP-AOD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Adjust Doctrine",
+      "description": "Use this firefight ploy during a friendly ANGEL OF DEATH operative's activation, before or after it performs an action. If you have used the Combat Doctrine strategy ploy during this turning point, change the COMBAT DOCTRINE you selected."
+    },
+    {
+      "ployId": "IMP-AOD-T-SA",
+      "killteamId": "IMP-AOD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Shock Assault",
+      "description": "Use this firefight ploy when a friendly ANGEL OF DEATH operative is performing the Fight action during an activation in which it has performed the Charge action, at the start of the Resolve Attack Dice step.\nUntil the end of that action:\n\n- Its melee weapon has the Shock weapon rule.\n- The first time you strike during that sequence, inflict 1 additional damage (to a maximum of 7).\n  \n**Shock:** The first time you strike with a critical success in each sequence, also discard one of your opponent's unresolved normal successes (or a critical success if there are none)."
+    },
+    {
+      "ployId": "IMP-AOD-T-TP",
+      "killteamId": "IMP-AOD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Transhuman Physiology",
+      "description": "Use this firefight ploy when an operative is shooting a friendly ANGEL OF DEATH operative, in the Roll Defence Dice step.\nYou can retain one of your normal successes as a critical success instead."
+    },
+    {
+      "ployId": "IMP-AOD-T-WOV",
+      "killteamId": "IMP-AOD",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Wrath Of Vengeance",
+      "description": "Use this firefight ploy when a friendly ANGEL OF DEATH operative is counteracting. It can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-AOD-CR",
+      "killteamId": "IMP-AOD",
+      "seq": 1,
+      "eqName": "Chapter Reliquaries",
+      "description": "You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly operative has an Engage order.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AOD-PS",
+      "killteamId": "IMP-AOD",
+      "seq": 1,
+      "eqName": "Purity Seals",
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AOD-TS",
+      "killteamId": "IMP-AOD",
+      "seq": 3,
+      "eqName": "Tilting Shields",
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is fighting or retaliating, after your opponent rolls their attack dice, you can use this rule.\nIf you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (e.g. as a result of the Lethal, Rending or Severe weapon rules).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-AOD-AUS",
+      "killteamId": "IMP-AOD",
+      "seq": 4,
+      "eqName": "Auspex",
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative performs the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of the activation (or counteraction), enemy operatives within 8\" of it cannot be obscured.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-AOD-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly ANGEL OF DEATH operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions, a bolt weapon must be selected for at least one of them, and if it's a bolt sniper rifle or heavy bolter, 1 additional AP must be spent for the second action if both actions are using that weapon.  \n\nEach friendly ANGEL OF DEATH operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTAG",
+      "abilityName": "[CT] Aggressive",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \nThis operative's melee weapons have the Rending weapon rule.\n\n**Rending:** If you retain any critical hits, retain 1 normal hit as a critical hit instead."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTDU",
+      "abilityName": "[CT] Dueller",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n   \nWhenever this operative is fighting or retaliating, each of your normal successes can block one unresolved critical success (unless the enemy operative's weapon has the Brutal weapon rule)."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTHA",
+      "abilityName": "[CT] Hardy",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, defence dice results of 5+ are critical successes. Whenever this operative is retaliating, the first time an attack dice inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTMO",
+      "abilityName": "[CT] Mobile",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \n\n- This operative can perform the Fall Back action for 1 less AP.\n- This operative can perform the Charge action while within control range of an enemy operative, and can leave that operative's control range to do so (but then normal requirements for that move apply).\n"
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTRE",
+      "abilityName": "[CT] Resolute",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nYou can ignore any changes to this operative's APL stat and it isn't affected by enemy operatives' Shock weapon rule."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTSH",
+      "abilityName": "[CT] Sharpshooter",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever this operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, its bolt weapons have the Accurate 1 and Severe weapon rules.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTSISP",
+      "abilityName": "[CT] Siege Specialist",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nThis operative's ranged weapons have the Saturate weapon rule.\n\n**Saturate:** The defender cannot retain Cover saves.\n\nWhenever this operative is fighting or retaliating, enemy operatives cannot assist."
+    },
+    {
+      "abilityId": "IMP-AOD-TA-CTST",
+      "abilityName": "[CT] Stealthy",
+      "description": "*When selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.*  \n  \nWhenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success.\nThis is not cumulative with improved cover saves from Vantage terrain."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-AOD-CPT",
+      "killteamId": "IMP-AOD",
+      "seq": 0,
+      "opTypeName": "Space Marine Captain",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, SPACE MARINE CAPTAIN",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-CPT-PP",
+          "opTypeId": "IMP-AOD-CPT",
+          "seq": 0,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-CPT-PP-0",
+              "wepId": "IMP-AOD-CPT-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-CPT-PP-1",
+              "wepId": "IMP-AOD-CPT-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-CPT-PF",
+          "opTypeId": "IMP-AOD-CPT",
+          "seq": 1,
+          "wepName": "Power Fist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-CPT-PF-0",
+              "wepId": "IMP-AOD-CPT-PF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-AOD-CPT-A-HL",
+          "opTypeId": "IMP-AOD-CPT",
+          "abilityName": "Heroic Leader",
+          "description": "Once per turning point, you can do one of the following:\n- Use a firefight ploy for 0CP if this is the specified ANGEL OF DEATH operative (excluding Command Re-roll).\n- Use the Combat Doctrine strategy ploy when you activate a friendly ANGEL OF DEATH operative if this operative is in the killzone and isn't within control range of enemy operatives (pay its CP cost as normal). Note that you cannot do so if you've already used that ploy during this turning point.\n- Use the Adjust Doctrine firefight ploy for 0CP if this operative is in the killzone and not within control range of enemy operatives."
+        },
+        {
+          "abilityId": "IMP-AOD-CPT-A-IH",
+          "opTypeId": "IMP-AOD-CPT",
+          "abilityName": "Iron Halo",
+          "description": "Once per battle, when an attack die inflicts Normal Damage on this operative, you can ignore that inflicted damage."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-AOD-ASGT",
+      "killteamId": "IMP-AOD",
+      "seq": 1,
+      "opTypeName": "Assault Intercessor Sergeant",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, ASSAULT INTERCESSOR, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-ASGT-HFL",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 0,
+          "wepName": "Hand Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-HFL-0",
+              "wepId": "IMP-AOD-ASGT-HFL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-HBP",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 1,
+          "wepName": "Heavy Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-HBP-0",
+              "wepId": "IMP-AOD-ASGT-HBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-PP",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 2,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-PP-0",
+              "wepId": "IMP-AOD-ASGT-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-ASGT-PP-1",
+              "wepId": "IMP-AOD-ASGT-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-CS",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 3,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-CS-0",
+              "wepId": "IMP-AOD-ASGT-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-PF",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 4,
+          "wepName": "Power Fist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-PF-0",
+              "wepId": "IMP-AOD-ASGT-PF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-PW",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 5,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-PW-0",
+              "wepId": "IMP-AOD-ASGT-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ASGT-TH",
+          "opTypeId": "IMP-AOD-ASGT",
+          "seq": 6,
+          "wepName": "Thunder Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ASGT-TH-0",
+              "wepId": "IMP-AOD-ASGT-TH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-AOD-ASGT-A-CVET",
+          "opTypeId": "IMP-AOD-ASGT",
+          "abilityName": "Chapter Veteran",
+          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one additional CHAPTER TACTIC for it to have for the battle.\nUnlike primary and secondary CHAPTER TACTICS, you don't have to select the same one for each battle in a campaign or tournament."
+        },
+        {
+          "abilityId": "IMP-AOD-ASGT-A-DW",
+          "opTypeId": "IMP-AOD-ASGT",
+          "abilityName": "Doctrine Warfare",
+          "description": "You can do each of the following once per battle:\n\n- Whenever you would use the Combat Doctrine strategy ploy and then select Assault, if this operative is in the killzone, it costs you 0CP.\n- Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this operative is in the killzone, it costs you 0CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-AOD-ISGT",
+      "killteamId": "IMP-AOD",
+      "seq": 2,
+      "opTypeName": "Intercessor Sergeant",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, LEADER, INTERCESSOR, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-ISGT-ABR",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 0,
+          "wepName": "Auto Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-ABR-0",
+              "wepId": "IMP-AOD-ISGT-ABR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-BR",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 1,
+          "wepName": "Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-BR-0",
+              "wepId": "IMP-AOD-ISGT-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-SBR",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 2,
+          "wepName": "Stalker Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-SBR-0",
+              "wepId": "IMP-AOD-ISGT-SBR",
+              "seq": 0,
+              "profileName": "Heavy",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-ISGT-SBR-1",
+              "wepId": "IMP-AOD-ISGT-SBR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-CS",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 3,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-CS-0",
+              "wepId": "IMP-AOD-ISGT-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-F",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-F-0",
+              "wepId": "IMP-AOD-ISGT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-PF",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 5,
+          "wepName": "Power Fist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-PF-0",
+              "wepId": "IMP-AOD-ISGT-PF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-PW",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-PW-0",
+              "wepId": "IMP-AOD-ISGT-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-ISGT-TH",
+          "opTypeId": "IMP-AOD-ISGT",
+          "seq": 7,
+          "wepName": "Thunder Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-ISGT-TH-0",
+              "wepId": "IMP-AOD-ISGT-TH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-AOD-ISGT-A-CVET",
+          "opTypeId": "IMP-AOD-ISGT",
+          "abilityName": "Chapter Veteran",
+          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one additional CHAPTER TACTIC for it to have for the battle.\nUnlike primary and secondary CHAPTER TACTICS, you don't have to select the same one for each battle in a campaign or tournament."
+        },
+        {
+          "abilityId": "IMP-AOD-ISGT-A-DW",
+          "opTypeId": "IMP-AOD-ISGT",
+          "abilityName": "Doctrine Warfare",
+          "description": "You can do each of the following once per battle:\n\n- Whenever you would use the Combat Doctrine strategy ploy and then select Devastator, if this operative is in the killzone, it costs you 0CP.\n- Whenever you would use the Combat Doctrine strategy ploy and then select Tactical, if this operative is in the killzone, it costs you 0CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-AOD-SNP",
+      "killteamId": "IMP-AOD",
+      "seq": 3,
+      "opTypeName": "Eliminator Sniper",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ELIMINATOR, SNIPER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-SNP-BP",
+          "opTypeId": "IMP-AOD-SNP",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-SNP-BP-0",
+              "wepId": "IMP-AOD-SNP-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-SNP-BSR",
+          "opTypeId": "IMP-AOD-SNP",
+          "seq": 1,
+          "wepName": "Bolt Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-SNP-BSR-0",
+              "wepId": "IMP-AOD-SNP-BSR",
+              "seq": 0,
+              "profileName": "Executioner",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-SNP-BSR-1",
+              "wepId": "IMP-AOD-SNP-BSR",
+              "seq": 1,
+              "profileName": "Hyperfrag",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-SNP-BSR-2",
+              "wepId": "IMP-AOD-SNP-BSR",
+              "seq": 2,
+              "profileName": "Mortis",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-SNP-F",
+          "opTypeId": "IMP-AOD-SNP",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-SNP-F-0",
+              "wepId": "IMP-AOD-SNP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-AOD-SNP-A-CC",
+          "opTypeId": "IMP-AOD-SNP",
+          "abilityName": "Camo Cloak",
+          "description": "Whenever an operative is shooting this operative, ignore the Saturate weapon rule.\nThis operative has the Stealthy CHAPTER TACTIC. If you selected that CHAPTER TACTIC, you can do both of its options (i.e. retain two cover saves - one normal and one critical success)."
+        },
+        {
+          "abilityId": "IMP-AOD-SNP-A-ST",
+          "opTypeId": "IMP-AOD-SNP",
+          "abilityName": "Stealthy",
+          "description": "Whenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success.\nThis is not cumulative with improved cover saves from Vantage terrain."
+        },
+        {
+          "abilityId": "IMP-AOD-SNP-OPT",
+          "opTypeId": "IMP-AOD-SNP",
+          "abilityName": "Optics",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-AOD-GRN",
+      "killteamId": "IMP-AOD",
+      "seq": 4,
+      "opTypeName": "Assault Intercessor Grenadier",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, GRENADIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-GRN-HBP",
+          "opTypeId": "IMP-AOD-GRN",
+          "seq": 0,
+          "wepName": "Heavy Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GRN-HBP-0",
+              "wepId": "IMP-AOD-GRN-HBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GRN-CS",
+          "opTypeId": "IMP-AOD-GRN",
+          "seq": 1,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GRN-CS-0",
+              "wepId": "IMP-AOD-GRN-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GRN-FG",
+          "opTypeId": "IMP-AOD-GRN",
+          "seq": 2,
+          "wepName": "Frag Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GRN-FG-0",
+              "wepId": "IMP-AOD-GRN-FG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GRN-KG",
+          "opTypeId": "IMP-AOD-GRN",
+          "seq": 3,
+          "wepName": "Krak Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GRN-KG-0",
+              "wepId": "IMP-AOD-GRN-KG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-AOD-GRN-A-GRN",
+          "opTypeId": "IMP-AOD-GRN",
+          "abilityName": "Grenadier",
+          "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-AOD-AWAR",
+      "killteamId": "IMP-AOD",
+      "seq": 5,
+      "opTypeName": "Assault Intercessor Warrior",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, ASSAULT INTERCESSOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-AWAR-HBP",
+          "opTypeId": "IMP-AOD-AWAR",
+          "seq": 0,
+          "wepName": "Heavy Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-AWAR-HBP-0",
+              "wepId": "IMP-AOD-AWAR-HBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-AWAR-CS",
+          "opTypeId": "IMP-AOD-AWAR",
+          "seq": 1,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-AWAR-CS-0",
+              "wepId": "IMP-AOD-AWAR-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-AOD-HGNR",
+      "killteamId": "IMP-AOD",
+      "seq": 6,
+      "opTypeName": "Heavy Intercessor Gunner",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 18,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, HEAVY INTERCESSOR, GUNNER",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-HGNR-HB",
+          "opTypeId": "IMP-AOD-HGNR",
+          "seq": 0,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-HGNR-HB-0",
+              "wepId": "IMP-AOD-HGNR-HB",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-HGNR-HB-1",
+              "wepId": "IMP-AOD-HGNR-HB",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-HGNR-F",
+          "opTypeId": "IMP-AOD-HGNR",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-HGNR-F-0",
+              "wepId": "IMP-AOD-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-AOD-GNR",
+      "killteamId": "IMP-AOD",
+      "seq": 7,
+      "opTypeName": "Intercessor Gunner",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, INTERCESSOR, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-GNR-ABR",
+          "opTypeId": "IMP-AOD-GNR",
+          "seq": 0,
+          "wepName": "Auto Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GNR-ABR-0",
+              "wepId": "IMP-AOD-GNR-ABR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GNR-GL",
+          "opTypeId": "IMP-AOD-GNR",
+          "seq": 1,
+          "wepName": "Auxiliary Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GNR-GL-0",
+              "wepId": "IMP-AOD-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-GNR-GL-1",
+              "wepId": "IMP-AOD-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GNR-BR",
+          "opTypeId": "IMP-AOD-GNR",
+          "seq": 2,
+          "wepName": "Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GNR-BR-0",
+              "wepId": "IMP-AOD-GNR-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GNR-SBR",
+          "opTypeId": "IMP-AOD-GNR",
+          "seq": 3,
+          "wepName": "Stalker Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GNR-SBR-0",
+              "wepId": "IMP-AOD-GNR-SBR",
+              "seq": 0,
+              "profileName": "Heavy",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-GNR-SBR-1",
+              "wepId": "IMP-AOD-GNR-SBR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-GNR-F",
+          "opTypeId": "IMP-AOD-GNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-GNR-F-0",
+              "wepId": "IMP-AOD-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-AOD-WAR",
+      "killteamId": "IMP-AOD",
+      "seq": 8,
+      "opTypeName": "Intercessor Warrior",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "ANGEL OF DEATH, IMPERIUM, ADEPTUS ASTARTES, INTERCESSOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-AOD-WAR-ABR",
+          "opTypeId": "IMP-AOD-WAR",
+          "seq": 0,
+          "wepName": "Auto Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-WAR-ABR-0",
+              "wepId": "IMP-AOD-WAR-ABR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-WAR-BR",
+          "opTypeId": "IMP-AOD-WAR",
+          "seq": 1,
+          "wepName": "Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-WAR-BR-0",
+              "wepId": "IMP-AOD-WAR-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-WAR-SBR",
+          "opTypeId": "IMP-AOD-WAR",
+          "seq": 2,
+          "wepName": "Stalker Bolt Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-WAR-SBR-0",
+              "wepId": "IMP-AOD-WAR-SBR",
+              "seq": 0,
+              "profileName": "Heavy",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-AOD-WAR-SBR-1",
+              "wepId": "IMP-AOD-WAR-SBR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-WAR-F",
+          "opTypeId": "IMP-AOD-WAR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-WAR-F-0",
+              "wepId": "IMP-AOD-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    }
+  ]
+}

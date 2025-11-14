@@ -1,0 +1,789 @@
+{
+  "factionId": "AEL",
+  "killteamId": "AEL-VDT",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kty_teamrules_void-dancer_troupe-p2t5lqusto-ddpnpllhnq.pdf",
+  "killteamName": "Void-Dancer Troupe",
+  "description": "Even amongst the agile Aeldari, the Harlequins of the Void-dancer Troupes display an almost preternatural level of dexterity and skill. Performance and war merge in their actions, precisely directed to shape the fate of their race.",
+  "composition": "A VOID-DANCER TROUPE killteam is composed of:\n\n- 1 VOID-DANCER TROUPE LEAD PLAYER operative with one option from each of the following:\n  - Fusion pistol, neuro disruptor or shuriken pistol\n  - Blade, caress, embrace, kiss or power weapon\n- 7 VOID-DANCER TROUPE operatives selected from the following list:\n  - DEATH JESTER\n  - PLAYER with one option from each of the following:\n    - Fusion pistol, neuro disruptor or shuriken pistol\n    - Blade, caress, embrace or kiss    \n  - SHADOWSEER with hallucinogen grenade and one of the following options:\n    - Neuro disruptor; miststave\n    - Shuriken pistol; miststave\n\nOther than PLAYER operatives, your kill team can only include each operative on this list once. Your kill team can only include up to one fusion pistol and up to one neuro disruptor.\n",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "AEL-VDT-S-CJ",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cegorach's Jest",
+      "description": "Whenever a friendly VOID-DANCER TROUPE operative is fighting or retaliating and your opponent strikes with a normal success, you can roll one D6:  \n\nif the result is less than the Hit stat of your opponent's selected weapon, that strike is a block instead (ignore the Brutal weapon rule, if relevant) and you cannot use this rule for the rest of the sequence."
+    },
+    {
+      "ployId": "AEL-VDT-S-DS",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Darting Salvo",
+      "description": "Whenever a friendly VOID-DANCER TROUPE operative performs the Reposition action during its activation, it can perform the Shoot action during that action\n(it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so)."
+    },
+    {
+      "ployId": "AEL-VDT-S-PB",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Prismatic Blur",
+      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative that performed an action in which it moved during this turning point, you can re-roll one of your defence dice."
+    },
+    {
+      "ployId": "AEL-VDT-S-RC",
+      "killteamId": "AEL-VDT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Rising Crescendo",
+      "description": "Friendly VOID-DANCER TROUPE operatives can perform the Dash action during the same activation in which they performed the Charge action, but not vice versa (i.e. not Dash then Charge)."
+    },
+    {
+      "ployId": "AEL-VDT-T-DF",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Domino Field",
+      "description": "Use this firefight ploy when an operative is shooting a friendly VOID-DANCER TROUPE operative, during the Resolve Defence Dice step.\nYou can allocate one of your rolled successful dice to block all of your opponent's attack dice with matching results (e.g. one of your successful defence dice results of 5 can be used to block all successful attack dice results of 5)."
+    },
+    {
+      "ployId": "AEL-VDT-T-ET",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Elusive Target",
+      "description": "Use this firefight ploy during a friendly VOID-DANCER TROUPE operative's activation. Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+    },
+    {
+      "ployId": "AEL-VDT-T-ME",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Murderous Entrance",
+      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting during an activation in which it performed the Charge action, after you strike.\nYou can immediately resolve another of your normal successes as a strike (before your opponent), or a critical success if there are none."
+    },
+    {
+      "ployId": "AEL-VDT-T-TCF",
+      "killteamId": "AEL-VDT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "The Curtain Falls",
+      "description": "Use this firefight ploy when a friendly VOID-DANCER TROUPE operative is fighting, after you strike with a critical success, if the enemyu operative isn't incapacitated.\nEnd that sequence (any remaining attack dice are discarded) and immediately perform a free Fall Back action up to 3\" with that operative (then the Fight action ends).\nThat operative can do so even if it's performed an action that prevents it from performing the Fall Back action."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-VDT-WBT",
+      "killteamId": "AEL-VDT",
+      "seq": 1,
+      "eqName": "Wraithbone Talisman",
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-STR",
+      "killteamId": "AEL-VDT",
+      "seq": 2,
+      "eqName": "Shrieker Toxic Rounds",
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is performing the Shoot action and you select a shuriken pistol or shrieker cannon (focused), you can use this rule.\nIf you do, until the end of that action, that weapon has the Devastating 1 weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-DM",
+      "killteamId": "AEL-VDT",
+      "seq": 3,
+      "eqName": "Death Mask",
+      "description": "Keep a Tragedy tally. Whenever a friendly VOID-DANCER TROUPE operative that has an ACCOLADE rule is incapacitated, add 1 to your Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-VDT-UM",
+      "killteamId": "AEL-VDT",
+      "seq": 4,
+      "eqName": "Understudy's Mask",
+      "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-VDT-TA-HAPA",
+      "abilityName": "Harlequin's Panoply",
+      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+    },
+    {
+      "abilityId": "AEL-VDT-TA-SA",
+      "abilityName": "Saedath",
+      "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "AEL-VDT-LPL",
+      "killteamId": "AEL-VDT",
+      "seq": 1,
+      "opTypeName": "Lead Player",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, LEADER, LEAD PLAYER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-VDT-LPL-FP",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 1,
+          "wepName": "Fusion Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-FP-0",
+              "wepId": "AEL-VDT-LPL-FP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-ND",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 2,
+          "wepName": "Neuro Disruptor",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-ND-0",
+              "wepId": "AEL-VDT-LPL-ND",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-SP",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-SP-0",
+              "wepId": "AEL-VDT-LPL-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-B",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 4,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-B-0",
+              "wepId": "AEL-VDT-LPL-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-C",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 5,
+          "wepName": "Caress",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-C-0",
+              "wepId": "AEL-VDT-LPL-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-E",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 6,
+          "wepName": "Embrace",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-E-0",
+              "wepId": "AEL-VDT-LPL-E",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-K",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 7,
+          "wepName": "Kiss",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-K-0",
+              "wepId": "AEL-VDT-LPL-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/7",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-LPL-PW",
+          "opTypeId": "AEL-VDT-LPL",
+          "seq": 8,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-LPL-PW-0",
+              "wepId": "AEL-VDT-LPL-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-VDT-LPL-A-LTP",
+          "opTypeId": "AEL-VDT-LPL",
+          "abilityName": "Lead The Performance",
+          "description": "Once per battle STRATEGIC GAMBIT. If this operative is in the killzone, change the ALLEGORY you selected for your kill team. Note that the ACCOLADE rule friendly operatives have will also change."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-VDT-DJS",
+      "killteamId": "AEL-VDT",
+      "seq": 2,
+      "opTypeName": "Death Jester",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, DEATH JESTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-VDT-DJS-SC",
+          "opTypeId": "AEL-VDT-DJS",
+          "seq": 1,
+          "wepName": "Shrieker Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-DJS-SC-0",
+              "wepId": "AEL-VDT-DJS-SC",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-AEL-VDT-HUMBLING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "AEL-VDT-DJS-SC-1",
+              "wepId": "AEL-VDT-DJS-SC",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                },
+                {
+                  "id": "WR-AEL-VDT-HUMBLING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-DJS-SB",
+          "opTypeId": "AEL-VDT-DJS",
+          "seq": 2,
+          "wepName": "Shrieker Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-DJS-SB-0",
+              "wepId": "AEL-VDT-DJS-SB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "AEL-VDT-PLAY",
+      "killteamId": "AEL-VDT",
+      "seq": 3,
+      "opTypeName": "Player",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, PLAYER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-VDT-PLAY-FP",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 1,
+          "wepName": "Fusion Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-FP-0",
+              "wepId": "AEL-VDT-PLAY-FP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-ND",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 2,
+          "wepName": "Neuro Disruptor",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-ND-0",
+              "wepId": "AEL-VDT-PLAY-ND",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-SP",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-SP-0",
+              "wepId": "AEL-VDT-PLAY-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-B",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 4,
+          "wepName": "Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-B-0",
+              "wepId": "AEL-VDT-PLAY-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-C",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 5,
+          "wepName": "Caress",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-C-0",
+              "wepId": "AEL-VDT-PLAY-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-E",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 6,
+          "wepName": "Embrace",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-E-0",
+              "wepId": "AEL-VDT-PLAY-E",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-PLAY-K",
+          "opTypeId": "AEL-VDT-PLAY",
+          "seq": 7,
+          "wepName": "Kiss",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-PLAY-K-0",
+              "wepId": "AEL-VDT-PLAY-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/7",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-VDT-PLAY-A-LOTLG",
+          "opTypeId": "AEL-VDT-PLAY",
+          "abilityName": "Luck Of The Laughing God",
+          "description": "Once per turning point, you can use this rule. If you do, you can use a firefight ploy for 0CP if this is the specified VOID-DANCER TROUPE operative\n(including Command Re-roll if the attack or defence dice was rolled for this operative). You cannot select the same firefight ploy for this rule more than once per battle."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-VDT-SDS",
+      "killteamId": "AEL-VDT",
+      "seq": 4,
+      "opTypeName": "Shadowseer",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "VOID-DANCER TROUPE, AELDARI, HARLEQUINS, PSYKER, SHADOWSEER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-VDT-SDS-HG",
+          "opTypeId": "AEL-VDT-SDS",
+          "seq": 1,
+          "wepName": "Hallucinogen Grenade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-SDS-HG-0",
+              "wepId": "AEL-VDT-SDS-HG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "1/1",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-SDS-ND",
+          "opTypeId": "AEL-VDT-SDS",
+          "seq": 2,
+          "wepName": "Neuro Disruptor",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-SDS-ND-0",
+              "wepId": "AEL-VDT-SDS-ND",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-SDS-SP",
+          "opTypeId": "AEL-VDT-SDS",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-SDS-SP-0",
+              "wepId": "AEL-VDT-SDS-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-VDT-SDS-MS",
+          "opTypeId": "AEL-VDT-SDS",
+          "seq": 4,
+          "wepName": "Miststave",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-VDT-SDS-MS-0",
+              "wepId": "AEL-VDT-SDS-MS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-VDT-SDS-FOG",
+          "opTypeId": "AEL-VDT-SDS",
+          "abilityName": "Fog Of Dreams",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one ready enemy operative visible to this operative and roll one D6.\nUntil the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor until your opponent has activated a number of enemy operatives after this action equal to the result of the D6 (whichever comes first).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "AEL-VDT-SDS-MOM",
+          "opTypeId": "AEL-VDT-SDS",
+          "abilityName": "Mirror Of Minds",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    }
+  ]
+}

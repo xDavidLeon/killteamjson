@@ -1,0 +1,1384 @@
+{
+  "factionId": "AEL",
+  "killteamId": "AEL-COR",
+  "version": "1.2",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_corsair_voidscarred-avo1ekc7vh-drtpdts08c.pdf",
+  "killteamName": "Corsair Voidscarred",
+  "description": "Aeldari Corsairs or Anhrathe are bands of piratical Aeldari Outcasts. They are a constant threat to merchant shipping, though very rarely pose a threat to a major Imperial battlefleet.\n  \n  \n\nThere are many bands of so-called Corsairs scattered across the galaxy, and all are savage and deadly raiders. Outcasts from the strict confines of the Craftworlds, the Corsairs live in self-imposed exile, seeking to explore the galaxy and experience the full gamut of emotion and sensation accessible to the Eldar's sensitive psyche. ",
+  "composition": "A CORSAIR VOIDSCARRED killteam is composed of:\n- 1 CORSAIR VOIDSCARRED Felarch operative with one of the following options:\n  - Shuriken rifle, shuriken pistol, power weapon\n  - Neuro Disruptor, Power weapon\n- 8 CORSAIR VOIDSCARRED operatives selected from the following list:\n  - Fate Dealer\n  - Gunner with one of the following options:\n  - Blaster (X), Shuriken pistol, fists\n    - Shredder, Shuriken pistol, fists\n  - Heavy Gunner with one of the following options:\n    - Shuriken Cannon, Shuriken pistol, fists\n    - Wraithcannon (X), Shuriken pistol, fists  \n  - Kurnathi\n  - Kurnite Hunter\n  - Shade Runner\n  - Soul Weaver\n  - Starstorm Duelist\n  - Warrior with one of the following options:\n    - Shuriken pistol, power weapon\n  - Shuriken rifle, fists  \n  - Way Seeker\n\nOther than Warrior operatives your kill team can only include each operative on this lists once.  \n\n(X) Your kill team cannot include both a blaster and a wraithcannon.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "AEL-COR-S-ME",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Mobile Engagement",
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative that performed an action in which it moved during this turning point, you can re-roll one of your dice."
+    },
+    {
+      "ployId": "AEL-COR-S-OC",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Outcasts",
+      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is more than 5\" from other friendly operative, its weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "AEL-COR-S-PL",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Plunderers",
+      "description": "Up to 1D3 friendly CORSAIR VOIDSCARRED operatives can immediately perform a free Dash action in an order of your choice.\nThis turning point, each that does so cannot perform the Dash action during their activation. You cannot use this ploy during the first Turning point."
+    },
+    {
+      "ployId": "AEL-COR-S-PP",
+      "killteamId": "AEL-COR",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Piratical Profiteers",
+      "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting, fighting or retaliating, if it or the enemy operative in that sequence contests an objective marker or one of your mission markers, that operative's weapons have the Balanced special rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "AEL-COR-T-CA",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Contemptuous Adventurer",
+      "description": "Use this firefight ploy when you activate your first friendly CORSAIR VOIDSCARRED operative during the turning point, if it is more than 5\" from other friendly operatives.\nThe first time that operative performs either the Shoot or Fight action during that activation, its weapons have the relentless rule.\nNote this ploy cannot come into effect more than once per activation (You cannot use it during both the Shoot and Fight action in the same activation).  \n**Relentless:** Can re-roll any or all Attack dice."
+    },
+    {
+      "ployId": "AEL-COR-T-CF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Capricious Flight",
+      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "AEL-COR-T-LF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Light Fingers",
+      "description": "Use this firefight ploy during a friendly CORSAIR VOIDSCARRED operative's activation.\nUntil the end of that activation, having an enemy operative within its control range does not prevent that friendly operative from performing the Pick Up marker or mission actions."
+    },
+    {
+      "ployId": "AEL-COR-T-OF",
+      "killteamId": "AEL-COR",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Opportunistic Fighters",
+      "description": "Use this Firefight ploy when an enemy operative performs the Fall Back action. Before it moves, inflict 2D3 damage on that operative for each friendly CORSAIR VOIDSCARRED operative within its control range."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-COR-DM",
+      "killteamId": "AEL-COR",
+      "seq": 1,
+      "eqName": "Diuturnal Mantles",
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-MF",
+      "killteamId": "AEL-COR",
+      "seq": 2,
+      "eqName": "Mistfield",
+      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-ROG",
+      "killteamId": "AEL-COR",
+      "seq": 3,
+      "eqName": "Runes Of Guidance",
+      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike).",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-COR-SC",
+      "killteamId": "AEL-COR",
+      "seq": 4,
+      "eqName": "Star Charts",
+      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-COR-TA-AERA",
+      "abilityName": "Aeldari Raiders",
+      "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "AEL-COR-FEL",
+      "killteamId": "AEL-COR",
+      "seq": 1,
+      "opTypeName": "Voidscarred Felarch",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FELARCH, LEADER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-FEL-ND",
+          "opTypeId": "AEL-COR-FEL",
+          "seq": 1,
+          "wepName": "Neuro Disruptor",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FEL-ND-0",
+              "wepId": "AEL-COR-FEL-ND",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-FEL-SP",
+          "opTypeId": "AEL-COR-FEL",
+          "seq": 2,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FEL-SP-0",
+              "wepId": "AEL-COR-FEL-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-FEL-SR",
+          "opTypeId": "AEL-COR-FEL",
+          "seq": 3,
+          "wepName": "Shuriken Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FEL-SR-0",
+              "wepId": "AEL-COR-FEL-SR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-FEL-PW",
+          "opTypeId": "AEL-COR-FEL",
+          "seq": 4,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FEL-PW-0",
+              "wepId": "AEL-COR-FEL-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-FEL-A-OSA",
+          "opTypeId": "AEL-COR-FEL",
+          "abilityName": "One Step Ahead",
+          "description": "Once per battle, after an enemy operative performs an action during its activation, if this operative is ready, you can use this rule.\nIf you do so, roll 1D6, if the result is higher than that enemy operative's APL stat, you can interrupt that activation and immediately perform either a free Shoot or a free Fight action with this operative,\nbut other enemy operatives cannot be selected as a valid target or to fight against during that action (Note that secondary targets from the blast weapon rule can still be targeted).\nAfter you perform that action, subtract 1 from this operative's APL stat until the end of its next activation."
+        },
+        {
+          "abilityId": "AEL-COR-FEL-A-RFL",
+          "opTypeId": "AEL-COR-FEL",
+          "abilityName": "Rifles",
+          "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting with a shuriken rifle or ranger long rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat operative has the Accurate 1 weapon rule. Note that operative is not restricted from performing those actions after shooting."
+        },
+        {
+          "abilityId": "AEL-COR-FEL-A-VET",
+          "opTypeId": "AEL-COR-FEL",
+          "abilityName": "Veteran Raider",
+          "description": "This operative can perform a 1AP action for free during their activation as a result of the Aeldari Raiders rule (instead of the Dash action)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-GNR",
+      "killteamId": "AEL-COR",
+      "seq": 2,
+      "opTypeName": "Voidscarred Gunner",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-GNR-BL",
+          "opTypeId": "AEL-COR-GNR",
+          "seq": 1,
+          "wepName": "Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-GNR-BL-0",
+              "wepId": "AEL-COR-GNR-BL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-GNR-SH",
+          "opTypeId": "AEL-COR-GNR",
+          "seq": 2,
+          "wepName": "Shredder",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-GNR-SH-0",
+              "wepId": "AEL-COR-GNR-SH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-GNR-SP",
+          "opTypeId": "AEL-COR-GNR",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-GNR-SP-0",
+              "wepId": "AEL-COR-GNR-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-GNR-F",
+          "opTypeId": "AEL-COR-GNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-GNR-F-0",
+              "wepId": "AEL-COR-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "AEL-COR-HGNR",
+      "killteamId": "AEL-COR",
+      "seq": 3,
+      "opTypeName": "Voidscarred Heavy Gunner",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-HGNR-SCP",
+          "opTypeId": "AEL-COR-HGNR",
+          "seq": 1,
+          "wepName": "Shuriken Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HGNR-SCP-0",
+              "wepId": "AEL-COR-HGNR-SCP",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "AEL-COR-HGNR-SCP-1",
+              "wepId": "AEL-COR-HGNR-SCP",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-HGNR-WC",
+          "opTypeId": "AEL-COR-HGNR",
+          "seq": 2,
+          "wepName": "Wraithcannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HGNR-WC-0",
+              "wepId": "AEL-COR-HGNR-WC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-HGNR-SP",
+          "opTypeId": "AEL-COR-HGNR",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HGNR-SP-0",
+              "wepId": "AEL-COR-HGNR-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-HGNR-F",
+          "opTypeId": "AEL-COR-HGNR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HGNR-F-0",
+              "wepId": "AEL-COR-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "AEL-COR-FD",
+      "killteamId": "AEL-COR",
+      "seq": 4,
+      "opTypeName": "Voidscarred Fate Dealer",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FATE DEALER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-FD-RLR",
+          "opTypeId": "AEL-COR-FD",
+          "seq": 1,
+          "wepName": "Ranger Long Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FD-RLR-0",
+              "wepId": "AEL-COR-FD-RLR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "AEL-COR-FD-RLR-1",
+              "wepId": "AEL-COR-FD-RLR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-FD-SP",
+          "opTypeId": "AEL-COR-FD",
+          "seq": 2,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FD-SP-0",
+              "wepId": "AEL-COR-FD-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-FD-F",
+          "opTypeId": "AEL-COR-FD",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-FD-F-0",
+              "wepId": "AEL-COR-FD-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-FD-A-CAM",
+          "opTypeId": "AEL-COR-FD",
+          "abilityName": "Camo Cloak",
+          "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.\n\nThis is not cumulative with improved cover saves from vantage terrain."
+        },
+        {
+          "abilityId": "AEL-COR-FD-A-RFL",
+          "opTypeId": "AEL-COR-FD",
+          "abilityName": "Rifles",
+          "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting with a shuriken rifle or ranger long rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat operative has the Accurate 1 weapon rule. Note that operative is not restricted from performing those actions after shooting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-KUR",
+      "killteamId": "AEL-COR",
+      "seq": 5,
+      "opTypeName": "Voidscarred Kurnathi",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNATHI",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-KUR-SP",
+          "opTypeId": "AEL-COR-KUR",
+          "seq": 1,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-KUR-SP-0",
+              "wepId": "AEL-COR-KUR-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-KUR-DPW",
+          "opTypeId": "AEL-COR-KUR",
+          "seq": 2,
+          "wepName": "Dual Power Weapons",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-KUR-DPW-0",
+              "wepId": "AEL-COR-KUR-DPW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-KUR-A-BM",
+          "opTypeId": "AEL-COR-KUR",
+          "abilityName": "Blademaster",
+          "description": "This operative can perform the Dash action during an activation in which it has performed the Charge action, but can only use any remaining move distance it had from that Charge action (to a maximum of 3\")."
+        },
+        {
+          "abilityId": "AEL-COR-KUR-A-BS",
+          "opTypeId": "AEL-COR-KUR",
+          "abilityName": "Bladed Stance",
+          "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-HNT",
+      "killteamId": "AEL-COR",
+      "seq": 6,
+      "opTypeName": "Voidscarred Kurnite Hunter",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNITE HUNTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-HNT-FAO",
+          "opTypeId": "AEL-COR-HNT",
+          "seq": 1,
+          "wepName": "Faolchu",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HNT-FAO-0",
+              "wepId": "AEL-COR-HNT-FAO",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-HNT-SP",
+          "opTypeId": "AEL-COR-HNT",
+          "seq": 2,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HNT-SP-0",
+              "wepId": "AEL-COR-HNT-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-HNT-PW",
+          "opTypeId": "AEL-COR-HNT",
+          "seq": 3,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-HNT-PW-0",
+              "wepId": "AEL-COR-HNT-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-HNT-A-EH",
+          "opTypeId": "AEL-COR-HNT",
+          "abilityName": "Erudite Hunter",
+          "description": "**STRATEGIC GAMBIT**  \r \r Select one enemy operative within 9\" of this operative. Once during this turning point, during that enemy operative's activation, after it performs an action in which it moves,\r you can interrupt that activation and perform either a free Reposition action with this operative (it cannot end that move further from that enemy operative) or a free Charge action with this operative\r (you can change its order to do so, and it must end that move within control range of that enemy operative)."
+        },
+        {
+          "abilityId": "AEL-COR-HNT-A-FB",
+          "opTypeId": "AEL-COR-HNT",
+          "abilityName": "Faolchu's Bond",
+          "description": "The first time during each turning point that this operative is retaliating, if it is ready,\r in the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e, defender instead of attacker)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-SW",
+      "killteamId": "AEL-COR",
+      "seq": 7,
+      "opTypeName": "Voidscarred Soul Weaver",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SOUL WEAVER, PSYKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-SW-SP",
+          "opTypeId": "AEL-COR-SW",
+          "seq": 1,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SW-SP-0",
+              "wepId": "AEL-COR-SW-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-SW-PW",
+          "opTypeId": "AEL-COR-SW",
+          "seq": 2,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SW-PW-0",
+              "wepId": "AEL-COR-SW-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-SW-SC",
+          "opTypeId": "AEL-COR-SW",
+          "abilityName": "Soul Channel",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\nSelect one other friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "AEL-COR-SW-SH",
+          "opTypeId": "AEL-COR-SW",
+          "abilityName": "Soul Heal",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\nSelect one friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. That operative regains 2D3 lost wounds.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-SR",
+      "killteamId": "AEL-COR",
+      "seq": 8,
+      "opTypeName": "Voidscarred Shade Runner",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SHADE RUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-SR-SP",
+          "opTypeId": "AEL-COR-SR",
+          "seq": 1,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SR-SP-0",
+              "wepId": "AEL-COR-SR-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-SR-TB",
+          "opTypeId": "AEL-COR-SR",
+          "seq": 2,
+          "wepName": "Throwing Blades",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SR-TB-0",
+              "wepId": "AEL-COR-SR-TB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-SR-HB",
+          "opTypeId": "AEL-COR-SR",
+          "seq": 3,
+          "wepName": "Hekatarii Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SR-HB-0",
+              "wepId": "AEL-COR-SR-HB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-SR-A-BP",
+          "opTypeId": "AEL-COR-SR",
+          "abilityName": "Blink Pack",
+          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, it can Warp Jump.\r If it does, do not move it, instead remove it from the Killzone and set it back up wholly within 7\" of its original location, measuring the Horizontal distance only\r (in Killzone Gallowdark, this distance can be measured through walls).\r It must be set up in a location it can be placed, and unless it is the Charge action, it cannot be set up within control range of an enemy operative. This operative cannot Warp Jump during the same activation in which it performed the Dash action (or vice-versa)."
+        },
+        {
+          "abilityId": "AEL-COR-SR-A-SA",
+          "opTypeId": "AEL-COR-SR",
+          "abilityName": "Slicing Attack",
+          "description": "Whenever this operative performs the Reposition action with a Warp Jump (See Blink Pack), you can use this rule.\r If you do, after it moves, draw an imaginary line 1mm in diameter and up to 7\" long between it and its previous location.\r Note this does not have to be a straight line. Inflict 1D3+2 damage on one enemy operative that line crosses. You cannot inflict damage on an enemy operative that was not visible to this operative at the start of that action. A 28mm round marker can be temporarily placed underneath this operative before it moves to help determine this."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-SD",
+      "killteamId": "AEL-COR",
+      "seq": 9,
+      "opTypeName": "Voidscarred Starstorm Duellist",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, STARSTORM DUELLIST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-SD-FP",
+          "opTypeId": "AEL-COR-SD",
+          "seq": 1,
+          "wepName": "Fusion Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SD-FP-0",
+              "wepId": "AEL-COR-SD-FP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-SD-SP",
+          "opTypeId": "AEL-COR-SD",
+          "seq": 2,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SD-SP-0",
+              "wepId": "AEL-COR-SD-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-SD-F",
+          "opTypeId": "AEL-COR-SD",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-SD-F-0",
+              "wepId": "AEL-COR-SD-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-SD-A-QOTD",
+          "opTypeId": "AEL-COR-SD",
+          "abilityName": "Quick On The Trigger",
+          "description": "This operative can perform the Shoot action while within control range of an enemy operative.\nIf it does, when selecting a valid target, you can only select an enemy operative within this operative's control range, and can do so even if other friendly operatives are within that enemy operative's control range."
+        },
+        {
+          "abilityId": "AEL-COR-SD-PB",
+          "opTypeId": "AEL-COR-SD",
+          "abilityName": "Pistol Barrage",
+          "AP": 1,
+          "description": "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-WS",
+      "killteamId": "AEL-COR",
+      "seq": 10,
+      "opTypeName": "Voidscarred Way Seeker",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, PSYKER, WAY SEEKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-WS-FG",
+          "opTypeId": "AEL-COR-WS",
+          "seq": 1,
+          "wepName": "Freezing Grasp",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WS-FG-0",
+              "wepId": "AEL-COR-WS-FG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WS-LS",
+          "opTypeId": "AEL-COR-WS",
+          "seq": 2,
+          "wepName": "Lightning Strike",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WS-LS-0",
+              "wepId": "AEL-COR-WS-LS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2,
+                  "prefix_num": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WS-SP",
+          "opTypeId": "AEL-COR-WS",
+          "seq": 3,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WS-SP-0",
+              "wepId": "AEL-COR-WS-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WS-WS",
+          "opTypeId": "AEL-COR-WS",
+          "seq": 4,
+          "wepName": "Witch Staff",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WS-WS-0",
+              "wepId": "AEL-COR-WS-WS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-WS-WF",
+          "opTypeId": "AEL-COR-WS",
+          "abilityName": "Warp Fold",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n Select 2 Friendly CORSAIR VOIDSCARRED operatives visible to and within 5\" of this operative. Remove them both from the killzone and set them back up in each other's locations (in other words, swap their positions). If one of them performed a Charge, Fall Back, or Reposition option during this turning point and the other is ready, the other cannot perform any of those actions in its activation during this turning point.  \n This operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "AEL-COR-WS-WS",
+          "opTypeId": "AEL-COR-WS",
+          "abilityName": "Warding Shield",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\r  Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-COR-WAR",
+      "killteamId": "AEL-COR",
+      "seq": 11,
+      "opTypeName": "Voidscarred Warrior",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-COR-WAR-SP",
+          "opTypeId": "AEL-COR-WAR",
+          "seq": 1,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WAR-SP-0",
+              "wepId": "AEL-COR-WAR-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WAR-SR",
+          "opTypeId": "AEL-COR-WAR",
+          "seq": 2,
+          "wepName": "Shuriken Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WAR-SR-0",
+              "wepId": "AEL-COR-WAR-SR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WAR-PW",
+          "opTypeId": "AEL-COR-WAR",
+          "seq": 3,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WAR-PW-0",
+              "wepId": "AEL-COR-WAR-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-COR-WAR-F",
+          "opTypeId": "AEL-COR-WAR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-COR-WAR-F-0",
+              "wepId": "AEL-COR-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-COR-WAR-A-PR",
+          "opTypeId": "AEL-COR-WAR",
+          "abilityName": "Prowling Raiders",
+          "description": "You can use the Capricious Flight and Light Fingers firefight ploys for 0cp each if a friendly WARRIOR is the specified CORSAIR VOIDSCARRED operative."
+        },
+        {
+          "abilityId": "AEL-COR-WAR-A-RFL",
+          "opTypeId": "AEL-COR-WAR",
+          "abilityName": "Rifles",
+          "description": "Whenever a friendly CORSAIR VOIDSCARRED operative is shooting with a shuriken rifle or ranger long rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat operative has the Accurate 1 weapon rule. Note that operative is not restricted from performing those actions after shooting."
+        }
+      ]
+    }
+  ]
+}

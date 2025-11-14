@@ -1,0 +1,645 @@
+{
+  "factionId": "AEL",
+  "killteamId": "AEL-MND",
+  "version": "June '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_mandrakes-ecwkg7utxo-xquhkr0qlv.pdf",
+  "killteamName": "Mandrakes",
+  "description": "The Mandrakes can be found in Aelindrach, a region of Commorragh. Literally fallen into shadow, it is one of the several districts of Commorragh that exists in more than one dimension at once. In Aelindrach, shadows thicken and writhe as living things, flowing into one another and attempting to capture those that venture into the district.\n  \n  \n\nIt is in Aelindrach that Mandrakes and Shaderavens make their lairs. Rumour has it that somewhere in Aelindrach lies a portal to a world where shade-daemons exist who can freeze the soul with but a touch. ",
+  "composition": "A MANDRAKE killteam is composed of:\n\n- 1 MANDRAKE Nightfiend\n- 8 MANDRAKE operatives selected from the following list:  \n  - Abyssal\n  - Chooser of the Flesh\n  - Dirgemaw\n  - Shadeweaver\n  - Warrior\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "AEL-MND-S-BITD",
+      "killteamId": "AEL-MND",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Blade in the Dark",
+      "description": "Each friendly MANDRAKE operative can perform the Charge action while it has a Conceal order if it starts or ends that action WITHIN SHADOW."
+    },
+    {
+      "ployId": "AEL-MND-S-CH",
+      "killteamId": "AEL-MND",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Creeping Horror",
+      "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly MANDRAKE operative that has a Conceal order if it starts and ends that action WITHIN SHADOW.\nYou cannot use this ploy during the first turning point, and each friendly operative can only be selected for this ploy once per turning point."
+    },
+    {
+      "ployId": "AEL-MND-S-GS",
+      "killteamId": "AEL-MND",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Gloaming Shroud",
+      "description": "Whenever an operative is shooting a friendly MANDRAKE operative that is WITHIN SHADOW, you can retain one of your defence dice as a normal success without rolling it (In addition to a cover save, if any)."
+    },
+    {
+      "ployId": "AEL-MND-S-IN",
+      "killteamId": "AEL-MND",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Inescapable Nightmare",
+      "description": "Whenever a friendly MANDRAKE operative is shooting, fighting or retaliating, if it is WITHIN SHADOW you can re-roll one of your attack dice."
+    },
+    {
+      "ployId": "AEL-MND-T-NWTH",
+      "killteamId": "AEL-MND",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Nowhere to Hide",
+      "description": "Use this firefight ploy during a friendly MANDRAKE operative's activation, when it performs an action in which it moves.\r Until the end of that activation, that operative can move through parts of terrain features as if they were not there, but must end those moves in a location it can be placed."
+    },
+    {
+      "ployId": "AEL-MND-T-SB",
+      "killteamId": "AEL-MND",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Shadow's Bite",
+      "description": "Use this firefight ploy when an enemy operative performs the Fight action in an activation in which it has performed the Charge action,\nand selects a friendly MANDRAKE operative WITHIN SHADOW to fight against.\nIn the Resolve Attack Dice step of that sequence, you resolve the first attack dice (i.e, defender instead of attacker)."
+    },
+    {
+      "ployId": "AEL-MND-T-SF",
+      "killteamId": "AEL-MND",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Soul Feast",
+      "description": "Use this firefight ploy when a friendly MANDRAKE operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of it, at the end of the Resolve Attack Dice Step.\nThat friendly operative regains a number of lost wounds equal to that enemy operative's APL stat, multiplied by the number of your attack dice that inflicted damage during that sequence.\nExcess attack dice are ignore (i.e, if the enemy operative is incapacitated before remaining attack dice are resolved).  \n\nYou cannot use this ploy if that friendly MANDRAKE operative is incapacitated."
+    },
+    {
+      "ployId": "AEL-MND-T-SOOS",
+      "killteamId": "AEL-MND",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Slither Out Of Sight",
+      "description": "Use this firefight ploy at the end of any operative's activation.\nSelect one friendly MANDRAKE operative that has an Engage order and is WITHIN SHADOW.\nChange that operative's order to Conceal."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-MND-BD",
+      "killteamId": "AEL-MND",
+      "seq": 1,
+      "eqName": "Bone Darts",
+      "description": "Once per turning point, a friendly MANDRAKE operative can use the following ranged weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Bone Dart|4|3+|2/4|\n|**Weapon Rules**|\n|Range 6\", Rending, Silent|\n",
+      "effects": "ADDWEP:Bone Dart|R|4|3+|2/4|Range 6\", Rending, Silent"
+    },
+    {
+      "eqId": "AEL-MND-CS",
+      "killteamId": "AEL-MND",
+      "seq": 2,
+      "eqName": "Chain Snare",
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly MANDRAKE operative,\nif no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy cannot perform that action during that activation or counteraction (No AP are spent on it).",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-MND-SG",
+      "killteamId": "AEL-MND",
+      "seq": 3,
+      "eqName": "Shadow Glyph",
+      "description": "Once per turning point, when a friendly MANDRAKE operative is activated WITHIN SHADOW, you can use this rule.\r If you do, until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g, Seek, Vantage Point) except being within 2\".",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-MND-SGM",
+      "killteamId": "AEL-MND",
+      "seq": 4,
+      "eqName": "Soul Gem",
+      "description": "Once per turning point, when a friendly MANDRAKE operative is performing the Shoot action and you select a Baleblast, you can use this rule.\nIf you do, until the end of that action, that weapon has the Blast 1\" rule.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-MND-TA-WISH",
+      "abilityName": "Within Shadow",
+      "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
+    },
+    {
+      "abilityId": "AEL-MND-TA-UMEN",
+      "abilityName": "Umbral Entities",
+      "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
+    },
+    {
+      "abilityId": "AEL-MND-TA-SHPA",
+      "abilityName": "Shadow Passage",
+      "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "AEL-MND-NF",
+      "killteamId": "AEL-MND",
+      "seq": 1,
+      "opTypeName": "Mandrake Nightfiend",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, LEADER, NIGHTFIEND",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-NF-BB",
+          "opTypeId": "AEL-MND-NF",
+          "seq": 1,
+          "wepName": "Baleblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-NF-BB-0",
+              "wepId": "AEL-MND-NF-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-NF-HB",
+          "opTypeId": "AEL-MND-NF",
+          "seq": 2,
+          "wepName": "Huskblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-NF-HB-0",
+              "wepId": "AEL-MND-NF-HB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-NF-A-HW",
+          "opTypeId": "AEL-MND-NF",
+          "abilityName": "Harrowing Whispers",
+          "description": "Whenever your opponent would activate an enemy operative within 6\" of this operative, you can roll one die (you cannot do so if you also interrupted that operative's activation with the DIRGEMAW operative's Haunting Focus additional rule during this turning point).\r If the result is higher than the enemy operative's APL stat, they cannot activate it during this activation.\r If there are no other enemy operatives eligible to be activated, this rule has no effect."
+        },
+        {
+          "abilityId": "AEL-MND-NF-A-OUB",
+          "opTypeId": "AEL-MND-NF",
+          "abilityName": "Oubliex",
+          "description": "Whenever this operative is readied, or if this operative incapacitates an enemy with its huskblade, its Oubliex becomes active.\nWhenever its oubliex is active and an attack dice would inflict damage on this operative, you can roll one d6, on a 5+ ignore the damage inflicted from that attack dice and the oubliex is no longer active."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-MND-COTF",
+      "killteamId": "AEL-MND",
+      "seq": 2,
+      "opTypeName": "Mandrake Chooser Of The Flesh",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, CHOOSER OF THE FLESH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-COTF-BB",
+          "opTypeId": "AEL-MND-COTF",
+          "seq": 1,
+          "wepName": "Baleblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-COTF-BB-0",
+              "wepId": "AEL-MND-COTF-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-COTF-BBL",
+          "opTypeId": "AEL-MND-COTF",
+          "seq": 2,
+          "wepName": "Baleblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-COTF-BBL-0",
+              "wepId": "AEL-MND-COTF-BBL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-COTF-A-PC",
+          "opTypeId": "AEL-MND-COTF",
+          "abilityName": "Part Collector",
+          "description": "Whenever an enemy operative performs the Fall Back action while within control range of this operative, you can use this rule. If you do, inflict 2D3 damage on that enemy operative before it moves."
+        },
+        {
+          "abilityId": "AEL-MND-COTF-A-SH",
+          "opTypeId": "AEL-MND-COTF",
+          "abilityName": "Soul Harvest",
+          "description": "Whenever an enemy operative is incapacitated as a result of this operative's Part Collector rule or Baleblade, you gain 1 Soul Harvest point, or 2 if the enemy operative had an APL stat of 3 or more.\nWhenever a friendly MANDRAKE operative is activated, you can spend 1 of your Soul Harvest points to either add 1 to its APL stat until the end of the battle, or to have it regain 2D3 lost wounds.\nNote you can spend your Soul Harvest points even if this operative is incapacitated."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-MND-ABS",
+      "killteamId": "AEL-MND",
+      "seq": 3,
+      "opTypeName": "Mandrake Abyssal",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, ABYSSAL",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-ABS-BS",
+          "opTypeId": "AEL-MND-ABS",
+          "seq": 1,
+          "wepName": "Balesurge",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-ABS-BS-0",
+              "wepId": "AEL-MND-ABS-BS",
+              "seq": 0,
+              "profileName": "Blast",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "AEL-MND-ABS-BS-1",
+              "wepId": "AEL-MND-ABS-BS",
+              "seq": 1,
+              "profileName": "Burn",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-ABS-GSB",
+          "opTypeId": "AEL-MND-ABS",
+          "seq": 2,
+          "wepName": "Glimmersteel Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-ABS-GSB-0",
+              "wepId": "AEL-MND-ABS-GSB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-ABS-A-BF",
+          "opTypeId": "AEL-MND-ABS",
+          "abilityName": "Balefire",
+          "description": "Whenever a friendly MANDRAKE operative is shooting an enemy operative that has one of your Balefire tokens add 1 to both DMG stats of that friendly operative's ranged weapons and they have the Saturate weapon rule.\nWhenever an operative is shooting a friendly MANDRAKE operative that has one of your Balefire tokens, subtract 1 from both DMG stats of that operative's ranged weapons (to a minimum of 1)."
+        },
+        {
+          "abilityId": "AEL-MND-ABS-WIB",
+          "opTypeId": "AEL-MND-ABS",
+          "abilityName": "Wreathe In Balefire",
+          "AP": 1,
+          "description": "Select one operative visible to this operative that does not have one of your Balefire tokens.\nUntil the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), that selected operative gains one of your Balefire tokens.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-MND-DM",
+      "killteamId": "AEL-MND",
+      "seq": 4,
+      "opTypeName": "Mandrake Dirgemaw",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, DIRGEMAW",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-DM-BB",
+          "opTypeId": "AEL-MND-DM",
+          "seq": 1,
+          "wepName": "Baleblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-DM-BB-0",
+              "wepId": "AEL-MND-DM-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-DM-HS",
+          "opTypeId": "AEL-MND-DM",
+          "seq": 2,
+          "wepName": "Horrifying Scream",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-DM-HS-0",
+              "wepId": "AEL-MND-DM-HS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "2+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-DM-GSB",
+          "opTypeId": "AEL-MND-DM",
+          "seq": 3,
+          "wepName": "Glimmersteel Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-DM-GSB-0",
+              "wepId": "AEL-MND-DM-GSB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-DM-A-HF",
+          "opTypeId": "AEL-MND-DM",
+          "abilityName": "Haunting Focus",
+          "description": "Select one enemy operative.\r Until the ready step of the next strategy phase, it gains your Haunting Focus token.\r The next time your opponent would activate an enemy operative that has your Haunting Focus token, if this operative is ready, you can activate this operative first (you cannot do so if you also rolled to prevent that operative's activation with the NIGHTFIEND operative's Harrowing Whispers additional rule during this Turning Point).\r If you do, during that activation, this operative must fight against or shoot against that enemy operative, and cannot do so against any other enemy operatives until it does (if this is not possible, the activation is cancelled).\r After completing this operative's activation, your opponent activates that enemy operative (if possible), or activates a different enemy operative if they can't."
+        },
+        {
+          "abilityId": "AEL-MND-DM-PP",
+          "opTypeId": "AEL-MND-DM",
+          "abilityName": "Pareidolic Projection",
+          "AP": 1,
+          "description": "Select one enemy operative that is a valid target for this operative or is WITHIN SHADOW.\nUntil the start of this operative's next activation, until it is incapacitated, or until it performs this action again (whichever comes first),\nworsen the HIT stat of that enemy operative's weapons by 1 and subtract 2\" from its Move stat (these are not cumulative with being injured).\nIn addition, that enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-MND-SW",
+      "killteamId": "AEL-MND",
+      "seq": 5,
+      "opTypeName": "Mandrake Shadeweaver",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, SHADEWEAVER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-SW-BB",
+          "opTypeId": "AEL-MND-SW",
+          "seq": 1,
+          "wepName": "Baleblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-SW-BB-0",
+              "wepId": "AEL-MND-SW-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-SW-GSB",
+          "opTypeId": "AEL-MND-SW",
+          "seq": 2,
+          "wepName": "Glimmersteel Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-SW-GSB-0",
+              "wepId": "AEL-MND-SW-GSB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-SW-A-SPRT",
+          "opTypeId": "AEL-MND-SW",
+          "abilityName": "Shadow Portal",
+          "description": "Whenever this operative performs the Reposition action using a SHADOW PASSAGE, you can use this rule.\nIf you do so, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this operative's control range before it is removed\nand one within its control range after it is set up.  \n\nEach friendly MANDRAKE operative can use a SHADOW PASSAGE each turning point (taking precedence over one operative once per turning point)\nif one of your Shadow Portal markers is within that operative's control range when it is removed, and the other when it is set up.\nNote that friendly operatives can do this even if this operative has been incapacitated, and doing so does not prevent the operative from using a SHADOW PASSAGE in the normal manner."
+        },
+        {
+          "abilityId": "AEL-MND-SW-WD",
+          "opTypeId": "AEL-MND-SW",
+          "abilityName": "Weave Darkness",
+          "AP": 1,
+          "description": "Remove your Weave Darkness marker from the killzone (if any).\nThen place your Weave Darkness marker visible to this operative, or on vantage terrain of a feature visible to this operative.\nThat marker creates an area of smoke with the same size and effects of a smoke grenade, except you do not remove it during the following turning point.\nIf this operative is incapacitated, remove your Weave Darkness marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-MND-WAR",
+      "killteamId": "AEL-MND",
+      "seq": 6,
+      "opTypeName": "Mandrake Warrior",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "MANDRAKE, AELDARI, DRUKHARI, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-MND-WAR-BB",
+          "opTypeId": "AEL-MND-WAR",
+          "seq": 1,
+          "wepName": "Baleblast",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-WAR-BB-0",
+              "wepId": "AEL-MND-WAR-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-AEL-MND-SOULSTRIKE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-MND-WAR-GSB",
+          "opTypeId": "AEL-MND-WAR",
+          "seq": 2,
+          "wepName": "Glimmersteel Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-MND-WAR-GSB-0",
+              "wepId": "AEL-MND-WAR-GSB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-MND-WAR-A-SW",
+          "opTypeId": "AEL-MND-WAR",
+          "abilityName": "Shadow Warrior",
+          "description": "Whenever this operative is WITHIN SHADOW, add 1 to the critical damage stat of its Glimmersteel Blade."
+        }
+      ]
+    }
+  ]
+}

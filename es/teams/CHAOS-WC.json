@@ -1,0 +1,1326 @@
+{
+  "factionId": "CHAOS",
+  "killteamId": "CHAOS-WC",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_warpcoven-tlhahocect-tlnqbowcfv.pdf",
+  "killteamName": "Warpcoven",
+  "description": "Many are the dark and terrible secrets of the galaxy, and the Thousand Sons seek to learn them all. Gathering\nrelentless Rubricae and degenerate mutants, Warpcoven kill teams employ sorcery and savagery alike as they sweep\naside those who stand in their way.",
+  "composition": "A WARP COVEN KillTeam is composed of 5 WARPCOVEN operatives selected from the following list:\n\n- SORCERER OF DESTIN *(1)*\n- SORCERER OF TEMPYRION *(1)*\n- SORCERER OF WARPFIRE *(1)*\n- RUBRIC MARINE GUNNER with one of the following options:\n  - Warpflamer; fists\n  - Soulreaper cannon *(2)*; fists\n- RUBRIC MARINE ICON BEARER\n- RUBRIC MARINE WARRIOR\n- TZAANGOR CHAMPION *(3)* with one of the following options:\n  - Greataxe\n  - Greatblade\n- TZAANGOR HORN BEARER *(3)*\n- TZAANGOR ICON BEARER *(3)*\n- TZAANGOR WARRIOR *(3)* with one of the following options:\n- Tzaangor blades\n  - Tzaangor blade & shield\n  - Autopistol; chainsword\n\n**(1):** With force stave, PSYCHIC weapons on their datacard and one of the following options:\n- Inferno bolt pistol\n- Prosperine khopesh\n- Warpflame pistol\n\n**(2):** Your kill team can only include up to one warpflame pistol and up to one soulreaper cannon.  \n\n**(3):** These operatives count as half a selection each.  \n\nYou must select at least one friendly SORCERER operative.\n\nOther than WARRIOR and GUNNER operatives, your kill team can only include each operative on this list once.",
+  "archetypes": [
+    "Recon",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-WC-S-AW",
+      "killteamId": "CHAOS-WC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Aetherial Warding",
+      "description": "Whenever an operative is shooting a friendly WARPCOVEN operative, weapons with the Piercing 1 weapon rule have the Piercing Crits 1 weapon rule instead."
+    },
+    {
+      "ployId": "CHAOS-WC-S-BOS",
+      "killteamId": "CHAOS-WC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Brotherhood Of Sorcerers",
+      "description": "Friendly WARPCOVEN SORCERER operatives' PSYCHIC weapons have the Balanced weapon rule if another friendly WARPCOVEN SORCERER operative is within 9\" of that operative.  \r **Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \r **Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "CHAOS-WC-S-FIIMW",
+      "killteamId": "CHAOS-WC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Fate Itself Is My Weapon",
+      "description": "Roll 2D6 and reserve them (put them to one side).\r In the following Firefight phase, whenever an operative is shooting, fighting or retaliating, after you or your opponent roll their attack dice, but before re-rolls,\r you can use one of your reserved dice to replace one of the D6 rolled for that sequence (yours or your opponent's);\r that replacement die cannot be re-rolled or retained as a success or critical success if it is not, and is discarded at the end of that sequence.\r Then, if the combined result of both reserved dice was less than 9, discard the other die.\r You cannot use more than one reserved dice per sequence. Discard any remaining reserved dice at the end of the turning point."
+    },
+    {
+      "ployId": "CHAOS-WC-S-SH",
+      "killteamId": "CHAOS-WC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Savage Herd",
+      "description": "Friendly WARPCOVEN TZAANGOR operatives' melee weapons have the Accurate 1 weapon rule.\nWhenever a friendly WARPCOVEN TZAANGOR operative is assisted by a friendly WARPCOVEN operative, or is fighting while visible to and within 6\" of a friendly WARPCOVEN SORCERER operative,\nthat friendly WARPCOVEN TZAANGOR operative's melee weapons also have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "CHAOS-WC-T-AID",
+      "killteamId": "CHAOS-WC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "All Is Dust",
+      "description": "Use this firefight ploy when an attack die inflicts Normal Dmg on a friendly WARPCOVEN RUBRIC MARINE operative. That attack die inflicts 1 damage instead."
+    },
+    {
+      "ployId": "CHAOS-WC-T-CP",
+      "killteamId": "CHAOS-WC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Capricious Plan",
+      "description": "Use this firefight ploy at the end of a friendly WARPCOVEN SORCERER operative's activation.\r That friendly operative can immediately perform a free Dash action (even if it's performed an action that prevents it from performing the Dash action), or you can change its order instead."
+    },
+    {
+      "ployId": "CHAOS-WC-T-MH",
+      "killteamId": "CHAOS-WC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Mutant Herd",
+      "description": "Use this firefight ploy when a friendly WARPCOVEN TZAANGOR operative is activated. Select one other ready friendly WARPCOVEN TZAANGOR operative visible to and within 2\" of it to activate at the same time.\nComplete their activations action by action in any order."
+    },
+    {
+      "ployId": "CHAOS-WC-T-PB",
+      "killteamId": "CHAOS-WC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Psychic Cabal",
+      "description": "Use this firefight ploy when a friendly WARPCOVEN SORCERER operative is activated.\r Select one other friendly WARPCOVEN SORCERER operative visible to and within 9\" of that operative,\r then select one of that other friendly operative's PSYCHIC unique actions or PSYCHIC ranged weapons for that first friendly operative to have until the end of its activation.  \nYou cannot select a PSYCHIC ranged weapon that has been used by that other friendly operative during this turning point, and that other friendly operative cannot use the selected weapon during this turning point."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-WC-ER",
+      "killteamId": "CHAOS-WC",
+      "seq": 1,
+      "eqName": "Ensorcelled Rounds",
+      "description": "Friendly WARPCOVEN operatives' inferno boltguns, inferno bolt pistols and autopistols have the Devastating 1 weapon rule.",
+      "effects": "wepid:IBG,IBP,AP|WR:Devastating 1"
+    },
+    {
+      "eqId": "CHAOS-WC-DMW",
+      "killteamId": "CHAOS-WC",
+      "seq": 2,
+      "eqName": "Daemonmaw Weapons",
+      "description": "Add 1 to the Atk stat of friendly WARPCOVEN RUBRIC MARINE operatives' melee weapons. Whenever a friendly WARPCOVEN RUBRIC MARINE operative is retaliating, its melee weapons have the Accurate 1 weapon rule.",
+      "effects": "weptype:M|A:+1"
+    },
+    {
+      "eqId": "CHAOS-WC-SS",
+      "killteamId": "CHAOS-WC",
+      "seq": 3,
+      "eqName": "Sorcerous Scrolls",
+      "description": "Once per battle, when a friendly WARPCOVEN SORCERER operative is activated or counteracts, you can select a different BOON OF TZEENTCH for it to have until the end of the battle (it loses any it previously had). It cannot be the same BOON OF TZEENTCH any other friendly operative has.\r Note that if you use this rule when a friendly operative counteracts and you select Echoes from the Warp, it can be used immediately to change the operative's order and perform a free action during that counteraction.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-WC-AR",
+      "killteamId": "CHAOS-WC",
+      "seq": 4,
+      "eqName": "Arcane Robes",
+      "description": "Whenever an attack dice would inflict Critical Dmg on a friendly WARPCOVEN SORCERER operative, you can choose for that attack dice to inflict Normal Dmg instead.\nYou cannot use this rule for each friendly WARPCOVEN SORCERER operative more than once per turning point.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-WC-TA-LEDE",
+      "abilityName": "Leader - Destiny",
+      "description": "You must select at least one friendly SORCERER operative, and one of your selected SORCERER operatives must have the LEADER keyword for the battle.\nAdd 1 to that LEADER operative's Wounds stat for the battle."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOINSI",
+      "abilityName": "[BOT] Incorporeal Sight",
+      "description": "This operative's ranged weapons have\nthe Saturate weapon rule. Whenever\nthis operative is shooting, enemy\noperatives cannot be obscured."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOTIWA",
+      "abilityName": "[BOT] Time-Walk",
+      "description": "Add 1\" to this operative's Move stat."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOECFRTHWA",
+      "abilityName": "[BOT] Echoes From The Warp",
+      "description": "Once per battle, when you counteract with this operative, you can change its order, and it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOWASW",
+      "abilityName": "[BOT] Warp Swell",
+      "description": "Add 1 to the Normal Dmg stat of this operative's melee weapons."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOIMFL",
+      "abilityName": "[BOT] Immaterial Flight",
+      "description": "Once per turning point, when this operative is performing the Charge or Reposition action during its activation, it can FLY.\nIf it does, don't move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat of its original location, measuring the horizontal distance only.\nIn a killzone that uses the close quarters rules (e.g. Killzone: Gallowdark), this distance cannot be measured over or through Wall terrain, and that operative cannot be set up on the other side of an access point\n(in other words, it cannot FLY through an open hatchway).  \n\nNote that it gains no additional distance when performing the Charge action. It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOTWOFFA",
+      "abilityName": "[BOT] Twist Of Fate",
+      "description": "This operative's PSYCHIC ranged weapons have the Piercing Crits 1 weapon rule."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOMUAP",
+      "abilityName": "[BOT] Mutant Appendage",
+      "description": "Having an enemy operative within this operative's control range does not prevent it from performing the Pick Up Marker or mission actions.  \n\nOnce per activation, this operative can perform the Pick Up Marker, Place Marker or a mission action for 1 less AP."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOASBO",
+      "abilityName": "[BOT] Astral Bombardment",
+      "description": "Select one of this operative's PSYCHIC ranged weapons. That weapon has the Devastating 1 weapon rule. If you select a doombolt, it has the 2\" Devastating 2 weapon rule instead of Devastating 2.  \nIf you select Firestorm or Mindburn (SORCERER OF WARPFIRE), whenever that operative performs the Shoot action, select the Seek Light or Devastating 1 weapon rule for that weapon to have until the end of the action (it cannot have both)."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOASBODO",
+      "abilityName": "[BOT] Astral Bombardment (Doombolt)",
+      "description": "Select one of this operative's PSYCHIC ranged weapons. That weapon has the Devastating 1 weapon rule. If you select a doombolt, it has the 2\" Devastating 2 weapon rule instead of Devastating 2.  \nIf you select Firestorm or Mindburn (SORCERER OF WARPFIRE), whenever that operative performs the Shoot action, select the Seek Light or Devastating 1 weapon rule for that weapon to have until the end of the action (it cannot have both)."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-BOMAOFTHIM",
+      "abilityName": "[BOT] Master Of The Immaterium",
+      "description": "Add 3\" to the distance requirements of this operative's PSYCHIC actions that have a distance requirement.   \nNote that for the SORCERER OF TEMPYRION's Temporal Flux action, this boon only affects the distance in the first effect of that rule."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-LETE",
+      "abilityName": "Leader - Tempyrion",
+      "description": "You must select at least one friendly SORCERER operative, and one of your selected SORCERER operatives must have the LEADER keyword for the battle.\nAdd 1 to that LEADER operative's Wounds stat for the battle."
+    },
+    {
+      "abilityId": "CHAOS-WC-TA-LEWA",
+      "abilityName": "Leader - Warpfire",
+      "description": "You must select at least one friendly SORCERER operative, and one of your selected SORCERER operatives must have the LEADER keyword for the battle.\nAdd 1 to that LEADER operative's Wounds stat for the battle."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "CHAOS-WC-SOD",
+      "killteamId": "CHAOS-WC",
+      "seq": 1,
+      "opTypeName": "Sorcerer Of Destiny",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, DESTINY",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-SOD-IBP",
+          "opTypeId": "CHAOS-WC-SOD",
+          "seq": 1,
+          "wepName": "Inferno Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOD-IBP-0",
+              "wepId": "CHAOS-WC-SOD-IBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOD-WFP",
+          "opTypeId": "CHAOS-WC-SOD",
+          "seq": 2,
+          "wepName": "Warpflame Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOD-WFP-0",
+              "wepId": "CHAOS-WC-SOD-WFP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOD-DB",
+          "opTypeId": "CHAOS-WC-SOD",
+          "seq": 0,
+          "wepName": "Doombolt",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOD-DB-0",
+              "wepId": "CHAOS-WC-SOD-DB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOD-FS",
+          "opTypeId": "CHAOS-WC-SOD",
+          "seq": 3,
+          "wepName": "Force Stave",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOD-FS-0",
+              "wepId": "CHAOS-WC-SOD-FS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOD-PK",
+          "opTypeId": "CHAOS-WC-SOD",
+          "seq": 4,
+          "wepName": "Prosperine Khopesh",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOD-PK-0",
+              "wepId": "CHAOS-WC-SOD-PK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-SOD-A-AS",
+          "opTypeId": "CHAOS-WC-SOD",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOD-A-BOT",
+          "opTypeId": "CHAOS-WC-SOD",
+          "abilityName": "Boons Of Tzeentch",
+          "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOD-PBF",
+          "opTypeId": "CHAOS-WC-SOD",
+          "abilityName": "Protected By Fate",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to this operative. Until the start of this operative's next activation,\nuntil it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nwhenever an operative is shooting that selected operative, you can re-roll any of your defence dice.  \n\nThis operative cannot perform this action while within control range of an\nenemy operative."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOD-RD",
+          "opTypeId": "CHAOS-WC-SOD",
+          "abilityName": "Ravage Destiny",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one enemy operative visible to and within 9\" of this operative.\nUntil the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nwhenever that enemy operative is shooting, fighting or retaliating, your opponent must re-roll their attack dice results of 6, and whenever determining control of a marker,\ntreat that enemy operative's APL stat as 1 lower. Note this is not a change to its APL stat, so\nany changes are cumulative with this.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-SOT",
+      "killteamId": "CHAOS-WC",
+      "seq": 2,
+      "opTypeName": "Sorcerer Of Tempyrion",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, TEMPYRION",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-SOT-IBP",
+          "opTypeId": "CHAOS-WC-SOT",
+          "seq": 1,
+          "wepName": "Inferno Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOT-IBP-0",
+              "wepId": "CHAOS-WC-SOT-IBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOT-WFP",
+          "opTypeId": "CHAOS-WC-SOT",
+          "seq": 2,
+          "wepName": "Warpflame Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOT-WFP-0",
+              "wepId": "CHAOS-WC-SOT-WFP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOT-FB",
+          "opTypeId": "CHAOS-WC-SOT",
+          "seq": 0,
+          "wepName": "Fluxblast",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOT-FB-0",
+              "wepId": "CHAOS-WC-SOT-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOT-FS",
+          "opTypeId": "CHAOS-WC-SOT",
+          "seq": 3,
+          "wepName": "Force Stave",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOT-FS-0",
+              "wepId": "CHAOS-WC-SOT-FS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOT-PK",
+          "opTypeId": "CHAOS-WC-SOT",
+          "seq": 4,
+          "wepName": "Prosperine Khopesh",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOT-PK-0",
+              "wepId": "CHAOS-WC-SOT-PK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-SOT-A-AS",
+          "opTypeId": "CHAOS-WC-SOT",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOT-A-BOT",
+          "opTypeId": "CHAOS-WC-SOT",
+          "abilityName": "Boons Of Tzeentch",
+          "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOT-RR",
+          "opTypeId": "CHAOS-WC-SOT",
+          "abilityName": "Reconstitution Ritual",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative. That operative regains up to 2D3 lost wounds.  \n\r This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOT-TF",
+          "opTypeId": "CHAOS-WC-SOT",
+          "abilityName": "Temporal Flux",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative and place your Temporal Flux marker within that operative's control range.  \n\nAt the end of that operative's next activation, if it hasn't been incapacitated and is still wholly within 6\" of your Temporal Flux marker, remove that operative from the killzone and set it back up in a\nlocation it can be placed;\nwhen it is set back up, it must have your Temporal Flux marker within its control range (or as close as possible).\nThen remove your Temporal Flux marker from the killzone. If that operative is not wholly within 6\" of your Temporal Flux marker (including if it's incapacitated), remove that marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if your\nTemporal Flux marker is currently in the killzone."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-SOW",
+      "killteamId": "CHAOS-WC",
+      "seq": 3,
+      "opTypeName": "Sorcerer Of Warpfire",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, PSYKER, SORCERER, WARPFIRE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-SOW-IBP",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 1,
+          "wepName": "Inferno Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-IBP-0",
+              "wepId": "CHAOS-WC-SOW-IBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOW-WFP",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 3,
+          "wepName": "Warpflame Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-WFP-0",
+              "wepId": "CHAOS-WC-SOW-WFP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOW-FSTRM",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 0,
+          "wepName": "Firestorm",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-FSTRM-0",
+              "wepId": "CHAOS-WC-SOW-FSTRM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOW-MB",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 2,
+          "wepName": "Mindburn",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-MB-0",
+              "wepId": "CHAOS-WC-SOW-MB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "1/1",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-CHAOS-WC-MINDBURN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOW-FS",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 4,
+          "wepName": "Force Stave",
+          "wepType": "P",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-FS-0",
+              "wepId": "CHAOS-WC-SOW-FS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-SOW-PK",
+          "opTypeId": "CHAOS-WC-SOW",
+          "seq": 5,
+          "wepName": "Prosperine Khopesh",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-SOW-PK-0",
+              "wepId": "CHAOS-WC-SOW-PK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-SOW-A-AS",
+          "opTypeId": "CHAOS-WC-SOW",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOW-A-BOT",
+          "opTypeId": "CHAOS-WC-SOW",
+          "abilityName": "Boons Of Tzeentch",
+          "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
+        },
+        {
+          "abilityId": "CHAOS-WC-SOW-AL",
+          "opTypeId": "CHAOS-WC-SOW",
+          "abilityName": "Alight",
+          "AP": 1,
+          "description": "**PSYCHIC** Select one enemy operative visible to this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r that enemy operative gains one of your Alight tokens (if it doesn't already have one).\r Whenever a friendly WARPCOVEN operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Alight tokens, that friendly operative's weapons have the Ceaseless weapon rule.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-GNR",
+      "killteamId": "CHAOS-WC",
+      "seq": 4,
+      "opTypeName": "Rubric Marine Gunner",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-GNR-SRC",
+          "opTypeId": "CHAOS-WC-GNR",
+          "seq": 0,
+          "wepName": "Soulreaper Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-GNR-SRC-0",
+              "wepId": "CHAOS-WC-GNR-SRC",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-WC-GNR-SRC-1",
+              "wepId": "CHAOS-WC-GNR-SRC",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-GNR-WFL",
+          "opTypeId": "CHAOS-WC-GNR",
+          "seq": 1,
+          "wepName": "Warpflamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-GNR-WFL-0",
+              "wepId": "CHAOS-WC-GNR-WFL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-GNR-F",
+          "opTypeId": "CHAOS-WC-GNR",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-GNR-F-0",
+              "wepId": "CHAOS-WC-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-GNR-A-AS",
+          "opTypeId": "CHAOS-WC-GNR",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-GNR-A-SA",
+          "opTypeId": "CHAOS-WC-GNR",
+          "abilityName": "Sorcerous Automata",
+          "description": "Whenever this operative is activated, subtract 1 from its APL stat until the end of that activation, unless a friendly WARPCOVEN SORCERER operative is within 9\" of it."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-IB",
+      "killteamId": "CHAOS-WC",
+      "seq": 5,
+      "opTypeName": "Rubric Marine Icon Bearer",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, ICON BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-IB-IBG",
+          "opTypeId": "CHAOS-WC-IB",
+          "seq": 0,
+          "wepName": "Inferno Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-IB-IBG-0",
+              "wepId": "CHAOS-WC-IB-IBG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-IB-F",
+          "opTypeId": "CHAOS-WC-IB",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-IB-F-0",
+              "wepId": "CHAOS-WC-IB-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-IB-A-AS",
+          "opTypeId": "CHAOS-WC-IB",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-IB-A-IB",
+          "opTypeId": "CHAOS-WC-IB",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "CHAOS-WC-IB-A-SA",
+          "opTypeId": "CHAOS-WC-IB",
+          "abilityName": "Sorcerous Automata",
+          "description": "Whenever this operative is activated, subtract 1 from its APL stat until the end of that activation, unless a friendly WARPCOVEN SORCERER operative is within 9\" of it."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-WAR",
+      "killteamId": "CHAOS-WC",
+      "seq": 6,
+      "opTypeName": "Rubric Marine Warrior",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "WARPCOVEN, CHAOS, HERETIC ASTARTES, RUBRIC MARINE, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-WAR-IBG",
+          "opTypeId": "CHAOS-WC-WAR",
+          "seq": 0,
+          "wepName": "Inferno Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-WAR-IBG-0",
+              "wepId": "CHAOS-WC-WAR-IBG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-WAR-F",
+          "opTypeId": "CHAOS-WC-WAR",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-WAR-F-0",
+              "wepId": "CHAOS-WC-WAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-WAR-A-AS",
+          "opTypeId": "CHAOS-WC-WAR",
+          "abilityName": "Astartes",
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+        },
+        {
+          "abilityId": "CHAOS-WC-WAR-A-SA",
+          "opTypeId": "CHAOS-WC-WAR",
+          "abilityName": "Sorcerous Automata",
+          "description": "Whenever this operative is activated, subtract 1 from its APL stat until the end of that activation, unless a friendly WARPCOVEN SORCERER operative is within 9\" of it."
+        },
+        {
+          "abilityId": "CHAOS-WC-WAR-A-SAP",
+          "opTypeId": "CHAOS-WC-WAR",
+          "abilityName": "Slow And Purposeful",
+          "description": "Whenever this operative is shooting, if it hasn't performed the Charge or Reposition action during the activation, or if it is a counteraction, its ranged weapons have the Ceaseless weapon rule.\nNote this operative isn't restricted from performing these actions after shooting."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-TZC",
+      "killteamId": "CHAOS-WC",
+      "seq": 7,
+      "opTypeName": "Tzaangor Champion",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "WARPCOVEN, CHAOS, TZAANGOR, CHAMPION",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-TZC-GA",
+          "opTypeId": "CHAOS-WC-TZC",
+          "seq": 0,
+          "wepName": "Greataxe",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZC-GA-0",
+              "wepId": "CHAOS-WC-TZC-GA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-TZC-GB",
+          "opTypeId": "CHAOS-WC-TZC",
+          "seq": 1,
+          "wepName": "Greatblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZC-GB-0",
+              "wepId": "CHAOS-WC-TZC-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-WC-TZHB",
+      "killteamId": "CHAOS-WC",
+      "seq": 8,
+      "opTypeName": "Tzaangor Horn Bearer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "WARPCOVEN, CHAOS, TZAANGOR, HORN BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-TZHB-D",
+          "opTypeId": "CHAOS-WC-TZHB",
+          "seq": 0,
+          "wepName": "Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZHB-D-0",
+              "wepId": "CHAOS-WC-TZHB-D",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-TZHB-BH",
+          "opTypeId": "CHAOS-WC-TZHB",
+          "abilityName": "Brayhorn",
+          "AP": 1,
+          "description": "Until the Ready step of the next Strategy phase, add 1\" to the Move stat of friendly WARPCOVEN TZAANGOR operatives.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-TZIB",
+      "killteamId": "CHAOS-WC",
+      "seq": 9,
+      "opTypeName": "Tzaangor Icon Bearer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "WARPCOVEN, CHAOS, TZAANGOR, ICON BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-TZIB-D",
+          "opTypeId": "CHAOS-WC-TZIB",
+          "seq": 0,
+          "wepName": "Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZIB-D-0",
+              "wepId": "CHAOS-WC-TZIB-D",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-TZIB-A-HB",
+          "opTypeId": "CHAOS-WC-TZIB",
+          "abilityName": "Herd Banner",
+          "description": "Whenever an attack dice inflicts Normal damage of 3 or more on a friendly WARPCOVEN TZAANGOR operative that's visible to and within 3\" of this operative, subtract 1 from that inflicted damage."
+        },
+        {
+          "abilityId": "CHAOS-WC-TZIB-A-IB",
+          "opTypeId": "CHAOS-WC-TZIB",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-WC-TZWAR",
+      "killteamId": "CHAOS-WC",
+      "seq": 10,
+      "opTypeName": "Tzaangor Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "WARPCOVEN, CHAOS, TZAANGOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-WC-TZWAR-AP",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "seq": 0,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZWAR-AP-0",
+              "wepId": "CHAOS-WC-TZWAR-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-TZWAR-CS",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "seq": 1,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZWAR-CS-0",
+              "wepId": "CHAOS-WC-TZWAR-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-TZWAR-TBS",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "seq": 2,
+          "wepName": "Tzaangor Blade & Shield",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZWAR-TBS-0",
+              "wepId": "CHAOS-WC-TZWAR-TBS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-CHAOS-BLD-SHIELD"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-WC-TZWAR-TB",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "seq": 3,
+          "wepName": "Tzaangor Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-WC-TZWAR-TB-0",
+              "wepId": "CHAOS-WC-TZWAR-TB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-WC-TZWAR-A-RH",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "abilityName": "Relic Hunters",
+          "description": "Once per battle, one friendly WARPCOVEN TZAANGOR WARRIOR can perform the Pick Up Marker, Place Marker or a mission action for 1 less AP if that friendly operative is within your opponent's territory."
+        },
+        {
+          "abilityId": "CHAOS-WC-TZWAR-A-SH",
+          "opTypeId": "CHAOS-WC-TZWAR",
+          "abilityName": "*Shield",
+          "description": "This operative has a 4+ Save stat, and whenever it's fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+        }
+      ]
+    }
+  ]
+}

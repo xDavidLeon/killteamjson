@@ -1,0 +1,5254 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-INQ",
+  "version": "June '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_inquisitorial_agents-pemf215mz7-dsnh4qx9ij.pdf",
+  "killteamName": "Inquisitorial Agents",
+  "description": "The reach of the Inquisition extends across the vastness of the Imperium. Inquisitorial kill teams bring together agents from all strata of Imperial society, from elite soldiers to zealous priests. Together, these disparate elements combine their skills to deadly effect, enabling them to root out and destroy heretics, aliens and the servants of Chaos.",
+  "composition": "An INQUISITORIAL AGENTS killteam is composed of:\n\n- 1 INQUISITORIAL AGENT INTERROGATOR operative\n- 1 INQUISITORIAL AGENT TOME-SKULL operative\n- 5 INQUISITORIAL AGENT operatives selected from the following list:\n  - AUTOSAVANT\n  - QUESTKEEPER\n  - DEATH WORLD VETERAN\n  - ENLIGHTENER\n  - HEXORCIST\n  - MYSTIC\n  - PENAL LEGIONNAIRE\n  - PISTOLIER\n  - GUN SERVITOR with one of the following options:\n    - Heavy bolter; servo-claw\n    - Multi-melta; servo-claw\n    - Plasma cannon; servo-claw\n- 5 INQUISITORIAL AGENT operatives selected from the list above, or REQUISITIONED operatives from one group in the Inquisitorial Requisition faction rule (you cannot select REQUISITIONED operatives from different groups).\n  \nYour kill team can only include each operative on this list once, unless you're not including any REQUISITIONED operatives, in which case you can include up to two GUN SERVITOR operatives, but each one must have different options.  \n\nYour kill team (including any REQUISITIONED operatives) cannot include more than one weapon with the Piercing 2 weapon rule, and cannot include more than three weapons with the Piercing X (excluding Piercing Crits X) weapon rule combined.",
+  "archetypes": [
+    "Recon",
+    "Security",
+    "Seek & Destroy",
+    "Infiltration"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-INQ-S-DEN",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Denounce",
+      "description": "Select one enemy operative and roll one D3. In the Firefight phase of this turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor your opponent has activated a number of enemy operatives equal to the result of the D3 (whichever comes first).\nThis ploy costs you 1 additional CP for each previous time you've used it during the battle (e.g. 1CP the first time you would use it, 2CP the second time, etc.)."
+    },
+    {
+      "ployId": "IMP-INQ-S-IJ",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Irrefutable Jurisdiction",
+      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative that's within 3\" of an objective marker, you can re-roll one of your defence dice.\nIf that friendly operative contests that marker, you can re-roll any of your defence dice results of one result instead (e.g. results of 2)."
+    },
+    {
+      "ployId": "IMP-INQ-S-IS",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Intense Scrutiny",
+      "description": "Whenever you're selecting a valid target for a friendly INQUISITORIAL AGENT operative, enemy operatives within 4\" of it cannot be in cover (instead of 2\").\nWhile this can allow such operatives to be targeted (assuming they're visible), it doesn't remove their cover save (if any), unless the friendly INQUISITORIAL AGENT operative is within 2\" as normal."
+    },
+    {
+      "ployId": "IMP-INQ-S-QUA",
+      "killteamId": "IMP-INQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Quarry",
+      "description": "Select one enemy operative to be your quarry for the turning point. Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against your quarry,\nthat friendly operative's weapons have the Ceaseless weapon rule. Whenever your quarry is incapacitated, you can select a new enemy operative to be your quarry (and can continue to do so during this turning point).  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "IMP-INQ-T-AA",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Absolute Authority",
+      "description": "Use this firefight ploy during the battle, when an opponent uses a strategy or firefight ploy (excluding Command Re-roll or one that costs 0CP).\nTheir ploy isn't used, the CP spent on it is refunded and they cannot use that ploy again during this turning point. This ploy cannot be used to stop the same ploy more than once per battle."
+    },
+    {
+      "ployId": "IMP-INQ-T-IP",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Intimidating Presence",
+      "description": "Use this firefight ploy when an enemy operative visible to and within 3\" of a friendly INQUISITORIAL AGENT operative, or visible to and within 6\" of a friendly MYSTIC operative, performs the Pick Up Marker or a mission action (excluding Operate Hatch).\nYour opponent must spend 1 additional AP for that enemy operative to perform that action (if they cannot or choose not to, the AP spent on it is refunded)."
+    },
+    {
+      "ployId": "IMP-INQ-T-RPI",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Relentless In Pursuit",
+      "description": "Use this firefight ploy when an enemy operative within 2\" of a ready friendly INQUISITORIAL AGENT operative performs an action in which it moves.\nAfter it moves, that friendly INQUISITORIAL AGENT operative can either perform a free Reposition action, but must end that move within 2\" of that enemy operative, or a free Charge action, but must end that move within control range of that enemy operative.\nIf neither is possible, that friendly operative cannot perform those actions, this ploy isn't used and the CP spent on it is refunded."
+    },
+    {
+      "ployId": "IMP-INQ-T-TEW",
+      "killteamId": "IMP-INQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "The Emperor's Will",
+      "description": "Use this firefight ploy when a friendly INQUISITORIAL AGENT operative is activated. Until the end of that operative's activation, you can ignore any changes to its stats (including its weapons' stats)."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-INQ-IR",
+      "killteamId": "IMP-INQ",
+      "seq": 1,
+      "eqName": "Inquisitorial Rosette",
+      "description": "Once per battle, when a friendly INQUISITORIAL AGENT operative is activated, if you've used the Quarry strategy ploy during this turning point, you can use this rule.\nIf you do, you can select a new enemy operative to be your quarry until the end of the turning point.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INQ-AB",
+      "killteamId": "IMP-INQ",
+      "seq": 2,
+      "eqName": "Armoured Bodysuits",
+      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative (excluding TOME-SKULL) that has a 5+ Save stat, you can retain one of your defence dice results of 4 as a normal success.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INQ-CD",
+      "killteamId": "IMP-INQ",
+      "seq": 3,
+      "eqName": "Combat Daggers",
+      "description": "Friendly INQUISITORIAL AGENT operatives have the following melee weapon. Whenever a friendly SISTER OF SILENCE operative is using it, add 1 to its Atk stat. \n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|",
+      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-INQ-SS",
+      "killteamId": "IMP-INQ",
+      "seq": 4,
+      "eqName": "Servo-Skull",
+      "description": "Once per battle, one friendly INQUISITORIAL AGENT operative can perform a mission action for 1 less AP.",
+      "effects": ""
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-INQ-INQ24-INT",
+      "killteamId": "IMP-INQ",
+      "seq": 0,
+      "opTypeName": "Interrogator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, LEADER, INTERROGATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-INT-ESAP",
+          "opTypeId": "IMP-INQ-INQ24-INT",
+          "seq": 0,
+          "wepName": "Extended Stock AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-INT-ESAP-0",
+              "wepId": "IMP-INQ-INQ24-INT-ESAP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 12
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-INT-F",
+          "opTypeId": "IMP-INQ-INQ24-INT",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-INT-F-0",
+              "wepId": "IMP-INQ-INQ24-INT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-INT-A-IT",
+          "opTypeId": "IMP-INQ-INQ24-INT",
+          "abilityName": "Inquisitorial Tomes",
+          "description": "STRATEGIC GAMBIT and/or when this operative is activated. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they can be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons.\r "
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-TS",
+      "killteamId": "IMP-INQ",
+      "seq": 1,
+      "opTypeName": "Tome-Skull",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, TOME-SKULL",
+      "basesize": 32,
+      "weapons": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-TS-A-CT",
+          "opTypeId": "IMP-INQ-INQ24-TS",
+          "abilityName": "Consecrated Tome",
+          "description": "This operative can have an INQUISITORIAL TOME rule (see INTERROGATOR). Note it keeps that rule even if that friendly INTERROGATOR operative is removed from the killzone."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-TS-A-EXP",
+          "opTypeId": "IMP-INQ-INQ24-TS",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\r It's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated (if it escapes/survives/is incapacitated by enemy operatives, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-TS-A-GA",
+          "opTypeId": "IMP-INQ-INQ24-TS",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate a ready friendly INQUISITORIAL AGENT INTERROGATOR operative (if able) before your opponent activates.\nThe same is true in reverse (INTERROGATOR followed by TOME-SKULL). When that other operative is expended, your opponent then activates as normal."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-TS-A-MAC",
+          "opTypeId": "IMP-INQ-INQ24-TS",
+          "abilityName": "Machine",
+          "description": "\r - This operative cannot perform any actions other than Charge, Dash, Fall Back and Reposition.\r - It cannot retaliate or assist in a fight.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r "
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-AS",
+      "killteamId": "IMP-INQ",
+      "seq": 2,
+      "opTypeName": "Autosavant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, AUTOSAVANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-AS-MA",
+          "opTypeId": "IMP-INQ-INQ24-AS",
+          "seq": 0,
+          "wepName": "Mechanical Appendages",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-AS-MA-0",
+              "wepId": "IMP-INQ-INQ24-AS-MA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-AS-A-IR",
+          "opTypeId": "IMP-INQ-INQ24-AS",
+          "abilityName": "Irrefutable Report",
+          "description": "Whenever this operative contests an objective marker or one of your mission markers, it always controls that marker. This takes precedence over all other rules."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-AS-A-LA",
+          "opTypeId": "IMP-INQ-INQ24-AS",
+          "abilityName": "Lightly Armed",
+          "description": "This operative cannot use any weapons that aren't on its datacard, or perform unique actions."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-AS-A-SC",
+          "opTypeId": "IMP-INQ-INQ24-AS",
+          "abilityName": "Scrivener",
+          "description": "Each subsequent time your opponent uses each ploy during the battle (excluding Command Re-roll), you gain 1CP (to a maximum of 2CP per turning point)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-QK",
+      "killteamId": "IMP-INQ",
+      "seq": 3,
+      "opTypeName": "Questkeeper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, QUESTKEEPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-QK-AP",
+          "opTypeId": "IMP-INQ-INQ24-QK",
+          "seq": 0,
+          "wepName": "AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-QK-AP-0",
+              "wepId": "IMP-INQ-INQ24-QK-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-QK-EV",
+          "opTypeId": "IMP-INQ-INQ24-QK",
+          "seq": 1,
+          "wepName": "Eviscerator",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-QK-EV-0",
+              "wepId": "IMP-INQ-INQ24-QK-EV",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-QK-A-IP",
+          "opTypeId": "IMP-INQ-INQ24-QK",
+          "abilityName": "Irrepressible Purpose",
+          "description": "If this operative is incapacitated while fighting or retaliating, you can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-QK-A-ZLT",
+          "opTypeId": "IMP-INQ-INQ24-QK",
+          "abilityName": "Zealot",
+          "description": "Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-VET",
+      "killteamId": "IMP-INQ",
+      "seq": 4,
+      "opTypeName": "Deathworld Veteran",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, DEATH WORLD VETERAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-VET-AP",
+          "opTypeId": "IMP-INQ-INQ24-VET",
+          "seq": 0,
+          "wepName": "AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-VET-AP-0",
+              "wepId": "IMP-INQ-INQ24-VET-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-VET-K",
+          "opTypeId": "IMP-INQ-INQ24-VET",
+          "seq": 1,
+          "wepName": "Knifer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-VET-K-0",
+              "wepId": "IMP-INQ-INQ24-VET-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "1",
+              "HIT": "2+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-VET-PA",
+          "opTypeId": "IMP-INQ-INQ24-VET",
+          "seq": 2,
+          "wepName": "Polearm",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-VET-PA-0",
+              "wepId": "IMP-INQ-INQ24-VET-PA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-VET-A-HNT",
+          "opTypeId": "IMP-INQ-INQ24-VET",
+          "abilityName": "Hunter",
+          "description": "This operative can perform the Charge action while it has a Conceal order."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-VET-A-WTH",
+          "opTypeId": "IMP-INQ-INQ24-VET",
+          "abilityName": "Weathered",
+          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-ENL",
+      "killteamId": "IMP-INQ",
+      "seq": 5,
+      "opTypeName": "Enlightener",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, ENLIGHTENER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-ENL-AP",
+          "opTypeId": "IMP-INQ-INQ24-ENL",
+          "seq": 0,
+          "wepName": "AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-ENL-AP-0",
+              "wepId": "IMP-INQ-INQ24-ENL-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-ENL-PB",
+          "opTypeId": "IMP-INQ-INQ24-ENL",
+          "seq": 1,
+          "wepName": "Paired Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-ENL-PB-0",
+              "wepId": "IMP-INQ-INQ24-ENL-PB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-ENL-A-EI",
+          "opTypeId": "IMP-INQ-INQ24-ENL",
+          "abilityName": "Extract Information",
+          "description": "Whenever an enemy operative is incapacitated within this operative's control range, you gain 1CP."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-ENL-A-NE",
+          "opTypeId": "IMP-INQ-INQ24-ENL",
+          "abilityName": "No Escape",
+          "description": "Whenever an enemy operative would perform the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, roll one D6, subtracting 1 from the result if that enemy operative has a higher Wounds stat than this operative, and adding 1 if that enemy operative is wounded:\non a 4+, that enemy operative cannot perform that action during that activation/counteraction (the AP spent on it isn't refunded)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-GUNS",
+      "killteamId": "IMP-INQ",
+      "seq": 6,
+      "opTypeName": "Gun Servitor",
+      "MOVE": "6\"",
+      "APL": 1,
+      "SAVE": "4+",
+      "WOUNDS": 11,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, GUN SERVITOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-GUNS-HB",
+          "opTypeId": "IMP-INQ-INQ24-GUNS",
+          "seq": 0,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-HB-0",
+              "wepId": "IMP-INQ-INQ24-GUNS-HB",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-HB-1",
+              "wepId": "IMP-INQ-INQ24-GUNS-HB",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-GUNS-MM",
+          "opTypeId": "IMP-INQ-INQ24-GUNS",
+          "seq": 1,
+          "wepName": "Multi-Melta",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-MM-0",
+              "wepId": "IMP-INQ-INQ24-GUNS-MM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-GUNS-PC",
+          "opTypeId": "IMP-INQ-INQ24-GUNS",
+          "seq": 2,
+          "wepName": "Plasma Cannon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-PC-0",
+              "wepId": "IMP-INQ-INQ24-GUNS-PC",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-PC-1",
+              "wepId": "IMP-INQ-INQ24-GUNS-PC",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-GUNS-SC",
+          "opTypeId": "IMP-INQ-INQ24-GUNS",
+          "seq": 3,
+          "wepName": "Servo-Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-GUNS-SC-0",
+              "wepId": "IMP-INQ-INQ24-GUNS-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-GUNS-A-LOB",
+          "opTypeId": "IMP-INQ-INQ24-GUNS",
+          "abilityName": "Lobotomised",
+          "description": "Whenever this operative is activated, if it's visible to and within 3\" of another friendly INQUISITORIAL AGENT operative (excluding GUN SERVITOR) or vice versa, add 1 to this operative's APL stat until the end of that activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-HEX",
+      "killteamId": "IMP-INQ",
+      "seq": 7,
+      "opTypeName": "Hexorcist",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, HEXORCIST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-HEX-SG",
+          "opTypeId": "IMP-INQ-INQ24-HEX",
+          "seq": 0,
+          "wepName": "Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-HEX-SG-0",
+              "wepId": "IMP-INQ-INQ24-HEX-SG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-HEX-F",
+          "opTypeId": "IMP-INQ-INQ24-HEX",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-HEX-F-0",
+              "wepId": "IMP-INQ-INQ24-HEX-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-HEX-A-HEX",
+          "opTypeId": "IMP-INQ-INQ24-HEX",
+          "abilityName": "Hexorcise",
+          "description": "Whenever an enemy operative is visible to and within 6\" of this operative, your opponent cannot re-roll their attack or defence dice for that operative."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-HEX-CHA",
+          "opTypeId": "IMP-INQ-INQ24-HEX",
+          "abilityName": "Chasten",
+          "AP": 1,
+          "description": "Select one enemy operative that is a valid target for this operative and within 6\" of it, then select one additional rule (including a unique action) that enemy operative has on its datacard (excluding a weapon rule).\nUntil the end of that enemy operative's next activation, it's treated as not having that additional rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-MYS",
+      "killteamId": "IMP-INQ",
+      "seq": 8,
+      "opTypeName": "Mystic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, MYSTIC",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-MYS-AP",
+          "opTypeId": "IMP-INQ-INQ24-MYS",
+          "seq": 0,
+          "wepName": "AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-MYS-AP-0",
+              "wepId": "IMP-INQ-INQ24-MYS-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SEEK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-MYS-F",
+          "opTypeId": "IMP-INQ-INQ24-MYS",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-MYS-F-0",
+              "wepId": "IMP-INQ-INQ24-MYS-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-MYS-A-IB",
+          "opTypeId": "IMP-INQ-INQ24-MYS",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-MYS-A-LA",
+          "opTypeId": "IMP-INQ-INQ24-MYS",
+          "abilityName": "Lightly Armed",
+          "description": "This operative cannot use any weapons that aren't on its datacard."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-MYS-SCRY",
+          "opTypeId": "IMP-INQ-INQ24-MYS",
+          "abilityName": "Scry",
+          "AP": 1,
+          "description": "**PSYCHIC**\r Select one friendly INQUISITORIAL AGENT operative within 6\" of this operative, then select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\r \r - **Guidance:** PSYCHIC. Whenever the selected operative is shooting, fighting or retaliating, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r - **Protection:** PSYCHIC. Whenever an operative is shooting the selected operative, in the Roll Defence Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r \r This operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-PEN",
+      "killteamId": "IMP-INQ",
+      "seq": 9,
+      "opTypeName": "Penal Legionnaire",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PENAL LEGIONNAIRE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-PEN-HF",
+          "opTypeId": "IMP-INQ-INQ24-PEN",
+          "seq": 0,
+          "wepName": "Hand Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PEN-HF-0",
+              "wepId": "IMP-INQ-INQ24-PEN-HF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-PEN-CS",
+          "opTypeId": "IMP-INQ-INQ24-PEN",
+          "seq": 1,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PEN-CS-0",
+              "wepId": "IMP-INQ-INQ24-PEN-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-PEN-A-CM",
+          "opTypeId": "IMP-INQ-INQ24-PEN",
+          "abilityName": "Chem-Mask",
+          "description": "You can ignore any changes to this operative's APL stat, and any changes to its stats from being injured. This operative isn't affected by enemy operatives' Shock and Stun weapon rules."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-PEN-A-CR",
+          "opTypeId": "IMP-INQ-INQ24-PEN",
+          "abilityName": "Cruel",
+          "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, this operative's weapons have the Relentless weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INQ24-PST",
+      "killteamId": "IMP-INQ",
+      "seq": 10,
+      "opTypeName": "Pistolier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PISTOLIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ24-PST-SPP",
+          "opTypeId": "IMP-INQ-INQ24-PST",
+          "seq": 0,
+          "wepName": "Scoped Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PST-SPP-0",
+              "wepId": "IMP-INQ-INQ24-PST-SPP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 12
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PST-SPP-1",
+              "wepId": "IMP-INQ-INQ24-PST-SPP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 12
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-PST-SAP",
+          "opTypeId": "IMP-INQ-INQ24-PST",
+          "seq": 1,
+          "wepName": "Suppressed AutoPistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PST-SAP-0",
+              "wepId": "IMP-INQ-INQ24-PST-SAP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ24-PST-F",
+          "opTypeId": "IMP-INQ-INQ24-PST",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ24-PST-F-0",
+              "wepId": "IMP-INQ-INQ24-PST-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ24-PST-A-PST",
+          "opTypeId": "IMP-INQ-INQ24-PST",
+          "abilityName": "Pistolier",
+          "description": "You can ignore any changes to the Hit stat of this operative's ranged weapons."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ24-PST-PB",
+          "opTypeId": "IMP-INQ-INQ24-PST",
+          "abilityName": "Pistol Barrage",
+          "AP": 1,
+          "description": "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select a profile of its scoped plasma pistol for one action and its suppressed autopistol for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-SOS24-SOSPRO",
+      "killteamId": "IMP-INQ",
+      "seq": 31,
+      "opTypeName": "Sister Of Silence Prosecutor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, PROSECUTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-SOS24-SOSPRO-BG",
+          "opTypeId": "IMP-INQ-SOS24-SOSPRO",
+          "seq": 0,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-SOS24-SOSPRO-BG-0",
+              "wepId": "IMP-INQ-INQ-SOS24-SOSPRO-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-SOS24-SOSPRO-GB",
+          "opTypeId": "IMP-INQ-SOS24-SOSPRO",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-SOS24-SOSPRO-GB-0",
+              "wepId": "IMP-INQ-INQ-SOS24-SOSPRO-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-SOS24-SOSPRO-A-PN",
+          "opTypeId": "IMP-INQ-SOS24-SOSPRO",
+          "abilityName": "Psychic Null",
+          "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-SOS24-SOSVIG",
+      "killteamId": "IMP-INQ",
+      "seq": 32,
+      "opTypeName": "Sister Of Silence Vigilator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, VIGILATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-SOS24-SOSVIG-EGB",
+          "opTypeId": "IMP-INQ-SOS24-SOSVIG",
+          "seq": 0,
+          "wepName": "Executor Greatblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-SOS24-SOSVIG-EGB-0",
+              "wepId": "IMP-INQ-INQ-SOS24-SOSVIG-EGB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-SOS24-SOSVIG-A-PN",
+          "opTypeId": "IMP-INQ-SOS24-SOSVIG",
+          "abilityName": "Psychic Null",
+          "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-SOS24-SOSWSK",
+      "killteamId": "IMP-INQ",
+      "seq": 33,
+      "opTypeName": "Sister Of Silence WitchSeeker",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ANATHEMA PSYKANA, SISTER OF SILENCE, WITCHSEEKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-SOS24-SOSWSK-FL",
+          "opTypeId": "IMP-INQ-SOS24-SOSWSK",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-SOS24-SOSWSK-FL-0",
+              "wepId": "IMP-INQ-INQ-SOS24-SOSWSK-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-SOS24-SOSWSK-GB",
+          "opTypeId": "IMP-INQ-SOS24-SOSWSK",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-SOS24-SOSWSK-GB-0",
+              "wepId": "IMP-INQ-INQ-SOS24-SOSWSK-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-SOS24-SOSWSK-A-PN",
+          "opTypeId": "IMP-INQ-SOS24-SOSWSK",
+          "abilityName": "Psychic Null",
+          "description": "PSYCHIC ranged weapons cannot inflict damage on this operative. For the effects of PSYCHIC actions, this operative cannot be selected and is never treated as being within those actions' required distances.\nWhenever an operative is within 6\" of this operative:\n\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-BRU",
+      "killteamId": "IMP-INQ",
+      "seq": 42,
+      "opTypeName": "Death Korps Bruiser",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, BRUISER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-BRU-LG",
+          "opTypeId": "IMP-INQ-DKK24-BRU",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-BRU-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-BRU-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-BRU-TC",
+          "opTypeId": "IMP-INQ-DKK24-BRU",
+          "seq": 1,
+          "wepName": "Trench Club",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-BRU-TC-0",
+              "wepId": "IMP-INQ-INQ-DKK24-BRU-TC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-BRU-A-BRU",
+          "opTypeId": "IMP-INQ-DKK24-BRU",
+          "abilityName": "Bruiser",
+          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-CON",
+      "killteamId": "IMP-INQ",
+      "seq": 43,
+      "opTypeName": "Death Korps Confidant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-BP",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-BP-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-BG",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-BG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-LG",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 2,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-RLP",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 3,
+          "wepName": "Relic Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-RLP-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-RLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-B",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-CON-CS",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "seq": 5,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-CON-CS-0",
+              "wepId": "IMP-INQ-INQ-DKK24-CON-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-CON-A-DIR",
+          "opTypeId": "IMP-INQ-DKK24-CON",
+          "abilityName": "Directive",
+          "description": "Whenever this operative is activated, if you have not used the Second in Command rule during the battle, you can select one other ready friendly DEATH KORPS operative visible to and within 6\" of it.\nWhen this operative is expended, activate that other friendly operative before your opponent activates (if that operative is a TROOPER, ignore its Group Activation rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-GNR",
+      "killteamId": "IMP-INQ",
+      "seq": 44,
+      "opTypeName": "Death Korps Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-GNR-FL",
+          "opTypeId": "IMP-INQ-DKK24-GNR",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-FL-0",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-GNR-GL",
+          "opTypeId": "IMP-INQ-DKK24-GNR",
+          "seq": 1,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-GL-0",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-GL-1",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-GNR-MG",
+          "opTypeId": "IMP-INQ-DKK24-GNR",
+          "seq": 2,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-MG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-GNR-PG",
+          "opTypeId": "IMP-INQ-DKK24-GNR",
+          "seq": 3,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-PG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-PG-1",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-GNR-B",
+          "opTypeId": "IMP-INQ-DKK24-GNR",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-GNR-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-GNR-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-MDC",
+      "killteamId": "IMP-INQ",
+      "seq": 45,
+      "opTypeName": "Death Korps Medic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-MDC-LG",
+          "opTypeId": "IMP-INQ-DKK24-MDC",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-MDC-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-MDC-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-MDC-B",
+          "opTypeId": "IMP-INQ-DKK24-MDC",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-MDC-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-MDC-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-MDC-A-MDC",
+          "opTypeId": "IMP-INQ-DKK24-MDC",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly DEATH KORPS operative would be removed from the killzone as incapacitated while visible to and within 3\" of this operative, you can use this rule,\nproviding neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated and has 1 wound remaining.\nThat friendly operative can then immediately perform a free Dash action, but must end that move within this operative's control range.\nSubtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\nYou cannot use this rule if this operative is incapacitated."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-MDC-MDK",
+          "opTypeId": "IMP-INQ-DKK24-MDC",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-SAP",
+      "killteamId": "IMP-INQ",
+      "seq": 46,
+      "opTypeName": "Death Korps Sapper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SAPPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-SAP-LG",
+          "opTypeId": "IMP-INQ-DKK24-SAP",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SAP-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-SAP-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-SAP-RD",
+          "opTypeId": "IMP-INQ-DKK24-SAP",
+          "seq": 1,
+          "wepName": "Remote Detonator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SAP-RD-0",
+              "wepId": "IMP-INQ-INQ-DKK24-SAP-RD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-SAP-B",
+          "opTypeId": "IMP-INQ-DKK24-SAP",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SAP-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-SAP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-SAP-A-DET",
+          "opTypeId": "IMP-INQ-DKK24-SAP",
+          "abilityName": "*Detonate",
+          "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn't in the killzone. At the end of the action, remove your Mine marker from the killzone."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-SAP-A-ML",
+          "opTypeId": "IMP-INQ-DKK24-SAP",
+          "abilityName": "Mine Layer",
+          "description": "This operative is carrying your Mine marker. It can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-SNP",
+      "killteamId": "IMP-INQ",
+      "seq": 47,
+      "opTypeName": "Death Korps Sniper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SNIPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
+          "opTypeId": "IMP-INQ-DKK24-SNP",
+          "seq": 0,
+          "wepName": "Long-Las",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SNP-LL-0",
+              "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SNP-LL-1",
+              "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SNP-LL-2",
+              "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-SNP-B",
+          "opTypeId": "IMP-INQ-DKK24-SNP",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-SNP-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-SNP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-TRP",
+      "killteamId": "IMP-INQ",
+      "seq": 49,
+      "opTypeName": "Death Korps Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-TRP-LG",
+          "opTypeId": "IMP-INQ-DKK24-TRP",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-TRP-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-TRP-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-TRP-B",
+          "opTypeId": "IMP-INQ-DKK24-TRP",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-TRP-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-TRP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-TRP-A-GA",
+          "opTypeId": "IMP-INQ-DKK24-TRP",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly DEATH KORPS TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-VET",
+      "killteamId": "IMP-INQ",
+      "seq": 50,
+      "opTypeName": "Death Korps Veteran",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VETERAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-VET-LG",
+          "opTypeId": "IMP-INQ-DKK24-VET",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-VET-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-VET-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-VET-BA",
+          "opTypeId": "IMP-INQ-DKK24-VET",
+          "seq": 1,
+          "wepName": "Bionic Arm",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-VET-BA-0",
+              "wepId": "IMP-INQ-INQ-DKK24-VET-BA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-VET-A-BIO",
+          "opTypeId": "IMP-INQ-DKK24-VET",
+          "abilityName": "Bionics",
+          "description": "Normal Dmg of 3 or more inflicts 1 less damage on this operative."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-VET-A-VG",
+          "opTypeId": "IMP-INQ-DKK24-VET",
+          "abilityName": "Veteran Guardsman",
+          "description": "Whenever this operative is activated, it can receive one GUARDSMAN ORDER."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-VOX",
+      "killteamId": "IMP-INQ",
+      "seq": 51,
+      "opTypeName": "Death Korps Vox-Operator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-VOX-LG",
+          "opTypeId": "IMP-INQ-DKK24-VOX",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-VOX-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-VOX-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-VOX-B",
+          "opTypeId": "IMP-INQ-DKK24-VOX",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-VOX-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-VOX-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-VOX-A-RO",
+          "opTypeId": "IMP-INQ-DKK24-VOX",
+          "abilityName": "Relay Orders",
+          "description": "Once per turning point, when this operative receives a GUARDSMAN ORDER, if it's not within control range of enemy operatives, it can relay that order.\nWhenever an order is relayed, all friendly DEATH KORPS operatives in the killzone receive that order, then subtract 1 from this operative's APL stat until the end of its next activation."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-VOX-SIG",
+          "opTypeId": "IMP-INQ-DKK24-VOX",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-DKK24-ZLT",
+      "killteamId": "IMP-INQ",
+      "seq": 52,
+      "opTypeName": "Death Korps Zealot",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, ZEALOT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-ZLT-LG",
+          "opTypeId": "IMP-INQ-DKK24-ZLT",
+          "seq": 0,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-ZLT-LG-0",
+              "wepId": "IMP-INQ-INQ-DKK24-ZLT-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-DKK24-ZLT-B",
+          "opTypeId": "IMP-INQ-DKK24-ZLT",
+          "seq": 1,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-DKK24-ZLT-B-0",
+              "wepId": "IMP-INQ-INQ-DKK24-ZLT-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-ZLT-A-TEP",
+          "opTypeId": "IMP-INQ-DKK24-ZLT",
+          "abilityName": "The Emperor Protects",
+          "description": "Whenever an operative is shooting this operative, you can re-roll any of your defence dice."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-DKK24-ZLT-A-UP",
+          "opTypeId": "IMP-INQ-DKK24-ZLT",
+          "abilityName": "Uplifting Primer",
+          "description": "**SUPPORT**\nWhenever a friendly DEATH KORPS operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-TS24-TSVOX",
+      "killteamId": "IMP-INQ",
+      "seq": 64,
+      "opTypeName": "Tempestus Scion Vox-Operator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, COMMS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSVOX-HSLG",
+          "opTypeId": "IMP-INQ-TS24-TSVOX",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSVOX-HSLG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSVOX-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSVOX-GB",
+          "opTypeId": "IMP-INQ-TS24-TSVOX",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSVOX-GB-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSVOX-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-TS24-TSVOX-SIG",
+          "opTypeId": "IMP-INQ-TS24-TSVOX",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "SUPPORT. Select one other friendly INQUISITORIAL AGENT operative in the killzone. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-TS24-TSGUN",
+      "killteamId": "IMP-INQ",
+      "seq": 65,
+      "opTypeName": "Tempestus Scion Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-FL",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-FL-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-GL",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 1,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-GL-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-GL-1",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-HSVG",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 2,
+          "wepName": "Hot-Shot Volley Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-HSVG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-HSVG",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-HSVG-1",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-HSVG",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-MG",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 3,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-MG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-PG",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 4,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-PG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-PG-1",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-PG",
+              "seq": 1,
+              "profileName": "Superchart",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSGUN-GB",
+          "opTypeId": "IMP-INQ-TS24-TSGUN",
+          "seq": 5,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSGUN-GB-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSGUN-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-INQ-TS24-TSMED",
+      "killteamId": "IMP-INQ",
+      "seq": 66,
+      "opTypeName": "Tempestus Scion Medic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, MEDIC",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSMED-HSLG",
+          "opTypeId": "IMP-INQ-TS24-TSMED",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSMED-HSLG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSMED-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSMED-GB",
+          "opTypeId": "IMP-INQ-TS24-TSMED",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSMED-GB-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSMED-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-TS24-TSMED-A-MDC",
+          "opTypeId": "IMP-INQ-TS24-TSMED",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly INQUISITORIAL AGENT operative would be incapacitated while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy operative. If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of the action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.\r You cannot use this rule if this operative is incapacitated or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-TS24-TSMED-MDC",
+          "opTypeId": "IMP-INQ-TS24-TSMED",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly INQUISITORIAL AGENT operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-TS24-TSTRP",
+      "killteamId": "IMP-INQ",
+      "seq": 67,
+      "opTypeName": "Tempestus Scion Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSTRP-HSLG",
+          "opTypeId": "IMP-INQ-TS24-TSTRP",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSTRP-HSLG-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSTRP-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-TS24-TSTRP-GB",
+          "opTypeId": "IMP-INQ-TS24-TSTRP",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-TS24-TSTRP-GB-0",
+              "wepId": "IMP-INQ-INQ-TS24-TSTRP-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-TS24-TSTRP-A-AE",
+          "opTypeId": "IMP-INQ-TS24-TSTRP",
+          "abilityName": "Adaptive Equipment",
+          "description": "You can do each of the following once per turning point:\n\n- One friendly INQUISITORIAL AGENT TEMPESTUS SCION TROOPER operative can perform the Smoke Grenade action.\n- One friendly INQUISITORIAL AGENT TEMPESTUS SCION TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule doesn't count towards their action limits (i.e. if you also select those grenades from equipment)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-CAST",
+      "killteamId": "IMP-INQ",
+      "seq": 72,
+      "opTypeName": "Arbites Castigator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, CASTIGATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-CAST-CS",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CAST-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-CAST-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CAST-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-CAST-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-CAST-EM",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "seq": 1,
+          "wepName": "Excruciator Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CAST-EM-0",
+              "wepId": "IMP-INQ-INQ-AES24-CAST-EM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CAST-A-CA",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "abilityName": "Castigator's Arrest",
+          "description": "Whenever an enemy operative is within control range of this operative, if no other enemy operatives are within this operative's control range, that enemy operative cannot perform the Fall Back action."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CAST-A-EF",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "abilityName": "Engendered Focus",
+          "description": "You can ignore any changes to this operative's stats (including its weapons' stats, but excluding its Save stat)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CAST-A-RE",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CAST-A-ZD",
+          "opTypeId": "IMP-INQ-AES24-CAST",
+          "abilityName": "Zealous Dedication",
+          "description": "Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-CHI",
+      "killteamId": "IMP-INQ",
+      "seq": 73,
+      "opTypeName": "Arbites Chirurgant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, MEDIC, ARBITES, CHIRURGANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-CHI-CS",
+          "opTypeId": "IMP-INQ-AES24-CHI",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CHI-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-CHI-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CHI-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-CHI-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-CHI-RB",
+          "opTypeId": "IMP-INQ-AES24-CHI",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-CHI-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-CHI-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CHI-A-MDC",
+          "opTypeId": "IMP-INQ-AES24-CHI",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly EXACTION SQUAD operative would be removed from the killzone as incapacitated while visible to and within 3\" of this operative,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated and has 1 wound remaining. That friendly operative can then immediately perform a free Dash action, but must end that move within this operative's\ncontrol range. Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that\nfriendly operative's activation, that activation ends. You cannot use this rule if this operative is incapacitated."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CHI-A-RE",
+          "opTypeId": "IMP-INQ-AES24-CHI",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-CHI-MDK",
+          "opTypeId": "IMP-INQ-AES24-CHI",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly EXACTION SQUAD operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-GNR",
+      "killteamId": "IMP-INQ",
+      "seq": 74,
+      "opTypeName": "Arbites Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-GNR-GL",
+          "opTypeId": "IMP-INQ-AES24-GNR",
+          "seq": 0,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-GNR-GL-0",
+              "wepId": "IMP-INQ-INQ-AES24-GNR-GL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-GNR-HS",
+          "opTypeId": "IMP-INQ-AES24-GNR",
+          "seq": 1,
+          "wepName": "Heavy Stubber",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-GNR-HS-0",
+              "wepId": "IMP-INQ-INQ-AES24-GNR-HS",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-GNR-HS-1",
+              "wepId": "IMP-INQ-INQ-AES24-GNR-HS",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-GNR-WEB",
+          "opTypeId": "IMP-INQ-AES24-GNR",
+          "seq": 2,
+          "wepName": "Webber",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-GNR-WEB-0",
+              "wepId": "IMP-INQ-INQ-AES24-GNR-WEB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 12
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-GNR-RB",
+          "opTypeId": "IMP-INQ-AES24-GNR",
+          "seq": 3,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-GNR-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-GNR-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-GNR-A-RE",
+          "opTypeId": "IMP-INQ-AES24-GNR",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-LSH",
+      "killteamId": "IMP-INQ",
+      "seq": 75,
+      "opTypeName": "Arbites Leashmaster",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, LEASHMASTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-LSH-CS",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-LSH-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-LSH-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-LSH-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-LSH-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-LSH-RB",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "seq": 2,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-LSH-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-LSH-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-LSH-A-AP",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "abilityName": "Attack Pattern",
+          "description": "STRATEGIC GAMBIT in the first turning point. Select one of the following attack patterns for a friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative to have for the battle:\n\n- Aggressive: Its melee weapons have the Relentless weapon rule.\n- Swift: Add 2\" to its Move stat.\n- Defensive: Improve its Save stat by 1.\n"
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-LSH-A-HND",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "abilityName": "Handler",
+          "description": "Whenever this operative is activated, you can activate a ready friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative at the same time. Complete their activations action by action in any order."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-LSH-A-RE",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-LSH-RC",
+          "opTypeId": "IMP-INQ-AES24-LSH",
+          "abilityName": "R-VR Command",
+          "AP": 0,
+          "description": "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-RVR",
+      "killteamId": "IMP-INQ",
+      "seq": 76,
+      "opTypeName": "R-VR Cyber-Mastiff",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, R-VR CYBER-MASTIFF",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-RVR-MB",
+          "opTypeId": "IMP-INQ-AES24-RVR",
+          "seq": 0,
+          "wepName": "Mechanical Bite",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-RVR-MB-0",
+              "wepId": "IMP-INQ-INQ-AES24-RVR-MB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-RVR-A-BST",
+          "opTypeId": "IMP-INQ-AES24-RVR",
+          "abilityName": "Beast",
+          "description": "This operative cannot perform any actions other than Apprehend, Charge, Dash, Fall Back, Fight, Guard, Reposition, Pick Up Marker and Place Marker. It cannot use any weapons that aren't on its datacard."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-RVR-A-RE",
+          "opTypeId": "IMP-INQ-AES24-RVR",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-RVR-APP",
+          "opTypeId": "IMP-INQ-AES24-RVR",
+          "abilityName": "Apprehend",
+          "AP": 0,
+          "description": "Select one enemy operative within this operative's control range.\nUntil that enemy operative is no longer within this operative's control range, or until this operative performs this action again (whichever comes first),\nworsen the Hit stat of that enemy operative's weapons by 1 (this isn't cumulative with being injured);\nin addition, that enemy operative cannot perform the Fall Back action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-MAL",
+      "killteamId": "IMP-INQ",
+      "seq": 77,
+      "opTypeName": "Arbites Malocator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MALOCATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-MAL-CS",
+          "opTypeId": "IMP-INQ-AES24-MAL",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MAL-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-MAL-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MAL-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-MAL-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-MAL-RB",
+          "opTypeId": "IMP-INQ-AES24-MAL",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MAL-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-MAL-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-MAL-A-AF",
+          "opTypeId": "IMP-INQ-AES24-MAL",
+          "abilityName": "Acute Focus",
+          "description": "Once during each of this operative's activations, it can perform the Pick Up Marker, Place Marker, Veriscant or a mission action for 1 less AP."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-MAL-A-RE",
+          "opTypeId": "IMP-INQ-AES24-MAL",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-MAL-VER",
+          "opTypeId": "IMP-INQ-AES24-MAL",
+          "abilityName": "Veriscant",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\nwhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Severe weapon rule;\nif the weapon already has that weapon rule, it has the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-MRK",
+      "killteamId": "IMP-INQ",
+      "seq": 78,
+      "opTypeName": "Arbites Marksman",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MARKSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
+          "opTypeId": "IMP-INQ-AES24-MRK",
+          "seq": 0,
+          "wepName": "Executioner Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MRK-ESG-0",
+              "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/0",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MRK-ESG-1",
+              "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MRK-ESG-2",
+              "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/0",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-MRK-RB",
+          "opTypeId": "IMP-INQ-AES24-MRK",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-MRK-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-MRK-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-MRK-A-RE",
+          "opTypeId": "IMP-INQ-AES24-MRK",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-MRK-OPT",
+          "opTypeId": "IMP-INQ-AES24-MRK",
+          "abilityName": "Optics",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its executioner shotgun, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-REV",
+      "killteamId": "IMP-INQ",
+      "seq": 79,
+      "opTypeName": "Arbites Revelatum",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, REVELATUM",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-REV-SSP",
+          "opTypeId": "IMP-INQ-AES24-REV",
+          "seq": 0,
+          "wepName": "Scoped Shot Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-REV-SSP-0",
+              "wepId": "IMP-INQ-INQ-AES24-REV-SSP",
+              "seq": 0,
+              "profileName": "Short Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-REV-SSP-1",
+              "wepId": "IMP-INQ-INQ-AES24-REV-SSP",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-REV-RB",
+          "opTypeId": "IMP-INQ-AES24-REV",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-REV-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-REV-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-REV-A-FITF",
+          "opTypeId": "IMP-INQ-AES24-REV",
+          "abilityName": "First In The Field",
+          "description": "**STRATEGIC GAMBIT** in the first turning point.\nIf this operative is wholly within your drop zone, it can immediately perform a free Reposition action."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-REV-A-RE",
+          "opTypeId": "IMP-INQ-AES24-REV",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-REV-SPT",
+          "opTypeId": "IMP-INQ-AES24-REV",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,\nyou can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-SUB",
+      "killteamId": "IMP-INQ",
+      "seq": 80,
+      "opTypeName": "Arbites Subductor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, SUBDUCTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-SUB-SP",
+          "opTypeId": "IMP-INQ-AES24-SUB",
+          "seq": 0,
+          "wepName": "Shot Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-SUB-SP-0",
+              "wepId": "IMP-INQ-INQ-AES24-SUB-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-SUB-SMAS",
+          "opTypeId": "IMP-INQ-AES24-SUB",
+          "seq": 1,
+          "wepName": "Shock Maul & Assault Shield",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-SUB-SMAS-0",
+              "wepId": "IMP-INQ-INQ-AES24-SUB-SMAS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-IMP-AES-REPRESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-SUB-A-RE",
+          "opTypeId": "IMP-INQ-AES24-SUB",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-SUB-A-REP",
+          "opTypeId": "IMP-INQ-AES24-SUB",
+          "abilityName": "*Repress",
+          "description": "Whenever this operative is using this weapon:\n\n- Each of your blocks can be allocated to block two unresolved successes (instead of one).\n- If this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).\n"
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-SUB-A-SS",
+          "opTypeId": "IMP-INQ-AES24-SUB",
+          "abilityName": "Stubborn Subjugator",
+          "description": "You can ignore any changes to the Hit stat of this operative's melee weapons."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-VIG",
+      "killteamId": "IMP-INQ",
+      "seq": 81,
+      "opTypeName": "Arbites Vigilant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VIGILANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-VIG-CS",
+          "opTypeId": "IMP-INQ-AES24-VIG",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VIG-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-VIG-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VIG-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-VIG-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-VIG-RB",
+          "opTypeId": "IMP-INQ-AES24-VIG",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VIG-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-VIG-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-VIG-A-RE",
+          "opTypeId": "IMP-INQ-AES24-VIG",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-VIG-A-SQV",
+          "opTypeId": "IMP-INQ-AES24-VIG",
+          "abilityName": "Close Quarters Vigilance",
+          "description": "This operative can perform the Shoot action (excluding Guard) while within control range of an enemy operative, but only if it hasn't performed the Charge action during the activation,\nor if it's a counteraction. Note this operative isn't restricted from performing the Charge action after performing the Shoot action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-AES24-VOX",
+      "killteamId": "IMP-INQ",
+      "seq": 82,
+      "opTypeName": "Arbites Vox-Signifier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VOX-SIGNIFIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-AES24-VOX-CS",
+          "opTypeId": "IMP-INQ-AES24-VOX",
+          "seq": 0,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VOX-CS-0",
+              "wepId": "IMP-INQ-INQ-AES24-VOX-CS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VOX-CS-1",
+              "wepId": "IMP-INQ-INQ-AES24-VOX-CS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-AES24-VOX-RB",
+          "opTypeId": "IMP-INQ-AES24-VOX",
+          "seq": 1,
+          "wepName": "Repression Baton",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-AES24-VOX-RB-0",
+              "wepId": "IMP-INQ-INQ-AES24-VOX-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-VOX-A-RE",
+          "opTypeId": "IMP-INQ-AES24-VOX",
+          "abilityName": "Ruthless Efficiency",
+          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-AES24-VOX-SIG",
+          "opTypeId": "IMP-INQ-AES24-VOX",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly EXACTION SQUAD operative visible to this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-ARM",
+      "killteamId": "IMP-INQ",
+      "seq": 101,
+      "opTypeName": "Navis Armsman",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-ARM-NS",
+          "opTypeId": "IMP-INQ-INB24-ARM",
+          "seq": 0,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-ARM-NS-0",
+              "wepId": "IMP-INQ-INQ-INB24-ARM-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-ARM-NS-1",
+              "wepId": "IMP-INQ-INQ-INB24-ARM-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-ARM-NH",
+          "opTypeId": "IMP-INQ-INB24-ARM",
+          "seq": 1,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-ARM-NH-0",
+              "wepId": "IMP-INQ-INQ-INB24-ARM-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-ARM-A-GA",
+          "opTypeId": "IMP-INQ-INB24-ARM",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly IMPERIAL NAVY BREACHER ARMSMAN operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).\nIgnore this rule when you are using the Breach and Clear faction rule."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-ARM-A-VA",
+          "opTypeId": "IMP-INQ-INB24-ARM",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-AXE",
+      "killteamId": "IMP-INQ",
+      "seq": 102,
+      "opTypeName": "Navis Axejack",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-AXE-AP",
+          "opTypeId": "IMP-INQ-INB24-AXE",
+          "seq": 0,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-AXE-AP-0",
+              "wepId": "IMP-INQ-INQ-INB24-AXE-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-AXE-PW",
+          "opTypeId": "IMP-INQ-INB24-AXE",
+          "seq": 1,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-AXE-PW-0",
+              "wepId": "IMP-INQ-INQ-INB24-AXE-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-AXE-A-EMB",
+          "opTypeId": "IMP-INQ-INB24-AXE",
+          "abilityName": "Emboldened",
+          "description": "Whenever an attack dice inflicts damage of 3 or more on this operative during a turning point in which it performed the Charge action, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-AXE-A-VA",
+          "opTypeId": "IMP-INQ-INB24-AXE",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-CAT",
+      "killteamId": "IMP-INQ",
+      "seq": 103,
+      "opTypeName": "Navis C.A.T. Unit",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
+      "basesize": 32,
+      "weapons": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-CAT-A-EXP",
+          "opTypeId": "IMP-INQ-INB24-CAT",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\nIt's also ignored for victory conditions that require operatives to 'escape', 'survive' or be incapacitated (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-CAT-A-MAC",
+          "opTypeId": "IMP-INQ-INB24-CAT",
+          "abilityName": "Machine",
+          "description": "\n- This operative cannot be activated or perform actions if it's within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER SURVEYOR operative has been incapacitated. The turning point can end even if this operative is still ready.\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Reposition and Spot.\n- It cannot retaliate, assist in a fight, climb or jump.\n- Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Vantage terrain).\n- Whenever determining what's visible to this operative, draw the line from any part of the miniature.\n"
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-CAT-A-VA",
+          "opTypeId": "IMP-INQ-INB24-CAT",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-CAT-SPT",
+          "opTypeId": "IMP-INQ-INB24-CAT",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),\nwhenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-END",
+      "killteamId": "IMP-INQ",
+      "seq": 104,
+      "opTypeName": "Navis Endurant",
+      "MOVE": "4\"",
+      "APL": 2,
+      "SAVE": "2+",
+      "WOUNDS": 10,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-END-NHS",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "seq": 0,
+          "wepName": "Navis Heavy Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-END-NHS-0",
+              "wepId": "IMP-INQ-INQ-INB24-END-NHS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-END-NHS-1",
+              "wepId": "IMP-INQ-INQ-INB24-END-NHS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-END-SB",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "seq": 1,
+          "wepName": "Shield Bash",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-END-SB-0",
+              "wepId": "IMP-INQ-INQ-INB24-END-SB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-CHAOS-BLD-SHIELD"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-END-A-BW",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "abilityName": "Breachwall",
+          "description": "Whenever your opponent is selecting a valid target, they cannot select another friendly IMPERIAL NAVY BREACHER operative whose base is touching this operative's if this operative has an Engage order and is intervening.\nThis rule has no effect if more than one other friendly operative's base is touching this operative's."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-END-A-DIS",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "abilityName": "Disengage",
+          "description": "This operative can perform the Fall Back action for 1 less AP."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-END-A-SH",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "abilityName": "*Shield",
+          "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-END-A-VA",
+          "opTypeId": "IMP-INQ-INB24-END",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-GS",
+      "killteamId": "IMP-INQ",
+      "seq": 105,
+      "opTypeName": "Navis Gheistskull",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
+      "basesize": 32,
+      "weapons": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GS-A-EXP",
+          "opTypeId": "IMP-INQ-INB24-GS",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\nIt's also ignored for victory conditions that require operatives to 'escape', 'survive' or be incapacitated (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GS-A-MAC",
+          "opTypeId": "IMP-INQ-INB24-GS",
+          "abilityName": "Machine",
+          "description": "\n- This operative cannot perform any actions other than Boost, Charge, Dash, Fall Back and Reposition.\n- It cannot retaliate or assist in a fight.\n- Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Vantage terrain).\n"
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GS-A-VA",
+          "opTypeId": "IMP-INQ-INB24-GS",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GS-BST",
+          "opTypeId": "IMP-INQ-INB24-GS",
+          "abilityName": "Boost",
+          "AP": 1,
+          "description": "Until the end of the activation, add 6\" to this operative's Move stat.  \n\nThis operative can only perform this action once per battle, and cannot perform it during the first turning point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-GRN",
+      "killteamId": "IMP-INQ",
+      "seq": 106,
+      "opTypeName": "Navis Grenadier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GRN-DC",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "seq": 0,
+          "wepName": "Demolition Charge",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-DC-0",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-DC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GRN-NS",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "seq": 1,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-NS-0",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-NS-1",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GRN-NH",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "seq": 2,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-NH-0",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GRN-FG",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "seq": 3,
+          "wepName": "Frag Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-FG-0",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-FG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GRN-KG",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "seq": 4,
+          "wepName": "Krak Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GRN-KG-0",
+              "wepId": "IMP-INQ-INQ-INB24-GRN-KG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GRN-A-GRN",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "abilityName": "Grenadier",
+          "description": "This operative can use frag, krak and stun grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GRN-A-VA",
+          "opTypeId": "IMP-INQ-INB24-GRN",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-GNR",
+      "killteamId": "IMP-INQ",
+      "seq": 107,
+      "opTypeName": "Navis Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GNR-MG",
+          "opTypeId": "IMP-INQ-INB24-GNR",
+          "seq": 0,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-MG-0",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GNR-NLV",
+          "opTypeId": "IMP-INQ-INB24-GNR",
+          "seq": 1,
+          "wepName": "Navis Las-Volley",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-NLV-0",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-NLV",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-NLV-1",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-NLV",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GNR-PG",
+          "opTypeId": "IMP-INQ-INB24-GNR",
+          "seq": 2,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-PG-0",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-PG-1",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-GNR-GB",
+          "opTypeId": "IMP-INQ-INB24-GNR",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-GNR-GB-0",
+              "wepId": "IMP-INQ-INQ-INB24-GNR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-GNR-A-VA",
+          "opTypeId": "IMP-INQ-INB24-GNR",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-HC",
+      "killteamId": "IMP-INQ",
+      "seq": 108,
+      "opTypeName": "Navis Hatchcutter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-HC-AP",
+          "opTypeId": "IMP-INQ-INB24-HC",
+          "seq": 0,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-HC-AP-0",
+              "wepId": "IMP-INQ-INQ-INB24-HC-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-HC-CF",
+          "opTypeId": "IMP-INQ-INB24-HC",
+          "seq": 1,
+          "wepName": "Chainfist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-HC-CF-0",
+              "wepId": "IMP-INQ-INQ-INB24-HC-CF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-HC-A-VA",
+          "opTypeId": "IMP-INQ-INB24-HC",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-HC-BP",
+          "opTypeId": "IMP-INQ-INB24-HC",
+          "abilityName": "Breach Point",
+          "AP": 1,
+          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-HC-WS",
+          "opTypeId": "IMP-INQ-INB24-HC",
+          "abilityName": "Weld Shut",
+          "AP": 1,
+          "description": "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.\nThis effect ends when that hatchway is opened. Note this operative isn't affected by this effect.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-SRV",
+      "killteamId": "IMP-INQ",
+      "seq": 109,
+      "opTypeName": "Navis Surveyor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-SRV-NS",
+          "opTypeId": "IMP-INQ-INB24-SRV",
+          "seq": 0,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-SRV-NS-0",
+              "wepId": "IMP-INQ-INQ-INB24-SRV-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-SRV-NS-1",
+              "wepId": "IMP-INQ-INQ-INB24-SRV-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-SRV-NH",
+          "opTypeId": "IMP-INQ-INB24-SRV",
+          "seq": 1,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-SRV-NH-0",
+              "wepId": "IMP-INQ-INQ-INB24-SRV-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-SRV-A-VA",
+          "opTypeId": "IMP-INQ-INB24-SRV",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-SRV-RC",
+          "opTypeId": "IMP-INQ-INB24-SRV",
+          "abilityName": "Remote Control",
+          "AP": 1,
+          "description": "Select one friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative. That operative can immediately perform one free action, but it cannot move more than 3\" during that action.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative isn't in the killzone."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-SRV-WF",
+          "opTypeId": "IMP-INQ-INB24-SRV",
+          "abilityName": "Wayfind",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.\nUntil the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-INB24-VJ",
+      "killteamId": "IMP-INQ",
+      "seq": 110,
+      "opTypeName": "Navis Void-Jammer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-INB24-VJ-GD",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "seq": 0,
+          "wepName": "Gheistskull Detonator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-VJ-GD-0",
+              "wepId": "IMP-INQ-INQ-INB24-VJ-GD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-VJ-NS",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "seq": 1,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-VJ-NS-0",
+              "wepId": "IMP-INQ-INQ-INB24-VJ-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-VJ-NS-1",
+              "wepId": "IMP-INQ-INQ-INB24-VJ-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-INB24-VJ-NH",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "seq": 2,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-INB24-VJ-NH-0",
+              "wepId": "IMP-INQ-INQ-INB24-VJ-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-VJ-A-DET",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "abilityName": "*Detonate",
+          "description": "Don't select a valid target. Instead, a friendly IMPERIAL NAVY BREACHER GHEISTSKULL operative is always the primary target and cannot be in cover or obscured. If that operative isn't in the killzone, you cannot select this weapon."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-VJ-A-VA",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "abilityName": "Void Armour",
+          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-INB24-VJ-IP",
+          "opTypeId": "IMP-INQ-INB24-VJ",
+          "abilityName": "Interference Pulse",
+          "AP": 1,
+          "description": "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:\non a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-MDC",
+      "killteamId": "IMP-INQ",
+      "seq": 112,
+      "opTypeName": "Kasrkin Combat Medic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC, COMBAT MEDIC",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-MDC-HSLG",
+          "opTypeId": "IMP-INQ-KAS24-MDC",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-MDC-HSLG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-MDC-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-MDC-GB",
+          "opTypeId": "IMP-INQ-KAS24-MDC",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-MDC-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-MDC-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-MDC-A-MDC",
+          "opTypeId": "IMP-INQ-KAS24-MDC",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly KASRKIN operative would be removed from the killzone as incapacitated while visible to and within 3\" of this operative,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated and has 1 wound remaining. That friendly operative can then immediately perform a free Dash action, but must end that move within this operative's control range.\nSubtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\nYou cannot use this rule if this operative is incapacitated."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-MDC-MDK",
+          "opTypeId": "IMP-INQ-KAS24-MDC",
+          "abilityName": "Medikit",
+          "AP": 0,
+          "description": "Select one friendly KASRKIN operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-DT",
+      "killteamId": "IMP-INQ",
+      "seq": 113,
+      "opTypeName": "Kasrkin Demo Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, DEMO-TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-DT-HSLP",
+          "opTypeId": "IMP-INQ-KAS24-DT",
+          "seq": 0,
+          "wepName": "Hot-Shot Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-DT-HSLP-0",
+              "wepId": "IMP-INQ-INQ-KAS24-DT-HSLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-DT-GB",
+          "opTypeId": "IMP-INQ-KAS24-DT",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-DT-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-DT-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-DT-A-MM",
+          "opTypeId": "IMP-INQ-KAS24-DT",
+          "abilityName": "Melta Mine",
+          "description": "This operative is carrying your Melta Mine marker.\nIt can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action.\nThat marker cannot be placed within an enemy operative's control range (if this operative is incapacitated while carrying that marker and that marker cannot be placed, it's removed with this operative)."
+        },
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-DT-A-PM",
+          "opTypeId": "IMP-INQ-KAS24-DT",
+          "abilityName": "Proximity Mine",
+          "description": "The first time your Melta Mine marker is within another operative's control range, remove that marker and inflict 2D6+3 damage on that operative;\nif it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-GNR",
+      "killteamId": "IMP-INQ",
+      "seq": 114,
+      "opTypeName": "Kasrkin Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-FL",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-FL-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-GL",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 1,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-GL-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-GL-1",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-HSVG",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 2,
+          "wepName": "Hot-Shot Volley Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-HSVG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-HSVG",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-HSVG-1",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-HSVG",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-MG",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 3,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-MG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-PG",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 4,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-PG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-PG-1",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-GNR-GB",
+          "opTypeId": "IMP-INQ-KAS24-GNR",
+          "seq": 5,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-GNR-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-GNR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-RT",
+      "killteamId": "IMP-INQ",
+      "seq": 115,
+      "opTypeName": "Kasrkin Recon-Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, RECON-TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-RT-HSLG",
+          "opTypeId": "IMP-INQ-KAS24-RT",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-RT-HSLG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-RT-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-RT-GB",
+          "opTypeId": "IMP-INQ-KAS24-RT",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-RT-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-RT-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-RT-AUS",
+          "opTypeId": "IMP-INQ-KAS24-RT",
+          "abilityName": "Auspex Scan",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly KASRKIN operative is shooting an enemy operative within 8\" of this operative, that enemy operative cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-SS",
+      "killteamId": "IMP-INQ",
+      "seq": 116,
+      "opTypeName": "Kasrkin Sharpshooter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SHARPSHOOTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
+          "opTypeId": "IMP-INQ-KAS24-SS",
+          "seq": 0,
+          "wepName": "Hot-Shot Marksman Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-SS-HSMR-0",
+              "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-SS-HSMR-1",
+              "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-SS-HSMR-2",
+              "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-SS-GB",
+          "opTypeId": "IMP-INQ-KAS24-SS",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-SS-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-SS-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-SS-A-CAM",
+          "opTypeId": "IMP-INQ-KAS24-SS",
+          "abilityName": "Camo Cloak",
+          "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-TRP",
+      "killteamId": "IMP-INQ",
+      "seq": 117,
+      "opTypeName": "Kasrkin Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-TRP-HSLG",
+          "opTypeId": "IMP-INQ-KAS24-TRP",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-TRP-HSLG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-TRP-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-TRP-GB",
+          "opTypeId": "IMP-INQ-KAS24-TRP",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-TRP-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-TRP-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-TRP-A-AE",
+          "opTypeId": "IMP-INQ-KAS24-TRP",
+          "abilityName": "Adaptive Equipment",
+          "description": "You can do each of the following once per turning point:\n\n- One friendly KASRKIN TROOPER operative can perform the Smoke Grenade action.\n- One friendly KASRKIN TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e. if you also select those grenades from equipment)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INQ-KAS24-VOX",
+      "killteamId": "IMP-INQ",
+      "seq": 118,
+      "opTypeName": "Kasrkin Vox-Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-VOX-HSLG",
+          "opTypeId": "IMP-INQ-KAS24-VOX",
+          "seq": 0,
+          "wepName": "Hot-Shot Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-VOX-HSLG-0",
+              "wepId": "IMP-INQ-INQ-KAS24-VOX-HSLG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INQ-INQ-KAS24-VOX-GB",
+          "opTypeId": "IMP-INQ-KAS24-VOX",
+          "seq": 1,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INQ-INQ-KAS24-VOX-GB-0",
+              "wepId": "IMP-INQ-INQ-KAS24-VOX-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INQ-INQ-KAS24-VOX-BC",
+          "opTypeId": "IMP-INQ-KAS24-VOX",
+          "abilityName": "Battle Comms",
+          "AP": 1,
+          "description": "Select one other friendly KASRKIN operative. Until the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).\n\n\nThis operative can perform this action twice during its activation, but cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    }
+  ]
+}

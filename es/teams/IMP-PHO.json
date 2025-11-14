@@ -1,0 +1,1240 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-PHO",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_jul25_kt_teamrules_phobos_strike_team-b6ucsxeqii-zz4xcyoa3s.pdf",
+  "killteamName": "Phobos Strike Team",
+  "description": "Masters of stealth and subterfuge, Phobos Strike Teams consist of Space Marine Infiltrators, Incursors and Reivers.\nPossessed of transhuman strength and equipped with a range of explosives, communications equipment and precise weaponry, they are capable of outmanoeuvring and overwhelming enemy forces many times their own size.",
+  "composition": "A PHOBOS STRIKE TEAM KillTeam is composed of:\n\n- 1 PHOBOS STRIKE TEAM operative selected from the following list:\n  - INFILTRATOR SERGEANT\n  - INCURSOR SERGEANT\n  - REIVER SERGEANT with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n- 5 PHOBOS STRIKE TEAM operatives selected from the following list:\n  - INFILTRATOR COMMSMAN\n  - INFILTRATOR HELIX ADEPT\n  - INFILTRATOR SABOTEUR\n  - INFILTRATOR VETERAN\n  - INFILTRATOR VOXBREAKER\n  - INFILTRATOR WARRIOR\n  - INCURSOR MARKSMAN\n  - INCURSOR MINELAYER\n  - INCURSOR WARRIOR\n  - REIVER WARRIOR with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-PHO-S-ATSKNF",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "And They Shall Know No Fear",
+      "description": "You can ignore any changes to the stats of friendly PHOBOS STRIKE TEAM operatives from being injured (including their weapons' stats)."
+    },
+    {
+      "ployId": "IMP-PHO-S-DS",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Deadly Shots",
+      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is shooting during an activation in which it has not performed the Charge, Fall Back or Reposition action, or against an operative that is not in cover and is more than 6\" from it,\r that friendly operative's ranged weapons have the Balanced weapon rule.  \r \r Note that for the first requirement, that operative is not restricted from performing those actions after shooting.  \r **Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-PHO-S-GWF",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Guerrila Warfare",
+      "description": "Friendly PHOBOS STRIKE TEAM operatives can perform the following unique action:  \n\r **Guerrila Warfare (1 AP):**\r Change this operative's order.  \n\r An operative cannot perform this action while within control range of an enemy operative."
+    },
+    {
+      "ployId": "IMP-PHO-S-LA",
+      "killteamId": "IMP-PHO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Lethal Assaults",
+      "description": "Whenever a friendly PHOBOS STRIKE TEAM operative is fighting, its melee weapons have the Balanced weapon rule.\nIf that friendly operative is doing so during an activation in which it performed the Charge action, its melee weapons also have the Lethal 5+ weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-PHO-T-CS",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Critical Shot",
+      "description": "Use this firefight ploy when you resolve a critical success for a friendly PHOBOS STRIKE TEAM operative that is shooting with a bolt weapon. Inflict D3 additional damage."
+    },
+    {
+      "ployId": "IMP-PHO-T-PA",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Patient Ambush",
+      "description": "Use this firefight ploy when it is your turn to activate a friendly operative. You can skip that activation."
+    },
+    {
+      "ployId": "IMP-PHO-T-SA",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Stealth Assault",
+      "description": "Use this firefight ploy when a friendly PHOBOS STRIKE TEAM operative that has a Conceal order is activated, is given an Engage order, performs the Charge and then the Fight action,\nand you're resolving your first attack dice from this activation.\nAfter doing so, you can immediately resolve another of your attack dice (before your opponent). The operative cannot have performed any other actions during this activation (but can do so after resolving this ploy)."
+    },
+    {
+      "ployId": "IMP-PHO-T-TP",
+      "killteamId": "IMP-PHO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Transhuman Physiology",
+      "description": "Use this firefight ploy when an operative is shooting a friendly PHOBOS STRIKE TEAM operative, in the Roll Defence Dice step.\nYou can retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-PHO-PS",
+      "killteamId": "IMP-PHO",
+      "seq": 1,
+      "eqName": "Purity Seals",
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-PHO-AUG",
+      "killteamId": "IMP-PHO",
+      "seq": 2,
+      "eqName": "Additional Utility Grenades",
+      "description": "This equipment allows you to select four utility grenades from the utility grenades equipment (see universal equipment).  \n\nYou cannot also select that equipment as normal (i.e. to give you six).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-PHO-CB",
+      "killteamId": "IMP-PHO",
+      "seq": 3,
+      "eqName": "Combat Blades",
+      "description": "Friendly PHOBOS STRIKE TEAM operatives have the following melee weapon:\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Blade|5|3+|3/4|",
+      "effects": "ADDWEP:Combat Blade|M|5|3+|3/4|"
+    },
+    {
+      "eqId": "IMP-PHO-SIA",
+      "killteamId": "IMP-PHO",
+      "seq": 4,
+      "eqName": "Special Issue Ammunition",
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-PHO-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUBA",
+      "abilityName": "Custom - Balanced",
+      "description": "Custom Bolt Carbine gains the Balanced weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CULE",
+      "abilityName": "Custom - Lethal 5+",
+      "description": "Custom Bolt Carbine gains the Lethal 5+ weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUPICR",
+      "abilityName": "Custom - Piercing Crits 1",
+      "description": "Custom Bolt Carbine gains the Piercing Crits 1 weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CURE",
+      "abilityName": "Custom - Rending",
+      "description": "Custom Bolt Carbine gains the Rending weapon rule."
+    },
+    {
+      "abilityId": "IMP-PHO-TA-CUSA",
+      "abilityName": "Custom - Saturate",
+      "description": "Custom Bolt Carbine gains the Saturate weapon rule."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-PHO-INFSGT",
+      "killteamId": "IMP-PHO",
+      "seq": 1,
+      "opTypeName": "Infiltrator Sergeant",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, INFILTRATOR, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFSGT-MBC",
+          "opTypeId": "IMP-PHO-INFSGT",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFSGT-MBC-0",
+              "wepId": "IMP-PHO-INFSGT-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFSGT-F",
+          "opTypeId": "IMP-PHO-INFSGT",
+          "seq": 0,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFSGT-F-0",
+              "wepId": "IMP-PHO-INFSGT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFSGT-A-OS",
+          "opTypeId": "IMP-PHO-INFSGT",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFSGT-A-TA",
+          "opTypeId": "IMP-PHO-INFSGT",
+          "abilityName": "Tactical Advantage",
+          "description": "You can do each of the following once per battle:\n\n- When rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n- You can use a firefight ploy for 0CP if this is the specified PHOBOS STRIKE TEAM operative (including Command Re-roll if the attack or defence dice was rolled for this operative),\nor the Patient Ambush firefight ploy for 0CP if this operative is ready and not within control range of enemy operatives.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFCOM",
+      "killteamId": "IMP-PHO",
+      "seq": 2,
+      "opTypeName": "Infiltrator Commsman",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, COMMSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFCOM-MBC",
+          "opTypeId": "IMP-PHO-INFCOM",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFCOM-MBC-0",
+              "wepId": "IMP-PHO-INFCOM-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFCOM-F",
+          "opTypeId": "IMP-PHO-INFCOM",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFCOM-F-0",
+              "wepId": "IMP-PHO-INFCOM-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFCOM-A-CA",
+          "opTypeId": "IMP-PHO-INFCOM",
+          "abilityName": "Comms Array",
+          "description": "Once per turning point, during a friendly PHOBOS STRIKE TEAM operative's activation or counteraction, before or after it performs an action,\nif this operative is in the killzone, you can change one strategy ploy you have used this turning point (it does not cost you any CP to do so)."
+        },
+        {
+          "abilityId": "IMP-PHO-INFCOM-A-OS",
+          "opTypeId": "IMP-PHO-INFCOM",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFCOM-A-SA",
+          "opTypeId": "IMP-PHO-INFCOM",
+          "abilityName": "Strategic Oversight",
+          "description": "In the Ready step of each Strategy phase, when you gain CP, if this operative is in the killzone and not within control range of enemy operatives, you can use this rule.\nIf you do, roll one D6: on a 4+, you gain one additional CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFHEL",
+      "killteamId": "IMP-PHO",
+      "seq": 3,
+      "opTypeName": "Infiltrator Helix Adept",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, MEDIC, INFILTRATOR, HELIX ADEPT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFHEL-MBC",
+          "opTypeId": "IMP-PHO-INFHEL",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFHEL-MBC-0",
+              "wepId": "IMP-PHO-INFHEL-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFHEL-F",
+          "opTypeId": "IMP-PHO-INFHEL",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFHEL-F-0",
+              "wepId": "IMP-PHO-INFHEL-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFHEL-A-MDC",
+          "opTypeId": "IMP-PHO-INFHEL",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly PHOBOS STRIKE TEAM operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative is not incapacitated, has 1D3 wounds remaining, and cannot be incapacitated for the remainder of that action.  \n\r After that action, that friendly operative can immediately perform a free Dash action, but must end that move with this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "IMP-PHO-INFHEL-A-OS",
+          "opTypeId": "IMP-PHO-INFHEL",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFHEL-HG",
+          "opTypeId": "IMP-PHO-INFHEL",
+          "abilityName": "Helix Gauntlet",
+          "AP": 1,
+          "description": "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFSAB",
+      "killteamId": "IMP-PHO",
+      "seq": 4,
+      "opTypeName": "Infiltrator Saboteur",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, SABOTEUR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFSAB-MBC",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFSAB-MBC-0",
+              "wepId": "IMP-PHO-INFSAB-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFSAB-RD",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "seq": 1,
+          "wepName": "Remote Detonator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFSAB-RD-0",
+              "wepId": "IMP-PHO-INFSAB-RD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFSAB-F",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFSAB-F-0",
+              "wepId": "IMP-PHO-INFSAB-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFSAB-A-DET",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "abilityName": "*Detonate",
+          "description": "Don't select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured.\nRoll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Explosives marker is not in the killzone.\nAt the end of the action, remove your Explosives marker from the killzone."
+        },
+        {
+          "abilityId": "IMP-PHO-INFSAB-A-OS",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFSAB-A-PE",
+          "opTypeId": "IMP-PHO-INFSAB",
+          "abilityName": "Plant Explosives",
+          "description": "This operative is carrying your Explosives marker.\nIt can perform the Pick Up Marker action on that marker, and whenever it performs the Place Marker action on that marker, it can immediately perform a free Dash action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFVET",
+      "killteamId": "IMP-PHO",
+      "seq": 5,
+      "opTypeName": "Infiltrator Veteran",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, VETERAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFVET-CBC",
+          "opTypeId": "IMP-PHO-INFVET",
+          "seq": 0,
+          "wepName": "Custom Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFVET-CBC-0",
+              "wepId": "IMP-PHO-INFVET-CBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-IMP-PHO-CUSTOM"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFVET-F",
+          "opTypeId": "IMP-PHO-INFVET",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFVET-F-0",
+              "wepId": "IMP-PHO-INFVET-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFVET-A-OS",
+          "opTypeId": "IMP-PHO-INFVET",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFVOX",
+      "killteamId": "IMP-PHO",
+      "seq": 6,
+      "opTypeName": "Infiltrator Voxbreaker",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, VOXBREAKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFVOX-MBC",
+          "opTypeId": "IMP-PHO-INFVOX",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFVOX-MBC-0",
+              "wepId": "IMP-PHO-INFVOX-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFVOX-F",
+          "opTypeId": "IMP-PHO-INFVOX",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFVOX-F-0",
+              "wepId": "IMP-PHO-INFVOX-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFVOX-A-OS",
+          "opTypeId": "IMP-PHO-INFVOX",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFVOX-A-VB",
+          "opTypeId": "IMP-PHO-INFVOX",
+          "abilityName": "Voxbreak",
+          "description": "Whenever an enemy operative is within 6\" of this operative, your opponent cannot re-roll their attack or defence dice for that operative."
+        },
+        {
+          "abilityId": "IMP-PHO-INFVOX-SCAN",
+          "opTypeId": "IMP-PHO-INFVOX",
+          "abilityName": "Auspex Scan",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,\nthat enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INFWAR",
+      "killteamId": "IMP-PHO",
+      "seq": 7,
+      "opTypeName": "Infiltrator Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INFILTRATOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INFWAR-MBC",
+          "opTypeId": "IMP-PHO-INFWAR",
+          "seq": 0,
+          "wepName": "Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFWAR-MBC-0",
+              "wepId": "IMP-PHO-INFWAR-MBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INFWAR-F",
+          "opTypeId": "IMP-PHO-INFWAR",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INFWAR-F-0",
+              "wepId": "IMP-PHO-INFWAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INFWAR-A-OS",
+          "opTypeId": "IMP-PHO-INFWAR",
+          "abilityName": "Omni-Scrambler",
+          "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-INFWAR-A-VG",
+          "opTypeId": "IMP-PHO-INFWAR",
+          "abilityName": "Vanguard",
+          "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INCSGT",
+      "killteamId": "IMP-PHO",
+      "seq": 8,
+      "opTypeName": "Incursor Sergeant",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, INCURSOR, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INCSGT-OBC",
+          "opTypeId": "IMP-PHO-INCSGT",
+          "seq": 0,
+          "wepName": "Occulus Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCSGT-OBC-0",
+              "wepId": "IMP-PHO-INCSGT-OBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INCSGT-F",
+          "opTypeId": "IMP-PHO-INCSGT",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCSGT-F-0",
+              "wepId": "IMP-PHO-INCSGT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INCSGT-A-MSA",
+          "opTypeId": "IMP-PHO-INCSGT",
+          "abilityName": "Multi-Spectrum Array",
+          "description": "Whenever a friendly INCURSOR operative is shooting, enemy operatives cannot be obscured."
+        },
+        {
+          "abilityId": "IMP-PHO-INCSGT-A-TA",
+          "opTypeId": "IMP-PHO-INCSGT",
+          "abilityName": "Tactical Advantage",
+          "description": "You can do each of the following once per battle:\n\n- When rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n- You can use a firefight ploy for 0CP if this is the specified PHOBOS STRIKE TEAM operative (including Command Re-roll if the attack or defence dice was rolled for this operative),\nor the Patient Ambush firefight ploy for 0CP if this operative is ready and not within control range of enemy operatives.\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INCMARK",
+      "killteamId": "IMP-PHO",
+      "seq": 9,
+      "opTypeName": "Incursor Marksman",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, MARKSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INCMARK-SMBC",
+          "opTypeId": "IMP-PHO-INCMARK",
+          "seq": 0,
+          "wepName": "Stalker Marksman Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCMARK-SMBC-0",
+              "wepId": "IMP-PHO-INCMARK-SMBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INCMARK-F",
+          "opTypeId": "IMP-PHO-INCMARK",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCMARK-F-0",
+              "wepId": "IMP-PHO-INCMARK-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INCMARK-A-MSA",
+          "opTypeId": "IMP-PHO-INCMARK",
+          "abilityName": "Multi-Spectrum Array",
+          "description": "Whenever a friendly INCURSOR operative is shooting, enemy operatives cannot be obscured."
+        },
+        {
+          "abilityId": "IMP-PHO-INCMARK-A-TT",
+          "opTypeId": "IMP-PHO-INCMARK",
+          "abilityName": "Track Target",
+          "description": "This operative can perform the Guard action (see close quarters rules, Kill Team Core Book) in any killzone.\nIt can perform the Guard action while it has a Conceal order, but when you perform the free Shoot or Fight action during the interruption, you must change its order to Engage."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INCML",
+      "killteamId": "IMP-PHO",
+      "seq": 10,
+      "opTypeName": "Incursor Minelayer",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, MINELAYER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INCML-OBC",
+          "opTypeId": "IMP-PHO-INCML",
+          "seq": 0,
+          "wepName": "Occulus Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCML-OBC-0",
+              "wepId": "IMP-PHO-INCML-OBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INCML-F",
+          "opTypeId": "IMP-PHO-INCML",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCML-F-0",
+              "wepId": "IMP-PHO-INCML-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INCML-A-HW",
+          "opTypeId": "IMP-PHO-INCML",
+          "abilityName": "Haywire Mine",
+          "description": "This operative is carrying your Haywire Mine marker.\nIt can perform the Pick Up Marker action on that marker, but that marker cannot be placed within an enemy operative's control range\n(if this operative is incapacitated while carrying that marker and that marker cannot be placed, it is removed with this operative)."
+        },
+        {
+          "abilityId": "IMP-PHO-INCML-A-MSA",
+          "opTypeId": "IMP-PHO-INCML",
+          "abilityName": "Multi-Spectrum Array",
+          "description": "Whenever a friendly INCURSOR operative is shooting, enemy operatives cannot be obscured."
+        },
+        {
+          "abilityId": "IMP-PHO-INCML-A-PM",
+          "opTypeId": "IMP-PHO-INCML",
+          "abilityName": "Proximity Mine",
+          "description": "The first time your Haywire Mine marker is within another operative's control range,\nremove that marker, subtract 1 from that operative's APL stat until the end of its next activation, and inflict 2D3+3 damage on it;\nif it is not incapacitated, end its action (if any), even if that action's effects aren't fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-INCWAR",
+      "killteamId": "IMP-PHO",
+      "seq": 11,
+      "opTypeName": "Incursor Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, INCURSOR, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-INCWAR-OBC",
+          "opTypeId": "IMP-PHO-INCWAR",
+          "seq": 0,
+          "wepName": "Occulus Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCWAR-OBC-0",
+              "wepId": "IMP-PHO-INCWAR-OBC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-INCWAR-F",
+          "opTypeId": "IMP-PHO-INCWAR",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-INCWAR-F-0",
+              "wepId": "IMP-PHO-INCWAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-INCWAR-A-MSA",
+          "opTypeId": "IMP-PHO-INCWAR",
+          "abilityName": "Multi-Spectrum Array",
+          "description": "Whenever a friendly INCURSOR operative is shooting, enemy operatives cannot be obscured."
+        },
+        {
+          "abilityId": "IMP-PHO-INCWAR-A-VG",
+          "opTypeId": "IMP-PHO-INCWAR",
+          "abilityName": "Vanguard",
+          "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-RVRSGT",
+      "killteamId": "IMP-PHO",
+      "seq": 12,
+      "opTypeName": "Reiver Sergeant",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, LEADER, REIVER, SERGEANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-RVRSGT-BC",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "seq": 0,
+          "wepName": "Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRSGT-BC-0",
+              "wepId": "IMP-PHO-RVRSGT-BC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-ACCURATE",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRSGT-SIBP",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "seq": 1,
+          "wepName": "Special Issue Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRSGT-SIBP-0",
+              "wepId": "IMP-PHO-RVRSGT-SIBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRSGT-CK",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "seq": 2,
+          "wepName": "Combat Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRSGT-CK-0",
+              "wepId": "IMP-PHO-RVRSGT-CK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRSGT-F",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRSGT-F-0",
+              "wepId": "IMP-PHO-RVRSGT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-RVRSGT-A-GCGL",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "abilityName": "Grav-Chute and Grapnel Launcher",
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
+        },
+        {
+          "abilityId": "IMP-PHO-RVRSGT-A-TA",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "abilityName": "Tactical Advantage",
+          "description": "You can do each of the following once per battle:\n\n- When rolling-off to decide initiative, if this operative is in the killzone, you can re-roll your dice.\n- You can use a firefight ploy for 0CP if this is the specified PHOBOS STRIKE TEAM operative (including Command Re-roll if the attack or defence dice was rolled for this operative),\nor the Patient Ambush firefight ploy for 0CP if this operative is ready and not within control range of enemy operatives.\n"
+        },
+        {
+          "abilityId": "IMP-PHO-RVRSGT-A-TER",
+          "opTypeId": "IMP-PHO-RVRSGT",
+          "abilityName": "Terror",
+          "description": "Whenever an enemy operative is within 3\" of friendly REIVER operatives, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.  \n\nWhenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of friendly REIVER operatives.\nNote this is not a change to the APL stat, so any changes are cumulative with this."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-PHO-RVRWAR",
+      "killteamId": "IMP-PHO",
+      "seq": 13,
+      "opTypeName": "Reiver Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "PHOBOS STRIKE TEAM, IMPERIUM, ADEPTUS ASTARTES, REIVER, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-PHO-RVRWAR-BC",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "seq": 0,
+          "wepName": "Bolt Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRWAR-BC-0",
+              "wepId": "IMP-PHO-RVRWAR-BC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-ACCURATE",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRWAR-SIBP",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "seq": 1,
+          "wepName": "Special Issue Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRWAR-SIBP-0",
+              "wepId": "IMP-PHO-RVRWAR-SIBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRWAR-CK",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "seq": 2,
+          "wepName": "Combat Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRWAR-CK-0",
+              "wepId": "IMP-PHO-RVRWAR-CK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-PHO-RVRWAR-F",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-PHO-RVRWAR-F-0",
+              "wepId": "IMP-PHO-RVRWAR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-PHO-RVRWAR-A-GCGL",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "abilityName": "Grav-Chute and Grapnel Launcher",
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
+        },
+        {
+          "abilityId": "IMP-PHO-RVRWAR-A-TER",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "abilityName": "Terror",
+          "description": "Whenever an enemy operative is within 3\" of friendly REIVER operatives, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.  \n\nWhenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of friendly REIVER operatives.\nNote this is not a change to the APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "IMP-PHO-RVRWAR-A-VG",
+          "opTypeId": "IMP-PHO-RVRWAR",
+          "abilityName": "Vanguard",
+          "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
+        }
+      ]
+    }
+  ]
+}

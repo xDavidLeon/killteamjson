@@ -1,0 +1,1140 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-SANC",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_sanctifiers-kqblpr59bo-aoqltet5bi.pdf",
+  "killteamName": "Sanctifiers",
+  "description": "As the Great Gun reloads and its hallowed ammunition is transported across Hive Fissilicus, great processions of pilgrims and preachers accompany these holy relics to their final assembly points. They are far from a peaceful congregation, and any who seek to disrupt the great Day of Firing will find themselves lit by the flames and faith wielded by the Sanctifiers.",
+  "composition": "A SANCTIFIER kill team is composed of:\n\n- 1 SANCTIFIER CONFESSOR\n- 1 SANCTIFIER CHERUB\n- 9 SANCTIFIER operatives selected from the following list:\n  - CONFLAGRATOR\n  - DEATH CULT ASSASSIN\n  - DRILL ABBOT\n  - MIRACULIST\n  - MISSIONARY with one of the following options:\n    - Ministorum flamer; brazier of holy fire\n    - Ministorum flamer; gun butt; holy relic\n  - MISSIONARY with one of the following options:\n    - Meltagun; chainsword; holy relic\n    - Plasma gun; chainsword; brazier of holy fire\n  - PERSECUTOR\n  - PREACHER\n  - RELIQUANT\n  - SALVATIONIST\n\nOther than PREACHER operatives, your kill team can only include each operative above once.  \n\nYour kill team can only include up to four PREACHER operatives.  \n\nYou cannot select an option that includes a brazier of holy fire more than once per battle.",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-SANC-S-FB",
+      "killteamId": "IMP-SANC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Fervent Brawl",
+      "description": "Whenever a friendly SANCTIFIER operative that's benefitting from the SERMON is fighting or retaliating, its melee weapons have the Ceaseless weapon rule."
+    },
+    {
+      "ployId": "IMP-SANC-S-RTF",
+      "killteamId": "IMP-SANC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Rally The Flock",
+      "description": "Each friendly SANCTIFIER operative (excluding ORATOR) that's benefitting from the SERMON can immediately perform a free Dash or Fall Back action in an order of your choice (choose separately for each and, for the latter, it cannot move more than 3\").\nEach that does so must end that move closer and visible to (or vice versa) a friendly ORATOR operative. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "IMP-SANC-S-TEP",
+      "killteamId": "IMP-SANC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "The Emperor Protects",
+      "description": "Whenever an operative is shooting a friendly SANCTIFIER operative that's benefitting from the SERMON, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
+    },
+    {
+      "ployId": "IMP-SANC-S-ZB",
+      "killteamId": "IMP-SANC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Zealous Persecution",
+      "description": "Whenever a friendly SANCTIFIER operative is fighting during an activation in which it performed the Charge action, its melee weapons have the Lethal 5+ weapon rule."
+    },
+    {
+      "ployId": "IMP-SANC-T-AE",
+      "killteamId": "IMP-SANC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Ardent Eradication",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly SANCTIFIER operative, if it's shooting against or fighting against an enemy operative that's within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR).\nYou can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "IMP-SANC-T-RF",
+      "killteamId": "IMP-SANC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Redeemed Through Fire",
+      "description": "Use this firefight ploy when a friendly SANCTIFIER operative that has a weapon with the Blaze weapon rule is incapacitated, before it's removed from the killzone.\nEach enemy operative visible to and within 2\" of it gains one of your Blaze tokens (if it doesn't already have one)."
+    },
+    {
+      "ployId": "IMP-SANC-T-ROS",
+      "killteamId": "IMP-SANC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Rosarius",
+      "description": "Use this firefight ploy when an attack dice inflicts Normal Dmg on a friendly SANCTIFIER operative. Ignore that inflicted damage."
+    },
+    {
+      "ployId": "IMP-SANC-T-UWD",
+      "killteamId": "IMP-SANC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unwavering Devotion",
+      "description": "Use this firefight ploy when a friendly SANCTIFIER ORATOR or SANCTIFIER MIRACULIST operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\nSelect one other friendly SANCTIFIER operative (excluding CONFESSOR, MIRACULIST and ORATOR) visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate)\ninstead (even if it wouldn't normally be valid for this).\nIf it's the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action.\nIf it's the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\nThis ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-SANC-SO",
+      "killteamId": "IMP-SANC",
+      "seq": 1,
+      "eqName": "Sanctification Orbs",
+      "description": "Once per turning point, one friendly SANCTIFIER operative (excluding CHERUB, DEATH CULT ASSASSIN and MIRACULIST) can perform the following unique action:  \n\n**SANCTIFICATION ORB (1AP):**\n\n- Select one enemy operative visible to and within 6\" of this operative. That operative and each other enemy operative within 1\" of it takes a doused test.\nFor an operative to take a doused test, roll one D6: on a 3+, it gains one of your Doused tokens.\n- Whenever a friendly SANCTIFIER operative is shooting against an operative that has one of your Doused tokens with a weapon that has the Blaze weapon rule, that weapon also has the Seek weapon rule.\n- After a friendly SANCTIFIER operative uses a weapon that has the Blaze weapon rule against an enemy operative that has one of your Doused tokens, remove that token (even if the Seek weapon rule wasn't used).  \n\n- This operative cannot perform this action while within control range of an enemy operative.\n",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SANC-PS",
+      "killteamId": "IMP-SANC",
+      "seq": 2,
+      "eqName": "Purity Seals",
+      "description": "Once per turning point, when a friendly SANCTIFIER operative is shooting or fighting, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SANC-ET",
+      "killteamId": "IMP-SANC",
+      "seq": 3,
+      "eqName": "Ecclesiarchy Texts",
+      "description": "In the Ready step of each Strategy phase, roll 3D6: if the result is less than the remaining wounds of a friendly ORATOR operative, you gain 1CP.\nNote that this is done before the Gambit step, so if there isn't a valid ORATOR operative, you cannot use this rule during that turning point (e.g. during the first turning point).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-SANC-ICS",
+      "killteamId": "IMP-SANC",
+      "seq": 4,
+      "eqName": "Imperial Cult Symbols",
+      "description": "Once per turning point, when an operative is shooting a friendly SANCTIFIER operative that's benefitting from the SERMON, when you collect your defence dice, you can use this rule.\nIf you do, change one of the attacker's retained critical successes to a normal success (any weapon rules they've already resolved aren't affected, e.g. Piercing Crits).",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-SANC-TA-MISE",
+      "abilityName": "Ministorum Sermon",
+      "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-SANC-CFS",
+      "killteamId": "IMP-SANC",
+      "seq": 1,
+      "opTypeName": "Sanctifier Confessor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, LEADER, CONFESSOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-CFS-MOC",
+          "opTypeId": "IMP-SANC-CFS",
+          "seq": 1,
+          "wepName": "Mace of Censure",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-CFS-MOC-0",
+              "wepId": "IMP-SANC-CFS-MOC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-CFS-A-CD",
+          "opTypeId": "IMP-SANC-CFS",
+          "abilityName": "Commanding Declamation",
+          "description": "Whenever an enemy operative would perform an action during an activation or counteraction while visible to and within 6\" of this operative, you can use this rule.\nIf you do, roll one D6: if the result is higher than that enemy operative's APL stat:\n\n- It cannot perform that action during that activation/counteraction (the AP spent on it isn't refunded). If it's a counteraction, that counteraction ends.\n- You cannot use this rule again during the battle.\n"
+        },
+        {
+          "abilityId": "IMP-SANC-CFS-A-LTP",
+          "opTypeId": "IMP-SANC-CFS",
+          "abilityName": "Lead The Procession",
+          "description": "In each turning point after the first, whenever this operative is an ORATOR and performs the Charge, Fall Back or Reposition action during its activation, you can use this rule before it moves. If you do, determine each other friendly SANCTIFIER operative that's benefitting from the SERMON and is visible to this operative (or vice versa).\r After this operative ends that action, each of those friendly SANCTIFIER operatives can immediately perform a free Charge, Fall Back or Reposition action in an order of your choice (choose separately for each), but each cannot move more than 3\" and must end that move in a location where they are still benefitting from the SERMON.\r If this operative is incapacitated before this rule is fully resolved, e.g. from the Guard action's interruption (see close quarters rules, Kill Team Core Book), don't remove it from the killzone until this rule has been resolved."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-CRB",
+      "killteamId": "IMP-SANC",
+      "seq": 2,
+      "opTypeName": "Sanctifier Cherub",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, CHERUB",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-CRB-INC",
+          "opTypeId": "IMP-SANC-CRB",
+          "seq": 1,
+          "wepName": "Incentiviser",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-CRB-INC-0",
+              "wepId": "IMP-SANC-CRB-INC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-CRB-A-CRB",
+          "opTypeId": "IMP-SANC-CRB",
+          "abilityName": "Cherub",
+          "description": "\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Vantage terrain).\n- This operative cannot use any weapons that aren't on its datacard, or perform unique actions other than Incentivise.\n"
+        },
+        {
+          "abilityId": "IMP-SANC-CRB-A-FLY",
+          "opTypeId": "IMP-SANC-CRB",
+          "abilityName": "Fly",
+          "description": "Whenever this operative is performing the Charge, Fall Back or Reposition action, it can FLY. If it does, don't move it.\nInstead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through Wall terrain).\nNote that it gains no additional distance when performing the Charge action. It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
+        },
+        {
+          "abilityId": "IMP-SANC-CRB-INC",
+          "opTypeId": "IMP-SANC-CRB",
+          "abilityName": "Incentivise",
+          "AP": 1,
+          "description": "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-CFG",
+      "killteamId": "IMP-SANC",
+      "seq": 3,
+      "opTypeName": "Sanctifier Conflagrator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, CONFLAGRATOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-CFG-THF",
+          "opTypeId": "IMP-SANC-CFG",
+          "seq": 1,
+          "wepName": "Twin Hand Flamers",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-CFG-THF-0",
+              "wepId": "IMP-SANC-CFG-THF",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-SANC-CFG-THF-1",
+              "wepId": "IMP-SANC-CFG-THF",
+              "seq": 1,
+              "profileName": "Twin Torrent",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 0
+                },
+                {
+                  "id": "WR-IMP-SANC-TWIN"
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-CFG-GB",
+          "opTypeId": "IMP-SANC-CFG",
+          "seq": 2,
+          "wepName": "Gun Butts",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-CFG-GB-0",
+              "wepId": "IMP-SANC-CFG-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-CFG-A-SR",
+          "opTypeId": "IMP-SANC-CFG",
+          "abilityName": "Sanctification Rack",
+          "description": "This operative can perform the Sanctification Orb action (see faction equipment). Doing so in this manner doesn't count towards the once per turning point limit (i.e. if you also select that equipment for other operatives)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-ASS",
+      "killteamId": "IMP-SANC",
+      "seq": 4,
+      "opTypeName": "Sanctifier Cult Assassin",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, DEATH CULT ASSASSIN",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-ASS-TK",
+          "opTypeId": "IMP-SANC-ASS",
+          "seq": 1,
+          "wepName": "Throwing Knives",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-ASS-TK-0",
+              "wepId": "IMP-SANC-ASS-TK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-ASS-RB",
+          "opTypeId": "IMP-SANC-ASS",
+          "seq": 2,
+          "wepName": "Ritual Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-ASS-RB-0",
+              "wepId": "IMP-SANC-ASS-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-ASS-A-BS",
+          "opTypeId": "IMP-SANC-ASS",
+          "abilityName": "Bladed Stance",
+          "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+        },
+        {
+          "abilityId": "IMP-SANC-ASS-TA",
+          "opTypeId": "IMP-SANC-ASS",
+          "abilityName": "Trained Assassin",
+          "AP": 1,
+          "description": "Change this operative's order.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-ABB",
+      "killteamId": "IMP-SANC",
+      "seq": 5,
+      "opTypeName": "Sanctifier Drill Abbot",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, DRILL ABBOT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-ABB-GH",
+          "opTypeId": "IMP-SANC-ABB",
+          "seq": 1,
+          "wepName": "Great Hammer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-ABB-GH-0",
+              "wepId": "IMP-SANC-ABB-GH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-ABB-A-NS",
+          "opTypeId": "IMP-SANC-ABB",
+          "abilityName": "Null Skull",
+          "description": "Whenever an enemy operative is within 4\" of this operative, that enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has). If an enemy operative that's more than 4\" from this operative has a positive APL stat change and your opponent spends its final AP to move that operative within 4\" of this operative, this can cause your opponent to have spent more AP than its APL stat - this is permitted in this situation."
+        },
+        {
+          "abilityId": "IMP-SANC-ABB-A-SPD",
+          "opTypeId": "IMP-SANC-ABB",
+          "abilityName": "Schola Progenium Disciplinarian",
+          "description": "Whenever a friendly SANCTIFIER operative is within 6\" of this operative, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-PER",
+      "killteamId": "IMP-SANC",
+      "seq": 6,
+      "opTypeName": "Sanctifier Persecutor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, PERSECUTOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-PER-HF",
+          "opTypeId": "IMP-SANC-PER",
+          "seq": 1,
+          "wepName": "Hand Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-PER-HF-0",
+              "wepId": "IMP-SANC-PER-HF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-PER-EV",
+          "opTypeId": "IMP-SANC-PER",
+          "seq": 2,
+          "wepName": "Eviscerator",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-PER-EV-0",
+              "wepId": "IMP-SANC-PER-EV",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-PER-A-FR",
+          "opTypeId": "IMP-SANC-PER",
+          "abilityName": "Fanatical Retribution",
+          "description": "If this operative is incapacitated during the Fight action, you can strike the enemy operative in that sequence with one of your unresolved successes before this operative is removed from the killzone."
+        },
+        {
+          "abilityId": "IMP-SANC-PER-A-MC",
+          "opTypeId": "IMP-SANC-PER",
+          "abilityName": "Merciless Castigation",
+          "description": "The first time this operative performs the Fight action during each of its activations, if neither it nor the enemy operative in that sequence is incapacitated, this operative can immediately perform a free Fight action afterwards, but you cannot select any other enemy operative to fight against during that action (and only if it's still valid to fight against).\nThis takes precedence over action restrictions."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-MIR",
+      "killteamId": "IMP-SANC",
+      "seq": 7,
+      "opTypeName": "Sanctifier Miraculist",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, MIRACULIST",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-MIR-HL",
+          "opTypeId": "IMP-SANC-MIR",
+          "seq": 1,
+          "wepName": "Holy Light",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIR-HL-0",
+              "wepId": "IMP-SANC-MIR-HL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIR-WIF",
+          "opTypeId": "IMP-SANC-MIR",
+          "seq": 2,
+          "wepName": "Wreath In Fire",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIR-WIF-0",
+              "wepId": "IMP-SANC-MIR-WIF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-WREATHED"
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIR-BH",
+          "opTypeId": "IMP-SANC-MIR",
+          "seq": 3,
+          "wepName": "Burning Hands",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIR-BH-0",
+              "wepId": "IMP-SANC-MIR-BH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "1",
+              "HIT": "2+",
+              "DMG": "7/8",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIR-F",
+          "opTypeId": "IMP-SANC-MIR",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIR-F-0",
+              "wepId": "IMP-SANC-MIR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "1",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-MIR-A-MIR",
+          "opTypeId": "IMP-SANC-MIR",
+          "abilityName": "Miracle",
+          "description": "The first time this operative would be incapacitated during the battle, it's not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating), then this operative can immediately perform a free Dash or Fall Back action (for the latter, it cannot move more than 3\"), even if it's performed an action that prevents it from performing those actions."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-MIS",
+      "killteamId": "IMP-SANC",
+      "seq": 8,
+      "opTypeName": "Sanctifier Missionary",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, MISSIONARY",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-MIS-BOHFR",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 1,
+          "wepName": "Brazier Of Holy Fire",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-BOHFR-0",
+              "wepId": "IMP-SANC-MIS-BOHFR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-MG",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 2,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-MG-0",
+              "wepId": "IMP-SANC-MIS-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-MF",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 3,
+          "wepName": "Ministorum Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-MF-0",
+              "wepId": "IMP-SANC-MIS-MF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-PG",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 4,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-PG-0",
+              "wepId": "IMP-SANC-MIS-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-SANC-MIS-PG-1",
+              "wepId": "IMP-SANC-MIS-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-BOHFM",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 5,
+          "wepName": "Brazier Of Holy Fire",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-BOHFM-0",
+              "wepId": "IMP-SANC-MIS-BOHFM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-CS",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 6,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-CS-0",
+              "wepId": "IMP-SANC-MIS-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-MIS-GB",
+          "opTypeId": "IMP-SANC-MIS",
+          "seq": 7,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-MIS-GB-0",
+              "wepId": "IMP-SANC-MIS-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-MIS-A-HR",
+          "opTypeId": "IMP-SANC-MIS",
+          "abilityName": "Holy Relic",
+          "description": " If this operative has a holy relic, it's always benefitting from the SERMON"
+        },
+        {
+          "abilityId": "IMP-SANC-MIS-A-STWOTGE",
+          "opTypeId": "IMP-SANC-MIS",
+          "abilityName": "Spread The Word Of The God-Emperor",
+          "description": "Whenever this operative is more than 6\" from other friendly operatives, its weapons have the Severe weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-PRC",
+      "killteamId": "IMP-SANC",
+      "seq": 9,
+      "opTypeName": "Sanctifier Preacher",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, PREACHER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-PRC-HF",
+          "opTypeId": "IMP-SANC-PRC",
+          "seq": 1,
+          "wepName": "Hand Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-PRC-HF-0",
+              "wepId": "IMP-SANC-PRC-HF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-PRC-CS",
+          "opTypeId": "IMP-SANC-PRC",
+          "seq": 2,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-PRC-CS-0",
+              "wepId": "IMP-SANC-PRC-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-PRC-A-DTF",
+          "opTypeId": "IMP-SANC-PRC",
+          "abilityName": "Defend The Faith",
+          "description": "Whenever this operative contests an objective marker, it's benefitting from the SERMON."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-REL",
+      "killteamId": "IMP-SANC",
+      "seq": 10,
+      "opTypeName": "Sanctifier Reliquant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, RELIQUANT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-REL-HF",
+          "opTypeId": "IMP-SANC-REL",
+          "seq": 1,
+          "wepName": "Hand Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-REL-HF-0",
+              "wepId": "IMP-SANC-REL-HF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                },
+                {
+                  "id": "WR-IMP-SANC-BLAZE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-SANC-REL-GB",
+          "opTypeId": "IMP-SANC-REL",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-REL-GB-0",
+              "wepId": "IMP-SANC-REL-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-REL-A-CI",
+          "opTypeId": "IMP-SANC-REL",
+          "abilityName": "Cult Icon",
+          "description": "Whenever determining control of a marker within 4\" of this operative, treat the total APL stat of friendly SANCTIFIER operatives that contest it as 1 higher if at least one friendly SANCTIFIER operative contests that marker.\nNote this isn't a change to the APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "IMP-SANC-REL-A-ICD",
+          "opTypeId": "IMP-SANC-REL",
+          "abilityName": "Imperial Cult Devotion",
+          "description": "Once per turning point, when a ready friendly SANCTIFIER operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\r If you do, before that operative is removed from the killzone, it can perform one free action (excluding Fight), and you can change its order to do so.\r It's then removed from the killzone as normal."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-SANC-SAL",
+      "killteamId": "IMP-SANC",
+      "seq": 11,
+      "opTypeName": "Sanctifier Salvationist",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "SANCTIFIER, IMPERIUM, ADEPTUS MINISTORUM, SALVATIONIST",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-SANC-SAL-SS",
+          "opTypeId": "IMP-SANC-SAL",
+          "seq": 1,
+          "wepName": "Soulstave",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SANC-SAL-SS-0",
+              "wepId": "IMP-SANC-SAL-SS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-SANC-SAL-A-CF",
+          "opTypeId": "IMP-SANC-SAL",
+          "abilityName": "Conversion Field",
+          "description": "Whenever an operative more than 6\" from this operative is shooting a friendly SANCTIFIER operative within 6\" of this operative, improve that friendly operative's Save stat by 1."
+        },
+        {
+          "abilityId": "IMP-SANC-SAL-MED",
+          "opTypeId": "IMP-SANC-SAL",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.\r   \nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    }
+  ]
+}

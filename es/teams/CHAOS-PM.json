@@ -1,0 +1,775 @@
+{
+  "factionId": "CHAOS",
+  "killteamId": "CHAOS-PM",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_plague_marines-aq5mhbmkrk-yuzqskgscs.pdf",
+  "killteamName": "Plague Marines",
+  "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
+  "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-PM-S-COF",
+      "killteamId": "CHAOS-PM",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cloud Of Flies",
+      "description": "Place one of your Cloud of Flies markers in the killzone.\r Whenever an operative is shooting a friendly PLAGUE MARINE operative that is more than 3\" from it, if that friendly operative is wholly within 1\" of that marker,\r that friendly operative is obscured. In the Ready step of the next Strategy phase, remove that marker."
+    },
+    {
+      "ployId": "CHAOS-PM-S-CONT",
+      "killteamId": "CHAOS-PM",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Contagion",
+      "description": "Subtract 2\" from the Move stat of an enemy operative and worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured) whenever any of the following are true:\r \r - It has one of your Poison tokens and is visible to (or vice versa) and within 3\" of friendly PLAGUE MARINE operatives.\r - It is visible to (or vice versa) and within 3\" of a friendly PLAGUE MARINE ICON BEARER operative.\r "
+    },
+    {
+      "ployId": "CHAOS-PM-S-LD",
+      "killteamId": "CHAOS-PM",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Lumbering Death",
+      "description": "Whenever a friendly PLAGUE MARINE operative is shooting or fighting during an activation in which it has not moved more than 3\", or whenever it is retaliating, its weapons have the Ceaseless weapon rule.<hr/>\n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "CHAOS-PM-S-NURG",
+      "killteamId": "CHAOS-PM",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Nurglings",
+      "description": "Select one enemy operative within 3\" of a friendly PLAGUE MARINE operative, or one enemy operative that has one of your Poison tokens and is within 7\" of a friendly PLAGUE MARINE operative.\nUntil the end of the selected operative's next activation, subtract 1 from its APL stat."
+    },
+    {
+      "ployId": "CHAOS-PM-T-COR",
+      "killteamId": "CHAOS-PM",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Curse Of Rot",
+      "description": "Use this firefight ploy when a friendly PLAGUE MARINE operative is fighting against or shooting against an enemy operative within 3\" of it (or within 7\" of it if that enemy operative has one of your Poison tokens),\nafter your opponent rolls their attack or defence dice. For each result of 3 they roll, inflict 1 damage on that enemy operative, that result is treated as a fail and they cannot re-roll it."
+    },
+    {
+      "ployId": "CHAOS-PM-T-PD",
+      "killteamId": "CHAOS-PM",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Poisonous Demise",
+      "description": "Use this firefight ploy when a friendly PLAGUE MARINE operative is incapacitated, before it is removed from the killzone. Each enemy operative visible to and within 3\" of that operative gains one of your Poison tokens (if they don't already have one);\r for each of those enemy operatives that already has one of your Poison tokens (including if they gained one during this action), inflict 1 damage on them instead."
+    },
+    {
+      "ployId": "CHAOS-PM-T-SR",
+      "killteamId": "CHAOS-PM",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Sickening Resilience",
+      "description": "Use this firefight ploy when an attack dice inflicts damage on a friendly PLAGUE MARINE operative.\nUntil the end of the activation/counteraction, for the purposes of the Disgustingly Resilient rule for that operative, always subtract 1 from the damage inflicted (to a minimum of 2) - you do not need to roll."
+    },
+    {
+      "ployId": "CHAOS-PM-T-VP",
+      "killteamId": "CHAOS-PM",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Virulent Poison",
+      "description": "Use this firefight ploy during a friendly PLAGUE MARINE operative's activation or counteraction, before or after it performs an action.\nSelect one of the following:\n\n- One enemy operative within 3\" of that operative gains one of your Poison tokens (if it does not already have one).\n- Roll 2D6: if the result is 7+, one enemy operative within 7\" of that operative gains one of your Poison tokens (if it does not already have one).\n"
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-PM-PB",
+      "killteamId": "CHAOS-PM",
+      "seq": 1,
+      "eqName": "Plague Bells",
+      "description": "You can ignore any changes to the stats of friendly PLAGUE MARINE operatives from being injured (including their weapons' stats).",
+      "effects": "NOINJ"
+    },
+    {
+      "eqId": "CHAOS-PM-BG",
+      "killteamId": "CHAOS-PM",
+      "seq": 2,
+      "eqName": "Blight Grenades",
+      "description": "Friendly PLAGUE MARINE operatives have the following ranged weapon (you cannot select it for use more than twice during the battle):\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Blight Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Range 6\", Blast 2\", Saturate, Severe, *Poison|",
+      "effects": "ADDWEP:Blight Grenade|R|4|4+|2/4|Range 6\", Blast 2\", Saturate, Severe, *Poison"
+    },
+    {
+      "eqId": "CHAOS-PM-PR",
+      "killteamId": "CHAOS-PM",
+      "seq": 3,
+      "eqName": "Plague Rounds",
+      "description": "Friendly PLAGUE MARINE operatives' boltguns and bolt pistols have the Poison and Severe weapon rules.",
+      "effects": "wepid:BG,BP|WR:*Poison, Severe"
+    },
+    {
+      "eqId": "CHAOS-PM-PV",
+      "killteamId": "CHAOS-PM",
+      "seq": 4,
+      "eqName": "Poison Vents",
+      "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1).",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-PM-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-PM-TA-DIRE",
+      "abilityName": "Disgustingly Resilient",
+      "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "CHAOS-PM-CHAMP",
+      "killteamId": "CHAOS-PM",
+      "seq": 1,
+      "opTypeName": "Plague Marine Champion",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 15,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, LEADER, CHAMPION",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-CHAMP-PP",
+          "opTypeId": "CHAOS-PM-CHAMP",
+          "seq": 1,
+          "wepName": "Plasma Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-CHAMP-PP-0",
+              "wepId": "CHAOS-PM-CHAMP-PP",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "CHAOS-PM-CHAMP-PP-1",
+              "wepId": "CHAOS-PM-CHAMP-PP",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-CHAMP-PS",
+          "opTypeId": "CHAOS-PM-CHAMP",
+          "seq": 2,
+          "wepName": "Plague Sword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-CHAMP-PS-0",
+              "wepId": "CHAOS-PM-CHAMP-PS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                },
+                {
+                  "id": "WR-CHAOS-PM-TOXIC"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-CHAMP-A-GB",
+          "opTypeId": "CHAOS-PM-CHAMP",
+          "abilityName": "Grandfather's Blessing",
+          "description": "Whenever an enemy operative that has one of your Poison tokens loses one or more wounds within 7\" of this operative, this operative regains up to an equal number of lost wounds (to a maximum of 3 lost wounds per turning point,\r and only if this operative isn't incapacitated)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-PM-MAL",
+      "killteamId": "CHAOS-PM",
+      "seq": 2,
+      "opTypeName": "Malignant Plaguecaster",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, PSYKER, MALIGNANT PLAGUECASTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-MAL-ENT",
+          "opTypeId": "CHAOS-PM-MAL",
+          "seq": 1,
+          "wepName": "Entropy",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-MAL-ENT-0",
+              "wepId": "CHAOS-PM-MAL-ENT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 7
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-MAL-PW",
+          "opTypeId": "CHAOS-PM-MAL",
+          "seq": 2,
+          "wepName": "Plague Wind",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-MAL-PW-0",
+              "wepId": "CHAOS-PM-MAL-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-MAL-CS",
+          "opTypeId": "CHAOS-PM-MAL",
+          "seq": 3,
+          "wepName": "Corrupted Staff",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-MAL-CS-0",
+              "wepId": "CHAOS-PM-MAL-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-MAL-PM",
+          "opTypeId": "CHAOS-PM-MAL",
+          "abilityName": "Poisonous Miasma",
+          "AP": 1,
+          "description": "**PSYCHIC**\nSelect one enemy operative visible to and within 7\" of this operative, or one enemy operative that's a valid target for this operative.\nThat enemy operative gains one of your Poison tokens (if it does not already have one). If it already has one, inflict 3 damage on that enemy operative instead.  \n\nAn operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "CHAOS-PM-MAL-PV",
+          "opTypeId": "CHAOS-PM-MAL",
+          "abilityName": "Putrescent Vitality",
+          "AP": 1,
+          "description": "**PSYCHIC**\r Select one friendly operative visible to and within 3\" of this operative, then roll 2D6: if the result is 7, the selected operative regains 7 lost wounds; otherwise, the selected operative regains lost wounds equal to the highest D6.  \n\r An operative cannot perform this action while within control range of an enemy operative, or more than once per Turning Point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-PM-BOMB",
+      "killteamId": "CHAOS-PM",
+      "seq": 3,
+      "opTypeName": "Plague Marine Bombardier",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, BOMBARDIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-BOMB-BG",
+          "opTypeId": "CHAOS-PM-BOMB",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-BOMB-BG-0",
+              "wepId": "CHAOS-PM-BOMB-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-BOMB-BGR",
+          "opTypeId": "CHAOS-PM-BOMB",
+          "seq": 3,
+          "wepName": "Blight Grenade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-BOMB-BGR-0",
+              "wepId": "CHAOS-PM-BOMB-BGR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                },
+                {
+                  "id": "WR-CHAOS-PM-TOXIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-BOMB-F",
+          "opTypeId": "CHAOS-PM-BOMB",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-BOMB-F-0",
+              "wepId": "CHAOS-PM-BOMB-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-BOMB-KG",
+          "opTypeId": "CHAOS-PM-BOMB",
+          "seq": 4,
+          "wepName": "Krak Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-BOMB-KG-0",
+              "wepId": "CHAOS-PM-BOMB-KG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-BOMB-A-GRN",
+          "opTypeId": "CHAOS-PM-BOMB",
+          "abilityName": "Grenadier",
+          "description": "This operative can use blight and krak grenades (see faction and universal equipment).\nDoing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it's doing so, improve the Hit stat of that weapon by 1 and blight grenades have the Toxic weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-PM-FTR",
+      "killteamId": "CHAOS-PM",
+      "seq": 4,
+      "opTypeName": "Plague Marine Fighter",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, FIGHTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-FTR-FOC",
+          "opTypeId": "CHAOS-PM-FTR",
+          "seq": 1,
+          "wepName": "Flail Of Corruption",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-FTR-FOC-0",
+              "wepId": "CHAOS-PM-FTR-FOC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-FTR-FL",
+          "opTypeId": "CHAOS-PM-FTR",
+          "abilityName": "Flail",
+          "AP": 1,
+          "description": "Inflict D3+2 damage on each other operative that's both visible to and within 2\" of this operative. Roll separately for each: if it's an enemy operative, if the D3 result is a 3, that enemy operative also gains one of your Poison tokens (if it doesn't already have one).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it has performed more than one Fight action, and it cannot perform more than one Fight action during an activation in which it performs this action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-PM-HGNR",
+      "killteamId": "CHAOS-PM",
+      "seq": 5,
+      "opTypeName": "Plague Marine Heavy Gunner",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, HEAVY GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-HGNR-PS",
+          "opTypeId": "CHAOS-PM-HGNR",
+          "seq": 1,
+          "wepName": "Plague Spewer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-HGNR-PS-0",
+              "wepId": "CHAOS-PM-HGNR-PS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 7
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-HGNR-F",
+          "opTypeId": "CHAOS-PM-HGNR",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-HGNR-F-0",
+              "wepId": "CHAOS-PM-HGNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-PM-IB",
+      "killteamId": "CHAOS-PM",
+      "seq": 6,
+      "opTypeName": "Plague Marine Icon Bearer",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, ICON BEARER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-IB-BP",
+          "opTypeId": "CHAOS-PM-IB",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-IB-BP-0",
+              "wepId": "CHAOS-PM-IB-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-IB-PK",
+          "opTypeId": "CHAOS-PM-IB",
+          "seq": 2,
+          "wepName": "Plague Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-IB-PK-0",
+              "wepId": "CHAOS-PM-IB-PK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-IB-A-IB",
+          "opTypeId": "CHAOS-PM-IB",
+          "abilityName": "Icon Bearer",
+          "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
+        },
+        {
+          "abilityId": "CHAOS-PM-IB-A-IOC",
+          "opTypeId": "CHAOS-PM-IB",
+          "abilityName": "Icon Of Contagion",
+          "description": "Whenever this operative is within your opponent's territory, the Contagion strategy ploy costs you 0CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-PM-WAR",
+      "killteamId": "CHAOS-PM",
+      "seq": 7,
+      "opTypeName": "Plague Marine Warrior",
+      "MOVE": "5\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "PLAGUE MARINE, CHAOS, HERETIC ASTARTES, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-WAR-BG",
+          "opTypeId": "CHAOS-PM-WAR",
+          "seq": 1,
+          "wepName": "Boltgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-WAR-BG-0",
+              "wepId": "CHAOS-PM-WAR-BG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-CHAOS-PM-TOXIC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-WAR-PK",
+          "opTypeId": "CHAOS-PM-WAR",
+          "seq": 2,
+          "wepName": "Plague Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-WAR-PK-0",
+              "wepId": "CHAOS-PM-WAR-PK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-PM-WAR-A-RF",
+          "opTypeId": "CHAOS-PM-WAR",
+          "abilityName": "Repulsive Fortitude",
+          "description": "Whenever an operative is shooting this operative, defence dice results of 5+ are critical successes."
+        }
+      ]
+    }
+  ]
+}

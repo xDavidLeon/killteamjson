@@ -1,0 +1,454 @@
+{
+  "factionId": "SPEC",
+  "killteamId": "SPEC-NPO",
+  "version": "",
+  "file": "",
+  "killteamName": "Non-Player Operatives",
+  "description": "Non-player operatives for joint operations in KT2024.",
+  "composition": "",
+  "archetypes": [],
+  "ploys": [],
+  "equipments": [],
+  "opTypes": [
+    {
+      "opTypeId": "SPEC-NPO-BR-TRP",
+      "killteamId": "SPEC-NPO",
+      "seq": 1,
+      "opTypeName": "Brawler Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-BR-TRP-B",
+          "opTypeId": "SPEC-NPO-BR-TRP",
+          "seq": 0,
+          "wepName": "Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-BR-TRP-B-0",
+              "wepId": "SPEC-NPO-BR-TRP-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-BR-TRP-A-BEH",
+          "opTypeId": "SPEC-NPO-BR-TRP",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-BR-TGH",
+      "killteamId": "SPEC-NPO",
+      "seq": 2,
+      "opTypeName": "Brawler Tough",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 10,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-BR-TGH-B",
+          "opTypeId": "SPEC-NPO-BR-TGH",
+          "seq": 0,
+          "wepName": "Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-BR-TGH-B-0",
+              "wepId": "SPEC-NPO-BR-TGH-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-BR-TGH-A-BEH",
+          "opTypeId": "SPEC-NPO-BR-TGH",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-BR-HVY",
+      "killteamId": "SPEC-NPO",
+      "seq": 3,
+      "opTypeName": "Brawler Heavy",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-BR-HVY-B",
+          "opTypeId": "SPEC-NPO-BR-HVY",
+          "seq": 0,
+          "wepName": "Blades",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-BR-HVY-B-0",
+              "wepId": "SPEC-NPO-BR-HVY-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-BR-HVY-A-2F",
+          "opTypeId": "SPEC-NPO-BR-HVY",
+          "abilityName": "Double Fight",
+          "description": "This operative can perform two Fight actions during its activation."
+        },
+        {
+          "abilityId": "SPEC-NPO-BR-HVY-A-BEH",
+          "opTypeId": "SPEC-NPO-BR-HVY",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-MM-TRP",
+      "killteamId": "SPEC-NPO",
+      "seq": 4,
+      "opTypeName": "Marksman Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-MM-TRP-FA",
+          "opTypeId": "SPEC-NPO-MM-TRP",
+          "seq": 0,
+          "wepName": "Firearm",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-TRP-FA-0",
+              "wepId": "SPEC-NPO-MM-TRP-FA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NPO-MM-TRP-SW",
+          "opTypeId": "SPEC-NPO-MM-TRP",
+          "seq": 1,
+          "wepName": "Special Weapon",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-TRP-SW-0",
+              "wepId": "SPEC-NPO-MM-TRP-SW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NPO-MM-TRP-K",
+          "opTypeId": "SPEC-NPO-MM-TRP",
+          "seq": 2,
+          "wepName": "Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-TRP-K-0",
+              "wepId": "SPEC-NPO-MM-TRP-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-MM-TRP-A-BEH",
+          "opTypeId": "SPEC-NPO-MM-TRP",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+        },
+        {
+          "abilityId": "SPEC-NPO-MM-TRP-A-SW",
+          "opTypeId": "SPEC-NPO-MM-TRP",
+          "abilityName": "Special Weapon",
+          "description": "Only 1 in 3 Marksman Trooper operatives can have this weapon."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-MM-WAR",
+      "killteamId": "SPEC-NPO",
+      "seq": 5,
+      "opTypeName": "Marksman Warrior",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-MM-WAR-FA",
+          "opTypeId": "SPEC-NPO-MM-WAR",
+          "seq": 0,
+          "wepName": "Firearm",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-WAR-FA-0",
+              "wepId": "SPEC-NPO-MM-WAR-FA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NPO-MM-WAR-K",
+          "opTypeId": "SPEC-NPO-MM-WAR",
+          "seq": 1,
+          "wepName": "Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-WAR-K-0",
+              "wepId": "SPEC-NPO-MM-WAR-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-MM-WAR-A-BEH",
+          "opTypeId": "SPEC-NPO-MM-WAR",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-MM-HVY",
+      "killteamId": "SPEC-NPO",
+      "seq": 6,
+      "opTypeName": "Marksman Heavy",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 14,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-MM-HVY-FA",
+          "opTypeId": "SPEC-NPO-MM-HVY",
+          "seq": 0,
+          "wepName": "Firearm",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-HVY-FA-0",
+              "wepId": "SPEC-NPO-MM-HVY-FA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NPO-MM-HVY-K",
+          "opTypeId": "SPEC-NPO-MM-HVY",
+          "seq": 1,
+          "wepName": "Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-MM-HVY-K-0",
+              "wepId": "SPEC-NPO-MM-HVY-K",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-MM-HVY-A-2R",
+          "opTypeId": "SPEC-NPO-MM-HVY",
+          "abilityName": "Double Shoot",
+          "description": "This operative can perform two Shoot actions during its activation."
+        },
+        {
+          "abilityId": "SPEC-NPO-MM-HVY-A-BEH",
+          "opTypeId": "SPEC-NPO-MM-HVY",
+          "abilityName": "Behaviour",
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NPO-SNP",
+      "killteamId": "SPEC-NPO",
+      "seq": 7,
+      "opTypeName": "Sniper",
+      "MOVE": "-",
+      "APL": 0,
+      "SAVE": "3+",
+      "WOUNDS": 12,
+      "keywords": "",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "SPEC-NPO-SNP-SNP",
+          "opTypeId": "SPEC-NPO-SNP",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-SNP-SNP-0",
+              "wepId": "SPEC-NPO-SNP-SNP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NPO-SNP-GB",
+          "opTypeId": "SPEC-NPO-SNP",
+          "seq": 2,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NPO-SNP-GB-0",
+              "wepId": "SPEC-NPO-SNP-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NPO-SNP-A-BEH",
+          "opTypeId": "SPEC-NPO-SNP",
+          "abilityName": "Behavior",
+          "description": "This operative cannot move, have an Engage order, be readied or be activated. Whenever an NPO would activate, if this operative has reloaded (see below) and there's a valid target for it, perform the Shoot action with this operative instead of activating an NPO, then it has no longer reloaded."
+        },
+        {
+          "abilityId": "SPEC-NPO-SNP-A-REL",
+          "opTypeId": "SPEC-NPO-SNP",
+          "abilityName": "Reload",
+          "description": "In the Ready step of each Strategy phase, this operative has reloaded. Each time after this operative performs the Shoot action, roll one D6: after a number of player operatives have been activated this turning point equal to the result, this operative has reloaded."
+        },
+        {
+          "abilityId": "SPEC-NPO-SNP-A-SN",
+          "opTypeId": "SPEC-NPO-SNP",
+          "abilityName": "Sniper's Nest",
+          "description": "Whenever this operative is shooting, operatives cannot be obscured. Whenever determining visibility from this operative (but not to it), the line can also be drawn from any part of the Vantage terrain it's on, or the rampart touching that Vantage terrain."
+        }
+      ]
+    }
+  ]
+}

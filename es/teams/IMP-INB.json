@@ -1,0 +1,1238 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-INB",
+  "version": "July '25",
+  "file": "https://assets.warhammer-community.com/eng_jul25_kt_teamrules_imperial_navy_breachers-fe9o3l2nhv-whpv6kllcr.pdf",
+  "killteamName": "Imperial Navy Breachers",
+  "description": "Counted amongst the complement of many Navis Imperialis vessels, Navy Breachers are elite Voidsmen who are outfitted, trained and endlessly drilled in boarding actions and void-based combat. Wielding a wide array of cutting gear, boarding shields and close-range weapons, they are well-suited to deadly combat in close confines.",
+  "composition": "An IMPERIAL NAVY BREACHERS killteam is composed of:\n- 1 IMPERIAL NAVY BREACHER SERGEANT-AT-ARMS operative with the following:  \n  - Navis shotgun and Navis hatchet  \n  Or one option from each of the following:  \n  - Bolt pistol or heirloom autopistol\n  - Chainsword or power weapon\n- 10 IMPERIAL NAVY BREACHER operatives selected from the following list:\n  - ARMSMAN\n  - AXEJACK\n  - C.A.T. UNIT\n  - ENDURANT\n  - GHEISTSKULL\n  - GRENADIER\n  - GUNNER with Navis las-volley and gun butt\n  - GUNNER with meltagun and gun butt\n  - GUNNER with plasma gun and gun butt\n  - HATCHCUTTER\n  - SURVEYOR\n  - VOID-JAMMER\n\nOther than ARMSMAN operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two GUNNER operatives.  \n\nYour kill team can only include a GHEISTSKULL operative if it also includes a VOID-JAMMER operative, and it can only include a C.A.T. UNIT operative if it also includes a SURVEYOR operative.  \n\nThese operatives count as half a selection each, meaning you can select both of them and it's treated as one selection in total.",
+  "archetypes": [
+    "Security",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-INB-S-AO",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Attack Order",
+      "description": "Place your Attack Order marker in the killzone. Whenever a friendly IMPERIAL NAVY BREACHER operative within 3\" of that marker is shooting, fighting or retaliating, its weapons have the Ceaseless weapon rule.\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Defence Order strategy ploy in the same Strategy phase.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "IMP-INB-S-BFCA",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Brace For Counterattack",
+      "description": "Whenever an operative is shooting against, fighting against or retaliating against a friendly IMPERIAL NAVY BREACHER operative that is within your territory or that hasn't performed the Charge, Fall Back or Reposition action during this turning point,\r Normal and Critical Dmg of 3 or more inflicts 1 less damage on that friendly operative."
+    },
+    {
+      "ployId": "IMP-INB-S-CA",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Close Assault",
+      "description": "Whenever a friendly IMPERIAL NAVY BREACHER operative is fighting or shooting an operative within 3\" of it, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+    },
+    {
+      "ployId": "IMP-INB-S-DO",
+      "killteamId": "IMP-INB",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Defence Order",
+      "description": "Place your Defence Order marker in the killzone. Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative that's within 3\" of that marker, you can re-roll any of your defence dice results of one result (e.g. results of 2).\nIn the Ready step of the next Strategy phase, remove that marker. You cannot use this ploy and the Attack Order strategy ploy in the same Strategy phase."
+    },
+    {
+      "ployId": "IMP-INB-T-BL",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Blitz",
+      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative performs the Shoot or Fight action, and you select an enemy operative within 6\" of it as a valid target or to fight against.\nIf it's the first friendly operative to perform either of those actions during this turning point, its weapons have the Accurate 1 weapon rule for that action.\nIf it's the first friendly operative to be activated during this turning point, its weapons also have the Severe weapon rule for that action.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+    },
+    {
+      "ployId": "IMP-INB-T-DH",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Deck Hand",
+      "description": "Use this firefight ploy during a friendly IMPERIAL NAVY BREACHER operative's activation, before or after it performs an action.\r That operative can move through one Accessible terrain feature without it counting as an additional 1\" and/or perform a free Operate Hatch action during its activation, and can do so during the Charge or Fall Back action.\r You cannot use this ploy if the access point has been welded shut (see HATCHCUTTER operative) unless it's a friendly HATCHCUTTER operative's activation."
+    },
+    {
+      "ployId": "IMP-INB-T-LID",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Lock it Down",
+      "description": "Use this firefight ploy when a friendly IMPERIAL NAVY BREACHER operative is activated. Select one objective marker.\nUntil the end of the battle or until you use this ploy again (whichever comes first), when determining control of that objective marker, treat that friendly operative's APL stat as 1 higher.\nNote this isn't a change to the APL stat, so any changes are cumulative with this."
+    },
+    {
+      "ployId": "IMP-INB-T-OT",
+      "killteamId": "IMP-INB",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Overwhelm Target",
+      "description": "Use this firefight ploy when you use the Breach and Clear faction rule. Select one of those friendly IMPERIAL NAVY BREACHER operatives. Until the end of that operative's activation, add 1 to its APL stat."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-INB-RB",
+      "killteamId": "IMP-INB",
+      "seq": 1,
+      "eqName": "Rebreathers",
+      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INB-SL",
+      "killteamId": "IMP-INB",
+      "seq": 2,
+      "eqName": "Slugs",
+      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-INB-CS",
+      "killteamId": "IMP-INB",
+      "seq": 3,
+      "eqName": "Combat Stimms",
+      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured.",
+      "effects": "NOINJMOV"
+    },
+    {
+      "eqId": "IMP-INB-SORD",
+      "killteamId": "IMP-INB",
+      "seq": 4,
+      "eqName": "System Override Device",
+      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-INB-TA-BRANCL",
+      "abilityName": "Breach And Clear",
+      "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
+    },
+    {
+      "abilityId": "IMP-INB-TA-VOAR",
+      "abilityName": "Void Armour",
+      "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-INB-SGT",
+      "killteamId": "IMP-INB",
+      "seq": 0,
+      "opTypeName": "Navis Sergeant-At-Arms",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, LEADER, NAVIS, SERGEANT-AT-ARMS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-SGT-BP",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 0,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-BP-0",
+              "wepId": "IMP-INB-SGT-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SGT-HAP",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 1,
+          "wepName": "Heirloom Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-HAP-0",
+              "wepId": "IMP-INB-SGT-HAP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SGT-NS",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 2,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-NS-0",
+              "wepId": "IMP-INB-SGT-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-SGT-NS-1",
+              "wepId": "IMP-INB-SGT-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SGT-CS",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 3,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-CS-0",
+              "wepId": "IMP-INB-SGT-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SGT-NH",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 4,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-NH-0",
+              "wepId": "IMP-INB-SGT-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SGT-PW",
+          "opTypeId": "IMP-INB-SGT",
+          "seq": 5,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SGT-PW-0",
+              "wepId": "IMP-INB-SGT-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-SGT-A-CB",
+          "opTypeId": "IMP-INB-SGT",
+          "abilityName": "Command Breach",
+          "description": "Whenever you would use the Attack Order or Defence Order strategy ploy, if this operative is in the killzone, it costs you 0CP.\nOnce during each of this operative's activations, before or after it performs an action, if your Attack Order or Defence Order marker is in the killzone (see relevant strategy ploy), you can either:\n\n- Remove that marker and place it again.\n- Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n\nYou cannot do both, and you don't need to spend any CP to change the ploy."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-ARM",
+      "killteamId": "IMP-INB",
+      "seq": 1,
+      "opTypeName": "Navis Armsman",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-ARM-NS",
+          "opTypeId": "IMP-INB-ARM",
+          "seq": 0,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-ARM-NS-0",
+              "wepId": "IMP-INB-ARM-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-ARM-NS-1",
+              "wepId": "IMP-INB-ARM-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-ARM-NH",
+          "opTypeId": "IMP-INB-ARM",
+          "seq": 1,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-ARM-NH-0",
+              "wepId": "IMP-INB-ARM-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-ARM-A-GA",
+          "opTypeId": "IMP-INB-ARM",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate one other ready friendly IMPERIAL NAVY BREACHER ARMSMAN operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).\nIgnore this rule when you are using the Breach and Clear faction rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-AXE",
+      "killteamId": "IMP-INB",
+      "seq": 2,
+      "opTypeName": "Navis Axejack",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-AXE-AP",
+          "opTypeId": "IMP-INB-AXE",
+          "seq": 0,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-AXE-AP-0",
+              "wepId": "IMP-INB-AXE-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-AXE-PW",
+          "opTypeId": "IMP-INB-AXE",
+          "seq": 1,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-AXE-PW-0",
+              "wepId": "IMP-INB-AXE-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-AXE-A-EMB",
+          "opTypeId": "IMP-INB-AXE",
+          "abilityName": "Emboldened",
+          "description": "Whenever an attack dice inflicts damage of 3 or more on this operative during a turning point in which it performed the Charge action, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-CAT",
+      "killteamId": "IMP-INB",
+      "seq": 3,
+      "opTypeName": "Navis C.A.T. Unit",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
+      "basesize": 32,
+      "weapons": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-CAT-A-EXP",
+          "opTypeId": "IMP-INB-CAT",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\r It's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by an enemy operative (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "IMP-INB-CAT-A-MAC",
+          "opTypeId": "IMP-INB-CAT",
+          "abilityName": "Machine",
+          "description": "\r - This operative cannot be activated or perform actions if it's within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER SURVEYOR operative has been incapacitated. The turning point can end even if this operative is still ready.\r - This operative cannot perform any actions other than Charge, Dash, Fall Back, Reposition and Spot.\r - It cannot retaliate, assist in a fight, climb or jump.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever determining what's visible to this operative, draw the line from any part of the miniature.\r "
+        },
+        {
+          "abilityId": "IMP-INB-CAT-SPT",
+          "opTypeId": "IMP-INB-CAT",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),\nwhenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-END",
+      "killteamId": "IMP-INB",
+      "seq": 4,
+      "opTypeName": "Navis Endurant",
+      "MOVE": "4\"",
+      "APL": 2,
+      "SAVE": "2+",
+      "WOUNDS": 11,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-END-NHS",
+          "opTypeId": "IMP-INB-END",
+          "seq": 0,
+          "wepName": "Navis Heavy Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-END-NHS-0",
+              "wepId": "IMP-INB-END-NHS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-END-NHS-1",
+              "wepId": "IMP-INB-END-NHS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-END-SB",
+          "opTypeId": "IMP-INB-END",
+          "seq": 1,
+          "wepName": "Shield Bash",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-END-SB-0",
+              "wepId": "IMP-INB-END-SB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "1/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-CHAOS-BLD-SHIELD"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-END-A-BW",
+          "opTypeId": "IMP-INB-END",
+          "abilityName": "Breachwall",
+          "description": "Whenever your opponent is selecting a valid target, they cannot select another friendly IMPERIAL NAVY BREACHER operative whose base is touching this operative's if this operative has an Engage order and is intervening.\nThis rule has no effect if more than one other friendly operative's base is touching this operative's."
+        },
+        {
+          "abilityId": "IMP-INB-END-A-DIS",
+          "opTypeId": "IMP-INB-END",
+          "abilityName": "Disengage",
+          "description": "This operative can perform the Fall Back action for 1 less AP."
+        },
+        {
+          "abilityId": "IMP-INB-END-A-SH",
+          "opTypeId": "IMP-INB-END",
+          "abilityName": "*Shield",
+          "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-GS",
+      "killteamId": "IMP-INB",
+      "seq": 5,
+      "opTypeName": "Navis Gheistskull",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
+      "basesize": 32,
+      "weapons": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-GS-A-EXP",
+          "opTypeId": "IMP-INB-GS",
+          "abilityName": "Expendable",
+          "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\r It's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
+        },
+        {
+          "abilityId": "IMP-INB-GS-A-MAC",
+          "opTypeId": "IMP-INB-GS",
+          "abilityName": "Machine",
+          "description": "\r - This operative cannot perform any actions other than Boost, Charge, Dash, Fall Back and Reposition.\r - It cannot retaliate or assist in a fight.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r "
+        },
+        {
+          "abilityId": "IMP-INB-GS-BST",
+          "opTypeId": "IMP-INB-GS",
+          "abilityName": "Boost",
+          "AP": 1,
+          "description": "Until the end of the activation, add 6\" to this operative's Move stat.  \n\nThis operative can only perform this action once per battle, and cannot perform it during the first turning point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-GRN",
+      "killteamId": "IMP-INB",
+      "seq": 6,
+      "opTypeName": "Navis Grenadier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-GRN-DC",
+          "opTypeId": "IMP-INB-GRN",
+          "seq": 0,
+          "wepName": "Demolition Charge",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GRN-DC-0",
+              "wepId": "IMP-INB-GRN-DC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GRN-NS",
+          "opTypeId": "IMP-INB-GRN",
+          "seq": 1,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GRN-NS-0",
+              "wepId": "IMP-INB-GRN-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-GRN-NS-1",
+              "wepId": "IMP-INB-GRN-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GRN-NH",
+          "opTypeId": "IMP-INB-GRN",
+          "seq": 2,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GRN-NH-0",
+              "wepId": "IMP-INB-GRN-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GRN-FG",
+          "opTypeId": "IMP-INB-GRN",
+          "seq": 3,
+          "wepName": "Frag Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GRN-FG-0",
+              "wepId": "IMP-INB-GRN-FG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GRN-KG",
+          "opTypeId": "IMP-INB-GRN",
+          "seq": 4,
+          "wepName": "Krak Grenade",
+          "wepType": "E",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GRN-KG-0",
+              "wepId": "IMP-INB-GRN-KG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-GRN-A-GRN",
+          "opTypeId": "IMP-INB-GRN",
+          "abilityName": "Grenadier",
+          "description": "This operative can use frag, krak and stun grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-GNR",
+      "killteamId": "IMP-INB",
+      "seq": 7,
+      "opTypeName": "Navis Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-GNR-MG",
+          "opTypeId": "IMP-INB-GNR",
+          "seq": 0,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GNR-MG-0",
+              "wepId": "IMP-INB-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GNR-NLV",
+          "opTypeId": "IMP-INB-GNR",
+          "seq": 1,
+          "wepName": "Navis Las-Volley",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GNR-NLV-0",
+              "wepId": "IMP-INB-GNR-NLV",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-GNR-NLV-1",
+              "wepId": "IMP-INB-GNR-NLV",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GNR-PG",
+          "opTypeId": "IMP-INB-GNR",
+          "seq": 2,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GNR-PG-0",
+              "wepId": "IMP-INB-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-GNR-PG-1",
+              "wepId": "IMP-INB-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-GNR-GB",
+          "opTypeId": "IMP-INB-GNR",
+          "seq": 3,
+          "wepName": "Gun Butt",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-GNR-GB-0",
+              "wepId": "IMP-INB-GNR-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-INB-HC",
+      "killteamId": "IMP-INB",
+      "seq": 8,
+      "opTypeName": "Navis Hatchcutter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-HC-AP",
+          "opTypeId": "IMP-INB-HC",
+          "seq": 0,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-HC-AP-0",
+              "wepId": "IMP-INB-HC-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-HC-CF",
+          "opTypeId": "IMP-INB-HC",
+          "seq": 1,
+          "wepName": "Chainfist",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-HC-CF-0",
+              "wepId": "IMP-INB-HC-CF",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-HC-BP",
+          "opTypeId": "IMP-INB-HC",
+          "abilityName": "Breach Point",
+          "AP": 1,
+          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+        },
+        {
+          "abilityId": "IMP-INB-HC-WS",
+          "opTypeId": "IMP-INB-HC",
+          "abilityName": "Weld Shut",
+          "AP": 1,
+          "description": "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.\nThis effect ends when that hatchway is opened. Note this operative isn't affected by this effect.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-SRV",
+      "killteamId": "IMP-INB",
+      "seq": 9,
+      "opTypeName": "Navis Surveyor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-SRV-NS",
+          "opTypeId": "IMP-INB-SRV",
+          "seq": 0,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SRV-NS-0",
+              "wepId": "IMP-INB-SRV-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-SRV-NS-1",
+              "wepId": "IMP-INB-SRV-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-SRV-NH",
+          "opTypeId": "IMP-INB-SRV",
+          "seq": 1,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-SRV-NH-0",
+              "wepId": "IMP-INB-SRV-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-SRV-RC",
+          "opTypeId": "IMP-INB-SRV",
+          "abilityName": "Remote Control",
+          "AP": 1,
+          "description": "Select one friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative. That operative can immediately perform one free action, but it cannot move more than 3\" during that action.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative isn't in the killzone."
+        },
+        {
+          "abilityId": "IMP-INB-SRV-WF",
+          "opTypeId": "IMP-INB-SRV",
+          "abilityName": "Wayfind",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.\nUntil the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-INB-VJ",
+      "killteamId": "IMP-INB",
+      "seq": 10,
+      "opTypeName": "Navis Void-Jammer",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-INB-VJ-GD",
+          "opTypeId": "IMP-INB-VJ",
+          "seq": 0,
+          "wepName": "Gheistskull Detonator",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-VJ-GD-0",
+              "wepId": "IMP-INB-VJ-GD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-IMP-DKK-DETONATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-VJ-NS",
+          "opTypeId": "IMP-INB-VJ",
+          "seq": 1,
+          "wepName": "Navis Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-VJ-NS-0",
+              "wepId": "IMP-INB-VJ-NS",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-INB-VJ-NS-1",
+              "wepId": "IMP-INB-VJ-NS",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-INB-VJ-NH",
+          "opTypeId": "IMP-INB-VJ",
+          "seq": 2,
+          "wepName": "Navis Hatchet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-INB-VJ-NH-0",
+              "wepId": "IMP-INB-VJ-NH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-INB-VJ-A-DET",
+          "opTypeId": "IMP-INB-VJ",
+          "abilityName": "*Detonate",
+          "description": "Don't select a valid target. Instead, a friendly IMPERIAL NAVY BREACHER GHEISTSKULL operative is always the primary target and cannot be in cover or obscured. If that operative isn't in the killzone, you cannot select this weapon."
+        },
+        {
+          "abilityId": "IMP-INB-VJ-IP",
+          "opTypeId": "IMP-INB-VJ",
+          "abilityName": "Interference Pulse",
+          "AP": 1,
+          "description": "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:\non a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
+        }
+      ]
+    }
+  ]
+}

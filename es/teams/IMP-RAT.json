@@ -1,0 +1,1322 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-RAT",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_ratlings-bdusz3zdoo-cefopbx4bl.pdf",
+  "killteamName": "Ratlings",
+  "description": "Though less resilient than their baseline Human comrades, Ratlings are naturally excellent shots. It is said that Ratling marksmen can take the head off a Heretic from over a kilometre away. Coupled with their knack for staying out of harm's way, this makes Ratlings formidable snipers who can exact a withering toll upon superior enemy forces. ",
+  "composition": "A RATLING KillTeam is composed of:\n\n- 1 RATLING FIXER operative with one of the following options:  \n  - Battle Rifle, Fists\n  - Sniper Rifle, Fists\n- 10 RATLING operatives selected from the following list:\n  - BATTLEMUTT\n  - BULLGRYN* with one from each of the following:\n    - Grenadier Gauntlet or Power Maul\n    - Brute Shield or Slabshield  \n  - OGRYN*\n  - BIG SHOT\n  - BOMBER\n  - HARDBIT\n  - RAIDER\n  - SNEAK\n  - SNIPER\n  - SPOTTER\n  - STASHMASTER\n  - VOX-THIEF\n\n*You cannot select more than three of these operatives combined. Up to three times, instead of selecting one of these operatives, you can select one RATLING ploy to cost you 0CP for the battle.  \n\nOther than BULLGRYN, OGRYN, and SNIPER operatives, your KillTeam can only include each operative above once.",
+  "archetypes": [
+    "Security",
+    "Infiltration"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-RAT-S-CS",
+      "killteamId": "IMP-RAT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Crack Shots",
+      "description": "Whenever a friendly RATLING operative is shooting an enemy operative more than 6\" from it, if that friendly operative has not performed the Charge, Fall Back, or Reposition action during the activation,\nor it is a counteraction, its rifle (if any) has the Balanced weapon rule.  \n\nNote that operative is not restricted from performing those actions after shooting."
+    },
+    {
+      "ployId": "IMP-RAT-S-FA",
+      "killteamId": "IMP-RAT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Frontline Assault",
+      "description": "Whenever a friendly RATLING BULLGRYN or friendly RATLING OGRYN operative is shooting within, fighting within, or retaliating within your opponent's territory or within 3\" of an objective marker, its weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "IMP-RAT-S-SH",
+      "killteamId": "IMP-RAT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Shifty",
+      "description": "Whenever a friendly RATLING operative (excluding OGRYN or BULLGRYN) has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Vantage terrain) except being within 2\"."
+    },
+    {
+      "ployId": "IMP-RAT-S-SP",
+      "killteamId": "IMP-RAT",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Sniper Positions",
+      "description": "Whenever a friendly RATLING operative is more than 6\" from enemy operatives and has Heavy Terrain within its Control Range, the Stationary profile of its rifle (if any) has the Silent weapon rule."
+    },
+    {
+      "ployId": "IMP-RAT-T-LAR",
+      "killteamId": "IMP-RAT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Larcenous",
+      "description": "Use this Firefight Ploy during a friendly RATLING operative's activation (excluding OGRYN or BULLGRYN).\nUntil the end of that activation, that operative does not have to control a marker to perform the Pick Up Marker or Mission actions that usually require this\n(taking precedence over that action's conditions - it only needs to contest the marker), and having an enemy operative within Control Range of it does not prevent it from doing so."
+    },
+    {
+      "ployId": "IMP-RAT-T-SAH",
+      "killteamId": "IMP-RAT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Shoot And Hide",
+      "description": "Use this Firefight Ploy after a friendly RATLING operative that has an Engage order perfoms the Shoot action with a rifle.\r If it is more than 3\" from enemy operatives, or not visible to every enemy operative, you can change its order to Conceal."
+    },
+    {
+      "ployId": "IMP-RAT-T-SI",
+      "killteamId": "IMP-RAT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Survival Instincts",
+      "description": "Use this Firefight Ploy when an enemy operative is shooting or fighting a friendly RATLING operative (excluding OGRYN or BULLGRYN) and you are allocating a die to block.\nIf it is a normal success, it can block one unresolved critical success;\nif it is a critical success, it can block two unresolved successes (normal or critical)."
+    },
+    {
+      "ployId": "IMP-RAT-T-SS",
+      "killteamId": "IMP-RAT",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Sharpshot",
+      "description": "Use this Firefight Ploy when a friendly RATLING operative if performing the Shoot action with a rifle and you are selecting a valid target.\nHaving other friendly RATLING operatives within an enemy operative's Control Range does not prevent that enemy operative from being selected."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-RAT-PR",
+      "killteamId": "IMP-RAT",
+      "seq": 1,
+      "eqName": "Purloined Rations",
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your attack dice,you can use this rule if you haven't used the Lucky Round equipment during this activation. If you do, improve the Hit stat of its rifle by 1 until the end of that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-RAT-LR",
+      "killteamId": "IMP-RAT",
+      "seq": 2,
+      "eqName": "Lucky Round",
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your Attack dice, you can use this rule if you have not used the Purloined Rations equipment this activation.\nIf you do, that weapon has the Severe weapon rule for that sequence.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-RAT-SG",
+      "killteamId": "IMP-RAT",
+      "seq": 3,
+      "eqName": "Stolen Goods",
+      "description": "At the end of the Select Operatives step, roll 1D3. If the result is:\n\n- 1, you lose 1 CP\n- 2, you gain 1 CP\n- 3, your opponent loses 1CP\n",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-RAT-IA",
+      "killteamId": "IMP-RAT",
+      "seq": 4,
+      "eqName": "Improvised Armour",
+      "description": "Whenever an operative is shooting a friendly RATLING BULLGRYN or friendly RATLING OGRYN operative, defence dice results of 5+ are critical successes.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-RAT-TA-SL",
+      "abilityName": "Slabshield",
+      "description": "If this operative has a Slabshield, it has a 3+ Save stat."
+    },
+    {
+      "abilityId": "IMP-RAT-TA-BR",
+      "abilityName": "Bruteshield",
+      "description": "If this operative has a Brute Shield, whenever it is fighting or retaliating, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-RAT-FIX",
+      "killteamId": "IMP-RAT",
+      "seq": 1,
+      "opTypeName": "Ratling Fixer",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, LEADER, FIXER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-FIX-BR",
+          "opTypeId": "IMP-RAT-FIX",
+          "seq": 1,
+          "wepName": "Battle Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-FIX-BR-0",
+              "wepId": "IMP-RAT-FIX-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-FIX-SR",
+          "opTypeId": "IMP-RAT-FIX",
+          "seq": 2,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-FIX-SR-0",
+              "wepId": "IMP-RAT-FIX-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-FIX-SR-1",
+              "wepId": "IMP-RAT-FIX-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-FIX-F",
+          "opTypeId": "IMP-RAT-FIX",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-FIX-F-0",
+              "wepId": "IMP-RAT-FIX-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-FIX-A-MC",
+          "opTypeId": "IMP-RAT-FIX",
+          "abilityName": "Munitorum Contacts",
+          "description": "You can select one additional equipment option."
+        },
+        {
+          "abilityId": "IMP-RAT-FIX-A-SCAR",
+          "opTypeId": "IMP-RAT-FIX",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-FIX-A-TD",
+          "opTypeId": "IMP-RAT-FIX",
+          "abilityName": "Target Designation",
+          "description": "**Strategic Gambit**\nSelect one enemy operative visible to this operative.\nUntil the end of the Turning Point, whenever a friendly RATLING operative is shooting that enemy operative with a Rifle, that weapon has the Lethal 5+ weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-BIG",
+      "killteamId": "IMP-RAT",
+      "seq": 2,
+      "opTypeName": "Ratling Big Shot",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BIG SHOT",
+      "basesize": 28,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-BIG-TSR",
+          "opTypeId": "IMP-RAT-BIG",
+          "seq": 1,
+          "wepName": "Tankstopper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BIG-TSR-0",
+              "wepId": "IMP-RAT-BIG-TSR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-RAT-BIG-TSR-1",
+              "wepId": "IMP-RAT-BIG-TSR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BIG-F",
+          "opTypeId": "IMP-RAT-BIG",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BIG-F-0",
+              "wepId": "IMP-RAT-BIG-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-BIG-A-SCAR",
+          "opTypeId": "IMP-RAT-BIG",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-HARD",
+      "killteamId": "IMP-RAT",
+      "seq": 3,
+      "opTypeName": "Ratling Hardbit",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, HARDBIT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-HARD-BR",
+          "opTypeId": "IMP-RAT-HARD",
+          "seq": 1,
+          "wepName": "Battle Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-HARD-BR-0",
+              "wepId": "IMP-RAT-HARD-BR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-HARD-CK",
+          "opTypeId": "IMP-RAT-HARD",
+          "seq": 2,
+          "wepName": "Combat Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-HARD-CK-0",
+              "wepId": "IMP-RAT-HARD-CK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-HARD-A-HNT",
+          "opTypeId": "IMP-RAT-HARD",
+          "abilityName": "Hunter",
+          "description": "This operative can perform the Charge action while it has a Conceal order.\nIf it does so during its activation, until the end of that activation, add 1 to the ATK stat of its Combat Knife and that melee weapon has the Brutal weapon rule."
+        },
+        {
+          "abilityId": "IMP-RAT-HARD-A-LIW",
+          "opTypeId": "IMP-RAT-HARD",
+          "abilityName": "Lie In Wait",
+          "description": "Whenever this operative is retaliating while Light or Heavy terrain is within its Control Range, you resolve the first attack die (i.e. defender instead of attacker)."
+        },
+        {
+          "abilityId": "IMP-RAT-HARD-A-SCAR",
+          "opTypeId": "IMP-RAT-HARD",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-SPOT",
+      "killteamId": "IMP-RAT",
+      "seq": 4,
+      "opTypeName": "Ratling Spotter",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SPOTTER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-SPOT-SR",
+          "opTypeId": "IMP-RAT-SPOT",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SPOT-SR-0",
+              "wepId": "IMP-RAT-SPOT-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-SPOT-SR-1",
+              "wepId": "IMP-RAT-SPOT-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-SPOT-F",
+          "opTypeId": "IMP-RAT-SPOT",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SPOT-F-0",
+              "wepId": "IMP-RAT-SPOT-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-SPOT-A-SCAR",
+          "opTypeId": "IMP-RAT-SPOT",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-SPOT-SPOT",
+          "opTypeId": "IMP-RAT-SPOT",
+          "abilityName": "Spot",
+          "AP": 1,
+          "description": "**SUPPORT**\r Select one enemy operative visible to this operative. Once during this Turning Point, when a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-BOMB",
+      "killteamId": "IMP-RAT",
+      "seq": 5,
+      "opTypeName": "Ratling Bomber",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BOMBER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-BOMB-EXA",
+          "opTypeId": "IMP-RAT-BOMB",
+          "seq": 1,
+          "wepName": "Explosive Arsenal",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BOMB-EXA-0",
+              "wepId": "IMP-RAT-BOMB-EXA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BOMB-SR",
+          "opTypeId": "IMP-RAT-BOMB",
+          "seq": 2,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BOMB-SR-0",
+              "wepId": "IMP-RAT-BOMB-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-BOMB-SR-1",
+              "wepId": "IMP-RAT-BOMB-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BOMB-BA",
+          "opTypeId": "IMP-RAT-BOMB",
+          "seq": 3,
+          "wepName": "Bionic Arm",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BOMB-BA-0",
+              "wepId": "IMP-RAT-BOMB-BA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-BOMB-A-MINE",
+          "opTypeId": "IMP-RAT-BOMB",
+          "abilityName": "Mine",
+          "description": "Mines you select from Univeral Equipment inflict 2D3+3 damage instead, and fiendly RATLING operatives (excluding OGRYN and BULLGRYN) are ignored for its effects (i.e. they cannot trigger it or take damage from it).\nThis takes precedence over the normal mines rules."
+        },
+        {
+          "abilityId": "IMP-RAT-BOMB-A-SCAR",
+          "opTypeId": "IMP-RAT-BOMB",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-BOMB-A-TRIP",
+          "opTypeId": "IMP-RAT-BOMB",
+          "abilityName": "Tripwire",
+          "description": "When setting up equipment before the battle, you can set up to two of your Tripwire markers up wholly within your territory and more than 2\" from other markers, access points, and Accessible terrain.\r The first time that marker is within an enemy operative's control range, remove that marker, subtract 1 from that operative's APL stat until the end of its next activation and end its action (if any),\r even if that action's effects aren't fulfilled. If it cannot be placed, move it the minimum amount to do so."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-STASH",
+      "killteamId": "IMP-RAT",
+      "seq": 6,
+      "opTypeName": "Ratling Stashmaster",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, STASHMASTER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-STASH-SR",
+          "opTypeId": "IMP-RAT-STASH",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-STASH-SR-0",
+              "wepId": "IMP-RAT-STASH-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-STASH-SR-1",
+              "wepId": "IMP-RAT-STASH-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-STASH-F",
+          "opTypeId": "IMP-RAT-STASH",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-STASH-F-0",
+              "wepId": "IMP-RAT-STASH-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-STASH-A-LF",
+          "opTypeId": "IMP-RAT-STASH",
+          "abilityName": "Light-Fingered",
+          "description": "Once during each of this operative's activations, it can perform the Place Marker, Pick Up Marker, or a Mission Action for 1 less AP."
+        },
+        {
+          "abilityId": "IMP-RAT-STASH-A-SCAR",
+          "opTypeId": "IMP-RAT-STASH",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-STASH-A-WS",
+          "opTypeId": "IMP-RAT-STASH",
+          "abilityName": "Well Stocked",
+          "description": "If you select an Ammo Cache from Univeral Equipment, you can set up an additional Ammo Cache marker."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-RAID",
+      "killteamId": "IMP-RAT",
+      "seq": 7,
+      "opTypeName": "Ratling Raider",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, RAIDER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-RAID-SSR",
+          "opTypeId": "IMP-RAT-RAID",
+          "seq": 1,
+          "wepName": "Suppressed Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-RAID-SSR-0",
+              "wepId": "IMP-RAT-RAID-SSR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-RAT-RAID-SSR-1",
+              "wepId": "IMP-RAT-RAID-SSR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-RAID-DAG",
+          "opTypeId": "IMP-RAT-RAID",
+          "seq": 2,
+          "wepName": "Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-RAID-DAG-0",
+              "wepId": "IMP-RAT-RAID-DAG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-RAID-A-GH",
+          "opTypeId": "IMP-RAT-RAID",
+          "abilityName": "Grappling Hook",
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the oeprative actually moves vertically)."
+        },
+        {
+          "abilityId": "IMP-RAT-RAID-A-SCAR",
+          "opTypeId": "IMP-RAT-RAID",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-SNP",
+      "killteamId": "IMP-RAT",
+      "seq": 8,
+      "opTypeName": "Ratling Sniper",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SNIPER",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-SNP-SR",
+          "opTypeId": "IMP-RAT-SNP",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SNP-SR-0",
+              "wepId": "IMP-RAT-SNP-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-SNP-SR-1",
+              "wepId": "IMP-RAT-SNP-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-SNP-F",
+          "opTypeId": "IMP-RAT-SNP",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SNP-F-0",
+              "wepId": "IMP-RAT-SNP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-SNP-A-SCAR",
+          "opTypeId": "IMP-RAT-SNP",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-VOX",
+      "killteamId": "IMP-RAT",
+      "seq": 9,
+      "opTypeName": "Ratling Vox-Thief",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, VOX-THIEF",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-VOX-SR",
+          "opTypeId": "IMP-RAT-VOX",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-VOX-SR-0",
+              "wepId": "IMP-RAT-VOX-SR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-RAT-VOX-SR-1",
+              "wepId": "IMP-RAT-VOX-SR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-VOX-F",
+          "opTypeId": "IMP-RAT-VOX",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-VOX-F-0",
+              "wepId": "IMP-RAT-VOX-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-VOX-A-SCAR",
+          "opTypeId": "IMP-RAT-VOX",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-VOX-IC",
+          "opTypeId": "IMP-RAT-VOX",
+          "abilityName": "Intercept Communications",
+          "AP": 1,
+          "description": "**SUPPORT**\nSelect one other friendly RATLING operative visible to and within 6\" of this operative.\nUntil the end of its next activation, add 1 to that operative's APL stat.\n  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-SNK",
+      "killteamId": "IMP-RAT",
+      "seq": 10,
+      "opTypeName": "Ratling Sneak",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 6,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, SNEAK",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-SNK-SSR",
+          "opTypeId": "IMP-RAT-SNK",
+          "seq": 1,
+          "wepName": "Suppressed Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SNK-SSR-0",
+              "wepId": "IMP-RAT-SNK-SSR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-RAT-SNK-SSR-1",
+              "wepId": "IMP-RAT-SNK-SSR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-SNK-F",
+          "opTypeId": "IMP-RAT-SNK",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-SNK-F-0",
+              "wepId": "IMP-RAT-SNK-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-SNK-A-EV",
+          "opTypeId": "IMP-RAT-SNK",
+          "abilityName": "Evade",
+          "description": "Once per Turning Point, after an enemy operative performs an action, you can interrupt that action (or counteraction) and perform a free Dash action with this operative.\nNote this operative cannot use the Scarper faction rule (it has this rule instead)."
+        },
+        {
+          "abilityId": "IMP-RAT-SNK-A-SCAR",
+          "opTypeId": "IMP-RAT-SNK",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        },
+        {
+          "abilityId": "IMP-RAT-SNK-OPT",
+          "opTypeId": "IMP-RAT-SNK",
+          "abilityName": "Optics",
+          "AP": 1,
+          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be Obscured and the stationary profile of this operative's suppressed sniper rifle has the Lethal 5+ weapon rule.\n\n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-OGR",
+      "killteamId": "IMP-RAT",
+      "seq": 11,
+      "opTypeName": "Ogryn",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 16,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, OGRYN",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-OGR-RG",
+          "opTypeId": "IMP-RAT-OGR",
+          "seq": 1,
+          "wepName": "Ripper Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-OGR-RG-0",
+              "wepId": "IMP-RAT-OGR-RG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PUNISHING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-OGR-B",
+          "opTypeId": "IMP-RAT-OGR",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-OGR-B-0",
+              "wepId": "IMP-RAT-OGR-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-OGR-A-BC",
+          "opTypeId": "IMP-RAT-OGR",
+          "abilityName": "Bayonet Charge",
+          "description": "Whenever this operative finishes moving during the Charge action, you can inflict 1D3+1 damage on one enemy operative within its Control Range."
+        },
+        {
+          "abilityId": "IMP-RAT-OGR-A-BRU",
+          "opTypeId": "IMP-RAT-OGR",
+          "abilityName": "Brute",
+          "description": "Whenever your opponent is selecting a valid target, if this operative has a Conceal order, it cannot use Light terrain for cover.\nWhilst this can allow this operative to be targeted (assuming it is visible), it does not remove its cover save (if any)."
+        },
+        {
+          "abilityId": "IMP-RAT-OGR-A-SW",
+          "opTypeId": "IMP-RAT-OGR",
+          "abilityName": "Slow-Witted",
+          "description": "You must spend 1 additional AP for this operative to perform the Pick Up Marker and Mission actions (excluding Operate Hatch)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-BULL",
+      "killteamId": "IMP-RAT",
+      "seq": 12,
+      "opTypeName": "Bullgryn",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 16,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BULLGRYN",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-BULL-GG",
+          "opTypeId": "IMP-RAT-BULL",
+          "seq": 1,
+          "wepName": "Grenadier Gauntlet",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BULL-GG-0",
+              "wepId": "IMP-RAT-BULL-GG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BULL-PM",
+          "opTypeId": "IMP-RAT-BULL",
+          "seq": 2,
+          "wepName": "Power Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BULL-PM-0",
+              "wepId": "IMP-RAT-BULL-PM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BULL-BS",
+          "opTypeId": "IMP-RAT-BULL",
+          "seq": 3,
+          "wepName": "Brute Shield",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BULL-BS-0",
+              "wepId": "IMP-RAT-BULL-BS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-RAT-BULL-SS",
+          "opTypeId": "IMP-RAT-BULL",
+          "seq": 4,
+          "wepName": "Slabshield",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-BULL-SS-0",
+              "wepId": "IMP-RAT-BULL-SS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-BULL-A-BRU",
+          "opTypeId": "IMP-RAT-BULL",
+          "abilityName": "Brute",
+          "description": "Whenever your opponent is selecting a valid target, if this operative has a Conceal order, it cannot use Light terrain for cover.\nWhilst this can allow this operative to be targeted (assuming it is visible), it does not remove its cover save (if any)."
+        },
+        {
+          "abilityId": "IMP-RAT-BULL-A-SH",
+          "opTypeId": "IMP-RAT-BULL",
+          "abilityName": "Shield",
+          "description": "If this operative has a Slabshield, it has a 3+ Save stat;\nif it has a Brute Shield, whenever it is fighting or retaliating, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+        },
+        {
+          "abilityId": "IMP-RAT-BULL-A-SW",
+          "opTypeId": "IMP-RAT-BULL",
+          "abilityName": "Slow-Witted",
+          "description": "You must spend 1 additional AP for this operative to perform the Pick Up Marker and Mission actions (excluding Operate Hatch)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-RAT-MUTT",
+      "killteamId": "IMP-RAT",
+      "seq": 13,
+      "opTypeName": "Ratling Battlemutt",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 4,
+      "keywords": "RATLING, IMPERIUM, ASTRA MILITARUM, BATTLEMUTT",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-RAT-MUTT-B",
+          "opTypeId": "IMP-RAT-MUTT",
+          "seq": 1,
+          "wepName": "Bite",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-RAT-MUTT-B-0",
+              "wepId": "IMP-RAT-MUTT-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-RAT-MUTT-A-BST",
+          "opTypeId": "IMP-RAT-MUTT",
+          "abilityName": "Beast",
+          "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, and Reposition.\nIt cannot use any weapons that are not on its datacard."
+        },
+        {
+          "abilityId": "IMP-RAT-MUTT-A-EQ",
+          "opTypeId": "IMP-RAT-MUTT",
+          "abilityName": "Early Warning",
+          "description": "Once per Turning Point, after an enemy operative performs an action in which it moves, you can interrupt that activation (or counteraction) to use this rule.\r If you do, each friendly RATLING operative (excluding OGRYN and BULLGRYN) within 6\" of this operative and within 2\" of that enemy operative can perform a free Dash action or a free Fall Back action, but it cannot move more than 3\".\r In either case, each one cannot finish that move within 2\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move (if this is not possible for an operative, it cannot move)."
+        },
+        {
+          "abilityId": "IMP-RAT-MUTT-A-SCAR",
+          "opTypeId": "IMP-RAT-MUTT",
+          "abilityName": "Scarper",
+          "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "factionId": "AEL",
+  "killteamId": "AEL-BOK",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_blades_of_khaine-00befzjlym-fspjkrusdr.pdf",
+  "killteamName": "Blades Of Khaine",
+  "description": "Athletic, graceful and utterly lethal, the Aeldari warriors that comprise Blades of Khaine kill teams come together to undertake missions of utmost importance on behalf of their craftworlds. They are dispatched to sever specific strands of fate, ensuring that terrible events they have foreseen never come to pass.",
+  "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - DIRE AVENGER EXARCH with one of the following options:\n    - Shuriken catapult; fists\n      - Twin shuriken catapult; gun butts  \n    Or one option from each of the following:\n    - Diresword or power weapon\n      - Shuriken pistol or shimmershield\n  - HOWLING BANSHEE EXARCH with one of the following options:\n    - Mirrorswords\n      - Shuriken pistol; executioner\n      - Shuriken pistol; power weapon\n      - Shuriken pistol; triskele\n      - Triskele; power weapon\n  - STRIKING SCORPION EXARCH with one of the following options:\n    - Shuriken pistol; biting blade\n      - Shuriken pistol; scorpion's claw & chainsword\n      - Twin shuriken pistols; twin chainswords  \n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - DIRE AVENGER WARRIOR\n  - HOWLING BANSHEE WARRIOR\n  - STRIKING SCORPION WARRIOR",
+  "archetypes": [
+    "Seek & Destroy",
+    "Security",
+    "Recon",
+    "Infiltration"
+  ],
+  "ploys": [
+    {
+      "ployId": "AEL-BOK-S-DOD",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Dance Of Death",
+      "description": "Select two friendly BLADES OF KHAINE operatives visible to and within 6\" of each other. Remove them both from the killzone and set them back up in each other's previous locations (in other words, swap their positions)."
+    },
+    {
+      "ployId": "AEL-BOK-S-FW",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Forewarned",
+      "description": "Whenever an operative is shooting a ready friendly BLADES OF KHAINE operative, you can re-roll any of your defence dice results of one result (e.g. results of 2)."
+    },
+    {
+      "ployId": "AEL-BOK-S-KV",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Khaine's Vengeance",
+      "description": "Whenever a friendly BLADES OF KHAINE operative is shooting an expended enemy operative, that friendly operative's ranged weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "AEL-BOK-S-RP",
+      "killteamId": "AEL-BOK",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Ruthless Poise",
+      "description": "Whenever a friendly BLADES OF KHAINE operative is fighting a ready enemy operative, that friendly operative's melee weapons have the Ceaseless weapon rule.  \n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)"
+    },
+    {
+      "ployId": "AEL-BOK-T-BW",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Bladewind",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Fight actions."
+    },
+    {
+      "ployId": "AEL-BOK-T-CON",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Contempt",
+      "description": "Use this firefight ploy when a friendly BLADES OF KHAINE operative is retaliating or an enemy operative is shooting it, after your opponent rolls their attack dice, but before re- rolls.\nUntil the end of the sequence, your opponent cannot re-roll their attack dice (if your opponent declared the use of any firefight ploys during that sequence that would allow them to re-roll,\nthat ploy is cancelled and the CP spent on it is refunded)."
+    },
+    {
+      "ployId": "AEL-BOK-T-FL",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Fading Light",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+    },
+    {
+      "ployId": "AEL-BOK-T-SF",
+      "killteamId": "AEL-BOK",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Starfall",
+      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation. During that activation, that operative can perform two Shoot actions."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-BOK-ROP",
+      "killteamId": "AEL-BOK",
+      "seq": 1,
+      "eqName": "Rune Of Prophecy",
+      "description": "Once per battle, after rolling off to decide initiative, you can add D3 to, or subtract D3 from, your result.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-ROS",
+      "killteamId": "AEL-BOK",
+      "seq": 2,
+      "eqName": "Rune Of Shielding",
+      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly BLADES OF KHAINE operative, you can ignore that inflicted damage.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-ROF",
+      "killteamId": "AEL-BOK",
+      "seq": 3,
+      "eqName": "Rune Of Foresight",
+      "description": "When this equipment is revealed, roll one D3. In the Strategy phase of the turning point equal to the result, you gain 1 additional CP.",
+      "effects": ""
+    },
+    {
+      "eqId": "AEL-BOK-WBT",
+      "killteamId": "AEL-BOK",
+      "seq": 4,
+      "eqName": "Wraithbone Talisman",
+      "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-BOK-TA-ASTE",
+      "abilityName": "Aspect Techniques",
+      "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "AEL-BOK-DAX",
+      "killteamId": "AEL-BOK",
+      "seq": 0,
+      "opTypeName": "Dire Avenger Exarch",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-DAX-SC",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 0,
+          "wepName": "Shuriken Catapult",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-SC-0",
+              "wepId": "AEL-BOK-DAX-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-SP",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 1,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-SP-0",
+              "wepId": "AEL-BOK-DAX-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-TSC",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 2,
+          "wepName": "Twin Shuriken Catapult",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-TSC-0",
+              "wepId": "AEL-BOK-DAX-TSC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-DS",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 3,
+          "wepName": "Diresword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-DS-0",
+              "wepId": "AEL-BOK-DAX-DS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-F",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-F-0",
+              "wepId": "AEL-BOK-DAX-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-GB",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 5,
+          "wepName": "Gun Butts",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-GB-0",
+              "wepId": "AEL-BOK-DAX-GB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAX-PW",
+          "opTypeId": "AEL-BOK-DAX",
+          "seq": 6,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAX-PW-0",
+              "wepId": "AEL-BOK-DAX-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-DAX-A-DT",
+          "opTypeId": "AEL-BOK-DAX",
+          "abilityName": "Defence Tactics",
+          "description": "Whenever this operative contests an objective marker or one of your mission markers, or whenever it's shooting an enemy operative that does, this operative's weapons have the Balanced weapon rule."
+        },
+        {
+          "abilityId": "AEL-BOK-DAX-A-EX",
+          "opTypeId": "AEL-BOK-DAX",
+          "abilityName": "Exarch",
+          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+        },
+        {
+          "abilityId": "AEL-BOK-DAX-A-SS",
+          "opTypeId": "AEL-BOK-DAX",
+          "abilityName": "Shimmershield",
+          "description": "Whenever an operative is shooting a friendly BLADES OF KHAINE operative that's visible to and within 2\" of this operative, ignore the Piercing weapon rule. This operative only has this rule if you select the shimmershield weapon option."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-BOK-HBX",
+      "killteamId": "AEL-BOK",
+      "seq": 1,
+      "opTypeName": "Howling Banshee Exarch",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-HBX-SP",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 0,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-SP-0",
+              "wepId": "AEL-BOK-HBX-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBX-TSK",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 1,
+          "wepName": "Triskele",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-TSK-0",
+              "wepId": "AEL-BOK-HBX-TSK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBX-EXE",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 2,
+          "wepName": "Executioner",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-EXE-0",
+              "wepId": "AEL-BOK-HBX-EXE",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBX-MS",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 3,
+          "wepName": "Mirrorswords",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-MS-0",
+              "wepId": "AEL-BOK-HBX-MS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBX-PW",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 4,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-PW-0",
+              "wepId": "AEL-BOK-HBX-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBX-TSKM",
+          "opTypeId": "AEL-BOK-HBX",
+          "seq": 5,
+          "wepName": "Triskele",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBX-TSKM-0",
+              "wepId": "AEL-BOK-HBX-TSKM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-HBX-A-BM",
+          "opTypeId": "AEL-BOK-HBX",
+          "abilityName": "Banshee Mask",
+          "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
+        },
+        {
+          "abilityId": "AEL-BOK-HBX-A-EX",
+          "opTypeId": "AEL-BOK-HBX",
+          "abilityName": "Exarch",
+          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-BOK-SSX",
+      "killteamId": "AEL-BOK",
+      "seq": 2,
+      "opTypeName": "Striking Scorpion Exarch",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-SSX-SP",
+          "opTypeId": "AEL-BOK-SSX",
+          "seq": 0,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSX-SP-0",
+              "wepId": "AEL-BOK-SSX-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-SSX-TSP",
+          "opTypeId": "AEL-BOK-SSX",
+          "seq": 1,
+          "wepName": "Twin Shuriken Pistols",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSX-TSP-0",
+              "wepId": "AEL-BOK-SSX-TSP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-SSX-BB",
+          "opTypeId": "AEL-BOK-SSX",
+          "seq": 2,
+          "wepName": "Biting Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSX-BB-0",
+              "wepId": "AEL-BOK-SSX-BB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-SSX-TCS",
+          "opTypeId": "AEL-BOK-SSX",
+          "seq": 3,
+          "wepName": "Twin Chainswords",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSX-TCS-0",
+              "wepId": "AEL-BOK-SSX-TCS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-SSX-SCC",
+          "opTypeId": "AEL-BOK-SSX",
+          "seq": 4,
+          "wepName": "Scorpion's Claw and Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSX-SCC-0",
+              "wepId": "AEL-BOK-SSX-SCC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-SSX-A-EX",
+          "opTypeId": "AEL-BOK-SSX",
+          "abilityName": "Exarch",
+          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-BOK-DAW",
+      "killteamId": "AEL-BOK",
+      "seq": 3,
+      "opTypeName": "Dire Avenger Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, DIRE AVENGER, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-DAW-SC",
+          "opTypeId": "AEL-BOK-DAW",
+          "seq": 0,
+          "wepName": "Shuriken Catapult",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAW-SC-0",
+              "wepId": "AEL-BOK-DAW-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-DAW-F",
+          "opTypeId": "AEL-BOK-DAW",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-DAW-F-0",
+              "wepId": "AEL-BOK-DAW-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-DAW-A-DT",
+          "opTypeId": "AEL-BOK-DAW",
+          "abilityName": "Defence Tactics",
+          "description": "Whenever this operative contests an objective marker or one of your mission markers, or whenever it's shooting an enemy operative that does, this operative's weapons have the Balanced weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-BOK-HBW",
+      "killteamId": "AEL-BOK",
+      "seq": 4,
+      "opTypeName": "Howling Banshee Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-HBW-SP",
+          "opTypeId": "AEL-BOK-HBW",
+          "seq": 0,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBW-SP-0",
+              "wepId": "AEL-BOK-HBW-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-HBW-PW",
+          "opTypeId": "AEL-BOK-HBW",
+          "seq": 1,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-HBW-PW-0",
+              "wepId": "AEL-BOK-HBW-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-HBW-A-BM",
+          "opTypeId": "AEL-BOK-HBW",
+          "abilityName": "Banshee Mask",
+          "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-BOK-SSW",
+      "killteamId": "AEL-BOK",
+      "seq": 5,
+      "opTypeName": "Striking Scorpion Warrior",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-BOK-SSW-SP",
+          "opTypeId": "AEL-BOK-SSW",
+          "seq": 0,
+          "wepName": "Shuriken Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSW-SP-0",
+              "wepId": "AEL-BOK-SSW-SP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-BOK-SSW-CS",
+          "opTypeId": "AEL-BOK-SSW",
+          "seq": 1,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-BOK-SSW-CS-0",
+              "wepId": "AEL-BOK-SSW-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    }
+  ]
+}

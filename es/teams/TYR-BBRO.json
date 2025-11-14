@@ -1,0 +1,1464 @@
+{
+  "factionId": "TYR",
+  "killteamId": "TYR-BBRO",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_brood_brothers-yvgipmpwxt-i6a8apbmju.pdf",
+  "killteamName": "Brood Brothers",
+  "description": "Brood Brothers are the humans of the Genestealer Cults, who have been implanted by Genestealers and have served as hosts for their Genestealer Hybrid offspring.  \n\nMany of these Brood Brothers may be members of the local civil or military authorities, continuing to carry out their normal duties in society. They remain hidden until the cult/clan is powerful enough to completely take control of the host society. They regard and often venerate the Genestealer Patriarch as a grandfather or deity. They are especially fanatic members of the clan, motivated by intense, instinctual bonds to their Genestealer and Hybrid relatives. ",
+  "composition": "A BROOD BROTHER KillTeam is composed of:\n\n- 1 BROOD BROTHER Commander operative with one of the following options:\n  - Bolt pistol, chainsword and claw\n  - Drum-fed autogun, bayonet,\n  - Laspistol, power weapon and claw=\n- 9 BROOD BROTHER operatives selected from the following list:\n  - Agitator\n  - Gunner with Flamer and bayonet (1)\n  - Gunner with Grenade Launcher and bayonet (1)\n  - Gunner with Meltagun and bayonet (1)\n  - Gunner with Plasma gun and bayonet (1)\n  - Iconward\n  - Knife Fighter\n  - Medic\n  - Sapper\n  - Sniper (1)\n  - Trooper\n  - Veteran\n  - Vox-Operator\n- 3 Brood Brother operatives selected from the following list (3):\n  - 2 Psychic Familiar operatives (Still count as one selection)\n  - Magus (Count as two selections) (2)\n  - Patriarch (Count as three selections) (2)\n  - Primus (Count as two selections) (2)\n  - Trooper\n\nOther than Trooper operatives, your kill team can only include each option on this list once.  \n\n(1) You cannot select more than three of these operatives combined.  \n\n(2) Your Kill team can only include up to one BROODCOVEN operative. If one of these operatives is selected for deployment, your Commander operative loses the Leader keyword for the battle.  \n\n(3) Up to three times, instead of selecting one of these operatives, you can select one BROOD BROTHER ploy to cost you 0CP for the battle. Note that \"count as\" selections still apply; for example, if you select a Patriarch operative, you could not do this.",
+  "archetypes": [
+    "Infiltration",
+    "Security"
+  ],
+  "ploys": [
+    {
+      "ployId": "TYR-BBRO-S-CD",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Cult Devotion",
+      "description": "Whenever a friendly BROOD BROTHER operative (excluding PATRIARCH) is incapacitated when fighting or retaliating,\nif you have any unresolved attack dice, you can roll 1D6.\nIf the result is a success as if it were the Roll Attack Dice step of that sequence (i.e, using the same weapon, but with no re-rolls), you can strike the enemy operative in that sequence with one of your unresolved\nnormal successes, or any of your successes instead if the 1D6 result is a critical success. In either case, that friendly operative is removed from the killzone afterwards."
+    },
+    {
+      "ployId": "TYR-BBRO-S-EB",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Embedded",
+      "description": "Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, if you can retain any cover saves as a result of Heavy terrain, you can retain one additional cover save."
+    },
+    {
+      "ployId": "TYR-BBRO-S-PER",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Pervasive",
+      "description": "During friendly BROOD BROTHER operative's activation, you can ignore the first vertical distance of 2\" they move during one climb up."
+    },
+    {
+      "ployId": "TYR-BBRO-S-UPR",
+      "killteamId": "TYR-BBRO",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Uprising",
+      "description": "The first time each friendly BROOD BROTHER operative performs either the Shoot or Fight action during each of its activations,\nif its order was changed from Conceal to Engage at the start of that activation,\nthe enemy operative selected as the valid target or to fight against gains one of your Crossfire tokens as soon as it is selected (instead of after resolving your attack dice).  \n\nThis ploy has no effect if that friendly operative was activated within control range of an enemy operative.  \n\nNote this ploy cannot come into effect more than once per activation (you cannot use it during both the shoot and the fight action in the same activation)."
+    },
+    {
+      "ployId": "TYR-BBRO-T-UL",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unquestioning Loyalty",
+      "description": "Use this firefight ploy when a friendly BROOD BROTHER LEADER operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\r Select one other friendly BROOD BROTHER BROODGUARD operative (excluding LEADER) visible to and within 3\" of that LEADER operative to become the valid target or to be fought against (as appropriate) instead (even if it normally\r would not be valid for this.\r If it is the Fight action, treat that other operative as being within the fighting operative's control range for the duration of that action. If it is the Shoot action, that other operative is only in cover or obscured if the original target was.  \n\r This ploy has no effect if it is the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    },
+    {
+      "ployId": "TYR-BBRO-T-RC",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Ruthless Coordination",
+      "description": "Use this firefight ploy when selecting a valid target for a friendly BROOD BROTHER operative.\r Until the end of the action, determine Visibility as normal, but you can instead determine intervening (for cover and obscured) from another friendly BROOD BROTHER operative that both that friendly operative and the potential valid\r target are visible to, but that is not itself within control range of enemy operatives.  \n\r Note the friendly operative does not gain the additional benefits of Vantage terrain if the other operative is on it (e.g, to target an enemy operative that has a conceal order that is in cover provided by only Light Terrain."
+    },
+    {
+      "ployId": "TYR-BBRO-T-INS",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Insidious",
+      "description": "Use this firefight ploy after an activation. Before the next activation, you can perform a free Dash action with one friendly BROOD BROTHER operative, as long as it is not a valid target for an enemy operative when it starts and ends that action. You cannot use this ploy during the first turning point."
+    },
+    {
+      "ployId": "TYR-BBRO-T-IDL",
+      "killteamId": "TYR-BBRO",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Idolisation",
+      "description": "Use this firefight ploy when a friendly BROOD BROTHER operative (excluding LEADER) within 6\" of a friendly BROOD BROTHER LEADER or friendly BROOD BROTHER ICONWARD operative is shooting,\nfighting or retaliating, in the Roll Attack Dice Step. You can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "TYR-BBRO-CD",
+      "killteamId": "TYR-BBRO",
+      "seq": 1,
+      "eqName": "Covert Disguises",
+      "description": "After revealing this equipment option, roll 1D3.\nAs a STRATEGIC GAMBIT in the first turning point, a number of friendly BROOD BROTHER BROODGUARD operatives equal to the result that are wholly within your drop zone can immediately perform a free\nReposition action, but must end that move wholly within 3\" of your drop zone.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-BBRO-CK",
+      "killteamId": "TYR-BBRO",
+      "seq": 2,
+      "eqName": "Cult Knives",
+      "description": "Friendly BROOD BROTHER BROODGUARD operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
+      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "TYR-BBRO-CT",
+      "killteamId": "TYR-BBRO",
+      "seq": 3,
+      "eqName": "Cult Talisman",
+      "description": "Once per turning point, when an operative is shooting a friendly BROOD BROTHER operative (Excluding Patriarch), in the roll defence dice step, you can retain one of your normal successes as a critical success instead.",
+      "effects": ""
+    },
+    {
+      "eqId": "TYR-BBRO-LO",
+      "killteamId": "TYR-BBRO",
+      "seq": 4,
+      "eqName": "Lookout",
+      "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-BBRO-TA-CR",
+      "abilityName": "Crossfire",
+      "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "TYR-BBRO-CMDR",
+      "killteamId": "TYR-BBRO",
+      "seq": 1,
+      "opTypeName": "Brood Brother Commander",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 8,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, LEADER, COMMANDER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-CMDR-BP",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-BP-0",
+              "wepId": "TYR-BBRO-CMDR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-CMDR-DFAG",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 2,
+          "wepName": "Drum-Fed Autogun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-DFAG-0",
+              "wepId": "TYR-BBRO-CMDR-DFAG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-CMDR-LP",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 3,
+          "wepName": "Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-LP-0",
+              "wepId": "TYR-BBRO-CMDR-LP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-CMDR-BAY",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 4,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-BAY-0",
+              "wepId": "TYR-BBRO-CMDR-BAY",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-CMDR-CSAC",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 5,
+          "wepName": "Chainsword and Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-CSAC-0",
+              "wepId": "TYR-BBRO-CMDR-CSAC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-CMDR-PWAC",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "seq": 6,
+          "wepName": "Power Weapon and Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-CMDR-PWAC-0",
+              "wepId": "TYR-BBRO-CMDR-PWAC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-CMDR-A-COORD",
+          "opTypeId": "TYR-BBRO-CMDR",
+          "abilityName": "Coordinate",
+          "description": "STRATEGIC GAMBIT. Select one enemy operative to gain one of your Crossfire tokens."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-AGIT",
+      "killteamId": "TYR-BBRO",
+      "seq": 2,
+      "opTypeName": "Brood Brother Agitator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, AGITATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-AGIT-SM",
+          "opTypeId": "TYR-BBRO-AGIT",
+          "seq": 1,
+          "wepName": "Shock Maul",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-AGIT-SM-0",
+              "wepId": "TYR-BBRO-AGIT-SM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-AGIT-A-DEV",
+          "opTypeId": "TYR-BBRO-AGIT",
+          "abilityName": "Devoted",
+          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
+        },
+        {
+          "abilityId": "TYR-BBRO-AGIT-A-PC",
+          "opTypeId": "TYR-BBRO-AGIT",
+          "abilityName": "Psiren Caster",
+          "description": "Whenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative within 6\" of this operative, you can re-roll one of your attack dice."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-GNR",
+      "killteamId": "TYR-BBRO",
+      "seq": 3,
+      "opTypeName": "Brood Brother Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-GNR-FL",
+          "opTypeId": "TYR-BBRO-GNR",
+          "seq": 1,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-GNR-FL-0",
+              "wepId": "TYR-BBRO-GNR-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-GNR-GL",
+          "opTypeId": "TYR-BBRO-GNR",
+          "seq": 2,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-GNR-GL-0",
+              "wepId": "TYR-BBRO-GNR-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-BBRO-GNR-GL-1",
+              "wepId": "TYR-BBRO-GNR-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-GNR-MG",
+          "opTypeId": "TYR-BBRO-GNR",
+          "seq": 3,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-GNR-MG-0",
+              "wepId": "TYR-BBRO-GNR-MG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-GNR-PG",
+          "opTypeId": "TYR-BBRO-GNR",
+          "seq": 4,
+          "wepName": "Plasma Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-GNR-PG-0",
+              "wepId": "TYR-BBRO-GNR-PG",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-BBRO-GNR-PG-1",
+              "wepId": "TYR-BBRO-GNR-PG",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-GNR-BAY",
+          "opTypeId": "TYR-BBRO-GNR",
+          "seq": 5,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-GNR-BAY-0",
+              "wepId": "TYR-BBRO-GNR-BAY",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "TYR-BBRO-IW",
+      "killteamId": "TYR-BBRO",
+      "seq": 4,
+      "opTypeName": "Brood Brother Iconward",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, ICONWARD",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-IW-LK",
+          "opTypeId": "TYR-BBRO-IW",
+          "seq": 1,
+          "wepName": "Large Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-IW-LK-0",
+              "wepId": "TYR-BBRO-IW-LK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-IW-A-BMD",
+          "opTypeId": "TYR-BBRO-IW",
+          "abilityName": "Broodmind Devotion",
+          "description": "Once per turning point when a ready friendly BROOD BROTHER BROODGUARD operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\r If you do, before that operative is removed from the killzone, it can perform a 1AP action for free (excluding Fight and Explosives) and you can change its order to do so.\r It is then incapacitated as normal.   \r You cannot use this rule and the Medic! Rule (See MEDIC datacard) on the same operative at the same time."
+        },
+        {
+          "abilityId": "TYR-BBRO-IW-A-CI",
+          "opTypeId": "TYR-BBRO-IW",
+          "abilityName": "Cult Icon",
+          "description": "Whenever determining control of a marker within 4\" of this operative, treat the total APL stat of friendly BROOD BROTHER operatives that control it as 1 higher if at least one friendly BROOD BROTHER operative contests that marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-KF",
+      "killteamId": "TYR-BBRO",
+      "seq": 5,
+      "opTypeName": "Brood Brother Knife Fighter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, KNIFE FIGHTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-KF-PFK",
+          "opTypeId": "TYR-BBRO-KF",
+          "seq": 1,
+          "wepName": "Poisoned Fighting Knives",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-KF-PFK-0",
+              "wepId": "TYR-BBRO-KF-PFK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-KF-A-ASS",
+          "opTypeId": "TYR-BBRO-KF",
+          "abilityName": "Assassin",
+          "description": "This operative can perform the Charge action while it has a Conceal order."
+        },
+        {
+          "abilityId": "TYR-BBRO-KF-A-CA",
+          "opTypeId": "TYR-BBRO-KF",
+          "abilityName": "Counterattack",
+          "description": "Whenever this operative is fighting or retaliating, whenever your opponent resolves a normal success, inflict 1 damage on the enemy operative in that sequence."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-MED",
+      "killteamId": "TYR-BBRO",
+      "seq": 6,
+      "opTypeName": "Brood Brother Medic",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, MEDIC",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-MED-LG",
+          "opTypeId": "TYR-BBRO-MED",
+          "seq": 1,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MED-LG-0",
+              "wepId": "TYR-BBRO-MED-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-MED-B",
+          "opTypeId": "TYR-BBRO-MED",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MED-B-0",
+              "wepId": "TYR-BBRO-MED-B",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-MED-GN",
+          "opTypeId": "TYR-BBRO-MED",
+          "seq": 3,
+          "wepName": "Gene-Needler",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MED-GN-0",
+              "wepId": "TYR-BBRO-MED-GN",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "1",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-MED-A-MED",
+          "opTypeId": "TYR-BBRO-MED",
+          "abilityName": "Medic!",
+          "description": "The first time during each turning point that another friendly BROOD BROTHER operative (excluding PATRIARCH) would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this operative nor that operative is within control range of an enemy operative.\r If you do, that friendly operative is not incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action.\r After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "TYR-BBRO-MED-MED",
+          "opTypeId": "TYR-BBRO-MED",
+          "abilityName": "Medikit",
+          "AP": 1,
+          "description": "Select one friendly BROOD BROTHER operative (excluding PATRIARCH) within this operative's control range to regain 2D3 lost wounds.\nIt cannot be an operative that the Medic! Rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-SAP",
+      "killteamId": "TYR-BBRO",
+      "seq": 7,
+      "opTypeName": "Brood Brother Sapper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SAPPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-SAP-DC",
+          "opTypeId": "TYR-BBRO-SAP",
+          "seq": 1,
+          "wepName": "Demolition Charge",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-SAP-DC-0",
+              "wepId": "TYR-BBRO-SAP-DC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "(Repos)"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-SAP-BAY",
+          "opTypeId": "TYR-BBRO-SAP",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-SAP-BAY-0",
+              "wepId": "TYR-BBRO-SAP-BAY",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-SAP-A-FD",
+          "opTypeId": "TYR-BBRO-SAP",
+          "abilityName": "Final Defiance",
+          "description": "If this operative is incapacitated, it can perform a free Explosives unique action before it is removed from the killzone."
+        },
+        {
+          "abilityId": "TYR-BBRO-SAP-A-GRN",
+          "opTypeId": "TYR-BBRO-SAP",
+          "abilityName": "Grenadier",
+          "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e, if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
+        },
+        {
+          "abilityId": "TYR-BBRO-SAP-XPL",
+          "opTypeId": "TYR-BBRO-SAP",
+          "abilityName": "Explosives",
+          "AP": 1,
+          "description": "The first time this operative performs this action during the battle, place your Explosives marker within its control range.\nThe second time this operative performs this action during the battle, inflict 2D6 damage on each operative within 2\" of that marker (roll separately for each) unless Heavy Terrain is wholly intervening between that operative and that marker.  \n\nThis operative cannot perform this action more than twice per battle, while within control range of an enemy operative, or during the same activation in which it performed the Charge, Dash or Fall Back action (or vice-versa)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-SNP",
+      "killteamId": "TYR-BBRO",
+      "seq": 8,
+      "opTypeName": "Brood Brother Sniper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SNIPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-SNP-SNP",
+          "opTypeId": "TYR-BBRO-SNP",
+          "seq": 1,
+          "wepName": "Sniper Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-SNP-SNP-0",
+              "wepId": "TYR-BBRO-SNP-SNP",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-BBRO-SNP-SNP-1",
+              "wepId": "TYR-BBRO-SNP-SNP",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "TYR-BBRO-SNP-SNP-2",
+              "wepId": "TYR-BBRO-SNP-SNP",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-SNP-F",
+          "opTypeId": "TYR-BBRO-SNP",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-SNP-F-0",
+              "wepId": "TYR-BBRO-SNP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "TYR-BBRO-VET",
+      "killteamId": "TYR-BBRO",
+      "seq": 9,
+      "opTypeName": "Brood Brother Veteran",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VETERAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-VET-CSG",
+          "opTypeId": "TYR-BBRO-VET",
+          "seq": 1,
+          "wepName": "Combat Shotgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-VET-CSG-0",
+              "wepId": "TYR-BBRO-VET-CSG",
+              "seq": 0,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-BBRO-VET-CSG-1",
+              "wepId": "TYR-BBRO-VET-CSG",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "5+",
+              "DMG": "2/2",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-VET-BAC",
+          "opTypeId": "TYR-BBRO-VET",
+          "seq": 2,
+          "wepName": "Bayonet and Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-VET-BAC-0",
+              "wepId": "TYR-BBRO-VET-BAC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BALANCED"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-VET-A-BG",
+          "opTypeId": "TYR-BBRO-VET",
+          "abilityName": "Bodyguard",
+          "description": "You can use the Unquestioning Loyalty firefight ploy for 0 CP if this is the specified friendly BROODGUARD operative."
+        },
+        {
+          "abilityId": "TYR-BBRO-VET-A-RES",
+          "opTypeId": "TYR-BBRO-VET",
+          "abilityName": "Resilient",
+          "description": "Normal damage of 3 or more inflicts 1 less damage on this operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-VOX",
+      "killteamId": "TYR-BBRO",
+      "seq": 10,
+      "opTypeName": "Brood Brother Vox Operator",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VOX OPERATOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-VOX-LG",
+          "opTypeId": "TYR-BBRO-VOX",
+          "seq": 1,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-VOX-LG-0",
+              "wepId": "TYR-BBRO-VOX-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-VOX-BAY",
+          "opTypeId": "TYR-BBRO-VOX",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-VOX-BAY-0",
+              "wepId": "TYR-BBRO-VOX-BAY",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-VOX-JAM",
+          "opTypeId": "TYR-BBRO-VOX",
+          "abilityName": "Jam",
+          "AP": 1,
+          "description": "Select one ready enemy operative that is a valid target for this operative, or visible to this operative instead if you spend 1 additional AP.\nRoll 1D6, until the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated, or until your opponent has activated a number of enemy operatives after this action equal to the roll (whichever comes first)  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TYR-BBRO-VOX-SIG",
+          "opTypeId": "TYR-BBRO-VOX",
+          "abilityName": "Signal",
+          "AP": 1,
+          "description": "**SUPPORT**  \n\nSelect one other friendly BROOD BROTHER BROODGUARD operative visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-TRP",
+      "killteamId": "TYR-BBRO",
+      "seq": 11,
+      "opTypeName": "Brood Brother Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-TRP-LG",
+          "opTypeId": "TYR-BBRO-TRP",
+          "seq": 1,
+          "wepName": "Lasgun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-TRP-LG-0",
+              "wepId": "TYR-BBRO-TRP-LG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-TRP-BAY",
+          "opTypeId": "TYR-BBRO-TRP",
+          "seq": 2,
+          "wepName": "Bayonet",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-TRP-BAY-0",
+              "wepId": "TYR-BBRO-TRP-BAY",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-TRP-A-GA",
+          "opTypeId": "TYR-BBRO-TRP",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate any other ready friendly BROOD BROTHER TROOPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives as specified with this rule)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-MAG",
+      "killteamId": "TYR-BBRO",
+      "seq": 12,
+      "opTypeName": "Magus",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, MAGUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-MAG-AP",
+          "opTypeId": "TYR-BBRO-MAG",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MAG-AP-0",
+              "wepId": "TYR-BBRO-MAG-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-MAG-BD",
+          "opTypeId": "TYR-BBRO-MAG",
+          "seq": 2,
+          "wepName": "Bio Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MAG-BD-0",
+              "wepId": "TYR-BBRO-MAG-BD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "2",
+              "HIT": "4+",
+              "DMG": "3/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-MAG-FS",
+          "opTypeId": "TYR-BBRO-MAG",
+          "seq": 3,
+          "wepName": "Force Stave",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-MAG-FS-0",
+              "wepId": "TYR-BBRO-MAG-FS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-MAG-A-SL",
+          "opTypeId": "TYR-BBRO-MAG",
+          "abilityName": "Spiritual Leader",
+          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following for friendly BROOD BROTHER operatives to have until the end of the turning point or until this operative is incapacitated (whichever comes first):\r \r - Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, ignore the piercing rule.\r - You can ignore any changes to friendly BROOD BROTHER operative's stats from being injured (including their weapons' stats).\r - You can ignore any changes to the APL stats of friendly BROOD BROTHER operative.\r "
+        },
+        {
+          "abilityId": "TYR-BBRO-MAG-MOS",
+          "opTypeId": "TYR-BBRO-MAG",
+          "abilityName": "Mental Onslaught",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\nSelect one enemy operative that is a valid target to this operative.\nInflict 2 damage on it, or 4 damage instead if it is within 6\" of this operative.\nThen roll 1D6, if the result is higher than that enemy's APL stat, inflict an additional 2 damage on it, or 4 damage instead if it is within 6\" of this operative.\nKeep rolling 1D6 in this manner until you roll equal to or less than that enemy operative's APL stat, until it is incapacitated, or until you inflict 8 damage on it during this action (whichever comes first).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TYR-BBRO-MAG-TPOL",
+          "opTypeId": "TYR-BBRO-MAG",
+          "abilityName": "Telepathic Overload",
+          "AP": 1,
+          "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-FAM",
+      "killteamId": "TYR-BBRO",
+      "seq": 13,
+      "opTypeName": "Psychic Familiar",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 3,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, PSYCHIC FAMILIAR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-FAM-C",
+          "opTypeId": "TYR-BBRO-FAM",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-FAM-C-0",
+              "wepId": "TYR-BBRO-FAM-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-FAM-A-ELU",
+          "opTypeId": "TYR-BBRO-FAM",
+          "abilityName": "Elusive",
+          "description": "This operative can perform mission actions while within control range of an enemy operative (taking precedence over those actions' normal conditions).\nIt can move through enemy operatives, move within control range of them, and during the Charge action can leave their control range (it must still end the move following all requirements for that move)."
+        },
+        {
+          "abilityId": "TYR-BBRO-FAM-A-GA",
+          "opTypeId": "TYR-BBRO-FAM",
+          "abilityName": "Group Activation",
+          "description": "Whenever this operative is expended, you must then activate any other ready friendly BROOD BROTHER PSYCHIC FAMILIAR operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal."
+        },
+        {
+          "abilityId": "TYR-BBRO-FAM-A-smol",
+          "opTypeId": "TYR-BBRO-FAM",
+          "abilityName": "Small",
+          "description": "This operative cannot use any weapons that are not on its datacard, or perform unique actions.\r Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (i.e, Seek, Vantage Terrain) except being within 2\".\r This operative can perform the Fall Back action for 1 less AP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-PAT",
+      "killteamId": "TYR-BBRO",
+      "seq": 14,
+      "opTypeName": "Patriarch",
+      "MOVE": "6\"",
+      "APL": 4,
+      "SAVE": "4+",
+      "WOUNDS": 21,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, PATRIARCH",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-PAT-C",
+          "opTypeId": "TYR-BBRO-PAT",
+          "seq": 1,
+          "wepName": "Claws",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-PAT-C-0",
+              "wepId": "TYR-BBRO-PAT-C",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RELENTLESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-PAT-A-AP",
+          "opTypeId": "TYR-BBRO-PAT",
+          "abilityName": "Alpha Predator",
+          "description": "Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\nYou can activate this operative twice during the turning point as long as it has AP to spend (it stays ready while it can still be activated a second time).\nPer turning point it cannot move more than 9\" and you cannot spend more than 4AP in total for it."
+        },
+        {
+          "abilityId": "TYR-BBRO-PAT-A-MNS",
+          "opTypeId": "TYR-BBRO-PAT",
+          "abilityName": "Monster",
+          "description": "This operative cannot use any weapons that are not on its datacard, or perform unique actions (excluding Into Shadow and Mind Control).\nWhenever your opponent is selecting a valid target, if this operative has a conceal order, it cannot use Light terrain for cover.\nWhile this can allow this operative to be targeted (assuming it is visible), it does not remove its cover save (if any)."
+        },
+        {
+          "abilityId": "TYR-BBRO-PAT-IS",
+          "opTypeId": "TYR-BBRO-PAT",
+          "abilityName": "Into Shadow",
+          "AP": 1,
+          "description": "Change this operative's order.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        },
+        {
+          "abilityId": "TYR-BBRO-PAT-MC",
+          "opTypeId": "TYR-BBRO-PAT",
+          "abilityName": "Mind Control",
+          "AP": 2,
+          "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to and within 2\" of this operative.\nBoth players roll 1D6 and add their respective operative's APL stat to the total.\nIf your total is higher than your opponent's you can resolve this action's second effect.  \n\nUntil the end of the activation, that enemy operative is a friendly operative (an enemy operative for you opponent), you can change its order and it can immediately perofrm one free action.\nIt cannot perform an action in which it moves other than Dash (in which case specify the location for your opponent to move this operative to).\nYou can only resolve this action's second effect once per battle.  \n\nThis operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it is within control range of is selected for this action."
+        }
+      ]
+    },
+    {
+      "opTypeId": "TYR-BBRO-PRIM",
+      "killteamId": "TYR-BBRO",
+      "seq": 15,
+      "opTypeName": "Primus",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PRIMUS",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-PRIM-SNP",
+          "opTypeId": "TYR-BBRO-PRIM",
+          "seq": 1,
+          "wepName": "Scoped Needle Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-PRIM-SNP-0",
+              "wepId": "TYR-BBRO-PRIM-SNP",
+              "seq": 0,
+              "profileName": "Short Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "TYR-BBRO-PRIM-SNP-1",
+              "wepId": "TYR-BBRO-PRIM-SNP",
+              "seq": 1,
+              "profileName": "Long Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "TYR-BBRO-PRIM-BSATIC",
+          "opTypeId": "TYR-BBRO-PRIM",
+          "seq": 2,
+          "wepName": "Bonesword and Toxin Injector Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "TYR-BBRO-PRIM-BSATIC-0",
+              "wepId": "TYR-BBRO-PRIM-BSATIC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "TYR-BBRO-PRIM-A-FOTP",
+          "opTypeId": "TYR-BBRO-PRIM",
+          "abilityName": "Fist Of The Patriarch",
+          "description": "This operative can perform either two shoot or two fight actions during its activation."
+        },
+        {
+          "abilityId": "TYR-BBRO-PRIM-A-MM",
+          "opTypeId": "TYR-BBRO-PRIM",
+          "abilityName": "Mastermind",
+          "description": "Once per turning point, after rolling off to determine initiative, if this operative is in the killzone, you can do one of the following (you cannot select each option more than once per battle):\r \r - Add 1 to your dice result.\r - If you did not have initiative in the previous turning point, re-roll your dice.\r "
+        },
+        {
+          "abilityId": "TYR-BBRO-PRIM-CONS",
+          "opTypeId": "TYR-BBRO-PRIM",
+          "abilityName": "Conspire",
+          "AP": 1,
+          "description": "You gain 1 CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+        }
+      ]
+    }
+  ]
+}

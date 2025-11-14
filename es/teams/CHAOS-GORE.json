@@ -1,0 +1,679 @@
+{
+  "factionId": "CHAOS",
+  "killteamId": "CHAOS-GORE",
+  "version": "October '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_goremongers-q91adtper6-gkkkxyw3tb.pdf",
+  "killteamName": "Goremongers",
+  "description": "Goremongers are among the most lucid and reliable of Khorne's troops, pumping a constant flow of combat stimms mixed with drops of their masters' blood into their systems while still retaining a modicum of cunning and level-headedness. The first thing they do is to cut off their own legs and graft on a new mechanical pair that brings them closer to the ideal physical form, armed with blood letting chainweapons and ritual daggers..",
+  "composition": "A GOREMONGER kill team is composed of:\n\n- 1 GOREMONGER BLOOD HERALD\n- 7 GOREMONGER operatives selected from the following list:\n  - ASPIRANT\n  - BLOODTAKER\n  - IMPALER\n  - INCITER\n  - SKULLCLAIMER\n  - STALKER\n\nOther than ASPIRANT operatives, your kill team can only include each operative on this list once.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "CHAOS-GORE-S-AE",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Augmented Endurance",
+      "description": "Whenever an operative is shooting a friendly GOREMONGER operative, if that friendly operative's GORE TANK is:\n\n- Half, you can re-roll one of your defence dice.\n- Full, you can re-roll any of your defence dice.\n"
+    },
+    {
+      "ployId": "CHAOS-GORE-S-EV",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Enhanced Violence",
+      "description": "Whenever a friendly GOREMONGER operative's GORE TANK is:\n\n- Half, its melee weapons have the Balanced weapon rule.\n- Full, its melee weapons have the Relentless weapon rule.\n"
+    },
+    {
+      "ployId": "CHAOS-GORE-S-GT",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Gory Tenacity",
+      "description": "Whenever a friendly GOREMONGER operative is fighting or retaliating, the first time your opponent strikes it during that sequence, halve the damage inflicted (rounding up and to a minimum of 2)."
+    },
+    {
+      "ployId": "CHAOS-GORE-S-HFB",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Hunt For Blood",
+      "description": "Select one friendly GOREMONGER operative. If it has a Conceal order, change it to Engage. Then it can immediately perform a free Charge action, but cannot move more than 3\" during that action."
+    },
+    {
+      "ployId": "CHAOS-GORE-T-DD",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Destructive Demise",
+      "description": "Use this firefight ploy when a friendly GOREMONGER operative is incapacitated, before it's removed from the killzone. Inflict damage determined by that friendly operative's GORE TANK on one enemy operative within that friendly operative's control range.\n  \nInflict:\n\n- D3 if empty.\n- D3+1 if half.\n- D3+2 if full.\n"
+    },
+    {
+      "ployId": "CHAOS-GORE-T-GT",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Gorethirst",
+      "description": "Use this firefight ploy when you would counteract. You can do so with one friendly GOREMONGER operative that has a Conceal order, but you must change its order to Engage and it cannot perform any actions other than Charge, Shoot or Fight during that counteraction."
+    },
+    {
+      "ployId": "CHAOS-GORE-T-LF",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Lacerate Flesh",
+      "description": "Use this firefight ploy when a friendly GOREMONGER operative with an empty GORE TANK is activated or counteracts. Increase that operative's GORE TANK.\nAt the end of that activation/counteraction, decrease its GORE TANK (you cannot use this decrease to use a SANGUAVITAE rule); if you cannot decrease its GORE TANK, inflict D3 damage on it."
+    },
+    {
+      "ployId": "CHAOS-GORE-T-UBA",
+      "killteamId": "CHAOS-GORE",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Unbridled Aggression",
+      "description": "Use this firefight ploy when a friendly GOREMONGER operative is fighting during an activation in which it performed the Charge action, at the end of the Roll Attack Dice step.\nUntil the end of that sequence, that operative's melee weapons have the Severe weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "CHAOS-GORE-GT",
+      "killteamId": "CHAOS-GORE",
+      "seq": 1,
+      "eqName": "Gory Totem",
+      "description": "Before the battle, you can set up one of your Gory Totem markers wholly within your territory and more than 2\" from other markers (excluding your Bloody Cadaver marker).\nWhenever an enemy operative within 3\" of your Gory Totem marker is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GORE-BC",
+      "killteamId": "CHAOS-GORE",
+      "seq": 2,
+      "eqName": "Bloody Cadaver",
+      "description": "Before the battle, you can set up one of your Bloody Cadaver markers wholly within your territory and more than 2\" from other markers (excluding your Gory Totem marker).\nFriendly GOREMONGER operatives can perform the Pick Up Marker action on that marker. In the Ready step of each Strategy phase, you can increase the GORE TANK of one friendly GOREMONGER operative that controls that marker, unless that friendly operative is within control range of an enemy operative.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GORE-CS",
+      "killteamId": "CHAOS-GORE",
+      "seq": 3,
+      "eqName": "Chaos Sigil",
+      "description": "Once per turning point, when an operative is shooting a friendly GOREMONGER operative, at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "effects": ""
+    },
+    {
+      "eqId": "CHAOS-GORE-WC",
+      "killteamId": "CHAOS-GORE",
+      "seq": 4,
+      "eqName": "Wrist Chains",
+      "description": "Once per turning point, when a friendly GOREMONGER operative performs the Shoot action and you're selecting a ranged weapon, you can use this rule.\nIf you do, until the end of that action, the following melee weapons are treated as ranged weapons with the Range 2\" weapon rule: chainblade, chainglaive, great chainaxe (ignore its Brutal weapon rule), pickrippers.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-GORE-TA-SA",
+      "abilityName": "Sanguavitae",
+      "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
+    },
+    {
+      "abilityId": "CHAOS-GORE-TA-RUOFKH",
+      "abilityName": "Runes Of Khorne",
+      "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
+    },
+    {
+      "abilityId": "CHAOS-GORE-TA-GOTA",
+      "abilityName": "Gore Tank",
+      "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "CHAOS-GORE-BH",
+      "killteamId": "CHAOS-GORE",
+      "seq": 1,
+      "opTypeName": "Goremonger Blood Herald",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 11,
+      "keywords": "GOREMONGER, CHAOS, LEADER, BLOOD HERALD",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-BH-IOK",
+          "opTypeId": "CHAOS-GORE-BH",
+          "seq": 1,
+          "wepName": "Icon Of Khorne",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-BH-IOK-0",
+              "wepId": "CHAOS-GORE-BH-IOK",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-BH-CB",
+          "opTypeId": "CHAOS-GORE-BH",
+          "seq": 2,
+          "wepName": "Chainblade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-BH-CB-0",
+              "wepId": "CHAOS-GORE-BH-CB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-BH-A-IA",
+          "opTypeId": "CHAOS-GORE-BH",
+          "abilityName": "Impending Apotheosis",
+          "description": "Once per battle, when an attack dice inflicts Normal damage on this operative, you can ignore that inflicted damage."
+        },
+        {
+          "abilityId": "CHAOS-GORE-BH-A-KF",
+          "opTypeId": "CHAOS-GORE-BH",
+          "abilityName": "Khorne's Favour",
+          "description": "Once during each of this operative's activations, if its GORE TANK is empty, you can increase its GORE TANK."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-GORE-ASP",
+      "killteamId": "CHAOS-GORE",
+      "seq": 2,
+      "opTypeName": "Goremonger Aspirant",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, ASPIRANT",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-ASP-AP",
+          "opTypeId": "CHAOS-GORE-ASP",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-ASP-AP-0",
+              "wepId": "CHAOS-GORE-ASP-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-ASP-CG",
+          "opTypeId": "CHAOS-GORE-ASP",
+          "seq": 2,
+          "wepName": "Chainglaive",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-ASP-CG-0",
+              "wepId": "CHAOS-GORE-ASP-CG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-ASP-A-OB",
+          "opTypeId": "CHAOS-GORE-ASP",
+          "abilityName": "Obsessive Bloodlust",
+          "description": "Once during each of this operative's activations, when this operative ends the Fight action, if it's no longer within control range of enemy operatives, you can use this rule. If you do, it can immediately perform a free Charge action (even if it's already performed the Charge action during that activation),\nbut it cannot move more than 2\" during that action. Doing so doesn't prevent it from performing the Charge, Dash or Reposition action afterwards during that activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-GORE-BT",
+      "killteamId": "CHAOS-GORE",
+      "seq": 3,
+      "opTypeName": "Goremonger Bloodtaker",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, BLOODTAKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-BT-AP",
+          "opTypeId": "CHAOS-GORE-BT",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-BT-AP-0",
+              "wepId": "CHAOS-GORE-BT-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-BT-RB",
+          "opTypeId": "CHAOS-GORE-BT",
+          "seq": 2,
+          "wepName": "Ritual Blade",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-BT-RB-0",
+              "wepId": "CHAOS-GORE-BT-RB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-CHAOS-GORE-RITUAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-BT-TFR",
+          "opTypeId": "CHAOS-GORE-BT",
+          "abilityName": "Transfusion Ritual",
+          "AP": 1,
+          "description": "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-GORE-IMP",
+      "killteamId": "CHAOS-GORE",
+      "seq": 4,
+      "opTypeName": "Goremonger Impaler",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, IMPALER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-IMP-AP",
+          "opTypeId": "CHAOS-GORE-IMP",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-IMP-AP-0",
+              "wepId": "CHAOS-GORE-IMP-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-IMP-FSR",
+          "opTypeId": "CHAOS-GORE-IMP",
+          "seq": 2,
+          "wepName": "Fleshskewer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-IMP-FSR-0",
+              "wepId": "CHAOS-GORE-IMP-FSR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-CHAOS-GORE-DRAG"
+                },
+                {
+                  "id": "WR-CHAOS-GORE-PREY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-IMP-FSM",
+          "opTypeId": "CHAOS-GORE-IMP",
+          "seq": 3,
+          "wepName": "Fleshskewer",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-IMP-FSM-0",
+              "wepId": "CHAOS-GORE-IMP-FSM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "CHAOS-GORE-INC",
+      "killteamId": "CHAOS-GORE",
+      "seq": 5,
+      "opTypeName": "Goremonger Inciter",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, INCITER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-INC-DAPR",
+          "opTypeId": "CHAOS-GORE-INC",
+          "seq": 1,
+          "wepName": "Dual Autopistols",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-INC-DAPR-0",
+              "wepId": "CHAOS-GORE-INC-DAPR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-INC-DAPM",
+          "opTypeId": "CHAOS-GORE-INC",
+          "seq": 2,
+          "wepName": "Dual Autopistols",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-INC-DAPM-0",
+              "wepId": "CHAOS-GORE-INC-DAPM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-INC-A-ITH",
+          "opTypeId": "CHAOS-GORE-INC",
+          "abilityName": "Incite The Hunt",
+          "description": "Whenever this operative incapacitates an enemy operative from more than 2\" away, before that enemy operative is removed from the killzone, you can increase the GORE TANK of one friendly GOREMONGER operative within 8\" of that enemy operative.  \n\nWhenever this operative inflicts damage on an enemy operative with either profile of its dual autopistols but doesn't incapacitate it, that enemy operative gains one of your Bleeding tokens (if it doesn't already have one).  \n\nDuring a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action, if it's within 8\" of an enemy operative that has one of your Bleeding tokens, you can remove that token and increase that friendly operative's GORE TANK."
+        },
+        {
+          "abilityId": "CHAOS-GORE-INC-DAS",
+          "opTypeId": "CHAOS-GORE-INC",
+          "abilityName": "Dash And Spray",
+          "AP": 1,
+          "description": "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-GORE-SC",
+      "killteamId": "CHAOS-GORE",
+      "seq": 6,
+      "opTypeName": "Goremonger Skullclaimer",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, SKULLCLAIMER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-SC-AP",
+          "opTypeId": "CHAOS-GORE-SC",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-SC-AP-0",
+              "wepId": "CHAOS-GORE-SC-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-SC-GCA",
+          "opTypeId": "CHAOS-GORE-SC",
+          "seq": 2,
+          "wepName": "Great Chainaxe",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-SC-GCA-0",
+              "wepId": "CHAOS-GORE-SC-GCA",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-SC-A-BRU",
+          "opTypeId": "CHAOS-GORE-SC",
+          "abilityName": "Brutish",
+          "description": "Whenever an attack dice would inflict Critical Dmg on this operative, you can choose for that attack dice to inflict Normal Dmg instead."
+        },
+        {
+          "abilityId": "CHAOS-GORE-SC-A-CS",
+          "opTypeId": "CHAOS-GORE-SC",
+          "abilityName": "Claim Skull",
+          "description": "Once per turning point, if this operative incapacitates an enemy operative with its great chainaxe, you gain 1CP."
+        }
+      ]
+    },
+    {
+      "opTypeId": "CHAOS-GORE-ST",
+      "killteamId": "CHAOS-GORE",
+      "seq": 7,
+      "opTypeName": "Goremonger Stalker",
+      "MOVE": "7\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "GOREMONGER, CHAOS, STALKER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "CHAOS-GORE-ST-AP",
+          "opTypeId": "CHAOS-GORE-ST",
+          "seq": 1,
+          "wepName": "Autopistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-ST-AP-0",
+              "wepId": "CHAOS-GORE-ST-AP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-GORE-ST-PR",
+          "opTypeId": "CHAOS-GORE-ST",
+          "seq": 2,
+          "wepName": "Pickrippers",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-GORE-ST-PR-0",
+              "wepId": "CHAOS-GORE-ST-PR",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "CHAOS-GORE-ST-A-CP",
+          "opTypeId": "CHAOS-GORE-ST",
+          "abilityName": "Climbing Picks",
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically)."
+        },
+        {
+          "abilityId": "CHAOS-GORE-ST-A-RTS",
+          "opTypeId": "CHAOS-GORE-ST",
+          "abilityName": "Rooftop Stalker",
+          "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain, or whenever this operative is fighting against an enemy operative that's on Vantage terrain, this operative's melee weapons have the Relentless weapon rule."
+        }
+      ]
+    }
+  ]
+}

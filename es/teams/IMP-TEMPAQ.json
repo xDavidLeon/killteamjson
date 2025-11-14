@@ -1,0 +1,989 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-TEMPAQ",
+  "version": "June '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_tempestus_aquilons-4ekfmt7wwp-r7mk6vjh9r.pdf",
+  "killteamName": "Tempestus Aquilons",
+  "description": "\"It doesn't matter who or what the enemy are. If they stand between us and following our orders, they'll die for it.\"  \n\n*--Tempestus Aquilon Therka Drayv, prior to the Ossinium Drop*",
+  "composition": "A TEMPESTUS AQUILON KillTeam is composed of:\n\n- 1 TEMPESTUS AQUILON TEMPESTOR operative with one of the following options:\n  - Hot-Shot Laspistol; Power Weapon\n  - Relic Bolt Pistol; Chainsword\n  - Hot-Shot Lascarbine; Fists\n- 1 SERVO-SENTRY with one of the following options:\n  - Flamer\n  - Grenade Launcher\n  - Hot-Shot Volley Gun\n- 9 TEMPESTUS AQUILON operatives selected from the following list:\n  - GRENADIER\n  - GUNFIGHTER\n  - GUNNER with Melta Carbine and Fists\n  - GUNNER with Plasma Carbine and Fists\n  - MARKSMAN\n  - PRECURSOR\n  - TROOPER\n\nOther than TROOPER operatives, your killteam can only include each operative above once.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-TEMPAQ-S-DAS",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Drop And Secure",
+      "description": "Select one marker.\r \r - Until the Ready step of the next Turning Point, when determining control of that marker, treat the total APL stat of friendly TEMPESTUS AQUILON operatives that contest it as 1 higher, as long as at least one friendly TEMPESTUS AQUILON operative actually contests it.\r - Whenever a friendly TEMPESTUS AQUILON operative is within 3\" of that marker, add 1 to the Atk stat of its Melee weapons (to a maximum of 4).\r "
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-EA",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Eye Above",
+      "description": "Select one enemy operative. That operative and all other enemy operatives within 3\" of it gain one of your Detected tokens until the end of the Turning Point.\nWhenever an enemy operative with a Detected token:\n\n- Is shooting a friendly TEMPESTUS AQUILON operative, you can re-roll one of your Defence Dice.\n- Is fighting or retaliating against a friendly TEMPESTUS AQUILON operative, one of your blocks can be allocated to block two unresolved successes (instead of one).\n"
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-MM",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Maintain Momentum",
+      "description": "Whenever a friendly TEMPESTUS AQUILON operative is shooting against or fighting against a ready enemy operative, its weapons have the Severe weapon rule.  \n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-S-SO",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Sudden Offensive",
+      "description": "Count the number of friendly TEMPESTUS AQUILON operatives that are not incapacitated, then halve the result (rounding up) to give you x.\nUntil the end of their activation, friendly TEMPESTUS AQUILON operatives' weapons have the Balanced weapon rule if they are the first friendly operatives activated this Turning Point equal to x.\nFor example if you have five operatives, the first three activated will benefit.  \n**Balanced:** Can re-roll one Attack die."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-AC",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Adjust Coordinates",
+      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative lands. You can set it up within 5\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement.\nIt cannot perform the Dash, Fight, or Shoot actions during this Turning Point."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-HD",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Hot Drop",
+      "description": "Use this Firefight Ploy after rolling Attack Dice for a friendly TEMPESTUS AQUILON operative that is wholly within your opponent's territory, or either landed or dropped from Vantage terrain at least 2\" higher than the killzone floor during this activation. If the target is within 6\" of it, you can re-roll any of your Attack Dice."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-PRO",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Progena",
+      "description": "Use this Firefight Ploy when a friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) is activated.\nIt regains 2D3 lost Wounds, and during that activation you can ignore any changes to its APL stat."
+    },
+    {
+      "ployId": "IMP-TEMPAQ-T-TE",
+      "killteamId": "IMP-TEMPAQ",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Tempestus Exemplars",
+      "description": "Use this Firefight Ploy during a friendly TEMPESTUS AQUILON operative's activation (excluding SERVO-SENTRY and any operative with an APL stat greater than 2).\nDuring that activation, it can perform the Pick Up Marker, Place Marker, or a mission action for 1 less AP."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-TEMPAQ-TD",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 1,
+      "eqName": "Tempestus Dagger",
+      "description": "Friendly Tempestus Aquilon operatives (excluding SERVO-SENTRY) have the following Melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Tempestus Dagger|3|4+|3/4|\n",
+      "effects": "ADDWEP:Tempestus Dagger|M|3|4+|3/4|"
+    },
+    {
+      "eqId": "IMP-TEMPAQ-CS",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 2,
+      "eqName": "Combat Stimms",
+      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured.",
+      "effects": "NOINJMOV"
+    },
+    {
+      "eqId": "IMP-TEMPAQ-DA",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 3,
+      "eqName": "Drop Augury",
+      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-TEMPAQ-ROS",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 4,
+      "eqName": "Remote Overseer",
+      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-TEMPAQ-TA-DRIN",
+      "abilityName": "Drop Insertion",
+      "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
+    },
+    {
+      "abilityId": "IMP-TEMPAQ-TA-GRCH",
+      "abilityName": "Grav Chute",
+      "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-TEMPAQ-TEMP",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 0,
+      "opTypeName": "Aquilon Tempestor",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "4+",
+      "WOUNDS": 9,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, LEADER, TEMPESTOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-HSLC",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 0,
+          "wepName": "Hot-Shot Lascarbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-HSLC-0",
+              "wepId": "IMP-TEMPAQ-TEMP-HSLC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-HSLP",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 1,
+          "wepName": "Hot-Shot Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-HSLP-0",
+              "wepId": "IMP-TEMPAQ-TEMP-HSLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-RBP",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 2,
+          "wepName": "Relic Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-RBP-0",
+              "wepId": "IMP-TEMPAQ-TEMP-RBP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-CS",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 3,
+          "wepName": "Chainsword",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-CS-0",
+              "wepId": "IMP-TEMPAQ-TEMP-CS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-F",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 4,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-F-0",
+              "wepId": "IMP-TEMPAQ-TEMP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TEMP-PW",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "seq": 5,
+          "wepName": "Power Weapon",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TEMP-PW-0",
+              "wepId": "IMP-TEMPAQ-TEMP-PW",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-TEMP-A-VET",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "abilityName": "Tempestus Veteran",
+          "description": "Once per battle, you can either use a Firefight Ploy for 0 CP if this is the specific TEMPESTUS AQUILON operative, or the Command Re-Roll Firefight Ploy for 0 CP if this is the operative the attack or defence die was rolled for."
+        },
+        {
+          "abilityId": "IMP-TEMPAQ-TEMP-CMD",
+          "opTypeId": "IMP-TEMPAQ-TEMP",
+          "abilityName": "Command",
+          "AP": 1,
+          "description": "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-GRN",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 1,
+      "opTypeName": "Aquilon Grenadier",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, GRENADIER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-GRN-HSLP",
+          "opTypeId": "IMP-TEMPAQ-GRN",
+          "seq": 0,
+          "wepName": "Hot-Shot Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GRN-HSLP-0",
+              "wepId": "IMP-TEMPAQ-GRN-HSLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-GRN-MB",
+          "opTypeId": "IMP-TEMPAQ-GRN",
+          "seq": 1,
+          "wepName": "Melta Bomb",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GRN-MB-0",
+              "wepId": "IMP-TEMPAQ-GRN-MB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LIMITED",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-GRN-F",
+          "opTypeId": "IMP-TEMPAQ-GRN",
+          "seq": 2,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GRN-F-0",
+              "wepId": "IMP-TEMPAQ-GRN-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-GRN-A-GRN",
+          "opTypeId": "IMP-TEMPAQ-GRN",
+          "abilityName": "Grenadier",
+          "description": "This operative can use Frag, Krak, Smoke, and Stun Grenades (see universal equipment). Doing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\r Whenever this operative is using a Frag or Krak Grenade, improve the HIT stat of that weapon by 1."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-GF",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 2,
+      "opTypeName": "Aquilon Gunfighter",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNFIGHTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-GF-HSLP",
+          "opTypeId": "IMP-TEMPAQ-GF",
+          "seq": 0,
+          "wepName": "Hot-Shot Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GF-HSLP-0",
+              "wepId": "IMP-TEMPAQ-GF-HSLP",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-GF-HSLP-1",
+              "wepId": "IMP-TEMPAQ-GF-HSLP",
+              "seq": 1,
+              "profileName": "Salvo",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-IMP-TEMPAQ-SALVO"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-GF-HSLPPB",
+          "opTypeId": "IMP-TEMPAQ-GF",
+          "seq": 2,
+          "wepName": "Hot-Shot Laspistol (Point Blank)",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GF-HSLPPB-0",
+              "wepId": "IMP-TEMPAQ-GF-HSLPPB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-GF-A-GF",
+          "opTypeId": "IMP-TEMPAQ-GF",
+          "abilityName": "Gunfight",
+          "description": "Whenever an enemy operative within 8\" of this operative shoots this operative, keep track of each Attack die that is discarded as a fail.\nAfter the action, before incapacitated operatives are removed (including this one, if relevant), this operative can perform a free Shoot action (change its order to Engage to do so), but it can only target that enemy operative with its Hot-Shot Laspistols (Focused), and you only roll a number of Attack dice equal to the opponent's discarded Attack dice plus one (to a maximum of four)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-GNR",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 3,
+      "opTypeName": "Aquilon Gunner",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-GNR-MC",
+          "opTypeId": "IMP-TEMPAQ-GNR",
+          "seq": 0,
+          "wepName": "Melta Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GNR-MC-0",
+              "wepId": "IMP-TEMPAQ-GNR-MC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-GNR-PC",
+          "opTypeId": "IMP-TEMPAQ-GNR",
+          "seq": 1,
+          "wepName": "Plasma Carbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GNR-PC-0",
+              "wepId": "IMP-TEMPAQ-GNR-PC",
+              "seq": 0,
+              "profileName": "Standard",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-GNR-PC-1",
+              "wepId": "IMP-TEMPAQ-GNR-PC",
+              "seq": 1,
+              "profileName": "Supercharge",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-GNR-F",
+          "opTypeId": "IMP-TEMPAQ-GNR",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-GNR-F-0",
+              "wepId": "IMP-TEMPAQ-GNR-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-MRK",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 4,
+      "opTypeName": "Aquilon Marksman",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, MARKSMAN",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-MRK-HSLL",
+          "opTypeId": "IMP-TEMPAQ-MRK",
+          "seq": 0,
+          "wepName": "Hot-Shot Longlas",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-0",
+              "wepId": "IMP-TEMPAQ-MRK-HSLL",
+              "seq": 0,
+              "profileName": "Concealed",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-IMP-AES-CONCEALED"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-1",
+              "wepId": "IMP-TEMPAQ-MRK-HSLL",
+              "seq": 1,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-2",
+              "wepId": "IMP-TEMPAQ-MRK-HSLL",
+              "seq": 2,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-MRK-F",
+          "opTypeId": "IMP-TEMPAQ-MRK",
+          "seq": 3,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-MRK-F-0",
+              "wepId": "IMP-TEMPAQ-MRK-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-MRK-A-SNPVANT",
+          "opTypeId": "IMP-TEMPAQ-MRK",
+          "abilityName": "Sniper's Vantage",
+          "description": "Whenever this operative is on Vantage terrain and is shooting an operative that has an Engage order and is at least 2\" lower than it, all profiles of its Hot-Shot Long-Las have the Severe weapon rule."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-PRE",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 5,
+      "opTypeName": "Aquilon Precursor",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, PRECURSOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-PRE-HSLP",
+          "opTypeId": "IMP-TEMPAQ-PRE",
+          "seq": 0,
+          "wepName": "Hot-Shot Laspistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-PRE-HSLP-0",
+              "wepId": "IMP-TEMPAQ-PRE-HSLP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-PRE-TD",
+          "opTypeId": "IMP-TEMPAQ-PRE",
+          "seq": 1,
+          "wepName": "Tempestus Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-PRE-TD-0",
+              "wepId": "IMP-TEMPAQ-PRE-TD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-PRE-A-DYN",
+          "opTypeId": "IMP-TEMPAQ-PRE",
+          "abilityName": "Dynamic",
+          "description": "Whenever this operative performs the Fight or Shoot action, it can immediately perform a free Dash action afterwards. It can do so even if it performed the Charge action during this activation, but can only use the remaining distance it had from that Charge action (to a maximum of 3\")."
+        },
+        {
+          "abilityId": "IMP-TEMPAQ-PRE-A-VKF",
+          "opTypeId": "IMP-TEMPAQ-PRE",
+          "abilityName": "Vicious Knife Fighter",
+          "description": "Whenever this operative is fighting, after resolving your first Attack die, you can immediately resolve another (before your opponent)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-SS",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 6,
+      "opTypeName": "Aquilon Servo-Sentry",
+      "MOVE": "4\"",
+      "APL": 2,
+      "SAVE": "3+",
+      "WOUNDS": 10,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, SERVO-SENTRY",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-SS-FL",
+          "opTypeId": "IMP-TEMPAQ-SS",
+          "seq": 0,
+          "wepName": "Flamer",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-SS-FL-0",
+              "wepId": "IMP-TEMPAQ-SS-FL",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-SS-GL",
+          "opTypeId": "IMP-TEMPAQ-SS",
+          "seq": 1,
+          "wepName": "Grenade Launcher",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-SS-GL-0",
+              "wepId": "IMP-TEMPAQ-SS-GL",
+              "seq": 0,
+              "profileName": "Frag",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-SS-GL-1",
+              "wepId": "IMP-TEMPAQ-SS-GL",
+              "seq": 1,
+              "profileName": "Krak",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-SS-HSVG",
+          "opTypeId": "IMP-TEMPAQ-SS",
+          "seq": 3,
+          "wepName": "Hot-Shot Volley Gun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-SS-HSVG-0",
+              "wepId": "IMP-TEMPAQ-SS-HSVG",
+              "seq": 0,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-TEMPAQ-SS-HSVG-1",
+              "wepId": "IMP-TEMPAQ-SS-HSVG",
+              "seq": 1,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-SS-A-MAC",
+          "opTypeId": "IMP-TEMPAQ-SS",
+          "abilityName": "Machine",
+          "description": "This operative cannot perform any actions other than Dash, Fall Back, Reposition, and Shoot. It cannot retaliate, assist in a fight, or use any weapons that are not on its datacard."
+        },
+        {
+          "abilityId": "IMP-TEMPAQ-SS-A-TUR",
+          "opTypeId": "IMP-TEMPAQ-SS",
+          "abilityName": "Turret",
+          "description": "This operative can perform two Shoot actions during its activation."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-TEMPAQ-TRP",
+      "killteamId": "IMP-TEMPAQ",
+      "seq": 7,
+      "opTypeName": "Aquilon Trooper",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "TEMPESTUS AQUILON, IMPERIUM, TROOPER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-TEMPAQ-TRP-HSLC",
+          "opTypeId": "IMP-TEMPAQ-TRP",
+          "seq": 0,
+          "wepName": "Hot-Shot Lascarbine",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TRP-HSLC-0",
+              "wepId": "IMP-TEMPAQ-TRP-HSLC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-TEMPAQ-TRP-F",
+          "opTypeId": "IMP-TEMPAQ-TRP",
+          "seq": 1,
+          "wepName": "Fists",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-TEMPAQ-TRP-F-0",
+              "wepId": "IMP-TEMPAQ-TRP-F",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-TEMPAQ-TRP-A-RAP",
+          "opTypeId": "IMP-TEMPAQ-TRP",
+          "abilityName": "Rapid Insertion",
+          "description": "STRATEGIC GAMBIT in the first Strategy Phase. Each friendly TEMPESTUS AQUILON TROOPER operative wholly within your drop zone can immediately perform a free Reposition action, but must finish that action wholly within 3\" of your drop zone."
+        },
+        {
+          "abilityId": "IMP-TEMPAQ-TRP-A-SWL",
+          "opTypeId": "IMP-TEMPAQ-TRP",
+          "abilityName": "Swift Landing",
+          "description": "When this operative lands, you can set it up within 4\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement."
+        }
+      ]
+    }
+  ]
+}

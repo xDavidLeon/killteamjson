@@ -1,0 +1,731 @@
+{
+  "factionId": "IMP",
+  "killteamId": "IMP-BC",
+  "version": "August '25",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_battleclade-aeapdfcbyd-ryxszqx3xb.pdf",
+  "killteamName": "Battleclade",
+  "description": "*\"Let nothing dissuade your quest for knowledge. Let none slow your pursuit and acquisition of holy technology. Let none stand between you and the procurement of that which is rightfully the machine god's due.\"*  \n- Thusdorius Knoch, Invictus Acquisitor",
+  "composition": "A BATTLECLADE KillTeam is composed of:\n\n- 1 BATTLECLADE TECHNOARCHEOLOGIST\n- 1 BATTLECLADE SERVITOR UNDERSEER\n- 8 BATTLECLADE operatives selected from the following list:\n  - AUTO-PROXY SERVITOR\n  - BREACHER SERVITOR\n  - COMBAT SERVITOR with one of the following options:\n    - Servo-claw; incendine igniter\n    - Servo-claw; meltagun\n    - Servo-claw; phosphor blaster\n  - GUN SERVITOR with heavy arc rifle and augmetic claw\n  - GUN SERVITOR with heavy bolter and augmetic claw\n  - TECHNOMEDIC SERVITOR\n\nOther than COMBAT SERVITOR operatives, your kill team can only include each operative on this list once.\nYour kill team can only include up to one COMBAT SERVITOR operative with meltagun, and it can only include up to three COMBAT SERVITOR operatives with incendine igniter.",
+  "archetypes": [
+    "Infiltration",
+    "Recon"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-BC-S-DOR",
+      "killteamId": "IMP-BC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Duty Of Reclamation",
+      "description": "Once per action, you can use the Command Re-roll firefight ploy for 0CP if the attack or defence dice was rolled for a friendly BATTLECLADE operative that contests an objective marker or one of your mission markers."
+    },
+    {
+      "ployId": "IMP-BC-S-IOTIS",
+      "killteamId": "IMP-BC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Incantation Of The Iron Soul",
+      "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly BATTLECLADE operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+    },
+    {
+      "ployId": "IMP-BC-S-NSP",
+      "killteamId": "IMP-BC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Noospheric Possession",
+      "description": "SUPPORT. Whenever a friendly BATTLECLADE SERVITOR operative is within 6\" of a friendly BATTLECLADE AUTO-PROXY or BATTLECLADE SERVITOR UNDERSEER operative, that friendly SERVITOR operative's weapons have the Accurate 1 weapon rule.  \n\nFor the purposes of this SUPPORT rule and the Comms Device equipment, the AUTO-PROXY or SERVITOR UNDERSEER operative must control your Comms Device marker to add 3\" to its distance requirement for this rule."
+    },
+    {
+      "ployId": "IMP-BC-S-PA",
+      "killteamId": "IMP-BC",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Prioritised Acquisition",
+      "description": "Select one objective marker or one of your mission markers.\n\n- Whenever determining control of that marker, treat the total APL stat of friendly BATTLECLADE operatives that contest it as 1 higher if at least one friendly BATTLECLADE operative contests that marker. Note this isn't a change to the APL stat, so any changes are cumulative with this.\n- Whenever a friendly BATTLECLADE operative is within 3\" of that marker, add 1 to the Atk stat of its melee weapons (to a maximum of 4).\n"
+    },
+    {
+      "ployId": "IMP-BC-T-AFS",
+      "killteamId": "IMP-BC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Auto-ferric Supplication",
+      "description": "Use this firefight ploy when an operative is shooting a friendly BATTLECLADE TECH-PRIEST operative, at the start of the Roll Attack Dice step. Until the end of the sequence, ignore the Piercing weapon rule."
+    },
+    {
+      "ployId": "IMP-BC-T-RA",
+      "killteamId": "IMP-BC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Remote Access",
+      "description": "Use this firefight ploy during a friendly BATTLECLADE TECH-PRIEST operative's activation. Once during that activation, you can use one of the following rules:\n\n- That operative doesn't require a marker to be within its control range to perform a mission action that usually requires this (this takes precedence over that action's conditions).\nInstead, the marker must be within 4\" of it and no enemy operatives can contest that marker. However, you can ignore enemy operatives within control range of other friendly BATTLECLADE operatives when determining this.\n- That operative doesn't require a hatchway's access point to be within its control range to perform an Operate Hatch action. Instead, that access point must be within 4\" of it.\n"
+    },
+    {
+      "ployId": "IMP-BC-T-SE",
+      "killteamId": "IMP-BC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "System Exorcism",
+      "description": "Use this firefight ploy when you would activate a friendly BATTLECLADE operative. Remove one rules effect or stat change your opponent has applied to it (e.g. Poison token, -1APL, cannot be activated or perform actions, etc), then activate it. This ploy cannot allow it to regain lost wounds, ignore the effects of being injured, remove mission pack rulesor remove -1APL that you have applied to it (i.e. from TRANSFER POWER)."
+    },
+    {
+      "ployId": "IMP-BC-T-SS",
+      "killteamId": "IMP-BC",
+      "ployType": "T",
+      "seq": 1,
+      "ployName": "Servile Surrogacy",
+      "description": "Use this firefight ploy when a friendly BATTLECLADE TECH-PRIEST operative is selected as the valid target of a Shoot action or to fight against during the Fight action.\nSelect one friendly BATTLECLADE SERVITOR operative visible to and within 3\" of that first friendly operative to become the valid target or to be fought against (as appropriate) instead (even if it wouldn't normally be valid for this).\nIf it's the Fight action, treat that SERVITOR operative as being within the fighting operative's control range for the duration of that action.\nIf it's the Shoot action, that SERVITOR operative is only in cover or obscured if the original target was.  \n\nThis ploy has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-BC-CG",
+      "killteamId": "IMP-BC",
+      "seq": 1,
+      "eqName": "Covert Guises",
+      "description": "After revealing this equipment option, roll one D3. As a STRATEGIC GAMBIT in the first turning point, a number of friendly BATTLECLADE operatives equal to the result that are wholly within your drop zone can immediately perform a free Reposition action, but must end that move wholly within 3\" of your drop zone.\nYour TECHNOARCHEOLOGIST operative cannot perform more than one Reposition action in the Strategy phase of the first turning point (i.e. as a result of the Seeker of Divine Arcana rule as well).",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-BC-EC",
+      "killteamId": "IMP-BC",
+      "seq": 2,
+      "eqName": "Electromantic Capacitors",
+      "description": "Friendly BATTLECLADE operatives' melee weapons have the Shock weapon rule. Whenever a ready friendly BATTLECLADE operative is retaliating, its melee weapons also have the Severe weapon rule.",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-BC-CA",
+      "killteamId": "IMP-BC",
+      "seq": 3,
+      "eqName": "Concealed Apparatus",
+      "description": "STRATEGIC GAMBIT in the second turning point.  \n\nYou can swap the locations of any number of friendly BATTLECLADE SERVITOR operatives with each other (excluding GUN SERVITOR), and you can swap the locations of friendly BATTLECLADE GUN SERVITOR operatives with each other (remove them from the killzone and set them back up again).\nYou cannot swap any operatives that have done any of the following during the battle:\n\n- Used any weapons on their datacard.\n- Performed any actions on their datacard.\n- Used the Mechanosuture Array rule(see TECHNOMEDIC).\n",
+      "effects": ""
+    },
+    {
+      "eqId": "IMP-BC-NCRC",
+      "killteamId": "IMP-BC",
+      "seq": 4,
+      "eqName": "Neurocyclic Reserve Cells",
+      "description": "After revealing this equipment option, roll one D3. A number of times during the battle equal to the result, whenever you TRANSFER POWER, you can use this rule. If you do, don't subtract 1 from the operative's APL stat, but it cannot perform Shoot or Fight actions during that activation (this takes precedence over the normal Noospheric Network rules).",
+      "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-BC-TA-NONE",
+      "abilityName": "Noospheric Network",
+      "description": "Whenever a friendly BATTLECLADE SERVITOR operative is activated, you can TRANSFER POWER.\nIf you do, subtract 1 from its APL stat until the end of that activation.  \n\nAfter that activation, you can NETWORK COUNTERACT with one other friendly BATTLECLADE SERVITOR operative before your opponent activates. Whenever you NETWORK COUNTERACT with a friendly operative, first select its order.\nIt can then perform a 1AP action for free, but cannot move. Once it's done so, your opponent then activates as normal.  \n\nAn operative cannot TRANSFER POWER or NETWORK COUNTERACT if it has an APL stat of less than 2 (e.g. if the stat has been changed to less than 2 by a rule).\nNETWORK COUNTERACT is a counteraction, but the operative doesn't need to be expended with an Engage order to do it.\nThat means if they're ready when they NETWORK COUNTERACT, they can still be activated as normal later in the turning point. An operative that does NETWORK COUNTERACT cannot do so again, or counteract, during the same turning point."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-BC-TA",
+      "killteamId": "IMP-BC",
+      "seq": 1,
+      "opTypeName": "Battleclade Technoarcheologist",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, TECH-PRIEST, LEADER, TECHNOARCHEOLOGIST",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-TA-EP",
+          "opTypeId": "IMP-BC-TA",
+          "seq": 1,
+          "wepName": "Eradication Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-TA-EP-1",
+              "wepId": "IMP-BC-TA-EP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3,
+                  "prefix_num": 1
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-TA-SAC",
+          "opTypeId": "IMP-BC-TA",
+          "seq": 2,
+          "wepName": "Servo-Arc Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-TA-SAC-1",
+              "wepId": "IMP-BC-TA-SAC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-BC-TA-OS",
+          "opTypeId": "IMP-BC-TA",
+          "abilityName": "Omniscanner",
+          "AP": 1,
+          "description": "Select one enemy operative visible to or within 8\" of this operative to gain one of your Omniscanner tokens. Whenever a friendly BATTLECLADE operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Omniscanner tokens, that friendly operative's weapons have the Ceaseless weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-BC-APS",
+      "killteamId": "IMP-BC",
+      "seq": 2,
+      "opTypeName": "Battleclade Auto-proxy Servitor",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, AUTO-PROXY, SERVITOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-APS-TG",
+          "opTypeId": "IMP-BC-APS",
+          "seq": 1,
+          "wepName": "Taser Goad",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-APS-TG-1",
+              "wepId": "IMP-BC-APS-TG",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-BC-APS-A-AE",
+          "opTypeId": "IMP-BC-APS",
+          "abilityName": "Achillan Eye",
+          "description": "Whenever a friendly BATTLECLADE operative is shooting an enemy operative visible to this operative, that friendly operative's ranged weapons have the Saturate weapon rule. This rule has no effect if this operative is within control range of an enemy operative."
+        },
+        {
+          "abilityId": "IMP-BC-APS-GOTO",
+          "opTypeId": "IMP-BC-APS",
+          "abilityName": "Gaze Of The Omnissiah",
+          "AP": 1,
+          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly BATTLECLADE operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-BC-BBS",
+      "killteamId": "IMP-BC",
+      "seq": 3,
+      "opTypeName": "Battleclade Breacher Servitor",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, BREACHER, SERVITOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-BBS-LC",
+          "opTypeId": "IMP-BC-BBS",
+          "seq": 1,
+          "wepName": "Lascutter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BBS-LC-1",
+              "wepId": "IMP-BC-BBS-LC",
+              "seq": 1,
+              "profileName": "Close Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-BC-BBS-LC-2",
+              "wepId": "IMP-BC-BBS-LC",
+              "seq": 2,
+              "profileName": "Short Range",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BBS-HPLC",
+          "opTypeId": "IMP-BC-BBS",
+          "seq": 2,
+          "wepName": "Hydraulic Pincer & Lascutter",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BBS-HPLC-1",
+              "wepId": "IMP-BC-BBS-HPLC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-BC-BBS-BR",
+          "opTypeId": "IMP-BC-BBS",
+          "abilityName": "Breach",
+          "AP": 1,
+          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it. Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-BC-BCS",
+      "killteamId": "IMP-BC",
+      "seq": 4,
+      "opTypeName": "Battleclade Combat Servitor",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, COMBAT, SERVITOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-BCS-II",
+          "opTypeId": "IMP-BC-BCS",
+          "seq": 1,
+          "wepName": "Incendine Igniter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BCS-II-1",
+              "wepId": "IMP-BC-BCS-II",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "4/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BCS-MG",
+          "opTypeId": "IMP-BC-BCS",
+          "seq": 2,
+          "wepName": "Meltagun",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BCS-MG-1",
+              "wepId": "IMP-BC-BCS-MG",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "6/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BCS-PB",
+          "opTypeId": "IMP-BC-BCS",
+          "seq": 3,
+          "wepName": "Phosphor Blaster",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BCS-PB-1",
+              "wepId": "IMP-BC-BCS-PB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BCS-SC",
+          "opTypeId": "IMP-BC-BCS",
+          "seq": 4,
+          "wepName": "Servo-Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BCS-SC-1",
+              "wepId": "IMP-BC-BCS-SC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-BC-BGS",
+      "killteamId": "IMP-BC",
+      "seq": 5,
+      "opTypeName": "Battleclade Gun Servitor",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 11,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, GUN, SERVITOR",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-BGS-HAR",
+          "opTypeId": "IMP-BC-BGS",
+          "seq": 1,
+          "wepName": "Heavy Arc Rifle",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BGS-HAR-1",
+              "wepId": "IMP-BC-BGS-HAR",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BGS-HB",
+          "opTypeId": "IMP-BC-BGS",
+          "seq": 2,
+          "wepName": "Heavy Bolter",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BGS-HB-1",
+              "wepId": "IMP-BC-BGS-HB",
+              "seq": 1,
+              "profileName": "Focused",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-BC-BGS-HB-2",
+              "wepId": "IMP-BC-BGS-HB",
+              "seq": 2,
+              "profileName": "Sweeping",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1,
+                  "details": "Crits"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BGS-AC",
+          "opTypeId": "IMP-BC-BGS",
+          "seq": 3,
+          "wepName": "Augmetic Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BGS-AC-1",
+              "wepId": "IMP-BC-BGS-AC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": []
+    },
+    {
+      "opTypeId": "IMP-BC-BSU",
+      "killteamId": "IMP-BC",
+      "seq": 6,
+      "opTypeName": "Battleclade Servitor Underseer",
+      "MOVE": "6\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 9,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, TECH-PRIEST, SERVITOR UNDERSEER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-BSU-MCRP",
+          "opTypeId": "IMP-BC-BSU",
+          "seq": 1,
+          "wepName": "Master-Crafted Radium Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BSU-MCRP-1",
+              "wepId": "IMP-BC-BSU-MCRP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-BALANCED"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-BC-BSU-DS",
+          "opTypeId": "IMP-BC-BSU",
+          "seq": 2,
+          "wepName": "Dataspikes",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BSU-DS-1",
+              "wepId": "IMP-BC-BSU-DS",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "5+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-BC-BSU-NOR",
+          "opTypeId": "IMP-BC-BSU",
+          "abilityName": "Network Override",
+          "AP": 1,
+          "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don't have to TRANSFER POWER to do so).\nContinue this operative's activation after doing so.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+        },
+        {
+          "abilityId": "IMP-BC-BSU-NSS",
+          "opTypeId": "IMP-BC-BSU",
+          "abilityName": "Noospheric Spur",
+          "AP": 1,
+          "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately perform a free Dash action.\nYou cannot select each friendly SERVITOR operative for this rule more than once per turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-BC-BTS",
+      "killteamId": "IMP-BC",
+      "seq": 7,
+      "opTypeName": "Battleclade Technomedic Servitor",
+      "MOVE": "5\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 8,
+      "keywords": "BATTLECLADE, IMPERIUM, ADEPTUS MECHANICUS, MEDIC, TECHNOMEDIC, SERVITOR",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "IMP-BC-BTS-SCC",
+          "opTypeId": "IMP-BC-BTS",
+          "seq": 1,
+          "wepName": "Servo-Chirurgic Claw",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-BC-BTS-SCC-1",
+              "wepId": "IMP-BC-BTS-SCC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-BC-BTS-A-MSA",
+          "opTypeId": "IMP-BC-BTS",
+          "abilityName": "Mechanosuture Array",
+          "description": "Once per turning point, when another friendly BATTLECLADE operative would be incapacitated while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy operative. If you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\nIf this rule was used during that friendly operative's activation, that activation ends. You cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
+        },
+        {
+          "abilityId": "IMP-BC-BTS-ER",
+          "opTypeId": "IMP-BC-BTS",
+          "abilityName": "Expedient Repair",
+          "AP": 1,
+          "description": "Select one friendly BATTLECLADE operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Mechanosuture Array rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    }
+  ]
+}
