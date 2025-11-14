@@ -69,12 +69,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-INFSGT-A-AS",
-          "opTypeId": "IMP-PHO-INFSGT",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-INFSGT-A-OS",
           "opTypeId": "IMP-PHO-INFSGT",
           "abilityName": "Omni-Scrambler",
@@ -146,12 +140,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INFCOM-A-AS",
-          "opTypeId": "IMP-PHO-INFCOM",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INFCOM-A-CA",
           "opTypeId": "IMP-PHO-INFCOM",
@@ -230,12 +218,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INFHEL-A-AS",
-          "opTypeId": "IMP-PHO-INFHEL",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INFHEL-A-MDC",
           "opTypeId": "IMP-PHO-INFHEL",
@@ -354,12 +336,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-INFSAB-A-AS",
-          "opTypeId": "IMP-PHO-INFSAB",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-INFSAB-A-DET",
           "opTypeId": "IMP-PHO-INFSAB",
           "abilityName": "*Detonate",
@@ -436,12 +412,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INFVET-A-AS",
-          "opTypeId": "IMP-PHO-INFVET",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INFVET-A-OS",
           "opTypeId": "IMP-PHO-INFVET",
@@ -550,12 +520,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-INFVOX-A-AS",
-          "opTypeId": "IMP-PHO-INFVOX",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-INFVOX-A-OS",
           "opTypeId": "IMP-PHO-INFVOX",
           "abilityName": "Omni-Scrambler",
@@ -635,12 +599,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-INFWAR-A-AS",
-          "opTypeId": "IMP-PHO-INFWAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-INFWAR-A-OS",
           "opTypeId": "IMP-PHO-INFWAR",
           "abilityName": "Omni-Scrambler",
@@ -711,12 +669,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INCSGT-A-AS",
-          "opTypeId": "IMP-PHO-INCSGT",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INCSGT-A-MSA",
           "opTypeId": "IMP-PHO-INCSGT",
@@ -794,12 +746,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-INCMARK-A-AS",
-          "opTypeId": "IMP-PHO-INCMARK",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-INCMARK-A-MSA",
           "opTypeId": "IMP-PHO-INCMARK",
           "abilityName": "Multi-Spectrum Array",
@@ -870,12 +816,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INCML-A-AS",
-          "opTypeId": "IMP-PHO-INCML",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INCML-A-HW",
           "opTypeId": "IMP-PHO-INCML",
@@ -953,12 +893,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-INCWAR-A-AS",
-          "opTypeId": "IMP-PHO-INCWAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-INCWAR-A-MSA",
           "opTypeId": "IMP-PHO-INCWAR",
@@ -1078,12 +1012,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-PHO-RVRSGT-A-AS",
-          "opTypeId": "IMP-PHO-RVRSGT",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
         {
           "abilityId": "IMP-PHO-RVRSGT-A-GCGL",
           "opTypeId": "IMP-PHO-RVRSGT",
@@ -1210,12 +1138,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-PHO-RVRWAR-A-AS",
-          "opTypeId": "IMP-PHO-RVRWAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "IMP-PHO-RVRWAR-A-GCGL",
           "opTypeId": "IMP-PHO-RVRWAR",
           "abilityName": "Grav-Chute and Grapnel Launcher",
@@ -1335,6 +1257,13 @@
       "eqName": "Special Issue Ammunition",
       "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-PHO-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly PHOBOS STRIKE TEAM operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt weapon must be selected for at least one of them.\nA bolt weapon is any ranged weapon that includes 'bolt' in its name, e.g. marksman bolt carbine, special issue bolt pistol, etc.  \n\nEach friendly PHOBOS STRIKE TEAM operative can counteract regardless of its order."
     }
   ]
 }

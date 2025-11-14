@@ -64,12 +64,6 @@
           "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
         },
         {
-          "abilityId": "IMP-HC-SRSP-A-DI",
-          "opTypeId": "IMP-HC-SRSP",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SRSP-A-WS",
           "opTypeId": "IMP-HC-SRSP",
           "abilityName": "Wasteland Stalker",
@@ -207,12 +201,6 @@
           "opTypeId": "IMP-HC-SIP",
           "abilityName": "Control Protocol",
           "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
-        },
-        {
-          "abilityId": "IMP-HC-SIP-A-DI",
-          "opTypeId": "IMP-HC-SIP",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
         }
       ],
       "options": []
@@ -458,12 +446,6 @@
           "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
         },
         {
-          "abilityId": "IMP-HC-SRGA-A-DI",
-          "opTypeId": "IMP-HC-SRGA",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SRGA-A-TP",
           "opTypeId": "IMP-HC-SRGA",
           "abilityName": "Targeting Protocol",
@@ -707,12 +689,6 @@
           "description": "You can use the Command Override firefight ploy for 0CP if the specified friendly HUNTER CLADE operative is visible to this operative."
         },
         {
-          "abilityId": "IMP-HC-SVA-A-DI",
-          "opTypeId": "IMP-HC-SVA",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SVA-A-RS",
           "opTypeId": "IMP-HC-SVA",
           "abilityName": "Rad-Saturation",
@@ -838,14 +814,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-HC-SIW-A-DI",
-          "opTypeId": "IMP-HC-SIW",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -908,12 +877,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SRSW-A-DI",
-          "opTypeId": "IMP-HC-SRSW",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SRSW-A-WS",
           "opTypeId": "IMP-HC-SRSW",
@@ -985,12 +948,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SRGD-A-DI",
-          "opTypeId": "IMP-HC-SRGD",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SRGD-A-TP",
           "opTypeId": "IMP-HC-SRGD",
@@ -1171,12 +1128,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-HC-SRGG-A-DI",
-          "opTypeId": "IMP-HC-SRGG",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SRGG-A-TP",
           "opTypeId": "IMP-HC-SRGG",
           "abilityName": "Targeting Protocol",
@@ -1247,12 +1198,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SRGS-A-DI",
-          "opTypeId": "IMP-HC-SRGS",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SRGS-A-TP",
           "opTypeId": "IMP-HC-SRGS",
@@ -1332,12 +1277,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-HC-SRGW-A-DI",
-          "opTypeId": "IMP-HC-SRGW",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SRGW-A-TP",
           "opTypeId": "IMP-HC-SRGW",
           "abilityName": "Targeting Protocol",
@@ -1402,12 +1341,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SVD-A-DI",
-          "opTypeId": "IMP-HC-SVD",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SVD-A-RS",
           "opTypeId": "IMP-HC-SVD",
@@ -1588,12 +1521,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-HC-SVG-A-DI",
-          "opTypeId": "IMP-HC-SVG",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
-        {
           "abilityId": "IMP-HC-SVG-A-RS",
           "opTypeId": "IMP-HC-SVG",
           "abilityName": "Rad-Saturation",
@@ -1658,12 +1585,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SVS-A-DI",
-          "opTypeId": "IMP-HC-SVS",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SVS-A-RS",
           "opTypeId": "IMP-HC-SVS",
@@ -1736,12 +1657,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-HC-SVW-A-DI",
-          "opTypeId": "IMP-HC-SVW",
-          "abilityName": "Doctrina Imperatives",
-          "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
-        },
         {
           "abilityId": "IMP-HC-SVW-A-RS",
           "opTypeId": "IMP-HC-SVW",
@@ -1850,6 +1765,13 @@
       "eqName": "Extremis Mind-Link",
       "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-HC-TA-DOIM",
+      "abilityName": "Doctrina Imperatives",
+      "description": "*At the end of the Select Operatives step, select one DOCTRINA IMPERATIVE to be a Primary Mode for your kill team until the end of the battle (note that selecting a Primary Mode doesn't automatically give you the effects of that DOCTRINA IMPERATIVE for the battle; you must still select it as a STRATEGIC GAMBIT, as below).*  \n**STRATEGIC GAMBIT**  \n\nSelect a DOCTRINA IMPERATIVE for friendly HUNTER CLADE operatives to have until the Ready step of the next Strategy phase.\nEach DOCTRINA IMPERATIVE has both an Optimisation and a Deprecation rule. Both are in effect while your kill team has that DOCTRINA IMPERATIVE.  \n  \n\n**Protector Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' ranged weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' melee weapons by 1. This isn't cumulative with being injured.\n\n**Conqueror Imperative**\n- Optimisation: Friendly HUNTER CLADE operatives' melee weapons have the Ceaseless weapon rule.\n- Deprecation: Worsen the Hit stat of friendly HUNTER CLADE operatives' ranged weapons by 1. This isn't cumulative with being injured.\n\n**Bulwark Imperative**\n- Optimisation: Normal Dmg of 3 or more inflicts 1 less damage on HUNTER CLADE friendly operatives.\n- Deprecation: Subtract 1\" from the Move stat of friendly HUNTER CLADE operatives.\n\n**Aggressor Imperative**\n- Optimisation: Add 1\" to the Move stat of friendly HUNTER CLADE operatives.\n- Deprecation: Worsen the Save stat of friendly HUNTER CLADE operatives by 1.\n\n**Neutral Imperative**\n- Optimisation: None.\n- Deprecation: None.\n"
     }
   ]
 }

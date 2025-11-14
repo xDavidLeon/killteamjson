@@ -103,12 +103,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-CULT-DEMA-A-AG",
-          "opTypeId": "CHAOS-CULT-DEMA",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
-        {
           "abilityId": "CHAOS-CULT-DEMA-A-MUT",
           "opTypeId": "CHAOS-CULT-DEMA",
           "abilityName": "Mutate",
@@ -169,12 +163,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-CULT-BLBL-A-AG",
-          "opTypeId": "CHAOS-CULT-BLBL",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
         {
           "abilityId": "CHAOS-CULT-BLBL-A-AIP",
           "opTypeId": "CHAOS-CULT-BLBL",
@@ -285,12 +273,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-CULT-ICON-A-AG",
-          "opTypeId": "CHAOS-CULT-ICON",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
-        {
           "abilityId": "CHAOS-CULT-ICON-A-IB",
           "opTypeId": "CHAOS-CULT-ICON",
           "abilityName": "Icon Bearer",
@@ -381,12 +363,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-CULT-MW-A-AG",
-          "opTypeId": "CHAOS-CULT-MW",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
-        {
           "abilityId": "CHAOS-CULT-MW-A-MUT",
           "opTypeId": "CHAOS-CULT-MW",
           "abilityName": "Mutate",
@@ -467,12 +443,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-CULT-DEV-A-AG",
-          "opTypeId": "CHAOS-CULT-DEV",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
-        {
           "abilityId": "CHAOS-CULT-DEV-A-GA",
           "opTypeId": "CHAOS-CULT-DEV",
           "abilityName": "Group Activation",
@@ -527,12 +497,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-CULT-MUT-A-AG",
-          "opTypeId": "CHAOS-CULT-MUT",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
         {
           "abilityId": "CHAOS-CULT-MUT-A-AM",
           "opTypeId": "CHAOS-CULT-MUT",
@@ -643,12 +607,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-CULT-TOR-A-AG",
-          "opTypeId": "CHAOS-CULT-TOR",
-          "abilityName": "Accursed Gifts",
-          "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
-        },
         {
           "abilityId": "CHAOS-CULT-TOR-A-AT",
           "opTypeId": "CHAOS-CULT-TOR",
@@ -818,6 +776,13 @@
       "eqName": "Vile Blessing",
       "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly CHAOS CULT operative (excluding DEVOTEE), you can ignore that inflicted damage.\nIf that friendly operative is a MUTANT or TORMENT operative, you cannot roll for the Unnatural Regeneration rule for that attack dice then decide to use this rule on the same dice - you must use one or the other.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-CULT-TA-ACGI",
+      "abilityName": "Accursed Gifts",
+      "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
     }
   ]
 }

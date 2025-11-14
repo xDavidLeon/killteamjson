@@ -169,12 +169,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-BBRO-CMDR-A-CF",
-          "opTypeId": "TYR-BBRO-CMDR",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
-        {
           "abilityId": "TYR-BBRO-CMDR-A-COORD",
           "opTypeId": "TYR-BBRO-CMDR",
           "abilityName": "Coordinate",
@@ -220,12 +214,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-AGIT-A-CF",
-          "opTypeId": "TYR-BBRO-AGIT",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-AGIT-A-DEV",
           "opTypeId": "TYR-BBRO-AGIT",
@@ -421,14 +409,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "TYR-BBRO-GNR-A-CF",
-          "opTypeId": "TYR-BBRO-GNR",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -469,12 +450,6 @@
           "opTypeId": "TYR-BBRO-IW",
           "abilityName": "Broodmind Devotion",
           "description": "Once per turning point when a ready friendly BROOD BROTHER BROODGUARD operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\r If you do, before that operative is removed from the killzone, it can perform a 1AP action for free (excluding Fight and Explosives) and you can change its order to do so.\r It is then incapacitated as normal.   \r You cannot use this rule and the Medic! Rule (See MEDIC datacard) on the same operative at the same time."
-        },
-        {
-          "abilityId": "TYR-BBRO-IW-A-CF",
-          "opTypeId": "TYR-BBRO-IW",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
         },
         {
           "abilityId": "TYR-BBRO-IW-A-CI",
@@ -537,12 +512,6 @@
           "opTypeId": "TYR-BBRO-KF",
           "abilityName": "Counterattack",
           "description": "Whenever this operative is fighting or retaliating, whenever your opponent resolves a normal success, inflict 1 damage on the enemy operative in that sequence."
-        },
-        {
-          "abilityId": "TYR-BBRO-KF-A-CF",
-          "opTypeId": "TYR-BBRO-KF",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
         }
       ],
       "options": []
@@ -627,12 +596,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-MED-A-CF",
-          "opTypeId": "TYR-BBRO-MED",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-MED-A-MED",
           "opTypeId": "TYR-BBRO-MED",
@@ -725,12 +688,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-SAP-A-CF",
-          "opTypeId": "TYR-BBRO-SAP",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-SAP-A-FD",
           "opTypeId": "TYR-BBRO-SAP",
@@ -846,14 +803,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "TYR-BBRO-SNP-A-CF",
-          "opTypeId": "TYR-BBRO-SNP",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -934,12 +884,6 @@
           "description": "You can use the Unquestioning Loyalty firefight ploy for 0 CP if this is the specified friendly BROODGUARD operative."
         },
         {
-          "abilityId": "TYR-BBRO-VET-A-CF",
-          "opTypeId": "TYR-BBRO-VET",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
-        {
           "abilityId": "TYR-BBRO-VET-A-RES",
           "opTypeId": "TYR-BBRO-VET",
           "abilityName": "Resilient",
@@ -1000,12 +944,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-VOX-A-CF",
-          "opTypeId": "TYR-BBRO-VOX",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-VOX-JAM",
           "opTypeId": "TYR-BBRO-VOX",
@@ -1075,12 +1013,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-TRP-A-CF",
-          "opTypeId": "TYR-BBRO-TRP",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-TRP-A-GA",
           "opTypeId": "TYR-BBRO-TRP",
@@ -1179,12 +1111,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-BBRO-MAG-A-CF",
-          "opTypeId": "TYR-BBRO-MAG",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
-        {
           "abilityId": "TYR-BBRO-MAG-A-SL",
           "opTypeId": "TYR-BBRO-MAG",
           "abilityName": "Spiritual Leader",
@@ -1244,12 +1170,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-FAM-A-CF",
-          "opTypeId": "TYR-BBRO-FAM",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-FAM-A-ELU",
           "opTypeId": "TYR-BBRO-FAM",
@@ -1316,12 +1236,6 @@
           "opTypeId": "TYR-BBRO-PAT",
           "abilityName": "Alpha Predator",
           "description": "Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\nYou can activate this operative twice during the turning point as long as it has AP to spend (it stays ready while it can still be activated a second time).\nPer turning point it cannot move more than 9\" and you cannot spend more than 4AP in total for it."
-        },
-        {
-          "abilityId": "TYR-BBRO-PAT-A-CF",
-          "opTypeId": "TYR-BBRO-PAT",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
         },
         {
           "abilityId": "TYR-BBRO-PAT-A-MNS",
@@ -1432,12 +1346,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-BBRO-PRIM-A-CF",
-          "opTypeId": "TYR-BBRO-PRIM",
-          "abilityName": "Crossfire",
-          "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
-        },
         {
           "abilityId": "TYR-BBRO-PRIM-A-FOTP",
           "opTypeId": "TYR-BBRO-PRIM",
@@ -1559,6 +1467,13 @@
       "eqName": "Lookout",
       "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-BBRO-TA-CR",
+      "abilityName": "Crossfire",
+      "description": "Whenever a friendly BROOD BROTHER operative is shooting against or fighting against an enemy operative, after resolving all of your attack dice, if that enemy operative is not incapacitated it gains one of your Crossfire tokens.  \n\nWhenever a friendly BROOD BROTHER operative is shooting against, fighting against or retaliating against an enemy operative that has any of your Crossfire tokens, you can remove any of those tokens. For each that you do, you can re-roll one of your attack dice."
     }
   ]
 }

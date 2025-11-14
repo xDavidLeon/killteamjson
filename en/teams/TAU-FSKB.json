@@ -89,12 +89,6 @@
           "description": "**STRATEGIC GAMBIT**\r Select one enemy operative to be your mark for the turning point.\r Whenever a friendly FARSTALKER KINBAND operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Balanced weapon rule.\r Whenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
         },
         {
-          "abilityId": "TAU-FSKB-KB-A-FS",
-          "opTypeId": "TAU-FSKB-KB",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-KB-A-VS",
           "opTypeId": "TAU-FSKB-KB",
           "abilityName": "Victory Shriek",
@@ -190,12 +184,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-FSKB-BH-A-FS",
-          "opTypeId": "TAU-FSKB-BH",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-BH-NRG",
           "opTypeId": "TAU-FSKB-BH",
           "abilityName": "Energise",
@@ -264,12 +252,6 @@
           "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, this operative's weapons have the Lethal 5+ weapon rule;\nif that enemy operative is also injured, this operative's weapons also have the Rending weapon rule."
         },
         {
-          "abilityId": "TAU-FSKB-CB-A-FS",
-          "opTypeId": "TAU-FSKB-CB",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-CB-A-HRD",
           "opTypeId": "TAU-FSKB-CB",
           "abilityName": "Hardy",
@@ -319,12 +301,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-FSKB-CS-A-FS",
-          "opTypeId": "TAU-FSKB-CS",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
         {
           "abilityId": "TAU-FSKB-CS-A-SA",
           "opTypeId": "TAU-FSKB-CS",
@@ -439,14 +415,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "TAU-FSKB-HGNR-A-FS",
-          "opTypeId": "TAU-FSKB-HGNR",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -497,12 +466,6 @@
           "opTypeId": "TAU-FSKB-HND",
           "abilityName": "Bad-Tempered",
           "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
-        },
-        {
-          "abilityId": "TAU-FSKB-HND-A-FS",
-          "opTypeId": "TAU-FSKB-HND",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
         },
         {
           "abilityId": "TAU-FSKB-HND-GAT",
@@ -609,12 +572,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-FSKB-LS-A-FS",
-          "opTypeId": "TAU-FSKB-LS",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-LS-LS",
           "opTypeId": "TAU-FSKB-LS",
           "abilityName": "Long-Sight",
@@ -707,12 +664,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-FSKB-PST-A-FS",
-          "opTypeId": "TAU-FSKB-PST",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-PST-A-QD",
           "opTypeId": "TAU-FSKB-PST",
           "abilityName": "Quick Draw",
@@ -792,12 +743,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-FSKB-STK-A-FS",
-          "opTypeId": "TAU-FSKB-STK",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
-        {
           "abilityId": "TAU-FSKB-STK-A-STK",
           "opTypeId": "TAU-FSKB-STK",
           "abilityName": "Stalker",
@@ -865,12 +810,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-FSKB-TRK-A-FS",
-          "opTypeId": "TAU-FSKB-TRK",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
         {
           "abilityId": "TAU-FSKB-TRK-FTEA",
           "opTypeId": "TAU-FSKB-TRK",
@@ -964,12 +903,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-FSKB-WAR-A-FS",
-          "opTypeId": "TAU-FSKB-WAR",
-          "abilityName": "Farstalkers",
-          "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
-        },
         {
           "abilityId": "TAU-FSKB-WAR-A-RFA",
           "opTypeId": "TAU-FSKB-WAR",
@@ -1078,6 +1011,13 @@
       "eqName": "Trophy",
       "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-FSKB-TA-FA",
+      "abilityName": "Farstalkers",
+      "description": "In the Ready step of each Strategy phase, you can change the order of up to three friendly FARSTALKER KINBAND operatives that are not within control range of enemy operatives.  \n\nWhenever it's your turn to counteract, you can change the order of one friendly FARSTALKER KINBAND operative that's not within control range of enemy operatives instead.\nThis still counts as you counteracting (so activation alternates back to your opponent afterwards), but doesn't count as that friendly operative's counteraction for this turning point."
     }
   ]
 }

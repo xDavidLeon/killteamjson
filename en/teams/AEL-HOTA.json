@@ -209,12 +209,6 @@
           "description": "In the Gambit step of each Strategy phase, if you pass at the first opportunity, you gain 1CP. Ignore each STRATEGIC GAMBIT from the mission pack (if any) when determining this."
         },
         {
-          "abilityId": "AEL-HOTA-KAS-A-PFP",
-          "opTypeId": "AEL-HOTA-KAS",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        },
-        {
           "abilityId": "AEL-HOTA-KAS-A-RIF",
           "opTypeId": "AEL-HOTA-KAS",
           "abilityName": "Rifles",
@@ -280,12 +274,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-HOTA-KAG-A-PFP",
-          "opTypeId": "AEL-HOTA-KAG",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        },
         {
           "abilityId": "AEL-HOTA-KAG-A-RIF",
           "opTypeId": "AEL-HOTA-KAG",
@@ -374,12 +362,6 @@
           "opTypeId": "AEL-HOTA-KCD",
           "abilityName": "Crimson Duellist",
           "description": "This operative can perform two Fight actions during its activation."
-        },
-        {
-          "abilityId": "AEL-HOTA-KCD-A-PFP",
-          "opTypeId": "AEL-HOTA-KCD",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
         }
       ],
       "options": []
@@ -448,12 +430,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-HOTA-KDOY-A-PFP",
-          "opTypeId": "AEL-HOTA-KDOY",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        },
         {
           "abilityId": "AEL-HOTA-KDOY-TG",
           "opTypeId": "AEL-HOTA-KDOY",
@@ -559,12 +535,6 @@
           "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following COMBAT DRUG rules for friendly HAND OF THE ARCHON operatives to have for the battle:\n\n- **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that inflicted damage.\n- **Adrenalight:** STRATEGIC GAMBIT. Select one friendly operative that has this COMBAT DRUG to gain one of your Pain tokens.\n- **Hypex:** You can ignore any changes to this operative's Move stat from being injured.\n"
         },
         {
-          "abilityId": "AEL-HOTA-KELX-A-PFP",
-          "opTypeId": "AEL-HOTA-KELX",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        },
-        {
           "abilityId": "AEL-HOTA-KELX-A-RIF",
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Rifles",
@@ -625,12 +595,6 @@
           "opTypeId": "AEL-HOTA-KFLAY",
           "abilityName": "Insensible To Pain",
           "description": "Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative."
-        },
-        {
-          "abilityId": "AEL-HOTA-KFLAY-A-PFP",
-          "opTypeId": "AEL-HOTA-KFLAY",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
         }
       ],
       "options": []
@@ -718,14 +682,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-HOTA-KGNR-A-PFP",
-          "opTypeId": "AEL-HOTA-KGNR",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -839,14 +796,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-HOTA-KHGNR-A-PFP",
-          "opTypeId": "AEL-HOTA-KHGNR",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -950,12 +900,6 @@
           "opTypeId": "AEL-HOTA-KSA",
           "abilityName": "Omen",
           "description": "In the Select Operatives step, when you're selecting equipment, you can select one enemy operative or one other friendly HAND OF THE ARCHON operative (reveal your selection when you reveal equipment).  \n\nWhenever attack or defence dice are rolled for that operative:\n\n- If it's an enemy operative, your opponent must re-roll their dice results of 6.\n- If it's a friendly operative, you can re-roll any of your dice results of 1.\n"
-        },
-        {
-          "abilityId": "AEL-HOTA-KSA-A-PFP",
-          "opTypeId": "AEL-HOTA-KSA",
-          "abilityName": "Power From Pain",
-          "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
         },
         {
           "abilityId": "AEL-HOTA-KSA-MARK",
@@ -1066,6 +1010,13 @@
       "eqName": "Refined Poison",
       "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-HOTA-TA-POFRPA",
+      "abilityName": "Power From Pain",
+      "description": "After a friendly HAND OF THE ARCHON operative performs an action, it gains one of your Pain tokens if:\n\n- An enemy operative was injured during that action, but was not incapacitated.\n- An enemy operative was incapacitated during that action. If that enemy operative had a Wounds stat of 12 or more, that friendly operative gains two of your Pain tokens instead.\n\nYou can spend friendly operatives' Pain tokens on the invigorations below when the \"when\" condition is met.\nYou cannot use more than one invigoration per activation or counteraction, except Stimulated Senses, which can be used in addition to other invigorations.  \n  \n\n**Dark Animus**\n\n- When: During the operative's activation, before or after it performs an action.\n- Effect: Until the start of the operative's next activation, add 1 to its APL stat.\n\n**Accelerated Rejuvenation**\n\n- When: During the operative's activation or counteraction, before or after it performs an action.\n- Effect: The operative regains D3+1 lost wounds.\n\n**Vitalised Surge**\n\n- When: After the operative incapacitates an enemy operative and that enemy operative is removed from the killzone.\n- Effect: The operative can immediately perform a free Dash action, even if it's performed an action that prevents it from performing the Dash action.\n\n**Stimulated Senses**\n\n- When: After rolling your attack or defence dice for the operative.\n- Effect: any of your dice results of one result (e.g. results of 2).\n"
     }
   ]
 }

@@ -131,12 +131,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-FEL-A-AR",
-          "opTypeId": "AEL-COR-FEL",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-FEL-A-OSA",
           "opTypeId": "AEL-COR-FEL",
           "abilityName": "One Step Ahead",
@@ -267,14 +261,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-COR-GNR-A-AR",
-          "opTypeId": "AEL-COR-GNR",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -417,14 +404,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-COR-HGNR-A-AR",
-          "opTypeId": "AEL-COR-HGNR",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -528,12 +508,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-FD-A-AR",
-          "opTypeId": "AEL-COR-FD",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-FD-A-CAM",
           "opTypeId": "AEL-COR-FD",
           "abilityName": "Camo Cloak",
@@ -616,12 +590,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-COR-KUR-A-AR",
-          "opTypeId": "AEL-COR-KUR",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
         {
           "abilityId": "AEL-COR-KUR-A-BM",
           "opTypeId": "AEL-COR-KUR",
@@ -736,12 +704,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-HNT-A-AR",
-          "opTypeId": "AEL-COR-HNT",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-HNT-A-EH",
           "opTypeId": "AEL-COR-HNT",
           "abilityName": "Erudite Hunter",
@@ -821,12 +783,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-COR-SW-A-AR",
-          "opTypeId": "AEL-COR-SW",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
         {
           "abilityId": "AEL-COR-SW-SC",
           "opTypeId": "AEL-COR-SW",
@@ -940,12 +896,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-SR-A-AR",
-          "opTypeId": "AEL-COR-SR",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-SR-A-BP",
           "opTypeId": "AEL-COR-SR",
           "abilityName": "Blink Pack",
@@ -1052,12 +1002,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-COR-SD-A-AR",
-          "opTypeId": "AEL-COR-SD",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
         {
           "abilityId": "AEL-COR-SD-A-QOTD",
           "opTypeId": "AEL-COR-SD",
@@ -1202,12 +1146,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-WS-A-AR",
-          "opTypeId": "AEL-COR-WS",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-WS-WF",
           "opTypeId": "AEL-COR-WS",
           "abilityName": "Warp Fold",
@@ -1332,12 +1270,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-COR-WAR-A-AR",
-          "opTypeId": "AEL-COR-WAR",
-          "abilityName": "Aeldari Raiders",
-          "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
-        },
-        {
           "abilityId": "AEL-COR-WAR-A-PR",
           "opTypeId": "AEL-COR-WAR",
           "abilityName": "Prowling Raiders",
@@ -1451,6 +1383,13 @@
       "eqName": "Star Charts",
       "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-COR-TA-AERA",
+      "abilityName": "Aeldari Raiders",
+      "description": "Each friendly CORSAIR VOIDSCARRED operative can perform a free Dash action during their activation."
     }
   ]
 }

@@ -209,12 +209,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-KAS-SGT-A-SAA",
-          "opTypeId": "IMP-KAS-SGT",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
-        },
-        {
           "abilityId": "IMP-KAS-SGT-TC",
           "opTypeId": "IMP-KAS-SGT",
           "abilityName": "Tactical Command",
@@ -281,12 +275,6 @@
           "opTypeId": "IMP-KAS-MDC",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly KASRKIN operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
-        {
-          "abilityId": "IMP-KAS-MDC-A-SAA",
-          "opTypeId": "IMP-KAS-MDC",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
         },
         {
           "abilityId": "IMP-KAS-MDC-MDK",
@@ -366,12 +354,6 @@
           "opTypeId": "IMP-KAS-DT",
           "abilityName": "Proximity Mine",
           "description": "The first time your Melta Mine marker is within another operative's control range, remove that marker and inflict 2D6+3 damage on that operative;\nif it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.\nNote that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
-        },
-        {
-          "abilityId": "IMP-KAS-DT-A-SAA",
-          "opTypeId": "IMP-KAS-DT",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
         }
       ],
       "options": []
@@ -601,14 +583,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-KAS-GNR-A-SAA",
-          "opTypeId": "IMP-KAS-GNR",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -668,12 +643,6 @@
           "opTypeId": "IMP-KAS-RT",
           "abilityName": "Reconnoitre Killzone",
           "description": "The Relocate strategy ploy costs you 0CP if this operative is the selected friendly KASRKIN operative.\r"
-        },
-        {
-          "abilityId": "IMP-KAS-RT-A-SAA",
-          "opTypeId": "IMP-KAS-RT",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
         },
         {
           "abilityId": "IMP-KAS-RT-AUS",
@@ -784,12 +753,6 @@
           "opTypeId": "IMP-KAS-SS",
           "abilityName": "Camo Cloak",
           "description": "Whenever an operative is shooting this operative:\n\n- Ignore the Saturate weapon rule.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead.]\nThis is not cumulative with improved cover saves from Vantage terrain.\n"
-        },
-        {
-          "abilityId": "IMP-KAS-SS-A-SAA",
-          "opTypeId": "IMP-KAS-SS",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
         }
       ],
       "options": []
@@ -851,12 +814,6 @@
           "opTypeId": "IMP-KAS-TRP",
           "abilityName": "Adaptive Equipment",
           "description": "You can do each of the following once per turning point:\n\n- One friendly KASRKIN TROOPER operative can perform the Smoke Grenade action.\n- One friendly KASRKIN TROOPER operative can perform the Stun Grenade action.\n\nThe rules for these actions are found in universal equipment. Performing these actions using this rule does not count towards their action limits (i.e. if you also select those grenades from equipment)."
-        },
-        {
-          "abilityId": "IMP-KAS-TRP-A-SAA",
-          "opTypeId": "IMP-KAS-TRP",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
         }
       ],
       "options": []
@@ -913,12 +870,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-KAS-VOX-A-SAA",
-          "opTypeId": "IMP-KAS-VOX",
-          "abilityName": "Skill At Arms",
-          "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
-        },
         {
           "abilityId": "IMP-KAS-VOX-BC",
           "opTypeId": "IMP-KAS-VOX",
@@ -1028,6 +979,13 @@
       "eqName": "Combat Daggers",
       "description": "Friendly KASRKIN operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|\n",
       "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-KAS-TA-SKATAR",
+      "abilityName": "Skill At Arms",
+      "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
     }
   ]
 }

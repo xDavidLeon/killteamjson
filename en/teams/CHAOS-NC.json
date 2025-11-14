@@ -197,18 +197,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-NC-VIS-A-AST",
-          "opTypeId": "CHAOS-NC-VIS",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-NC-VIS-A-IMC",
-          "opTypeId": "CHAOS-NC-VIS",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
-        },
-        {
           "abilityId": "CHAOS-NC-VIS-A-PRE",
           "opTypeId": "CHAOS-NC-VIS",
           "abilityName": "Prescience",
@@ -341,18 +329,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-NC-FRM-A-AST",
-          "opTypeId": "CHAOS-NC-FRM",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-NC-FRM-A-IMC",
-          "opTypeId": "CHAOS-NC-FRM",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
-        },
         {
           "abilityId": "CHAOS-NC-FRM-A-TCP",
           "opTypeId": "CHAOS-NC-FRM",
@@ -534,20 +510,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-NC-GNR-A-AST",
-          "opTypeId": "CHAOS-NC-GNR",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-NC-GNR-A-IMC",
-          "opTypeId": "CHAOS-NC-GNR",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -706,20 +669,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-NC-HGNR-A-AST",
-          "opTypeId": "CHAOS-NC-HGNR",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-NC-HGNR-A-IMC",
-          "opTypeId": "CHAOS-NC-HGNR",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -768,18 +718,6 @@
           "opTypeId": "CHAOS-NC-SCR",
           "abilityName": "Appetite For Cruelty",
           "description": "Whenever this operative is fighting against a wounded enemy operative, this operative's lightning claws gain the Lethal 4+ weapon Rule."
-        },
-        {
-          "abilityId": "CHAOS-NC-SCR-A-AST",
-          "opTypeId": "CHAOS-NC-SCR",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-NC-SCR-A-IMC",
-          "opTypeId": "CHAOS-NC-SCR",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
         },
         {
           "abilityId": "CHAOS-NC-SCR-A-SCR",
@@ -852,22 +790,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-NC-SKT-A-AST",
-          "opTypeId": "CHAOS-NC-SKT",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-NC-SKT-A-FTA",
           "opTypeId": "CHAOS-NC-SKT",
           "abilityName": "Flay Them Alive",
           "description": "Once per turning point, when this operative incapacitates an enemy operative within its control range, you can select one other enemy operative visible to and within 6\" of either this operative or the incapacitated operative.\nUntil the start of the next turning point, that other enemy operative cannot control markers or perform the Pick Up Marker or mission actions."
-        },
-        {
-          "abilityId": "CHAOS-NC-SKT-A-IMC",
-          "opTypeId": "CHAOS-NC-SKT",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
         },
         {
           "abilityId": "CHAOS-NC-SKT-A-TOTSP",
@@ -936,22 +862,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-NC-VEN-A-AST",
-          "opTypeId": "CHAOS-NC-VEN",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-NC-VEN-A-IB",
           "opTypeId": "CHAOS-NC-VEN",
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
-        },
-        {
-          "abilityId": "CHAOS-NC-VEN-A-IMC",
-          "opTypeId": "CHAOS-NC-VEN",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
         },
         {
           "abilityId": "CHAOS-NC-VEN-DCM",
@@ -1059,22 +973,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-NC-WAR-A-AST",
-          "opTypeId": "CHAOS-NC-WAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-NC-WAR-A-CT",
           "opTypeId": "CHAOS-NC-WAR",
           "abilityName": "Cruel Tormentor",
           "description": "Whenever this operative is shooting against, fighting against, or retaliating against an injured enemy operative, or an enemy operative that has a wounds stat of 7 or less, its weapons have the Lethal 5+ rule."
-        },
-        {
-          "abilityId": "CHAOS-NC-WAR-A-IMC",
-          "opTypeId": "CHAOS-NC-WAR",
-          "abilityName": "In Midnight Clad",
-          "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
         }
       ],
       "options": []
@@ -1178,6 +1080,18 @@
       "eqName": "Grisly Trophy",
       "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-NC-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly NEMESIS CLAW operative's activation, it can perform either 2 Shoot actions or 2 Fight actions.\nIf it is 2 shoot actions, a bolt pistol, boltgun or scoped bolt pistol must be selected for at least one of them.\nEach friendly NEMESIS CLAW operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-NC-TA-INMICL",
+      "abilityName": "In Midnight Clad",
+      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
     }
   ]
 }

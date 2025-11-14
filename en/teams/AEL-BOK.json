@@ -193,12 +193,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-BOK-DAX-A-DAAT",
-          "opTypeId": "AEL-BOK-DAX",
-          "abilityName": "Aspect Techniques",
-          "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
-        },
-        {
           "abilityId": "AEL-BOK-DAX-A-DT",
           "opTypeId": "AEL-BOK-DAX",
           "abilityName": "Defence Tactics",
@@ -400,12 +394,6 @@
           "opTypeId": "AEL-BOK-HBX",
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
-        },
-        {
-          "abilityId": "AEL-BOK-HBX-A-HBAT",
-          "opTypeId": "AEL-BOK-HBX",
-          "abilityName": "Aspect Techniques",
-          "description": "- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Howling Banshee Aspect Techniques\n\n**The Woe**  \n\nUse this ASPECT TECHNIQUE during a friendly HOWLING BANSHEE operative's activation, after it's performed the Charge action and incapacitated an enemy operative during the Fight action, and is no longer within control range of\nenemy operatives. That friendly operative can immediately perform a free Charge action using any remaining move distance it had from that first Charge action. That operative can perform two Charge actions during its activation to do so. The operative cannot have performed any other actions\nduring this activation (but can do so after resolving this ASPECT TECHNIQUE).\n\n**Rain of Tears**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting, after you strike with a critical success if the enemy operative isn't incapacitated. End that sequence (any remaining attack dice are discarded) and immediately perform a free Fall\nBack action up to 3\" with that operative (then the Fight action ends). That operative can do so even if it's performed an action that prevents it from performing the Fall Back action.\n\n**Shriek-That-Kills**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is performing the Shoot action. Until the end of that action, that operative can use the following ranged weapon:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Shriek-That-Kills|5|3+|1/2|\n|Weapon Rules|\n|Range 6\", Saturate, Seek Light, Stun, Torrent 1\"|\n\n**Acrobatic**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative performs an action in which it moves. Until the end of the action, that operative:\n\n- Can ignore all vertical distances whenever it drops and climbs.\n- Can move through enemy operatives, move within control range of them, and during the Charge action can leave their control range (it must still end the move following all requirements for that move).\n- Cannot move more than its Move stat if it's the Charge action.\n\n**Scream-That-Steals**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting or retaliating, at the start of the Resolve Attack Dice step. You can resolve one of your successes before the normal order.\nIf you do, that success must be used to block."
         }
       ],
       "options": []
@@ -562,12 +550,6 @@
           "opTypeId": "AEL-BOK-SSX",
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
-        },
-        {
-          "abilityId": "AEL-BOK-SSX-A-SSAT",
-          "opTypeId": "AEL-BOK-SSX",
-          "abilityName": "Aspect Techniques",
-          "description": "\r - You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\r - You cannot use each ASPECT TECHNIQUE more than once per turning point.\r - If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\r \r ##### Striking Scorpion Aspect Techniques\r **Patient Stalk, Sudden Blow**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative that has a Conceal order performs the Reposition action.\r During that action, that operative can move within control range of enemy operatives (it cannot end the move there),\r and you can inflict D3+2 damage on one enemy operative it moved within control range of after it has moved.\r   \n  \n\r **Strike and Fade**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative incapacitates an enemy operative during the Fight action, and is no longer within 3\" of enemy operatives.\r Change that friendly operative's order to Conceal and it can immediately perform a free Dash action, even if it has performed an action that prevents it from performing the Dash action.\r   \n  \n\r **Scorpion's Eye**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative is performing the Shoot action and you select a shuriken pistol. Until the end of that action, that weapon has the Seek Light weapon rule.\r   \n  \n\r **Merciless Strikes**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative is fighting, the first time you strike with a critical success during that sequence. Until the end of that sequence, that operative's melee weapon has the Shock weapon rule.\r   \n  \n\r **One with the Gloom**  \n\r Use this ASPECT TECHNIQUE during a friendly STRIKING SCORPION operative's activation. Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
         }
       ],
       "options": []
@@ -628,12 +610,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "AEL-BOK-DAW-A-DAAT",
-          "opTypeId": "AEL-BOK-DAW",
-          "abilityName": "Aspect Techniques",
-          "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
-        },
         {
           "abilityId": "AEL-BOK-DAW-A-DT",
           "opTypeId": "AEL-BOK-DAW",
@@ -713,12 +689,6 @@
           "opTypeId": "AEL-BOK-HBW",
           "abilityName": "Banshee Mask",
           "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
-        },
-        {
-          "abilityId": "AEL-BOK-HBW-A-HBAT",
-          "opTypeId": "AEL-BOK-HBW",
-          "abilityName": "Aspect Techniques",
-          "description": "- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Howling Banshee Aspect Techniques\n\n**The Woe**  \n\nUse this ASPECT TECHNIQUE during a friendly HOWLING BANSHEE operative's activation, after it's performed the Charge action and incapacitated an enemy operative during the Fight action, and is no longer within control range of\nenemy operatives. That friendly operative can immediately perform a free Charge action using any remaining move distance it had from that first Charge action. That operative can perform two Charge actions during its activation to do so. The operative cannot have performed any other actions\nduring this activation (but can do so after resolving this ASPECT TECHNIQUE).\n\n**Rain of Tears**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting, after you strike with a critical success if the enemy operative isn't incapacitated. End that sequence (any remaining attack dice are discarded) and immediately perform a free Fall\nBack action up to 3\" with that operative (then the Fight action ends). That operative can do so even if it's performed an action that prevents it from performing the Fall Back action.\n\n**Shriek-That-Kills**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is performing the Shoot action. Until the end of that action, that operative can use the following ranged weapon:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Shriek-That-Kills|5|3+|1/2|\n|Weapon Rules|\n|Range 6\", Saturate, Seek Light, Stun, Torrent 1\"|\n\n**Acrobatic**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative performs an action in which it moves. Until the end of the action, that operative:\n\n- Can ignore all vertical distances whenever it drops and climbs.\n- Can move through enemy operatives, move within control range of them, and during the Charge action can leave their control range (it must still end the move following all requirements for that move).\n- Cannot move more than its Move stat if it's the Charge action.\n\n**Scream-That-Steals**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting or retaliating, at the start of the Resolve Attack Dice step. You can resolve one of your successes before the normal order.\nIf you do, that success must be used to block."
         }
       ],
       "options": []
@@ -786,14 +756,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-BOK-SSW-A-SSAT",
-          "opTypeId": "AEL-BOK-SSW",
-          "abilityName": "Aspect Techniques",
-          "description": "\r - You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\r - You cannot use each ASPECT TECHNIQUE more than once per turning point.\r - If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\r \r ##### Striking Scorpion Aspect Techniques\r **Patient Stalk, Sudden Blow**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative that has a Conceal order performs the Reposition action.\r During that action, that operative can move within control range of enemy operatives (it cannot end the move there),\r and you can inflict D3+2 damage on one enemy operative it moved within control range of after it has moved.\r   \n  \n\r **Strike and Fade**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative incapacitates an enemy operative during the Fight action, and is no longer within 3\" of enemy operatives.\r Change that friendly operative's order to Conceal and it can immediately perform a free Dash action, even if it has performed an action that prevents it from performing the Dash action.\r   \n  \n\r **Scorpion's Eye**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative is performing the Shoot action and you select a shuriken pistol. Until the end of that action, that weapon has the Seek Light weapon rule.\r   \n  \n\r **Merciless Strikes**  \n\r Use this ASPECT TECHNIQUE when a friendly STRIKING SCORPION operative is fighting, the first time you strike with a critical success during that sequence. Until the end of that sequence, that operative's melee weapon has the Shock weapon rule.\r   \n  \n\r **One with the Gloom**  \n\r Use this ASPECT TECHNIQUE during a friendly STRIKING SCORPION operative's activation. Until the start of its next activation, while that operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
-        }
-      ],
+      "abilities": [],
       "options": []
     }
   ],
@@ -895,6 +858,13 @@
       "eqName": "Wraithbone Talisman",
       "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-BOK-TA-ASTE",
+      "abilityName": "Aspect Techniques",
+      "description": "\n- You cannot use more than one ASPECT TECHNIQUE per activation or counteraction.\n- You cannot use each ASPECT TECHNIQUE more than once per turning point.\n- If every friendly BLADES OF KHAINE operative selected for deployment has the same Aspect keyword (e.g. STRIKING SCORPION), you cannot use each ASPECT TECHNIQUE more than twice per turning point (instead of once).\n\n##### Dire Avenger Aspect Techniques\n**The Slicing Hurricane**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Reposition action.\nThat operative can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Reposition action can be used after it does so).\nYou must select its shuriken catapult, shuriken pistol or twin shuriken catapult for that Shoot action.\n  \n  \n\n**Death Of A Thousand Blades**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult.\nUntil the end of that action, that weapon has the Torrent 2\" weapon rule, but you cannot select more than one secondary target.\n  \n  \n\n**Vigilance Of The Avenger**  \n\nUse this ASPECT TECHNIQUE when a friendly DIRE AVENGER operative is performing the Shoot action and you select a shuriken catapult or twin shuriken catapult. Until the end of that action, that weapon has the Lethal 5+ weapon rule.\n  \n  \n\n**Unstinting, Immovable**  \n\nUse this ASPECT TECHNIQUE when an operative is shooting a friendly DIRE AVENGER operative, and you've rolled two or more fails. You can discard one of them to retain the other as a normal success instead.\n  \n  \n\n**Raging Heat Of The Dying Flame**  \n\nUse this ASPECT TECHNIQUE during a friendly DIRE AVENGER operative's activation. Until the start of that operative's next activation, you can ignore any changes to its stats from being injured (including its weapons' stats)."
     }
   ]
 }

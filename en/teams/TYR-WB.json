@@ -235,12 +235,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-WB-LDR-A-CAMB",
-          "opTypeId": "TYR-WB-LDR",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
-        {
           "abilityId": "TYR-WB-LDR-A-FT",
           "opTypeId": "TYR-WB-LDR",
           "abilityName": "Familiar Territory",
@@ -374,12 +368,6 @@
           "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
         },
         {
-          "abilityId": "TYR-WB-KLM-A-CAMB",
-          "opTypeId": "TYR-WB-KLM",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
-        {
           "abilityId": "TYR-WB-KLM-A-EGS",
           "opTypeId": "TYR-WB-KLM",
           "abilityName": "Expert Gunslinger",
@@ -470,12 +458,6 @@
           "opTypeId": "TYR-WB-LOC",
           "abilityName": "Cult Agent",
           "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
-        },
-        {
-          "abilityId": "TYR-WB-LOC-A-CAMB",
-          "opTypeId": "TYR-WB-LOC",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
         },
         {
           "abilityId": "TYR-WB-LOC-A-ESM",
@@ -625,12 +607,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-WB-GNR-A-CAMB",
-          "opTypeId": "TYR-WB-GNR",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
         {
           "abilityId": "TYR-WB-GNR-A-FT",
           "opTypeId": "TYR-WB-GNR",
@@ -803,12 +779,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-WB-HGNR-A-CAMB",
-          "opTypeId": "TYR-WB-HGNR",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
-        {
           "abilityId": "TYR-WB-HGNR-A-FT",
           "opTypeId": "TYR-WB-HGNR",
           "abilityName": "Familiar Territory",
@@ -893,12 +863,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-WB-IB-A-CAMB",
-          "opTypeId": "TYR-WB-IB",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
         {
           "abilityId": "TYR-WB-IB-A-FT",
           "opTypeId": "TYR-WB-IB",
@@ -1001,12 +965,6 @@
           "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
         },
         {
-          "abilityId": "TYR-WB-SNP-A-CAMB",
-          "opTypeId": "TYR-WB-SNP",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
-        {
           "abilityId": "TYR-WB-SNP-FSS",
           "opTypeId": "TYR-WB-SNP",
           "abilityName": "Familiar's Soulsight",
@@ -1069,12 +1027,6 @@
           "opTypeId": "TYR-WB-TAL",
           "abilityName": "Cult Agent",
           "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
-        },
-        {
-          "abilityId": "TYR-WB-TAL-A-CAMB",
-          "opTypeId": "TYR-WB-TAL",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
         },
         {
           "abilityId": "TYR-WB-TAL-A-CS",
@@ -1175,12 +1127,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TYR-WB-WAR-A-CAMB",
-          "opTypeId": "TYR-WB-WAR",
-          "abilityName": "Cult Ambush",
-          "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
-        },
         {
           "abilityId": "TYR-WB-WAR-A-FT",
           "opTypeId": "TYR-WB-WAR",
@@ -1295,6 +1241,13 @@
       "eqName": "Spotlights",
       "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-WB-TA-CUAM",
+      "abilityName": "Cult Ambush",
+      "description": "Whenever a friendly WYRMBLADE operative is shooting or fighting during its activation, if its order was changed from Conceal to Engage at the start of that activation, or it wasn't visible to enemy operatives at the start of that activation,\nthat friendly operative's weapons have the Ceaseless weapon rule."
     }
   ]
 }

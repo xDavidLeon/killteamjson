@@ -137,18 +137,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-HIER-CHRON-A-LM",
-          "opTypeId": "NEC-HIER-CHRON",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-CHRON-A-RP",
-          "opTypeId": "NEC-HIER-CHRON",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops..."
-        },
-        {
           "abilityId": "NEC-HIER-CHRON-CM",
           "opTypeId": "NEC-HIER-CHRON",
           "abilityName": "Chronometron",
@@ -254,18 +242,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-HIER-PSYCH-A-LM",
-          "opTypeId": "NEC-HIER-PSYCH",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-PSYCH-A-RP",
-          "opTypeId": "NEC-HIER-PSYCH",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nAs REANIMATED operatives are no longer incapacitated, for the purposes of the kill op, this means your opponent's kill grade can go down during the battle (they lose VP accordingly).\nHowever, it won't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
-        {
           "abilityId": "NEC-HIER-PSYCH-HOD",
           "opTypeId": "NEC-HIER-PSYCH",
           "abilityName": "Harbinger Of Despair",
@@ -360,18 +336,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-HIER-TECH-A-LM",
-          "opTypeId": "NEC-HIER-TECH",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-TECH-A-RP",
-          "opTypeId": "NEC-HIER-TECH",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
-        {
           "abilityId": "NEC-HIER-TECH-AW",
           "opTypeId": "NEC-HIER-TECH",
           "abilityName": "Augment Weapon",
@@ -464,18 +428,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-HIER-PA-A-LM",
-          "opTypeId": "NEC-HIER-PA",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-PA-A-RP",
-          "opTypeId": "NEC-HIER-PA",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
-        {
           "abilityId": "NEC-HIER-PA-A-SC",
           "opTypeId": "NEC-HIER-PA",
           "abilityName": "Scuttler",
@@ -552,18 +504,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "NEC-HIER-PR-A-LM",
-          "opTypeId": "NEC-HIER-PR",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-PR-A-RP",
-          "opTypeId": "NEC-HIER-PR",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
         {
           "abilityId": "NEC-HIER-PR-A-SC",
           "opTypeId": "NEC-HIER-PR",
@@ -645,18 +585,6 @@
           "opTypeId": "NEC-HIER-APP",
           "abilityName": "Apprentek Assistance",
           "description": "This operative has the same unique actions as your CRYPTEK operative selected for the battle, but can only perform one CRYPTEK unique action per turning point."
-        },
-        {
-          "abilityId": "NEC-HIER-APP-A-LM",
-          "opTypeId": "NEC-HIER-APP",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-APP-A-RP",
-          "opTypeId": "NEC-HIER-APP",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
         }
       ],
       "options": []
@@ -734,18 +662,6 @@
           "opTypeId": "NEC-HIER-DM",
           "abilityName": "Deathmarked",
           "description": "Whenever this operative ends the Shoot action, the target gains one of your Deathmarked tokens if it was not incapacitated (the primary target, if relevant).\nWhenever a friendly HIEROTEK CIRCLE DEATHMARK operative is shooting an enemy operative that has one of your Deathmarked tokens, that friendly operative's ranged weapons have the Seek weapon rule."
-        },
-        {
-          "abilityId": "NEC-HIER-DM-A-LM",
-          "opTypeId": "NEC-HIER-DM",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-DM-A-RP",
-          "opTypeId": "NEC-HIER-DM",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
         },
         {
           "abilityId": "NEC-HIER-DM-MDV",
@@ -839,18 +755,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "NEC-HIER-ID-A-LM",
-          "opTypeId": "NEC-HIER-ID",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-ID-A-RP",
-          "opTypeId": "NEC-HIER-ID",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
         {
           "abilityId": "NEC-HIER-ID-A-SF",
           "opTypeId": "NEC-HIER-ID",
@@ -949,18 +853,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "NEC-HIER-IG-A-LM",
-          "opTypeId": "NEC-HIER-IG",
-          "abilityName": "Living Metal",
-          "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
-        },
-        {
-          "abilityId": "NEC-HIER-IG-A-RP",
-          "opTypeId": "NEC-HIER-IG",
-          "abilityName": "Reanimation Protocols",
-          "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops."
-        },
         {
           "abilityId": "NEC-HIER-IG-A-SF",
           "opTypeId": "NEC-HIER-IG",
@@ -1069,6 +961,18 @@
       "eqName": "Tesla Weave",
       "description": "Once per turning point, when an enemy operative ends the Charge action with friendly HIEROTEK CIRCLE operatives within its control range, you can use this rule. If you do, inflict D3+1 damage on that enemy operative.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "NEC-HIER-TA-LIME",
+      "abilityName": "Living Metal",
+      "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
+    },
+    {
+      "abilityId": "NEC-HIER-TA-REPR",
+      "abilityName": "Reanimation Protocols",
+      "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops..."
     }
   ]
 }

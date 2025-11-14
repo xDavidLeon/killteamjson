@@ -69,12 +69,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-VESP-VSL-A-BC",
-          "opTypeId": "TAU-VESP-VSL",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
           "abilityId": "TAU-VESP-VSL-A-CH",
           "opTypeId": "TAU-VESP-VSL",
           "abilityName": "Communion Helm",
@@ -85,18 +79,6 @@
           "opTypeId": "TAU-VESP-VSL",
           "abilityName": "Commune",
           "description": "When selecting your operatives for the battle, also select one VESPID STINGWING Strategy Ploy. Whenever this operative is in the killzone and not within control range of an enemy operative, that Ploy costs you 0CP."
-        },
-        {
-          "abilityId": "TAU-VESP-VSL-A-COMM",
-          "opTypeId": "TAU-VESP-VSL",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-VSL-A-FLY",
-          "opTypeId": "TAU-VESP-VSL",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
         }
       ],
       "options": []
@@ -135,28 +117,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-VESP-OSD-A-BC",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
-          "abilityId": "TAU-VESP-OSD-A-COMM",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
           "abilityId": "TAU-VESP-OSD-A-EDR",
           "opTypeId": "TAU-VESP-OSD",
           "abilityName": "Evasive Drone",
           "description": "\r - This operative cannot perform any action other than Aerial Guidance, Charge, Dash, Fall Back, Fight, or Reposition.\r - Whenever determining control of objective markers, treat this operative's APL stat as 1 lower.\r - Whenever determining what is Visible To this operative, the round disc at the top of the miniature is its head.\r - Whenever this operative has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\r "
-        },
-        {
-          "abilityId": "TAU-VESP-OSD-A-FLY",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
         },
         {
           "abilityId": "TAU-VESP-OSD-AG",
@@ -253,26 +217,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "TAU-VESP-VLS-A-BC",
-          "opTypeId": "TAU-VESP-VLS",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
-          "abilityId": "TAU-VESP-VLS-A-COMM",
-          "opTypeId": "TAU-VESP-VLS",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-VLS-A-FLY",
-          "opTypeId": "TAU-VESP-VLS",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -376,28 +321,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-VESP-VSS-A-BC",
-          "opTypeId": "TAU-VESP-VSS",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
           "abilityId": "TAU-VESP-VSS-A-CAM",
           "opTypeId": "TAU-VESP-VSS",
           "abilityName": "Camouflaged",
           "description": "Whenever an operative is shooting this operative, ignore the Piercing weapon rule and all Cover saves are retained as critical successes. This rule has no effect if this operative is not selected as the valid target, e.g. if it is a secondary target from the Blast weapon rule."
-        },
-        {
-          "abilityId": "TAU-VESP-VSS-A-COMM",
-          "opTypeId": "TAU-VESP-VSS",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-VSS-A-FLY",
-          "opTypeId": "TAU-VESP-VSS",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
         },
         {
           "abilityId": "TAU-VESP-VSS-A-GR",
@@ -472,24 +399,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-VESP-VSB-A-BC",
-          "opTypeId": "TAU-VESP-VSB",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
-          "abilityId": "TAU-VESP-VSB-A-COMM",
-          "opTypeId": "TAU-VESP-VSB",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-VSB-A-FLY",
-          "opTypeId": "TAU-VESP-VSB",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-        },
         {
           "abilityId": "TAU-VESP-VSB-A-NF",
           "opTypeId": "TAU-VESP-VSB",
@@ -585,24 +494,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "TAU-VESP-VSG-A-BC",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
-          "abilityId": "TAU-VESP-VSG-A-COMM",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-VSG-A-FLY",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-        },
-        {
           "abilityId": "TAU-VESP-VSG-ST",
           "opTypeId": "TAU-VESP-VSG",
           "abilityName": "Skytorch Assault",
@@ -669,24 +560,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-VESP-WAR-A-BC",
-          "opTypeId": "TAU-VESP-WAR",
-          "abilityName": "Neutron Charge",
-          "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
-        },
-        {
-          "abilityId": "TAU-VESP-WAR-A-COMM",
-          "opTypeId": "TAU-VESP-WAR",
-          "abilityName": "Communion",
-          "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
-        },
-        {
-          "abilityId": "TAU-VESP-WAR-A-FLY",
-          "opTypeId": "TAU-VESP-WAR",
-          "abilityName": "Fly",
-          "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
-        },
         {
           "abilityId": "TAU-VESP-WAR-A-WI",
           "opTypeId": "TAU-VESP-WAR",
@@ -795,6 +668,23 @@
       "eqName": "Convergence Stimulant",
       "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-VESP-TA-NECH",
+      "abilityName": "Neutron Charge",
+      "description": "Neutron weapons are any weapons that have the word \"Neutron\" in their name. Whenever a friendly VESPID STINGWING operative moves or uses FLY, its Neutron weapons have the Piercing 1 weapon rule until the end of the Turning Point."
+    },
+    {
+      "abilityId": "TAU-VESP-TA-CO",
+      "abilityName": "Communion",
+      "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
+    },
+    {
+      "abilityId": "TAU-VESP-TA-FL",
+      "abilityName": "Fly",
+      "description": "Whenever a friendly VESPID STINGWING operative performs an action in which it moves, it can FLY.\nIf it does so, do not move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) of its original location, measuring horizontal distance only.\nNote that it gains no additional distance when performing the Charge action.  \n\nIt must be set up in a location it can be placed, and unless it was the Charge action, it cannot be set up within control range of an enemy operative.\nIn a killzone that uses the Close Quarters rules (e.g. killzone Gallowdark), you cannot measure the distance over or through wall terrain, and that operative cannot be set up on the other side of an access point (in other words, it cannot FLY through an open hatchway)."
     }
   ]
 }

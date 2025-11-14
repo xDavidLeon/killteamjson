@@ -159,18 +159,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-TEMPAQ-TEMP-A-DI",
-          "opTypeId": "IMP-TEMPAQ-TEMP",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-TEMP-A-GC",
-          "opTypeId": "IMP-TEMPAQ-TEMP",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
-        {
           "abilityId": "IMP-TEMPAQ-TEMP-A-VET",
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "abilityName": "Tempestus Veteran",
@@ -284,18 +272,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-TEMPAQ-GRN-A-DI",
-          "opTypeId": "IMP-TEMPAQ-GRN",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-GRN-A-GC",
-          "opTypeId": "IMP-TEMPAQ-GRN",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
-        {
           "abilityId": "IMP-TEMPAQ-GRN-A-GRN",
           "opTypeId": "IMP-TEMPAQ-GRN",
           "abilityName": "Grenadier",
@@ -389,18 +365,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-TEMPAQ-GF-A-DI",
-          "opTypeId": "IMP-TEMPAQ-GF",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-GF-A-GC",
-          "opTypeId": "IMP-TEMPAQ-GF",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
         {
           "abilityId": "IMP-TEMPAQ-GF-A-GF",
           "opTypeId": "IMP-TEMPAQ-GF",
@@ -520,20 +484,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-TEMPAQ-GNR-A-DI",
-          "opTypeId": "IMP-TEMPAQ-GNR",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-GNR-A-GC",
-          "opTypeId": "IMP-TEMPAQ-GNR",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -631,18 +582,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-TEMPAQ-MRK-A-DI",
-          "opTypeId": "IMP-TEMPAQ-MRK",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-MRK-A-GC",
-          "opTypeId": "IMP-TEMPAQ-MRK",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
-        {
           "abilityId": "IMP-TEMPAQ-MRK-A-SNPVANT",
           "opTypeId": "IMP-TEMPAQ-MRK",
           "abilityName": "Sniper's Vantage",
@@ -717,22 +656,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-TEMPAQ-PRE-A-DI",
-          "opTypeId": "IMP-TEMPAQ-PRE",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
           "abilityId": "IMP-TEMPAQ-PRE-A-DYN",
           "opTypeId": "IMP-TEMPAQ-PRE",
           "abilityName": "Dynamic",
           "description": "Whenever this operative performs the Fight or Shoot action, it can immediately perform a free Dash action afterwards. It can do so even if it performed the Charge action during this activation, but can only use the remaining distance it had from that Charge action (to a maximum of 3\")."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-PRE-A-GC",
-          "opTypeId": "IMP-TEMPAQ-PRE",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
         },
         {
           "abilityId": "IMP-TEMPAQ-PRE-A-VKF",
@@ -873,18 +800,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-TEMPAQ-SS-A-DI",
-          "opTypeId": "IMP-TEMPAQ-SS",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-SS-A-GC",
-          "opTypeId": "IMP-TEMPAQ-SS",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
-        {
           "abilityId": "IMP-TEMPAQ-SS-A-MAC",
           "opTypeId": "IMP-TEMPAQ-SS",
           "abilityName": "Machine",
@@ -951,18 +866,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-TEMPAQ-TRP-A-DI",
-          "opTypeId": "IMP-TEMPAQ-TRP",
-          "abilityName": "Drop Insertion",
-          "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
-        },
-        {
-          "abilityId": "IMP-TEMPAQ-TRP-A-GC",
-          "opTypeId": "IMP-TEMPAQ-TRP",
-          "abilityName": "Grav Chute",
-          "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
-        },
         {
           "abilityId": "IMP-TEMPAQ-TRP-A-RAP",
           "opTypeId": "IMP-TEMPAQ-TRP",
@@ -1077,6 +980,18 @@
       "eqName": "Remote Overseer",
       "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-TEMPAQ-TA-DRIN",
+      "abilityName": "Drop Insertion",
+      "description": "When setting up a TEMPESTUS AQUILON kill team before the battle, the first third of your kill team must be set up as normal.\nEach third thereafter can be set up above: place them to one side instead of in the killzone.\nFor each third that is set up above, you must set up the whole third in this way (not some of them), then place your Drop markers wholly within your drop zone.\n  \n\nAs a STRATEGIC GAMBIT in the first and second Turning Point, you can move your Drop markers up to 4\", measuring the horizontal distance only. In close quarters, this can be measured and moved through walls.\n  \n\nDuring the Firefight Phase, friendly TEMPESTUS AQUILON operatives set up above are activated as normal.\nWhen you do, you can either expend or land that operative. If it lands, set it up in the killzone in a location it can be placed as follows (it is no longer set up above):\n\n- Within 3\" of one of your Drop markers, measuring the horizontal distance only, or wholly within your drop zone.\n- Not within Control range of an enemy operative (unless you're setting up a PRECURSOR operative, which can be set up within Control range of an enemy operative)\n- With no part of its base underneath Vantage terrain\n- With an order of your choice\n\nThe operative is treated as performing the Reposition action (spent the AP accordingly), then continue its activation as normal. It is Obscured until the end of the next Activation or the end of the Turning Point (whichever comes first).  \n\nLess than half of your operatives can be set up above by the end of the first Turning Point. In other words, by the end of the first Turning Point, more than half of your operatives must have been set up in the killzone during the battle.  \n\nWhen readying your operatives during the second and third Turning Points, remove one of your Drop markers. This means operatives still set up above are incapacitated at the end of the second Turning Point."
+    },
+    {
+      "abilityId": "IMP-TEMPAQ-TA-GRCH",
+      "abilityName": "Grav Chute",
+      "description": "Whenever a friendly TEMPESTUS AQUILON operative is dropping, ignore the vertical distance."
     }
   ]
 }

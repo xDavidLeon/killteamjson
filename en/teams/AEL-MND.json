@@ -86,24 +86,6 @@
           "opTypeId": "AEL-MND-NF",
           "abilityName": "Oubliex",
           "description": "Whenever this operative is readied, or if this operative incapacitates an enemy with its huskblade, its Oubliex becomes active.\nWhenever its oubliex is active and an attack dice would inflict damage on this operative, you can roll one d6, on a 5+ ignore the damage inflicted from that attack dice and the oubliex is no longer active."
-        },
-        {
-          "abilityId": "AEL-MND-NF-A-SP",
-          "opTypeId": "AEL-MND-NF",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
-          "abilityId": "AEL-MND-NF-A-UE",
-          "opTypeId": "AEL-MND-NF",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-NF-A-WS",
-          "opTypeId": "AEL-MND-NF",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
         }
       ],
       "options": []
@@ -183,24 +165,6 @@
           "opTypeId": "AEL-MND-COTF",
           "abilityName": "Soul Harvest",
           "description": "Whenever an enemy operative is incapacitated as a result of this operative's Part Collector rule or Baleblade, you gain 1 Soul Harvest point, or 2 if the enemy operative had an APL stat of 3 or more.\nWhenever a friendly MANDRAKE operative is activated, you can spend 1 of your Soul Harvest points to either add 1 to its APL stat until the end of the battle, or to have it regain 2D3 lost wounds.\nNote you can spend your Soul Harvest points even if this operative is incapacitated."
-        },
-        {
-          "abilityId": "AEL-MND-COTF-A-SP",
-          "opTypeId": "AEL-MND-COTF",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
-          "abilityId": "AEL-MND-COTF-A-UE",
-          "opTypeId": "AEL-MND-COTF",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-COTF-A-WS",
-          "opTypeId": "AEL-MND-COTF",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
         }
       ],
       "options": []
@@ -293,24 +257,6 @@
           "opTypeId": "AEL-MND-ABS",
           "abilityName": "Balefire",
           "description": "Whenever a friendly MANDRAKE operative is shooting an enemy operative that has one of your Balefire tokens add 1 to both DMG stats of that friendly operative's ranged weapons and they have the Saturate weapon rule.\nWhenever an operative is shooting a friendly MANDRAKE operative that has one of your Balefire tokens, subtract 1 from both DMG stats of that operative's ranged weapons (to a minimum of 1)."
-        },
-        {
-          "abilityId": "AEL-MND-ABS-A-SP",
-          "opTypeId": "AEL-MND-ABS",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
-          "abilityId": "AEL-MND-ABS-A-UE",
-          "opTypeId": "AEL-MND-ABS",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-ABS-A-WS",
-          "opTypeId": "AEL-MND-ABS",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
         },
         {
           "abilityId": "AEL-MND-ABS-WIB",
@@ -428,24 +374,6 @@
           "description": "Select one enemy operative.\r Until the ready step of the next strategy phase, it gains your Haunting Focus token.\r The next time your opponent would activate an enemy operative that has your Haunting Focus token, if this operative is ready, you can activate this operative first (you cannot do so if you also rolled to prevent that operative's activation with the NIGHTFIEND operative's Harrowing Whispers additional rule during this Turning Point).\r If you do, during that activation, this operative must fight against or shoot against that enemy operative, and cannot do so against any other enemy operatives until it does (if this is not possible, the activation is cancelled).\r After completing this operative's activation, your opponent activates that enemy operative (if possible), or activates a different enemy operative if they can't."
         },
         {
-          "abilityId": "AEL-MND-DM-A-SP",
-          "opTypeId": "AEL-MND-DM",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
-          "abilityId": "AEL-MND-DM-A-UE",
-          "opTypeId": "AEL-MND-DM",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-DM-A-WS",
-          "opTypeId": "AEL-MND-DM",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
-        },
-        {
           "abilityId": "AEL-MND-DM-PP",
           "opTypeId": "AEL-MND-DM",
           "abilityName": "Pareidolic Projection",
@@ -517,28 +445,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-MND-SW-A-SP",
-          "opTypeId": "AEL-MND-SW",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
           "abilityId": "AEL-MND-SW-A-SPRT",
           "opTypeId": "AEL-MND-SW",
           "abilityName": "Shadow Portal",
           "description": "Whenever this operative performs the Reposition action using a SHADOW PASSAGE, you can use this rule.\nIf you do so, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this operative's control range before it is removed\nand one within its control range after it is set up.  \n\nEach friendly MANDRAKE operative can use a SHADOW PASSAGE each turning point (taking precedence over one operative once per turning point)\nif one of your Shadow Portal markers is within that operative's control range when it is removed, and the other when it is set up.\nNote that friendly operatives can do this even if this operative has been incapacitated, and doing so does not prevent the operative from using a SHADOW PASSAGE in the normal manner."
-        },
-        {
-          "abilityId": "AEL-MND-SW-A-UE",
-          "opTypeId": "AEL-MND-SW",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-SW-A-WS",
-          "opTypeId": "AEL-MND-SW",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
         },
         {
           "abilityId": "AEL-MND-SW-WD",
@@ -612,28 +522,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-MND-WAR-A-SP",
-          "opTypeId": "AEL-MND-WAR",
-          "abilityName": "Shadow Passage",
-          "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
-        },
-        {
           "abilityId": "AEL-MND-WAR-A-SW",
           "opTypeId": "AEL-MND-WAR",
           "abilityName": "Shadow Warrior",
           "description": "Whenever this operative is WITHIN SHADOW, add 1 to the critical damage stat of its Glimmersteel Blade."
-        },
-        {
-          "abilityId": "AEL-MND-WAR-A-UE",
-          "opTypeId": "AEL-MND-WAR",
-          "abilityName": "Umbral Entities",
-          "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
-        },
-        {
-          "abilityId": "AEL-MND-WAR-A-WS",
-          "opTypeId": "AEL-MND-WAR",
-          "abilityName": "Within Shadow",
-          "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
         }
       ],
       "options": []
@@ -737,6 +629,23 @@
       "eqName": "Soul Gem",
       "description": "Once per turning point, when a friendly MANDRAKE operative is performing the Shoot action and you select a Baleblast, you can use this rule.\nIf you do, until the end of that action, that weapon has the Blast 1\" rule.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-MND-TA-WISH",
+      "abilityName": "Within Shadow",
+      "description": "An operative is WITHIN SHADOW if any of the following are true:\n\n- It is within 1\" of Heavy Terrain that is not lower than it.\n- Any part of its base is underneath Vantage terrain.\n- A Shadow Portal marker is within its control range (See SHADEWEAVER operative).\n"
+    },
+    {
+      "abilityId": "AEL-MND-TA-UMEN",
+      "abilityName": "Umbral Entities",
+      "description": "Whenever an operative is shooting a friendly MANDRAKE operative, ignore the Piercing weapon rule. Whenever a friendly MANDRAKE operative is WITHIN SHADOW, improve its Save stat by 1."
+    },
+    {
+      "abilityId": "AEL-MND-TA-SHPA",
+      "abilityName": "Shadow Passage",
+      "description": "Once per turning point, one friendly MANDRAKE operative WITHIN SHADOW can use a SHADOW PASSAGE when it performs the reposition action.\r If it does, do not move it. Instead, remove it from the killzone and set it back up WITHIN SHADOW.\r When you set it back up it cannot:\r \r - Be within control range of an enemy operative.\r - Be a valid target for an enemy operative.\r - Perform the shoot or fight action until the start of the next turning point.\r "
     }
   ]
 }

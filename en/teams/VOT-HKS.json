@@ -240,12 +240,6 @@
           "description": "**STRATEGIC GAMBIT** Select one enemy operative, or up to two enemy operatives if three or more friendly HEARTHKYN SALVAGER operatives are incapacitated.\nEach of those enemy operatives gains one of your Grudge tokens."
         },
         {
-          "abilityId": "VOT-HKS-TH-A-GRU",
-          "opTypeId": "VOT-HKS-TH",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
-        {
           "abilityId": "VOT-HKS-TH-A-WC",
           "opTypeId": "VOT-HKS-TH",
           "abilityName": "Weavefield Crest",
@@ -333,12 +327,6 @@
           "description": "Whenever this operative is fighting or retaliating:\n\n- Enemy operatives cannot assist.\n- If it is incapacitated, you can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone.\n- Normal Dmg of 4 or more inflicts 1 less damage on it."
         },
         {
-          "abilityId": "VOT-HKS-DO-A-GRU",
-          "opTypeId": "VOT-HKS-DO",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
-        {
           "abilityId": "VOT-HKS-DO-KS",
           "opTypeId": "VOT-HKS-DO",
           "abilityName": "Knux Smash",
@@ -410,12 +398,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "VOT-HKS-MDC-A-GRU",
-          "opTypeId": "VOT-HKS-MDC",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
         {
           "abilityId": "VOT-HKS-MDC-A-MDC",
           "opTypeId": "VOT-HKS-MDC",
@@ -603,12 +585,6 @@
           "opTypeId": "VOT-HKS-GRN",
           "abilityName": "Grenadier",
           "description": "This operative can use frag, krak, smoke and stun grenades (see universal equipment).\nDoing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
-        },
-        {
-          "abilityId": "VOT-HKS-GRN-A-GRU",
-          "opTypeId": "VOT-HKS-GRN",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
         },
         {
           "abilityId": "VOT-HKS-GRN-SMK",
@@ -838,14 +814,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "VOT-HKS-GNR-A-GRU",
-          "opTypeId": "VOT-HKS-GNR",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -917,12 +886,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "VOT-HKS-JMP-A-GRU",
-          "opTypeId": "VOT-HKS-JMP",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
         {
           "abilityId": "VOT-HKS-JMP-A-JP",
           "opTypeId": "VOT-HKS-JMP",
@@ -1014,12 +977,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "VOT-HKS-KL-A-GRU",
-          "opTypeId": "VOT-HKS-KL",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
         {
           "abilityId": "VOT-HKS-KL-JAM",
           "opTypeId": "VOT-HKS-KL",
@@ -1120,12 +1077,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKS-KOG-A-GRU",
-          "opTypeId": "VOT-HKS-KOG",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
-        {
           "abilityId": "VOT-HKS-KOG-A-TAC",
           "opTypeId": "VOT-HKS-KOG",
           "abilityName": "Tactician",
@@ -1223,12 +1174,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "VOT-HKS-LOK-A-GRU",
-          "opTypeId": "VOT-HKS-LOK",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
         {
           "abilityId": "VOT-HKS-LOK-PSS",
           "opTypeId": "VOT-HKS-LOK",
@@ -1329,12 +1274,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKS-LUG-A-GRU",
-          "opTypeId": "VOT-HKS-LUG",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
-        {
           "abilityId": "VOT-HKS-LUG-A-IGI",
           "opTypeId": "VOT-HKS-LUG",
           "abilityName": "I've Got It",
@@ -1431,12 +1370,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "VOT-HKS-WAR-A-GRU",
-          "opTypeId": "VOT-HKS-WAR",
-          "abilityName": "Grudge",
-          "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
-        },
         {
           "abilityId": "VOT-HKS-WAR-A-SS",
           "opTypeId": "VOT-HKS-WAR",
@@ -1545,6 +1478,13 @@
       "eqName": "Writ Of Claim",
       "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "VOT-HKS-TA-GR",
+      "abilityName": "Grudge",
+      "description": "Whenever an enemy operative incapacitates a friendly HEARTHKYN SALVAGER operative, that enemy operative gains one of your Grudge tokens for the battle.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative,\nfor each of your Grudge tokens that enemy operative has, you can retain one of your normal successes as a critical success instead (including any normal successes already retained as a result of the Accurate weapon rule).  \n\nNote that Grudge tokens are not removed when you do this."
     }
   ]
 }

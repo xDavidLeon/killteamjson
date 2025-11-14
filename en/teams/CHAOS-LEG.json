@@ -200,22 +200,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-LEG-AC-A-AS",
-          "opTypeId": "CHAOS-LEG-AC",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-LEG-AC-A-ITEOTG",
           "opTypeId": "CHAOS-LEG-AC",
           "abilityName": "In The Eyes Of The Gods",
           "description": "Once during each of this operative's activations, if it incapacitates an enemy operative, add 1 to its APL stat until the end of that activation."
-        },
-        {
-          "abilityId": "CHAOS-LEG-AC-A-MOC",
-          "opTypeId": "CHAOS-LEG-AC",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
         }
       ],
       "options": [
@@ -381,22 +369,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-LEG-CHO-A-AS",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-LEG-CHO-A-DA",
           "opTypeId": "CHAOS-LEG-CHO",
           "abilityName": "Daemonic Aura",
           "description": "Whenever an enemy operative performs the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, roll one D6: on a 3+, that enemy operative cannot perform that action during that activation/counteraction (the AP spent on it is refunded)."
-        },
-        {
-          "abilityId": "CHAOS-LEG-CHO-A-MOC",
-          "opTypeId": "CHAOS-LEG-CHO",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
         },
         {
           "abilityId": "CHAOS-LEG-CHO-A-SG",
@@ -509,18 +485,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-LEG-ANO-A-AS",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-LEG-ANO-A-MOC",
-          "opTypeId": "CHAOS-LEG-ANO",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-        },
         {
           "abilityId": "CHAOS-LEG-ANO-A-UD",
           "opTypeId": "CHAOS-LEG-ANO",
@@ -701,20 +665,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-LEG-BA-A-AS",
-          "opTypeId": "CHAOS-LEG-BA",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-LEG-BA-A-MOC",
-          "opTypeId": "CHAOS-LEG-BA",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-        }
-      ],
+      "abilities": [],
       "options": [
         {
           "optionId": "CHAOS-LEG-BA-MOC-K",
@@ -818,20 +769,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-LEG-BUT-A-AS",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-LEG-BUT-A-MOC",
-          "opTypeId": "CHAOS-LEG-BUT",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-        }
-      ],
+      "abilities": [],
       "options": [
         {
           "optionId": "CHAOS-LEG-BUT-MOC-K",
@@ -1040,20 +978,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-LEG-GNR-A-AS",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-LEG-GNR-A-MOC",
-          "opTypeId": "CHAOS-LEG-GNR",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-        }
-      ],
+      "abilities": [],
       "options": [
         {
           "optionId": "CHAOS-LEG-GNR-MOC-K",
@@ -1308,20 +1233,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-LEG-HGNR-A-AS",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-LEG-HGNR-A-MOC",
-          "opTypeId": "CHAOS-LEG-HGNR",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
-        }
-      ],
+      "abilities": [],
       "options": [
         {
           "optionId": "CHAOS-LEG-HGNR-MOC-K",
@@ -1461,12 +1373,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-LEG-IB-A-AS",
-          "opTypeId": "CHAOS-LEG-IB",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-LEG-IB-A-FOTDG",
           "opTypeId": "CHAOS-LEG-IB",
           "abilityName": "Favoured Of The Dark Gods",
@@ -1477,12 +1383,6 @@
           "opTypeId": "CHAOS-LEG-IB",
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
-        },
-        {
-          "abilityId": "CHAOS-LEG-IB-A-MOC",
-          "opTypeId": "CHAOS-LEG-IB",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
         }
       ],
       "options": [
@@ -1591,22 +1491,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-LEG-STL-A-AS",
-          "opTypeId": "CHAOS-LEG-STL",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-LEG-STL-A-HDM",
           "opTypeId": "CHAOS-LEG-STL",
           "abilityName": "Horrifying Dismemberment",
           "description": "Whenever this operative incapacitates an enemy operative while fighting or retaliating, select one other enemy operative visible to and within 3\" of either this operative or the incapacitated enemy\noperative. Subtract 1 from that enemy operative's APL stat until the end of its next activation."
-        },
-        {
-          "abilityId": "CHAOS-LEG-STL-A-MOC",
-          "opTypeId": "CHAOS-LEG-STL",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
         },
         {
           "abilityId": "CHAOS-LEG-STL-A-VR",
@@ -1761,22 +1649,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-LEG-WAR-A-AS",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
-        },
-        {
           "abilityId": "CHAOS-LEG-WAR-A-IP",
           "opTypeId": "CHAOS-LEG-WAR",
           "abilityName": "Infernal Pact",
           "description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative's Marks of Chaos keyword."
-        },
-        {
-          "abilityId": "CHAOS-LEG-WAR-A-MOC",
-          "opTypeId": "CHAOS-LEG-WAR",
-          "abilityName": "Mark Of Chaos",
-          "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
         }
       ],
       "options": [
@@ -1921,6 +1797,18 @@
       "eqName": "Chaos Talismans",
       "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice).",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-LEG-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly LEGIONARY operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or tainted bolt pistol must be selected for at least one of them.  \n\nEach friendly LEGIONARY operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-LEG-TA-MAOFCH",
+      "abilityName": "Mark Of Chaos",
+      "description": "Whenever you select a LEGIONARY operative for the battle, you must select one of the following keywords for it to have for that battle: KHORNE, NURGLE, SLAANESH, TZEENTCH, UNDIVIDED.\nEach operative's keyword can be different, but a BALEFIRE ACOLYTE operative cannot have the KHORNE keyword.  \n\nFriendly LEGIONARY operatives have an additional rule determined by this keyword. In addition, LEGIONARY ploys have additional benefits for operatives with the relevant keyword."
     }
   ]
 }

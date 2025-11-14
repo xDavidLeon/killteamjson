@@ -76,12 +76,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-GORE-BH-A-GT",
-          "opTypeId": "CHAOS-GORE-BH",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
           "abilityId": "CHAOS-GORE-BH-A-IA",
           "opTypeId": "CHAOS-GORE-BH",
           "abilityName": "Impending Apotheosis",
@@ -92,18 +86,6 @@
           "opTypeId": "CHAOS-GORE-BH",
           "abilityName": "Khorne's Favour",
           "description": "Once during each of this operative's activations, if its GORE TANK is empty, you can increase its GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-BH-A-ROK",
-          "opTypeId": "CHAOS-GORE-BH",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-BH-A-SNG",
-          "opTypeId": "CHAOS-GORE-BH",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
         }
       ],
       "options": []
@@ -170,28 +152,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-GORE-ASP-A-GT",
-          "opTypeId": "CHAOS-GORE-ASP",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
           "abilityId": "CHAOS-GORE-ASP-A-OB",
           "opTypeId": "CHAOS-GORE-ASP",
           "abilityName": "Obsessive Bloodlust",
           "description": "Once during each of this operative's activations, when this operative ends the Fight action, if it's no longer within control range of enemy operatives, you can use this rule. If you do, it can immediately perform a free Charge action (even if it's already performed the Charge action during that activation),\nbut it cannot move more than 2\" during that action. Doing so doesn't prevent it from performing the Charge, Dash or Reposition action afterwards during that activation."
-        },
-        {
-          "abilityId": "CHAOS-GORE-ASP-A-ROK",
-          "opTypeId": "CHAOS-GORE-ASP",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-ASP-A-SNG",
-          "opTypeId": "CHAOS-GORE-ASP",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
         }
       ],
       "options": []
@@ -257,24 +221,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-GORE-BT-A-GT",
-          "opTypeId": "CHAOS-GORE-BT",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-BT-A-ROK",
-          "opTypeId": "CHAOS-GORE-BT",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-BT-A-SNG",
-          "opTypeId": "CHAOS-GORE-BT",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
-        },
         {
           "abilityId": "CHAOS-GORE-BT-TFR",
           "opTypeId": "CHAOS-GORE-BT",
@@ -374,26 +320,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-GORE-IMP-A-GT",
-          "opTypeId": "CHAOS-GORE-IMP",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-IMP-A-ROK",
-          "opTypeId": "CHAOS-GORE-IMP",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-IMP-A-SNG",
-          "opTypeId": "CHAOS-GORE-IMP",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -471,28 +398,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-GORE-INC-A-GT",
-          "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
           "abilityId": "CHAOS-GORE-INC-A-ITH",
           "opTypeId": "CHAOS-GORE-INC",
           "abilityName": "Incite The Hunt",
           "description": "Whenever this operative incapacitates an enemy operative from more than 2\" away, before that enemy operative is removed from the killzone, you can increase the GORE TANK of one friendly GOREMONGER operative within 8\" of that enemy operative.  \n\nWhenever this operative inflicts damage on an enemy operative with either profile of its dual autopistols but doesn't incapacitate it, that enemy operative gains one of your Bleeding tokens (if it doesn't already have one).  \n\nDuring a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action, if it's within 8\" of an enemy operative that has one of your Bleeding tokens, you can remove that token and increase that friendly operative's GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-INC-A-ROK",
-          "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-INC-A-SNG",
-          "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
         },
         {
           "abilityId": "CHAOS-GORE-INC-DAS",
@@ -576,24 +485,6 @@
           "opTypeId": "CHAOS-GORE-SC",
           "abilityName": "Claim Skull",
           "description": "Once per turning point, if this operative incapacitates an enemy operative with its great chainaxe, you gain 1CP."
-        },
-        {
-          "abilityId": "CHAOS-GORE-SC-A-GT",
-          "opTypeId": "CHAOS-GORE-SC",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-SC-A-ROK",
-          "opTypeId": "CHAOS-GORE-SC",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
-          "abilityId": "CHAOS-GORE-SC-A-SNG",
-          "opTypeId": "CHAOS-GORE-SC",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
         }
       ],
       "options": []
@@ -666,28 +557,10 @@
           "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically)."
         },
         {
-          "abilityId": "CHAOS-GORE-ST-A-GT",
-          "opTypeId": "CHAOS-GORE-ST",
-          "abilityName": "Gore Tank",
-          "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
-        },
-        {
-          "abilityId": "CHAOS-GORE-ST-A-ROK",
-          "opTypeId": "CHAOS-GORE-ST",
-          "abilityName": "Runes Of Khorne",
-          "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
-        },
-        {
           "abilityId": "CHAOS-GORE-ST-A-RTS",
           "opTypeId": "CHAOS-GORE-ST",
           "abilityName": "Rooftop Stalker",
           "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain, or whenever this operative is fighting against an enemy operative that's on Vantage terrain, this operative's melee weapons have the Relentless weapon rule."
-        },
-        {
-          "abilityId": "CHAOS-GORE-ST-A-SNG",
-          "opTypeId": "CHAOS-GORE-ST",
-          "abilityName": "Sanguavitae",
-          "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
         }
       ],
       "options": []
@@ -791,6 +664,23 @@
       "eqName": "Wrist Chains",
       "description": "Once per turning point, when a friendly GOREMONGER operative performs the Shoot action and you're selecting a ranged weapon, you can use this rule.\nIf you do, until the end of that action, the following melee weapons are treated as ranged weapons with the Range 2\" weapon rule: chainblade, chainglaive, great chainaxe (ignore its Brutal weapon rule), pickrippers.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-GORE-TA-SA",
+      "abilityName": "Sanguavitae",
+      "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
+    },
+    {
+      "abilityId": "CHAOS-GORE-TA-RUOFKH",
+      "abilityName": "Runes Of Khorne",
+      "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
+    },
+    {
+      "abilityId": "CHAOS-GORE-TA-GOTA",
+      "abilityName": "Gore Tank",
+      "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
     }
   ]
 }

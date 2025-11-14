@@ -175,12 +175,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-SUP-A-AOF",
-          "opTypeId": "IMP-NOV-SUP",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-SUP-A-IE",
           "opTypeId": "IMP-NOV-SUP",
           "abilityName": "Inspirational Example",
@@ -265,12 +259,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-CON-A-AOF",
-          "opTypeId": "IMP-NOV-CON",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-CON-A-NR",
           "opTypeId": "IMP-NOV-CON",
           "abilityName": "Null Rod",
@@ -340,12 +328,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-NOV-DIA-A-AOF",
-          "opTypeId": "IMP-NOV-DIA",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
         {
           "abilityId": "IMP-NOV-DIA-ABC",
           "opTypeId": "IMP-NOV-DIA",
@@ -426,14 +408,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-NOV-DUE-A-AOF",
-          "opTypeId": "IMP-NOV-DUE",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -509,12 +484,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-EXA-A-AOF",
-          "opTypeId": "IMP-NOV-EXA",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-EXA-WIF",
           "opTypeId": "IMP-NOV-EXA",
           "abilityName": "Whip Into Frenzy",
@@ -589,12 +558,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-NOV-HOS-A-AOF",
-          "opTypeId": "IMP-NOV-HOS",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
         {
           "abilityId": "IMP-NOV-HOS-A-MDC",
           "opTypeId": "IMP-NOV-HOS",
@@ -707,12 +670,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-MIL-A-AOF",
-          "opTypeId": "IMP-NOV-MIL",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-MIL-A-MF",
           "opTypeId": "IMP-NOV-MIL",
           "abilityName": "Militant Faith",
@@ -786,12 +743,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-PEN-A-AOF",
-          "opTypeId": "IMP-NOV-PEN",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-PEN-A-ATD",
           "opTypeId": "IMP-NOV-PEN",
           "abilityName": "Absolution Through Destruction",
@@ -840,12 +791,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-NOV-PRE-A-AOF",
-          "opTypeId": "IMP-NOV-PRE",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
         {
           "abilityId": "IMP-NOV-PRE-A-GH",
           "opTypeId": "IMP-NOV-PRE",
@@ -918,12 +863,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-NOV-PRO-A-AOF",
-          "opTypeId": "IMP-NOV-PRO",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
         {
           "abilityId": "IMP-NOV-PRO-A-DA",
           "opTypeId": "IMP-NOV-PRO",
@@ -998,12 +937,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-NOV-PUR-A-AOF",
-          "opTypeId": "IMP-NOV-PUR",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
-        {
           "abilityId": "IMP-NOV-PUR-A-PWF",
           "opTypeId": "IMP-NOV-PUR",
           "abilityName": "Purge With Flame",
@@ -1069,12 +1002,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-NOV-REL-A-AOF",
-          "opTypeId": "IMP-NOV-REL",
-          "abilityName": "Acts Of Faith",
-          "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
-        },
         {
           "abilityId": "IMP-NOV-REL-A-IB",
           "opTypeId": "IMP-NOV-REL",
@@ -1190,6 +1117,13 @@
       "eqName": "Holy Embrocations",
       "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured.",
       "effects": "NOINJMOV"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-NOV-TA-ACOFFA",
+      "abilityName": "Acts Of Faith",
+      "description": "In the Ready step of each Strategy phase, you gain a number of Faith points equal to half the number of friendly NOVITIATE operatives that have not been incapacitated (rounding up).\nWhenever a friendly NOVITIATE operative is shooting, fighting or retaliating, or an operative is shooting it, in the Roll Attack Dice (or Roll Defence Dice step if an operative is shooting it),\nyou can spend your Faith points to use one ACT OF FAITH.  \n\nYou cannot use more than one ACT OF FAITH per sequence, and their costs and effects are as follows:  \n\n\n- **GUIDANCE - 1 FAITH POINT**  \nYou can re-roll one of your dice.\n- **BLESSING - 2 FAITH POINTS**  \n You can retain one of your normal successes as a critical success instead.\n- **INTERVENTION - 3 FAITH POINTS**  \nYou can retain one of your fails as a normal success instead of discarding it.\n"
     }
   ]
 }

@@ -157,12 +157,6 @@
           "opTypeId": "CHAOS-FELL-IH",
           "abilityName": "Call The Attack",
           "description": "**STRATEGIC GAMBIT** if this operative doesn't have one of your Frenzy tokens. Select one friendly FELLGOR RAVAGER operative visible to and within 6\" of this operative.\nThat selected operative, and each other friendly FELLGOR RAVAGER operative visible to and within 2\" of it, can immediately perform a free Dash action in an order of your choice."
-        },
-        {
-          "abilityId": "CHAOS-FELL-IH-A-FRZ",
-          "opTypeId": "CHAOS-FELL-IH",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
         }
       ],
       "options": []
@@ -229,12 +223,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-FELL-DK-A-FRZ",
-          "opTypeId": "CHAOS-FELL-DK",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
-        {
           "abilityId": "CHAOS-FELL-DK-A-IB",
           "opTypeId": "CHAOS-FELL-DK",
           "abilityName": "Icon Bearer",
@@ -298,12 +286,6 @@
           "opTypeId": "CHAOS-FELL-FB",
           "abilityName": "Blade Whirl",
           "description": "Whenever this operative is fighting or retaliating, if it doesn't have one of your Frenzy tokens, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
-        },
-        {
-          "abilityId": "CHAOS-FELL-FB-A-FRZ",
-          "opTypeId": "CHAOS-FELL-FB",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
         },
         {
           "abilityId": "CHAOS-FELL-FB-CF",
@@ -376,12 +358,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-FELL-GS-A-FRZ",
-          "opTypeId": "CHAOS-FELL-GS",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
         {
           "abilityId": "CHAOS-FELL-GS-A-SAG",
           "opTypeId": "CHAOS-FELL-GS",
@@ -468,12 +444,6 @@
           "opTypeId": "CHAOS-FELL-GH",
           "abilityName": "Champion",
           "description": "This operative can perform two Fight actions during its activation."
-        },
-        {
-          "abilityId": "CHAOS-FELL-GH-A-FRZ",
-          "opTypeId": "CHAOS-FELL-GH",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
         }
       ],
       "options": []
@@ -575,12 +545,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-FELL-HG-A-FRZ",
-          "opTypeId": "CHAOS-FELL-HG",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
-        {
           "abilityId": "CHAOS-FELL-HG-A-WC",
           "opTypeId": "CHAOS-FELL-HG",
           "abilityName": "Whip Control",
@@ -641,12 +605,6 @@
           "opTypeId": "CHAOS-FELL-MNG",
           "abilityName": "Berserker",
           "description": "This operative cannot perform the Shoot action (other than Guard, but cannot then perform a free Shoot action during the interruption).\nYou must spend 1 additional AP for this operative to perform the Pick Up Marker and mission actions (excluding Operate Hatch)."
-        },
-        {
-          "abilityId": "CHAOS-FELL-MNG-A-FRZ",
-          "opTypeId": "CHAOS-FELL-MNG",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
         },
         {
           "abilityId": "CHAOS-FELL-MNG-A-SAV",
@@ -752,12 +710,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-FELL-SHA-A-FRZ",
-          "opTypeId": "CHAOS-FELL-SHA",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
-        {
           "abilityId": "CHAOS-FELL-SHA-ARJ",
           "opTypeId": "CHAOS-FELL-SHA",
           "abilityName": "Apoplectic Rejuvenation",
@@ -832,12 +784,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-FELL-TOX-A-FRZ",
-          "opTypeId": "CHAOS-FELL-TOX",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
-        {
           "abilityId": "CHAOS-FELL-TOX-A-PB",
           "opTypeId": "CHAOS-FELL-TOX",
           "abilityName": "Pox Bomb",
@@ -892,12 +838,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-FELL-VND-A-FRZ",
-          "opTypeId": "CHAOS-FELL-VND",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
         {
           "abilityId": "CHAOS-FELL-VND-SB",
           "opTypeId": "CHAOS-FELL-VND",
@@ -988,12 +928,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-FELL-WAR-A-FRZ",
-          "opTypeId": "CHAOS-FELL-WAR",
-          "abilityName": "Frenzy",
-          "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
-        },
         {
           "abilityId": "CHAOS-FELL-WAR-A-WF",
           "opTypeId": "CHAOS-FELL-WAR",
@@ -1102,6 +1036,13 @@
       "eqName": "War Paint",
       "description": "You can ignore any changes to the Move stat of friendly FELLGOR RAVAGER operatives from being injured.",
       "effects": "NOINJMOV"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-FELL-TA-FR",
+      "abilityName": "Frenzy",
+      "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
     }
   ]
 }

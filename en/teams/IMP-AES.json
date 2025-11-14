@@ -139,22 +139,10 @@
           "description": "If this operative has a dominator maul & assault shield, it has a 3+ Save stat."
         },
         {
-          "abilityId": "IMP-AES-PE-A-MFJ",
-          "opTypeId": "IMP-AES-PE",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
           "abilityId": "IMP-AES-PE-A-NA",
           "opTypeId": "IMP-AES-PE",
           "abilityName": "Nuncio-Aquila",
           "description": "\n- Whenever an enemy operative is within 3\" of your Nuncio-aquila marker (or this operative if your Nuncio-aquila marker isn't in the killzone), your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Nuncio-aquila marker\n(or this operative if your Nuncio-aquila marker isn't in the killzone). Note this isn't a change to the APL stat, so any changes are cumulative with this\n"
-        },
-        {
-          "abilityId": "IMP-AES-PE-A-RE",
-          "opTypeId": "IMP-AES-PE",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
         },
         {
           "abilityId": "IMP-AES-PE-DNA",
@@ -253,18 +241,6 @@
           "description": "You can ignore any changes to this operative's stats (including its weapons' stats, but excluding its Save stat)."
         },
         {
-          "abilityId": "IMP-AES-CAST-A-MFJ",
-          "opTypeId": "IMP-AES-CAST",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-CAST-A-RE",
-          "opTypeId": "IMP-AES-CAST",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
-        {
           "abilityId": "IMP-AES-CAST-A-ZD",
           "opTypeId": "IMP-AES-CAST",
           "abilityName": "Zealous Dedication",
@@ -345,18 +321,6 @@
           "opTypeId": "IMP-AES-CHI",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly EXACTION SQUAD operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of the action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's\r control range. Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that\r friendly operative's activation, that activation ends. You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
-        {
-          "abilityId": "IMP-AES-CHI-A-MFJ",
-          "opTypeId": "IMP-AES-CHI",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-CHI-A-RE",
-          "opTypeId": "IMP-AES-CHI",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
         },
         {
           "abilityId": "IMP-AES-CHI-MDK",
@@ -497,20 +461,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-AES-GNR-A-MFJ",
-          "opTypeId": "IMP-AES-GNR",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-GNR-A-RE",
-          "opTypeId": "IMP-AES-GNR",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -617,18 +568,6 @@
           "description": "Whenever this operative is activated, you can activate a ready friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative at the same time. Complete their activations action by action in any order."
         },
         {
-          "abilityId": "IMP-AES-LSH-A-MFJ",
-          "opTypeId": "IMP-AES-LSH",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-LSH-A-RE",
-          "opTypeId": "IMP-AES-LSH",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
-        {
           "abilityId": "IMP-AES-LSH-RC",
           "opTypeId": "IMP-AES-LSH",
           "abilityName": "R-VR Command",
@@ -681,18 +620,6 @@
           "opTypeId": "IMP-AES-RVR",
           "abilityName": "Beast",
           "description": "This operative cannot perform any actions other than Apprehend, Charge, Dash, Fall Back, Fight, Guard, Reposition, Pick Up Marker and Place Marker. It cannot use any weapons that aren't on its datacard."
-        },
-        {
-          "abilityId": "IMP-AES-RVR-A-MFJ",
-          "opTypeId": "IMP-AES-RVR",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-RVR-A-RE",
-          "opTypeId": "IMP-AES-RVR",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
         },
         {
           "abilityId": "IMP-AES-RVR-APP",
@@ -776,18 +703,6 @@
           "opTypeId": "IMP-AES-MAL",
           "abilityName": "Acute Focus",
           "description": "Once during each of this operative's activations, it can perform the Pick Up Marker, Place Marker, Veriscant or a mission action for 1 less AP."
-        },
-        {
-          "abilityId": "IMP-AES-MAL-A-MFJ",
-          "opTypeId": "IMP-AES-MAL",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-MAL-A-RE",
-          "opTypeId": "IMP-AES-MAL",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
         },
         {
           "abilityId": "IMP-AES-MAL-VER",
@@ -894,18 +809,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-AES-MRK-A-MFJ",
-          "opTypeId": "IMP-AES-MRK",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-MRK-A-RE",
-          "opTypeId": "IMP-AES-MRK",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
-        {
           "abilityId": "IMP-AES-MRK-OPT",
           "opTypeId": "IMP-AES-MRK",
           "abilityName": "Optics",
@@ -993,18 +896,6 @@
           "description": "**STRATEGIC GAMBIT** in the first turning point.\nIf this operative is wholly within your drop zone, it can immediately perform a free Reposition action."
         },
         {
-          "abilityId": "IMP-AES-REV-A-MFJ",
-          "opTypeId": "IMP-AES-REV",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-REV-A-RE",
-          "opTypeId": "IMP-AES-REV",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
-        {
           "abilityId": "IMP-AES-REV-SPT",
           "opTypeId": "IMP-AES-REV",
           "abilityName": "Spot",
@@ -1078,18 +969,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-AES-SUB-A-MFJ",
-          "opTypeId": "IMP-AES-SUB",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-SUB-A-RE",
-          "opTypeId": "IMP-AES-SUB",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
         {
           "abilityId": "IMP-AES-SUB-A-SS",
           "opTypeId": "IMP-AES-SUB",
@@ -1167,18 +1046,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-AES-VIG-A-MFJ",
-          "opTypeId": "IMP-AES-VIG",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-VIG-A-RE",
-          "opTypeId": "IMP-AES-VIG",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
-        {
           "abilityId": "IMP-AES-VIG-A-SQV",
           "opTypeId": "IMP-AES-VIG",
           "abilityName": "Close Quarters Vigilance",
@@ -1254,18 +1121,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-AES-VOX-A-MFJ",
-          "opTypeId": "IMP-AES-VOX",
-          "abilityName": "Marked For Justice",
-          "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
-        },
-        {
-          "abilityId": "IMP-AES-VOX-A-RE",
-          "opTypeId": "IMP-AES-VOX",
-          "abilityName": "Ruthless Efficiency",
-          "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
-        },
         {
           "abilityId": "IMP-AES-VOX-SIG",
           "opTypeId": "IMP-AES-VOX",
@@ -1375,6 +1230,18 @@
       "eqName": "Reinforced Mirror-Visor",
       "description": "You can ignore any changes to the APL stats of friendly EXACTION SQUAD operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-AES-TA-MAFOJU",
+      "abilityName": "Marked For Justice",
+      "description": "**STRATEGIC GAMBIT** Select one enemy operative to be your mark for the turning point.\nWhenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against your mark, that friendly operative's weapons have the Punishing weapon rule.\nWhenever your mark is incapacitated, you can select a new enemy operative to be your mark for the turning point (and can continue to do so during this turning point)."
+    },
+    {
+      "abilityId": "IMP-AES-TA-RUEF",
+      "abilityName": "Ruthless Efficiency",
+      "description": "Whenever a friendly EXACTION SQUAD operative is shooting (excluding with frag or krak grenades) and you're selecting a valid target, you can use this rule.\nIf you do, having other friendly EXACTION SQUAD operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected."
     }
   ]
 }

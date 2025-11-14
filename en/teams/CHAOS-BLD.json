@@ -258,12 +258,6 @@
           "description": "Once per turning point, when a friendly\nBLOODED operative that has one of your Blooded tokens is\nincapacitated, if this operative is within 6\" of it, you can regain\nthat token."
         },
         {
-          "abilityId": "CHAOS-BLD-CHF-A-BLD",
-          "opTypeId": "CHAOS-BLD-CHF",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-CHF-A-LWS",
           "opTypeId": "CHAOS-BLD-CHF",
           "abilityName": "Lead With Strength",
@@ -434,12 +428,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-BLD-GRN-A-BLD",
-          "opTypeId": "CHAOS-BLD-GRN",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-GRN-A-EXD",
           "opTypeId": "CHAOS-BLD-GRN",
           "abilityName": "Explosive Demise",
@@ -498,12 +486,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-BUT-A-BLD",
-          "opTypeId": "CHAOS-BLD-BUT",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
         {
           "abilityId": "CHAOS-BLD-BUT-A-US",
           "opTypeId": "CHAOS-BLD-BUT",
@@ -565,12 +547,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-COM-A-BLD",
-          "opTypeId": "CHAOS-BLD-COM",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
         {
           "abilityId": "CHAOS-BLD-COM-SACT",
           "opTypeId": "CHAOS-BLD-COM",
@@ -665,12 +641,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-BLD-CRPS-A-BLD",
-          "opTypeId": "CHAOS-BLD-CRPS",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-CRPS-A-RD",
           "opTypeId": "CHAOS-BLD-CRPS",
           "abilityName": "Regular Dosage",
@@ -748,12 +718,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-BLD-ENF-A-BLD",
-          "opTypeId": "CHAOS-BLD-ENF",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-ENF-A-GD",
           "opTypeId": "CHAOS-BLD-ENF",
           "abilityName": "Grueling Disciplinarian",
@@ -809,12 +773,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-FLN-A-BLD",
-          "opTypeId": "CHAOS-BLD-FLN",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
         {
           "abilityId": "CHAOS-BLD-FLN-A-WR",
           "opTypeId": "CHAOS-BLD-FLN",
@@ -1004,14 +962,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-GNR-A-BLD",
-          "opTypeId": "CHAOS-BLD-GNR",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -1059,12 +1010,6 @@
           "opTypeId": "CHAOS-BLD-OGR",
           "abilityName": "Avalanche Of Muscle",
           "description": "Whenever this operative endts its move during the Charge action, you can inflict 1D3 damage on one enemy operative within its control range."
-        },
-        {
-          "abilityId": "CHAOS-BLD-OGR-A-BLD",
-          "opTypeId": "CHAOS-BLD-OGR",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
         },
         {
           "abilityId": "CHAOS-BLD-OGR-A-BRU",
@@ -1162,12 +1107,6 @@
           "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nSelect one enemy operative. Whenever this operative is shooting that enemy operative treat this operative as if it has one of your Blooded tokens and is under the GAZE OF THE GODS."
         },
         {
-          "abilityId": "CHAOS-BLD-SS-A-BLD",
-          "opTypeId": "CHAOS-BLD-SS",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-SS-A-CAM",
           "opTypeId": "CHAOS-BLD-SS",
           "abilityName": "Camo Cloak",
@@ -1213,12 +1152,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-THUG-A-BLD",
-          "opTypeId": "CHAOS-BLD-THUG",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
         {
           "abilityId": "CHAOS-BLD-THUG-A-TGH",
           "opTypeId": "CHAOS-BLD-THUG",
@@ -1290,12 +1223,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-BLD-TRS-A-BLD",
-          "opTypeId": "CHAOS-BLD-TRS",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
-        {
           "abilityId": "CHAOS-BLD-TRS-A-SHLDg",
           "opTypeId": "CHAOS-BLD-TRS",
           "abilityName": "Shielding",
@@ -1356,12 +1283,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-BLD-TRP-A-BLD",
-          "opTypeId": "CHAOS-BLD-TRP",
-          "abilityName": "Blooded",
-          "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
-        },
         {
           "abilityId": "CHAOS-BLD-TRP-A-GA",
           "opTypeId": "CHAOS-BLD-TRP",
@@ -1470,6 +1391,13 @@
       "eqName": "Wicked Blades",
       "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle.",
       "effects": "wepid:BAY,BAS,IB|DMG:1/1"
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-BLD-TA-BL",
+      "abilityName": "Blooded",
+      "description": "You gain one Blooded token:\n\n- In the ready step of each strategy phase.\n- The first time an enemy operative is incapacitated during each turning point.\n- The first time a friendly operative is incapacitated within 6\" of an enemy operative during each turning point.\n\nAs a strategic gambit, you can assign any of your unassigned blooded tokens to friendly\nblooded operatives. Each operative cannot have more than one of your blooded tokens.  \n\nThen, if four or more friendly operatives in the killzone have one of your Blooded tokens,\nyou can select one of them to be under the GAZE OF THE GODS until the end of the\nturning point.  \n\nWhenever a friendly BLOODED operative has one of your Blooded tokens, its weapons\nhave the accurate 1 weapon rule. If that friendly BLOODED operative is under the GAZE\nOF THE GODS, you can retain one of your normal successes as a result of the Accurate\n1 weapon rule as a critical success instead."
     }
   ]
 }

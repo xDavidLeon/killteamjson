@@ -68,13 +68,6 @@
           "opTypeId": "TAU-PF-SU",
           "abilityName": "Art Of War",
           "description": "Once per battle STRATEGIC GAMBIT. Select one of the following and apply its rules until the end of the turning point:\n\n- Mont'ka: Add 1\" to the Move stat of friendly PATHFINDER operatives.\n- Kauyon: Friendly PATHFINDER operatives can perform a free Markerlight action during their activation if they have a Conceal order\n"
-        },
-        {
-          "abilityId": "TAU-PF-SU-ML",
-          "opTypeId": "TAU-PF-SU",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -175,13 +168,6 @@
           "opTypeId": "TAU-PF-AG",
           "abilityName": "Grenadier Specialist",
           "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
-        },
-        {
-          "abilityId": "TAU-PF-AG-ML",
-          "opTypeId": "TAU-PF-AG",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -247,13 +233,6 @@
           "opTypeId": "TAU-PF-BL",
           "abilityName": "Veteran",
           "description": "During a turning point in which you have used a friendly SHAS'UI operative's Art of War STRATEGIC GAMBIT and you selected Mont'ka, this operative can use Kauyon instead during its activation (and vice versa)."
-        },
-        {
-          "abilityId": "TAU-PF-BL-ML",
-          "opTypeId": "TAU-PF-BL",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -310,13 +289,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "TAU-PF-COMMS-ML",
-          "opTypeId": "TAU-PF-COMMS",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
-        },
         {
           "abilityId": "TAU-PF-COMMS-SIG",
           "opTypeId": "TAU-PF-COMMS",
@@ -384,13 +356,6 @@
           "opTypeId": "TAU-PF-DC",
           "abilityName": "Drone Controller",
           "description": "Whenever this operative is in the killzone:\n\n- Add 2\" to the Move stat of friendly PATHFINDER DRONE operatives.\n- The Saviour Protocols firefight ploy costs you 0CP.\n"
-        },
-        {
-          "abilityId": "TAU-PF-DC-ML",
-          "opTypeId": "TAU-PF-DC",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         },
         {
           "abilityId": "TAU-PF-DC-RP",
@@ -490,12 +455,6 @@
           "opTypeId": "TAU-PF-MARKS",
           "abilityName": "Inertial Dampener",
           "description": "You can ignore any changes to the Hit stat of this operative's marksman rail rifle."
-        },
-        {
-          "abilityId": "TAU-PF-MARKS-ML",
-          "opTypeId": "TAU-PF-MARKS",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -564,13 +523,6 @@
           "abilityName": "Medikit",
           "AP": 1,
           "description": "Select one friendly PATHFINDER operative (excluding DRONE) within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "TAU-PF-MDC-ML",
-          "opTypeId": "TAU-PF-MDC",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -638,13 +590,6 @@
           "opTypeId": "TAU-PF-SL",
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly PATHFINDER SHAS'LA operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
-        },
-        {
-          "abilityId": "TAU-PF-SL-ML",
-          "opTypeId": "TAU-PF-SL",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -707,13 +652,6 @@
           "abilityName": "Multi-Dimensional Vision",
           "AP": 1,
           "description": "Until the start of this operative's next activation, whenever it's shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "TAU-PF-TSI-ML",
-          "opTypeId": "TAU-PF-TSI",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         },
         {
           "abilityId": "TAU-PF-TSI-SJ",
@@ -836,14 +774,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "TAU-PF-WE-ML",
-          "opTypeId": "TAU-PF-WE",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -945,13 +876,6 @@
           "opTypeId": "TAU-PF-MB3",
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
-        },
-        {
-          "abilityId": "TAU-PF-MB3-ML",
-          "opTypeId": "TAU-PF-MB3",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -1017,12 +941,6 @@
           "opTypeId": "TAU-PF-MV1",
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
-        },
-        {
-          "abilityId": "TAU-PF-MV1-ML",
-          "opTypeId": "TAU-PF-MV1",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -1071,12 +989,6 @@
           "opTypeId": "TAU-PF-MV4",
           "abilityName": "Shield Generator",
           "description": "\n- This operative ignores the Piercing weapon rule.\n- Once per turning point, when an attack dice inflicts Normal Dmg on this operative, you can ignore that inflicted damage.\n- You can use the Saviour Protocols firefight ploy for 0CP if this is the specified DRONE operative.\n"
-        },
-        {
-          "abilityId": "TAU-PF-MV4-ML",
-          "opTypeId": "TAU-PF-MV4",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -1125,13 +1037,6 @@
           "opTypeId": "TAU-PF-MV7",
           "abilityName": "High-Intensity Markerlight",
           "description": "Whenever this operative performs the Markerlight action, the selected enemy operative gains two of your Markerlight tokens (instead of one)."
-        },
-        {
-          "abilityId": "TAU-PF-MV7-ML",
-          "opTypeId": "TAU-PF-MV7",
-          "abilityName": "Markerlight",
-          "AP": 1,
-          "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -1174,12 +1079,6 @@
           "opTypeId": "TAU-PF-MV31",
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
-        },
-        {
-          "abilityId": "TAU-PF-MV31-ML",
-          "opTypeId": "TAU-PF-MV31",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         },
         {
           "abilityId": "TAU-PF-MV31-PA",
@@ -1235,12 +1134,6 @@
           "opTypeId": "TAU-PF-MV33",
           "abilityName": "Grav-Inhibitor",
           "description": "\r - Whenever an enemy operative performs an action in which it moves (excluding Dash), if it would move visible to and within 6\" of this operative, treat the distance as an additional 2\" and ignore the additional distances from the Obstructing and Accessible terrain rules. Note this isn't a change to the Move stat.\r - Whenever an enemy operative is fighting or retaliating while visible to and within 6\" of this operative, worsen the Hit stat of that enemy operative's melee weapons by 1. This is cumulative with being injured.\r "
-        },
-        {
-          "abilityId": "TAU-PF-MV33-ML",
-          "opTypeId": "TAU-PF-MV33",
-          "abilityName": "Markerlight",
-          "description": "Once during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
         }
       ],
       "options": []
@@ -1344,6 +1237,14 @@
       "eqName": "Photon Grenade",
       "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TAU-PF-TA-MA",
+      "abilityName": "Markerlight",
+      "AP": 1,
+      "description": "Select one enemy operative visible to this operative. That enemy operative gains one of your Markerlight tokens (to a maximum of four).  \n\nAn operative cannot perform this action while within control range of an enemy operative.\nIf an operative (excluding MB3 RECON) would perform the Shoot action (excluding Guard) and this action during the same activation, only the target of that Shoot action can be selected for this action (and vice versa).\n\nOnce during each of their activations, whenever an enemy operative that has any of your Markerlight tokens performs the Dash, Charge, Fall Back or Reposition action, remove one of its Markerlight tokens.  \n\nWhile only some PATHFINDER operatives can perform the Markerlight action, all PATHFINDER operatives can benefit from its effects.\nWhenever a friendly PATHFINDER operative is shooting with a weapon from its datacard (excluding ASSAULT GRENADIER'S fusion grenade), it has additional rules determined by the number of your Markerlight tokens the target has.\nThese are cumulative, so if an enemy operative has two of your Markerlight tokens, the friendly operative shooting it has the rules for 1 and 2 tokens during that sequence.\n\n|**Tokens**|**Additional Rules**|\n|:---:|-----|\n|**1**|Saturate and Balanced weapon rules.|\n|**2**|Improve the Hit stat of that friendly operative's ranged weapons by 1 (to a maximum of 3+).|\n|**3**|The target cannot be obscured.|\n|**4**|Seek Light weapon rule.|\n\n\n**Saturate:** The defender cannot retain Cover saves.  \n\n**Balanced:** Can re-roll one Attack die  \n\n**Seek Light:** When selecting a valid target, operatives cannot use light terrain for cover. While this can allow such operatives to be targeted (assuming they are Visible), it does not remove their Cover save (if any)."
     }
   ]
 }

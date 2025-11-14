@@ -114,18 +114,6 @@
           "opTypeId": "IMP-DW-SGT",
           "abilityName": "Strategic Command",
           "description": "You can do each of the following once per battle if this operative is in the killzone:\n- Use a DEATHWATCH strategy ploy for 0CP.\n- Use a DEATHWATCH firefight ploy for 0CP."
-        },
-        {
-          "abilityId": "IMP-DW-SGT-SIA",
-          "opTypeId": "IMP-DW-SGT",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-SGT-VAS",
-          "opTypeId": "IMP-DW-SGT",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -201,22 +189,10 @@
           "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
         },
         {
-          "abilityId": "IMP-DW-AEG-SIA",
-          "opTypeId": "IMP-DW-AEG",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
           "abilityId": "IMP-DW-AEG-SS",
           "opTypeId": "IMP-DW-AEG",
           "abilityName": "Storm Shield",
           "description": "Whenever an operative is shooting this operative, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored."
-        },
-        {
-          "abilityId": "IMP-DW-AEG-VAS",
-          "opTypeId": "IMP-DW-AEG",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -316,18 +292,6 @@
           "opTypeId": "IMP-DW-BLM",
           "abilityName": "Adaptive Swordsmanship",
           "description": "You can ignore any changes to the Hit stat of this operative's Xenophase blade. Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
-        },
-        {
-          "abilityId": "IMP-DW-BLM-SIA",
-          "opTypeId": "IMP-DW-BLM",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-BLM-VAS",
-          "opTypeId": "IMP-DW-BLM",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -427,20 +391,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-DW-BOM-SIA",
-          "opTypeId": "IMP-DW-BOM",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-BOM-VAS",
-          "opTypeId": "IMP-DW-BOM",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -578,20 +529,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-DW-BRC-SIA",
-          "opTypeId": "IMP-DW-BRC",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-BRC-VAS",
-          "opTypeId": "IMP-DW-BRC",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -663,18 +601,6 @@
           "opTypeId": "IMP-DW-DEM",
           "abilityName": "Aggressive Force",
           "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
-        },
-        {
-          "abilityId": "IMP-DW-DEM-SIA",
-          "opTypeId": "IMP-DW-DEM",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-DEM-VAS",
-          "opTypeId": "IMP-DW-DEM",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -747,18 +673,6 @@
           "opTypeId": "IMP-DW-DIS",
           "abilityName": "Auspex Triangulation",
           "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action."
-        },
-        {
-          "abilityId": "IMP-DW-DIS-SIA",
-          "opTypeId": "IMP-DW-DIS",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-DIS-VAS",
-          "opTypeId": "IMP-DW-DIS",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -865,20 +779,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-DW-GNR-SIA",
-          "opTypeId": "IMP-DW-GNR",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-GNR-VAS",
-          "opTypeId": "IMP-DW-GNR",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -953,18 +854,6 @@
           "opTypeId": "IMP-DW-HTK",
           "abilityName": "Grav-chute and Grapnel Launcher",
           "description": "Whenever this operative is climbing, treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically). Whenever this operative is dropping, ignore the vertical distance."
-        },
-        {
-          "abilityId": "IMP-DW-HTK-SIA",
-          "opTypeId": "IMP-DW-HTK",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-HTK-VAS",
-          "opTypeId": "IMP-DW-HTK",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
         }
       ],
       "options": []
@@ -1092,20 +981,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-DW-HSL-SIA",
-          "opTypeId": "IMP-DW-HSL",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-HSL-VAS",
-          "opTypeId": "IMP-DW-HSL",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -1184,18 +1060,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-DW-MRK-SIA",
-          "opTypeId": "IMP-DW-MRK",
-          "abilityName": "Special Issue Ammunition",
-          "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
-        },
-        {
-          "abilityId": "IMP-DW-MRK-VAS",
-          "opTypeId": "IMP-DW-MRK",
-          "abilityName": "Veteran Astartes",
-          "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
-        },
         {
           "abilityId": "IMP-DW-MRK-VIG",
           "opTypeId": "IMP-DW-MRK",
@@ -1304,6 +1168,18 @@
       "eqName": "Ammunition Reserve",
       "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-DW-TA-VEAS",
+      "abilityName": "Veteran Astartes",
+      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+    },
+    {
+      "abilityId": "IMP-DW-TA-SPISAM",
+      "abilityName": "Special Issue Ammunition",
+      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
     }
   ]
 }

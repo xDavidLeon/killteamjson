@@ -108,22 +108,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-THEYN-A-DE",
-          "opTypeId": "VOT-HKY-THEYN",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
           "abilityId": "VOT-HKY-THEYN-A-OC",
           "opTypeId": "VOT-HKY-THEYN",
           "abilityName": "Outright Conviction",
           "description": "The first time this operative would be incapacitated during the battle, it is not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAll remaining attack dice are discarded (including yours, if this operative is fighting or retaliating)."
-        },
-        {
-          "abilityId": "VOT-HKY-THEYN-A-RS",
-          "opTypeId": "VOT-HKY-THEYN",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+|2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         },
         {
           "abilityId": "VOT-HKY-THEYN-A-VETA",
@@ -211,22 +199,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-BLD-A-DE",
-          "opTypeId": "VOT-HKY-BLD",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
           "abilityId": "VOT-HKY-BLD-A-IH",
           "opTypeId": "VOT-HKY-BLD",
           "abilityName": "Irrepressible Hardiness",
           "description": "If this operative is incapacitated during the Fight action, you can strike the enemy operative in that sequence with one of your unresolved successes before this operative is removed from the killzone."
-        },
-        {
-          "abilityId": "VOT-HKY-BLD-A-RS",
-          "opTypeId": "VOT-HKY-BLD",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         },
         {
           "abilityId": "VOT-HKY-BLD-A-ST",
@@ -306,18 +282,6 @@
           "opTypeId": "VOT-HKY-BOMB",
           "abilityName": "Brazen Killer",
           "description": "Whenever this operative incapacitates an enemy operative with its Wroughtlock Revolvers, roll one d6 separately for each other enemy operative visible to and within 2\" of that enemy operative.\nIf the result is higher than that other enemy operative's APL stat, subtract 1 from its APL stat until the end of its next activation."
-        },
-        {
-          "abilityId": "VOT-HKY-BOMB-A-DE",
-          "opTypeId": "VOT-HKY-BOMB",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
-          "abilityId": "VOT-HKY-BOMB-A-RS",
-          "opTypeId": "VOT-HKY-BOMB",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         },
         {
           "abilityId": "VOT-HKY-BOMB-A-WLN",
@@ -435,20 +399,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "VOT-HKY-GNR-A-DE",
-          "opTypeId": "VOT-HKY-GNR",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
-          "abilityId": "VOT-HKY-GNR-A-RS",
-          "opTypeId": "VOT-HKY-GNR",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -509,12 +460,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-IRN-A-DE",
-          "opTypeId": "VOT-HKY-IRN",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
           "abilityId": "VOT-HKY-IRN-A-HPM",
           "opTypeId": "VOT-HKY-IRN",
           "abilityName": "Hy-Pex Mine",
@@ -525,12 +470,6 @@
           "opTypeId": "VOT-HKY-IRN",
           "abilityName": "Minefield",
           "description": "You have five Minefield markers for the battle. On the reverse side, three of them are Hy-Pex mines and two are blank.\r Set up all your Minefield markers as if they were one item of equipment. Each must be set up reverse-side down (their specifics are not revealed),\r more than 2\" from other markers, access points, and Accessible terrain, and more than 6\" from your opponent's drop zone and your other Minefield markers.\r Whenever this operative is readied, if it is not within control range of enemy operatives, you can reset one of your flipped Minefield markers that is within its control range (flip the marker back over again)."
-        },
-        {
-          "abilityId": "VOT-HKY-IRN-A-RS",
-          "opTypeId": "VOT-HKY-IRN",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         }
       ],
       "options": []
@@ -647,18 +586,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-RFL-A-DE",
-          "opTypeId": "VOT-HKY-RFL",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
-          "abilityId": "VOT-HKY-RFL-A-RS",
-          "opTypeId": "VOT-HKY-RFL",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
-        },
-        {
           "abilityId": "VOT-HKY-RFL-A-WWC",
           "opTypeId": "VOT-HKY-RFL",
           "abilityName": "Weavewerke Cloak",
@@ -758,22 +685,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-TRK-A-DE",
-          "opTypeId": "VOT-HKY-TRK",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
           "abilityId": "VOT-HKY-TRK-A-PSV",
           "opTypeId": "VOT-HKY-TRK",
           "abilityName": "Pan Spectral Visor",
           "description": "Whenever this operative is shooting an enemy within 6\" of it:\n\n- This operative's weapons have the Seek Light weapon rule.\n- That operative cannot be obscured.\n"
-        },
-        {
-          "abilityId": "VOT-HKY-TRK-A-RS",
-          "opTypeId": "VOT-HKY-TRK",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         },
         {
           "abilityId": "VOT-HKY-TRK-A-TRK",
@@ -900,22 +815,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "VOT-HKY-WAR-A-DE",
-          "opTypeId": "VOT-HKY-WAR",
-          "abilityName": "Dauntless Explorers",
-          "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
-        },
-        {
           "abilityId": "VOT-HKY-WAR-A-INT",
           "opTypeId": "VOT-HKY-WAR",
           "abilityName": "Intrepid",
           "description": "Whenever you spend a Resourceful point for this operative, the following takes precedence:\n\n- If you add 1 to its APL stat, it lasts until the start of its next activation instead.\n- If it regains lost wounds, it regains 4 instead.\n"
-        },
-        {
-          "abilityId": "VOT-HKY-WAR-A-RS",
-          "opTypeId": "VOT-HKY-WAR",
-          "abilityName": "Resourceful",
-          "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
         }
       ],
       "options": []
@@ -1019,6 +922,18 @@
       "eqName": "Stabilized Bolt Shells",
       "description": "Up to twice per turning point, whenever a friendly HERNKYN YAEGIR operative is performing the Shoot action and you selected a bolt shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its damage stats.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "VOT-HKY-TA-RE",
+      "abilityName": "Resourceful",
+      "description": "In the Ready step of each Strategy Phase after the first, you gain Resourceful points determined by the number of friendly HERNKYN YAEGIR operatives in the killzone that aren't within control range of enemy operatives.\nAt the end of each turning point, discard your Resourceful points.\n\n| **Operatives** | **Resourceful Points** |\n|:---:|:---:|\n|5+|2|\n|1-4|1|\n\nYou can spend 1 of your Resourceful points during each activation of each friendly HERNKYN YAEGIR operative to do one of the following:\n\n- Before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, add 1 to that friendly operative's APL stat until the end of its activation.\n- When it's activated, if it's not within control range of enemy operatives, it regains up to D3+1 lost wounds."
+    },
+    {
+      "abilityId": "VOT-HKY-TA-DAEX",
+      "abilityName": "Dauntless Explorers",
+      "description": "**STRATEGIC GAMBIT** in the first turning point.  \n\nEach friendly HERNKYN YAEGIR operative wholly within your drop zone can immediately perform a free Reposition action. Each that does so must end that move wholly within 4\" of your drop zone."
     }
   ]
 }

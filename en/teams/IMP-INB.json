@@ -174,22 +174,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-SGT-A-BAC",
-          "opTypeId": "IMP-INB-SGT",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-SGT-A-CB",
           "opTypeId": "IMP-INB-SGT",
           "abilityName": "Command Breach",
           "description": "Whenever you would use the Attack Order or Defence Order strategy ploy, if this operative is in the killzone, it costs you 0CP.\nOnce during each of this operative's activations, before or after it performs an action, if your Attack Order or Defence Order marker is in the killzone (see relevant strategy ploy), you can either:\n\n- Remove that marker and place it again.\n- Change the selected ploy to the other (e.g. your Attack Order becomes a Defence Order).\n\nYou cannot do both, and you don't need to spend any CP to change the ploy."
-        },
-        {
-          "abilityId": "IMP-INB-SGT-A-VA",
-          "opTypeId": "IMP-INB-SGT",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
       ],
       "options": []
@@ -262,22 +250,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-ARM-A-BAC",
-          "opTypeId": "IMP-INB-ARM",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-ARM-A-GA",
           "opTypeId": "IMP-INB-ARM",
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly IMPERIAL NAVY BREACHER ARMSMAN operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule).\nIgnore this rule when you are using the Breach and Clear faction rule."
-        },
-        {
-          "abilityId": "IMP-INB-ARM-A-VA",
-          "opTypeId": "IMP-INB-ARM",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
       ],
       "options": []
@@ -345,22 +321,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-AXE-A-BAC",
-          "opTypeId": "IMP-INB-AXE",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-AXE-A-EMB",
           "opTypeId": "IMP-INB-AXE",
           "abilityName": "Emboldened",
           "description": "Whenever an attack dice inflicts damage of 3 or more on this operative during a turning point in which it performed the Charge action, roll one D6: on a 5+, subtract 1 from that inflicted damage."
-        },
-        {
-          "abilityId": "IMP-INB-AXE-A-VA",
-          "opTypeId": "IMP-INB-AXE",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
       ],
       "options": []
@@ -379,12 +343,6 @@
       "weapons": [],
       "abilities": [
         {
-          "abilityId": "IMP-INB-CAT-A-BAC",
-          "opTypeId": "IMP-INB-CAT",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-CAT-A-EXP",
           "opTypeId": "IMP-INB-CAT",
           "abilityName": "Expendable",
@@ -395,12 +353,6 @@
           "opTypeId": "IMP-INB-CAT",
           "abilityName": "Machine",
           "description": "\r - This operative cannot be activated or perform actions if it's within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER SURVEYOR operative has been incapacitated. The turning point can end even if this operative is still ready.\r - This operative cannot perform any actions other than Charge, Dash, Fall Back, Reposition and Spot.\r - It cannot retaliate, assist in a fight, climb or jump.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever determining what's visible to this operative, draw the line from any part of the miniature.\r "
-        },
-        {
-          "abilityId": "IMP-INB-CAT-A-VA",
-          "opTypeId": "IMP-INB-CAT",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         },
         {
           "abilityId": "IMP-INB-CAT-SPT",
@@ -494,12 +446,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-END-A-BAC",
-          "opTypeId": "IMP-INB-END",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-END-A-BW",
           "opTypeId": "IMP-INB-END",
           "abilityName": "Breachwall",
@@ -516,12 +462,6 @@
           "opTypeId": "IMP-INB-END",
           "abilityName": "*Shield",
           "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
-        },
-        {
-          "abilityId": "IMP-INB-END-A-VA",
-          "opTypeId": "IMP-INB-END",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
       ],
       "options": []
@@ -540,12 +480,6 @@
       "weapons": [],
       "abilities": [
         {
-          "abilityId": "IMP-INB-GS-A-BAC",
-          "opTypeId": "IMP-INB-GS",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-GS-A-EXP",
           "opTypeId": "IMP-INB-GS",
           "abilityName": "Expendable",
@@ -556,12 +490,6 @@
           "opTypeId": "IMP-INB-GS",
           "abilityName": "Machine",
           "description": "\r - This operative cannot perform any actions other than Boost, Charge, Dash, Fall Back and Reposition.\r - It cannot retaliate or assist in a fight.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r "
-        },
-        {
-          "abilityId": "IMP-INB-GS-A-VA",
-          "opTypeId": "IMP-INB-GS",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         },
         {
           "abilityId": "IMP-INB-GS-BST",
@@ -746,22 +674,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-GRN-A-BAC",
-          "opTypeId": "IMP-INB-GRN",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-GRN-A-GRN",
           "opTypeId": "IMP-INB-GRN",
           "abilityName": "Grenadier",
           "description": "This operative can use frag, krak and stun grenades (see universal equipment). Doing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
-        },
-        {
-          "abilityId": "IMP-INB-GRN-A-VA",
-          "opTypeId": "IMP-INB-GRN",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         }
       ],
       "options": []
@@ -925,20 +841,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "IMP-INB-GNR-A-BAC",
-          "opTypeId": "IMP-INB-GNR",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
-          "abilityId": "IMP-INB-GNR-A-VA",
-          "opTypeId": "IMP-INB-GNR",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -1005,18 +908,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-INB-HC-A-BAC",
-          "opTypeId": "IMP-INB-HC",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
-          "abilityId": "IMP-INB-HC-A-VA",
-          "opTypeId": "IMP-INB-HC",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
-        },
         {
           "abilityId": "IMP-INB-HC-BP",
           "opTypeId": "IMP-INB-HC",
@@ -1101,18 +992,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-INB-SRV-A-BAC",
-          "opTypeId": "IMP-INB-SRV",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
-          "abilityId": "IMP-INB-SRV-A-VA",
-          "opTypeId": "IMP-INB-SRV",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
-        },
         {
           "abilityId": "IMP-INB-SRV-RC",
           "opTypeId": "IMP-INB-SRV",
@@ -1239,22 +1118,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-INB-VJ-A-BAC",
-          "opTypeId": "IMP-INB-VJ",
-          "abilityName": "Breach And Clear",
-          "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
-        },
-        {
           "abilityId": "IMP-INB-VJ-A-DET",
           "opTypeId": "IMP-INB-VJ",
           "abilityName": "*Detonate",
           "description": "Don't select a valid target. Instead, a friendly IMPERIAL NAVY BREACHER GHEISTSKULL operative is always the primary target and cannot be in cover or obscured. If that operative isn't in the killzone, you cannot select this weapon."
-        },
-        {
-          "abilityId": "IMP-INB-VJ-A-VA",
-          "opTypeId": "IMP-INB-VJ",
-          "abilityName": "Void Armour",
-          "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
         },
         {
           "abilityId": "IMP-INB-VJ-IP",
@@ -1365,6 +1232,18 @@
       "eqName": "System Override Device",
       "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-INB-TA-BRANCL",
+      "abilityName": "Breach And Clear",
+      "description": "Once per turning point, when a ready friendly IMPERIAL NAVY BREACHER operative is activated, you can use this rule.\nIf you do, select one other ready friendly IMPERIAL NAVY BREACHER operative visible to and within 3\" of that operative.\nWhen that first friendly operative is expended, you can activate that other friendly operative before your opponent activates. When that other operative is expended, your opponent then activates as normal."
+    },
+    {
+      "abilityId": "IMP-INB-TA-VOAR",
+      "abilityName": "Void Armour",
+      "description": "Whenever an operative is shooting a friendly IMPERIAL NAVY BREACHER operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule (excluding weapons that have a sweeping profile),\nyou can re-roll one of your defence dice, or up to two of your defence dice if that friendly operative is a GRENADIER.  \n\nFriendly IMPERIAL NAVY BREACHER operatives aren't affected by the x\" Devastating x weapon rule (i.e. Devastating with a distance) unless they are the target during that sequence."
     }
   ]
 }

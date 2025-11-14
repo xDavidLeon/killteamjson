@@ -85,29 +85,10 @@
           "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative.\nNote this isn't a change to the APL stat, so any changes are cumulative with this. Whenever an enemy operative is within 3\" of this operative:\n\n- Your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Your opponent cannot re-roll their attack or defence dice for that operative.\n"
         },
         {
-          "abilityId": "TYR-RAV-PRM-A-PIN",
-          "opTypeId": "TYR-RAV-PRM",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
           "abilityId": "TYR-RAV-PRM-A-SL",
           "opTypeId": "TYR-RAV-PRM",
           "abilityName": "Synaptic Link",
           "description": "STRATEGIC GAMBIT if this operative isn't incapacitated.  \n\nRoll one D6 and compare the result to the number of the current turning point; if the result is:\n\n- Twice as high or higher, you gain 1CP.\n- Less: inflict damage on this operative equal to the result.\n\n- Any other result, nothing happens.\n"
-        },
-        {
-          "abilityId": "TYR-RAV-PRM-A-TUN",
-          "opTypeId": "TYR-RAV-PRM",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-PRM-BUR",
-          "opTypeId": "TYR-RAV-PRM",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         }
       ],
       "options": []
@@ -214,29 +195,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-RAV-FTL-A-PIN",
-          "opTypeId": "TYR-RAV-FTL",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
           "abilityId": "TYR-RAV-FTL-A-PSN",
           "opTypeId": "TYR-RAV-FTL",
           "abilityName": "*Poison",
           "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
-        },
-        {
-          "abilityId": "TYR-RAV-FTL-A-TUN",
-          "opTypeId": "TYR-RAV-FTL",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-FTL-BUR",
-          "opTypeId": "TYR-RAV-FTL",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         },
         {
           "abilityId": "TYR-RAV-FTL-TL",
@@ -315,29 +277,10 @@
           "description": "This operative can perform the Charge action while it has a Conceal order if it performed the Burrow action during the same activation/ counteraction."
         },
         {
-          "abilityId": "TYR-RAV-TRS-A-PIN",
-          "opTypeId": "TYR-RAV-TRS",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
           "abilityId": "TYR-RAV-TRS-A-STA",
           "opTypeId": "TYR-RAV-TRS",
           "abilityName": "Subterranean Ambush",
           "description": "Once per turning point, after an enemy operative performs an action in\nwhich it moves more than 2\" and ends within 2\" of your TUNNEL, if this operative is underground\nand is either ready or hasn't counteracted during this turning point, you can interrupt that enemy\noperative's activation/counteraction to use this rule.  \n\nIf you do, activate or counteract with this operative (as appropriate), but during its activation/\ncounteraction it must fight against or shoot against that enemy operative, and cannot do so\nagainst any other enemy operatives until it does (if this isn't possible, this operative's activation/\ncounteraction is cancelled and this rule hasn't been used). After completing this operative's\nactivation/counteraction, continue that enemy operative's activation/counteraction (if possible)."
-        },
-        {
-          "abilityId": "TYR-RAV-TRS-A-TUN",
-          "opTypeId": "TYR-RAV-TRS",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-TRS-BUR",
-          "opTypeId": "TYR-RAV-TRS",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         }
       ],
       "options": []
@@ -456,29 +399,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-RAV-VSP-A-PIN",
-          "opTypeId": "TYR-RAV-VSP",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
           "abilityId": "TYR-RAV-VSP-A-PSN",
           "opTypeId": "TYR-RAV-VSP",
           "abilityName": "*Poison",
           "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
-        },
-        {
-          "abilityId": "TYR-RAV-VSP-A-TUN",
-          "opTypeId": "TYR-RAV-VSP",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-VSP-BUR",
-          "opTypeId": "TYR-RAV-VSP",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         },
         {
           "abilityId": "TYR-RAV-VSP-DDS",
@@ -555,25 +479,6 @@
           "opTypeId": "TYR-RAV-WAR",
           "abilityName": "Instinctive Behaviour",
           "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, or an enemy operative that performed the Fall Back action during this turning point, this operative's weapons have the Lethal 5+ weapon rule."
-        },
-        {
-          "abilityId": "TYR-RAV-WAR-A-PIN",
-          "opTypeId": "TYR-RAV-WAR",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
-          "abilityId": "TYR-RAV-WAR-A-TUN",
-          "opTypeId": "TYR-RAV-WAR",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-WAR-BUR",
-          "opTypeId": "TYR-RAV-WAR",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         }
       ],
       "options": []
@@ -647,29 +552,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "TYR-RAV-WRK-A-PIN",
-          "opTypeId": "TYR-RAV-WRK",
-          "abilityName": "Predatory Instincts",
-          "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
-        },
-        {
           "abilityId": "TYR-RAV-WRK-A-RIC",
           "opTypeId": "TYR-RAV-WRK",
           "abilityName": "Reinforced Carapace",
           "description": "Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative."
-        },
-        {
-          "abilityId": "TYR-RAV-WRK-A-TUN",
-          "opTypeId": "TYR-RAV-WRK",
-          "abilityName": "Tunnel",
-          "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
-        },
-        {
-          "abilityId": "TYR-RAV-WRK-BUR",
-          "opTypeId": "TYR-RAV-WRK",
-          "abilityName": "Burrow",
-          "AP": 1,
-          "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
         }
       ],
       "options": []
@@ -773,6 +659,24 @@
       "eqName": "Heightened Senses",
       "description": "Once per battle, after rolling off to decide initiative, if a friendly RAVENER operative is underground and an enemy operative is within 5\" of your TUNNEL, you can re-roll your dice.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "TYR-RAV-TA-BU",
+      "abilityName": "Burrow",
+      "AP": 1,
+      "description": "When setting up a RAVENER kill team before the battle, your first two operatives must be set up as normal.\nEach other friendly RAVENER operative thereafter can be set up underground: place it to one side instead of in the killzone.  \n\nIn the Firefight phase, friendly RAVENER operatives set up underground are activated and can counteract as normal. Whenever a friendly RAVENER operative is underground, it cannot perform any actions other than Burrow.\nAt the end of the battle, each friendly RAVENER operative that's underground is incapacitated.  \n\nFriendly RAVENER operatives can perform the following action:  \n\n**BURROW (1 AP)**:  \n\nIf this operative is underground, set it up on your TUNNEL in a location it can be placed (it's no longer underground, and it can be set up within control range of enemy operatives).\nUntil the end of the activation/counteraction, subtract 2\" from its Move stat.\nAlternatively, instead of resolving the above effect, if this operative is in the killzone and on your TUNNEL, remove it from the killzone: it's now underground.\nAn operative cannot perform this action while carrying a marker."
+    },
+    {
+      "abilityId": "TYR-RAV-TA-PRIN",
+      "abilityName": "Predatory Instincts",
+      "description": "During each friendly RAVENER operative's activation, it can perform two Fight actions.  \n\nEach friendly RAVENER operative can counteract regardless of its order. Whenever it does:\n\n- You can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point).\n- During that counteraction, if it doesn't perform a mission action it can perform a free Burrow action.\n"
+    },
+    {
+      "abilityId": "TYR-RAV-TA-TU",
+      "abilityName": "Tunnel",
+      "description": "At the end of the Set Up Operatives step, place your Tunnel marker numbered '0' on the killzone floor, wholly within your drop zone and touching your killzone edge.\nAs a STRATEGIC GAMBIT in the first four turning points, you can place your next numbered Tunnel marker on the killzone floor wholly within 5\" of your preceding Tunnel marker.\nThis means that, as the battle progresses, you can have a series of sequentially numbered Tunnel markers (0, 1, 2, 3 and 4).\nOnce you have placed five Tunnel markers, don't place any more (i.e. if your battle lasts more than four turning points).  \n\nYour Tunnel markers and the area between your sequentially numbered markers (i.e. between 0 and 1, 1 and 2, etc.), create your TUNNEL.  \n\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), your TUNNEL and the distance between your Tunnel markers can be measured through Wall terrain. In a killzone that uses the hazardous areas rules (e.g. Killzone: Bheta Decima), for the purposes of the Restricted Movement rule, parts of a Tunnel marker that are touching a hazardous area are treated as a hazardous area."
     }
   ]
 }

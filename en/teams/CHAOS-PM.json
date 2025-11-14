@@ -109,18 +109,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-PM-CHAMP-A-AST",
-          "opTypeId": "CHAOS-PM-CHAMP",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-CHAMP-A-DR",
-          "opTypeId": "CHAOS-PM-CHAMP",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
-        {
           "abilityId": "CHAOS-PM-CHAMP-A-GB",
           "opTypeId": "CHAOS-PM-CHAMP",
           "abilityName": "Grandfather's Blessing",
@@ -250,18 +238,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-PM-MAL-A-AST",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-MAL-A-DR",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
         {
           "abilityId": "CHAOS-PM-MAL-PM",
           "opTypeId": "CHAOS-PM-MAL",
@@ -403,18 +379,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "CHAOS-PM-BOMB-A-AST",
-          "opTypeId": "CHAOS-PM-BOMB",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-BOMB-A-DR",
-          "opTypeId": "CHAOS-PM-BOMB",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
-        {
           "abilityId": "CHAOS-PM-BOMB-A-GRN",
           "opTypeId": "CHAOS-PM-BOMB",
           "abilityName": "Grenadier",
@@ -469,18 +433,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-PM-FTR-A-AST",
-          "opTypeId": "CHAOS-PM-FTR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-FTR-A-DR",
-          "opTypeId": "CHAOS-PM-FTR",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
         {
           "abilityId": "CHAOS-PM-FTR-FL",
           "opTypeId": "CHAOS-PM-FTR",
@@ -560,20 +512,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-PM-HGNR-A-AST",
-          "opTypeId": "CHAOS-PM-HGNR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-HGNR-A-DR",
-          "opTypeId": "CHAOS-PM-HGNR",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -640,18 +579,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-PM-IB-A-AST",
-          "opTypeId": "CHAOS-PM-IB",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-IB-A-DR",
-          "opTypeId": "CHAOS-PM-IB",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
         {
           "abilityId": "CHAOS-PM-IB-A-IB",
           "opTypeId": "CHAOS-PM-IB",
@@ -730,18 +657,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "CHAOS-PM-WAR-A-AST",
-          "opTypeId": "CHAOS-PM-WAR",
-          "abilityName": "Astartes",
-          "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
-        },
-        {
-          "abilityId": "CHAOS-PM-WAR-A-DR",
-          "opTypeId": "CHAOS-PM-WAR",
-          "abilityName": "Disgustingly Resilient",
-          "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
-        },
         {
           "abilityId": "CHAOS-PM-WAR-A-RF",
           "opTypeId": "CHAOS-PM-WAR",
@@ -850,6 +765,18 @@
       "eqName": "Poison Vents",
       "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1).",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "CHAOS-PM-TA-AS",
+      "abilityName": "Astartes",
+      "description": "During each friendly PLAGUE MARINE operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it is two Shoot actions, a bolt pistol, boltgun or PSYCHIC weapon must be selected for at least one of them.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.  \n\nEach friendly PLAGUE MARINE operative can counteract regardless of its order."
+    },
+    {
+      "abilityId": "CHAOS-PM-TA-DIRE",
+      "abilityName": "Disgustingly Resilient",
+      "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly PLAGUE MARINE operative, roll one D6: on a 4+, subtract 1 from that inflicted damage."
     }
   ]
 }

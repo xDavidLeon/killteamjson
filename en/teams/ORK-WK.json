@@ -155,22 +155,10 @@
           "description": "Whenever this operative performs a Fight or Shoot action (excluding Guard), you gain 1 Wrecka point."
         },
         {
-          "abilityId": "ORK-WK-NOB-A-RAMP",
-          "opTypeId": "ORK-WK-NOB",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
           "abilityId": "ORK-WK-NOB-A-SALVO",
           "opTypeId": "ORK-WK-NOB",
           "abilityName": "*Salvo",
           "description": "Select up to two valid targets. Shoot this weapon against both primary targets in an order of your choice, then against all remaining secondary targets in the same manner (roll each sequence separately).\nEach target (primary or secondary) cannot be shot more than once during the action."
-        },
-        {
-          "abilityId": "ORK-WK-NOB-A-TU",
-          "opTypeId": "ORK-WK-NOB",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -212,18 +200,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "ORK-WK-BBFTR-A-RAMP",
-          "opTypeId": "ORK-WK-BBFTR",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
-          "abilityId": "ORK-WK-BBFTR-A-TU",
-          "opTypeId": "ORK-WK-BBFTR",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
-        },
         {
           "abilityId": "ORK-WK-BBFTR-BS",
           "opTypeId": "ORK-WK-BBFTR",
@@ -296,22 +272,10 @@
           "description": "The first time this operative would inflict damage on an enemy operative with this weapon profile during the battle,\r separately inflict 1D6+6 damage on that operative and each other operative within that enemy operative's control range if it is a Normal success,\r or 2D6+6 damage if it is a Critical success.\r Then the action ends and you gain 1 Wrecka point, plus 1 for each operative that was incapacitated during that action. Damage from this weapon rule cannot be ignored or reduced."
         },
         {
-          "abilityId": "ORK-WK-BBDEMO-A-RAMP",
-          "opTypeId": "ORK-WK-BBDEMO",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
           "abilityId": "ORK-WK-BBDEMO-A-RT",
           "opTypeId": "ORK-WK-BBDEMO",
           "abilityName": "Reckless Temperament",
           "description": "Normal Dmg of 4 or more inflicts 1 less damage on this operative; if this operative has an Engage order, Critical Dmg or 4 or more also inflicts 1 less damage on this operative."
-        },
-        {
-          "abilityId": "ORK-WK-BBDEMO-A-TU",
-          "opTypeId": "ORK-WK-BBDEMO",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -364,18 +328,6 @@
           "opTypeId": "ORK-WK-BBKRU",
           "abilityName": "Armoured Up",
           "description": "Whenever an enemy operative is shooting this operative, or this operative is fighting or retaliating, your opponent cannot retain attack dice results of less than 6 as critical successes (e.g. as a result of the Lethal, Rending or Severe weapon rules)."
-        },
-        {
-          "abilityId": "ORK-WK-BBKRU-A-RAMP",
-          "opTypeId": "ORK-WK-BBKRU",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
-          "abilityId": "ORK-WK-BBKRU-A-TU",
-          "opTypeId": "ORK-WK-BBKRU",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -470,18 +422,6 @@
           "opTypeId": "ORK-WK-TBGNR",
           "abilityName": "Kompetitive Streak",
           "description": "Once per Shoot action, if this operative shoots an enemy operative that another friendly operative has already shot during this Turning Point, you gain 1 Wrecka point.\nDetermine this when you select a valid target, but you can include any secondary targets when doing so (e.g. from the Blast weapon rule)."
-        },
-        {
-          "abilityId": "ORK-WK-TBGNR-A-RAMP",
-          "opTypeId": "ORK-WK-TBGNR",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
-          "abilityId": "ORK-WK-TBGNR-A-TU",
-          "opTypeId": "ORK-WK-TBGNR",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -610,22 +550,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "ORK-WK-TBROK-A-RAMP",
-          "opTypeId": "ORK-WK-TBROK",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
           "abilityId": "ORK-WK-TBROK-A-SA",
           "opTypeId": "ORK-WK-TBROK",
           "abilityName": "Shokkwave",
           "description": "Whenever an operative is withing x\" of your Pulsa marker, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis is cumulative with being injured.\nX is that marker's Pulsa points. In the Ready step of each Strategy phase, subtract 1 from your Pulsa marker's points.\nIf a Pulsa marker ever has 0 points, remove it."
-        },
-        {
-          "abilityId": "ORK-WK-TBROK-A-TU",
-          "opTypeId": "ORK-WK-TBROK",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -713,22 +641,10 @@
           "description": "This operative is ignored for your opponent's kill/elimination op (when it is incapacitated, and when determining your starting number of operatives).\r It is also ignored for victory conditions and scoring VPs if either require operatives to \"escape\", \"survive\", or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
         },
         {
-          "abilityId": "ORK-WK-SQUIG-A-RAMP",
-          "opTypeId": "ORK-WK-SQUIG",
-          "abilityName": "Wrecka Rampage",
-          "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
-        },
-        {
           "abilityId": "ORK-WK-SQUIG-A-ST",
           "opTypeId": "ORK-WK-SQUIG",
           "abilityName": "Stoopid",
           "description": "During the Firefight phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition, and Shoot, or use any weapons that are not on its datacard."
-        },
-        {
-          "abilityId": "ORK-WK-SQUIG-A-TU",
-          "opTypeId": "ORK-WK-SQUIG",
-          "abilityName": "Tanked Up",
-          "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
         }
       ],
       "options": []
@@ -832,6 +748,18 @@
       "eqName": "Glyphs",
       "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "ORK-WK-TA-TAUP",
+      "abilityName": "Tanked Up",
+      "description": "The first time a friendly WRECKA KREW operative (excluding BOMB SQUIG) that has an Engage order performs either the Charge, Shoot or Fight action (excluding Guard) during each of its activations/counteractions, add 1 to its APL stat until the start of its next activation."
+    },
+    {
+      "abilityId": "ORK-WK-TA-WRRA",
+      "abilityName": "Wrecka Rampage",
+      "description": "Whenever a friendly WRECKA KREW operative is shooting, fighting, or retaliating, in the Roll Attack Dice step:\n\n- For each attack die result of 6 you retain, you gain one Wrecka point\n- You can spend up to 3 of your Wrecka points (unless it's a BOMB SQUIG). For each point you spend this way, retain one of your fails as a normal success instead of discarding it\n\nYou can gain and spend Wrecka points during the same action and can do so in an order of your choice, unless you started the action with 6, in which case you can only spend them.\nIf you start an action with 6 Wrecka points, you cannot gain any more during that action."
     }
   ]
 }

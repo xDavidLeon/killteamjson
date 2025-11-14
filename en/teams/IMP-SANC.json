@@ -62,12 +62,6 @@
           "opTypeId": "IMP-SANC-CFS",
           "abilityName": "Lead The Procession",
           "description": "In each turning point after the first, whenever this operative is an ORATOR and performs the Charge, Fall Back or Reposition action during its activation, you can use this rule before it moves. If you do, determine each other friendly SANCTIFIER operative that's benefitting from the SERMON and is visible to this operative (or vice versa).\r After this operative ends that action, each of those friendly SANCTIFIER operatives can immediately perform a free Charge, Fall Back or Reposition action in an order of your choice (choose separately for each), but each cannot move more than 3\" and must end that move in a location where they are still benefitting from the SERMON.\r If this operative is incapacitated before this rule is fully resolved, e.g. from the Guard action's interruption (see close quarters rules, Kill Team Core Book), don't remove it from the killzone until this rule has been resolved."
-        },
-        {
-          "abilityId": "IMP-SANC-CFS-A-MS",
-          "opTypeId": "IMP-SANC-CFS",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         }
       ],
       "options": []
@@ -120,12 +114,6 @@
           "opTypeId": "IMP-SANC-CRB",
           "abilityName": "Fly",
           "description": "Whenever this operative is performing the Charge, Fall Back or Reposition action, it can FLY. If it does, don't move it.\nInstead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through Wall terrain).\nNote that it gains no additional distance when performing the Charge action. It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
-        },
-        {
-          "abilityId": "IMP-SANC-CRB-A-MS",
-          "opTypeId": "IMP-SANC-CRB",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         },
         {
           "abilityId": "IMP-SANC-CRB-INC",
@@ -233,12 +221,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "IMP-SANC-CFG-A-MS",
-          "opTypeId": "IMP-SANC-CFG",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-        },
-        {
           "abilityId": "IMP-SANC-CFG-A-SR",
           "opTypeId": "IMP-SANC-CFG",
           "abilityName": "Sanctification Rack",
@@ -314,12 +296,6 @@
           "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
         },
         {
-          "abilityId": "IMP-SANC-ASS-A-MS",
-          "opTypeId": "IMP-SANC-ASS",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-        },
-        {
           "abilityId": "IMP-SANC-ASS-TA",
           "opTypeId": "IMP-SANC-ASS",
           "abilityName": "Trained Assassin",
@@ -369,12 +345,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "IMP-SANC-ABB-A-MS",
-          "opTypeId": "IMP-SANC-ABB",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-        },
         {
           "abilityId": "IMP-SANC-ABB-A-NS",
           "opTypeId": "IMP-SANC-ABB",
@@ -472,12 +442,6 @@
           "opTypeId": "IMP-SANC-PER",
           "abilityName": "Merciless Castigation",
           "description": "The first time this operative performs the Fight action during each of its activations, if neither it nor the enemy operative in that sequence is incapacitated, this operative can immediately perform a free Fight action afterwards, but you cannot select any other enemy operative to fight against during that action (and only if it's still valid to fight against).\nThis takes precedence over action restrictions."
-        },
-        {
-          "abilityId": "IMP-SANC-PER-A-MS",
-          "opTypeId": "IMP-SANC-PER",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         }
       ],
       "options": []
@@ -626,12 +590,6 @@
           "opTypeId": "IMP-SANC-MIR",
           "abilityName": "Miracle",
           "description": "The first time this operative would be incapacitated during the battle, it's not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating), then this operative can immediately perform a free Dash or Fall Back action (for the latter, it cannot move more than 3\"), even if it's performed an action that prevents it from performing those actions."
-        },
-        {
-          "abilityId": "IMP-SANC-MIR-A-MS",
-          "opTypeId": "IMP-SANC-MIR",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         }
       ],
       "options": []
@@ -867,12 +825,6 @@
           "description": " If this operative has a holy relic, it's always benefitting from the SERMON"
         },
         {
-          "abilityId": "IMP-SANC-MIS-A-MS",
-          "opTypeId": "IMP-SANC-MIS",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
-        },
-        {
           "abilityId": "IMP-SANC-MIS-A-STWOTGE",
           "opTypeId": "IMP-SANC-MIS",
           "abilityName": "Spread The Word Of The God-Emperor",
@@ -953,12 +905,6 @@
           "opTypeId": "IMP-SANC-PRC",
           "abilityName": "Defend The Faith",
           "description": "Whenever this operative contests an objective marker, it's benefitting from the SERMON."
-        },
-        {
-          "abilityId": "IMP-SANC-PRC-A-MS",
-          "opTypeId": "IMP-SANC-PRC",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         }
       ],
       "options": []
@@ -1041,12 +987,6 @@
           "opTypeId": "IMP-SANC-REL",
           "abilityName": "Imperial Cult Devotion",
           "description": "Once per turning point, when a ready friendly SANCTIFIER operative is incapacitated while visible to and within 6\" of this operative, you can use this rule.\r If you do, before that operative is removed from the killzone, it can perform one free action (excluding Fight), and you can change its order to do so.\r It's then removed from the killzone as normal."
-        },
-        {
-          "abilityId": "IMP-SANC-REL-A-MS",
-          "opTypeId": "IMP-SANC-REL",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         }
       ],
       "options": []
@@ -1089,12 +1029,6 @@
           "opTypeId": "IMP-SANC-SAL",
           "abilityName": "Conversion Field",
           "description": "Whenever an operative more than 6\" from this operative is shooting a friendly SANCTIFIER operative within 6\" of this operative, improve that friendly operative's Save stat by 1."
-        },
-        {
-          "abilityId": "IMP-SANC-SAL-A-MS",
-          "opTypeId": "IMP-SANC-SAL",
-          "abilityName": "Ministorum Sermon",
-          "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
         },
         {
           "abilityId": "IMP-SANC-SAL-MED",
@@ -1205,6 +1139,13 @@
       "eqName": "Imperial Cult Symbols",
       "description": "Once per turning point, when an operative is shooting a friendly SANCTIFIER operative that's benefitting from the SERMON, when you collect your defence dice, you can use this rule.\nIf you do, change one of the attacker's retained critical successes to a normal success (any weapon rules they've already resolved aren't affected, e.g. Piercing Crits).",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-SANC-TA-MISE",
+      "abilityName": "Ministorum Sermon",
+      "description": "STRATEGIC GAMBIT. Select one friendly SANCTIFIER operative. If a friendly CONFESSOR operative hasn't been incapacitated, you must select it.\nUntil you use this STRATEGIC GAMBIT again during the battle, that operative has the ORATOR keyword.  \n\nWhenever a friendly SANCTIFIER operative is within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting from the SERMON.  \n\nWhenever a friendly SANCTIFIER operative is activated within 3\" of a friendly ORATOR operative (or 6\" if the ORATOR is a CONFESSOR), that friendly SANCTIFIER operative is benefitting\nfrom the SERMON until the end of that activation (i.e. even if it then moves more than the distance requirement from the ORATOR operative).  \n\nWhenever a friendly SANCTIFIER operative is benefitting from the SERMON, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
     }
   ]
 }

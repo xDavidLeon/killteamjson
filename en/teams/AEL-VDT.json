@@ -224,22 +224,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-VDT-LPL-A-HP",
-          "opTypeId": "AEL-VDT-LPL",
-          "abilityName": "Harlequin's Panoply",
-          "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
-        },
-        {
           "abilityId": "AEL-VDT-LPL-A-LTP",
           "opTypeId": "AEL-VDT-LPL",
           "abilityName": "Lead The Performance",
           "description": "Once per battle STRATEGIC GAMBIT. If this operative is in the killzone, change the ALLEGORY you selected for your kill team. Note that the ACCOLADE rule friendly operatives have will also change."
-        },
-        {
-          "abilityId": "AEL-VDT-LPL-A-SAE",
-          "opTypeId": "AEL-VDT-LPL",
-          "abilityName": "Saedath",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
         }
       ],
       "options": []
@@ -335,20 +323,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "AEL-VDT-DJS-A-HP",
-          "opTypeId": "AEL-VDT-DJS",
-          "abilityName": "Harlequin's Panoply",
-          "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
-        },
-        {
-          "abilityId": "AEL-VDT-DJS-A-SAE",
-          "opTypeId": "AEL-VDT-DJS",
-          "abilityName": "Saedath",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
-        }
-      ],
+      "abilities": [],
       "options": []
     },
     {
@@ -540,22 +515,10 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-VDT-PLAY-A-HP",
-          "opTypeId": "AEL-VDT-PLAY",
-          "abilityName": "Harlequin's Panoply",
-          "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
-        },
-        {
           "abilityId": "AEL-VDT-PLAY-A-LOTLG",
           "opTypeId": "AEL-VDT-PLAY",
           "abilityName": "Luck Of The Laughing God",
           "description": "Once per turning point, you can use this rule. If you do, you can use a firefight ploy for 0CP if this is the specified VOID-DANCER TROUPE operative\n(including Command Re-roll if the attack or defence dice was rolled for this operative). You cannot select the same firefight ploy for this rule more than once per battle."
-        },
-        {
-          "abilityId": "AEL-VDT-PLAY-A-SAE",
-          "opTypeId": "AEL-VDT-PLAY",
-          "abilityName": "Saedath",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
         }
       ],
       "options": []
@@ -698,18 +661,6 @@
       ],
       "abilities": [
         {
-          "abilityId": "AEL-VDT-SDS-A-HP",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Harlequin's Panoply",
-          "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
-        },
-        {
-          "abilityId": "AEL-VDT-SDS-A-SAE",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Saedath",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
-        },
-        {
           "abilityId": "AEL-VDT-SDS-FOG",
           "opTypeId": "AEL-VDT-SDS",
           "abilityName": "Fog Of Dreams",
@@ -825,6 +776,18 @@
       "eqName": "Understudy's Mask",
       "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-VDT-TA-HAPA",
+      "abilityName": "Harlequin's Panoply",
+      "description": "Whenever an operative is shooting a friendly VOID-DANCER TROUPE operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored.  \n\r Whenever a friendly VOID-DANCER TROUPE operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).  \n\r Friendly VOID-DANCER TROUPE operatives can move within control range of enemy operatives (they must still start and end the move following all requirements for that move)."
+    },
+    {
+      "abilityId": "AEL-VDT-TA-SA",
+      "abilityName": "Saedath",
+      "description": "As a STRATEGIC GAMBIT in the first turning point, you must select an ALLEGORY (Epic or Melodrama below) for your kill team for the battle, and one friendly VOID-DANCER TROUPE operative to have the PIVOTAL ROLE for the battle.\nWhenever a friendly operative has the PIVOTAL ROLE, it has the ACCOLADE rule of your ALLEGORY for the battle.  \n\nAs a STRATEGIC GAMBIT in each subsequent turning point, you can select one friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\nOnce per turning point, when a friendly operative that has the PIVOTAL ROLE completes the performance of your ALLEGORY, you can select a friendly VOID-DANCER TROUPE operative to gain the ACCOLADE rule of your ALLEGORY for the battle.  \n\n**Epic**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while fighting.\n- Accolade:  \nWhenever this operative is fighting, its melee weapons have the Balanced weapon rule.\n\n**Melodrama**  \n\n- Performance:  \nThe operative incapacitates an enemy operative while shooting.\n- Accolade:  \nThe operative's ranged weapons have the Balanced weapon rule.\n"
     }
   ]
 }

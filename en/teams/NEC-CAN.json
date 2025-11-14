@@ -127,12 +127,6 @@
           "description": "SUPPORT. Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE operative visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).\n\nThe next time the selected operative performs an action in which it moves, don't move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) horizontally of its\noriginal location (in a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, this distance can be measured over and through Wall terrain and the operative can be set up on the other side). Note that it gains no additional distance when performing the Charge action.\nIt must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         },
         {
-          "abilityId": "NEC-CAN-GEO-ONM",
-          "opTypeId": "NEC-CAN-GEO",
-          "abilityName": "Obelisk Node Matrix",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
-        },
-        {
           "abilityId": "NEC-CAN-GEO-SNC",
           "opTypeId": "NEC-CAN-GEO",
           "abilityName": "Obelisk Node Control",
@@ -223,12 +217,6 @@
           "abilityName": "Overcharge",
           "AP": 1,
           "description": "Select one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE CANOPTEK operative within your OBELISK NODE MATRIX.\nUntil the end of that selected operative's next activation, add 1 to its APL stat.\n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "NEC-CAN-ACC-ONM",
-          "opTypeId": "NEC-CAN-ACC",
-          "abilityName": "Obelisk Node Matrix",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
         }
       ],
       "options": []
@@ -300,12 +288,6 @@
           "abilityName": "Nanoscarab Beam",
           "AP": 1,
           "description": "Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE operative within your OBELISK NODE MATRIX.\nThe selected operative regains up to 3D3 lost wounds. It cannot be an operative that the Reanimate rule was used on during this turning point.\n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
-        },
-        {
-          "abilityId": "NEC-CAN-REA-ONM",
-          "opTypeId": "NEC-CAN-REA",
-          "abilityName": "Obelisk Node Matrix",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
         },
         {
           "abilityId": "NEC-CAN-REA-REA",
@@ -418,12 +400,6 @@
           "opTypeId": "NEC-CAN-WAR",
           "abilityName": "Expendable Construct",
           "description": "This operative is ignored for your opponent's kill/elimination op (when it's incapacitated, and when determining your starting number of operatives).\nIt's also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.)."
-        },
-        {
-          "abilityId": "NEC-CAN-WAR-ONM",
-          "opTypeId": "NEC-CAN-WAR",
-          "abilityName": "Obelisk Node Matrix",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
         }
       ],
       "options": []
@@ -533,12 +509,6 @@
         }
       ],
       "abilities": [
-        {
-          "abilityId": "NEC-CAN-TC-ONM",
-          "opTypeId": "NEC-CAN-TC",
-          "abilityName": "Obelisk Node Matrix",
-          "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
-        },
         {
           "abilityId": "NEC-CAN-TC-SF",
           "opTypeId": "NEC-CAN-TC",
@@ -653,6 +623,13 @@
       "eqName": "Phase Shifter",
       "description": "Once per turning point, when an operative is shooting a friendly CANOPTEK CIRCLE GEOMANCER operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
       "effects": ""
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "NEC-CAN-TA-OBNOMA",
+      "abilityName": "Obelisk Node Matrix",
+      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
     }
   ]
 }
