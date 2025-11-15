@@ -1,0 +1,193 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-11-15",
+  "source": "Community Meta Analysis",
+  "tiers": {
+    "S": [
+      {
+        "killteamId": "CHAOS-FELL",
+        "tier": "S"
+      },
+      {
+        "killteamId": "CHAOS-GPI",
+        "tier": "S"
+      },
+      {
+        "killteamId": "IMP-DKK",
+        "tier": "S"
+      },
+      {
+        "killteamId": "IMP-HC",
+        "tier": "S"
+      },
+      {
+        "killteamId": "IMP-RAT",
+        "tier": "S"
+      },
+      {
+        "killteamId": "IMP-SANC",
+        "tier": "S"
+      },
+      {
+        "killteamId": "IMP-SCT",
+        "tier": "S"
+      },
+      {
+        "killteamId": "TYR-BBRO",
+        "tier": "S"
+      },
+      {
+        "killteamId": "VOT-HKY",
+        "tier": "S"
+      }
+    ],
+    "A": [
+      {
+        "killteamId": "AEL-MND",
+        "tier": "A"
+      },
+      {
+        "killteamId": "AEL-VDT",
+        "tier": "A"
+      },
+      {
+        "killteamId": "CHAOS-PM",
+        "tier": "A"
+      },
+      {
+        "killteamId": "IMP-INQ",
+        "tier": "A"
+      },
+      {
+        "killteamId": "ORK-KOM",
+        "tier": "A"
+      },
+      {
+        "killteamId": "SPEC-NPO",
+        "tier": "A"
+      },
+      {
+        "killteamId": "SPEC-TITUS",
+        "tier": "A"
+      },
+      {
+        "killteamId": "TYR-WB",
+        "tier": "A"
+      },
+      {
+        "killteamId": "VOT-HKS",
+        "tier": "A"
+      }
+    ],
+    "B": [
+      {
+        "killteamId": "AEL-BOK",
+        "tier": "B"
+      },
+      {
+        "killteamId": "AEL-COR",
+        "tier": "B"
+      },
+      {
+        "killteamId": "CHAOS-BLD",
+        "tier": "B"
+      },
+      {
+        "killteamId": "IMP-AOD",
+        "tier": "B"
+      },
+      {
+        "killteamId": "IMP-BC",
+        "tier": "B"
+      },
+      {
+        "killteamId": "IMP-INB",
+        "tier": "B"
+      },
+      {
+        "killteamId": "IMP-PHO",
+        "tier": "B"
+      },
+      {
+        "killteamId": "NEC-HIER",
+        "tier": "B"
+      },
+      {
+        "killteamId": "TAU-PF",
+        "tier": "B"
+      }
+    ],
+    "C": [
+      {
+        "killteamId": "CHAOS-GORE",
+        "tier": "C"
+      },
+      {
+        "killteamId": "CHAOS-LEG",
+        "tier": "C"
+      },
+      {
+        "killteamId": "CHAOS-WC",
+        "tier": "C"
+      },
+      {
+        "killteamId": "IMP-ESS",
+        "tier": "C"
+      },
+      {
+        "killteamId": "IMP-KAS",
+        "tier": "C"
+      },
+      {
+        "killteamId": "IMP-TEMPAQ",
+        "tier": "C"
+      },
+      {
+        "killteamId": "NEC-CAN",
+        "tier": "C"
+      },
+      {
+        "killteamId": "ORK-WK",
+        "tier": "C"
+      },
+      {
+        "killteamId": "TAU-VESP",
+        "tier": "C"
+      }
+    ],
+    "D": [
+      {
+        "killteamId": "AEL-HOTA",
+        "tier": "D"
+      },
+      {
+        "killteamId": "CHAOS-CULT",
+        "tier": "D"
+      },
+      {
+        "killteamId": "CHAOS-NC",
+        "tier": "D"
+      },
+      {
+        "killteamId": "IMP-AES",
+        "tier": "D"
+      },
+      {
+        "killteamId": "IMP-DW",
+        "tier": "D"
+      },
+      {
+        "killteamId": "IMP-NOV",
+        "tier": "D"
+      },
+      {
+        "killteamId": "TAU-FSKB",
+        "tier": "D"
+      },
+      {
+        "killteamId": "TYR-RAV",
+        "tier": "D"
+      }
+    ]
+  }
+}
