@@ -82,32 +82,28 @@
       "killteamId": "TAU-VESP",
       "seq": 1,
       "eqName": "Neurostimulant",
-      "description": "In the Ready step of each Strategy phase, when determining how many Communion points to gain, you can roll two D3 and select one D3 to use.",
-      "effects": ""
+      "description": "In the Ready step of each Strategy phase, when determining how many Communion points to gain, you can roll two D3 and select one D3 to use."
     },
     {
       "eqId": "TAU-VESP-AGS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Aggression Stimulant",
-      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting, its melee weapons have the Ceaseless weapon rule.",
-      "effects": ""
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting, its melee weapons have the Ceaseless weapon rule."
     },
     {
       "eqId": "TAU-VESP-AS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Accelerant Stimulant",
-      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) performs the Charge or Dash action, it can move an additional 1\". If it uses FLY for this action, you can set it back up 1\" further away.",
-      "effects": ""
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) performs the Charge or Dash action, it can move an additional 1\". If it uses FLY for this action, you can set it back up 1\" further away."
     },
     {
       "eqId": "TAU-VESP-CS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Convergence Stimulant",
-      "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point.",
-      "effects": ""
+      "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point."
     }
   ],
   "teamAbilities": [
@@ -237,13 +233,20 @@
           "opTypeId": "TAU-VESP-OSD",
           "abilityName": "Evasive Drone",
           "description": "\r - This operative cannot perform any action other than Aerial Guidance, Charge, Dash, Fall Back, Fight, or Reposition.\r - Whenever determining control of objective markers, treat this operative's APL stat as 1 lower.\r - Whenever determining what is Visible To this operative, the round disc at the top of the miniature is its head.\r - Whenever this operative has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-OSD-AG",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Aerial Guidance",
+          "id": "TAU-VESP-OSD-AG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Aerial Guidance",
+          "description": null,
+          "effects": [
+            "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -604,13 +607,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-VSG-ST",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Skytorch Assault",
+          "id": "TAU-VESP-VSG-ST",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          "name": "Skytorch Assault",
+          "description": null,
+          "effects": [
+            "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          ]
         }
       ]
     },
@@ -678,6 +689,26 @@
           "description": "Whenever this operative is shooting, if you do not spend Communion points during that sequence, its Neutron Blaster has the Accurate 1 weapon rule until the end of that sequence."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-TAU-VESP-NEUTRON",
+      "name": "Neutron Fragment",
+      "description": "If the target is not incapacitated but you resolve any Attack Dice, the target gains one of your Neutron Fragment tokens. Whenever an operative that has one of your Neutron Fragment tokens is activated, inflict D3 damage on it for each Neutron Fragment token it has (roll separately for each).",
+      "team": "TAU-VESP"
+    },
+    {
+      "id": "WR-TAU-VESP-NEUTRONB",
+      "name": "Neutron Bombardment",
+      "description": "Place one of your Neutron Fallout markers within the primary target's control range.",
+      "team": "TAU-VESP"
+    },
+    {
+      "id": "WR-TAU-VESP-SKYTORCH",
+      "name": "Skytorch",
+      "description": "An operative can only use this weapon during the Skytorch Assault action.\r If it does, do not select a valid target. Instead, shoot against each operative within its Torch Zone (excluding operatives wholly underneath Vantage terrain), they are not in Cover or Obscured.\r Roll each sequence separately in order of furthest operative to closest. The Torch Zone is the area between the operative's current and previous locations.\r A 28mm round Skytorch marker can be temporarily placed underneath this operative before it moves to help determine this.",
+      "team": "TAU-VESP"
     }
   ]
 }

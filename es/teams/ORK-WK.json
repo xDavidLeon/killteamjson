@@ -310,13 +310,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "ORK-WK-BBFTR-BS",
-          "opTypeId": "ORK-WK-BBFTR",
-          "abilityName": "Break Stuff",
+          "id": "ORK-WK-BBFTR-BS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select a terrain feature within this operative's control range.\nIf it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          "name": "Break Stuff",
+          "description": null,
+          "effects": [
+            "Select a terrain feature within this operative's control range.",
+            "If it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.",
+            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          ]
         }
       ]
     },
@@ -753,6 +763,20 @@
           "description": "During the Firefight phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition, and Shoot, or use any weapons that are not on its datacard."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-ORK-WK-PULSA",
+      "name": "Indukzión",
+      "description": "No selecciones un blanco válido. En su lugar, sitúa tu marcador de Indukzión visible para este agente, o en terreno aventajado de un elemento de terreno visible para este agente. Ese marcador gana 1 punto de Indukzión (usa las fichas de puntos de Indukzión); luego tira los dados de ataque: el marcador gana 1 punto de Indukzión adicional por cada éxito (hasta un máximo de 3 puntos adicionales). Inflige 1D3 de daño por separado a cada agente completamente a x\" o menos de ese marcador, donde x equivale a los puntos de Indukzión de ese marcador. Después la acción finaliza.",
+      "team": "ORK-WK"
+    },
+    {
+      "id": "WR-ORK-WK-SMASH",
+      "name": "Destrozar",
+      "description": "Cuando golpees, puedes mover en línea recta al agente enemigo hasta 1\". Si lo haces, debe terminar el movimiento más lejos de este agente y en un lugar donde pueda situarse. A continuación, mueve a este agente en línea recta hasta 1\", pero debe terminar ese movimiento en la zona de control del agente enemigo (si no es posible, no puedes moverlo)",
+      "team": "ORK-WK"
     }
   ]
 }

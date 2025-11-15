@@ -82,32 +82,28 @@
       "killteamId": "AEL-COR",
       "seq": 1,
       "eqName": "Diuturnal Mantles",
-      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence."
     },
     {
       "eqId": "AEL-COR-MF",
       "killteamId": "AEL-COR",
       "seq": 2,
       "eqName": "Mistfield",
-      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
+      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
     },
     {
       "eqId": "AEL-COR-ROG",
       "killteamId": "AEL-COR",
       "seq": 3,
       "eqName": "Runes Of Guidance",
-      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike).",
-      "effects": ""
+      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike)."
     },
     {
       "eqId": "AEL-COR-SC",
       "killteamId": "AEL-COR",
       "seq": 4,
       "eqName": "Star Charts",
-      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
-      "effects": ""
+      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle."
     }
   ],
   "teamAbilities": [
@@ -883,20 +879,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-COR-SW-SC",
-          "opTypeId": "AEL-COR-SW",
-          "abilityName": "Soul Channel",
+          "id": "AEL-COR-SW-SC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "*PSYCHIC*  \n\nSelect one other friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Soul Channel",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one other friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "AEL-COR-SW-SH",
-          "opTypeId": "AEL-COR-SW",
-          "abilityName": "Soul Heal",
+          "id": "AEL-COR-SW-SH",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "*PSYCHIC*  \n\nSelect one friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. That operative regains 2D3 lost wounds.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Soul Heal",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative. That operative regains 2D3 lost wounds."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1106,13 +1119,20 @@
           "opTypeId": "AEL-COR-SD",
           "abilityName": "Quick On The Trigger",
           "description": "This operative can perform the Shoot action while within control range of an enemy operative.\nIf it does, when selecting a valid target, you can only select an enemy operative within this operative's control range, and can do so even if other friendly operatives are within that enemy operative's control range."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-COR-SD-PB",
-          "opTypeId": "AEL-COR-SD",
-          "abilityName": "Pistol Barrage",
+          "id": "AEL-COR-SD-PB",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+          "name": "Pistol Barrage",
+          "description": null,
+          "effects": [
+            "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order).",
+            "This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+          ]
         }
       ]
     },
@@ -1242,20 +1262,33 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-COR-WS-WF",
-          "opTypeId": "AEL-COR-WS",
-          "abilityName": "Warp Fold",
+          "id": "AEL-COR-WS-WF",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "*PSYCHIC*  \n Select 2 Friendly CORSAIR VOIDSCARRED operatives visible to and within 5\" of this operative. Remove them both from the killzone and set them back up in each other's locations (in other words, swap their positions). If one of them performed a Charge, Fall Back, or Reposition option during this turning point and the other is ready, the other cannot perform any of those actions in its activation during this turning point.  \n This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Warp Fold",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select 2 Friendly CORSAIR VOIDSCARRED operatives visible to and within 5\" of this operative. Remove them both from the killzone and set them back up in each other's locations (in other words, swap their positions). If one of them performed a Charge, Fall Back, or Reposition option during this turning point and the other is ready, the other cannot perform any of those actions in its activation during this turning point.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "AEL-COR-WS-WS",
-          "opTypeId": "AEL-COR-WS",
-          "abilityName": "Warding Shield",
+          "id": "AEL-COR-WS-WS",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "*PSYCHIC*  \n\r  Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Warding Shield",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },

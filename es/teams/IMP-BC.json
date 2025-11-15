@@ -190,13 +190,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-BC-TA-OS",
-          "opTypeId": "IMP-BC-TA",
-          "abilityName": "Omniscanner",
+          "id": "IMP-BC-TA-OS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to or within 8\" of this operative to gain one of your Omniscanner tokens. Whenever a friendly BATTLECLADE operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Omniscanner tokens, that friendly operative's weapons have the Ceaseless weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Omniscanner",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to or within 8\" of this operative to gain one of your Omniscanner tokens. Whenever a friendly BATTLECLADE operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Omniscanner tokens, that friendly operative's weapons have the Ceaseless weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -246,13 +254,24 @@
           "opTypeId": "IMP-BC-APS",
           "abilityName": "Achillan Eye",
           "description": "Whenever a friendly BATTLECLADE operative is shooting an enemy operative visible to this operative, that friendly operative's ranged weapons have the Saturate weapon rule. This rule has no effect if this operative is within control range of an enemy operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-BC-APS-GOTO",
-          "opTypeId": "IMP-BC-APS",
-          "abilityName": "Gaze Of The Omnissiah",
+          "id": "IMP-BC-APS-GOTO",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly BATTLECLADE operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Gaze Of The Omnissiah",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly BATTLECLADE operative is shooting that enemy operative, you can use this effect. If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -344,13 +363,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-BC-BBS-BR",
-          "opTypeId": "IMP-BC-BBS",
-          "abilityName": "Breach",
+          "id": "IMP-BC-BBS-BR",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it. Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+          "name": "Breach",
+          "description": null,
+          "effects": [
+            "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it. Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+          ]
         }
       ]
     },
@@ -658,20 +685,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-BC-BSU-NOR",
-          "opTypeId": "IMP-BC-BSU",
-          "abilityName": "Network Override",
+          "id": "IMP-BC-BSU-NOR",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don't have to TRANSFER POWER to do so).\nContinue this operative's activation after doing so.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+          "name": "Network Override",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don't have to TRANSFER POWER to do so).",
+            "Continue this operative's activation after doing so."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+          ]
         },
         {
-          "abilityId": "IMP-BC-BSU-NSS",
-          "opTypeId": "IMP-BC-BSU",
-          "abilityName": "Noospheric Spur",
+          "id": "IMP-BC-BSU-NSS",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately perform a free Dash action.\nYou cannot select each friendly SERVITOR operative for this rule more than once per turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+          "name": "Noospheric Spur",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately perform a free Dash action.",
+            "You cannot select each friendly SERVITOR operative for this rule more than once per turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+          ]
         }
       ]
     },
@@ -717,13 +761,22 @@
           "opTypeId": "IMP-BC-BTS",
           "abilityName": "Mechanosuture Array",
           "description": "Once per turning point, when another friendly BATTLECLADE operative would be incapacitated while visible to and within 3\" of this operative, you can use this rule, providing neither this nor that operative is within control range of an enemy operative. If you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\nIf this rule was used during that friendly operative's activation, that activation ends. You cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-BC-BTS-ER",
-          "opTypeId": "IMP-BC-BTS",
-          "abilityName": "Expedient Repair",
+          "id": "IMP-BC-BTS-ER",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly BATTLECLADE operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Mechanosuture Array rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Expedient Repair",
+          "description": null,
+          "effects": [
+            "Select one friendly BATTLECLADE operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Mechanosuture Array rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     }

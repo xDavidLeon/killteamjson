@@ -84,32 +84,28 @@
       "killteamId": "AEL-BOK",
       "seq": 1,
       "eqName": "Rune Of Prophecy",
-      "description": "Once per battle, after rolling off to decide initiative, you can add D3 to, or subtract D3 from, your result.",
-      "effects": ""
+      "description": "Once per battle, after rolling off to decide initiative, you can add D3 to, or subtract D3 from, your result."
     },
     {
       "eqId": "AEL-BOK-ROS",
       "killteamId": "AEL-BOK",
       "seq": 2,
       "eqName": "Rune Of Shielding",
-      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly BLADES OF KHAINE operative, you can ignore that inflicted damage.",
-      "effects": ""
+      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly BLADES OF KHAINE operative, you can ignore that inflicted damage."
     },
     {
       "eqId": "AEL-BOK-ROF",
       "killteamId": "AEL-BOK",
       "seq": 3,
       "eqName": "Rune Of Foresight",
-      "description": "When this equipment is revealed, roll one D3. In the Strategy phase of the turning point equal to the result, you gain 1 additional CP.",
-      "effects": ""
+      "description": "When this equipment is revealed, roll one D3. In the Strategy phase of the turning point equal to the result, you gain 1 additional CP."
     },
     {
       "eqId": "AEL-BOK-WBT",
       "killteamId": "AEL-BOK",
       "seq": 4,
       "eqName": "Wraithbone Talisman",
-      "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly BLADES OF KHAINE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     }
   ],
   "teamAbilities": [

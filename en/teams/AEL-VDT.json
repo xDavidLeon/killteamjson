@@ -82,32 +82,28 @@
       "killteamId": "AEL-VDT",
       "seq": 1,
       "eqName": "Wraithbone Talisman",
-      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     },
     {
       "eqId": "AEL-VDT-STR",
       "killteamId": "AEL-VDT",
       "seq": 2,
       "eqName": "Shrieker Toxic Rounds",
-      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is performing the Shoot action and you select a shuriken pistol or shrieker cannon (focused), you can use this rule.\nIf you do, until the end of that action, that weapon has the Devastating 1 weapon rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly VOID-DANCER TROUPE operative is performing the Shoot action and you select a shuriken pistol or shrieker cannon (focused), you can use this rule.\nIf you do, until the end of that action, that weapon has the Devastating 1 weapon rule."
     },
     {
       "eqId": "AEL-VDT-DM",
       "killteamId": "AEL-VDT",
       "seq": 3,
       "eqName": "Death Mask",
-      "description": "Keep a Tragedy tally. Whenever a friendly VOID-DANCER TROUPE operative that has an ACCOLADE rule is incapacitated, add 1 to your Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally.",
-      "effects": ""
+      "description": "Keep a Tragedy tally. Whenever a friendly VOID-DANCER TROUPE operative that has an ACCOLADE rule is incapacitated, add 1 to your Tragedy tally. When your Tragedy tally reaches 3, you gain 1CP and stop that tally."
     },
     {
       "eqId": "AEL-VDT-UM",
       "killteamId": "AEL-VDT",
       "seq": 4,
       "eqName": "Understudy's Mask",
-      "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle.",
-      "effects": ""
+      "description": "Once per battle, when you activate a friendly VOID-DANCER TROUPE operative, if the friendly operative that has the PIVOTAL ROLE has been incapacitated, you can use this rule.\nIf you do, that activated operative has the PIVOTAL ROLE for the battle."
     }
   ],
   "teamAbilities": [
@@ -768,22 +764,45 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-VDT-SDS-FOG",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Fog Of Dreams",
+          "id": "AEL-VDT-SDS-FOG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**PSYCHIC** Select one ready enemy operative visible to this operative and roll one D6.\nUntil the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor until your opponent has activated a number of enemy operatives after this action equal to the result of the D6 (whichever comes first).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Fog Of Dreams",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one ready enemy operative visible to this operative and roll one D6.",
+            "Until the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,",
+            "or until your opponent has activated a number of enemy operatives after this action equal to the result of the D6 (whichever comes first)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "AEL-VDT-SDS-MOM",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Mirror Of Minds",
+          "id": "AEL-VDT-SDS-MOM",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Mirror Of Minds",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-VDT-HUMBLING",
+      "name": "Humbling Cruelty",
+      "description": "If the target of this weapon isn't incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn't already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn't cumulative with being injured. At the end of that enemy operative's next activation, remove its Humbling Cruelty token.",
+      "team": "AEL-VDT"
     }
   ]
 }

@@ -82,32 +82,28 @@
       "killteamId": "TYR-WB",
       "seq": 1,
       "eqName": "Blasting Charges",
-      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n",
-      "effects": "ADDWEP:Blasting Charge|R|4|4+|3/5|"
+      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n"
     },
     {
       "eqId": "TYR-WB-CK",
       "killteamId": "TYR-WB",
       "seq": 2,
       "eqName": "Cult Knives",
-      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
-      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n"
     },
     {
       "eqId": "TYR-WB-XT",
       "killteamId": "TYR-WB",
       "seq": 3,
       "eqName": "Explosive Traps",
-      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules.",
-      "effects": ""
+      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules."
     },
     {
       "eqId": "TYR-WB-SL",
       "killteamId": "TYR-WB",
       "seq": 4,
       "eqName": "Spotlights",
-      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
-      "effects": ""
+      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives."
     }
   ],
   "teamAbilities": [
@@ -1064,20 +1060,38 @@
           "opTypeId": "TYR-WB-SNP",
           "abilityName": "Cult Agent",
           "description": "Whenever an operative is shooting a friendly WYRMBLADE CULT AGENT operative:\n\n- Ignore the Piercing and Saturate weapon rules.\n- If you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success instead. This isn't cumulative with improved cover saves from Vantage terrain.\n"
+        }
+      ],
+      "actions": [
+        {
+          "id": "TYR-WB-SNP-FSS",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Familiar's Soulsight",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),",
+            "that enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,",
+            "all profiles of this operative's Sanctus sniper rifle have the Saturate weapon rule and that enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TYR-WB-SNP-FSS",
-          "opTypeId": "TYR-WB-SNP",
-          "abilityName": "Familiar's Soulsight",
+          "id": "TYR-WB-SNP-TV",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),\nthat enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,\nall profiles of this operative's Sanctus sniper rifle have the Saturate weapon rule and that enemy operative cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "TYR-WB-SNP-TV",
-          "opTypeId": "TYR-WB-SNP",
-          "abilityName": "Target Vulnerability",
-          "AP": 1,
-          "description": "Until the end of this operative's activation, the stationary profile of its Sanctus sniper rifle has the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Target Vulnerability",
+          "description": null,
+          "effects": [
+            "Until the end of this operative's activation, the stationary profile of its Sanctus sniper rifle has the Lethal 5+ weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1133,20 +1147,40 @@
           "opTypeId": "TYR-WB-TAL",
           "abilityName": "Creeping Shadow",
           "description": "This operative can perform the Charge action while it has a Conceal order. Whenever this operative performs the Fight action, it can immediately perform a free Dash or Fall Back action afterwards\n(for the latter, it cannot move more than 3\"), even if it's performed an action that prevents it from performing those actions."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-WB-TAL-ASS",
-          "opTypeId": "TYR-WB-TAL",
-          "abilityName": "Assassinate",
+          "id": "TYR-WB-TAL-ASS",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Select one enemy operative this operative isn't visible to.\nPerform a free Charge action with this operative, but do not exceed its Move stat (i.e. do not add 2\"), and it must end that move within control range of that enemy operative.\nThen immediately perform a free Fight action with this operative against that enemy operative. The first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent).  \n\nThis operative cannot perform this action while it has an Engage order, or while within control range of an enemy operative."
+          "name": "Assassinate",
+          "description": null,
+          "effects": [
+            "Select one enemy operative this operative isn't visible to.",
+            "Perform a free Charge action with this operative, but do not exceed its Move stat (i.e. do not add 2\"), and it must end that move within control range of that enemy operative.",
+            "Then immediately perform a free Fight action with this operative against that enemy operative. The first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has an Engage order, or while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TYR-WB-TAL-FSS",
-          "opTypeId": "TYR-WB-TAL",
-          "abilityName": "Familiar's Soulsight",
+          "id": "TYR-WB-TAL-FSS",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),\nthat enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,\nits Sanctus bio-dagger has the Brutal and Balanced weapon rules.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Familiar's Soulsight",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the battle, or until this action is performed again by a friendly operative (whichever comes first),",
+            "that enemy operative gains one of your Soulsight tokens. Whenever this operative is shooting an enemy operative that has one of your Soulsight tokens,",
+            "its Sanctus bio-dagger has the Brutal and Balanced weapon rules."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1239,6 +1273,14 @@
           "description": "Whenever this operative is expended, you must then activate one other ready friendly WYRMBLADE WARRIOR operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-TYR-WB-HYPERSENSE",
+      "name": "Hypersense",
+      "description": "Whenever this operative is shooting with this weapon profile, enemy operatives cannot be obscured.",
+      "team": "TYR-WB"
     }
   ]
 }

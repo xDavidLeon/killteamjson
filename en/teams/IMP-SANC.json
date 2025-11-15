@@ -82,32 +82,28 @@
       "killteamId": "IMP-SANC",
       "seq": 1,
       "eqName": "Sanctification Orbs",
-      "description": "Once per turning point, one friendly SANCTIFIER operative (excluding CHERUB, DEATH CULT ASSASSIN and MIRACULIST) can perform the following unique action:  \n\n**SANCTIFICATION ORB (1AP):**\n\n- Select one enemy operative visible to and within 6\" of this operative. That operative and each other enemy operative within 1\" of it takes a doused test.\nFor an operative to take a doused test, roll one D6: on a 3+, it gains one of your Doused tokens.\n- Whenever a friendly SANCTIFIER operative is shooting against an operative that has one of your Doused tokens with a weapon that has the Blaze weapon rule, that weapon also has the Seek weapon rule.\n- After a friendly SANCTIFIER operative uses a weapon that has the Blaze weapon rule against an enemy operative that has one of your Doused tokens, remove that token (even if the Seek weapon rule wasn't used).  \n\n- This operative cannot perform this action while within control range of an enemy operative.\n",
-      "effects": ""
+      "description": "Once per turning point, one friendly SANCTIFIER operative (excluding CHERUB, DEATH CULT ASSASSIN and MIRACULIST) can perform the following unique action:  \n\n**SANCTIFICATION ORB (1AP):**\n\n- Select one enemy operative visible to and within 6\" of this operative. That operative and each other enemy operative within 1\" of it takes a doused test.\nFor an operative to take a doused test, roll one D6: on a 3+, it gains one of your Doused tokens.\n- Whenever a friendly SANCTIFIER operative is shooting against an operative that has one of your Doused tokens with a weapon that has the Blaze weapon rule, that weapon also has the Seek weapon rule.\n- After a friendly SANCTIFIER operative uses a weapon that has the Blaze weapon rule against an enemy operative that has one of your Doused tokens, remove that token (even if the Seek weapon rule wasn't used).  \n\n- This operative cannot perform this action while within control range of an enemy operative.\n"
     },
     {
       "eqId": "IMP-SANC-PS",
       "killteamId": "IMP-SANC",
       "seq": 2,
       "eqName": "Purity Seals",
-      "description": "Once per turning point, when a friendly SANCTIFIER operative is shooting or fighting, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly SANCTIFIER operative is shooting or fighting, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     },
     {
       "eqId": "IMP-SANC-ET",
       "killteamId": "IMP-SANC",
       "seq": 3,
       "eqName": "Ecclesiarchy Texts",
-      "description": "In the Ready step of each Strategy phase, roll 3D6: if the result is less than the remaining wounds of a friendly ORATOR operative, you gain 1CP.\nNote that this is done before the Gambit step, so if there isn't a valid ORATOR operative, you cannot use this rule during that turning point (e.g. during the first turning point).",
-      "effects": ""
+      "description": "In the Ready step of each Strategy phase, roll 3D6: if the result is less than the remaining wounds of a friendly ORATOR operative, you gain 1CP.\nNote that this is done before the Gambit step, so if there isn't a valid ORATOR operative, you cannot use this rule during that turning point (e.g. during the first turning point)."
     },
     {
       "eqId": "IMP-SANC-ICS",
       "killteamId": "IMP-SANC",
       "seq": 4,
       "eqName": "Imperial Cult Symbols",
-      "description": "Once per turning point, when an operative is shooting a friendly SANCTIFIER operative that's benefitting from the SERMON, when you collect your defence dice, you can use this rule.\nIf you do, change one of the attacker's retained critical successes to a normal success (any weapon rules they've already resolved aren't affected, e.g. Piercing Crits).",
-      "effects": ""
+      "description": "Once per turning point, when an operative is shooting a friendly SANCTIFIER operative that's benefitting from the SERMON, when you collect your defence dice, you can use this rule.\nIf you do, change one of the attacker's retained critical successes to a normal success (any weapon rules they've already resolved aren't affected, e.g. Piercing Crits)."
     }
   ],
   "teamAbilities": [
@@ -220,13 +216,21 @@
           "opTypeId": "IMP-SANC-CRB",
           "abilityName": "Fly",
           "description": "Whenever this operative is performing the Charge, Fall Back or Reposition action, it can FLY. If it does, don't move it.\nInstead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through Wall terrain).\nNote that it gains no additional distance when performing the Charge action. It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-CRB-INC",
-          "opTypeId": "IMP-SANC-CRB",
-          "abilityName": "Incentivise",
+          "id": "IMP-SANC-CRB-INC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Incentivise",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.",
+            "Until the end of that operative's next activation, add 1 to its APL stat.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -398,13 +402,20 @@
           "opTypeId": "IMP-SANC-ASS",
           "abilityName": "Bladed Stance",
           "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-ASS-TA",
-          "opTypeId": "IMP-SANC-ASS",
-          "abilityName": "Trained Assassin",
+          "id": "IMP-SANC-ASS-TA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Change this operative's order.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Trained Assassin",
+          "description": null,
+          "effects": [
+            "Change this operative's order.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1126,15 +1137,42 @@
           "opTypeId": "IMP-SANC-SAL",
           "abilityName": "Conversion Field",
           "description": "Whenever an operative more than 6\" from this operative is shooting a friendly SANCTIFIER operative within 6\" of this operative, improve that friendly operative's Save stat by 1."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-SAL-MED",
-          "opTypeId": "IMP-SANC-SAL",
-          "abilityName": "Medikit",
+          "id": "IMP-SANC-SAL-MED",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.\r   \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-SANC-BLAZE",
+      "name": "Blaze",
+      "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn't already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative's controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative's APL stat until the end of that activation to remove that token.\r ",
+      "team": "IMP-SANC"
+    },
+    {
+      "id": "WR-IMP-SANC-TWIN",
+      "name": "Twin Torrent",
+      "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately).",
+      "team": "IMP-SANC"
+    },
+    {
+      "id": "WR-IMP-SANC-WREATHED",
+      "name": "Wreathed",
+      "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon't select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn't affected).",
+      "team": "IMP-SANC"
     }
   ]
 }

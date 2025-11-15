@@ -82,32 +82,28 @@
       "killteamId": "CHAOS-LEG",
       "seq": 51,
       "eqName": "Warded Armour",
-      "description": "**STRATEGIC GAMBIT** Select one friendly LEGIONARY operative. Until the Ready step of the next Strategy phase, change that operative's Save stat to 2+.",
-      "effects": ""
+      "description": "**STRATEGIC GAMBIT** Select one friendly LEGIONARY operative. Until the Ready step of the next Strategy phase, change that operative's Save stat to 2+."
     },
     {
       "eqId": "CHAOS-LEG-MB",
       "killteamId": "CHAOS-LEG",
       "seq": 52,
       "eqName": "Malefic Blades",
-      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
-      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
+      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n"
     },
     {
       "eqId": "CHAOS-LEG-TR",
       "killteamId": "CHAOS-LEG",
       "seq": 53,
       "eqName": "Tainted Rounds",
-      "description": "Once per turning point, when a friendly LEGIONARY operative is performing the Shoot action and you select a bolt pistol or boltgun, you can use this rule.\nIf you do, until the end of that action, that weapon has the Rending weapon rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly LEGIONARY operative is performing the Shoot action and you select a bolt pistol or boltgun, you can use this rule.\nIf you do, until the end of that action, that weapon has the Rending weapon rule."
     },
     {
       "eqId": "CHAOS-LEG-CT",
       "killteamId": "CHAOS-LEG",
       "seq": 54,
       "eqName": "Chaos Talismans",
-      "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice).",
-      "effects": ""
+      "description": "**STRATEGIC GAMBIT**\nSelect one Marks of Chaos keyword.\nOnce during each of their activations, when a friendly LEGIONARY operative that has that keyword is shooting, fighting or retaliating, if you roll two or more fails,\nyou can inflict D3 damage on that friendly operative to discard one of them and retain the other as a normal success instead.\nNote that if it is the Shoot action and that damage incapacitates that friendly operative, the action does not end (continue the sequence with your successful attack dice)."
     }
   ],
   "teamAbilities": [
@@ -1302,13 +1298,25 @@
           "opTypeId": "CHAOS-LEG-STL",
           "abilityName": "Vicious Reflexes",
           "description": "Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-LEG-STL-GM",
-          "opTypeId": "CHAOS-LEG-STL",
-          "abilityName": "Grisly Mark",
+          "id": "CHAOS-LEG-STL-GM",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Place your Grisly marker within this operative's control range.\n\n- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Grisly Mark",
+          "description": null,
+          "effects": [
+            "Place your Grisly marker within this operative's control range.",
+            "- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.",
+            "- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.",
+            "Note this is not a change to the APL stat, so any changes are cumulative with this."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1414,6 +1422,14 @@
           "description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative's Marks of Chaos keyword."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-LEG-SIPHON",
+      "name": "Siphon Life",
+      "description": "When you select this weapon, you can use this rule. If you do, at the start of the Resolve Attack Dice step, select one friendly LEGIONARY operative visible to and within 6\" of this operative.\r For each attack die you resolve during that step that inflicts damage, that friendly operative regains 1 lost wound, or D3 lost wounds if it was a critical success. You cannot use this weapon rule more than once per Turning Point.",
+      "team": "CHAOS-LEG"
     }
   ]
 }

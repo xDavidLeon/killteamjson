@@ -8,7 +8,6 @@
       "seq": 601,
       "eqName": "Ammo Cache",
       "description": "Before the battle, you can set up one of your Ammo Cache markers wholly within your territory. Friendly operatives can perform the following mission action during the battle:",
-      "effects": "",
       "amount": 1,
       "actions": [
         "ACTION-UE-AMMO-RESUPPLY"
@@ -20,7 +19,6 @@
       "seq": 602,
       "eqName": "Razor Wire",
       "description": "Razor wire is Exposed and Obstructing terrain. Before the battle, you can set it up wholly within your territory, on the killzone floor and more than 2\" from other equipment terrain features, access points and Accessible terrain.  \n\r Obstructing: Whenever an operative would cross over this terrain feature within 1\" of it, treat the distance as an additional 1\".",
-      "effects": "",
       "amount": 1
     },
     {
@@ -29,7 +27,6 @@
       "seq": 603,
       "eqName": "Comms Device",
       "description": "Before the battle, you can set up one of your Comms Device markers wholly within your territory.\nWhile a friendly operative controls this marker, add 3\" to the distance requirements of its SUPPORT rules that refer to friendly operatives\n(e.g. 'select one friendly operative within 6\"' would be 9\" instead).\nNote that you cannot benefit from your opponent's Comms Device markers.",
-      "effects": "",
       "amount": 1
     },
     {
@@ -38,7 +35,6 @@
       "seq": 604,
       "eqName": "Mines",
       "description": "Before the battle, you can set up one of your Mines markers wholly within your territory and more than 2\" from other markers, access points, and Accessible terrain.\r The first time that marker is within an operative's control range, remove that marker and inflict D3+3 damage on that operative.",
-      "effects": "",
       "amount": 1
     },
     {
@@ -47,7 +43,6 @@
       "seq": 605,
       "eqName": "Light Barricades",
       "description": "Light barricades are Light terrain, except the feet, which are Insignificant and Exposed. Before the battle, you can set up any of them wholly within your territory, on the killzone floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.",
-      "effects": "",
       "amount": 2
     },
     {
@@ -56,7 +51,6 @@
       "seq": 606,
       "eqName": "Heavy Barricade",
       "description": "A heavy barricade is Heavy terrain. Before the battle, you can set it up wholly within 4\" of your drop zone, on the killzone floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.",
-      "effects": "",
       "amount": 1
     },
     {
@@ -65,7 +59,6 @@
       "seq": 607,
       "eqName": "Ladders",
       "description": "Ladders are Insignificant and Exposed terrain. Before the battle, you can set up any of them as follows:\r \r - Wholly within your territory.\r - Upright against terrain that is at least 2\" tall.\r - More than 2\" from other equipment terrain features.\r - More than 1\" from doors and access points.\r \r Once per action, whenever an operative is climbing this terrain feature the ladder is placed against, treat the vertical distance as 1\" if the ladder is within that operative's control range during that entire climb.",
-      "effects": "",
       "amount": 2
     },
     {
@@ -74,7 +67,6 @@
       "seq": 608,
       "eqName": "Portable Barricade",
       "description": "A portable barricade is Light, Protective and Portable terrain except the feet which are Insignificant and Exposed.\nBefore the battle, you can set it up wholly within your territory, on the killzone floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.\n  \n\n**Protective:** While an operative is in cover from this terrain feature, improve its Save stat by 1 (to a maximum of 2+).  \n\n**Portable:** This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet).\nOperatives connected to the inside of it can perform the following unique action during the battle:",
-      "effects": "",
       "amount": 1,
       "actions": [
         "ACTION-UE-MOVE-WITH-BARRICADE"
@@ -86,7 +78,6 @@
       "seq": 609,
       "eqName": "Utility Grenades",
       "description": "When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun).\nEach selection is a unique action your operatives can perform, but your kill team can only perform that action a total number of times during the battle equal to your selection.",
-      "effects": "",
       "amount": 2,
       "actions": [
         "ACTION-UE-SMOKE-GRENADE",
@@ -99,7 +90,6 @@
       "seq": 610,
       "eqName": "Explosive Grenades",
       "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Frag Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Rng 6\", Blast 2\", Saturate|\r \r |**Name**|**ATK**|**HIT**|**DMG**|\r |-----|:-----:|:-----:|:-----:|\r |Krak Grenade|4|4+|4/5|\r |**Weapon Rules**|\r |Rng 6\", Piercing 1, Saturate|",
-      "effects": "ADDWEP:Frag Grenade|R|4|4+|2/4|Rng 6\", Blast 2\", Sat",
       "amount": 2
     }
   ],
@@ -117,6 +107,9 @@
       ],
       "conditions": [
         "An operative cannot perform this action while within control range of an enemy operative, if that marker is not yours, or if that marker has been used this turning point."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -132,6 +125,9 @@
       ],
       "conditions": [
         "This action is treated as a Reposition action. An operative cannot perform the Move with Barricade action in the same turning point in which it performed the Fall Back or Charge actions."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -150,6 +146,9 @@
       ],
       "conditions": [
         "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -165,6 +164,9 @@
       ],
       "conditions": [
         "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     }
   ]

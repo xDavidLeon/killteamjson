@@ -359,13 +359,23 @@
           "opTypeId": "IMP-PHO-INFHEL",
           "abilityName": "Omni-Scrambler",
           "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-PHO-INFHEL-HG",
-          "opTypeId": "IMP-PHO-INFHEL",
-          "abilityName": "Helix Gauntlet",
+          "id": "IMP-PHO-INFHEL-HG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Helix Gauntlet",
+          "description": null,
+          "effects": [
+            "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -616,13 +626,24 @@
           "opTypeId": "IMP-PHO-INFVOX",
           "abilityName": "Voxbreak",
           "description": "Whenever an enemy operative is within 6\" of this operative, your opponent cannot re-roll their attack or defence dice for that operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-PHO-INFVOX-SCAN",
-          "opTypeId": "IMP-PHO-INFVOX",
-          "abilityName": "Auspex Scan",
+          "id": "IMP-PHO-INFVOX-SCAN",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,\nthat enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Auspex Scan",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),",
+            "whenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,",
+            "that enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1235,6 +1256,14 @@
           "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-PHO-CUSTOM",
+      "name": "Personalizada",
+      "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige hasta dos de las siguientes reglas de armas para que las tenga esta arma durante la batalla: Críticos de Penetración 1, Desgarradora, Equilibrada, Letal 5+, Saturación.",
+      "team": "IMP-PHO"
     }
   ]
 }

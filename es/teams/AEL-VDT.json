@@ -768,22 +768,45 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-VDT-SDS-FOG",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Fog Of Dreams",
+          "id": "AEL-VDT-SDS-FOG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**PSYCHIC** Select one ready enemy operative visible to this operative and roll one D6.\nUntil the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,\nor until your opponent has activated a number of enemy operatives after this action equal to the result of the D6 (whichever comes first).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Fog Of Dreams",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one ready enemy operative visible to this operative and roll one D6.",
+            "Until the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated,",
+            "or until your opponent has activated a number of enemy operatives after this action equal to the result of the D6 (whichever comes first)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "AEL-VDT-SDS-MOM",
-          "opTypeId": "AEL-VDT-SDS",
-          "abilityName": "Mirror Of Minds",
+          "id": "AEL-VDT-SDS-MOM",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Mirror Of Minds",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-VDT-HUMBLING",
+      "name": "Crueldad humillante",
+      "description": "Si el blanco de esta arma no resulta incapacitado pero alguno de tus dados de ataque inflige daño, el blanco obtiene una de tus fichas de Crueldad humillante (si no tiene una ya). Mientras un enemigo tenga una de tus fichas de Crueldad humillante, empeora en 1 el atributo Impactar de sus armas y resta 2\" a su atributo Movimiento. Esto no se acumula con estar lesionado. Al final de la siguiente activación de ese agente enemigo, retira su ficha de Crueldad humillante.",
+      "team": "AEL-VDT"
     }
   ]
 }

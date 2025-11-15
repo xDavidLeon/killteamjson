@@ -275,13 +275,22 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "abilityName": "Tempestus Veteran",
           "description": "Once per battle, you can either use a Firefight Ploy for 0 CP if this is the specific TEMPESTUS AQUILON operative, or the Command Re-Roll Firefight Ploy for 0 CP if this is the operative the attack or defence die was rolled for."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-TEMPAQ-TEMP-CMD",
-          "opTypeId": "IMP-TEMPAQ-TEMP",
-          "abilityName": "Command",
+          "id": "IMP-TEMPAQ-TEMP-CMD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+          "name": "Command",
+          "description": null,
+          "effects": [
+            "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative."
+          ]
         }
       ]
     },
@@ -984,6 +993,14 @@
           "description": "When this operative lands, you can set it up within 4\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-TEMPAQ-SALVO",
+      "name": "Salva",
+      "description": "Elige hasta dos blancos válidos diferentes que no estén en la zona de control de agentes amigos. Dispara con esta arma contra ellos dos en el orden que quieras (resuelve cada secuencia por separado).",
+      "team": "IMP-TEMPAQ"
     }
   ]
 }

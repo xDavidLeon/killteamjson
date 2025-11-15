@@ -1302,13 +1302,25 @@
           "opTypeId": "CHAOS-LEG-STL",
           "abilityName": "Vicious Reflexes",
           "description": "Whenever this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-LEG-STL-GM",
-          "opTypeId": "CHAOS-LEG-STL",
-          "abilityName": "Grisly Mark",
+          "id": "CHAOS-LEG-STL-GM",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Place your Grisly marker within this operative's control range.\n\n- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.\nNote this is not a change to the APL stat, so any changes are cumulative with this.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Grisly Mark",
+          "description": null,
+          "effects": [
+            "Place your Grisly marker within this operative's control range.",
+            "- Whenever an enemy operative is within 3\" of your Grisly marker, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.",
+            "- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Grisly marker.",
+            "Note this is not a change to the APL stat, so any changes are cumulative with this."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1414,6 +1426,14 @@
           "description": "Once per battle, when a friendly LEGIONARY WARRIOR operative is activated, you can use this rule. If you do, change that operative's Marks of Chaos keyword."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-LEG-SIPHON",
+      "name": "Drenaje Vital",
+      "description": "Cuando elijas esta arma, puedes usar esta regla. Si lo haces, al inicio del paso de Resolver Dados de Ataque, puedes selecciona un agente amigo LEGIONARIO visible y a 6\" de este agente. Por cada dado de ataque que resuelvas durante ese paso que inflija daño, ese agente amigo recupera 1 herida perdida, o 1D3 heridas perdidas si fue un éxito crítico. No puedes usar esta regla de arma más de una vez por punto de inflexión.",
+      "team": "CHAOS-LEG"
     }
   ]
 }

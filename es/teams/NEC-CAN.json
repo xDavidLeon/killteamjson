@@ -213,31 +213,58 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-CAN-GEO-CC",
-          "opTypeId": "NEC-CAN-GEO",
-          "abilityName": "Canoptek Control",
-          "AP": 1,
-          "description": "SUPPORT. Select one friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE CANOPTEK operative that's visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).\nThat selected operative can immediately perform a 1AP action for free; it cannot move more than 2\" during that action.\n\nThis operative cannot perform this action while within control range of an enemy operative"
-        },
-        {
-          "abilityId": "NEC-CAN-GEO-GD",
-          "opTypeId": "NEC-CAN-GEO",
-          "abilityName": "Geomantic Disturbance",
-          "AP": 1,
-          "description": "Select a point on a terrain feature; that point must be visible to and within 8\" of this operative. Separately roll 2D6 for each operative within 2\" of that point. If the result is higher than that operative's remaining wounds, inflict damage on it equal to the difference.\n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "NEC-CAN-GEO-MB",
-          "opTypeId": "NEC-CAN-GEO",
-          "abilityName": "Molecular Breach",
-          "AP": 1,
-          "description": "SUPPORT. Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE operative visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).\n\nThe next time the selected operative performs an action in which it moves, don't move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) horizontally of its\noriginal location (in a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, this distance can be measured over and through Wall terrain and the operative can be set up on the other side). Note that it gains no additional distance when performing the Charge action.\nIt must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative.\n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
           "abilityId": "NEC-CAN-GEO-SNC",
           "opTypeId": "NEC-CAN-GEO",
           "abilityName": "Obelisk Node Control",
           "description": "Whenever this operative would perform a mission action, if it requires this operative to control an objective marker, you can instead determine control from one of your OBELISK NODE markers (see Obelisk Node Matrix faction rule).\nWhenever this operative would perform the Operate Hatch action, you can open or close a hatchway thats access point is within 1\" of one of your OBELISK NODE markers instead.\nNote that you must still fulfil the Operate Hatch action's conditions."
+        }
+      ],
+      "actions": [
+        {
+          "id": "NEC-CAN-GEO-CC",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Canoptek Control",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE CANOPTEK operative that's visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).",
+            "That selected operative can immediately perform a 1AP action for free; it cannot move more than 2\" during that action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative"
+          ]
+        },
+        {
+          "id": "NEC-CAN-GEO-GD",
+          "type": "ability",
+          "seq": 1,
+          "AP": 1,
+          "name": "Geomantic Disturbance",
+          "description": null,
+          "effects": [
+            "Select a point on a terrain feature; that point must be visible to and within 8\" of this operative. Separately roll 2D6 for each operative within 2\" of that point. If the result is higher than that operative's remaining wounds, inflict damage on it equal to the difference."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          ]
+        },
+        {
+          "id": "NEC-CAN-GEO-MB",
+          "type": "ability",
+          "seq": 2,
+          "AP": 1,
+          "name": "Molecular Breach",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE operative visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).",
+            "The next time the selected operative performs an action in which it moves, don't move it. Instead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat (or 3\" if it was a Dash) horizontally of its",
+            "original location (in a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, this distance can be measured over and through Wall terrain and the operative can be set up on the other side). Note that it gains no additional distance when performing the Charge action.",
+            "It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -309,20 +336,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "NEC-CAN-ACC-CO",
-          "opTypeId": "NEC-CAN-ACC",
-          "abilityName": "Cranial Overload",
+          "id": "NEC-CAN-ACC-CO",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one enemy operative within your OBELISK NODE MATRIX.\nUntil the end of that enemy operative's next activation, subtract 1 from its APL stat.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Cranial Overload",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one enemy operative within your OBELISK NODE MATRIX.",
+            "Until the end of that enemy operative's next activation, subtract 1 from its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "NEC-CAN-ACC-OC",
-          "opTypeId": "NEC-CAN-ACC",
-          "abilityName": "Overcharge",
+          "id": "NEC-CAN-ACC-OC",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Select one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE CANOPTEK operative within your OBELISK NODE MATRIX.\nUntil the end of that selected operative's next activation, add 1 to its APL stat.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Overcharge",
+          "description": null,
+          "effects": [
+            "Select one other friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 3\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE CANOPTEK operative within your OBELISK NODE MATRIX.",
+            "Until the end of that selected operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -388,17 +432,27 @@
       ],
       "abilities": [
         {
-          "abilityId": "NEC-CAN-REA-NB",
-          "opTypeId": "NEC-CAN-REA",
-          "abilityName": "Nanoscarab Beam",
-          "AP": 1,
-          "description": "Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE operative within your OBELISK NODE MATRIX.\nThe selected operative regains up to 3D3 lost wounds. It cannot be an operative that the Reanimate rule was used on during this turning point.\n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
-        },
-        {
           "abilityId": "NEC-CAN-REA-REA",
           "opTypeId": "NEC-CAN-REA",
           "abilityName": "Reanimate",
           "description": "Once per turning point, when another friendly CANOPTEK CIRCLE operative would be incapacitated, if that operative is visible to and within 6\" of this operative, or if this and that operative are within your OBELISK NODE MATRIX,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action. If this rule was used during that friendly operative's activation, that activation ends.\n\nYou cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
+        }
+      ],
+      "actions": [
+        {
+          "id": "NEC-CAN-REA-NB",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Nanoscarab Beam",
+          "description": null,
+          "effects": [
+            "Select one friendly CANOPTEK CIRCLE operative visible to and within 6\" of this operative. Alternatively, if this operative is within your OBELISK NODE MATRIX, you can select one other friendly CANOPTEK CIRCLE operative within your OBELISK NODE MATRIX.",
+            "The selected operative regains up to 3D3 lost wounds. It cannot be an operative that the Reanimate rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+          ]
         }
       ]
     },
@@ -625,6 +679,14 @@
           "description": "Whenever your opponent is selecting a valid target, if this operative has a Conceal order, it cannot use Light terrain for cover. While this can allow this operative to be targeted (assuming it's visible), it doesn't remove its cover save (if any)"
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-NEC-CAN-DIMENSIONAL",
+      "name": "Destierro dimensional",
+      "description": "Después de que este agente haya usado esta arma, si has infligido daño o has guardado algún éxito crítico, si el blanco no ha quedado incapacitado, tira 2D6: si el resultado es mayor que las heridas restantes del blanco, el blanco queda incapacitado. (teniendo preferencia sobre las reglas que impiden la incapacitación, por ejemplo, ¡Médico!, FELLGOR RAVAGER, Frenesí) y tu oponente no puede colocar un marcador de Reanimación (CÍRCULO HIEROTECO ) para ese operativo, si procede.",
+      "team": "NEC-CAN"
     }
   ]
 }

@@ -904,5 +904,25 @@
         }
       ]
     }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-GPI-ENGINEERED",
+      "name": "Mecanizada",
+      "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige hasta dos de las siguientes mejoras o reglas de armas para que las tenga esta arma durante la batalla: sumar 1 al atributo Daño normal, sumar 1 al atributo Daño crítico, Brutal, Desgarradora, Equilibrada, Letal 5+.",
+      "team": "CHAOS-GPI"
+    },
+    {
+      "id": "WR-CHAOS-GPI-FEAST",
+      "name": "Saciarse",
+      "description": "Siempre que este agente usa esta arma contra un agente herido, suma 1 al atributo Ataque de esta arma y tiene la regla de armas Letal 5+.",
+      "team": "CHAOS-GPI"
+    },
+    {
+      "id": "WR-CHAOS-GPI-SWIPE",
+      "name": "Barrido",
+      "description": "Siempre que esta agente realiza una acción de Combatir y eliges este perfil de arma, si no resulta incapacitado, puede realizar inmediatamente a continuación una acción libre de Combatir, pero debes elegir este perfil de arma y solo puede combatir contra cada agente enemigo en su zona de control una vez por activación o reacción usando este perfil de arma. Esto tiene preferencia sobre las restricciones de acciones, y puedes seguir realizando acciones libres de Combatir hasta que este agente resulte incapacitado o haya combatido contra cada agente enemigo en su zona de control.",
+      "team": "CHAOS-GPI"
+    }
   ]
 }

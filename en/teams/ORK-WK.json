@@ -82,32 +82,28 @@
       "killteamId": "ORK-WK",
       "seq": 1,
       "eqName": "Drill Rokkits",
-      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative is performing the Shoot action and you select a Rokkit Launcha or 'Eavy Rokkit Launcha, you can use this rule.\nIf you do, until the end of that action, that weapon loses the Blast weapon rule but has the Piercing 1 weapon rule.",
-      "effects": ""
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative is performing the Shoot action and you select a Rokkit Launcha or 'Eavy Rokkit Launcha, you can use this rule.\nIf you do, until the end of that action, that weapon loses the Blast weapon rule but has the Piercing 1 weapon rule."
     },
     {
       "eqId": "ORK-WK-XA",
       "killteamId": "ORK-WK",
       "seq": 2,
       "eqName": "Extra Armour",
-      "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment.",
-      "effects": "M|-1"
+      "description": "Subtract 1\" from the Move stat of friendly WRECKA KREW operatives improve their Save stat by 1. This excludes BOMB SQUIG operatives and isn't cumulative with the Protective rule of a Portable Barricade from universal equipment."
     },
     {
       "eqId": "ORK-WK-EO",
       "killteamId": "ORK-WK",
       "seq": 3,
       "eqName": "Engine Oil",
-      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is activated, you can use this rule.\nIf you do, until the end of that activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats).",
-      "effects": ""
+      "description": "Once per Turning Point, whenever a friendly WRECKA KREW operative (excluding BOMB SQUIG) is activated, you can use this rule.\nIf you do, until the end of that activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
     },
     {
       "eqId": "ORK-WK-GL",
       "killteamId": "ORK-WK",
       "seq": 4,
       "eqName": "Glyphs",
-      "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points.",
-      "effects": ""
+      "description": "When this item of equipment is selected, also select the Waaagh! or Destruction strategy ploy.\nThe first time you would use that ploy during the battle, it costs 0CP; whenever you would use it thereafter, it costs 0CP if you have any Wrecka points."
     }
   ],
   "teamAbilities": [
@@ -310,13 +306,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "ORK-WK-BBFTR-BS",
-          "opTypeId": "ORK-WK-BBFTR",
-          "abilityName": "Break Stuff",
+          "id": "ORK-WK-BBFTR-BS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select a terrain feature within this operative's control range.\nIf it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          "name": "Break Stuff",
+          "description": null,
+          "effects": [
+            "Select a terrain feature within this operative's control range.",
+            "If it is Equipment terrain, remove it. Otherwise, place one of your Breach markers within this operative's control range as close as possible to that terrain.",
+            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative, or if a terrain feature is not within its Control Range."
+          ]
         }
       ]
     },
@@ -753,6 +759,20 @@
           "description": "During the Firefight phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition, and Shoot, or use any weapons that are not on its datacard."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-ORK-WK-PULSA",
+      "name": "Pulsa",
+      "description": "Do not select a valid target. Instead, place your Pulsa marker Visible to this operative, or on Vantage terrain of a terrain feature Visible to this operative.\nThat marker gains 1 Pulsa point, then roll attack dice: \nIt gains 1 additional Pulsa point for each success (to a maximum of 3 additional points). Separately inflict 1D3 damage on each operative wholly within x\" of that marker, where x is that marker's Pulsa points.\nThen the action ends.",
+      "team": "ORK-WK"
+    },
+    {
+      "id": "WR-ORK-WK-SMASH",
+      "name": "Smash",
+      "description": "Whenever you strike, you can move the enemy operative in a straight line increment of up to 1\".\nIf you do, it must finish the move further away from this operative and in a location it can be placed.\nThen move this operative in a straight line increment of up to 1\", but it must end that move within that enemy operative's control range (if either is not possible, you cannot move them).",
+      "team": "ORK-WK"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "weapon_rules": [
     {
       "id": "WR-UNIV-ACCURATE",
-      "name": "Certera X",
+      "name": "Certera",
       "description": "Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certero 2 en su lugar (esto tiene preferencia ante las reglas x que figuran en el encabezamiento de esta sección).",
       "team": null
     },
@@ -14,7 +14,7 @@
     },
     {
       "id": "WR-UNIV-BLAST",
-      "name": "Área X",
+      "name": "Área",
       "description": "El blanco que selecciones es el blanco principal. Tras disparar al blanco principal, dispara con esta arma contra cada blanco secundario en el orden que elijas (tira por cada secuencia por separado). Los blancos secundarios son otros agentes visibles para el blanco principal y a x o menos del mismo; p. ej., “Área 2” (todos se consideran blancos válidos, a pesar de que tengan órdenes de Ocultarse). Los blancos secundarios están a cubierto y ofuscados si el blanco principal lo estaba.",
       "team": null
     },
@@ -32,7 +32,7 @@
     },
     {
       "id": "WR-UNIV-DEVASTATING",
-      "name": "Devastadora X",
+      "name": "Devastadora",
       "description": "Cada éxito crítico guardado inflige inmediatamente x daño al agente contra el que se utiliza el arma; p. ej., Devastadora 3. Si la regla empieza con una distancia (p. ej., 1” Devastadora x), inflige x daño a ese agente y a cualquier otro visible para el blanco y a esa distancia o menos del mismo. Ten en cuenta que el éxito no se descarta después de hacerlo: puede resolverse más adelante en la secuencia.",
       "team": null
     },
@@ -50,19 +50,19 @@
     },
     {
       "id": "WR-UNIV-LETHAL",
-      "name": "Letal X+",
+      "name": "Letal",
       "description": "Tus éxitos con un resultado igual o superior a x son éxitos críticos; p. ej., Letal 5+.",
       "team": null
     },
     {
       "id": "WR-UNIV-LIMITED",
-      "name": "Limitada X",
+      "name": "Limitada",
       "description": "En cuanto un agente ha usado esta arma x veces en batalla, deja de tenerla. Si se usa múltiples veces en una acción (p. ej., Área), se considera de un solo uso.",
       "team": null
     },
     {
       "id": "WR-UNIV-PIERCING",
-      "name": "Penetración X",
+      "name": "Penetración",
       "description": "El defensor reúne x dados de defensa menos; p. ej., Penetración 1. Si la regla es Críticos de penetración x, eso solo sucede si guardas algún éxito crítico.",
       "team": null
     },
@@ -80,7 +80,7 @@
     },
     {
       "id": "WR-UNIV-RANGE",
-      "name": "Alcance X",
+      "name": "Alcance",
       "description": "Solo los agentes a x o menos del agente activo pueden ser blancos válidos; p. ej., Alcance 9\"",
       "team": null
     },
@@ -134,291 +134,9 @@
     },
     {
       "id": "WR-UNIV-TORRENT",
-      "name": "Ráfaga X",
+      "name": "Ráfaga",
       "description": "Elige un blanco válido como blanco principal, luego elige cualquier número de otros blancos válidos a x o menos del primer blanco como blancos secundarios; p. ej., Ráfaga 2\". Dispara con esta arma contra todos ellos en el orden que prefieras (tira por cada secuencia por separado).",
       "team": null
-    },
-    {
-      "id": "WR-IMP-NOV-ANTI-PSYKER",
-      "name": "AntiPSÍQUICO",
-      "description": "Cuando esta arma se use contra un agente que tiene la clave PSÍQUICO, suma 1 a ambos atributos Daño de esta arma y además tiene la regla de arma Letal 5+.",
-      "team": "IMP-NOV"
-    },
-    {
-      "id": "WR-VOT-HKS-BEAM",
-      "name": "Haz",
-      "description": "Cuando este agente dispare con esta arma, cada éxito crítico guardado inflige inmediatamente 1D3 daños a cada otro agente que se encuentre a lo largo de una (y solo una) línea de haz (tira por separado por cada agente), pero el blanco no resulta afectado. Un agente se encuentra a lo largo de una línea de haz si se puede trazar una línea desde este agente hasta la peana de dicho agente, y esa línea atraviesa la peana del blanco original pero no atraviesa terreno Pesado.",
-      "team": "VOT-HKS"
-    },
-    {
-      "id": "WR-VOT-HKY-BIPOD",
-      "name": "Bípode",
-      "description": "Cada vez que este agente dispare con esta arma, si no se ha movido durante la activación, o si es un contraataque, esta arma tiene la regla de arma Incesante. Ten en cuenta que este agente no tiene restricciones para moverse después de disparar.",
-      "team": "VOT-HKY"
-    },
-    {
-      "id": "WR-IMP-SANC-BLAZE",
-      "name": "Llamarada",
-      "description": "Si infliges daño con éxitos críticos, el agente contra el que se está usando esta arma gana una de tus fichas de Llamarada (si no tiene ya una). Cuando un agente con una de tus fichas de Llamarada sea activado, inflige 1D3 daños. A continuación, el jugador controlador de ese agente elige una de las siguientes opciones: - Tira 1D6: con un 3+, retira esa ficha. - Resta 1 al atributo LPA del agente hasta el final de esa activación para retirar esa ficha.",
-      "team": "IMP-SANC"
-    },
-    {
-      "id": "WR-CHAOS-BLD-BLOOD",
-      "name": "Ofrenda de Sangre",
-      "description": "Siempre que este agente esté luchando o contraatacando con esta arma, la primera vez que logres un éxito crítico durante esa secuencia, obtienes una ficha Ungido.",
-      "team": "CHAOS-BLD"
-    },
-    {
-      "id": "WR-IMP-AES-CONCEALED",
-      "name": "Posición oculta",
-      "description": "Este agente solo puede usar esta arma la primera vez que realiza una acción de Disparar durante la batalla.",
-      "team": "IMP-AES"
-    },
-    {
-      "id": "WR-TYR-RAV-CRUSH",
-      "name": "Machacar",
-      "description": "Siempre que golpees, desempata con tu oponente y suma 1 al resultado si este agente contra el que se usa esta arma tiene un atributo Heridas de 9 o menos. Si ganas, inflige tanto daño adicional a ese agente como la diferencia entre los resultados (hasta un máximo de 3 daños adicionales).",
-      "team": "TYR-RAV"
-    },
-    {
-      "id": "WR-IMP-PHO-CUSTOM",
-      "name": "Personalizada",
-      "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige hasta dos de las siguientes reglas de armas para que las tenga esta arma durante la batalla: Críticos de Penetración 1, Desgarradora, Equilibrada, Letal 5+, Saturación.",
-      "team": "IMP-PHO"
-    },
-    {
-      "id": "WR-IMP-DKK-DETONATE",
-      "name": "Detonar",
-      "description": "No elijas un blanco válido. En su lugar, dispara contra cada agente a 2\" o menos de tu marcador de Explosivos, salvo que haya terreno Pesado completamente interpuesto entre ese agente y ese marcador. Ninguno de esos agentes está a cubierto u ofuscado. Tira cada secuencia por separado en el orden que elijas. No puedes elegir esta arma si tu marcador de Explosivos no está en la zona de aniquilación. Al final de la acción, retira tu marcador de Explosivos de la ella.",
-      "team": "IMP-DKK"
-    },
-    {
-      "id": "WR-NEC-CAN-DIMENSIONAL",
-      "name": "Destierro dimensional",
-      "description": "Después de que este agente haya usado esta arma, si has infligido daño o has guardado algún éxito crítico, si el blanco no ha quedado incapacitado, tira 2D6: si el resultado es mayor que las heridas restantes del blanco, el blanco queda incapacitado. (teniendo preferencia sobre las reglas que impiden la incapacitación, por ejemplo, ¡Médico!, FELLGOR RAVAGER, Frenesí) y tu oponente no puede colocar un marcador de Reanimación (CÍRCULO HIEROTECO ) para ese operativo, si procede.",
-      "team": "NEC-CAN"
-    },
-    {
-      "id": "WR-CHAOS-GORE-DRAG",
-      "name": "Arrastre",
-      "description": "Cuando este agente dispare con esta arma, al inicio del paso de Resolver dados de ataque (antes de infligir daño), puedes mover al blanco hasta X\". X es tu número total de dados de ataque no bloqueados exitosos, multiplicado por 2. El blanco debe ser movido a una localización en la que pueda ser colocado tan cerca de este agente como sea posible, determinada por las X\" que decidas usar. El movimiento debe hacerse en uno o más incrementos en línea recta, y cada incremento se redondeará siempre al alza hasta la pulgada más cercana. Cuando el blanco se deje caer durante dicho movimiento, ignora la distancia vertical.",
-      "team": "CHAOS-GORE"
-    },
-    {
-      "id": "WR-CHAOS-GPI-ENGINEERED",
-      "name": "Mecanizada",
-      "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige hasta dos de las siguientes mejoras o reglas de armas para que las tenga esta arma durante la batalla: sumar 1 al atributo Daño normal, sumar 1 al atributo Daño crítico, Brutal, Desgarradora, Equilibrada, Letal 5+.",
-      "team": "CHAOS-GPI"
-    },
-    {
-      "id": "WR-ORK-KOM-EXPLOSIVE",
-      "name": "Explosivo",
-      "description": "Este agente puede realizar la acción de Disparar con esta arma mientras esté dentro de la zona de control de un agente enemigo. No selecciones un blanco válido. En su lugar, este agente es siempre el objetivo principal y no puede estar en cobertura ni oculto.",
-      "team": "ORK-KOM"
-    },
-    {
-      "id": "WR-CHAOS-GPI-FEAST",
-      "name": "Saciarse",
-      "description": "Siempre que este agente usa esta arma contra un agente herido, suma 1 al atributo Ataque de esta arma y tiene la regla de armas Letal 5+.",
-      "team": "CHAOS-GPI"
-    },
-    {
-      "id": "WR-AEL-HOTA-FLAY",
-      "name": "Desollar",
-      "description": "Siempre que este agente usa esta arma, la primera vez que golpees con un éxito crítico durante esa secuencia, puedes elegir un agente MANO DEL ARCONTE amigo a 6\" o menos de él para que obtenga una de tus fichas de Dolor.",
-      "team": "AEL-HOTA"
-    },
-    {
-      "id": "WR-VOT-HKS-FORCE",
-      "name": "Impacto Brutal",
-      "description": "Cuando este agente combata con esta arma, si ha realizado la acción de Cargar durante la activación, esta arma tiene la regla de armas Brutal",
-      "team": "VOT-HKS"
-    },
-    {
-      "id": "WR-CHAOS-FELL-HEADTAKER",
-      "name": "Cazacabezas",
-      "description": "Cada vez que este agente incapacite a un agente enemigo con esta arma, tira 1D3:Este agente recupera una cantidad de heridas perdidas igual al resultado (a menos que tenga una de tus fichas de Frenesí). Hasta el final de la batalla, suma el resultado a la característica de Daño Crítico del arma cortacráneos de este agente (hasta un máximo de 8).",
-      "team": "WR-CHAOS-FELL"
-    },
-    {
-      "id": "WR-AEL-VDT-HUMBLING",
-      "name": "Crueldad humillante",
-      "description": "Si el blanco de esta arma no resulta incapacitado pero alguno de tus dados de ataque inflige daño, el blanco obtiene una de tus fichas de Crueldad humillante (si no tiene una ya). Mientras un enemigo tenga una de tus fichas de Crueldad humillante, empeora en 1 el atributo Impactar de sus armas y resta 2\" a su atributo Movimiento. Esto no se acumula con estar lesionado. Al final de la siguiente activación de ese agente enemigo, retira su ficha de Crueldad humillante.",
-      "team": "AEL-VDT"
-    },
-    {
-      "id": "WR-TYR-WB-HYPERSENSE",
-      "name": "Hipersentido",
-      "description": "Cuando este agente dispara con este perfil de arma, los agentes enemigos no pueden estar ofuscados.",
-      "team": "TYR-WB"
-    },
-    {
-      "id": "WR-NEC-HIER-MAGNIFY",
-      "name": "Ampliar",
-      "description": "Siempre que este agente realice una acción de Disparar con esta arma, si hay otro APRENTECNÓLOGO CÍRCULO DE HIEROTECNÓLOGOS o CRIPTECNÓLOGO CÍRCULO DE HIEROTECNÓLOGOS amigo con una orden de trabarse y visible para este agente, puedes usar esta regla. si lo haces, trata a ese agente como el agente activo a efectos de determinar un blanco válido, cobertura y ofuscación. Si lo haces, esta arma tiene la regla de armas Incesante hasta el final de esa acción.",
-      "team": "NEC-HIER"
-    },
-    {
-      "id": "WR-CHAOS-WC-MINDBURN",
-      "name": "Quemar mente",
-      "description": "En el paso de Resolver dados de ataque, si infliges daño con algún éxito crítico, el agente contra el que se usa esta arma gana una de tus fichas de Quemar mente (si no tiene una ya) hasta el final de su siguiente activación, hasta que resulte incapacitado o hasta que un agente amigo use de nuevo esta arma (lo que ocurra antes). Mientras un agente tenga una de tus fichas de Quemar mente, empeora en 1 el atributo Impactar de sus armas (esto no se acumula con estar lesionado).",
-      "team": "CHAOS-WC"
-    },
-    {
-      "id": "WR-TAU-VESP-NEUTRON",
-      "name": "Fragmento de neutrones",
-      "description": "Si el blanco no está incapacitado pero resuelves cualesquiera dados de ataque, el blanco gana una de tus fichas de Fragmento de neutrones. Cuando un operativo que tenga uno de tus marcadores de Fragmento de neutrones se active, inflingele D3 daño en el por cada marcador de Fragmento de neutrones que tenga (tira de forma separada por cada uno).",
-      "team": "TAU-VESP"
-    },
-    {
-      "id": "WR-TAU-VESP-NEUTRONB",
-      "name": "Bombardeo de neutrones",
-      "description": "Coloca uno de tus marcadores de Lluvia de neutrones dentro de la zona de control del blanco principal.",
-      "team": "TAU-VESP"
-    },
-    {
-      "id": "WR-IMP-DW-PHASE",
-      "name": "Barrido de fase",
-      "description": " Siempre que este agente realice la acción de Combatir con este perfil de arma, si no resulta incapacitado puede realizar inmediatamente una acción libre de Combatir; debes seleccionar este mismo perfil y solo puede combatir contra cada agente enemigo en su zona de control una vez por activación o reacción usando este perfil. Esto tiene preferencia sobre las restricciones de acciones y puedes seguir realizando acciones libres de Combatir hasta que este agente quede incapacitado o haya combatido contra todos los enemigos de su zona de control.",
-      "team": "IMP-DW"
-    },
-    {
-      "id": "WR-CHAOS-PM-POISON",
-      "name": "Veneno",
-      "description": "En el paso Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma (excepto agentes MARINE DE PLAGA amigos) obtiene una de tus fichas de Veneno (si no tiene una ya). Siempre que un agente que tenga una de tus fichas de Veneno sea activado, inflíngele 1 daño.",
-      "team": "CHAOS-PM"
-    },
-    {
-      "id": "WR-CHAOS-GORE-PREY",
-      "name": "Acosar",
-      "description": "Cuando este agente dispare con esta arma, durante el paso de Resolver dados de ataque, tras haber resuelto la regla de armas Arrastrar (si has elegido hacerlo), puedes descartar cualquiera de tus dados de ataque no bloqueados. En otras palabras, puedes elegir no infligir daño con cualesquiera de ellos.",
-      "team": "CHAOS-GORE"
-    },
-    {
-      "id": "WR-ORK-WK-PULSA",
-      "name": "Indukzión",
-      "description": "No selecciones un blanco válido. En su lugar, sitúa tu marcador de Indukzión visible para este agente, o en terreno aventajado de un elemento de terreno visible para este agente. Ese marcador gana 1 punto de Indukzión (usa las fichas de puntos de Indukzión); luego tira los dados de ataque: el marcador gana 1 punto de Indukzión adicional por cada éxito (hasta un máximo de 3 puntos adicionales). Inflige 1D3 de daño por separado a cada agente completamente a x\" o menos de ese marcador, donde x equivale a los puntos de Indukzión de ese marcador. Después la acción finaliza.",
-      "team": "ORK-WK"
-    },
-    {
-      "id": "WR-IMP-AES-REPRESS",
-      "name": "Represor",
-      "description": " Cuando este agente use esta arma:\n\n- CCada uno de tus bloqueos puede asignarse a bloquear dos éxitos no resueltos (en lugar de uno).\n- Si este agente está contratacando, resuelve el primer dado de ataque (es decir, el defensor en lugar del atacante).\n",
-      "team": "IMP-AES"
-    },
-    {
-      "id": "WR-IMP-NOV-RIPOSTE",
-      "name": "Parada y contraataque",
-      "description": "Siempre que bloquees con un éxito crítico, puedes también infligir al agente enemigo en esa secuencia tantos daños como el atributo Daño crítico del arma.",
-      "team": "IMP-NOV"
-    },
-    {
-      "id": "WR-CHAOS-GORE-RITUAL",
-      "name": "Ritual",
-      "description": "Cuando este agente utilice esta arma, la primera vez durante esa secuencia que inflijas daño a un agente en su zona de control, puedes incrementar el DEPÓSITO SANGRIENTO de este agente. Ten en cuenta que esto es acumulativo con las reglas normales para incrementar su DEPÓSITO SANGRIENTO (es decir, si incapacita a un agente en su zona de control).",
-      "team": "CHAOS-GORE"
-    },
-    {
-      "id": "WR-IMP-TEMPAQ-SALVO",
-      "name": "Salva",
-      "description": "Elige hasta dos blancos válidos diferentes que no estén en la zona de control de agentes amigos. Dispara con esta arma contra ellos dos en el orden que quieras (resuelve cada secuencia por separado).",
-      "team": "IMP-TEMPAQ"
-    },
-    {
-      "id": "WR-CHAOS-BLD-SHIELD",
-      "name": "Escudo",
-      "description": "Siempre que este operativo esté luchando o tomando represalias con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos no resueltos (en lugar de uno).",
-      "team": "CHAOS-BLD"
-    },
-    {
-      "id": "WR-CHAOS-LEG-SIPHON",
-      "name": "Drenaje Vital",
-      "description": "Cuando elijas esta arma, puedes usar esta regla. Si lo haces, al inicio del paso de Resolver Dados de Ataque, puedes selecciona un agente amigo LEGIONARIO visible y a 6\" de este agente. Por cada dado de ataque que resuelvas durante ese paso que inflija daño, ese agente amigo recupera 1 herida perdida, o 1D3 heridas perdidas si fue un éxito crítico. No puedes usar esta regla de arma más de una vez por punto de inflexión.",
-      "team": "CHAOS-LEG"
-    },
-    {
-      "id": "WR-TAU-VESP-SKYTORCH",
-      "name": "Antorcha celeste",
-      "description": "Un agente solo puede usar esta arma durante una activación en la que haya realizado la acción de Reposicionarse con VOLAR. Si lo hace, no elijas un blanco válido. En lugar de eso, dispara contra cada agente dentro de su zona de achicharramiento (excepto agentes que estén completamente bajo terreno Aventajado); no se consideran a cubierto ni ofuscados. Tira cada secuencia por separado en orden desde el agente más lejano al más cercano. La zona de achicharramiento es el área entre la posición actual y previa del agente. Se puede colocar temporalmente bajo este agente un marcador redondo de Antorcha celeste de 28 mm antes de moverlo, como ayuda a la hora de determinar esto. Recuerda que Ráfaga 0” significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de arma Ráfaga a efectos de todas las demás reglas, p.ej., la regla de Fortaleza Condensada (ver Zona de aniquilación: Volkus, Libro Básico de Kill Team)",
-      "team": "TAU-VESP"
-    },
-    {
-      "id": "WR-ORK-WK-SMASH",
-      "name": "Destrozar",
-      "description": "Cuando golpees, puedes mover en línea recta al agente enemigo hasta 1\". Si lo haces, debe terminar el movimiento más lejos de este agente y en un lugar donde pueda situarse. A continuación, mueve a este agente en línea recta hasta 1\", pero debe terminar ese movimiento en la zona de control del agente enemigo (si no es posible, no puedes moverlo)",
-      "team": "ORK-WK"
-    },
-    {
-      "id": "WR-AEL-MND-SOULSTRIKE",
-      "name": "Rompealmas",
-      "description": "Los dados de defensa exitosos se determinan de manera diferente. Cada resultado que sea igual o menor que el atributo de LPA del objetivo es un éxito y se retiene. Cada resultado que sea mayor que el atributo de LPA del objetivo es un fallo y se descarta. Cada resultado de 1 es siempre un éxito crítico. Los otros éxitos son éxitos normales. Cada resultado de 6 es siempre un fallo.",
-      "team": "AEL-MND"
-    },
-    {
-      "id": "WR-CHAOS-BLD-STALK",
-      "name": "Acecho",
-      "description": "Siempre que este agente esté luchando o contraatacando con esta arma, si hay terreno Ligero o Pesado dentro de su rango de control, esta arma tiene la regla de arma Letal 5+.",
-      "team": "CHAOS-BLD"
-    },
-    {
-      "id": "WR-AEL-HOTA-STINGER",
-      "name": "Aguijón",
-      "description": "Cuando un agente enemigo queda incapacitado por esta arma, antes de retirarlo de la zona de aniquilación, inflige 1D3 daños a cada otro agente a 2\" o menos ese agente enemigo y visible para él. Cada agente que quede subsiguientemente incapacitado debido a esta regla de armas provocará que esto vuelva a suceder.",
-      "team": "AEL-HOTA"
-    },
-    {
-      "id": "WR-CHAOS-GPI-SWIPE",
-      "name": "Barrido",
-      "description": "Siempre que esta agente realiza una acción de Combatir y eliges este perfil de arma, si no resulta incapacitado, puede realizar inmediatamente a continuación una acción libre de Combatir, pero debes elegir este perfil de arma y solo puede combatir contra cada agente enemigo en su zona de control una vez por activación o reacción usando este perfil de arma. Esto tiene preferencia sobre las restricciones de acciones, y puedes seguir realizando acciones libres de Combatir hasta que este agente resulte incapacitado o haya combatido contra cada agente enemigo en su zona de control.",
-      "team": "CHAOS-GPI"
-    },
-    {
-      "id": "WR-CHAOS-FELL-TACTUAL",
-      "name": "Cazador sensorial",
-      "description": "Siempre que este agente combata con esta arma contra un agente usado, la primera vez que golpees con un éxito crítico durante esa secuencia, puedes resolver inmediatamente otro de tus éxitos como un golpe (antes que tu oponente).",
-      "team": "WR-CHAOS-FELL"
-    },
-    {
-      "id": "WR-AEL-HOTA-TANGLE",
-      "name": "Enredar",
-      "description": "Cuando este agente combate o contraataca con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno).",
-      "team": "AEL-HOTA"
-    },
-    {
-      "id": "WR-CHAOS-NC-TERRORCHEM",
-      "name": "Terrotoxinas",
-      "description": "En el paso de Resolver Dados de Ataque, si infliges daño con algún impacto crítico, el agente al que se está atacando con esta arma gana una de tus fichas de terrotoxinas (si no tiene una ya).",
-      "team": "CHAOS-NC"
-    },
-    {
-      "id": "WR-CHAOS-PM-TOXIC",
-      "name": "Tóxica",
-      "description": "Siempre que este agente usa esta arma contra un agente enemigo que tenga una de tus fichas de Veneno, suma 1 a ambos atributos de Daño de esta arma.",
-      "team": "CHAOS-PM"
-    },
-    {
-      "id": "WR-IMP-SANC-TWIN",
-      "name": "Ráfaga doble",
-      "description": "Elige hasta dos blancos válidos. Dispara con esta arma contra ambos en el orden que elijas (tira cada secuencia por separado). Ráfaga 0\" significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de armas Ráfaga a todos los demás efectos de reglas, como por ejemplo de la regla Fortaleza condensada (ver Zona de aniquilación: Volkus, Libro básico de Kill Team).",
-      "team": "IMP-SANC"
-    },
-    {
-      "id": "WR-CHAOS-FELL-VICIOUS",
-      "name": "Golpes Demoledores",
-      "description": "Cuando este agente combata, esta arma tiene la regla de armas Incesante.",
-      "team": "WR-CHAOS-FELL"
-    },
-    {
-      "id": "WR-IMP-NOV-ZEALOUS",
-      "name": "Furia Fanática",
-      "description": "Cuando esta agente combate con esta arma, tiene la regla de armas Incesante.",
-      "team": "IMP-NOV"
-    },
-    {
-      "id": "WR-IMP-SANC-WREATHED",
-      "name": "Envuelto",
-      "description": "Este agente puede realizar acciones de Disparar con esta arma mientras aún está en la zona de control de un agente enemigo. No selecciones un blanco válido. En lugar de eso, este agente es siempre el blanco principal, pero dispara solo contra los blancos secundarios y estos no pueden estar a cubierto ni ocultados (en otras palabras, determinas el Área desde este agente, pero este agente no se ve afectado).",
-      "team": "IMP-SANC"
     }
   ]
 }

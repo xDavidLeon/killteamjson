@@ -82,32 +82,28 @@
       "killteamId": "IMP-AES",
       "seq": 1,
       "eqName": "Manacles",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
-      "effects": ""
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it)."
     },
     {
       "eqId": "IMP-AES-SPL",
       "killteamId": "IMP-AES",
       "seq": 2,
       "eqName": "Strobing Phosphor-Lumen",
-      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly EXACTION SQUAD operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly EXACTION SQUAD operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1."
     },
     {
       "eqId": "IMP-AES-SIS",
       "killteamId": "IMP-AES",
       "seq": 3,
       "eqName": "Special-Issue Shells",
-      "description": "Up to twice per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n",
-      "effects": ""
+      "description": "Up to twice per turning point, when a friendly EXACTION SQUAD operative is performing the Shoot action and you select a combat shotgun, executioner shotgun, scoped shotpistol or shotpistol, you can use this rule.\nIf you do, select one of the following weapon rules for that weapon to have until the end of that action:\n\n- Saturate.\n- Piercing 1, but only if the target has a Save stat of 3+ or better.\n- Torrent 1\", but you cannot select more than one secondary target.\n"
     },
     {
       "eqId": "IMP-AES-RMV",
       "killteamId": "IMP-AES",
       "seq": 4,
       "eqName": "Reinforced Mirror-Visor",
-      "description": "You can ignore any changes to the APL stats of friendly EXACTION SQUAD operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
-      "effects": ""
+      "description": "You can ignore any changes to the APL stats of friendly EXACTION SQUAD operatives, and they aren't affected by enemy operatives' Shock weapon rule."
     }
   ],
   "teamAbilities": [
@@ -255,13 +251,23 @@
           "opTypeId": "IMP-AES-PE",
           "abilityName": "Nuncio-Aquila",
           "description": "\n- Whenever an enemy operative is within 3\" of your Nuncio-aquila marker (or this operative if your Nuncio-aquila marker isn't in the killzone), your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n- Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of your Nuncio-aquila marker\n(or this operative if your Nuncio-aquila marker isn't in the killzone). Note this isn't a change to the APL stat, so any changes are cumulative with this\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-PE-DNA",
-          "opTypeId": "IMP-AES-PE",
-          "abilityName": "Deploy Nuncio-Aquila",
+          "id": "IMP-AES-PE-DNA",
+          "type": "ability",
+          "seq": 0,
           "AP": 0,
-          "description": "If your Nuncio-aquila marker isn't in the killzone, place it within 6\" horizontally of this operative; otherwise, move your Nuncio-aquila marker up to 6\" horizontally.\nIf this operative is removed from the killzone, remove your Nuncio-aquila marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Deploy Nuncio-Aquila",
+          "description": null,
+          "effects": [
+            "If your Nuncio-aquila marker isn't in the killzone, place it within 6\" horizontally of this operative; otherwise, move your Nuncio-aquila marker up to 6\" horizontally.",
+            "If this operative is removed from the killzone, remove your Nuncio-aquila marker from the killzone."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -431,13 +437,23 @@
           "opTypeId": "IMP-AES-CHI",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly EXACTION SQUAD operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of the action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's\r control range. Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that\r friendly operative's activation, that activation ends. You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-CHI-MDK",
-          "opTypeId": "IMP-AES-CHI",
-          "abilityName": "Medikit",
+          "id": "IMP-AES-CHI-MDK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly EXACTION SQUAD operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly EXACTION SQUAD operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -674,13 +690,19 @@
           "opTypeId": "IMP-AES-LSH",
           "abilityName": "Handler",
           "description": "Whenever this operative is activated, you can activate a ready friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative at the same time. Complete their activations action by action in any order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-LSH-RC",
-          "opTypeId": "IMP-AES-LSH",
-          "abilityName": "R-VR Command",
+          "id": "IMP-AES-LSH-RC",
+          "type": "ability",
+          "seq": 0,
           "AP": 0,
-          "description": "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
+          "name": "R-VR Command",
+          "description": null,
+          "effects": [
+            "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
+          ]
         }
       ]
     },
@@ -727,13 +749,25 @@
           "opTypeId": "IMP-AES-RVR",
           "abilityName": "Beast",
           "description": "This operative cannot perform any actions other than Apprehend, Charge, Dash, Fall Back, Fight, Guard, Reposition, Pick Up Marker and Place Marker. It cannot use any weapons that aren't on its datacard."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-RVR-APP",
-          "opTypeId": "IMP-AES-RVR",
-          "abilityName": "Apprehend",
+          "id": "IMP-AES-RVR-APP",
+          "type": "ability",
+          "seq": 0,
           "AP": 0,
-          "description": "Select one enemy operative within this operative's control range.\nUntil that enemy operative is no longer within this operative's control range, or until this operative performs this action again (whichever comes first),\nworsen the Hit stat of that enemy operative's weapons by 1 (this isn't cumulative with being injured);\nin addition, that enemy operative cannot perform the Fall Back action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
+          "name": "Apprehend",
+          "description": null,
+          "effects": [
+            "Select one enemy operative within this operative's control range.",
+            "Until that enemy operative is no longer within this operative's control range, or until this operative performs this action again (whichever comes first),",
+            "worsen the Hit stat of that enemy operative's weapons by 1 (this isn't cumulative with being injured);",
+            "in addition, that enemy operative cannot perform the Fall Back action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action unless an enemy operative is within its control range."
+          ]
         }
       ]
     },
@@ -809,13 +843,20 @@
           "opTypeId": "IMP-AES-MAL",
           "abilityName": "Acute Focus",
           "description": "Once during each of this operative's activations, it can perform the Pick Up Marker, Place Marker, Veriscant or a mission action for 1 less AP."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-MAL-VER",
-          "opTypeId": "IMP-AES-MAL",
-          "abilityName": "Veriscant",
+          "id": "IMP-AES-MAL-VER",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Lethal 5+ and Severe weapon rules.\n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Veriscant",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Lethal 5+ and Severe weapon rules.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -912,13 +953,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-AES-MRK-OPT",
-          "opTypeId": "IMP-AES-MRK",
-          "abilityName": "Optics",
+          "id": "IMP-AES-MRK-OPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its executioner shotgun, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Optics",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation:",
+            "- The concealed and stationary profiles of its executioner shotgun have the Lethal 5+ weapon rule.",
+            "- Whenever it's shooting with its executioner shotgun, enemy operatives cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -998,13 +1049,26 @@
           "opTypeId": "IMP-AES-REV",
           "abilityName": "First In The Field",
           "description": "**STRATEGIC GAMBIT** in the first turning point.\nIf this operative is wholly within your drop zone, it can immediately perform a free Reposition action."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AES-REV-SPT",
-          "opTypeId": "IMP-AES-REV",
-          "abilityName": "Spot",
+          "id": "IMP-AES-REV-SPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,\nyou can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,",
+            "you can use this effect. If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1221,15 +1285,38 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-AES-VOX-SIG",
-          "opTypeId": "IMP-AES-VOX",
-          "abilityName": "Signal",
+          "id": "IMP-AES-VOX-SIG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly EXACTION SQUAD operative visible to this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly EXACTION SQUAD operative visible to this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-AES-CONCEALED",
+      "name": "Concealed Position",
+      "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle.",
+      "team": "IMP-AES"
+    },
+    {
+      "id": "WR-IMP-AES-REPRESS",
+      "name": "Repress",
+      "description": "Whenever this operative is using this weapon:\n\n- Each of your blocks can be allocated to block two unresolved successes (instead of one).\n- If this operative is retaliating, you resolve the first attack dice (i.e. defender instead of attacker).\n",
+      "team": "IMP-AES"
     }
   ]
 }

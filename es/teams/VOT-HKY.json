@@ -927,5 +927,13 @@
         }
       ]
     }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-VOT-HKY-BIPOD",
+      "name": "Bípode",
+      "description": "Cada vez que este agente dispare con esta arma, si no se ha movido durante la activación, o si es un contraataque, esta arma tiene la regla de arma Incesante. Ten en cuenta que este agente no tiene restricciones para moverse después de disparar.",
+      "team": "VOT-HKY"
+    }
   ]
 }

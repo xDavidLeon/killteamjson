@@ -220,13 +220,21 @@
           "opTypeId": "IMP-SANC-CRB",
           "abilityName": "Fly",
           "description": "Whenever this operative is performing the Charge, Fall Back or Reposition action, it can FLY. If it does, don't move it.\nInstead, remove it from the killzone and set it back up wholly within a distance equal to its Move stat horizontally of its original location (in a killzone that uses the close quarters rules, e.g. Killzone: Gallowdark, this distance cannot be measured over or through Wall terrain).\nNote that it gains no additional distance when performing the Charge action. It must be set up in a location it can be placed, and unless it's the Charge action, it cannot be set up within control range of an enemy operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-CRB-INC",
-          "opTypeId": "IMP-SANC-CRB",
-          "abilityName": "Incentivise",
+          "id": "IMP-SANC-CRB-INC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Incentivise",
+          "description": null,
+          "effects": [
+            "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.",
+            "Until the end of that operative's next activation, add 1 to its APL stat.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -398,13 +406,20 @@
           "opTypeId": "IMP-SANC-ASS",
           "abilityName": "Bladed Stance",
           "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-ASS-TA",
-          "opTypeId": "IMP-SANC-ASS",
-          "abilityName": "Trained Assassin",
+          "id": "IMP-SANC-ASS-TA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Change this operative's order.\n  \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Trained Assassin",
+          "description": null,
+          "effects": [
+            "Change this operative's order.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1126,15 +1141,42 @@
           "opTypeId": "IMP-SANC-SAL",
           "abilityName": "Conversion Field",
           "description": "Whenever an operative more than 6\" from this operative is shooting a friendly SANCTIFIER operative within 6\" of this operative, improve that friendly operative's Save stat by 1."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-SANC-SAL-MED",
-          "opTypeId": "IMP-SANC-SAL",
-          "abilityName": "Medikit",
+          "id": "IMP-SANC-SAL-MED",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.\r   \nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-SANC-BLAZE",
+      "name": "Llamarada",
+      "description": "Si infliges daño con éxitos críticos, el agente contra el que se está usando esta arma gana una de tus fichas de Llamarada (si no tiene ya una). Cuando un agente con una de tus fichas de Llamarada sea activado, inflige 1D3 daños. A continuación, el jugador controlador de ese agente elige una de las siguientes opciones: - Tira 1D6: con un 3+, retira esa ficha. - Resta 1 al atributo LPA del agente hasta el final de esa activación para retirar esa ficha.",
+      "team": "IMP-SANC"
+    },
+    {
+      "id": "WR-IMP-SANC-TWIN",
+      "name": "Ráfaga doble",
+      "description": "Elige hasta dos blancos válidos. Dispara con esta arma contra ambos en el orden que elijas (tira cada secuencia por separado). Ráfaga 0\" significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de armas Ráfaga a todos los demás efectos de reglas, como por ejemplo de la regla Fortaleza condensada (ver Zona de aniquilación: Volkus, Libro básico de Kill Team).",
+      "team": "IMP-SANC"
+    },
+    {
+      "id": "WR-IMP-SANC-WREATHED",
+      "name": "Envuelto",
+      "description": "Este agente puede realizar acciones de Disparar con esta arma mientras aún está en la zona de control de un agente enemigo. No selecciones un blanco válido. En lugar de eso, este agente es siempre el blanco principal, pero dispara solo contra los blancos secundarios y estos no pueden estar a cubierto ni ocultados (en otras palabras, determinas el Área desde este agente, pero este agente no se ve afectado).",
+      "team": "IMP-SANC"
     }
   ]
 }

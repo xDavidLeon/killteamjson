@@ -82,32 +82,28 @@
       "killteamId": "IMP-RAT",
       "seq": 1,
       "eqName": "Purloined Rations",
-      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your attack dice,you can use this rule if you haven't used the Lucky Round equipment during this activation. If you do, improve the Hit stat of its rifle by 1 until the end of that sequence.",
-      "effects": ""
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your attack dice,you can use this rule if you haven't used the Lucky Round equipment during this activation. If you do, improve the Hit stat of its rifle by 1 until the end of that sequence."
     },
     {
       "eqId": "IMP-RAT-LR",
       "killteamId": "IMP-RAT",
       "seq": 2,
       "eqName": "Lucky Round",
-      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your Attack dice, you can use this rule if you have not used the Purloined Rations equipment this activation.\nIf you do, that weapon has the Severe weapon rule for that sequence.",
-      "effects": ""
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your Attack dice, you can use this rule if you have not used the Purloined Rations equipment this activation.\nIf you do, that weapon has the Severe weapon rule for that sequence."
     },
     {
       "eqId": "IMP-RAT-SG",
       "killteamId": "IMP-RAT",
       "seq": 3,
       "eqName": "Stolen Goods",
-      "description": "At the end of the Select Operatives step, roll 1D3. If the result is:\n\n- 1, you lose 1 CP\n- 2, you gain 1 CP\n- 3, your opponent loses 1CP\n",
-      "effects": ""
+      "description": "At the end of the Select Operatives step, roll 1D3. If the result is:\n\n- 1, you lose 1 CP\n- 2, you gain 1 CP\n- 3, your opponent loses 1CP\n"
     },
     {
       "eqId": "IMP-RAT-IA",
       "killteamId": "IMP-RAT",
       "seq": 4,
       "eqName": "Improvised Armour",
-      "description": "Whenever an operative is shooting a friendly RATLING BULLGRYN or friendly RATLING OGRYN operative, defence dice results of 5+ are critical successes.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly RATLING BULLGRYN or friendly RATLING OGRYN operative, defence dice results of 5+ are critical successes."
     }
   ],
   "teamAbilities": [
@@ -481,13 +477,20 @@
           "opTypeId": "IMP-RAT-SPOT",
           "abilityName": "Scarper",
           "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-RAT-SPOT-SPOT",
-          "opTypeId": "IMP-RAT-SPOT",
-          "abilityName": "Spot",
+          "id": "IMP-RAT-SPOT-SPOT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\r Select one enemy operative visible to this operative. Once during this Turning Point, when a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [],
+          "conditions": [
+            "**SUPPORT**\r Select one enemy operative visible to this operative. Once during this Turning Point, when a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
+          ]
         }
       ]
     },
@@ -958,13 +961,24 @@
           "opTypeId": "IMP-RAT-VOX",
           "abilityName": "Scarper",
           "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-RAT-VOX-IC",
-          "opTypeId": "IMP-RAT-VOX",
-          "abilityName": "Intercept Communications",
+          "id": "IMP-RAT-VOX-IC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly RATLING operative visible to and within 6\" of this operative.\nUntil the end of its next activation, add 1 to that operative's APL stat.\n  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+          "name": "Intercept Communications",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly RATLING operative visible to and within 6\" of this operative.",
+            "Until the end of its next activation, add 1 to that operative's APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1056,13 +1070,22 @@
           "opTypeId": "IMP-RAT-SNK",
           "abilityName": "Scarper",
           "description": "After each enemy operative's activation, before the next operative is activated, you can perform a free Dash action with one friendly RATLING operative (excluding BULLGRYN, OGRYN, and SNEAK), \nbut it cannot finish that move within 3\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move.\n  \n\nEach friendly operative can only do this once per Turning Point, and cannot do so after the final activation of the Turning Point."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-RAT-SNK-OPT",
-          "opTypeId": "IMP-RAT-SNK",
-          "abilityName": "Optics",
+          "id": "IMP-RAT-SNK-OPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be Obscured and the stationary profile of this operative's suppressed sniper rifle has the Lethal 5+ weapon rule.\n\n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+          "name": "Optics",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be Obscured and the stationary profile of this operative's suppressed sniper rifle has the Lethal 5+ weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative."
+          ]
         }
       ]
     },

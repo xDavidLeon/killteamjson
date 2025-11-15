@@ -82,32 +82,28 @@
       "killteamId": "CHAOS-PM",
       "seq": 1,
       "eqName": "Plague Bells",
-      "description": "You can ignore any changes to the stats of friendly PLAGUE MARINE operatives from being injured (including their weapons' stats).",
-      "effects": "NOINJ"
+      "description": "You can ignore any changes to the stats of friendly PLAGUE MARINE operatives from being injured (including their weapons' stats)."
     },
     {
       "eqId": "CHAOS-PM-BG",
       "killteamId": "CHAOS-PM",
       "seq": 2,
       "eqName": "Blight Grenades",
-      "description": "Friendly PLAGUE MARINE operatives have the following ranged weapon (you cannot select it for use more than twice during the battle):\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Blight Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Range 6\", Blast 2\", Saturate, Severe, *Poison|",
-      "effects": "ADDWEP:Blight Grenade|R|4|4+|2/4|Range 6\", Blast 2\", Saturate, Severe, *Poison"
+      "description": "Friendly PLAGUE MARINE operatives have the following ranged weapon (you cannot select it for use more than twice during the battle):\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Blight Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Range 6\", Blast 2\", Saturate, Severe, *Poison|"
     },
     {
       "eqId": "CHAOS-PM-PR",
       "killteamId": "CHAOS-PM",
       "seq": 3,
       "eqName": "Plague Rounds",
-      "description": "Friendly PLAGUE MARINE operatives' boltguns and bolt pistols have the Poison and Severe weapon rules.",
-      "effects": "wepid:BG,BP|WR:*Poison, Severe"
+      "description": "Friendly PLAGUE MARINE operatives' boltguns and bolt pistols have the Poison and Severe weapon rules."
     },
     {
       "eqId": "CHAOS-PM-PV",
       "killteamId": "CHAOS-PM",
       "seq": 4,
       "eqName": "Poison Vents",
-      "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1).",
-      "effects": ""
+      "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1)."
     }
   ],
   "teamAbilities": [
@@ -348,20 +344,35 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-PM-MAL-PM",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Poisonous Miasma",
+          "id": "CHAOS-PM-MAL-PM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**PSYCHIC**\nSelect one enemy operative visible to and within 7\" of this operative, or one enemy operative that's a valid target for this operative.\nThat enemy operative gains one of your Poison tokens (if it does not already have one). If it already has one, inflict 3 damage on that enemy operative instead.  \n\nAn operative cannot perform this action while within control range of an enemy operative."
+          "name": "Poisonous Miasma",
+          "description": null,
+          "effects": [
+            "**PSYCHIC**",
+            "Select one enemy operative visible to and within 7\" of this operative, or one enemy operative that's a valid target for this operative.",
+            "That enemy operative gains one of your Poison tokens (if it does not already have one). If it already has one, inflict 3 damage on that enemy operative instead."
+          ],
+          "conditions": [
+            "An operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "CHAOS-PM-MAL-PV",
-          "opTypeId": "CHAOS-PM-MAL",
-          "abilityName": "Putrescent Vitality",
+          "id": "CHAOS-PM-MAL-PV",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC**\r Select one friendly operative visible to and within 3\" of this operative, then roll 2D6: if the result is 7, the selected operative regains 7 lost wounds; otherwise, the selected operative regains lost wounds equal to the highest D6.  \n\r An operative cannot perform this action while within control range of an enemy operative, or more than once per Turning Point."
+          "name": "Putrescent Vitality",
+          "description": null,
+          "effects": [
+            "**PSYCHIC**\r Select one friendly operative visible to and within 3\" of this operative, then roll 2D6: if the result is 7, the selected operative regains 7 lost wounds; otherwise, the selected operative regains lost wounds equal to the highest D6.",
+            "An operative cannot perform this action while within control range of an enemy operative, or more than once per Turning Point."
+          ]
         }
       ]
     },
@@ -541,13 +552,19 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-PM-FTR-FL",
-          "opTypeId": "CHAOS-PM-FTR",
-          "abilityName": "Flail",
+          "id": "CHAOS-PM-FTR-FL",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Inflict D3+2 damage on each other operative that's both visible to and within 2\" of this operative. Roll separately for each: if it's an enemy operative, if the D3 result is a 3, that enemy operative also gains one of your Poison tokens (if it doesn't already have one).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it has performed more than one Fight action, and it cannot perform more than one Fight action during an activation in which it performs this action."
+          "name": "Flail",
+          "description": null,
+          "effects": [
+            "Inflict D3+2 damage on each other operative that's both visible to and within 2\" of this operative. Roll separately for each: if it's an enemy operative, if the D3 result is a 3, that enemy operative also gains one of your Poison tokens (if it doesn't already have one).",
+            "This operative cannot perform this action while it has a Conceal order, or during an activation in which it has performed more than one Fight action, and it cannot perform more than one Fight action during an activation in which it performs this action."
+          ]
         }
       ]
     },
@@ -770,6 +787,20 @@
           "description": "Whenever an operative is shooting this operative, defence dice results of 5+ are critical successes."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-PM-POISON",
+      "name": "Poison",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it.",
+      "team": "CHAOS-PM"
+    },
+    {
+      "id": "WR-CHAOS-PM-TOXIC",
+      "name": "Toxic",
+      "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon.",
+      "team": "CHAOS-PM"
     }
   ]
 }

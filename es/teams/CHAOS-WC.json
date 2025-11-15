@@ -347,20 +347,42 @@
           "opTypeId": "CHAOS-WC-SOD",
           "abilityName": "Boons Of Tzeentch",
           "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
+        }
+      ],
+      "actions": [
+        {
+          "id": "CHAOS-WC-SOD-PBF",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Protected By Fate",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one friendly WARPCOVEN operative visible to this operative. Until the start of this operative's next activation,",
+            "until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),",
+            "whenever an operative is shooting that selected operative, you can re-roll any of your defence dice."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an\nenemy operative."
+          ]
         },
         {
-          "abilityId": "CHAOS-WC-SOD-PBF",
-          "opTypeId": "CHAOS-WC-SOD",
-          "abilityName": "Protected By Fate",
+          "id": "CHAOS-WC-SOD-RD",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to this operative. Until the start of this operative's next activation,\nuntil it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nwhenever an operative is shooting that selected operative, you can re-roll any of your defence dice.  \n\nThis operative cannot perform this action while within control range of an\nenemy operative."
-        },
-        {
-          "abilityId": "CHAOS-WC-SOD-RD",
-          "opTypeId": "CHAOS-WC-SOD",
-          "abilityName": "Ravage Destiny",
-          "AP": 1,
-          "description": "**PSYCHIC** Select one enemy operative visible to and within 9\" of this operative.\nUntil the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\nwhenever that enemy operative is shooting, fighting or retaliating, your opponent must re-roll their attack dice results of 6, and whenever determining control of a marker,\ntreat that enemy operative's APL stat as 1 lower. Note this is not a change to its APL stat, so\nany changes are cumulative with this.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Ravage Destiny",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one enemy operative visible to and within 9\" of this operative.",
+            "Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),",
+            "whenever that enemy operative is shooting, fighting or retaliating, your opponent must re-roll their attack dice results of 6, and whenever determining control of a marker,",
+            "treat that enemy operative's APL stat as 1 lower. Note this is not a change to its APL stat, so",
+            "any changes are cumulative with this."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -532,20 +554,38 @@
           "opTypeId": "CHAOS-WC-SOT",
           "abilityName": "Boons Of Tzeentch",
           "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
+        }
+      ],
+      "actions": [
+        {
+          "id": "CHAOS-WC-SOT-RR",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Reconstitution Ritual",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative. That operative regains up to 2D3 lost wounds.",
+            "This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
+          ]
         },
         {
-          "abilityId": "CHAOS-WC-SOT-RR",
-          "opTypeId": "CHAOS-WC-SOT",
-          "abilityName": "Reconstitution Ritual",
+          "id": "CHAOS-WC-SOT-TF",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative. That operative regains up to 2D3 lost wounds.  \n\r This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
-        },
-        {
-          "abilityId": "CHAOS-WC-SOT-TF",
-          "opTypeId": "CHAOS-WC-SOT",
-          "abilityName": "Temporal Flux",
-          "AP": 1,
-          "description": "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative and place your Temporal Flux marker within that operative's control range.  \n\nAt the end of that operative's next activation, if it hasn't been incapacitated and is still wholly within 6\" of your Temporal Flux marker, remove that operative from the killzone and set it back up in a\nlocation it can be placed;\nwhen it is set back up, it must have your Temporal Flux marker within its control range (or as close as possible).\nThen remove your Temporal Flux marker from the killzone. If that operative is not wholly within 6\" of your Temporal Flux marker (including if it's incapacitated), remove that marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if your\nTemporal Flux marker is currently in the killzone."
+          "name": "Temporal Flux",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative and place your Temporal Flux marker within that operative's control range.",
+            "At the end of that operative's next activation, if it hasn't been incapacitated and is still wholly within 6\" of your Temporal Flux marker, remove that operative from the killzone and set it back up in a",
+            "location it can be placed;",
+            "when it is set back up, it must have your Temporal Flux marker within its control range (or as close as possible).",
+            "Then remove your Temporal Flux marker from the killzone. If that operative is not wholly within 6\" of your Temporal Flux marker (including if it's incapacitated), remove that marker from the killzone."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if your\nTemporal Flux marker is currently in the killzone."
+          ]
         }
       ]
     },
@@ -758,13 +798,20 @@
           "opTypeId": "CHAOS-WC-SOW",
           "abilityName": "Boons Of Tzeentch",
           "description": "Whenever you select a SORCERER operative for the battle, you must select a BOON OF TZEENTCH (below) for it to have for the battle. You cannot select each BOON OF TZEENTCH more than once per battle."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-WC-SOW-AL",
-          "opTypeId": "CHAOS-WC-SOW",
-          "abilityName": "Alight",
+          "id": "CHAOS-WC-SOW-AL",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**PSYCHIC** Select one enemy operative visible to this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r that enemy operative gains one of your Alight tokens (if it doesn't already have one).\r Whenever a friendly WARPCOVEN operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Alight tokens, that friendly operative's weapons have the Ceaseless weapon rule.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Alight",
+          "description": null,
+          "effects": [
+            "**PSYCHIC** Select one enemy operative visible to this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r that enemy operative gains one of your Alight tokens (if it doesn't already have one).\r Whenever a friendly WARPCOVEN operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Alight tokens, that friendly operative's weapons have the Ceaseless weapon rule.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1148,13 +1195,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-WC-TZHB-BH",
-          "opTypeId": "CHAOS-WC-TZHB",
-          "abilityName": "Brayhorn",
+          "id": "CHAOS-WC-TZHB-BH",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the Ready step of the next Strategy phase, add 1\" to the Move stat of friendly WARPCOVEN TZAANGOR operatives.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Brayhorn",
+          "description": null,
+          "effects": [
+            "Until the Ready step of the next Strategy phase, add 1\" to the Move stat of friendly WARPCOVEN TZAANGOR operatives."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1321,6 +1376,14 @@
           "description": "This operative has a 4+ Save stat, and whenever it's fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one)."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-WC-MINDBURN",
+      "name": "Quemar mente",
+      "description": "En el paso de Resolver dados de ataque, si infliges daño con algún éxito crítico, el agente contra el que se usa esta arma gana una de tus fichas de Quemar mente (si no tiene una ya) hasta el final de su siguiente activación, hasta que resulte incapacitado o hasta que un agente amigo use de nuevo esta arma (lo que ocurra antes). Mientras un agente tenga una de tus fichas de Quemar mente, empeora en 1 el atributo Impactar de sus armas (esto no se acumula con estar lesionado).",
+      "team": "CHAOS-WC"
     }
   ]
 }

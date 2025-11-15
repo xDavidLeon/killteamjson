@@ -703,13 +703,23 @@
           "opTypeId": "TYR-BBRO-MED",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly BROOD BROTHER operative (excluding PATRIARCH) would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this operative nor that operative is within control range of an enemy operative.\r If you do, that friendly operative is not incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action.\r After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-BBRO-MED-MED",
-          "opTypeId": "TYR-BBRO-MED",
-          "abilityName": "Medikit",
+          "id": "TYR-BBRO-MED-MED",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly BROOD BROTHER operative (excluding PATRIARCH) within this operative's control range to regain 2D3 lost wounds.\nIt cannot be an operative that the Medic! Rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly BROOD BROTHER operative (excluding PATRIARCH) within this operative's control range to regain 2D3 lost wounds.",
+            "It cannot be an operative that the Medic! Rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -800,13 +810,23 @@
           "opTypeId": "TYR-BBRO-SAP",
           "abilityName": "Grenadier",
           "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e, if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-BBRO-SAP-XPL",
-          "opTypeId": "TYR-BBRO-SAP",
-          "abilityName": "Explosives",
+          "id": "TYR-BBRO-SAP-XPL",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "The first time this operative performs this action during the battle, place your Explosives marker within its control range.\nThe second time this operative performs this action during the battle, inflict 2D6 damage on each operative within 2\" of that marker (roll separately for each) unless Heavy Terrain is wholly intervening between that operative and that marker.  \n\nThis operative cannot perform this action more than twice per battle, while within control range of an enemy operative, or during the same activation in which it performed the Charge, Dash or Fall Back action (or vice-versa)."
+          "name": "Explosives",
+          "description": null,
+          "effects": [
+            "The first time this operative performs this action during the battle, place your Explosives marker within its control range.",
+            "The second time this operative performs this action during the battle, inflict 2D6 damage on each operative within 2\" of that marker (roll separately for each) unless Heavy Terrain is wholly intervening between that operative and that marker."
+          ],
+          "conditions": [
+            "This operative cannot perform this action more than twice per battle, while within control range of an enemy operative, or during the same activation in which it performed the Charge, Dash or Fall Back action (or vice-versa)."
+          ]
         }
       ]
     },
@@ -1041,20 +1061,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TYR-BBRO-VOX-JAM",
-          "opTypeId": "TYR-BBRO-VOX",
-          "abilityName": "Jam",
+          "id": "TYR-BBRO-VOX-JAM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one ready enemy operative that is a valid target for this operative, or visible to this operative instead if you spend 1 additional AP.\nRoll 1D6, until the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated, or until your opponent has activated a number of enemy operatives after this action equal to the roll (whichever comes first)  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Jam",
+          "description": null,
+          "effects": [
+            "Select one ready enemy operative that is a valid target for this operative, or visible to this operative instead if you spend 1 additional AP.",
+            "Roll 1D6, until the end of the turning point, that enemy operative cannot be activated or perform actions until it is the last enemy operative to be activated, or until your opponent has activated a number of enemy operatives after this action equal to the roll (whichever comes first)"
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TYR-BBRO-VOX-SIG",
-          "opTypeId": "TYR-BBRO-VOX",
-          "abilityName": "Signal",
+          "id": "TYR-BBRO-VOX-SIG",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT**  \n\nSelect one other friendly BROOD BROTHER BROODGUARD operative visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly BROOD BROTHER BROODGUARD operative visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1211,20 +1248,41 @@
           "opTypeId": "TYR-BBRO-MAG",
           "abilityName": "Spiritual Leader",
           "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following for friendly BROOD BROTHER operatives to have until the end of the turning point or until this operative is incapacitated (whichever comes first):\r \r - Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, ignore the piercing rule.\r - You can ignore any changes to friendly BROOD BROTHER operative's stats from being injured (including their weapons' stats).\r - You can ignore any changes to the APL stats of friendly BROOD BROTHER operative.\r "
+        }
+      ],
+      "actions": [
+        {
+          "id": "TYR-BBRO-MAG-MOS",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Mental Onslaught",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one enemy operative that is a valid target to this operative.",
+            "Inflict 2 damage on it, or 4 damage instead if it is within 6\" of this operative.",
+            "Then roll 1D6, if the result is higher than that enemy's APL stat, inflict an additional 2 damage on it, or 4 damage instead if it is within 6\" of this operative.",
+            "Keep rolling 1D6 in this manner until you roll equal to or less than that enemy operative's APL stat, until it is incapacitated, or until you inflict 8 damage on it during this action (whichever comes first)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TYR-BBRO-MAG-MOS",
-          "opTypeId": "TYR-BBRO-MAG",
-          "abilityName": "Mental Onslaught",
+          "id": "TYR-BBRO-MAG-TPOL",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "*PSYCHIC*  \n\nSelect one enemy operative that is a valid target to this operative.\nInflict 2 damage on it, or 4 damage instead if it is within 6\" of this operative.\nThen roll 1D6, if the result is higher than that enemy's APL stat, inflict an additional 2 damage on it, or 4 damage instead if it is within 6\" of this operative.\nKeep rolling 1D6 in this manner until you roll equal to or less than that enemy operative's APL stat, until it is incapacitated, or until you inflict 8 damage on it during this action (whichever comes first).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
-          "abilityId": "TYR-BBRO-MAG-TPOL",
-          "opTypeId": "TYR-BBRO-MAG",
-          "abilityName": "Telepathic Overload",
-          "AP": 1,
-          "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Telepathic Overload",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1336,20 +1394,42 @@
           "opTypeId": "TYR-BBRO-PAT",
           "abilityName": "Monster",
           "description": "This operative cannot use any weapons that are not on its datacard, or perform unique actions (excluding Into Shadow and Mind Control).\nWhenever your opponent is selecting a valid target, if this operative has a conceal order, it cannot use Light terrain for cover.\nWhile this can allow this operative to be targeted (assuming it is visible), it does not remove its cover save (if any)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-BBRO-PAT-IS",
-          "opTypeId": "TYR-BBRO-PAT",
-          "abilityName": "Into Shadow",
+          "id": "TYR-BBRO-PAT-IS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Change this operative's order.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Into Shadow",
+          "description": null,
+          "effects": [
+            "Change this operative's order."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TYR-BBRO-PAT-MC",
-          "opTypeId": "TYR-BBRO-PAT",
-          "abilityName": "Mind Control",
+          "id": "TYR-BBRO-PAT-MC",
+          "type": "ability",
+          "seq": 1,
           "AP": 2,
-          "description": "*PSYCHIC*  \n\nSelect one enemy operative visible to and within 2\" of this operative.\nBoth players roll 1D6 and add their respective operative's APL stat to the total.\nIf your total is higher than your opponent's you can resolve this action's second effect.  \n\nUntil the end of the activation, that enemy operative is a friendly operative (an enemy operative for you opponent), you can change its order and it can immediately perofrm one free action.\nIt cannot perform an action in which it moves other than Dash (in which case specify the location for your opponent to move this operative to).\nYou can only resolve this action's second effect once per battle.  \n\nThis operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it is within control range of is selected for this action."
+          "name": "Mind Control",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one enemy operative visible to and within 2\" of this operative.",
+            "Both players roll 1D6 and add their respective operative's APL stat to the total.",
+            "If your total is higher than your opponent's you can resolve this action's second effect.",
+            "Until the end of the activation, that enemy operative is a friendly operative (an enemy operative for you opponent), you can change its order and it can immediately perofrm one free action.",
+            "It cannot perform an action in which it moves other than Dash (in which case specify the location for your opponent to move this operative to).",
+            "You can only resolve this action's second effect once per battle."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, unless the only enemy operative it is within control range of is selected for this action."
+          ]
         }
       ]
     },
@@ -1450,13 +1530,22 @@
           "opTypeId": "TYR-BBRO-PRIM",
           "abilityName": "Mastermind",
           "description": "Once per turning point, after rolling off to determine initiative, if this operative is in the killzone, you can do one of the following (you cannot select each option more than once per battle):\r \r - Add 1 to your dice result.\r - If you did not have initiative in the previous turning point, re-roll your dice.\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-BBRO-PRIM-CONS",
-          "opTypeId": "TYR-BBRO-PRIM",
-          "abilityName": "Conspire",
+          "id": "TYR-BBRO-PRIM-CONS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "You gain 1 CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+          "name": "Conspire",
+          "description": null,
+          "effects": [
+            "You gain 1 CP."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+          ]
         }
       ]
     }

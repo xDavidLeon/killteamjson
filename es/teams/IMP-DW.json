@@ -1170,5 +1170,13 @@
         }
       ]
     }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-DW-PHASE",
+      "name": "Barrido de fase",
+      "description": " Siempre que este agente realice la acción de Combatir con este perfil de arma, si no resulta incapacitado puede realizar inmediatamente una acción libre de Combatir; debes seleccionar este mismo perfil y solo puede combatir contra cada agente enemigo en su zona de control una vez por activación o reacción usando este perfil. Esto tiene preferencia sobre las restricciones de acciones y puedes seguir realizando acciones libres de Combatir hasta que este agente quede incapacitado o haya combatido contra todos los enemigos de su zona de control.",
+      "team": "IMP-DW"
+    }
   ]
 }

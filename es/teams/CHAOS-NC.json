@@ -313,13 +313,22 @@
           "opTypeId": "CHAOS-NC-VIS",
           "abilityName": "Prescience",
           "description": "*PSYCHIC*  \r \r In the ready step of each Strategy phase, you gain 1D3 Prescience points.\r At the end of each turning point, discard your Prescience points. You can spend your Prescience points in the Firefight phase as follows (you cannot use each of the following rules more than once per turning point).\r \r - Foreboding: *PSYCHIC* Whenever it is your turn to activate a friendly operative, you can spend 1 of your Prescience points to skip that activation.\r - Portent: *PSYCHIC* Whenever an attack dice inflicts normal damage on this operative, you can spend 1 of your Prescience points to ignore that inflicted damage.\r \r You cannot gain or spend your Prescience points if this operative is incapacitated."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-NC-VIS-PREM",
-          "opTypeId": "CHAOS-NC-VIS",
-          "abilityName": "Premonition",
+          "id": "CHAOS-NC-VIS-PREM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "*PSYCHIC* Spend 1 of your Prescience points to gain 1CP.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+          "name": "Premonition",
+          "description": null,
+          "effects": [
+            "*PSYCHIC* Spend 1 of your Prescience points to gain 1CP."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+          ]
         }
       ]
     },
@@ -445,13 +454,22 @@
           "opTypeId": "CHAOS-NC-FRM",
           "abilityName": "Terrochem Poison",
           "description": "Whenever an operative that has one of your Terrorchem tokens is activated, inflict 1D3 damage on it."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-NC-FRM-PO",
-          "opTypeId": "CHAOS-NC-FRM",
-          "abilityName": "Poison Objective",
+          "id": "CHAOS-NC-FRM-PO",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one objective marker this operative controls to gain one of your Terrorchem tokens.\nIt cannot be an objective marker within control range of an enemy operative, or one that already has one of your Terrorchem tokens.\nThe first time that objective marker is within control range of an enemy operative that does not have one of your Terrorchem tokens, that operative gains that Terrorchem token, then inflicts 2D3 damage on it\n(if it is during an action, at the end of that action)."
+          "name": "Poison Objective",
+          "description": null,
+          "effects": [
+            "Select one objective marker this operative controls to gain one of your Terrorchem tokens.",
+            "It cannot be an objective marker within control range of an enemy operative, or one that already has one of your Terrorchem tokens.",
+            "The first time that objective marker is within control range of an enemy operative that does not have one of your Terrorchem tokens, that operative gains that Terrorchem token, then inflicts 2D3 damage on it",
+            "(if it is during an action, at the end of that action)."
+          ]
         }
       ]
     },
@@ -972,13 +990,26 @@
           "opTypeId": "CHAOS-NC-VEN",
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this is not a change to its APL stat, so any changes are cumulative with this."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-NC-VEN-DCM",
-          "opTypeId": "CHAOS-NC-VEN",
-          "abilityName": "Disconcerting Mimicry",
+          "id": "CHAOS-NC-VEN-DCM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "*PSYCHIC*  \n\nSelect one enemy operative within 6\" of this operative, then select one of the following for that enemy operative (you can only select each option once per battle):\n\n- Until the end of the next activation, subtract 1 from its APL stat\n- Change its order\n- Perform a free dash with it (specify the location for your opponent to move it to)\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Disconcerting Mimicry",
+          "description": null,
+          "effects": [
+            "*PSYCHIC*",
+            "Select one enemy operative within 6\" of this operative, then select one of the following for that enemy operative (you can only select each option once per battle):",
+            "- Until the end of the next activation, subtract 1 from its APL stat",
+            "- Change its order",
+            "- Perform a free dash with it (specify the location for your opponent to move it to)"
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1084,6 +1115,14 @@
           "description": "Whenever this operative is shooting against, fighting against, or retaliating against an injured enemy operative, or an enemy operative that has a wounds stat of 7 or less, its weapons have the Lethal 5+ rule."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-NC-TERRORCHEM",
+      "name": "Terrotoxinas",
+      "description": "En el paso de Resolver Dados de Ataque, si infliges daño con algún impacto crítico, el agente al que se está atacando con esta arma gana una de tus fichas de terrotoxinas (si no tiene una ya).",
+      "team": "CHAOS-NC"
     }
   ]
 }

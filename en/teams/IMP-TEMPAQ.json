@@ -82,32 +82,28 @@
       "killteamId": "IMP-TEMPAQ",
       "seq": 1,
       "eqName": "Tempestus Dagger",
-      "description": "Friendly Tempestus Aquilon operatives (excluding SERVO-SENTRY) have the following Melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Tempestus Dagger|3|4+|3/4|\n",
-      "effects": "ADDWEP:Tempestus Dagger|M|3|4+|3/4|"
+      "description": "Friendly Tempestus Aquilon operatives (excluding SERVO-SENTRY) have the following Melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Tempestus Dagger|3|4+|3/4|\n"
     },
     {
       "eqId": "IMP-TEMPAQ-CS",
       "killteamId": "IMP-TEMPAQ",
       "seq": 2,
       "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured.",
-      "effects": "NOINJMOV"
+      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured."
     },
     {
       "eqId": "IMP-TEMPAQ-DA",
       "killteamId": "IMP-TEMPAQ",
       "seq": 3,
       "eqName": "Drop Augury",
-      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone.",
-      "effects": ""
+      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone."
     },
     {
       "eqId": "IMP-TEMPAQ-ROS",
       "killteamId": "IMP-TEMPAQ",
       "seq": 4,
       "eqName": "Remote Overseer",
-      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
-      "effects": ""
+      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6."
     }
   ],
   "teamAbilities": [
@@ -275,13 +271,22 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "abilityName": "Tempestus Veteran",
           "description": "Once per battle, you can either use a Firefight Ploy for 0 CP if this is the specific TEMPESTUS AQUILON operative, or the Command Re-Roll Firefight Ploy for 0 CP if this is the operative the attack or defence die was rolled for."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-TEMPAQ-TEMP-CMD",
-          "opTypeId": "IMP-TEMPAQ-TEMP",
-          "abilityName": "Command",
+          "id": "IMP-TEMPAQ-TEMP-CMD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within Control Range of an enemy operative."
+          "name": "Command",
+          "description": null,
+          "effects": [
+            "**Support:** Select one friendly TEMPESTUS AQUILON operative (excluding SERVO-SENTRY) Visible To and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within Control Range of an enemy operative."
+          ]
         }
       ]
     },
@@ -984,6 +989,14 @@
           "description": "When this operative lands, you can set it up within 4\" of one of your Drop markers (measuring horizontal distance only), taking precedence over the normal distance requirement."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-TEMPAQ-SALVO",
+      "name": "Salvo",
+      "description": "Select up to two valid targets. Shoot this weapon against both of them in an order of your choice (roll each sequence separately).",
+      "team": "IMP-TEMPAQ"
     }
   ]
 }

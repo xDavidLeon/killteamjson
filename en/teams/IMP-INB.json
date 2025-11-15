@@ -82,32 +82,28 @@
       "killteamId": "IMP-INB",
       "seq": 1,
       "eqName": "Rebreathers",
-      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
-      "effects": ""
+      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule."
     },
     {
       "eqId": "IMP-INB-SL",
       "killteamId": "IMP-INB",
       "seq": 2,
       "eqName": "Slugs",
-      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.",
-      "effects": ""
+      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats."
     },
     {
       "eqId": "IMP-INB-CS",
       "killteamId": "IMP-INB",
       "seq": 3,
       "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured.",
-      "effects": "NOINJMOV"
+      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured."
     },
     {
       "eqId": "IMP-INB-SORD",
       "killteamId": "IMP-INB",
       "seq": 4,
       "eqName": "System Override Device",
-      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
-      "effects": ""
+      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP."
     }
   ],
   "teamAbilities": [
@@ -462,13 +458,26 @@
           "opTypeId": "IMP-INB-CAT",
           "abilityName": "Machine",
           "description": "\r - This operative cannot be activated or perform actions if it's within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER SURVEYOR operative has been incapacitated. The turning point can end even if this operative is still ready.\r - This operative cannot perform any actions other than Charge, Dash, Fall Back, Reposition and Spot.\r - It cannot retaliate, assist in a fight, climb or jump.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever determining what's visible to this operative, draw the line from any part of the miniature.\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-INB-CAT-SPT",
-          "opTypeId": "IMP-INB-CAT",
-          "abilityName": "Spot",
+          "id": "IMP-INB-CAT-SPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),\nwhenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the turning point, until that enemy operative is no longer visible to this operative or until this operative performs this action again (whichever comes first),",
+            "whenever a friendly IMPERIAL NAVY BREACHER operative is shooting that enemy operative, you can use this effect.",
+            "If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -597,13 +606,22 @@
           "opTypeId": "IMP-INB-GS",
           "abilityName": "Machine",
           "description": "\r - This operative cannot perform any actions other than Boost, Charge, Dash, Fall Back and Reposition.\r - It cannot retaliate or assist in a fight.\r - Whenever determining control of a marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\r - Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-INB-GS-BST",
-          "opTypeId": "IMP-INB-GS",
-          "abilityName": "Boost",
+          "id": "IMP-INB-GS-BST",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the end of the activation, add 6\" to this operative's Move stat.  \n\nThis operative can only perform this action once per battle, and cannot perform it during the first turning point."
+          "name": "Boost",
+          "description": null,
+          "effects": [
+            "Until the end of the activation, add 6\" to this operative's Move stat."
+          ],
+          "conditions": [
+            "This operative can only perform this action once per battle, and cannot perform it during the first turning point."
+          ]
         }
       ]
     },
@@ -1011,20 +1029,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-INB-HC-BP",
-          "opTypeId": "IMP-INB-HC",
-          "abilityName": "Breach Point",
+          "id": "IMP-INB-HC-BP",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+          "name": "Breach Point",
+          "description": null,
+          "effects": [
+            "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.",
+            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible terrain."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if a terrain feature isn't within its control range."
+          ]
         },
         {
-          "abilityId": "IMP-INB-HC-WS",
-          "opTypeId": "IMP-INB-HC",
-          "abilityName": "Weld Shut",
+          "id": "IMP-INB-HC-WS",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.\nThis effect ends when that hatchway is opened. Note this operative isn't affected by this effect.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
+          "name": "Weld Shut",
+          "description": null,
+          "effects": [
+            "Select a closed hatchway (e.g. Killzone: Gallowdark) within this operative's control range. 1 additional AP must be spent for other operatives to perform the Operate Hatch action to open that hatchway.",
+            "This effect ends when that hatchway is opened. Note this operative isn't affected by this effect."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if it isn't within 1\" of a closed hatchway."
+          ]
         }
       ]
     },
@@ -1094,20 +1129,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-INB-SRV-RC",
-          "opTypeId": "IMP-INB-SRV",
-          "abilityName": "Remote Control",
+          "id": "IMP-INB-SRV-RC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative. That operative can immediately perform one free action, but it cannot move more than 3\" during that action.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative isn't in the killzone."
+          "name": "Remote Control",
+          "description": null,
+          "effects": [
+            "Select one friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative. That operative can immediately perform one free action, but it cannot move more than 3\" during that action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative isn't in the killzone."
+          ]
         },
         {
-          "abilityId": "IMP-INB-SRV-WF",
-          "opTypeId": "IMP-INB-SRV",
-          "abilityName": "Wayfind",
+          "id": "IMP-INB-SRV-WF",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.\nUntil the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Wayfind",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly IMPERIAL NAVY BREACHER operative (excluding C.A.T. UNIT or GHEISTSKULL) visible to and within 6\" of this operative, or visible to and within 6\" of a friendly IMPERIAL NAVY BREACHER C.A.T. UNIT operative.",
+            "Until the end of that operative's next activation, add 1 to its APL stat. For the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1224,13 +1276,23 @@
           "opTypeId": "IMP-INB-VJ",
           "abilityName": "*Detonate",
           "description": "Don't select a valid target. Instead, a friendly IMPERIAL NAVY BREACHER GHEISTSKULL operative is always the primary target and cannot be in cover or obscured. If that operative isn't in the killzone, you cannot select this weapon."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-INB-VJ-IP",
-          "opTypeId": "IMP-INB-VJ",
-          "abilityName": "Interference Pulse",
+          "id": "IMP-INB-VJ-IP",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:\non a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
+          "name": "Interference Pulse",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to and within 8\" of a friendly GHEISTSKULL operative. Roll one D6, adding 1 to the result if that enemy operative is a valid target for that friendly GHEISTSKULL operative:",
+            "on a 3+, subtract 1 from that enemy operative's APL stat until the end of its next activation."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if a friendly GHEISTSKULL operative isn't in the killzone."
+          ]
         }
       ]
     }

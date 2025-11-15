@@ -237,13 +237,20 @@
           "opTypeId": "TAU-VESP-OSD",
           "abilityName": "Evasive Drone",
           "description": "\r - This operative cannot perform any action other than Aerial Guidance, Charge, Dash, Fall Back, Fight, or Reposition.\r - Whenever determining control of objective markers, treat this operative's APL stat as 1 lower.\r - Whenever determining what is Visible To this operative, the round disc at the top of the miniature is its head.\r - Whenever this operative has a Conceal order and is in Cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\r - Whenever an operative is shooting this operative, ignore the Piercing weapon rule.\r "
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-OSD-AG",
-          "opTypeId": "TAU-VESP-OSD",
-          "abilityName": "Aerial Guidance",
+          "id": "TAU-VESP-OSD-AG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.  \n\r This operative cannot perform this action while within control range of an enemy operative."
+          "name": "Aerial Guidance",
+          "description": null,
+          "effects": [
+            "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.",
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -604,13 +611,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-VESP-VSG-ST",
-          "opTypeId": "TAU-VESP-VSG",
-          "abilityName": "Skytorch Assault",
+          "id": "TAU-VESP-VSG-ST",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          "name": "Skytorch Assault",
+          "description": null,
+          "effects": [
+            "Perform a free Reposition action with this operative. During that action, it must FLY and can move an additional 2\". Then perform a free Shoot action. You can only select a flamer (skytorch) for that Shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative"
+          ]
         }
       ]
     },
@@ -678,6 +693,26 @@
           "description": "Whenever this operative is shooting, if you do not spend Communion points during that sequence, its Neutron Blaster has the Accurate 1 weapon rule until the end of that sequence."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-TAU-VESP-NEUTRON",
+      "name": "Fragmento de neutrones",
+      "description": "Si el blanco no está incapacitado pero resuelves cualesquiera dados de ataque, el blanco gana una de tus fichas de Fragmento de neutrones. Cuando un operativo que tenga uno de tus marcadores de Fragmento de neutrones se active, inflingele D3 daño en el por cada marcador de Fragmento de neutrones que tenga (tira de forma separada por cada uno).",
+      "team": "TAU-VESP"
+    },
+    {
+      "id": "WR-TAU-VESP-NEUTRONB",
+      "name": "Bombardeo de neutrones",
+      "description": "Coloca uno de tus marcadores de Lluvia de neutrones dentro de la zona de control del blanco principal.",
+      "team": "TAU-VESP"
+    },
+    {
+      "id": "WR-TAU-VESP-SKYTORCH",
+      "name": "Antorcha celeste",
+      "description": "Un agente solo puede usar esta arma durante una activación en la que haya realizado la acción de Reposicionarse con VOLAR. Si lo hace, no elijas un blanco válido. En lugar de eso, dispara contra cada agente dentro de su zona de achicharramiento (excepto agentes que estén completamente bajo terreno Aventajado); no se consideran a cubierto ni ofuscados. Tira cada secuencia por separado en orden desde el agente más lejano al más cercano. La zona de achicharramiento es el área entre la posición actual y previa del agente. Se puede colocar temporalmente bajo este agente un marcador redondo de Antorcha celeste de 28 mm antes de moverlo, como ayuda a la hora de determinar esto. Recuerda que Ráfaga 0” significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de arma Ráfaga a efectos de todas las demás reglas, p.ej., la regla de Fortaleza Condensada (ver Zona de aniquilación: Volkus, Libro Básico de Kill Team)",
+      "team": "TAU-VESP"
     }
   ]
 }

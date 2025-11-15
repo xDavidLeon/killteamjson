@@ -82,32 +82,28 @@
       "killteamId": "CHAOS-GPI",
       "seq": 1,
       "eqName": "Mutoid Vermin",
-      "description": "After revealing this equipment option, add two GELLERPOX INFECTED MUTOID VERMIN operatives to your kill team for the battle.",
-      "effects": ""
+      "description": "After revealing this equipment option, add two GELLERPOX INFECTED MUTOID VERMIN operatives to your kill team for the battle."
     },
     {
       "eqId": "CHAOS-GPI-PS",
       "killteamId": "CHAOS-GPI",
       "seq": 2,
       "eqName": "Polluted Stockpile",
-      "description": "After revealing this equipment option, roll 2D6: on a 7+, remove one of your opponent's selected equipment options; otherwise, that player removes one of their own selected equipment options.\nThey cannot select that equipment again during the game sequence (e.g. in the Scouting step of Approved Ops). You cannot select this equipment option after the Select Operatives step.",
-      "effects": ""
+      "description": "After revealing this equipment option, roll 2D6: on a 7+, remove one of your opponent's selected equipment options; otherwise, that player removes one of their own selected equipment options.\nThey cannot select that equipment again during the game sequence (e.g. in the Scouting step of Approved Ops). You cannot select this equipment option after the Select Operatives step."
     },
     {
       "eqId": "CHAOS-GPI-MS",
       "killteamId": "CHAOS-GPI",
       "seq": 3,
       "eqName": "Mutated Symptoms",
-      "description": "Once per battle, when you activate a friendly GELLERPOX INFECTED operative, you can select one additional TECHNO-CURSE for that operative to gain until the end of the turning point (it must be different from your existing TECHNO-CURSE). Note that if a rule refers to an enemy operative being affected by your selected TECHNO-CURSE rule (e.g. VULGRAR THIRCE-CURSED operative''s Spread The Glorious Gifts rule), it is affected by your additional TECHNO-CURSE rule too.",
-      "effects": ""
+      "description": "Once per battle, when you activate a friendly GELLERPOX INFECTED operative, you can select one additional TECHNO-CURSE for that operative to gain until the end of the turning point (it must be different from your existing TECHNO-CURSE). Note that if a rule refers to an enemy operative being affected by your selected TECHNO-CURSE rule (e.g. VULGRAR THIRCE-CURSED operative''s Spread The Glorious Gifts rule), it is affected by your additional TECHNO-CURSE rule too."
     },
     {
       "eqId": "CHAOS-GPI-PB",
       "killteamId": "CHAOS-GPI",
       "seq": 4,
       "eqName": "Plague Bellows",
-      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED NIGHTMARE HULK operative that's more than 6\" from it, you can retain one of your defence dice results of 3 as a normal success instead of discarding it.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly GELLERPOX INFECTED NIGHTMARE HULK operative that's more than 6\" from it, you can retain one of your defence dice results of 3 as a normal success instead of discarding it."
     }
   ],
   "teamAbilities": [
@@ -903,6 +899,26 @@
           "description": "MUTOID VERMIN operatives cannot perform any actions other than Charge, Dash, Fall Back, Fight, Reposition and Shoot, or use any weapons that aren't on their datacard.\nThey can perform the Fall Back action for 1 less AP.  \n\nMUTOID VERMIN operatives cannot contest markers or areas of the killzone, and are ignored for your opponent's kill/elimination op (when they are incapacitated, and when determining your starting number of operatives).\nThey are also ignored for victory conditions and scoring VPs if either require operatives to 'escape', 'survive' or be incapacitated by enemy operatives (if they escape/survive/are incapacitated, determining how many operatives must escape/survive/be incapacitated, etc.).  \n\nOperatives can move through MUTOID VERMIN operatives, and enemy operatives can move within control range of them.\nHaving only MUTOID VERMIN operatives within their control range does not prevent enemy operatives from performing the Charge, Dash and Reposition action, and enemy operatives can leave MUTOID VERMIN operatives' control range when performing the Charge action."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-GPI-ENGINEERED",
+      "name": "Engineered",
+      "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following improvements or weapon rules for this weapon to have for the battle:  \n\nAdd 1 to the Normal Dmg stat, add 1 to the Critical Dmg stat, Balanced, Brutal, Lethal 5+, Rending.",
+      "team": "CHAOS-GPI"
+    },
+    {
+      "id": "WR-CHAOS-GPI-FEAST",
+      "name": "Feast",
+      "description": "Whenever this operative is using this weapon against a wounded operative, add 1 to the Atk stat of this weapon and it has the Lethal 5+ weapon rule.",
+      "team": "CHAOS-GPI"
+    },
+    {
+      "id": "WR-CHAOS-GPI-SWIPE",
+      "name": "Swipe",
+      "description": "Whenever this operative performs the Fight action and you select this weapon profile, if it is not incapacitated, it can immediately perform a free Fight action afterwards,\nbut you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range.",
+      "team": "CHAOS-GPI"
     }
   ]
 }

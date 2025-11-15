@@ -82,32 +82,28 @@
       "killteamId": "TAU-FSKB",
       "seq": 1,
       "eqName": "Piercing Shot",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Piercing 1 weapon rule.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Piercing 1 weapon rule.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action."
     },
     {
       "eqId": "TAU-FSKB-TS",
       "killteamId": "TAU-FSKB",
       "seq": 2,
       "eqName": "Toxin Shot",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Lethal 5+ and Stun weapon rules.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Lethal 5+ and Stun weapon rules.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action."
     },
     {
       "eqId": "TAU-FSKB-MEAT",
       "killteamId": "TAU-FSKB",
       "seq": 3,
       "eqName": "Meat",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative (excluding HOUND) is activated, if it's not within control range of enemy operatives, you can use this rule. If you do, that friendly operative regains D3+1 lost wounds.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative (excluding HOUND) is activated, if it's not within control range of enemy operatives, you can use this rule. If you do, that friendly operative regains D3+1 lost wounds."
     },
     {
       "eqId": "TAU-FSKB-TRP",
       "killteamId": "TAU-FSKB",
       "seq": 4,
       "eqName": "Trophy",
-      "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation.",
-      "effects": ""
+      "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation."
     }
   ],
   "teamAbilities": [
@@ -288,13 +284,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-FSKB-BH-NRG",
-          "opTypeId": "TAU-FSKB-BH",
-          "abilityName": "Energise",
+          "id": "TAU-FSKB-BH-NRG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the end of the turning point or until this operative has shot with its accelerator bow (whichever comes first), all profiles of its accelerator bow have the Lethal 5+ weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Energise",
+          "description": null,
+          "effects": [
+            "Until the end of the turning point or until this operative has shot with its accelerator bow (whichever comes first), all profiles of its accelerator bow have the Lethal 5+ weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -568,13 +572,20 @@
           "opTypeId": "TAU-FSKB-HND",
           "abilityName": "Bad-Tempered",
           "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-FSKB-HND-GAT",
-          "opTypeId": "TAU-FSKB-HND",
-          "abilityName": "Gather",
+          "id": "TAU-FSKB-HND-GAT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative (you can determine control during that action to do so),\nand any remaining move distance it had from the Dash or Reposition action can be used after it does so."
+          "name": "Gather",
+          "description": null,
+          "effects": [
+            "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative (you can determine control during that action to do so),",
+            "and any remaining move distance it had from the Dash or Reposition action can be used after it does so."
+          ]
         }
       ]
     },
@@ -671,13 +682,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-FSKB-LS-LS",
-          "opTypeId": "TAU-FSKB-LS",
-          "abilityName": "Long-Sight",
+          "id": "TAU-FSKB-LS-LS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation:\n\n- The concealed and stationary profiles of its Kroot hunting rifle have the Lethal 5+ weapon rule.\n- Whenever it's shooting with its Kroot hunting rifle, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Long-Sight",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation:",
+            "- The concealed and stationary profiles of its Kroot hunting rifle have the Lethal 5+ weapon rule.",
+            "- Whenever it's shooting with its Kroot hunting rifle, enemy operatives cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -846,13 +867,23 @@
           "opTypeId": "TAU-FSKB-STK",
           "abilityName": "Stalker",
           "description": "This operative can perform the Charge action while it has a Conceal order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-FSKB-STK-SA",
-          "opTypeId": "TAU-FSKB-STK",
-          "abilityName": "Stealth Attack",
+          "id": "TAU-FSKB-STK-SA",
+          "type": "ability",
+          "seq": 0,
           "AP": 2,
-          "description": "Perform a free Charge action with this operative, but don't exceed its Move stat (i.e. don't add 2\"). Then immediately perform a free Fight action with this operative.\nThe first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent).  \n\nThis operative cannot perform this action while it has an Engage order, while within control range of an enemy operative, or if it isn't within 1\" of Light or Heavy terrain."
+          "name": "Stealth Attack",
+          "description": null,
+          "effects": [
+            "Perform a free Charge action with this operative, but don't exceed its Move stat (i.e. don't add 2\"). Then immediately perform a free Fight action with this operative.",
+            "The first time you strike during that action, you can immediately resolve another of your successes as a strike (before your opponent)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has an Engage order, while within control range of an enemy operative, or if it isn't within 1\" of Light or Heavy terrain."
+          ]
         }
       ]
     },
@@ -907,20 +938,37 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-FSKB-TRK-FTEA",
-          "opTypeId": "TAU-FSKB-TRK",
-          "abilityName": "From The Eye Above",
+          "id": "TAU-FSKB-TRK-FTEA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT** Select one other friendly FARSTALKER KINBAND operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "From The Eye Above",
+          "description": null,
+          "effects": [
+            "**SUPPORT** Select one other friendly FARSTALKER KINBAND operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TAU-FSKB-TRK-MFTH",
-          "opTypeId": "TAU-FSKB-TRK",
-          "abilityName": "Marked For The Hunt",
+          "id": "TAU-FSKB-TRK-MFTH",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Remove your Pech'ra marker from the killzone (if any). Then place your Pech'ra marker visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.\nWhenever a friendly FARSTALKER KINBAND operative is shooting an enemy operative that has that marker within its control range, that friendly operative's ranged weapons have the Seek Light weapon rule.  \n\nAt the start of this operative's next activation or if it's removed from the killzone (whichever comes first), remove your Pech'ra marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Marked For The Hunt",
+          "description": null,
+          "effects": [
+            "Remove your Pech'ra marker from the killzone (if any). Then place your Pech'ra marker visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.",
+            "Whenever a friendly FARSTALKER KINBAND operative is shooting an enemy operative that has that marker within its control range, that friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "At the start of this operative's next activation or if it's removed from the killzone (whichever comes first), remove your Pech'ra marker from the killzone."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },

@@ -82,32 +82,28 @@
       "killteamId": "VOT-HKY",
       "seq": 1,
       "eqName": "Firestorm Bolt Shells",
-      "description": "Once per turning point, when a friendly HERNKYN YAEGIR operative is performing the Shoot action and you select a bolt shotgun (short range), you can use this rule.\nIf you do, until the end of that action, that weapon has the Blast 1\" weapon rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly HERNKYN YAEGIR operative is performing the Shoot action and you select a bolt shotgun (short range), you can use this rule.\nIf you do, until the end of that action, that weapon has the Blast 1\" weapon rule."
     },
     {
       "eqId": "VOT-HKY-KVCU",
       "killteamId": "VOT-HKY",
       "seq": 2,
       "eqName": "KV-Ceramide Undersuit",
-      "description": "Whenever an enemy operative is shooting a friendly HERNKYN YAEGIR operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly HERNKYN YAEGIR operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
-      "effects": ""
+      "description": "Whenever an enemy operative is shooting a friendly HERNKYN YAEGIR operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly HERNKYN YAEGIR operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence."
     },
     {
       "eqId": "VOT-HKY-PK",
       "killteamId": "VOT-HKY",
       "seq": 3,
       "eqName": "Plasma Knives",
-      "description": "Friendly HERNKYN YAEGIR operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance use the better version, and that weapon has the Balanced weapon rule for the battle..\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|",
-      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
+      "description": "Friendly HERNKYN YAEGIR operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance use the better version, and that weapon has the Balanced weapon rule for the battle..\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|"
     },
     {
       "eqId": "VOT-HKY-SBS",
       "killteamId": "VOT-HKY",
       "seq": 4,
       "eqName": "Stabilized Bolt Shells",
-      "description": "Up to twice per turning point, whenever a friendly HERNKYN YAEGIR operative is performing the Shoot action and you selected a bolt shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its damage stats.",
-      "effects": ""
+      "description": "Up to twice per turning point, whenever a friendly HERNKYN YAEGIR operative is performing the Shoot action and you selected a bolt shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its damage stats."
     }
   ],
   "teamAbilities": [
@@ -926,6 +922,14 @@
           "description": "Whenever you spend a Resourceful point for this operative, the following takes precedence:\n\n- If you add 1 to its APL stat, it lasts until the start of its next activation instead.\n- If it regains lost wounds, it regains 4 instead.\n"
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-VOT-HKY-BIPOD",
+      "name": "Bipod",
+      "description": "Whenever this operative is shooting with this weapon, if it has not moved during the activation, or if it is a counteraction, this weapon has the Ceaseless weapon rule. Note this operative is not restricted from moving after shooting.",
+      "team": "VOT-HKY"
     }
   ]
 }

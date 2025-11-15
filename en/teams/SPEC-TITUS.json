@@ -75,13 +75,19 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "SPEC-TITUS-TIT-UA-RF",
-          "opTypeId": "SPEC-TITUS-TIT",
-          "abilityName": "Righteous Fury",
+          "id": "SPEC-TITUS-TIT-UA-RF",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Player operatives within 6\" of this operative regain up to D3+3 lost wounds (roll separately for each), then remove all Mortal Wound tokens from those operatives.  \n This operative cannot perform this action more than once per battle."
+          "name": "Righteous Fury",
+          "description": null,
+          "effects": [
+            "Player operatives within 6\" of this operative regain up to D3+3 lost wounds (roll separately for each), then remove all Mortal Wound tokens from those operatives.",
+            "This operative cannot perform this action more than once per battle."
+          ]
         }
       ]
     },
@@ -142,13 +148,19 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "SPEC-TITUS-GAD-UA-BC",
-          "opTypeId": "SPEC-TITUS-GAD",
-          "abilityName": "Battle Cry",
+          "id": "SPEC-TITUS-GAD-UA-BC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Inflict D3+3 damage on each enemy operative within 3\" of this operative (roll separately for each).  \nThis operative cannot perform this action more than once per battle."
+          "name": "Battle Cry",
+          "description": null,
+          "effects": [
+            "Inflict D3+3 damage on each enemy operative within 3\" of this operative (roll separately for each).",
+            "This operative cannot perform this action more than once per battle."
+          ]
         }
       ]
     },
@@ -209,13 +221,19 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "SPEC-TITUS-CHA-UA-AS",
-          "opTypeId": "SPEC-TITUS-CHA",
-          "abilityName": "Auspex Scan",
+          "id": "SPEC-TITUS-CHA-UA-AS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the end of this operative's next activation, whenever a player operative is shooting, fighting or retaliating, add 1 to the Critical Dmg stat of its weapons, and its successes equal to or greater than 5 are critical successes.  \nThis operative cannot perform this action more than once per battle."
+          "name": "Auspex Scan",
+          "description": null,
+          "effects": [
+            "Until the end of this operative's next activation, whenever a player operative is shooting, fighting or retaliating, add 1 to the Critical Dmg stat of its weapons, and its successes equal to or greater than 5 are critical successes.",
+            "This operative cannot perform this action more than once per battle."
+          ]
         }
       ]
     },

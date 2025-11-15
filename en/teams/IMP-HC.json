@@ -82,32 +82,28 @@
       "killteamId": "IMP-HC",
       "seq": 1,
       "eqName": "Rad Bombardment",
-      "description": "Once per battle STRATEGIC GAMBIT in any turning point after the first. Select one objective marker or your opponent's drop zone.\nRoll one D6 separately for each enemy operative within control range of that selected objective marker or within that drop zone, and subtract 1 if any part of that enemy operative's base is underneath Vantage terrain:  \n\non a 4+, subtract 1 from that operative's APL stat until the end of its next activation;  \n\non a 6, also inflict D3 damage on it (roll separately for each).",
-      "effects": ""
+      "description": "Once per battle STRATEGIC GAMBIT in any turning point after the first. Select one objective marker or your opponent's drop zone.\nRoll one D6 separately for each enemy operative within control range of that selected objective marker or within that drop zone, and subtract 1 if any part of that enemy operative's base is underneath Vantage terrain:  \n\non a 4+, subtract 1 from that operative's APL stat until the end of its next activation;  \n\non a 6, also inflict D3 damage on it (roll separately for each)."
     },
     {
       "eqId": "IMP-HC-RS",
       "killteamId": "IMP-HC",
       "seq": 2,
       "eqName": "Redundancy Systems",
-      "description": "Once per turning point, when a friendly HUNTER CLADE operative is activated, if it's not within control range of enemy operatives, you can use this rule.\nIf you do, that friendly operative regains up to D3+2 lost wounds.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly HUNTER CLADE operative is activated, if it's not within control range of enemy operatives, you can use this rule.\nIf you do, that friendly operative regains up to D3+2 lost wounds."
     },
     {
       "eqId": "IMP-HC-RF",
       "killteamId": "IMP-HC",
       "seq": 3,
       "eqName": "Refractor Field",
-      "description": "Once per turning point, when an operative is shooting a friendly HUNTER CLADE operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
+      "description": "Once per turning point, when an operative is shooting a friendly HUNTER CLADE operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
     },
     {
       "eqId": "IMP-HC-EML",
       "killteamId": "IMP-HC",
       "seq": 4,
       "eqName": "Extremis Mind-Link",
-      "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order.",
-      "effects": ""
+      "description": "Once per battle, you can use the Control Edict firefight ploy for 0CP, but instead of activating the selected friendly operatives in succession, activate them at the same time.\nComplete their activations action by action in any order."
     }
   ],
   "teamAbilities": [
@@ -1054,13 +1050,22 @@
           "opTypeId": "IMP-HC-SRGD",
           "abilityName": "Targeting Protocol",
           "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-HC-SRGD-SIG",
-          "opTypeId": "IMP-HC-SRGD",
-          "abilityName": "Signal",
+          "id": "IMP-HC-SRGD-SIG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT** Select one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT** Select one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1302,13 +1307,25 @@
           "opTypeId": "IMP-HC-SRGS",
           "abilityName": "Targeting Protocol",
           "description": "Whenever this operative is shooting, if it hasn't moved during the activation, or if it's a counteraction, ranged weapons on its datacard have the Lethal 5+ weapon rule. Note this operative isn't restricted from moving after shooting."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-HC-SRGS-SPT",
-          "opTypeId": "IMP-HC-SRGS",
-          "abilityName": "Spot",
+          "id": "IMP-HC-SRGS-SPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1443,13 +1460,23 @@
           "opTypeId": "IMP-HC-SVD",
           "abilityName": "Rad-Saturation",
           "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-HC-SVD-SIG",
-          "opTypeId": "IMP-HC-SVD",
-          "abilityName": "Signal",
+          "id": "IMP-HC-SVD-SIG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly HUNTER CLADE operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1685,13 +1712,25 @@
           "opTypeId": "IMP-HC-SVS",
           "abilityName": "Rad-Saturation",
           "description": "Whenever an enemy operative is within 2\" of friendly HUNTER CLADE VANGUARD operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-HC-SVS-SPT",
-          "opTypeId": "IMP-HC-SVS",
-          "abilityName": "Spot",
+          "id": "IMP-HC-SVS-SPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },

@@ -82,32 +82,28 @@
       "killteamId": "TAU-PF",
       "seq": 1,
       "eqName": "Target Analysis Optic",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected."
     },
     {
       "eqId": "TAU-PF-OSUL",
       "killteamId": "TAU-PF",
       "seq": 2,
       "eqName": "Orbital Survey Uplink",
-      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules."
     },
     {
       "eqId": "TAU-PF-HIML",
       "killteamId": "TAU-PF",
       "seq": 3,
       "eqName": "High-Intensity Markerlight",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one).",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one)."
     },
     {
       "eqId": "TAU-PF-PG",
       "killteamId": "TAU-PF",
       "seq": 4,
       "eqName": "Photon Grenade",
-      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
-      "effects": ""
+      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative."
     }
   ],
   "teamAbilities": [
@@ -393,13 +389,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-PF-COMMS-SIG",
-          "opTypeId": "TAU-PF-COMMS",
-          "abilityName": "Signal",
+          "id": "TAU-PF-COMMS-SIG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly PATHFINDER operative visible to and within 6\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly PATHFINDER operative visible to and within 6\" of this operative.",
+            "Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -460,13 +466,23 @@
           "opTypeId": "TAU-PF-DC",
           "abilityName": "Drone Controller",
           "description": "Whenever this operative is in the killzone:\n\n- Add 2\" to the Move stat of friendly PATHFINDER DRONE operatives.\n- The Saviour Protocols firefight ploy costs you 0CP.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-PF-DC-RP",
-          "opTypeId": "TAU-PF-DC",
-          "abilityName": "Remote Pilot",
+          "id": "TAU-PF-DC-RP",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "One friendly PATHFINDER DRONE operative can immediately perform one free action, but it cannot move more than 2\" during that action.\nThat action can be one that's normally restricted by its drone rule (this takes precedence over that rule).  \n\nThis operative cannot perform this action while within control range of an enemy operative.\nThis operative can perform this action more than once during its activation, but if it does, the same DRONE operative cannot perform the same free action more than once per activation."
+          "name": "Remote Pilot",
+          "description": null,
+          "effects": [
+            "One friendly PATHFINDER DRONE operative can immediately perform one free action, but it cannot move more than 2\" during that action.",
+            "That action can be one that's normally restricted by its drone rule (this takes precedence over that rule)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative.\nThis operative can perform this action more than once during its activation, but if it does, the same DRONE operative cannot perform the same free action more than once per activation."
+          ]
         }
       ]
     },
@@ -618,13 +634,23 @@
           "opTypeId": "TAU-PF-MDC",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly PATHFINDER operative (excluding DRONE) would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative is not incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-PF-MDC-MDK",
-          "opTypeId": "TAU-PF-MDC",
-          "abilityName": "Medikit",
+          "id": "TAU-PF-MDC-MDK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly PATHFINDER operative (excluding DRONE) within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly PATHFINDER operative (excluding DRONE) within this operative's control range to regain up to 2D3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -745,20 +771,35 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "TAU-PF-TSI-MDV",
-          "opTypeId": "TAU-PF-TSI",
-          "abilityName": "Multi-Dimensional Vision",
+          "id": "TAU-PF-TSI-MDV",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation, whenever it's shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Multi-Dimensional Vision",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation, whenever it's shooting, enemy operatives cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "TAU-PF-TSI-SJ",
-          "opTypeId": "TAU-PF-TSI",
-          "abilityName": "System Jam",
+          "id": "TAU-PF-TSI-SJ",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          "name": "System Jam",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of that operative's next activation, subtract 1 from its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1173,13 +1214,20 @@
           "opTypeId": "TAU-PF-MV31",
           "abilityName": "Drone",
           "description": "\n- This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Markerlight, Reposition and Shoot. It cannot use any weapons that aren't on its datacard.\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower.\n- Whenever determining what's visible to this operative, the round disc at the top of the miniature is its head.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TAU-PF-MV31-PA",
-          "opTypeId": "TAU-PF-MV31",
-          "abilityName": "Pulse Accelerator",
+          "id": "TAU-PF-MV31-PA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever another friendly PATHFINDER operative is shooting with a pulse weapon within 3\" of this operative, that weapon has the Lethal 5+ and Severe weapon rules."
+          "name": "Pulse Accelerator",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),",
+            "whenever another friendly PATHFINDER operative is shooting with a pulse weapon within 3\" of this operative, that weapon has the Lethal 5+ and Severe weapon rules."
+          ]
         }
       ]
     },

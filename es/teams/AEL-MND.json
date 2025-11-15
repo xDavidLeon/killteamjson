@@ -372,13 +372,23 @@
           "opTypeId": "AEL-MND-ABS",
           "abilityName": "Balefire",
           "description": "Whenever a friendly MANDRAKE operative is shooting an enemy operative that has one of your Balefire tokens add 1 to both DMG stats of that friendly operative's ranged weapons and they have the Saturate weapon rule.\nWhenever an operative is shooting a friendly MANDRAKE operative that has one of your Balefire tokens, subtract 1 from both DMG stats of that operative's ranged weapons (to a minimum of 1)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-MND-ABS-WIB",
-          "opTypeId": "AEL-MND-ABS",
-          "abilityName": "Wreathe In Balefire",
+          "id": "AEL-MND-ABS-WIB",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one operative visible to this operative that does not have one of your Balefire tokens.\nUntil the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), that selected operative gains one of your Balefire tokens.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Wreathe In Balefire",
+          "description": null,
+          "effects": [
+            "Select one operative visible to this operative that does not have one of your Balefire tokens.",
+            "Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), that selected operative gains one of your Balefire tokens."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -486,13 +496,22 @@
           "opTypeId": "AEL-MND-DM",
           "abilityName": "Haunting Focus",
           "description": "Select one enemy operative.\r Until the ready step of the next strategy phase, it gains your Haunting Focus token.\r The next time your opponent would activate an enemy operative that has your Haunting Focus token, if this operative is ready, you can activate this operative first (you cannot do so if you also rolled to prevent that operative's activation with the NIGHTFIEND operative's Harrowing Whispers additional rule during this Turning Point).\r If you do, during that activation, this operative must fight against or shoot against that enemy operative, and cannot do so against any other enemy operatives until it does (if this is not possible, the activation is cancelled).\r After completing this operative's activation, your opponent activates that enemy operative (if possible), or activates a different enemy operative if they can't."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-MND-DM-PP",
-          "opTypeId": "AEL-MND-DM",
-          "abilityName": "Pareidolic Projection",
+          "id": "AEL-MND-DM-PP",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative that is a valid target for this operative or is WITHIN SHADOW.\nUntil the start of this operative's next activation, until it is incapacitated, or until it performs this action again (whichever comes first),\nworsen the HIT stat of that enemy operative's weapons by 1 and subtract 2\" from its Move stat (these are not cumulative with being injured).\nIn addition, that enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has)."
+          "name": "Pareidolic Projection",
+          "description": null,
+          "effects": [
+            "Select one enemy operative that is a valid target for this operative or is WITHIN SHADOW.",
+            "Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (whichever comes first),",
+            "worsen the HIT stat of that enemy operative's weapons by 1 and subtract 2\" from its Move stat (these are not cumulative with being injured).",
+            "In addition, that enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has)."
+          ]
         }
       ]
     },
@@ -562,13 +581,25 @@
           "opTypeId": "AEL-MND-SW",
           "abilityName": "Shadow Portal",
           "description": "Whenever this operative performs the Reposition action using a SHADOW PASSAGE, you can use this rule.\nIf you do so, remove your Shadow Portal markers from the killzone (if any), then place one of your Shadow Portal markers within this operative's control range before it is removed\nand one within its control range after it is set up.  \n\nEach friendly MANDRAKE operative can use a SHADOW PASSAGE each turning point (taking precedence over one operative once per turning point)\nif one of your Shadow Portal markers is within that operative's control range when it is removed, and the other when it is set up.\nNote that friendly operatives can do this even if this operative has been incapacitated, and doing so does not prevent the operative from using a SHADOW PASSAGE in the normal manner."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-MND-SW-WD",
-          "opTypeId": "AEL-MND-SW",
-          "abilityName": "Weave Darkness",
+          "id": "AEL-MND-SW-WD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Remove your Weave Darkness marker from the killzone (if any).\nThen place your Weave Darkness marker visible to this operative, or on vantage terrain of a feature visible to this operative.\nThat marker creates an area of smoke with the same size and effects of a smoke grenade, except you do not remove it during the following turning point.\nIf this operative is incapacitated, remove your Weave Darkness marker from the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Weave Darkness",
+          "description": null,
+          "effects": [
+            "Remove your Weave Darkness marker from the killzone (if any).",
+            "Then place your Weave Darkness marker visible to this operative, or on vantage terrain of a feature visible to this operative.",
+            "That marker creates an area of smoke with the same size and effects of a smoke grenade, except you do not remove it during the following turning point.",
+            "If this operative is incapacitated, remove your Weave Darkness marker from the killzone."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -640,6 +671,14 @@
           "description": "Whenever this operative is WITHIN SHADOW, add 1 to the critical damage stat of its Glimmersteel Blade."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-MND-SOULSTRIKE",
+      "name": "Rompealmas",
+      "description": "Los dados de defensa exitosos se determinan de manera diferente. Cada resultado que sea igual o menor que el atributo de LPA del objetivo es un éxito y se retiene. Cada resultado que sea mayor que el atributo de LPA del objetivo es un fallo y se descarta. Cada resultado de 1 es siempre un éxito crítico. Los otros éxitos son éxitos normales. Cada resultado de 6 es siempre un fallo.",
+      "team": "AEL-MND"
     }
   ]
 }

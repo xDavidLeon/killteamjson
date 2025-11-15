@@ -82,32 +82,28 @@
       "killteamId": "ORK-KOM",
       "seq": 1,
       "eqName": "Choppas",
-      "description": "Friendly KOMMANDO operatives (excluding BOMB SQUIG and GROT) have the following melee weapon. Note that some operatives already have this weapon but with better stats, in that instance, use the better version.\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Choppa|3|3+|4/5|",
-      "effects": "ADDWEP:Choppa|M|3|3+|4/5|"
+      "description": "Friendly KOMMANDO operatives (excluding BOMB SQUIG and GROT) have the following melee weapon. Note that some operatives already have this weapon but with better stats, in that instance, use the better version.\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Choppa|3|3+|4/5|"
     },
     {
       "eqId": "ORK-KOM-CS",
       "killteamId": "ORK-KOM",
       "seq": 2,
       "eqName": "Collapsible Stocks",
-      "description": "Remove the Range weapon rule from the following ranged weapons that friendly KOMMANDO operatives have:\r \r- Shokka Pistol\r - Slugga\r ",
-      "effects": ""
+      "description": "Remove the Range weapon rule from the following ranged weapons that friendly KOMMANDO operatives have:\r \r- Shokka Pistol\r - Slugga\r "
     },
     {
       "eqId": "ORK-KOM-DYN",
       "killteamId": "ORK-KOM",
       "seq": 3,
       "eqName": "Dynamite",
-      "description": "Once per battle, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Dynamite|5|4+|4/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Heavy (RepositionOnly), Saturate|\n\n",
-      "effects": "ADDWEP:Dynamite|R|5|4+|4/5|Range 4\", Blast 1\", Saturate, Limited, Heavy (RepositionOnly)"
+      "description": "Once per battle, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Dynamite|5|4+|4/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Heavy (RepositionOnly), Saturate|\n\n"
     },
     {
       "eqId": "ORK-KOM-HRP",
       "killteamId": "ORK-KOM",
       "seq": 4,
       "eqName": "Harpoon",
-      "description": "Once per turning point, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Harpoon|4|4+|4/5|\n|**Weapon Rules**|\n|Range 8\", Lethal 5+, Stun|",
-      "effects": "ADDWEP:Harpoon|R|4|4+|4/5|Range 8\", Lethal 5+, Stun"
+      "description": "Once per turning point, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Harpoon|4|4+|4/5|\n|**Weapon Rules**|\n|Range 8\", Lethal 5+, Stun|"
     }
   ],
   "opTypes": [
@@ -201,17 +197,27 @@
           "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
         },
         {
-          "abilityId": "ORK-KOM-NOB-GID",
-          "opTypeId": "ORK-KOM-NOB",
-          "abilityName": "Get it Dun",
-          "AP": 1,
-          "description": "**SUPPORT** Select one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.\nUntil the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
-        },
-        {
           "abilityId": "ORK-KOM-NOB-KT",
           "opTypeId": "ORK-KOM-NOB",
           "abilityName": "Krumpin' Time",
           "description": "This operative can perform two Fight actions during its activation"
+        }
+      ],
+      "actions": [
+        {
+          "id": "ORK-KOM-NOB-GID",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Get it Dun",
+          "description": null,
+          "effects": [
+            "**SUPPORT** Select one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.",
+            "Until the end of that operative's next activation add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -330,13 +336,23 @@
           "opTypeId": "ORK-KOM-GROT",
           "abilityName": "Throat Slittas",
           "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "ORK-KOM-GROT-GH",
-          "opTypeId": "ORK-KOM-GROT",
-          "abilityName": "Grappling Hook",
+          "id": "ORK-KOM-GROT-GH",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Selected a visible point on a terrain feature for this operative.\nRemove this operative from the killzone and set it back up within 1\" horizontally of that point in a location it can be placed, not within control range of enemy operatives, and with that point visible to it.\nThe operative cannot perform the Operate Hatch action during this action.  \n\nThis action is treated as a Reposition action.\nThis operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+          "name": "Grappling Hook",
+          "description": null,
+          "effects": [
+            "Selected a visible point on a terrain feature for this operative.",
+            "Remove this operative from the killzone and set it back up within 1\" horizontally of that point in a location it can be placed, not within control range of enemy operatives, and with that point visible to it.",
+            "The operative cannot perform the Operate Hatch action during this action.",
+            "This action is treated as a Reposition action.",
+            "This operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+          ]
         }
       ]
     },
@@ -494,13 +510,25 @@
           "opTypeId": "ORK-KOM-BRC",
           "abilityName": "Throat Slittas",
           "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "ORK-KOM-BRC-BRC",
-          "opTypeId": "ORK-KOM-BRC",
-          "abilityName": "Breach",
+          "id": "ORK-KOM-BRC-BRC",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.\nWhenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible Terrain.\nThis operative can perform this action during the Charge or Reposition action, and it can do so for 1 less AP during those actions.\nAny remaining move distance can be used after it does so.  \n\nThis operative cannot perform this action while within control range of an enemy operative or if a terrain feature is not within its control range."
+          "name": "Breach",
+          "description": null,
+          "effects": [
+            "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.",
+            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible Terrain.",
+            "This operative can perform this action during the Charge or Reposition action, and it can do so for 1 less AP during those actions.",
+            "Any remaining move distance can be used after it does so."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative or if a terrain feature is not within its control range."
+          ]
         }
       ]
     },
@@ -690,13 +718,22 @@
           "opTypeId": "ORK-KOM-DAK",
           "abilityName": "Throat Slittas",
           "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "ORK-KOM-DAK-DD",
-          "opTypeId": "ORK-KOM-DAK",
-          "abilityName": "Dakka Dash",
+          "id": "ORK-KOM-DAK-DD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform a free Dash action and a free shoot action with this operative in any order. You can only select a Dakka Shoota for that shoot action.  \n\nThis operative cannot perform this action while within control range of an enemy operative or while it has a Conceal order."
+          "name": "Dakka Dash",
+          "description": null,
+          "effects": [
+            "Perform a free Dash action and a free shoot action with this operative in any order. You can only select a Dakka Shoota for that shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative or while it has a Conceal order."
+          ]
         }
       ]
     },
@@ -778,13 +815,24 @@
           "opTypeId": "ORK-KOM-COMMS",
           "abilityName": "Throat Slittas",
           "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "ORK-KOM-COMMS-LI",
-          "opTypeId": "ORK-KOM-COMMS",
-          "abilityName": "Listen In",
+          "id": "ORK-KOM-COMMS-LI",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.\nUntil the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Listen In",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.",
+            "Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1056,6 +1104,14 @@
           "description": "In the Firefight Phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition and Shoot, or use any weapons that are not on its data card."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-ORK-KOM-EXPLOSIVE",
+      "name": "Explosive",
+      "description": "This operative can perform the shoot action with this weapon while within control range of an enemy operative.\nDo not select a valid target, instead this operative is always the primary target and cannot be in cover or obscured.",
+      "team": "ORK-KOM"
     }
   ]
 }

@@ -82,32 +82,28 @@
       "killteamId": "VOT-HKS",
       "seq": 1,
       "eqName": "Plasma Knives",
-      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|",
-      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
+      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|"
     },
     {
       "eqId": "VOT-HKS-CR",
       "killteamId": "VOT-HKS",
       "seq": 2,
       "eqName": "Climbing Rigs",
-      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is climbing, treat the vertical distance as 1\" less (to a minimum of 2\").\nNote this has no effect when using ladder equipment terrain, which treats the vertical distance as 1\" (but would have an effect if the operative then continued climbing another terrain feature).",
-      "effects": ""
+      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is climbing, treat the vertical distance as 1\" less (to a minimum of 2\").\nNote this has no effect when using ladder equipment terrain, which treats the vertical distance as 1\" (but would have an effect if the operative then continued climbing another terrain feature)."
     },
     {
       "eqId": "VOT-HKS-ET",
       "killteamId": "VOT-HKS",
       "seq": 3,
       "eqName": "Excavation Tools",
-      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker).",
-      "effects": ""
+      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker)."
     },
     {
       "eqId": "VOT-HKS-WOC",
       "killteamId": "VOT-HKS",
       "seq": 4,
       "eqName": "Writ Of Claim",
-      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice.",
-      "effects": ""
+      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice."
     }
   ],
   "teamAbilities": [
@@ -431,13 +427,25 @@
           "opTypeId": "VOT-HKS-DO",
           "abilityName": "Brawler",
           "description": "Whenever this operative is fighting or retaliating:\n\n- Enemy operatives cannot assist.\n- If it is incapacitated, you can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone.\n- Normal Dmg of 4 or more inflicts 1 less damage on it."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "VOT-HKS-DO-KS",
-          "opTypeId": "VOT-HKS-DO",
-          "abilityName": "Knux Smash",
+          "id": "VOT-HKS-DO-KS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative within this operative's control range.\nYou can move that enemy operative up to 3\" to a location it can be placed.\nThen inflict D3+1 damage on it (even if you don't move it); if the D3 result is a 3, also subtract 1 from that enemy operative's APL stat until the end of its next activation.\nThis operative can then immediately perform a free Charge action (even if it's already performed the Charge action during that activation), but cannot move more than 3\" during that action.  \n\nThis operative cannot perform this action unless an enemy operative is within its control range."
+          "name": "Knux Smash",
+          "description": null,
+          "effects": [
+            "Select one enemy operative within this operative's control range.",
+            "You can move that enemy operative up to 3\" to a location it can be placed.",
+            "Then inflict D3+1 damage on it (even if you don't move it); if the D3 result is a 3, also subtract 1 from that enemy operative's APL stat until the end of its next activation.",
+            "This operative can then immediately perform a free Charge action (even if it's already performed the Charge action during that activation), but cannot move more than 3\" during that action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action unless an enemy operative is within its control range."
+          ]
         }
       ]
     },
@@ -508,13 +516,23 @@
           "opTypeId": "VOT-HKS-MDC",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly HEARTHKYN SALVAGER operative would be removed from the killzone as incapacitated while visible to and within 3\" of this operative,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative is not incapacitated and has 1 wound remaining.\nThat friendly operative can then immediately perform a free Dash action, but must end that move within this operative's control range.\nSubtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.\nYou cannot use this rule if this operative is incapacitated."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "VOT-HKS-MDC-MDK",
-          "opTypeId": "VOT-HKS-MDC",
-          "abilityName": "Medikit",
+          "id": "VOT-HKS-MDC-MDK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly HEARTHKYN SALVAGER operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly HEARTHKYN SALVAGER operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -689,20 +707,37 @@
           "opTypeId": "VOT-HKS-GRN",
           "abilityName": "Grenadier",
           "description": "This operative can use frag, krak, smoke and stun grenades (see universal equipment).\nDoing so doesn't count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever this operative is using a frag or krak grenade, improve the Hit stat of that weapon by 1."
+        }
+      ],
+      "actions": [
+        {
+          "id": "VOT-HKS-GRN-SMK",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Smoke Grenade",
+          "description": null,
+          "effects": [],
+          "conditions": [
+            "- Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative,\r or on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.\r - While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.\r In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.\r - In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed\r or at the end of the turning point (whichever comes first).\r - An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
+          ]
         },
         {
-          "abilityId": "VOT-HKS-GRN-SMK",
-          "opTypeId": "VOT-HKS-GRN",
-          "abilityName": "Smoke Grenade",
+          "id": "VOT-HKS-GRN-V3UG",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "\r - Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative,\r or on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.\r - While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.\r In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.\r - In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed\r or at the end of the turning point (whichever comes first).\r - An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it.\r "
-        },
-        {
-          "abilityId": "VOT-HKS-GRN-V3UG",
-          "opTypeId": "VOT-HKS-GRN",
-          "abilityName": "Bayr-3 Utility Grenade",
-          "AP": 1,
-          "description": "Place one of your Utility Grenade markers within 6\" of this operative.\nIt must be visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.\nWhenever an operative is within 3\" of that Utility Grenade marker, its controlling player must spend 1 additional AP for that operative to perform the Pick Up Marker and mission actions.  \n\nIn the Ready step of the next Strategy phase, roll one D3. Remove that Utility Grenade marker after a number of activations equal to the result have been completed, or at the end of the turning point (whichever comes first).\n\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Bayr-3 Utility Grenade",
+          "description": null,
+          "effects": [
+            "Place one of your Utility Grenade markers within 6\" of this operative.",
+            "It must be visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.",
+            "Whenever an operative is within 3\" of that Utility Grenade marker, its controlling player must spend 1 additional AP for that operative to perform the Pick Up Marker and mission actions.",
+            "In the Ready step of the next Strategy phase, roll one D3. Remove that Utility Grenade marker after a number of activations equal to the result have been completed, or at the end of the turning point (whichever comes first)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1077,20 +1112,38 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "VOT-HKS-KL-JAM",
-          "opTypeId": "VOT-HKS-KL",
-          "abilityName": "System Jam",
+          "id": "VOT-HKS-KL-JAM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative that's a valid target for this operative and that doesn't have one of your System Jam tokens; it gains one.\nUntil the end of the battle, whenever an enemy operative has one of your System Jam tokens, it cannot be activated until each enemy operative without one is expended.\nWhen an enemy operative that has one of your System Jam tokens is activated, remove that token.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "System Jam",
+          "description": null,
+          "effects": [
+            "Select one enemy operative that's a valid target for this operative and that doesn't have one of your System Jam tokens; it gains one.",
+            "Until the end of the battle, whenever an enemy operative has one of your System Jam tokens, it cannot be activated until each enemy operative without one is expended.",
+            "When an enemy operative that has one of your System Jam tokens is activated, remove that token."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "VOT-HKS-KL-SIG",
-          "opTypeId": "VOT-HKS-KL",
-          "abilityName": "Signal",
+          "id": "VOT-HKS-KL-SIG",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly HEARTHKYN SALVAGER operative in the killzone. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly HEARTHKYN SALVAGER operative in the killzone. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1181,13 +1234,23 @@
           "opTypeId": "VOT-HKS-KOG",
           "abilityName": "Tactician",
           "description": "**STRATEGIC GAMBIT**\nPlace either your Attack or Defence marker in the killzone. Whenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative\nthat is within 3\" of your Attack marker, you can re-roll one of your attack dice.\nWhenever an enemy operative is shooting a friendly HEARTHKYN SALVAGER operative that is within 3\" of your Defence marker, you can re-roll one of your defence dice.\nIn the Ready step of the next Strategy phase, remove that marker."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "VOT-HKS-KOG-AA",
-          "opTypeId": "VOT-HKS-KOG",
-          "abilityName": "Accelerated Appraisal",
+          "id": "VOT-HKS-KOG-AA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "If your Attack or Defence marker is in the killzone, remove it.  \n\nPlace your Attack or Defence marker in the killzone.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Accelerated Appraisal",
+          "description": null,
+          "effects": [
+            "If your Attack or Defence marker is in the killzone, remove it.",
+            "Place your Attack or Defence marker in the killzone."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1272,20 +1335,41 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "VOT-HKS-LOK-PSS",
-          "opTypeId": "VOT-HKS-LOK",
-          "abilityName": "Pan Spectral Scan",
+          "id": "VOT-HKS-LOK-PSS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Place your Pan Spectral Scan marker in the killzone.\nWhenever a friendly HEARTHKYN SALVAGER operative is shooting an enemy operative that's within 3\" of that marker, that friendly operative's ranged weapons have the Accurate 1 and Saturate weapon rules.\nWhen this operative is next activated, is incapacitated or performs this action again (whichever comes first), remove that marker.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Pan Spectral Scan",
+          "description": null,
+          "effects": [
+            "Place your Pan Spectral Scan marker in the killzone.",
+            "Whenever a friendly HEARTHKYN SALVAGER operative is shooting an enemy operative that's within 3\" of that marker, that friendly operative's ranged weapons have the Accurate 1 and Saturate weapon rules.",
+            "When this operative is next activated, is incapacitated or performs this action again (whichever comes first), remove that marker."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "VOT-HKS-LOK-SPT",
-          "opTypeId": "VOT-HKS-LOK",
-          "abilityName": "Spot",
+          "id": "VOT-HKS-LOK-SPT",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HEARTHKYN SALVAGER operative within 3\" of this operative is shooting that enemy operative you can use this effect.\nIf you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HEARTHKYN SALVAGER operative within 3\" of this operative is shooting that enemy operative you can use this effect.",
+            "If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1474,6 +1558,20 @@
           "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against this operative, if this operative contests an objective marker or one of your mission markers, in the Resolve Attack Dice\nstep, you can subtract 1 from the damage inflicted on it from one success."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-VOT-HKS-BEAM",
+      "name": "Beam",
+      "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn't affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn't cross Heavy terrain.",
+      "team": "VOT-HKS"
+    },
+    {
+      "id": "WR-VOT-HKS-FORCE",
+      "name": "Force Impact",
+      "description": "Whenever this operative is fighting with this weapon, if it has performed the Charge action during the activation, this weapon has the Brutal weapon rule.",
+      "team": "VOT-HKS"
     }
   ]
 }

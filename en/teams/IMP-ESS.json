@@ -82,32 +82,28 @@
       "killteamId": "IMP-ESS",
       "seq": 1,
       "eqName": "Armoured Undersuit",
-      "description": "Whenever an operative is shooting a friendly ELUCIDIAN STARSTRIDER operative that has a 5+ Save stat (excluding CANID), you can retain one of your defence dice results of 4 as a normal success.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly ELUCIDIAN STARSTRIDER operative that has a 5+ Save stat (excluding CANID), you can retain one of your defence dice results of 4 as a normal success."
     },
     {
       "eqId": "IMP-ESS-HSCP",
       "killteamId": "IMP-ESS",
       "seq": 2,
       "eqName": "Hot Shot Capacitor Pack",
-      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol or lasgun, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules. Note that relic laspistols are excluded from this rule.",
-      "effects": ""
+      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol or lasgun, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules. Note that relic laspistols are excluded from this rule."
     },
     {
       "eqId": "IMP-ESS-ICUL",
       "killteamId": "IMP-ESS",
       "seq": 3,
       "eqName": "Improved Coordinates Uplink",
-      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, if the target is within 6\" of a friendly ELUCIDIAN STARSTRIDER NAVIS operative, the target cannot be obscured and that weapon has the Saturate weapon rule.",
-      "effects": ""
+      "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, if the target is within 6\" of a friendly ELUCIDIAN STARSTRIDER NAVIS operative, the target cannot be obscured and that weapon has the Saturate weapon rule."
     },
     {
       "eqId": "IMP-ESS-RG",
       "killteamId": "IMP-ESS",
       "seq": 4,
       "eqName": "Rapid Gunnery",
-      "description": "Once per battle, when selecting a PRIVATEER SUPPORT ASSET, you can select one that has already been used during the battle. This takes precedence over the normal PRIVATEER SUPPORT ASSET rules.",
-      "effects": ""
+      "description": "Once per battle, when selecting a PRIVATEER SUPPORT ASSET, you can select one that has already been used during the battle. This takes precedence over the normal PRIVATEER SUPPORT ASSET rules."
     }
   ],
   "opTypes": [
@@ -274,13 +270,20 @@
           "opTypeId": "IMP-ESS-CAN",
           "abilityName": "Privateer Support Assets",
           "description": "Once per firefight phase, when a friendly ELUCIDIAN STARSTRIDER NAVIS or ELUCIDIAN STARSTRIDER ELUCIA VHANE operative performs the Shoot action, you can select one of the following PRIVATEER SUPPORT ASSET ranged weapons for it to use. You cannot use each PRIVATEER SUPPORT ASSET more than once per battle.  \n \nWhenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, determine cover saves differently. Instead, the target has a cover save if any part of its base is underneath Vantage terrain. Note that while this can affect the target's cover save, you must still select a valid target as normal. In other words, the shot is guided by an operative in the killzone, but it comes from above.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Archeotech Beam|4|3+|6/7|\n|Heavy (Repos), Piercing 2, Silent||||\n|Plasma Battery|5|4+|5/6|\n|Heavy (Repos), Lethal 5+, Piercing 1, Silent||||\n|Macrocannon|5|4|4/5|\n|Heavy (Repos), Piercing Crit 1, Saturate, Silent, Torrent 2\"||||\n|Guided Shell|5|4+|3/4|\n|Heavy (Repos), Blast 2\", Silent||||\n|Cluster Bomb|5|4+|2/3|\n|Heavy (Repos), Blast 3\", Silent||||"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-ESS-CAN-GAT",
-          "opTypeId": "IMP-ESS-CAN",
-          "abilityName": "Gather",
+          "id": "IMP-ESS-CAN-GAT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative\n(you can determine control during that action to do so), and any remaining move distance it had from the Dash or Reposition action can be used after it does so."
+          "name": "Gather",
+          "description": null,
+          "effects": [
+            "Perform a free Dash or Reposition action with this operative. During that move, you can perform a free Pick Up Marker or Place Marker action with this operative",
+            "(you can determine control during that action to do so), and any remaining move distance it had from the Dash or Reposition action can be used after it does so."
+          ]
         }
       ]
     },
@@ -373,13 +376,22 @@
           "opTypeId": "IMP-ESS-DCE",
           "abilityName": "Zealot",
           "description": "If this operative is incapacitated during the Fight action, you can strike the enemy operative in that sequence with one of your unresolved successes before this operative is removed from the killzone."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-ESS-DCE-TA",
-          "opTypeId": "IMP-ESS-DCE",
-          "abilityName": "Trained Assassin",
+          "id": "IMP-ESS-DCE-TA",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Change this operative's order.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Trained Assassin",
+          "description": null,
+          "effects": [
+            "Change this operative's order."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -459,13 +471,24 @@
           "opTypeId": "IMP-ESS-LM",
           "abilityName": "Voltagheist Array",
           "description": "Whenever an operative is shooting a friendly ELUCIDIAN STARSTRIDER operative that's within 4\" of this operative, you can re-roll one of your defence dice."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-ESS-LM-CVG",
-          "opTypeId": "IMP-ESS-LM",
-          "abilityName": "Calibrate Voltagheist",
+          "id": "IMP-ESS-LM-CVG",
+          "type": "ability",
+          "seq": 0,
           "AP": 0,
-          "description": "Select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\n\n- Charge: This operative's voltaic pistol has the Lethal 4+ weapon rule.\n- Field: Whenever an enemy operative ends the Charge, Dash, Fall Back or Reposition action visible to and within 4\" of this operative, inflict D6 damage on that enemy operative.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Calibrate Voltagheist",
+          "description": null,
+          "effects": [
+            "Select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):",
+            "- Charge: This operative's voltaic pistol has the Lethal 4+ weapon rule.",
+            "- Field: Whenever an enemy operative ends the Charge, Dash, Fall Back or Reposition action visible to and within 4\" of this operative, inflict D6 damage on that enemy operative."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -541,13 +564,22 @@
           "opTypeId": "IMP-ESS-REJAD",
           "abilityName": "Normaliser Helm",
           "description": "Whenever a friendly ELUCIDIAN STARSTRIDER operative is within 6\" of this operative, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-ESS-REJAD-HS",
-          "opTypeId": "IMP-ESS-REJAD",
-          "abilityName": "Healing Serum",
+          "id": "IMP-ESS-REJAD-HS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly ELUCIDIAN STARSTRIDER operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Healing Serum",
+          "description": null,
+          "effects": [
+            "Select one friendly ELUCIDIAN STARSTRIDER operative within this operative's control range to regain up to D3+3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -663,13 +695,20 @@
           "opTypeId": "IMP-ESS-VMST",
           "abilityName": "Privateer Support Assets",
           "description": "Once per firefight phase, when a friendly ELUCIDIAN STARSTRIDER NAVIS or ELUCIDIAN STARSTRIDER ELUCIA VHANE operative performs the Shoot action, you can select one of the following PRIVATEER SUPPORT ASSET ranged weapons for it to use. You cannot use each PRIVATEER SUPPORT ASSET more than once per battle.  \n \nWhenever a friendly ELUCIDIAN STARSTRIDER operative is using a PRIVATEER SUPPORT ASSET, determine cover saves differently. Instead, the target has a cover save if any part of its base is underneath Vantage terrain. Note that while this can affect the target's cover save, you must still select a valid target as normal. In other words, the shot is guided by an operative in the killzone, but it comes from above.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Archeotech Beam|4|3+|6/7|\n|Heavy (Repos), Piercing 2, Silent||||\n|Plasma Battery|5|4+|5/6|\n|Heavy (Repos), Lethal 5+, Piercing 1, Silent||||\n|Macrocannon|5|4|4/5|\n|Heavy (Repos), Piercing Crit 1, Saturate, Silent, Torrent 2\"||||\n|Guided Shell|5|4+|3/4|\n|Heavy (Repos), Blast 2\", Silent||||\n|Cluster Bomb|5|4+|2/3|\n|Heavy (Repos), Blast 3\", Silent||||"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-ESS-VMST-UCF",
-          "opTypeId": "IMP-ESS-VMST",
-          "abilityName": "Uncompromising Fire",
+          "id": "IMP-ESS-VMST-UCF",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select its relic laspistol for one action and its artificer shotgun (close range) for the other (in any order).  \n\r This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+          "name": "Uncompromising Fire",
+          "description": null,
+          "effects": [
+            "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select its relic laspistol for one action and its artificer shotgun (close range) for the other (in any order).",
+            "This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
+          ]
         }
       ]
     },

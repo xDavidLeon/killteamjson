@@ -82,32 +82,28 @@
       "killteamId": "IMP-DKK",
       "seq": 1,
       "eqName": "Chronometer",
-      "description": "Once per battle STRATEGIC GAMBIT in the first or second turning point.\nEach friendly DEATH KORPS operative wholly within your territory can immediately perform a free Dash action in an order of your choice, but each that does so must end that move closer to an opponent's drop zone or killzone edge.  \n\nYou cannot use this STRATEGIC GAMBIT and the Regroup strategy ploy during the same turning point.",
-      "effects": ""
+      "description": "Once per battle STRATEGIC GAMBIT in the first or second turning point.\nEach friendly DEATH KORPS operative wholly within your territory can immediately perform a free Dash action in an order of your choice, but each that does so must end that move closer to an opponent's drop zone or killzone edge.  \n\nYou cannot use this STRATEGIC GAMBIT and the Regroup strategy ploy during the same turning point."
     },
     {
       "eqId": "IMP-DKK-CB",
       "killteamId": "IMP-DKK",
       "seq": 2,
       "eqName": "Comm-Beads",
-      "description": "Whenever a friendly DEATH KORPS WATCHMASTER or friendly DEATH KORPS CONFIDANT operative issues a GUARDSMAN ORDER, you can use this rule.\nIf you do, instead of each friendly DEATH KORPS operative within 6\" of it receiving that order, you can select one friendly DEATH KORPS operative to receive that order.",
-      "effects": ""
+      "description": "Whenever a friendly DEATH KORPS WATCHMASTER or friendly DEATH KORPS CONFIDANT operative issues a GUARDSMAN ORDER, you can use this rule.\nIf you do, instead of each friendly DEATH KORPS operative within 6\" of it receiving that order, you can select one friendly DEATH KORPS operative to receive that order."
     },
     {
       "eqId": "IMP-DKK-HA",
       "killteamId": "IMP-DKK",
       "seq": 3,
       "eqName": "Hand Axes",
-      "description": "Friendly DEATH KORPS operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Hand Axe|3|4+|3/4|\n",
-      "effects": "ADDWEP:Hand Axe|M|3|4+|3/4|"
+      "description": "Friendly DEATH KORPS operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Hand Axe|3|4+|3/4|\n"
     },
     {
       "eqId": "IMP-DKK-GB",
       "killteamId": "IMP-DKK",
       "seq": 4,
       "eqName": "Gas Bombardment",
-      "description": "Once per battle STRATEGIC GAMBIT. Place your Gas marker in the killzone; it cannot be placed underneath Vantage terrain.\nWhenever an operative is within 3\" of that marker, subtract 1 from its APL stat. In the Ready step of the next Strategy phase, remove that marker.\nNote that an operative's APL stat is only changed while it is within 3\" of that marker. If it moves more than 3\" from that marker, its APL stat is no longer changed by this rule.",
-      "effects": ""
+      "description": "Once per battle STRATEGIC GAMBIT. Place your Gas marker in the killzone; it cannot be placed underneath Vantage terrain.\nWhenever an operative is within 3\" of that marker, subtract 1 from its APL stat. In the Ready step of the next Strategy phase, remove that marker.\nNote that an operative's APL stat is only changed while it is within 3\" of that marker. If it moves more than 3\" from that marker, its APL stat is no longer changed by this rule."
     }
   ],
   "opTypes": [
@@ -791,13 +787,23 @@
           "opTypeId": "IMP-DKK-MDC",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly DEATH KORPS operative would be incapacitated while visible to and within 3\" of this operative, you can use this rule,\r providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action.\rAfter that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's control range.\r Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.  \n\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-DKK-MDC-MDK",
-          "opTypeId": "IMP-DKK-MDC",
-          "abilityName": "Medikit",
+          "id": "IMP-DKK-MDC-MDK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Medikit",
+          "description": null,
+          "effects": [
+            "Select one friendly DEATH KORPS operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1076,13 +1082,24 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-DKK-SPT-SPT",
-          "opTypeId": "IMP-DKK-SPT",
-          "abilityName": "Spot",
+          "id": "IMP-DKK-SPT-SPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:\n\n- That friendly operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Spot",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:",
+            "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1269,13 +1286,23 @@
           "opTypeId": "IMP-DKK-VOX",
           "abilityName": "Relay Orders",
           "description": "Once per turning point, when this operative receives a GUARDSMAN ORDER, if it's not within control range of enemy operatives, it can relay that order.\nWhenever an order is relayed, all friendly DEATH KORPS operatives in the killzone receive that order, then subtract 1 from this operative's APL stat until the end of its next activation."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-DKK-VOX-SIG",
-          "opTypeId": "IMP-DKK-VOX",
-          "abilityName": "Signal",
+          "id": "IMP-DKK-VOX-SIG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly DEATH KORPS operative visible to and within 6\" of this operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1344,6 +1371,14 @@
           "description": "**SUPPORT**\nWhenever a friendly DEATH KORPS operative is within 3\" of this operative, that friendly operative's weapons have the Severe weapon rule.\n\n**Severe:** If you do not retain any critical successes, you can change one of your normal successes to a critical success. Any rules that take effect as a result of retaining a critical success (e.g. Devastating, Piercing Crits, etc.) still do."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-DKK-DETONATE",
+      "name": "Detonate",
+      "description": "Do not select a valid target. Instead, shoot against each operative within 2\" of your Mine marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured. Roll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Mine marker isn't in the killzone. At the end of the action, remove your Mine marker from the killzone.",
+      "team": "IMP-DKK"
     }
   ]
 }

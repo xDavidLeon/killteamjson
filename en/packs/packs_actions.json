@@ -1,0 +1,150 @@
+{
+  "actions": [
+    {
+      "id": "ACTION-OPEN-STOCKADE-DOOR",
+      "type": "mission",
+      "seq": 103,
+      "AP": 1,
+      "name": "Open Stockade Door",
+      "description": null,
+      "effects": [
+        "Open a stockade terrain feature that has a door, if the inside of its breach point is within the operative's control range."
+      ],
+      "conditions": [
+        "An operative cannot perform this action if it's on the outside of the stockade, if that stockade is already open or it doesn't have a door."
+      ],
+      "packs": [
+        "Killzone Upgrade: Compound Siege"
+      ]
+    },
+    {
+      "id": "ACTION-GUARD",
+      "type": "universal",
+      "seq": 110,
+      "AP": 1,
+      "name": "Guard",
+      "description": null,
+      "effects": [
+        "The operative goes on guard (see below) until any of the following are true: \n - It performs any action, moves or is set up.\n - An enemy operative ends an action within its control range and you don't interrupt that activation (see below).\n - Its order is changed.\n - It's the start of the next turning point."
+      ],
+      "conditions": [
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-HATCHWAY-FIGHT",
+      "type": "universal",
+      "seq": 111,
+      "AP": 1,
+      "name": "Hatchway Fight",
+      "description": null,
+      "effects": [
+        "Fight with the active operative",
+        "In the Select Enemy Operative step, instead select an enemy operative within 2\" of, and on the other side of, an open hatchway's access point the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+      ],
+      "conditions": [
+        "This action is treated as a Shoot action. An operative cannot perform this action while it has a Conceal order, or while it's within control range of an enemy operative."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-OPERATE-HATCH",
+      "type": "mission",
+      "seq": 101,
+      "AP": 1,
+      "name": "Operate Hatch",
+      "description": null,
+      "effects": [
+        "Open or close a hatchway that's access point is within the operative's control range.",
+        "An operative can perform this action during a Dash or Reposition action, and any remaining move distance can be used after it does so."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or if that hatchway is open and its access point is within an enemy operative's control range."
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-BREACH",
+      "type": "mission",
+      "seq": 102,
+      "AP": 2,
+      "name": "Breach",
+      "description": null,
+      "effects": [
+        "Open a closed breach point thats access point is within the operative's control range.",
+        "An operative that has the word(s) \"breach marker\", \"grenadier\" or \"mine\" on its datacard, or has a weapon with the Piercing 2 or Piercing Crits 2 weapon rule (excluding weapons that have the Blast or Torrent weapon rule) can perform this action for 1 less AP (to a minimum of 1AP), but it cannot do so during an activation/counteraction in which it performed the Charge or Shoot action (or vice versa).",
+        "Roll one D6 separately for each operative that's on the other side of the access point and has that access point within its control range: on a 4+, subtract 1 from that operative's APL stat until the end of its next activation and inflict damage on it equal to the dice result halved (rounding up)."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an operative, or if that breach point is open."
+      ],
+      "packs": [
+        "Killzone: Tomb World"
+      ]
+    },
+    {
+      "id": "ACTION-DOOR-FIGHT",
+      "type": "universal",
+      "seq": 112,
+      "AP": 1,
+      "name": "Door Fight",
+      "description": null,
+      "effects": [
+        "Fight with the active operative",
+        "In the Select Enemy Operative step, select an enemy operative within 2\" of, and on the other side of, a door the active operative is touching. For the duration of that action, those operatives are treated as being within each other's control range."
+      ],
+      "conditions": [
+        "This action is treated as a Fight action. An operative cannot perform this action while within control range of an enemy operative, or if its base isn't touching a door."
+      ],
+      "packs": [
+        "Killzone: Volkus"
+      ]
+    },
+    {
+      "id": "ACTION-HALLOW-DEFILE",
+      "type": "mission",
+      "seq": 105,
+      "AP": 1,
+      "name": "Hallow / Defile",
+      "description": null,
+      "effects": [
+        "One shrine statue terrain feature the active operative controls is hallowed/defiled.",
+        "Draw a card."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, if it doesn't control the shrine statue terrain feature, or if the shrine statue has already been hallowed/defiled during this turning point."
+      ],
+      "packs": [
+        "Mission Pack: Blood and Zeal"
+      ]
+    },
+    {
+      "id": "ACTION-PRAISE-BLASPHEME",
+      "type": "mission",
+      "seq": 104,
+      "AP": 1,
+      "name": "Praise / Blaspheme",
+      "description": null,
+      "effects": [
+        "Shuffle one card from your hand, or two of your discarded cards, back into their respective deck(s). Note that your discarded cards are potentially worth VPs at the end of the battle, so doing so could affect this.",
+        "Draw a card."
+      ],
+      "conditions": [
+        "An operative cannot perform this action while within control range of an enemy operative, or while more than 3\" from the shrine statue terrain feature's plinth."
+      ],
+      "packs": [
+        "Mission Pack: Blood and Zeal"
+      ]
+    }
+  ]
+}

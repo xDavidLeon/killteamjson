@@ -82,32 +82,28 @@
       "killteamId": "IMP-PHO",
       "seq": 1,
       "eqName": "Purity Seals",
-      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     },
     {
       "eqId": "IMP-PHO-AUG",
       "killteamId": "IMP-PHO",
       "seq": 2,
       "eqName": "Additional Utility Grenades",
-      "description": "This equipment allows you to select four utility grenades from the utility grenades equipment (see universal equipment).  \n\nYou cannot also select that equipment as normal (i.e. to give you six).",
-      "effects": ""
+      "description": "This equipment allows you to select four utility grenades from the utility grenades equipment (see universal equipment).  \n\nYou cannot also select that equipment as normal (i.e. to give you six)."
     },
     {
       "eqId": "IMP-PHO-CB",
       "killteamId": "IMP-PHO",
       "seq": 3,
       "eqName": "Combat Blades",
-      "description": "Friendly PHOBOS STRIKE TEAM operatives have the following melee weapon:\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Blade|5|3+|3/4|",
-      "effects": "ADDWEP:Combat Blade|M|5|3+|3/4|"
+      "description": "Friendly PHOBOS STRIKE TEAM operatives have the following melee weapon:\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Blade|5|3+|3/4|"
     },
     {
       "eqId": "IMP-PHO-SIA",
       "killteamId": "IMP-PHO",
       "seq": 4,
       "eqName": "Special Issue Ammunition",
-      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PHOBOS STRIKE TEAM operative is performing the Shoot action and you select a bolt carbine, marksman bolt carbine or occulus bolt carbine,\nyou can use this rule. If you do, until the end of the turning point, that weapon has the Piercing 1 weapon rule."
     }
   ],
   "teamAbilities": [
@@ -359,13 +355,23 @@
           "opTypeId": "IMP-PHO-INFHEL",
           "abilityName": "Omni-Scrambler",
           "description": "**STRATEGIC GAMBIT** if a friendly INFILTRATOR operative is in the killzone.\nSelect one enemy operative visible to a friendly INFILTRATOR operative, or within 6\" of a friendly VOXBREAKER operative.\nIn the following Firefight phase, that enemy operative cannot be activated or perform actions until one of the following is true:\n\n- Your opponent has activated a number of enemy operatives equal to the number of friendly INFILTRATOR operatives in the killzone when this STRATEGIC GAMBIT was used.\n- It is the last enemy operative to be activated.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-PHO-INFHEL-HG",
-          "opTypeId": "IMP-PHO-INFHEL",
-          "abilityName": "Helix Gauntlet",
+          "id": "IMP-PHO-INFHEL-HG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.\nIt cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Helix Gauntlet",
+          "description": null,
+          "effects": [
+            "Select one friendly PHOBOS STRIKE TEAM operative within this operative's control range to regain up to 1D3+3 lost wounds.",
+            "It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -616,13 +622,24 @@
           "opTypeId": "IMP-PHO-INFVOX",
           "abilityName": "Voxbreak",
           "description": "Whenever an enemy operative is within 6\" of this operative, your opponent cannot re-roll their attack or defence dice for that operative."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-PHO-INFVOX-SCAN",
-          "opTypeId": "IMP-PHO-INFVOX",
-          "abilityName": "Auspex Scan",
+          "id": "IMP-PHO-INFVOX-SCAN",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),\nwhenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,\nthat enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Auspex Scan",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation or until it is incapacitated (whichever comes first),",
+            "whenever a friendly PHOBOS STRIKE TEAM operative is shooting an enemy operative within 8\" of this operative,",
+            "that enemy operative cannot be obscured; if that friendly operative is an INCURSOR, its ranged weapons also have the Seek Light weapon rule."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1235,6 +1252,14 @@
           "description": "Once per turning point, one friendly PHOBOS STRIKE TEAM operative with this rule can perform the Pick Up Marker or a mission action for 1 less AP."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-PHO-CUSTOM",
+      "name": "Custom",
+      "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select up to two of the following weapon rules for this weapon to have for the battle:\n\n- Balanced\n- Lethal 5+\n- Piercing Crits 1\n- Rending\n- Saturate\n",
+      "team": "IMP-PHO"
     }
   ]
 }

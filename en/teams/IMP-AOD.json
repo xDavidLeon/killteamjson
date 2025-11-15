@@ -82,32 +82,28 @@
       "killteamId": "IMP-AOD",
       "seq": 1,
       "eqName": "Chapter Reliquaries",
-      "description": "You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly operative has an Engage order.",
-      "effects": ""
+      "description": "You can use the Wrath of Vengeance firefight ploy for 0CP if the specified friendly operative has an Engage order."
     },
     {
       "eqId": "IMP-AOD-PS",
       "killteamId": "IMP-AOD",
       "seq": 1,
       "eqName": "Purity Seals",
-      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     },
     {
       "eqId": "IMP-AOD-TS",
       "killteamId": "IMP-AOD",
       "seq": 3,
       "eqName": "Tilting Shields",
-      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is fighting or retaliating, after your opponent rolls their attack dice, you can use this rule.\nIf you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (e.g. as a result of the Lethal, Rending or Severe weapon rules).",
-      "effects": ""
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative is fighting or retaliating, after your opponent rolls their attack dice, you can use this rule.\nIf you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (e.g. as a result of the Lethal, Rending or Severe weapon rules)."
     },
     {
       "eqId": "IMP-AOD-AUS",
       "killteamId": "IMP-AOD",
       "seq": 4,
       "eqName": "Auspex",
-      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative performs the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of the activation (or counteraction), enemy operatives within 8\" of it cannot be obscured.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly ANGEL OF DEATH operative performs the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of the activation (or counteraction), enemy operatives within 8\" of it cannot be obscured."
     }
   ],
   "teamAbilities": [
@@ -878,13 +874,22 @@
           "opTypeId": "IMP-AOD-SNP",
           "abilityName": "Stealthy",
           "description": "Whenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success.\nThis is not cumulative with improved cover saves from Vantage terrain."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AOD-SNP-OPT",
-          "opTypeId": "IMP-AOD-SNP",
-          "abilityName": "Optics",
+          "id": "IMP-AOD-SNP-OPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Optics",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },

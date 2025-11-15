@@ -432,20 +432,39 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-NOV-DIA-ABC",
-          "opTypeId": "IMP-NOV-DIA",
-          "abilityName": "Auto-Broadcaster",
+          "id": "IMP-NOV-DIA-ABC",
+          "type": "ability",
+          "seq": 0,
           "AP": 0,
-          "description": "If your Auto-broadcaster marker isn't in the killzone, place it within 8\" horizontally of this operative; otherwise, move your Auto-broadcaster marker up to 8\" horizontally.\nIf this operative is removed from the killzone, remove your Auto-broadcaster marker from the killzone.  \n\nWhenever an enemy operative within 3\" of your Auto-broadcaster marker is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Auto-Broadcaster",
+          "description": null,
+          "effects": [
+            "If your Auto-broadcaster marker isn't in the killzone, place it within 8\" horizontally of this operative; otherwise, move your Auto-broadcaster marker up to 8\" horizontally.",
+            "If this operative is removed from the killzone, remove your Auto-broadcaster marker from the killzone.",
+            "Whenever an enemy operative within 3\" of your Auto-broadcaster marker is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         },
         {
-          "abilityId": "IMP-NOV-DIA-SR",
-          "opTypeId": "IMP-NOV-DIA",
-          "abilityName": "Stirring Rhetoric",
+          "id": "IMP-NOV-DIA-SR",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT**\nSelect one other friendly NOVITIATE operative visible to and within 6\" of this operative, or within 6\" of your Auto-broadcaster marker.\nUntil the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled).  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Stirring Rhetoric",
+          "description": null,
+          "effects": [
+            "**SUPPORT**",
+            "Select one other friendly NOVITIATE operative visible to and within 6\" of this operative, or within 6\" of your Auto-broadcaster marker.",
+            "Until the end of that operative's next activation, add 1 to its APL stat (to a maximum of 3 after all APL stat changes have been totalled)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -585,13 +604,22 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "IMP-NOV-EXA-WIF",
-          "opTypeId": "IMP-NOV-EXA",
-          "abilityName": "Whip Into Frenzy",
+          "id": "IMP-NOV-EXA-WIF",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one other friendly NOVITIATE operative (excluding SUPERIOR) visible to and within 3\" of this operative that isn't currently benefitting from the effects of this action.\nUntil the end of that operative's next activation, add 1\" to its Move stat, it can perform two Fight actions during its next activation, and one of them can be free.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Whip Into Frenzy",
+          "description": null,
+          "effects": [
+            "Select one other friendly NOVITIATE operative (excluding SUPERIOR) visible to and within 3\" of this operative that isn't currently benefitting from the effects of this action.",
+            "Until the end of that operative's next activation, add 1\" to its Move stat, it can perform two Fight actions during its next activation, and one of them can be free."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -665,13 +693,22 @@
           "opTypeId": "IMP-NOV-HOS",
           "abilityName": "Medic!",
           "description": "The first time during each turning point that another friendly NOVITIATE operative would be incapacitated while visible to and within 3\" of this operative,\r you can use this rule, providing neither this nor that operative is within control range of an enemy operative.\r If you do, that friendly operative isn't incapacitated, has 1 wound remaining, and cannot be incapacitated for the remainder of that action. After that action, that friendly operative can immediately perform a free Dash action, but must end that move within this operative's\r control range. Subtract 1 from this and that operative's APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.\r You cannot use this rule if this operative is incapacitated, or if it is a Shoot action and this operative would be a primary or secondary target."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-NOV-HOS-CT",
-          "opTypeId": "IMP-NOV-HOS",
-          "abilityName": "Chirurgeon's Tools",
+          "id": "IMP-NOV-HOS-CT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly NOVITIATE operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Chirurgeon's Tools",
+          "description": null,
+          "effects": [
+            "Select one friendly NOVITIATE operative within this operative's control range to regain up to 2D3 lost wounds. It cannot be an operative that the Medic! rule was used on during this turning point."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1103,15 +1140,44 @@
           "opTypeId": "IMP-NOV-REL",
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-NOV-REL-RI",
-          "opTypeId": "IMP-NOV-REL",
-          "abilityName": "Raise Icon",
+          "id": "IMP-NOV-REL-RI",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "You gain 1 Faith point. If this operative controls an objective marker, you also gain a number of Faith points equal to the turning point number.  \n\nThis operative can only perform this action once per turning point, and cannot perform it while within control range of an enemy operative."
+          "name": "Raise Icon",
+          "description": null,
+          "effects": [
+            "You gain 1 Faith point. If this operative controls an objective marker, you also gain a number of Faith points equal to the turning point number."
+          ],
+          "conditions": [
+            "This operative can only perform this action once per turning point, and cannot perform it while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-NOV-ANTI-PSYKER",
+      "name": "AntiPSÍQUICO",
+      "description": "Cuando esta arma se use contra un agente que tiene la clave PSÍQUICO, suma 1 a ambos atributos Daño de esta arma y además tiene la regla de arma Letal 5+.",
+      "team": "IMP-NOV"
+    },
+    {
+      "id": "WR-IMP-NOV-RIPOSTE",
+      "name": "Parada y contraataque",
+      "description": "Siempre que bloquees con un éxito crítico, puedes también infligir al agente enemigo en esa secuencia tantos daños como el atributo Daño crítico del arma.",
+      "team": "IMP-NOV"
+    },
+    {
+      "id": "WR-IMP-NOV-ZEALOUS",
+      "name": "Furia Fanática",
+      "description": "Cuando esta agente combate con esta arma, tiene la regla de armas Incesante.",
+      "team": "IMP-NOV"
     }
   ]
 }

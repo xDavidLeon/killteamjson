@@ -82,32 +82,28 @@
       "killteamId": "TYR-RAV",
       "seq": 1,
       "eqName": "Chromatospore Camouflage",
-      "description": "Whenever an operative is shooting a friendly RAVENER operative, if you can retain any cover saves, you can retain one additional cover save. This isn't cumulative with improved cover saves from Vantage terrain.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly RAVENER operative, if you can retain any cover saves, you can retain one additional cover save. This isn't cumulative with improved cover saves from Vantage terrain."
     },
     {
       "eqId": "TYR-RAV-AB",
       "killteamId": "TYR-RAV",
       "seq": 2,
       "eqName": "Acid Blood",
-      "description": "Whenever a friendly RAVENER operative is fighting or retaliating, whenever an attack dice inflicts damage on it, roll one D6: on a 5+, inflict 1 damage on the enemy operative in that sequence.",
-      "effects": ""
+      "description": "Whenever a friendly RAVENER operative is fighting or retaliating, whenever an attack dice inflicts damage on it, roll one D6: on a 5+, inflict 1 damage on the enemy operative in that sequence."
     },
     {
       "eqId": "TYR-RAV-MMF",
       "killteamId": "TYR-RAV",
       "seq": 3,
       "eqName": "Metamorphic Flesh",
-      "description": "Whenever a friendly RAVENER operative is activated, it regains up to D3 lost wounds.",
-      "effects": ""
+      "description": "Whenever a friendly RAVENER operative is activated, it regains up to D3 lost wounds."
     },
     {
       "eqId": "TYR-RAV-HS",
       "killteamId": "TYR-RAV",
       "seq": 4,
       "eqName": "Heightened Senses",
-      "description": "Once per battle, after rolling off to decide initiative, if a friendly RAVENER operative is underground and an enemy operative is within 5\" of your TUNNEL, you can re-roll your dice.",
-      "effects": ""
+      "description": "Once per battle, after rolling off to decide initiative, if a friendly RAVENER operative is underground and an enemy operative is within 5\" of your TUNNEL, you can re-roll your dice."
     }
   ],
   "teamAbilities": [
@@ -316,13 +312,20 @@
           "opTypeId": "TYR-RAV-FTL",
           "abilityName": "*Poison",
           "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-RAV-FTL-TL",
-          "opTypeId": "TYR-RAV-FTL",
-          "abilityName": "Toxic Lunge",
+          "id": "TYR-RAV-FTL-TL",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "\n- Select one enemy operative within 2\" of this operative. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).\n- This operative can perform this action while underground (this takes precedence over the normal Burrow rules).\n"
+          "name": "Toxic Lunge",
+          "description": null,
+          "effects": [
+            "- Select one enemy operative within 2\" of this operative. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).",
+            "- This operative can perform this action while underground (this takes precedence over the normal Burrow rules)."
+          ]
         }
       ]
     },
@@ -518,13 +521,19 @@
           "opTypeId": "TYR-RAV-VSP",
           "abilityName": "*Poison",
           "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "TYR-RAV-VSP-DDS",
-          "opTypeId": "TYR-RAV-VSP",
-          "abilityName": "Distended Dorsal Sac",
+          "id": "TYR-RAV-VSP-DDS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until this operative has shot with its venom bolt or until it performs the Burrow action (whichever comes first), all profiles of its venom bolt have the Lethal 5+ weapon rule, have 1 added to their Atk stat and the Range 8\" weapon rule removed."
+          "name": "Distended Dorsal Sac",
+          "description": null,
+          "effects": [
+            "Until this operative has shot with its venom bolt or until it performs the Burrow action (whichever comes first), all profiles of its venom bolt have the Lethal 5+ weapon rule, have 1 added to their Atk stat and the Range 8\" weapon rule removed."
+          ]
         }
       ]
     },
@@ -671,6 +680,14 @@
           "description": "Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-TYR-RAV-CRUSH",
+      "name": "Crush",
+      "description": "Whenever you strike, you and your opponent roll-off, adding 1 to your result if the operative this weapon is being used against has a Wounds stat of 9 or less. If you win, inflict additional damage on that operative equal to the difference between the dice results (to a maximum of 3 additional damage).",
+      "team": "TYR-RAV"
     }
   ]
 }

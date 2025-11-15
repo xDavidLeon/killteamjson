@@ -335,13 +335,21 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-GORE-BT-TFR",
-          "opTypeId": "CHAOS-GORE-BT",
-          "abilityName": "Transfusion Ritual",
+          "id": "CHAOS-GORE-BT-TFR",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+          "name": "Transfusion Ritual",
+          "description": null,
+          "effects": [
+            "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+          ]
         }
       ]
     },
@@ -515,13 +523,22 @@
           "opTypeId": "CHAOS-GORE-INC",
           "abilityName": "Incite The Hunt",
           "description": "Whenever this operative incapacitates an enemy operative from more than 2\" away, before that enemy operative is removed from the killzone, you can increase the GORE TANK of one friendly GOREMONGER operative within 8\" of that enemy operative.  \n\nWhenever this operative inflicts damage on an enemy operative with either profile of its dual autopistols but doesn't incapacitate it, that enemy operative gains one of your Bleeding tokens (if it doesn't already have one).  \n\nDuring a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action, if it's within 8\" of an enemy operative that has one of your Bleeding tokens, you can remove that token and increase that friendly operative's GORE TANK."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-GORE-INC-DAS",
-          "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Dash And Spray",
+          "id": "CHAOS-GORE-INC-DAS",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action.  \n\nThis operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          "name": "Dash And Spray",
+          "description": null,
+          "effects": [
+            "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -674,6 +691,26 @@
           "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain, or whenever this operative is fighting against an enemy operative that's on Vantage terrain, this operative's melee weapons have the Relentless weapon rule."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-GORE-DRAG",
+      "name": "Arrastre",
+      "description": "Cuando este agente dispare con esta arma, al inicio del paso de Resolver dados de ataque (antes de infligir daño), puedes mover al blanco hasta X\". X es tu número total de dados de ataque no bloqueados exitosos, multiplicado por 2. El blanco debe ser movido a una localización en la que pueda ser colocado tan cerca de este agente como sea posible, determinada por las X\" que decidas usar. El movimiento debe hacerse en uno o más incrementos en línea recta, y cada incremento se redondeará siempre al alza hasta la pulgada más cercana. Cuando el blanco se deje caer durante dicho movimiento, ignora la distancia vertical.",
+      "team": "CHAOS-GORE"
+    },
+    {
+      "id": "WR-CHAOS-GORE-PREY",
+      "name": "Acosar",
+      "description": "Cuando este agente dispare con esta arma, durante el paso de Resolver dados de ataque, tras haber resuelto la regla de armas Arrastrar (si has elegido hacerlo), puedes descartar cualquiera de tus dados de ataque no bloqueados. En otras palabras, puedes elegir no infligir daño con cualesquiera de ellos.",
+      "team": "CHAOS-GORE"
+    },
+    {
+      "id": "WR-CHAOS-GORE-RITUAL",
+      "name": "Ritual",
+      "description": "Cuando este agente utilice esta arma, la primera vez durante esa secuencia que inflijas daño a un agente en su zona de control, puedes incrementar el DEPÓSITO SANGRIENTO de este agente. Ten en cuenta que esto es acumulativo con las reglas normales para incrementar su DEPÓSITO SANGRIENTO (es decir, si incapacita a un agente en su zona de control).",
+      "team": "CHAOS-GORE"
     }
   ]
 }

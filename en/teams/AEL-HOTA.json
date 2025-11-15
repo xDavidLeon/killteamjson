@@ -82,32 +82,28 @@
       "killteamId": "AEL-HOTA",
       "seq": 1,
       "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it).",
-      "effects": ""
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it)."
     },
     {
       "eqId": "AEL-HOTA-WB",
       "killteamId": "AEL-HOTA",
       "seq": 2,
       "eqName": "Wicked Blades",
-      "description": "Add 1 to the Atk stat of friendly HAND OF THE ARCHON operatives' array of blades.",
-      "effects": "wepid:AOB|ATK:+1"
+      "description": "Add 1 to the Atk stat of friendly HAND OF THE ARCHON operatives' array of blades."
     },
     {
       "eqId": "AEL-HOTA-TC",
       "killteamId": "AEL-HOTA",
       "seq": 3,
       "eqName": "Toxic Coating",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is fighting or retaliating and you're selecting a melee weapon, you can use this rule.\nIf you do, until the end of that sequence, that operative's melee weapon has the Lethal 5+ weapon rule.",
-      "effects": ""
+      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is fighting or retaliating and you're selecting a melee weapon, you can use this rule.\nIf you do, until the end of that sequence, that operative's melee weapon has the Lethal 5+ weapon rule."
     },
     {
       "eqId": "AEL-HOTA-RP",
       "killteamId": "AEL-HOTA",
       "seq": 4,
       "eqName": "Refined Poison",
-      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon.",
-      "effects": ""
+      "description": "Up to twice per turning point, whenever a friendly HAND OF THE ARCHON operative is performing the Shoot action and you select a shardcarbine, splinter cannon, splinter pistol, splinter rifle or stinger pistol,\nyou can use this rule. If you do, until the end of that action, add 1 to the Normal Dmg stat of that weapon."
     }
   ],
   "teamAbilities": [
@@ -533,13 +529,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KDOY-TG",
-          "opTypeId": "AEL-HOTA-KDOY",
-          "abilityName": "Torment Grenade",
+          "id": "AEL-HOTA-KDOY-TG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.  \n\nFor an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:\non a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Torment Grenade",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.",
+            "For an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:",
+            "on a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -642,13 +648,24 @@
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Rifles",
           "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KELX-AD",
-          "opTypeId": "AEL-HOTA-KELX",
-          "abilityName": "Administer Drug",
+          "id": "AEL-HOTA-KELX-AD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:\n\n- It regains 2D3 lost wounds.\n- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one).\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Administer Drug",
+          "description": null,
+          "effects": [
+            "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:",
+            "- It regains 2D3 lost wounds.",
+            "- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -999,15 +1016,46 @@
           "opTypeId": "AEL-HOTA-KSA",
           "abilityName": "Omen",
           "description": "In the Select Operatives step, when you're selecting equipment, you can select one enemy operative or one other friendly HAND OF THE ARCHON operative (reveal your selection when you reveal equipment).  \n\nWhenever attack or defence dice are rolled for that operative:\n\n- If it's an enemy operative, your opponent must re-roll their dice results of 6.\n- If it's a friendly operative, you can re-roll any of your dice results of 1.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KSA-MARK",
-          "opTypeId": "AEL-HOTA-KSA",
-          "abilityName": "Mark",
+          "id": "AEL-HOTA-KSA-MARK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:\n\n- This operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Mark",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:",
+            "- This operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-HOTA-FLAY",
+      "name": "Flay",
+      "description": "Whenever this operative is using this weapon, the first time you strike with a critical success during that sequence, you can select one friendly HAND OF THE ARCHON operative within 6\" of it to gain one of your Pain tokens.",
+      "team": "AEL-HOTA"
+    },
+    {
+      "id": "WR-AEL-HOTA-STINGER",
+      "name": "Stinger",
+      "description": "Whenever an enemy operative is incapacitated by this weapon, before it's removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.",
+      "team": "AEL-HOTA"
+    },
+    {
+      "id": "WR-AEL-HOTA-TANGLE",
+      "name": "Tangle",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one).",
+      "team": "AEL-HOTA"
     }
   ]
 }

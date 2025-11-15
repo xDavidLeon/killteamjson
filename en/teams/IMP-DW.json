@@ -82,32 +82,28 @@
       "killteamId": "IMP-DW",
       "seq": 1,
       "eqName": "Digital Weapons",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly DEATHWATCH operative performs the Fight action, at the start of the Roll Attack Dice step, you can use this rule. If you do, inflict 1 damage on the enemy operative in that sequence."
     },
     {
       "eqId": "IMP-DW-SST",
       "killteamId": "IMP-DW",
       "seq": 2,
       "eqName": "Scrutavore Servo-Thrall",
-      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle.",
-      "effects": ""
+      "description": "Once per turning point, during a friendly DEATHWATCH operative's activation, you can use this rule. If you do, during that activation, that operative can perform a mission action for 1 less AP.\nHaving an enemy operative within its control range doesn't prevent that friendly operative from performing that mission action.\nHowever, in such an instance, after it does so, you and your opponent roll-off. If your opponent wins, you cannot use this equipment for the rest of the battle."
     },
     {
       "eqId": "IMP-DW-SVBSC",
       "killteamId": "IMP-DW",
       "seq": 3,
       "eqName": "Sanctus-V Bioscryer Cuffs",
-      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem.",
-      "effects": ""
+      "description": "Once during each friendly DEATHWATCH operative's activation, before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule. If you do, select one of the following:\n- That friendly operative regains up to D3 lost wounds.\n- Remove any changes to that friendly operative's APL stat.\n- Remove one of the following tokens that friendly operative has (before that token's activation effects are resolved, if relevant): Neutron Fragment, Poison, Terrorchem."
     },
     {
       "eqId": "IMP-DW-AR",
       "killteamId": "IMP-DW",
       "seq": 4,
       "eqName": "Ammunition Reserve",
-      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules.",
-      "effects": ""
+      "description": "Once per battle, you can use the Special Issue Ammunition faction rule for up to two Shoot actions during one turning point, but you must select different weapon rules for both uses. This takes precedence over the normal Special Issue Ammunition rules."
     }
   ],
   "teamAbilities": [
@@ -1169,6 +1165,14 @@
           "description": "This operative can perform the Guard action during its activation regardless of the killzone (see close quarters rules, Kill Team: Tomb World).\nWhen using the close quarters rules, once per turning point, after this operative performs a free Shoot action on guard, it can immediately perform a free Guard action.\nHowever, if it does, it cannot counteract (nor Guard twice if it's counteracted)."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-IMP-DW-PHASE",
+      "name": "Phase Sweep",
+      "description": "Whenever this operative performs the Fight action with this weapon profile, if it isn't incapacitated, it can immediately perform a free Fight action afterwards, but you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range.",
+      "team": "IMP-DW"
     }
   ]
 }

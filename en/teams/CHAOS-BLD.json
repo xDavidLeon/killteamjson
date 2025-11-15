@@ -82,32 +82,28 @@
       "killteamId": "CHAOS-BLD",
       "seq": 1,
       "eqName": "Chaos Sigil",
-      "description": "The Reward Earned firefight ploy costs you 0 CP.",
-      "effects": ""
+      "description": "The Reward Earned firefight ploy costs you 0 CP."
     },
     {
       "eqId": "CHAOS-BLD-ST",
       "killteamId": "CHAOS-BLD",
       "seq": 2,
       "eqName": "Sinister Trophies",
-      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
+      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1."
     },
     {
       "eqId": "CHAOS-BLD-SOBW",
       "killteamId": "CHAOS-BLD",
       "seq": 3,
       "eqName": "Symbols of Bloody Worship",
-      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound.",
-      "effects": ""
+      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound."
     },
     {
       "eqId": "CHAOS-BLD-WB",
       "killteamId": "CHAOS-BLD",
       "seq": 4,
       "eqName": "Wicked Blades",
-      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle.",
-      "effects": "wepid:BAY,BAS,IB|DMG:1/1"
+      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle."
     }
   ],
   "teamAbilities": [
@@ -650,20 +646,35 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "CHAOS-BLD-COM-SACT",
-          "opTypeId": "CHAOS-BLD-COM",
-          "abilityName": "Sacrilegeous Actuation",
+          "id": "CHAOS-BLD-COM-SACT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "You gain one Blooded token.  \n\nThis operative cannot perform this action while within control range of an enemy operative, or if it does not have one of your Blooded tokens."
+          "name": "Sacrilegeous Actuation",
+          "description": null,
+          "effects": [
+            "You gain one Blooded token."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or if it does not have one of your Blooded tokens."
+          ]
         },
         {
-          "abilityId": "CHAOS-BLD-COM-SIG",
-          "opTypeId": "CHAOS-BLD-COM",
-          "abilityName": "Signal",
+          "id": "CHAOS-BLD-COM-SIG",
+          "type": "ability",
+          "seq": 1,
           "AP": 1,
-          "description": "**SUPPORT:** Select one other friendly BLOODED operative (excluding OGRYN) visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
+          "name": "Signal",
+          "description": null,
+          "effects": [
+            "**SUPPORT:** Select one other friendly BLOODED operative (excluding OGRYN) visible to and within 6\" of this operative. Until the end of that operative's next activation add 1 to its APL stat."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative"
+          ]
         }
       ]
     },
@@ -748,13 +759,23 @@
           "opTypeId": "CHAOS-BLD-CRPS",
           "abilityName": "Regular Dosage",
           "description": "At the end of the select operative step, if this operative is selected for deployment, you can select one other friendly BLOODED operative to gain a STIMM rule for the battle (Excluding rejuvenated).  \n\n**Stimm Rules**\n\n- Rejuvenated: The operative regains 2d3 lost wounds.\n- Enraged: The operative's melee weapons have the relentless weapon rule\n- Fortified: Whenever an attack die inflicts damage of 3 or more on the operative, roll one d6; on a 5+ subtract 1 from the inflicted damage.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-BLD-CRPS-STM",
-          "opTypeId": "CHAOS-BLD-CRPS",
-          "abilityName": "Stimms",
+          "id": "CHAOS-BLD-CRPS-STM",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly BLOODED operative within this operative' control range, then select the Rejuvenated STIMM RULE or one other STIMM RULE for that operative to have for that battle.\nYou cannot select each STIMM rule for each operative more than once per battle.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
+          "name": "Stimms",
+          "description": null,
+          "effects": [
+            "Select one friendly BLOODED operative within this operative' control range, then select the Rejuvenated STIMM RULE or one other STIMM RULE for that operative to have for that battle.",
+            "You cannot select each STIMM rule for each operative more than once per battle."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative"
+          ]
         }
       ]
     },
@@ -824,13 +845,24 @@
           "opTypeId": "CHAOS-BLD-ENF",
           "abilityName": "Grueling Disciplinarian",
           "description": "Whenever a friendly BLOODED operative is within 6\" of this operative, you can ignore any changes to that operative's stats from being injured (Including its weapons' stats). Whenever a friendly BLOODED operative is activated within 6\" of this operative, you can ignore any changes to that operative's stats from being injured until the end of its activation (including its weapons' stats)."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "CHAOS-BLD-ENF-ENF",
-          "opTypeId": "CHAOS-BLD-ENF",
-          "abilityName": "Enforce",
+          "id": "CHAOS-BLD-ENF-ENF",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one other friendly BLOODED operative visible to and within 3\" of this operative.\nThat operative can immediately perform a 1AP action for free, but it cannot move more than 2\" during that action.\nIf the selected operative is a COMMSMAN, it cannot perform the SACRILIGEOUS ACTUATION or SIGNAL action.  \n\nThis operative cannot perform this action while within control range of an enemy operative"
+          "name": "Enforce",
+          "description": null,
+          "effects": [
+            "Select one other friendly BLOODED operative visible to and within 3\" of this operative.",
+            "That operative can immediately perform a 1AP action for free, but it cannot move more than 2\" during that action.",
+            "If the selected operative is a COMMSMAN, it cannot perform the SACRILIGEOUS ACTUATION or SIGNAL action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative"
+          ]
         }
       ]
     },
@@ -1385,6 +1417,26 @@
           "description": "Whenever this operative is expended, you must then activate any other ready friendly BLOODED TROOPPER operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives as specified with this rule)."
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-BLD-BLOOD",
+      "name": "Blood Offering",
+      "description": "Whenever this operative is fighting or retaliating with\nthis weapon, the first time you strike with a critical success during\nthat sequence, you gain one Blooded token.",
+      "team": "CHAOS-BLD"
+    },
+    {
+      "id": "WR-CHAOS-BLD-SHIELD",
+      "name": "Shield",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (Instead of one).",
+      "team": "CHAOS-BLD"
+    },
+    {
+      "id": "WR-CHAOS-BLD-STALK",
+      "name": "Stalk",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, if light or heavy terrain is within its control range, this weapon has the Lethal 5+ rule.",
+      "team": "CHAOS-BLD"
     }
   ]
 }

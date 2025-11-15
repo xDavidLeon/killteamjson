@@ -533,13 +533,23 @@
           ]
         }
       ],
-      "abilities": [
+      "abilities": [],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KDOY-TG",
-          "opTypeId": "AEL-HOTA-KDOY",
-          "abilityName": "Torment Grenade",
+          "id": "AEL-HOTA-KDOY-TG",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.  \n\nFor an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:\non a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Torment Grenade",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.",
+            "For an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:",
+            "on a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -642,13 +652,24 @@
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Rifles",
           "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KELX-AD",
-          "opTypeId": "AEL-HOTA-KELX",
-          "abilityName": "Administer Drug",
+          "id": "AEL-HOTA-KELX-AD",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:\n\n- It regains 2D3 lost wounds.\n- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one).\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Administer Drug",
+          "description": null,
+          "effects": [
+            "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:",
+            "- It regains 2D3 lost wounds.",
+            "- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one)."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -999,15 +1020,46 @@
           "opTypeId": "AEL-HOTA-KSA",
           "abilityName": "Omen",
           "description": "In the Select Operatives step, when you're selecting equipment, you can select one enemy operative or one other friendly HAND OF THE ARCHON operative (reveal your selection when you reveal equipment).  \n\nWhenever attack or defence dice are rolled for that operative:\n\n- If it's an enemy operative, your opponent must re-roll their dice results of 6.\n- If it's a friendly operative, you can re-roll any of your dice results of 1.\n"
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "AEL-HOTA-KSA-MARK",
-          "opTypeId": "AEL-HOTA-KSA",
-          "abilityName": "Mark",
+          "id": "AEL-HOTA-KSA-MARK",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:\n\n- This operative's ranged weapons have the Seek Light weapon rule.\n- That enemy operative cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Mark",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:",
+            "- This operative's ranged weapons have the Seek Light weapon rule.",
+            "- That enemy operative cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-HOTA-FLAY",
+      "name": "Desollar",
+      "description": "Siempre que este agente usa esta arma, la primera vez que golpees con un éxito crítico durante esa secuencia, puedes elegir un agente MANO DEL ARCONTE amigo a 6\" o menos de él para que obtenga una de tus fichas de Dolor.",
+      "team": "AEL-HOTA"
+    },
+    {
+      "id": "WR-AEL-HOTA-STINGER",
+      "name": "Aguijón",
+      "description": "Cuando un agente enemigo queda incapacitado por esta arma, antes de retirarlo de la zona de aniquilación, inflige 1D3 daños a cada otro agente a 2\" o menos ese agente enemigo y visible para él. Cada agente que quede subsiguientemente incapacitado debido a esta regla de armas provocará que esto vuelva a suceder.",
+      "team": "AEL-HOTA"
+    },
+    {
+      "id": "WR-AEL-HOTA-TANGLE",
+      "name": "Enredar",
+      "description": "Cuando este agente combate o contraataca con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno).",
+      "team": "AEL-HOTA"
     }
   ]
 }

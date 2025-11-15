@@ -878,13 +878,22 @@
           "opTypeId": "IMP-AOD-SNP",
           "abilityName": "Stealthy",
           "description": "Whenever an operative is shooting this operative, if you can retain any cover saves, you can retain one additional cover save, or you can retain one cover save as a critical success.\nThis is not cumulative with improved cover saves from Vantage terrain."
-        },
+        }
+      ],
+      "actions": [
         {
-          "abilityId": "IMP-AOD-SNP-OPT",
-          "opTypeId": "IMP-AOD-SNP",
-          "abilityName": "Optics",
+          "id": "IMP-AOD-SNP-OPT",
+          "type": "ability",
+          "seq": 0,
           "AP": 1,
-          "description": "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured.  \n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "name": "Optics",
+          "description": null,
+          "effects": [
+            "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
