@@ -889,10 +889,10 @@
           "name": "Óptica",
           "description": null,
           "effects": [
-            "Until the start of this operative's next activation, whenever it is shooting, enemy operatives cannot be obscured."
+            "Hasta el inicio de la siguiente activación de este agente, siempre que dispare, los agentes enemigos no pueden estar ofuscados."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo."
           ]
         }
       ]
@@ -901,7 +901,7 @@
       "opTypeId": "IMP-AOD-GRN",
       "killteamId": "IMP-AOD",
       "seq": 4,
-      "opTypeName": "Assault Intercessor Grenadier",
+      "opTypeName": "Granadero Intercesor de Asalto",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
