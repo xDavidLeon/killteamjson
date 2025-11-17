@@ -12,6 +12,8 @@ Kill team definitions are stored as individual JSON files in the `teams/` subfol
 - `factionId` - *string* - Faction identifier.
 - `killteamId` - *string* - Unique kill team identifier.
 - `version` - *string* - Version identifier (e.g., "October '25").
+- `classified` - *boolean* - Whether the kill team is classified. Defaults to `true`, but is `false` for teams from the Octarius season.
+- `season` - *string* - The season or release wave the kill team belongs to. Possible values include: `"Octarius"`, `"Gallowdark"`, `"BHETA-DECIMA"`, `"Volkus"`, `"Tomb world"`, or an empty string `""` for teams without a specific season assignment.
 - `file` - *string* - URL to the official PDF source.
 - `killteamName` - *string* - Display name.
 - `description` - *string* - Markdown-formatted lore/flavour text.
@@ -91,10 +93,11 @@ Weapon profiles contain:
 - `eqName` - *string* - Equipment name.
 - `description` - *string* - Markdown-formatted text.
 - `effects` - *string* - Encoded effects applied when equipped.
+- `weapons` - *array* - Optional array of weapon objects embedded in the equipment. When present, contains weapon definitions that are granted by this equipment. Each weapon object follows the same structure as `opTypes[].weapons`, but with `opTypeId` set to `null` since these weapons are not tied to a specific operative type.
 
-### `actions.json`
+### `universal_actions.json`
 
-All actions (both universal and mission-pack specific) are consolidated in a single file. Root object contains an `actions` array. Each action object contains:
+Universal actions available to all kill teams. Root object contains an `actions` array. Each action object contains:
 
 - `id` - *string* - Action identifier.
 - `type` - *string* - Action type: `universal`, `mission`, or `ability`.
@@ -146,7 +149,60 @@ Approved Operations (Tac Ops and Crit Ops) for 2025. Root object contains:
   - `additionalRules` - *string | null* - Additional rules text explaining special mechanics (may be null).
   - `actions` - *string[]* - Array of action IDs that this operation grants access to (may be empty).
   - `victoryPoints` - *string | string[]* - Victory point scoring conditions. May be a single string or an array of strings.
-- `actions` - *array* - Array of action objects associated with operations. Each action object follows the same structure as `actions.json`.
+- `actions` - *array* - Array of action objects associated with operations. Each action object follows the same structure as `universal_actions.json`.
+
+### `packs/packs_actions.json`
+
+Mission pack-specific actions. Root object contains an `actions` array. Each action object follows the same structure as `universal_actions.json`:
+
+- `id` - *string* - Action identifier.
+- `type` - *string* - Action type: `universal`, `mission`, or `ability`.
+- `seq` - *integer* - Ordering for presentation.
+- `AP` - *integer* - Action Point cost.
+- `name` - *string* - Display name.
+- `description` - *string | null* - Markdown-formatted summary (may be null).
+- `effects` - *string[]* - Array of effect descriptions, each as a bullet point. May be an empty array for actions that are fully described in the `description` field.
+- `conditions` - *string[]* - Array of preconditions or restrictions.
+- `packs` - *string[]* - Mission packs where the action is available (optional field, only present when an action is limited to specific killzones or mission packs).
+
+### `rules_key.json`
+
+Key principles and rules glossary. Root object is an array of rule objects. Each rule object contains:
+
+- `id` - *string* - Unique rule identifier.
+- `name` - *string* - Display name of the rule.
+- `aliases` - *string[]* - Array of alternative names or terms for the rule.
+- `category` - *string* - Category classification (e.g., `"key_principle"`).
+- `text` - *string* - Markdown-formatted rules text explaining the rule.
+- `examples` - *string[]* - Array of example scenarios or use cases (may be empty).
+- `tags` - *string[]* - Array of tags for categorization and search.
+- `references` - *string[]* - Array of rule IDs that this rule references or relates to.
+
+### `rules_sequence.json`
+
+Game sequence and turn structure. Root object contains:
+
+- `title` - *string* - Display title for the sequence.
+- `steps` - *array* - Array of game sequence step objects, each containing:
+  - `id` - *integer* - Step number.
+  - `icon` - *string* - Icon or emoji representing the step.
+  - `name` - *string* - Display name of the step.
+  - `description` - *string[]* - Array of description strings explaining what happens in this step.
+
+### `rules_terrain.json`
+
+Terrain rules and mechanics. Root object contains a `rules_terrain` array. Each terrain rule object contains:
+
+- `id` - *string* - Unique terrain rule identifier.
+- `name` - *string* - Display name of the terrain rule.
+- `aliases` - *string[]* - Array of alternative names or terms.
+- `category` - *string* - Category classification (e.g., `"terrain_rule"`).
+- `text` - *string* - Markdown-formatted rules text explaining the terrain rule.
+- `examples` - *string[]* - Array of example scenarios or use cases (may be empty).
+- `actions` - *string[]* - Array of action IDs related to this terrain rule (may be empty).
+- `tags` - *string[]* - Array of tags for categorization and search.
+- `references` - *string[]* - Array of rule IDs that this rule references or relates to.
+- `packs` - *string[]* - Mission packs where this terrain rule applies (may be empty for universal rules).
 
 ## Contributing
 
