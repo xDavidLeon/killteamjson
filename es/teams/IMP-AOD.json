@@ -968,7 +968,7 @@
           "wepId": "IMP-AOD-GRN-FG",
           "opTypeId": "IMP-AOD-GRN",
           "seq": 2,
-          "wepName": "Frag Grenade",
+          "wepName": "Granada Frag",
           "wepType": "E",
           "profiles": [
             {
@@ -999,7 +999,7 @@
           "wepId": "IMP-AOD-GRN-KG",
           "opTypeId": "IMP-AOD-GRN",
           "seq": 3,
-          "wepName": "Krak Grenade",
+          "wepName": "Granada Krak",
           "wepType": "E",
           "profiles": [
             {
@@ -1031,8 +1031,8 @@
         {
           "abilityId": "IMP-AOD-GRN-A-GRN",
           "opTypeId": "IMP-AOD-GRN",
-          "abilityName": "Grenadier",
-          "description": "This operative can use frag and krak grenades (see universal equipment).\nDoing so does not count towards any limited uses you have (i.e. if you also select those grenades from equipment for other operatives).\nWhenever it is doing so, improve the Hit stat of that weapon by 1."
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag y perforantes (ver equipo universal).\nHacer esto no cuenta de cara a los usos limitados que tengas (es decir, si también seleccionas esas granadas como equipo para otros agentes).\nCuando lo hace, mejora en 1 el atributo Impactar de esa arma."
         }
       ]
     },
@@ -1040,7 +1040,7 @@
       "opTypeId": "IMP-AOD-AWAR",
       "killteamId": "IMP-AOD",
       "seq": 5,
-      "opTypeName": "Assault Intercessor Warrior",
+      "opTypeName": "Guerrero Intercesor de Asalto",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1103,7 +1103,7 @@
       "opTypeId": "IMP-AOD-HGNR",
       "killteamId": "IMP-AOD",
       "seq": 6,
-      "opTypeName": "Heavy Intercessor Gunner",
+      "opTypeName": "Tirador Intercesor Pesado",
       "MOVE": "5\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1115,14 +1115,14 @@
           "wepId": "IMP-AOD-HGNR-HB",
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 0,
-          "wepName": "Heavy Bolter",
+          "wepName": "Bólter pesado",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-HGNR-HB-0",
               "wepId": "IMP-AOD-HGNR-HB",
               "seq": 0,
-              "profileName": "Focused",
+              "profileName": "Dirigida",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "4/5",
@@ -1138,7 +1138,7 @@
               "wepprofileId": "IMP-AOD-HGNR-HB-1",
               "wepId": "IMP-AOD-HGNR-HB",
               "seq": 1,
-              "profileName": "Sweeping",
+              "profileName": "Barrido",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -1182,7 +1182,7 @@
       "opTypeId": "IMP-AOD-GNR",
       "killteamId": "IMP-AOD",
       "seq": 7,
-      "opTypeName": "Intercessor Gunner",
+      "opTypeName": "Tirador Intercesor",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1218,7 +1218,7 @@
           "wepId": "IMP-AOD-GNR-GL",
           "opTypeId": "IMP-AOD-GNR",
           "seq": 1,
-          "wepName": "Auxiliary Grenade Launcher",
+          "wepName": "Lanzagranadas Auxiliar",
           "wepType": "R",
           "profiles": [
             {
@@ -1289,14 +1289,14 @@
               "wepprofileId": "IMP-AOD-GNR-SBR-0",
               "wepId": "IMP-AOD-GNR-SBR",
               "seq": 0,
-              "profileName": "Heavy",
+              "profileName": "Pesada",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -1347,7 +1347,7 @@
       "opTypeId": "IMP-AOD-WAR",
       "killteamId": "IMP-AOD",
       "seq": 8,
-      "opTypeName": "Intercessor Warrior",
+      "opTypeName": "Combatiente Intercesor",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "3+",
@@ -1415,14 +1415,14 @@
               "wepprofileId": "IMP-AOD-WAR-SBR-0",
               "wepId": "IMP-AOD-WAR-SBR",
               "seq": 0,
-              "profileName": "Heavy",
+              "profileName": "Pesada",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
