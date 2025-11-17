@@ -1,0 +1,61 @@
+{
+    "title": "Game Sequence",
+    "steps": [
+      {
+        "id": 1,
+        "icon": "⚡",
+        "name": "Set up the Battle",
+        "description": [
+          "Each player selects a kill team for the battle.",
+          "Determine the killzone and set up terrain features. Ensure terrain types are specified.",
+          "Determine one shared crit op and set up objective markers. Other than in Killzone: Bheta-Decima, all objective markers must be set up on the killzone floor.",
+          "Roll-off: the winner decides who has initiative.",
+          "The player with initiative selects one drop zone. Their opponent has the other drop zone and gains the Re-roll initiative card (explained in step 4)."
+        ]
+      },
+      {
+        "id": 2,
+        "icon": "♟",
+        "name": "Select Operatives",
+        "description": [
+          "Each player secretly selects their operatives for the battle, adhering to the selection requirements in their kill team's rules. They then reveal their selections simultaneously.",
+          "Each player secretly selects up to four equipment options. Each option cannot be selected more than once per player. They then reveal their selections simultaneously.",
+          "Each player starts with 2CP.",
+          "Each player secretly selects a tac op from one of their kill team's archetypes (Infiltration, Recon, Security or Seek & Destroy, as specified in their kill team's rules)."
+        ]
+      },
+      {
+        "id": 3,
+        "icon": "🔥",
+        "name": "Set Up Operatives",
+        "description": [
+          "Each player alternates setting up an item of equipment that's set up before the battle (ladders, etc.), starting with the player with initiative. Note: it's item by item, not option by option.",
+          "Each player alternates setting up one third of their kill team (rounding up), starting with the player with initiative. When a player sets up an operative, it must be wholly within their drop zone and must be given a Conceal order."
+        ]
+      },
+      {
+        "id": 4,
+        "icon": "🕒",
+        "name": "Play the battle",
+        "description": [
+          "To determine initiative during each turning point (including the first), the players roll off (ties are not re-rolled). Starting with the player that lost the roll-off, each player alternates either using an initiative card to alter the result of their roll or passing, until they both pass in succession.",
+          "If player(s) would use their kill team rules to affect the roll-off, they must do so before playing initiative cards, starting with the player that's losing the roll-off.",
+          "The Re-roll initiative card allows the player to re-roll their initiative roll. The remaining initiative cards all change the player's roll result up or down (this can take it above 6 or below 1).",
+          "The winner of the roll-off decides who has initiative. Except during the fourth turning point, the loser of the roll-off gains an initiative card with a value equal to the turning point. If the roll-off is a tie, the player that didn't have initiative at that time is the winner.",
+          "As a Strategic Gambit during the first turning point, each player secretly selects one of their three operations (Crit Op, Tac Op or Kill Op) as their Primary Op. Then, each player places a card with their choice face down, or uses a die or other method to indicate it.",
+          "Each player can score a maximum of 6VP for each operation."
+        ]
+      },
+      {
+        "id": 5,
+        "icon": "🏆",
+        "name": "End the Battle",
+        "description": [
+          "The battle ends after four turning points have been completed. If a player has no operatives in the killzone but the battle has not ended, the other player completes the remaining turning points until the battle ends.",
+          "At the end of the battle, all players simultaneously reveal their primary operations. They score additional VP equal to half what they scored for that operation (rounding up).",
+          "The player with the most VP is the winner. If players are tied, the battle is a draw."
+        ]
+      }
+    ]
+  }
+  
