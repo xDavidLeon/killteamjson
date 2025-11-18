@@ -7,7 +7,7 @@
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_blades_of_khaine-00befzjlym-fspjkrusdr.pdf",
   "killteamName": "Blades Of Khaine",
   "description": "Athletic, graceful and utterly lethal, the Aeldari warriors that comprise Blades of Khaine kill teams come together to undertake missions of utmost importance on behalf of their craftworlds. They are dispatched to sever specific strands of fate, ensuring that terrible events they have foreseen never come to pass.",
-  "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - DIRE AVENGER EXARCH with one of the following options:\n    - Shuriken catapult; fists\n      - Twin shuriken catapult; gun butts  \n    Or one option from each of the following:\n    - Diresword or power weapon\n      - Shuriken pistol or shimmershield\n  - HOWLING BANSHEE EXARCH with one of the following options:\n    - Mirrorswords\n      - Shuriken pistol; executioner\n      - Shuriken pistol; power weapon\n      - Shuriken pistol; triskele\n      - Triskele; power weapon\n  - STRIKING SCORPION EXARCH with one of the following options:\n    - Shuriken pistol; biting blade\n      - Shuriken pistol; scorpion's claw & chainsword\n      - Twin shuriken pistols; twin chainswords  \n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - DIRE AVENGER WARRIOR\n  - HOWLING BANSHEE WARRIOR\n  - STRIKING SCORPION WARRIOR",
+  "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - **DIRE AVENGER EXARCH** with one of the following options:\n    - Shuriken catapult; fists\n    - Twin shuriken catapult; gun butts\n   Or one option from each of the following:\n    - Diresword or power weapon\n    - Shuriken pistol or shimmershield\n  - **HOWLING BANSHEE EXARCH** with one of the following options:\n   - Mirrorswords\n   - Shuriken pistol; executioner\n   - Shuriken pistol; power weapon\n   - Shuriken pistol; triskele\n   - Triskele; power weapon\n  - **STRIKING SCORPION EXARCH** with one of the following options:\n   - Shuriken pistol; biting blade\n   - Shuriken pistol; scorpion's claw & chainsword\n   - Twin shuriken pistols; twin chainswords\n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - **DIRE AVENGER WARRIOR**\n  - **HOWLING BANSHEE WARRIOR**\n  - **STRIKING SCORPION WARRIOR**",
   "archetypes": [
     "Seek & Destroy",
     "Security",
@@ -69,7 +69,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Fading Light",
-      "description": "Use this firefight ploy during a friendly BLADES OF KHAINE operative's activation, before or after it performs an action. During that activation, that operative can perform the Fall Back action for 1 less AP."
+      "description": "Use this Tactical Ploy during a friendly BLADES OF KHAINES operative is activatedoperative's activation, before or after it performs an action. Until the end of its activation, that operative can perform the Fall Back action for one less action point (to a minimum of 0AP)."
     },
     {
       "ployId": "AEL-BOK-T-SF",
@@ -124,7 +124,7 @@
     {
       "abilityId": "AEL-BOK-TA-ASTE-HB",
       "abilityName": "Howling Banshee Aspect Technique",
-      "description": "**The Woe**  \n\nUse this ASPECT TECHNIQUE during a friendly HOWLING BANSHEE operative's activation, after it's performed the Charge action and incapacitated an enemy operative during the Fight action, and is no longer within control range of\nenemy operatives. That friendly operative can immediately perform a free Charge action using any remaining move distance it had from that first Charge action. That operative can perform two Charge actions during its activation to do so. The operative cannot have performed any other actions\nduring this activation (but can do so after resolving this ASPECT TECHNIQUE).\n\n**Rain of Tears**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting, after you strike with a critical success. End that sequence (any remaining attack dice are discarded) and immediately perform a free Dash or Fall\nBack action up to 3\" with that operative (then the Fight action ends). That operative can do so even if it's performed an action that prevents it from performing the Dash or Fall Back action.\n\n**Shriek-That-Kills**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is performing the Shoot action. Until the end of that action, that operative can use the following ranged weapon:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Shriek-That-Kills|6|3+|1/2|\n|Weapon Rules|\n|Rng 6\", Saturate, Seek Light, Stun, Tor 1\"|\n\n**Acrobatic**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative performs an action in which it moves. Until the end of the action, that operative:\n\n- Can ignore all vertical distances whenever it drops and climbs.\n- Can move through enemy operatives, move within control range of them, and during the Charge action can leave their control range (it must still end the move following all requirements for that move).\n- Cannot move more than its Move stat if it's the Charge action.\n\n**Scream-That-Steals**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting or retaliating, at the start of the Resolve Attack Dice step. You can resolve one of your successes before the normal order.\nIf you do, that success must be used to block."
+      "description": "**The Woe**  \n\nUse this ASPECT TECHNIQUE during a friendly HOWLING BANSHEE operative's activation, after it's performed the Charge action and incapacitated an enemy operative during the Fight action, and is no longer within control range of\nenemy operatives. That friendly operative can immediately perform a free Charge action using any remaining move distance it had from that first Charge action. That operative can perform two Charge actions during its activation to do so. The operative cannot have performed any other actions\nduring this activation (but can do so after resolving this ASPECT TECHNIQUE).\n\n**Rain of Tears**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting, after you strike with a critical success, if the enemy operative isn't incapacitated. End that sequence (any remaining attack dice are discarded) and immediately perform a free Fall\nBack action up to 3\" with that operative (then the Fight action ends). That operative can do so even if it's performed an action that prevents it from performing the Fall Back action.\n\n**Shriek-That-Kills**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is performing the Shoot action. Until the end of that action, that operative can use the following ranged weapon:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Shriek-That-Kills|5|3+|1/2|\n|Weapon Rules|\n|Range 6\", Saturate, Seek Light, Stun, Torrent 1|\n\n**Acrobatic**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative performs an action in which it moves. Until the end of the action, that operative:\n\n- Can ignore all vertical distances whenever it drops and climbs.\n- Can move through enemy operatives, move within control range of them, and during the Charge action can leave their control range (it must still end the move following all requirements for that move).\n- Cannot move more than its Move stat if it's the Charge action.\n\n**Scream-That-Steals**  \n\nUse this ASPECT TECHNIQUE when a friendly HOWLING BANSHEE operative is fighting or retaliating, at the start of the Resolve Attack Dice step. You can resolve one of your successes before the normal order.\nIf you do, that success must be used to block."
     },
     {
       "abilityId": "AEL-BOK-TA-ASTE-SS",
@@ -147,8 +147,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAX-SC",
@@ -346,8 +346,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBX-SP",
@@ -380,7 +380,7 @@
           "wepId": "AEL-BOK-HBX-TSK",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 1,
-          "wepName": "Triskele",
+          "wepName": "Triskele (throw)",
           "wepType": "R",
           "profiles": [
             {
@@ -486,7 +486,7 @@
           "wepId": "AEL-BOK-HBX-TSKM",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 5,
-          "wepName": "Triskele",
+          "wepName": "Triskele (slice)",
           "wepType": "M",
           "profiles": [
             {
@@ -530,8 +530,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSX-SP",
@@ -673,6 +673,12 @@
           "opTypeId": "AEL-BOK-SSX",
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
+        },
+        {
+          "abilityId": "AEL-BOK-SSX-A-M",
+          "opTypeId": "AEL-BOK-SSX",
+          "abilityName": "Mandiblasters",
+          "description": "Whenever this operative performs the **Fight** action, at the start of the Roll Attack Dice step, inflict 2 damage on the enemy operative in that sequence."
         }
       ]
     },
@@ -685,8 +691,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, DIRE AVENGER, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, DIRE AVENGER, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAW-SC",
@@ -749,8 +755,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBW-SP",
@@ -822,8 +828,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSW-SP",
@@ -876,7 +882,14 @@
           ]
         }
       ],
-      "abilities": []
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-SSW-A-M",
+          "opTypeId": "AEL-BOK-SSW",
+          "abilityName": "Mandiblasters",
+          "description": "Whenever this operative performs the **Fight** action, at the start of the Roll Attack Dice step, inflict 2 damage on the enemy operative in that sequence."
+        }
+      ]
     }
   ]
 }
