@@ -1,4 +1,5 @@
-[
+{
+  "rules_terrain": [
     {
       "id": "terrain-and-movement",
       "name": "Terreno Y Movimiento",
@@ -17,7 +18,8 @@
         "jumping",
         "ceiling",
         "accessible"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "climb",
@@ -39,7 +41,8 @@
         "dropping",
         "jumping",
         "insignificant"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "drop",
@@ -59,7 +62,8 @@
         "terrain-and-movement",
         "climbing",
         "jumping"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "jump",
@@ -79,7 +83,8 @@
         "dropping",
         "climbing",
         "terrain-and-movement"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "terrain-feature",
@@ -102,7 +107,8 @@
         "insignificant",
         "exposed",
         "ceiling"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "heavy",
@@ -120,7 +126,8 @@
         "light",
         "obscured",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "light",
@@ -139,7 +146,8 @@
       "references": [
         "vantage",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "blocking",
@@ -160,7 +168,8 @@
         "cover",
         "obscured",
         "visible"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "vantage",
@@ -206,7 +215,8 @@
         "terrain-and-movement",
         "bases",
         "equipment-terrain-placement"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "insignificant",
@@ -226,7 +236,8 @@
         "climbing",
         "dropping",
         "exposed"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "exposed",
@@ -245,7 +256,8 @@
       "references": [
         "insignificant",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "ceiling",
@@ -263,7 +275,8 @@
         "terrain-and-movement",
         "stronghold",
         "large-ruin"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "gallowdark-wall",
@@ -293,6 +306,9 @@
         "cover",
         "obscured",
         "distances"
+      ],
+      "packs": [
+        "Killzone: Gallowdark"
       ]
     },
     {
@@ -335,6 +351,10 @@
         "accessible",
         "insignificant",
         "exposed"
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -349,7 +369,11 @@
         "environment",
         "weapons"
       ],
-      "references": []
+      "references": [],
+      "packs": [
+        "Killzone: Bheta-Decima",
+        "Killzone: Tomb World"
+      ]
     },
     {
       "id": "gantry",
@@ -368,6 +392,9 @@
         "accessible",
         "vantage",
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
@@ -388,6 +415,9 @@
         "insignificant",
         "light",
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
@@ -403,7 +433,10 @@
         "hazard",
         "movement"
       ],
-      "references": []
+      "references": [],
+      "packs": [
+        "Killzone: Bheta-Decima"
+      ]
     },
     {
       "id": "restricted-targeting",
@@ -427,6 +460,9 @@
         "valid-target",
         "intervening",
         "visible"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
@@ -469,6 +505,9 @@
         "heavy",
         "control-range",
         "visible"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -493,6 +532,9 @@
         "light",
         "visible",
         "intervening"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -510,6 +552,9 @@
       ],
       "references": [
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -527,6 +572,9 @@
       ],
       "references": [
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -544,6 +592,9 @@
       ],
       "references": [
         "light"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -562,6 +613,9 @@
       "references": [
         "stronghold",
         "condensed-environment"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -578,6 +632,9 @@
       ],
       "references": [
         "stronghold"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -608,6 +665,9 @@
         "cover",
         "obscured",
         "distances"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -629,6 +689,9 @@
         "exposed",
         "cover",
         "obscured"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -651,6 +714,9 @@
         "killzone-floor",
         "control-range",
         "equipment-terrain-placement"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
@@ -667,7 +733,10 @@
       ],
       "references": [
         "light"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     }
   ]
-  
+}
