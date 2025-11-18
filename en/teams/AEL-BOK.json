@@ -7,7 +7,7 @@
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_blades_of_khaine-00befzjlym-fspjkrusdr.pdf",
   "killteamName": "Blades Of Khaine",
   "description": "Athletic, graceful and utterly lethal, the Aeldari warriors that comprise Blades of Khaine kill teams come together to undertake missions of utmost importance on behalf of their craftworlds. They are dispatched to sever specific strands of fate, ensuring that terrible events they have foreseen never come to pass.",
-  "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - **DIRE AVENGER EXARCH** with one of the following options:\n    - Shuriken catapult; fists\n    - Twin shuriken catapult; gun butts\n   Or one option from each of the following:\n    - Diresword or power weapon\n    - Shuriken pistol or shimmershield\n  - **HOWLING BANSHEE EXARCH** with one of the following options:\n   - Mirrorswords\n   - Shuriken pistol; executioner\n   - Shuriken pistol; power weapon\n   - Shuriken pistol; triskele\n   - Triskele; power weapon\n  - **STRIKING SCORPION EXARCH** with one of the following options:\n   - Shuriken pistol; biting blade\n   - Shuriken pistol; scorpion's claw & chainsword\n   - Twin shuriken pistols; twin chainswords\n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - **DIRE AVENGER WARRIOR**\n  - **HOWLING BANSHEE WARRIOR**\n  - **STRIKING SCORPION WARRIOR**",
+  "composition": "A BLADES OF KHAINE KillTeam is composed of:\n\n- 1 BLADES OF KHAINE operative selected from the following list:\n  - **DIRE AVENGER EXARCH** with one of the following options:\n    - Shuriken catapult; fists\n    - Twin shuriken catapult; gun butts\n    Or one option from each of the following:\n    - Diresword or power weapon\n    - Shuriken pistol or shimmershield\n  - **HOWLING BANSHEE EXARCH** with one of the following options:\n    - Mirrorswords\n    - Shuriken pistol; executioner\n    - Shuriken pistol; power weapon\n    - Shuriken pistol; triskele\n    - Triskele; power weapon\n  - **STRIKING SCORPION EXARCH** with one of the following options:\n    - Shuriken pistol; biting blade\n    - Shuriken pistol; scorpion's claw & chainsword\n    - Twin shuriken pistols; twin chainswords\n- 7 BLADES OF KHAINE operatives selected from the following list:\n  - **DIRE AVENGER WARRIOR**\n  - **HOWLING BANSHEE WARRIOR**\n  - **STRIKING SCORPION WARRIOR**",
   "archetypes": [
     "Seek & Destroy",
     "Security",
@@ -134,7 +134,7 @@
     {
       "abilityId": "AEL-BOK-TA-AT",
       "abilityName": "Archetypes",
-      "description": "Seek & Destroy, or the associated archetype of the most common Aspect Keyword in your kill team (if two keywords are equally most common, you can choose on of those keywords). Aspect keywords and their asociated archetypes are as follows:\n- DIRE AVENGER: **Security**\n- HOWLING BANSHEE: **Recon**\n- STRIKING SCORPION: **Infiltration**"
+      "description": "Seek & Destroy, or the associated archetype of the most common Aspect Keyword in your kill team (if two keywords are equally most common, you can choose on of those keywords). Aspect keywords and their asociated archetypes are as follows:\n- **DIRE AVENGER**: Security\n- **HOWLING BANSHEE**: Recon\n- **STRIKING SCORPION**: Infiltration"
     }
   ],
   "opTypes": [
