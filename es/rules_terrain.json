@@ -1,4 +1,5 @@
-[
+{
+  "rules_terrain": [
     {
       "id": "terrain-and-movement",
       "name": "Terreno Y Movimiento",
@@ -17,7 +18,8 @@
         "jumping",
         "ceiling",
         "accessible"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "climb",
@@ -39,7 +41,8 @@
         "dropping",
         "jumping",
         "insignificant"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "drop",
@@ -59,7 +62,8 @@
         "terrain-and-movement",
         "climbing",
         "jumping"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "jump",
@@ -79,7 +83,8 @@
         "dropping",
         "climbing",
         "terrain-and-movement"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "terrain-feature",
@@ -102,14 +107,15 @@
         "insignificant",
         "exposed",
         "ceiling"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "heavy",
-      "name": "Heavy",
+      "name": "Pesado",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Larger terrain is Heavy. It can obscure operatives.\n\nIt’s good to have a mixture of Light and Heavy terrain in your killzone, as some other rules interact with\neach type differently.",
+      "text": "El terreno grande es Pesado. Puede ofuscar agentes.\n\nEs bueno tener una mezcla de terreno Ligero y Pesado en tu zona de aniquilación, pues algunas reglas interactúan con \ncada tipo de forma distinta.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -120,14 +126,15 @@
         "light",
         "obscured",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "light",
-      "name": "Light",
+      "name": "Ligero",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Smaller terrain is Light. It doesn’t have any additional rules, but other rules interact with it differently\n(e.g., Vantage terrain here).",
+      "text": "El terreno pequeño es Ligero. No tiene reglas adicionales propias, pero otras reglas interactúan con él mismo de forma distinta\n(p. ej., terreno Aventajado de la pág. 60).",
       "examples": [
         "Light terrain.",
         "Light terrain."
@@ -139,14 +146,15 @@
       "references": [
         "vantage",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "blocking",
-      "name": "Blocking",
+      "name": "Bloqueado",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Blocking terrain is usually attributed to gaps between or underneath a terrain feature. Visibility cannot\nbe drawn through such gaps, and for the purposes of cover and obscured, the gaps are intervening like\nthe terrain around it.\n\nTechnically, Blocking terrain isn’t actually physical terrain, but rather the gaps operatives shouldn’t be able\nto see through. Blocking terrain is rare, but it exists for the necessary instances.",
+      "text": "El terreno Bloqueado se suele atribuir a huecos intermedios o por debajo de un elemento de terreno.  No se puede\ntrazar visibilidad a través de esos huecos, y a efectos de cobertura y ofuscación, los huecos están interpuestos como\nel terreno de su alrededor.\n\nTécnicamente, el terreno Bloqueado no es realmente terreno físico, sino huecos por los que los agentes no deberían \npoder ver. El terreno Bloqueado es raro, pero existe para instancias en que es necesario",
       "examples": [
         "The gap under this pipe is blocking terrain.",
         "The door’s viewpoint or the broken vent is blocking terrain."
@@ -160,14 +168,15 @@
         "cover",
         "obscured",
         "visible"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "vantage",
-      "name": "Vantage",
+      "name": "Aventajado",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Vantage terrain is the upper levels of the killzone—areas operatives can be placed upon above the\ngame board. If terrain is not Vantage terrain, then operatives can move over it, but they cannot finish a\nmove or be set up on it. Vantage terrain is also Light terrain. Vantage terrain has the following main\nfeatures.\n\nFirstly, whenever an operative on Vantage terrain is shooting an operative that has an Engage\norder, its ranged weapon has the Accurate 1 weapon rule if the target operative is at least 2\" lower\nthan it, or Accurate 2 if the target operative is at least 4\" lower than it.\n\nSecondly, whenever you are selecting a valid target for an operative on Vantage terrain, operatives\nat least 2\" lower than that operative with a Conceal order cannot use Light terrain for cover. Whilst\nthis can allow such operatives to be targeted (assuming they’re visible), it doesn’t remove their\ncover save, and the defender can retain it as a critical success instead, or retain one additional\ncover save.\n\nThirdly, for the purposes of obscured, ignore Heavy terrain connected to Vantage terrain the active\noperative or the intended target is on.\n\nAs Vantage terrain is also Light, an operative on Vantage terrain will often be in cover from operatives\nlower than them — imagine them crouching down to gain a cover save or avoid being a valid target.\n\nIf an operative is obstructed from moving across Vantage terrain by enemy operatives or other terrain\nfeatures, it can move around these obstructions (without dropping off) so long as part of its base is always\non the Vantage terrain.",
+      "text": "El terreno Aventajado representa los niveles más altos de la zona de aniquilación, áreas en que los agentes pueden colocarse sobre el tablero. Si un terreno no es Aventajado, los agentes pueden mover por encima del mismo pero no terminar un movimiento sobre él o ser desplegados ahí. El terreno Aventajado es también terreno Ligero, y tiene además las siguientes características.\n\nEn primer lugar, siempre que un agente en terreno Aventajado dispare a un agente que tenga una orden de Trabarse,  su arma a distancia tiene la regla de arma Certera 1 si el blanco está por lo menos 2\" por debajo de él, o Certera 2 si el blanco está por lo menos 4\" por debajo de él.\n\nEn segundo lugar, al elegir un blanco válido para un agente en terreno Aventajado, los agentes por lo menos 2\" por debajo de ese agente con una orden de Ocultarse no se consideran a cubierto debido al terreno Ligero. Esto puede hacer que esos agentes sean elegidos como blanco (siempre que también sean visibles), pero no les niega su salvación de cobertura, y el defensor puede guardarla como éxito crítico en su lugar, o guardar una salvación de cobertura adicional.\n\nEn tercer lugar, a efectos de estar ofuscado, ignora el terreno Pesado conectado a terreno Aventajado donde esté el agente activo o el blanco elegido.\n\nComo el terreno Aventajado también es Ligero, un agente en este terreno a menudo estará cubierto de los agentes que estén más abajo que ellos; imagina que se agachan para ganar una salvaguarda de cobertura o evitar ser un objetivo válido.\n\nSi un agente está obstruido para moverse a través del terreno Aventajado por agentes enemigos u otras característica puede moverse alrededor de estas obstrucciones (sin caer) siempre que parte de su base esté en el terreno Aventajado.",
       "examples": [
         "An operative on Vantage terrain can target an operative with a Conceal order that’s 2” lower than them\nand only in cover from Light terrain.",
         "Operative B has a Conceal order and is in cover from Light terrain, but since operative A is on Vantage\nterrain and at least 2” higher, operative B is a valid target."
@@ -190,10 +199,10 @@
     },
     {
       "id": "accessible",
-      "name": "Accessible",
+      "name": "Accesible",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Operatives can move through Accessible terrain (this takes precedence over Bases, and Terrain and\nMovement), but it counts as an additional 1\" to do so. Only the centre of an operative’s base needs to\nmove through Accessible terrain, so base sizes are irrelevant.",
+      "text": "Los agentes pueden moverse a través de terreno Accesible (esto tiene preferencia sobre Peanas, y Terreno y movimiento), ero hacerlo cuenta como 1\" adicional. Solo es necesario que el centro de la peana de un agente pase a través del terreno Accesible, por lo que los tamaños de peana no importan.",
       "examples": [
         "The door is accessible terrain."
       ],
@@ -206,14 +215,15 @@
         "terrain-and-movement",
         "bases",
         "equipment-terrain-placement"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "insignificant",
-      "name": "Insignificant",
+      "name": "Insignificante",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Insignificant terrain is usually very small. For the purposes of climbing and dropping, ignore it.\n\nAn operative can move over and across Insignificant terrain without going up and down.",
+      "text": "El terreno Insignificante suele ser muy pequeño. A efectos de trepar y dejarse caer, se ignora.\n\nUn agente puede moverse por encima y a través de terreno Insignificante sin tener que subir y bajar",
       "examples": [
         "Small piles of rubble are insignificant terrain."
       ],
@@ -226,14 +236,15 @@
         "climbing",
         "dropping",
         "exposed"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "exposed",
-      "name": "Exposed",
+      "name": "Expuesto",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Exposed terrain is usually very small, or terrain with large gaps that operatives shouldn’t be able to take\ncover behind.\n\nIt’s particularly important to identify Insignificant and Exposed terrain before the battle, to prevent\nmisunderstandings later on.",
+      "text": "El terreno Expuesto suele ser muy pequeño, o es terreno con grandes huecos tras el cual los agentes no deberían poder cubrirse. A efectos de estar a cubierto u ofuscado, \nnunca se considera interpuesto.\n\nEs especialmente importante identificar el terreno Insignificante y Expuesto antes de la batalla, para evitar \nmalentendidos posteriores.",
       "examples": [
         "This ladder and these hanging chains are exposed terrain."
       ],
@@ -245,14 +256,15 @@
       "references": [
         "insignificant",
         "cover"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "ceiling",
-      "name": "Ceiling",
+      "name": "Techo",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Operatives with a round base of 50mm or less, or an oval base of 60x35mm, can move underneath\nCeiling terrain regardless of the operative’s height (this takes precedence over Terrain and Movement\non pg 56). The operative must still finish the action in a location it can be placed.",
+      "text": "Los agentes con una peana redonda de 50 mm o menos, o una peana ovalada de 60x35 mm, pueden mover bajo\nterreno Techo sin importar la altura del agente (esto tiene prioridad sobre las reglas de Terreno y Movimiento\nde la pág. 56). El agente sigue teniendo que terminar la acción en una ubicación en la que pueda ser colocado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -263,14 +275,15 @@
         "terrain-and-movement",
         "stronghold",
         "large-ruin"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "gallowdark-wall",
-      "name": "Gallowdark Wall",
+      "name": "Muro del Horcasombría",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway, which is\nexplained separately on page 69.\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pages 67-68).",
+      "text": "Un muro del Horcasombría es un elemento de terreno Pesado y Muro. Algunos muros incluyen una escotilla, que se \nexplican en la pág. 69.\n\nTerreno Muro:\n\nLos agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado (ver ejemplos en las págs. 67-68).",
       "examples": [
         "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Gallowdark wall. This would make operative A\nmore than 3” from operative B.",
         "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
@@ -293,21 +306,24 @@
         "cover",
         "obscured",
         "distances"
+      ],
+      "packs": [
+        "Killzone: Gallowdark"
       ]
     },
     {
       "id": "hatchway",
-      "name": "Hatchway",
+      "name": "Escotilla",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A hatchway has two statuses: closed and open. It has two parts — an access point and a hatch — and\ntheir terrain types depend upon the hatchway’s status. Operatives can perform the Operate Hatch\nmission action to change its status. Hatchways begin the battle closed.\n\nAs an open hatchway’s access point is Exposed terrain, the walls either side of it must be used for cover\nand obscuring instead of the access point.\n\nCLOSED\nWhile a hatchway is closed:\n\nIts hatch must be fully shut.\n\nThe access point and hatch are Heavy and Wall terrain.\n\nOPEN\nWhile a hatchway is open:\n\nIts hatch must be fully open (it cannot be ajar).\n\nIts access point is Accessible, Insignificant and Exposed terrain.\n\nIts hatch is Heavy and Wall terrain, and the gap directly underneath it is Blocking terrain.\n\nIf operatives would prevent the hatch from fully opening or closing, temporarily remove them from the\nkillzone, open or close the hatch, then return the operatives as close as possible to their original location. If\nan operative is within an enemy operative’s control range before a hatch is opened, it must be returned\nthere.",
+      "text": "Una escotilla tiene dos estados: cerrada y abierta. Tiene dos partes: un punto de acceso y un portillo, y sus tipos de terreno dependen del estado del escotilla. Los agentes pueden realizar la acción de misión Operar portillo para cambiar su estado. Las escotillas empiezan la batalla cerradas.\n\nComo el punto de acceso de una escotilla abierta es terreno Expuesto, deben usarse los muros a ambos lados para estar a cubierto un ofuscado en lugar del punto de acceso.\n\n **CERRADA**\nMientras una escotilla está cerrada:\n\nSu portillo debe estar totalmente cerrado.\n\nEl punto de acceso y el portillo son terrenos Pesados y Muro.\n\n **ABIERTO**\n Mientras una escotilla está abierta:\n\nSu portillo debe estar totalmente abierto (no puede estar entreabierto).\n\nEl punto de acceso es terreno Accesible, Insignificante y Expuesto.\n\nEl portillo es terreno Pesado y Muro, y el hueco debajo del mismo es terreno Bloqueado.\n\nSi algún agente impediría que el portillo se abriera o cerrara del todo, retíralos temporalmente de la zona de aniquilación, abre o cierra el portillo, y luego devuélvelos lo más cerca como puedas de su ubicación original. Si un agente está en la zona de control de un agente enemigo antes de que se abra un portillo, debe ser devuelto a ella.",
       "examples": [],
       "actions": [
         {
           "id": "operate-hatch",
-          "name": "Operate Hatch",
+          "name": "Operar Portillo",
           "cost": "1APL",
-          "text": "Open or close a hatchway that’s access point is within the operative’s control range.\n\nAn operative can perform this action during a Dash or Reposition action, and any remaining\nmove distance can be used after it does so.\n\nAn operative cannot perform this action while within control range of an enemy operative, or if\nthat hatchway is open and its access point is within an enemy operative’s control range.\n\nOpening a hatchway can cause the operative to be within control range of an enemy operative, in which\ncase its Dash or Reposition action would immediately end (unless it has rules that allow it to move within\ncontrol range of an enemy operative).",
+          "text": "Abre o cierra una escotilla cuyo punto de acceso está en la zona de control del agente.\n\nUn agente puede realizar esta acción durante una acción de Correr o Reposicionar, y puede usar cualquier movimiento restante después de ello.\n\nNo se puede realizar esta acción estando en la zona de control de un agente enemigo, o si la escotilla está abierta y su punto de acceso está en la zona de control de un agente enemigo.\n\nAbrir una escotilla puede hacer que el agente pase a estar en la zona de control de un agente enemigo, en cuyo caso su acción de Correr o Reposicionar terminaría inmediatamente (a menos que una regla permita mover estando en la zona de control de un agente enemigo).",
           "examples": [],
           "tags": [
             "action",
@@ -335,28 +351,36 @@
         "accessible",
         "insignificant",
         "exposed"
+      ],
+      "packs": [
+        "Killzone: Gallowdark",
+        "Killzone: Tomb World"
       ]
     },
     {
       "id": "condensed-environment",
-      "name": "Condensed Environment",
+      "name": "Entorno Compacto",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Weapons with the Blast, Torrent and/or x” Devastating (i.e. Devastating with a distance requirement)\nweapon rule also have the Lethal 5+ weapon rule (pg. 111).",
+      "text": "Las armas con las reglas de arma Área, Ráfaga y/o x” Devastadora (es decir, Devastadora con un requisito de distancia) también tienen la regla de arma Letal 5+ (pág. 111).",
       "examples": [],
       "actions": [],
       "tags": [
         "environment",
         "weapons"
       ],
-      "references": []
+      "references": [],
+      "packs": [
+        "Killzone: Bheta-Decima",
+        "Killzone: Tomb World"
+      ]
     },
     {
       "id": "gantry",
-      "name": "Gantry",
+      "name": "Pasarela",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Gantry floors are Accessible and Vantage terrain.\n\nGantry pillars are Heavy terrain.\n\nGantry terrain features come in three sizes: long, medium, and short. When they are connected\n(i.e., their gantry floors are touching each other), they are treated as the same terrain.",
+      "text": "Los suelos de pasarela son terreno Accesible y Aventajado.\n\nLos pilares de pasarela son terreno Pesado.\n\nLos elementos de terreno pasarela tienen tres tamaños: largas, medianas y cortas. Cuando están conectadas (es decir, sus suelos se tocan), se considera un único terreno.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -368,14 +392,17 @@
         "accessible",
         "vantage",
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
       "id": "thermometric-condenser",
-      "name": "Thermometric Condenser",
+      "name": "Fragua Ferratónica",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "The roof is Accessible and Vantage terrain.\n\nThe inner-ledge of the roof is Exposed and Insignificant terrain: ignore the slight difference in\nheight between the outer and inner area of the roof.\n\nThe battlements on the roof are Light terrain.\n\nAll other parts of it are Heavy terrain.",
+      "text": "El techo es terreno Accesible y Aventajado.\n\nEl reborde interior del techo es terreno Expuesto e Insignificante: ignora la leve diferencia de altura entre el área exterior e interior del techo.\n\nLas almenas del techo son terreno Ligero.\n\nTodas las demás partes de la Fragua Ferratónica son terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -388,14 +415,17 @@
         "insignificant",
         "light",
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
       "id": "restricted-movement",
-      "name": "Restricted Movement",
+      "name": "Movimiento Restringido",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "No part of an operative’s base can be touching a hazardous area.\n\nLurking predators stop operatives from venturing too close to the ocean, while strong currents and toxic\nwater prevent them from entering it.",
+      "text": "Ninguna parte de la peana de un agente puede tocar un área peligrosa.\n\nDepredadores al acecho detienen a los agentes que se acercan demasiado al océano, y las fuertes corrientes y aguas tóxicas les impiden sumergirse.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -403,17 +433,20 @@
         "hazard",
         "movement"
       ],
-      "references": []
+      "references": [],
+      "packs": [
+        "Killzone: Bheta-Decima"
+      ]
     },
     {
       "id": "restricted-targeting",
-      "name": "Restricted Targeting",
+      "name": "Blancos Restringidos",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "When selecting a valid target for an operative on the killzone floor, an intended target on the killzone\nfloor is not a valid target if 4” of hazardous area is between them.\n\nWhen selecting a valid target for an operative on Vantage terrain, an intended target on the killzone\nfloor is not a valid target if the footprint of a gantry is between them. The same is also true in reverse\n(an operative on the killzone floor to an intended target on Vantage terrain). However, in both cases,\nignore the footprint of gantry terrain features the operative or the intended target is on or in.\n\nRelentless waves, sea mist, and industrial smog make it harder for operatives to see targets over the\nocean’s surface.\n\nIn both cases, use targeting lines to determine if a hazardous area or the footprint of a gantry is\nbetween them.\n\nRestricted targeting only matters if one or more of the operatives in question are on the killzone floor; if\nthey are both on Vantage terrain, it has no effect.",
+      "text": "Al elegir un blanco válido para un agente en el suelo de la zona de aniquilación, un blanco en el suelo de la zona de aniquilación no es un blanco válido si hay 4\" de área peligrosa entre ellos.\n\nAl elegir un blanco válido para un agente en terreno Aventajado, un blanco en el suelo de la zona de aniquilación no es un blanco válido si media el contorno de una pasarela entre ellos. Lo mismo se aplica a la inversa (desde un agente en el suelo de la zona de aniquilación hasta un blanco en terreno Aventajado). Sin embargo, en ambos casos, ignora el contorno de los elementos de terreno pasarelas en las que estén el agente activo o el blanco.\n\nOlas implacables, brumas marinas y gases industriales hacen más difícil a los agentes ver a sus blancos al otro lado de un tramo oceánico.\n\nEn ambos casos, usa líneas de objetivo para determinar si un área peligrosa o el contorno de una pasarela están entre ellos.\n\nLos blancos restringidos solo afectan cuando uno o más agentes implicados están en el suelo de la zona de aniquilación; si están ambos en terreno Aventajado, no tiene efecto alguno.",
       "examples": [
-        "4” of hazardous area is between operatives A and B, therefore operative B is not a valid target (and\nneither would operative A be in reverse).",
-        "The footprint of a gantry is between operatives A and B, therefore operative B is not a valid target (and\nneither would operative A be in reverse). Note that the left gantry is ignored when determining this, as\noperative A is on it."
+        "Hay 4\" de área peligrosa entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez).",
+        "Media el contorno de una pasarela entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez). Ten en cuenta que la pasarela izquierda se ignora al determinar esto, pues el agente A está sobre ella."
       ],
       "actions": [],
       "tags": [
@@ -427,14 +460,17 @@
         "valid-target",
         "intervening",
         "visible"
+      ],
+      "packs": [
+        "Killzone: Bheta-Decima"
       ]
     },
     {
       "id": "equipment-terrain-placement",
-      "name": "Equipment Placement",
+      "name": "Equipo",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Equipment can be set up on Vantage terrain, on the killzone floor and within 2\" of Accessible terrain\n(this takes precedence over the usual restrictions).",
+      "text": "Se puede desplegar Equipo en terreno Aventajado, en el suelo de la zona de aniquilación y a 2\" o menos de terreno Accesible (esto tiene preferencia sobre las restricciones habituales)",
       "examples": [],
       "actions": [],
       "tags": [
@@ -449,10 +485,10 @@
     },
     {
       "id": "stronghold",
-      "name": "Stronghold",
+      "name": "Fortaleza",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A The upper level(s) of a stronghold terrain feature is Ceiling and Vantage terrain.\n\nB The door is Accessible and Heavy terrain.\n\nC The fire steps are Vantage, Insignificant, and Exposed terrain.\n\nD The broken vent is Blocking terrain.\n\nE The three barrel containers on Stronghold A are Blocking and Heavy terrain.\n\nF The small broken ramparts on the edge of the Vantage terrain of Stronghold A are Insignificant\nand Exposed terrain and Ceiling.\n\nG The gap on the lower Vantage terrain of Stronghold B is Accessible terrain.\n\nH You cannot have more than one friendly operative on the highest upper level of Stronghold B at\nonce, and that operative must be placed on one side or the other of that level, it cannot be placed\nin the middle (this means an enemy operative cannot be prevented from moving onto or being set\nup on the other side). If an operative’s base is too big to be placed there, it must move (or be set\nup) on as far as possible (otherwise it cannot complete that move), then place it to one side\ninstead and treat it as being there. Hold it as far on that level as possible when it matters for\nchecking other rules (e.g. control range, visibility, distance to other operatives, etc.). This takes\nprecedence over the rules for bases and being in a location it can be placed.\n\nAll other parts of it are Heavy terrain.\n\nFor the purposes of control range, ignore the door and parts of this terrain feature less than 2”\nhigh when determining visibility.",
+      "text": "A Los niveles superiores de un elemento de terreno fortaleza son terreno Aventajado y Techo.\n\nB La puerta es terreno Accesible y Pesado.\n\nC La escalera de incendios es terreno Aventajado, Insignificante y Expuesto.\n\nD La rejilla rota es terreno Bloqueado.\n\nE Los tres contenedores en la Fortaleza A son terreno bloqueado y pesado.\n\nF Las pequeñas almenas rotas en el borde del terreno aventajado de la Fortaleza A son terreno insignificante y expuesto.\n\nG El hueco en el terreno aventajado que conforma el 1er piso de la Fortaleza B es terreno accesible.\n\nH No puedes tener más de un agente amigo en el nivel superior más alto de la Fortaleza B a la vez, y ese agente debe colocarse en un extremo u otro de ese nivel, no puede colocarse en el medio (es decir, no se puede impedir que un agente enemigo se mueva a o se despliegue en el otro extremo). Si la peana de un agente es demasiado grande para ser colocada ahí, deberá mover o desplegarse lo más cerca posible del extremo deseado, y entonces déjalo a un lado y trátalo como si estuviera ahí. Ponlo lo más cerca de donde querías que estuviese en ese nivel cuando sea importante para comprobar otras reglas (zona de control, visibilidad, distancias, etc.) Esto tiene prioridad sobre las reglas de peanas y de solo poder estar en un lugar en el que se pueda colocar.\n\nTodas las demás partes de la misma son terreno Pesado.\n\nA efectos de zona de control, ignora la puerta y partes de este elemento de terreno inferiores a 2” de altura al determinar la visibilidad.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -469,14 +505,17 @@
         "heavy",
         "control-range",
         "visible"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "large-ruin",
-      "name": "Large Ruin",
+      "name": "Ruina Grande",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of\nintervening and targeting lines, treat this level as the same height as the first upper level of a\nstronghold terrain feature.\n\nB The upper rampart is Light terrain.\n\nC The door is Accessible and Heavy terrain.\n\nD The door’s viewpoint is Blocking terrain.\n\nE Unbroken windows are Barred and Heavy terrain.\n\nBarred terrain: Visibility cannot be drawn through this terrain unless the operative or what they’re\ntrying to see is horizontally within 1” of it.\n\nAll other parts of it are Heavy terrain.",
+      "text": "A El nivel superior de una ruina grande es terreno Aventajado y Techo. A efectos de interposición y líneas de tiro, se considera que este nivel tiene la misma altura que el primer nivel de un elemento de terreno fortaleza.\n\nB La almena superior es terreno Ligero.\n\nC La puerta es terreno Accesible y Pesado.\n\nD La mirilla de la puerta es terreno Bloqueado.\n\nE Las ventanas que no están rotas son terreno Pesado y con Barrotes.\n\n **Terreno con Barrotes:** No se puede trazar visibilidad a través de este terreno a menos que el agente o lo que intenta ver estén a 1\" o menos en horizontal de él.\n\nTodas las partes del mismo son terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -493,14 +532,17 @@
         "light",
         "visible",
         "intervening"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "small-ruin",
-      "name": "Small Ruin",
+      "name": "Ruina Pequeña",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Heavy terrain.",
+      "text": "Esto es terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -510,14 +552,17 @@
       ],
       "references": [
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "heavy-rubble",
-      "name": "Heavy Rubble",
+      "name": "Escombros Pesados",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Heavy terrain.",
+      "text": "Esto es terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -527,14 +572,17 @@
       ],
       "references": [
         "heavy"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "light-rubble",
-      "name": "Light Rubble",
+      "name": "Escombros Ligeros",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Light terrain.",
+      "text": "Esto es terreno Ligero.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -544,14 +592,17 @@
       ],
       "references": [
         "light"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "condensed-stronghold",
-      "name": "Condensed Stronghold",
+      "name": "Fortaleza Compacta",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e.,\nDevastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule (pg. 111) if\nthe target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.\n\nThe Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly\nwithin a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.",
+      "text": "Cuando un agente dispara con un arma con la regla de arma Área, Ráfaga y/o x” Devastadora (es decir, Devastadora con un requisito de distancia), también tiene la regla de arma Letal 5+ (pág. 111) si el blanco está completamente dentro de un elemento de terreno fortaleza y en el suelo de la zona de aniquilación o en una plataforma de tiro.\n\nLa regla Fortaleza compacta siempre se refiere a la ubicación del blanco, por lo que si el blanco principal está completamente dentro de una fortaleza, pero el blanco secundario no lo está, esta regla no se aplica a ese blanco secundario.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -562,14 +613,17 @@
       "references": [
         "stronghold",
         "condensed-environment"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
       "id": "garrisoned-stronghold",
-      "name": "Garrisoned Stronghold",
+      "name": "Fortaleza Guarnecida",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "When an operative wholly within a stronghold terrain feature is retaliating against an operative that\nisn’t, the defender resolves first (this takes precedence over the normal fight resolution order).",
+      "text": "Cuando un agente completamente dentro de un elemento de terreno fortaleza contraataca contra un agente que no lo está, el defensor se resuelve primero (esto tiene preferencia sobre el orden normal de resolución de combates).",
       "examples": [],
       "actions": [],
       "tags": [
@@ -578,6 +632,9 @@
       ],
       "references": [
         "stronghold"
+      ],
+      "packs": [
+        "Killzone: Volkus"
       ]
     },
     {
@@ -585,7 +642,7 @@
       "name": "Tomb World Wall",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a\nbreach point (pg 56).\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pg 54).",
+      "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla (pág. 55) o un punto de brecha (pág. 56).\n\nTerreno de muro:\n\nLos agentes no pueden moverse por encima o a través de terreno de muro (esto tiene preferencia sobre todas las demás reglas).\n\nLa visibilidad no puede determinarse por encima o a través de terreno de muro.\n\nAparte de hacia áreas de la zona de aniquilación (el centro de la zona de aniquilación, las zonas de descenso, etc), no se pueden medir distancias por encima o a través de terreno de muro; deben medirse rodeándolo por la ruta más corta posible.\n\nA efectos de la cobertura y el ofuscamiento, solo las esquinas y los finales de un terreno de muro pueden interponerse, a menos que el agente activo los haya superado (ver ejemplos en la pág. 54).",
       "examples": [
         "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Tomb World wall. This would make operative A\nmore than 3” from operative B.",
         "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
@@ -608,14 +665,17 @@
         "cover",
         "obscured",
         "distances"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
       "id": "breach-point",
-      "name": "Breach Point",
+      "name": "Punto de Brecha",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A breach point has two statuses: closed and open. It has two parts - an access point and a breach wall-\nand their terrain types depend upon the breach point’s status. Breach points begin the battle closed. To\nopen a breach point, operatives can perform the Breach mission action (at which point it cannot be\nclosed again).\n\nCLOSED\nWhile a breach point is closed:\n\nIts breach wall must be within its access point.\n\nThe access point and breach wall are Heavy and Wall terrain.\n\nOPEN\nWhile a breach point is open:\n\nIts breach wall must be removed from the killzone.\n\nIts access point is Accessible and Insignificant terrain.\n\nIts access point is also Exposed terrain. This means the walls either side of it must be used for\ncover and obscuring instead.",
+      "text": "Un punto de brecha tiene dos estados: cerrado y abierto. Tiene dos partes, un punto de acceso y un punto de brecha, y sus tipos de terreno dependen del estado del punto de brecha. Los puntos de brecha empiezan la batalla cerrados. Para abrir un punto de brecha, los agentes pueden realizar la acción de misión Brecha (tras la cual no podrán volver a cerrarlo).\n\n**CERRADA**\nMientras un punto de brecha está cerrado:\n\nSu brecha de muro debe estar en su punto de acceso.\n\nEl punto de acceso y la brecha de muro son terreno pesado y de muro.\n\n**ABIERTA**\nMientras un punto de brecha está abierto:\n\nSu brecha de muro debe retirarse de la zona de aniquilación.\n\nSu punto de acceso es terreno accesible e insignificante.\n\nSu punto de acceso es también terreno expuesto. Esto significa que los muros en cualquiera de sus lados deben ser usados para cobertura y ofuscación en su lugar.",
       "examples": [],
       "tags": [
         "terrain",
@@ -629,14 +689,17 @@
         "exposed",
         "cover",
         "obscured"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
       "id": "teleport-pad",
-      "name": "Teleport Pad",
+      "name": "Punto de teleportación",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A teleport pad is Exposed, Insignificant and Vantage. Only one operative can be on it at once, and while\nan operative is on it, that operative cannot touch the killzone floor (in other words, an operative can’t\nbe both on the teleport pad and on the killzone floor).\n\nFrom the start of the second turning point, whenever a friendly operative on a teleport pad performs\nthe Charge, Fall Back or Reposition action, you can teleport it. If you do, don’t move it. Instead,\nremove it from the killzone and set it back up on the other teleport pad. It must still fulfil all other\nrequirements of that action, otherwise it cannot teleport (e.g. if it’s the Charge action, the operative\nmust finish that action within control range of an enemy operative). If another operative is on the other\nteleport pad when an operative teleports, swap them around (if it’s an enemy operative, its controlling\nplayer sets it up). Equipment terrain features cannot be set up within 2\" of a teleport pad. Whenever an\noperative’s base is touching a teleport pad, if another operative is on that teleport pad, those operatives\nare treated as being within each other’s control range.",
+      "text": "Un punto de teleportación es terreno expuesto, insignificante y aventajado. No puede haber en él más de un agente a la vez, y mientras un agente esté en él, dicho agente no puede tocar el suelo de la zona de aniquilación (en otras palabras, un agente no puede estar a la vez en el punto de teleportación y en el suelo de la zona de aniquilación).\n\nDesde el inicio del segundo punto de inflexión, siempre que un agente amigo en un punto de teleportación realice la acción de Cargar, Retroceder o Reposicionarse, puedes teleportarlo. Si lo haces, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a colocarlo en el punto de teleportación. Debe seguir cumpliendo todos los demás requisitos para esa acción, o de lo contrario no podrá teleportarse (p. ej., si es la acción de Cargar, el agente deberá terminar esa acción en la zona de control de un agente enemigo). Los elementos de terreno de equipo no se pueden colocar a menos de 2\" de una plataforma de teletransporte. Si otro agente está en el otro punto de teleportación cuando un agente se teleporte, intercambialos (si se trata de un agente enemigo, su jugador controlador lo coloca).",
       "examples": [],
       "actions": [],
       "tags": [
@@ -651,13 +714,16 @@
         "killzone-floor",
         "control-range",
         "equipment-terrain-placement"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     },
     {
       "id": "sarcophagus-and-debris-light",
-      "name": "Sarcophagus and Debris (Light Terrain)",
+      "name": "Sarcófago y escombros (terreno ligero)",
       "aliases": [],
-      "category": "terrain_rule",
+      "category": "Esto es terreno Ligero.",
       "text": "This is Light terrain.",
       "examples": [],
       "actions": [],
@@ -667,7 +733,10 @@
       ],
       "references": [
         "light"
+      ],
+      "packs": [
+        "Killzone: Tomb World"
       ]
     }
   ]
-  
+}
