@@ -316,7 +316,7 @@
       "name": "Escotilla",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Una escotilla tiene dos estados: cerrada y abierta. Tiene dos partes: un punto de acceso y un portillo, y sus \ntipos de terreno dependen del estado del escotilla. Los agentes pueden realizar la acción de \nmisión Operar portillo para cambiar su estado. Las escotillas empiezan la batalla cerradas.\n\nComo el punto de acceso de una escotilla abierta es terreno Expuesto, deben usarse los muros a ambos lados para estar a cubierto un\n ofuscado en lugar del punto de acceso.\n\nCERRADA\nMientras una escotilla está cerrada:\n\nSu portillo debe estar totalmente cerrado.\n\nEl punto de acceso y el portillo son terrenos Pesados y Muro.\n\nABIERTO\nMientras una escotilla está abierta:\n\nSu portillo debe estar totalmente abierto (no puede estar entreabierto).\n\nEl punto de acceso es terreno Accesible, Insignificante y Expuesto.\n\nEl portillo es terreno Pesado y Muro, y el hueco debajo del mismo es terreno Bloqueado.\n\nSi algún agente impediría que el portillo se abriera o cerrara del todo, retíralos temporalmente\nde la zona de aniquilación, abre o cierra el portillo, y luego devuélvelos lo más cerca como puedas de su ubicación original. Si\nun agente está en la zona de control de un agente enemigo antes de que se abra un portillo, debe ser devuelto a \nella.",
+      "text": "Una escotilla tiene dos estados: cerrada y abierta. Tiene dos partes: un punto de acceso y un portillo, y sus tipos de terreno dependen del estado del escotilla. Los agentes pueden realizar la acción de misión Operar portillo para cambiar su estado. Las escotillas empiezan la batalla cerradas.\n\nComo el punto de acceso de una escotilla abierta es terreno Expuesto, deben usarse los muros a ambos lados para estar a cubierto un ofuscado en lugar del punto de acceso.\n\nCERRADA\nMientras una escotilla está cerrada:\n\nSu portillo debe estar totalmente cerrado.\n\nEl punto de acceso y el portillo son terrenos Pesados y Muro.\n\nABIERTO\n Mientras una escotilla está abierta:\n\nSu portillo debe estar totalmente abierto (no puede estar entreabierto).\n\nEl punto de acceso es terreno Accesible, Insignificante y Expuesto.\n\nEl portillo es terreno Pesado y Muro, y el hueco debajo del mismo es terreno Bloqueado.\n\nSi algún agente impediría que el portillo se abriera o cerrara del todo, retíralos temporalmente de la zona de aniquilación, abre o cierra el portillo, y luego devuélvelos lo más cerca como puedas de su ubicación original. Si un agente está en la zona de control de un agente enemigo antes de que se abra un portillo, debe ser devuelto a ella.",
       "examples": [],
       "actions": [
         {
@@ -380,7 +380,7 @@
       "name": "Pasarela",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Los suelos de pasarela son terreno Accesible y Aventajado.\n\nLos pilares de pasarela son terreno Pesado.\n\nLos elementos de terreno pasarela tienen tres tamaños: largas, medianas y cortas. Cuando están conectadas \n(es decir, sus suelos se tocan), se considera un único terreno.",
+      "text": "Los suelos de pasarela son terreno Accesible y Aventajado.\n\nLos pilares de pasarela son terreno Pesado.\n\nLos elementos de terreno pasarela tienen tres tamaños: largas, medianas y cortas. Cuando están conectadas (es decir, sus suelos se tocan), se considera un único terreno.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -402,7 +402,7 @@
       "name": "Fragua Ferratónica",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "El techo es terreno Accesible y Aventajado.\n\nEl reborde interior del techo es terreno Expuesto e Insignificante: ignora la leve diferencia\n de altura entre el área exterior e interior del techo.\n\nLas almenas del techo son terreno Ligero.\n\nTodas las demás partes de la Fragua Ferratónica son terreno Pesado.",
+      "text": "El techo es terreno Accesible y Aventajado.\n\nEl reborde interior del techo es terreno Expuesto e Insignificante: ignora la leve diferencia de altura entre el área exterior e interior del techo.\n\nLas almenas del techo son terreno Ligero.\n\nTodas las demás partes de la Fragua Ferratónica son terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -425,7 +425,7 @@
       "name": "Movimiento Restringido",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Ninguna parte de la peana de un agente puede tocar un área peligrosa.\n\nDepredadores al acecho detienen a los agentes que se acercan demasiado al océano, y las fuertes corrientes y aguas\n tóxicas les impiden sumergirse.",
+      "text": "Ninguna parte de la peana de un agente puede tocar un área peligrosa.\n\nDepredadores al acecho detienen a los agentes que se acercan demasiado al océano, y las fuertes corrientes y aguas tóxicas les impiden sumergirse.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -443,7 +443,7 @@
       "name": "Blancos Restringidos",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Al elegir un blanco válido para un agente en el suelo de la zona de aniquilación, un blanco en el suelo de la zona de aniquilación no es un blanco válido si hay 4\" de área peligrosa entre ellos.\n\nAl elegir un blanco válido para un agente en terreno Aventajado, un blanco en el suelo de la \nzona de aniquilación no es un blanco válido si media el contorno de una pasarela entre ellos. Lo mismo se aplica a la inversa\n (desde un agente en el suelo de la zona de aniquilación hasta un blanco en terreno Aventajado). Sin embargo, en ambos casos, \nignora el contorno de los elementos de terreno pasarelas en las que estén el agente activo o el blanco.\n\nOlas implacables, brumas marinas y gases industriales hacen más difícil a los agentes ver a sus blancos al otro lado de un \ntramo oceánico.\n\nEn ambos casos, usa líneas de objetivo para determinar si un área peligrosa o el contorno de una pasarela están\n entre ellos.\n\nLos blancos restringidos solo afectan cuando uno o más agentes implicados están en el suelo de la zona de aniquilación; \nsi están ambos en terreno Aventajado, no tiene efecto alguno.",
+      "text": "Al elegir un blanco válido para un agente en el suelo de la zona de aniquilación, un blanco en el suelo de la zona de aniquilación no es un blanco válido si hay 4\" de área peligrosa entre ellos.\n\nAl elegir un blanco válido para un agente en terreno Aventajado, un blanco en el suelo de la zona de aniquilación no es un blanco válido si media el contorno de una pasarela entre ellos. Lo mismo se aplica a la inversa (desde un agente en el suelo de la zona de aniquilación hasta un blanco en terreno Aventajado). Sin embargo, en ambos casos, ignora el contorno de los elementos de terreno pasarelas en las que estén el agente activo o el blanco.\n\nOlas implacables, brumas marinas y gases industriales hacen más difícil a los agentes ver a sus blancos al otro lado de un tramo oceánico.\n\nEn ambos casos, usa líneas de objetivo para determinar si un área peligrosa o el contorno de una pasarela están entre ellos.\n\nLos blancos restringidos solo afectan cuando uno o más agentes implicados están en el suelo de la zona de aniquilación; si están ambos en terreno Aventajado, no tiene efecto alguno.",
       "examples": [
         "Hay 4\" de área peligrosa entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez).",
         "Media el contorno de una pasarela entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez). Ten en cuenta que la pasarela izquierda se ignora al determinar esto, pues el agente A está sobre ella."
@@ -470,7 +470,7 @@
       "name": "Equipo",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Se puede desplegar Equipo en terreno Aventajado, en el suelo de la zona de aniquilación y a 2\" o menos de terreno Accesible\n (esto tiene preferencia sobre las restricciones habituales)",
+      "text": "Se puede desplegar Equipo en terreno Aventajado, en el suelo de la zona de aniquilación y a 2\" o menos de terreno Accesible (esto tiene preferencia sobre las restricciones habituales)",
       "examples": [],
       "actions": [],
       "tags": [
@@ -488,7 +488,7 @@
       "name": "Fortaleza",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Los niveles superiores de un elemento de terreno fortaleza son terreno Aventajado y Techo.\n\nB La puerta es terreno Accesible y Pesado.\n\nC La escalera de incendios es terreno Aventajado, Insignificante y Expuesto.\n\nD La rejilla rota es terreno Bloqueado.\n\nE Los tres contenedores en la Fortaleza A son terreno bloqueado y pesado.\n\nF Las pequeñas almenas rotas en el borde del terreno aventajado de la Fortaleza A son terreno insignificante y expuesto.\n\nG El hueco en el terreno aventajado que conforma el 1er piso de la Fortaleza B es terreno accesible.\n\nH No puedes tener más de un agente amigo en el nivel superior más alto de la Fortaleza B\na la vez, y ese agente debe colocarse en un extremo u otro de ese nivel, no puede colocarse en el medio (es decir, no se puede impedir que un agente enemigo se mueva a o se despliegue en el otro extremo). Si la peana de un agente es demasiado grande para ser colocada ahí, deberá mover o desplegarse lo más cerca posible del extremo deseado, y entonces déjalo a un lado y trátalo como si estuviera ahí. Ponlo lo más cerca de donde querías que estuviese en ese nivel cuando sea importante para comprobar otras reglas (zona de control, visibilidad, distancias, etc.) Esto tiene \nprioridad sobre las reglas de peanas y de solo poder estar en un lugar en el que se pueda colocar.\n\nTodas las demás partes de la misma son terreno Pesado.\n\nA efectos de zona de control, ignora la puerta y partes de este elemento de terreno inferiores a 2” de altura al determinar la visibilidad.",
+      "text": "A Los niveles superiores de un elemento de terreno fortaleza son terreno Aventajado y Techo.\n\nB La puerta es terreno Accesible y Pesado.\n\nC La escalera de incendios es terreno Aventajado, Insignificante y Expuesto.\n\nD La rejilla rota es terreno Bloqueado.\n\nE Los tres contenedores en la Fortaleza A son terreno bloqueado y pesado.\n\nF Las pequeñas almenas rotas en el borde del terreno aventajado de la Fortaleza A son terreno insignificante y expuesto.\n\nG El hueco en el terreno aventajado que conforma el 1er piso de la Fortaleza B es terreno accesible.\n\nH No puedes tener más de un agente amigo en el nivel superior más alto de la Fortaleza B a la vez, y ese agente debe colocarse en un extremo u otro de ese nivel, no puede colocarse en el medio (es decir, no se puede impedir que un agente enemigo se mueva a o se despliegue en el otro extremo). Si la peana de un agente es demasiado grande para ser colocada ahí, deberá mover o desplegarse lo más cerca posible del extremo deseado, y entonces déjalo a un lado y trátalo como si estuviera ahí. Ponlo lo más cerca de donde querías que estuviese en ese nivel cuando sea importante para comprobar otras reglas (zona de control, visibilidad, distancias, etc.) Esto tiene prioridad sobre las reglas de peanas y de solo poder estar en un lugar en el que se pueda colocar.\n\nTodas las demás partes de la misma son terreno Pesado.\n\nA efectos de zona de control, ignora la puerta y partes de este elemento de terreno inferiores a 2” de altura al determinar la visibilidad.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -512,10 +512,10 @@
     },
     {
       "id": "large-ruin",
-      "name": "Large Ruin",
+      "name": "Ruina Grande",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A The upper level of a large ruin terrain feature is Ceiling and Vantage terrain. For the purposes of\nintervening and targeting lines, treat this level as the same height as the first upper level of a\nstronghold terrain feature.\n\nB The upper rampart is Light terrain.\n\nC The door is Accessible and Heavy terrain.\n\nD The door’s viewpoint is Blocking terrain.\n\nE Unbroken windows are Barred and Heavy terrain.\n\nBarred terrain: Visibility cannot be drawn through this terrain unless the operative or what they’re\ntrying to see is horizontally within 1” of it.\n\nAll other parts of it are Heavy terrain.",
+      "text": "A El nivel superior de una ruina grande es terreno Aventajado y Techo. A efectos de interposición y líneas de tiro, se considera que este nivel tiene la misma altura que el primer nivel de un elemento de terreno fortaleza.\n\nB La almena superior es terreno Ligero.\n\nC La puerta es terreno Accesible y Pesado.\n\nD La mirilla de la puerta es terreno Bloqueado.\n\nE Las ventanas que no están rotas son terreno Pesado y con Barrotes.\n\n **Terreno con Barrotes:** No se puede trazar visibilidad a través de este terreno a menos que el agente o lo que intenta ver estén a 1\" o menos en horizontal de él.\n\nTodas las partes del mismo son terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
