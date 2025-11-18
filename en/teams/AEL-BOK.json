@@ -147,8 +147,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAX-SC",
@@ -346,8 +346,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBX-SP",
@@ -380,7 +380,7 @@
           "wepId": "AEL-BOK-HBX-TSK",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 1,
-          "wepName": "Triskele",
+          "wepName": "Triskele (throw)",
           "wepType": "R",
           "profiles": [
             {
@@ -486,7 +486,7 @@
           "wepId": "AEL-BOK-HBX-TSKM",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 5,
-          "wepName": "Triskele",
+          "wepName": "Triskele (slice)",
           "wepType": "M",
           "profiles": [
             {
@@ -530,8 +530,8 @@
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSX-SP",
@@ -673,6 +673,12 @@
           "opTypeId": "AEL-BOK-SSX",
           "abilityName": "Exarch",
           "description": "This operative can perform two Fight or two Shoot actions during its activation."
+        },
+        {
+          "abilityId": "AEL-BOK-SSX-A-M",
+          "opTypeId": "AEL-BOK-SSX",
+          "abilityName": "Mandiblasters",
+          "description": "Whenever this operative performs the **Fight** action, at the start of the Roll Attack Dice step, inflict 2 damage on the enemy operative in that sequence."
         }
       ]
     },
@@ -685,8 +691,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, DIRE AVENGER, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, DIRE AVENGER, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAW-SC",
@@ -749,8 +755,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBW-SP",
@@ -822,8 +828,8 @@
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
-      "basesize": 32,
+      "keywords": "BLADES OF KHAINE, AELDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSW-SP",
@@ -876,7 +882,14 @@
           ]
         }
       ],
-      "abilities": []
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-SSW-A-M",
+          "opTypeId": "AEL-BOK-SSW",
+          "abilityName": "Mandiblasters",
+          "description": "Whenever this operative performs the **Fight** action, at the start of the Roll Attack Dice step, inflict 2 damage on the enemy operative in that sequence."
+        }
+      ]
     }
   ]
 }

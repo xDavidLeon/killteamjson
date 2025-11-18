@@ -146,19 +146,19 @@
       "opTypeId": "AEL-BOK-DAX",
       "killteamId": "AEL-BOK",
       "seq": 0,
-      "opTypeName": "Dire Avenger Exarch",
+      "opTypeName": "Exarca Vengador Implacable",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, DIRE AVENGER, EXARCH",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, LÍDER, VENGADOR IMPLACABLE, EXARCA",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAX-SC",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 0,
-          "wepName": "Shuriken Catapult",
+          "wepName": "Catapulta shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -181,7 +181,7 @@
           "wepId": "AEL-BOK-DAX-SP",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 1,
-          "wepName": "Shuriken Pistol",
+          "wepName": "Pistola shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -208,7 +208,7 @@
           "wepId": "AEL-BOK-DAX-TSC",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 2,
-          "wepName": "Twin Shuriken Catapult",
+          "wepName": "Catapulta shuriken doble",
           "wepType": "R",
           "profiles": [
             {
@@ -234,7 +234,7 @@
           "wepId": "AEL-BOK-DAX-DS",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 3,
-          "wepName": "Diresword",
+          "wepName": "Espada implacable",
           "wepType": "M",
           "profiles": [
             {
@@ -261,7 +261,7 @@
           "wepId": "AEL-BOK-DAX-F",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 4,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -280,7 +280,7 @@
           "wepId": "AEL-BOK-DAX-GB",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 5,
-          "wepName": "Gun Butts",
+          "wepName": "Culatas",
           "wepType": "M",
           "profiles": [
             {
@@ -299,7 +299,7 @@
           "wepId": "AEL-BOK-DAX-PW",
           "opTypeId": "AEL-BOK-DAX",
           "seq": 6,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -324,20 +324,20 @@
         {
           "abilityId": "AEL-BOK-DAX-A-DT",
           "opTypeId": "AEL-BOK-DAX",
-          "abilityName": "Defence Tactics",
-          "description": "Whenever this operative contests an objective marker or one of your mission markers, or whenever it's shooting an enemy operative that does, this operative's weapons have the Balanced weapon rule."
+          "abilityName": "Tácticas Defensivas",
+          "description": "Siempre que este operativo dispute un marcador de objetivo o uno de tus marcadores de misión, o siempre que esté disparando a un operativo enemigo que lo haga, las armas de este operativo tienen la regla de arma Equilibrada."
         },
         {
           "abilityId": "AEL-BOK-DAX-A-EX",
           "opTypeId": "AEL-BOK-DAX",
-          "abilityName": "Exarch",
-          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+          "abilityName": "Exarca",
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación."
         },
         {
           "abilityId": "AEL-BOK-DAX-A-SS",
           "opTypeId": "AEL-BOK-DAX",
-          "abilityName": "Shimmershield",
-          "description": "Whenever an operative is shooting a friendly BLADES OF KHAINE operative that's visible to and within 2\" of this operative, ignore the Piercing weapon rule. This operative only has this rule if you select the shimmershield weapon option."
+          "abilityName": "Escudo iridiscente",
+          "description": "Siempre que un operativo esté disparando a un operativo aliado de FILOS DE KHAINE que sea visible y esté a menos de 2” de este operativo, ignora la regla de arma Perforante. Este operativo solo tiene esta regla si seleccionas la opción de arma Escudo iridiscente."
         }
       ]
     },
@@ -345,19 +345,19 @@
       "opTypeId": "AEL-BOK-HBX",
       "killteamId": "AEL-BOK",
       "seq": 1,
-      "opTypeName": "Howling Banshee Exarch",
+      "opTypeName": "Exarca Espectro Aullante",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, HOWLING BANSHEE, EXARCH",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, LÍDER, ESPECTRO AULLANTE, EXARCA",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBX-SP",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 0,
-          "wepName": "Shuriken Pistol",
+          "wepName": "Pistola shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -384,7 +384,7 @@
           "wepId": "AEL-BOK-HBX-TSK",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 1,
-          "wepName": "Triskele",
+          "wepName": "Triskelión (arrojadizo)",
           "wepType": "R",
           "profiles": [
             {
@@ -415,7 +415,7 @@
           "wepId": "AEL-BOK-HBX-EXE",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 2,
-          "wepName": "Executioner",
+          "wepName": "Ejecutora",
           "wepType": "M",
           "profiles": [
             {
@@ -439,7 +439,7 @@
           "wepId": "AEL-BOK-HBX-MS",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 3,
-          "wepName": "Mirrorswords",
+          "wepName": "Espadas gemelas",
           "wepType": "M",
           "profiles": [
             {
@@ -466,7 +466,7 @@
           "wepId": "AEL-BOK-HBX-PW",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 4,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -490,7 +490,7 @@
           "wepId": "AEL-BOK-HBX-TSKM",
           "opTypeId": "AEL-BOK-HBX",
           "seq": 5,
-          "wepName": "Triskele",
+          "wepName": "Triskelión (rebanador)",
           "wepType": "M",
           "profiles": [
             {
@@ -514,14 +514,14 @@
         {
           "abilityId": "AEL-BOK-HBX-A-BM",
           "opTypeId": "AEL-BOK-HBX",
-          "abilityName": "Banshee Mask",
-          "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
+          "abilityName": "Máscara de espectro",
+          "description": "Siempre que este operativo esté combatiendo, empeora en 1 el atributo Habilidad de Armas cuerpo a cuerpo del operativo enemigo. Esto no es acumulativo con estar herido."
         },
         {
           "abilityId": "AEL-BOK-HBX-A-EX",
           "opTypeId": "AEL-BOK-HBX",
-          "abilityName": "Exarch",
-          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+          "abilityName": "Exarca",
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación."
         }
       ]
     },
@@ -529,19 +529,19 @@
       "opTypeId": "AEL-BOK-SSX",
       "killteamId": "AEL-BOK",
       "seq": 2,
-      "opTypeName": "Striking Scorpion Exarch",
+      "opTypeName": "Exarca Escorpión Asesino",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
       "WOUNDS": 9,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, LEADER, STRIKING SCORPION, EXARCH",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, LÍDER, ESCORPIÓN ASESINO, EXARCA",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSX-SP",
           "opTypeId": "AEL-BOK-SSX",
           "seq": 0,
-          "wepName": "Shuriken Pistol",
+          "wepName": "Pistola shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -568,7 +568,7 @@
           "wepId": "AEL-BOK-SSX-TSP",
           "opTypeId": "AEL-BOK-SSX",
           "seq": 1,
-          "wepName": "Twin Shuriken Pistols",
+          "wepName": "Pistolas shuriken dobles",
           "wepType": "R",
           "profiles": [
             {
@@ -598,7 +598,7 @@
           "wepId": "AEL-BOK-SSX-BB",
           "opTypeId": "AEL-BOK-SSX",
           "seq": 2,
-          "wepName": "Biting Blade",
+          "wepName": "Sable mordedor",
           "wepType": "M",
           "profiles": [
             {
@@ -621,7 +621,7 @@
           "wepId": "AEL-BOK-SSX-TCS",
           "opTypeId": "AEL-BOK-SSX",
           "seq": 3,
-          "wepName": "Twin Chainswords",
+          "wepName": "Espadas sierras dobles",
           "wepType": "M",
           "profiles": [
             {
@@ -647,7 +647,7 @@
           "wepId": "AEL-BOK-SSX-SCC",
           "opTypeId": "AEL-BOK-SSX",
           "seq": 4,
-          "wepName": "Scorpion's Claw and Chainsword",
+          "wepName": "Pinza de escorpión y espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -675,8 +675,14 @@
         {
           "abilityId": "AEL-BOK-SSX-A-EX",
           "opTypeId": "AEL-BOK-SSX",
-          "abilityName": "Exarch",
-          "description": "This operative can perform two Fight or two Shoot actions during its activation."
+          "abilityName": "Exarca",
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación."
+        },
+        {
+          "abilityId": "AEL-BOK-SSX-A-M",
+          "opTypeId": "AEL-BOK-SSX",
+          "abilityName": "Mandiblásteres",
+          "description": "Siempre que este operativo realice la acción de **Combatir**, al inicio del paso de Tirada de Dados de Ataque, inflige 2 de daño al operativo enemigo en esa secuencia."
         }
       ]
     },
@@ -684,19 +690,19 @@
       "opTypeId": "AEL-BOK-DAW",
       "killteamId": "AEL-BOK",
       "seq": 3,
-      "opTypeName": "Dire Avenger Warrior",
+      "opTypeName": "Combatiente Vengador Implacable",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, DIRE AVENGER, WARRIOR",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, VENGADOR IMPLACABLE, COMBATIENTE",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-DAW-SC",
           "opTypeId": "AEL-BOK-DAW",
           "seq": 0,
-          "wepName": "Shuriken Catapult",
+          "wepName": "Catapulta shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -719,7 +725,7 @@
           "wepId": "AEL-BOK-DAW-F",
           "opTypeId": "AEL-BOK-DAW",
           "seq": 1,
-          "wepName": "Fists",
+          "wepName": "Puños",
           "wepType": "M",
           "profiles": [
             {
@@ -739,8 +745,8 @@
         {
           "abilityId": "AEL-BOK-DAW-A-DT",
           "opTypeId": "AEL-BOK-DAW",
-          "abilityName": "Defence Tactics",
-          "description": "Whenever this operative contests an objective marker or one of your mission markers, or whenever it's shooting an enemy operative that does, this operative's weapons have the Balanced weapon rule."
+          "abilityName": "Tácticas Defensivas",
+          "description": "Siempre que este operativo dispute un marcador de objetivo o uno de tus marcadores de misión, o siempre que esté disparando a un operativo enemigo que lo haga, las armas de este operativo tienen la regla de arma Equilibrada."
         }
       ]
     },
@@ -748,19 +754,19 @@
       "opTypeId": "AEL-BOK-HBW",
       "killteamId": "AEL-BOK",
       "seq": 4,
-      "opTypeName": "Howling Banshee Warrior",
+      "opTypeName": "Combatiente Espectro Aullante",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, HOWLING BANSHEE, WARRIOR",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, ESPECTRO AULLANTE, COMBATIENTE",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-HBW-SP",
           "opTypeId": "AEL-BOK-HBW",
           "seq": 0,
-          "wepName": "Shuriken Pistol",
+          "wepName": "Pistola shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -787,7 +793,7 @@
           "wepId": "AEL-BOK-HBW-PW",
           "opTypeId": "AEL-BOK-HBW",
           "seq": 1,
-          "wepName": "Power Weapon",
+          "wepName": "Arma de energía",
           "wepType": "M",
           "profiles": [
             {
@@ -812,8 +818,8 @@
         {
           "abilityId": "AEL-BOK-HBW-A-BM",
           "opTypeId": "AEL-BOK-HBW",
-          "abilityName": "Banshee Mask",
-          "description": "Whenever this operative is fighting, worsen the Hit stat of the enemy operative's melee weapons by 1. This isn't cumulative with being injured."
+          "abilityName": "Máscara de espectro",
+          "description": "Siempre que este operativo esté combatiendo, empeora en 1 el atributo Habilidad de Armas cuerpo a cuerpo del operativo enemigo. Esto no es acumulativo con estar herido."
         }
       ]
     },
@@ -821,19 +827,19 @@
       "opTypeId": "AEL-BOK-SSW",
       "killteamId": "AEL-BOK",
       "seq": 5,
-      "opTypeName": "Striking Scorpion Warrior",
+      "opTypeName": "Combatiente Escorpión Asesino",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "4+",
       "WOUNDS": 8,
-      "keywords": "BLADES OF KHAINE, ALEDARI, ASURYANI, STRIKING SCORPION, WARRIOR",
-      "basesize": 32,
+      "keywords": "FILOS DE KHAINE, AELDARI, ASURYANI, ESCORPIÓN ASESINO, COMBATIENTE",
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-BOK-SSW-SP",
           "opTypeId": "AEL-BOK-SSW",
           "seq": 0,
-          "wepName": "Shuriken Pistol",
+          "wepName": "Pistola shuriken",
           "wepType": "R",
           "profiles": [
             {
@@ -860,7 +866,7 @@
           "wepId": "AEL-BOK-SSW-CS",
           "opTypeId": "AEL-BOK-SSW",
           "seq": 1,
-          "wepName": "Chainsword",
+          "wepName": "Espada sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -880,7 +886,14 @@
           ]
         }
       ],
-      "abilities": []
+      "abilities": [
+        {
+          "abilityId": "AEL-BOK-SSW-A-M",
+          "opTypeId": "AEL-BOK-SSW",
+          "abilityName": "Mandiblásteres",
+          "description": "Siempre que este operativo realice la acción de **Combatir**, al inicio del paso de Tirada de Dados de Ataque, inflige 2 de daño al operativo enemigo en esa secuencia."
+        }
+      ]
     }
   ]
 }
