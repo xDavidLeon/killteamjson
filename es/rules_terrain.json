@@ -539,10 +539,10 @@
     },
     {
       "id": "small-ruin",
-      "name": "Small Ruin",
+      "name": "Ruina Pequeña",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Heavy terrain.",
+      "text": "Esto es terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -559,10 +559,10 @@
     },
     {
       "id": "heavy-rubble",
-      "name": "Heavy Rubble",
+      "name": "Escombros Pesados",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Heavy terrain.",
+      "text": "Esto es terreno Pesado.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -579,10 +579,10 @@
     },
     {
       "id": "light-rubble",
-      "name": "Light Rubble",
+      "name": "Escombros Ligeros",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "This is Light terrain.",
+      "text": "Esto es terreno Ligero.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -599,10 +599,10 @@
     },
     {
       "id": "condensed-stronghold",
-      "name": "Condensed Stronghold",
+      "name": "Fortaleza Compacta",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Whenever an operative is shooting with a weapon that has the Blast, Torrent and/or x” Devastating (i.e.,\nDevastating with a distance requirement) weapon rule, it also has the Lethal 5+ weapon rule (pg. 111) if\nthe target is wholly within a stronghold terrain feature and on the killzone floor or a fire step.\n\nThe Condensed Stronghold rule always relates to the target’s location, so if the primary target is wholly\nwithin a stronghold, but the secondary target isn’t, then this rule doesn’t apply to that secondary target.",
+      "text": "Cuando un agente dispara con un arma con la regla de arma Área, Ráfaga y/o x” Devastadora (es decir, Devastadora con un requisito de distancia), también tiene la regla de arma Letal 5+ (pág. 111) si el blanco está completamente dentro de un elemento de terreno fortaleza y en el suelo de la zona de aniquilación o en una plataforma de tiro.\n\nLa regla Fortaleza compacta siempre se refiere a la ubicación del blanco, por lo que si el blanco principal está completamente dentro de una fortaleza, pero el blanco secundario no lo está, esta regla no se aplica a ese blanco secundario.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -620,10 +620,10 @@
     },
     {
       "id": "garrisoned-stronghold",
-      "name": "Garrisoned Stronghold",
+      "name": "Fortaleza Guarnecida",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "When an operative wholly within a stronghold terrain feature is retaliating against an operative that\nisn’t, the defender resolves first (this takes precedence over the normal fight resolution order).",
+      "text": "Cuando un agente completamente dentro de un elemento de terreno fortaleza contraataca contra un agente que no lo está, el defensor se resuelve primero (esto tiene preferencia sobre el orden normal de resolución de combates).",
       "examples": [],
       "actions": [],
       "tags": [
@@ -642,7 +642,7 @@
       "name": "Tomb World Wall",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a\nbreach point (pg 56).\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pg 54).",
+      "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla (pág. 55) o un punto de brecha (pág. 56).\n\nTerreno de muro:\n\nLos agentes no pueden moverse por encima o a través de terreno de muro (esto tiene preferencia sobre todas las demás reglas).\n\nLa visibilidad no puede determinarse por encima o a través de terreno de muro.\n\nAparte de hacia áreas de la zona de aniquilación (el centro de la zona de aniquilación, las zonas de descenso, etc), no se pueden medir distancias por encima o a través de terreno de muro; deben medirse rodeándolo por la ruta más corta posible.\n\nA efectos de la cobertura y el ofuscamiento, solo las esquinas y los finales de un terreno de muro pueden interponerse, a menos que el agente activo los haya superado (ver ejemplos en la pág. 54).",
       "examples": [
         "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Tomb World wall. This would make operative A\nmore than 3” from operative B.",
         "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
@@ -675,7 +675,7 @@
       "name": "Breach Point",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A breach point has two statuses: closed and open. It has two parts - an access point and a breach wall-\nand their terrain types depend upon the breach point’s status. Breach points begin the battle closed. To\nopen a breach point, operatives can perform the Breach mission action (at which point it cannot be\nclosed again).\n\nCLOSED\nWhile a breach point is closed:\n\nIts breach wall must be within its access point.\n\nThe access point and breach wall are Heavy and Wall terrain.\n\nOPEN\nWhile a breach point is open:\n\nIts breach wall must be removed from the killzone.\n\nIts access point is Accessible and Insignificant terrain.\n\nIts access point is also Exposed terrain. This means the walls either side of it must be used for\ncover and obscuring instead.",
+      "text": "Un punto de brecha tiene dos estados: cerrado y abierto. Tiene dos partes, un punto de acceso y un punto de brecha, y sus tipos de terreno dependen del estado del punto de brecha. Los puntos de brecha empiezan la batalla cerrados. Para abrir un punto de brecha, los agentes pueden realizar la acción de misión Brecha (tras la cual no podrán volver a cerrarlo).\n\nCERRADA\nMientras un punto de brecha está cerrado:\n\nSu brecha de muro debe estar en su punto de acceso.\n\nEl punto de acceso y la brecha de muro son terreno pesado y de muro.\n\nABIERTA\nMientras un punto de brecha está abierto:\n\nSu brecha de muro debe retirarse de la zona de aniquilación.\n\nSu punto de acceso es terreno accesible e insignificante.\n\nSu punto de acceso es también terreno expuesto. Esto significa que los muros en cualquiera de sus lados deben ser usados para cobertura y ofuscación en su lugar.",
       "examples": [],
       "tags": [
         "terrain",
@@ -696,10 +696,10 @@
     },
     {
       "id": "teleport-pad",
-      "name": "Teleport Pad",
+      "name": "Punto de teleportación",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A teleport pad is Exposed, Insignificant and Vantage. Only one operative can be on it at once, and while\nan operative is on it, that operative cannot touch the killzone floor (in other words, an operative can’t\nbe both on the teleport pad and on the killzone floor).\n\nFrom the start of the second turning point, whenever a friendly operative on a teleport pad performs\nthe Charge, Fall Back or Reposition action, you can teleport it. If you do, don’t move it. Instead,\nremove it from the killzone and set it back up on the other teleport pad. It must still fulfil all other\nrequirements of that action, otherwise it cannot teleport (e.g. if it’s the Charge action, the operative\nmust finish that action within control range of an enemy operative). If another operative is on the other\nteleport pad when an operative teleports, swap them around (if it’s an enemy operative, its controlling\nplayer sets it up). Equipment terrain features cannot be set up within 2\" of a teleport pad. Whenever an\noperative’s base is touching a teleport pad, if another operative is on that teleport pad, those operatives\nare treated as being within each other’s control range.",
+      "text": "Un punto de teleportación es terreno expuesto, insignificante y aventajado. No puede haber en él más de un agente a la vez, y mientras un agente esté en él, dicho agente no puede tocar el suelo de la zona de aniquilación (en otras palabras, un agente no puede estar a la vez en el punto de teleportación y en el suelo de la zona de aniquilación).\n\nDesde el inicio del segundo punto de inflexión, siempre que un agente amigo en un punto de teleportación realice la acción de Cargar, Retroceder o Reposicionarse, puedes teleportarlo. Si lo haces, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a colocarlo en el punto de teleportación. Debe seguir cumpliendo todos los demás requisitos para esa acción, o de lo contrario no podrá teleportarse (p. ej., si es la acción de Cargar, el agente deberá terminar esa acción en la zona de control de un agente enemigo). Los elementos de terreno de equipo no se pueden colocar a menos de 2\" de una plataforma de teletransporte. Si otro agente está en el otro punto de teleportación cuando un agente se teleporte, intercambialos (si se trata de un agente enemigo, su jugador controlador lo coloca).",
       "examples": [],
       "actions": [],
       "tags": [
@@ -721,9 +721,9 @@
     },
     {
       "id": "sarcophagus-and-debris-light",
-      "name": "Sarcophagus and Debris (Light Terrain)",
+      "name": "Sarcófago y escombros (terreno ligero)",
       "aliases": [],
-      "category": "terrain_rule",
+      "category": "Esto es terreno Ligero.",
       "text": "This is Light terrain.",
       "examples": [],
       "actions": [],
