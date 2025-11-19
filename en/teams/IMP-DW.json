@@ -706,6 +706,12 @@
           "opTypeId": "IMP-DW-DEM",
           "abilityName": "Aggressive Force",
           "description": "Whenever this operative is fighting or retaliating, Normal and Critical Dmg of 3 or more inflicts 1 less damage on it. This isn't cumulative with the Shield that Slays strategy ploy."
+        },
+        {
+          "abilityId": "IMP-DW-DEM-BA",
+          "opTypeId": "IMP-DW-DEM",
+          "abilityName": "Brutal Assault",
+          "description": "Whenever this operative is fighting, its Heavy thunder hammer has the Brutal weapon rule. Whenever this operative performs the Charge action, its Heavy thunder hammer has the Ceaseless weapon rule until the end of the activation/counteraction."
         }
       ]
     },
