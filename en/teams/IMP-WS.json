@@ -1,0 +1,884 @@
+{
+    "factionId": "IMP",
+    "killteamId": "IMP-WS",
+    "version": "November '25",
+    "classified": true,
+    "season": "Tomb world",
+    "file": "https://assets.warhammer-community.com/eng_19-11_kt_wolf_scouts_online_rules-zbsk6pvjgr-j3kzye8dxf.pdf",
+    "killteamName": "Wolf Scouts",
+    "description": "Wolf Scout kill teams are their Great Company’s most feared and accomplished hunters, roving far ahead of the Space Wolves’ strike forces on solitary, unsupported missions. They cause death and anarchy behind enemy lines through assassination, sabotage and more besides, often while cloaked in strange mists or furious storms.",
+    "composition": "A WOLF SCOUT Killteam is composed of:\n- 1 WOLF SCOUT FENRISIAN WOLF\n- 5 WOLF SCOUT operatives selected from the following list:\n  - PACK LEADER\n  - FANGBEARER\n  - FROSTEYE\n  - GUNNER\n  - TRAPMASTER\n  - RUNE PRIEST SKJALD\n  - HUNTER\n\nOther than HUNTER operatives, your kill team can only include each operative on this list once.",
+    "archetypes": [
+        "Recon",
+        "Seek & Destroy"
+    ],
+    "ploys": [
+        {
+            "ployId": "IMP-WS-S-CBTS",
+            "killteamId": "IMP-WS",
+            "ployType": "S",
+            "seq": 1,
+            "ployName": "Cloaked by the Storm",
+            "description": "Whenever an operative is shooting a friendly WOLF SCOUT operative that’s within your STORM, you can re-roll one of your defence dice."
+        },
+        {
+            "ployId": "IMP-WS-S-TW",
+            "killteamId": "IMP-WS",
+            "ployType": "S",
+            "seq": 2,
+            "ployName": "Tempestuous Wrath",
+            "description": "Whenever a friendly WOLF SCOUT operative is fighting or retaliating, if it’s within your STORM or was within your STORM at the start of the activation, its melee weapons have the Balanced weapon rule."
+        },
+        {
+            "ployId": "IMP-WS-S-SB",
+            "killteamId": "IMP-WS",
+            "ployType": "S",
+            "seq": 3,
+            "ployName": "Storm's Bite",
+            "description": "Whenever an enemy operative is within your STORM, subtract 1 from the Atk stat of its melee weapons (to a minimum of 3)."
+        },
+        {
+            "ployId": "IMP-WS-S-SF",
+            "killteamId": "IMP-WS",
+            "ployType": "S",
+            "seq": 4,
+            "ployName": "Savage Fighters",
+            "description": "Whenever a friendly WOLF SCOUT operative finishes fighting or retaliating, if it wasn’t incapacitated, you can inflict D3+1 damage on the enemy operative in that sequence."
+        },
+        {
+            "ployId": "IMP-WS-T-AS",
+            "killteamId": "IMP-WS",
+            "ployType": "T",
+            "seq": 5,
+            "ployName": "Acute Senses",
+            "description": "Use this firefight ploy when a friendly WOLF SCOUT operative performs the Shoot action and you’re selecting a valid target. Until the end of that action, that friendly operative’s ranged weapons have the Range 6\" and Seek Light weapon rules and enemy operatives cannot be obscured."
+        },
+        {
+            "ployId": "IMP-WS-T-CA",
+            "killteamId": "IMP-WS",
+            "ployType": "T",
+            "seq": 6,
+            "ployName": "Counterattack",
+            "description": "Use this firefight ploy at the end of an enemy operative’s activation, or after an enemy operative performs the Fight action. One friendly WOLF SCOUT operative can immediately perform a free Fight action, but you cannot select any other enemy operative to fight against during that action."
+        },
+        {
+            "ployId": "IMP-WS-T-TBL",
+            "killteamId": "IMP-WS",
+            "ployType": "T",
+            "seq": 7,
+            "ployName": "Touched by Lokyar",
+            "description": "Use this firefight ploy after rolling your attack dice for a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), if it’s fighting more than 5\" from other friendly operatives. You can re-roll any of your attack dice."
+        },
+        {
+            "ployId": "IMP-WS-T-TP",
+            "killteamId": "IMP-WS",
+            "ployType": "T",
+            "seq": 8,
+            "ployName": "Transhuman Physiology",
+            "description": "Use this firefight ploy when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
+        }
+    ],
+    "equipments": [
+        {
+            "eqId": "IMP-WS-FW",
+            "killteamId": "IMP-WS",
+            "seq": 1,
+            "eqName": "Frost Weapons",
+            "description": "Friendly WOLF SCOUT operatives’ combat blades have the Lethal 5+ weapon rule, and one friendly WOLF SCOUT PACK LEADER operative’s power weapon has the Lethal 4+ weapon rule (if any)."
+        },
+        {
+            "eqId": "IMP-WS-RC",
+            "killteamId": "IMP-WS",
+            "seq": 2,
+            "eqName": "Runic Charms",
+            "description": "Once per turning point, when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
+        },
+        {
+            "eqId": "IMP-WS-WN",
+            "killteamId": "IMP-WS",
+            "seq": 3,
+            "eqName": "Wolfteeth Necklaces",
+            "description": "Once per turning point, when a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
+        },
+        {
+            "eqId": "IMP-WS-TT",
+            "killteamId": "IMP-WS",
+            "seq": 4,
+            "eqName": "Talismanic Trophies",
+            "description": "Whenever a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) is fighting or retaliating, in the Resolve Attack Dice step, you can subtract 1 from the damage inflicted on it from one success."
+        }
+    ],
+    "teamAbilities": [
+        {
+            "abilityId": "IMP-WS-TA-ES",
+            "abilityName": "Elemental Storm",
+            "description": "STRATEGIC GAMBIT. Remove your Storm marker from the killzone (if any), then place it in the killzone. Whenever an operative is within 6\" horizontally of your Storm marker, it’s within your STORM.\n\nEach friendly WOLF SCOUT operative can perform the Charge action while it has a Conceal order if it starts and/or ends that action within your STORM."
+        },
+        {
+            "abilityId": "IMP-WS-TA-HA",
+            "abilityName": "Hunting Astartes",
+            "description": "During each friendly WOLF SCOUT operative’s activation, it can perform either two Shoot actions or two Fight actions. If it’s two Shoot actions:\n- 1 additional AP must be spent for the second action if both actions are using a plasma gun or plasma pistol.\n- You cannot select two PSYCHIC ranged weapons.\n\nEach friendly WOLF SCOUT operative can counteract regardless of its order. Whenever it does so within your STORM, you can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point)."
+        }
+    ],
+    "opTypes": [
+        {
+            "opTypeId": "IMP-WS-PL",
+            "killteamId": "IMP-WS",
+            "seq": 1,
+            "opTypeName": "Wolf Scout Pack Leader",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 14,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PACK LEADER",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-PL-PP",
+                    "opTypeId": "IMP-WS-PL",
+                    "seq": 1,
+                    "wepName": "Plasma Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-PL-PP-01",
+                            "wepId": "IMP-WS-PL-PP",
+                            "seq": 1,
+                            "profileName": "Standard",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-WS-PL-PP-02",
+                            "wepId": "IMP-WS-PL-PP",
+                            "seq": 2,
+                            "profileName": "Supercharge",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-HOT"
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-PL-PW",
+                    "opTypeId": "IMP-WS-PL",
+                    "seq": 2,
+                    "wepName": "Power Weapon",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-PL-PW-01",
+                            "wepId": "IMP-WS-PL-PW",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-PL-LG",
+                    "opTypeId": "IMP-WS-PL",
+                    "abilityName": "Lupine Guile",
+                    "description": "Once per battle, after rolling off to decide initiative, if this operative is in the killzone, you can re-roll your dice."
+                },
+                {
+                    "abilityId": "IMP-WS-PL-GV",
+                    "opTypeId": "IMP-WS-PL",
+                    "abilityName": "Grizzled Veteran",
+                    "description": "The first time this operative would be incapacitated during the battle, it’s not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action. All remaining attack dice are discarded (including yours if this operative is fighting or retaliating)."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-FB",
+            "killteamId": "IMP-WS",
+            "seq": 2,
+            "opTypeName": "Wolf Scout Fangbearer",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FANGBEARER",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-FB-ABP",
+                    "opTypeId": "IMP-WS-FB",
+                    "seq": 1,
+                    "wepName": "Absolvor Bolt Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-FB-ABP-01",
+                            "wepId": "IMP-WS-FB-ABP",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 9
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-FB-CB",
+                    "opTypeId": "IMP-WS-FB",
+                    "seq": 2,
+                    "wepName": "Combat Blade",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-FB-CB-01",
+                            "wepId": "IMP-WS-FB-CB",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-FB-SC",
+                    "opTypeId": "IMP-WS-FB",
+                    "abilityName": "Spiritual Chirurgy",
+                    "description": "You can ignore any changes to the stats of friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) from being injured (including their weapons’ stats). Friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) are not affected by enemy operatives’ Shock and Stun weapon rules and you can ignore any changes to their APL stat. Note that friendly operatives have these rules if you select this operative for the battle (even if it’s incapacitated later)."
+                },
+                {
+                    "abilityId": "IMP-WS-FB-HB",
+                    "opTypeId": "IMP-WS-FB",
+                    "abilityName": "Healing Balms",
+                    "description": "1AP. Select one friendly WOLF SCOUT operative within this operative’s control range to regain up to D3+3 lost wounds. This operative cannot perform this action while within control range of an enemy operative."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-FE",
+            "killteamId": "IMP-WS",
+            "seq": 3,
+            "opTypeName": "Wolf Scout Frosteye",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FROSTEYE",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-FE-IBC",
+                    "opTypeId": "IMP-WS-FE",
+                    "seq": 1,
+                    "wepName": "Instigator Bolt Carbine",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-FE-IBC-01",
+                            "wepId": "IMP-WS-FE-IBC",
+                            "seq": 1,
+                            "profileName": "Heavy",
+                            "ATK": "4",
+                            "HIT": "2+",
+                            "DMG": "3/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-HEAVY",
+                                    "details": "Dash only"
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-SILENT"
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-WS-FE-IBC-02",
+                            "wepId": "IMP-WS-FE-IBC",
+                            "seq": 2,
+                            "profileName": "Mobile",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-SILENT"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-FE-CB",
+                    "opTypeId": "IMP-WS-FE",
+                    "seq": 2,
+                    "wepName": "Combat Blade",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-FE-CB-01",
+                            "wepId": "IMP-WS-FE-CB",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-FE-SVE",
+                    "opTypeId": "IMP-WS-FE",
+                    "abilityName": "Storm-veiled Execution",
+                    "description": "Whenever this operative is within your STORM:\n- It can perform the Guard action regardless of the killzone (see close quarters rules, Kill Team Core Book).\n- It can perform the Guard action while it has a Conceal order, but if it does, it cannot perform more than one Shoot action for the rest of the turning point (i.e. it cannot Shoot both during the interruption and during counteract)."
+                },
+                {
+                    "abilityId": "IMP-WS-FE-HS",
+                    "opTypeId": "IMP-WS-FE",
+                    "abilityName": "Hunter's Senses",
+                    "description": "1AP. Select one of the following rules for all profiles of this operative’s instigator bolt carbine to have until the start of its next activation:\n- Severe.\n- Saturate, and whenever this operative is shooting with that weapon, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-GNR",
+            "killteamId": "IMP-WS",
+            "seq": 4,
+            "opTypeName": "Wolf Scout Gunner",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, GUNNER",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-GNR-PG",
+                    "opTypeId": "IMP-WS-GNR",
+                    "seq": 1,
+                    "wepName": "Plasma Gun",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-GNR-PG-01",
+                            "wepId": "IMP-WS-GNR-PG",
+                            "seq": 1,
+                            "profileName": "Standard",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-WS-GNR-PG-02",
+                            "wepId": "IMP-WS-GNR-PG",
+                            "seq": 2,
+                            "profileName": "Supercharge",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "5/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-HOT"
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-GNR-CB",
+                    "opTypeId": "IMP-WS-GNR",
+                    "seq": 2,
+                    "wepName": "Combat Blade",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-GNR-CB-01",
+                            "wepId": "IMP-WS-GNR-CB",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-GNR-TF",
+                    "opTypeId": "IMP-WS-GNR",
+                    "abilityName": "Tempest's Fury",
+                    "description": "Whenever this operative is within your STORM:\n- All profiles of its plasma gun have the Punishing weapon rule.\n- Its plasma gun (supercharge) doesn’t have the Hot weapon rule."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-HNT",
+            "killteamId": "IMP-WS",
+            "seq": 5,
+            "opTypeName": "Wolf Scout Hunter",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, HUNTER",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-HNT-PP",
+                    "opTypeId": "IMP-WS-HNT",
+                    "seq": 1,
+                    "wepName": "Plasma Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-HNT-PP-01",
+                            "wepId": "IMP-WS-HNT-PP",
+                            "seq": 1,
+                            "profileName": "Standard",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-WS-HNT-PP-02",
+                            "wepId": "IMP-WS-HNT-PP",
+                            "seq": 2,
+                            "profileName": "Supercharge",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-HOT"
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-HNT-CB",
+                    "opTypeId": "IMP-WS-HNT",
+                    "seq": 2,
+                    "wepName": "Combat Blade",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-HNT-CB-01",
+                            "wepId": "IMP-WS-HNT-CB",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-HNT-FT",
+                    "opTypeId": "IMP-WS-HNT",
+                    "abilityName": "Fierce Temperament",
+                    "description": "Whenever this operative is within your STORM, its weapons have the Severe weapon rule."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-RPS",
+            "killteamId": "IMP-WS",
+            "seq": 6,
+            "opTypeName": "Wolf Scout Rune Priest Skjald",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PSYKER, RUNE PRIEST SKJALD",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-RPS-BP",
+                    "opTypeId": "IMP-WS-RPS",
+                    "seq": 1,
+                    "wepName": "Bolt Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-RPS-BP-01",
+                            "wepId": "IMP-WS-RPS-BP",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-RPS-JWW",
+                    "opTypeId": "IMP-WS-RPS",
+                    "seq": 2,
+                    "wepName": "Jaws of the World Wolf",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-RPS-JWW-01",
+                            "wepId": "IMP-WS-RPS-JWW",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "3/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-PSYCHIC"
+                                },
+                                {
+                                    "id": "WR-UNIV-BLAST",
+                                    "number": 2
+                                },
+                                {
+                                    "id": "WR-UNIV-SEVERE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-RPS-TC",
+                    "opTypeId": "IMP-WS-RPS",
+                    "seq": 3,
+                    "wepName": "Thunderclap",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-RPS-TC-01",
+                            "wepId": "IMP-WS-RPS-TC",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "2+",
+                            "DMG": "2/2",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-PSYCHIC"
+                                },
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 6
+                                },
+                                {
+                                    "id": "WR-UNIV-SATURATE"
+                                },
+                                {
+                                    "id": "WR-UNIV-SEEK-LIGHT"
+                                },
+                                {
+                                    "id": "WR-UNIV-STUN"
+                                },
+                                {
+                                    "id": "WR-UNIV-TORRENT",
+                                    "number": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-RPS-RS",
+                    "opTypeId": "IMP-WS-RPS",
+                    "seq": 4,
+                    "wepName": "Runic Stave",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-RPS-RS-01",
+                            "wepId": "IMP-WS-RPS-RS",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-PSYCHIC"
+                                },
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-RPS-CTR",
+                    "opTypeId": "IMP-WS-RPS",
+                    "abilityName": "Cast the Runes",
+                    "description": "After selecting this operative, before the battle, roll three D6 and put them to one side. For each result of 1-4, you can use the Command Re-roll firefight ploy for 0CP once during the turning point that matches the result. For each result of 5-6, you gain 1CP. For example, if you roll 2, 2 and 5, you gain 1CP and twice during the second turning point you can use Command Re-roll for 0CP."
+                },
+                {
+                    "abilityId": "IMP-WS-RPS-CTS",
+                    "opTypeId": "IMP-WS-RPS",
+                    "abilityName": "Call the Storm",
+                    "description": "1AP. PSYCHIC. Remove your Storm marker from the killzone (if any), then place it in the killzone.\n\nPSYCHIC. Alternatively, instead of resolving the above effect, select one friendly WOLF SCOUT operative. Until the start of this operative’s next activation, until it’s incapacitated or until it performs this action again (whichever comes first), whenever that friendly operative is within your STORM and more than 3\" from the active operative, it’s obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-TM",
+            "killteamId": "IMP-WS",
+            "seq": 7,
+            "opTypeName": "Wolf Scout Trapmaster",
+            "MOVE": "7\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 13,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, TRAPMASTER",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-TM-PP",
+                    "opTypeId": "IMP-WS-TM",
+                    "seq": 1,
+                    "wepName": "Plasma Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-TM-PP-01",
+                            "wepId": "IMP-WS-TM-PP",
+                            "seq": 1,
+                            "profileName": "Standard",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-WS-TM-PP-02",
+                            "wepId": "IMP-WS-TM-PP",
+                            "seq": 2,
+                            "profileName": "Supercharge",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-HOT"
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-WS-TM-CB",
+                    "opTypeId": "IMP-WS-TM",
+                    "seq": 2,
+                    "wepName": "Combat Blade",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-TM-CB-01",
+                            "wepId": "IMP-WS-TM-CB",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-TM-HM",
+                    "opTypeId": "IMP-WS-TM",
+                    "abilityName": "Haywire Mine",
+                    "description": "This operative is carrying your Haywire Mine marker. It can perform the Pick Up Marker action on that marker, but that marker cannot be placed within another operative’s control range (if this operative is incapacitated while carrying that marker and that marker cannot be placed, it’s removed with this operative)."
+                },
+                {
+                    "abilityId": "IMP-WS-TM-PM",
+                    "opTypeId": "IMP-WS-TM",
+                    "abilityName": "Proximity Mine",
+                    "description": "The first time your Haywire Mine marker is within another operative’s control range, remove that marker, subtract 1 from that operative’s APL stat until the end of its next activation, and inflict 2D3+3 damage on it (or D3+6 if that marker is within 6\" horizontally of your Storm marker); if it isn’t incapacitated, end its action (if any), even if that action’s effects aren’t fulfilled. If it cannot be placed, move it the minimum amount to do so. Note that this operative is ignored for these effects (i.e. it cannot set it off or take damage from that marker)."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-WS-FW",
+            "killteamId": "IMP-WS",
+            "seq": 8,
+            "opTypeName": "Wolf Scout Fenrisian Wolf",
+            "MOVE": "8\"",
+            "APL": 2,
+            "SAVE": "5+",
+            "WOUNDS": 9,
+            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FENRISIAN WOLF",
+            "basesize": "60x35",
+            "weapons": [
+                {
+                    "wepId": "IMP-WS-FW-F",
+                    "opTypeId": "IMP-WS-FW",
+                    "seq": 1,
+                    "wepName": "Fangs",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-WS-FW-F-01",
+                            "wepId": "IMP-WS-FW-F",
+                            "seq": 1,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "4/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RENDING"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-WS-FW-IP",
+                    "opTypeId": "IMP-WS-FW",
+                    "abilityName": "Instinctive Predator",
+                    "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight and Reposition. It cannot use any weapons that aren’t on its datacard. This operative can perform the Charge action while it has a Conceal order."
+                },
+                {
+                    "abilityId": "IMP-WS-FW-P",
+                    "opTypeId": "IMP-WS-FW",
+                    "abilityName": "Pounce",
+                    "description": "Once per battle STRATEGIC GAMBIT. If this operative’s APL stat is 2 or more, this operative can perform a free Charge, Fall Back or Reposition action. If it does, until the end of its next activation, subtract 1 from its APL stat and it cannot perform any of the aforementioned actions."
+                }
+            ]
+        }
+    ]
+}
