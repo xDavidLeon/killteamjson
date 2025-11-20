@@ -381,7 +381,7 @@
       "name": "On Guard",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the Fight or Shoot action for free (including actions that are treated as such, e.g. Hatchway Fight see below).\n\nThat friendly operative can even perform the Shoot action while within control range of an enemy operative (this takes precedence over the normal Shoot action conditions). This is known as a point-blank shot and has the following additional rules while your operative is doing it:\n\n    Target the enemy operative within your operative’s control range (even if it wouldn’t normally be a valid target).\n    Worsen the Hit stat of your operative’s weapons by 1.\n    Until the end of the interrupted enemy operative’s activation, your operative cannot retaliate.\n\nIf you do, that friendly operative cannot counteract during the turning point.",
+      "text": "Once during each enemy operative’s activation, after that enemy operative performs an action, you can interrupt that activation and select one friendly operative on guard to perform the Fight or Shoot action for free (including actions that are treated as such, e.g. Hatchway Fight see below). If you do, that friendly operative cannot counteract during the turning point.\n\nThat friendly operative can even perform the Shoot action while within control range of an enemy operative (this takes precedence over the normal Shoot action conditions). This is known as a point-blank shot and has the following additional rules while your operative is doing it:\n\n    Target the enemy operative within your operative’s control range (even if it wouldn’t normally be a valid target).\n    Worsen the Hit stat of your operative’s weapons by 1.\n    Until the end of the interrupted enemy operative’s activation, your operative cannot retaliate.\n\nIf you do, that friendly operative cannot counteract during the turning point.",
       "examples": [],
       "actions": [],
       "tags": [
@@ -763,4 +763,3 @@
     }
   ]
 }
-  
