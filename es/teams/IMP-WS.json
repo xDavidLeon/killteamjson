@@ -5,9 +5,9 @@
     "classified": true,
     "season": "Tomb world",
     "file": "https://assets.warhammer-community.com/eng_19-11_kt_wolf_scouts_online_rules-zbsk6pvjgr-j3kzye8dxf.pdf",
-    "killteamName": "Wolf Scouts",
-    "description": "Wolf Scout kill teams are their Great Company's most feared and accomplished hunters, roving far ahead of the Space Wolves' strike forces on solitary, unsupported missions. They cause death and anarchy behind enemy lines through assassination, sabotage and more besides, often while cloaked in strange mists or furious storms.",
-    "composition": "A WOLF SCOUT Killteam is composed of:\n- 1 WOLF SCOUT FENRISIAN WOLF\n- 5 WOLF SCOUT operatives selected from the following list:\n  - PACK LEADER\n  - FANGBEARER\n  - FROSTEYE\n  - GUNNER\n  - TRAPMASTER\n  - RUNE PRIEST SKJALD\n  - HUNTER\n\nOther than HUNTER operatives, your kill team can only include each operative on this list once.",
+    "killteamName": "Exploradores lobo",
+    "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
+    "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
     "archetypes": [
         "Recon",
         "Seek & Destroy"
@@ -18,56 +18,56 @@
             "killteamId": "IMP-WS",
             "ployType": "S",
             "seq": 1,
-            "ployName": "Cloaked by the Storm",
-            "description": "Whenever an operative is shooting a friendly WOLF SCOUT operative that's within your STORM, you can re-roll one of your defence dice."
+            "ployName": "OCULTOS EN LA TORMENTA",
+            "description": "Siempre que un agente dispare a un agente EXPLORADOR LOBO amigo en tu TORMENTA, puedes repetir uno de tus dados de defensa."
         },
         {
             "ployId": "IMP-WS-S-TW",
             "killteamId": "IMP-WS",
             "ployType": "S",
             "seq": 2,
-            "ployName": "Tempestuous Wrath",
-            "description": "Whenever a friendly WOLF SCOUT operative is fighting or retaliating, if it's within your STORM or was within your STORM at the start of the activation, its melee weapons have the Balanced weapon rule."
+            "ployName": "IRA TEMPESTUOSA",
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo ataque o contraataque, si está en tu TORMENTA o estaba en tu TORMENTA al inicio de la activación, sus armas de combate tienen la regla de armas Equilibrada."
         },
         {
             "ployId": "IMP-WS-S-SB",
             "killteamId": "IMP-WS",
             "ployType": "S",
             "seq": 3,
-            "ployName": "Storm's Bite",
-            "description": "Whenever an enemy operative is within your STORM, subtract 1 from the Atk stat of its melee weapons (to a minimum of 3)."
+            "ployName": "MORDISCO DE LA TORMENTA",
+            "description": "Siempre que un agente enemigo esté en tu TORMENTA, resta 1 al atributo Ataque de sus armas de combate (hasta un mínimo de 3)."
         },
         {
             "ployId": "IMP-WS-S-SF",
             "killteamId": "IMP-WS",
             "ployType": "S",
             "seq": 4,
-            "ployName": "Savage Fighters",
-            "description": "Whenever a friendly WOLF SCOUT operative finishes fighting or retaliating, if it wasn't incapacitated, you can inflict D3+1 damage on the enemy operative in that sequence."
+            "ployName": "LUCHADORES SALVAJES",
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de combatir o contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia."
         },
         {
             "ployId": "IMP-WS-T-AS",
             "killteamId": "IMP-WS",
             "ployType": "T",
             "seq": 5,
-            "ployName": "Acute Senses",
-            "description": "Use this firefight ploy when a friendly WOLF SCOUT operative performs the Shoot action and you're selecting a valid target. Until the end of that action, that friendly operative's ranged weapons have the Range 6\" and Seek Light weapon rules and enemy operatives cannot be obscured."
+            "ployName": "SENTIDOS AGUZADOS",
+            "description": "Usa este ardid de tiroteo cuando un agente EXPLORADOR LOBO amigo realice la acción de Disparar y elijas un blanco válido. Hasta el final de esa acción, las armas a distancia de ese agente amigo tienen las reglas de armas Alcance 6\" y Buscadora (Ligero), y los agentes enemigos no pueden estar ofuscados."
         },
         {
             "ployId": "IMP-WS-T-CA",
             "killteamId": "IMP-WS",
             "ployType": "T",
             "seq": 6,
-            "ployName": "Counterattack",
-            "description": "Use this firefight ploy at the end of an enemy operative's activation, or after an enemy operative performs the Fight action. One friendly WOLF SCOUT operative can immediately perform a free Fight action, but you cannot select any other enemy operative to fight against during that action."
+            "ployName": "DEVOLVER EL ATAQUE",
+            "description": "Usa este ardid de tiroteo al final de la activación de un agente enemigo, o después de que un agente enemigo realice la acción de Combatir. 1 agente EXPLORADOR LOBO amigo puede realizar de inmediato una acción libre de Combatir, pero solo puede combatir contra ese agente enemigo."
         },
         {
             "ployId": "IMP-WS-T-TBL",
             "killteamId": "IMP-WS",
             "ployType": "T",
             "seq": 7,
-            "ployName": "Touched by Lokyar",
-            "description": "Use this firefight ploy after rolling your attack dice for a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), if it's fighting more than 5\" from other friendly operatives. You can re-roll any of your attack dice."
+            "ployName": "TOCADO POR LOKYAR",
+            "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque para un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) si está combatiendo a más de 5\" de todo otro agente amigo. Puedes repetir cualquiera de tus dados de ataque."
         },
         {
             "ployId": "IMP-WS-T-TP",
@@ -83,41 +83,41 @@
             "eqId": "IMP-WS-FW",
             "killteamId": "IMP-WS",
             "seq": 1,
-            "eqName": "Frost Weapons",
-            "description": "Friendly WOLF SCOUT operatives' combat blades have the Lethal 5+ weapon rule, and one friendly WOLF SCOUT PACK LEADER operative's power weapon has the Lethal 4+ weapon rule (if any)."
+            "eqName": "ARMAS GÉLIDAS",
+            "description": "Los filopuñales de los agentes EXPLORADOR LOBO amigos tienen la regla de armas Letal 5+, y el arma de energía (si la tiene) de 1 agente JEFE DE MANADA EXPLORADOR LOBO tiene la regla de armas Letal 4+."
         },
         {
             "eqId": "IMP-WS-RC",
             "killteamId": "IMP-WS",
             "seq": 2,
-            "eqName": "Runic Charms",
-            "description": "Once per turning point, when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
+            "eqName": "COLGANTES RÚNICOS",
+            "description": "Una vez por punto de inflexión, cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría."
         },
         {
             "eqId": "IMP-WS-WN",
             "killteamId": "IMP-WS",
             "seq": 3,
-            "eqName": "Wolfteeth Necklaces",
-            "description": "Once per turning point, when a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
+            "eqName": "COLLARES DE DIENTES DE LOBO",
+            "description": "Una vez por punto de inflexión, cuando un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo dispare, combata o contraataque, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar."
         },
         {
             "eqId": "IMP-WS-TT",
             "killteamId": "IMP-WS",
             "seq": 4,
-            "eqName": "Talismanic Trophies",
-            "description": "Whenever a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) is fighting or retaliating, in the Resolve Attack Dice step, you can subtract 1 from the damage inflicted on it from one success."
+            "eqName": "TROFEOS Y TALISMANES",
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) combata o contraataque, en el paso de Resolver dados de ataque, puedes restar 1 al daño que sufra por uno de los éxitos."
         }
     ],
     "teamAbilities": [
         {
             "abilityId": "IMP-WS-TA-ES",
-            "abilityName": "Elemental Storm",
-            "description": "STRATEGIC GAMBIT. Remove your Storm marker from the killzone (if any), then place it in the killzone. Whenever an operative is within 6\" horizontally of your Storm marker, it's within your STORM.\n\nEach friendly WOLF SCOUT operative can perform the Charge action while it has a Conceal order if it starts and/or ends that action within your STORM."
+            "abilityName": "TORMENTA ELEMENTAL",
+            "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si empieza o termina esa acción en tu TORMENTA."
         },
         {
             "abilityId": "IMP-WS-TA-HA",
-            "abilityName": "Hunting Astartes",
-            "description": "During each friendly WOLF SCOUT operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions:\n- 1 additional AP must be spent for the second action if both actions are using a plasma gun or plasma pistol.\n- You cannot select two PSYCHIC ranged weapons.\n\nEach friendly WOLF SCOUT operative can counteract regardless of its order. Whenever it does so within your STORM, you can change its order first, or change its order instead of performing an action (for the latter, still treat it as having counteracted this turning point)."
+            "abilityName": "ASTARTES A LA CAZA",
+            "description": "Durante la activación de cada agente EXPLORADOR LOBO amigo, este puede realizar dos acciones de Disparar o dos acciones de Combatir. Si realiza dos acciones de Disparar:\n- Se debe gastar 1PA adicional para la segunda acción si en ambas se usa un rifle de plasma o una pistola de plasma.\n- No puedes elegir dos armas a distancia PSÍQUICA.\n\nTodo agente EXPLORADOR LOBO amigo puede reaccionar sin importar su orden. Siempre que lo haga en tu TORMENTA, puedes cambiar primero su orden, o cambiar su orden en lugar de realizar una acción (en este caso, se sigue considerando que ha reaccionado en este punto de inflexión)."
         }
     ],
     "opTypes": [
@@ -125,7 +125,7 @@
             "opTypeId": "IMP-WS-PL",
             "killteamId": "IMP-WS",
             "seq": 1,
-            "opTypeName": "Wolf Scout Pack Leader",
+            "opTypeName": "JEFE DE MANADA",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -137,14 +137,14 @@
                     "wepId": "IMP-WS-PL-PP",
                     "opTypeId": "IMP-WS-PL",
                     "seq": 1,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-PL-PP-01",
                             "wepId": "IMP-WS-PL-PP",
                             "seq": 1,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -163,7 +163,7 @@
                             "wepprofileId": "IMP-WS-PL-PP-02",
                             "wepId": "IMP-WS-PL-PP",
                             "seq": 2,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -191,7 +191,7 @@
                     "wepId": "IMP-WS-PL-PW",
                     "opTypeId": "IMP-WS-PL",
                     "seq": 2,
-                    "wepName": "Power Weapon",
+                    "wepName": "Arma de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -216,14 +216,14 @@
                 {
                     "abilityId": "IMP-WS-PL-LG",
                     "opTypeId": "IMP-WS-PL",
-                    "abilityName": "Lupine Guile",
-                    "description": "Once per battle, after rolling off to decide initiative, if this operative is in the killzone, you can re-roll your dice."
+                    "abilityName": "Astucia lupina",
+                    "description": " Una vez por batalla, después de desempatar para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tu D6."
                 },
                 {
                     "abilityId": "IMP-WS-PL-GV",
                     "opTypeId": "IMP-WS-PL",
-                    "abilityName": "Grizzled Veteran",
-                    "description": "The first time this operative would be incapacitated during the battle, it's not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action. All remaining attack dice are discarded (including yours if this operative is fighting or retaliating)."
+                    "abilityName": "Rudo veterano",
+                    "description": "La primera vez que este agente quedaría incapacitado durante la batalla, no queda incapacitado, le queda 1 herida restante y no puede ser incapacitado durante el resto de la acción. Todos los dados de ataque restantes se descartan (incluyendo los tuyos si este agente está combatiendo o contraatacando)."
                 }
             ]
         },
@@ -231,7 +231,7 @@
             "opTypeId": "IMP-WS-FB",
             "killteamId": "IMP-WS",
             "seq": 2,
-            "opTypeName": "Wolf Scout Fangbearer",
+            "opTypeName": "PORTACOLMILLOS",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -243,7 +243,7 @@
                     "wepId": "IMP-WS-FB-ABP",
                     "opTypeId": "IMP-WS-FB",
                     "seq": 1,
-                    "wepName": "Absolvor Bolt Pistol",
+                    "wepName": "Pistola bólter absolvor",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -271,7 +271,7 @@
                     "wepId": "IMP-WS-FB-CB",
                     "opTypeId": "IMP-WS-FB",
                     "seq": 2,
-                    "wepName": "Combat Blade",
+                    "wepName": "Filopuñal",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -291,14 +291,14 @@
                 {
                     "abilityId": "IMP-WS-FB-SC",
                     "opTypeId": "IMP-WS-FB",
-                    "abilityName": "Spiritual Chirurgy",
-                    "description": "You can ignore any changes to the stats of friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) from being injured (including their weapons' stats). Friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) are not affected by enemy operatives' Shock and Stun weapon rules and you can ignore any changes to their APL stat. Note that friendly operatives have these rules if you select this operative for the battle (even if it's incapacitated later)."
+                    "abilityName": "Cirugía espiritual",
+                    "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) no se ven afectados por las reglas Choque ni Aturdidora de las armas enemigas, y puedes ignorar los cambios a su atributo LPA. Recuerda que los agentes amigos solo tienen estas reglas si incluyes a este agente en la batalla (incluso si luego resulta incapacitado)."
                 },
                 {
                     "abilityId": "IMP-WS-FB-HB",
                     "opTypeId": "IMP-WS-FB",
-                    "abilityName": "Healing Balms",
-                    "description": "1AP. Select one friendly WOLF SCOUT operative within this operative's control range to regain up to D3+3 lost wounds. This operative cannot perform this action while within control range of an enemy operative."
+                    "abilityName": "BÁLSAMOS CURATIVOS",
+                    "description": "Elige un agente EXPLORADOR LOBO amigo en la zona de control de este agente. Ese agente recupera hasta 1D3+3 heridas perdidas. Este agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
                 }
             ]
         },
@@ -306,7 +306,7 @@
             "opTypeId": "IMP-WS-FE",
             "killteamId": "IMP-WS",
             "seq": 3,
-            "opTypeName": "Wolf Scout Frosteye",
+            "opTypeName": "OJOGÉLIDO",
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
@@ -318,21 +318,21 @@
                     "wepId": "IMP-WS-FE-IBC",
                     "opTypeId": "IMP-WS-FE",
                     "seq": 1,
-                    "wepName": "Instigator Bolt Carbine",
+                    "wepName": "Carabina bólter instigador",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FE-IBC-01",
                             "wepId": "IMP-WS-FE-IBC",
                             "seq": 1,
-                            "profileName": "Heavy",
+                            "profileName": "Pesada",
                             "ATK": "4",
                             "HIT": "2+",
                             "DMG": "3/4",
                             "WR": [
                                 {
                                     "id": "WR-UNIV-HEAVY",
-                                    "details": "Dash only"
+                                    "details": "solo Correr"
                                 },
                                 {
                                     "id": "WR-UNIV-PIERCING-CRITS",
@@ -347,14 +347,15 @@
                             "wepprofileId": "IMP-WS-FE-IBC-02",
                             "wepId": "IMP-WS-FE-IBC",
                             "seq": 2,
-                            "profileName": "Mobile",
+                            "profileName": "móvil",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/4",
                             "WR": [
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+									"number": 1,
+									"details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
@@ -367,7 +368,7 @@
                     "wepId": "IMP-WS-FE-CB",
                     "opTypeId": "IMP-WS-FE",
                     "seq": 2,
-                    "wepName": "Combat Blade",
+                    "wepName": "Filopuñal",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -421,7 +422,7 @@
                             "wepprofileId": "IMP-WS-GNR-PG-01",
                             "wepId": "IMP-WS-GNR-PG",
                             "seq": 1,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/6",
@@ -436,7 +437,7 @@
                             "wepprofileId": "IMP-WS-GNR-PG-02",
                             "wepId": "IMP-WS-GNR-PG",
                             "seq": 2,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "5/6",
@@ -460,7 +461,7 @@
                     "wepId": "IMP-WS-GNR-CB",
                     "opTypeId": "IMP-WS-GNR",
                     "seq": 2,
-                    "wepName": "Combat Blade",
+                    "wepName": "Filopuñal",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -481,7 +482,7 @@
                     "abilityId": "IMP-WS-GNR-TF",
                     "opTypeId": "IMP-WS-GNR",
                     "abilityName": "Tempest's Fury",
-                    "description": "Whenever this operative is within your STORM:\n- All profiles of its plasma gun have the Punishing weapon rule.\n- Its plasma gun (supercharge) doesn't have the Hot weapon rule."
+                    "description": "Whenever this operative is within your STORM:\n- All profiles of its plasma gun have the Punishing weapon rule.\n- Its plasma gun (Sobrecarga) doesn't have the Hot weapon rule."
                 }
             ]
         },
@@ -501,14 +502,14 @@
                     "wepId": "IMP-WS-HNT-PP",
                     "opTypeId": "IMP-WS-HNT",
                     "seq": 1,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-HNT-PP-01",
                             "wepId": "IMP-WS-HNT-PP",
                             "seq": 1,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -527,7 +528,7 @@
                             "wepprofileId": "IMP-WS-HNT-PP-02",
                             "wepId": "IMP-WS-HNT-PP",
                             "seq": 2,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -555,7 +556,7 @@
                     "wepId": "IMP-WS-HNT-CB",
                     "opTypeId": "IMP-WS-HNT",
                     "seq": 2,
-                    "wepName": "Combat Blade",
+                    "wepName": "Filopuñal",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -744,14 +745,14 @@
                     "wepId": "IMP-WS-TM-PP",
                     "opTypeId": "IMP-WS-TM",
                     "seq": 1,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-TM-PP-01",
                             "wepId": "IMP-WS-TM-PP",
                             "seq": 1,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -770,7 +771,7 @@
                             "wepprofileId": "IMP-WS-TM-PP-02",
                             "wepId": "IMP-WS-TM-PP",
                             "seq": 2,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -798,7 +799,7 @@
                     "wepId": "IMP-WS-TM-CB",
                     "opTypeId": "IMP-WS-TM",
                     "seq": 2,
-                    "wepName": "Combat Blade",
+                    "wepName": "Filopuñal",
                     "wepType": "M",
                     "profiles": [
                         {
