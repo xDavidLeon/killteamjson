@@ -994,7 +994,7 @@
                     "abilityId": "TAU-SB-NEU-MSP",
                     "opTypeId": "TAU-SB-NEU",
                     "abilityName": "Pack de sensores multiespectro: APOYO",
-                    "description": "APOYO. Puedes usar esta regla una vez por punto de inflexión, cuando un agente enemigo visible para este agente y a 8\" o menos de él se active. Si lo haces, cada agente EXOARMADURA XV26 SIGILO amigo a 3\" o menos de este agente puede hacer de inmediato una de las siguientes opciones:\n-  Cambia su orden.\n\n Realizar una acción libre de Correr (en el orden que elijas).\n\n Los agentes amigos que realicen la acción de Correr no pueden terminar ese movimiento a 3\" o menos de algún agente enemigo. Recuerda que el equipo universal Aparato de comunicaciones solo afecta a la segunda distancia de esta regla."
+                    "description": "APOYO. Puedes usar esta regla una vez por punto de inflexión, cuando un agente enemigo visible para este agente y a 8\" o menos de él se active. Si lo haces, cada agente EXOARMADURA XV26 SIGILO amigo a 3\" o menos de este agente puede hacer de inmediato una de las siguientes opciones:\n-  Cambia su orden.\n\n-  Realizar una acción libre de Correr (en el orden que elijas).\n\n Los agentes amigos que realicen la acción de Correr no pueden terminar ese movimiento a 3\" o menos de algún agente enemigo. Recuerda que el equipo universal Aparato de comunicaciones solo afecta a la segunda distancia de esta regla."
                 },
                 {
                     "abilityId": "TAU-SB-NEU-SJ",
