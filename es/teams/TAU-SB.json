@@ -27,7 +27,7 @@
             "ployType": "S",
             "seq": 2,
             "ployName": "VÍNCULOS DE UNIDAD",
-            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) se active, si es visible para otro agente **EXOARMADURA XV26 SIGILO** amigo (salvo DRON) y está a 6\" o menos de él, puedes ignorar cualquier modificador al LPA de ese primer agente amigo y elegir una de las siguientes opciones:\n- Ignora cualquier cambio al atributo Movimiento de ese primer agente amigo por estar lesionado hasta el final de esa activación.\n- Ignora cualquier cambio al atributo Impactar de las armas de ese primer agente amigo por estar lesionado hasta el final de esa activación."
+            "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) se active, si es visible para otro agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) y está a 6\" o menos de él, puedes ignorar cualquier modificador al LPA de ese primer agente amigo y elegir una de las siguientes opciones:\n- Ignora cualquier cambio al atributo Movimiento de ese primer agente amigo por estar lesionado hasta el final de esa activación.\n- Ignora cualquier cambio al atributo Impactar de las armas de ese primer agente amigo por estar lesionado hasta el final de esa activación."
         },
         {
             "ployId": "TAU-SB-S-PA",
@@ -35,7 +35,7 @@
             "ployType": "S",
             "seq": 3,
             "ployName": "PREPARAR EMBOSCADA",
-            "description": "1 de tus marcadores de Emboscada completamente en tu territorio y a más de 2\" de todo agente enemigo. Puedes usar Coloca esta regla siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente enemigo que esté a 2\" o menos de ese marcador. Si lo haces, retira ese marcador y las armas a distancia de ese agente amigo tienen la regla de armas Buscadora hasta el final de la acción. En el paso de Preparación de la siguiente fase de Estrategia, si ese marcador está aún en la zona de aniquilación, retíralo del juego."
+            "description": "1 de tus marcadores de Emboscada completamente en tu territorio y a más de 2\" de todo agente enemigo. Puedes usar Coloca esta regla siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente enemigo que esté a 2\" o menos de ese marcador. Si lo haces, retira ese marcador y las armas a distancia de ese agente amigo tienen la regla de armas Buscadora hasta el final de la acción. En el paso de Preparación de la siguiente fase de Estrategia, si ese marcador está aún en la zona de aniquilación, retíralo del juego."
         },
         {
             "ployId": "TAU-SB-S-HC",
@@ -43,7 +43,7 @@
             "ployType": "S",
             "seq": 4,
             "ployName": "CONTRAMEDIDAS DE OLEADA HOLOGRÁFICA",
-            "description": "Siempre que un agente dispare a un agente EXOARMADURA XV26 SIGILO amigo a más de 6\" de él, en el paso de Tirar dados de ataque, el atacante debe descartar 1 de sus éxitos normales sin resolver (o 1 de sus éxitos críticos si no hay normales). Esto no es acumulativo con estar ofuscado."
+            "description": "Siempre que un agente dispare a un agente **EXOARMADURA XV26 SIGILO** amigo a más de 6\" de él, en el paso de Tirar dados de ataque, el atacante debe descartar 1 de sus éxitos normales sin resolver (o 1 de sus éxitos críticos si no hay normales). Esto no es acumulativo con estar ofuscado."
         },
         {
             "ployId": "TAU-SB-T-G",
@@ -51,7 +51,7 @@
             "ployType": "T",
             "seq": 5,
             "ployName": "CAMUFLAJE FANTASMAL",
-            "description": "Usa este ardid de tiroteo al final de la activación de un agente EXOARMADURA XV26 SIGILO amigo. Si ese agente tiene una orden de trabarse, cámbiala a ocultarse. Cada agente amigo solo puede usar este ardid una vez por batalla."
+            "description": "Usa este ardid de tiroteo al final de la activación de un agente **EXOARMADURA XV26 SIGILO** amigo. Si ese agente tiene una orden de trabarse, cámbiala a ocultarse. Cada agente amigo solo puede usar este ardid una vez por batalla."
         },
         {
             "ployId": "TAU-SB-T-VRT",
@@ -59,7 +59,7 @@
             "ployType": "T",
             "seq": 6,
             "ployName": "RETROPROPULSORES VECTORIZADOS",
-            "description": "Usa este ardid de tiroteo cuando un agente enemigo termine una acción de Cargar dentro de la zona de control de un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON). Interrumpe esa acción para usar esta regla. Si lo haces, ese agente amigo puede realizar inmediatamente una acción libre de Retroceder, pero no puede mover más de 3\" durante ella. Después, ese agente enemigo puede realizar inmediatamente una acción libre de Reposicionarse usando el movimiento que le quede de la primera acción de Cargar, y puede hacerlo aunque haya realizado una acción que prohíba realizar la acción de Reposicionarse."
+            "description": "Usa este ardid de tiroteo cuando un agente enemigo termine una acción de Cargar dentro de la zona de control de un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**). Interrumpe esa acción para usar esta regla. Si lo haces, ese agente amigo puede realizar inmediatamente una acción libre de Retroceder, pero no puede mover más de 3\" durante ella. Después, ese agente enemigo puede realizar inmediatamente una acción libre de Reposicionarse usando el movimiento que le quede de la primera acción de Cargar, y puede hacerlo aunque haya realizado una acción que prohíba realizar la acción de Reposicionarse."
         },
         {
             "ployId": "TAU-SB-T-EJP",
@@ -67,7 +67,7 @@
             "ployType": "T",
             "seq": 7,
             "ployName": "PROPULSORES AL MÁXIMO",
-            "description": "Usa este ardid de tiroteo cuando un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) se active o reaccione. Hasta el final de esa activación/reacción, puedes ignorar la distancia vertical que mueve una de las veces que trepe o se deje caer."
+            "description": "Usa este ardid de tiroteo cuando un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) se active o reaccione. Hasta el final de esa activación/reacción, puedes ignorar la distancia vertical que mueve una de las veces que trepe o se deje caer."
         },
         {
             "ployId": "TAU-SB-T-SP",
@@ -75,7 +75,7 @@
             "ployType": "T",
             "seq": 8,
             "ployName": "PROTOCOLOS DE SALVAMENTO",
-            "description": "Usa este ardid de tiroteo cuando un agente EXOARMADURA XV26 SIGILO amigo (salvo DRON) sea elegido como blanco válido de una acción de Disparar. Elige un agente EXOARMADURA XV26 SIGILO DRON amigo, visible para ese agente amigo y a 3\" o menos de él, para que sea tomado como blanco válido en su lugar (aunque no fuera válido normalmente en este caso). Ese agente DRON amigo solo está en cobertura u ofuscado si el blanco original lo está. Este ardid no tiene efecto si el arma a distancia tiene las reglas de armas Área o Ráfaga."
+            "description": "Usa este ardid de tiroteo cuando un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) sea elegido como blanco válido de una acción de Disparar. Elige un agente **EXOARMADURA XV26 SIGILO** **DRON** amigo, visible para ese agente amigo y a 3\" o menos de él, para que sea tomado como blanco válido en su lugar (aunque no fuera válido normalmente en este caso). Ese agente **DRON** amigo solo está en cobertura u ofuscado si el blanco original lo está. Este ardid no tiene efecto si el arma a distancia tiene las reglas de armas Área o Ráfaga."
         }
     ],
     "equipments": [
@@ -84,40 +84,40 @@
             "killteamId": "TAU-SB",
             "seq": 1,
             "eqName": "MULTIAPUNTADORES XV26",
-            "description": "Una vez por punto de inflexión, cuando un agente EXOARMADURA XV26 SIGILO amigo realice la acción de Disparar y elijas un cañón rotativo (barrido), puedes usar esta regla. Si lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 2\""
+            "description": "Una vez por punto de inflexión, cuando un agente **EXOARMADURA XV26 SIGILO** amigo realice la acción de Disparar y elijas un cañón rotativo (barrido), puedes usar esta regla. Si lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 2\""
         },
         {
             "eqId": "TAU-SB-CNJ",
             "killteamId": "TAU-SB",
             "seq": 2,
             "eqName": "INTERFERIDORES DE REDES",
-            "description": "Siempre que determines el control de un marcador, trata el atributo LPA total de los agentes enemigos que lo disputan como 1 menos si lo disputan exactamente 1 agente EXOARMADURA XV26 SIGILO amigo y 2 agentes enemigos. Ese agente EXOARMADURA XV26 SIGILO amigo no puede ser DRON. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio será acumulable con esto."
+            "description": "Siempre que determines el control de un marcador, trata el atributo LPA total de los agentes enemigos que lo disputan como 1 menos si lo disputan exactamente 1 agente **EXOARMADURA XV26 SIGILO** amigo y 2 agentes enemigos. Ese agente **EXOARMADURA XV26 SIGILO** amigo no puede ser **DRON**. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio será acumulable con esto."
         },
         {
             "eqId": "TAU-SB-ABF",
             "killteamId": "TAU-SB",
             "seq": 3,
             "eqName": "FILTROS SOLNEGRO AVANZADOS",
-            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente ofuscado, no tienes que descartar un éxito por ello. Todos los demás efectos de ofuscado se siguen aplicando normalmente."
+            "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente ofuscado, no tienes que descartar un éxito por ello. Todos los demás efectos de ofuscado se siguen aplicando normalmente."
         },
         {
             "eqId": "TAU-SB-HTL",
             "killteamId": "TAU-SB",
             "seq": 4,
             "eqName": "SELECTORES DE OBJETIVO INTEGRADOS",
-            "description": "Siempre que reacciones, puedes hacerlo con 1 AGENTE EXOARMADURA XV26 SIGILO amigo que tenga una orden de ocultarse y que esté a más de 3\" de todo agente enemigo, pero, antes de reaccionar, debes cambiar su orden a trabarse y solo puede realizar la acción Disparar durante esa reacción."
+            "description": "Siempre que reacciones, puedes hacerlo con 1 AGENTE **EXOARMADURA XV26 SIGILO** amigo que tenga una orden de ocultarse y que esté a más de 3\" de todo agente enemigo, pero, antes de reaccionar, debes cambiar su orden a trabarse y solo puede realizar la acción Disparar durante esa reacción."
         }
     ],
     "teamAbilities": [
         {
             "abilityId": "TAU-SB-TA-K",
             "abilityName": "KAUYON",
-            "description": "Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente enemigo, sus armas a distancia tienen la regla de armas Certera X. X se determina según la posición de ese agente enemigo:\n- A 3\" o menos de tu territorio: Certera 1\n- En tu territorio: Certera 2\n- A 3\" o menos de tu zona de descenso.: Certera 3"
+            "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente enemigo, sus armas a distancia tienen la regla de armas Certera X. X se determina según la posición de ese agente enemigo:\n- A 3\" o menos de tu territorio: Certera 1\n- En tu territorio: Certera 2\n- A 3\" o menos de tu zona de descenso.: Certera 3"
         },
         {
             "abilityId": "TAU-SB-TA-SF",
             "abilityName": "CAMPOS DE SIGILO",
-            "description": "Un agente EXOARMADURA XV26 SIGILO amigo no puede ser visible para los agentes enemigos a más de 3\" de él mientras tenga una orden de ocultarse (esto tiene preferencia sobre cualquier otra regla).\n\nUn agente EXOARMADURA XV26 SIGILO amigo puede realizar la acción Retroceder por 1PA menos mientras tenga una orden de ocultarse"
+            "description": "Un agente **EXOARMADURA XV26 SIGILO** amigo no puede ser visible para los agentes enemigos a más de 3\" de él mientras tenga una orden de ocultarse (esto tiene preferencia sobre cualquier otra regla).\n\nUn agente **EXOARMADURA XV26 SIGILO** amigo puede realizar la acción Retroceder por 1PA menos mientras tenga una orden de ocultarse"
         }
     ],
     "opTypes": [
@@ -270,13 +270,13 @@
                     "abilityId": "TAU-SB-SHAS-DC",
                     "opTypeId": "TAU-SB-SHAS",
                     "abilityName": "Controlador de Dron XV26",
-                    "description": "**GAMBITO ESTRATÉGICO** siempre que este agente se encuentre en la zona de aniquilación. Elige 1 agente **EXOARMADURA XV26 SIGILO DRON** amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, ignora los dos primeros puntos de su regla de Dron (esto tiene prioridad frente a esa regla)."
+                    "description": "**GAMBITO ESTRATÉGICO** siempre que este agente se encuentre en la zona de aniquilación. Elige 1 agente **EXOARMADURA XV26 SIGILO DRON** amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, ignora los dos primeros puntos de su regla de **Dron** (esto tiene prioridad frente a esa regla)."
                 },
                 {
                     "abilityId": "TAU-SB-SHAS-FGG",
                     "opTypeId": "TAU-SB-SHAS",
                     "abilityName": "Por el Bien Supremo",
-                    "description": "Al determinar el valor de Certera X de la regla de facción Kauyon, si este agente se encuentra en la zona de aniquilación, suma 1 al resultado si al menos 2 agentes EXOARMADURA XV26 SIGILO amigos (salvo DRON) están incapacitados (hasta un máximo de Certera 3). Recuerda que debes tener un mínimo de Certera 1 para usar esta regla."
+                    "description": "Al determinar el valor de Certera X de la regla de facción Kauyon, si este agente se encuentra en la zona de aniquilación, suma 1 al resultado si al menos 2 agentes **EXOARMADURA XV26 SIGILO** amigos (salvo **DRON**) están incapacitados (hasta un máximo de Certera 3). Recuerda que debes tener un mínimo de Certera 1 para usar esta regla."
                 }
             ]
         },
@@ -409,7 +409,7 @@
                     "abilityId": "TAU-SB-DES-ML",
                     "opTypeId": "TAU-SB-DES",
                     "abilityName": "Marcador telemétrico",
-                    "description": "Siempre que un agente enemigo sea un blanco válido de este agente, o sea visible para este agente y se encuentre a 2\" o menos de tu marcador de Emboscada (ver ardid de estrategia Preparar emboscada), está marcado. Siempre que un agente EXOARMADURA XV26 SIGILO amigo dispare a un agente marcado, sus armas a distancia tienen la regla de armas Severa. Recuerda que un agente puede ser un blanco válido para este agente aunque este agente no sea el agente activo."
+                    "description": "Siempre que un agente enemigo sea un blanco válido de este agente, o sea visible para este agente y se encuentre a 2\" o menos de tu marcador de Emboscada (ver ardid de estrategia Preparar emboscada), está marcado. Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente marcado, sus armas a distancia tienen la regla de armas Severa. Recuerda que un agente puede ser un blanco válido para este agente aunque este agente no sea el agente activo."
                 }
             ]
         },
@@ -855,13 +855,13 @@
                     "abilityId": "TAU-SB-LOD-EL",
                     "opTypeId": "TAU-SB-LOD",
                     "abilityName": "Lanzador de electrobengalas",
-                    "description": " Una vez por punto de inflexión, cuando un agente enemigo realice la acción Disparar y tu oponente elija un blanco válido (salvo DRON), puedes usar esta regla, siempre y cuando este agente no esté en la zona de control de agentes enemigos. Si lo haces, hasta el final de esa acción, siempre que un agente enemigo dispare a un agente EXOARMADURA XV26 SIGILO amigo que sea visible para este agente, se encuentre a 3\" o menos de él y a más de 2\" de ese agente enemigo:\n-  Ignora la reglas de armas Penetración.\n- Ese agente amigo está ofuscado."
+                    "description": " Una vez por punto de inflexión, cuando un agente enemigo realice la acción Disparar y tu oponente elija un blanco válido (salvo **DRON**), puedes usar esta regla, siempre y cuando este agente no esté en la zona de control de agentes enemigos. Si lo haces, hasta el final de esa acción, siempre que un agente enemigo dispare a un agente **EXOARMADURA XV26 SIGILO** amigo que sea visible para este agente, se encuentre a 3\" o menos de él y a más de 2\" de ese agente enemigo:\n-  Ignora la reglas de armas Penetración.\n- Ese agente amigo está ofuscado."
                 },
                 {
                     "abilityId": "TAU-SB-LOD-HB",
                     "opTypeId": "TAU-SB-LOD",
                     "abilityName": "Baliza",
-                    "description": "Este agente porta tu marcador de baliza. Los agentes (salvo DRON) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está en la zona de aniquilación y a más de 6\" de tu zona de descenso, tira 1D6. Si está en el territorio de tu oponente, en lugar de eso tira 2D6, o 3D6 si está a 6\" o menos de la zona de descenso de tu oponente. Si alguno de esos dados saca 4+, ganas 1PM adicional."
+                    "description": "Este agente porta tu marcador de baliza. Los agentes (salvo **DRON**) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está en la zona de aniquilación y a más de 6\" de tu zona de descenso, tira 1D6. Si está en el territorio de tu oponente, en lugar de eso tira 2D6, o 3D6 si está a 6\" o menos de la zona de descenso de tu oponente. Si alguno de esos dados saca 4+, ganas 1PM adicional."
                 }
             ]
         },
@@ -993,14 +993,14 @@
                 {
                     "abilityId": "TAU-SB-NEU-MSP",
                     "opTypeId": "TAU-SB-NEU",
-                    "abilityName": "Pack de sensores multiespectro: APOYO",
-                    "description": "APOYO. Puedes usar esta regla una vez por punto de inflexión, cuando un agente enemigo visible para este agente y a 8\" o menos de él se active. Si lo haces, cada agente EXOARMADURA XV26 SIGILO amigo a 3\" o menos de este agente puede hacer de inmediato una de las siguientes opciones:\n-  Cambia su orden.\n\n-  Realizar una acción libre de Correr (en el orden que elijas).\n\n Los agentes amigos que realicen la acción de Correr no pueden terminar ese movimiento a 3\" o menos de algún agente enemigo. Recuerda que el equipo universal Aparato de comunicaciones solo afecta a la segunda distancia de esta regla."
+                    "abilityName": "Pack de sensores multiespectro",
+                    "description": "**APOYO**. Puedes usar esta regla una vez por punto de inflexión, cuando un agente enemigo visible para este agente y a 8\" o menos de él se active. Si lo haces, cada agente **EXOARMADURA XV26 SIGILO** amigo a 3\" o menos de este agente puede hacer de inmediato una de las siguientes opciones:\n-  Cambia su orden.\n\n-  Realizar una acción libre de Correr (en el orden que elijas).\n\n Los agentes amigos que realicen la acción de Correr no pueden terminar ese movimiento a 3\" o menos de algún agente enemigo. Recuerda que el equipo universal Aparato de comunicaciones solo afecta a la segunda distancia de esta regla."
                 },
                 {
                     "abilityId": "TAU-SB-NEU-SJ",
                     "opTypeId": "TAU-SB-NEU",
                     "abilityName": "INTERFERIR SISTEMAS",
-                    "description": "1/2AP. Elige un agente enemigo visible para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA. Mientras este agente tenga una orden de ocultarse, debes gastar 1PA adicional para realizar esta acción.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
+                    "description": "**1/2AP**. Elige un agente enemigo visible para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA. Mientras este agente tenga una orden de ocultarse, debes gastar 1PA adicional para realizar esta acción.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
                 }
             ]
         },
@@ -1070,7 +1070,7 @@
                     "abilityId": "TAU-SB-GD-PGL",
                     "opTypeId": "TAU-SB-GD",
                     "abilityName": "LANZADOR DE GRANADA DE FOTONES",
-                    "description": "1AP. Elige 1 agente enemigo visible para este agente y tira 1D6. Con 3+, Hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
+                    "description": "**1AP**. Elige 1 agente enemigo visible para este agente y tira 1D6. Con 3+, Hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo."
                 }
             ]
         },
