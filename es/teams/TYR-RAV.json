@@ -305,7 +305,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "TYR-RAV-FTL-A-PSN"
+                  "id": "Veneno*"
                 }
               ]
             }
@@ -316,8 +316,8 @@
         {
           "abilityId": "TYR-RAV-FTL-A-PSN",
           "opTypeId": "TYR-RAV-FTL",
-          "abilityName": "*Poison",
-          "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+          "abilityName": "*Veneno",
+          "description": " En el paso de Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma obtiene una de tus fichas de Veneno (si no tiene una ya). Siempre que un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños."
         }
       ],
       "actions": [
@@ -326,11 +326,11 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Toxic Lunge",
+          "name": "EMBESTIDA TÓXICA",
           "description": null,
           "effects": [
-            "- Select one enemy operative within 2\" of this operative. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).",
-            "- This operative can perform this action while underground (this takes precedence over the normal Burrow rules)."
+            "- Elige un agente enemigo a 2\" o menos de este agente. Como alternativa, si este agente se encuentra bajo tierra, elige un agente enemigo en tu **TÚNEL**. Inflígele a ese agente enemigo 1D3+2 daños y ese agente gana dos de tus fichas de Veneno (si no tenía ya una).",
+            "- Este agente puede realizar esta acción bajo tierra (esto tiene prioridad sobre las reglas de Excavar normales)."
           ]
         }
       ]
@@ -339,7 +339,7 @@
       "opTypeId": "TYR-RAV-TRS",
       "killteamId": "TYR-RAV",
       "seq": 3,
-      "opTypeName": "Ravener Tremorscythe",
+      "opTypeName": "GUADAÑA TRÉMULA",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
@@ -378,7 +378,7 @@
           "wepId": "TYR-RAV-TRS-ST",
           "opTypeId": "TYR-RAV-TRS",
           "seq": 2,
-          "wepName": "Scything Talons",
+          "wepName": "Espolones afilados y garras aceradas",
           "wepType": "M",
           "profiles": [
             {
@@ -398,14 +398,14 @@
         {
           "abilityId": "TYR-RAV-TRS-A-HSH",
           "opTypeId": "TYR-RAV-TRS",
-          "abilityName": "Hypersensory Hunter",
-          "description": "This operative can perform the Charge action while it has a Conceal order if it performed the Burrow action during the same activation/ counteraction."
+          "abilityName": "Cazador hipersensorial",
+          "description": "Este agente puede realizar la acción **Cargar** mientras tenga una orden de ocultarse si ha realizado la acción **Excavar** durante la misma activación/reacción."
         },
         {
           "abilityId": "TYR-RAV-TRS-A-STA",
           "opTypeId": "TYR-RAV-TRS",
-          "abilityName": "Subterranean Ambush",
-          "description": "Once per turning point, after an enemy operative performs an action in\nwhich it moves more than 2\" and ends within 2\" of your TUNNEL, if this operative is underground\nand is either ready or hasn't counteracted during this turning point, you can interrupt that enemy\noperative's activation/counteraction to use this rule.  \n\nIf you do, activate or counteract with this operative (as appropriate), but during its activation/\ncounteraction it must fight against or shoot against that enemy operative, and cannot do so\nagainst any other enemy operatives until it does (if this isn't possible, this operative's activation/\ncounteraction is cancelled and this rule hasn't been used). After completing this operative's\nactivation/counteraction, continue that enemy operative's activation/counteraction (if possible)."
+          "abilityName": "Emboscada subterránea",
+          "description": "Una vez por punto de inflexión en la fase de tiroteo, después de que un agente enemigo realice una acción en la que se mueva más de 2\" y termine a 2\" o menos de tu **TÚNEL**,  si este agente está bajo tierra y se encuentra apostado o no ha reaccionado durante este punto de inflexión, puedes interrumpir para usar esta regla.  \n\nSi lo haces, activa o reacciona con este agente (lo que sea apropiado), pero durante su activación/reacción debe combatir o disparar contra ese agente enemigo, y hasta que lo haga no podrá combatir ni disparar contra ningún otro agente enemigo (si no le es posible hacerlo, se cancelará la activación/reacción de este agente y esta regla se considerará no usada). Tras completar la activación/reacción de este agente, continúa con la activación/reacción de ese agente enemigo (de ser posible)."
         }
       ]
     },
@@ -413,7 +413,7 @@
       "opTypeId": "TYR-RAV-VSP",
       "killteamId": "TYR-RAV",
       "seq": 4,
-      "opTypeName": "Ravener Venomspitter",
+      "opTypeName": " ESCUPEVENENO",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
@@ -452,14 +452,14 @@
           "wepId": "TYR-RAV-VSP-VB",
           "opTypeId": "TYR-RAV-VSP",
           "seq": 2,
-          "wepName": "Venom Blast",
+          "wepName": "Proyectil venenoso",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-VSP-VB-1",
               "wepId": "TYR-RAV-VSP-VB",
               "seq": 1,
-              "profileName": "Blast",
+              "profileName": "Área",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
@@ -481,7 +481,7 @@
               "wepprofileId": "TYR-RAV-VSP-VB-2",
               "wepId": "TYR-RAV-VSP-VB",
               "seq": 2,
-              "profileName": "Focused",
+              "profileName": "Concentrado",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "4/5",
@@ -495,7 +495,7 @@
                   "number": 1
                 },
                 {
-                  "id": "WR-CHAOS-PM-POISON"
+                  "id": "Veneno*"
                 }
               ]
             }
@@ -505,7 +505,7 @@
           "wepId": "TYR-RAV-VSP-ST",
           "opTypeId": "TYR-RAV-VSP",
           "seq": 3,
-          "wepName": "Scything Talons",
+          "wepName": "Espolones afilados y garras aceradas",
           "wepType": "M",
           "profiles": [
             {
@@ -525,8 +525,8 @@
         {
           "abilityId": "TYR-RAV-VSP-A-PSN",
           "opTypeId": "TYR-RAV-VSP",
-          "abilityName": "*Poison",
-          "description": "In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Poison tokens (if it doesn't already have one).\nWhenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+          "abilityName": "*Veneno",
+          "description": "En el paso de Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma obtiene una de tus fichas de Veneno (si no tiene una ya).\nSiempre que un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños."
         }
       ],
       "actions": [
@@ -535,10 +535,10 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Distended Dorsal Sac",
+          "name": "SACO DORSAL DISTENDIDO",
           "description": null,
           "effects": [
-            "Until this operative has shot with its venom bolt or until it performs the Burrow action (whichever comes first), all profiles of its venom bolt have the Lethal 5+ weapon rule, have 1 added to their Atk stat and the Range 8\" weapon rule removed."
+            "Hasta que este agente haya disparado con su proyectil venenoso, realice esta acción de nuevo o realice la acción **Excavar** (lo que ocurra antes), todos los perfiles de su proyectil venenoso tienen la regla de armas Letal 5+, suman 1 a su atributo Atq y se elimina la regla de armas Alcance 8\"."
           ]
         }
       ]
@@ -547,7 +547,7 @@
       "opTypeId": "TYR-RAV-WAR",
       "killteamId": "TYR-RAV",
       "seq": 5,
-      "opTypeName": "Ravener Warrior",
+      "opTypeName": "COMBATIENTE",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
@@ -586,7 +586,7 @@
           "wepId": "TYR-RAV-WAR-ST",
           "opTypeId": "TYR-RAV-WAR",
           "seq": 2,
-          "wepName": "Scything Talons",
+          "wepName": "Espolones afilados",
           "wepType": "M",
           "profiles": [
             {
@@ -606,8 +606,8 @@
         {
           "abilityId": "TYR-RAV-WAR-A-IB",
           "opTypeId": "TYR-RAV-WAR",
-          "abilityName": "Instinctive Behaviour",
-          "description": "Whenever this operative is shooting against, fighting against or retaliating against a wounded enemy operative, or an enemy operative that performed the Fall Back action during this turning point, this operative's weapons have the Lethal 5+ weapon rule."
+          "abilityName": "Comportamiento instintivo",
+          "description": "Siempre que este agente dispare, combata o contraataque contra un agente enemigo herido, o un agente enemigo que haya realizado la acción **Retroceder** durante este punto de inflexión, sus armas tienen la regla de armas Letal 5+."
         }
       ]
     },
@@ -615,7 +615,7 @@
       "opTypeId": "TYR-RAV-WRK",
       "killteamId": "TYR-RAV",
       "seq": 6,
-      "opTypeName": "Ravener Wrecker",
+      "opTypeName": "DEMOLEDOR",
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "4+",
@@ -627,7 +627,7 @@
           "wepId": "TYR-RAV-WRK-BM",
           "opTypeId": "TYR-RAV-WRK",
           "seq": 1,
-          "wepName": "Bone Mace",
+          "wepName": "Mazahueso",
           "wepType": "R",
           "profiles": [
             {
@@ -658,7 +658,7 @@
           "wepId": "TYR-RAV-WRK-STCC",
           "opTypeId": "TYR-RAV-WRK",
           "seq": 2,
-          "wepName": "Scything Talons & Crushing Claws",
+          "wepName": "Espolones afilados y garras aplastadoras",
           "wepType": "M",
           "profiles": [
             {
@@ -682,8 +682,8 @@
         {
           "abilityId": "TYR-RAV-WRK-A-RIC",
           "opTypeId": "TYR-RAV-WRK",
-          "abilityName": "Reinforced Carapace",
-          "description": "Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative."
+          "abilityName": "Cascarón reforzado",
+          "description": "Los Daños normales y críticos de 4 o más infligen 1 daño menos a este agente."
         }
       ]
     }
