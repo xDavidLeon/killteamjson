@@ -482,7 +482,7 @@
       "opTypeId": "AEL-HOTA-KDOY",
       "killteamId": "AEL-HOTA",
       "seq": 4,
-      "opTypeName": "DISCÍPULO DE YAELINDRA KABALISTA",
+      "opTypeName": "DISCÍPULO DE YAELINDRA",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -494,7 +494,7 @@
           "wepId": "AEL-HOTA-KDOY-SP",
           "opTypeId": "AEL-HOTA-KDOY",
           "seq": 0,
-          "wepName": "Stinger Pistol",
+          "wepName": "Pistola aguijón",
           "wepType": "R",
           "profiles": [
             {
@@ -548,15 +548,15 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Torment Grenade",
+          "name": "GRANADA TORMENTO",
           "description": null,
           "effects": [
-            "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a poison test.",
-            "For an operative to take a poison test, roll one D6, adding 1 to the result if that operative has a Save stat of 4+ or worse:",
-            "on a 3+, inflict D3 damage on that operative and it gains one of your Poison tokens (if it does not already have one). Whenever an operative that has one of your Poison tokens is activated, inflict D3 damage on it."
+            "Elige un agente enemigo a 6\" o menos de este agente y visible para él. El agente enemigo elegido y cada otro agente a 1\" o menos de él hacen un chequeo de veneno.",
+            "Para que un agente haga un chequeo de veneno, tira 1D6, sumando 1 al resultado si ese agente tiene un atributo Salvación de 4+ o peor:",
+            "si el resultado es 3+, infliges 1D3 daños a ese agente y este obtiene una de tus fichas de Veneno (si no tiene ya una). Cuando un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
           ]
         }
       ]
@@ -565,7 +565,7 @@
       "opTypeId": "AEL-HOTA-KELX",
       "killteamId": "AEL-HOTA",
       "seq": 5,
-      "opTypeName": "Kabalite Elixicant",
+      "opTypeName": "ELIXICANTE",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -601,7 +601,7 @@
           "wepId": "AEL-HOTA-KELX-SN",
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 1,
-          "wepName": "Stim-Needler",
+          "wepName": "Inyectaestimulantes",
           "wepType": "R",
           "profiles": [
             {
@@ -652,8 +652,8 @@
         {
           "abilityId": "AEL-HOTA-KELX-A-CD",
           "opTypeId": "AEL-HOTA-KELX",
-          "abilityName": "Combat Drugs",
-          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following COMBAT DRUG rules for friendly HAND OF THE ARCHON operatives to have for the battle:\n\n- **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that inflicted damage.\n- **Adrenalight:** STRATEGIC GAMBIT. Select one friendly operative that has this COMBAT DRUG to gain one of your Pain tokens.\n- **Hypex:** You can ignore any changes to this operative's Move stat from being injured.\n"
+          "abilityName": "Drogas de combate",
+          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira 1D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  **GAMBITO ESTRATÉGICO**. Elige un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar lesionado.\n"
         },
         {
           "abilityId": "AEL-HOTA-KELX-A-RIF",
@@ -668,15 +668,15 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Administer Drug",
+          "name": "ADMINISTRAR DROGA",
           "description": null,
           "effects": [
-            "Select one friendly HAND OF THE ARCHON operative visible to and within 3\" of this operative, then select one of the following for that friendly operative:",
-            "- It regains 2D3 lost wounds.",
-            "- Select a different COMBAT DRUG rule for it to have for the battle (this replaces its previous one)."
+            "Elige un agente MANO DEL ARCONTE amigo a 3\" o menos de esta agente y visible para él, y a continuación elige una de las siguientes opciones para ese agente amigo:"
+            "- Recupera hasta 2D3 heridas perdidas.",
+            "-  Elige una regla **DROGA DE COMBATE** distinta para que la tenga en esa batalla (esto reemplaza a la anterior)."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
           ]
         }
       ]
@@ -685,7 +685,7 @@
       "opTypeId": "AEL-HOTA-KFLAY",
       "killteamId": "AEL-HOTA",
       "seq": 6,
-      "opTypeName": "Kabalite Flayer",
+      "opTypeName": "DESPELLEJADOR",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -697,7 +697,7 @@
           "wepId": "AEL-HOTA-KFLAY-PS",
           "opTypeId": "AEL-HOTA-KFLAY",
           "seq": 0,
-          "wepName": "Pain Sculptors",
+          "wepName": "Escultores de dolor",
           "wepType": "M",
           "profiles": [
             {
@@ -724,8 +724,8 @@
         {
           "abilityId": "AEL-HOTA-KFLAY-A-ITP",
           "opTypeId": "AEL-HOTA-KFLAY",
-          "abilityName": "Insensible To Pain",
-          "description": "Normal and Critical Dmg of 3 or more inflicts 1 less damage on this operative."
+          "abilityName": "Insensible al dolor",
+          "description": " Los Daños normales y críticos de 3 o más infligen 1 daño menos a este agente."
         }
       ]
     },
@@ -733,7 +733,7 @@
       "opTypeId": "AEL-HOTA-KGNR",
       "killteamId": "AEL-HOTA",
       "seq": 7,
-      "opTypeName": "Kabalite Gunner",
+      "opTypeName": "TIRADOR",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -818,7 +818,7 @@
       "opTypeId": "AEL-HOTA-KHGNR",
       "killteamId": "AEL-HOTA",
       "seq": 8,
-      "opTypeName": "Kabalite Heavy Gunner",
+      "opTypeName": "TIRADOR PESADO",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -844,7 +844,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-PIERCING",
@@ -865,14 +865,14 @@
               "wepprofileId": "AEL-HOTA-KHGNR-SC-0",
               "wepId": "AEL-HOTA-KHGNR-SC",
               "seq": 0,
-              "profileName": "Focused",
+              "profileName": "Concentrado",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -884,14 +884,14 @@
               "wepprofileId": "AEL-HOTA-KHGNR-SC-1",
               "wepId": "AEL-HOTA-KHGNR-SC",
               "seq": 1,
-              "profileName": "Sweeping",
+              "profileName": "Barrido",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -931,7 +931,7 @@
       "opTypeId": "AEL-HOTA-KSA",
       "killteamId": "AEL-HOTA",
       "seq": 9,
-      "opTypeName": "Kabalite Skysplinter Assassin",
+      "opTypeName": "ASESINO PARTECIELOS",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "4+",
@@ -943,7 +943,7 @@
           "wepId": "AEL-HOTA-KSA-RW",
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 0,
-          "wepName": "Razorwing",
+          "wepName": "Filopluma",
           "wepType": "R",
           "profiles": [
             {
@@ -972,7 +972,7 @@
           "wepId": "AEL-HOTA-KSA-SC",
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 1,
-          "wepName": "Shardcarbine",
+          "wepName": "Carabina cristalina",
           "wepType": "R",
           "profiles": [
             {
@@ -1020,14 +1020,14 @@
         {
           "abilityId": "AEL-HOTA-KSA-A-MH",
           "opTypeId": "AEL-HOTA-KSA",
-          "abilityName": "Merciless Hunter",
-          "description": "If this operative does not perform the Mark unique action (see right) during its activation, it can perform two Shoot actions during its activation, but a razorwing must be selected for one (and only one) of those actions."
+          "abilityName": "Cazador implacable",
+          "description": "Si este agente no realiza la acción única **Marcar** (ver reverso de la tarjeta) durante su activación, puede realizar dos acciones de **Disparar** durante su activación, pero debe elegirse un filopluma para una (y solo una) de estas acciones."
         },
         {
           "abilityId": "AEL-HOTA-KSA-A-OMEN",
           "opTypeId": "AEL-HOTA-KSA",
-          "abilityName": "Omen",
-          "description": "In the Select Operatives step, when you're selecting equipment, you can select one enemy operative or one other friendly HAND OF THE ARCHON operative (reveal your selection when you reveal equipment).  \n\nWhenever attack or defence dice are rolled for that operative:\n\n- If it's an enemy operative, your opponent must re-roll their dice results of 6.\n- If it's a friendly operative, you can re-roll any of your dice results of 1.\n"
+          "abilityName": "Presagio",
+          "description": "En el paso de Elegir agentes, cuando selecciones el equipo, puedes elegir un agente enemigo u otro agente MANO DEL ARCONTE amigo distinto (revela tu selección cuando reveles el equipo).  \n\n Cuando se tiren dados de ataque o defensa por ese agente:\n\n- Si es un agente enemigo, tu oponente debe repetir sus resultados de 6.\n- Si es un agente amigo, puedes repetir cualesquiera de tus resultados de 1.\n"
         }
       ],
       "actions": [
@@ -1036,15 +1036,15 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Mark",
+          "name": "MARCAR",
           "description": null,
           "effects": [
-            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever this operative is shooting that enemy operative you can use this effect. If you do:",
-            "- This operative's ranged weapons have the Seek Light weapon rule.",
-            "- That enemy operative cannot be obscured."
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, cuando este agente dispare contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "-  Las armas a distancia de este agente tienen la regla de armas Buscadora (Ligero).",
+            "-  Ese agente enemigo no puede estar ofuscado."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
           ]
         }
       ]
