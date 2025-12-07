@@ -89,7 +89,7 @@
       "killteamId": null,
       "seq": 610,
       "eqName": "Explosive Grenades",
-      "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).",
+      "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).\nEach selection is a unique weapon your operatives can use, but your kill team can only use that weapon a total number of times during the battle equal to your selection.",
       "amount": 2,
       "weapons": [
         {
