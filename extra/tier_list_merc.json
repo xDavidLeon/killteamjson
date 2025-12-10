@@ -1,62 +1,48 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-11-15",
-  "source": "Community Meta Analysis",
-  "title": "Kill Team Mercenarios Tier List",
+  "lastUpdated": "2025-12-10",
+  "source": "Kill Team Mercenrios podcast",
+  "title": "KT Mercenarios 11/25",
   "tiers": {
     "S": [
-      "NEC-CAN",
-      "IMP-DW"
+      "IMP-WS",
+      "NEC-CAN"
     ],
     "A+": [
-      "CHAOS-FELL",
-      "AEL-MND",
       "TYR-BBRO",
-      "AEL-BOK",
-      "IMP-TEMPAQ",
-      "TYR-RAV",
-      "CHAOS-GORE",
-      "CHAOS-CULT"
+      "IMP-DW",
+      "CHAOS-FELL",
+      "AEL-MND"
     ],
     "A": [
       "ORK-WK",
       "TAU-VESP",
+      "IMP-TEMPAQ",
+      "AEL-BOK",
+      "IMP-AOD",
+      "CHAOS-CULT",
+      "CHAOS-GORE",
+      "VOT-HKS",
+      "VOT-HKY",
       "IMP-INQ",
-      "VOT-HKY",      
-      "NEC-HIER",
       "CHAOS-NC",
-      "IMP-INB",
-      "IMP-AES"
+      "CHAOS-PM",
+      "TYR-RAV"
     ],
     "B": [
-      "IMP-AOD",
-      "CHAOS-PM",
-      "AEL-HOTA",
-      "IMP-SCT",
-      "IMP-RAT",
+      "TAU-SB",
+      "IMP-AES",
       "TAU-FSKB",
-      "IMP-KAS",
-      "IMP-SANC"
+      "AEL-HOTA",
+      "NEC-HIER",
+      "IMP-INB",
+      "IMP-RAT",
+      "IMP-SANC",
+      "IMP-SCT"
     ],
     "C": [
-      "VOT-HKS",
-      "IMP-BC"
-    ],
-    "D": [
-      "CHAOS-BLD",
-      "AEL-COR",
-      "IMP-DKK",
-      "IMP-ESS",
-      "IMP-HC",
-      "CHAOS-LEG",
-      "ORK-KOM",
-      "CHAOS-GPI",
-      "TAU-PF",
-      "CHAOS-WC",
-      "TYR-WB",
-      "IMP-NOV",
-      "IMP-PHO",
-      "AEL-VDT"
+      "IMP-BC",
+      "IMP-KAS"
     ]
   }
 }
