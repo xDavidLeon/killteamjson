@@ -5,9 +5,9 @@
   "classified": false,
   "season": "Octarius",
   "file": "https://assets.warhammer-community.com/eng_29-10_kt_teamrules_kommandos-u3kzqkdrdq-qsgcyhj4pc.pdf",
-  "killteamName": "Kommandos",
-  "description": "A Kommando is an Ork Boy specialist who prefers to rely on \"kunning trikz\" instead of fighting his opponents head-on like most other Greenskins.\n  \n  \n\nKommandoz serve as the Orks' infiltrators and saboteurs, and are masters of the arts of stealth, ambush, unconventional tactics and striking at the opponent from a totally unexpected quarter. ",
-  "composition": "A KOMMANDOS KillTeam is composed of:\n\n- 1 KOMMANDO Boss Nob operative with one of the following options:\n  - Slugga; Big Choppa\n  - Slugga; Power Klaw\n- 9 KOMMANDO operatives selected from the following list:\n  - Bomb Squig (X)\n  - Boy\n  - Breacha Boy\n  - Burna Boy\n  - Comms Boy\n  - Dakka Boy\n  - Grot (X)\n  - Rokkit Boy\n  - Slasha Boy\n  - Snipa Boy\n\nOther than BOY operatives, your kill team can only include each operative on this list once.  \n\n(X) These operatives count as half a selection each, meaning you can select both of them and it's treated as one selection in total.",
+  "killteamName": "Orkomandos",
+  "description": "A diferencia de la mayor parte de su especie, Los Orkomandos aprecian la sutileza. Usarán cualquier truco sucio y rastrero que se les ocurra para lograr sus metas. Por supuesto, en cuanto estalla la pelea, su amor por la violencia sale a relucir.",
+  "composition": "Un equipo de exterminio de ORKOMANDOS está compuesto por:\n\n- 1 1 agente NOBLE ORKOMANDO con una de las siguientes opciones:\n  - Piztola; gran rebanadora\n  -  Piztola; garra d'energía\n- 9 agentes ORKOMANDO elegidos de la siguiente lista:\n  - GARRAPATO BOMBA (X)\n  - ORKORRASO\n  - ORKORIETE\n  - ACHICHARRADOR\n  -  TELEKO\n  - ZUELTADAKKA\n  - KANIJO (X)\n  - CHIKO KOBETE\n  - RAJADOR\n  - FRANCOTIRADORK\n\nSalvo agentes ORKORRASO, tu comando solo puede incluir uno de cada uno de los agentes de esta lista. \n\n(X) Estos agentes cuentan como media opción cada uno, lo que significa que puedes elegir ambos y cuentan como una sola elección.",
   "archetypes": [
     "Seek & Destroy",
     "Infiltration"
@@ -19,15 +19,15 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "DAKKA! DAKKA! DAKKA!",
-      "description": "Friendly KOMMANDO operatives' ranged weapons have the Punishing weapon Rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+      "description": "Las armas a distancia de los agentes ORKOMANDO amigos tienen la regla de arma Castigadora."
     },
     {
       "ployId": "ORK-KOM-S-SA",
       "killteamId": "ORK-KOM",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Skulk About",
-      "description": "Whenever an enemy operative is shooting a friendly KOMMANDO operative that has a Conceal order, you can retain one of your defence dice as a normal success without rolling it (in addition to a cover save, if any)."
+      "ployName": "EZKONDIDOZ",
+      "description": "Cada vez que un agente enemigo dispara a un agente ORKOMANDO amigo que tenga una orden de ocultarse, puedes guardar uno de tus dados de defensa como éxito normal sin tirarlo (además de la salvación por cobertura, si dispones de ella)."
     },
     {
       "ployId": "ORK-KOM-S-SHHH",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "SSSSHHHH!",
-      "description": "Each friendly KOMMANDO operative that is not a valid target for enemy operatives, or has a conceal order and is more than 6\" from enemy operatives, can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
+      "description": "Cada agente ORKOMANDO amigo que no sea un blanco válido para los agentes enemigos, o que tenga una orden de ocultarse y se encuentre a más de 6\" de todo agente enemigo, puede realizar inmediatamente una acción libre de Correr. No puedes usar este ardid durante el primer punto de inflexión."
     },
     {
       "ployId": "ORK-KOM-S-WAAGH",
@@ -43,39 +43,39 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "WAAAGH!",
-      "description": "Friendly KOMMANDO operatives' melee weapons have the Balanced weapon rule.  \n**Balanced:** Can re-roll one Attack die."
+      "description": "Las armas de combate de los agentes ORKOMANDO amigos tienen la regla de arma Equilibrada."
     },
     {
       "ployId": "ORK-KOM-T-JAS",
       "killteamId": "ORK-KOM",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Just A Scratch",
-      "description": "Use this firefight ploy when an attack dice inflicts Normal Damage on a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT). Ignore that inflicted damage."
+      "ployName": "ZOLO EZ UN RAZGUÑO",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflige Daño normal a un agente ORKOMANDO amigo (que no sea GARRAPATO BOMBA o GROT). Ignora ese daño infligido"
     },
     {
       "ployId": "ORK-KOM-T-KBB",
       "killteamId": "ORK-KOM",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Kunnin' But Brutal",
-      "description": "Use this firefight ploy when a friendly KOMMANDO operative that has a Conceal order is fighting during an activation in which it has performed the Charge action, you're resolving the first attack die and it is a strike with a normal success.\nTreat that normal success as a critical success instead."
+      "ployName": "AZTUTOZ PERO BRUTOZ",
+      "description": "Usa este ardid de tiroteo cuando un agente ORKOMANDO amigo que tenga una orden de ocultarse esté combatiendo durante una activación en la que haya realizado una acción de **Cargar**, al resolver el primer dado de ataque, si este golpea con un éxito normal. \n Ese éxito normal se considera un éxito crítico en su lugar."
     },
     {
       "ployId": "ORK-KOM-T-KE",
       "killteamId": "ORK-KOM",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Krump 'Em",
-      "description": "Use this firefight ploy at the end of the Firefight phase. Select one friendly KOMMANDO operative. It can immediately perform a free Fight action."
+      "ployName": "¡MACHAKAZLOZ!",
+      "description": "Usa este ardid de tiroteo al final de la fase de tiroteo. Elige un agente ORKOMANDO amigo. Este puede realizar inmediatamente una acción libre de **Combatir**."
     },
     {
       "ployId": "ORK-KOM-T-SIO",
       "killteamId": "ORK-KOM",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Shake It Off",
-      "description": "Use this firefight ploy when a friendly Kommando operative is activated, or when its APL stat is changed. Until the start of the next turning point, you can ignore any changes to its APL stat."
+      "ployName": "NO TE PAREZ",
+      "description": "Usa este ardid de tiroteo cuando un agente ORKOMANDO amigo es activado, o cuando su atributo LPA cambia. Hasta el inicio del siguiente punto de inflexión, puedes ignorar cualquier cambio a su atributo LPA."
     }
   ],
   "equipments": [
@@ -83,19 +83,19 @@
       "eqId": "ORK-KOM-CHP",
       "killteamId": "ORK-KOM",
       "seq": 1,
-      "eqName": "Choppas",
-      "description": "Friendly KOMMANDO operatives (excluding BOMB SQUIG and GROT) have the following melee weapon. Note that some operatives already have this weapon but with better stats, in that instance, use the better version.",
+      "eqName": "REBANADORAZ",
+      "description": "Los agentes ORKOMANDO amigos (salvo **GARRAPATO BOMBA** o **GROT**) tienen la siguiente arma de combate. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la versión que sea mejor.",
       "weapons": [
         {
-          "wepId": "ORK-KOM-CHP-CHOPPA",
+          "wepId": "ORK-KOM-CHP-Rebanadora",
           "opTypeId": null,
           "seq": 0,
-          "wepName": "Choppa",
+          "wepName": "Rebanadora",
           "wepType": "M",
           "profiles": [
             {
-              "wepprofileId": "ORK-KOM-CHP-CHOPPA-0",
-              "wepId": "ORK-KOM-CHP-CHOPPA",
+              "wepprofileId": "ORK-KOM-CHP-Rebanadora-0",
+              "wepId": "ORK-KOM-CHP-Rebanadora",
               "seq": 0,
               "profileName": "",
               "ATK": "3",
@@ -106,28 +106,28 @@
           ]
         }
       ],
-      "effects": "ADDWEP:Choppa|M|3|3+|4/5|"
+      "effects": "ADDWEP:Rebanadora|M|3|3+|4/5|"
     },
     {
       "eqId": "ORK-KOM-CS",
       "killteamId": "ORK-KOM",
       "seq": 2,
-      "eqName": "Collapsible Stocks",
-      "description": "Remove the Range weapon rule from the following ranged weapons that friendly KOMMANDO operatives have:\r \r- Shokka Pistol\r - Slugga\r ",
+      "eqName": "CULATA PLEGABLE",
+      "description": "Elimina la regla de arma Alcance de las siguientes armas a distancia que tengan los agentes ORKOMANDO amigos:\r \r-  Piztola kalambrazo\r - Piztola\r ",
       "effects": ""
     },
     {
       "eqId": "ORK-KOM-DYN",
       "killteamId": "ORK-KOM",
       "seq": 3,
-      "eqName": "Dynamite",
-      "description": "Once per battle, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:",
+      "eqName": "DINAMITA",
+      "description": "Una vez por batalla, un agente ORKOMANDO amigo (que no sea GARRAPATO BOMBA o GROT) puede usar la siguiente arma a distancia:",
       "weapons": [
         {
           "wepId": "ORK-KOM-DYN-DYNAMITE",
           "opTypeId": null,
           "seq": 0,
-          "wepName": "Dynamite",
+          "wepName": "Dinamita",
           "wepType": "R",
           "profiles": [
             {
@@ -149,7 +149,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Reposition"
+                  "details": "Reposicionar"
                 },
                 {
                   "id": "WR-UNIV-SATURATE"
@@ -165,14 +165,14 @@
       "eqId": "ORK-KOM-HRP",
       "killteamId": "ORK-KOM",
       "seq": 4,
-      "eqName": "Harpoon",
-      "description": "Once per turning point, a friendly KOMMANDO operative (excluding BOMB SQUIG and GROT) can use the following Ranged Weapon:",
+      "eqName": "ARPÓN",
+      "description": "Una vez por punto de inflexión, un agente ORKOMANDO amigo (salvo GARRAPATO BOMBA o GROT) puede usar la siguiente arma a distancia:",
       "weapons": [
         {
           "wepId": "ORK-KOM-HRP-HARPOON",
           "opTypeId": null,
           "seq": 0,
-          "wepName": "Harpoon",
+          "wepName": "Arpón",
           "wepType": "R",
           "profiles": [
             {
@@ -208,7 +208,7 @@
       "opTypeId": "ORK-KOM-NOB",
       "killteamId": "ORK-KOM",
       "seq": 1,
-      "opTypeName": "Kommando Boss Nob",
+      "opTypeName": "NOBLE ORKOMANDO",
       "MOVE": "6\"",
       "APL": 3,
       "SAVE": "5+",
@@ -220,7 +220,7 @@
           "wepId": "ORK-KOM-NOB-SLG",
           "opTypeId": "ORK-KOM-NOB",
           "seq": 1,
-          "wepName": "Slugga",
+          "wepName": "Piztola",
           "wepType": "R",
           "profiles": [
             {
@@ -244,7 +244,7 @@
           "wepId": "ORK-KOM-NOB-BC",
           "opTypeId": "ORK-KOM-NOB",
           "seq": 2,
-          "wepName": "Big Choppa",
+          "wepName": "Gran rebanadora",
           "wepType": "M",
           "profiles": [
             {
@@ -263,7 +263,7 @@
           "wepId": "ORK-KOM-NOB-PC",
           "opTypeId": "ORK-KOM-NOB",
           "seq": 3,
-          "wepName": "Power Klaw",
+          "wepName": "Garra d'energía",
           "wepType": "M",
           "profiles": [
             {
@@ -290,14 +290,14 @@
         {
           "abilityId": "ORK-KOM-NOB-A-TS",
           "opTypeId": "ORK-KOM-NOB",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente **ORKOMANDO** amigo (salvo **GARRAPATO BOMBA**) puede realizar acciones de Cargar aunque tenga una orden de ocultarse."
         },
         {
           "abilityId": "ORK-KOM-NOB-KT",
           "opTypeId": "ORK-KOM-NOB",
-          "abilityName": "Krumpin' Time",
-          "description": "This operative can perform two Fight actions during its activation"
+          "abilityName": "La hora de laz tortaz",
+          "description": "Este agente puede realizar 2 acciones de Combatir durante su activación"
         }
       ],
       "actions": [
@@ -306,14 +306,14 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Get it Dun",
+          "name": "¡MANOZ A LA OBRA!",
           "description": null,
           "effects": [
-            "**SUPPORT** Select one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.",
-            "Until the end of that operative's next activation add 1 to its APL stat."
+            "**APOYO**  Elige un agente ORKOMANDO amigo distinto (salvo GARRAPATO BOMBA) a 6\" o menos de este agente y visible para él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o como reacción."
           ]
         }
       ]
@@ -322,7 +322,7 @@
       "opTypeId": "ORK-KOM-BOY",
       "killteamId": "ORK-KOM",
       "seq": 2,
-      "opTypeName": "Kommando Boy",
+      "opTypeName": "ORKORRASO",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -334,7 +334,7 @@
           "wepId": "ORK-KOM-BOY-SLG",
           "opTypeId": "ORK-KOM-BOY",
           "seq": 1,
-          "wepName": "Slugga",
+          "wepName": "Piztola",
           "wepType": "R",
           "profiles": [
             {
@@ -358,7 +358,7 @@
           "wepId": "ORK-KOM-BOY-CHP",
           "opTypeId": "ORK-KOM-BOY",
           "seq": 2,
-          "wepName": "Choppa",
+          "wepName": "Rebanadora",
           "wepType": "M",
           "profiles": [
             {
@@ -378,14 +378,14 @@
         {
           "abilityId": "ORK-KOM-BOY-A-TS",
           "opTypeId": "ORK-KOM-BOY",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         },
         {
           "abilityId": "ORK-KOM-BOY-A-TWN",
           "opTypeId": "ORK-KOM-BOY",
-          "abilityName": "Tactical Wot-Notz",
-          "description": "You can do one of each of the following once per turning point:\r \r - One friendly KOMMANDO BOY can perform the Smoke Grenade action\r - One friendly KOMMANDO BOY can perform the Stun Grenade action\r \r The rules for these actions are found in universal equipment.  \n\r Performing these actions using this rule does not count towards their action limits (i.e, if you select those grenades from equipment)."
+          "abilityName": "Kachivachez táktikoz",
+          "description": "Puedes llevar a cabo cada una de las siguientes opciones una vez por punto de inflexión:\r \r -  Un agente ORKORRASO ORKOMANDO amigo puede realizar la acción Granada de humo\r -  Un agente ORKORRASO ORKOMANDO amigo puede realizar la acción Granada aturdidora.\r \r Las reglas para esas acciones figuran en el equipo universal.  \n\r Realizar esas acciones usando esta regla no cuenta para sus límites de acciones (es decir, si también eliges esas granadas como equipo)."
         }
       ]
     },
@@ -393,7 +393,7 @@
       "opTypeId": "ORK-KOM-GROT",
       "killteamId": "ORK-KOM",
       "seq": 3,
-      "opTypeName": "Kommando Grot",
+      "opTypeName": "KANIJO KOMANDO",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -405,7 +405,7 @@
           "wepId": "ORK-KOM-GROT-GC",
           "opTypeId": "ORK-KOM-GROT",
           "seq": 1,
-          "wepName": "Grot Choppa",
+          "wepName": "Rebanadora de Grot",
           "wepType": "M",
           "profiles": [
             {
@@ -425,14 +425,14 @@
         {
           "abilityId": "ORK-KOM-GROT-A-SZ",
           "opTypeId": "ORK-KOM-GROT",
-          "abilityName": "Sneaky Zogger",
-          "description": "This operative cannot have an Engage order. Whenever this operative is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g, Seek, Vantage Terrain) except being within 2\"."
+          "abilityName": "Ezkurridizo",
+          "description": " Este agente no puede tener una orden de trabarse. Siempre que este agente esté tras cobertura, no puede ser elegido como blanco válido, teniendo esto prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos.."
         },
         {
           "abilityId": "ORK-KOM-GROT-A-TS",
           "opTypeId": "ORK-KOM-GROT",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ],
       "actions": [
@@ -441,14 +441,14 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Grappling Hook",
+          "name": "GANCHO PA’ TREPAR",
           "description": null,
           "effects": [
-            "Selected a visible point on a terrain feature for this operative.",
-            "Remove this operative from the killzone and set it back up within 1\" horizontally of that point in a location it can be placed, not within control range of enemy operatives, and with that point visible to it.",
-            "The operative cannot perform the Operate Hatch action during this action.",
-            "This action is treated as a Reposition action.",
-            "This operative cannot perform this action while within control range of an enemy operative, or during an activation in which it performed the Charge or Fall Back action (or vice-versa)."
+            "Elige un punto visible en un elemento de terreno para este agente.",
+            ". Retira a este agente de la zona de aniquilación y despliégalo de nuevo a 1\" o menos en horizontal de ese punto, en una localización donde ser desplegado, fuera de la zona de control de todo agente enemigo y con el punto elegido visible para él.",
+            "Este agente no puede realizar la acción Operar portillo durante esta acción.",
+            "Esta acción se considera una acción de Reposicionarse.",
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, ni durante una activación en la que haya realizado una acción de Cargar o Retroceder (o viceversa)."
           ]
         }
       ]
@@ -457,7 +457,7 @@
       "opTypeId": "ORK-KOM-SLS",
       "killteamId": "ORK-KOM",
       "seq": 4,
-      "opTypeName": "Kommando Slasha Boy",
+      "opTypeName": "RAJADOR",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -469,7 +469,7 @@
           "wepId": "ORK-KOM-SLS-TK",
           "opTypeId": "ORK-KOM-SLS",
           "seq": 1,
-          "wepName": "Throwing Knives",
+          "wepName": "Kuchilloz arrojadizoz",
           "wepType": "R",
           "profiles": [
             {
@@ -496,7 +496,7 @@
           "wepId": "ORK-KOM-SLS-TC",
           "opTypeId": "ORK-KOM-SLS",
           "seq": 2,
-          "wepName": "Twin Choppas",
+          "wepName": "Rebanadoraz gemelaz",
           "wepType": "M",
           "profiles": [
             {
@@ -524,14 +524,14 @@
         {
           "abilityId": "ORK-KOM-SLS-A-DAYG",
           "opTypeId": "ORK-KOM-SLS",
-          "abilityName": "Dat All You Got?",
-          "description": "After this operative fights or rretaliates, if it was not incapacitated, you can inflict 1D3 damage on the enemy operative in that sequence."
+          "abilityName": "¿Ez lo mejor ke zabez hazer?",
+          "description": " Después de que este agente combata o contraataque, si no resulta incapacitado puedes infligir 1D3 daños al agente enemigo en dicha secuencia."
         },
         {
           "abilityId": "ORK-KOM-SLS-A-TS",
           "opTypeId": "ORK-KOM-SLS",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ]
     },
@@ -539,7 +539,7 @@
       "opTypeId": "ORK-KOM-BRC",
       "killteamId": "ORK-KOM",
       "seq": 5,
-      "opTypeName": "Kommando Breacha Boy",
+      "opTypeName": "ORKORIETE",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -551,7 +551,7 @@
           "wepId": "ORK-KOM-BRC-SLG",
           "opTypeId": "ORK-KOM-BRC",
           "seq": 1,
-          "wepName": "Slugga",
+          "wepName": "Piztola",
           "wepType": "R",
           "profiles": [
             {
@@ -575,7 +575,7 @@
           "wepId": "ORK-KOM-BRC-RAM",
           "opTypeId": "ORK-KOM-BRC",
           "seq": 2,
-          "wepName": "Breacha Ram",
+          "wepName": "Ariete de azedio",
           "wepType": "M",
           "profiles": [
             {
@@ -605,8 +605,8 @@
         {
           "abilityId": "ORK-KOM-BRC-A-TS",
           "opTypeId": "ORK-KOM-BRC",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ],
       "actions": [
@@ -615,16 +615,16 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Breach",
+          "name": "ABRIR BRECHA",
           "description": null,
           "effects": [
-            "Place one of your Breach markers within this operative's control range as close as possible to a terrain feature within control range of it.",
-            "Whenever an operative is within 1\" of that marker, it treats parts of that terrain feature that are no more than 1\" thick as Accessible Terrain.",
-            "This operative can perform this action during the Charge or Reposition action, and it can do so for 1 less AP during those actions.",
-            "Any remaining move distance can be used after it does so."
+            "Coloca uno de tus marcadores de Brecha dentro de la zona de control de este agente y tan cerca como sea posible de un elemento de terreno dentro de su zona de control",
+            " Cuando un agente se encuentre a 1\" o menos de ese marcador, las partes de ese elemento de terreno que no tengan más de 1\" de grosor se considerarán terreno Accesible para él.",
+            "Este agente puede realizar esta acción durante una acción de Cargar o Reposicionarse, y le cuesta 1 PA menos durante esas acciones.",
+            " Tras hacerlo, puede usar la distancia de movimiento que le quedase."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative or if a terrain feature is not within its control range."
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si no hay un elemento de terreno en su zona de control."
           ]
         }
       ]
@@ -633,7 +633,7 @@
       "opTypeId": "ORK-KOM-SNP",
       "killteamId": "ORK-KOM",
       "seq": 6,
-      "opTypeName": "Kommando Snipa Boy",
+      "opTypeName": "FRANCOTIRADORK",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -645,14 +645,14 @@
           "wepId": "ORK-KOM-SNP-SBS",
           "opTypeId": "ORK-KOM-SNP",
           "seq": 1,
-          "wepName": "Scoped Big Shoota",
+          "wepName": "Akribillador pezado kon mirilla",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-0",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 0,
-              "profileName": "Concealed",
+              "profileName": "oculto",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "3/3",
@@ -676,7 +676,7 @@
               "wepprofileId": "ORK-KOM-SNP-SBS-1",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 1,
-              "profileName": "Stationary",
+              "profileName": "inmóvil",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "3/3",
@@ -694,14 +694,14 @@
               "wepprofileId": "ORK-KOM-SNP-SBS-2",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 2,
-              "profileName": "Sweeping",
+              "profileName": "barrido",
               "ATK": "5",
               "HIT": "3+",
               "DMG": "3/4",
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": " Correr"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
@@ -715,7 +715,7 @@
           "wepId": "ORK-KOM-SNP-F ",
           "opTypeId": "ORK-KOM-SNP",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puñoz",
           "wepType": "M",
           "profiles": [
             {
@@ -735,8 +735,8 @@
         {
           "abilityId": "ORK-KOM-SNP-A-TS",
           "opTypeId": "ORK-KOM-SNP",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ]
     },
@@ -744,7 +744,7 @@
       "opTypeId": "ORK-KOM-DAK",
       "killteamId": "ORK-KOM",
       "seq": 7,
-      "opTypeName": "Kommando Dakka Boy",
+      "opTypeName": "ZUELTADAKKA",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -756,14 +756,14 @@
           "wepId": "ORK-KOM-DAK-DS",
           "opTypeId": "ORK-KOM-DAK",
           "seq": 1,
-          "wepName": "Dakka Shoota",
+          "wepName": "Dakkatralladora",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DAK-DS-0",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 0,
-              "profileName": "Short Range",
+              "profileName": "corto alcance",
               "ATK": "5",
               "HIT": "4+",
               "DMG": "3/4",
@@ -781,7 +781,7 @@
               "wepprofileId": "ORK-KOM-DAK-DS-1",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 1,
-              "profileName": "Long Range",
+              "profileName": "largo alcance",
               "ATK": "5",
               "HIT": "4+",
               "DMG": "3/4",
@@ -793,7 +793,7 @@
           "wepId": "ORK-KOM-DAK-F",
           "opTypeId": "ORK-KOM-DAK",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puñoz",
           "wepType": "M",
           "profiles": [
             {
@@ -813,8 +813,8 @@
         {
           "abilityId": "ORK-KOM-DAK-A-TS",
           "opTypeId": "ORK-KOM-DAK",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ],
       "actions": [
@@ -823,13 +823,13 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Dakka Dash",
+          "name": "¡DAKKA A TODA MECHA!",
           "description": null,
           "effects": [
-            "Perform a free Dash action and a free shoot action with this operative in any order. You can only select a Dakka Shoota for that shoot action."
+            "Realiza una acción libre de Correr y una acción libre de Disparar con este agente en cualquier orden. Solo puedes elegir una dakkatralladora para esa acción de Disparar."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative or while it has a Conceal order."
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o mientras tenga una orden de ocultarse"
           ]
         }
       ]
@@ -838,7 +838,7 @@
       "opTypeId": "ORK-KOM-COMMS",
       "killteamId": "ORK-KOM",
       "seq": 8,
-      "opTypeName": "Kommando Comms Boy",
+      "opTypeName": "TELEKO",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -850,7 +850,7 @@
           "wepId": "ORK-KOM-COMMS-SHO",
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 1,
-          "wepName": "Shokka",
+          "wepName": "Piztola kalambrazo",
           "wepType": "R",
           "profiles": [
             {
@@ -884,7 +884,7 @@
           "wepId": "ORK-KOM-COMMS-F",
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puñoz",
           "wepType": "M",
           "profiles": [
             {
@@ -904,14 +904,14 @@
         {
           "abilityId": "ORK-KOM-COMMS-A-IGAPL",
           "opTypeId": "ORK-KOM-COMMS",
-          "abilityName": "I Got A Plan Ladz",
-          "description": "Once during each of this operative's activations, it can perform the Place Marker, Pick Up Marker, or a mission action for 1 less AP."
+          "abilityName": "Tengo un plan, chavalez",
+          "description": ": Una vez por activación de este agente, puede realizar una acción de Colocar marcador, Recoger marcador o una acción de misión por 1 PA menos."
         },
         {
           "abilityId": "ORK-KOM-COMMS-A-TS",
           "opTypeId": "ORK-KOM-COMMS",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ],
       "actions": [
@@ -920,15 +920,15 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Listen In",
+          "name": "EZKUCHADME",
           "description": null,
           "effects": [
-            "**SUPPORT**",
-            "Select one other friendly KOMMANDO operative (excluding BOMB SQUIG) visible to and within 6\" of this operative.",
-            "Until the end of that operative's next activation, add 1 to its APL stat."
+            "**APOYO**",
+            "Elige un agente ORKOMANDO amigo distinto (salvo GARRAPATO BOMBA) a 6\" o menos de este agente y visible para él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
           ]
         }
       ]
@@ -937,7 +937,7 @@
       "opTypeId": "ORK-KOM-BRN",
       "killteamId": "ORK-KOM",
       "seq": 9,
-      "opTypeName": "Kommando Burna Boy",
+      "opTypeName": "ACHICHARRADOR",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -949,14 +949,14 @@
           "wepId": "ORK-KOM-BRN-BRN",
           "opTypeId": "ORK-KOM-BRN",
           "seq": 1,
-          "wepName": "Burna",
+          "wepName": "Achicharrador",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRN-BRN-0",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 0,
-              "profileName": "Standard",
+              "profileName": "estándar",
               "ATK": "4",
               "HIT": "2+",
               "DMG": "3/3",
@@ -978,7 +978,7 @@
               "wepprofileId": "ORK-KOM-BRN-BRN-1",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 1,
-              "profileName": "Deluge",
+              "profileName": "tromba",
               "ATK": "4",
               "HIT": "2+",
               "DMG": "3/3",
@@ -992,7 +992,7 @@
                 },
                 {
                   "id": "WR-UNIV-SEEK",
-                  "details": "Light"
+                  "details": "Ligera"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
@@ -1006,7 +1006,7 @@
           "wepId": "ORK-KOM-BRN-F",
           "opTypeId": "ORK-KOM-BRN",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puñoz",
           "wepType": "M",
           "profiles": [
             {
@@ -1026,8 +1026,8 @@
         {
           "abilityId": "ORK-KOM-BRN-A-TS",
           "opTypeId": "ORK-KOM-BRN",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ]
     },
@@ -1035,7 +1035,7 @@
       "opTypeId": "ORK-KOM-RKT",
       "killteamId": "ORK-KOM",
       "seq": 10,
-      "opTypeName": "Kommando Rokkit Boy",
+      "opTypeName": "CHIKO KOBETE",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -1047,14 +1047,14 @@
           "wepId": "ORK-KOM-RKT-RL",
           "opTypeId": "ORK-KOM-RKT",
           "seq": 1,
-          "wepName": "Rokkit Launcha",
+          "wepName": "Lanzakobetez",
           "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-RKT-RL-0",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 0,
-              "profileName": "Aimed",
+              "profileName": "apuntado",
               "ATK": "6",
               "HIT": "4+",
               "DMG": "4/5",
@@ -1068,7 +1068,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Dash"
+                  "details": "Correr"
                 }
               ]
             },
@@ -1076,7 +1076,7 @@
               "wepprofileId": "ORK-KOM-RKT-RL-1",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 1,
-              "profileName": "Mobile",
+              "profileName": "móvil",
               "ATK": "6",
               "HIT": "4+",
               "DMG": "4/5",
@@ -1093,7 +1093,7 @@
           "wepId": "ORK-KOM-RKT-F",
           "opTypeId": "ORK-KOM-RKT",
           "seq": 2,
-          "wepName": "Fists",
+          "wepName": "Puñoz",
           "wepType": "M",
           "profiles": [
             {
@@ -1113,8 +1113,8 @@
         {
           "abilityId": "ORK-KOM-RKT-A-TS",
           "opTypeId": "ORK-KOM-RKT",
-          "abilityName": "Throat Slittas",
-          "description": "Each friendly KOMMANDO operative (excluding BOMB SQUIG) can perform the Charge action while it has a conceal order."
+          "abilityName": "DEGOLLADOREZ",
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse."
         }
       ]
     },
@@ -1122,7 +1122,7 @@
       "opTypeId": "ORK-KOM-SQUIG",
       "killteamId": "ORK-KOM",
       "seq": 11,
-      "opTypeName": "Kommando Bomb Squig",
+      "opTypeName": "GARRAPATO BOMBA",
       "MOVE": "6\"",
       "APL": 2,
       "SAVE": "5+",
@@ -1134,7 +1134,7 @@
           "wepId": "ORK-KOM-SQUIG-EXPL",
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 1,
-          "wepName": "Explosives",
+          "wepName": "Explozivoz",
           "wepType": "R",
           "profiles": [
             {
@@ -1165,7 +1165,7 @@
           "wepId": "ORK-KOM-SQUIG-BIT",
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 2,
-          "wepName": "Bite",
+          "wepName": "Mordizquitoz",
           "wepType": "M",
           "profiles": [
             {
@@ -1191,14 +1191,14 @@
         {
           "abilityId": "ORK-KOM-SQUIG-A-EXP",
           "opTypeId": "ORK-KOM-SQUIG",
-          "abilityName": "Expendable",
-          "description": "This operative is ignored for your opponent's kill/elimination op (when it is incapacitated, and when determining your starting number of operatives).\r It is also ignored for victory conditions and scoring VPs that require operatives to \"escape\", \"survive\", or be incapacitated by enemy operatives (if it escapes/survives/is incapacitated, determining how many operative must escape/survive/ be incapacitated, etc)."
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para las operaciones de asesinato/eliminación de tu oponente (al quedar incapacitado, y al determinar tu número inicial de agentes). También se ignora para condiciones de victoria y puntuar PV si esto requiere que agentes “escapen”, “sobrevivan” o queden incapacitados por agentes enemigos (si escapa/sobrevive/es incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/ser incapacitados, etc.)."
         },
         {
           "abilityId": "ORK-KOM-SQUIG-A-STP",
           "opTypeId": "ORK-KOM-SQUIG",
-          "abilityName": "Stoopid",
-          "description": "In the Firefight Phase, whenever you determine this operative's order, you cannot select Conceal.\nThis operative cannot perform any actions other than Charge, Dash, Fight, Reposition and Shoot, or use any weapons that are not on its data card."
+          "abilityName": "Eztúpido",
+          "description": " Durante la fase de tiroteo, al determinar la orden de este agente, no puedes elegir ocultarse.\n Este agente no puede realizar otras acciones que no sean Cargar, Combatir, Correr, Disparar o Reposicionarse, ni usar armas que no figuren en su tarjeta de datos."
         }
       ]
     }
