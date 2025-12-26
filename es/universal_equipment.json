@@ -160,7 +160,7 @@
       "id": "ACTION-UE-AMMO-RESUPPLY",
       "type": "mission",
       "seq": 301,
-      "AP": 1,
+      "AP": 0,
       "name": "Recarga de Munición",
       "description": null,
       "effects": [
@@ -209,7 +209,7 @@
       "type": "ability",
       "seq": 304,
       "AP": 1,
-      "name": "GRANADA ATURDIDORA",
+      "name": "Granada aturdidora",
       "description": null,
       "effects": [
         "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Dicho agente y cada otro agente a 1\" o menos de él hace un chequeo de aturdimiento. Para que un agente haga un chequeo de aturdimiento, tira un D6: si el resultado es 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación."
