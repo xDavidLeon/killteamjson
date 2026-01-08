@@ -5,9 +5,9 @@
   "classified": true,
   "season": "Volkus",
   "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_goremongers-q91adtper6-gkkkxyw3tb.pdf",
-  "killteamName": "Goremongers",
-  "description": "Goremongers are among the most lucid and reliable of Khorne's troops, pumping a constant flow of combat stimms mixed with drops of their masters' blood into their systems while still retaining a modicum of cunning and level-headedness. The first thing they do is to cut off their own legs and graft on a new mechanical pair that brings them closer to the ideal physical form, armed with blood letting chainweapons and ritual daggers..",
-  "composition": "A GOREMONGER kill team is composed of:\n\n- 1 GOREMONGER BLOOD HERALD\n- 7 GOREMONGER operatives selected from the following list:\n  - ASPIRANT\n  - BLOODTAKER\n  - IMPALER\n  - INCITER\n  - SKULLCLAIMER\n  - STALKER\n\nOther than ASPIRANT operatives, your kill team can only include each operative on this list once.",
+  "killteamName": "Siembrasangres",
+  "description": "Los comandos de Siembrasangres son territoriales y agresivos, pero verlos como simples carniceros enloquecidos sería simplificar demasiado. Se esfuerzan por imitar la pericia marcial y la disciplina militar de una banda de Desangradores, y son capaces de identificar y destruir activos estratégicos a fin de lograr la victoria en nombre de Khorne.",
+  "composition": "Un comando SIEMBRASANGRES está compuesto por:\n\n- 1 agente HERALDO DE SANGRE SIEMBRASANGRE\n- 7 agentes SIEMBRASANGRE elegidos de la siguiente lista:\n  - ASPIRANTE\n  - CAZASANGRE\n  - EMPALADOR\n  - INCITADOR\n  - RECLAMACRÁNEOS\n  - ACECHANTE\n\nSalvo agentes ASPIRANTE, tu comando solo puede incluir uno de cada uno de los anteriores agentes.",
   "archetypes": [
     "Recon",
     "Seek & Destroy"
@@ -18,64 +18,64 @@
       "killteamId": "CHAOS-GORE",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Augmented Endurance",
-      "description": "Whenever an operative is shooting a friendly GOREMONGER operative, if that friendly operative's GORE TANK is:\n\n- Half, you can re-roll one of your defence dice.\n- Full, you can re-roll any of your defence dice.\n"
+      "ployName": "RESISTENCIA AUMENTADA",
+      "description": "Cuando un agente dispare contra un agente SIEMBRASANGRE amigo, si el DEPÓSITO SANGRIENTO de ese agente amigo está:\n\n- Medio lleno, puedes repetir uno de tus dados de defensa.\n- Lleno, puedes repetir cualesquiera de tus dados de defensa.\n"
     },
     {
       "ployId": "CHAOS-GORE-S-EV",
       "killteamId": "CHAOS-GORE",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Enhanced Violence",
-      "description": "Whenever a friendly GOREMONGER operative's GORE TANK is:\n\n- Half, its melee weapons have the Balanced weapon rule.\n- Full, its melee weapons have the Relentless weapon rule.\n"
+      "ployName": "VIOLENCIA MEJORADA",
+      "description": "Cuando el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo esté: \n\n-  Medio lleno, sus armas de combate tienen la regla de armas Equilibrada.\n- Lleno, sus armas de combate tienen la regla de armas Implacable.\n"
     },
     {
       "ployId": "CHAOS-GORE-S-GT",
       "killteamId": "CHAOS-GORE",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Gory Tenacity",
-      "description": "Whenever a friendly GOREMONGER operative is fighting or retaliating, the first time your opponent strikes it during that sequence, halve the damage inflicted (rounding up and to a minimum of 2)."
+      "ployName": "TENACIDAD SANGRIENTA",
+      "description": "Cuando un agente SIEMBRASANGRE amigo combata o contraataque, la primera vez que tu oponente golpee durante esa secuencia, reduce a la mitad el daño infligido (redondeando al alza y hasta un mínimo de 2)."
     },
     {
       "ployId": "CHAOS-GORE-S-HFB",
       "killteamId": "CHAOS-GORE",
       "ployType": "S",
       "seq": 1,
-      "ployName": "Hunt For Blood",
-      "description": "Select one friendly GOREMONGER operative. If it has a Conceal order, change it to Engage. Then it can immediately perform a free Charge action, but cannot move more than 3\" during that action."
+      "ployName": "CAZAR POR LA SANGRE",
+      "description": "Elige un agente SIEMBRASANGRE amigo. Si tiene una orden de Ocultarse, cámbiala a Trabarse. A continuación, puede realizar de inmediato una acción libre de Cargar, pero no puede moverse más de 3\" durante dicha acción."
     },
     {
       "ployId": "CHAOS-GORE-T-DD",
       "killteamId": "CHAOS-GORE",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Destructive Demise",
-      "description": "Use this firefight ploy when a friendly GOREMONGER operative is incapacitated, before it's removed from the killzone. Inflict damage determined by that friendly operative's GORE TANK on one enemy operative within that friendly operative's control range.\n  \nInflict:\n\n- D3 if empty.\n- D3+1 if half.\n- D3+2 if full.\n"
+      "ployName": "MORIR MATANDO",
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo resulte incapacitado, antes de retirarlo de la zona de aniquilación. Inflige daño, determinado por el DEPÓSITO SANGRIENTO de ese agente amigo, a un agente enemigo en la zona de control de ese agente amigo.\n  \nInflígele:\n\n- 1D3 si está vacío.\n-  1D3+1 si está medio lleno.\n- 1D3+2 si está lleno.\n"
     },
     {
       "ployId": "CHAOS-GORE-T-GT",
       "killteamId": "CHAOS-GORE",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Gorethirst",
-      "description": "Use this firefight ploy when you would counteract. You can do so with one friendly GOREMONGER operative that has a Conceal order, but you must change its order to Engage and it cannot perform any actions other than Charge, Shoot or Fight during that counteraction."
+      "ployName": "ANSIA DE SANGRE",
+      "description": "Usa este ardid de tiroteo cuando vayas a reaccionar. Puedes hacerlo con un agente SIEMBRASANGRE amigo que tenga una orden de Ocultarse, pero antes de que reaccione debes cambiar su orden a Trabarse y durante esa reacción no podrá llevar a cabo acciones que no sean Cargar, Combatir o Disparar."
     },
     {
       "ployId": "CHAOS-GORE-T-LF",
       "killteamId": "CHAOS-GORE",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Lacerate Flesh",
-      "description": "Use this firefight ploy when a friendly GOREMONGER operative with an empty GORE TANK is activated or counteracts. Increase that operative's GORE TANK.\nAt the end of that activation/counteraction, decrease its GORE TANK (you cannot use this decrease to use a SANGUAVITAE rule); if you cannot decrease its GORE TANK, inflict D3 damage on it."
+      "ployName": "LACERAR CARNE",
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo con un DEPÓSITO SANGRIENTO vacío sea activado o reaccione. Incrementa el DEPÓSITO SANGRIENTO de ese agente.\nAl final de esa activación o reacción, disminuye su DEPÓSITO SANGRIENTO (no puedes aprovechar esta disminución para usar una regla SANGUAVITAE); si no puedes disminuir el DEPÓSITO SANGRIENTO, inflígele 1D3 daños."
     },
     {
       "ployId": "CHAOS-GORE-T-UBA",
       "killteamId": "CHAOS-GORE",
       "ployType": "T",
       "seq": 1,
-      "ployName": "Unbridled Aggression",
-      "description": "Use this firefight ploy when a friendly GOREMONGER operative is fighting during an activation in which it performed the Charge action, at the end of the Roll Attack Dice step.\nUntil the end of that sequence, that operative's melee weapons have the Severe weapon rule."
+      "ployName": "AGRESIÓN DESENFRENADA",
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo combata durante una activación en la que haya realizado una acción de Cargar, al final del paso de Tirar dados de ataque.\nHasta el final de esa secuencia, las armas de combate de ese agente tienen la regla de armas Severa."
     }
   ],
   "equipments": [
@@ -83,50 +83,50 @@
       "eqId": "CHAOS-GORE-GT",
       "killteamId": "CHAOS-GORE",
       "seq": 1,
-      "eqName": "Gory Totem",
-      "description": "Before the battle, you can set up one of your Gory Totem markers wholly within your territory and more than 2\" from other markers (excluding your Bloody Cadaver marker).\nWhenever an enemy operative within 3\" of your Gory Totem marker is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice.",
+      "eqName": "TÓTEM SANGUINOLENTO",
+      "description": "Antes de la batalla, puedes desplegar uno de tus marcadores de Tótem sanguinolento completamente dentro de tu territorio y a más de 2\" de otros marcadores (salvo tu marcador de Cadáver ensangrentado). Cuando un agente enemigo a 3\" o menos de tu marcador de Tótem sanguinolento dispare, combata o contraataque, tu oponente no podrá repetir sus dados de ataque.",
       "effects": ""
     },
     {
       "eqId": "CHAOS-GORE-BC",
       "killteamId": "CHAOS-GORE",
       "seq": 2,
-      "eqName": "Bloody Cadaver",
-      "description": "Before the battle, you can set up one of your Bloody Cadaver markers wholly within your territory and more than 2\" from other markers (excluding your Gory Totem marker).\nFriendly GOREMONGER operatives can perform the Pick Up Marker action on that marker. In the Ready step of each Strategy phase, you can increase the GORE TANK of one friendly GOREMONGER operative that controls that marker, unless that friendly operative is within control range of an enemy operative.",
+      "eqName": "CADÁVER ENSANGRENTADO",
+      "description": "Antes de la batalla, puedes desplegar hasta uno de tus marcadores de Cadáver ensagrentado completamente dentro de tu territorio y a más de 2\" de otros marcadores (salvo tu marcador de Tótem sanguinolento).\nLos agentes SIEMBRASANGRE amigos pueden realizar la acción Recoger marcador sobre ese marcador. En el paso de Preparación de cada fase de estrategia, puedes incrementar el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo que controle dicho marcador, a menos que ese agente amigo se encuentre en la zona de control de un agente enemigo.",
       "effects": ""
     },
     {
       "eqId": "CHAOS-GORE-CS",
       "killteamId": "CHAOS-GORE",
       "seq": 3,
-      "eqName": "Chaos Sigil",
-      "description": "Once per turning point, when an operative is shooting a friendly GOREMONGER operative, at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
+      "eqName": "SELLO DEL CAOS",
+      "description": "Una vez por punto de inflexión, cuando un agente enemigo dispare contra un agente SIEMBRASANGRE amigo, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría.",
       "effects": ""
     },
     {
       "eqId": "CHAOS-GORE-WC",
       "killteamId": "CHAOS-GORE",
       "seq": 4,
-      "eqName": "Wrist Chains",
-      "description": "Once per turning point, when a friendly GOREMONGER operative performs the Shoot action and you're selecting a ranged weapon, you can use this rule.\nIf you do, until the end of that action, the following melee weapons are treated as ranged weapons with the Range 2\" weapon rule: chainblade, chainglaive, great chainaxe (ignore its Brutal weapon rule), pickrippers.",
+      "eqName": "CADENAS DE MUÑECA",
+      "description": "Una vez por punto de inflexión, cuando un agente SIEMBRASANGRE amigo realice la acción de Disparar y selecciones un arma a distancia, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción las siguientes armas de combate se tratan como armas a distancia con la regla de armas Alcance 2\": cuchilla sierra, archa sierra, gran hacha sierra (ignora su regla de armas Brutal), picos destripadores.",
       "effects": ""
     }
   ],
   "teamAbilities": [
     {
       "abilityId": "CHAOS-GORE-TA-SA",
-      "abilityName": "Sanguavitae",
-      "description": "Each SANGUAVITAE rule specifies when it can be used, and you must decrease the operative's GORE TANK to do so.  \n\nYou cannot use the same SANGUAVITAE rule more than once per activation or counteraction, and you cannot use more than two SANGUAVITAE rules per activation or counteraction.  \n\nYou cannot use Mania and Fury during the same activation.  \n  \n\n**Rejuvenate:**  \n\nWHEN: During a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action.  \n\nEFFECT: That operative regains D3+1 lost wounds.\n  \n\n**Mania:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: Until the start of that operative's next activation, add 1 to its APL stat.\n  \n\n**Fury:**  \n\nWHEN: During a friendly GOREMONGER operative's activation, before or after it performs an action.  \n\nEFFECT: That operative can perform two Fight actions during that activation, and the second one is free.\n  \n\n**Rake:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge action during its activation.  \n\nEFFECT: When that operative finishes moving during that action, you can inflict D3 damage on one enemy operative within its control range.\n  \n\n**Surge:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Charge or Reposition action.  \n\nEFFECT: Until the end of that action, add 1\" to that operative's Move stat.\n  \n\n**Rage:**  \n\nWHEN: When a friendly GOREMONGER operative performs the Fight action.  \n\nEFFECT: Until the end of that action, add 1 to the Atk stat of that operative's melee weapons.\n"
+      "abilityName": "SANGUAVITAE",
+      "description": "Cada regla SANGUAVITAE especifica cuándo puede ser usada, y debes disminuir el DEPÓSITO SANGRIENTO del agente.  \n\nNo puedes usar la misma regla SANGUAVITAE más de una vez por activación o reacción, y no puedes usar más de dos reglas SANGUAVITAE por activación o reacción. \n\nNo puedes usar Manía y Furia durante una misma activación.  \n  \n\n**REJUVENECER:**  \n\nCUÁNDO:  Durante la activación o reacción de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Ese agente recupera hasta 1D3+1 heridas perdidas.\n  \n\n**MANÍA:**  \n\nCUÁNDO: Durante la activación de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Hasta el inicio de la siguiente activación de ese agente, suma 1 a su atributo LPA.\n  \n\n**FURIA:**  \n\nCUÁNDO: Durante la activación de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Ese agente puede realizar dos acciones de Combatir durante esa activación, y la segunda es libre..\n  \n\n**EMBESTIR:**  \n\nCUÁNDO: Cuando un agente SIEMBRASANGRE amigo realice la acción de Cargar durante su activación.  \n\nEFECTO: Cuando ese agente termine de moverse durante esa acción, puedes infligir 1D3 daños a un agente enemigo en su zona de control.\n  \n\n**ACELERAR:**  \n\nCUÁNDO:  Cuando un agente SIEMBRASANGRE amigo realice la acción de Cargar o de Reposicionarse.  \n\nEFECTO: Hasta el final de esa acción, suma 1\" al atributo Movimiento de ese agente.\n  \n\n**RABIA:**  \n\nCUÁNDO:  Cuando un agente SIEMBRASANGRE amigo realice una acción de Combatir.  \n\nEFECTO: Hasta el final de esa acción, suma 1 al atributo Ataque de las armas de combate de ese agente.\n"
     },
     {
       "abilityId": "CHAOS-GORE-TA-RUOFKH",
-      "abilityName": "Runes Of Khorne",
-      "description": "Each friendly GOREMONGER operative cannot lose more than 8 wounds per Shoot action."
+      "abilityName": "RUNAS DE KHORNE",
+      "description": "Cada agente SIEMBRASANGRE amigo no puede perder más de 8 heridas por acción de Disparar."
     },
     {
       "abilityId": "CHAOS-GORE-TA-GOTA",
-      "abilityName": "Gore Tank",
-      "description": "Each friendly GOREMONGER operative has a GORE TANK that has three levels: full, half and empty.\nThey start the battle at half. Whenever a GORE TANK increases, it goes up one level; whenever it decreases, it goes down one level.\nA GORE TANK cannot increase when it's already full, or decrease when it's already empty.  \n\nWhenever a friendly GOREMONGER operative incapacitates an operative within its control range, or visible to and within 2\" of it, you can increase its GORE TANK.  \n\nWhenever a friendly GOREMONGER operative uses a SANGUAVITAE rule, you must decrease its GORE TANK."
+      "abilityName": "DEPÓSITOS SANGRIENTOS",
+      "description": "Cada agente SIEMBRASANGRE amigo tiene un DEPÓSITO SANGRIENTO con tres niveles posibles de capacidad: lleno, medio lleno y vacío. Empieza la batalla como medio lleno. Cuando incrementas un DEPÓSITO SANGRIENTO, sube un nivel; cuando lo disminuyes, baja un nivel. No puedes incrementar un DEPÓSITO SANGRIENTO cuando ya está lleno, ni disminuirlo cuando ya está vacío.  \n\nCuando un agente SIEMBRASANGRE amigo incapacita a un agente en su zona de control, o a 2\" o menos de él y visible para él, puedes incrementar su DEPÓSITO SANGRIENTO.   \n\nCuando un agente SIEMBRASANGRE amigo utiliza una regla SANGUAVITAE, debes disminuir su DEPÓSITO SANGRIENTO."
     }
   ],
   "opTypes": [
@@ -134,7 +134,7 @@
       "opTypeId": "CHAOS-GORE-BH",
       "killteamId": "CHAOS-GORE",
       "seq": 1,
-      "opTypeName": "Goremonger Blood Herald",
+      "opTypeName": "HERALDO DE SANGRE",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -146,7 +146,7 @@
           "wepId": "CHAOS-GORE-BH-IOK",
           "opTypeId": "CHAOS-GORE-BH",
           "seq": 1,
-          "wepName": "Icon Of Khorne",
+          "wepName": "Icono de Khorne",
           "wepType": "R",
           "profiles": [
             {
@@ -173,7 +173,7 @@
           "wepId": "CHAOS-GORE-BH-CB",
           "opTypeId": "CHAOS-GORE-BH",
           "seq": 2,
-          "wepName": "Chainblade",
+          "wepName": "Cuchilla sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -197,14 +197,14 @@
         {
           "abilityId": "CHAOS-GORE-BH-A-IA",
           "opTypeId": "CHAOS-GORE-BH",
-          "abilityName": "Impending Apotheosis",
-          "description": "Once per battle, when an attack dice inflicts Normal damage on this operative, you can ignore that inflicted damage."
+          "abilityName": "Apoteosis inminente",
+          "description": " Una vez por batalla, cuando un dado de ataque inflija daño normal a este agente, puedes ignorar ese daño infligido."
         },
         {
           "abilityId": "CHAOS-GORE-BH-A-KF",
           "opTypeId": "CHAOS-GORE-BH",
-          "abilityName": "Khorne's Favour",
-          "description": "Once during each of this operative's activations, if its GORE TANK is empty, you can increase its GORE TANK."
+          "abilityName": "Favor de Khorne",
+          "description": "Una vez durante cada una de las activaciones de este agente, antes o después de que realice una acción, si su DEPÓSITO SANGRIENTO está vacío, puedes incrementar su DEPÓSITO SANGRIENTO."
         }
       ]
     },
@@ -212,7 +212,7 @@
       "opTypeId": "CHAOS-GORE-ASP",
       "killteamId": "CHAOS-GORE",
       "seq": 2,
-      "opTypeName": "Goremonger Aspirant",
+      "opTypeName": "ASPIRANTE",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -224,7 +224,7 @@
           "wepId": "CHAOS-GORE-ASP-AP",
           "opTypeId": "CHAOS-GORE-ASP",
           "seq": 1,
-          "wepName": "Autopistol",
+          "wepName": "Pistola automática",
           "wepType": "R",
           "profiles": [
             {
@@ -248,7 +248,7 @@
           "wepId": "CHAOS-GORE-ASP-CG",
           "opTypeId": "CHAOS-GORE-ASP",
           "seq": 2,
-          "wepName": "Chainglaive",
+          "wepName": "Archa sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -272,8 +272,8 @@
         {
           "abilityId": "CHAOS-GORE-ASP-A-OB",
           "opTypeId": "CHAOS-GORE-ASP",
-          "abilityName": "Obsessive Bloodlust",
-          "description": "Once during each of this operative's activations, when this operative ends the Fight action, if it's no longer within control range of enemy operatives, you can use this rule. If you do, it can immediately perform a free Charge action (even if it's already performed the Charge action during that activation),\nbut it cannot move more than 2\" during that action. Doing so doesn't prevent it from performing the Charge, Dash or Reposition action afterwards during that activation."
+          "abilityName": "Ansia de sangre obsesiva",
+          "description": "1 vez durante cada una de las activaciones de este agente, cuando este agente termine una acción de Combatir, si ya no tiene agentes enemigos en su zona de control, puedes usar esta regla. Si lo haces, si ya no se encuentra en la zona de control de agentes enemigos, puede realizar inmediatamente una acción libre de Cargar (incluso aunque ya haya realizado la acción de Cargar durante esa activación),\npero no puede moverse más de 2\" durante esa acción. Hacerlo no le impide realizar una acción de Cargar, Correr o Reposicionarse más tarde durante esa activación."
         }
       ]
     },
@@ -281,7 +281,7 @@
       "opTypeId": "CHAOS-GORE-BT",
       "killteamId": "CHAOS-GORE",
       "seq": 3,
-      "opTypeName": "Goremonger Bloodtaker",
+      "opTypeName": "CAZASANGRE",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -293,7 +293,7 @@
           "wepId": "CHAOS-GORE-BT-AP",
           "opTypeId": "CHAOS-GORE-BT",
           "seq": 1,
-          "wepName": "Autopistol",
+          "wepName": "Pistola automática",
           "wepType": "R",
           "profiles": [
             {
@@ -317,7 +317,7 @@
           "wepId": "CHAOS-GORE-BT-RB",
           "opTypeId": "CHAOS-GORE-BT",
           "seq": 2,
-          "wepName": "Ritual Blade",
+          "wepName": "Filo ritual",
           "wepType": "M",
           "profiles": [
             {
@@ -344,13 +344,13 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Transfusion Ritual",
+          "name": "RITUAL DE TRANSFUSIÓN",
           "description": null,
           "effects": [
-            "Decrease this operative's GORE TANK. Instead of using a SANGUAVITAE rule, you can increase the GORE TANK of one other friendly GOREMONGER operative within 8\" of this operative."
+            "Disminuye el DEPÓSITO SANGRIENTO de este agente. En lugar de usar una regla SANGUAVITAE, puedes incrementar el DEPÓSITO SANGRIENTO de otro agente SIEMBRASANGRE amigo distinto a 8\" o menos de este agente."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative, or if its GORE TANK is empty."
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si su DEPÓSITO SANGRIENTO está vacío."
           ]
         }
       ]
@@ -359,7 +359,7 @@
       "opTypeId": "CHAOS-GORE-IMP",
       "killteamId": "CHAOS-GORE",
       "seq": 4,
-      "opTypeName": "Goremonger Impaler",
+      "opTypeName": "EMPALADOR",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -371,7 +371,7 @@
           "wepId": "CHAOS-GORE-IMP-AP",
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 1,
-          "wepName": "Autopistol",
+          "wepName": "Pistola automática",
           "wepType": "R",
           "profiles": [
             {
@@ -395,7 +395,7 @@
           "wepId": "CHAOS-GORE-IMP-FSR",
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 2,
-          "wepName": "Fleshskewer",
+          "wepName": "Clavacarnes",
           "wepType": "R",
           "profiles": [
             {
@@ -428,7 +428,7 @@
           "wepId": "CHAOS-GORE-IMP-FSM",
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 3,
-          "wepName": "Fleshskewer",
+          "wepName": "Clavacarnes",
           "wepType": "M",
           "profiles": [
             {
@@ -450,7 +450,7 @@
       "opTypeId": "CHAOS-GORE-INC",
       "killteamId": "CHAOS-GORE",
       "seq": 5,
-      "opTypeName": "Goremonger Inciter",
+      "opTypeName": "INCITADOR",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -462,7 +462,7 @@
           "wepId": "CHAOS-GORE-INC-DAPR",
           "opTypeId": "CHAOS-GORE-INC",
           "seq": 1,
-          "wepName": "Dual Autopistols",
+          "wepName": "Pistolas automáticas dobles",
           "wepType": "R",
           "profiles": [
             {
@@ -496,7 +496,7 @@
           "wepId": "CHAOS-GORE-INC-DAPM",
           "opTypeId": "CHAOS-GORE-INC",
           "seq": 2,
-          "wepName": "Dual Autopistols",
+          "wepName": "Pistolas automáticas dobles",
           "wepType": "M",
           "profiles": [
             {
@@ -523,8 +523,8 @@
         {
           "abilityId": "CHAOS-GORE-INC-A-ITH",
           "opTypeId": "CHAOS-GORE-INC",
-          "abilityName": "Incite The Hunt",
-          "description": "Whenever this operative incapacitates an enemy operative from more than 2\" away, before that enemy operative is removed from the killzone, you can increase the GORE TANK of one friendly GOREMONGER operative within 8\" of that enemy operative.  \n\nWhenever this operative inflicts damage on an enemy operative with either profile of its dual autopistols but doesn't incapacitate it, that enemy operative gains one of your Bleeding tokens (if it doesn't already have one).  \n\nDuring a friendly GOREMONGER operative's activation or counteraction, before or after it performs an action, if it's within 8\" of an enemy operative that has one of your Bleeding tokens, you can remove that token and increase that friendly operative's GORE TANK."
+          "abilityName": "Incitar a la caza",
+          "description": "Cuando este agente incapacite a un agente enemigo desde más de 2\" de distancia, antes de que ese agente enemigo sea retirado de la zona de aniquilación, puedes incrementar el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo a 8\" o menos de ese agente enemigo.  \n\nCuando este agente inflija daño a un agente enemigo con cualquiera de los perfiles de sus pistolas automáticas dobles pero no lo incapacite, ese agente enemigo gana una de tus fichas de Ampollas (si no tiene ya una).  \n\nDurante la activación o reacción de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción, si se encuentra a 8\" o menos de un agente enemigo que tenga una de tus fichas de Ampollas puedes retirar esa ficha e incrementar el DEPÓSITO SANGRIENTO de ese agente amigo."
         }
       ],
       "actions": [
@@ -533,13 +533,13 @@
           "type": "ability",
           "seq": 0,
           "AP": 1,
-          "name": "Dash And Spray",
+          "name": "CORRER Y AMETRALLAR",
           "description": null,
           "effects": [
-            "Perform a free Dash action and a free Shoot action with this operative in any order. You can only select dual autopistols (focused) for that Shoot action."
+            "Realiza una acción libre de Correr y una acción libre de Disparar con este agente en cualquier orden. Solo puedes elegir unas pistolas automáticas dobles para esa acción de Disparar."
           ],
           "conditions": [
-            "This operative cannot perform this action while it has a Conceal order, or while within control range of an enemy operative."
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si tiene una orden de ocultarse."
           ]
         }
       ]
@@ -548,7 +548,7 @@
       "opTypeId": "CHAOS-GORE-SC",
       "killteamId": "CHAOS-GORE",
       "seq": 6,
-      "opTypeName": "Goremonger Skullclaimer",
+      "opTypeName": "RECLAMACRÁNEOS",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -560,7 +560,7 @@
           "wepId": "CHAOS-GORE-SC-AP",
           "opTypeId": "CHAOS-GORE-SC",
           "seq": 1,
-          "wepName": "Autopistol",
+          "wepName": "Pistola automática",
           "wepType": "R",
           "profiles": [
             {
@@ -584,7 +584,7 @@
           "wepId": "CHAOS-GORE-SC-GCA",
           "opTypeId": "CHAOS-GORE-SC",
           "seq": 2,
-          "wepName": "Great Chainaxe",
+          "wepName": "Gran hacha sierra",
           "wepType": "M",
           "profiles": [
             {
@@ -608,14 +608,14 @@
         {
           "abilityId": "CHAOS-GORE-SC-A-BRU",
           "opTypeId": "CHAOS-GORE-SC",
-          "abilityName": "Brutish",
-          "description": "Whenever an attack dice would inflict Critical Dmg on this operative, you can choose for that attack dice to inflict Normal Dmg instead."
+          "abilityName": "Bruto",
+          "description": "Siempre que un dado de ataque vaya a infligir Daño crítico a este agente, puedes decidir que ese dado inflija Daño normal en su lugar."
         },
         {
           "abilityId": "CHAOS-GORE-SC-A-CS",
           "opTypeId": "CHAOS-GORE-SC",
-          "abilityName": "Claim Skull",
-          "description": "Once per turning point, if this operative incapacitates an enemy operative with its great chainaxe, you gain 1CP."
+          "abilityName": "Reclamar cráneo",
+          "description": "Una vez por punto de inflexión, si este agente incapacita a un agente enemigo con su gran hacha sierra, ganas 1PM."
         }
       ]
     },
@@ -623,7 +623,7 @@
       "opTypeId": "CHAOS-GORE-ST",
       "killteamId": "CHAOS-GORE",
       "seq": 7,
-      "opTypeName": "Goremonger Stalker",
+      "opTypeName": "SIEMBRASANGRE ACECHANTE",
       "MOVE": "7\"",
       "APL": 2,
       "SAVE": "5+",
@@ -635,7 +635,7 @@
           "wepId": "CHAOS-GORE-ST-AP",
           "opTypeId": "CHAOS-GORE-ST",
           "seq": 1,
-          "wepName": "Autopistol",
+          "wepName": "Pistola automática",
           "wepType": "R",
           "profiles": [
             {
@@ -659,7 +659,7 @@
           "wepId": "CHAOS-GORE-ST-PR",
           "opTypeId": "CHAOS-GORE-ST",
           "seq": 2,
-          "wepName": "Pickrippers",
+          "wepName": "Picos destripadores",
           "wepType": "M",
           "profiles": [
             {
@@ -683,14 +683,14 @@
         {
           "abilityId": "CHAOS-GORE-ST-A-CP",
           "opTypeId": "CHAOS-GORE-ST",
-          "abilityName": "Climbing Picks",
-          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically)."
+          "abilityName": "Garfios de escalada",
+          "description": "Siempre que este agente trepa hacia arriba, puedes considerar la distancia vertical como 2\" (sin importar la distancia real que mueva en vertical dicho agente)."
         },
         {
           "abilityId": "CHAOS-GORE-ST-A-RTS",
           "opTypeId": "CHAOS-GORE-ST",
-          "abilityName": "Rooftop Stalker",
-          "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain, or whenever this operative is fighting against an enemy operative that's on Vantage terrain, this operative's melee weapons have the Relentless weapon rule."
+          "abilityName": "Acechar en tejados",
+          "description": "Cuando este agente combata durante una activación en la que se haya dejado caer desde terreno Aventajado al menos 2\" por encima del suelo de la zona de aniquilación, o cuando este agente combate contra un agente enemigo que se encuentre en terreno Aventajado al menos 2\" por encima del suelo de la zona de aniquilación, las armas de combate de este agente tienen la regla de armas Implacable."
         }
       ]
     }
