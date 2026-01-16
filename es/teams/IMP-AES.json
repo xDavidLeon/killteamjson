@@ -905,7 +905,7 @@
                   "id": "WR-UNIV-SILENT"
                 },
                 {
-                  "id": "WR-IMP-AES-CONCEALED"
+                  "id": "WR-SHARED-CONCEALED"
                 }
               ]
             },
@@ -1312,12 +1312,6 @@
     }
   ],
   "weapon_rules": [
-    {
-      "id": "WR-IMP-AES-CONCEALED",
-      "name": "Posición oculta",
-      "description": "Este agente solo puede usar esta arma la primera vez que realiza una acción de Disparar durante la batalla.",
-      "team": "IMP-AES"
-    },
     {
       "id": "WR-IMP-AES-REPRESS",
       "name": "Represor",

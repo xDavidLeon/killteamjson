@@ -137,6 +137,22 @@
       "name": "Ráfaga",
       "description": "Elige un blanco válido como blanco principal, luego elige cualquier número de otros blancos válidos a x o menos del primer blanco como blancos secundarios; p. ej., Ráfaga 2\". Dispara con esta arma contra todos ellos en el orden que prefieras (tira por cada secuencia por separado).",
       "team": null
+    },
+    {
+      "id": "WR-SHARED-CONCEALED",
+      "name": "Posición oculta",
+      "description": "Este agente solo puede usar esta arma la primera vez que realiza una acción de Disparar durante la batalla.",
+      "team": [
+        "IMP-AES",
+        "IMP-DKK",
+        "IMP-INQ",
+        "IMP-KAS",
+        "IMP-TEMPAQ",
+        "ORK-KOM",
+        "TAU-FSKB",
+        "TYR-BBRO",
+        "VOT-HKY"
+      ]
     }
   ]
 }

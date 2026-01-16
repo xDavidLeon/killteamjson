@@ -137,6 +137,22 @@
       "name": "Torrent",
       "description": "Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2\". Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).",
       "team": null
+    },
+    {
+      "id": "WR-SHARED-CONCEALED",
+      "name": "Concealed Position",
+      "description": "This operative can only use this weapon the first time it is performing the Shoot action during the battle.",
+      "team": [
+        "IMP-AES",
+        "IMP-DKK",
+        "IMP-INQ",
+        "IMP-KAS",
+        "IMP-TEMPAQ",
+        "ORK-KOM",
+        "TAU-FSKB",
+        "TYR-BBRO",
+        "VOT-HKY"
+      ]
     }
   ]
 }
