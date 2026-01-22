@@ -4,7 +4,7 @@
     "version": "November '25",
     "classified": true,
     "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_19-11_kt_wolf_scouts_online_rules-zbsk6pvjgr-j3kzye8dxf.pdf",
+    "file": "https://assets.warhammer-community.com/eng_17-12_killteam_wolf_scouts_online_rules-horilonqxy-kie3resg88.pdf",
     "killteamName": "Exploradores lobo",
     "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
     "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
@@ -261,8 +261,8 @@
                                 },
                                 {
                                     "id": "WR-UNIV-PIERCING",
-									"number": 1,
-									"details": "Crits"
+                                    "number": 1,
+                                    "details": "Crits"
                                 }
                             ]
                         }
@@ -337,8 +337,8 @@
                                 },
                                 {
                                     "id": "WR-UNIV-PIERCING",
-									"number": 1,
-									"details": "Crits"
+                                    "number": 1,
+                                    "details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
@@ -356,8 +356,8 @@
                             "WR": [
                                 {
                                     "id": "WR-UNIV-PIERCING",
-									"number": 1,
-									"details": "Crits"
+                                    "number": 1,
+                                    "details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"

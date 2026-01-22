@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-GORE",
-  "version": "October '25",
+  "version": "November '25",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_goremongers-q91adtper6-gkkkxyw3tb.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_goremongers-7rfudvovux-ld6jeolws2.pdf",
   "killteamName": "Goremongers",
   "description": "Goremongers are among the most lucid and reliable of Khorne's troops, pumping a constant flow of combat stimms mixed with drops of their masters' blood into their systems while still retaining a modicum of cunning and level-headedness. The first thing they do is to cut off their own legs and graft on a new mechanical pair that brings them closer to the ideal physical form, armed with blood letting chainweapons and ritual daggers..",
   "composition": "A GOREMONGER kill team is composed of:\n\n- 1 GOREMONGER BLOOD HERALD\n- 7 GOREMONGER operatives selected from the following list:\n  - ASPIRANT\n  - BLOODTAKER\n  - IMPALER\n  - INCITER\n  - SKULLCLAIMER\n  - STALKER\n\nOther than ASPIRANT operatives, your kill team can only include each operative on this list once.",
@@ -686,7 +686,7 @@
           "abilityId": "CHAOS-GORE-ST-A-RTS",
           "opTypeId": "CHAOS-GORE-ST",
           "abilityName": "Rooftop Stalker",
-          "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain, or whenever this operative is fighting against an enemy operative that's on Vantage terrain, this operative's melee weapons have the Relentless weapon rule."
+          "description": "Whenever this operative is fighting during an activation in which it dropped from Vantage terrain at least 2\" higher than the killzone floor, or whenever this operative is fighting against an enemy operative that's on Vantage terrain at least 2\" higher than the killzone floor, this operative's melee weapons have the Relentless weapon rule."
         }
       ]
     }

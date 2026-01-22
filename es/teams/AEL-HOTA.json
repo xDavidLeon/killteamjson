@@ -4,7 +4,7 @@
   "version": "October '25",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_hand_of_the_archon-zmsq14qmmy-z4ekml4ysz.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_hand_of_the_archon-aet5zzkdhc-rcqfvcootc.pdf",
   "killteamName": "Mano del arconte",
   "description": "Los Arcontes de las Cábala Drukhari están siempre tramando cómo expandir sus extensos imperios criminales. Si sus planes requieren un toque sutil, pueden recurrir a los equipos de exterminio Mano del Arconte. Estas bandas de asesinos, ladrones, torturadores y peores cosas empuñan una variedad de armas esotéricas y macabras que les ayudan en sus misiones diabólicas.",
   "composition": "El comando MANO DEL ARCONTE  está compuesto por:\n\n- 1 agente ARCHISIBARITA **MANO DEL ARCONTE** con una de las siguientes opciones:\n  - Pistola bláster; espada venenosa\n  - Pistola cristalina; espada venenosa\n  - Pistola cristalina; agonizador\n  - Pistola cristalina; arma de energía\n  - Rifle cristalino; cuchillas por doquier\n- 8  agentes **MANO DEL ARCONTE** elegidos dela siguiente lista:\n  - ESPÍA\n  - DUELISTA CARMESÍ\n  - DISCÍPULO DE YAELINDRA\n  - ELIXICANTE\n  - DESPELLEJADOR\n  - TIRADOR con una de las siguientes opciones:\n    - Blaster; cuchillas por doquier\n    - Desgarrador; cuchillas por doquier\n  - TIRADOR PESADO con una de las siguientes opciones:\n    - Lanza oscura; cuchillas por doquier\n    - Cañón cristalino; cuchillas por doquier\n  - ASESINO PARTECIELOS\n\nSalvo agentes **ESPÍA**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n\nTu comando solo puede incluir hasta dos armas de luzoscura (la pistola bláster, el bláster y la lanza oscura son armas de luzoscura).",
@@ -470,7 +470,7 @@
           "abilityName": "Duelista Carmesí",
           "description": " Este agente puede realizar 2 acciones de Combatir durante su activación."
         },
-		{
+        {
           "abilityId": "AEL-HOTA-KCD-A-EB",
           "opTypeId": "AEL-HOTA-KCD",
           "abilityName": "Exhibición brutal",

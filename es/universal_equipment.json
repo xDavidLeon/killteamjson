@@ -196,9 +196,8 @@
       "effects": [
         "Coloca uno de tus marcadores de granada de humo a 6\" o menos de este agente. Debe ser visible para este agente, o estar situado en un terreno Aventajado o un elemento de terreno visible para este agente. El marcador genera un área de humo de 1\" horizontalmente y de una altura ilimitada verticalmente a partir de él (pero no por debajo de él).",
         "Mientras un agente se encuentre completamente dentro de un área de humo, se considera ofuscado para los agentes a más de 2\" de él, y viceversa.",
-        "Además, cuando un agente dispare contra un agente enemigo que se encuentre completamente dentro de un área de humo, se ignora la regla de arma Perforante a menos que ambos agentes se encuentren a 2\" o menos uno de otro.",
+        "Además, cuando un agente dispare contra un agente enemigo que se encuentre completamente dentro de un área de humo, las armas con Perforante 2 o Críticos Perforantes 2 se convierten en Perforante 1 o Críticos Perforantes 1 (respectivamente), a menos que ambos agentes se encuentren a 2\" o menos uno de otro.",
         "En el paso de preparación de la siguiente fase de estrategia, tira un D3. Retira ese marcador de granada de humo una vez que se haya completado un número de activaciones igual al resultado de ese D3, o al final del punto de inflexión (lo que ocurra antes)."
-      
       ],
       "conditions": [
         "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si se ha alcanzado el número total de veces que tu comando puede realizarla."

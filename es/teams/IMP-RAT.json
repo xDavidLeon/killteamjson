@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-RAT",
-  "version": "October '25",
+  "version": "November '25",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_ratlings-bdusz3zdoo-cefopbx4bl.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kt_ratlings_online_rules-kpnpr4zjmx-o7noajjnek.pdf",
   "killteamName": "Ratlings",
   "description": "Though less resilient than their baseline Human comrades, Ratlings are naturally excellent shots. It is said that Ratling marksmen can take the head off a Heretic from over a kilometre away. Coupled with their knack for staying out of harm's way, this makes Ratlings formidable snipers who can exact a withering toll upon superior enemy forces. ",
   "composition": "A RATLING KillTeam is composed of:\n\n- 1 RATLING FIXER operative with one of the following options:  \n  - Battle Rifle, Fists\n  - Sniper Rifle, Fists\n- 10 RATLING operatives selected from the following list:\n  - BATTLEMUTT\n  - BULLGRYN* with one from each of the following:\n    - Grenadier Gauntlet or Power Maul\n    - Brute Shield or Slabshield  \n  - OGRYN*\n  - BIG SHOT\n  - BOMBER\n  - HARDBIT\n  - RAIDER\n  - SNEAK\n  - SNIPER\n  - SPOTTER\n  - STASHMASTER\n  - VOX-THIEF\n\n*You cannot select more than three of these operatives combined. Up to three times, instead of selecting one of these operatives, you can select one RATLING ploy to cost you 0CP for the battle.  \n\nOther than BULLGRYN, OGRYN, and SNIPER operatives, your KillTeam can only include each operative above once.",
@@ -1069,7 +1069,7 @@
           "abilityId": "IMP-RAT-SNK-A-EV",
           "opTypeId": "IMP-RAT-SNK",
           "abilityName": "Evade",
-          "description": "Once per Turning Point, after an enemy operative performs an action, you can interrupt that action (or counteraction) and perform a free Dash action with this operative.\nNote this operative cannot use the Scarper faction rule (it has this rule instead)."
+          "description": "Once per Turning Point, after an enemy operative performs an action, you can interrupt to perform a free Dash action with this operative.\nNote this operative cannot use the Scarper faction rule (it has this rule instead)."
         },
         {
           "abilityId": "IMP-RAT-SNK-A-SCAR",
@@ -1337,7 +1337,7 @@
           "abilityId": "IMP-RAT-MUTT-A-EQ",
           "opTypeId": "IMP-RAT-MUTT",
           "abilityName": "Early Warning",
-          "description": "Once per Turning Point, after an enemy operative performs an action in which it moves, you can interrupt that activation (or counteraction) to use this rule.\r If you do, each friendly RATLING operative (excluding OGRYN and BULLGRYN) within 6\" of this operative and within 2\" of that enemy operative can perform a free Dash action or a free Fall Back action, but it cannot move more than 3\".\r In either case, each one cannot finish that move within 2\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move (if this is not possible for an operative, it cannot move)."
+          "description": "Once per Turning Point, after an enemy operative performs an action in which it moves or is set up, you can interrupt to use this rule.\r If you do, each friendly RATLING operative (excluding OGRYN and BULLGRYN) within 6\" of this operative and within 2\" of that enemy operative can perform a free Dash action or a free Fall Back action, but it cannot move more than 3\".\r In either case, each one cannot finish that move within 2\" of an enemy operative unless it is not visible to every enemy operative when it finishes that move (if this is not possible for an operative, it cannot move)."
         },
         {
           "abilityId": "IMP-RAT-MUTT-A-SCAR",

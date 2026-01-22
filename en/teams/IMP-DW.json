@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "October '25",
+  "version": "November '25",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_deathwatch-n9uexmycj0-mnutiohz2j.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_deathwatch-bbtccwu5za-tbky0pnxc7.pdf",
   "killteamName": "Deathwatch",
   "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity's most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
   "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
@@ -782,7 +782,7 @@
           "abilityId": "IMP-DW-DIS-AT",
           "opTypeId": "IMP-DW-DIS",
           "abilityName": "Auspex Triangulation",
-          "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action."
+          "description": "The Advanced Auspex Scan firefight ploy costs you 0CP when both of the following are true:\n- This operative isn't within control range of enemy operatives.\n- The target of that Shoot action (primary target, if relevant) is visible to this operative.\n\nNote that it doesn't have to be this operative performing the Shoot action, and that any subsequent Shoot actions during that activation/counteraction must meet these same requirements (or that ploy has no effect on those subsequent Shoot actions)."
         }
       ]
     },

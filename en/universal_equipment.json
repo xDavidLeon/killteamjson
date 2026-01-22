@@ -201,7 +201,7 @@
       "effects": [
         "Place one of your Smoke Grenade markers within 6\" of this operative. It must be visible to this operative, or on Vantage terrain of a terrain feature that is visible to this operative. The marker creates an area of smoke 1\" horizontally and unlimited height vertically from (but not below) it.",
         "While an operative is wholly within an area of smoke, it is obscured to operatives more than 2\" from it, and vice versa.",
-        "In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, ignore the Piercing weapon rule unless they are within 2\" of each other.",
+        "In addition, whenever an operative is shooting an enemy operative wholly within an area of smoke, weapons with the Piercing 2 or Piercing Crits 2 weapon rule have the Piercing 1 or Piercing Crits 1 weapon rule (respectively) instead, unless they’re within 2\" of each other.",
         "In the Ready step of the next Strategy phase, roll one D3. Remove that Smoke Grenade marker after a number of activations equal to that D3 have been completed or at the end of the turning point (whichever comes first).",
         "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."
       ],

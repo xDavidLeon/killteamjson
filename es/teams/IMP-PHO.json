@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-PHO",
-  "version": "July '25",
+  "version": "November '25",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_jul25_kt_teamrules_phobos_strike_team-b6ucsxeqii-zz4xcyoa3s.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kt_phobos_strike_team_online_rules-6mf867flcl-2xdbnfouex.pdf",
   "killteamName": "Phobos Strike Team",
   "description": "Masters of stealth and subterfuge, Phobos Strike Teams consist of Space Marine Infiltrators, Incursors and Reivers.\nPossessed of transhuman strength and equipped with a range of explosives, communications equipment and precise weaponry, they are capable of outmanoeuvring and overwhelming enemy forces many times their own size.",
   "composition": "A PHOBOS STRIKE TEAM KillTeam is composed of:\n\n- 1 PHOBOS STRIKE TEAM operative selected from the following list:\n  - INFILTRATOR SERGEANT\n  - INCURSOR SERGEANT\n  - REIVER SERGEANT with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n- 5 PHOBOS STRIKE TEAM operatives selected from the following list:\n  - INFILTRATOR COMMSMAN\n  - INFILTRATOR HELIX ADEPT\n  - INFILTRATOR SABOTEUR\n  - INFILTRATOR VETERAN\n  - INFILTRATOR VOXBREAKER\n  - INFILTRATOR WARRIOR\n  - INCURSOR MARKSMAN\n  - INCURSOR MINELAYER\n  - INCURSOR WARRIOR\n  - REIVER WARRIOR with one of the following options:\n    - Special issue bolt pistol; combat knife\n    - Bolt carbine; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
@@ -501,7 +501,7 @@
           "abilityId": "IMP-PHO-INFSAB-A-DET",
           "opTypeId": "IMP-PHO-INFSAB",
           "abilityName": "*Detonate",
-          "description": "Don't select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured.\nRoll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Explosives marker is not in the killzone.\nAt the end of the action, remove your Explosives marker from the killzone."
+          "description": "Don't select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured.\nRoll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Explosives marker is not in the killzone.\nAt the end of the action, remove your Explosives marker from the killzone.\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), this weapon has the Lethal 5+ weapon rule."
         },
         {
           "abilityId": "IMP-PHO-INFSAB-A-OS",

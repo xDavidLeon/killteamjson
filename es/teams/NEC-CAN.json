@@ -1,10 +1,10 @@
 {
   "factionId": "NEC",
   "killteamId": "NEC-CAN",
-  "version": "October '25",
+  "version": "November '25",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_canoptek_circle-phfovhebev-eutxfo8ln9.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_canoptek_circle-stf6m3yj17-5iuzdwavp7.pdf",
   "killteamName": "Canoptek Circle",
   "description": "Canoptek Circle kill teams comprise sinister alien constructs in thrall to their Cryptek master. The emotionless and unliving Canoptek constructs overcome obstacles to a Cryptek's ambitions, whether rock and metal or the bodies of the living, while their master accesses nodes of power and data to charge the constructs' ancient abilities further.",
   "composition": "A CANOPTEK CIRCLE Killteam is composed of:\n\n- 1 CANOPTEK CIRCLE GEOMANCER operative\n- 2 CANOPTEK CIRCLE TOMB CRAWLER operatives with one of the following options (select separately for each):\n  - Twin gauss reapers; claws\n  - Transdimensional isolator; claws*\n- 1 CANOPTEK CIRCLE ACCELERATOR operative\n- 1 CANOPTEK CIRCLE REANIMATOR operative\n- 3 CANOPTEK CIRCLE WARRIOR operatives with one of the following options (select separately for each):\n  - Gauss scalpel; claws & tail\n  - Tesla caster; claws & tail\n\n*Your kill team can only include up to one transdimensional isolator. ",
@@ -59,7 +59,7 @@
       "ployType": "T",
       "seq": 6,
       "ployName": "Animate Obelisk Nodes",
-      "description": "Use this firefight ploy when it's your turn to activate or counteract. Move any number of your OBELISK NODE markers instead. They can move up to 6\" combined, and distances are always rounded up to the nearest inch (so if you move a marker 1.5\", it's treated as moving it 2\"). For example, you could move one marker 6\", three markers 1\" each, or any combination that doesn't exceed 6\" in total. You can also move them 0\" (to effectively skip an activation). In any case, your opponent activates as normal afterwards."
+      "description": "Use this firefight ploy when it's your turn to activate or counteract. Move any number of your OBELISK NODE markers instead. They can move up to 6\" horizontally combined, and distances are always rounded up to the nearest inch (so if you move a marker 1.5\", it's treated as moving it 2\"). For example, you could move one marker 6\", three markers 1\" each, or any combination that doesn't exceed 6\" in total. You can also move them 0\" (to effectively skip an activation). In any case, your opponent activates as normal afterwards."
     },
     {
       "ployId": "NEC-CAN-T-NR",
@@ -116,7 +116,7 @@
     {
       "abilityId": "NEC-CAN-TA-OBNOMA",
       "abilityName": "Obelisk Node Matrix",
-      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
+      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move each of your OBELISK NODE markers up to 3\" horizontally.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
     }
   ],
   "opTypes": [
@@ -218,7 +218,7 @@
           "abilityId": "NEC-CAN-GEO-SNC",
           "opTypeId": "NEC-CAN-GEO",
           "abilityName": "Obelisk Node Control",
-          "description": "Whenever this operative would perform a mission action, if it requires this operative to control an objective marker, you can instead determine control from one of your OBELISK NODE markers (see Obelisk Node Matrix faction rule).\nWhenever this operative would perform the Operate Hatch action, you can open or close a hatchway thats access point is within 1\" of one of your OBELISK NODE markers instead.\nNote that you must still fulfil the Operate Hatch action's conditions."
+          "description": "Whenever this operative would perform a mission action (excluding Retrieve, Approved Ops 2025), if it requires this operative to control an objective marker, you can instead determine control from one of your OBELISK NODE markers (see Obelisk Node Matrix faction rule).\nWhenever this operative would perform the Operate Hatch action, you can open or close a hatchway thats access point is within 1\" of one of your OBELISK NODE markers instead.\nNote that you must still fulfil the Operate Hatch action's conditions."
         }
       ],
       "actions": [

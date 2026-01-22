@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "October '25",
+  "version": "November '25",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_deathwatch-n9uexmycj0-mnutiohz2j.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_deathwatch-bbtccwu5za-tbky0pnxc7.pdf",
   "killteamName": "Vigías de la muerte",
   "description": "Los equipos de exterminio de los Vigías de la Muerte luchan contra los enemigos alienígenas del Imperio con experiencia consagrada y armamento especializado.  \n\nEmpuñan algunas de las armas más avanzadas de la Humanidad junto con equipamiento más esotérico. Además de su fuerza y velocidad sobrehumanas, los Vigías de la muerte llevan al campo de batalla su odio hacia los xenos en todas sus formas.",
   "composition": "\nA El equipo de exterminio de los VIGÍAS DE LA MUERTE está compuesto por 5 agentes VIGÍAS DE LA MUERTE elegidos de la siguiente lista:\n- SARGENTO VIGÍA\n- ÉGIDA\n- ESPADERO\n- BOMBARDERO\n- IRRUPTOR\n- DEMOLEDOR\n- DISRUPTOR\n- TIRADOR\n- CORTACABEZAS\n- MATAHORDAS\n- OJO PRECISO\n\nTu comando solo puede incluir a cada agente de esta lista una vez, y solo puede incluir hasta un agente **GRAVIS**.",
@@ -786,7 +786,7 @@
           "abilityId": "IMP-DW-DIS-AT",
           "opTypeId": "IMP-DW-DIS",
           "abilityName": "Triangulación Auspex",
-          "description": " El ardid de tiroteo Lecturas de Auspex avanzadas te costará 0 PM cuando se den las dos siguientes circunstancias:\n- Este agente no se encuentra en la zona de control de los agentes enemigos\n-  El blanco de esa acción de Disparar (el blanco principal, en caso de que proceda) es visible para este agente\n\nTen en cuenta que no es necesario que sea este agente quien realice la acción de Disparar, y que cualquier acción de Disparar subsiguiente durante esa activación/reacción debe cumplir los mismos requisitos (o ese ardid no tiene efecto en las acciones de Disparar subsiguientes)."
+          "description": "El ardid de tiroteo Lecturas de Auspex avanzadas te costará 0 PM cuando se den las dos siguientes circunstancias:\n- Este agente no se encuentra en la zona de control de los agentes enemigos\n-  El blanco de esa acción de Disparar (el blanco principal, en caso de que proceda) es visible para este agente\n\nTen en cuenta que no es necesario que sea este agente quien realice la acción de Disparar, y que cualquier acción de Disparar subsiguiente durante esa activación/reacción debe cumplir los mismos requisitos (o ese ardid no tiene efecto en las acciones de Disparar subsiguientes)."
         }
       ]
     },
