@@ -1,0 +1,893 @@
+{
+    "factionId": "IMP",
+    "killteamId": "IMP-CI",
+    "version": "January '26",
+    "classified": true,
+    "season": "Tomb World",
+    "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_celestian_insidiants-de5ycilovy-6fa4cw56e9.pdf",
+    "killteamName": "Celestian Insidiants",
+    "description": "Vaunted veterans of the Orders Militant, Celestian Insidiants hunt witches with extreme prejudice. Those struck down in the course of their duties become martyrs, their deaths only serving to harden the resolve of their surviving sisters.",
+    "composition": "A CELESTIAN INSIDIANT KillTeam is composed of:\n\n- 1 CELESTIAN INSIDIANT SUPERIOR operative with one of the following options:\n  - Relic condemnor stakethrower; relic bolt pistol; null mace\n  - Inferno pistol; null mace\n\n- 8 CELESTIAN INSIDIANT operatives selected from the following list:\n  - ABJUROR\n  - CENSOR\n  - CREMATOR\n  - DENUNCIA\n  - MORTISANCTUS\n  - RELIQUARIUS\n  - WARRIOR\n\nOther than CREMATOR and WARRIOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two CREMATOR operatives.",
+    "archetypes": [
+        "Security",
+        "Seek & Destroy"
+    ],
+    "ploys": [
+        {
+            "ployId": "IMP-CI-S-SE",
+            "killteamId": "IMP-CI",
+            "ployType": "S",
+            "seq": 1,
+            "ployName": "Suspect & Eliminate",
+            "description": "Select one enemy operative or marker. If you select an enemy operative, that operative and each other enemy operative visible to and within 2\" of it gains one of your Suspicion tokens until the end of the turning point. If you selected a marker, each enemy operative contesting that marker gains one of your Suspicion tokens until the end of the turning point. Whenever a friendly CELESTIAN INSIDIANT operative is shooting against or fighting against an operative that has one of your Suspicion tokens, that friendly operative's weapons have the Punishing weapon rule."
+        },
+        {
+            "ployId": "IMP-CI-S-WD",
+            "killteamId": "IMP-CI",
+            "ployType": "S",
+            "seq": 2,
+            "ployName": "Wrathful Determination",
+            "description": "Whenever an operative is shooting a friendly CELESTIAN INSIDIANT operative that has an Engage order, you can re-roll one of your defence dice."
+        },
+        {
+            "ployId": "IMP-CI-S-SS",
+            "killteamId": "IMP-CI",
+            "ployType": "S",
+            "seq": 3,
+            "ployName": "Suffering & Sacrifice",
+            "description": "Whenever a wounded friendly CELESTIAN INSIDIANT operative is shooting against, fighting against or retaliating against an enemy operative, its weapons have the Balanced weapon rule."
+        },
+        {
+            "ployId": "IMP-CI-S-HR",
+            "killteamId": "IMP-CI",
+            "ployType": "S",
+            "seq": 4,
+            "ployName": "Holy Resilience",
+            "description": "Whenever an INSPIRING friendly CELESTIAN INSIDIANT operative is fighting or retaliating, Normal and Critical Dmg of 4 or more inflicts 1 less damage on that friendly operative."
+        },
+        {
+            "ployId": "IMP-CI-T-GM",
+            "killteamId": "IMP-CI",
+            "ployType": "T",
+            "seq": 1,
+            "ployName": "Glory To The Martyrs",
+            "description": "Use this firefight ploy when a friendly CELESTIAN INSIDIANT operative is incapacitated while fighting or retaliating. You can strike the enemy operative in that sequence with one of your unresolved successes before it's removed from the killzone. If that enemy operative is incapacitated as a result, that friendly operative becomes INSPIRING before it's removed from the killzone and you can resolve the Martyrdom faction rule."
+        },
+        {
+            "ployId": "IMP-CI-T-FF",
+            "killteamId": "IMP-CI",
+            "ployType": "T",
+            "seq": 2,
+            "ployName": "Faith & Fury",
+            "description": "Use this firefight ploy when a friendly CELESTIAN INSIDIANT operative is fighting and you strike the enemy operative in that sequence with a critical success. After resolving that strike, also inflict D3 damage on each other enemy operative visible to and within 2\" of that friendly operative in an order of your choice (roll separately for each). Note that the friendly operative would become INSPIRING if any enemy operatives with a Wounds stat of 6 or more are incapacitated as a result of this damage."
+        },
+        {
+            "ployId": "IMP-CI-T-UP",
+            "killteamId": "IMP-CI",
+            "ployType": "T",
+            "seq": 3,
+            "ployName": "Unshakeable Pursuit",
+            "description": "Use this firefight ploy during a friendly CELESTIAN INSIDIANT operative's activation, before or after it performs an action. Until the end of that operative's activation, you can ignore any changes to its Move stat. If that operative is INSPIRING, add 1\" to its Move stat until the end of that activation. If that operative becomes INSPIRING by performing the Charge action, you can use this ploy before it moves to gain the additional movement (this takes precedence over stats not changing during an action)."
+        },
+        {
+            "ployId": "IMP-CI-T-FH",
+            "killteamId": "IMP-CI",
+            "ployType": "T",
+            "seq": 4,
+            "ployName": "Fervent Hate",
+            "description": "Use this firefight ploy after rolling your attack dice for a friendly CELESTIAN INSIDIANT operative, if it's shooting against, fighting against or retaliating against an enemy operative that doesn't have the IMPERIUM keyword. That friendly operative's weapons have the Ceaseless weapon rule until the end of that sequence; if that enemy operative also has the CHAOS and/or PSYKER keyword, that friendly operative's weapons have the Relentless weapon rule until the end of that sequence instead."
+        }
+    ],
+    "equipments": [
+        {
+            "eqId": "IMP-CI-EQ-PG",
+            "killteamId": "IMP-CI",
+            "seq": 1,
+            "eqName": "Psyk-Out Grenades",
+            "description": "This equipment allows you to select two utility grenades from the utility grenades equipment (see universal equipment) and they must all be stun grenades. If you also select that equipment as normal, you cannot select any stun grenades (i.e. to give you more than two). Whenever an operative takes a stun test as a result of a friendly CELESTIAN INSIDIANT operative performing the Stun Grenade action, if the result is a 3+, also inflict damage on that first operative equal to the dice result halved (rounding up). If that first operative has the PSYKER keyword, inflict damage on it equal to the dice result instead."
+        },
+        {
+            "eqId": "IMP-CI-EQ-VM",
+            "killteamId": "IMP-CI",
+            "seq": 2,
+            "eqName": "Vocifera Mortis",
+            "description": "Once per battle, when an INSPIRING friendly CELESTIAN INSIDIANT operative is incapacitated, you can use this rule. If you do, for the Martyrdom faction rule, the other friendly CELESTIAN INSIDIANT operative you select can be one that isn't visible to or within 6\" of that operative."
+        },
+        {
+            "eqId": "IMP-CI-EQ-SR",
+            "killteamId": "IMP-CI",
+            "seq": 3,
+            "eqName": "Saintly Relics",
+            "description": "Whenever an attack dice would inflict damage on a friendly CELESTIAN INSIDIANT operative, you can use this rule. If you do, roll one D6, or two D6 if that operative is INSPIRING: if any result is a 6, ignore the damage inflicted from that attack dice. You cannot ignore more than one attack dice per action and two attack dice per battle this way."
+        },
+        {
+            "eqId": "IMP-CI-EQ-AF",
+            "killteamId": "IMP-CI",
+            "seq": 4,
+            "eqName": "Auto-Flagellator",
+            "description": "Whenever a friendly CELESTIAN INSIDIANT operative is activated, you can use this rule. If you do, roll one D6 and inflict damage on that operative equal to half the result (rounding up); on a 4+, that operative also becomes INSPIRING. You cannot make more than one friendly operative INSPIRING using this rule per turning point."
+        }
+    ],
+    "teamAbilities": [
+        {
+            "abilityId": "IMP-CI-TA-MAR",
+            "abilityName": "Martyrdom",
+            "description": "Whenever an INSPIRING friendly CELESTIAN INSIDIANT operative is incapacitated, before it's removed from the killzone, select one other friendly CELESTIAN INSIDIANT operative that operative is visible to or within 6\" of. Then, that selected operative gains one BENEDICTION (incapacitated operatives cannot be selected for a BENEDICTION).\n\n**BENEDICTIONS:**\n\n*   **Ardour:** Until the end of the battle, add 1 to that operative's APL stat. You cannot select this BENEDICTION for a SUPERIOR operative.\n*   **Wrath:** Until the end of the battle, weapons on that operative's datacard have the Ceaseless weapon rule.\n*   **Restoration:** That operative regains up to D3+2 lost wounds.\n*   **Exigence:** That operative can immediately perform a free Charge or Dash action (for the former, it cannot move more than 3\"), but must end that move closer to that incapacitated INSPIRING operative."
+        },
+        {
+            "abilityId": "IMP-CI-TA-WWH",
+            "abilityName": "Weapons Of The Witch Hunters",
+            "description": "PSYCHIC ranged weapons cannot inflict damage on friendly CELESTIAN INSIDIANT operatives. For the effects of PSYCHIC actions, friendly CELESTIAN INSIDIANT operatives cannot be selected and are never treated as being within those actions' required distances. Whenever an operative is within 3\" of a friendly CELESTIAN INSIDIANT operative:\n- That operative cannot perform PSYCHIC actions or use PSYCHIC additional rules.\n- That operative cannot use PSYCHIC ranged weapons.\n- PSYCHIC melee weapons have no weapon rules and cannot have Dmg stats higher than 3/4."
+        },
+        {
+            "abilityId": "IMP-CI-TA-INS",
+            "abilityName": "Inspiration",
+            "description": "Whenever a friendly CELESTIAN INSIDIANT operative:\n- Incapacitates an enemy operative that has a Wounds stat of 6 or more, that friendly operative becomes INSPIRING.\n- Performs the Charge action, before it moves, it becomes INSPIRING.\n\nWhenever a friendly CELESTIAN INSIDIANT operative is INSPIRING, weapons on its datacard have the Severe weapon rule."
+        }
+    ],
+    "opTypes": [
+        {
+            "opTypeId": "IMP-CI-SUP",
+            "killteamId": "IMP-CI",
+            "seq": 1,
+            "opTypeName": "Insidiant Superior",
+            "MOVE": "6\"",
+            "APL": 3,
+            "SAVE": "3+",
+            "WOUNDS": 10,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, LEADER, SUPERIOR",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-SUP-IP",
+                    "opTypeId": "IMP-CI-SUP",
+                    "seq": 1,
+                    "wepName": "Inferno Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-SUP-IP-0",
+                            "wepId": "IMP-CI-SUP-IP",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/2",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 3
+                                },
+                                {
+                                    "id": "WR-UNIV-DEVASTATING",
+                                    "number": 3
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 2
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-SUP-RBP",
+                    "opTypeId": "IMP-CI-SUP",
+                    "seq": 2,
+                    "wepName": "Relic Bolt Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-SUP-RBP-0",
+                            "wepId": "IMP-CI-SUP-RBP",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-SUP-RCS",
+                    "opTypeId": "IMP-CI-SUP",
+                    "seq": 3,
+                    "wepName": "Relic Condemnor Stakethrower",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-SUP-RCS-0",
+                            "wepId": "IMP-CI-SUP-RCS",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "2/2",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-DEVASTATING",
+                                    "number": 2
+                                },
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-SILENT"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-SUP-NM",
+                    "opTypeId": "IMP-CI-SUP",
+                    "seq": 4,
+                    "wepName": "Null Mace",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-SUP-NM-0",
+                            "wepId": "IMP-CI-SUP-NM",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-SUP-HE",
+                    "opTypeId": "IMP-CI-SUP",
+                    "abilityName": "Holy Example",
+                    "description": "Once per turning point, if this operative is INSPIRING, you can use a firefight ploy for 0CP if this is the specified CELESTIAN INSIDIANT operative (including Command Re-roll if the attack or defence dice was rolled for this operative)."
+                }
+            ],
+            "actions": [
+                {
+                    "id": "IMP-CI-SUP-SM",
+                    "type": "ability",
+                    "seq": 0,
+                    "AP": 1,
+                    "name": "Spiritual Mentor",
+                    "description": null,
+                    "effects": [
+                        "SUPPORT. Select one friendly CELESTIAN INSIDIANT operative visible to and within 6\" of this operative. That operative becomes INSPIRING."
+                    ],
+                    "conditions": [
+                        "This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+                    ]
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-ABJ",
+            "killteamId": "IMP-CI",
+            "seq": 2,
+            "opTypeName": "Insidiant Abjuror",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "2+",
+            "WOUNDS": 11,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, ABJUROR",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-ABJ-BSD",
+                    "opTypeId": "IMP-CI-ABJ",
+                    "seq": 1,
+                    "wepName": "Blessed Sword & Praesidium Protectiva",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-ABJ-BSD-0",
+                            "wepId": "IMP-CI-ABJ-BSD",
+                            "seq": 0,
+                            "profileName": "Defensive",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-SHARED-SHIELD",
+                                    "name": "Shield"
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-CI-ABJ-BSD-1",
+                            "wepId": "IMP-CI-ABJ-BSD",
+                            "seq": 1,
+                            "profileName": "Offensive",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-ABJ-HD",
+                    "opTypeId": "IMP-CI-ABJ",
+                    "abilityName": "Holy Defender",
+                    "description": "Once per turning point, when a friendly CELESTIAN INSIDIANT operative visible to and within 2\" of this operative is selected as the valid target of a Shoot action or to fight against during the Fight action, you can use this rule. If you do, this operative becomes the valid target or is fought against (as appropriate) instead (even if it wouldn't normally be valid for this). If it's the Fight action, treat this operative as being within the fighting operative's control range for the duration of that action. If it's the Shoot action, this operative is only in cover or obscured if the original target was. This rule has no effect if it's the Shoot action and the ranged weapon has the Blast or Torrent weapon rule."
+                },
+                {
+                    "abilityId": "IMP-CI-ABJ-SHIELD",
+                    "opTypeId": "IMP-CI-ABJ",
+                    "abilityName": "Shield",
+                    "description": "Whenever this operative is fighting or retaliating with this weapon profile, each of your blocks can be allocated to block two unresolved successes (instead of one)."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-CEN",
+            "killteamId": "IMP-CI",
+            "seq": 3,
+            "opTypeName": "Insidiant Censor",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, CENSOR",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-CEN-VA",
+                    "opTypeId": "IMP-CI-CEN",
+                    "seq": 1,
+                    "wepName": "Virge Of Admonition",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-CEN-VA-0",
+                            "wepId": "IMP-CI-CEN-VA",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "4+",
+                            "DMG": "5/5",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-BRUTAL"
+                                },
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-CEN-VIB",
+                    "opTypeId": "IMP-CI-CEN",
+                    "abilityName": "Virge Of Admonition Icon Bearer",
+                    "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
+                },
+                {
+                    "abilityId": "IMP-CI-CEN-NF",
+                    "opTypeId": "IMP-CI-CEN",
+                    "abilityName": "Null Field",
+                    "description": "This operative starts the battle with a null range of 1\". Whenever an enemy operative is within null range of this operative, subtract 2\" from the Move stat of that enemy operative and worsen the Hit stat of its weapons by 1 (this isn't cumulative with being injured)."
+                }
+            ],
+            "actions": [
+                {
+                    "id": "IMP-CI-CEN-NR",
+                    "type": "ability",
+                    "seq": 0,
+                    "AP": 1,
+                    "name": "Nullifying Ritual",
+                    "description": null,
+                    "effects": [
+                        "Add 1 to this operative's null range (to a maximum of 5\"). Nullification tokens in the marker/token guide are numbered, so use the numbered token equal to this operative's null range."
+                    ],
+                    "conditions": [
+                        "This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+                    ]
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-CRE",
+            "killteamId": "IMP-CI",
+            "seq": 4,
+            "opTypeName": "Insidiant Cremator",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, CREMATOR",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-CRE-HF",
+                    "opTypeId": "IMP-CI-CRE",
+                    "seq": 1,
+                    "wepName": "Hand Flamer",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-CRE-HF-0",
+                            "wepId": "IMP-CI-CRE-HF",
+                            "seq": 0,
+                            "profileName": "Standard",
+                            "ATK": "4",
+                            "HIT": "2+",
+                            "DMG": "3/3",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 6
+                                },
+                                {
+                                    "id": "WR-UNIV-SATURATE"
+                                },
+                                {
+                                    "id": "WR-UNIV-TORRENT",
+                                    "number": 1
+                                }
+                            ]
+                        },
+                        {
+                            "wepprofileId": "IMP-CI-CRE-HF-1",
+                            "wepId": "IMP-CI-CRE-HF",
+                            "seq": 1,
+                            "profileName": "Deluge",
+                            "ATK": "4",
+                            "HIT": "2+",
+                            "DMG": "3/3",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 4
+                                },
+                                {
+                                    "id": "WR-UNIV-SATURATE"
+                                },
+                                {
+                                    "id": "WR-UNIV-SEEK-LIGHT"
+                                },
+                                {
+                                    "id": "WR-UNIV-TORRENT",
+                                    "number": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-CRE-NM",
+                    "opTypeId": "IMP-CI-CRE",
+                    "seq": 2,
+                    "wepName": "Null Mace",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-CRE-NM-0",
+                            "wepId": "IMP-CI-CRE-NM",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-CRE-IP",
+                    "opTypeId": "IMP-CI-CRE",
+                    "abilityName": "Inspirational Pyre",
+                    "description": "Once per turning point, when this operative inflicts damage on an enemy operative with either profile of its hand flamer but doesn't incapacitate it, you can use this rule. If you do, you can select one friendly CELESTIAN INSIDIANT operative within 6\" of this operative to become INSPIRING. Note that Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torrent weapon rule for all other rules purposes."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-DEN",
+            "killteamId": "IMP-CI",
+            "seq": 5,
+            "opTypeName": "Insidiant Denuncia",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, DENUNCIA",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-DEN-VC",
+                    "opTypeId": "IMP-CI-DEN",
+                    "seq": 1,
+                    "wepName": "Voice Of Condemnation",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-DEN-VC-0",
+                            "wepId": "IMP-CI-DEN-VC",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "5",
+                            "HIT": "3+",
+                            "DMG": "1/1",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 6
+                                },
+                                {
+                                    "id": "WR-UNIV-SEEK"
+                                },
+                                {
+                                    "id": "WR-UNIV-STUN"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-DEN-SD",
+                    "opTypeId": "IMP-CI-DEN",
+                    "seq": 2,
+                    "wepName": "Staff Of Declamation",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-DEN-SD-0",
+                            "wepId": "IMP-CI-DEN-SD",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/3",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-DEN-AE",
+                    "opTypeId": "IMP-CI-DEN",
+                    "abilityName": "Accusing Exorcist",
+                    "description": "Whenever this operative is INSPIRING, the Suspect & Eliminate strategy ploy costs you 0CP if the enemy operative or marker you select is visible to or within 6\" of this operative."
+                }
+            ],
+            "actions": [
+                {
+                    "id": "IMP-CI-DEN-SD",
+                    "type": "ability",
+                    "seq": 0,
+                    "AP": 1,
+                    "name": "Speak Of Her Deeds",
+                    "description": null,
+                    "effects": [
+                        "SUPPORT. Select an INSPIRING friendly CELESTIAN INSIDIANT operative visible to and within 6\" of this operative. That operative is no longer INSPIRING. Then, select another friendly CELESTIAN INSIDIANT operative visible to and within 6\" of this operative. Resolve one BENEDICTION from the Martyrdom faction rule on that operative (excluding Exigence)."
+                    ],
+                    "conditions": [
+                        "This operative cannot perform this action while within control range of an enemy operative."
+                    ]
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-MOR",
+            "killteamId": "IMP-CI",
+            "seq": 6,
+            "opTypeName": "Insidiant Mortisanctus",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, MORTISANCTUS",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-MOR-BB",
+                    "opTypeId": "IMP-CI-MOR",
+                    "seq": 1,
+                    "wepName": "Blessed Broadsword",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-MOR-BB-0",
+                            "wepId": "IMP-CI-MOR-BB",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/6",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-LETHAL",
+                                    "number": 5
+                                },
+                                {
+                                    "id": "WR-UNIV-BRUTAL"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-MOR-ZU",
+                    "opTypeId": "IMP-CI-MOR",
+                    "abilityName": "Zealous Ultimatum",
+                    "description": "Once per battle STRATEGIC GAMBIT. Select one enemy operative within 8\" of this operative and issue an ultimatum to it. Your opponent must accept or decline that ultimatum (if it's a non-player operative, roll one D6: on a 4+, the ultimatum is accepted, otherwise it's declined).\n\nIf the ultimatum is accepted, whenever this operative is fighting against or retaliating against that enemy operative, add 1 to the Atk stat of this operative's blessed broadsword. The first time this operative incapacitates that enemy operative while fighting or retaliating during the battle, add 1 to the Atk stat of this operative's blessed broadsword until the end of the battle. In either case, this is to a maximum of 5.\n\nIf the ultimatum is declined, whenever that enemy operative is fighting against or retaliating against a friendly CELESTIAN INSIDIANT operative, subtract 1 from the Atk stat of that enemy operative's weapons."
+                },
+                {
+                    "abilityId": "IMP-CI-MOR-BS",
+                    "opTypeId": "IMP-CI-MOR",
+                    "abilityName": "Bladed Stance",
+                    "description": "Whenever this operative is fighting or retaliating, you can resolve one of your successes before the normal order. If you do, that success must be used to block."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-REL",
+            "killteamId": "IMP-CI",
+            "seq": 7,
+            "opTypeName": "Insidiant Reliquarius",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, RELIQUARIUS",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-REL-BP",
+                    "opTypeId": "IMP-CI-REL",
+                    "seq": 1,
+                    "wepName": "Bolt Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-REL-BP-0",
+                            "wepId": "IMP-CI-REL-BP",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-REL-CS",
+                    "opTypeId": "IMP-CI-REL",
+                    "seq": 2,
+                    "wepName": "Condemnor Stakethrower",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-REL-CS-0",
+                            "wepId": "IMP-CI-REL-CS",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "2/2",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-DEVASTATING",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-SILENT"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-REL-GB",
+                    "opTypeId": "IMP-CI-REL",
+                    "seq": 3,
+                    "wepName": "Gun Butt",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-REL-GB-0",
+                            "wepId": "IMP-CI-REL-GB",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "3",
+                            "HIT": "3+",
+                            "DMG": "2/3",
+                            "WR": []
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-REL-SN",
+                    "opTypeId": "IMP-CI-REL",
+                    "abilityName": "Simulacrum Nullificatus Icon Bearer",
+                    "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative. Note this isn't a change to the APL stat, so any changes are cumulative with this."
+                },
+                {
+                    "abilityId": "IMP-CI-REL-DEV",
+                    "opTypeId": "IMP-CI-REL",
+                    "abilityName": "Devotion",
+                    "description": "At the end of each of this operative's activations, if it's INSPIRING and it controls an objective marker or one of your mission markers, one friendly CELESTIAN INSIDIANT operative this operative is visible to and within 6\" of becomes INSPIRING."
+                }
+            ]
+        },
+        {
+            "opTypeId": "IMP-CI-WAR",
+            "killteamId": "IMP-CI",
+            "seq": 8,
+            "opTypeName": "Insidiant Warrior",
+            "MOVE": "6\"",
+            "APL": 2,
+            "SAVE": "3+",
+            "WOUNDS": 9,
+            "keywords": "CELESTIAN INSIDIANT, IMPERIUM, ADEPTA SORORITAS, WARRIOR",
+            "basesize": 32,
+            "weapons": [
+                {
+                    "wepId": "IMP-CI-WAR-BP",
+                    "opTypeId": "IMP-CI-WAR",
+                    "seq": 1,
+                    "wepName": "Bolt Pistol",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-WAR-BP-0",
+                            "wepId": "IMP-CI-WAR-BP",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "3/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-RANGE",
+                                    "number": 8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-WAR-CS",
+                    "opTypeId": "IMP-CI-WAR",
+                    "seq": 2,
+                    "wepName": "Condemnor Stakethrower",
+                    "wepType": "R",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-WAR-CS-0",
+                            "wepId": "IMP-CI-WAR-CS",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "2/2",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-DEVASTATING",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-PIERCING-CRITS",
+                                    "number": 1
+                                },
+                                {
+                                    "id": "WR-UNIV-SILENT"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "wepId": "IMP-CI-WAR-NM",
+                    "opTypeId": "IMP-CI-WAR",
+                    "seq": 3,
+                    "wepName": "Null Mace",
+                    "wepType": "M",
+                    "profiles": [
+                        {
+                            "wepprofileId": "IMP-CI-WAR-NM-0",
+                            "wepId": "IMP-CI-WAR-NM",
+                            "seq": 0,
+                            "profileName": "",
+                            "ATK": "4",
+                            "HIT": "3+",
+                            "DMG": "4/4",
+                            "WR": [
+                                {
+                                    "id": "WR-UNIV-SHOCK"
+                                },
+                                {
+                                    "id": "WR-SHARED-ANTI-PSYKER"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "abilities": [
+                {
+                    "abilityId": "IMP-CI-WAR-IS",
+                    "opTypeId": "IMP-CI-WAR",
+                    "abilityName": "Inspired Strikes",
+                    "description": "Whenever this operative is INSPIRING, add 1 to the Critical Dmg stat of weapons on its datacard."
+                }
+            ]
+        }
+    ]
+}
