@@ -1,48 +1,50 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-12-10",
-  "source": "Kill Team Mercenrios podcast",
-  "title": "KT Mercenarios 11/25",
+  "lastUpdated": "2026-01-28T19:53:24.381Z",
+  "source": "Kill Team Mercenarios",
+  "title": "Mercenarios Orca List 28/01",
   "tiers": {
     "S": [
-      "IMP-WS",
-      "NEC-CAN"
-    ],
-    "A+": [
-      "TYR-BBRO",
-      "IMP-DW",
-      "CHAOS-FELL",
-      "AEL-MND"
+      "CHAOS-MW"
     ],
     "A": [
-      "ORK-WK",
-      "TAU-VESP",
-      "IMP-TEMPAQ",
-      "AEL-BOK",
       "IMP-AOD",
-      "CHAOS-CULT",
-      "CHAOS-GORE",
-      "VOT-HKS",
-      "VOT-HKY",
-      "IMP-INQ",
-      "CHAOS-NC",
+      "IMP-INB",
+      "CHAOS-FELL",
       "CHAOS-PM",
-      "TYR-RAV"
+      "IMP-TEMPAQ",
+      "IMP-WS",
+      "NEC-CAN",
+      "ORK-WK",
+      "AEL-MND"
     ],
     "B": [
-      "TAU-SB",
+      "TYR-BBRO",
+      "IMP-CI",
+      "VOT-HKS",
+      "CHAOS-GORE",
+      "TAU-VESP",
+      "AEL-BOK",
       "IMP-AES",
-      "TAU-FSKB",
-      "AEL-HOTA",
-      "NEC-HIER",
-      "IMP-INB",
-      "IMP-RAT",
-      "IMP-SANC",
-      "IMP-SCT"
+      "CHAOS-CULT"
     ],
     "C": [
-      "IMP-BC",
-      "IMP-KAS"
+      "IMP-SCT",
+      "TAU-SB",
+      "TYR-RAV",
+      "TAU-FSKB",
+      "CHAOS-NC",
+      "IMP-DW",
+      "VOT-HKY",
+      "IMP-INQ",
+      "IMP-RAT",
+      "NEC-HIER"
+    ],
+    "D": [
+      "AEL-HOTA",
+      "IMP-SANC",
+      "IMP-KAS",
+      "IMP-BC"
     ]
   }
 }
