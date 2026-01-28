@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-AES",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_exaction_squad-nyxib8nzlb-wuozh8bkzd.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_exaction_squad-owtfhxa0gg-n6msfm6mk6.pdf",
   "killteamName": "Exaction Squad",
   "description": "It is the responsibility of the Adeptus Arbites to enforce Imperial law. Exaction Squads are formed from the most\nhighly skilled and experienced Arbitrators. They are tasked with hunting down and securing the most heinous of\ncriminals, returning them alive to face the full extent of the Emperor's justice.",
   "composition": "An EXACTION SQUAD KillTeam is composed of:\n\n- 1 EXACTION SQUAD PROCTOR-EXACTANT operative with one of the following options:\n  - Combat shotgun; repression baton\n  - Shotpistol; dominator maul & assault shield\n- 10 EXACTION SQUAD operatives selected from the following list:\n  - CASTIGATOR\n  - CHIRURGANT\n  - LEASHMASTER\n  - R-VR CYBER-MASTIFF\n  - MALOCATOR\n  - MARKSMAN\n  - REVELATUM\n  - SUBDUCTOR\n  - VIGILANT\n  - VOX-SIGNIFIER\n  - GUNNER with one of the following options:\n    - Grenade launcher; repression baton\n    - Heavy stubber; repression baton\n    - Webber; repression baton\n        \n\n  \n\nOther than GUNNER, SUBDUCTOR and VIGILANT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives (each must have a different option) and up to four SUBDUCTOR operatives.",
@@ -84,7 +84,7 @@
       "killteamId": "IMP-AES",
       "seq": 1,
       "eqName": "Manacles",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it)."
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly EXACTION SQUAD operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it), and you cannot use this rule again during this turning point."
     },
     {
       "eqId": "IMP-AES-SPL",
@@ -483,9 +483,9 @@
               "wepId": "IMP-AES-GNR-GL",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "4+",
-              "DMG": "4/6",
+              "DMG": "4/5",
               "WR": [
                 {
                   "id": "WR-UNIV-PIERCING",
@@ -685,7 +685,7 @@
           "abilityId": "IMP-AES-LSH-A-AP",
           "opTypeId": "IMP-AES-LSH",
           "abilityName": "Attack Pattern",
-          "description": "STRATEGIC GAMBIT in the first turning point. Select one of the following attack patterns for a friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative to have for the battle:\n\n- Aggressive: Its melee weapons have the Relentless weapon rule.\n- Swift: Add 2\" to its Move stat.\n- Defensive: Improve its Save stat by 1.\n"
+          "description": "STRATEGIC GAMBIT in the first turning point. Select two of the following attack patterns for a friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative to have for the battle:\n\n- Aggressive: Its melee weapons have the Relentless weapon rule.\n- Swift: Add 2\" to its Move stat.\n- Defensive: Improve its Save stat by 1.\n"
         },
         {
           "abilityId": "IMP-AES-LSH-A-HND",
@@ -703,7 +703,7 @@
           "name": "R-VR Command",
           "description": null,
           "effects": [
-            "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change its attack pattern."
+            "Select one friendly EXACTION SQUAD R-VR CYBER-MASTIFF operative and change one of its attack patterns."
           ]
         }
       ]
@@ -1062,9 +1062,7 @@
           "name": "Spot",
           "description": null,
           "effects": [
-            "**SUPPORT**",
-            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative within 3\" of this operative is shooting that enemy operative,",
-            "you can use this effect. If you do:",
+            "Select one enemy operative visible to and within 8\" of this operative. Until the end of the turning point, whenever a friendly EXACTION SQUAD operative is shooting that enemy operative, you can use this effect. If you do:",
             "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
             "- That enemy operative cannot be obscured."
           ],

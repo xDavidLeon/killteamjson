@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-FSKB",
-  "version": "June '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_farstalker_kinband-qonfc1le93-ld45u3ayym.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_farstalker_kinband-pylxqicimj-umb4oulmlb.pdf",
   "killteamName": "Farstalker Kinband",
   "description": "Farstalker Kinbands operate as scouts for the Kroot species. They range far and wide throughout the galaxy, seeking new and valuable genetic material to return to their Shapers. Farstalker Kinbands contain expert trackers, hunters and guerrilla fighters who are capable of matching far more technologically advanced foes.",
   "composition": "A FARSTALKER KINBAND killteam is composed of:\n\n- 1 FARSTALKER KINBAND KILL-BROKER operative with one of the following options:\n  - Kroot rifle; ritual blade\n  - Pulse weapon; ritual blade\n- 11 FARSTALKER KINBAND operatives selected from the following list:\n  - BOW-HUNTER\n  - COLD-BLOOD\n  - CUT-SKIN\n  - HOUND\n  - LONG-SIGHT\n  - PISTOLIER\n  - STALKER\n  - TRACKER\n  - HEAVY GUNNER with one of the following options:\n    - Dvorgite skinner; blade\n    - Londaxi tribalest; blade    \n  - WARRIOR with one of the following options:\n    - Kroot rifle; blade\n    - Kroot scattergun; blade\n        \nOther than HOUND and WARRIOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two HOUND operatives.",
@@ -84,32 +84,28 @@
       "killteamId": "TAU-FSKB",
       "seq": 1,
       "eqName": "Piercing Shot",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Piercing 1 weapon rule.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Piercing 1 weapon rule.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action."
     },
     {
       "eqId": "TAU-FSKB-TS",
       "killteamId": "TAU-FSKB",
       "seq": 2,
       "eqName": "Toxin Shot",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Lethal 5+ and Stun weapon rules.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative is performing the Shoot action and you select a Kroot rifle, Kroot scattergun or dual Kroot pistols (focused), you can use this rule.\r If you do, until the end of that action, that weapon has the Lethal 5+ and Stun weapon rules.  \nYou cannot use the Piercing Shot and Toxin Shot rules during the same action."
     },
     {
       "eqId": "TAU-FSKB-MEAT",
       "killteamId": "TAU-FSKB",
       "seq": 3,
       "eqName": "Meat",
-      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative (excluding HOUND) is activated, if it's not within control range of enemy operatives, you can use this rule. If you do, that friendly operative regains D3+1 lost wounds.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly FARSTALKER KINBAND operative (excluding HOUND) is activated, if it's not within control range of enemy operatives, you can use this rule. If you do, that friendly operative regains D3+1 lost wounds."
     },
     {
       "eqId": "TAU-FSKB-TRP",
       "killteamId": "TAU-FSKB",
       "seq": 4,
       "eqName": "Trophy",
-      "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation.",
-      "effects": ""
+      "description": "Once per battle, during a friendly FARSTALKER KINBAND operative's activation (excluding HOUND), before or after it performs an action, if it's not within control range of enemy operatives, you can use this rule.\r If you do, add 1 to that friendly operative's APL stat until the end of its activation."
     }
   ],
   "teamAbilities": [
@@ -284,7 +280,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -353,7 +349,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -400,7 +396,7 @@
               "profileName": "",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-CEASELESS"
@@ -522,7 +518,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -577,7 +573,7 @@
           "abilityId": "TAU-FSKB-HND-A-BT",
           "opTypeId": "TAU-FSKB-HND",
           "abilityName": "Bad-Tempered",
-          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
+          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action (you can change its order to Engage to do so), but must end that move within control range of that enemy operative."
         }
       ],
       "actions": [
@@ -682,7 +678,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -734,7 +730,7 @@
               "profileName": "Focused",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-RANGE",
@@ -756,7 +752,7 @@
               "profileName": "Salvo",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-RANGE",
@@ -783,7 +779,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -854,7 +850,7 @@
               "profileName": "",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-BALANCED"
@@ -938,7 +934,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -1047,7 +1043,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]

@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-KAS",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_kasrkin_online_rules-348rnhwljl-tzzl86nce7.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_kasrkin-u0i6ljfum0-hys1lk2hte.pdf",
   "killteamName": "Kasrkin",
   "description": "Amongst Cadia's most elite warriors, the Kasrkin are trained from birth in the art of war.\nClad in carapace armour and bearing a wide range of specialist wargear, they are the special forces of the Cadian regiments, tasked with completing nigh impossible missions in the defence and furtherance of the Imperial cause.",
   "composition": "A KASRKIN KillTeam is composed of:\n\n- 1 KASRKIN SERGEANT operative with one of the following options:\n  - Bolt pistol; power weapon\n  - Hot-shot lasgun; gun butt\n  - Hot-shot laspistol; power weapon\n  - Plasma pistol; chainsword\n- 9 KASRKIN operatives selected from the following list:\n  - COMBAT MEDIC\n  - DEMO-TROOPER\n  - GUNNER with flamer and gun butt*\n  - GUNNER with grenade launcher and gun butt*\n  - GUNNER with hot-shot volley gun and gun butt*\n  - GUNNER with meltagun and gun butt*\n  - GUNNER with plasma gun and gun butt*\n  - RECON-TROOPER\n  - SHARPSHOOTER*\n  - TROOPER\n  - VOX-TROOPER\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*You cannot select more than four of these operatives combined.  \n\nSome KASRKIN rules refer to a 'hot-shot weapon'. This is a ranged weapon that includes 'hot-shot' in its name, e.g. hot-shot lasgun, all profiles of a hot-shot marksman rifle, etc.",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Elimination Pattern",
-      "description": "Whenever a friendly KASRKIN operative is shooting with a hot-shot weapon against a target that's is either not in cover or is being scanned (see RECON-TROOPER), that weapon has the Piercing Crits 1 weapon rule,\r or Piercing 1 instead if it's a hot-shot volley gun.  \n\r **Piercing 1:** The defender collects 1 less Defence die.  \n\r **Piercing Crits 1:** If you retain any critical successes, the defender collects 1 less Defence die."
+      "description": "Whenever a friendly KASRKIN operative is shooting with a hot-shot weapon against an operative that cannot retain any cover saves or is being scanned (see RECON-TROOPER), that weapon has the Piercing Crits 1 weapon rule,\r or Piercing 1 instead if it's a hot-shot volley gun.  \n\r **Piercing 1:** The defender collects 1 less Defence die.  \n\r **Piercing Crits 1:** If you retain any critical successes, the defender collects 1 less Defence die."
     },
     {
       "ployId": "IMP-KAS-S-REL",
@@ -67,7 +67,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Neutralise Target",
-      "description": "Use this firefight ploy when a friendly KASRKIN operative is shooting, after rolling your attack dice if it's shooting an operative that's either not in cover or is being scanned (see RECON-TROOPER). You can re-roll any of your attack dice."
+      "description": "Use this firefight ploy when a friendly KASRKIN operative is shooting, after rolling your attack dice if it's shooting an operative that either cannot retain any cover saves or is being scanned (see RECON-TROOPER). You can re-roll any of your attack dice."
     },
     {
       "ployId": "IMP-KAS-T-STI",
@@ -84,39 +84,56 @@
       "killteamId": "IMP-KAS",
       "seq": 1,
       "eqName": "Foregrip",
-      "description": "Whenever a friendly KASRKIN operative is shooting an operative within 3\" of it, ranged weapons on its datacard\n(excluding weapons that include 'pistol' in their name, e.g. hot-shot laspistol, all profiles of a plasma pistol, etc.) have the Accurate 1 weapon rule.",
-      "effects": ""
+      "description": "Whenever a friendly KASRKIN operative is shooting an operative within 3\" of it, ranged weapons on its datacard\n(excluding weapons that include 'pistol' in their name, e.g. hot-shot laspistol, all profiles of a plasma pistol, etc.) have the Accurate 1 weapon rule."
     },
     {
       "eqId": "IMP-KAS-LRS",
       "killteamId": "IMP-KAS",
       "seq": 2,
       "eqName": "Long-Range Scope",
-      "description": "Whenever a friendly KASRKIN operative is shooting an operative more than 6\" from it, that friendly operative's hot-shot weapons have the Saturate weapon rule.",
-      "effects": ""
+      "description": "Whenever a friendly KASRKIN operative is shooting an operative more than 6\" from it, that friendly operative's hot-shot weapons have the Saturate weapon rule."
     },
     {
       "eqId": "IMP-KAS-ROC",
       "killteamId": "IMP-KAS",
       "seq": 3,
       "eqName": "Relics Of Cadia",
-      "description": "Once per turning point, when a friendly KASRKIN operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly KASRKIN operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
     },
     {
       "eqId": "IMP-KAS-CD",
       "killteamId": "IMP-KAS",
       "seq": 4,
       "eqName": "Combat Daggers",
-      "description": "Friendly KASRKIN operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|\n",
-      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+      "description": "Friendly KASRKIN operatives have the following melee weapon:",
+      "weapons": [
+        {
+          "wepId": "IMP-KAS-CD-COMBAT-DAGGER",
+          "wepName": "Combat Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "teamAbilities": [
     {
       "abilityId": "IMP-KAS-TA-SKATAR",
       "abilityName": "Skill At Arms",
-      "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \n Whenever a friendly KASRKIN operative is shooting , its ranged weapons have the Severe weapon rule if any of the following are true for the target:\n\n- It's ready.\n- It's not in cover.\n- It's being scanned (see RECON-TROOPER).\n\n\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
+      "description": "**STRATEGIC GAMBIT** Select a SKILL AT ARMS for friendly KASRKIN operatives to have until the Ready step of the next Strategy phase.\n\n- **Light 'Em Up**  \nFriendly KASRKIN operatives’ ranged weapons have the Severe weapon rule.\n- **Strike Fast**  \n Whenever a friendly KASRKIN operative is performing the Reposition action, add 1\" to its Move stat.\n- **Ice In Your Veins**  \n Whenever a friendly KASRKIN operative is fighting or retaliating, or an operative is shooting it, the first time an attack die inflicts Normal Dmg of 3 or more on this operative during that sequence, that dice inflicts 1 less damage on it.\n- **For Cadia!**  \n Add 1 to the Atk stat of friendly KASRKIN operatives' melee weapons (to a maximum of 4). Whenever a friendly KASRKIN operative is fighting, the first time you strike during that sequence, inflict 1 additional damage.\n"
+    },
+    {
+      "abilityId": "IMP-KAS-TA-RAP",
+      "abilityName": "Rapid Fire",
+      "description": "Each friendly KASRKIN operative that doesn’t perform an action in which it moves during its activation can perform two Shoot actions (excluding Guard) during that activation, but a bolt pistol, hot-shot lasgun or hot-shot laspistol must be selected for both of those actions."
     }
   ],
   "opTypes": [
@@ -316,7 +333,13 @@
           ]
         }
       ],
-      "abilities": [],
+      "abilities": [
+        {
+          "abilityId": "IMP-KAS-SGT-AB-VL",
+          "abilityName": "Veteran Leadership",
+          "description": "Whenever this operative is in the killzone and you use the SKILL AT ARMS STRATEGIC GAMBIT, you can select one additional SKILL AT ARMS."
+        }
+      ],
       "actions": [
         {
           "id": "IMP-KAS-SGT-TC",

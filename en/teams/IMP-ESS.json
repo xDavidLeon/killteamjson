@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-ESS",
-  "version": "1.2",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_elucidian_starstriders-9e35fuerk3-yzr9ju0jqe.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_elucidian_starstriders-uan3mmkdni-rcfs5dxxlc.pdf",
   "killteamName": "Elucidian Starstriders",
   "description": "Elucia Vhane is a scion of a noble mercantile dynasty. Leaving behind her family's operations in the galactic north, Vhane led her Elucidian Starstriders to the Eastern Fringe. Alongside her esoteric crew, the bold Rogue Trader seeks to eclipse the rich history of her ancestors with her own rise to glory - or die trying.",
   "composition": "Note that you do not select your operatives from a list.\nThis kill team's operatives are specified.\n\nAn ELUCIDIAN STARSTRIDERS killteam is composed of every ELUCIDIAN STARSTRIDER operative in the following list:\n\n- 1 ELUCIA VHANE\n- 1 CANID\n- 1 DEATH CULT EXECUTIONER\n- 1 LECTRO-MAESTER\n- 1 REJUVENAT ADEPT\n- 1 VOIDMASTER\n- 3 VOIDSMAN with lasgun and gun butt\n- 1 VOIDSMAN with rotor cannon and gun butt\n",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Stake Claim",
-      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, that friendly operative's weapons have the Accurate 1 weapon rule. In the Ready step of the next Strategy phase, remove that marker.  \n**Accurate 1:** You can retain 1 Attack Die as a normal success without rolling it."
+      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
     },
     {
       "ployId": "IMP-ESS-S-UX",
@@ -67,7 +67,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Survivalist",
-      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER operative is activated that's not within control range of enemy operatives. That friendly operative regains up to D3+2 lost wounds. You cannot use this ploy for each friendly operative more than once per battle."
+      "description": "Use this firefight ploy when a friendly ELUCIDIAN STARSTRIDER operative is activated. That friendly operative regains up to D3+2 lost wounds and during that activation you can ignore any changes to its APL stat."
     },
     {
       "ployId": "IMP-ESS-T-WD",
@@ -91,7 +91,7 @@
       "killteamId": "IMP-ESS",
       "seq": 2,
       "eqName": "Hot Shot Capacitor Pack",
-      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol or lasgun, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules. Note that relic laspistols are excluded from this rule."
+      "description": "Up to twice per turning point, whenever a friendly ELUCIDIAN STARSTRIDER operative is performing the Shoot action and you select a laspistol, lasgun or relic laspistol, you can use this rule.\nIf you do, until the end of the turning point, add 1 to both Dmg stats of that weapon and it has the Hot and Piercing Crits 1 weapon rules."
     },
     {
       "eqId": "IMP-ESS-ICUL",
@@ -208,13 +208,13 @@
           "abilityId": "IMP-ESS-EV-A-RTM",
           "opTypeId": "IMP-ESS-EV",
           "abilityName": "Reputation To Maintain",
-          "description": "The first time this operative incapacitates an enemy operative during the battle, you can either gain 1 additional CP or use an additional WARRANT OF TRADE rule\n(up to four uses per battle, instead of three). Note that you still cannot use the same WARRANT OF TRADE rule more than once per battle."
+          "description": "The first time this operative incapacitates an enemy operative during the battle, you can either gain 1 additional CP or use an additional WARRANT OF TRADE rule\n(up to five uses per battle, instead of four). Note that you still cannot use the same WARRANT OF TRADE rule more than once per battle."
         },
         {
           "abilityId": "IMP-ESS-EV-A-WOT",
           "opTypeId": "IMP-ESS-EV",
           "abilityName": "Warrant Of  Trade",
-          "description": "Up to three times per battle, you can use a WARRANT OF TRADE rule (below). Each one specifies when it can be used, and you cannot use the same WARRANT OF TRADE rule more than once per battle.  \n  \n\n**Consideration**\n- When: In the Select Operatives step, after revealing your equipment options.\n- Effect: Select one additional equipment option. It cannot be an option you have previously selected.\n  \n\n**Coordinate**  \n\n- When: At the end of the Select Operatives step.\nEffect: You gain 1 additional CP.\n  \n\n**Coerce**\n- When: At the start of the Set Up Operatives step.\n- Effect: Select one of the following options:\n\n- Your opponent must set up all of their equipment before you set up any.\n- You can set up all of your equipment before your opponent sets up any.\n- Your opponent must set up all of their operatives before you set up any.\n\n  \n\n\n**Explore**  \n\n- When: STRATEGIC GAMBIT in the first turning point.\n- Effect: Perform a free Reposition action with one friendly ELUCIDIAN STARSTRIDER operative that's wholly within your drop zone. It must end that move wholly within 3\" of your drop zone.\n  \n\n\n**Bribe**  \n\n- When: It's your turn to activate an operative.\n- Effect: You can skip that activation.\n  \n\n\n**Seize**  \n\n- When: In the Strategy phase, after rolling off to decide initiative.\n- Effect: You can re-roll your dice.\n  \n\n\n**Adaptable Terms (Approved Ops only)**  \n\n- When: At the end of the second turning point.\n- Effect: Select a new tac op or a new primary op. If you select a new tac op, any points scored from the previous tac op are discarded."
+          "description": "Up to four times per battle, you can use a WARRANT OF TRADE rule (below). Each one specifies when it can be used, and you cannot use the same WARRANT OF TRADE rule more than once per battle.  \n  \n\n**Consideration**\n- When: In the Select Operatives step, after revealing your equipment options.\n- Effect: Select one additional equipment option. It cannot be an option you have previously selected.\n  \n\n**Coordinate**  \n\n- When: At the end of the Select Operatives step.\nEffect: You gain 1 additional CP.\n  \n\n**Coerce**\n- When: At the start of the Set Up Operatives step.\n- Effect: Your opponent must set up all of their operatives before you set up any. Additionally, select one of the following options:\n\n- Your opponent must set up all of their equipment before you set up any.\n- You can set up all of your equipment before your opponent sets up any.\n\n  \n\n\n**Explore**  \n\n- When: STRATEGIC GAMBIT in the first turning point.\n- Effect: Perform a free Reposition action with D3 friendly ELUCIDIAN STARSTRIDER operatives that are wholly within your drop zone. Each that does so must end that move wholly within 4\" of your drop zone.\n  \n\n\n**Bribe**  \n\n- When: It's your turn to activate an operative.\n- Effect: You can skip that activation.\n  \n\n\n**Seize**  \n\n- When: In the Strategy phase, after rolling off to decide initiative.\n- Effect: You can re-roll your dice.\n  \n\n\n**Adaptable Terms (Approved Ops only)**  \n\n- When: At the end of the second turning point.\n- Effect: Select a new tac op or a new primary op. If you select a new tac op, any points scored from the previous tac op are discarded."
         }
       ]
     },
@@ -265,7 +265,7 @@
           "abilityId": "IMP-ESS-CAN-A-LC",
           "opTypeId": "IMP-ESS-CAN",
           "abilityName": "Loyal Companion",
-          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly ELUCIDIAN STARSTRIDER operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
+          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly ELUCIDIAN STARSTRIDER operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action (you can change its order to Engage to do so, but must end that move within control range of that enemy operative."
         },
         {
           "abilityId": "IMP-ESS-CAN-A-PSA",

@@ -1,10 +1,10 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-HOTA",
-  "version": "October '25",
+  "version": "January '25",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_hand_of_the_archon-aet5zzkdhc-rcqfvcootc.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
   "killteamName": "Mano del arconte",
   "description": "Los Arcontes de las Cábala Drukhari están siempre tramando cómo expandir sus extensos imperios criminales. Si sus planes requieren un toque sutil, pueden recurrir a los equipos de exterminio Mano del Arconte. Estas bandas de asesinos, ladrones, torturadores y peores cosas empuñan una variedad de armas esotéricas y macabras que les ayudan en sus misiones diabólicas.",
   "composition": "El comando MANO DEL ARCONTE  está compuesto por:\n\n- 1 agente ARCHISIBARITA **MANO DEL ARCONTE** con una de las siguientes opciones:\n  - Pistola bláster; espada venenosa\n  - Pistola cristalina; espada venenosa\n  - Pistola cristalina; agonizador\n  - Pistola cristalina; arma de energía\n  - Rifle cristalino; cuchillas por doquier\n- 8  agentes **MANO DEL ARCONTE** elegidos dela siguiente lista:\n  - ESPÍA\n  - DUELISTA CARMESÍ\n  - DISCÍPULO DE YAELINDRA\n  - ELIXICANTE\n  - DESPELLEJADOR\n  - TIRADOR con una de las siguientes opciones:\n    - Blaster; cuchillas por doquier\n    - Desgarrador; cuchillas por doquier\n  - TIRADOR PESADO con una de las siguientes opciones:\n    - Lanza oscura; cuchillas por doquier\n    - Cañón cristalino; cuchillas por doquier\n  - ASESINO PARTECIELOS\n\nSalvo agentes **ESPÍA**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n\nTu comando solo puede incluir hasta dos armas de luzoscura (la pistola bláster, el bláster y la lanza oscura son armas de luzoscura).",
@@ -84,7 +84,7 @@
       "killteamId": "AEL-HOTA",
       "seq": 1,
       "eqName": "CEPO DE CADENA",
-      "description": "Cuando un agente enemigo vaya a realizar una acción de Retroceder mientras se encuentra en la zona de control de un agente **MANO DEL ARCONTE** amigo, si no hay otros agente enemigos en la zona de control de ese agente amigo, puedes usar esta regla.\n En tal caso, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que el del agente amigo en cuestión.\n Si cualquier resultado es un 4+, dicho agente enemigo no puede realizar esa acción durante esta activación o reacción (no se gastan PA en ella).",
+      "description": "Cuando un agente enemigo vaya a realizar una acción de Retroceder mientras se encuentra en la zona de control de un agente **MANO DEL ARCONTE** amigo, si no hay otros agente enemigos en la zona de control de ese agente amigo, puedes usar esta regla.\n En tal caso, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que el del agente amigo en cuestión.\n Si cualquier resultado es un 4+, dicho agente enemigo no puede realizar esa acción durante esta activación o reacción (no se gastan PA en ella), y no puedes volver a utilizar esta regla durante este punto de inflexión.",
       "effects": ""
     },
     {
@@ -322,6 +322,12 @@
           "opTypeId": "AEL-HOTA-KAS",
           "abilityName": "Rifles",
           "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
+        },
+        {
+          "abilityId": "AEL-HOTA-KAS-A-TV",
+          "opTypeId": "AEL-HOTA-KAS",
+          "abilityName": "Visión Tortuosa",
+          "description": "Una vez durante cada activación de este operativo, si no tiene ninguna de tus fichas de Dolor cuando realice una acción de Combatir o Disparar, puede ganar una de tus fichas de Dolor cuando selecciones un objetivo válido o un agente enemigo contra el cual combatir."
         }
       ]
     },
@@ -653,7 +659,7 @@
           "abilityId": "AEL-HOTA-KELX-A-CD",
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Drogas de combate",
-          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira 1D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  **GAMBITO ESTRATÉGICO**. Elige un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar lesionado.\n"
+          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira 1D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  En la fase de Preparación de cada fase de Estrategia, puedes elegir un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar lesionado.\n"
         },
         {
           "abilityId": "AEL-HOTA-KELX-A-RIF",

@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-WC",
-  "version": "November '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_killteam_warpcoven_online_rules-7t5erqvwrq-qvwkadlm73.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_warpcoven-mckukwe3zm-ef6onhmf5i.pdf",
   "killteamName": "Warpcoven",
   "description": "Many are the dark and terrible secrets of the galaxy, and the Thousand Sons seek to learn them all. Gathering\nrelentless Rubricae and degenerate mutants, Warpcoven kill teams employ sorcery and savagery alike as they sweep\naside those who stand in their way.",
   "composition": "A WARP COVEN KillTeam is composed of 5 WARPCOVEN operatives selected from the following list:\n\n- SORCERER OF DESTIN *(1)*\n- SORCERER OF TEMPYRION *(1)*\n- SORCERER OF WARPFIRE *(1)*\n- RUBRIC MARINE GUNNER with one of the following options:\n  - Warpflamer; fists\n  - Soulreaper cannon *(2)*; fists\n- RUBRIC MARINE ICON BEARER\n- RUBRIC MARINE WARRIOR\n- TZAANGOR CHAMPION *(3)* with one of the following options:\n  - Greataxe\n  - Greatblade\n- TZAANGOR HORN BEARER *(3)*\n- TZAANGOR ICON BEARER *(3)*\n- TZAANGOR WARRIOR *(3)* with one of the following options:\n- Tzaangor blades\n  - Tzaangor blade & shield\n  - Autopistol; chainsword\n\n**(1):** With force stave, PSYCHIC weapons on their datacard and one of the following options:\n- Inferno bolt pistol\n- Prosperine khopesh\n- Warpflame pistol\n\n**(2):** Your kill team can only include up to one warpflame pistol and up to one soulreaper cannon.  \n\n**(3):** These operatives count as half a selection each.  \n\nYou must select at least one friendly SORCERER operative.\n\nOther than WARRIOR and GUNNER operatives, your kill team can only include each operative on this list once.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Brotherhood Of Sorcerers",
-      "description": "Friendly WARPCOVEN SORCERER operatives' PSYCHIC weapons have the Balanced weapon rule if another friendly WARPCOVEN SORCERER operative is within 9\" of that operative.  \r **Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \r **Balanced:** Can re-roll one Attack die."
+      "description": "Friendly WARPCOVEN SORCERER operatives' PSYCHIC weapons have the Balanced weapon rule, or Ceaseless instead if another friendly WARPCOVEN SORCERER operative is within 9\" of that operative.  \r **Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \r **Balanced:** Can re-roll one Attack die."
     },
     {
       "ployId": "CHAOS-WC-S-FIIMW",
@@ -84,32 +84,28 @@
       "killteamId": "CHAOS-WC",
       "seq": 1,
       "eqName": "Ensorcelled Rounds",
-      "description": "Friendly WARPCOVEN operatives' inferno boltguns, inferno bolt pistols and autopistols have the Devastating 1 weapon rule.",
-      "effects": "wepid:IBG,IBP,AP|WR:Devastating 1"
+      "description": "Friendly WARPCOVEN operatives' inferno boltguns, inferno bolt pistols and autopistols have the Devastating 1 weapon rule."
     },
     {
       "eqId": "CHAOS-WC-DMW",
       "killteamId": "CHAOS-WC",
       "seq": 2,
       "eqName": "Daemonmaw Weapons",
-      "description": "Add 1 to the Atk stat of friendly WARPCOVEN RUBRIC MARINE operatives' melee weapons. Whenever a friendly WARPCOVEN RUBRIC MARINE operative is retaliating, its melee weapons have the Accurate 1 weapon rule.",
-      "effects": "weptype:M|A:+1"
+      "description": "Add 1 to the Atk stat of friendly WARPCOVEN RUBRIC MARINE operatives' melee weapons. Whenever a friendly WARPCOVEN RUBRIC MARINE operative is retaliating, its melee weapons have the Accurate 1 weapon rule."
     },
     {
       "eqId": "CHAOS-WC-SS",
       "killteamId": "CHAOS-WC",
       "seq": 3,
       "eqName": "Sorcerous Scrolls",
-      "description": "Once per battle, when a friendly WARPCOVEN SORCERER operative is activated or counteracts, you can select a different BOON OF TZEENTCH for it to have until the end of the battle (it loses any it previously had). It cannot be the same BOON OF TZEENTCH any other friendly operative has.\r Note that if you use this rule when a friendly operative counteracts and you select Echoes from the Warp, it can be used immediately to change the operative's order and perform a free action during that counteraction.",
-      "effects": ""
+      "description": "Once per battle, when a friendly WARPCOVEN SORCERER operative is activated or counteracts, you can select a different BOON OF TZEENTCH for it to have until the end of the battle (it loses any it previously had). It cannot be the same BOON OF TZEENTCH any other friendly operative has.\r Note that if you use this rule when a friendly operative counteracts and you select Echoes from the Warp, it can be used immediately to change the operative's order and perform a free action during that counteraction."
     },
     {
       "eqId": "CHAOS-WC-AR",
       "killteamId": "CHAOS-WC",
       "seq": 4,
       "eqName": "Arcane Robes",
-      "description": "Whenever an attack dice would inflict Critical Dmg on a friendly WARPCOVEN SORCERER operative, you can choose for that attack dice to inflict Normal Dmg instead.\nYou cannot use this rule for each friendly WARPCOVEN SORCERER operative more than once per turning point.",
-      "effects": ""
+      "description": "Whenever an attack dice would inflict Critical Dmg on a friendly WARPCOVEN SORCERER operative, you can choose for that attack dice to inflict Normal Dmg instead.\nYou cannot use this rule for each friendly WARPCOVEN SORCERER operative more than once per turning point."
     }
   ],
   "teamAbilities": [
@@ -321,16 +317,13 @@
               "wepId": "CHAOS-WC-SOD-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
@@ -528,16 +521,13 @@
               "wepId": "CHAOS-WC-SOT-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
@@ -772,16 +762,13 @@
               "wepId": "CHAOS-WC-SOW-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
@@ -1383,8 +1370,8 @@
   "weapon_rules": [
     {
       "id": "WR-CHAOS-WC-MINDBURN",
-      "name": "Quemar mente",
-      "description": "En el paso de Resolver dados de ataque, si infliges daño con algún éxito crítico, el agente contra el que se usa esta arma gana una de tus fichas de Quemar mente (si no tiene una ya) hasta el final de su siguiente activación, hasta que resulte incapacitado o hasta que un agente amigo use de nuevo esta arma (lo que ocurra antes). Mientras un agente tenga una de tus fichas de Quemar mente, empeora en 1 el atributo Impactar de sus armas (esto no se acumula con estar lesionado).",
+      "name": "Mindburn",
+      "description": " In the Resolve Attack Dice step, if you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Mindburn tokens (if it does not already have one)\nuntil the end of its next activation, until it's incapacitated or until a friendly operative uses this weapon again (whichever comes first).\nWhenever an operative has one of your Mindburn tokens, worsen the Hit stat of its weapons by 1 (this is not cumulative with being injured).",
       "team": "CHAOS-WC"
     }
   ]

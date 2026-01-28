@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-PF",
-  "version": "July '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_pathfinders_online_rules-1vpc4xetmr-m3vaglojew.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_pathfinders-vpiombenfv-fobu7lopgx.pdf",
   "killteamName": "Pathfinders",
   "description": "Specialist reconnaissance infantry, T'au Pathfinders range far ahead of their allies. Pathfinder kill teams are capable\nof operating independently of the main T'au force, and are equipped for almost any situation. Their advanced wargear\nand potent weaponry enable them to disrupt communications, perform acts of sabotage and destroy targets.",
   "composition": "A PATHFINDERS KillTeam is composed of:\n\n- 1 PATHFINDER SHAS'UI operative\n- 11 PATHFINDER operatives selected from the following list:\n  - ASSAULT GRENADIER\n  - BLOODED\n  - COMMS SPECIALIST\n  - DRONE CONTROLLER\n  - MARKSMAN\n  - MEDICAL TECHNICIAN\n  - SHAS'LA\n  - TRANSPECTRAL INTERFERENCE\n  - MB3 RECON DRONE (counts as two selections)\n  - MV31 PULSE ACCELERATOR DRONE\n  - MV33 GRAV-INHIBITOR DRONE\n  - MV1 GUN DRONE\n  - MV4 SHIELD DRONE\n  - MV7 MARKER DRONE\n  - WEAPONS EXPERT with one of the following:\n    - Ion rifle; gun butt\n    - Rail rifle; gun butt\n        \nOther than SHAS'LA and WEAPONS EXPERT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two WEAPONS EXPERT operatives.  \n\nSome PATHFINDER rules refer to a 'pulse weapon'. The following weapons are pulse weapons: burst cannon, pulse carbine, suppressed pulse carbine, twin pulse carbine.",
@@ -84,32 +84,28 @@
       "killteamId": "TAU-PF",
       "seq": 1,
       "eqName": "Target Analysis Optic",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding DRONE) is performing the Shoot action and you're selecting a valid target, you can use this rule.\nIf you do, until the end of that action, if the target has at least one of your Markerlight tokens, it is treated as having one more. If the ranged weapon has the Blast or Torrent weapon rule, only the primary target is affected."
     },
     {
       "eqId": "TAU-PF-OSUL",
       "killteamId": "TAU-PF",
       "seq": 2,
       "eqName": "Orbital Survey Uplink",
-      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly PATHFINDER operative performs the Markerlight action, you can use this rule.\nIf you do, you can select one enemy operative in the killzone to gain one of your Markerlight tokens instead (it doesn't need to be visible).\nThis is not cumulative with the high-intensity Markerlight or Analyse rules."
     },
     {
       "eqId": "TAU-PF-HIML",
       "killteamId": "TAU-PF",
       "seq": 3,
       "eqName": "High-Intensity Markerlight",
-      "description": "Once per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one).",
-      "effects": ""
+      "description": "Up to twice per turning point, when a friendly PATHFINDER operative (excluding MV7 MARKER DRONE) performs the Markerlight action, you can use this rule.\nIf you do, the enemy operative you select gains two of your Markerlight tokens (instead of one)."
     },
     {
       "eqId": "TAU-PF-PG",
       "killteamId": "TAU-PF",
       "seq": 4,
       "eqName": "Photon Grenade",
-      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect a valid target for this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat and it cannot perform the Dash action.</br>\nAn operative cannot perform this action while within control range of an enemy operative.",
-      "effects": ""
+      "description": "Once per turning point, a friendly PATHFINDER operative that has the Markerlight action on their datacard (excluding DRONE) can perform the following unique action:  \n\n**PHOTON GRENADE (1 AP):**  \n\nSelect one enemy operative visible to this operative and roll one D6:  \n\nOn a 3+, until the end of that operative's next activation, subtract 2\" from its Move stat.</br>\nAn operative cannot perform this action while within control range of an enemy operative."
     }
   ],
   "teamAbilities": [
@@ -177,7 +173,7 @@
           "abilityId": "TAU-PF-SU-A-AOW",
           "opTypeId": "TAU-PF-SU",
           "abilityName": "Art Of War",
-          "description": "Once per battle STRATEGIC GAMBIT. Select one of the following and apply its rules until the end of the turning point:\n\n- Mont'ka: Add 1\" to the Move stat of friendly PATHFINDER operatives.\n- Kauyon: Friendly PATHFINDER operatives can perform a free Markerlight action during their activation if they have a Conceal order\n"
+          "description": "STRATEGIC GAMBIT. Select one of the following and apply its rules until the end of the turning point. You cannot select each option more than once per battle:\n\n- Mont'ka: Add 1\" to the Move stat of friendly PATHFINDER operatives.\n- Kauyon: Friendly PATHFINDER operatives can perform a free Markerlight action during their activation if they have a Conceal order\n"
         }
       ]
     },
@@ -777,22 +773,15 @@
           ]
         }
       ],
-      "abilities": [],
-      "actions": [
+      "abilities": [
         {
-          "id": "TAU-PF-TSI-MDV",
-          "type": "ability",
-          "seq": 0,
-          "AP": 1,
-          "name": "Multi-Dimensional Vision",
-          "description": null,
-          "effects": [
-            "Until the start of this operative's next activation, whenever it's shooting, enemy operatives cannot be obscured."
-          ],
-          "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative."
-          ]
-        },
+          "abilityId": "TAU-PF-TSI-MDV",
+          "opTypeId": "TAU-PF-TSI",
+          "abilityName": "Multi-Dimensional Vision",
+          "description": "Whenever this operative is shooting, enemy operatives cannot be obscured."
+        }
+      ],
+      "actions": [
         {
           "id": "TAU-PF-TSI-SJ",
           "type": "ability",

@@ -1,10 +1,10 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-MND",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_mandrakes_online_rules-fhvkckxbsj-wj8msiliyz.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
   "killteamName": "Mandrakes",
   "description": "The Mandrakes can be found in Aelindrach, a region of Commorragh. Literally fallen into shadow, it is one of the several districts of Commorragh that exists in more than one dimension at once. In Aelindrach, shadows thicken and writhe as living things, flowing into one another and attempting to capture those that venture into the district.\n  \n  \n\nIt is in Aelindrach that Mandrakes and Shaderavens make their lairs. Rumour has it that somewhere in Aelindrach lies a portal to a world where shade-daemons exist who can freeze the soul with but a touch. ",
   "composition": "A MANDRAKE killteam is composed of:\n\n- 1 MANDRAKE Nightfiend\n- 8 MANDRAKE operatives selected from the following list:  \n  - Abyssal\n  - Chooser of the Flesh\n  - Dirgemaw\n  - Shadeweaver\n  - Warrior\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
@@ -51,7 +51,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Nowhere to Hide",
-      "description": "Use this firefight ploy during a friendly MANDRAKE operative's activation, when it performs an action in which it moves.\r Until the end of that activation, that operative can move through parts of terrain features as if they were not there, but must end those moves in a location it can be placed."
+      "description": "Use this firefight ploy during a friendly MANDRAKE operative's activation, when it performs an action in which it moves.\r Until the end of that activation, that operative can move through parts of terrain features as if they were not there, but it cannot move more than its Move stat if it's the Charge action and must end those moves in a location it can be placed."
     },
     {
       "ployId": "AEL-MND-T-SB",
@@ -118,7 +118,7 @@
       "killteamId": "AEL-MND",
       "seq": 2,
       "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly MANDRAKE operative,\nif no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy cannot perform that action during that activation or counteraction (No AP are spent on it)."
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly MANDRAKE operative,\nif no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy cannot perform that action during that activation or counteraction (No AP are spent on it), and you cannot use this rule again during this turning point."
     },
     {
       "eqId": "AEL-MND-SG",
@@ -221,7 +221,7 @@
           "abilityId": "AEL-MND-NF-A-HW",
           "opTypeId": "AEL-MND-NF",
           "abilityName": "Harrowing Whispers",
-          "description": "Whenever your opponent would activate an enemy operative within 6\" of this operative, you can roll one die (you cannot do so if you also interrupted that operative's activation with the DIRGEMAW operative's Haunting Focus additional rule during this turning point).\r If the result is higher than the enemy operative's APL stat, they cannot activate it during this activation.\r If there are no other enemy operatives eligible to be activated, this rule has no effect."
+          "description": "Whenever your opponent would activate an enemy operative within 6\" of this operative, you can roll one die (you cannot do so if you already interrupted that operative's activation with this rule or the DIRGEMAW operative's Haunting Focus additional rule during this turning point).\r If the result is higher than the enemy operative's APL stat, they cannot activate it during this activation.\r If there are no other enemy operatives eligible to be activated, this rule has no effect."
         },
         {
           "abilityId": "AEL-MND-NF-A-OUB",
@@ -534,8 +534,7 @@
           "effects": [
             "Select one enemy operative that is a valid target for this operative or is WITHIN SHADOW.",
             "Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (whichever comes first),",
-            "worsen the HIT stat of that enemy operative's weapons by 1 and subtract 2\" from its Move stat (these are not cumulative with being injured).",
-            "In addition, that enemy operative's APL stat cannot be added to (remove all positive APL stat changes it has)."
+            "worsen the HIT stat of that enemy operative's weapons by 1 and subtract 2\" from its Move stat (these are not cumulative with being injured)."
           ]
         }
       ]

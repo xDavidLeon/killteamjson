@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-PM",
-  "version": "July '25",
+  "version": "January '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_plague_marines_online_rules-bkrbe3oqts-qqb6x5kfak.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_plague_marines-yldp8quqtd-6rufhbcor4.pdf",
   "killteamName": "Plague Marines",
   "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
   "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
@@ -75,7 +75,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Virulent Poison",
-      "description": "Use this firefight ploy during a friendly PLAGUE MARINE operative's activation or counteraction, before or after it performs an action.\nSelect one of the following:\n\n- One enemy operative within 3\" of that operative gains one of your Poison tokens (if it does not already have one).\n- Roll 2D6: if the result is 7+, one enemy operative within 7\" of that operative gains one of your Poison tokens (if it does not already have one).\n"
+      "description": "Use this firefight ploy during a friendly PLAGUE MARINE operative's activation or counteraction, before or after it performs an action.\n\n- One enemy operative within 3\", or visible to and within 7\" of that operative gains one of your Poison tokens (if it does not already have one)."
     }
   ],
   "equipments": [
@@ -84,32 +84,62 @@
       "killteamId": "CHAOS-PM",
       "seq": 1,
       "eqName": "Plague Bells",
-      "description": "You can ignore any changes to the stats of friendly PLAGUE MARINE operatives from being injured (including their weapons' stats).",
-      "effects": "NOINJ"
+      "description": "You can ignore any changes to the stats of friendly PLAGUE MARINE operatives from being injured (including their weapons' stats)."
     },
     {
       "eqId": "CHAOS-PM-BG",
       "killteamId": "CHAOS-PM",
       "seq": 2,
       "eqName": "Blight Grenades",
-      "description": "Friendly PLAGUE MARINE operatives have the following ranged weapon (you cannot select it for use more than twice during the battle):\n \n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Blight Grenade|4|4+|2/4|\n|**Weapon Rules**|\n|Range 6\", Blast 2\", Saturate, Severe, *Poison|",
-      "effects": "ADDWEP:Blight Grenade|R|4|4+|2/4|Range 6\", Blast 2\", Saturate, Severe, *Poison"
+      "description": "Friendly PLAGUE MARINE operatives have the following ranged weapon (you cannot select it for use more than twice during the battle):",
+      "weapons": [
+        {
+          "wepId": "CHAOS-PM-BG-BLIGHT-GRENADE",
+          "wepName": "Blight Grenade",
+          "wepType": "R",
+          "profiles": [
+            {
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "2/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-CHAOS-PM-POISON"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "eqId": "CHAOS-PM-PR",
       "killteamId": "CHAOS-PM",
       "seq": 3,
       "eqName": "Plague Rounds",
-      "description": "Friendly PLAGUE MARINE operatives' boltguns and bolt pistols have the Poison and Severe weapon rules.",
-      "effects": "wepid:BG,BP|WR:*Poison, Severe"
+      "description": "Friendly PLAGUE MARINE operatives' boltguns and bolt pistols have the Poison and Severe weapon rules."
     },
     {
       "eqId": "CHAOS-PM-PV",
       "killteamId": "CHAOS-PM",
       "seq": 4,
       "eqName": "Poison Vents",
-      "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1).",
-      "effects": ""
+      "description": "Whenever an enemy operative that doesn't have one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, roll one D3: on a 3, that operative gains one of your Poison tokens"
     }
   ],
   "teamAbilities": [
@@ -798,14 +828,14 @@
   "weapon_rules": [
     {
       "id": "WR-CHAOS-PM-POISON",
-      "name": "Veneno",
-      "description": "En el paso Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma (excepto agentes MARINE DE PLAGA amigos) obtiene una de tus fichas de Veneno (si no tiene una ya). Siempre que un agente que tenga una de tus fichas de Veneno sea activado, inflíngele 1 daño.",
+      "name": "Poison",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any successes, the operative this weapon is being used against (excluding friendly PLAGUE MARINE operatives) gains one of your Poison tokens (if it does not already have one).\r Whenever an operative that has one of your Poison tokens is activated, inflict 1 damage on it.",
       "team": "CHAOS-PM"
     },
     {
       "id": "WR-CHAOS-PM-TOXIC",
-      "name": "Tóxica",
-      "description": "Siempre que este agente usa esta arma contra un agente enemigo que tenga una de tus fichas de Veneno, suma 1 a ambos atributos de Daño de esta arma.",
+      "name": "Toxic",
+      "description": "Whenever this operative is using this weapon against an enemy operative that has one of your Poison tokens, add 1 to both Dmg stats of this weapon.",
       "team": "CHAOS-PM"
     }
   ]

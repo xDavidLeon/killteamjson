@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-NC",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_nemesis_claw_online_rules-bijytifu3j-qrefpbr8ti.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_nemesis_claw-qjp9jwgrao-orpyxtablk.pdf",
   "killteamName": "Nemesis Claw",
   "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
   "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
@@ -84,32 +84,28 @@
       "killteamId": "CHAOS-NC",
       "seq": 1,
       "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it).",
-      "effects": ""
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it), and you cannot use this rule again during this turning point."
     },
     {
       "eqId": "CHAOS-NC-CJ",
       "killteamId": "CHAOS-NC",
       "seq": 2,
       "eqName": "Comms Jammer",
-      "description": "Whenever an enemy operative is within 3\" of a friendly NEMESIS CLAW operative, that enemy operative's APL stat cannot be added to. Note that this does not affect APL stats that have already been changed.",
-      "effects": ""
+      "description": "Whenever an enemy operative is within 3\" of a friendly NEMESIS CLAW operative, that enemy operative's APL stat cannot be added to. Note that this does not affect APL stats that have already been changed."
     },
     {
       "eqId": "CHAOS-NC-FS",
       "killteamId": "CHAOS-NC",
       "seq": 3,
       "eqName": "Flayed Skin",
-      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly NEMESIS CLAW operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
+      "description": "Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly NEMESIS CLAW operative within 2\" of it, your opponent cannot re-roll their attack dice results of 1."
     },
     {
       "eqId": "CHAOS-NC-GT",
       "killteamId": "CHAOS-NC",
       "seq": 4,
       "eqName": "Grisly Trophy",
-      "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons.",
-      "effects": ""
+      "description": "Once per Battle, when a friendly NEMESIS CLAW operative incapacitates an enemy operative within 2\" of it, you can use this rule.\nIf you do, that friendly operative gains one of your Grisly Trophy tokens (if it does not already have one).\nWhenever a friendly NEMESIS CLAW operative that has one of your Grisly Trophy tokens is visible to and within 2\" of an enemy operative, subtract 1 from the ATK stat of that enemy operative's weapons."
     }
   ],
   "teamAbilities": [
@@ -1122,8 +1118,8 @@
   "weapon_rules": [
     {
       "id": "WR-CHAOS-NC-TERRORCHEM",
-      "name": "Terrotoxinas",
-      "description": "En el paso de Resolver Dados de Ataque, si infliges daño con algún impacto crítico, el agente al que se está atacando con esta arma gana una de tus fichas de terrotoxinas (si no tiene una ya).",
+      "name": "Terrorchem",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any Critical successes, the operative this weapon is being used against gains one of your Terrorchem tokens (if it does not already have one).",
       "team": "CHAOS-NC"
     }
   ]

@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_deathwatch-bbtccwu5za-tbky0pnxc7.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
   "killteamName": "Vigías de la muerte",
   "description": "Los equipos de exterminio de los Vigías de la Muerte luchan contra los enemigos alienígenas del Imperio con experiencia consagrada y armamento especializado.  \n\nEmpuñan algunas de las armas más avanzadas de la Humanidad junto con equipamiento más esotérico. Además de su fuerza y velocidad sobrehumanas, los Vigías de la muerte llevan al campo de batalla su odio hacia los xenos en todas sus formas.",
   "composition": "\nA El equipo de exterminio de los VIGÍAS DE LA MUERTE está compuesto por 5 agentes VIGÍAS DE LA MUERTE elegidos de la siguiente lista:\n- SARGENTO VIGÍA\n- ÉGIDA\n- ESPADERO\n- BOMBARDERO\n- IRRUPTOR\n- DEMOLEDOR\n- DISRUPTOR\n- TIRADOR\n- CORTACABEZAS\n- MATAHORDAS\n- OJO PRECISO\n\nTu comando solo puede incluir a cada agente de esta lista una vez, y solo puede incluir hasta un agente **GRAVIS**.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 2,
       "ployName": "LA LARGA VIGILIA",
-      "description": "Siempre que un agente dispare contra un agente VIGÍAS DE LA MUERTE amigo que esté dentro de tu territorio, puedes repetir uno de tus dados de defensa."
+      "description": "Siempre que un agente dispare contra un agente VIGÍAS DE LA MUERTE amigo que esté totalmente dentro de tu territorio, puedes repetir uno de tus dados de defensa."
     },
     {
       "ployId": "IMP-DW-S-TSTS",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 3,
       "ployName": "EL ESCUDO QUE MATA",
-      "description": "Siempre que un agente VIGÍAS DE LA MUERTE amigo se encuentre en el territorio de tu oponente, el Daño normal y crítico de 4+ le inflige 1 punto de daño menos."
+      "description": "Siempre que un agente VIGÍAS DE LA MUERTE amigo se encuentre totalmente en el territorio de tu oponente, el Daño normal de 4 o más le inflige 1 punto de daño menos."
     },
     {
       "ployId": "IMP-DW-S-ATSKNF",
@@ -116,12 +116,12 @@
     {
       "abilityId": "IMP-DW-TA-VEAS",
       "abilityName": "ASTARTES VETERANOS",
-      "description": "Durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir. Si son dos acciones de Disparar y en ambas se selecciona un lanzagranadas auxiliar, cañón frag, incinerador de plasma pesado, bólter pesado infernus, pistola de plasma o rifle bólter silencio, debe gastarse 1 PA adicional para la segunda acción.\n\nCada agente VIGÍAS DE LA MUERTE amigo puede reaccionar con independencia de su orden. Siempre que lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas."
+      "description": "Durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir. Si son dos acciones de Disparar y en ambas se selecciona un lanzagranadas auxiliar, cañón frag, incinerador de plasma pesado, bólter pesado infernus, pistola de plasma o rifle bólter silencio; o si una bomba melta se selecciona para cualquiera de las acciones, debe gastarse 1 PA adicional para la segunda acción.\n\nCada agente VIGÍAS DE LA MUERTE amigo puede reaccionar con independencia de su orden. Siempre que lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
     },
     {
       "abilityId": "IMP-DW-TA-SPISAM",
       "abilityName": "MUNICIÓN ESPECIAL",
-      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo esté realizando la acción Disparar, en el paso de Elegir arma, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas de armas para que la tengan las armas a distancia de ese agente hasta el final de la acción.\nEsta regla no puede usarse con granadas explosivas (ver equipo universal) ni con bombas de fusión.\n\n- Área 1\" (no puedes elegir esta munición si el perfil del arma que se está usando tiene la regla de armas Ráfaga)\n- Devastadora 1\n- Letal 5+\n- Penetración 1\n- Desgarradora\n- Saturación\n- Severa"
+      "description": "Una vez por punto de inflexión, cuando un agente VIGÍAS DE LA MUERTE amigo esté realizando la acción Disparar, en el paso de Elegir arma, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas de armas para que la tengan las armas a distancia de ese agente hasta el final de la acción.\nEsta regla no puede usarse con granadas explosivas (ver equipo universal) ni con bombas de fusión.\n\n- Área 1\" (no puedes elegir esta munición si el perfil del arma que se está usando tiene la regla de armas Ráfaga)\n- Devastadora 1\n- Letal 5+\n- Críticos de Penetración 1\n- Saturación\n- Severa"
     }
   ],
   "opTypes": [

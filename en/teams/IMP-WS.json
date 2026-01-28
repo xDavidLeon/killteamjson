@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-WS",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_17-12_killteam_wolf_scouts_online_rules-horilonqxy-kie3resg88.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_wolf_scouts-7rdhkc4jn4-ttpun6cqc9.pdf",
   "killteamName": "Wolf Scouts",
   "description": "Wolf Scout kill teams are their Great Company's most feared and accomplished hunters, roving far ahead of the Space Wolves' strike forces on solitary, unsupported missions. They cause death and anarchy behind enemy lines through assassination, sabotage and more besides, often while cloaked in strange mists or furious storms.",
   "composition": "A WOLF SCOUT Killteam is composed of:\n- 1 WOLF SCOUT FENRISIAN WOLF\n- 5 WOLF SCOUT operatives selected from the following list:\n  - PACK LEADER\n  - FANGBEARER\n  - FROSTEYE\n  - GUNNER\n  - TRAPMASTER\n  - RUNE PRIEST SKJALD\n  - HUNTER\n\nOther than HUNTER operatives, your kill team can only include each operative on this list once.",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 3,
       "ployName": "Storm's Bite",
-      "description": "Whenever an enemy operative is within your STORM, subtract 1 from the Atk stat of its melee weapons (to a minimum of 3)."
+      "description": "Whenever a friendly WOLF SCOUT operative is fighting against an enemy operative that’s within your STORM, subtract 1 from the Atk stat of that enemy operative’s melee weapons (to a minimum of 3)."
     },
     {
       "ployId": "IMP-WS-S-SF",
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 4,
       "ployName": "Savage Fighters",
-      "description": "Whenever a friendly WOLF SCOUT operative finishes fighting or retaliating, if it wasn't incapacitated, you can inflict D3+1 damage on the enemy operative in that sequence."
+      "description": "Whenever a friendly WOLF SCOUT operative finishes retaliating, if it wasn't incapacitated, you can inflict D3+1 damage on the enemy operative in that sequence."
     },
     {
       "ployId": "IMP-WS-T-AS",
@@ -223,7 +223,7 @@
           "abilityId": "IMP-WS-PL-GV",
           "opTypeId": "IMP-WS-PL",
           "abilityName": "Grizzled Veteran",
-          "description": "The first time this operative would be incapacitated during the battle, it's not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action. All remaining attack dice are discarded (including yours if this operative is fighting or retaliating)."
+          "description": "The first time this operative would be incapacitated during the battle, it's not incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action. All remaining attack dice are discarded (including yours if this operative is fighting or retaliating). You cannot use the Counterattack firefight ploy or inflict damage as a result of the Savage Fighters strategy ploy at the end of that action."
         }
       ]
     },
@@ -870,7 +870,7 @@
           "abilityId": "IMP-WS-FW-IP",
           "opTypeId": "IMP-WS-FW",
           "abilityName": "Instinctive Predator",
-          "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight and Reposition. It cannot use any weapons that aren't on its datacard. This operative can perform the Charge action while it has a Conceal order."
+          "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Guard and Reposition. It cannot use any weapons that aren't on its datacard. This operative can perform the Charge action while it has a Conceal order."
         },
         {
           "abilityId": "IMP-WS-FW-P",

@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_deathwatch-bbtccwu5za-tbky0pnxc7.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
   "killteamName": "Deathwatch",
   "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity's most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
   "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 2,
       "ployName": "The Long Vigil",
-      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's within your territory, you can re-roll one of your defence dice."
+      "description": "Whenever an operative is shooting a friendly DEATHWATCH operative that's wholly within your territory, you can re-roll one of your defence dice."
     },
     {
       "ployId": "IMP-DW-S-TSTS",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 3,
       "ployName": "The Shield That Slays",
-      "description": "Whenever a friendly DEATHWATCH operative is within your opponent's territory, Normal and Critical Dmg of 4 or more inflicts 1 less damage on it."
+      "description": "Whenever a friendly DEATHWATCH operative is wholly within your opponent's territory, Normal Dmg of 4 or more inflicts 1 less damage on it."
     },
     {
       "ployId": "IMP-DW-S-ATSKNF",
@@ -112,12 +112,12 @@
     {
       "abilityId": "IMP-DW-TA-VEAS",
       "abilityName": "Veteran Astartes",
-      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+      "description": "During each friendly DEATHWATCH operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions and an auxiliary grenade launcher, frag cannon, heavy plasma incinerator, infernus heavy bolter, plasma pistol or stalker bolt rifle is selected for both, or if a melta bomb is selected for either, 1 additional AP must be spent for the second action.\n\nEach friendly DEATHWATCH operative can counteract regardless of its order. Whenever it does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
     },
     {
       "abilityId": "IMP-DW-TA-SPISAM",
       "abilityName": "Special Issue Ammunition",
-      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing 1\n- Rending\n- Saturate\n- Severe"
+      "description": "Once per turning point, when a friendly DEATHWATCH operative is performing the Shoot action, in the Select Weapon step, you can use this rule. If you do, select one of the following weapon rules for that operative's ranged weapons to have until the end of the action.\nThis rule cannot be used with explosive grenades (see universal equipment) or melta bombs.\n\n- Blast 1\" (you cannot select this if the weapon profile being used has the Torrent weapon rule)\n- Devastating 1\n- Lethal 5+\n- Piercing Crits 1\n- Saturate\n- Severe"
     }
   ],
   "opTypes": [

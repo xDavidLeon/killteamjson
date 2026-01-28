@@ -1,10 +1,10 @@
 {
     "factionId": "IMP",
     "killteamId": "IMP-WS",
-    "version": "November '25",
+    "version": "January '26",
     "classified": true,
     "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_17-12_killteam_wolf_scouts_online_rules-horilonqxy-kie3resg88.pdf",
+    "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_wolf_scouts-7rdhkc4jn4-ttpun6cqc9.pdf",
     "killteamName": "Exploradores lobo",
     "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
     "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
@@ -35,7 +35,7 @@
             "ployType": "S",
             "seq": 3,
             "ployName": "MORDISCO DE LA TORMENTA",
-            "description": "Siempre que un agente enemigo esté en tu TORMENTA, resta 1 al atributo Ataque de sus armas de combate (hasta un mínimo de 3)."
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté entu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3)."
         },
         {
             "ployId": "IMP-WS-S-SF",
@@ -43,7 +43,7 @@
             "ployType": "S",
             "seq": 4,
             "ployName": "LUCHADORES SALVAJES",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de combatir o contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia."
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia."
         },
         {
             "ployId": "IMP-WS-T-AS",
@@ -223,7 +223,7 @@
                     "abilityId": "IMP-WS-PL-GV",
                     "opTypeId": "IMP-WS-PL",
                     "abilityName": "Rudo veterano",
-                    "description": "La primera vez que este agente quedaría incapacitado durante la batalla, no queda incapacitado, le queda 1 herida restante y no puede ser incapacitado durante el resto de la acción. Todos los dados de ataque restantes se descartan (incluyendo los tuyos si este agente está combatiendo o contraatacando)."
+                    "description": "La primera vez que este agente quedaría incapacitado durante la batalla, no queda incapacitado, le queda 1 herida restante y no puede ser incapacitado durante el resto de la acción. Todos los dados de ataque restantes se descartan (incluyendo los tuyos si este agente está combatiendo o contraatacando). No puedes utilizar el ardid Devolver el Ataque o inflingir daño como resultado del ardid Luchadores Salvajes al final de la acción."
                 }
             ]
         },
@@ -873,7 +873,7 @@
                     "abilityId": "IMP-WS-FW-IP",
                     "opTypeId": "IMP-WS-FW",
                     "abilityName": "Depredador instintivo",
-                    "description": "Este agente solo puede realizar las acciones de Cargar, Correr, Retroceder, Combatir y Reposicionarse. No puede usar armas que no estén en su hoja de datos. Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse."
+                    "description": "Este agente solo puede realizar las acciones de Cargar, Correr, Retroceder, Combatir, Guardia y Reposicionarse. No puede usar armas que no estén en su hoja de datos. Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse."
                 },
                 {
                     "abilityId": "IMP-WS-FW-P",

@@ -1,10 +1,10 @@
 {
   "factionId": "NEC",
   "killteamId": "NEC-HIER",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_hierotek_circle_online_rules-xbuyt0uumh-8ofnghky2j.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hierotek_circle-rwmw1qoxht-gzsmrjzixl.pdf",
   "killteamName": "Hierotek Circle",
   "description": "Led by ambitious and devious Crypteks, Hierotek Circles employ Necron soldiery and unique Canoptek constructs\nto further the rise of their own dynasties. They achieve this by learning of their lords' enemies and undermining the\npower of these rivals through artifice, sabotage, theft and murder.",
   "composition": "A HIEROTEK CIRCLE KillTeam is composed of:\n\n- 1 HIEROTEK CIRCLE operative selected from the following list:\n  - CHRONOMANCER operative with one of the following options:\n    - Aeonstave\n    - Entropic lance\n  - PSYCHOMANCER\n  - TECHNOMANCER\n- 1 PLASMACYTE ACCELERATOR operative\n- 1 PLASMACYTE REANIMATOR operative\n- 5 HIEROTEK CIRCLE operatives selected from the following list:\n  - APPRENTEK\n  - DEATHMARK\n  - DESPOTEK with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet    \n  - GUARDIAN with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet\n        \nOther than DEATHMARK and GUARDIAN operatives, your kill team can only include each operative on this list once.",
@@ -84,32 +84,28 @@
       "killteamId": "NEC-HIER",
       "seq": 1,
       "eqName": "Magnification Conduits",
-      "description": "Once per turning point, when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative is performing the Shoot action, you can use this rule.\nIf you do, select one other friendly HIEROTEK CIRCLE operative (excluding PLASMACYTE) that has an Engage order and is visible to that friendly operative.\nUntil the end of that action, that other friendly operative can be treated as the active operative for the Magnify weapon rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative is performing the Shoot action, you can use this rule.\nIf you do, select one other friendly HIEROTEK CIRCLE operative (excluding PLASMACYTE) that has an Engage order and is visible to that friendly operative.\nUntil the end of that action, that other friendly operative can be treated as the active operative for the Magnify weapon rule."
     },
     {
       "eqId": "NEC-HIER-PS",
       "killteamId": "NEC-HIER",
       "seq": 2,
       "eqName": "Phase Shifter",
-      "description": "Once per turning point, when an operative is shooting a friendly CRYPTEK operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence.\nNote that Piercing 1 would therefore be ignored.",
-      "effects": ""
+      "description": "Once per turning point, when an operative is shooting a friendly CRYPTEK operative, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence.\nNote that Piercing 1 would therefore be ignored."
     },
     {
       "eqId": "NEC-HIER-TC",
       "killteamId": "NEC-HIER",
       "seq": 3,
       "eqName": "Tesseract Cube",
-      "description": "In the Ready step of each Strategy phase, when you gain CP, if a friendly CRYPTEK operative is not incapacitated, is not within control range of enemy operatives, and has not been REANIMATED this turning point,\nyou can use this rule.\nIf you do, roll one D6: on a 1, you cannot use this rule for the rest of the battle; on a 4+, you gain 1CP.\nOnce you have gained 2CP from this rule, you cannot use it for the rest of the battle.",
-      "effects": ""
+      "description": "In the Ready step of each Strategy phase, when you gain CP, if a friendly CRYPTEK operative is not incapacitated, is not within control range of enemy operatives, and has not been REANIMATED this turning point,\nyou can use this rule.\nIf you do, roll one D6: on a 1, you cannot use this rule for the rest of the battle; on a 4+, you gain 1CP.\nOnce you have gained 2CP from this rule, you cannot use it for the rest of the battle."
     },
     {
       "eqId": "NEC-HIER-TW",
       "killteamId": "NEC-HIER",
       "seq": 4,
       "eqName": "Tesla Weave",
-      "description": "Once per turning point, when an enemy operative ends the Charge action with friendly HIEROTEK CIRCLE operatives within its control range, you can use this rule. If you do, inflict D3+1 damage on that enemy operative.",
-      "effects": ""
+      "description": "Once per turning point, when an enemy operative ends the Charge action with friendly HIEROTEK CIRCLE operatives within its control range, you can use this rule. If you do, inflict D3+1 damage on that enemy operative."
     }
   ],
   "teamAbilities": [
@@ -121,7 +117,7 @@
     {
       "abilityId": "NEC-HIER-TA-REPR",
       "abilityName": "Reanimation Protocols",
-      "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5). REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops..."
+      "description": "The first time each friendly HIEROTEK CIRCLE operative is incapacitated, before it's removed from the killzone, place one of your Reanimation markers within its control range.\nThen remove it as incapacitated, also removing any tokens and rules effects it had (e.g. CHRONOMANCER operative's Chronometron action, Poison tokens, APL stat changes, being implanted, etc.).  \n\nIn the Ready step of each Strategy phase, select one of your Reanimation markers and roll one 1D6:\nOn a 1-2, leave that Reanimation marker in the killzone and repeat this process with a different one of your Reanimation markers (if any);\non a 3+, an operative is REANIMATED.  \n\nYou can only select each of your Reanimation markers once per turning point, and once you roll a 3+, you do not select any more for that turning point.  \n\nWhenever an operative is REANIMATED:\n\n- Set up the operative that Reanimation marker was placed for (it's no longer incapacitated). It must be placed within 3\" of that Reanimation marker and not within control range of enemy operatives (if you cannot do so, treat the roll as 1-2 instead).\n- It has 1 Wound remaining.\n- It has an order of your choice and is ready.\n- Remove that Reanimation marker.\n\nFor the purposes of the kill op, your opponent treats your starting number of HIEROTEK CIRCLE operatives as 5 (in other words, their kill grade goes up whenever a friendly HIEROTEK CIRCLE operative is incapacitated, to a maximum kill grade of 5), and goes down whenever a friendly HIEROTEK CIRCLE operative is REANIMATED. REANIMATED operatives don't retroactively change any other VPs your opponent has scored, e.g. from tac ops..."
     }
   ],
   "opTypes": [
@@ -289,7 +285,7 @@
           "description": null,
           "effects": [],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         },
         {
@@ -420,7 +416,7 @@
           "description": null,
           "effects": [],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         },
         {
@@ -562,7 +558,7 @@
           "description": null,
           "effects": [],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         }
       ]
@@ -999,7 +995,7 @@
           "description": null,
           "effects": [],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         }
       ]
@@ -1098,8 +1094,8 @@
   "weapon_rules": [
     {
       "id": "WR-NEC-HIER-MAGNIFY",
-      "name": "Ampliar",
-      "description": "Siempre que este agente realice una acción de Disparar con esta arma, si hay otro APRENTECNÓLOGO CÍRCULO DE HIEROTECNÓLOGOS o CRIPTECNÓLOGO CÍRCULO DE HIEROTECNÓLOGOS amigo con una orden de trabarse y visible para este agente, puedes usar esta regla. si lo haces, trata a ese agente como el agente activo a efectos de determinar un blanco válido, cobertura y ofuscación. Si lo haces, esta arma tiene la regla de armas Incesante hasta el final de esa acción.",
+      "name": "Magnify",
+      "description": "Whenever this operative is performing the Shoot action with this weapon, if the target is visible to this operative, and another friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative has an Engage order and is visible to this operative,\nyou can treat that operative as the active operative for the purposes of determining a valid target, that Shoot action's conditions, cover and obscured.\nIf you do, this weapon has the Ceaseless weapon rule until the end of that action.",
       "team": "NEC-HIER"
     }
   ]

@@ -1,10 +1,10 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-COR",
-  "version": "November '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_corsair_voidscarred-o7cfw5mf2a-gu84xsizba.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
   "killteamName": "Corsair Voidscarred",
   "description": "Aeldari Corsairs or Anhrathe are bands of piratical Aeldari Outcasts. They are a constant threat to merchant shipping, though very rarely pose a threat to a major Imperial battlefleet.\n  \n  \n\nThere are many bands of so-called Corsairs scattered across the galaxy, and all are savage and deadly raiders. Outcasts from the strict confines of the Craftworlds, the Corsairs live in self-imposed exile, seeking to explore the galaxy and experience the full gamut of emotion and sensation accessible to the Eldar's sensitive psyche. ",
   "composition": "A CORSAIR VOIDSCARRED killteam is composed of:\n- 1 CORSAIR VOIDSCARRED Felarch operative with one of the following options:\n  - Shuriken rifle, shuriken pistol, power weapon\n  - Neuro Disruptor, Power weapon\n- 8 CORSAIR VOIDSCARRED operatives selected from the following list:\n  - Fate Dealer\n  - Gunner with one of the following options:\n  - Blaster (X), Shuriken pistol, fists\n    - Shredder, Shuriken pistol, fists\n  - Heavy Gunner with one of the following options:\n    - Shuriken Cannon, Shuriken pistol, fists\n    - Wraithcannon (X), Shuriken pistol, fists  \n  - Kurnathi\n  - Kurnite Hunter\n  - Shade Runner\n  - Soul Weaver\n  - Starstorm Duelist\n  - Warrior with one of the following options:\n    - Shuriken pistol, power weapon\n  - Shuriken rifle, fists  \n  - Way Seeker\n\nOther than Warrior operatives your kill team can only include each operative on this lists once.  \n\n(X) Your kill team cannot include both a blaster and a wraithcannon.",
@@ -84,32 +84,28 @@
       "killteamId": "AEL-COR",
       "seq": 1,
       "eqName": "Diuturnal Mantles",
-      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly CORSAIR VOIDSCARRED operative, if the ranged weapon in that sequence has the Blast or Torrent weapon rule, you can re-roll one of your defence dice.\nIn addition, friendly CORSAIR VOIDSCARRED operatives are not affected by the X\" Devastating X weapon rule (i.e, Devastating with a distance) unless they are the target during that sequence."
     },
     {
       "eqId": "AEL-COR-MF",
       "killteamId": "AEL-COR",
       "seq": 2,
       "eqName": "Mistfield",
-      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored.",
-      "effects": ""
+      "description": "Once per Turning point, when an operative is shooting a friendly CORSAIR VOIDSCARRED operative more than 3\" from it, at the start of the Roll Defence Dice step, you can use this rule.\nIf you do, worsen the X of the piercing weapon rule by 1 (If any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
     },
     {
       "eqId": "AEL-COR-ROG",
       "killteamId": "AEL-COR",
       "seq": 3,
       "eqName": "Runes Of Guidance",
-      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike).",
-      "effects": ""
+      "description": "Once per turning point, whenever a friendly CORSAIR VOIDSCARRED WAY SEEKER or CORSAIR VOIDSCARRED SOUL WEAVER operative is performing a PSYCHIC unique action (excluding Warp Fold),\nyou can use this rule. If you do, until the end of that action, add 3\" to its distance requirement. Note this has no effect on PSYCHIC weapons (e.g, the Devastating distance requirement of Lightning Strike)."
     },
     {
       "eqId": "AEL-COR-SC",
       "killteamId": "AEL-COR",
       "seq": 4,
       "eqName": "Star Charts",
-      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle.",
-      "effects": ""
+      "description": "**STRATEGIC GAMBIT**  \n\nRoll 1D3, if the result is higher than the number of current turning point, you gain 1CP and cannot use this STRATEGIC GAMBIT for the rest of the battle."
     }
   ],
   "teamAbilities": [
@@ -243,7 +239,7 @@
           "abilityId": "AEL-COR-FEL-A-OSA",
           "opTypeId": "AEL-COR-FEL",
           "abilityName": "One Step Ahead",
-          "description": "Once per battle, after an enemy operative performs an action, if this operative is ready, you can use this rule.\nIf you do so, roll 1D6, if the result is higher than that enemy operative's APL stat, you can interrupt and immediately perform either a free Shoot or a free Fight action with this operative,\nbut other enemy operatives cannot be selected as a valid target or to fight against during that action (Note that secondary targets from the blast weapon rule can still be targeted).\nAfter you perform that action, subtract 1 from this operative's APL stat until the end of its next activation."
+          "description": "Once per battle, after an enemy operative performs an action during its activation, if this operative is ready, you can use this rule.\nIf you do so, roll 1D6, if the result is higher than that enemy operative's APL stat, you can interrupt that activation and immediately perform either a free Shoot or a free Fight action with this operative,\nbut other enemy operatives cannot be selected as a valid target or to fight against during that action (Note that secondary targets from the blast weapon rule can still be targeted).\nAfter you perform that action, subtract 1 from this operative's APL stat until the end of its next activation."
         },
         {
           "abilityId": "AEL-COR-FEL-A-RFL",
@@ -811,7 +807,7 @@
           "abilityId": "AEL-COR-HNT-A-EH",
           "opTypeId": "AEL-COR-HNT",
           "abilityName": "Erudite Hunter",
-          "description": "**STRATEGIC GAMBIT**  \r \r Select one enemy operative within 9\" of this operative. Once during this turning point, during that enemy operative's activation, after it performs an action in which it moves,\r you can interrupt and perform either a free Reposition action with this operative (it cannot end that move further from that enemy operative) or a free Charge action with this operative\r (you can change its order to do so, and it must end that move within control range of that enemy operative)."
+          "description": "**STRATEGIC GAMBIT**  \r \r Select one enemy operative within 9\" of this operative. Once during this turning point, during that enemy operative's activation, after it performs an action in which it moves,\r you can interrupt that activation and perform either a free Reposition action with this operative (it cannot end that move further from that enemy operative) or a free Charge action with this operative\r (you can change its order to do so, and it must end that move within control range of that enemy operative)."
         },
         {
           "abilityId": "AEL-COR-HNT-A-FB",
@@ -1018,7 +1014,7 @@
           "abilityId": "AEL-COR-SR-A-BP",
           "opTypeId": "AEL-COR-SR",
           "abilityName": "Blink Pack",
-          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, it can Warp Jump.\r If it does, do not move it, instead remove it from the Killzone and set it back up wholly within 7\" of its original location, measuring the Horizontal distance only\r (in Killzone Gallowdark, this distance can be measured through walls).\r It must be set up in a location it can be placed, and unless it is the Charge action, it cannot be set up within control range of an enemy operative. This operative cannot Warp Jump during the same activation in which it performed the Dash action (or vice-versa)."
+          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, it can Warp Jump.\r If it does, do not move it, instead remove it from the Killzone and set it back up wholly within 7\" of its original location, measuring the Horizontal distance only\r (in Killzone Gallowdark, this distance can be measured through walls).\r It must be set up in a location it can be placed, and unless it is the Charge action, it cannot be set up within control range of an enemy operative."
         },
         {
           "abilityId": "AEL-COR-SR-A-SA",

@@ -1,13 +1,13 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-AOD",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_angels_of_death-hvegigphg6-q2uckwrh0l.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_angels_of_death-g1xsdrmgpd-t1j6hagnfi.pdf",
   "killteamName": "Angels Of Death",
   "description": "Genetically modified transhuman warriors, Space Marines are amongst Humanity's most elite fighting forces.\nAngels of Death kill teams are composed of elite specialists trained in myriad forms of combat, who are capable of overcoming almost any foe.",
-  "composition": "An ANGELS OF DEATH KillTeam is composed of:\n \n- 1 ANGEL OF DEATH operative selected from the following list:\n  - ASSAULT INTERCESSOR SERGEANT with one option from each of the following:\n    - Hand flamer or heavy bolt pistol\n    - Chainsword, power fist, power weapon or thunder hammer  \n    - Or the following option:\n      - Plasma pistol; chainsword\n  - INTERCESSOR SERGEANT with one option  from each of the following:\n    - Auto bolt rifle, bolt rifle or stalker bolt rifle\n    - Chainsword, fists, power fist, power weapon or thunder hammer\n  - SPACE MARINE CAPTAIN\n- 5 ANGEL OF DEATH operatives selected from the following list:\n  - ASSAULT INTERCESSOR GRENADIER\n  - ASSAULT INTERCESSOR WARRIOR\n  - ELIMINATOR SNIPER*\n  - HEAVY INTERCESSOR GUNNER*\n  - INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists    \n  - INTERCESSOR WARRIOR with one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.  \n*You cannot select more than one of these operatives combined.\n\nSome ANGEL OF DEATH rules refer to a 'bolt weapon'. This is a ranged weapon that includes 'bolt' in its name, e.g. stalker bolt rifle, heavy bolt pistol, etc.\n\n---\n\n**Chapter Tactics:**  \nWhen selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.\n",
+  "composition": "An ANGELS OF DEATH KillTeam is composed of:\n \n- 1 ANGEL OF DEATH operative selected from the following list:\n  - ASSAULT INTERCESSOR SERGEANT with one option from each of the following:\n    - Hand flamer or heavy bolt pistol\n    - Chainsword, power fist, power weapon or thunder hammer  \n    - Or the following option:\n      - Plasma pistol; chainsword\n  - INTERCESSOR SERGEANT with one option  from each of the following:\n    - Auto bolt rifle, bolt rifle or stalker bolt rifle\n    - Chainsword, fists, power fist, power weapon or thunder hammer\n  - SPACE MARINE CAPTAIN\n- 5 ANGEL OF DEATH operatives selected from the following list:\n  - ASSAULT INTERCESSOR GRENADIER\n  - ASSAULT INTERCESSOR WARRIOR\n  - ELIMINATOR SNIPER*\n  - HEAVY INTERCESSOR GUNNER*\n  - INTERCESSOR GUNNER with auxiliary grenade launcher and one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists    \n  - INTERCESSOR WARRIOR with one of the following options:\n    - Auto bolt rifle; fists\n    - Bolt rifle; fists\n    - Stalker bolt rifle; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.\n\nSome ANGEL OF DEATH rules refer to a 'bolt weapon'. This is a ranged weapon that includes 'bolt' in its name, e.g. stalker bolt rifle, heavy bolt pistol, etc.\n\n---\n\n**Chapter Tactics:**  \nWhen selecting your kill team, select a primary and secondary CHAPTER TACTIC for friendly ANGEL OF DEATH operatives to gain for the battle. Multiple instances of the same CHAPTER TACTIC are not cumulative.\n",
   "archetypes": [
     "Security",
     "Seek & Destroy"
@@ -1153,9 +1153,33 @@
           ]
         },
         {
-          "wepId": "IMP-AOD-HGNR-F",
+          "wepId": "IMP-AOD-HGNR-BP",
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 1,
+          "wepName": "Bolt Pistol",
+          "wepType": "R",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-AOD-HGNR-BP-0",
+              "wepId": "IMP-AOD-HGNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-AOD-HGNR-F",
+          "opTypeId": "IMP-AOD-HGNR",
+          "seq": 2,
           "wepName": "Fists",
           "wepType": "M",
           "profiles": [

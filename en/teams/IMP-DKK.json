@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DKK",
-  "version": "November '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_death_korps-lvitjrrdnu-3ngvagvamx.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_death_korps-rqbli7eo8r-wox4jgl7u9.pdf",
   "killteamName": "Death Korps",
   "description": "Grim, fatalistic and utterly uncompromising, the Death Korps of Krieg are famed for their endurance and ability to do\nbattle in the most horrific conditions. Death Korps kill teams are made up of veteran specialists who have seen more fighting that many Astra Militarum soldiers will experience in their entire lifetime.",
   "composition": "A DEATH KORPS KillTeam is composed of:\n\n- 1 DEATH KORPS WATCHMASTER operative with the following:\n  - Boltgun; bayonet  \n  Or one option from each of the following:\n  - Bolt pistol, plasma pistol or relic laspistol\n  - Chainsword or power weapon\n- 4 TROOPER operatives*\n- 9 DEATH KORPS operatives selected from the following list:\n  - BRUISER\n  - CONFIDANT with one of the following options:\n    - Boltgun or lasgun; bayonet\n    - Bolt pistol or relic laspistol; chainsword    \n  - GUNNER with bayonet and flamer\n  - GUNNER with bayonet and grenade launcher\n  - GUNNER with bayonet and meltagun\n  - GUNNER with bayonet and plasma gun\n  - MEDIC\n  - SAPPER\n  - SNIPER\n  - SPOTTER\n  - TROOPER\n  - VETERAN\n  - VOX-OPERATOR\n  - ZEALOT\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*Up to four times, instead of taking one of these TROOPER operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
@@ -59,7 +59,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "In Death, Atonement",
-      "description": "Use this firefight ploy when a ready friendly DEATH KORPS operative is incapacitated, if it is not within control range of enemy operatives.\r Before it is removed from the killzone, it can immediately perform one free action.\r Unless otherwise specified, the operative would be injured for this. Note that that friendly operative is injured for the duration of that action."
+      "description": "Use this firefight ploy when a ready friendly DEATH KORPS operative is incapacitated, if it is not within control range of enemy operatives.\r Before it is removed from the killzone, it can immediately perform one free action and you can change its order to do so.\r Unless otherwise specified, the operative would be injured for this. Note that that friendly operative is injured for the duration of that action."
     },
     {
       "ployId": "IMP-DKK-T-IL",
@@ -342,6 +342,12 @@
           "opTypeId": "IMP-DKK-WM",
           "abilityName": "Guardsmen Orders",
           "description": "**STRATEGIC GAMBIT** and **SUPPORT**\n A friendly DEATH KORPS WATCHMASTER operative can issue a GUARDSMAN ORDER.\n Whenever it does, select one GUARDSMAN ORDER for all friendly DEATH KORPS operatives within 6\" of it to receive.\n Whenever a friendly operative receives a GUARDSMAN ORDER, apply its rules until the end of the turning point.\n Operatives cannot benefit from more than one GUARDSMAN ORDER at once; they only benefit from the most recent order they received during the turning point.\n \n - **Take Aim!**  \n\n Ranged weapons of operatives that received this order (excluding mortar barrage and remote detonator) have the Ceaseless weapon rule.\n - **Fix Bayonets!**  \n\n Melee weapons of operatives that received this order have the Ceaseless weapon rule.\n - **Dig In!**  \n\n Whenever an operative is shooting a friendly operative that has received this order, if you can retain any cover saves, you can re-roll any of your defence dice results of one result (e.g. results of 2).\n - **Move! Move! Move!**  \n\n Whenever an operative that's received this order is performing the Reposition action, add 1\" to its Move stat.\n "
+        },
+        {
+          "abilityId": "IMP-DKK-WM-A-BR",
+          "opTypeId": "IMP-DKK-WM",
+          "abilityName": "Bring it Down!",
+          "description": "**STRATEGIC GAMBIT** if this operative is in the killzone. Select one enemy operative. Whenever a friendly DEATH KORPS operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative’s weapons have the Punishing weapon rule"
         }
       ]
     },
@@ -405,7 +411,7 @@
           "abilityId": "IMP-DKK-BRU-A-BRU",
           "opTypeId": "IMP-DKK-BRU",
           "abilityName": "Bruiser",
-          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success."
+          "description": "Once per turning point, when this operative is fighting or retaliating, in the Resolve Attack Dice step, you can ignore the damage inflicted on it from one normal success. If this operative is incapacitated during the Fight action, you can strike the enemy operative in that sequence with one of your unresolved successes before this operative is removed from the killzone."
         }
       ]
     },

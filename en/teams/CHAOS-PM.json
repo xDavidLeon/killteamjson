@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-PM",
-  "version": "July '25",
+  "version": "January '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_plague_marines_online_rules-bkrbe3oqts-qqb6x5kfak.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_plague_marines-yldp8quqtd-6rufhbcor4.pdf",
   "killteamName": "Plague Marines",
   "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
   "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
@@ -75,7 +75,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Virulent Poison",
-      "description": "Use this firefight ploy during a friendly PLAGUE MARINE operative's activation or counteraction, before or after it performs an action.\nSelect one of the following:\n\n- One enemy operative within 3\" of that operative gains one of your Poison tokens (if it does not already have one).\n- Roll 2D6: if the result is 7+, one enemy operative within 7\" of that operative gains one of your Poison tokens (if it does not already have one).\n"
+      "description": "Use this firefight ploy during a friendly PLAGUE MARINE operative's activation or counteraction, before or after it performs an action.\n\n- One enemy operative within 3\", or visible to and within 7\" of that operative gains one of your Poison tokens (if it does not already have one)."
     }
   ],
   "equipments": [
@@ -139,7 +139,7 @@
       "killteamId": "CHAOS-PM",
       "seq": 4,
       "eqName": "Poison Vents",
-      "description": "Whenever an enemy operative that has one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, inflict D3 damage on it (instead of the normal 1)."
+      "description": "Whenever an enemy operative that doesn't have one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, roll one D3: on a 3, that operative gains one of your Poison tokens"
     }
   ],
   "teamAbilities": [

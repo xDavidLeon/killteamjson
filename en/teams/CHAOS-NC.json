@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-NC",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_nemesis_claw_online_rules-bijytifu3j-qrefpbr8ti.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_nemesis_claw-qjp9jwgrao-orpyxtablk.pdf",
   "killteamName": "Nemesis Claw",
   "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
   "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
@@ -84,7 +84,7 @@
       "killteamId": "CHAOS-NC",
       "seq": 1,
       "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it)."
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly NEMESIS CLAW operative, if no other enemy operatives are within that friendly operative's control range, you can use this rule.\nIf you do, roll 2D6, or 1D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (No AP are spent on it), and you cannot use this rule again during this turning point."
     },
     {
       "eqId": "CHAOS-NC-CJ",

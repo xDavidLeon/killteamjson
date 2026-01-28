@@ -1,10 +1,10 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-HOTA",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_hand_of_the_archon-aet5zzkdhc-rcqfvcootc.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
   "killteamName": "Hand Of The Archon",
   "description": "The Archons of the Drukhari Kabals are forever plotting to expand their sprawling criminal empires. Should their\nschemes require a subtle touch, they may turn to Hand of the Archon kill teams. These bands of assassins, thieves,\ntorturers and worse wield an array of esoteric and macabre weapons to aid them in their diabolical missions.",
   "composition": "A HAND OF THE ARCHON KillTeam is composed of:\n\n- 1 HAND OF THE ARCHON ARCHSYBARITE operative with one of the following options:\n  - Blast pistol; venom blade\n  - Splinter pistol; venom blade\n  - Splinter pistol; agoniser\n  - Splinter pistol; power weapon\n  - Splinter rifle; array of blades\n- 8 HAND OF THE ARCHON operatives selected from the following list:\n  - AGENT\n  - CRIMSON DUELLIST\n  - DISCIPLE OF YAELINDRA\n  - ELIXICANT\n  - FLAYER\n  - GUNNER with one of the following options:\n    - Blaster; array of blades\n    - Shredder; array of blades\n  - HEAVY GUNNER with one of the following options:\n    - Dark lance; array of blades\n    - Splinter cannon; array of blades\n  - SKYSPLINTER ASSASSIN\n\nOther than AGENT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two darklight weapons (blast pistol, blaster and dark lance are darklight weapons).",
@@ -84,7 +84,7 @@
       "killteamId": "AEL-HOTA",
       "seq": 1,
       "eqName": "Chain Snare",
-      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it)."
+      "description": "Whenever an enemy operative would perform the Fall Back action while within control range of a friendly HAND OF THE ARCHON operative, if no other enemy operatives are within that friendly operative's control range,\nyou can use this rule.\nIf you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than that friendly operative.\nIf any result is a 4+, that enemy operative cannot perform that action during that activation or counteraction (no AP are spent on it), and you cannot use this rule again during this turning point."
     },
     {
       "eqId": "AEL-HOTA-WB",
@@ -318,6 +318,12 @@
           "opTypeId": "AEL-HOTA-KAS",
           "abilityName": "Rifles",
           "description": "Whenever a friendly HAND OF THE ARCHON operative is shooting with a splinter rifle during an activation in which it has not performed the Charge, Fall Back or Reposition action,\nthat weapon has the Accurate 1 weapon rule. Note that operative isn't restricted from performing those actions after shooting."
+        },
+        {
+          "abilityId": "AEL-HOTA-KAS-A-TV",
+          "opTypeId": "AEL-HOTA-KAS",
+          "abilityName": "Torturous Vision",
+          "description": "Once during each of this operative’s activations, if it doesn’t have any of your Pain tokens when it performs either the Fight or Shoot action, it can gain one of your Pain tokens when you select a valid target or an enemy operative to fight against."
         }
       ]
     },
@@ -643,7 +649,7 @@
           "abilityId": "AEL-HOTA-KELX-A-CD",
           "opTypeId": "AEL-HOTA-KELX",
           "abilityName": "Combat Drugs",
-          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following COMBAT DRUG rules for friendly HAND OF THE ARCHON operatives to have for the battle:\n\n- **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that inflicted damage.\n- **Adrenalight:** STRATEGIC GAMBIT. Select one friendly operative that has this COMBAT DRUG to gain one of your Pain tokens.\n- **Hypex:** You can ignore any changes to this operative's Move stat from being injured.\n"
+          "description": "At the end of the Select Operatives step, if this operative is selected for deployment, select one of the following COMBAT DRUG rules for friendly HAND OF THE ARCHON operatives to have for the battle:\n\n- **Painbringer:** Whenever an attack dice inflicts damage of 3 or more on this operative, roll one D6: on a 6, subtract 1 from that inflicted damage.\n- **Adrenalight:** In the Ready step of each Strategic phase, you can select one friendly operative that has this COMBAT DRUG to gain one of your Pain tokens.\n- **Hypex:** You can ignore any changes to this operative's Move stat from being injured.\n"
         },
         {
           "abilityId": "AEL-HOTA-KELX-A-RIF",

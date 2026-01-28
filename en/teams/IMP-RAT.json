@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-RAT",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_ratlings_online_rules-kpnpr4zjmx-o7noajjnek.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_ratlings-loogoevawx-nrcsregyye.pdf",
   "killteamName": "Ratlings",
   "description": "Though less resilient than their baseline Human comrades, Ratlings are naturally excellent shots. It is said that Ratling marksmen can take the head off a Heretic from over a kilometre away. Coupled with their knack for staying out of harm's way, this makes Ratlings formidable snipers who can exact a withering toll upon superior enemy forces. ",
   "composition": "A RATLING KillTeam is composed of:\n\n- 1 RATLING FIXER operative with one of the following options:  \n  - Battle Rifle, Fists\n  - Sniper Rifle, Fists\n- 10 RATLING operatives selected from the following list:\n  - BATTLEMUTT\n  - BULLGRYN* with one from each of the following:\n    - Grenadier Gauntlet or Power Maul\n    - Brute Shield or Slabshield  \n  - OGRYN*\n  - BIG SHOT\n  - BOMBER\n  - HARDBIT\n  - RAIDER\n  - SNEAK\n  - SNIPER\n  - SPOTTER\n  - STASHMASTER\n  - VOX-THIEF\n\n*You cannot select more than three of these operatives combined. Up to three times, instead of selecting one of these operatives, you can select one RATLING ploy to cost you 0CP for the battle.  \n\nOther than BULLGRYN, OGRYN, and SNIPER operatives, your KillTeam can only include each operative above once.",
@@ -84,14 +84,14 @@
       "killteamId": "IMP-RAT",
       "seq": 1,
       "eqName": "Purloined Rations",
-      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your attack dice,you can use this rule if you haven't used the Lucky Round equipment during this activation. If you do, improve the Hit stat of its rifle by 1 until the end of that sequence."
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your attack dice,you can use this rule. If you do, improve the Hit stat of its rifle by 1 until the end of that sequence."
     },
     {
       "eqId": "IMP-RAT-LR",
       "killteamId": "IMP-RAT",
       "seq": 2,
       "eqName": "Lucky Round",
-      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your Attack dice, you can use this rule if you have not used the Purloined Rations equipment this activation.\nIf you do, that weapon has the Severe weapon rule for that sequence."
+      "description": "Once per Turning Point, whenever a friendly RATLING operative is shooting with a rifle and you've rolled your Attack dice, you can use this rule.\nIf you do, that weapon has the Severe weapon rule for that sequence."
     },
     {
       "eqId": "IMP-RAT-SG",
@@ -226,7 +226,7 @@
           "abilityId": "IMP-RAT-FIX-A-TD",
           "opTypeId": "IMP-RAT-FIX",
           "abilityName": "Target Designation",
-          "description": "**Strategic Gambit**\nSelect one enemy operative visible to this operative.\nUntil the end of the Turning Point, whenever a friendly RATLING operative is shooting that enemy operative with a Rifle, that weapon has the Lethal 5+ weapon rule."
+          "description": "**Strategic Gambit**\nSelect one enemy operative.\nUntil the end of the Turning Point, whenever a friendly RATLING operative is shooting that enemy operative with a Rifle, that weapon has the Lethal 5+ weapon rule."
         }
       ]
     },

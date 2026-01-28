@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-SCT",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_scout_squad_online_rules-hoewvjwvso-rwryoak5uo.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_scout_squad-khwwrygy00-yi4rroozc8.pdf",
   "killteamName": "Scout Squad",
   "description": "Scouts are the new recruits of a Space Marine chapter who have advanced far enough in the early stages of their training and biological transformation to take part in battle with the rest of the Chapter.\n  \n  \n\nMore lightly armed and armoured than full Battle brothers, their role is to range ahead of the main Space Marine force, preparing the way for the main advance by infiltrating enemy lines, sabotaging and gathering intelligence - causing as much chaos and disruption as possible.",
   "composition": "A SCOUT SQUAD killteam is composed of:\n\n- 1 SCOUT SQUAD Sergeant operative with one of the following options:\n  - Astartes shotgun, fists\n  - Boltgun, fists\n  - Bolt Pistol, Chainsword\n- 8 SCOUT SQUAD operatives selected from the following list:\n  - Heavy Gunner with Fists, Bolt Pistol and Heavy Bolter\n  - Heavy Gunner with Fists, Bolt Pistol and Missile Launcher\n  - Hunter\n  - Sniper\n  - Tracker\n  - Warrior with one of the following options:\n    - Astartes Shotgun, fists\n    - Boltgun, Fists\n    - Bolt Pistol, Combat Blade\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Adaptable Training",
-      "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 6\" from enemy operatives to Engage."
+      "description": "You can change the order of up to D3 friendly SCOUT SQUAD operatives that are more than 4\" from enemy operatives to Engage."
     },
     {
       "ployId": "IMP-SCT-S-GE",
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Stealth Relocation",
-      "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 6\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
+      "description": "Up to D3 friendly SCOUT SQUAD operatives that have a Conceal order and are more than 4\" from enemy operatives can immediately perform a free Dash action. You cannot use this ploy during the first turning point."
     },
     {
       "ployId": "IMP-SCT-T-AT",
@@ -51,7 +51,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Astartes Training",
-      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the end of that activation, that operative can either perform 2 Fight actions, or 2 Shoot actions if an Astartes Shotgun, Bolt Pistol, or Boltgun is selected for at least one of them."
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the end of that activation, that operative can do one of the following:\n• Perform two Fight actions.\n• Perform two Shoot actions if an Astartes shotgun, bolt pistol or boltgun is selected for at least one of them.\n• Perform two Shoot actions with a heavy bolter, missile launcher or sniper rifle, but 1 additional AP must be spent for the second action."
     },
     {
       "ployId": "IMP-SCT-T-CP",
@@ -75,7 +75,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Raw Physiology",
-      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the start of its next activation, you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
+      "description": "Use this firefight ploy during a friendly SCOUT SQUAD operative's activation.\nUntil the start of its next activation, add 1\" to its Move stat and you can ignore any changes to that operative's stats from being injured (including its weapons' stats)."
     }
   ],
   "equipments": [
@@ -254,7 +254,7 @@
           "abilityId": "IMP-SCT-SGT-A-FS",
           "opTypeId": "IMP-SCT-SGT",
           "abilityName": "Forward Scouting",
-          "description": "At the end of the Set Up Operatives step, you can select and resolve up to six Forward Scouting options.\nEach option has a number in brackets which is the maximum number of times you can select and resolve it for the battle.\nFor example, your five selections could be Reposition (2), Trip Alarm (1), Booby Trap (1) and Diversion (1).\nIf both players have this rule, alternate resolving selection by selection, starting with the player that has initiative.  \n  \n\n**BOOBY TRAP (1):**  \n\nPlace one of your Booby Trap markers more than 6\" from your opponent's drop zone and more than 2\" from other markers, access points, and Accessible terrain.\nThe first time your Booby Trap marker is within an enemy operative's control range, remove that marker and inflict 2D3 damage on that operative.\nIf it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.  \n  \n\n**DESIGNATE TARGET (1):**  \n\nSelect one enemy operative to gain one of your Target tokens.\nWhenever a friendly SCOUT SQUAD operative is shooting against, fighting against, or retaliating against an enemy operative that has one of your Target tokens, you can re-roll once of your attack dice.  \n  \n\n**DEVISE PLAN (1):**  \n\nYou gain 1CP.  \n\n\n\n**DIVERSION (1):**  \n\nOnce per battle STRATEGIC GAMBIT. Select one enemy operative within 6\" of a killzone edge.\nUntil the end of that operative's next activation, subtract 1 from its APL stat.  \n  \n\n**REDEPLOY (1):**  \n\nChange the set up of one third of your operatives (Rounding up).  \n  \n\n**REPOSITION (2):**  \n\nPerform a free reposition action with one friendly operative that is wholly within your drop zone.\nIt must end that move wholly within 3\" of your drop zone.  \n  \n\n**SPY (1):**  \n\nAPPROVED OPS ONLY. Your opponent must reveal their selected tac op.  \n  \n\n**TRIP ALARM (2):**  \n\nPlace one of your Trip Alarm markers more than 6\" from your opponent's drop zone.\nDuring the first and second turning point, whenever a friendly Scout Squad operative is shooting an enemy that is within 2\" of that marker, its range weapons have the Seek Weapon rule.\nIn the ready step of the third Strategy phase, remove that marker.  \n  \n\n**TACTICAL MANOEUVRE (1):**  \n\nOnce per battle STRATEGIC GAMBIT. Select one friendly operative. Until the end of that operative's next activation, add 1 to its APL stat."
+          "description": "At the end of the Set Up Operatives step, you can select and resolve up to six Forward Scouting options.\nEach option has a number in brackets which is the maximum number of times you can select and resolve it for the battle.\nFor example, your five selections could be Reposition (2), Trip Alarm (1), Booby Trap (1) and Diversion (1).\nIf both players have this rule, alternate resolving selection by selection, starting with the player that has initiative.  \n  \n\n**BOOBY TRAP (1):**  \n\nPlace one of your Booby Trap markers more than 6\" from your opponent's drop zone and more than 2\" from other markers, access points, and Accessible terrain.\nThe first time your Booby Trap marker is within an enemy operative's control range, remove that marker and inflict 2D3 damage on that operative.\nIf it is not incapacitated, end its action (if any), even if that action's effects are not fulfilled.\nIf it cannot be placed, move it the minimum amount to do so.  \n  \n\n**DESIGNATE TARGET (1):**  \n\nSelect one enemy operative to gain one of your Target tokens.\nWhenever a friendly SCOUT SQUAD operative is shooting against, fighting against, or retaliating against an enemy operative that has one of your Target tokens, you can re-roll once of your attack dice.  \n  \n\n**DEVISE PLAN (1):**  \n\nYou gain 1CP.  \n\n\n\n**DIVERSION (1):**  \n\nOnce per battle STRATEGIC GAMBIT. Select one enemy operative within 6\" of a killzone edge.\nUntil the end of that operative's next activation, subtract 1 from its APL stat.  \n  \n\n**REDEPLOY (1):**  \n\nChange the set up of one third of your operatives (Rounding up).  \n  \n\n**REPOSITION (2):**  \n\nPerform a free reposition action with one friendly operative that is wholly within your drop zone.\nIt must end that move wholly within 3\" of your drop zone.  \n  \n\n**SPY (1):**  \n\nAPPROVED OPS ONLY. Your opponent must reveal their selected tac op.  \n  \n\n**TRIP ALARM (2):**  \n\nPlace one of your Trip Alarm markers more than 6\" from your opponent's drop zone.\nDuring the first and second turning point, whenever a friendly Scout Squad operative is shooting an enemy that is within 2\" of that marker, its range weapons have the Seek Weapon rule.\nIn the ready step of the third Strategy phase, remove that marker.  \n  \n\n**TACTICAL MANOEUVRE (1):**  \n\nTwice per battle STRATEGIC GAMBIT. Select one friendly operative. Until the end of that operative's next activation, add 1 to its APL stat."
         },
         {
           "abilityId": "IMP-SCT-SGT-A-GAE",
@@ -693,7 +693,7 @@
           "name": "Track Enemy",
           "description": null,
           "effects": [
-            "Select one expended enemy operative within 8\" of this operative. Until the end of the turning point, whenever a friendly SCOUT SQUAD operative is shooting that enemy operative, its ranged weapons have the Seek Light rule."
+            "Select one enemy operative within 8\" of this operative. Until the end of the turning point, whenever a friendly SCOUT SQUAD operative is shooting that enemy operative, its ranged weapons have the Seek Light rule."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."

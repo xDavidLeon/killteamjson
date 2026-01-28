@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-FSKB",
-  "version": "June '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_farstalker_kinband-qonfc1le93-ld45u3ayym.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_farstalker_kinband-pylxqicimj-umb4oulmlb.pdf",
   "killteamName": "Farstalker Kinband",
   "description": "Farstalker Kinbands operate as scouts for the Kroot species. They range far and wide throughout the galaxy, seeking new and valuable genetic material to return to their Shapers. Farstalker Kinbands contain expert trackers, hunters and guerrilla fighters who are capable of matching far more technologically advanced foes.",
   "composition": "A FARSTALKER KINBAND killteam is composed of:\n\n- 1 FARSTALKER KINBAND KILL-BROKER operative with one of the following options:\n  - Kroot rifle; ritual blade\n  - Pulse weapon; ritual blade\n- 11 FARSTALKER KINBAND operatives selected from the following list:\n  - BOW-HUNTER\n  - COLD-BLOOD\n  - CUT-SKIN\n  - HOUND\n  - LONG-SIGHT\n  - PISTOLIER\n  - STALKER\n  - TRACKER\n  - HEAVY GUNNER with one of the following options:\n    - Dvorgite skinner; blade\n    - Londaxi tribalest; blade    \n  - WARRIOR with one of the following options:\n    - Kroot rifle; blade\n    - Kroot scattergun; blade\n        \nOther than HOUND and WARRIOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two HOUND operatives.",
@@ -280,7 +280,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -349,7 +349,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -396,7 +396,7 @@
               "profileName": "",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-CEASELESS"
@@ -518,7 +518,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -573,7 +573,7 @@
           "abilityId": "TAU-FSKB-HND-A-BT",
           "opTypeId": "TAU-FSKB-HND",
           "abilityName": "Bad-Tempered",
-          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action, but must end that move within control range of that enemy operative."
+          "description": "Whenever an enemy operative performs the Fight action, if this operative is a valid operative to fight against, you can force them to select this operative to fight against instead.\nWhenever an enemy operative ends the Charge action within control range of another friendly FARSTALKER KINBAND operative within 3\" of this operative, if this operative isn't within control range of enemy operatives,\nthis operative can immediately perform a free Charge action (you can change its order to Engage to do so), but must end that move within control range of that enemy operative."
         }
       ],
       "actions": [
@@ -678,7 +678,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -730,7 +730,7 @@
               "profileName": "Focused",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-RANGE",
@@ -752,7 +752,7 @@
               "profileName": "Salvo",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-RANGE",
@@ -779,7 +779,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -850,7 +850,7 @@
               "profileName": "",
               "ATK": "4",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": [
                 {
                   "id": "WR-UNIV-BALANCED"
@@ -934,7 +934,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]
@@ -1043,7 +1043,7 @@
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
-              "DMG": "3/4",
+              "DMG": "3/5",
               "WR": []
             }
           ]

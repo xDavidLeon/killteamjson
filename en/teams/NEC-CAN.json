@@ -1,10 +1,10 @@
 {
   "factionId": "NEC",
   "killteamId": "NEC-CAN",
-  "version": "November '25",
+  "version": "January '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_canoptek_circle-stf6m3yj17-5iuzdwavp7.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_canoptek_circle-clwx3r2lli-czur2idyzd.pdf",
   "killteamName": "Canoptek Circle",
   "description": "Canoptek Circle kill teams comprise sinister alien constructs in thrall to their Cryptek master. The emotionless and unliving Canoptek constructs overcome obstacles to a Cryptek's ambitions, whether rock and metal or the bodies of the living, while their master accesses nodes of power and data to charge the constructs' ancient abilities further.",
   "composition": "A CANOPTEK CIRCLE Killteam is composed of:\n\n- 1 CANOPTEK CIRCLE GEOMANCER operative\n- 2 CANOPTEK CIRCLE TOMB CRAWLER operatives with one of the following options (select separately for each):\n  - Twin gauss reapers; claws\n  - Transdimensional isolator; claws*\n- 1 CANOPTEK CIRCLE ACCELERATOR operative\n- 1 CANOPTEK CIRCLE REANIMATOR operative\n- 3 CANOPTEK CIRCLE WARRIOR operatives with one of the following options (select separately for each):\n  - Gauss scalpel; claws & tail\n  - Tesla caster; claws & tail\n\n*Your kill team can only include up to one transdimensional isolator. ",
@@ -112,7 +112,7 @@
     {
       "abilityId": "NEC-CAN-TA-OBNOMA",
       "abilityName": "Obelisk Node Matrix",
-      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 2 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
+      "description": "As a STRATEGIC GAMBIT in the first turning point, place your three OBELISK NODE markers wholly within your territory. As a STRATEGIC GAMBIT in each turning point after the first, you can move your OBELISK NODE markers up to 3\" each.\n\nYour OBELISK NODE markers control other markers within 1\" of them that no enemy operatives contest (treat your OBELISK NODE markers as friendly operatives for this purpose).\nIf more than one player would use their OBELISK NODE markers to control the same marker, no OBELISK NODE markers control it.\n\nWhenever one of your OBELISK NODE markers is within 6\" horizontally of another of your OBELISK NODE markers, those markers and the area between them create an OBELISK NODE MATRIX above and below (in other words, their height in the killzone is irrelevant).\nIf all three of your OBELISK NODE markers fulfil this, it creates a larger combined OBELISK NODE MATRIX.\nWhenever a friendly CANOPTEK CIRCLE operative is within your OBELISK NODE MATRIX:\n- Weapons on its datacard have the Accurate 1 weapon rule.\n- Add 1 to its APL stat (to a maximum of 3)."
     }
   ],
   "opTypes": [
@@ -227,10 +227,10 @@
           "description": null,
           "effects": [
             "SUPPORT. Select one friendly CANOPTEK CIRCLE CANOPTEK operative visible to and within 6\" of this operative. Alternatively, you can select one friendly CANOPTEK CIRCLE CANOPTEK operative that's visible to this operative and within your OBELISK NODE MATRIX (SUPPORT doesn't apply to this selection).",
-            "That selected operative can immediately perform a 1AP action for free; it cannot move more than 2\" during that action."
+            "That selected operative can immediately perform a 1AP action for free; during that action, it cannot move more than 2\" or must be set up wholly within 2\" if it’s removed and set up again."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative"
+            "This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         },
         {
@@ -433,7 +433,7 @@
           "abilityId": "NEC-CAN-REA-REA",
           "opTypeId": "NEC-CAN-REA",
           "abilityName": "Reanimate",
-          "description": "Once per turning point, when another friendly CANOPTEK CIRCLE operative would be incapacitated, if that operative is visible to and within 6\" of this operative, or if this and that operative are within your OBELISK NODE MATRIX,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action. If this rule was used during that friendly operative's activation, that activation ends.\n\nYou cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
+          "description": "Once per turning point, when another friendly CANOPTEK CIRCLE operative would be incapacitated, if that operative is visible to and within 6\" of this operative, or if this and that operative are within your OBELISK NODE MATRIX,\nyou can use this rule, providing neither this nor that operative is within control range of an enemy operative.\nIf you do, that friendly operative isn't incapacitated, has 1 wound remaining and cannot be incapacitated for the remainder of the action.\nAfter that action, that friendly operative can immediately perform a free Dash action, but must end that action within this operative’s control range or within your OBELISK NODE MATRIX. Subtract 1 from this and that operative’s APL stats until the end of their next activations respectively, and if this rule was used during that friendly operative's activation, that activation ends.\n\nYou cannot use this rule if this operative is incapacitated, or if it's a Shoot action and this operative would be a primary or secondary target."
         }
       ],
       "actions": [
@@ -480,7 +480,7 @@
               "profileName": "",
               "ATK": "4",
               "HIT": "4+",
-              "DMG": "3/4",
+              "DMG": "2/3",
               "WR": [
                 {
                   "id": "WR-UNIV-PIERCING",
@@ -502,7 +502,7 @@
               "wepId": "NEC-CAN-WAR-TC",
               "seq": 1,
               "profileName": "Focused",
-              "ATK": "5",
+              "ATK": "4",
               "HIT": "4+",
               "DMG": "2/3",
               "WR": []
@@ -512,7 +512,7 @@
               "wepId": "NEC-CAN-WAR-TC",
               "seq": 2,
               "profileName": "Living Lightning",
-              "ATK": "5",
+              "ATK": "4",
               "HIT": "4+",
               "DMG": "2/3",
               "WR": [
@@ -536,7 +536,7 @@
               "wepId": "NEC-CAN-WAR-CAT",
               "seq": 1,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "3",
               "HIT": "4+",
               "DMG": "3/4",
               "WR": []
@@ -549,7 +549,7 @@
           "abilityId": "NEC-CAN-WAR-AD",
           "opTypeId": "NEC-CAN-WAR",
           "abilityName": "Aggressive Defence",
-          "description": "If this operative is incapacitated by an enemy operative within 2\" of it, before this operative is removed from the killzone, roll one D3: on a 2+, inflict damage on that enemy operative equal to the result."
+          "description": "If this operative is incapacitated by an enemy operative within 2\" of it, before this operative is removed from the killzone, roll one D3: on a 2+, inflict 1 damage on that enemy operative."
         },
         {
           "abilityId": "NEC-CAN-WAR-EC",

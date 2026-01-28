@@ -1,10 +1,10 @@
 {
   "factionId": "VOT",
   "killteamId": "VOT-HKS",
-  "version": "October '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_hearthkyn_salvagers-b0qod2ppui-buodk7l96s.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hearthkyn_salvagers-beync2a0vk-ksvegw5pxs.pdf",
   "killteamName": "Hearthkyn Salvagers",
   "description": "Highly adept warriors and explorers of wrecked voidships and abandoned space stations, Hearthkyn Salvagers are tasked with identifying valuable material and marking it for later retrieval.\nHeavily armed and utterly resolute, Hearthkyn Salvager kill teams seize and defend such claims with the steadfast determination typical of the Kin.",
   "composition": "A HEARTHKYN SALVAGERS KillTeam is composed of:\n\n- 1 HEARTHKYN SALVAGER THEYN operative with one option from each of the following:\n  - Autoch-pattern bolt pistol, Autoch-pattern bolter, bolt revolver, EtaCarn plasma pistol, ion blaster or ion pistol\n  - Concussion gauntlet or plasma weapon\n- 9 HEARTHKYN SALVAGER operatives selected from the following list:\n  - DOZR\n  - FIELD MEDIC\n  - GRENADIER\n  - JUMP PACK WARRIOR\n  - KINLYNK*\n  - KOGNITAAR*\n  - LOKATR*\n  - LUGGER*\n  - WARRIOR*\n  - GUNNER with one of the following options:\n    - EtaCarn plasma beamer; fists\n    - HYLas auto rifle; fists\n    - HYLas rotary cannon; fists\n    - L7 missile launcher; fists\n    - Magna rail rifle; fists\n\nOther than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to three GUNNER operatives (each must have a different option).\n\n*With one of the following options:\n\n- Autoch-pattern bolter; fists\n- Ion blaster; fists\n",
@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Need Keeps",
-      "description": "Select one objective marker or one of your mission markers.\n\n- Whenever determining control of that marker, treat the total APL stat of friendly HEARTHKYN SALVAGER operatives that contest it as 1 higher if at least one friendly HEARTHKYN SALVAGER operative contests that marker.\nNote this isn't a change to the APL stat, so any changes are cumulative with this.\n- Whenever a friendly HEARTHKYN SALVAGER operative is within 3\" of that marker, add 1 to the Atk stat of its melee weapons (to a maximum of 4).\n"
+      "description": "Select one objective marker or one of your mission markers.\n\n- Whenever determining control of that marker, treat the total APL stat of friendly HEARTHKYN SALVAGER operatives that contest it as 1 higher if at least one friendly HEARTHKYN SALVAGER operative contests that marker.\nNote this isn't a change to the APL stat, so any changes are cumulative with this.\n- Whenever a friendly HEARTHKYN SALVAGER operative is within 3\" of that marker, add 1 to the Atk stat of its melee weapons (to a maximum of 4); if the weapon already has an Atk stat of 4, it has the Balanced weapon rule."
     },
     {
       "ployId": "VOT-HKS-S-PFP",
@@ -84,32 +84,54 @@
       "killteamId": "VOT-HKS",
       "seq": 1,
       "eqName": "Plasma Knives",
-      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Plasma Knife|3|4+|3/5|\n|**Weapon Rules**|\n|Lethal 5+|",
-      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
+      "description": "Friendly HEARTHKYN SALVAGER operatives have the following melee weapon. Note that the FIELD MEDIC operative already has this weapon but with better stats; in that instance, use the better version.",
+      "weapons": [
+        {
+          "wepId": "VOT-HKS-PK-PLASMA-KNIFE",
+          "opTypeId": null,
+          "seq": 0,
+          "wepName": "Plasma Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "wepprofileId": "VOT-HKS-PK-PLASMA-KNIFE-0",
+              "wepId": "VOT-HKS-PK-PLASMA-KNIFE",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "eqId": "VOT-HKS-CR",
       "killteamId": "VOT-HKS",
       "seq": 2,
       "eqName": "Climbing Rigs",
-      "description": "Whenever a friendly HEARTHKYN SALVAGER operative is climbing, treat the vertical distance as 1\" less (to a minimum of 2\").\nNote this has no effect when using ladder equipment terrain, which treats the vertical distance as 1\" (but would have an effect if the operative then continued climbing another terrain feature).",
-      "effects": ""
+      "description": "During each friendly HEARTHKYN SALVAGER operative's activation, you can do one of the following:\n• When that operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically).\n• When that operative is dropping, ignore the vertical distance."
     },
     {
       "eqId": "VOT-HKS-ET",
       "killteamId": "VOT-HKS",
       "seq": 3,
       "eqName": "Excavation Tools",
-      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker).",
-      "effects": ""
+      "description": "Friendly HEARTHKYN SALVAGER operatives can perform the Pick Up Marker action for 1 less AP, and don't have to control the marker to do so (taking precedence over that action's conditions - they only need to contest the marker)."
     },
     {
       "eqId": "VOT-HKS-WOC",
       "killteamId": "VOT-HKS",
       "seq": 4,
       "eqName": "Writ Of Claim",
-      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice.",
-      "effects": ""
+      "description": "Once per battle, if friendly HEARTHKYN SALVAGER operatives contest two or more objective markers, after rolling off to decide initiative, you can re-roll your dice."
     }
   ],
   "teamAbilities": [
@@ -1239,7 +1261,7 @@
           "abilityId": "VOT-HKS-KOG-A-TAC",
           "opTypeId": "VOT-HKS-KOG",
           "abilityName": "Tactician",
-          "description": "**STRATEGIC GAMBIT**\nPlace either your Attack or Defence marker in the killzone. Whenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative\nthat is within 3\" of your Attack marker, you can re-roll one of your attack dice.\nWhenever an enemy operative is shooting a friendly HEARTHKYN SALVAGER operative that is within 3\" of your Defence marker, you can re-roll one of your defence dice.\nIn the Ready step of the next Strategy phase, remove that marker."
+          "description": "**STRATEGIC GAMBIT**\nPlace either your Attack or Defence marker in the killzone. Whenever a friendly HEARTHKYN SALVAGER operative is shooting against, fighting against or retaliating against an enemy operative\nthat is within 3\" of your Attack marker, that friendly operative's weapons have the Balanced weapon rule.\nWhenever an enemy operative is shooting a friendly HEARTHKYN SALVAGER operative that is within 3\" of your Defence marker, you can re-roll one of your defence dice.\nIn the Ready step of the next Strategy phase, remove that marker."
         }
       ],
       "actions": [
@@ -1569,14 +1591,14 @@
   "weapon_rules": [
     {
       "id": "WR-VOT-HKS-BEAM",
-      "name": "Haz",
-      "description": "Cuando este agente dispare con esta arma, cada éxito crítico guardado inflige inmediatamente 1D3 daños a cada otro agente que se encuentre a lo largo de una (y solo una) línea de haz (tira por separado por cada agente), pero el blanco no resulta afectado. Un agente se encuentra a lo largo de una línea de haz si se puede trazar una línea desde este agente hasta la peana de dicho agente, y esa línea atraviesa la peana del blanco original pero no atraviesa terreno Pesado.",
+      "name": "Beam",
+      "description": "Whenever this operative is shooting with this weapon, each retained critical success immediately inflicts D3 damage on each other operative along one (and only one) beam line (roll separately for each operative),\nbut the target isn't affected. An operative is along a beam line if a targeting line can be drawn from this operative to its base, and that line crosses the base of the original target but doesn't cross Heavy terrain.",
       "team": "VOT-HKS"
     },
     {
       "id": "WR-VOT-HKS-FORCE",
-      "name": "Impacto Brutal",
-      "description": "Cuando este agente combata con esta arma, si ha realizado la acción de Cargar durante la activación, esta arma tiene la regla de armas Brutal",
+      "name": "Force Impact",
+      "description": "Whenever this operative is fighting with this weapon, if it has performed the Charge action during the activation, this weapon has the Brutal weapon rule.",
       "team": "VOT-HKS"
     }
   ]

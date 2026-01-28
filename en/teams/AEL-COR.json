@@ -1,10 +1,10 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-COR",
-  "version": "November '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_corsair_voidscarred-o7cfw5mf2a-gu84xsizba.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_corsair_voidscarred-3war9i1i61-vjohvdpcb9.pdf",
   "killteamName": "Corsair Voidscarred",
   "description": "Aeldari Corsairs or Anhrathe are bands of piratical Aeldari Outcasts. They are a constant threat to merchant shipping, though very rarely pose a threat to a major Imperial battlefleet.\n  \n  \n\nThere are many bands of so-called Corsairs scattered across the galaxy, and all are savage and deadly raiders. Outcasts from the strict confines of the Craftworlds, the Corsairs live in self-imposed exile, seeking to explore the galaxy and experience the full gamut of emotion and sensation accessible to the Eldar's sensitive psyche. ",
   "composition": "A CORSAIR VOIDSCARRED killteam is composed of:\n- 1 CORSAIR VOIDSCARRED Felarch operative with one of the following options:\n  - Shuriken rifle, shuriken pistol, power weapon\n  - Neuro Disruptor, Power weapon\n- 8 CORSAIR VOIDSCARRED operatives selected from the following list:\n  - Fate Dealer\n  - Gunner with one of the following options:\n  - Blaster (X), Shuriken pistol, fists\n    - Shredder, Shuriken pistol, fists\n  - Heavy Gunner with one of the following options:\n    - Shuriken Cannon, Shuriken pistol, fists\n    - Wraithcannon (X), Shuriken pistol, fists  \n  - Kurnathi\n  - Kurnite Hunter\n  - Shade Runner\n  - Soul Weaver\n  - Starstorm Duelist\n  - Warrior with one of the following options:\n    - Shuriken pistol, power weapon\n  - Shuriken rifle, fists  \n  - Way Seeker\n\nOther than Warrior operatives your kill team can only include each operative on this lists once.  \n\n(X) Your kill team cannot include both a blaster and a wraithcannon.",
@@ -1014,7 +1014,7 @@
           "abilityId": "AEL-COR-SR-A-BP",
           "opTypeId": "AEL-COR-SR",
           "abilityName": "Blink Pack",
-          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, it can Warp Jump.\r If it does, do not move it, instead remove it from the Killzone and set it back up wholly within 7\" of its original location, measuring the Horizontal distance only\r (in Killzone Gallowdark, this distance can be measured through walls).\r It must be set up in a location it can be placed, and unless it is the Charge action, it cannot be set up within control range of an enemy operative. This operative cannot Warp Jump during the same activation in which it performed the Dash action (or vice-versa)."
+          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, it can Warp Jump.\r If it does, do not move it, instead remove it from the Killzone and set it back up wholly within 7\" of its original location, measuring the Horizontal distance only\r (in Killzone Gallowdark, this distance can be measured through walls).\r It must be set up in a location it can be placed, and unless it is the Charge action, it cannot be set up within control range of an enemy operative."
         },
         {
           "abilityId": "AEL-COR-SR-A-SA",

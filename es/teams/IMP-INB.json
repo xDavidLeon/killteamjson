@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-INB",
-  "version": "July '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_imperial_navy_breachers_online_rules-navlcz3vtt-8xayr1z7mg.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
   "killteamName": "Imperial Navy Breachers",
   "description": "Counted amongst the complement of many Navis Imperialis vessels, Navy Breachers are elite Voidsmen who are outfitted, trained and endlessly drilled in boarding actions and void-based combat. Wielding a wide array of cutting gear, boarding shields and close-range weapons, they are well-suited to deadly combat in close confines.",
   "composition": "An IMPERIAL NAVY BREACHERS killteam is composed of:\n- 1 IMPERIAL NAVY BREACHER SERGEANT-AT-ARMS operative with the following:  \n  - Navis shotgun and Navis hatchet  \n  Or one option from each of the following:  \n  - Bolt pistol or heirloom autopistol\n  - Chainsword or power weapon\n- 10 IMPERIAL NAVY BREACHER operatives selected from the following list:\n  - ARMSMAN\n  - AXEJACK\n  - C.A.T. UNIT\n  - ENDURANT\n  - GHEISTSKULL\n  - GRENADIER\n  - GUNNER with Navis las-volley and gun butt\n  - GUNNER with meltagun and gun butt\n  - GUNNER with plasma gun and gun butt\n  - HATCHCUTTER\n  - SURVEYOR\n  - VOID-JAMMER\n\nOther than ARMSMAN operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two GUNNER operatives.  \n\nYour kill team can only include a GHEISTSKULL operative if it also includes a VOID-JAMMER operative, and it can only include a C.A.T. UNIT operative if it also includes a SURVEYOR operative.  \n\nThese operatives count as half a selection each, meaning you can select both of them and it's treated as one selection in total.",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Close Assault",
-      "description": "Whenever a friendly IMPERIAL NAVY BREACHER operative is fighting or shooting an operative within 3\" of it, that friendly operative's weapons have the Punishing weapon rule.  \n**Punishing:** If you retain any critical successes, you can retain one of your fails as a normal success instead of discarding it."
+      "description": "Whenever a friendly IMPERIAL NAVY BREACHER operative is fighting or shooting an operative within 3\" of it:\n • Add 1 to both Dmg stats of all profiles of its Navis shotguns or Navis heavy shotguns (if any).\n • If you roll two or more fails, you can discard one of them to retain another as a normal success instead.\n"
     },
     {
       "ployId": "IMP-INB-S-DO",
@@ -75,7 +75,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Overwhelm Target",
-      "description": "Use this firefight ploy when you use the Breach and Clear faction rule. Select one of those friendly IMPERIAL NAVY BREACHER operatives. Until the end of that operative's activation, add 1 to its APL stat."
+      "description": "Use this firefight ploy when you activate either friendly IMPERIAL NAVY BREACHER operative while using the Breach and Clear faction rule. Until the end of that operative's activation, add 1 to its APL stat."
     }
   ],
   "equipments": [
@@ -84,32 +84,28 @@
       "killteamId": "IMP-INB",
       "seq": 1,
       "eqName": "Rebreathers",
-      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule.",
-      "effects": ""
+      "description": "You can ignore any changes to the APL stats of friendly IMPERIAL NAVY BREACHER operatives, and they aren't affected by enemy operatives' Shock weapon rule."
     },
     {
       "eqId": "IMP-INB-SL",
       "killteamId": "IMP-INB",
       "seq": 2,
       "eqName": "Slugs",
-      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats.",
-      "effects": ""
+      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats."
     },
     {
       "eqId": "IMP-INB-CS",
       "killteamId": "IMP-INB",
       "seq": 3,
       "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured.",
-      "effects": "NOINJMOV"
+      "description": "You can ignore any changes to the Move stat of friendly IMPERIAL NAVY BREACHER operatives from being injured."
     },
     {
       "eqId": "IMP-INB-SORD",
       "killteamId": "IMP-INB",
       "seq": 4,
       "eqName": "System Override Device",
-      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP.",
-      "effects": ""
+      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP."
     }
   ],
   "teamAbilities": [

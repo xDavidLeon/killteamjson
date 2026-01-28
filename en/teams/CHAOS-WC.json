@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-WC",
-  "version": "November '25",
+  "version": "January '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_killteam_warpcoven_online_rules-7t5erqvwrq-qvwkadlm73.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_warpcoven-mckukwe3zm-ef6onhmf5i.pdf",
   "killteamName": "Warpcoven",
   "description": "Many are the dark and terrible secrets of the galaxy, and the Thousand Sons seek to learn them all. Gathering\nrelentless Rubricae and degenerate mutants, Warpcoven kill teams employ sorcery and savagery alike as they sweep\naside those who stand in their way.",
   "composition": "A WARP COVEN KillTeam is composed of 5 WARPCOVEN operatives selected from the following list:\n\n- SORCERER OF DESTIN *(1)*\n- SORCERER OF TEMPYRION *(1)*\n- SORCERER OF WARPFIRE *(1)*\n- RUBRIC MARINE GUNNER with one of the following options:\n  - Warpflamer; fists\n  - Soulreaper cannon *(2)*; fists\n- RUBRIC MARINE ICON BEARER\n- RUBRIC MARINE WARRIOR\n- TZAANGOR CHAMPION *(3)* with one of the following options:\n  - Greataxe\n  - Greatblade\n- TZAANGOR HORN BEARER *(3)*\n- TZAANGOR ICON BEARER *(3)*\n- TZAANGOR WARRIOR *(3)* with one of the following options:\n- Tzaangor blades\n  - Tzaangor blade & shield\n  - Autopistol; chainsword\n\n**(1):** With force stave, PSYCHIC weapons on their datacard and one of the following options:\n- Inferno bolt pistol\n- Prosperine khopesh\n- Warpflame pistol\n\n**(2):** Your kill team can only include up to one warpflame pistol and up to one soulreaper cannon.  \n\n**(3):** These operatives count as half a selection each.  \n\nYou must select at least one friendly SORCERER operative.\n\nOther than WARRIOR and GUNNER operatives, your kill team can only include each operative on this list once.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Brotherhood Of Sorcerers",
-      "description": "Friendly WARPCOVEN SORCERER operatives' PSYCHIC weapons have the Balanced weapon rule if another friendly WARPCOVEN SORCERER operative is within 9\" of that operative.  \r **Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \r **Balanced:** Can re-roll one Attack die."
+      "description": "Friendly WARPCOVEN SORCERER operatives' PSYCHIC weapons have the Balanced weapon rule, or Ceaseless instead if another friendly WARPCOVEN SORCERER operative is within 9\" of that operative.  \r **Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \r **Balanced:** Can re-roll one Attack die."
     },
     {
       "ployId": "CHAOS-WC-S-FIIMW",
@@ -317,16 +317,13 @@
               "wepId": "CHAOS-WC-SOD-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
@@ -524,16 +521,13 @@
               "wepId": "CHAOS-WC-SOT-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
@@ -768,16 +762,13 @@
               "wepId": "CHAOS-WC-SOW-PK",
               "seq": 0,
               "profileName": "",
-              "ATK": "4",
+              "ATK": "5",
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
                 {
                   "id": "WR-UNIV-LETHAL",
                   "number": 5
-                },
-                {
-                  "id": "WR-UNIV-BALANCED"
                 }
               ]
             }
