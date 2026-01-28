@@ -63,6 +63,14 @@
       "amount": 2
     },
     {
+      "eqId": "UNIVERSAL-UE-BC",
+      "killteamId": null,
+      "seq": 608,
+      "eqName": "Carga de Demolición",
+      "description": "Una vez por batalla, cuando un operativo amigo realice la acción Brecha, puedes utilizar esta regla. Si lo haces, el operativo puede realizar esa acción por 1AP menos (hasta un mínimo de 1AP) como si tuviese la palabra 'Marcador de Brecha' en su hoja de datos.",
+      "amount": 1
+    },
+    {
       "eqId": "UNIVERSAL-UE-PB",
       "killteamId": null,
       "seq": 608,

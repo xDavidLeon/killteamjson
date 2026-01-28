@@ -3,20 +3,24 @@
     {
       "id": "OP-TAC-2025-RECON-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Flank",
       "archetype": "Recon",
       "reveal": "As a STRATEGIC GAMBIT.",
       "additionalRules": "Divide the killzone into two flanks (left and right) by drawing an imaginary line that's just like the centreline, except it runs from the centre of each player's killzone edge. An operative contests a flank while both wholly within it and wholly within their opponent's territory. Friendly operatives control a flank if the total APL stat of those contesting it is greater than that of enemy operatives.",
       "actions": [],
       "victoryPoints": [
-        "After you reveal this op, at the end of each turning point after the first, for each flank friendly operatives control, you score 1VP.\nIf friendly operatives also controlled that flank at the end of the previous turning point (excluding the first), you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point."
+        "After you reveal this op, at the end of each turning point after the first, for each flank friendly operatives control, you score 1VP.\nIn the fourth turning point, if friendly operatives also controlled that flank at the end of the third turning point, you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point."
       ]
     },
     {
       "id": "OP-TAC-2025-RECON-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Retrieval",
       "archetype": "Recon",
       "reveal": "The first time you score VP from this op.",
@@ -29,7 +33,9 @@
     {
       "id": "OP-TAC-2025-RECON-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Scout Enemy Movement",
       "archetype": "Recon",
       "reveal": "The first time a friendly operative performs the Scout action.",
@@ -42,7 +48,9 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Sweep & Clear",
       "archetype": "Seek & Destroy",
       "reveal": "The first time an enemy operative is incapacitated while contesting an objective marker, or the first time a friendly operative performs the Clear action (whichever comes first).",
@@ -55,7 +63,9 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Dominate",
       "archetype": "Seek & Destroy",
       "reveal": "The first time an enemy operative is incapacitated by a friendly operative.",
@@ -66,18 +76,22 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Rout",
       "archetype": "Seek & Destroy",
       "reveal": "The first time you score VP from this op.",
       "additionalRules": null,
       "actions": [],
-      "victoryPoints": "Whenever a friendly operative incapacitates an enemy operative, if that friendly operative is within 6\" of your opponent's drop zone, you score 1VP; if this is true and that enemy operative had a Wounds stat of 12 or more, you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point." 
+      "victoryPoints": "Whenever a friendly operative incapacitates an enemy operative, if that friendly operative is within 6\" of your opponent's drop zone, you score 1VP; if this is true and that enemy operative had a Wounds stat of 12 or more, you score 2VP instead.\nYou cannot score more than 2VP from this op per turning point."
     },
     {
       "id": "OP-TAC-2025-SECURITY-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Plant Banner",
       "archetype": "Security",
       "reveal": "When you perform the Plant Banner action.",
@@ -90,7 +104,9 @@
     {
       "id": "OP-TAC-2025-SECURITY-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Martyrs",
       "archetype": "Security",
       "reveal": "The first time a friendly operative is incapacitated while contesting an objective marker.",
@@ -101,7 +117,9 @@
     {
       "id": "OP-TAC-2025-SECURITY-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Envoy",
       "archetype": "Security",
       "reveal": "The first time you select an envoy.",
@@ -112,7 +130,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Track Enemy",
       "archetype": "Infiltration",
       "reveal": "The first time you score VP from this op.",
@@ -123,7 +143,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Plant Devices",
       "archetype": "Infiltration",
       "reveal": "The first time a friendly operative performs the Plant Device action.",
@@ -136,7 +158,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Steal Intelligence",
       "archetype": "Infiltration",
       "reveal": "The first time an enemy operative is incapacitated.",
@@ -147,7 +171,9 @@
     {
       "id": "OP-CRIT-2025-01",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Secure",
       "reveal": null,
       "additionalRules": null,
@@ -159,7 +185,9 @@
     {
       "id": "OP-CRIT-2025-02",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Loot",
       "reveal": null,
       "additionalRules": null,
@@ -171,7 +199,9 @@
     {
       "id": "OP-CRIT-2025-03",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Transmission",
       "reveal": null,
       "additionalRules": null,
@@ -183,7 +213,9 @@
     {
       "id": "OP-CRIT-2025-04",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Orb",
       "reveal": null,
       "additionalRules": "At the start of the battle, the centre objective marker has the Orb token.",
@@ -195,7 +227,9 @@
     {
       "id": "OP-CRIT-2025-05",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Stake Claim",
       "reveal": null,
       "additionalRules": "At the start of the Gambit step of each Strategy phase after the first, starting with the player with initiative, each player must select both one objective marker and one of the following claims for that turning point:\n - Friendly operatives will control that objective marker at the end of this turning point.\n - Enemy operatives won't contest that objective marker at the end of this turning point.\nEach player cannot select each objective marker more than once per battle (so they must select each objective marker once during the battle).",
@@ -205,7 +239,9 @@
     {
       "id": "OP-CRIT-2025-06",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Energy Cells",
       "reveal": null,
       "additionalRules": "Operatives can perform the Pick Up Marker action upon each objective marker in the following turning points:\n - 2, but you must spend an additional 2AP (that action cannot be free and its AP cannot be reduced).\n - 3, but you must spend an additional 1AP (that action cannot be free and its AP cannot be reduced).\n - 4 (as normal).\nWhenever an operative is carrying an objective marker, that operative cannot be removed and set up again more than 6\" away.",
@@ -215,7 +251,9 @@
     {
       "id": "OP-CRIT-2025-07",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Download",
       "reveal": null,
       "additionalRules": null,
@@ -227,7 +265,9 @@
     {
       "id": "OP-CRIT-2025-08",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Data",
       "reveal": null,
       "additionalRules": null,
@@ -240,7 +280,9 @@
     {
       "id": "OP-CRIT-2025-09",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Reboot",
       "reveal": null,
       "additionalRules": "When setting up the battle, after setting up objective markers, number each objective marker 1-3.\nAt the start of the Gambit step of each Strategy phase, each player secretly selects one objective marker by putting a number of dice in their hand that matches that marker's number, then reveal simultaneously:\n - If both players selected the same one, that objective marker is inert during this turning point.\n - If not, the objective marker that neither player selected is inert during this turning point.",
@@ -264,7 +306,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative. "
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-LOOT",
@@ -279,7 +323,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been looted during this turning point. "
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-RETRIEVE",
@@ -292,9 +338,11 @@
         "If the active operative controls an objective marker that hasn't been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the Pick Up Marker action on your Retrieval mission markers."
       ],
       "conditions": [
-        "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
+        "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it’s already carrying a marker."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-SCOUT",
@@ -309,7 +357,9 @@
       "conditions": [
         " An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-CLEAR",
@@ -324,7 +374,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-PLANT-BANNER",
@@ -339,7 +391,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if a friendly operative has already performed this action during the battle."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-PLANT-DEVICE",
@@ -354,7 +408,9 @@
       "conditions": [
         " An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker already has one of your Device tokens."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-INITIATE-TRANSMISSION",
@@ -369,7 +425,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-MOVE-ORB",
@@ -384,7 +442,9 @@
       "conditions": [
         " An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it doesn't control the objective marker that has the Orb token. "
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-DOWNLOAD",
@@ -399,7 +459,9 @@
       "conditions": [
         " An operative cannot perform this action during the first or second turning point, while within control range of an enemy operative, or if that objective marker has already been downloaded during the battle."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-COMPILE-DATA",
@@ -414,7 +476,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained a Data point during this turning point."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-SEND-DATA",
@@ -429,7 +493,9 @@
       "conditions": [
         " An operative cannot perform this action during the first, second or third turning point, while within control range of an enemy operative, or if that objective marker doesn't have any Data points to remove."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-REBOOT",
@@ -444,7 +510,9 @@
       "conditions": [
         "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     }
   ]
 }

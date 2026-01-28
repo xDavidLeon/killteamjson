@@ -3,20 +3,24 @@
     {
       "id": "OP-TAC-2025-RECON-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Flanco",
       "archetype": "Reconocimiento",
       "reveal": "Como GAMBITO ESTRATÉGICO.",
       "additionalRules": "Divide la zona de aniquilación en dos flancos (izquierdo y derecho) trazando una línea imaginaria similar a la línea central, salvo que esta sale del centro del borde de la zona de aniquilación de cada jugador. Un agente disputa un flanco mientras está, a la vez, completamente en él y completamente en el territorio del oponente. Los agentes amigos controlan un flanco si el atributo LPA total de quienes lo disputan es mayor que el de los agentes enemigos.",
       "actions": [],
       "victoryPoints": [
-        "Tras revelar esta operación, al final de cada punto de inflexión tras el primero, ganas 1PV por cada flanco controlado por algún agente amigo.\nSi los agentes amigos también controlaban ese flanco al final del punto de inflexión previo (salvo el primero), ganas 2PV en su lugar.\nNo puedes ganar más de 2PV por esta operación en cada punto de inflexión."
+        "Tras revelar esta operación, al final de cada punto de inflexión tras el primero, ganas 1PV por cada flanco controlado por algún agente amigo.\nEn el cuarto punto de inflexión, si los agentes amigos también controlaban ese flanco al final del tercer punto de inflexión, ganas 2PV en su lugar.\nNo puedes ganar más de 2PV por esta operación en cada punto de inflexión."
       ]
     },
     {
       "id": "OP-TAC-2025-RECON-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Recuperar",
       "archetype": "Reconocimiento",
       "reveal": "La primera vez que ganes PV por esta operación.",
@@ -29,7 +33,9 @@
     {
       "id": "OP-TAC-2025-RECON-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Vigilar el movimiento enemigo",
       "archetype": "Reconocimiento",
       "reveal": "La primera vez que un agente amigo realiza la acción Vigilar.",
@@ -42,7 +48,9 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Revisar y purgar",
       "archetype": "Buscar y Destruir",
       "reveal": "La primera vez que un agente enemigo es incapacitado mientras disputa un marcador de objetivo, o la primera vez que un agente amigo realiza la acción Purgar (lo que ocurra primero).",
@@ -55,7 +63,9 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Dominación",
       "archetype": "Buscar y Destruir",
       "reveal": "La primera vez que un agente enemigo resulte incapacitado por un agente amigo.",
@@ -66,18 +76,22 @@
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Hacer huir",
       "archetype": "Buscar y Destruir",
       "reveal": "La primera vez que ganes PV por esta operación.",
       "additionalRules": null,
       "actions": [],
-      "victoryPoints": "Siempre que un agente amigo incapacite a un agente enemigo, si ese agente amigo está a 6\" o menos de la zona de descenso del oponente, ganas 1PV; si esto se cumple y ese agente enemigo tenía un atributo Heridas de 12 o más, ganas 2PV en su lugar.\nNo puedes ganar más de 2PV por esta operación en cada punto de inflexión." 
+      "victoryPoints": "Siempre que un agente amigo incapacite a un agente enemigo, si ese agente amigo está a 6\" o menos de la zona de descenso del oponente, ganas 1PV; si esto se cumple y ese agente enemigo tenía un atributo Heridas de 12 o más, ganas 2PV en su lugar.\nNo puedes ganar más de 2PV por esta operación en cada punto de inflexión."
     },
     {
       "id": "OP-TAC-2025-SECURITY-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Izar bandera",
       "archetype": "Seguridad",
       "reveal": "Cuando realices la acción Izar bandera.",
@@ -90,7 +104,9 @@
     {
       "id": "OP-TAC-2025-SECURITY-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Mártires",
       "archetype": "Seguridad",
       "reveal": "La primera vez que un agente amigo resulte incapacitado mientras disputa un marcador de objetivo.",
@@ -101,7 +117,9 @@
     {
       "id": "OP-TAC-2025-SECURITY-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "El mensajero",
       "archetype": "Seguridad",
       "reveal": "La primera vez que elijas mensajero.",
@@ -112,7 +130,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-01",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Localizar enemigo",
       "archetype": "Infiltración",
       "reveal": "La primera vez que ganes PV por esta operación.",
@@ -123,7 +143,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-02",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Colocar dispositivos",
       "archetype": "Infiltración",
       "reveal": "La primera vez que un agente amigo realiza la acción Colocar dispositivo.",
@@ -136,7 +158,9 @@
     {
       "id": "OP-TAC-2025-INFILTRATION-03",
       "type": "tac-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Robar información",
       "archetype": "Infiltración",
       "reveal": "La primera vez que un agente enemigo resulta incapacitado.",
@@ -147,7 +171,9 @@
     {
       "id": "OP-CRIT-2025-01",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Asegurar",
       "reveal": null,
       "additionalRules": null,
@@ -159,7 +185,9 @@
     {
       "id": "OP-CRIT-2025-02",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Saquear",
       "reveal": null,
       "additionalRules": null,
@@ -171,7 +199,9 @@
     {
       "id": "OP-CRIT-2025-03",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Transmisión",
       "reveal": null,
       "additionalRules": null,
@@ -183,7 +213,9 @@
     {
       "id": "OP-CRIT-2025-04",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "El orbe",
       "reveal": null,
       "additionalRules": "Al inicio de la batalla, el marcador de objetivo central tiene la ficha del orbe.",
@@ -195,7 +227,9 @@
     {
       "id": "OP-CRIT-2025-05",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Reclamar propiedad",
       "reveal": null,
       "additionalRules": "Al inicio del paso de Gambitos de cada fase de estrategia tras la primera, comenzando con el jugador con la iniciativa, cada jugador debe elegir 1 marcador de objetivo y 1 de las siguientes intenciones para ese punto de inflexión:\n - Algún agente amigo controlará ese marcador de objetivo al final de este punto de inflexión.\n - Ningún agente enemigo disputará ese marcador de objetivo al final de este punto de inflexión.\nCada jugador solo puede elegir cada marcador de objetivo una vez por batalla.",
@@ -205,7 +239,9 @@
     {
       "id": "OP-CRIT-2025-06",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Células de energía",
       "reveal": null,
       "additionalRules": "Los agentes pueden realizar la acción Recoger marcador sobre cada marcador de objetivo en los siguientes puntos de inflexión:\n - 2, pero debes gastar 2PA adicionales (esa acción no puede ser libre ni se pueden reducir sus PA).\n - 3, pero debes gastar 1PA adicional (esa acción no puede ser libre ni se pueden reducir sus PA).\n - 4 (normalmente).\nSiempre que un agente transporte un marcador de objetivo, ese agente no puede ser retirado y vuelto a desplegar a más de 6\".",
@@ -215,7 +251,9 @@
     {
       "id": "OP-CRIT-2025-07",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Descargar datos",
       "reveal": null,
       "additionalRules": null,
@@ -227,7 +265,9 @@
     {
       "id": "OP-CRIT-2025-08",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Datos",
       "reveal": null,
       "additionalRules": null,
@@ -240,7 +280,9 @@
     {
       "id": "OP-CRIT-2025-09",
       "type": "crit-op",
-      "packs": ["Approved Ops: 2025"],
+      "packs": [
+        "Approved Ops: 2025"
+      ],
       "title": "Reiniciar",
       "reveal": null,
       "additionalRules": "Al preparar la batalla, tras colocar los marcadores de objetivo, numera cada marcador de objetivo del 1 al 3.\nAl comienzo del paso Gambitos de cada fase de estrategia, cada jugador elige en secreto un marcador de objetivo poniendo en su mano tantos dados como el número del marcador de objetivo. A continuación, revelan sus elecciones a la vez:\n - Si ambos jugadores eligieron el mismo, ese marcador de objetivo queda inerte durante este punto de inflexión.\n - Si eligieron distintos, queda inerte el marcador de objetivo que ninguno de los jugadores eligió durante este punto de inflexión.",
@@ -264,7 +306,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, o estando en la zona de control de un agente enemigo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-LOOT",
@@ -279,7 +323,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, estando en la zona de control de un agente enemigo, o si ese marcador de objetivo ya ha sido saqueado durante este punto de inflexión. "
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-RETRIEVE",
@@ -292,9 +338,11 @@
         "Si el agente activo controla un marcador de objetivo que no ha sido registrado por algún agente amigo, ese agente transporta ahora uno de tus marcadores de misión de Recuperar y se considera que ese marcador ha sido registrado por agentes amigos. Los agentes amigos pueden realizar la acción Recoger marcador sobre tus marcadores de misión de Recuperar."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
+        "Un agente no puede realizar esta acción durante el primer punto de inflexión, si está en la zona de control de un agente enemigo, o si ya está transportando un marcador."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-SCOUT",
@@ -309,7 +357,9 @@
       "conditions": [
         " Un agente no puede realizar esta acción mientras tenga una orden de Trabarse, durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-CLEAR",
@@ -324,7 +374,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-PLANT-BANNER",
@@ -339,7 +391,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, si está en la zona de control de un agente enemigo, ni si un agente amigo ya ha realizado esta acción durante la batalla."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-TAC-2025-PLANT-DEVICE",
@@ -354,7 +408,9 @@
       "conditions": [
         " Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo ya tiene una de tus fichas de Dispositivo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-INITIATE-TRANSMISSION",
@@ -369,7 +425,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, o estando en la zona de control de un agente enemigo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-MOVE-ORB",
@@ -384,7 +442,9 @@
       "conditions": [
         " Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si no controla el marcador de objetivo que tiene la ficha del orbe. "
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-DOWNLOAD",
@@ -399,7 +459,9 @@
       "conditions": [
         " Un agente no puede realizar esta acción durante el primer o segundo punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ya se han descargado datos de ese marcador de objetivo durante la batalla."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-COMPILE-DATA",
@@ -414,7 +476,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo ya ha ganado algún punto de datos en este punto de inflexión."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-SEND-DATA",
@@ -429,7 +493,9 @@
       "conditions": [
         " Un agente no puede realizar esta acción durante el primer, segundo, o tercer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo no tiene puntos de datos que retirar."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     },
     {
       "id": "ACTION-CRIT-2025-REBOOT",
@@ -444,7 +510,9 @@
       "conditions": [
         "Un agente no puede realizar esta acción durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
       ],
-      "packs": ["Approved Ops: 2025"]
+      "packs": [
+        "Approved Ops: 2025"
+      ]
     }
   ]
 }

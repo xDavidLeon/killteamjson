@@ -62,9 +62,17 @@
       "amount": 2
     },
     {
-      "eqId": "UNIVERSAL-UE-PB",
+      "eqId": "UNIVERSAL-UE-BC",
       "killteamId": null,
       "seq": 608,
+      "eqName": "Breaching Charge",
+      "description": "Once per battle, when a friendly operative performs the Breach action, you can use this rule. If you do, that operative can perform that action for 1 less AP (to a minimum of 1AP) as though it had the word ‘breach marker’ on its datacard.",
+      "amount": 1
+    },
+    {
+      "eqId": "UNIVERSAL-UE-PB",
+      "killteamId": null,
+      "seq": 609,
       "eqName": "Portable Barricade",
       "description": "A portable barricade is Light, Protective and Portable terrain except the feet which are Insignificant and Exposed.\nBefore the battle, you can set it up wholly within your territory, on the killzone floor and more than 2\" from other equipment terrain features, access points, and Accessible terrain.\n  \n\n**Protective:** While an operative is in cover from this terrain feature, improve its Save stat by 1 (to a maximum of 2+).  \n\n**Portable:** This terrain feature only provides cover while an operative is connected to it and if the shield is intervening (ignore its feet).\nOperatives connected to the inside of it can perform the following unique action during the battle:",
       "amount": 1,
@@ -75,7 +83,7 @@
     {
       "eqId": "UNIVERSAL-UE-UG",
       "killteamId": null,
-      "seq": 609,
+      "seq": 610,
       "eqName": "Utility Grenades",
       "description": "When you select this equipment, select two utility grenades (2 smoke, 2 stun, or 1 smoke and 1 stun).\nEach selection is a unique action your operatives can perform, but your kill team can only perform that action a total number of times during the battle equal to your selection.",
       "amount": 2,
@@ -87,7 +95,7 @@
     {
       "eqId": "UNIVERSAL-UE-XG",
       "killteamId": null,
-      "seq": 610,
+      "seq": 611,
       "eqName": "Explosive Grenades",
       "description": "When you select this equipment, select two explosive grenades (2 frag, 2 krak, or 1 frag and 1 krak).\nEach selection is a unique weapon your operatives can use, but your kill team can only use that weapon a total number of times during the battle equal to your selection.",
       "amount": 2,
