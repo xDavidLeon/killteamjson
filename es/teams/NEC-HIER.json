@@ -131,7 +131,7 @@
       "SAVE": "3+",
       "WOUNDS": 14,
       "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, CHRONOMANCER",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "NEC-HIER-CHRON-ASR",
@@ -312,7 +312,7 @@
       "SAVE": "3+",
       "WOUNDS": 14,
       "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, PSYCHOMANCER",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "NEC-HIER-PSYCH-ALR",
@@ -449,7 +449,7 @@
       "SAVE": "3+",
       "WOUNDS": 14,
       "keywords": "HIEROTEK CIRCLE, NECRON, LEADER, CRYPTEK, TECHNOMANCER",
-      "basesize": 32,
+      "basesize": 50,
       "weapons": [
         {
           "wepId": "NEC-HIER-TECH-SOLR",
@@ -573,7 +573,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "HIEROTEK CIRCLE, NECRON, PLASMACYTE, ACCELERATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "NEC-HIER-PA-SP",
@@ -659,7 +659,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "HIEROTEK CIRCLE, NECRON, MEDIC, PLASMACYTE, REANIMATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "NEC-HIER-PR-AB",

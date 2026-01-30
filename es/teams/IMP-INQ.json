@@ -86,32 +86,44 @@
       "killteamId": "IMP-INQ",
       "seq": 1,
       "eqName": "Inquisitorial Rosette",
-      "description": "Once per battle, when a friendly INQUISITORIAL AGENT operative is activated, if you've used the Quarry strategy ploy during this turning point, you can use this rule.\nIf you do, you can select a new enemy operative to be your quarry until the end of the turning point.",
-      "effects": ""
+      "description": "Once per battle, when a friendly INQUISITORIAL AGENT operative is activated, if you've used the Quarry strategy ploy during this turning point, you can use this rule.\nIf you do, you can select a new enemy operative to be your quarry until the end of the turning point."
     },
     {
       "eqId": "IMP-INQ-AB",
       "killteamId": "IMP-INQ",
       "seq": 2,
       "eqName": "Armoured Bodysuits",
-      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative (excluding TOME-SKULL) that has a 5+ Save stat, you can retain one of your defence dice results of 4 as a normal success.",
-      "effects": ""
+      "description": "Whenever an operative is shooting a friendly INQUISITORIAL AGENT operative (excluding TOME-SKULL) that has a 5+ Save stat, you can retain one of your defence dice results of 4 as a normal success."
     },
     {
       "eqId": "IMP-INQ-CD",
       "killteamId": "IMP-INQ",
       "seq": 3,
       "eqName": "Combat Daggers",
-      "description": "Friendly INQUISITORIAL AGENT operatives have the following melee weapon. Whenever a friendly SISTER OF SILENCE operative is using it, add 1 to its Atk stat. \n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Combat Dagger|3|4+|3/4|",
-      "effects": "ADDWEP:Combat Dagger|M|3|4+|3/4|"
+      "description": "Friendly INQUISITORIAL AGENT operatives have the following melee weapon. Whenever a friendly SISTER OF SILENCE operative is using it, add 1 to its Atk stat.",
+      "weapons": [
+        {
+          "wepId": "IMP-INQ-CD-COMBAT-DAGGER",
+          "wepName": "Combat Dagger",
+          "wepType": "M",
+          "profiles": [
+            {
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ]
     },
     {
       "eqId": "IMP-INQ-SS",
       "killteamId": "IMP-INQ",
       "seq": 4,
       "eqName": "Servo-Skull",
-      "description": "Once per battle, one friendly INQUISITORIAL AGENT operative can perform a mission action for 1 less AP.",
-      "effects": ""
+      "description": "Once per battle, one friendly INQUISITORIAL AGENT operative can perform a mission action for 1 less AP."
     }
   ],
   "opTypes": [
@@ -125,7 +137,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, LEADER, INTERROGATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-INT-ESAP",
@@ -194,7 +206,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, TOME-SKULL",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [],
       "abilities": [
         {
@@ -233,7 +245,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, AUTOSAVANT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-AS-MA",
@@ -286,7 +298,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, QUESTKEEPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-QK-AP",
@@ -361,7 +373,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, DEATH WORLD VETERAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-VET-AP",
@@ -456,7 +468,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, ENLIGHTENER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-ENL-AP",
@@ -722,7 +734,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, HEXORCIST",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-HEX-SG",
@@ -804,7 +816,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, MYSTIC",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-MYS-AP",
@@ -892,7 +904,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PENAL LEGIONNAIRE",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-PEN-HF",
@@ -970,7 +982,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, INQUISITION, PISTOLIER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ24-PST-SPP",
@@ -1284,7 +1296,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, BRUISER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-BRU-LG",
@@ -1348,7 +1360,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, CONFIDANT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-CON-BP",
@@ -1498,7 +1510,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-GNR-FL",
@@ -1680,7 +1692,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-MDC-LG",
@@ -1757,7 +1769,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SAPPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-SAP-LG",
@@ -1861,7 +1873,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SNIPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-SNP-LL",
@@ -1956,7 +1968,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-TRP-LG",
@@ -2016,7 +2028,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VETERAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-VET-LG",
@@ -2082,7 +2094,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-OPERATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-VOX-LG",
@@ -2159,7 +2171,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, ZEALOT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-DKK24-ZLT-LG",
@@ -2225,7 +2237,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, COMMS",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-TS24-TSVOX-HSLG",
@@ -2294,7 +2306,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-TS24-TSGUN-FL",
@@ -2521,7 +2533,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, MEDIC",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-TS24-TSMED-HSLG",
@@ -2597,7 +2609,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TEMPESTUS SCION, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-TS24-TSTRP-HSLG",
@@ -2657,7 +2669,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, CASTIGATOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-CAST-CS",
@@ -2757,7 +2769,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, MEDIC, ARBITES, CHIRURGANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-CHI-CS",
@@ -2855,7 +2867,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-GNR-GL",
@@ -2993,7 +3005,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, LEASHMASTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-LSH-CS",
@@ -3093,7 +3105,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, R-VR CYBER-MASTIFF",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-RVR-MB",
@@ -3164,7 +3176,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MALOCATOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-MAL-CS",
@@ -3263,7 +3275,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, MARKSMAN",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-MRK-ESG",
@@ -3383,7 +3395,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, REVELATUM",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-REV-SSP",
@@ -3488,7 +3500,7 @@
       "SAVE": "3+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, SUBDUCTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-SUB-SP",
@@ -3572,7 +3584,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VIGILANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-VIG-CS",
@@ -3653,7 +3665,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ADEPTUS ARBITES, ARBITES, VOX-SIGNIFIER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-AES24-VOX-CS",
@@ -3745,7 +3757,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-ARM-NS",
@@ -3826,7 +3838,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-AXE-AP",
@@ -3902,7 +3914,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [],
       "abilities": [
         {
@@ -3955,7 +3967,7 @@
       "SAVE": "2+",
       "WOUNDS": 10,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-END-NHS",
@@ -4062,7 +4074,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [],
       "abilities": [
         {
@@ -4111,7 +4123,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-GRN-DC",
@@ -4297,7 +4309,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-GNR-MG",
@@ -4465,7 +4477,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-HC-AP",
@@ -4569,7 +4581,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-SRV-NS",
@@ -4676,7 +4688,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-INB24-VJ-GD",
@@ -4815,7 +4827,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, MEDIC, COMBAT MEDIC",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-MDC-HSLG",
@@ -4892,7 +4904,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, DEMO-TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-DT-HSLP",
@@ -4963,7 +4975,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-GNR-FL",
@@ -5190,7 +5202,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, RECON-TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-RT-HSLG",
@@ -5260,7 +5272,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, SHARPSHOOTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-SS-HSMR",
@@ -5362,7 +5374,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-TRP-HSLG",
@@ -5422,7 +5434,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "INQUISITORIAL AGENT, IMPERIUM, ASTRA MILITARUM, VOX-TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INQ-INQ-KAS24-VOX-HSLG",

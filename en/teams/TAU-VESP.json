@@ -84,28 +84,32 @@
       "killteamId": "TAU-VESP",
       "seq": 1,
       "eqName": "Neurostimulant",
-      "description": "In the Ready step of each Strategy phase, when determining how many Communion points to gain, you can roll two D3 and select one D3 to use."
+      "description": "In the Ready step of each Strategy phase, when determining how many Communion points to gain, you can roll two D3 and select one D3 to use.",
+      "effects": ""
     },
     {
       "eqId": "TAU-VESP-AGS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Aggression Stimulant",
-      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting, its melee weapons have the Ceaseless weapon rule."
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) is fighting, its melee weapons have the Ceaseless weapon rule.",
+      "effects": ""
     },
     {
       "eqId": "TAU-VESP-AS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Accelerant Stimulant",
-      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) performs the Charge or Dash action, it can move an additional 1\". If it uses FLY for this action, you can set it back up 1\" further away."
+      "description": "Whenever a friendly VESPID STINGWING operative (excluding OVERSIGHT DRONE) performs the Charge or Dash action, it can move an additional 1\". If it uses FLY for this action, you can set it back up 1\" further away.",
+      "effects": ""
     },
     {
       "eqId": "TAU-VESP-CS",
       "killteamId": "TAU-VESP",
       "seq": 2,
       "eqName": "Convergence Stimulant",
-      "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point."
+      "description": "Once per Turning Point, a friendly VESPID STINGWING operative can perform the Pick Up Marker or a mission action without spending a Communion point.",
+      "effects": ""
     }
   ],
   "teamAbilities": [
@@ -136,7 +140,7 @@
       "SAVE": "5+",
       "WOUNDS": 10,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, STRAIN, LEADER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-VSL-NB",
@@ -207,7 +211,7 @@
       "SAVE": "2+",
       "WOUNDS": 5,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, OVERSIGHT, DRONE",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TAU-VESP-OSD-RAM",
@@ -262,7 +266,7 @@
       "SAVE": "5+",
       "WOUNDS": 9,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, LONGSTING",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-VLS-NRR",
@@ -349,7 +353,7 @@
       "SAVE": "3+",
       "WOUNDS": 9,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, SHADESTRAIN",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-VSS-NS",
@@ -463,7 +467,7 @@
       "SAVE": "5+",
       "WOUNDS": 9,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, SKYBLAST",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-VSB-NGL",
@@ -535,7 +539,7 @@
       "SAVE": "5+",
       "WOUNDS": 9,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, SWARMGUARD",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-VSG-FL",
@@ -637,7 +641,7 @@
       "SAVE": "5+",
       "WOUNDS": 9,
       "keywords": "VESPID STINGWING, T'AU EMPIRE, WARRIOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "TAU-VESP-WAR-NB",
@@ -696,20 +700,20 @@
   "weapon_rules": [
     {
       "id": "WR-TAU-VESP-NEUTRON",
-      "name": "Neutron Fragment",
-      "description": "If the target is not incapacitated but you resolve any Attack Dice, the target gains one of your Neutron Fragment tokens. Whenever an operative that has one of your Neutron Fragment tokens is activated, inflict D3 damage on it for each Neutron Fragment token it has (roll separately for each).",
+      "name": "Fragmento de neutrones",
+      "description": "Si el blanco no está incapacitado pero resuelves cualesquiera dados de ataque, el blanco gana una de tus fichas de Fragmento de neutrones. Cuando un operativo que tenga uno de tus marcadores de Fragmento de neutrones se active, inflingele D3 daño en el por cada marcador de Fragmento de neutrones que tenga (tira de forma separada por cada uno).",
       "team": "TAU-VESP"
     },
     {
       "id": "WR-TAU-VESP-NEUTRONB",
-      "name": "Neutron Bombardment",
-      "description": "Place one of your Neutron Fallout markers within the primary target's control range.",
+      "name": "Bombardeo de neutrones",
+      "description": "Coloca uno de tus marcadores de Lluvia de neutrones dentro de la zona de control del blanco principal.",
       "team": "TAU-VESP"
     },
     {
       "id": "WR-TAU-VESP-SKYTORCH",
-      "name": "Skytorch",
-      "description": "An operative can only use this weapon during the Skytorch Assault action.\r If it does, do not select a valid target. Instead, shoot against each operative within its Torch Zone (excluding operatives wholly underneath Vantage terrain), they are not in Cover or Obscured.\r Roll each sequence separately in order of furthest operative to closest. The Torch Zone is the area between the operative's current and previous locations.\r A 28mm round Skytorch marker can be temporarily placed underneath this operative before it moves to help determine this.",
+      "name": "Antorcha celeste",
+      "description": "Un agente solo puede usar esta arma durante una activación en la que haya realizado la acción de Reposicionarse con VOLAR. Si lo hace, no elijas un blanco válido. En lugar de eso, dispara contra cada agente dentro de su zona de achicharramiento (excepto agentes que estén completamente bajo terreno Aventajado); no se consideran a cubierto ni ofuscados. Tira cada secuencia por separado en orden desde el agente más lejano al más cercano. La zona de achicharramiento es el área entre la posición actual y previa del agente. Se puede colocar temporalmente bajo este agente un marcador redondo de Antorcha celeste de 28 mm antes de moverlo, como ayuda a la hora de determinar esto. Recuerda que Ráfaga 0” significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de arma Ráfaga a efectos de todas las demás reglas, p.ej., la regla de Fortaleza Condensada (ver Zona de aniquilación: Volkus, Libro Básico de Kill Team)",
       "team": "TAU-VESP"
     }
   ]

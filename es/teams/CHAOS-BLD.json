@@ -4,7 +4,7 @@
   "version": "October '25",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_blooded-gcyu3htxuq-lflfu8nggp.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_blooded-b7jk4yhsul-muduqqloxg.pdf",
   "killteamName": "Blooded",
   "description": "Many Astra Militarum troops have turned to Chaos over the centuries, including entire regiments of the Astra Militarum's Imperial Army predecessors that followed the Warmaster Horus into battle against the Imperium during the Horus Heresy.\n  \n  \n\nThese Traitors represent the primary mortal troops available to the forces of Chaos, now known as the \"Traitoris Militarum\" in High Gothic to the defenders of the Imperium. Even ten millennia later, Chaos Lords are known to attract these followers of Chaos into their warbands and personal armies, which vary greatly in both size and strength.",
   "composition": "A BLOODED killteam is composed of:\n- 1 Blooded Chieftan operative with one of the following options:\n  - Autopistol or laspistol, chainsword or power weapon\n  - Bolt Pistol, chainsword\n  - Boltgun, bayonet\n  - Plasma pistol, improvised Blade *(2)*\n- 9 Blooded operatives selected from the following list:\n  - Brimstone Grenadier\n  - Butcher\n  - Commsman\n  - Corpseman\n  - Flenser\n  - Gunner with bayonet and Flamer *(1)*\n  - Gunner with bayonet and Grenade Launcher *(1)*\n  - Gunner with bayonet and Meltagun *(1)*\n  - Gunner with bayonet and plasma gun *(1,2)*\n  - Sharpshooter *(1)*\n  - Thug\n  - Trench Sweeper\n  - Trooper\n- 4 Blooded operatives selected from the following list:\n - Enforcer (counts as two selections)\n - Ogryn (counts as two selections)\n - Trooper\n\nOther than Trooper operatives your Kill Team can only include each operative on this list once.  \n\n**(1):** You cannot select more than three of these operatives combined  \n\n**(2):** You cannot select this option and this operative. In other words you can only have one operative with a plasma weapon.",
@@ -84,32 +84,28 @@
       "killteamId": "CHAOS-BLD",
       "seq": 1,
       "eqName": "Chaos Sigil",
-      "description": "The Reward Earned firefight ploy costs you 0 CP.",
-      "effects": ""
+      "description": "The Reward Earned firefight ploy costs you 0 CP."
     },
     {
       "eqId": "CHAOS-BLD-ST",
       "killteamId": "CHAOS-BLD",
       "seq": 2,
       "eqName": "Sinister Trophies",
-      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1.",
-      "effects": ""
+      "description": "Whenever an enemy operative is shooting against, fighting against, or retaliating against a friendly BLOODED operative that has one of your Blooded tokens and is within 2\" of it,\nyour opponent cannot re-roll their attack dice results of 1."
     },
     {
       "eqId": "CHAOS-BLD-SOBW",
       "killteamId": "CHAOS-BLD",
       "seq": 3,
       "eqName": "Symbols of Bloody Worship",
-      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound.",
-      "effects": ""
+      "description": "Whenever a friendly BLOODED operative ends an action, if it was not incapacitated but inflicted damage on any enemy operatives during that action, it regains 1 lost wound."
     },
     {
       "eqId": "CHAOS-BLD-WB",
       "killteamId": "CHAOS-BLD",
       "seq": 4,
       "eqName": "Wicked Blades",
-      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle.",
-      "effects": "wepid:BAY,BAS,IB|DMG:1/1"
+      "description": "Add 1 to both Dmg stats of each friendly BLOODED operative's bayonet, bayonet and shield, and improvised blade for the battle."
     }
   ],
   "teamAbilities": [
@@ -130,7 +126,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BLOODED, CHAOS, CHIEFTAIN, LEADER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-CHF-AP",
@@ -384,7 +380,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, BRIMSTONE GRENADIER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-GRN-DB",
@@ -559,7 +555,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BLOODED, CHAOS, BUTCHER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-BUT-PWAC",
@@ -611,7 +607,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, COMMSMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-COM-LG",
@@ -694,7 +690,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, CORPSEMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-CRPS-LG",
@@ -795,7 +791,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "BLOODED, CHAOS, ENFORCER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-ENF-BP",
@@ -882,7 +878,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, FLENSER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-FLN-SKB",
@@ -930,7 +926,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-GNR-FL",
@@ -1112,7 +1108,7 @@
       "SAVE": "5+",
       "WOUNDS": 16,
       "keywords": "BLOODED, CHAOS, OGRYN",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-OGR-PMAMC",
@@ -1172,7 +1168,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, SHARPSHOOTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-SS-LL",
@@ -1260,7 +1256,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, THUG",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-THUG-HC",
@@ -1305,7 +1301,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "BLOODED, CHAOS, TRENCH SWEEPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-TRS-LG",
@@ -1374,7 +1370,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-TRP-LG",
@@ -1428,20 +1424,20 @@
   "weapon_rules": [
     {
       "id": "WR-CHAOS-BLD-BLOOD",
-      "name": "Ofrenda de Sangre",
-      "description": "Siempre que este agente esté luchando o contraatacando con esta arma, la primera vez que logres un éxito crítico durante esa secuencia, obtienes una ficha Ungido.",
+      "name": "Blood Offering",
+      "description": "Whenever this operative is fighting or retaliating with\nthis weapon, the first time you strike with a critical success during\nthat sequence, you gain one Blooded token.",
       "team": "CHAOS-BLD"
     },
     {
       "id": "WR-CHAOS-BLD-SHIELD",
-      "name": "Escudo",
-      "description": "Siempre que este operativo esté luchando o tomando represalias con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos no resueltos (en lugar de uno).",
+      "name": "Shield",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (Instead of one).",
       "team": "CHAOS-BLD"
     },
     {
       "id": "WR-CHAOS-BLD-STALK",
-      "name": "Acecho",
-      "description": "Siempre que este agente esté luchando o contraatacando con esta arma, si hay terreno Ligero o Pesado dentro de su rango de control, esta arma tiene la regla de arma Letal 5+.",
+      "name": "Stalk",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, if light or heavy terrain is within its control range, this weapon has the Lethal 5+ rule.",
       "team": "CHAOS-BLD"
     }
   ]

@@ -126,7 +126,7 @@
       "SAVE": "4+",
       "WOUNDS": 11,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, RUSTSTALKER, PRINCEPS",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-HC-SRSP-CCATB",
@@ -186,7 +186,7 @@
       "SAVE": "4+",
       "WOUNDS": 11,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SICARIAN, INFILTRATOR, PRINCEPS",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-HC-SIP-FB",
@@ -318,7 +318,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, RANGER, ALPHA",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SRGA-AP",
@@ -566,7 +566,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, LEADER, SKITARII, VANGUARD, ALPHA",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SVA-AP",
@@ -808,7 +808,7 @@
       "SAVE": "4+",
       "WOUNDS": 10,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, INFILTRATOR, WARRIOR",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-HC-SIW-FB",
@@ -927,7 +927,7 @@
       "SAVE": "4+",
       "WOUNDS": 10,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SICARIAN, RUSTSTALKER, WARRIOR",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-HC-SRSW-CCATB",
@@ -995,7 +995,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, DIKTAT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SRGD-GR",
@@ -1081,7 +1081,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SRGG-AR",
@@ -1252,7 +1252,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, SURVEYOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SRGS-GR",
@@ -1341,7 +1341,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, RANGER, WARRIOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SRGW-GR",
@@ -1411,7 +1411,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, DIKTAT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SVD-RC",
@@ -1492,7 +1492,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SVG-AR",
@@ -1663,7 +1663,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, SURVEYOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SVS-RC",
@@ -1746,7 +1746,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "HUNTER CLADE, ADEPTUS MECHANICUS, SKITARII, VANGUARD, WARRIOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-HC-SVW-RC",

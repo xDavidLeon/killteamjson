@@ -126,7 +126,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FELARCH, LEADER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-FEL-ND",
@@ -265,7 +265,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-GNR-BL",
@@ -377,7 +377,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, HEAVY GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-HGNR-SCP",
@@ -519,7 +519,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, FATE DEALER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-FD-RLR",
@@ -633,7 +633,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNATHI",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-KUR-SP",
@@ -715,7 +715,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, KURNITE HUNTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-HNT-FAO",
@@ -827,7 +827,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SOUL WEAVER, PSYKER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-SW-SP",
@@ -925,7 +925,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, SHADE RUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-SR-SP",
@@ -1034,7 +1034,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, STARSTORM DUELLIST",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-SD-FP",
@@ -1148,7 +1148,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, PSYKER, WAY SEEKER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-WS-FG",
@@ -1304,7 +1304,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "CORSAIR VOIDSCARRED, AELDARI, ANHRATHE, WARRIOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "AEL-COR-WAR-SP",

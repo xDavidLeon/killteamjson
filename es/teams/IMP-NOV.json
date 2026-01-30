@@ -84,32 +84,28 @@
       "killteamId": "IMP-NOV",
       "seq": 1,
       "eqName": "Icon Of Faith",
-      "description": "Once per turning point, you can use up to two ACTS OF FAITH during a sequence, but each one must be different. This takes precedence over the normal ACTS OF FAITH rules.",
-      "effects": ""
+      "description": "Once per turning point, you can use up to two ACTS OF FAITH during a sequence, but each one must be different. This takes precedence over the normal ACTS OF FAITH rules."
     },
     {
       "eqId": "IMP-NOV-SR",
       "killteamId": "IMP-NOV",
       "seq": 2,
       "eqName": "Sanctified Rounds",
-      "description": "Whenever a friendly NOVITIATE operative is shooting with an autogun, autopistol, relic bolt pistol or relic boltgun, if you spend a Faith point, that weapon has the Piercing Crits 1 weapon rule until the end of that sequence.",
-      "effects": ""
+      "description": "Whenever a friendly NOVITIATE operative is shooting with an autogun, autopistol, relic bolt pistol or relic boltgun, if you spend a Faith point, that weapon has the Piercing Crits 1 weapon rule until the end of that sequence."
     },
     {
       "eqId": "IMP-NOV-AC",
       "killteamId": "IMP-NOV",
       "seq": 3,
       "eqName": "Auto-Chastisers",
-      "description": "Once per turning point, when a friendly NOVITIATE operative is shooting, fighting or retaliating, in the Roll Attack Dice step,\nyou can inflict 1-3 damage on that friendly operative (but not enough to incapacitate it).\nIf you do, you can use one ACT OF FAITH for free during that sequence with a Faith points cost no more than the damage you inflicted from this rule.",
-      "effects": ""
+      "description": "Once per turning point, when a friendly NOVITIATE operative is shooting, fighting or retaliating, in the Roll Attack Dice step,\nyou can inflict 1-3 damage on that friendly operative (but not enough to incapacitate it).\nIf you do, you can use one ACT OF FAITH for free during that sequence with a Faith points cost no more than the damage you inflicted from this rule."
     },
     {
       "eqId": "IMP-NOV-HE",
       "killteamId": "IMP-NOV",
       "seq": 4,
       "eqName": "Holy Embrocations",
-      "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured.",
-      "effects": "NOINJMOV"
+      "description": "You can ignore any changes to the Move stat of friendly NOVITIATE operatives from being injured."
     }
   ],
   "teamAbilities": [
@@ -301,7 +297,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, CONDEMNOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-CON-CST",
@@ -384,7 +380,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS,PRECEPTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-DIA-AP",
@@ -480,7 +476,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, DUELLIST",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-DUE-AP",
@@ -545,7 +541,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, EXACTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-EXA-NWR",
@@ -635,7 +631,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, HOSPITALLER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-HOS-AP",
@@ -724,7 +720,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, MILITANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-MIL-AG",
@@ -827,7 +823,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PENITENT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-PEN-AP",
@@ -899,7 +895,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRECEPTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-PRE-MOTR",
@@ -953,7 +949,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PRONATUS",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-PRO-AP",
@@ -1018,7 +1014,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, PURGATUS",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-PUR-MF",
@@ -1090,7 +1086,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "NOVITIATE, IMPERIUM, ADEPTA SORORITAS, RELIQUARIUS",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-NOV-REL-AP",
@@ -1165,20 +1161,20 @@
   "weapon_rules": [
     {
       "id": "WR-IMP-NOV-ANTI-PSYKER",
-      "name": "AntiPSÍQUICO",
-      "description": "Cuando esta arma se use contra un agente que tiene la clave PSÍQUICO, suma 1 a ambos atributos Daño de esta arma y además tiene la regla de arma Letal 5+.",
+      "name": "Anti Psyker",
+      "description": "Whenever this weapon is being used against an operative that has the PSYKER keyword, add 1 to both Dmg stats of this weapon and it has the Lethal 5+ weapon rule.",
       "team": "IMP-NOV"
     },
     {
       "id": "WR-IMP-NOV-RIPOSTE",
-      "name": "Parada y contraataque",
-      "description": "Siempre que bloquees con un éxito crítico, puedes también infligir al agente enemigo en esa secuencia tantos daños como el atributo Daño crítico del arma.",
+      "name": "Riposte",
+      "description": "Whenever you block with a critical success, you can also inflict damage equal to the weapon's Critical Dmg stat on the enemy operative in that sequence.",
       "team": "IMP-NOV"
     },
     {
       "id": "WR-IMP-NOV-ZEALOUS",
-      "name": "Furia Fanática",
-      "description": "Cuando esta agente combate con esta arma, tiene la regla de armas Incesante.",
+      "name": "Zealous Rage",
+      "description": "Whenever this operative is fighting with this weapon, it has the Ceaseless weapon rule.",
       "team": "IMP-NOV"
     }
   ]

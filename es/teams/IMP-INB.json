@@ -131,7 +131,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, LEADER, NAVIS, SERGEANT-AT-ARMS",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-SGT-BP",
@@ -301,7 +301,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ARMSMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-ARM-NS",
@@ -376,7 +376,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, AXEJACK",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-AXE-AP",
@@ -446,7 +446,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, C.A.T. UNIT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [],
       "abilities": [
         {
@@ -493,7 +493,7 @@
       "SAVE": "2+",
       "WOUNDS": 11,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, ENDURANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INB-END-NHS",
@@ -594,7 +594,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, FLY, NAVIS, GHEISTSKULL",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [],
       "abilities": [
         {
@@ -637,7 +637,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GRENADIER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-GRN-DC",
@@ -817,7 +817,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-INB-GNR-MG",
@@ -978,7 +978,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, HATCHCUTTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-HC-AP",
@@ -1075,7 +1075,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, SURVEYOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-SRV-NS",
@@ -1175,7 +1175,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "IMPERIAL NAVY BREACHER, IMPERIUM, NAVIS, VOID-JAMMER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-INB-VJ-GD",

@@ -105,32 +105,28 @@
             }
           ]
         }
-      ],
-      "effects": "ADDWEP:Tempestus Dagger|M|3|4+|3/4|"
+      ]
     },
     {
       "eqId": "IMP-TEMPAQ-CS",
       "killteamId": "IMP-TEMPAQ",
       "seq": 2,
       "eqName": "Combat Stimms",
-      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured.",
-      "effects": "NOINJMOV"
+      "description": "You can ignore any changes to the Move stat of friendly TEMPESTUS AQUILON operatives from being injured."
     },
     {
       "eqId": "IMP-TEMPAQ-DA",
       "killteamId": "IMP-TEMPAQ",
       "seq": 3,
       "eqName": "Drop Augury",
-      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone.",
-      "effects": ""
+      "description": "Once during the battle, when a friendly TEMPESTUS AQUILON operative that is set up above is activated, before expending or landing that operative, you can move one of your Drop markers again.\r However, it cannot be moved closer to your opponent's drop zone."
     },
     {
       "eqId": "IMP-TEMPAQ-ROS",
       "killteamId": "IMP-TEMPAQ",
       "seq": 4,
       "eqName": "Remote Overseer",
-      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6.",
-      "effects": ""
+      "description": "Once during the battle, when rolling off to decide initiative, you can re-roll your D6."
     }
   ],
   "teamAbilities": [
@@ -156,7 +152,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, LEADER, TEMPESTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-TEMP-HSLC",
@@ -327,7 +323,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GRENADIER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GRN-HSLP",
@@ -432,7 +428,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNFIGHTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GF-HSLP",
@@ -525,7 +521,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GNR-MC",
@@ -637,7 +633,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, MARKSMAN",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-MRK-HSLL",
@@ -739,7 +735,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, PRECURSOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-PRE-HSLP",
@@ -818,7 +814,7 @@
       "SAVE": "3+",
       "WOUNDS": 10,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, SERVO-SENTRY",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-SS-FL",
@@ -961,7 +957,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-TRP-HSLC",
@@ -1021,8 +1017,8 @@
   "weapon_rules": [
     {
       "id": "WR-IMP-TEMPAQ-SALVO",
-      "name": "Salva",
-      "description": "Elige hasta dos blancos válidos diferentes que no estén en la zona de control de agentes amigos. Dispara con esta arma contra ellos dos en el orden que quieras (resuelve cada secuencia por separado).",
+      "name": "Salvo",
+      "description": "Select up to two valid targets. Shoot this weapon against both of them in an order of your choice (roll each sequence separately).",
       "team": "IMP-TEMPAQ"
     }
   ]

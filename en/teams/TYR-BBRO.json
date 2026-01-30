@@ -142,7 +142,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, LEADER, COMMANDER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-CMDR-BP",
@@ -307,7 +307,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, AGITATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-AGIT-SM",
@@ -358,7 +358,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-GNR-FL",
@@ -540,7 +540,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, ICONWARD",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-IW-LK",
@@ -587,7 +587,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, KNIFE FIGHTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-KF-PFK",
@@ -642,7 +642,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, MEDIC",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-MED-LG",
@@ -747,7 +747,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SAPPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-SAP-DC",
@@ -854,7 +854,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SNIPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-SNP-SNP",
@@ -949,7 +949,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VETERAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-VET-CSG",
@@ -1034,7 +1034,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VOX OPERATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-VOX-LG",
@@ -1119,7 +1119,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-TRP-LG",
@@ -1310,7 +1310,7 @@
       "SAVE": "5+",
       "WOUNDS": 3,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, PSYCHIC FAMILIAR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-FAM-C",
@@ -1367,7 +1367,7 @@
       "SAVE": "4+",
       "WOUNDS": 21,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, PATRIARCH",
-      "basesize": 32,
+      "basesize": 50,
       "weapons": [
         {
           "wepId": "TYR-BBRO-PAT-C",

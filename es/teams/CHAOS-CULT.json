@@ -84,32 +84,28 @@
       "killteamId": "CHAOS-CULT",
       "seq": 1,
       "eqName": "Baleful Script",
-      "description": "Once per battle STRATEGIC GAMBIT. Change one of your ACCURSED GIFTS. Note that if it is an ACCURSED GIFT an operative has from the Abhorrent Mutation firefight ploy, only that operative benefits from this.",
-      "effects": ""
+      "description": "Once per battle STRATEGIC GAMBIT. Change one of your ACCURSED GIFTS. Note that if it is an ACCURSED GIFT an operative has from the Abhorrent Mutation firefight ploy, only that operative benefits from this."
     },
     {
       "eqId": "CHAOS-CULT-CG",
       "killteamId": "CHAOS-CULT",
       "seq": 2,
       "eqName": "Covert Guises",
-      "description": "After revealing this equipment option, roll one D3. As a STRATEGIC GAMBIT in the first turning point, a number of friendly CHAOS CULT DEVOTEE operatives equal to the result that are wholly within your drop zone can immediately perform\na free Reposition action, but must end that move wholly within 3\" of your drop zone.",
-      "effects": ""
+      "description": "After revealing this equipment option, roll one D3. As a STRATEGIC GAMBIT in the first turning point, a number of friendly CHAOS CULT DEVOTEE operatives equal to the result that are wholly within your drop zone can immediately perform\na free Reposition action, but must end that move wholly within 3\" of your drop zone."
     },
     {
       "eqId": "CHAOS-CULT-UT",
       "killteamId": "CHAOS-CULT",
       "seq": 3,
       "eqName": "Unholy Talisman",
-      "description": "Once per turning point, when an operative is shooting a friendly CHAOS CULT operative, in the Roll Defence Dice step, you can retain one of your normal successes as a critical success instead.",
-      "effects": ""
+      "description": "Once per turning point, when an operative is shooting a friendly CHAOS CULT operative, in the Roll Defence Dice step, you can retain one of your normal successes as a critical success instead."
     },
     {
       "eqId": "CHAOS-CULT-VB",
       "killteamId": "CHAOS-CULT",
       "seq": 4,
       "eqName": "Vile Blessing",
-      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly CHAOS CULT operative (excluding DEVOTEE), you can ignore that inflicted damage.\nIf that friendly operative is a MUTANT or TORMENT operative, you cannot roll for the Unnatural Regeneration rule for that attack dice then decide to use this rule on the same dice - you must use one or the other.",
-      "effects": ""
+      "description": "Once per battle, when an attack dice inflicts Normal Dmg on a friendly CHAOS CULT operative (excluding DEVOTEE), you can ignore that inflicted damage.\nIf that friendly operative is a MUTANT or TORMENT operative, you cannot roll for the Unnatural Regeneration rule for that attack dice then decide to use this rule on the same dice - you must use one or the other."
     }
   ],
   "teamAbilities": [
@@ -577,7 +573,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "CHAOS CULT, CHAOS, DEVOTEE",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-CULT-DEV-P",
@@ -648,7 +644,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "CHAOS CULT, CHAOS, MUTANT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-CULT-MUT-BA",
@@ -708,7 +704,7 @@
       "SAVE": "5+",
       "WOUNDS": 13,
       "keywords": "CHAOS CULT, CHAOS, TORMENT",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "CHAOS-CULT-TOR-HM",

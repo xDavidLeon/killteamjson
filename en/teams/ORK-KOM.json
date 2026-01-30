@@ -395,7 +395,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "KOMMANDO, ORK, GROT",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "ORK-KOM-GROT-GC",
@@ -1124,7 +1124,7 @@
       "SAVE": "5+",
       "WOUNDS": 5,
       "keywords": "KOMMANDO, ORK, BOMB SQUIG",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "ORK-KOM-SQUIG-EXPL",

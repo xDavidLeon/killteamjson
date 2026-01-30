@@ -131,7 +131,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, LEADER, ARBITES, PROCTOR-EXACTANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-PE-CS",
@@ -283,7 +283,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, CASTIGATOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-CAST-CS",
@@ -377,7 +377,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, MEDIC, ARBITES, CHIRURGANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-CHI-CS",
@@ -469,7 +469,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-GNR-GL",
@@ -600,7 +600,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, LEASHMASTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-LSH-CS",
@@ -718,7 +718,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, R-VR CYBER-MASTIFF",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "IMP-AES-RVR-MB",
@@ -783,7 +783,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, MALOCATOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-MAL-CS",
@@ -872,7 +872,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, MARKSMAN",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-MRK-ESG",
@@ -985,7 +985,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, REVELATUM",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-REV-SSP",
@@ -1082,7 +1082,7 @@
       "SAVE": "3+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, SUBDUCTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-SUB-SP",
@@ -1154,7 +1154,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, VIGILANT",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-VIG-CS",
@@ -1229,7 +1229,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "EXACTION SQUAD, IMPERIUM, ADEPTUS ARBITES, ARBITES, VOX-SIGNIFIER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-AES-VOX-CS",

@@ -84,32 +84,44 @@
       "killteamId": "TYR-BBRO",
       "seq": 1,
       "eqName": "Covert Disguises",
-      "description": "After revealing this equipment option, roll 1D3.\nAs a STRATEGIC GAMBIT in the first turning point, a number of friendly BROOD BROTHER BROODGUARD operatives equal to the result that are wholly within your drop zone can immediately perform a free\nReposition action, but must end that move wholly within 3\" of your drop zone.",
-      "effects": ""
+      "description": "After revealing this equipment option, roll 1D3.\nAs a STRATEGIC GAMBIT in the first turning point, a number of friendly BROOD BROTHER BROODGUARD operatives equal to the result that are wholly within your drop zone can immediately perform a free\nReposition action, but must end that move wholly within 3\" of your drop zone."
     },
     {
       "eqId": "TYR-BBRO-CK",
       "killteamId": "TYR-BBRO",
       "seq": 2,
       "eqName": "Cult Knives",
-      "description": "Friendly BROOD BROTHER BROODGUARD operatives have the following melee weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
-      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+      "description": "Friendly BROOD BROTHER BROODGUARD operatives have the following melee weapon:",
+      "weapons": [
+        {
+          "wepId": "TYR-BBRO-CK-CULT-KNIFE",
+          "wepName": "Cult Knife",
+          "wepType": "M",
+          "profiles": [
+            {
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ]
     },
     {
       "eqId": "TYR-BBRO-CT",
       "killteamId": "TYR-BBRO",
       "seq": 3,
       "eqName": "Cult Talisman",
-      "description": "Once per turning point, when an operative is shooting a friendly BROOD BROTHER operative (Excluding Patriarch), in the roll defence dice step, you can retain one of your normal successes as a critical success instead.",
-      "effects": ""
+      "description": "Once per turning point, when an operative is shooting a friendly BROOD BROTHER operative (Excluding Patriarch), in the roll defence dice step, you can retain one of your normal successes as a critical success instead."
     },
     {
       "eqId": "TYR-BBRO-LO",
       "killteamId": "TYR-BBRO",
       "seq": 4,
       "eqName": "Lookout",
-      "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens.",
-      "effects": ""
+      "description": "STRATEGIC GAMBIT: Select one enemy operative visible to a friendly BROOD BROTHER operative to gain one of your Crossfire tokens."
     }
   ],
   "teamAbilities": [
@@ -130,7 +142,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, LEADER, COMMANDER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-CMDR-BP",
@@ -295,7 +307,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, AGITATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-AGIT-SM",
@@ -346,7 +358,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-GNR-FL",
@@ -528,7 +540,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, ICONWARD",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-IW-LK",
@@ -575,7 +587,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, KNIFE FIGHTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-KF-PFK",
@@ -630,7 +642,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, MEDIC",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-MED-LG",
@@ -735,7 +747,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SAPPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-SAP-DC",
@@ -842,7 +854,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, SNIPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-SNP-SNP",
@@ -937,7 +949,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VETERAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-VET-CSG",
@@ -1022,7 +1034,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, VOX OPERATOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-VOX-LG",
@@ -1107,7 +1119,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODGUARD, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-TRP-LG",
@@ -1298,7 +1310,7 @@
       "SAVE": "5+",
       "WOUNDS": 3,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, PSYCHIC FAMILIAR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-BBRO-FAM-C",
@@ -1355,7 +1367,7 @@
       "SAVE": "4+",
       "WOUNDS": 21,
       "keywords": "BROOD BROTHER, GENESTEALER CULT, BROODCOVEN, LEADER, PSYKER, PATRIARCH",
-      "basesize": 32,
+      "basesize": 50,
       "weapons": [
         {
           "wepId": "TYR-BBRO-PAT-C",

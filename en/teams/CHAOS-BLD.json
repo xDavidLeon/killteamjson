@@ -126,7 +126,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BLOODED, CHAOS, CHIEFTAIN, LEADER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-CHF-AP",
@@ -380,7 +380,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, BRIMSTONE GRENADIER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-GRN-DB",
@@ -555,7 +555,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "BLOODED, CHAOS, BUTCHER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-BUT-PWAC",
@@ -607,7 +607,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, COMMSMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-COM-LG",
@@ -690,7 +690,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, CORPSEMAN",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-CRPS-LG",
@@ -791,7 +791,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "BLOODED, CHAOS, ENFORCER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-ENF-BP",
@@ -878,7 +878,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, FLENSER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-FLN-SKB",
@@ -926,7 +926,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-GNR-FL",
@@ -1108,7 +1108,7 @@
       "SAVE": "5+",
       "WOUNDS": 16,
       "keywords": "BLOODED, CHAOS, OGRYN",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-OGR-PMAMC",
@@ -1168,7 +1168,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, SHARPSHOOTER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-SS-LL",
@@ -1256,7 +1256,7 @@
       "SAVE": "4+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, THUG",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-THUG-HC",
@@ -1301,7 +1301,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "BLOODED, CHAOS, TRENCH SWEEPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-TRS-LG",
@@ -1370,7 +1370,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "BLOODED, CHAOS, TROOPER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "CHAOS-BLD-TRP-LG",

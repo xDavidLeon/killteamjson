@@ -152,7 +152,7 @@
       "SAVE": "4+",
       "WOUNDS": 9,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, LEADER, TEMPESTOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-TEMP-HSLC",
@@ -323,7 +323,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GRENADIER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GRN-HSLP",
@@ -428,7 +428,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNFIGHTER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GF-HSLP",
@@ -521,7 +521,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, GUNNER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-GNR-MC",
@@ -633,7 +633,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, MARKSMAN",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-MRK-HSLL",
@@ -735,7 +735,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, PRECURSOR",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-PRE-HSLP",
@@ -814,7 +814,7 @@
       "SAVE": "3+",
       "WOUNDS": 10,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, SERVO-SENTRY",
-      "basesize": 32,
+      "basesize": 40,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-SS-FL",
@@ -957,7 +957,7 @@
       "SAVE": "4+",
       "WOUNDS": 8,
       "keywords": "TEMPESTUS AQUILON, IMPERIUM, TROOPER",
-      "basesize": 32,
+      "basesize": 28,
       "weapons": [
         {
           "wepId": "IMP-TEMPAQ-TRP-HSLC",

@@ -84,32 +84,28 @@
       "killteamId": "TYR-WB",
       "seq": 1,
       "eqName": "Blasting Charges",
-      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n",
-      "effects": "ADDWEP:Blasting Charge|R|4|4+|3/5|"
+      "description": "Once per turning point, a friendly WYRMBLADE NEOPHYTE operative can use the following ranged weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Blasting Charge|4|4+|3/5|\n|**Weapon Rules**|\n|Range 4\", Blast 1\", Saturate|\n"
     },
     {
       "eqId": "TYR-WB-CK",
       "killteamId": "TYR-WB",
       "seq": 2,
       "eqName": "Cult Knives",
-      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n",
-      "effects": "ADDWEP:Cult Knife|M|3|4+|3/4|"
+      "description": "Friendly WYRMBLADE NEOPHYTE operatives have the following melee weapon:\n \n|**Name**|**Atk**|**Hit**|**Dmg**|\n|-----|:-----:|:-----:|:-----:|\n|Cult Knife|3|4+|3/4|\n"
     },
     {
       "eqId": "TYR-WB-XT",
       "killteamId": "TYR-WB",
       "seq": 3,
       "eqName": "Explosive Traps",
-      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules.",
-      "effects": ""
+      "description": "This equipment allows you to select two mines (see universal equipment).\nYou cannot also select that equipment as normal (i.e. to give you three), and friendly WYRMBLADE operatives are ignored for your mines' effects (i.e. they cannot trigger or take damage from them).\nThis takes precedence over the normal mines rules."
     },
     {
       "eqId": "TYR-WB-SL",
       "killteamId": "TYR-WB",
       "seq": 4,
       "eqName": "Spotlights",
-      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives.",
-      "effects": ""
+      "description": "Whenever a friendly WYRMBLADE operative is shooting, the target cannot be obscured if it is visible to and within 6\" of a friendly WYRMBLADE NEOPHYTE operative that is not within control range of enemy operatives."
     }
   ],
   "teamAbilities": [
@@ -130,7 +126,7 @@
       "SAVE": "5+",
       "WOUNDS": 8,
       "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, LEADER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-WB-LDR-AG",
@@ -576,7 +572,7 @@
           "abilityId": "TYR-WB-LOC-A-QSS",
           "opTypeId": "TYR-WB-LOC",
           "abilityName": "Quicksilver Strike",
-          "description": "Once per turning point, after an enemy operative performs an action in which it moves or is set up, you can interrupt to use this rule.\nIf you do, this operative can immediately perform a free Charge action (you can change its order to do so), but it cannot move more than 3\", and it must end that move within control range of that enemy operative.\nIf this isn't possible, the interruption is cancelled and this rule hasn't been used."
+          "description": "Once per turning point, after an enemy operative performs an action in which it moves or is set up, you can interrupt that activation/counteraction to use this rule.\nIf you do, this operative can immediately perform a free Charge action (you can change its order to do so), but it cannot move more than 3\", and it must end that move within control range of that enemy operative.\nIf this isn't possible, the interruption is cancelled and this rule hasn't been used."
         }
       ]
     },
@@ -590,7 +586,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, GUNNER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-WB-GNR-FL",
@@ -901,7 +897,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, ICON BEARER",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-WB-IB-AG",
@@ -1200,7 +1196,7 @@
       "SAVE": "5+",
       "WOUNDS": 7,
       "keywords": "WYRMBLADE, TYRANIDS, GENESTEALER CULTS, NEOPHYTE, WARRIOR",
-      "basesize": 32,
+      "basesize": 25,
       "weapons": [
         {
           "wepId": "TYR-WB-WAR-AG",
@@ -1284,8 +1280,8 @@
   "weapon_rules": [
     {
       "id": "WR-TYR-WB-HYPERSENSE",
-      "name": "Hipersentido",
-      "description": "Cuando este agente dispara con este perfil de arma, los agentes enemigos no pueden estar ofuscados.",
+      "name": "Hypersense",
+      "description": "Whenever this operative is shooting with this weapon profile, enemy operatives cannot be obscured.",
       "team": "TYR-WB"
     }
   ]
