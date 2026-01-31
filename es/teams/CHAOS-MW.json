@@ -5,9 +5,9 @@
     "classified": true,
     "season": "Tomb World",
     "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_murderwing-nk5ocpzzgd-qcvchireiu.pdf",
-    "killteamName": "Murderwing",
-    "description": "The Murderwing kill team, comprised of Night Lords Chaos Space Marines, specializes in high-speed aerial combat and brutal assaults. Emphasizing fear and speed, they utilize jump packs to traverse the battlefield in bounding leaps, striking from above with terrifying ferocity.",
-    "composition": "A MURDERWING KillTeam is composed of:\n\n- 1 MURDERWING CHAOS LORD operative with one option from each of the following:\n  - Bolt pistol or plasma pistol\n  - Lightning claw, power fist or power weapon\n  Or the following option:\n  - Relic lightning claws\n\n- 5 MURDERWING operatives selected from the following list:\n  - CHAMPION with one option from each of the following:\n    - Plasma pistol or bolt pistol\n    - Power fist or power weapon\n  - CURSECLAW\n  - DEPREDATOR\n  - HUNTMASTER\n  - RAPTOR with one of the following options:\n    - Bolt pistol; chainsword\n    - Plasma pistol; chainsword\n  - SHRIEKER\n  - SKYSEAR with one of the following options:\n    - Flamer; bolt pistol; fists\n    - Meltagun; bolt pistol; fists\n    - Plasma gun; bolt pistol; fists\n  - WARP TALON\n\n- Other than RAPTOR operatives, your kill team can only include each operative on this list once.\n- You cannot select more than two operatives with these weapons combined: Meltagun, Plasma gun, Plasma pistol.",
+    "killteamName": "ALA ASESINA",
+    "description": "Los agentes que conforman los comandos Ala Asesina son asesinos sádicos cuyas numerosas obsesiones se reflejan en las mutaciones que poseen, las armaduras que visten y las armas que portan en combate. Son cazadores implacables que combinan sus habilidades para garantizar que su presa elegida no escape de sus garras.",
+    "composition": "Un equipo de exterminio ALA ASESINA está compuesto por:\n\n- 1 agente SEÑOR DEL CAOS ALA ASESINA con una de cada una de las siguientes opciones:\n  - Pistola bólter o pistola de plasma\n  - Garra relámpago, puño de energía o arma de energía\n  O la siguiente opción:\n  - Garras relámpago reliquia\n\n- 5 agentes ALA ASESINA elegidos de la siguiente lista:\n  - CAMPEÓN con una opción de cada una de las siguientes categorías:\n    - Pistola bólter o pistola de plasma\n    - Puño de energía o arma de energía\n  -  GARRAMALDITA\n  - DEPREDADOR\n  - MAESTRO CAZADOR\n  - RAPAZ con una de las siguientes opciones:\n    - Pistola bólter; espada sierra\n    - Pistola de plasma ; espada sierra\n  - ESTRIDENTE\n  - IGNÍFERO con una de las siguientes opciones:\n    - Lanzallamas; pistola bólter; puños\n    - Pistola bólter; rifle de fusión ; puños\n    - Pistola bólter; rifle de plasma ; puños\n  - ESPOLÓN DE LA DISFORMIDAD\n\n-Salvo agentes RAPAZ, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.\n- No puedes incluir más de dos operativos equipados con la combinación de las siguientes armas: fusil de fusión, rifle de plasma y pistola de plasma.",
     "archetypes": [
         "Recon",
         "Seek & Destroy"
@@ -18,64 +18,64 @@
             "killteamId": "CHAOS-MW",
             "ployType": "S",
             "seq": 1,
-            "ployName": "Predators Above",
-            "description": "Whenever a friendly MURDERWING operative is at least 2\" higher than the killzone floor, its weapons have the Balanced weapon rule. Whenever a friendly MURDERWING operative does a BOOST, its weapons have the Balanced weapon rule until the end of that activation."
+            "ployName": "DEPREDADORES AÉREOS",
+            "description": "Cuando un agente ALA ASESINA amigo se encuentre al menos 2\" más alto que el suelo de la zona de aniquilación, sus armas tienen la regla de armas Equilibrada. Cuando un agente ALA ASESINA amigo use un IMPULSO, sus armas tienen la regla de armas Equilibrada hasta el final de esa activación."
         },
         {
             "ployId": "CHAOS-MW-S-CTW",
             "killteamId": "CHAOS-MW",
             "ployType": "S",
             "seq": 2,
-            "ployName": "Cull The Weak",
-            "description": "Whenever a friendly MURDERWING operative is shooting or fighting, its weapons have the Punishing weapon rule if any of the following are true for the operative that friendly operative is shooting or fighting against:\n- It's at least 2\" lower than that friendly operative.\n- Its APL stat is less than normal.\n- It was wounded at the start of the activation/counteraction."
+            "ployName": "MASACRAR A LOS DÉBILES",
+            "description": "Cuando un agente ALA ASESINA amigo dispare o combata, sus armas tienen la regla de armas Castigadora si el agente contra el que ese agente amigo está disparando o combatiendo cumple cualquiera de las siguientes condiciones:\n- Se encuentra al menos 2\" más bajo que el agente amigo\n- Su LPA es menor de lo normal.\n- Estaba herido al inicio de la activación/reacción."
         },
         {
             "ployId": "CHAOS-MW-S-NOH",
             "killteamId": "CHAOS-MW",
             "ployType": "S",
             "seq": 3,
-            "ployName": "Nightmare On High",
-            "description": "Whenever an operative is shooting a friendly MURDERWING operative that's at least 2\" higher than the killzone floor, or that did a BOOST during this turning point, you can re-roll one of your defence dice."
+            "ployName": "PESADILLA EN LAS ALTURAS",
+            "description": "Cuando un agente dispare contra un agente ALA ASESINA amigo que se encuentre al menos 2\" más alto que el suelo de la zona de aniquilación, o que realizara un IMPULSO durante este punto de inflexión, puedes repetir uno de tus dados de defensa."
         },
         {
             "ployId": "CHAOS-MW-S-IF",
             "killteamId": "CHAOS-MW",
             "ployType": "S",
             "seq": 4,
-            "ployName": "Instil Fear",
-            "description": "Whenever a friendly MURDERWING operative is fighting, Normal Dmg of 3 or more inflicts 1 less damage on it."
+            "ployName": "INSTILAR MIEDO",
+            "description": "Cuando un agente ALA ASESINA amigo combata, el Daño normal de 3 o más le inflige 1 daño menos."
         },
         {
             "ployId": "CHAOS-MW-T-MN",
             "killteamId": "CHAOS-MW",
             "ployType": "T",
             "seq": 1,
-            "ployName": "Malicious Narcissism",
-            "description": "Use this firefight ploy when it's your turn to activate with a friendly operative, if only one friendly MURDERWING operative is ready. Until the end of the turning point, whenever any ready enemy operatives are in the killzone, you can skip your activations (in other words, you can delay that friendly MURDERWING operative's activation). Note that you cannot counteract until that friendly MURDERWING operative is expended."
+            "ployName": "NARCISISMO MALICIOSO",
+            "description": "Usa este ardid de tiroteo cuando sea tu turno para activar un agente amigo, si solo hay apostado un único agente ALA ASESINA amigo. Hasta el final del punto de inflexión, mientras haya algún agente enemigo apostado en la zona de aniquilación, puedes saltarte tus activaciones (es decir, puedes retrasar la activación de ese agente ALA ASESINA amigo). Ten en cuenta que no puedes reaccionar hasta que ese agente ALA ASESINA amigo haya sido usado."
         },
         {
             "ployId": "CHAOS-MW-T-MD",
             "killteamId": "CHAOS-MW",
             "ployType": "T",
             "seq": 2,
-            "ployName": "Murderous Descent",
-            "description": "Use this firefight ploy when an enemy operative ends the Charge, Dash, Fall Back or Reposition action within 3\" horizontally and more than 2\" lower than a friendly MURDERWING operative (or in close quarters, within 2\" and that enemy operative must be in a different room to where it started that action). Interrupt that enemy operative's activation/counteraction and immediately perform a free Charge action with that friendly operative. It must end that action within control range of that enemy operative. If this isn't possible, the interruption is cancelled and this rule hasn't been used."
+            "ployName": "DESCENSO ASESINO",
+            "description": "Usa este ardid de tiroteo cuando un agente enemigo termine la acción de Cargar, Correr, Retroceder o Reposicionarse a 3\" o menos en horizontal y a 2\" o más en vertical de un agente ALA ASESINA amigo (o, en combate cerrado, a 2\" o menos, y ese agente enemigo debe estar en una estancia distinta a aquella en la que empezó esa acción)”. Interrumpe la activación/reacción de ese agente enemigo y realiza inmediatamente una acción libre de Cargar con ese agente amigo. Debe terminar esa acción en la zona de control de ese agente enemigo. Si esto no es posible, la interrupción se cancela y esta regla no ha sido usada"
         },
         {
             "ployId": "CHAOS-MW-T-LFH",
             "killteamId": "CHAOS-MW",
             "ployType": "T",
             "seq": 3,
-            "ployName": "Long Forgotten Honour",
-            "description": "Use this firefight ploy when a friendly MURDERWING operative is fighting or retaliating, when you resolve a critical success. Instead of striking or blocking, end that sequence (any remaining attack dice are discarded) and immediately perform a free Fall Back action up to 3\" with that operative (then the Fight action ends). That operative can do so even if it's performed an action that prevents it from performing the Fall Back action."
+            "ployName": "LUCHAR SIN HONOR",
+            "description": "Usa este ardid de tiroteo cuando un agente ALA ASESINA amigo combata o contraataque, al resolver un éxito crítico. En lugar de golpear o bloquear, termina esa secuencia (cualquier dado de ataque restante se descarta) y realiza inmediatamente con ese agente una acción libre de Retroceder de hasta 3\" (y entonces la acción de Combatir termina). Ese agente puede hacerlo aunque haya realizado una acción que le impida realizar la acción de Retroceder."
         },
         {
             "ployId": "CHAOS-MW-T-WOD",
             "killteamId": "CHAOS-MW",
             "ployType": "T",
             "seq": 4,
-            "ployName": "Wings Of Darkness",
-            "description": "Use this firefight ploy when a friendly MURDERWING operative is performing the Fall Back or Reposition action, when it does a BOOST. That operative can be set up an additional 3\" away during that BOOST (adding this to the permitted move distance), but it cannot perform the Shoot, Fight or Carving Blow action until the next turning point. You cannot use this ploy during the first turning point."
+            "ployName": "ALAS DE OSCURIDAD",
+            "description": "Usa este ardid de tiroteo cuando un agente ALA ASESINA amigo realice la acción de Retroceder o Reposicionarse, cuando aplique un IMPULSO. Ese agente puede desplegarse a 3\" adicionales de distancia durante ese IMPULSO (añadiéndolos a la distancia de movimiento permitida), pero no puede realizar acciones de Disparar, Combatir o Golpe cercenador (ver agente DEPREDADOR) hasta el siguiente punto de inflexión. No puedes usar este ardid durante el primer punto de inflexión."
         }
     ],
     "equipments": [
@@ -83,46 +83,46 @@
             "eqId": "CHAOS-MW-BF",
             "killteamId": "CHAOS-MW",
             "seq": 1,
-            "eqName": "Bladefins",
-            "description": "Friendly MURDERWING operatives can perform the following unique action:\n\n**SLICE FROM ABOVE (1AP):** BOOST action. Inflict D3+1 damage on one enemy operative within this operative's BOOST ZONE. An operative cannot perform this action normally. Instead it performs this action during the Fall Back or Reposition action after setting up from a BOOST. A DEPREDATOR operative cannot perform this action during the same activation in which it performed the Carving Blow action (or vice versa)."
+            "eqName": "FILOALETAS",
+            "description": "Los agentes ALA ASESINA amigos pueden realizar la siguiente acción única:\n\n**REBANAR DESDE LO ALTO  (1AP):** Acción de IMPULSO. Inflige 1D3+1 daños a un agente enemigo en la ZONA DE IMPULSO de este agente. Un agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante la acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO. Un agente DEPREDADOR no puede realizar esta acción durante la misma activación en la que realizara la acción Golpe cercenador (o viceversa)."
         },
         {
             "eqId": "CHAOS-MW-CA",
             "killteamId": "CHAOS-MW",
             "seq": 2,
-            "eqName": "Clawed Armour",
-            "description": "Friendly MURDERWING operatives can perform the following unique action:\n\n**CLAWED CHARGE (0AP):** BOOST action. Inflict 1 damage on one enemy operative within this operative's control range, then the Charge action ends. An operative cannot perform this action normally. Instead, it performs this action during the Charge action after setting up from a BOOST."
+            "eqName": "ARMADURA CON GARRAS",
+            "description": "Los agentes ALA ASESINA amigos pueden realizar la siguiente acción única:\n\n**CARGAR CON GARRAS (0AP):** Acción de IMPULSO. Inflige 1 daño a un agente enemigo en la zona de control de este agente, y a continuación la acción de Cargar termina. Un agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante una acción de Cargar, tras desplegarse debido a un IMPULSO."
         },
         {
             "eqId": "CHAOS-MW-WF",
             "killteamId": "CHAOS-MW",
             "seq": 3,
-            "eqName": "Warp Fuel",
-            "description": "Once per turning point, when an enemy operative ends the Fall Back action during its activation, if at least one friendly MURDERWING operative was within its control range at the start of that action, you can use this rule. One of those friendly operatives can immediately perform a free Reposition or Charge action, but cannot use more than 3\" of move distance. Note that if the enemy operative doesn't perform the Fall Back action during its own activation, this has no effect."
+            "eqName": "COMBUSTIBLE DISFORME",
+            "description": "Una vez por punto de inflexión, cuando un agente enemigo termine la acción de Retroceder durante su activación, si al menos un agente ALA ASESINA amigo se encontraba en su zona de control al inicio de esa acción, puedes usar esta regla. Uno de esos agentes amigos puede realizar de inmediato una acción libre de Reposicionarse o Cargar, pero no puede usar más de 3\" de distancia de movimiento. Ten en cuenta que si el agente enemigo no realiza la acción de Retroceder durante su propia activación, esto no tiene efecto"
         },
         {
             "eqId": "CHAOS-MW-VC",
             "killteamId": "CHAOS-MW",
             "seq": 4,
-            "eqName": "Vox-Casters",
-            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOX-CRY (1AP):** Each enemy operative within 3\" of this operative takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation. An operative cannot perform this action while it has a Conceal order."
+            "eqName": "VOCOEMISORES",
+            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOCOGRITO (1AP):** Cada agente enemigo a 3\" o menos de este agente hace un chequeo de aturdimiento. Para ello, tira 1D6: con 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación. Un agente no puede realizar esta acción si tiene una orden de ocultarse."
         }
     ],
     "teamAbilities": [
         {
             "abilityId": "CHAOS-MW-TA-JP",
-            "abilityName": "Jump Pack",
-            "description": "Whenever a friendly MURDERWING operative is performing the Charge, Fall Back or Reposition action during its activation, at the start of any straight-line increment, as long as no part of its base is underneath Vantage terrain, it can do a BOOST for that increment. If it does, don't move it for that increment. Instead, remove it from the killzone and set it back up wholly within x\" horizontally of its original location. X is a distance of your choice (rounded up to the nearest inch, as per the Reposition action), but it's added to the total move distance used for that action (in other words, move plus BOOST cannot exceed the action's move allowance).\n\nThat operative must be set up in a location it can be placed and cannot be set up with any part of its base underneath Vantage terrain. In addition, unless it's the Charge action, it cannot be set up within control range of an enemy operative. It can continue moving after a BOOST if it has any move distance remaining and the action allows it.\n\nIn a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, the x\" cannot be measured over or through Wall terrain, and that operative cannot be set up on the other side of an access point – in other words, it cannot BOOST through an open hatchway."
+            "abilityName": "PROPULSOR DE SALTO",
+            "description": "Cuando un agente ALA ASESINA amigo esté realizando una acción de Cargar, Retroceder o Reposicionarse durante su activación, al inicio de cualquier incremento en línea recta y siempre y cuando ninguna parte de su peana se encuentre bajo terreno Aventajado, puede dar un IMPULSO en ese incremento. Si lo hace, no muevas al agente en ese incremento. En su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo completamente a x\" o menos en horizontal de su ubicación original. X es una distancia de tu elección (redondeando al alza hasta la pulgada más cercana, como en la acción de Reposicionarse), pero se añade a la distancia total de movimiento usada para esa acción (es decir, el movimiento más el IMPULSO no pueden exceder la capacidad de movimiento de la acción). LA REGLA CONTINÚA EN EL REVERSO Ese agente debe desplegarse en una ubicación en la que pueda colocarse y sin ninguna parte de su peana bajo terreno Aventajado. Además, a menos que se trate de la acción de Cargar, no puede desplegarse en la zona de control de ningún agente enemigo. Puede seguir moviéndose tras el IMPULSO si le queda distancia de movimiento y la acción lo permite.\n\n En una zona de aniquilación que use las reglas de combate cerrado, p.ej. Zona de aniquilación: Mundo Necrópolis, la x\" no puede medirse por encima ni a través de terreno Muro, y ese agente no puede desplegarse al otro lado de un punto de acceso: es decir, no puede usar un IMPULSO a través de una escotilla abierta."
         },
         {
             "abilityId": "CHAOS-MW-TA-BA",
-            "abilityName": "Boost Actions",
-            "description": "Some actions are known as BOOST actions. These are actions performed during other actions when a BOOST is used. Each operative cannot perform more than one BOOST action per activation/counteraction.\n\nMost BOOST actions affect enemy operatives within a friendly MURDERWING operative's BOOST ZONE. This is the horizontal area between a friendly MURDERWING operative's current location and the location from which it used BOOST. A marker the same size as the operative's base can be temporarily placed to help determine this. Enemy operatives with any part of their base underneath Vantage terrain are not within friendly MURDERWING operatives' BOOST ZONEs."
+            "abilityName": "ACCIONES DE IMPULSO",
+            "description": "Algunas acciones se conocen como acciones de IMPULSO. Estas son acciones que se realizan durante otras acciones, cuando se aplica un IMPULSO. Cada agente solo puede realizar una acción de IMPULSO por activación/reacción.\n\n La mayoría de acciones de IMPULSO afectan a los agentes enemigos que están en la ZONA DE IMPULSO del agente ALA ASESINA . Esta es la zona horizontal entre la ubicación actual de un agente ALA ASESINA amigo y la ubicación desde la que usó el IMPULSO. Puedes determinarlo colocando temporalmente un marcador del mismo tamaño que la peana del agente. Los agentes enemigos que tengan alguna parte de la peana bajo terreno Aventajado no se consideran en las ZONAS DE IMPULSO de los agentes ALA ASESINA amigos."
         },
         {
             "abilityId": "CHAOS-MW-TA-AST",
-            "abilityName": "Astartes",
-            "description": "During each friendly MURDERWING operative's activation, it can perform either two Shoot actions or two Fight actions. If it's two Shoot actions, a bolt pistol must be selected for at least one of them. Each friendly MURDERWING operative can counteract regardless of its order."
+            "abilityName": "ASTARTES",
+            "description": "Durante la activación de cada agente ALA ASESINA amigo, puede realizar o dos acciones de Disparar o dos acciones de Combatir. Si son dos acciones de Disparar, debe seleccionarse una pistola bólter para al menos una de ellas.\n\n Cada agente ALA ASESINA amigo puede reaccionar sin importar cuál sea su orden."
         }
     ],
     "opTypes": [
@@ -130,7 +130,7 @@
             "opTypeId": "CHAOS-MW-CL",
             "killteamId": "CHAOS-MW",
             "seq": 1,
-            "opTypeName": "Murderwing Chaos Lord",
+            "opTypeName": "SEÑOR DEL CAOS",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -142,7 +142,7 @@
                     "wepId": "CHAOS-MW-CL-BP",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -166,14 +166,14 @@
                     "wepId": "CHAOS-MW-CL-PP",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 2,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma ",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-PP-0",
                             "wepId": "CHAOS-MW-CL-PP",
                             "seq": 0,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -192,7 +192,7 @@
                             "wepprofileId": "CHAOS-MW-CL-PP-1",
                             "wepId": "CHAOS-MW-CL-PP",
                             "seq": 1,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -220,7 +220,7 @@
                     "wepId": "CHAOS-MW-CL-LC",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 3,
-                    "wepName": "Lightning Claw",
+                    "wepName": "Garra relámpago",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -247,7 +247,7 @@
                     "wepId": "CHAOS-MW-CL-PF",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 4,
-                    "wepName": "Power Fist",
+                    "wepName": "Puño de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -273,7 +273,7 @@
                     "wepId": "CHAOS-MW-CL-PW",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 5,
-                    "wepName": "Power Weapon",
+                    "wepName": "Arma de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -297,7 +297,7 @@
                     "wepId": "CHAOS-MW-CL-RLC",
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 6,
-                    "wepName": "Relic Lightning Claws",
+                    "wepName": "Garras relámpago reliquia",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -328,8 +328,8 @@
                 {
                     "abilityId": "CHAOS-MW-CL-PTD",
                     "opTypeId": "CHAOS-MW-CL",
-                    "abilityName": "Path To Damnation",
-                    "description": "This operative starts the battle with 1 Damnation point. Once per action, you can attempt to use one Boon of Damnation when it specifies. If you do, roll one D6 and compare the result to the number of Damnation points this operative has; if the result is:\n- Higher: Resolve the rule, then this operative gains 1 Damnation point.\n- Equal: Do not resolve the rule.\n- Less: Inflict damage on this operative equal to its number of Damnation points and do not resolve the rule.\n\nIf this operative has 6 Damnation points, resolve the rule without rolling. Note that you cannot make an attempt more than once per action, regardless of the D6 result.\n\n**Boons of Damnation:**\n- When an attack dice inflicts damage of 3 or more on this operative, you can ignore an amount of damage equal to this operative's Damnation points.\n- When this operative is fighting or retaliating and you strike, you can inflict an amount of additional damage equal to this operative's Damnation points."
+                    "abilityName": "Senda hacia la condenación",
+                    "description": " Este agente empieza la batalla con 1 punto de Condenación. Una vez por acción, puedes intentar usar un Don de Condenación cuando se especifique (ver a la derecha). Si lo haces, tira 1D6 y compara el resultado con el número de puntos de Condenación que tenga este agente; si el resultado es:\n- Mayor: Resuelve la regla, y a continuación este agente gana 1 punto de Condenación.\n- Igual: No resuelvas la regla.\n- Menor: Inflige a este agente tantos daños como su número de puntos de Condenación y no resuelvas la regla.\n\nSi este agente tiene 6 puntos de Condenación, resuelve la regla sin tirar. Ten en cuenta que no puedes hacer un intento más de una vez por acción, con independencia del resultado del D6.\n\n**Dones de Condenación:**\n- Cuando un dado de ataque inflija 3 o más daños a este agente, puedes ignorar tantos daños como los puntos de Condenación de este agente.\n- Cuando este agente combata o contraataque y golpees, puedes infligir tantos daños adicionales como los puntos de Condenación de este agente."
                 }
             ]
         },
@@ -337,7 +337,7 @@
             "opTypeId": "CHAOS-MW-CH",
             "killteamId": "CHAOS-MW",
             "seq": 2,
-            "opTypeName": "Murderwing Champion",
+            "opTypeName": "CAMPEÓN",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -349,7 +349,7 @@
                     "wepId": "CHAOS-MW-CH-BP",
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -373,14 +373,14 @@
                     "wepId": "CHAOS-MW-CH-PP",
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 2,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CH-PP-0",
                             "wepId": "CHAOS-MW-CH-PP",
                             "seq": 0,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -399,7 +399,7 @@
                             "wepprofileId": "CHAOS-MW-CH-PP-1",
                             "wepId": "CHAOS-MW-CH-PP",
                             "seq": 1,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -427,7 +427,7 @@
                     "wepId": "CHAOS-MW-CH-PF",
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 3,
-                    "wepName": "Power Fist",
+                    "wepName": "Puño de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -453,7 +453,7 @@
                     "wepId": "CHAOS-MW-CH-PW",
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 4,
-                    "wepName": "Power Weapon",
+                    "wepName": "Arma de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -478,14 +478,14 @@
                 {
                     "abilityId": "CHAOS-MW-CH-CC",
                     "opTypeId": "CHAOS-MW-CH",
-                    "abilityName": "Chaos Champion",
-                    "description": "Remove your Challenge token from the enemy operative that has it (if any), then select one enemy operative to gain your Challenge token. Whenever this operative is fighting against or retaliating against an enemy operative that has your Challenge token, in the Select Weapons step, you can select one of the following weapon rules for this operative's melee weapons to have until the end of the sequence: Balanced, Brutal, Punishing, Severe, Shock."
+                    "abilityName": "Campeón del Caos",
+                    "description": " **GAMBITO ESTRATÉGICO.** Retira tu ficha de Desafío del agente enemigo que lo tenga (si lo hay), y a continuación elige un agente enemigo para que gane tu ficha de Desafío. Cuando este agente combata o contraataque contra un agente enemigo que tenga tu ficha de Desafío, durante el paso de elegir armas puedes seleccionar una de las siguientes reglas de armas para que la tengan las armas de combate de este agente hasta el final de la secuencia: Brutal, Castigadora, Choque, Equilibrada, Severa."
                 },
                 {
                     "abilityId": "CHAOS-MW-CH-PTG",
                     "opTypeId": "CHAOS-MW-CH",
-                    "abilityName": "Path To Glory",
-                    "description": "Whenever this operative incapacitates an enemy operative that has your Challenge token, you gain 1CP."
+                    "abilityName": "Sendero a la gloria",
+                    "description": "Siempre que este agente incapacite a un agente enemigo que tenga tu ficha de Desafío, obtienes 1PM."
                 }
             ]
         },
@@ -493,7 +493,7 @@
             "opTypeId": "CHAOS-MW-CC",
             "killteamId": "CHAOS-MW",
             "seq": 3,
-            "opTypeName": "Murderwing Curseclaw",
+            "opTypeName": "GARRAMALDITA",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -505,7 +505,7 @@
                     "wepId": "CHAOS-MW-CC-BP",
                     "opTypeId": "CHAOS-MW-CC",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -529,7 +529,7 @@
                     "wepId": "CHAOS-MW-CC-MC",
                     "opTypeId": "CHAOS-MW-CC",
                     "seq": 2,
-                    "wepName": "Mutated Claws",
+                    "wepName": "Garras mutadas",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -553,8 +553,8 @@
                 {
                     "abilityId": "CHAOS-MW-CC-FA",
                     "opTypeId": "CHAOS-MW-CC",
-                    "abilityName": "Frenzied Attack",
-                    "description": "If this operative is incapacitated during the Fight action, you can strike the enemy operative in that sequence with one of your unresolved successes before this operative is removed from the killzone."
+                    "abilityName": "Ataque frenético",
+                    "description": " Si este agente queda incapacitado durante una acción de Combatir, puedes golpear al agente enemigo en esa secuencia con uno de tus éxitos sin resolver antes de retirar a este agente de la zona de aniquilación."
                 }
             ],
             "actions": [
@@ -563,13 +563,13 @@
                     "type": "ability",
                     "seq": 0,
                     "AP": 1,
-                    "name": "Snatch",
+                    "name": "ATRAPAR",
                     "description": null,
                     "effects": [
-                        "BOOST action. Select one enemy operative within this operative's BOOST ZONE. Both players roll one D6 and add their respective operative's Wounds stat to their result. If your result is higher, remove that enemy operative from the killzone and set it back up within this operative's BOOST ZONE or control range. It must be set up in a location it can be placed and cannot be set up further away from this operative than where it began. If that enemy operative is set up within this operative's control range, the Fall Back or Reposition action ends (allowing this operative to end that action within control range of enemy operatives)."
+                        " **Acción de IMPULSO.** Elige un agente enemigo en la ZONA DE IMPULSO de este agente. Ambos jugadores tiran 1D6 y suman a su resultado el atributo Heridas de su respectivo agente. Si tu resultado es mayor, retira de la zona de aniquilación a ese agente enemigo y vuelve a desplegarlo en la ZONA DE IMPULSO o la zona de control de este agente. Debe desplegarse en una ubicación en la que pueda colocarse y no puede desplegarse más lejos de lo que estaba de este agente. Si ese agente enemigo se despliega en la zona de control de este agente, la acción de Retroceder o Reposicionarse termina (permitiendo a este agente terminar esa acción en la zona de control de agentes enemigos)."
                     ],
                     "conditions": [
-                        "This operative cannot perform this action normally. Instead, it performs this action during the Fall Back or Reposition action after setting up from a BOOST."
+                        "Este agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante una acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO."
                     ]
                 }
             ]
@@ -578,7 +578,7 @@
             "opTypeId": "CHAOS-MW-DEP",
             "killteamId": "CHAOS-MW",
             "seq": 4,
-            "opTypeName": "Murderwing Depredator",
+            "opTypeName": "DEPREDADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -590,7 +590,7 @@
                     "wepId": "CHAOS-MW-DEP-BP",
                     "opTypeId": "CHAOS-MW-DEP",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -614,7 +614,7 @@
                     "wepId": "CHAOS-MW-DEP-GC",
                     "opTypeId": "CHAOS-MW-DEP",
                     "seq": 2,
-                    "wepName": "Great Chainaxe",
+                    "wepName": "Gran hacha sierra",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -638,8 +638,8 @@
                 {
                     "abilityId": "CHAOS-MW-DEP-HD",
                     "opTypeId": "CHAOS-MW-DEP",
-                    "abilityName": "Horrifying Dismemberment",
-                    "description": "Whenever this operative incapacitates an enemy operative while fighting or retaliating, select one other enemy operative visible to and within 3\" of either this operative or the incapacitated enemy operative. Subtract 1 from that enemy operative's APL stat until the end of its next activation."
+                    "abilityName": "Desmembramiento horripilante",
+                    "description": "Siempre que este agente incapacite a un agente enemigo al combatir o contraatacar, elige un agente enemigo distinto a 3\" o menos de este agente o del agente enemigo incapacitado y visible para el mismo. Resta 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación"
                 }
             ],
             "actions": [
@@ -648,14 +648,14 @@
                     "type": "ability",
                     "seq": 0,
                     "AP": 1,
-                    "name": "Carving Blow",
+                    "name": "GOLPE CERCENADOR",
                     "description": null,
                     "effects": [
-                        "Inflict 2D3 damage on each other operative visible to and within 2\" of this operative in an order of your choice (roll separately for each)."
+                        "Inflige 2D3 daños a cada otro agente visible para este agente y a 2\" o menos de él en el orden que elijas (tira por separado para cada uno)."
                     ],
                     "conditions": [
-                        "For the purposes of action restrictions and the Astartes faction rule, this action is treated as a Fight action.",
-                        "This operative cannot perform this action while it has a Conceal order, or during the same activation in which it performed the Slice From Above action (see faction equipment) or vice versa."
+                        "A efectos de las restricciones de acciones y la regla de facción Astartes, esta acción se trata como una acción de Combatir.",
+                        "Este agente no puede realizar esta acción mientras tenga una orden de ocultarse, ni durante la misma activación en la que realizara la acción Rebanar desde lo alto (ver equipo de facción) o viceversa."
                     ]
                 }
             ]
@@ -664,7 +664,7 @@
             "opTypeId": "CHAOS-MW-HM",
             "killteamId": "CHAOS-MW",
             "seq": 5,
-            "opTypeName": "Murderwing Huntmaster",
+            "opTypeName": "MAESTRO CAZADOR",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -676,7 +676,7 @@
                     "wepId": "CHAOS-MW-HM-BP",
                     "opTypeId": "CHAOS-MW-HM",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -700,7 +700,7 @@
                     "wepId": "CHAOS-MW-HM-PW",
                     "opTypeId": "CHAOS-MW-HM",
                     "seq": 2,
-                    "wepName": "Power Weapon",
+                    "wepName": "Arma de energía",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -725,8 +725,8 @@
                 {
                     "abilityId": "CHAOS-MW-HM-PP",
                     "opTypeId": "CHAOS-MW-HM",
-                    "abilityName": "Pinned Prey",
-                    "description": "Whenever an enemy operative would perform the Fall Back action while within control range of this operative, if no other enemy operatives are within this operative's control range, you can use this rule. If you do, roll two D6, or one D6 if that enemy operative has a higher Wounds stat than this operative. If any result is a 4+, that enemy operative cannot perform that action during that activation/counteraction (no AP are spent on it)."
+                    "abilityName": "Presa acorralada",
+                    "description": " Siempre que un agente enemigo vaya a realizar una acción de Retroceder estando en la zona de control de este agente, si no hay otros agentes enemigos en la zona de control de este agente, puedes usar esta regla. Si lo haces, tira 2D6, o 1D6 si ese agente enemigo tiene un atributo Heridas mayor que este agente. Si sacas algún 4+, el agente enemigo no puede realizar esa acción durante esta activación/ reacción (y no gasta PA en ella)."
                 }
             ],
             "actions": [
@@ -735,13 +735,13 @@
                     "type": "ability",
                     "seq": 0,
                     "AP": 1,
-                    "name": "Strike From Above",
+                    "name": "GOLPEAR DESDE LO ALTO",
                     "description": null,
                     "effects": [
-                        "BOOST action. Inflict 2D3+1 damage on one enemy operative within this operative's BOOST ZONE."
+                        "Acción de IMPULSO. Inflige 2D3+1 daños a un agente enemigo en la ZONA DE IMPULSO de este agente."
                     ],
                     "conditions": [
-                        "This operative cannot perform this action normally. Instead, it performs this action during the Fall Back or Reposition action after setting up from a BOOST."
+                        "Este agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante una acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO."
                     ]
                 }
             ]
@@ -750,7 +750,7 @@
             "opTypeId": "CHAOS-MW-RPT",
             "killteamId": "CHAOS-MW",
             "seq": 6,
-            "opTypeName": "Murderwing Raptor",
+            "opTypeName": "RAPAZ",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -762,7 +762,7 @@
                     "wepId": "CHAOS-MW-RPT-BP",
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -786,14 +786,14 @@
                     "wepId": "CHAOS-MW-RPT-PP",
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 2,
-                    "wepName": "Plasma Pistol",
+                    "wepName": "Pistola de plasma ",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-RPT-PP-0",
                             "wepId": "CHAOS-MW-RPT-PP",
                             "seq": 0,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/5",
@@ -812,7 +812,7 @@
                             "wepprofileId": "CHAOS-MW-RPT-PP-1",
                             "wepId": "CHAOS-MW-RPT-PP",
                             "seq": 1,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/5",
@@ -840,7 +840,7 @@
                     "wepId": "CHAOS-MW-RPT-CS",
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 3,
-                    "wepName": "Chainsword",
+                    "wepName": "Espada sierra",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -860,8 +860,8 @@
                 {
                     "abilityId": "CHAOS-MW-RPT-TOF",
                     "opTypeId": "CHAOS-MW-RPT",
-                    "abilityName": "Thrill Of Flight",
-                    "description": "Whenever this operative does a BOOST during its activation:\n- You can remove any changes to its APL stat.\n- You can ignore any changes to its stats from being injured (including its weapons' stats) until the end of the activation."
+                    "abilityName": "La excitación del vuelo",
+                    "description": " Siempre que este agente se dé un IMPULSO durante su activación:\n-  Puedes retirar cualesquiera cambios a su atributo LPA.\n-  Puedes ignorar cualesquiera cambios a sus atributos por estar lesionado (incluyendo los atributos de sus armas) hasta el final de la activación."
                 }
             ]
         },
@@ -869,7 +869,7 @@
             "opTypeId": "CHAOS-MW-SHR",
             "killteamId": "CHAOS-MW",
             "seq": 7,
-            "opTypeName": "Murderwing Shrieker",
+            "opTypeName": "ESTRIDENTE",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -881,7 +881,7 @@
                     "wepId": "CHAOS-MW-SHR-BP",
                     "opTypeId": "CHAOS-MW-SHR",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -905,7 +905,7 @@
                     "wepId": "CHAOS-MW-SHR-CS",
                     "opTypeId": "CHAOS-MW-SHR",
                     "seq": 2,
-                    "wepName": "Chainsword",
+                    "wepName": "Espada sierra",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -925,8 +925,8 @@
                 {
                     "abilityId": "CHAOS-MW-SHR-MVC",
                     "opTypeId": "CHAOS-MW-SHR",
-                    "abilityName": "Modified Vox-casters",
-                    "description": "Whenever an enemy operative is within 3\" of this operative, your opponent must spend 1 additional AP for that enemy operative to perform the Pick Up Marker and mission actions.\n\nWhenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of this operative. Note this isn't a change to the APL stat, so any changes are cumulative with this."
+                    "abilityName": "Vocoemisores modificados",
+                    "description": "Cuando un agente enemigo se encuentre a 3\" o menos de este agente, tu oponente debe gastar 1 PA adicional para que ese agente enemigo pueda realizar acciones de Recoger marcador o de misión.\n\nAl determinar el control de un marcador, considera el atributo LPA total de los agentes enemigos que lo estén disputando como si fuera 1 menos si al menos uno de esos agentes enemigos está a 3\" o menos de este agente. Ten en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio es acumulable con esto."
                 }
             ],
             "actions": [
@@ -935,16 +935,16 @@
                     "type": "ability",
                     "seq": 0,
                     "AP": 1,
-                    "name": "Shriek",
+                    "name": "ALARIDO",
                     "description": null,
                     "effects": [
-                        "Select one enemy operative that's visible to and within 6\" of this operative. Alternatively, select one enemy operative within this operative's BOOST ZONE (at which point this becomes a BOOST action).",
-                        "Inflict D3 damage on the selected operative and subtract 1 from its APL stat until the end of its next activation."
+                        "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Como alternativa, elige a un agente enemigo en la ZONA DE IMPULSO de este agente (con lo cual esta acción se convierte en una acción de IMPULSO). Si hay agentes enemigos en la zona de control de este agente, no puedes elegir a un agente enemigo que no lo esté",
+                        "Inflige 1D3 daños al agente elegido y resta 1 a su atributo LPA hasta el final de su siguiente activación."
                     ],
                     "conditions": [
-                        "If enemy operatives are within control range of this operative, you cannot select an enemy operative that isn't.",
-                        "This operative cannot perform this action while it has a Conceal order.",
-                        "If you're selecting an enemy operative within this operative's BOOST ZONE, this operative cannot perform this action normally. Instead, it performs this action during the Fall Back or Reposition action after setting up from a BOOST."
+                        "Si hay operativos enemigos dentro de la zona de control de este operativo, no puedes seleccionar a un operativo enemigo que no lo esté.",
+                        "Este agente no puede realizar esta acción mientras tenga una orden de ocultarse.",
+                        "Si estás eligiendo a un agente enemigo en la ZONA DE IMPULSO de este agente, este agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante una acción de Retroceder o Reposicionarse tras desplegarse debido a un IMPULSO."
                     ]
                 }
             ]
@@ -953,7 +953,7 @@
             "opTypeId": "CHAOS-MW-SKY",
             "killteamId": "CHAOS-MW",
             "seq": 8,
-            "opTypeName": "Murderwing Skysear",
+            "opTypeName": "IGNÍFERO",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -965,7 +965,7 @@
                     "wepId": "CHAOS-MW-SKY-BP",
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 1,
-                    "wepName": "Bolt Pistol",
+                    "wepName": "Pistola bólter",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -989,7 +989,7 @@
                     "wepId": "CHAOS-MW-SKY-FL",
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 2,
-                    "wepName": "Flamer",
+                    "wepName": "Lanzallamas",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -1020,7 +1020,7 @@
                     "wepId": "CHAOS-MW-SKY-MG",
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 3,
-                    "wepName": "Meltagun",
+                    "wepName": "Rifle de fusión",
                     "wepType": "R",
                     "profiles": [
                         {
@@ -1052,14 +1052,14 @@
                     "wepId": "CHAOS-MW-SKY-PG",
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 4,
-                    "wepName": "Plasma Gun",
+                    "wepName": "Rifle de plasma",
                     "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-PG-0",
                             "wepId": "CHAOS-MW-SKY-PG",
                             "seq": 0,
-                            "profileName": "Standard",
+                            "profileName": "Normal",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "4/6",
@@ -1074,7 +1074,7 @@
                             "wepprofileId": "CHAOS-MW-SKY-PG-1",
                             "wepId": "CHAOS-MW-SKY-PG",
                             "seq": 1,
-                            "profileName": "Supercharge",
+                            "profileName": "Sobrecarga",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "5/6",
@@ -1120,7 +1120,7 @@
             "opTypeId": "CHAOS-MW-WT",
             "killteamId": "CHAOS-MW",
             "seq": 9,
-            "opTypeName": "Murderwing Warp Talon",
+            "opTypeName": "ESPOLÓN DE LA DISFORMIDAD",
             "MOVE": "6\"",
             "APL": 3,
             "SAVE": "3+",
@@ -1132,7 +1132,7 @@
                     "wepId": "CHAOS-MW-WT-LC",
                     "opTypeId": "CHAOS-MW-WT",
                     "seq": 1,
-                    "wepName": "Lightning Claws",
+                    "wepName": "Garra relámpago",
                     "wepType": "M",
                     "profiles": [
                         {
@@ -1163,8 +1163,8 @@
                 {
                     "abilityId": "CHAOS-MW-WT-STV",
                     "opTypeId": "CHAOS-MW-WT",
-                    "abilityName": "Slice The Veil",
-                    "description": "When setting up this operative before the battle, you can set it up in the warp instead: place it to one side instead of in the killzone. In the first Firefight phase, when this operative is activated, place one of your Warp markers wholly within your territory, then expend this operative.\n\nIn the second Firefight phase, when this operative is activated, set it up with an order of your choice in a location it can be placed either wholly within your drop zone, or wholly within your territory contesting your Warp marker. Continue its activation as normal, but during that activation it cannot perform more than two actions and cannot use more than 4\" of move distance. Until the Ready step of the next Strategy phase, this operative is obscured to operatives more than 3\" from it.\n\nWhenever this operative is in the warp, it cannot be the ready friendly MURDERWING operative for the Malicious Narcissism firefight ploy."
+                    "abilityName": "Rajar el velo:",
+                    "description": " Al desplegar a este agente antes de la batalla, en lugar de ello puedes desplegarlo en la disformidad: sitúalo a un lado en lugar de en la zona de aniquilación. En la primera fase de tiroteo, cuando se active a este agente, coloca uno de tus marcadores de Disformidad completamente dentro de tu territorio, y a continuación este agente queda usado.\n\nEn la segunda fase de tiroteo, cuando actives a este agente, despliégalo con una orden de tu elección en una ubicación en la que pueda colocarse, o bien completamente dentro de tu zona de descenso, o completamente dentro de tu territorio disputando tu marcador de Disformidad. Continúa con su activación de manera normal, pero durante esa activación no puede realizar más de dos acciones y no puede usar más de 4\" de distancia de movimiento. Hasta el paso de preparación de la siguiente fase de estrategia, este agente está ofuscado para los agentes a más de 3\" de él.\n\nCuando este agente se encuentre en la disformidad, no puede ser el agente ALA ASESINA amigo apostado de cara al ardid de tiroteo Narcisismo malicioso."
                 }
             ]
         }
