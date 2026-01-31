@@ -35,7 +35,7 @@
             "ployType": "S",
             "seq": 3,
             "ployName": "MORDISCO DE LA TORMENTA",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté entu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3)."
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté en tu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3)."
         },
         {
             "ployId": "IMP-WS-S-SF",
@@ -74,8 +74,8 @@
             "killteamId": "IMP-WS",
             "ployType": "T",
             "seq": 8,
-            "ployName": "Transhuman Physiology",
-            "description": "Use this firefight ploy when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), in the Roll Defence Dice step. You can retain one of your normal successes as a critical success instead."
+            "ployName": "FISIOLOGÍA TRANSHUMANA",
+            "description": "Usa este ardid de tiroteo cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo, en el paso de tirar dados de defensa. Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
         }
     ],
     "equipments": [
