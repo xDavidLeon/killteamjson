@@ -132,7 +132,7 @@
     {
       "abilityId": "CHAOS-CULT-TA-HO",
       "abilityName": "Horned",
-      "description": "Whenever this operative ends its move during the Charge action, you can inflict 1 damage on one enemy operative within its control range."
+      "description": "Whenever this operative ends its move during the Charge action, you can inflict 1 damage on one enemy operative within its control range, or D3 damage instead if this operative is a TORMENT."
     },
     {
       "abilityId": "CHAOS-CULT-TA-SI",
@@ -142,7 +142,7 @@
     {
       "abilityId": "CHAOS-CULT-TA-BA",
       "abilityName": "Barbed",
-      "description": "Whenever this operative is fighting or retaliating:- Enemy operatives cannot assist.- The first time your strike during that sequence, also inflict 1 damage on each other enemy operative within this operative's control range."
+      "description": "Whenever this operative is fighting or retaliating:\n- Enemy operatives cannot assist.\n- The first time your strike during that sequence, also inflict 1 damage on each other enemy operative within this operative's control range, or D3 damage instead if this operative is a TORMENT (roll separately for each)."
     }
   ],
   "opTypes": [
