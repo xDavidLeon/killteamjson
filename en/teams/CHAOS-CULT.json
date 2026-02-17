@@ -110,6 +110,11 @@
   ],
   "teamAbilities": [
     {
+      "abilityId": "CHAOS-CULT-TA-MUT",
+      "abilityName": "Mutation",
+      "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules."
+    },
+    {
       "abilityId": "CHAOS-CULT-TA-ACGI",
       "abilityName": "Accursed Gifts",
       "description": "ACCURSED GIFTS are rules that friendly CHAOS CULT operatives gain when they turn into another operative type (see Mutation faction rule).\nThe first time a friendly DEVOTEE operative turns into a MUTANT operative during the battle, select your primary ACCURSED GIFT.\nThe first time a friendly MUTANT operative turns into a TORMENT operative during the battle, select your secondary ACCURSED GIFT.  \n\nAll friendly MUTANT operatives have your primary ACCURSED GIFT, and all friendly TORMENT operatives have your primary and secondary ACCURSED GIFTS. You cannot select the same ACCURSED GIFT more than once per battle."
@@ -236,14 +241,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-CULT-DEMA-A-MUT",
-          "opTypeId": "CHAOS-CULT-DEMA",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
-        }
-      ],
+      "abilities": [],
       "actions": [
         {
           "id": "CHAOS-CULT-DEMA-IS",
@@ -324,12 +322,6 @@
           "opTypeId": "CHAOS-CULT-BLBL",
           "abilityName": "Cut Them Down",
           "description": "Whenever an enemy operative performs the Fall Back action while within control range of this operative, you can use this rule.\nIf you do, inflict D3+1 damage on that enemy operative before it moves. If that enemy operative is within control range of two of these operatives, inflict 2D3+2 damage instead."
-        },
-        {
-          "abilityId": "CHAOS-CULT-BLBL-A-MUT",
-          "opTypeId": "CHAOS-CULT-BLBL",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
         }
       ]
     },
@@ -426,12 +418,6 @@
           "opTypeId": "CHAOS-CULT-ICON",
           "abilityName": "Icon Bearer",
           "description": "Whenever determining control of a marker, treat this operative's APL stat as 1 higher. Note this isn't a change to its APL stat, so any changes are cumulative with this."
-        },
-        {
-          "abilityId": "CHAOS-CULT-ICON-A-MUT",
-          "opTypeId": "CHAOS-CULT-ICON",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
         }
       ],
       "actions": [
@@ -521,14 +507,7 @@
           ]
         }
       ],
-      "abilities": [
-        {
-          "abilityId": "CHAOS-CULT-MW-A-MUT",
-          "opTypeId": "CHAOS-CULT-MW",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
-        }
-      ],
+      "abilities": [],
       "actions": [
         {
           "id": "CHAOS-CULT-MW-HD",
@@ -625,12 +604,6 @@
           "opTypeId": "CHAOS-CULT-DEV",
           "abilityName": "Group Activation",
           "description": "Whenever this operative is expended, you must then activate one other ready friendly CHAOS CULT DEVOTEE operative (if able) before your opponent activates.\nWhen that other operative is expended, your opponent then activates as normal (in other words, you cannot activate more than two operatives in succession with this rule)."
-        },
-        {
-          "abilityId": "CHAOS-CULT-DEV-A-MUT",
-          "opTypeId": "CHAOS-CULT-DEV",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
         }
       ]
     },
@@ -679,12 +652,6 @@
           "opTypeId": "CHAOS-CULT-MUT",
           "abilityName": "Accursed Mutant",
           "description": "This operative cannot perform unique actions. You must spend 1 additional AP for this operative to perform the Pick Up Marker and mission actions (excluding Operate Hatch)."
-        },
-        {
-          "abilityId": "CHAOS-CULT-MUT-A-MUT",
-          "opTypeId": "CHAOS-CULT-MUT",
-          "abilityName": "Mutate",
-          "description": "During the battle, friendly CHAOS CULT operatives can MUTATE as follows:\n\n- As a STRATEGIC GAMBIT, you can MUTATE a number of friendly CHAOS CULT operatives based on the turning point as follows: TP1 = 2, TP2 = 2, TP3 = 3, TP4+ = 4.\n- Whenever a friendly DEVOTEE operative incapacitates an enemy operative within its control range, it can MUTATE.\n- ach operative cannot MUTATE more than once per turning point.\n\n\nWhenever a friendly operative MUTATES, select one of the following:\n\n- If it's a DEVOTEE operative, turn it into a MUTANT operative.\n- If it's a MUTANT operative, turn it into a TORMENT operative (max twice per turning point).\n- It can regain up to D3+1 lost wounds.\n\n\nYou cannot have more than five MUTANT operatives and three TORMENT operatives at once. Whenever a friendly operative turns into a new operative:\n\n- Swap the miniatures, ensuring the centre of the new miniature's base is as close as possible to where the centre of the old miniature's base was. This can put it within control range of enemy operatives, and if the old miniature was, the new miniature must be if possible.\n- The new operative type loses a number of wounds equal to the lost wounds of its preceding operative type.\n- It's still the same operative for any rules it's already been selected for. The operative is simply a new operative type and will use that new type's miniature and datacard rules.\n"
         },
         {
           "abilityId": "CHAOS-CULT-MUT-A-UR",
