@@ -4,7 +4,7 @@
     "name": "Bases",
     "aliases": [],
     "category": "key_principle",
-    "text": "All operatives are on bases. The base is an important part of the miniature for rules purposes, in particular measuring distances. Each operative’s base size is specified on its datacard. The sides of different bases can touch, but a base cannot be placed on another. Friendly operatives can move through other friendly operatives (the base and the miniature), but not through enemy operatives. Bases cannot move through terrain, or be over the edge of the killzone. As you play through your first few games, you’ll gain better context for applying key principles, and can simply refer back to them when needed.",
+    "text": "Todos los operativos están en bases. La base es una parte importante de la miniatura para propósitos de reglas, en particular para medir distancias. El tamaño de la base de cada operativo se especifica en su ficha de datos. Los lados de diferentes bases pueden tocarse, pero una base no puede colocarse sobre otra. Los operativos amigos pueden moverse a través de otros operativos amigos (la base y la miniatura), pero no a través de operativos enemigos. Las bases no pueden moverse a través del terreno, ni estar sobre el borde de la zona de combate.",
     "examples": [],
     "tags": [
       "movement",
@@ -20,14 +20,14 @@
   },
   {
     "id": "control-range",
-    "name": "Control Range",
+    "name": "Rango de Control",
     "aliases": [],
     "category": "key_principle",
-    "text": "Many rules relate to control range such as moving, fighting and using cover. Something is within an operative’s control range if it’s visible to and within 1\" of that operative. Control range between operatives is mutual, therefore operatives are within each other’s control range if one of them is visible to and within 1\" of the other. Imagine control range as an area of interaction the operative has with things close to it.",
+    "text": "Muchas reglas se relacionan con el rango de control, como moverse, luchar y usar cobertura. Algo está dentro del rango de control de un operativo si es visible para ese operativo y está a 1\" de él. El rango de control entre operativos es mutuo, por lo tanto, los operativos están dentro del rango de control del otro si uno de ellos es visible para el otro y está a 1\" de él. Imagina el rango de control como un área de interacción que el operativo tiene con las cosas cercanas a él.",
     "examples": [
-      "Operatives A and B are within each other’s control range.",
-      "The terrain is within both operative B and C’s control range.",
-      "Because of the terrain, operative B is not visible to operative C, and vice versa, therefore they are not\nwithin each other’s control range."
+      "Los operativos A y B están dentro del rango de control mutuo.",
+      "El terreno está dentro del rango de control tanto del operativo B como del C.",
+      "Debido al terreno, el operativo B no es visible para el operativo C, y viceversa, por lo tanto no están\nen el rango de control mutuo."
     ],
     "tags": [
       "proximity",
@@ -42,15 +42,15 @@
   },
   {
     "id": "cover",
-    "name": "Cover",
+    "name": "Cobertura",
     "aliases": [],
     "category": "key_principle",
-    "text": "Cover is determined from one operative to another, usually when one of them is shooting. An operative is in cover if there’s intervening terrain within its control range. However, it cannot be in cover within 2\" of the other operative. Intervening is explained here. An operative in cover with a Conceal order is not a valid target. An operative in cover with an Engage order is a valid target, but has a cover save (see Shoot action here).",
+    "text": "La cobertura se determina de un operativo a otro, normalmente cuando uno de ellos está disparando. Un operativo está en cobertura si hay terreno intermedio dentro de su rango de control. Sin embargo, no puede estar en cobertura a menos de 2\" del otro operativo. Intermedio se explica aquí. Un operativo en cobertura con una orden de Ocultar no es un objetivo válido. Un operativo en cobertura con una orden de Entrar en Combate es un objetivo válido, pero tiene una salvación por cobertura (ver acción Disparar aquí).",
     "examples": [
-      "There’s intervening terrain within operative A’s control range, therefore it’s in cover.",
-      "There’s intervening terrain, but it’s not within operative A’s control range, therefore it’s not in cover.",
-      "There’s terrain within operative A’s control range, but the terrain is not intervening, therefore it’s not in\ncover.",
-      "There’s intervening terrain within operative A’s control range, but operative B is within 2\" of operative A,\ntherefore it’s not in cover."
+      "Hay terreno intermedio dentro del rango de control del operativo A, por lo tanto está en cobertura.",
+      "Hay terreno intermedio, pero no está dentro del rango de control del operativo A, por lo tanto no está en cobertura.",
+      "Hay terreno dentro del rango de control del operativo A, pero el terreno no es intermedio, por lo tanto no está en cobertura.",
+      "Hay terreno intermedio dentro del rango de control del operativo A, pero el operativo B está a menos de 2\" del operativo A, por lo tanto no está en cobertura."
     ],
     "tags": [
       "terrain",
@@ -67,10 +67,10 @@
   },
   {
     "id": "damage",
-    "name": "Damage",
+    "name": "Daño",
     "aliases": [],
     "category": "key_principle",
-    "text": "When damage is inflicted on an operative, reduce their wounds by that amount. An operative’s starting number of wounds is determined by its Wounds stat (see datacards). If an operative’s wounds are reduced to 0 or less, it’s incapacitated, then removed from the killzone. While an operative has fewer than its starting wounds remaining, it’s wounded. While it has fewer than half its starting wounds remaining, it’s also injured. Subtract 2\" from the Move stat of injured operatives and worsen the Hit stat of their weapons by 1. Keep track of each operative’s remaining wounds with dice, tokens or by writing it down. ‘Incapacitated’ and ‘removed from the killzone’ are separate. Some rules take effect when an operative is incapacitated, but before it’s removed.",
+    "text": "Cuando se inflige daño a un operativo, reduce sus heridas en esa cantidad. El número inicial de heridas de un operativo se determina por su estadística de Heridas (ver fichas de datos). Si las heridas de un operativo se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un operativo tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los operativos lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada operativo con dados, fichas o escribiéndolo. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un operativo queda incapacitado, pero antes de ser retirado.",
     "examples": [],
     "tags": [
       "wounds",
@@ -84,10 +84,10 @@
   },
   {
     "id": "datacard",
-    "name": "Datacard",
+    "name": "Ficha de Datos",
     "aliases": [],
     "category": "key_principle",
-    "text": "Datacards contain specific rules for each operative, including key stats.",
+    "text": "Las fichas de datos contienen reglas específicas para cada operativo, incluyendo estadísticas clave.",
     "examples": [],
     "tags": [
       "reference",
@@ -101,13 +101,13 @@
   },
   {
     "id": "dice",
-    "name": "Dice",
+    "name": "Dados",
     "aliases": [
       "D6",
       "D3"
     ],
     "category": "key_principle",
-    "text": "Use 6-sided dice to determine the outcome of various rules. This will often require x+, where x is the lowest possible result, e.g., 3+. Sometimes a result within a range will be required, e.g., 1-3. Some rare rules require you to roll a D3. To do so, roll one D6 and halve the result (rounding up). Some require xD6 or xD3 (e.g., 2D6 or 3D3). Roll x number of dice and add the results together. Some require D6+x or D3+x (e.g., D6+2 or D3+3). Roll that dice and add x to the result. Some rules allow you to re-roll a dice roll. You can never re-roll a dice roll more than once, and you cannot select the original result, even if the new result is worse. If it’s an attack or defence dice, you re-roll before it’s retained or discarded. If you can re-roll multiple different dice, you can do this in any order, including seeing the result of one re-roll before deciding on the next. If multiple players can re-roll dice at the same time (e.g., during a Fight action), they alternate either re-rolling a dice or passing until they both pass in succession, starting with the player with initiative (this takes precedence over initiative and rules that would happen at the same time).",
+    "text": "Se utilizan dados de 6 caras para determinar el resultado de varias reglas. Esto a menudo requerirá x+, donde x es el resultado más bajo posible, por ejemplo, 3+. A veces se requerirá un resultado dentro de un rango, por ejemplo, 1-3. Algunas reglas raras requieren que tires un D3. Para hacerlo, tira un D6 y divide el resultado por la mitad (redondeando hacia arriba). Algunas requieren xD6 o xD3 (por ejemplo, 2D6 o 3D3). Tira x número de dados y suma los resultados. Algunas requieren D6+x o D3+x (por ejemplo, D6+2 o D3+3). Tira ese dado y suma x al resultado. Algunas reglas te permiten repetir una tirada de dado. Nunca puedes repetir una tirada de dado más de una vez, y no puedes seleccionar el resultado original, incluso si el nuevo resultado es peor. Si es un dado de ataque o defensa, lo repites antes de que se retenga o se descarte. Si puedes repetir varios dados diferentes, puedes hacerlo en cualquier orden, incluso viendo el resultado de una repetición antes de decidir la siguiente. Si varios jugadores pueden repetir dados al mismo tiempo (por ejemplo, durante una acción de Luchar), alternan entre repetir un dado o pasar hasta que ambos pasen sucesivamente, comenzando con el jugador con iniciativa (esto tiene prioridad sobre la iniciativa y las reglas que sucederían al mismo tiempo).",
     "examples": [
       "For example, if a 4+ is required, a dice result of 4, 5 or 6 fulfils this, and if a 1-4 is required, a dice result of\n1, 2, 3 or 4 fulfils this."
     ],
@@ -121,10 +121,10 @@
   },
   {
     "id": "distance",
-    "name": "Distance",
+    "name": "Distancia",
     "aliases": [],
     "category": "key_principle",
-    "text": "Various rules have a distance requirement in inches. When measuring to and from something, do so from the closest part of it. For an operative, do so from its base, ignoring all parts of its miniature. When measuring to and from an area of the killzone, measure the horizontal distance only (in other words, look from above to ignore the vertical distance). If a rule requires something to be ‘within’ a distance, the requirement is fulfilled if any part of it is that distance or less. If a rule requires something to be ‘wholly within’ a distance, the requirement is fulfilled if every part of it is that distance or less. An operative is always within and wholly within distance requirements of itself and a marker it’s carrying. If an operative is carrying a marker, that marker is the same distance as that operative. Operatives within a certain distance of an operative that’s carrying a marker are also within the same distance of that marker.",
+    "text": "Varias reglas tienen un requisito de distancia en pulgadas. Al medir hacia y desde algo, hágalo desde la parte más cercana de ello. Para un operativo, hágalo desde su base, ignorando todas las partes de su miniatura. Al medir hacia y desde un área de la zona de combate, mida solo la distancia horizontal (en otras palabras, mire desde arriba para ignorar la distancia vertical). Si una regla requiere que algo esté 'dentro' de una distancia, el requisito se cumple si alguna parte de ello está a esa distancia o menos. Si una regla requiere que algo esté 'totalmente dentro' de una distancia, el requisito se cumple si cada parte de ello está a esa distancia o menos. Un operativo siempre está dentro y totalmente dentro de los requisitos de distancia de sí mismo y de un marcador que lleva. Si un operativo lleva un marcador, ese marcador está a la misma distancia que ese operativo. Los operativos dentro de una cierta distancia de un operativo que lleva un marcador también están dentro de la misma distancia de ese marcador.",
     "examples": [
       "Distance measuring example: Operative B is within 2\" of operative A. The objective marker is within 2\"\nof operative A. Operative C is wholly within 2\" of operative A."
     ],
@@ -139,10 +139,10 @@
   },
   {
     "id": "equipment",
-    "name": "Equipment",
+    "name": "Equipo",
     "aliases": [],
     "category": "key_principle",
-    "text": "Equipment are additional rules you can select before the battle, as specified in your game sequence (see equipment). Universal equipment can be selected for any kill team whereas faction equipment is specific. Each player cannot select each equipment option more than once per game.",
+    "text": "El equipo son reglas adicionales que puedes seleccionar antes de la batalla, como se especifica en tu secuencia de juego (ver equipo). El equipo universal se puede seleccionar para cualquier equipo de matar, mientras que el equipo de facción es específico. Cada jugador no puede seleccionar cada opción de equipo más de una vez por juego.",
     "examples": [],
     "tags": [
       "pre-battle",
@@ -154,14 +154,14 @@
   },
   {
     "id": "intervening",
-    "name": "Intervening",
+    "name": "Interviniente",
     "aliases": [],
     "category": "key_principle",
-    "text": "Rules such as cover and obscured require you to determine if something is intervening, e.g., terrain. Most of the time this is easily determined – if it’s between the operative and the intended target, it’s intervening. Sometimes this will be unclear, so we use targeting lines. To use targeting lines, the operative’s player draws imaginary straight lines 1mm in diameter from any point of its base to every facing part of the intended target’s base. Anything at least one of these lines cross is intervening. Anything all of these lines cross is wholly intervening. The operative’s player decides from which point of the base targeting lines are drawn from. This can allow the operative to get a more favourable targeting angle — imagine the operative leaning right or left as appropriate. Intervening is usually determined from one operative to another, but some rare rules will require you to determine it from other things such as markers. In such instances, treat all parts of that thing as the ‘base’ when determining this. Most commonly, targeting lines can be drawn in a two-dimensional (top down) manner for ease. However, if there’s a difference in height between the operatives (e.g., one of them is on Vantage terrain), targeting lines should be drawn in a three-dimensional manner. None of these targeting lines cross terrain feature A, therefore it’s not intervening.",
+    "text": "Reglas como Cobertura y Oscurecido requieren determinar si algo es interviniente, por ejemplo, terreno. La mayor parte del tiempo esto se determina fácilmente: si está entre el operativo y el objetivo previsto, está interviniente. A veces esto no está claro, por lo que usamos líneas de puntería. Para usar líneas de puntería, el jugador del operativo dibuja líneas rectas imaginarias de 1 mm de diámetro desde cualquier punto de su base hasta cada parte frontal de la base del objetivo previsto. Cualquier cosa que al menos una de estas líneas cruce está interviniente. Cualquier cosa que todas estas líneas crucen está totalmente interviniente. El jugador del operativo decide desde qué punto de la base se dibujan las líneas de puntería. Esto puede permitir al operativo obtener un ángulo de puntería más favorable: imagine al operativo inclinándose a la derecha o a la izquierda según corresponda. La intervención generalmente se determina de un operativo a otro, pero algunas reglas raras requerirán que la determine a partir de otras cosas, como marcadores. En tales casos, trate todas las partes de esa cosa como la 'base' al determinar esto. Más comúnmente, las líneas de puntería se pueden dibujar en un plano bidimensional (de arriba hacia abajo) para facilitar. Sin embargo, si hay una diferencia de altura entre los operativos (por ejemplo, uno de ellos está en terreno de Vantage), las líneas de puntería deben dibujarse en un plano tridimensional. Ninguna de estas líneas de puntería cruza la característica del terreno A, por lo tanto, no es interviniente.",
     "examples": [
-      "Targeting lines cross terrain, therefore it’s intervening.",
-      "Due to where operative A’s player has decided to draw the targeting lines from, the terrain is not intervening.",
-      "None of these targeting lines cross terrain feature A, therefore it’s not intervening."
+      "Las líneas de puntería cruzan el terreno, por lo tanto, es interviniente.",
+      "Debido a dónde ha decidido el jugador del operativo A dibujar las líneas de puntería, el terreno no es interviniente.",
+      "Ninguna de estas líneas de puntería cruza la característica del terreno A, por lo tanto, no es interviniente."
     ],
     "tags": [
       "terrain",
@@ -176,10 +176,10 @@
   },
   {
     "id": "keyword",
-    "name": "Keyword",
+    "name": "Clave",
     "aliases": [],
     "category": "key_principle",
-    "text": "Keywords are an identification method for certain rules. You will most commonly use keywords with operatives (see datacards) – some rules will only affect operatives with the relevant keywords. Some rare rules also have keywords, e.g., SUPPORT or STRATEGIC GAMBIT. These keywords mean nothing on their own, but other rules interact with them. Keywords are shown in KEYWORD BOLD font. Those in orange with a skull symbol, e.g., TEMPESTUS AQUILON, are faction keywords used to identify all operatives/rules from that kill team.",
+    "text": "Las palabras clave son un método de identificación para ciertas reglas. Usarás palabras clave con más frecuencia con los operativos (ver datacards), ya que algunas reglas solo afectarán a los operativos con las palabras clave relevantes. Algunas reglas raras también tienen palabras clave, por ejemplo, SOPORTE o GÁMBITO ESTRATÉGICO. Estas palabras clave no significan nada por sí mismas, pero otras reglas interactúan con ellas. Las palabras clave se muestran en fuente NEGRITA DE PALABRA CLAVE. Las que están en naranja con un símbolo de calavera, por ejemplo, TEMPESTUS AQUILON, son palabras clave de facción utilizadas para identificar a todos los operativos/reglas de ese equipo de matar.",
     "examples": [],
     "tags": [
       "identifiers",
@@ -192,12 +192,12 @@
   },
   {
     "id": "marker",
-    "name": "Marker",
+    "name": "Marcador",
     "aliases": [],
     "category": "key_principle",
-    "text": "Markers are placed in precise locations (this must be a location in which they can be placed) and impact the game and operatives around them. They can be placed underneath operatives (temporarily remove operatives to do so), and operatives can be placed upon them. Objective markers are 40mm in diameter. All other markers are 20mm in diameter. Some markers are known as mission markers. This means nothing on its own, but other rules interact with it. Operatives contest markers within their control range. Friendly operatives control a marker if the total APL of those contesting it is greater than that of enemy operatives, but control cannot change during an action. While an operative is carrying a marker (see Pick Up Marker here), it contests and controls that marker, and is the only operative that can. Objective markers are the most common marker, representing vital locations in the killzone. Controlling them is often required to achieve victory. It’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules issues (e.g., it’s too big).",
+    "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los operativos a su alrededor. Se pueden colocar debajo de los operativos (retire temporalmente a los operativos para hacerlo), y los operativos se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los operativos disputan los marcadores dentro de su rango de control. Los operativos amigos controlan un marcador si el APL total de los que lo disputan es mayor que el de los operativos enemigos, pero el control no puede cambiar durante una acción. Mientras un operativo lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único operativo que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de matar. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
     "examples": [
-      "Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the orange operative on the left (the terrain feature prevents it from being visible). The total APL of the orange operatives contesting the objective marker is 2. The total APL of the white operatives contesting it is 4, so they control it."
+      "Ejemplo de marcadores en juego. Solo tres operativos disputan el marcador de objetivo, ya que no está dentro del rango de control del operativo naranja de la izquierda (la característica del terreno evita que sea visible). El APL total de los operativos naranjas que disputan el marcador de objetivo es 2. El APL total de los operativos blancos que lo disputan es 4, por lo que lo controlan."
     ],
     "tags": [
       "objectives",
@@ -212,14 +212,14 @@
   },
   {
     "id": "obscured",
-    "name": "Obscured",
+    "name": "Oscurecido",
     "aliases": [],
     "category": "key_principle",
-    "text": "Obscured is determined from one operative to another, usually when one of them is shooting. An operative is obscured if there’s intervening Heavy terrain that’s more than 1” from both operatives. However, it cannot be obscured by intervening Heavy terrain that’s within 1” of either operative. Intervening is explained here. When an operative is shooting, if the target operative is obscured: The attacker must discard one success of their choice instead of retaining it. All the attacker’s critical successes are retained as normal successes and cannot be changed to critical successes (this takes precedence over all other rules). Obscured is when an operative is a valid target, but intervening obstacles (usually terrain) make it a less efficient target. Imagine the operative having to target the enemy through a ruin or distant window. In other words, an operative being within 1\" of a terrain feature doesn’t prevent the whole terrain feature from being obscuring, only the part within 1\" of the operative.",
+    "text": "Oscurecido se determina de un operativo a otro, normalmente cuando uno de ellos está disparando. Un operativo está oscurecido si hay terreno pesado interviniente que está a más de 1\" de ambos operativos. Sin embargo, no puede estar oscurecido por terreno pesado interviniente que esté a 1\" de cualquiera de los operativos. Cuando un operativo está disparando, si el operativo objetivo está oscurecido: El atacante debe descartar un éxito de su elección en lugar de conservarlo. Todos los éxitos críticos del atacante se conservan como éxitos normales y no se pueden cambiar a éxitos críticos (esto tiene prioridad sobre todas las demás reglas). \nOscurecido es cuando un operativo es un objetivo válido, pero los obstáculos intervinientes (normalmente terreno) lo convierten en un objetivo menos eficiente. Imagina que el operativo tiene que apuntar al enemigo a través de una ruina o una ventana distante. En otras palabras, que un operativo esté a 1\" de una característica del terreno no impide que toda la característica del terreno sea oscurecedora, solo la parte a 1\" del operativo.",
     "examples": [
-      "Operative B is visible to operative A through a window. However, there’s intervening Heavy terrain more than 1” from both operatives, therefore operative B is obscured.",
-      "There’s intervening Heavy terrain, but it’s within 1” of A, therefore operative B is not obscured.",
-      "There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured."
+      "El operativo B es visible para el operativo A a través de una ventana. Sin embargo, hay terreno pesado interviniente a más de 1\" de ambos operativos, por lo que el operativo B está oscurecido.",
+      "Hay terreno pesado interviniente, pero está a 1\" de A, por lo que el operativo B no está oscurecido.",
+      "Hay terreno pesado interviniente. Si bien partes de él están a 1\" de los operativos, parte de él no lo está, por lo que el operativo B está oscurecido."
     ],
     "tags": [
       "terrain",
@@ -235,10 +235,10 @@
   },
   {
     "id": "operative",
-    "name": "Operative",
+    "name": "Operativo",
     "aliases": [],
     "category": "key_principle",
-    "text": "Operatives are the Citadel miniatures used in the game. Your operatives are friendly operatives, and your opponent’s operatives are enemy operatives.",
+    "text": "Operativos son las miniaturas de Citadel utilizadas en el juego. Tus operativos son operativos amigos, y los operativos de tu oponente son operativos enemigos.",
     "examples": [],
     "tags": [
       "core",
@@ -252,10 +252,10 @@
   },
   {
     "id": "order",
-    "name": "Order",
+    "name": "Orden",
     "aliases": [],
     "category": "key_principle",
-    "text": "An order is a state that an operative can have. It can be Conceal or Engage. Operatives are given a Conceal order when they are set up before the battle. You can change an operative’s order whenever it’s activated. Order tokens have two sides. The lighter side shows an operative is ready (it can be activated in the Firefight phase) and the darker side shows an operative is expended (it has been activated in the Firefight phase).",
+    "text": "Una orden es un estado que puede tener un operativo. Puede ser orden de Ocultarse o orden de Trabarse. A los operativos se les da una orden de Ocultarse cuando se colocan antes de la batalla. Puedes cambiar la orden de un operativo cada vez que se activa. Las fichas de orden tienen dos caras. El lado más claro muestra que un operativo está listo (puede ser activado en la fase de Tiroteo) y el lado más oscuro muestra que un operativo está gastado (ha sido activado en la fase de Tiroteo).",
     "examples": [],
     "tags": [
       "stealth",
@@ -269,10 +269,10 @@
   },
   {
     "id": "order-conceal",
-    "name": "Conceal",
+    "name": "Oculto",
     "aliases": [],
     "category": "key_principle",
-    "text": "The operative cannot perform Shoot and Charge actions, and it cannot counteract. However, it’s not a valid target while it’s in cover.",
+    "text": "El operativo no puede realizar acciones de Disparar y Cargar, y no puede Reaccionar. Sin embargo, no es un objetivo válido mientras está en cobertura.",
     "examples": [],
     "tags": [
       "stealth",
@@ -286,10 +286,10 @@
   },
   {
     "id": "order-engage",
-    "name": "Engage",
+    "name": "Trabado",
     "aliases": [],
     "category": "key_principle",
-    "text": "The operative can perform actions as normal and can counteract.",
+    "text": "El operativo puede realizar acciones como de costumbre y puede Reaccionar.",
     "examples": [],
     "tags": [
       "engagement"
@@ -300,11 +300,13 @@
   },
   {
     "id": "ploy",
-    "name": "Ploy",
+    "name": "Gámbito",
     "aliases": [],
     "category": "key_principle",
-    "text": "Players can spend CP on ploys to gain rules bonuses at the opportune moment. Unless otherwise specified, all ploys cost 1CP. There are two types of ploys: Every strategy ploy is a STRATEGIC GAMBIT (used in the Gambit step of the Strategy phase). Some apply rules that are resolved “immediately”; otherwise, they apply rules that last until the end of the turning point. Firefight ploys are used in the Firefight phase and apply rules as the ploy specifies. All players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s rules. Other than Command Re-roll, each player cannot use each ploy more than once per turning point.",
-    "examples": [],
+    "text": "Los jugadores pueden gastar CP en gámbitos para obtener bonificaciones de reglas en el momento oportuno. A menos que se especifique lo contrario, todos los gámbitos cuestan 1 CP. Hay dos tipos de gámbitos: Cada gambito de estrategia es un GÁMBITO ESTRATÉGICO (se usa en el paso de Gambito de la fase de Estrategia). Algunos aplican reglas que se resuelven “inmediatamente”; de lo contrario, aplican reglas que duran hasta el final del punto de giro. Los gámbitos de tiroteo se utilizan en la fase de Tiroteo y aplican reglas según especifique el gámbito. Todos los jugadores tienen acceso al gámbito de tiroteo Repetición de Mando a continuación y a los gámbitos de las reglas de su equipo de matar. Aparte de la Repetición de Mando, cada jugador no puede usar cada gámbito más de una vez por punto de giro.",
+    "examples": [
+      "Repetición de Mando: Usa este ardid de tiroteo después de tirar tus dados de ataque o de defensa. Puedes repetir uno de esos dados."
+    ],
     "tags": [
       "command-points",
       "tactics"
@@ -317,10 +319,10 @@
   },
   {
     "id": "precedence",
-    "name": "Precedence",
+    "name": "Precedencia",
     "aliases": [],
     "category": "key_principle",
-    "text": "Some rare rules will conflict with each other, so it must be established which takes precedence. In order of priority, a rule takes precedence if: 1. It specifically says so. 2. The online designer’s commentary says so. 3. It’s not found in the core book (i.e., other rules take precedence over core book rules). 4. It says \"cannot\". 5. The player with initiative decides.",
+    "text": "Algunas reglas raras entrarán en conflicto entre sí, por lo que debe establecerse cuál tiene prioridad. En orden de prioridad, una regla tiene prioridad si: 1. Lo dice específicamente. 2. El comentario del diseñador en línea lo dice. 3. No se encuentra en el libro básico (es decir, otras reglas tienen prioridad sobre las reglas del libro básico). 4. Dice \"no puede\". 5. El jugador con iniciativa decide.",
     "examples": [],
     "tags": [
       "rules",
@@ -332,10 +334,10 @@
   },
   {
     "id": "roll-off",
-    "name": "Roll-Off",
+    "name": "Tirada enfrentada",
     "aliases": [],
     "category": "key_principle",
-    "text": "If a rule requires a roll-off, both players roll one D6 and whoever has the highest wins the roll-off. If there’s a tie, roll-off again.",
+    "text": "Si una regla requiere una tirada enfrentada, ambos jugadores tiran un D6 y quien obtenga el mayor gana la tirada enfrentada. Si hay empate, vuelven a tirar.",
     "examples": [],
     "tags": [
       "dice",
@@ -347,10 +349,10 @@
   },
   {
     "id": "token",
-    "name": "Token",
+    "name": "Ficha",
     "aliases": [],
     "category": "key_principle",
-    "text": "Tokens are used to help you keep track of rules effects. They are often placed next to the relevant operative, but can be moved to make space for other operatives and markers as necessary. They are removed when the tracked rules effect ends.",
+    "text": "Las fichas se utilizan para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al operativo correspondiente, pero se pueden mover para dejar espacio a otros operativos y marcadores según sea necesario. Se retiran cuando termina el efecto de la regla que se está rastreando.",
     "examples": [],
     "tags": [
       "tracking",
@@ -364,10 +366,10 @@
   },
   {
     "id": "valid-target",
-    "name": "Valid Target",
+    "name": "Objetivo válido",
     "aliases": [],
     "category": "key_principle",
-    "text": "Some rules require you to select a valid target for an operative. This is most common when an operative is shooting, but some rare rules require it too. If the intended target has an Engage order, it’s a valid target if it’s visible to the operative. If the intended target has a Conceal order, it’s a valid target if it’s visible to the operative and not in cover.",
+    "text": "Algunas reglas requieren que selecciones un objetivo válido para un operativo. Esto es más común cuando un operativo está disparando, pero algunas reglas raras también lo requieren. Si el objetivo previsto tiene una orden de Trabarse, es un objetivo válido si es visible para el operativo. Si el objetivo previsto tiene una orden de Ocultarse, es un objetivo válido si es visible para el operativo y no está en cobertura.",
     "examples": [],
     "tags": [
       "shooting",
@@ -384,7 +386,7 @@
     "name": "Visible",
     "aliases": [],
     "category": "key_principle",
-    "text": "For something to be visible, the operative must be able to see it. To check visibility, look from behind the operative and determine if you can draw an unobstructed straight line 1mm in diameter from its head to any part of what it’s trying to see. Ignore operatives’ bases when determining this. An operative is always visible to itself. The enemy operative is visible in both images below, even when partially behind the nearby ruin.",
+    "text": "Para que algo sea visible, el operativo debe poder verlo. Para comprobar la visibilidad, mira desde detrás del operativo y determina si puedes trazar una línea recta sin obstáculos de 1 mm de diámetro desde su cabeza hasta cualquier parte de lo que intenta ver. Ignora las bases de los operativos al determinar esto. Un operativo es siempre visible para sí mismo. El operativo enemigo es visible en ambas imágenes a continuación, incluso cuando está parcialmente detrás de la ruina cercana.",
     "examples": [
       "Full visibility example.",
       "Partial visibility example."
@@ -402,10 +404,10 @@
   },
   {
     "id": "killzone-floor",
-    "name": "Killzone Floor",
+    "name": "Suelo de la Zona de Combate",
     "aliases": [],
     "category": "key_principle",
-    "text": "The killzone floor is the lowest level of the killzone (i.e., the game board). Anything that’s on a marker that’s on the killzone floor is also on the killzone floor.",
+    "text": "El suelo de la zona de combate es el nivel más bajo de la zona de combate (es decir, el tablero de juego). Cualquier cosa que esté sobre un marcador que esté en el suelo de la zona de combate también está en el suelo de la zona de combate.",
     "examples": [],
     "tags": [
       "terrain",
@@ -418,10 +420,10 @@
   },
   {
     "id": "classified",
-    "name": "Classified",
+    "name": "Clasificado",
     "aliases": [],
     "category": "key_principle",
-    "text": "When planning your tournament, you must determine if it will be using the Classified format. We recommend making your tournament Classified if your prizes for winning include a ticket to the World Championships of Warhammer. In all other tournament settings, you may allow play of all kill teams with 3rd edition rules. Classified teams can be played in Classified format tournaments. Teams that are not Classified will continue to receive regular Rules Updates – balance updates, designer’s commentaries and erratas – and will be balanced throughout the current edition of Kill Team",
+    "text": "Al planificar tu torneo, debes determinar si utilizará el formato Clasificado. Recomendamos que tu torneo sea Clasificado si tus premios por ganar incluyen un billete para el Campeonato Mundial de Warhammer. En todos los demás entornos de torneo, puedes permitir el juego de todos los equipos con las reglas de la 3ª edición. Los equipos clasificados se pueden jugar en torneos de formato clasificado. Los equipos que no son clasificados continuarán recibiendo actualizaciones de reglas regulares – actualizaciones de equilibrio, comentarios del diseñador y erratas – y se equilibrarán durante toda la edición actual de Kill Team",
     "examples": [],
     "tags": [
       "tournaments"
@@ -432,10 +434,10 @@
   },
   {
     "id": "season",
-    "name": "Season",
+    "name": "Temporada",
     "aliases": [],
     "category": "key_principle",
-    "text": "A season typically lasts around 12 months and refers to a period during which specific kill teams are available for play and receive regular updates to their rules. Each season allows players to enjoy a balanced and manageable range of teams while new content is introduced.",
+    "text": "Una temporada suele durar alrededor de 12 meses y se refiere a un período durante el cual equipos específicos están disponibles para jugar y reciben actualizaciones regulares de sus reglas. Cada temporada permite a los jugadores disfrutar de una gama equilibrada y manejable de equipos mientras se introduce nuevo contenido.",
     "examples": [],
     "tags": [
       "seasons"
