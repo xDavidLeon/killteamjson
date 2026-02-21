@@ -187,11 +187,11 @@
       "name": "Moverse con Barricada",
       "description": null,
       "effects": [
-        "gual que la acción de Reposicionarse, excepto que el agente activo no puede moverse más que su atributo de Movimiento menos 2\", no puede trepar, dejarse caer, saltar o utilizar cualquier regla de facción que lo quite de la zona de aniquilación y volver a desplegarla (ej. SUCESORES RECUPERADORES VOLAR, MANDRÁGORAS PASO COMBRÍO).",
+        "Igual que la acción de Reposición, excepto que el agente activo no puede moverse más que su atributo de Movimiento menos 2\", no puede trepar, dejarse caer, saltar o utilizar cualquier regla de facción que lo quite de la zona de aniquilación y volver a desplegarla (ej. SUCESORES RECUPERADORES VOLAR, MANDRÁGORAS PASO COMBRÍO).",
         "Antes de que este agente se mueva, retira la barricada portátil a la que está conectado. Tras haber movido al agente, vuelve a colocar la barricada portátil de manera que quede de nuevo conectada a él, pero la barricada portátil no puede desplegarse a 2\" o menos de otros elementos de terreno de equipo, puntos de acceso o terreno accesible. Si esto no es posible, la barricada portátil no se vuelve a desplegar."
       ],
       "conditions": [
-        "Esta acción se considera una acción de Reposicionarse. Un agente no puede realizar la acción de Moverse con Barricada en el mismo punto de inflexión en que ha realizado una acción de Retroceder o Cargar."
+        "Esta acción se considera una acción de Reposición. Un agente no puede realizar la acción de Moverse con Barricada en el mismo punto de inflexión en que ha realizado una acción de Retroceder o Cargar."
       ]
     },
     {

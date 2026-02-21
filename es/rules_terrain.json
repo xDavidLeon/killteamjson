@@ -285,12 +285,12 @@
       "category": "terrain_rule",
       "text": "Un muro del Horcasombría es un elemento de terreno Pesado y Muro. Algunos muros incluyen una escotilla, que se \nexplican en la pág. 69.\n\nTerreno Muro:\n\nLos agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado (ver ejemplos en las págs. 67-68).",
       "examples": [
-        "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Gallowdark wall. This would make operative A\nmore than 3” from operative B.",
-        "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
-        "A corner of the wall is intervening, therefore operative B is in cover.",
-        "Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in\ncover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be\nintervening and operative B would be in cover.",
-        "An end of the wall is intervening, therefore operative B is in cover.",
-        "As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives,\ntherefore operative B is obscured."
+        "El agente A normalmente estaría a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Horcasombría. Esto haría que el agente A estuviera a más de 3” del agente B.",
+        "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
+        "Una esquina del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "El agente A ha pasado la esquina del muro, por lo tanto no es interpuesto y el agente B no está en cobertura. Ten en cuenta que si el agente A estuviera completamente en el lado izquierdo de la línea negra punteada, el muro sería interpuesto y el agente B estaría en cobertura.",
+        "Un final del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "Como la escotilla está abierta, un final del muro es interpuesto. Está a más de 1” de ambos agentes, por lo tanto el agente B está ofuscado."
       ],
       "actions": [],
       "tags": [
@@ -668,12 +668,12 @@
       "category": "terrain_rule",
       "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla (pág. 55) o un punto de brecha (pág. 56).\n\nTerreno de muro:\n\nLos agentes no pueden moverse por encima o a través de terreno de muro (esto tiene preferencia sobre todas las demás reglas).\n\nLa visibilidad no puede determinarse por encima o a través de terreno de muro.\n\nAparte de hacia áreas de la zona de aniquilación (el centro de la zona de aniquilación, las zonas de descenso, etc), no se pueden medir distancias por encima o a través de terreno de muro; deben medirse rodeándolo por la ruta más corta posible.\n\nA efectos de la cobertura y el ofuscamiento, solo las esquinas y los finales de un terreno de muro pueden interponerse, a menos que el agente activo los haya superado (ver ejemplos en la pág. 54).",
       "examples": [
-        "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Tomb World wall. This would make operative A\nmore than 3” from operative B.",
-        "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
-        "A corner of the wall is intervening, therefore operative B is in cover.",
-        "Operative A has passed the corner of the wall, therefore it’s not intervening and operative B is not in\ncover. Note that if operative A was wholly on the left side of the dotted black line, the wall would be\nintervening and operative B would be in cover.",
-        "An end of the wall is intervening, therefore operative B is in cover.",
-        "As the hatchway is open, an end of the wall is intervening. It’s more than 1” from both operatives,\ntherefore operative B is obscured."
+        "El agente A estaría normalmente a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Mundo Necrópolis. Esto haría que el agente A estuviera a más de 3” del agente B.",
+        "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
+        "Una esquina del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "El agente A ha pasado la esquina del muro, por lo tanto no es interpuesto y el agente B no está en cobertura. Ten en cuenta que si el agente A estuviera completamente en el lado izquierdo de la línea negra punteada, el muro sería interpuesto y el agente B estaría en cobertura.",
+        "Un final del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "Como la escotilla está abierta, un final del muro es interpuesto. Está a más de 1” de ambos agentes, por lo tanto el agente B está ofuscado."
       ],
       "actions": [],
       "tags": [

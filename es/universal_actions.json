@@ -5,7 +5,11 @@
       "type": "universal",
       "seq": 101,
       "AP": 1,
-      "name": "Reposicionar",
+      "name": "Reposicionarse",
+      "aliases": [
+        "reposicionar",
+        "reposición"
+      ],
       "description": null,
       "effects": [
         "Mueve el agente activo, una distancia que no exceda su atributo Movimiento, hasta una ubicación en la que pueda colocarse. Esto debe hacerse en uno o más incrementos en línea recta, y estos siempre se redondean al alza hasta la pulgada más cercana"
@@ -48,7 +52,10 @@
       "type": "universal",
       "seq": 104,
       "AP": 1,
-      "name": "Carga",
+      "name": "Cargar",
+      "aliases": [
+        "carga"
+      ],
       "description": null,
       "effects": [
         "Igual que la acción de Reposicionarse, pero el agente activo puede mover 2\" adicionales.",
@@ -93,7 +100,7 @@
       "seq": 107,
       "AP": 1,
       "name": "Disparar",
-      "description": null,
+      "description": "1. Elegir Arma\nEl atacante elige qué arma a distancia usará entre aquellas con las que su agente está equipado y reúne sus dados de ataque: tantos D6 como el atributo Ataque del arma.\n\n2. Elegir blanco válido\nEl atacante elige un agente enemigo que sea un blanco válido y no tenga agentes amigos dentro de su zona de control.\nEn caso de que el blanco elegido tenga una orden de trabarse, se considera un blanco válido si es visible para el agente activo. \nEn caso de que el blanco elegido tenga una orden de ocultarse, se considera un blanco válido si es visible para el agente activo y no está a cubierto.\nUn agente es visible si el agente activo puede verle. Un agente está a cubierto si hay terreno interpuesto dentro de su zona de control. Sin embargo, no puede estar a cubierto si se encuentra a 2\" o menos del agente activo.\n\n3. Tirar dados de ataque\nEl atacante tira sus dados de ataque. Cada resultado igual o superior al atributo Impactar del arma es un éxito y se guarda. Los resultados inferiores son fallos y se descartan. Un resultado de 6 siempre es un éxito crítico. Los demás éxitos son éxitos normales. Un resultado de 1 siempre es un fallo.\n\nSi el agente blanco está ofuscado:\n· El atacante debe descartar un éxito a su elección en lugar de guardarlo.\n· Todos los éxitos críticos del atacante se guardan como éxitos normales y no pueden cambiarse a éxitos críticos (esto tiene preferencia sobre todas las demás reglas).\n\nUn agente está ofuscado si hay terreno Pesado interpuesto. Sin embargo, no puede estar ofuscado por terreno Pesado interpuesto que se encuentre a 1\" o menos de alguno de ambos agentes.\n\n4. Tirar dados de defensa\nEl defensor reúne tres dados de defensa. Si el agente blanco está a cubierto, puede guardar un éxito normal sin tirarlo; esto se denomina salvación por cobertura. El resto de dados se tiran.\n\nCada resultado igual o superior al atributo Salvación del blanco es un éxito y se guarda. Los resultados inferiores son fallos y se descartan. Un resultado de 6 siempre es un éxito crítico. Los demás éxitos son éxitos normales. Un resultado de 1 siempre es un fallo.\n\n5. Resolver dados de defensa\nEl defensor asigna todos sus dados de defensa con éxito para bloquear dados de ataque con éxito.\n\n· Un éxito normal puede bloquear un éxito normal.\n· Dos éxitos normales pueden bloquear un éxito crítico.\n· Un éxito crítico puede bloquear un éxito normal o un éxito crítico.\n6. Resolver dados de ataque\n\nTodos los dados de ataque con éxito que no sean bloqueados infligen daño al agente blanco.\n· Un éxito normal inflige tanto daño como el atributo Daño normal del arma.\n· Un éxito crítico inflige tanto daño como el atributo Daño crítico del arma.\n\nCualquier agente que haya sido incapacitado es retirado en cuanto el agente activo haya terminado la acción.",
       "effects": [
         "Dispara con el agente activo siguiendo la secuencia de abajo. El jugador del agente activo es el atacante. El jugador del agente enemigo elegido es el defensor."
       ],
@@ -107,7 +114,7 @@
       "seq": 108,
       "AP": 1,
       "name": "Combatir",
-      "description": null,
+      "description": "1. Elegir agente enemigo\nEl atacante elige un agente enemigo en la zona de control del agente activo contra el que combatir. Ese agente enemigo contraatacará en esta acción.\n\n2. Elegir armas\nAmbos jugadores eligen qué arma de combate usará su agente entre aquellas con las que está equipado y reúnen sus dados de ataque: tantos D6 como el atributo Ataque del arma.\n\n3. Tirar dados de ataque\nAmbos jugadores tiran sus dados de ataque a la vez. Cada resultado igual o superior al atributo Impactar de su arma elegida es un éxito y se guarda. Los resultados inferiores son fallos y se descartan. Un resultado de 6 siempre es un éxito crítico. Los demás éxitos son éxitos normales. Un resultado de 1 siempre es un fallo.\n\nMientras un agente amigo está asistido por otros agentes amigos, mejora en 1 el atributo Impactar de sus armas de combate por cada uno que le asista. Un agente amigo asiste si está en la zona de control del agente enemigo implicado en ese combate y a la vez no está en la zona de control de otros agentes enemigos.\n\n4. Resolver dados de ataque\nEmpezando por el atacante, los jugadores se turnan para resolver uno de sus dados de ataque con éxito que no haya sido bloqueado. Los jugadores repiten este proceso hasta que un jugador haya resuelto todos sus dados (en cuyo caso su oponente resuelve todos sus dados restantes), o un agente en ese combate resulte incapacitado. Cuando un jugador resuelve un dado, debe decidir si golpea o bloquea con él.\n\nSi golpea, inflinge daño al agente enemigo, luego descarta ese dado.\n\n- Un éxito normal inflinge tanto daño como el atributo Daño normal del arma.\n- Un éxito crítico inflinge tanto daño como el atributo Daño crítico del arma.\n\nSi bloquea, puede asignar ese dado a bloquear uno de los éxitos sin resolver de su oponente.\n\n- Un éxito normal puede bloquear un éxito normal.\n- Un éxito crítico puede bloquear un éxito normal o crítico.",
       "effects": [
         "Combate con el agente activo siguiendo la secuencia de abajo. El jugador del agente activo es el atacante. El jugador del agente enemigo elegido es el defensor."
       ],
