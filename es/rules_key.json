@@ -2,7 +2,9 @@
   {
     "id": "bases",
     "name": "Peanas",
-    "aliases": [],
+    "aliases": [
+      "peana"
+    ],
     "category": "key_principle",
     "text": "Todos los agentes están sobre peanas. La peana es una parte importante de la miniatura a efectos de reglas, en particular para medir distancias. El tamaño de peana de cada agente se especifica en su ficha de datos. Los lados de varias peanas pueden tocarse, pero una peana no puede colocarse sobre otra. Los agentes amigos pueden moverse a través de otros agentes amigos (la peana y la miniatura), pero no a través de agentes enemigos. Las peanas no pueden moverse a través de terreno, o sobrepasar el borde de la zona de combate.",
     "examples": [],
@@ -21,7 +23,9 @@
   {
     "id": "control-range",
     "name": "Zona de Control",
-    "aliases": [],
+    "aliases": [
+      "zona de control"
+    ],
     "category": "key_principle",
     "text": "Muchas reglas se refieren a la zona de control, como mover, combatir y usar cobertura. Para que algo esté en la zona de control de un agente, debe estar a 1\" o menos del mismo y ser visible para él. La zona de control entre agentes es mutua, por lo que dos agentes están en la zona de control uno de otro si uno de ellos es visible para el otro y se encuentra a 1\" o menos del otro. Imagina la zona de control como un área de interacción que el agente tiene con las cosas cercanas a él.",
     "examples": [
@@ -43,7 +47,9 @@
   {
     "id": "cover",
     "name": "Cobertura",
-    "aliases": [],
+    "aliases": [
+      "cobertura"
+    ],
     "category": "key_principle",
     "text": "La cobertura se determina de un agente a otro, normalmente cuando uno de ellos está disparando. Un agente está en cobertura si hay terreno intermedio dentro de su zona de control. Sin embargo, no puede estar en cobertura a menos de 2\" del otro agente. Intermedio se explica aquí. Un agente en cobertura con una orden de Ocultar no es un objetivo válido. Un agente en cobertura con una orden de Entrar en Combate es un objetivo válido, pero tiene una salvación por cobertura (ver acción Disparar aquí).",
     "examples": [
@@ -68,7 +74,9 @@
   {
     "id": "damage",
     "name": "Daño",
-    "aliases": [],
+    "aliases": [
+      "daño"
+    ],
     "category": "key_principle",
     "text": "Cuando se inflige daño a un agente, reduce sus heridas en esa cantidad. El número inicial de heridas de un agente se determina por su estadística de Heridas (ver fichas de datos). Si las heridas de un agente se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un agente tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los agentes lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada agente con dados, marcadores o escribiéndolo. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un agente queda incapacitado, pero antes de ser retirado.",
     "examples": [],
@@ -122,7 +130,9 @@
   {
     "id": "distance",
     "name": "Distancia",
-    "aliases": [],
+    "aliases": [
+      "distancia"
+    ],
     "category": "key_principle",
     "text": "Varias reglas tienen un requisito de distancia en pulgadas. Al medir hacia y desde algo, hazlo desde la parte más cercana de ello. Para un agente, hazlo desde su base, ignorando todas las partes de su miniatura. Al medir hacia y desde un área de la zona de combate, mida solo la distancia horizontal (en otras palabras, mire desde arriba para ignorar la distancia vertical). Si una regla requiere que algo esté 'a menos' de una distancia, el requisito se cumple si alguna parte de ello está a esa distancia o menos. Si una regla requiere que algo esté 'totalmente a menos' de una distancia, el requisito se cumple si cada parte de ello está a esa distancia o menos. Un agente siempre está dentro y totalmente dentro de los requisitos de distancia de sí mismo y de un marcador que lleva. Si un agente lleva un marcador, ese marcador está a la misma distancia que ese agente. Los agentes dentro de una cierta distancia de un agente que lleva un marcador también están dentro de la misma distancia de ese marcador.",
     "examples": [
@@ -140,7 +150,9 @@
   {
     "id": "equipment",
     "name": "Equipo",
-    "aliases": [],
+    "aliases": [
+      "equipo"
+    ],
     "category": "key_principle",
     "text": "El equipo son reglas adicionales que puedes seleccionar antes de la batalla, como se especifica en tu secuencia de juego (ver equipo). El equipo universal se puede seleccionar para cualquier equipo de matar, mientras que el equipo de facción es específico. Cada jugador no puede seleccionar cada opción de equipo más de una vez por juego.",
     "examples": [],
@@ -196,7 +208,8 @@
     "id": "marker",
     "name": "Marcador",
     "aliases": [
-      "marcador"
+      "marcador",
+      "marcadores"
     ],
     "category": "key_principle",
     "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los agentes a su alrededor. Se pueden colocar debajo de los agentes (retire temporalmente a los agentes para hacerlo), y los agentes se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los agentes disputan los marcadores dentro de su zona de control. Los agentes amigos controlan un marcador si el LPA total de los que lo disputan es mayor que el de los agentes enemigos, pero el control no puede cambiar durante una acción. Mientras un agente lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único agente que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de matar. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
@@ -218,7 +231,8 @@
     "id": "obscured",
     "name": "Oscurecido",
     "aliases": [
-      "obscurecido"
+      "oscurecido",
+      "oscurecidos"
     ],
     "category": "key_principle",
     "text": "Oscurecido se determina de un agente a otro, normalmente cuando uno de ellos está disparando. Un agente está oscurecido si hay terreno pesado interpuesto que está a más de 1\" de ambos agentes. Sin embargo, no puede estar oscurecido por terreno pesado interpuesto que esté a 1\" de cualquiera de los agentes. Cuando un agente está disparando, si el agente objetivo está oscurecido: El atacante debe descartar un éxito de su elección en lugar de conservarlo. Todos los éxitos críticos del atacante se conservan como éxitos normales y no se pueden cambiar a éxitos críticos (esto tiene prioridad sobre todas las demás reglas). \nOscurecido es cuando un agente es un objetivo válido, pero los obstáculos interpuestos (normalmente terreno) lo convierten en un objetivo menos eficiente. Imagina que el agente tiene que apuntar al enemigo a través de una ruina o una ventana distante. En otras palabras, que un agente esté a 1\" de una característica del terreno no impide que toda la característica del terreno sea oscurecedora, solo la parte a 1\" del agente.",
@@ -243,7 +257,10 @@
     "id": "operative",
     "name": "Agente",
     "aliases": [
-      "Operativo"
+      "Operativo",
+      "agentes",
+      "operativos",
+      "agente"
     ],
     "category": "key_principle",
     "text": "Los agentes u operativos son las miniaturas de Citadel utilizadas en el juego. Tus agentes son agentes amigos, y los agentes de tu oponente son agentes enemigos.",
@@ -261,7 +278,10 @@
   {
     "id": "order",
     "name": "Orden",
-    "aliases": [],
+    "aliases": [
+      "ordenes",
+      "orden"
+    ],
     "category": "key_principle",
     "text": "Una orden es un estado que puede tener un agente. Puede ser orden de Ocultarse o orden de Trabarse. A los agentes se les da una orden de Ocultarse cuando se colocan antes de la batalla. Puedes cambiar la orden de un agente cada vez que se activa. Los marcadores de orden tienen dos caras. El lado más claro muestra que un agente está listo (puede ser activado en la fase de Tiroteo) y el lado más oscuro muestra que un agente está usado (ha sido activado en la fase de Tiroteo).",
     "examples": [],
@@ -278,7 +298,10 @@
   {
     "id": "order-conceal",
     "name": "Oculto",
-    "aliases": [],
+    "aliases": [
+      "ocultarse",
+      "oculto"
+    ],
     "category": "key_principle",
     "text": "El agente no puede realizar acciones de Disparar y Cargar, y no puede Reaccionar. Sin embargo, no es un objetivo válido mientras está en cobertura.",
     "examples": [],
@@ -295,7 +318,10 @@
   {
     "id": "order-engage",
     "name": "Trabado",
-    "aliases": [],
+    "aliases": [
+      "trabarse",
+      "trabado"
+    ],
     "category": "key_principle",
     "text": "El agente puede realizar acciones como de costumbre y puede Reaccionar.",
     "examples": [],
@@ -309,7 +335,10 @@
   {
     "id": "ploy",
     "name": "Gambito",
-    "aliases": [],
+    "aliases": [
+      "gambitos",
+      "gambito"
+    ],
     "category": "key_principle",
     "text": "Los jugadores pueden gastar CP en gambitos para obtener bonificaciones de reglas en el momento oportuno. A menos que se especifique lo contrario, todos los gambitos cuestan 1 CP. Hay dos tipos de gambitos: Cada gambito de estrategia es un GAMBITO ESTRATÉGICO (se usa en el paso de Gambito de la fase de Estrategia). Algunos aplican reglas que se resuelven “inmediatamente”; de lo contrario, aplican reglas que duran hasta el final del punto de giro. Los gambitos de tiroteo se utilizan en la fase de Tiroteo y aplican reglas según especifique el gambito. Todos los jugadores tienen acceso al gambito de tiroteo Repetición de Mando a continuación y a los gambitos de las reglas de su equipo de matar. Aparte de la Repetición de Mando, cada jugador no puede usar cada gambito más de una vez por punto de giro.",
     "examples": [
@@ -358,7 +387,10 @@
   {
     "id": "token",
     "name": "Marcador",
-    "aliases": [],
+    "aliases": [
+      "marcadores",
+      "marcador"
+    ],
     "category": "key_principle",
     "text": "Los marcadores se utilizan para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al agente correspondiente, pero se pueden mover para dejar espacio a otros agentes y marcadores según sea necesario. Se retiran cuando termina el efecto de la regla que se está rastreando.",
     "examples": [],
@@ -375,7 +407,12 @@
   {
     "id": "valid-target",
     "name": "Objetivo válido",
-    "aliases": [],
+    "aliases": [
+      "válido",
+      "válidos",
+      "valido",
+      "validos"
+    ],
     "category": "key_principle",
     "text": "Algunas reglas requieren que selecciones un objetivo válido para un agente. Esto es más común cuando un agente está disparando, pero algunas reglas raras también lo requieren. Si el objetivo previsto tiene una orden de Trabarse, es un objetivo válido si es visible para el agente. Si el objetivo previsto tiene una orden de Ocultarse, es un objetivo válido si es visible para el agente y no está en cobertura.",
     "examples": [],
@@ -392,7 +429,10 @@
   {
     "id": "visible",
     "name": "Visible",
-    "aliases": [],
+    "aliases": [
+      "visibles",
+      "visible"
+    ],
     "category": "key_principle",
     "text": "Para que algo sea visible, el agente debe poder verlo. Para comprobar la visibilidad, mira desde detrás del agente y determina si puedes trazar una línea recta sin obstáculos de 1 mm de diámetro desde su cabeza hasta cualquier parte de lo que intenta ver. Ignora las bases de los agentes al determinar esto. Un agente es siempre visible para sí mismo. El agente enemigo es visible en ambas imágenes a continuación, incluso cuando está parcialmente detrás de la ruina cercana.",
     "examples": [
