@@ -113,7 +113,8 @@
     "name": "Dice",
     "aliases": [
       "D6",
-      "D3"
+      "D3",
+      "dice"
     ],
     "category": "key_principle",
     "text": "Use 6-sided dice to determine the outcome of various rules. This will often require x+, where x is the lowest possible result, e.g., 3+. Sometimes a result within a range will be required, e.g., 1-3. Some rare rules require you to roll a D3. To do so, roll one D6 and halve the result (rounding up). Some require xD6 or xD3 (e.g., 2D6 or 3D3). Roll x number of dice and add the results together. Some require D6+x or D3+x (e.g., D6+2 or D3+3). Roll that dice and add x to the result. Some rules allow you to re-roll a dice roll. You can never re-roll a dice roll more than once, and you cannot select the original result, even if the new result is worse. If it’s an attack or defence dice, you re-roll before it’s retained or discarded. If you can re-roll multiple different dice, you can do this in any order, including seeing the result of one re-roll before deciding on the next. If multiple players can re-roll dice at the same time (e.g., during a Fight action), they alternate either re-rolling a dice or passing until they both pass in succession, starting with the player with initiative (this takes precedence over initiative and rules that would happen at the same time).",
