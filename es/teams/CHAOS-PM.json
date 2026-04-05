@@ -139,7 +139,7 @@
       "killteamId": "CHAOS-PM",
       "seq": 4,
       "eqName": "Poison Vents",
-      "description": "Whenever an enemy operative that doesn't have one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, roll one D3: on a 3, that operative gains one of your Poison tokens"
+      "description": "Whenever an enemy operative is activated within 3\" of a friendly PLAGUE MARINE operative:\n• If that enemy operative doesn’t have one of your Poison tokens, roll one D3: on a 3, it gains one.\n• If that enemy operative has one of your Poison tokens, inflict D3 damage on it (instead of 1).’"
     }
   ],
   "teamAbilities": [

@@ -1,10 +1,10 @@
 {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-MW",
-    "version": "January '26",
+    "version": "March '26",
     "classified": true,
     "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_murderwing-nk5ocpzzgd-qcvchireiu.pdf",
+    "file": "https://assets.warhammer-community.com/eng_01-04_kt_teamrules_murderwing-x2ycoqsqf6-zd64sifxqz.pdf",
     "killteamName": "Murderwing",
     "description": "The Murderwing kill team, comprised of Night Lords Chaos Space Marines, specializes in high-speed aerial combat and brutal assaults. Emphasizing fear and speed, they utilize jump packs to traverse the battlefield in bounding leaps, striking from above with terrifying ferocity.",
     "composition": "A MURDERWING KillTeam is composed of:\n\n- 1 MURDERWING CHAOS LORD operative with one option from each of the following:\n  - Bolt pistol or plasma pistol\n  - Lightning claw, power fist or power weapon\n  Or the following option:\n  - Relic lightning claws\n\n- 5 MURDERWING operatives selected from the following list:\n  - CHAMPION with one option from each of the following:\n    - Plasma pistol or bolt pistol\n    - Power fist or power weapon\n  - CURSECLAW\n  - DEPREDATOR\n  - HUNTMASTER\n  - RAPTOR with one of the following options:\n    - Bolt pistol; chainsword\n    - Plasma pistol; chainsword\n  - SHRIEKER\n  - SKYSEAR with one of the following options:\n    - Flamer; bolt pistol; fists\n    - Meltagun; bolt pistol; fists\n    - Plasma gun; bolt pistol; fists\n  - WARP TALON\n\n- Other than RAPTOR operatives, your kill team can only include each operative on this list once.\n- You cannot select more than two operatives with these weapons combined: Meltagun, Plasma gun, Plasma pistol.",
@@ -51,7 +51,7 @@
             "ployType": "T",
             "seq": 1,
             "ployName": "Malicious Narcissism",
-            "description": "Use this firefight ploy when it's your turn to activate with a friendly operative, if only one friendly MURDERWING operative is ready. Until the end of the turning point, whenever any ready enemy operatives are in the killzone, you can skip your activations (in other words, you can delay that friendly MURDERWING operative's activation). Note that you cannot counteract until that friendly MURDERWING operative is expended."
+            "description": "Use this firefight ploy when it's your turn to activate with a friendly operative, if only one friendly MURDERWING operative is ready. Until the end of the turning point, whenever you have less ready friendly operatives than your opponent, you can skip your activations (in other words, you can delay that friendly MURDERWING operative's activation until your opponent has only one ready operative). Note that you cannot counteract until that friendly MURDERWING operative is expended."
         },
         {
             "ployId": "CHAOS-MW-T-MD",
@@ -112,7 +112,7 @@
         {
             "abilityId": "CHAOS-MW-TA-JP",
             "abilityName": "Jump Pack",
-            "description": "Whenever a friendly MURDERWING operative is performing the Charge, Fall Back or Reposition action during its activation, at the start of any straight-line increment, as long as no part of its base is underneath Vantage terrain, it can do a BOOST for that increment. If it does, don't move it for that increment. Instead, remove it from the killzone and set it back up wholly within x\" horizontally of its original location. X is a distance of your choice (rounded up to the nearest inch, as per the Reposition action), but it's added to the total move distance used for that action (in other words, move plus BOOST cannot exceed the action's move allowance).\n\nThat operative must be set up in a location it can be placed and cannot be set up with any part of its base underneath Vantage terrain. In addition, unless it's the Charge action, it cannot be set up within control range of an enemy operative. It can continue moving after a BOOST if it has any move distance remaining and the action allows it.\n\nIn a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, the x\" cannot be measured over or through Wall terrain, and that operative cannot be set up on the other side of an access point – in other words, it cannot BOOST through an open hatchway."
+            "description": "Whenever a friendly MURDERWING operative is performing the Charge, Fall Back or Reposition action during its activation, at the start of any straight-line increment, as long as no part of its base is underneath Vantage terrain, it can do a BOOST for that increment. If it does, don't move it for that increment. Instead, remove it from the killzone and set it back up wholly within x\" horizontally of its original location. X is a distance of your choice (rounded up to the nearest inch, as per the Reposition action), but it's added to the total move distance used for that action (in other words, move plus BOOST cannot exceed the action's move allowance).If it would BOOST during the Charge action, don’t add the additional 2\" to its move allowance.\n\nThat operative must be set up in a location it can be placed and cannot be set up with any part of its base underneath Vantage terrain. In addition, unless it's the Charge action, it cannot be set up within control range of an enemy operative. It can continue moving after a BOOST if it has any move distance remaining and the action allows it.\n\nIn a killzone that uses the close quarters rules, e.g. Killzone: Tomb World, the x\" cannot be measured over or through Wall terrain, and that operative cannot be set up on the other side of an access point – in other words, it cannot BOOST through an open hatchway."
         },
         {
             "abilityId": "CHAOS-MW-TA-BA",
@@ -329,7 +329,7 @@
                     "abilityId": "CHAOS-MW-CL-PTD",
                     "opTypeId": "CHAOS-MW-CL",
                     "abilityName": "Path To Damnation",
-                    "description": "This operative starts the battle with 1 Damnation point. Once per action, you can attempt to use one Boon of Damnation when it specifies. If you do, roll one D6 and compare the result to the number of Damnation points this operative has; if the result is:\n- Higher: Resolve the rule, then this operative gains 1 Damnation point.\n- Equal: Do not resolve the rule.\n- Less: Inflict damage on this operative equal to its number of Damnation points and do not resolve the rule.\n\nIf this operative has 6 Damnation points, resolve the rule without rolling. Note that you cannot make an attempt more than once per action, regardless of the D6 result.\n\n**Boons of Damnation:**\n- When an attack dice inflicts damage of 3 or more on this operative, you can ignore an amount of damage equal to this operative's Damnation points.\n- When this operative is fighting or retaliating and you strike, you can inflict an amount of additional damage equal to this operative's Damnation points."
+                    "description": "This operative starts the battle with 1 Damnation point. Once per action, you can attempt to use one Boon of Damnation when it specifies. If you do, roll one D6 and compare the result to the number of Damnation points this operative has; if the result is:\n- Higher: Resolve the rule, then this operative gains 1 Damnation point.\n- Equal: Do not resolve the rule.\n- Less: Inflict damage on this operative equal to its number of Damnation points and do not resolve the rule.\n\nIf this operative has 6 Damnation points, resolve the rule without rolling. Note that you cannot make an attempt more than once per action, regardless of the D6 result.\n\n**Boons of Damnation:**\n- When an attack dice inflicts damage of 3 or more on this operative, you can ignore an amount of damage equal to this operative's Damnation points.\n- When this operative is fighting or retaliating and you strike with an attack dice, you can inflict an amount of additional damage equal to this operative's Damnation points."
                 }
             ]
         },
@@ -654,8 +654,7 @@
                         "Inflict 2D3 damage on each other operative visible to and within 2\" of this operative in an order of your choice (roll separately for each)."
                     ],
                     "conditions": [
-                        "For the purposes of action restrictions and the Astartes faction rule, this action is treated as a Fight action.",
-                        "This operative cannot perform this action while it has a Conceal order, or during the same activation in which it performed the Slice From Above action (see faction equipment) or vice versa."
+                        "This operative cannot perform this action while it has a Conceal order, or during the same activation in which it performed the Slice From Above action (see Bladefins faction equipment), the Clawed Charge action (see Clawed Armour faction equipment) or two Fight actions (and vice versa)."
                     ]
                 }
             ]

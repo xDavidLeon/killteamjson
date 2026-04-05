@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-PM",
-  "version": "January '26",
+  "version": "March '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_plague_marines-yldp8quqtd-6rufhbcor4.pdf",
+  "file": "https://assets.warhammer-community.com/eng_01-04_kt_teamrules_plague_marines_online_rules-2x2uvfovpw-ituayw6kdd.pdf",
   "killteamName": "Plague Marines",
   "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
   "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
@@ -139,7 +139,7 @@
       "killteamId": "CHAOS-PM",
       "seq": 4,
       "eqName": "Poison Vents",
-      "description": "Whenever an enemy operative that doesn't have one of your Poison tokens is activated within 3\" of a friendly PLAGUE MARINE operative, roll one D3: on a 3, that operative gains one of your Poison tokens"
+      "description": "Whenever an enemy operative is activated within 3\" of a friendly PLAGUE MARINE operative:\n• If that enemy operative doesn’t have one of your Poison tokens, roll one D3: on a 3, it gains one.\n• If that enemy operative has one of your Poison tokens, inflict D3 damage on it (instead of 1).’"
     }
   ],
   "teamAbilities": [
