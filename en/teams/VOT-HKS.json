@@ -91,10 +91,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Plasma Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-PK-PLASMA-KNIFE-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-PK-PLASMA-KNIFE",
               "seq": 0,
               "profileName": "",
@@ -159,10 +159,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-APBP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-APBP",
               "seq": 0,
               "profileName": "",
@@ -187,10 +187,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 1,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-APB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-APB",
               "seq": 0,
               "profileName": "",
@@ -211,10 +211,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 2,
           "wepName": "Bolt Revolver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-BR-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-BR",
               "seq": 0,
               "profileName": "",
@@ -235,10 +235,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 3,
           "wepName": "EtaCarn Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-ECPP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-ECPP",
               "seq": 0,
               "profileName": "",
@@ -263,10 +263,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 4,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-IB",
               "seq": 0,
               "profileName": "",
@@ -288,10 +288,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 5,
           "wepName": "Ion Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-IP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-TH-IP",
               "seq": 0,
               "profileName": "",
@@ -317,10 +317,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 6,
           "wepName": "Concussion Gauntlet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-CG-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-TH-CG",
               "seq": 0,
               "profileName": "",
@@ -343,10 +343,10 @@
           "opTypeId": "VOT-HKS-TH",
           "seq": 7,
           "wepName": "Plasma Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-TH-PW-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-TH-PW",
               "seq": 0,
               "profileName": "",
@@ -395,10 +395,10 @@
           "opTypeId": "VOT-HKS-DO",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-DO-APBP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-DO-APBP",
               "seq": 0,
               "profileName": "",
@@ -423,10 +423,10 @@
           "opTypeId": "VOT-HKS-DO",
           "seq": 1,
           "wepName": "Concussion Knux",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-DO-CK-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-DO-CK",
               "seq": 0,
               "profileName": "",
@@ -494,10 +494,10 @@
           "opTypeId": "VOT-HKS-MDC",
           "seq": 0,
           "wepName": "Bolt Revolver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-MDC-BR-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-MDC-BR",
               "seq": 0,
               "profileName": "",
@@ -518,10 +518,10 @@
           "opTypeId": "VOT-HKS-MDC",
           "seq": 1,
           "wepName": "Plasma Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-MDC-PK-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-MDC-PK",
               "seq": 0,
               "profileName": "",
@@ -581,10 +581,10 @@
           "opTypeId": "VOT-HKS-GRN",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GRN-APBP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GRN-APBP",
               "seq": 0,
               "profileName": "",
@@ -609,10 +609,10 @@
           "opTypeId": "VOT-HKS-GRN",
           "seq": 1,
           "wepName": "C8 HX Charge",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GRN-C8HX-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GRN-C8HX",
               "seq": 0,
               "profileName": "",
@@ -652,10 +652,10 @@
           "opTypeId": "VOT-HKS-GRN",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GRN-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-GRN-F",
               "seq": 0,
               "profileName": "",
@@ -671,10 +671,10 @@
           "opTypeId": "VOT-HKS-GRN",
           "seq": 10,
           "wepName": "Frag Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GRN-FRAG-0",
+              "wepType": "E",
               "wepId": "VOT-HKS-GRN-FRAG",
               "seq": 0,
               "profileName": "",
@@ -702,10 +702,10 @@
           "opTypeId": "VOT-HKS-GRN",
           "seq": 11,
           "wepName": "Krak Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GRN-KRAK-0",
+              "wepType": "E",
               "wepId": "VOT-HKS-GRN-KRAK",
               "seq": 0,
               "profileName": "",
@@ -786,10 +786,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 0,
           "wepName": "EtaCarn Plasma Beamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-ECPB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-ECPB",
               "seq": 0,
               "profileName": "",
@@ -813,10 +813,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 1,
           "wepName": "HYLas Auto Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-HLAR-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-HLAR",
               "seq": 0,
               "profileName": "",
@@ -839,10 +839,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 2,
           "wepName": "HYLas Rotary Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-HLRC-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-HLRC",
               "seq": 0,
               "profileName": "Focused",
@@ -864,6 +864,7 @@
             },
             {
               "wepprofileId": "VOT-HKS-GNR-HLRC-1",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-HLRC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -894,10 +895,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 3,
           "wepName": "L7 Missile Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-L7ML-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-L7ML",
               "seq": 0,
               "profileName": "Blast",
@@ -913,6 +914,7 @@
             },
             {
               "wepprofileId": "VOT-HKS-GNR-L7ML-1",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-L7ML",
               "seq": 1,
               "profileName": "Focused",
@@ -933,10 +935,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 4,
           "wepName": "Magna Rail Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-MRR-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-GNR-MRR",
               "seq": 0,
               "profileName": "",
@@ -965,10 +967,10 @@
           "opTypeId": "VOT-HKS-GNR",
           "seq": 5,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-GNR-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -999,10 +1001,10 @@
           "opTypeId": "VOT-HKS-JMP",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-JMP-APBP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-JMP-APBP",
               "seq": 0,
               "profileName": "",
@@ -1027,10 +1029,10 @@
           "opTypeId": "VOT-HKS-JMP",
           "seq": 1,
           "wepName": "Plasma Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-JMP-PW-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-JMP-PW",
               "seq": 0,
               "profileName": "",
@@ -1076,10 +1078,10 @@
           "opTypeId": "VOT-HKS-KL",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KL-APB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-KL-APB",
               "seq": 0,
               "profileName": "",
@@ -1100,10 +1102,10 @@
           "opTypeId": "VOT-HKS-KL",
           "seq": 1,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KL-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-KL-IB",
               "seq": 0,
               "profileName": "",
@@ -1125,10 +1127,10 @@
           "opTypeId": "VOT-HKS-KL",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KL-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-KL-F",
               "seq": 0,
               "profileName": "",
@@ -1192,10 +1194,10 @@
           "opTypeId": "VOT-HKS-KOG",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KOG-APB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-KOG-APB",
               "seq": 0,
               "profileName": "",
@@ -1216,10 +1218,10 @@
           "opTypeId": "VOT-HKS-KOG",
           "seq": 1,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KOG-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-KOG-IB",
               "seq": 0,
               "profileName": "",
@@ -1241,10 +1243,10 @@
           "opTypeId": "VOT-HKS-KOG",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-KOG-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-KOG-F",
               "seq": 0,
               "profileName": "",
@@ -1299,10 +1301,10 @@
           "opTypeId": "VOT-HKS-LOK",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LOK-APB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-LOK-APB",
               "seq": 0,
               "profileName": "",
@@ -1323,10 +1325,10 @@
           "opTypeId": "VOT-HKS-LOK",
           "seq": 1,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LOK-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-LOK-IB",
               "seq": 0,
               "profileName": "",
@@ -1348,10 +1350,10 @@
           "opTypeId": "VOT-HKS-LOK",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LOK-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-LOK-F",
               "seq": 0,
               "profileName": "",
@@ -1418,10 +1420,10 @@
           "opTypeId": "VOT-HKS-LUG",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LUG-APB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-LUG-APB",
               "seq": 0,
               "profileName": "",
@@ -1442,10 +1444,10 @@
           "opTypeId": "VOT-HKS-LUG",
           "seq": 1,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LUG-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-LUG-IB",
               "seq": 0,
               "profileName": "",
@@ -1467,10 +1469,10 @@
           "opTypeId": "VOT-HKS-LUG",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-LUG-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-LUG-F",
               "seq": 0,
               "profileName": "",
@@ -1514,10 +1516,10 @@
           "opTypeId": "VOT-HKS-WAR",
           "seq": 0,
           "wepName": "Autoch-Pattern Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-WAR-APBP-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-WAR-APBP",
               "seq": 0,
               "profileName": "",
@@ -1538,10 +1540,10 @@
           "opTypeId": "VOT-HKS-WAR",
           "seq": 1,
           "wepName": "Ion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-WAR-IB-0",
+              "wepType": "R",
               "wepId": "VOT-HKS-WAR-IB",
               "seq": 0,
               "profileName": "",
@@ -1563,10 +1565,10 @@
           "opTypeId": "VOT-HKS-WAR",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKS-WAR-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKS-WAR-F",
               "seq": 0,
               "profileName": "",

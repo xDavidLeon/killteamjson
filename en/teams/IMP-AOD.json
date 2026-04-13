@@ -178,10 +178,10 @@
           "opTypeId": "IMP-AOD-CPT",
           "seq": 0,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-CPT-PP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-CPT-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -201,6 +201,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-CPT-PP-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-CPT-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -232,10 +233,10 @@
           "opTypeId": "IMP-AOD-CPT",
           "seq": 1,
           "wepName": "Power Fist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-CPT-PF-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-CPT-PF",
               "seq": 0,
               "profileName": "",
@@ -283,10 +284,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 0,
           "wepName": "Hand Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-HFL-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ASGT-HFL",
               "seq": 0,
               "profileName": "",
@@ -314,10 +315,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 1,
           "wepName": "Heavy Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-HBP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ASGT-HBP",
               "seq": 0,
               "profileName": "",
@@ -343,10 +344,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 2,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-PP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ASGT-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -366,6 +367,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-ASGT-PP-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-ASGT-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -397,10 +399,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 3,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-CS-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ASGT-CS",
               "seq": 0,
               "profileName": "",
@@ -416,10 +418,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 4,
           "wepName": "Power Fist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-PF-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ASGT-PF",
               "seq": 0,
               "profileName": "",
@@ -439,10 +441,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 5,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-PW-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ASGT-PW",
               "seq": 0,
               "profileName": "",
@@ -463,10 +465,10 @@
           "opTypeId": "IMP-AOD-ASGT",
           "seq": 6,
           "wepName": "Thunder Hammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ASGT-TH-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ASGT-TH",
               "seq": 0,
               "profileName": "",
@@ -517,10 +519,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 0,
           "wepName": "Auto Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-ABR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ISGT-ABR",
               "seq": 0,
               "profileName": "",
@@ -541,10 +543,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 1,
           "wepName": "Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-BR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ISGT-BR",
               "seq": 0,
               "profileName": "",
@@ -566,10 +568,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 2,
           "wepName": "Stalker Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-SBR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-ISGT-SBR",
               "seq": 0,
               "profileName": "Heavy",
@@ -594,6 +596,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-ISGT-SBR-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-ISGT-SBR",
               "seq": 1,
               "profileName": "Mobile",
@@ -609,10 +612,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 3,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-CS-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ISGT-CS",
               "seq": 0,
               "profileName": "",
@@ -628,10 +631,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-F-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ISGT-F",
               "seq": 0,
               "profileName": "",
@@ -647,10 +650,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 5,
           "wepName": "Power Fist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-PF-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ISGT-PF",
               "seq": 0,
               "profileName": "",
@@ -670,10 +673,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-PW-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ISGT-PW",
               "seq": 0,
               "profileName": "",
@@ -694,10 +697,10 @@
           "opTypeId": "IMP-AOD-ISGT",
           "seq": 7,
           "wepName": "Thunder Hammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-ISGT-TH-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-ISGT-TH",
               "seq": 0,
               "profileName": "",
@@ -748,10 +751,10 @@
           "opTypeId": "IMP-AOD-SNP",
           "seq": 0,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-SNP-BP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-SNP-BP",
               "seq": 0,
               "profileName": "",
@@ -772,10 +775,10 @@
           "opTypeId": "IMP-AOD-SNP",
           "seq": 1,
           "wepName": "Bolt Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-SNP-BSR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-SNP-BSR",
               "seq": 0,
               "profileName": "Executioner",
@@ -801,6 +804,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-SNP-BSR-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-SNP-BSR",
               "seq": 1,
               "profileName": "Hyperfrag",
@@ -823,6 +827,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-SNP-BSR-2",
+              "wepType": "R",
               "wepId": "IMP-AOD-SNP-BSR",
               "seq": 2,
               "profileName": "Mortis",
@@ -854,10 +859,10 @@
           "opTypeId": "IMP-AOD-SNP",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-SNP-F-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-SNP-F",
               "seq": 0,
               "profileName": "",
@@ -917,10 +922,10 @@
           "opTypeId": "IMP-AOD-GRN",
           "seq": 0,
           "wepName": "Heavy Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GRN-HBP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-GRN-HBP",
               "seq": 0,
               "profileName": "",
@@ -946,10 +951,10 @@
           "opTypeId": "IMP-AOD-GRN",
           "seq": 1,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GRN-CS-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-GRN-CS",
               "seq": 0,
               "profileName": "",
@@ -965,10 +970,10 @@
           "opTypeId": "IMP-AOD-GRN",
           "seq": 2,
           "wepName": "Frag Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GRN-FG-0",
+              "wepType": "E",
               "wepId": "IMP-AOD-GRN-FG",
               "seq": 0,
               "profileName": "",
@@ -996,10 +1001,10 @@
           "opTypeId": "IMP-AOD-GRN",
           "seq": 3,
           "wepName": "Krak Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GRN-KG-0",
+              "wepType": "E",
               "wepId": "IMP-AOD-GRN-KG",
               "seq": 0,
               "profileName": "",
@@ -1049,10 +1054,10 @@
           "opTypeId": "IMP-AOD-AWAR",
           "seq": 0,
           "wepName": "Heavy Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-AWAR-HBP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-AWAR-HBP",
               "seq": 0,
               "profileName": "",
@@ -1078,10 +1083,10 @@
           "opTypeId": "IMP-AOD-AWAR",
           "seq": 1,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-AWAR-CS-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-AWAR-CS",
               "seq": 0,
               "profileName": "",
@@ -1112,10 +1117,10 @@
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 0,
           "wepName": "Heavy Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-HGNR-HB-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-HGNR-HB",
               "seq": 0,
               "profileName": "Focused",
@@ -1132,6 +1137,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-HGNR-HB-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-HGNR-HB",
               "seq": 1,
               "profileName": "Sweeping",
@@ -1157,10 +1163,10 @@
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-HGNR-BP-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-HGNR-BP",
               "seq": 0,
               "profileName": "",
@@ -1181,10 +1187,10 @@
           "opTypeId": "IMP-AOD-HGNR",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-HGNR-F-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-HGNR-F",
               "seq": 0,
               "profileName": "",
@@ -1215,10 +1221,10 @@
           "opTypeId": "IMP-AOD-GNR",
           "seq": 0,
           "wepName": "Auto Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GNR-ABR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-ABR",
               "seq": 0,
               "profileName": "",
@@ -1239,10 +1245,10 @@
           "opTypeId": "IMP-AOD-GNR",
           "seq": 1,
           "wepName": "Auxiliary Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GNR-GL-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -1258,6 +1264,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-GNR-GL-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -1278,10 +1285,10 @@
           "opTypeId": "IMP-AOD-GNR",
           "seq": 2,
           "wepName": "Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GNR-BR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-BR",
               "seq": 0,
               "profileName": "",
@@ -1303,10 +1310,10 @@
           "opTypeId": "IMP-AOD-GNR",
           "seq": 3,
           "wepName": "Stalker Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GNR-SBR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-SBR",
               "seq": 0,
               "profileName": "Heavy",
@@ -1331,6 +1338,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-GNR-SBR-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-GNR-SBR",
               "seq": 1,
               "profileName": "Mobile",
@@ -1346,10 +1354,10 @@
           "opTypeId": "IMP-AOD-GNR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-GNR-F-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -1380,10 +1388,10 @@
           "opTypeId": "IMP-AOD-WAR",
           "seq": 0,
           "wepName": "Auto Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-WAR-ABR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-WAR-ABR",
               "seq": 0,
               "profileName": "",
@@ -1404,10 +1412,10 @@
           "opTypeId": "IMP-AOD-WAR",
           "seq": 1,
           "wepName": "Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-WAR-BR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-WAR-BR",
               "seq": 0,
               "profileName": "",
@@ -1429,10 +1437,10 @@
           "opTypeId": "IMP-AOD-WAR",
           "seq": 2,
           "wepName": "Stalker Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-WAR-SBR-0",
+              "wepType": "R",
               "wepId": "IMP-AOD-WAR-SBR",
               "seq": 0,
               "profileName": "Heavy",
@@ -1457,6 +1465,7 @@
             },
             {
               "wepprofileId": "IMP-AOD-WAR-SBR-1",
+              "wepType": "R",
               "wepId": "IMP-AOD-WAR-SBR",
               "seq": 1,
               "profileName": "Mobile",
@@ -1472,10 +1481,10 @@
           "opTypeId": "IMP-AOD-WAR",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AOD-WAR-F-0",
+              "wepType": "M",
               "wepId": "IMP-AOD-WAR-F",
               "seq": 0,
               "profileName": "",

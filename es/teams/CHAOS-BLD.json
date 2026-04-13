@@ -133,10 +133,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-AP",
               "seq": 0,
               "profileName": "",
@@ -157,10 +157,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 2,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-BP-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-BP",
               "seq": 0,
               "profileName": "",
@@ -181,10 +181,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 3,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-BG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-BG",
               "seq": 0,
               "profileName": "",
@@ -200,10 +200,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 4,
           "wepName": "Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-LP-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-LP",
               "seq": 0,
               "profileName": "",
@@ -224,10 +224,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 5,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-PP-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -247,6 +247,7 @@
             },
             {
               "wepprofileId": "CHAOS-BLD-CHF-PP-1",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CHF-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -278,10 +279,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 6,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CHF-BAY",
               "seq": 0,
               "profileName": "",
@@ -297,10 +298,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 7,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-CS-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CHF-CS",
               "seq": 0,
               "profileName": "",
@@ -316,10 +317,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 8,
           "wepName": "Improvised Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-IB-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CHF-IB",
               "seq": 0,
               "profileName": "",
@@ -335,10 +336,10 @@
           "opTypeId": "CHAOS-BLD-CHF",
           "seq": 9,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CHF-PW-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CHF-PW",
               "seq": 0,
               "profileName": "",
@@ -387,10 +388,10 @@
           "opTypeId": "CHAOS-BLD-GRN",
           "seq": 1,
           "wepName": "Diabolyk Bomb",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GRN-DB-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GRN-DB",
               "seq": 0,
               "profileName": "",
@@ -434,10 +435,10 @@
           "opTypeId": "CHAOS-BLD-GRN",
           "seq": 2,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GRN-LG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GRN-LG",
               "seq": 0,
               "profileName": "",
@@ -453,10 +454,10 @@
           "opTypeId": "CHAOS-BLD-GRN",
           "seq": 3,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GRN-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-GRN-BAY",
               "seq": 0,
               "profileName": "",
@@ -472,10 +473,10 @@
           "opTypeId": "CHAOS-BLD-GRN",
           "seq": 4,
           "wepName": "Frag Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GRN-FG-0",
+              "wepType": "E",
               "wepId": "CHAOS-BLD-GRN-FG",
               "seq": 0,
               "profileName": "",
@@ -503,10 +504,10 @@
           "opTypeId": "CHAOS-BLD-GRN",
           "seq": 5,
           "wepName": "Krak Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GRN-KG-0",
+              "wepType": "E",
               "wepId": "CHAOS-BLD-GRN-KG",
               "seq": 0,
               "profileName": "",
@@ -562,10 +563,10 @@
           "opTypeId": "CHAOS-BLD-BUT",
           "seq": 1,
           "wepName": "Power Weapon and Cleaver",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-BUT-PWAC-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-BUT-PWAC",
               "seq": 0,
               "profileName": "",
@@ -614,10 +615,10 @@
           "opTypeId": "CHAOS-BLD-COM",
           "seq": 1,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-COM-LG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-COM-LG",
               "seq": 0,
               "profileName": "",
@@ -633,10 +634,10 @@
           "opTypeId": "CHAOS-BLD-COM",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-COM-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-COM-BAY",
               "seq": 0,
               "profileName": "",
@@ -697,10 +698,10 @@
           "opTypeId": "CHAOS-BLD-CRPS",
           "seq": 1,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CRPS-LG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-CRPS-LG",
               "seq": 0,
               "profileName": "",
@@ -716,10 +717,10 @@
           "opTypeId": "CHAOS-BLD-CRPS",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CRPS-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CRPS-BAY",
               "seq": 0,
               "profileName": "",
@@ -735,10 +736,10 @@
           "opTypeId": "CHAOS-BLD-CRPS",
           "seq": 3,
           "wepName": "Stimm Needle",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-CRPS-SN-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-CRPS-SN",
               "seq": 0,
               "profileName": "",
@@ -798,10 +799,10 @@
           "opTypeId": "CHAOS-BLD-ENF",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-ENF-BP-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-ENF-BP",
               "seq": 0,
               "profileName": "",
@@ -822,10 +823,10 @@
           "opTypeId": "CHAOS-BLD-ENF",
           "seq": 2,
           "wepName": "Power Fist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-ENF-PF-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-ENF-PF",
               "seq": 0,
               "profileName": "",
@@ -885,10 +886,10 @@
           "opTypeId": "CHAOS-BLD-FLN",
           "seq": 1,
           "wepName": "Skinning Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-FLN-SKB-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-FLN-SKB",
               "seq": 0,
               "profileName": "",
@@ -933,10 +934,10 @@
           "opTypeId": "CHAOS-BLD-GNR",
           "seq": 1,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GNR-FL-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-FL",
               "seq": 0,
               "profileName": "",
@@ -964,10 +965,10 @@
           "opTypeId": "CHAOS-BLD-GNR",
           "seq": 2,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GNR-GL-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -983,6 +984,7 @@
             },
             {
               "wepprofileId": "CHAOS-BLD-GNR-GL-1",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -1003,10 +1005,10 @@
           "opTypeId": "CHAOS-BLD-GNR",
           "seq": 3,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GNR-MG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-MG",
               "seq": 0,
               "profileName": "",
@@ -1035,10 +1037,10 @@
           "opTypeId": "CHAOS-BLD-GNR",
           "seq": 4,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GNR-PG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -1054,6 +1056,7 @@
             },
             {
               "wepprofileId": "CHAOS-BLD-GNR-PG-1",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-GNR-PG",
               "seq": 1,
               "profileName": "Supercharge",
@@ -1081,10 +1084,10 @@
           "opTypeId": "CHAOS-BLD-GNR",
           "seq": 5,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-GNR-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-GNR-BAY",
               "seq": 0,
               "profileName": "",
@@ -1115,10 +1118,10 @@
           "opTypeId": "CHAOS-BLD-OGR",
           "seq": 1,
           "wepName": "Power Maul and Mutant Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-OGR-PMAMC-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-OGR-PMAMC",
               "seq": 0,
               "profileName": "",
@@ -1175,10 +1178,10 @@
           "opTypeId": "CHAOS-BLD-SS",
           "seq": 1,
           "wepName": "Long-Las",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-SS-LL-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-SS-LL",
               "seq": 0,
               "profileName": "Mobile",
@@ -1189,6 +1192,7 @@
             },
             {
               "wepprofileId": "CHAOS-BLD-SS-LL-1",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-SS-LL",
               "seq": 1,
               "profileName": "Stationary",
@@ -1216,10 +1220,10 @@
           "opTypeId": "CHAOS-BLD-SS",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-SS-BAY-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-SS-BAY",
               "seq": 0,
               "profileName": "",
@@ -1263,10 +1267,10 @@
           "opTypeId": "CHAOS-BLD-THUG",
           "seq": 1,
           "wepName": "Heavy Club",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-THUG-HC-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-THUG-HC",
               "seq": 0,
               "profileName": "",
@@ -1308,10 +1312,10 @@
           "opTypeId": "CHAOS-BLD-TRS",
           "seq": 1,
           "wepName": "Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-TRS-LG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-TRS-LG",
               "seq": 0,
               "profileName": "",
@@ -1332,10 +1336,10 @@
           "opTypeId": "CHAOS-BLD-TRS",
           "seq": 2,
           "wepName": "Bayonet and Shield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-TRS-BAS-0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-TRS-BAS",
               "seq": 0,
               "profileName": "",
@@ -1377,10 +1381,10 @@
           "opTypeId": "CHAOS-BLD-TRP",
           "seq": 1,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-TRP-LG-0",
+              "wepType": "R",
               "wepId": "CHAOS-BLD-TRP-LG",
               "seq": 0,
               "profileName": "",
@@ -1396,10 +1400,10 @@
           "opTypeId": "CHAOS-BLD-TRP",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-BLD-TRP-BAY -0",
+              "wepType": "M",
               "wepId": "CHAOS-BLD-TRP-BAY ",
               "seq": 0,
               "profileName": "",

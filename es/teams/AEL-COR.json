@@ -133,10 +133,10 @@
           "opTypeId": "AEL-COR-FEL",
           "seq": 1,
           "wepName": "Neuro Disruptor",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FEL-ND-0",
+              "wepType": "R",
               "wepId": "AEL-COR-FEL-ND",
               "seq": 0,
               "profileName": "",
@@ -164,10 +164,10 @@
           "opTypeId": "AEL-COR-FEL",
           "seq": 2,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FEL-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-FEL-SP",
               "seq": 0,
               "profileName": "",
@@ -191,10 +191,10 @@
           "opTypeId": "AEL-COR-FEL",
           "seq": 3,
           "wepName": "Shuriken Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FEL-SR-0",
+              "wepType": "R",
               "wepId": "AEL-COR-FEL-SR",
               "seq": 0,
               "profileName": "",
@@ -214,10 +214,10 @@
           "opTypeId": "AEL-COR-FEL",
           "seq": 4,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FEL-PW-0",
+              "wepType": "M",
               "wepId": "AEL-COR-FEL-PW",
               "seq": 0,
               "profileName": "",
@@ -272,10 +272,10 @@
           "opTypeId": "AEL-COR-GNR",
           "seq": 1,
           "wepName": "Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-GNR-BL-0",
+              "wepType": "R",
               "wepId": "AEL-COR-GNR-BL",
               "seq": 0,
               "profileName": "",
@@ -296,10 +296,10 @@
           "opTypeId": "AEL-COR-GNR",
           "seq": 2,
           "wepName": "Shredder",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-GNR-SH-0",
+              "wepType": "R",
               "wepId": "AEL-COR-GNR-SH",
               "seq": 0,
               "profileName": "",
@@ -323,10 +323,10 @@
           "opTypeId": "AEL-COR-GNR",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-GNR-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-GNR-SP",
               "seq": 0,
               "profileName": "",
@@ -350,10 +350,10 @@
           "opTypeId": "AEL-COR-GNR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-GNR-F-0",
+              "wepType": "M",
               "wepId": "AEL-COR-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -384,10 +384,10 @@
           "opTypeId": "AEL-COR-HGNR",
           "seq": 1,
           "wepName": "Shuriken Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HGNR-SCP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-HGNR-SCP",
               "seq": 0,
               "profileName": "Focused",
@@ -406,6 +406,7 @@
             },
             {
               "wepprofileId": "AEL-COR-HGNR-SCP-1",
+              "wepType": "R",
               "wepId": "AEL-COR-HGNR-SCP",
               "seq": 1,
               "profileName": "Sweeping",
@@ -433,10 +434,10 @@
           "opTypeId": "AEL-COR-HGNR",
           "seq": 2,
           "wepName": "Wraithcannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HGNR-WC-0",
+              "wepType": "R",
               "wepId": "AEL-COR-HGNR-WC",
               "seq": 0,
               "profileName": "",
@@ -465,10 +466,10 @@
           "opTypeId": "AEL-COR-HGNR",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HGNR-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-HGNR-SP",
               "seq": 0,
               "profileName": "",
@@ -492,10 +493,10 @@
           "opTypeId": "AEL-COR-HGNR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HGNR-F-0",
+              "wepType": "M",
               "wepId": "AEL-COR-HGNR-F",
               "seq": 0,
               "profileName": "",
@@ -526,10 +527,10 @@
           "opTypeId": "AEL-COR-FD",
           "seq": 1,
           "wepName": "Ranger Long Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FD-RLR-0",
+              "wepType": "R",
               "wepId": "AEL-COR-FD-RLR",
               "seq": 0,
               "profileName": "Mobile",
@@ -540,6 +541,7 @@
             },
             {
               "wepprofileId": "AEL-COR-FD-RLR-1",
+              "wepType": "R",
               "wepId": "AEL-COR-FD-RLR",
               "seq": 1,
               "profileName": "Stationary",
@@ -566,10 +568,10 @@
           "opTypeId": "AEL-COR-FD",
           "seq": 2,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FD-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-FD-SP",
               "seq": 0,
               "profileName": "",
@@ -593,10 +595,10 @@
           "opTypeId": "AEL-COR-FD",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-FD-F-0",
+              "wepType": "M",
               "wepId": "AEL-COR-FD-F",
               "seq": 0,
               "profileName": "",
@@ -640,10 +642,10 @@
           "opTypeId": "AEL-COR-KUR",
           "seq": 1,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-KUR-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-KUR-SP",
               "seq": 0,
               "profileName": "",
@@ -667,10 +669,10 @@
           "opTypeId": "AEL-COR-KUR",
           "seq": 2,
           "wepName": "Dual Power Weapons",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-KUR-DPW-0",
+              "wepType": "M",
               "wepId": "AEL-COR-KUR-DPW",
               "seq": 0,
               "profileName": "",
@@ -722,10 +724,10 @@
           "opTypeId": "AEL-COR-HNT",
           "seq": 1,
           "wepName": "Faolchu",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HNT-FAO-0",
+              "wepType": "R",
               "wepId": "AEL-COR-HNT-FAO",
               "seq": 0,
               "profileName": "",
@@ -755,10 +757,10 @@
           "opTypeId": "AEL-COR-HNT",
           "seq": 2,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HNT-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-HNT-SP",
               "seq": 0,
               "profileName": "",
@@ -782,10 +784,10 @@
           "opTypeId": "AEL-COR-HNT",
           "seq": 3,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-HNT-PW-0",
+              "wepType": "M",
               "wepId": "AEL-COR-HNT-PW",
               "seq": 0,
               "profileName": "",
@@ -834,10 +836,10 @@
           "opTypeId": "AEL-COR-SW",
           "seq": 1,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SW-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-SW-SP",
               "seq": 0,
               "profileName": "",
@@ -861,10 +863,10 @@
           "opTypeId": "AEL-COR-SW",
           "seq": 2,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SW-PW-0",
+              "wepType": "M",
               "wepId": "AEL-COR-SW-PW",
               "seq": 0,
               "profileName": "",
@@ -932,10 +934,10 @@
           "opTypeId": "AEL-COR-SR",
           "seq": 1,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SR-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-SR-SP",
               "seq": 0,
               "profileName": "",
@@ -959,10 +961,10 @@
           "opTypeId": "AEL-COR-SR",
           "seq": 2,
           "wepName": "Throwing Blades",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SR-TB-0",
+              "wepType": "R",
               "wepId": "AEL-COR-SR-TB",
               "seq": 0,
               "profileName": "",
@@ -986,10 +988,10 @@
           "opTypeId": "AEL-COR-SR",
           "seq": 3,
           "wepName": "Hekatarii Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SR-HB-0",
+              "wepType": "M",
               "wepId": "AEL-COR-SR-HB",
               "seq": 0,
               "profileName": "",
@@ -1041,10 +1043,10 @@
           "opTypeId": "AEL-COR-SD",
           "seq": 1,
           "wepName": "Fusion Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SD-FP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-SD-FP",
               "seq": 0,
               "profileName": "",
@@ -1073,10 +1075,10 @@
           "opTypeId": "AEL-COR-SD",
           "seq": 2,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SD-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-SD-SP",
               "seq": 0,
               "profileName": "",
@@ -1100,10 +1102,10 @@
           "opTypeId": "AEL-COR-SD",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-SD-F-0",
+              "wepType": "M",
               "wepId": "AEL-COR-SD-F",
               "seq": 0,
               "profileName": "",
@@ -1155,10 +1157,10 @@
           "opTypeId": "AEL-COR-WS",
           "seq": 1,
           "wepName": "Freezing Grasp",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WS-FG-0",
+              "wepType": "R",
               "wepId": "AEL-COR-WS-FG",
               "seq": 0,
               "profileName": "",
@@ -1187,10 +1189,10 @@
           "opTypeId": "AEL-COR-WS",
           "seq": 2,
           "wepName": "Lightning Strike",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WS-LS-0",
+              "wepType": "R",
               "wepId": "AEL-COR-WS-LS",
               "seq": 0,
               "profileName": "",
@@ -1215,10 +1217,10 @@
           "opTypeId": "AEL-COR-WS",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WS-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-WS-SP",
               "seq": 0,
               "profileName": "",
@@ -1242,10 +1244,10 @@
           "opTypeId": "AEL-COR-WS",
           "seq": 4,
           "wepName": "Witch Staff",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WS-WS-0",
+              "wepType": "M",
               "wepId": "AEL-COR-WS-WS",
               "seq": 0,
               "profileName": "",
@@ -1311,10 +1313,10 @@
           "opTypeId": "AEL-COR-WAR",
           "seq": 1,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WAR-SP-0",
+              "wepType": "R",
               "wepId": "AEL-COR-WAR-SP",
               "seq": 0,
               "profileName": "",
@@ -1338,10 +1340,10 @@
           "opTypeId": "AEL-COR-WAR",
           "seq": 2,
           "wepName": "Shuriken Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WAR-SR-0",
+              "wepType": "R",
               "wepId": "AEL-COR-WAR-SR",
               "seq": 0,
               "profileName": "",
@@ -1361,10 +1363,10 @@
           "opTypeId": "AEL-COR-WAR",
           "seq": 3,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WAR-PW-0",
+              "wepType": "M",
               "wepId": "AEL-COR-WAR-PW",
               "seq": 0,
               "profileName": "",
@@ -1385,10 +1387,10 @@
           "opTypeId": "AEL-COR-WAR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-COR-WAR-F-0",
+              "wepType": "M",
               "wepId": "AEL-COR-WAR-F",
               "seq": 0,
               "profileName": "",

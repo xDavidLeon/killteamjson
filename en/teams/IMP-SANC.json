@@ -133,10 +133,10 @@
           "opTypeId": "IMP-SANC-CFS",
           "seq": 1,
           "wepName": "Mace of Censure",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-CFS-MOC-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-CFS-MOC",
               "seq": 0,
               "profileName": "",
@@ -187,10 +187,10 @@
           "opTypeId": "IMP-SANC-CRB",
           "seq": 1,
           "wepName": "Incentiviser",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-CRB-INC-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-CRB-INC",
               "seq": 0,
               "profileName": "",
@@ -253,10 +253,10 @@
           "opTypeId": "IMP-SANC-CFG",
           "seq": 1,
           "wepName": "Twin Hand Flamers",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-CFG-THF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-CFG-THF",
               "seq": 0,
               "profileName": "Focused",
@@ -282,6 +282,7 @@
             },
             {
               "wepprofileId": "IMP-SANC-CFG-THF-1",
+              "wepType": "R",
               "wepId": "IMP-SANC-CFG-THF",
               "seq": 1,
               "profileName": "Twin Torrent",
@@ -315,10 +316,10 @@
           "opTypeId": "IMP-SANC-CFG",
           "seq": 2,
           "wepName": "Gun Butts",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-CFG-GB-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-CFG-GB",
               "seq": 0,
               "profileName": "",
@@ -356,10 +357,10 @@
           "opTypeId": "IMP-SANC-ASS",
           "seq": 1,
           "wepName": "Throwing Knives",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-ASS-TK-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-ASS-TK",
               "seq": 0,
               "profileName": "",
@@ -383,10 +384,10 @@
           "opTypeId": "IMP-SANC-ASS",
           "seq": 2,
           "wepName": "Ritual Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-ASS-RB-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-ASS-RB",
               "seq": 0,
               "profileName": "",
@@ -438,10 +439,10 @@
           "opTypeId": "IMP-SANC-ABB",
           "seq": 1,
           "wepName": "Great Hammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-ABB-GH-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-ABB-GH",
               "seq": 0,
               "profileName": "",
@@ -492,10 +493,10 @@
           "opTypeId": "IMP-SANC-PER",
           "seq": 1,
           "wepName": "Hand Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-PER-HF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-PER-HF",
               "seq": 0,
               "profileName": "",
@@ -526,10 +527,10 @@
           "opTypeId": "IMP-SANC-PER",
           "seq": 2,
           "wepName": "Eviscerator",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-PER-EV-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-PER-EV",
               "seq": 0,
               "profileName": "",
@@ -577,10 +578,10 @@
           "opTypeId": "IMP-SANC-MIR",
           "seq": 1,
           "wepName": "Holy Light",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIR-HL-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIR-HL",
               "seq": 0,
               "profileName": "",
@@ -619,10 +620,10 @@
           "opTypeId": "IMP-SANC-MIR",
           "seq": 2,
           "wepName": "Wreath In Fire",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIR-WIF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIR-WIF",
               "seq": 0,
               "profileName": "",
@@ -653,10 +654,10 @@
           "opTypeId": "IMP-SANC-MIR",
           "seq": 3,
           "wepName": "Burning Hands",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIR-BH-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-MIR-BH",
               "seq": 0,
               "profileName": "",
@@ -683,10 +684,10 @@
           "opTypeId": "IMP-SANC-MIR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIR-F-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-MIR-F",
               "seq": 0,
               "profileName": "",
@@ -724,10 +725,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 1,
           "wepName": "Brazier Of Holy Fire",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-BOHFR-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIS-BOHFR",
               "seq": 0,
               "profileName": "",
@@ -758,10 +759,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 2,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-MG-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIS-MG",
               "seq": 0,
               "profileName": "",
@@ -790,10 +791,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 3,
           "wepName": "Ministorum Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-MF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIS-MF",
               "seq": 0,
               "profileName": "",
@@ -824,10 +825,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 4,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-PG-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIS-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -843,6 +844,7 @@
             },
             {
               "wepprofileId": "IMP-SANC-MIS-PG-1",
+              "wepType": "R",
               "wepId": "IMP-SANC-MIS-PG",
               "seq": 1,
               "profileName": "Supercharge",
@@ -870,10 +872,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 5,
           "wepName": "Brazier Of Holy Fire",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-BOHFM-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-MIS-BOHFM",
               "seq": 0,
               "profileName": "",
@@ -896,10 +898,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 6,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-CS-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-MIS-CS",
               "seq": 0,
               "profileName": "",
@@ -915,10 +917,10 @@
           "opTypeId": "IMP-SANC-MIS",
           "seq": 7,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-MIS-GB-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-MIS-GB",
               "seq": 0,
               "profileName": "",
@@ -962,10 +964,10 @@
           "opTypeId": "IMP-SANC-PRC",
           "seq": 1,
           "wepName": "Hand Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-PRC-HF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-PRC-HF",
               "seq": 0,
               "profileName": "",
@@ -996,10 +998,10 @@
           "opTypeId": "IMP-SANC-PRC",
           "seq": 2,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-PRC-CS-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-PRC-CS",
               "seq": 0,
               "profileName": "",
@@ -1037,10 +1039,10 @@
           "opTypeId": "IMP-SANC-REL",
           "seq": 1,
           "wepName": "Hand Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-REL-HF-0",
+              "wepType": "R",
               "wepId": "IMP-SANC-REL-HF",
               "seq": 0,
               "profileName": "",
@@ -1071,10 +1073,10 @@
           "opTypeId": "IMP-SANC-REL",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-REL-GB-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-REL-GB",
               "seq": 0,
               "profileName": "",
@@ -1118,10 +1120,10 @@
           "opTypeId": "IMP-SANC-SAL",
           "seq": 1,
           "wepName": "Soulstave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SANC-SAL-SS-0",
+              "wepType": "M",
               "wepId": "IMP-SANC-SAL-SS",
               "seq": 0,
               "profileName": "",

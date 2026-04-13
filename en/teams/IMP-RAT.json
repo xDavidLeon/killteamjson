@@ -138,10 +138,10 @@
           "opTypeId": "IMP-RAT-FIX",
           "seq": 1,
           "wepName": "Battle Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-FIX-BR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-FIX-BR",
               "seq": 0,
               "profileName": "",
@@ -157,10 +157,10 @@
           "opTypeId": "IMP-RAT-FIX",
           "seq": 2,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-FIX-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-FIX-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -171,6 +171,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-FIX-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-FIX-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -194,10 +195,10 @@
           "opTypeId": "IMP-RAT-FIX",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-FIX-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-FIX-F",
               "seq": 0,
               "profileName": "",
@@ -247,10 +248,10 @@
           "opTypeId": "IMP-RAT-BIG",
           "seq": 1,
           "wepName": "Tankstopper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BIG-TSR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-BIG-TSR",
               "seq": 0,
               "profileName": "Mobile",
@@ -274,6 +275,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-BIG-TSR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-BIG-TSR",
               "seq": 1,
               "profileName": "Stationary",
@@ -304,10 +306,10 @@
           "opTypeId": "IMP-RAT-BIG",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BIG-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-BIG-F",
               "seq": 0,
               "profileName": "",
@@ -345,10 +347,10 @@
           "opTypeId": "IMP-RAT-HARD",
           "seq": 1,
           "wepName": "Battle Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-HARD-BR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-HARD-BR",
               "seq": 0,
               "profileName": "",
@@ -364,10 +366,10 @@
           "opTypeId": "IMP-RAT-HARD",
           "seq": 2,
           "wepName": "Combat Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-HARD-CK-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-HARD-CK",
               "seq": 0,
               "profileName": "",
@@ -421,10 +423,10 @@
           "opTypeId": "IMP-RAT-SPOT",
           "seq": 1,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SPOT-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-SPOT-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -435,6 +437,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-SPOT-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-SPOT-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -458,10 +461,10 @@
           "opTypeId": "IMP-RAT-SPOT",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SPOT-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-SPOT-F",
               "seq": 0,
               "profileName": "",
@@ -513,10 +516,10 @@
           "opTypeId": "IMP-RAT-BOMB",
           "seq": 1,
           "wepName": "Explosive Arsenal",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BOMB-EXA-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-BOMB-EXA",
               "seq": 0,
               "profileName": "",
@@ -556,10 +559,10 @@
           "opTypeId": "IMP-RAT-BOMB",
           "seq": 2,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BOMB-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-BOMB-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -570,6 +573,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-BOMB-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-BOMB-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -593,10 +597,10 @@
           "opTypeId": "IMP-RAT-BOMB",
           "seq": 3,
           "wepName": "Bionic Arm",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BOMB-BA-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-BOMB-BA",
               "seq": 0,
               "profileName": "",
@@ -646,10 +650,10 @@
           "opTypeId": "IMP-RAT-STASH",
           "seq": 1,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-STASH-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-STASH-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -660,6 +664,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-STASH-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-STASH-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -683,10 +688,10 @@
           "opTypeId": "IMP-RAT-STASH",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-STASH-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-STASH-F",
               "seq": 0,
               "profileName": "",
@@ -736,10 +741,10 @@
           "opTypeId": "IMP-RAT-RAID",
           "seq": 1,
           "wepName": "Suppressed Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-RAID-SSR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-RAID-SSR",
               "seq": 0,
               "profileName": "Mobile",
@@ -754,6 +759,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-RAID-SSR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-RAID-SSR",
               "seq": 1,
               "profileName": "Stationary",
@@ -780,10 +786,10 @@
           "opTypeId": "IMP-RAT-RAID",
           "seq": 2,
           "wepName": "Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-RAID-DAG-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-RAID-DAG",
               "seq": 0,
               "profileName": "",
@@ -827,10 +833,10 @@
           "opTypeId": "IMP-RAT-SNP",
           "seq": 1,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SNP-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-SNP-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -841,6 +847,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-SNP-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-SNP-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -864,10 +871,10 @@
           "opTypeId": "IMP-RAT-SNP",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SNP-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-SNP-F",
               "seq": 0,
               "profileName": "",
@@ -905,10 +912,10 @@
           "opTypeId": "IMP-RAT-VOX",
           "seq": 1,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-VOX-SR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-VOX-SR",
               "seq": 0,
               "profileName": "Mobile",
@@ -919,6 +926,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-VOX-SR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-VOX-SR",
               "seq": 1,
               "profileName": "Stationary",
@@ -942,10 +950,10 @@
           "opTypeId": "IMP-RAT-VOX",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-VOX-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-VOX-F",
               "seq": 0,
               "profileName": "",
@@ -1001,10 +1009,10 @@
           "opTypeId": "IMP-RAT-SNK",
           "seq": 1,
           "wepName": "Suppressed Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SNK-SSR-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-SNK-SSR",
               "seq": 0,
               "profileName": "Mobile",
@@ -1019,6 +1027,7 @@
             },
             {
               "wepprofileId": "IMP-RAT-SNK-SSR-1",
+              "wepType": "R",
               "wepId": "IMP-RAT-SNK-SSR",
               "seq": 1,
               "profileName": "Stationary",
@@ -1045,10 +1054,10 @@
           "opTypeId": "IMP-RAT-SNK",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-SNK-F-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-SNK-F",
               "seq": 0,
               "profileName": "",
@@ -1108,10 +1117,10 @@
           "opTypeId": "IMP-RAT-OGR",
           "seq": 1,
           "wepName": "Ripper Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-OGR-RG-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-OGR-RG",
               "seq": 0,
               "profileName": "",
@@ -1135,10 +1144,10 @@
           "opTypeId": "IMP-RAT-OGR",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-OGR-B-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-OGR-B",
               "seq": 0,
               "profileName": "",
@@ -1188,10 +1197,10 @@
           "opTypeId": "IMP-RAT-BULL",
           "seq": 1,
           "wepName": "Grenadier Gauntlet",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BULL-GG-0",
+              "wepType": "R",
               "wepId": "IMP-RAT-BULL-GG",
               "seq": 0,
               "profileName": "",
@@ -1212,10 +1221,10 @@
           "opTypeId": "IMP-RAT-BULL",
           "seq": 2,
           "wepName": "Power Maul",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BULL-PM-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-BULL-PM",
               "seq": 0,
               "profileName": "",
@@ -1235,10 +1244,10 @@
           "opTypeId": "IMP-RAT-BULL",
           "seq": 3,
           "wepName": "Brute Shield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BULL-BS-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-BULL-BS",
               "seq": 0,
               "profileName": "",
@@ -1254,10 +1263,10 @@
           "opTypeId": "IMP-RAT-BULL",
           "seq": 4,
           "wepName": "Slabshield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-BULL-SS-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-BULL-SS",
               "seq": 0,
               "profileName": "",
@@ -1307,10 +1316,10 @@
           "opTypeId": "IMP-RAT-MUTT",
           "seq": 1,
           "wepName": "Bite",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-RAT-MUTT-B-0",
+              "wepType": "M",
               "wepId": "IMP-RAT-MUTT-B",
               "seq": 0,
               "profileName": "",

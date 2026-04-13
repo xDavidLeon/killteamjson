@@ -138,10 +138,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 1,
           "wepName": "Fusion Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-FP-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-LPL-FP",
               "seq": 0,
               "profileName": "",
@@ -170,10 +170,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 2,
           "wepName": "Neuro Disruptor",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-ND-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-LPL-ND",
               "seq": 0,
               "profileName": "",
@@ -201,10 +201,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-SP-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-LPL-SP",
               "seq": 0,
               "profileName": "",
@@ -228,10 +228,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 4,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-B-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-LPL-B",
               "seq": 0,
               "profileName": "",
@@ -247,10 +247,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 5,
           "wepName": "Caress",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-C-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-LPL-C",
               "seq": 0,
               "profileName": "",
@@ -270,10 +270,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 6,
           "wepName": "Embrace",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-E-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-LPL-E",
               "seq": 0,
               "profileName": "",
@@ -293,10 +293,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 7,
           "wepName": "Kiss",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-K-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-LPL-K",
               "seq": 0,
               "profileName": "",
@@ -312,10 +312,10 @@
           "opTypeId": "AEL-VDT-LPL",
           "seq": 8,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-LPL-PW-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-LPL-PW",
               "seq": 0,
               "profileName": "",
@@ -358,10 +358,10 @@
           "opTypeId": "AEL-VDT-DJS",
           "seq": 1,
           "wepName": "Shrieker Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-DJS-SC-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-DJS-SC",
               "seq": 0,
               "profileName": "Focused",
@@ -383,6 +383,7 @@
             },
             {
               "wepprofileId": "AEL-VDT-DJS-SC-1",
+              "wepType": "R",
               "wepId": "AEL-VDT-DJS-SC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -413,10 +414,10 @@
           "opTypeId": "AEL-VDT-DJS",
           "seq": 2,
           "wepName": "Shrieker Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-DJS-SB-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-DJS-SB",
               "seq": 0,
               "profileName": "",
@@ -451,10 +452,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 1,
           "wepName": "Fusion Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-FP-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-PLAY-FP",
               "seq": 0,
               "profileName": "",
@@ -483,10 +484,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 2,
           "wepName": "Neuro Disruptor",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-ND-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-PLAY-ND",
               "seq": 0,
               "profileName": "",
@@ -514,10 +515,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-SP-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-PLAY-SP",
               "seq": 0,
               "profileName": "",
@@ -541,10 +542,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 4,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-B-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-PLAY-B",
               "seq": 0,
               "profileName": "",
@@ -560,10 +561,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 5,
           "wepName": "Caress",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-C-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-PLAY-C",
               "seq": 0,
               "profileName": "",
@@ -583,10 +584,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 6,
           "wepName": "Embrace",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-E-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-PLAY-E",
               "seq": 0,
               "profileName": "",
@@ -606,10 +607,10 @@
           "opTypeId": "AEL-VDT-PLAY",
           "seq": 7,
           "wepName": "Kiss",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-PLAY-K-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-PLAY-K",
               "seq": 0,
               "profileName": "",
@@ -647,10 +648,10 @@
           "opTypeId": "AEL-VDT-SDS",
           "seq": 1,
           "wepName": "Hallucinogen Grenade",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-SDS-HG-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-SDS-HG",
               "seq": 0,
               "profileName": "",
@@ -689,10 +690,10 @@
           "opTypeId": "AEL-VDT-SDS",
           "seq": 2,
           "wepName": "Neuro Disruptor",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-SDS-ND-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-SDS-ND",
               "seq": 0,
               "profileName": "",
@@ -720,10 +721,10 @@
           "opTypeId": "AEL-VDT-SDS",
           "seq": 3,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-SDS-SP-0",
+              "wepType": "R",
               "wepId": "AEL-VDT-SDS-SP",
               "seq": 0,
               "profileName": "",
@@ -747,10 +748,10 @@
           "opTypeId": "AEL-VDT-SDS",
           "seq": 4,
           "wepName": "Miststave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-VDT-SDS-MS-0",
+              "wepType": "M",
               "wepId": "AEL-VDT-SDS-MS",
               "seq": 0,
               "profileName": "",

@@ -168,10 +168,10 @@
           "opTypeId": "CHAOS-CULT-DEMA",
           "seq": 0,
           "wepName": "Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-DEMA-P-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-DEMA-P",
               "seq": 0,
               "profileName": "",
@@ -192,10 +192,10 @@
           "opTypeId": "CHAOS-CULT-DEMA",
           "seq": 1,
           "wepName": "Diabolical Stave",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-DEMA-DSR-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-DEMA-DSR",
               "seq": 0,
               "profileName": "",
@@ -219,10 +219,10 @@
           "opTypeId": "CHAOS-CULT-DEMA",
           "seq": 2,
           "wepName": "Diabolical Stave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-DEMA-DSM-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-DEMA-DSM",
               "seq": 0,
               "profileName": "",
@@ -290,10 +290,10 @@
           "opTypeId": "CHAOS-CULT-BLBL",
           "seq": 0,
           "wepName": "Commune Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-BLBL-CB-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-BLBL-CB",
               "seq": 0,
               "profileName": "",
@@ -342,10 +342,10 @@
           "opTypeId": "CHAOS-CULT-ICON",
           "seq": 0,
           "wepName": "Burning Censer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-ICON-BS-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-ICON-BS",
               "seq": 0,
               "profileName": "",
@@ -373,10 +373,10 @@
           "opTypeId": "CHAOS-CULT-ICON",
           "seq": 1,
           "wepName": "Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-ICON-P-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-ICON-P",
               "seq": 0,
               "profileName": "",
@@ -397,10 +397,10 @@
           "opTypeId": "CHAOS-CULT-ICON",
           "seq": 2,
           "wepName": "Crude Melee Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-ICON-CMW-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-ICON-CMW",
               "seq": 0,
               "profileName": "",
@@ -457,10 +457,10 @@
           "opTypeId": "CHAOS-CULT-MW",
           "seq": 0,
           "wepName": "Infernal Gaze",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-MW-IG-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-MW-IG",
               "seq": 0,
               "profileName": "",
@@ -492,10 +492,10 @@
           "opTypeId": "CHAOS-CULT-MW",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-MW-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-MW-F",
               "seq": 0,
               "profileName": "",
@@ -559,10 +559,10 @@
           "opTypeId": "CHAOS-CULT-DEV",
           "seq": 0,
           "wepName": "Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-DEV-P-0",
+              "wepType": "R",
               "wepId": "CHAOS-CULT-DEV-P",
               "seq": 0,
               "profileName": "",
@@ -583,10 +583,10 @@
           "opTypeId": "CHAOS-CULT-DEV",
           "seq": 1,
           "wepName": "Crude Melee Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-DEV-CMW-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-DEV-CMW",
               "seq": 0,
               "profileName": "",
@@ -624,10 +624,10 @@
           "opTypeId": "CHAOS-CULT-MUT",
           "seq": 0,
           "wepName": "Blasphemous Appendages",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-MUT-BA-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-MUT-BA",
               "seq": 0,
               "profileName": "",
@@ -678,10 +678,10 @@
           "opTypeId": "CHAOS-CULT-TOR",
           "seq": 0,
           "wepName": "Hideous Mutations",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-CULT-TOR-HM-0",
+              "wepType": "M",
               "wepId": "CHAOS-CULT-TOR-HM",
               "seq": 0,
               "profileName": "",

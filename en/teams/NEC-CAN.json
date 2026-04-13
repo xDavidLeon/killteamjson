@@ -133,10 +133,10 @@
           "opTypeId": "NEC-CAN-GEO",
           "seq": 1,
           "wepName": "Tremorglaive",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-GEO-TGR-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-GEO-TGR",
               "seq": 1,
               "profileName": "Part Matter",
@@ -157,6 +157,7 @@
             },
             {
               "wepprofileId": "NEC-CAN-GEO-TGR-02",
+              "wepType": "R",
               "wepId": "NEC-CAN-GEO-TGR",
               "seq": 2,
               "profileName": "Quake",
@@ -184,10 +185,10 @@
           "opTypeId": "NEC-CAN-GEO",
           "seq": 1,
           "wepName": "Tremorglaive",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-GEO-TGM-01",
+              "wepType": "M",
               "wepId": "NEC-CAN-GEO-TGM",
               "seq": 1,
               "profileName": "",
@@ -283,10 +284,10 @@
           "opTypeId": "NEC-CAN-ACC",
           "seq": 1,
           "wepName": "Spark",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-ACC-SP-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-ACC-SP",
               "seq": 1,
               "profileName": "",
@@ -311,10 +312,10 @@
           "opTypeId": "NEC-CAN-ACC",
           "seq": 2,
           "wepName": "Claws & Spark",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-ACC-CAS-01",
+              "wepType": "M",
               "wepId": "NEC-CAN-ACC-CAS",
               "seq": 1,
               "profileName": "",
@@ -385,10 +386,10 @@
           "opTypeId": "NEC-CAN-REA",
           "seq": 1,
           "wepName": "Atomiser Beam",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-REA-AB-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-REA-AB",
               "seq": 1,
               "profileName": "",
@@ -413,10 +414,10 @@
           "opTypeId": "NEC-CAN-REA",
           "seq": 2,
           "wepName": "Claws & Tail",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-REA-CAT-01",
+              "wepType": "M",
               "wepId": "NEC-CAN-REA-CAT",
               "seq": 1,
               "profileName": "",
@@ -471,10 +472,10 @@
           "opTypeId": "NEC-CAN-WAR",
           "seq": 1,
           "wepName": "Gauss Scalpel",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-WAR-GS-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-WAR-GS",
               "seq": 1,
               "profileName": "",
@@ -495,10 +496,10 @@
           "opTypeId": "NEC-CAN-WAR",
           "seq": 2,
           "wepName": "Tesla Caster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-WAR-TC-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-WAR-TC",
               "seq": 1,
               "profileName": "Focused",
@@ -509,6 +510,7 @@
             },
             {
               "wepprofileId": "NEC-CAN-WAR-TC-02",
+              "wepType": "R",
               "wepId": "NEC-CAN-WAR-TC",
               "seq": 2,
               "profileName": "Living Lightning",
@@ -529,10 +531,10 @@
           "opTypeId": "NEC-CAN-WAR",
           "seq": 3,
           "wepName": "Claws & Tail",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-WAR-CAT-01",
+              "wepType": "M",
               "wepId": "NEC-CAN-WAR-CAT",
               "seq": 1,
               "profileName": "",
@@ -576,10 +578,10 @@
           "opTypeId": "NEC-CAN-TC",
           "seq": 1,
           "wepName": "Transdimensional Isolator",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-TC-TDI-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-TC-TDI",
               "seq": 1,
               "profileName": "",
@@ -599,10 +601,10 @@
           "opTypeId": "NEC-CAN-TC",
           "seq": 2,
           "wepName": "Twin Gauss Reapers",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-TC-TGR-01",
+              "wepType": "R",
               "wepId": "NEC-CAN-TC-TGR",
               "seq": 1,
               "profileName": "Focused",
@@ -621,6 +623,7 @@
             },
             {
               "wepprofileId": "NEC-CAN-TC-TGR-02",
+              "wepType": "R",
               "wepId": "NEC-CAN-TC-TGR",
               "seq": 2,
               "profileName": "Sweeping",
@@ -648,10 +651,10 @@
           "opTypeId": "NEC-CAN-TC",
           "seq": 3,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-CAN-TC-C-01",
+              "wepType": "M",
               "wepId": "NEC-CAN-TC-C",
               "seq": 1,
               "profileName": "",

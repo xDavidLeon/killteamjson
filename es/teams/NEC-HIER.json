@@ -138,10 +138,10 @@
           "opTypeId": "NEC-HIER-CHRON",
           "seq": 0,
           "wepName": "Aeonstave",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-CHRON-ASR-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-CHRON-ASR",
               "seq": 0,
               "profileName": "",
@@ -172,10 +172,10 @@
           "opTypeId": "NEC-HIER-CHRON",
           "seq": 1,
           "wepName": "Entropic Lance",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-CHRON-ELR-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-CHRON-ELR",
               "seq": 0,
               "profileName": "",
@@ -203,10 +203,10 @@
           "opTypeId": "NEC-HIER-CHRON",
           "seq": 2,
           "wepName": "Aeonstave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-CHRON-ASM-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-CHRON-ASM",
               "seq": 0,
               "profileName": "",
@@ -230,10 +230,10 @@
           "opTypeId": "NEC-HIER-CHRON",
           "seq": 3,
           "wepName": "Entropic Lance",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-CHRON-ELM-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-CHRON-ELM",
               "seq": 0,
               "profileName": "",
@@ -319,10 +319,10 @@
           "opTypeId": "NEC-HIER-PSYCH",
           "seq": 0,
           "wepName": "Abyssal Lance",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PSYCH-ALR-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-PSYCH-ALR",
               "seq": 0,
               "profileName": "",
@@ -355,10 +355,10 @@
           "opTypeId": "NEC-HIER-PSYCH",
           "seq": 1,
           "wepName": "Abyssal Lance",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PSYCH-ALM-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-PSYCH-ALM",
               "seq": 0,
               "profileName": "",
@@ -456,10 +456,10 @@
           "opTypeId": "NEC-HIER-TECH",
           "seq": 0,
           "wepName": "Staff Of Light",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-TECH-SOLR-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-TECH-SOLR",
               "seq": 0,
               "profileName": "",
@@ -482,10 +482,10 @@
           "opTypeId": "NEC-HIER-TECH",
           "seq": 1,
           "wepName": "Staff Of Light",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-TECH-SOLM-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-TECH-SOLM",
               "seq": 0,
               "profileName": "",
@@ -580,10 +580,10 @@
           "opTypeId": "NEC-HIER-PA",
           "seq": 0,
           "wepName": "Spark",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PA-SP-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-PA-SP",
               "seq": 0,
               "profileName": "",
@@ -608,10 +608,10 @@
           "opTypeId": "NEC-HIER-PA",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PA-CL-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-PA-CL",
               "seq": 0,
               "profileName": "",
@@ -666,10 +666,10 @@
           "opTypeId": "NEC-HIER-PR",
           "seq": 0,
           "wepName": "Atomiser Beam",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PR-AB-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-PR-AB",
               "seq": 0,
               "profileName": "",
@@ -694,10 +694,10 @@
           "opTypeId": "NEC-HIER-PR",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-PR-CL-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-PR-CL",
               "seq": 0,
               "profileName": "",
@@ -753,10 +753,10 @@
           "opTypeId": "NEC-HIER-APP",
           "seq": 0,
           "wepName": "Arcane Conduit",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-APP-ACR-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-APP-ACR",
               "seq": 0,
               "profileName": "",
@@ -780,10 +780,10 @@
           "opTypeId": "NEC-HIER-APP",
           "seq": 1,
           "wepName": "Arcane Conduit",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-APP-ACM-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-APP-ACM",
               "seq": 0,
               "profileName": "",
@@ -821,10 +821,10 @@
           "opTypeId": "NEC-HIER-DM",
           "seq": 0,
           "wepName": "Synaptic Disintegrator",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-DM-SD-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-DM-SD",
               "seq": 0,
               "profileName": "",
@@ -856,10 +856,10 @@
           "opTypeId": "NEC-HIER-DM",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-DM-F-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-DM-F",
               "seq": 0,
               "profileName": "",
@@ -913,10 +913,10 @@
           "opTypeId": "NEC-HIER-ID",
           "seq": 0,
           "wepName": "Gauss Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-ID-GB-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-ID-GB",
               "seq": 0,
               "profileName": "",
@@ -937,10 +937,10 @@
           "opTypeId": "NEC-HIER-ID",
           "seq": 1,
           "wepName": "Tesla Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-ID-TC-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-ID-TC",
               "seq": 0,
               "profileName": "",
@@ -962,10 +962,10 @@
           "opTypeId": "NEC-HIER-ID",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-ID-B-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-ID-B",
               "seq": 0,
               "profileName": "",
@@ -1017,10 +1017,10 @@
           "opTypeId": "NEC-HIER-IG",
           "seq": 0,
           "wepName": "Gauss Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-IG-GB-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-IG-GB",
               "seq": 0,
               "profileName": "",
@@ -1041,10 +1041,10 @@
           "opTypeId": "NEC-HIER-IG",
           "seq": 1,
           "wepName": "Tesla Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-IG-TC-0",
+              "wepType": "R",
               "wepId": "NEC-HIER-IG-TC",
               "seq": 0,
               "profileName": "",
@@ -1066,10 +1066,10 @@
           "opTypeId": "NEC-HIER-IG",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "NEC-HIER-IG-B-0",
+              "wepType": "M",
               "wepId": "NEC-HIER-IG-B",
               "seq": 0,
               "profileName": "",

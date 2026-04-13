@@ -138,10 +138,10 @@
                     "opTypeId": "IMP-WS-PL",
                     "seq": 1,
                     "wepName": "Pistola de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-PL-PP-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-PL-PP",
                             "seq": 1,
                             "profileName": "Normal",
@@ -161,6 +161,7 @@
                         },
                         {
                             "wepprofileId": "IMP-WS-PL-PP-02",
+                            "wepType": "R",
                             "wepId": "IMP-WS-PL-PP",
                             "seq": 2,
                             "profileName": "Sobrecarga",
@@ -192,10 +193,10 @@
                     "opTypeId": "IMP-WS-PL",
                     "seq": 2,
                     "wepName": "Arma de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-PL-PW-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-PL-PW",
                             "seq": 1,
                             "profileName": "",
@@ -244,10 +245,10 @@
                     "opTypeId": "IMP-WS-FB",
                     "seq": 1,
                     "wepName": "Pistola bólter absolvor",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FB-ABP-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-FB-ABP",
                             "seq": 1,
                             "profileName": "",
@@ -273,10 +274,10 @@
                     "opTypeId": "IMP-WS-FB",
                     "seq": 2,
                     "wepName": "Filopuñal",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FB-CB-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-FB-CB",
                             "seq": 1,
                             "profileName": "",
@@ -320,10 +321,10 @@
                     "opTypeId": "IMP-WS-FE",
                     "seq": 1,
                     "wepName": "Carabina bólter instigador",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FE-IBC-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-FE-IBC",
                             "seq": 1,
                             "profileName": "Pesada",
@@ -347,6 +348,7 @@
                         },
                         {
                             "wepprofileId": "IMP-WS-FE-IBC-02",
+                            "wepType": "R",
                             "wepId": "IMP-WS-FE-IBC",
                             "seq": 2,
                             "profileName": "móvil",
@@ -371,10 +373,10 @@
                     "opTypeId": "IMP-WS-FE",
                     "seq": 2,
                     "wepName": "Filopuñal",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FE-CB-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-FE-CB",
                             "seq": 1,
                             "profileName": "",
@@ -418,10 +420,10 @@
                     "opTypeId": "IMP-WS-GNR",
                     "seq": 1,
                     "wepName": "Rifle de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-GNR-PG-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-GNR-PG",
                             "seq": 1,
                             "profileName": "Normal",
@@ -437,6 +439,7 @@
                         },
                         {
                             "wepprofileId": "IMP-WS-GNR-PG-02",
+                            "wepType": "R",
                             "wepId": "IMP-WS-GNR-PG",
                             "seq": 2,
                             "profileName": "Sobrecarga",
@@ -464,10 +467,10 @@
                     "opTypeId": "IMP-WS-GNR",
                     "seq": 2,
                     "wepName": "Filopuñal",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-GNR-CB-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-GNR-CB",
                             "seq": 1,
                             "profileName": "",
@@ -505,10 +508,10 @@
                     "opTypeId": "IMP-WS-HNT",
                     "seq": 1,
                     "wepName": "Pistola de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-HNT-PP-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-HNT-PP",
                             "seq": 1,
                             "profileName": "Normal",
@@ -528,6 +531,7 @@
                         },
                         {
                             "wepprofileId": "IMP-WS-HNT-PP-02",
+                            "wepType": "R",
                             "wepId": "IMP-WS-HNT-PP",
                             "seq": 2,
                             "profileName": "Sobrecarga",
@@ -559,10 +563,10 @@
                     "opTypeId": "IMP-WS-HNT",
                     "seq": 2,
                     "wepName": "Filopuñal",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-HNT-CB-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-HNT-CB",
                             "seq": 1,
                             "profileName": "",
@@ -600,10 +604,10 @@
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-RPS-BP-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-RPS-BP",
                             "seq": 1,
                             "profileName": "",
@@ -624,10 +628,10 @@
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 2,
                     "wepName": "Fauces del Mundo Lobo",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-RPS-JWW-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-RPS-JWW",
                             "seq": 1,
                             "profileName": "",
@@ -654,10 +658,10 @@
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 3,
                     "wepName": "Golpe de trueno",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-RPS-TC-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-RPS-TC",
                             "seq": 1,
                             "profileName": "",
@@ -694,10 +698,10 @@
                     "opTypeId": "IMP-WS-RPS",
                     "seq": 4,
                     "wepName": "Báculo rúnico",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-RPS-RS-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-RPS-RS",
                             "seq": 1,
                             "profileName": "",
@@ -748,10 +752,10 @@
                     "opTypeId": "IMP-WS-TM",
                     "seq": 1,
                     "wepName": "Pistola de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-TM-PP-01",
+                            "wepType": "R",
                             "wepId": "IMP-WS-TM-PP",
                             "seq": 1,
                             "profileName": "Normal",
@@ -771,6 +775,7 @@
                         },
                         {
                             "wepprofileId": "IMP-WS-TM-PP-02",
+                            "wepType": "R",
                             "wepId": "IMP-WS-TM-PP",
                             "seq": 2,
                             "profileName": "Sobrecarga",
@@ -802,10 +807,10 @@
                     "opTypeId": "IMP-WS-TM",
                     "seq": 2,
                     "wepName": "Filopuñal",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-TM-CB-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-TM-CB",
                             "seq": 1,
                             "profileName": "",
@@ -849,10 +854,10 @@
                     "opTypeId": "IMP-WS-FW",
                     "seq": 1,
                     "wepName": "Colmillos",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-WS-FW-F-01",
+                            "wepType": "M",
                             "wepId": "IMP-WS-FW-F",
                             "seq": 1,
                             "profileName": "",

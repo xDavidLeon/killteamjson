@@ -138,10 +138,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 0,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-BP-0",
+              "wepType": "R",
               "wepId": "IMP-INB-SGT-BP",
               "seq": 0,
               "profileName": "",
@@ -162,10 +162,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 1,
           "wepName": "Heirloom Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-HAP-0",
+              "wepType": "R",
               "wepId": "IMP-INB-SGT-HAP",
               "seq": 0,
               "profileName": "",
@@ -190,10 +190,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 2,
           "wepName": "Navis Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-NS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-SGT-NS",
               "seq": 0,
               "profileName": "Close Range",
@@ -209,6 +209,7 @@
             },
             {
               "wepprofileId": "IMP-INB-SGT-NS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-SGT-NS",
               "seq": 1,
               "profileName": "Long Range",
@@ -224,10 +225,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 3,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-CS-0",
+              "wepType": "M",
               "wepId": "IMP-INB-SGT-CS",
               "seq": 0,
               "profileName": "",
@@ -243,10 +244,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 4,
           "wepName": "Navis Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-NH-0",
+              "wepType": "M",
               "wepId": "IMP-INB-SGT-NH",
               "seq": 0,
               "profileName": "",
@@ -262,10 +263,10 @@
           "opTypeId": "IMP-INB-SGT",
           "seq": 5,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SGT-PW-0",
+              "wepType": "M",
               "wepId": "IMP-INB-SGT-PW",
               "seq": 0,
               "profileName": "",
@@ -308,10 +309,10 @@
           "opTypeId": "IMP-INB-ARM",
           "seq": 0,
           "wepName": "Navis Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-ARM-NS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-ARM-NS",
               "seq": 0,
               "profileName": "Close Range",
@@ -327,6 +328,7 @@
             },
             {
               "wepprofileId": "IMP-INB-ARM-NS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-ARM-NS",
               "seq": 1,
               "profileName": "Long Range",
@@ -342,10 +344,10 @@
           "opTypeId": "IMP-INB-ARM",
           "seq": 1,
           "wepName": "Navis Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-ARM-NH-0",
+              "wepType": "M",
               "wepId": "IMP-INB-ARM-NH",
               "seq": 0,
               "profileName": "",
@@ -383,10 +385,10 @@
           "opTypeId": "IMP-INB-AXE",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-AXE-AP-0",
+              "wepType": "R",
               "wepId": "IMP-INB-AXE-AP",
               "seq": 0,
               "profileName": "",
@@ -407,10 +409,10 @@
           "opTypeId": "IMP-INB-AXE",
           "seq": 1,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-AXE-PW-0",
+              "wepType": "M",
               "wepId": "IMP-INB-AXE-PW",
               "seq": 0,
               "profileName": "",
@@ -500,10 +502,10 @@
           "opTypeId": "IMP-INB-END",
           "seq": 0,
           "wepName": "Navis Heavy Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-END-NHS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-END-NHS",
               "seq": 0,
               "profileName": "Close Range",
@@ -522,6 +524,7 @@
             },
             {
               "wepprofileId": "IMP-INB-END-NHS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-END-NHS",
               "seq": 1,
               "profileName": "Long Range",
@@ -541,10 +544,10 @@
           "opTypeId": "IMP-INB-END",
           "seq": 1,
           "wepName": "Shield Bash",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-END-SB-0",
+              "wepType": "M",
               "wepId": "IMP-INB-END-SB",
               "seq": 0,
               "profileName": "",
@@ -644,10 +647,10 @@
           "opTypeId": "IMP-INB-GRN",
           "seq": 0,
           "wepName": "Demolition Charge",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GRN-DC-0",
+              "wepType": "R",
               "wepId": "IMP-INB-GRN-DC",
               "seq": 0,
               "profileName": "",
@@ -687,10 +690,10 @@
           "opTypeId": "IMP-INB-GRN",
           "seq": 1,
           "wepName": "Navis Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GRN-NS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-GRN-NS",
               "seq": 0,
               "profileName": "Close Range",
@@ -706,6 +709,7 @@
             },
             {
               "wepprofileId": "IMP-INB-GRN-NS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-GRN-NS",
               "seq": 1,
               "profileName": "Long Range",
@@ -721,10 +725,10 @@
           "opTypeId": "IMP-INB-GRN",
           "seq": 2,
           "wepName": "Navis Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GRN-NH-0",
+              "wepType": "M",
               "wepId": "IMP-INB-GRN-NH",
               "seq": 0,
               "profileName": "",
@@ -740,10 +744,10 @@
           "opTypeId": "IMP-INB-GRN",
           "seq": 3,
           "wepName": "Frag Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GRN-FG-0",
+              "wepType": "E",
               "wepId": "IMP-INB-GRN-FG",
               "seq": 0,
               "profileName": "",
@@ -771,10 +775,10 @@
           "opTypeId": "IMP-INB-GRN",
           "seq": 4,
           "wepName": "Krak Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GRN-KG-0",
+              "wepType": "E",
               "wepId": "IMP-INB-GRN-KG",
               "seq": 0,
               "profileName": "",
@@ -824,10 +828,10 @@
           "opTypeId": "IMP-INB-GNR",
           "seq": 0,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GNR-MG-0",
+              "wepType": "R",
               "wepId": "IMP-INB-GNR-MG",
               "seq": 0,
               "profileName": "",
@@ -856,10 +860,10 @@
           "opTypeId": "IMP-INB-GNR",
           "seq": 1,
           "wepName": "Navis Las-Volley",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GNR-NLV-0",
+              "wepType": "R",
               "wepId": "IMP-INB-GNR-NLV",
               "seq": 0,
               "profileName": "Focused",
@@ -878,6 +882,7 @@
             },
             {
               "wepprofileId": "IMP-INB-GNR-NLV-1",
+              "wepType": "R",
               "wepId": "IMP-INB-GNR-NLV",
               "seq": 1,
               "profileName": "Sweeping",
@@ -905,10 +910,10 @@
           "opTypeId": "IMP-INB-GNR",
           "seq": 2,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GNR-PG-0",
+              "wepType": "R",
               "wepId": "IMP-INB-GNR-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -924,6 +929,7 @@
             },
             {
               "wepprofileId": "IMP-INB-GNR-PG-1",
+              "wepType": "R",
               "wepId": "IMP-INB-GNR-PG",
               "seq": 1,
               "profileName": "Supercharge",
@@ -951,10 +957,10 @@
           "opTypeId": "IMP-INB-GNR",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-GNR-GB-0",
+              "wepType": "M",
               "wepId": "IMP-INB-GNR-GB",
               "seq": 0,
               "profileName": "",
@@ -985,10 +991,10 @@
           "opTypeId": "IMP-INB-HC",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-HC-AP-0",
+              "wepType": "R",
               "wepId": "IMP-INB-HC-AP",
               "seq": 0,
               "profileName": "",
@@ -1009,10 +1015,10 @@
           "opTypeId": "IMP-INB-HC",
           "seq": 1,
           "wepName": "Chainfist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-HC-CF-0",
+              "wepType": "M",
               "wepId": "IMP-INB-HC-CF",
               "seq": 0,
               "profileName": "",
@@ -1082,10 +1088,10 @@
           "opTypeId": "IMP-INB-SRV",
           "seq": 0,
           "wepName": "Navis Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SRV-NS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-SRV-NS",
               "seq": 0,
               "profileName": "Close Range",
@@ -1101,6 +1107,7 @@
             },
             {
               "wepprofileId": "IMP-INB-SRV-NS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-SRV-NS",
               "seq": 1,
               "profileName": "Long Range",
@@ -1116,10 +1123,10 @@
           "opTypeId": "IMP-INB-SRV",
           "seq": 1,
           "wepName": "Navis Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-SRV-NH-0",
+              "wepType": "M",
               "wepId": "IMP-INB-SRV-NH",
               "seq": 0,
               "profileName": "",
@@ -1182,10 +1189,10 @@
           "opTypeId": "IMP-INB-VJ",
           "seq": 0,
           "wepName": "Gheistskull Detonator",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-VJ-GD-0",
+              "wepType": "R",
               "wepId": "IMP-INB-VJ-GD",
               "seq": 0,
               "profileName": "",
@@ -1223,10 +1230,10 @@
           "opTypeId": "IMP-INB-VJ",
           "seq": 1,
           "wepName": "Navis Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-VJ-NS-0",
+              "wepType": "R",
               "wepId": "IMP-INB-VJ-NS",
               "seq": 0,
               "profileName": "Close Range",
@@ -1242,6 +1249,7 @@
             },
             {
               "wepprofileId": "IMP-INB-VJ-NS-1",
+              "wepType": "R",
               "wepId": "IMP-INB-VJ-NS",
               "seq": 1,
               "profileName": "Long Range",
@@ -1257,10 +1265,10 @@
           "opTypeId": "IMP-INB-VJ",
           "seq": 2,
           "wepName": "Navis Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-INB-VJ-NH-0",
+              "wepType": "M",
               "wepId": "IMP-INB-VJ-NH",
               "seq": 0,
               "profileName": "",

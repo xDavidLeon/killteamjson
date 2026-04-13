@@ -155,10 +155,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 0,
           "wepName": "Shuriken Catapult",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-SC-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-DAX-SC",
               "seq": 0,
               "profileName": "",
@@ -178,10 +178,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 1,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-SP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-DAX-SP",
               "seq": 0,
               "profileName": "",
@@ -205,10 +205,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 2,
           "wepName": "Twin Shuriken Catapult",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-TSC-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-DAX-TSC",
               "seq": 0,
               "profileName": "",
@@ -231,10 +231,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 3,
           "wepName": "Diresword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-DS-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-DAX-DS",
               "seq": 0,
               "profileName": "",
@@ -258,10 +258,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-F-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-DAX-F",
               "seq": 0,
               "profileName": "",
@@ -277,10 +277,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 5,
           "wepName": "Gun Butts",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-GB-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-DAX-GB",
               "seq": 0,
               "profileName": "",
@@ -296,10 +296,10 @@
           "opTypeId": "AEL-BOK-DAX",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAX-PW-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-DAX-PW",
               "seq": 0,
               "profileName": "",
@@ -354,10 +354,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 0,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-SP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-HBX-SP",
               "seq": 0,
               "profileName": "",
@@ -381,10 +381,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 1,
           "wepName": "Triskele (throw)",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-TSK-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-HBX-TSK",
               "seq": 0,
               "profileName": "",
@@ -412,10 +412,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 2,
           "wepName": "Executioner",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-EXE-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-HBX-EXE",
               "seq": 0,
               "profileName": "",
@@ -436,10 +436,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 3,
           "wepName": "Mirrorswords",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-MS-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-HBX-MS",
               "seq": 0,
               "profileName": "",
@@ -463,10 +463,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 4,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-PW-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-HBX-PW",
               "seq": 0,
               "profileName": "",
@@ -487,10 +487,10 @@
           "opTypeId": "AEL-BOK-HBX",
           "seq": 5,
           "wepName": "Triskele (slice)",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBX-TSKM-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-HBX-TSKM",
               "seq": 0,
               "profileName": "",
@@ -538,10 +538,10 @@
           "opTypeId": "AEL-BOK-SSX",
           "seq": 0,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSX-SP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-SSX-SP",
               "seq": 0,
               "profileName": "",
@@ -565,10 +565,10 @@
           "opTypeId": "AEL-BOK-SSX",
           "seq": 1,
           "wepName": "Twin Shuriken Pistols",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSX-TSP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-SSX-TSP",
               "seq": 0,
               "profileName": "",
@@ -595,10 +595,10 @@
           "opTypeId": "AEL-BOK-SSX",
           "seq": 2,
           "wepName": "Biting Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSX-BB-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-SSX-BB",
               "seq": 0,
               "profileName": "",
@@ -618,10 +618,10 @@
           "opTypeId": "AEL-BOK-SSX",
           "seq": 3,
           "wepName": "Twin Chainswords",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSX-TCS-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-SSX-TCS",
               "seq": 0,
               "profileName": "",
@@ -644,10 +644,10 @@
           "opTypeId": "AEL-BOK-SSX",
           "seq": 4,
           "wepName": "Scorpion's Claw and Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSX-SCC-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-SSX-SCC",
               "seq": 0,
               "profileName": "",
@@ -699,10 +699,10 @@
           "opTypeId": "AEL-BOK-DAW",
           "seq": 0,
           "wepName": "Shuriken Catapult",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAW-SC-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-DAW-SC",
               "seq": 0,
               "profileName": "",
@@ -722,10 +722,10 @@
           "opTypeId": "AEL-BOK-DAW",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-DAW-F-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-DAW-F",
               "seq": 0,
               "profileName": "",
@@ -763,10 +763,10 @@
           "opTypeId": "AEL-BOK-HBW",
           "seq": 0,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBW-SP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-HBW-SP",
               "seq": 0,
               "profileName": "",
@@ -790,10 +790,10 @@
           "opTypeId": "AEL-BOK-HBW",
           "seq": 1,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-HBW-PW-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-HBW-PW",
               "seq": 0,
               "profileName": "",
@@ -836,10 +836,10 @@
           "opTypeId": "AEL-BOK-SSW",
           "seq": 0,
           "wepName": "Shuriken Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSW-SP-0",
+              "wepType": "R",
               "wepId": "AEL-BOK-SSW-SP",
               "seq": 0,
               "profileName": "",
@@ -863,10 +863,10 @@
           "opTypeId": "AEL-BOK-SSW",
           "seq": 1,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-BOK-SSW-CS-0",
+              "wepType": "M",
               "wepId": "AEL-BOK-SSW-CS",
               "seq": 0,
               "profileName": "",

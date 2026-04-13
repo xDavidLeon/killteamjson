@@ -91,10 +91,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Choppa",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-CHP-CHOPPA-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-CHP-CHOPPA",
               "seq": 0,
               "profileName": "",
@@ -126,10 +126,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Dynamite",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DYN-DYNAMITE-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-DYN-DYNAMITE",
               "seq": 0,
               "profileName": "",
@@ -170,10 +170,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Harpoon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-HRP-HARPOON-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-HRP-HARPOON",
               "seq": 0,
               "profileName": "",
@@ -217,10 +217,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 1,
           "wepName": "Slugga",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-NOB-SLG",
               "seq": 0,
               "profileName": "",
@@ -241,10 +241,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 2,
           "wepName": "Big Choppa",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-BC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-NOB-BC",
               "seq": 0,
               "profileName": "",
@@ -260,10 +260,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 3,
           "wepName": "Power Klaw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-PC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-NOB-PC",
               "seq": 0,
               "profileName": "",
@@ -331,10 +331,10 @@
           "opTypeId": "ORK-KOM-BOY",
           "seq": 1,
           "wepName": "Slugga",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BOY-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BOY-SLG",
               "seq": 0,
               "profileName": "",
@@ -355,10 +355,10 @@
           "opTypeId": "ORK-KOM-BOY",
           "seq": 2,
           "wepName": "Choppa",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BOY-CHP-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BOY-CHP",
               "seq": 0,
               "profileName": "",
@@ -402,10 +402,10 @@
           "opTypeId": "ORK-KOM-GROT",
           "seq": 1,
           "wepName": "Grot Choppa",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-GROT-GC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-GROT-GC",
               "seq": 0,
               "profileName": "",
@@ -466,10 +466,10 @@
           "opTypeId": "ORK-KOM-SLS",
           "seq": 1,
           "wepName": "Throwing Knives",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SLS-TK-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SLS-TK",
               "seq": 0,
               "profileName": "",
@@ -493,10 +493,10 @@
           "opTypeId": "ORK-KOM-SLS",
           "seq": 2,
           "wepName": "Twin Choppas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SLS-TC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SLS-TC",
               "seq": 0,
               "profileName": "",
@@ -548,10 +548,10 @@
           "opTypeId": "ORK-KOM-BRC",
           "seq": 1,
           "wepName": "Slugga",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRC-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRC-SLG",
               "seq": 0,
               "profileName": "",
@@ -572,10 +572,10 @@
           "opTypeId": "ORK-KOM-BRC",
           "seq": 2,
           "wepName": "Breacha Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRC-RAM-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BRC-RAM",
               "seq": 0,
               "profileName": "",
@@ -642,10 +642,10 @@
           "opTypeId": "ORK-KOM-SNP",
           "seq": 1,
           "wepName": "Scoped Big Shoota",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 0,
               "profileName": "Concealed",
@@ -670,6 +670,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 1,
               "profileName": "Stationary",
@@ -688,6 +689,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-2",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 2,
               "profileName": "Sweeping",
@@ -712,10 +714,10 @@
           "opTypeId": "ORK-KOM-SNP",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SNP-F -0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SNP-F ",
               "seq": 0,
               "profileName": "",
@@ -753,10 +755,10 @@
           "opTypeId": "ORK-KOM-DAK",
           "seq": 1,
           "wepName": "Dakka Shoota",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DAK-DS-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 0,
               "profileName": "Short Range",
@@ -775,6 +777,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-DAK-DS-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 1,
               "profileName": "Long Range",
@@ -790,10 +793,10 @@
           "opTypeId": "ORK-KOM-DAK",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DAK-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-DAK-F",
               "seq": 0,
               "profileName": "",
@@ -847,10 +850,10 @@
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 1,
           "wepName": "Shokka",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-COMMS-SHO-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-COMMS-SHO",
               "seq": 0,
               "profileName": "",
@@ -881,10 +884,10 @@
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-COMMS-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-COMMS-F",
               "seq": 0,
               "profileName": "",
@@ -946,10 +949,10 @@
           "opTypeId": "ORK-KOM-BRN",
           "seq": 1,
           "wepName": "Burna",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRN-BRN-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 0,
               "profileName": "Standard",
@@ -972,6 +975,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-BRN-BRN-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 1,
               "profileName": "Deluge",
@@ -1003,10 +1007,10 @@
           "opTypeId": "ORK-KOM-BRN",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRN-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BRN-F",
               "seq": 0,
               "profileName": "",
@@ -1044,10 +1048,10 @@
           "opTypeId": "ORK-KOM-RKT",
           "seq": 1,
           "wepName": "Rokkit Launcha",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-RKT-RL-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 0,
               "profileName": "Aimed",
@@ -1070,6 +1074,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-RKT-RL-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 1,
               "profileName": "Mobile",
@@ -1090,10 +1095,10 @@
           "opTypeId": "ORK-KOM-RKT",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-RKT-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-RKT-F",
               "seq": 0,
               "profileName": "",
@@ -1131,10 +1136,10 @@
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 1,
           "wepName": "Explosives",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SQUIG-EXPL-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SQUIG-EXPL",
               "seq": 0,
               "profileName": "",
@@ -1162,10 +1167,10 @@
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 2,
           "wepName": "Bite",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SQUIG-BIT-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SQUIG-BIT",
               "seq": 0,
               "profileName": "",
