@@ -133,10 +133,10 @@
           "opTypeId": "IMP-BC-TA",
           "seq": 1,
           "wepName": "Eradication Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-TA-EP-1",
+              "wepType": "R",
               "wepId": "IMP-BC-TA-EP",
               "seq": 1,
               "profileName": "",
@@ -166,10 +166,10 @@
           "opTypeId": "IMP-BC-TA",
           "seq": 2,
           "wepName": "Servo-Arc Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-TA-SAC-1",
+              "wepType": "M",
               "wepId": "IMP-BC-TA-SAC",
               "seq": 1,
               "profileName": "",
@@ -231,10 +231,10 @@
           "opTypeId": "IMP-BC-APS",
           "seq": 1,
           "wepName": "Taser Goad",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-APS-TG-1",
+              "wepType": "M",
               "wepId": "IMP-BC-APS-TG",
               "seq": 1,
               "profileName": "",
@@ -298,10 +298,10 @@
           "opTypeId": "IMP-BC-BBS",
           "seq": 1,
           "wepName": "Lascutter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BBS-LC-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BBS-LC",
               "seq": 1,
               "profileName": "Close Range",
@@ -325,6 +325,7 @@
             },
             {
               "wepprofileId": "IMP-BC-BBS-LC-2",
+              "wepType": "R",
               "wepId": "IMP-BC-BBS-LC",
               "seq": 2,
               "profileName": "Short Range",
@@ -349,10 +350,10 @@
           "opTypeId": "IMP-BC-BBS",
           "seq": 2,
           "wepName": "Hydraulic Pincer & Lascutter",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BBS-HPLC-1",
+              "wepType": "M",
               "wepId": "IMP-BC-BBS-HPLC",
               "seq": 1,
               "profileName": "",
@@ -404,10 +405,10 @@
           "opTypeId": "IMP-BC-BCS",
           "seq": 1,
           "wepName": "Incendine Igniter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BCS-II-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BCS-II",
               "seq": 1,
               "profileName": "",
@@ -435,10 +436,10 @@
           "opTypeId": "IMP-BC-BCS",
           "seq": 2,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BCS-MG-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BCS-MG",
               "seq": 1,
               "profileName": "",
@@ -467,10 +468,10 @@
           "opTypeId": "IMP-BC-BCS",
           "seq": 3,
           "wepName": "Phosphor Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BCS-PB-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BCS-PB",
               "seq": 1,
               "profileName": "",
@@ -494,10 +495,10 @@
           "opTypeId": "IMP-BC-BCS",
           "seq": 4,
           "wepName": "Servo-Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BCS-SC-1",
+              "wepType": "M",
               "wepId": "IMP-BC-BCS-SC",
               "seq": 1,
               "profileName": "",
@@ -528,10 +529,10 @@
           "opTypeId": "IMP-BC-BGS",
           "seq": 1,
           "wepName": "Heavy Arc Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BGS-HAR-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BGS-HAR",
               "seq": 1,
               "profileName": "",
@@ -559,10 +560,10 @@
           "opTypeId": "IMP-BC-BGS",
           "seq": 2,
           "wepName": "Heavy Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BGS-HB-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BGS-HB",
               "seq": 1,
               "profileName": "Focused",
@@ -583,6 +584,7 @@
             },
             {
               "wepprofileId": "IMP-BC-BGS-HB-2",
+              "wepType": "R",
               "wepId": "IMP-BC-BGS-HB",
               "seq": 2,
               "profileName": "Sweeping",
@@ -612,10 +614,10 @@
           "opTypeId": "IMP-BC-BGS",
           "seq": 3,
           "wepName": "Augmetic Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BGS-AC-1",
+              "wepType": "M",
               "wepId": "IMP-BC-BGS-AC",
               "seq": 1,
               "profileName": "",
@@ -650,10 +652,10 @@
           "opTypeId": "IMP-BC-BSU",
           "seq": 1,
           "wepName": "Master-Crafted Radium Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BSU-MCRP-1",
+              "wepType": "R",
               "wepId": "IMP-BC-BSU-MCRP",
               "seq": 1,
               "profileName": "",
@@ -680,10 +682,10 @@
           "opTypeId": "IMP-BC-BSU",
           "seq": 2,
           "wepName": "Dataspikes",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BSU-DS-1",
+              "wepType": "M",
               "wepId": "IMP-BC-BSU-DS",
               "seq": 1,
               "profileName": "",
@@ -745,10 +747,10 @@
           "opTypeId": "IMP-BC-BTS",
           "seq": 1,
           "wepName": "Servo-Chirurgic Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-BC-BTS-SCC-1",
+              "wepType": "M",
               "wepId": "IMP-BC-BTS-SCC",
               "seq": 1,
               "profileName": "",

@@ -138,10 +138,10 @@
           "opTypeId": "IMP-WS-PL",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-PL-PP-01",
+              "wepType": "R",
               "wepId": "IMP-WS-PL-PP",
               "seq": 1,
               "profileName": "Standard",
@@ -161,6 +161,7 @@
             },
             {
               "wepprofileId": "IMP-WS-PL-PP-02",
+              "wepType": "R",
               "wepId": "IMP-WS-PL-PP",
               "seq": 2,
               "profileName": "Supercharge",
@@ -192,10 +193,10 @@
           "opTypeId": "IMP-WS-PL",
           "seq": 2,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-PL-PW-01",
+              "wepType": "M",
               "wepId": "IMP-WS-PL-PW",
               "seq": 1,
               "profileName": "",
@@ -244,10 +245,10 @@
           "opTypeId": "IMP-WS-FB",
           "seq": 1,
           "wepName": "Absolvor Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-FB-ABP-01",
+              "wepType": "R",
               "wepId": "IMP-WS-FB-ABP",
               "seq": 1,
               "profileName": "",
@@ -272,10 +273,10 @@
           "opTypeId": "IMP-WS-FB",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-FB-CB-01",
+              "wepType": "M",
               "wepId": "IMP-WS-FB-CB",
               "seq": 1,
               "profileName": "",
@@ -319,10 +320,10 @@
           "opTypeId": "IMP-WS-FE",
           "seq": 1,
           "wepName": "Instigator Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-FE-IBC-01",
+              "wepType": "R",
               "wepId": "IMP-WS-FE-IBC",
               "seq": 1,
               "profileName": "Heavy",
@@ -345,6 +346,7 @@
             },
             {
               "wepprofileId": "IMP-WS-FE-IBC-02",
+              "wepType": "R",
               "wepId": "IMP-WS-FE-IBC",
               "seq": 2,
               "profileName": "Mobile",
@@ -368,10 +370,10 @@
           "opTypeId": "IMP-WS-FE",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-FE-CB-01",
+              "wepType": "M",
               "wepId": "IMP-WS-FE-CB",
               "seq": 1,
               "profileName": "",
@@ -415,10 +417,10 @@
           "opTypeId": "IMP-WS-GNR",
           "seq": 1,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-GNR-PG-01",
+              "wepType": "R",
               "wepId": "IMP-WS-GNR-PG",
               "seq": 1,
               "profileName": "Standard",
@@ -434,6 +436,7 @@
             },
             {
               "wepprofileId": "IMP-WS-GNR-PG-02",
+              "wepType": "R",
               "wepId": "IMP-WS-GNR-PG",
               "seq": 2,
               "profileName": "Supercharge",
@@ -461,10 +464,10 @@
           "opTypeId": "IMP-WS-GNR",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-GNR-CB-01",
+              "wepType": "M",
               "wepId": "IMP-WS-GNR-CB",
               "seq": 1,
               "profileName": "",
@@ -502,10 +505,10 @@
           "opTypeId": "IMP-WS-HNT",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-HNT-PP-01",
+              "wepType": "R",
               "wepId": "IMP-WS-HNT-PP",
               "seq": 1,
               "profileName": "Standard",
@@ -525,6 +528,7 @@
             },
             {
               "wepprofileId": "IMP-WS-HNT-PP-02",
+              "wepType": "R",
               "wepId": "IMP-WS-HNT-PP",
               "seq": 2,
               "profileName": "Supercharge",
@@ -556,10 +560,10 @@
           "opTypeId": "IMP-WS-HNT",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-HNT-CB-01",
+              "wepType": "M",
               "wepId": "IMP-WS-HNT-CB",
               "seq": 1,
               "profileName": "",
@@ -597,10 +601,10 @@
           "opTypeId": "IMP-WS-RPS",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-RPS-BP-01",
+              "wepType": "R",
               "wepId": "IMP-WS-RPS-BP",
               "seq": 1,
               "profileName": "",
@@ -621,10 +625,10 @@
           "opTypeId": "IMP-WS-RPS",
           "seq": 2,
           "wepName": "Jaws of the World Wolf",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-RPS-JWW-01",
+              "wepType": "R",
               "wepId": "IMP-WS-RPS-JWW",
               "seq": 1,
               "profileName": "",
@@ -651,10 +655,10 @@
           "opTypeId": "IMP-WS-RPS",
           "seq": 3,
           "wepName": "Thunderclap",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-RPS-TC-01",
+              "wepType": "R",
               "wepId": "IMP-WS-RPS-TC",
               "seq": 1,
               "profileName": "",
@@ -691,10 +695,10 @@
           "opTypeId": "IMP-WS-RPS",
           "seq": 4,
           "wepName": "Runic Stave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-RPS-RS-01",
+              "wepType": "M",
               "wepId": "IMP-WS-RPS-RS",
               "seq": 1,
               "profileName": "",
@@ -745,10 +749,10 @@
           "opTypeId": "IMP-WS-TM",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-TM-PP-01",
+              "wepType": "R",
               "wepId": "IMP-WS-TM-PP",
               "seq": 1,
               "profileName": "Standard",
@@ -768,6 +772,7 @@
             },
             {
               "wepprofileId": "IMP-WS-TM-PP-02",
+              "wepType": "R",
               "wepId": "IMP-WS-TM-PP",
               "seq": 2,
               "profileName": "Supercharge",
@@ -799,10 +804,10 @@
           "opTypeId": "IMP-WS-TM",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-TM-CB-01",
+              "wepType": "M",
               "wepId": "IMP-WS-TM-CB",
               "seq": 1,
               "profileName": "",
@@ -846,10 +851,10 @@
           "opTypeId": "IMP-WS-FW",
           "seq": 1,
           "wepName": "Fangs",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-WS-FW-F-01",
+              "wepType": "M",
               "wepId": "IMP-WS-FW-F",
               "seq": 1,
               "profileName": "",

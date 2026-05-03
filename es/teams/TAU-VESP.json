@@ -147,10 +147,10 @@
           "opTypeId": "TAU-VESP-VSL",
           "seq": 0,
           "wepName": "Neutron Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSL-NB-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSL-NB",
               "seq": 0,
               "profileName": "",
@@ -171,10 +171,10 @@
           "opTypeId": "TAU-VESP-VSL",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSL-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-VSL-C",
               "seq": 0,
               "profileName": "",
@@ -218,10 +218,10 @@
           "opTypeId": "TAU-VESP-OSD",
           "seq": 0,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-OSD-RAM-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-OSD-RAM",
               "seq": 0,
               "profileName": "",
@@ -273,10 +273,10 @@
           "opTypeId": "TAU-VESP-VLS",
           "seq": 0,
           "wepName": "Neutron Rail Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VLS-NRR-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VLS-NRR",
               "seq": 0,
               "profileName": "Standard",
@@ -295,6 +295,7 @@
             },
             {
               "wepprofileId": "TAU-VESP-VLS-NRR-1",
+              "wepType": "R",
               "wepId": "TAU-VESP-VLS-NRR",
               "seq": 1,
               "profileName": "Aimed",
@@ -326,10 +327,10 @@
           "opTypeId": "TAU-VESP-VLS",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VLS-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-VLS-C",
               "seq": 0,
               "profileName": "",
@@ -360,10 +361,10 @@
           "opTypeId": "TAU-VESP-VSS",
           "seq": 0,
           "wepName": "Neutron Sting",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSS-NS-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSS-NS",
               "seq": 0,
               "profileName": "",
@@ -388,10 +389,10 @@
           "opTypeId": "TAU-VESP-VSS",
           "seq": 1,
           "wepName": "Neutron Grenade",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSS-NG-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSS-NG",
               "seq": 0,
               "profileName": "",
@@ -427,10 +428,10 @@
           "opTypeId": "TAU-VESP-VSS",
           "seq": 2,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSS-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-VSS-C",
               "seq": 0,
               "profileName": "",
@@ -474,10 +475,10 @@
           "opTypeId": "TAU-VESP-VSB",
           "seq": 0,
           "wepName": "Neutron Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSB-NGL-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSB-NGL",
               "seq": 0,
               "profileName": "",
@@ -505,10 +506,10 @@
           "opTypeId": "TAU-VESP-VSB",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSB-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-VSB-C",
               "seq": 0,
               "profileName": "",
@@ -546,10 +547,10 @@
           "opTypeId": "TAU-VESP-VSG",
           "seq": 0,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSG-FL-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSG-FL",
               "seq": 0,
               "profileName": "Standard",
@@ -572,6 +573,7 @@
             },
             {
               "wepprofileId": "TAU-VESP-VSG-FL-1",
+              "wepType": "R",
               "wepId": "TAU-VESP-VSG-FL",
               "seq": 1,
               "profileName": "Skytorch",
@@ -598,10 +600,10 @@
           "opTypeId": "TAU-VESP-VSG",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-VSG-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-VSG-C",
               "seq": 0,
               "profileName": "",
@@ -648,10 +650,10 @@
           "opTypeId": "TAU-VESP-WAR",
           "seq": 0,
           "wepName": "Neutron Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-WAR-NB-0",
+              "wepType": "R",
               "wepId": "TAU-VESP-WAR-NB",
               "seq": 0,
               "profileName": "",
@@ -672,10 +674,10 @@
           "opTypeId": "TAU-VESP-WAR",
           "seq": 1,
           "wepName": "Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-VESP-WAR-C-0",
+              "wepType": "M",
               "wepId": "TAU-VESP-WAR-C",
               "seq": 0,
               "profileName": "",

@@ -91,10 +91,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Rebanadora",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-CHP-Rebanadora-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-CHP-Rebanadora",
               "seq": 0,
               "profileName": "",
@@ -128,10 +128,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Dinamita",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DYN-DYNAMITE-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-DYN-DYNAMITE",
               "seq": 0,
               "profileName": "",
@@ -173,10 +173,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Arpón",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-HRP-HARPOON-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-HRP-HARPOON",
               "seq": 0,
               "profileName": "",
@@ -221,10 +221,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 1,
           "wepName": "Piztola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-NOB-SLG",
               "seq": 0,
               "profileName": "",
@@ -245,10 +245,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 2,
           "wepName": "Gran rebanadora",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-BC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-NOB-BC",
               "seq": 0,
               "profileName": "",
@@ -264,10 +264,10 @@
           "opTypeId": "ORK-KOM-NOB",
           "seq": 3,
           "wepName": "Garra d'energía",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-NOB-PC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-NOB-PC",
               "seq": 0,
               "profileName": "",
@@ -335,10 +335,10 @@
           "opTypeId": "ORK-KOM-BOY",
           "seq": 1,
           "wepName": "Piztola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BOY-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BOY-SLG",
               "seq": 0,
               "profileName": "",
@@ -359,10 +359,10 @@
           "opTypeId": "ORK-KOM-BOY",
           "seq": 2,
           "wepName": "Rebanadora",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BOY-CHP-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BOY-CHP",
               "seq": 0,
               "profileName": "",
@@ -406,10 +406,10 @@
           "opTypeId": "ORK-KOM-GROT",
           "seq": 1,
           "wepName": "Rebanadora de Grot",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-GROT-GC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-GROT-GC",
               "seq": 0,
               "profileName": "",
@@ -470,10 +470,10 @@
           "opTypeId": "ORK-KOM-SLS",
           "seq": 1,
           "wepName": "Kuchilloz arrojadizoz",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SLS-TK-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SLS-TK",
               "seq": 0,
               "profileName": "",
@@ -497,10 +497,10 @@
           "opTypeId": "ORK-KOM-SLS",
           "seq": 2,
           "wepName": "Rebanadoraz gemelaz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SLS-TC-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SLS-TC",
               "seq": 0,
               "profileName": "",
@@ -552,10 +552,10 @@
           "opTypeId": "ORK-KOM-BRC",
           "seq": 1,
           "wepName": "Piztola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRC-SLG-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRC-SLG",
               "seq": 0,
               "profileName": "",
@@ -576,10 +576,10 @@
           "opTypeId": "ORK-KOM-BRC",
           "seq": 2,
           "wepName": "Ariete de azedio",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRC-RAM-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BRC-RAM",
               "seq": 0,
               "profileName": "",
@@ -646,10 +646,10 @@
           "opTypeId": "ORK-KOM-SNP",
           "seq": 1,
           "wepName": "Akribillador pezado kon mirilla",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 0,
               "profileName": "oculto",
@@ -674,6 +674,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 1,
               "profileName": "inmóvil",
@@ -692,6 +693,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-SNP-SBS-2",
+              "wepType": "R",
               "wepId": "ORK-KOM-SNP-SBS",
               "seq": 2,
               "profileName": "barrido",
@@ -716,10 +718,10 @@
           "opTypeId": "ORK-KOM-SNP",
           "seq": 2,
           "wepName": "Puñoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SNP-F -0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SNP-F ",
               "seq": 0,
               "profileName": "",
@@ -757,10 +759,10 @@
           "opTypeId": "ORK-KOM-DAK",
           "seq": 1,
           "wepName": "Dakkatralladora",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DAK-DS-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 0,
               "profileName": "corto alcance",
@@ -779,6 +781,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-DAK-DS-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-DAK-DS",
               "seq": 1,
               "profileName": "largo alcance",
@@ -794,10 +797,10 @@
           "opTypeId": "ORK-KOM-DAK",
           "seq": 2,
           "wepName": "Puñoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-DAK-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-DAK-F",
               "seq": 0,
               "profileName": "",
@@ -851,10 +854,10 @@
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 1,
           "wepName": "Piztola kalambrazo",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-COMMS-SHO-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-COMMS-SHO",
               "seq": 0,
               "profileName": "",
@@ -885,10 +888,10 @@
           "opTypeId": "ORK-KOM-COMMS",
           "seq": 2,
           "wepName": "Puñoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-COMMS-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-COMMS-F",
               "seq": 0,
               "profileName": "",
@@ -950,10 +953,10 @@
           "opTypeId": "ORK-KOM-BRN",
           "seq": 1,
           "wepName": "Achicharrador",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRN-BRN-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 0,
               "profileName": "estándar",
@@ -976,6 +979,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-BRN-BRN-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-BRN-BRN",
               "seq": 1,
               "profileName": "tromba",
@@ -1007,10 +1011,10 @@
           "opTypeId": "ORK-KOM-BRN",
           "seq": 2,
           "wepName": "Puñoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-BRN-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-BRN-F",
               "seq": 0,
               "profileName": "",
@@ -1048,10 +1052,10 @@
           "opTypeId": "ORK-KOM-RKT",
           "seq": 1,
           "wepName": "Lanzakobetez",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-RKT-RL-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 0,
               "profileName": "apuntado",
@@ -1074,6 +1078,7 @@
             },
             {
               "wepprofileId": "ORK-KOM-RKT-RL-1",
+              "wepType": "R",
               "wepId": "ORK-KOM-RKT-RL",
               "seq": 1,
               "profileName": "móvil",
@@ -1094,10 +1099,10 @@
           "opTypeId": "ORK-KOM-RKT",
           "seq": 2,
           "wepName": "Puñoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-RKT-F-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-RKT-F",
               "seq": 0,
               "profileName": "",
@@ -1135,10 +1140,10 @@
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 1,
           "wepName": "Explozivoz",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SQUIG-EXPL-0",
+              "wepType": "R",
               "wepId": "ORK-KOM-SQUIG-EXPL",
               "seq": 0,
               "profileName": "",
@@ -1166,10 +1171,10 @@
           "opTypeId": "ORK-KOM-SQUIG",
           "seq": 2,
           "wepName": "Mordizquitoz",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-KOM-SQUIG-BIT-0",
+              "wepType": "M",
               "wepId": "ORK-KOM-SQUIG-BIT",
               "seq": 0,
               "profileName": "",

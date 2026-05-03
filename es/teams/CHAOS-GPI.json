@@ -143,10 +143,10 @@
           "opTypeId": "CHAOS-GPI-VTC",
           "seq": 0,
           "wepName": "Pyregut",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-VTC-PG-0",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-VTC-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -169,6 +169,7 @@
             },
             {
               "wepprofileId": "CHAOS-GPI-VTC-PG-1",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-VTC-PG",
               "seq": 1,
               "profileName": "Deluge",
@@ -196,10 +197,10 @@
           "opTypeId": "CHAOS-GPI-VTC",
           "seq": 1,
           "wepName": "Fleshmelded Weapons",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-VTC-FMW-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-VTC-FMW",
               "seq": 0,
               "profileName": "",
@@ -259,10 +260,10 @@
           "opTypeId": "CHAOS-GPI-BS",
           "seq": 0,
           "wepName": "Mutant Tentacles",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-BS-MT-0",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-BS-MT",
               "seq": 0,
               "profileName": "",
@@ -287,10 +288,10 @@
           "opTypeId": "CHAOS-GPI-BS",
           "seq": 1,
           "wepName": "Mutant Claws & Tentacles",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-BS-MCT-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-BS-MCT",
               "seq": 0,
               "profileName": "Slashing",
@@ -301,6 +302,7 @@
             },
             {
               "wepprofileId": "CHAOS-GPI-BS-MCT-1",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-BS-MCT",
               "seq": 1,
               "profileName": "Swiping",
@@ -360,10 +362,10 @@
           "opTypeId": "CHAOS-GPI-FS",
           "seq": 0,
           "wepName": "Mutant Fist & Cleaver",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-FS-MFC-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-FS-MFC",
               "seq": 0,
               "profileName": "Lopping Blow",
@@ -379,6 +381,7 @@
             },
             {
               "wepprofileId": "CHAOS-GPI-FS-MFC-1",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-FS-MFC",
               "seq": 1,
               "profileName": "Slashing",
@@ -434,10 +437,10 @@
           "opTypeId": "CHAOS-GPI-LG",
           "seq": 0,
           "wepName": "Mutant Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-LG-MC-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-LG-MC",
               "seq": 0,
               "profileName": "",
@@ -497,10 +500,10 @@
           "opTypeId": "CHAOS-GPI-GM",
           "seq": 1,
           "wepName": "Heavy Axe",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-GM-HA-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-GM-HA",
               "seq": 0,
               "profileName": "",
@@ -520,10 +523,10 @@
           "opTypeId": "CHAOS-GPI-GM",
           "seq": 2,
           "wepName": "Improvised Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-GM-IW-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-GM-IW",
               "seq": 0,
               "profileName": "",
@@ -543,10 +546,10 @@
           "opTypeId": "CHAOS-GPI-GM",
           "seq": 0,
           "wepName": "Frag Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-GM-FG-0",
+              "wepType": "E",
               "wepId": "CHAOS-GPI-GM-FG",
               "seq": 0,
               "profileName": "",
@@ -618,10 +621,10 @@
           "opTypeId": "CHAOS-GPI-GL",
           "seq": 0,
           "wepName": "Diseased Effluence",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-GL-DE-0",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-GL-DE",
               "seq": 0,
               "profileName": "",
@@ -642,10 +645,10 @@
           "opTypeId": "CHAOS-GPI-GL",
           "seq": 1,
           "wepName": "Diseased Nippers",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-GL-DN-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-GL-DN",
               "seq": 0,
               "profileName": "",
@@ -701,10 +704,10 @@
           "opTypeId": "CHAOS-GPI-CM",
           "seq": 0,
           "wepName": "Bloodsucking Proboscis",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-CM-BSP-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-CM-BSP",
               "seq": 0,
               "profileName": "",
@@ -755,10 +758,10 @@
           "opTypeId": "CHAOS-GPI-ESS",
           "seq": 0,
           "wepName": "Swarm",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-ESS-SW-0",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-ESS-SW",
               "seq": 0,
               "profileName": "",
@@ -782,10 +785,10 @@
           "opTypeId": "CHAOS-GPI-ESS",
           "seq": 1,
           "wepName": "Sting",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-ESS-ST-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-ESS-ST",
               "seq": 0,
               "profileName": "",
@@ -833,10 +836,10 @@
           "opTypeId": "CHAOS-GPI-SG",
           "seq": 0,
           "wepName": "Acid Spit",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-SG-AS-0",
+              "wepType": "R",
               "wepId": "CHAOS-GPI-SG-AS",
               "seq": 0,
               "profileName": "",
@@ -866,10 +869,10 @@
           "opTypeId": "CHAOS-GPI-SG",
           "seq": 1,
           "wepName": "Fanged Maw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GPI-SG-FM-0",
+              "wepType": "M",
               "wepId": "CHAOS-GPI-SG-FM",
               "seq": 0,
               "profileName": "",

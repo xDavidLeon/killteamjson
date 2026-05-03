@@ -143,10 +143,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CL-BP",
                             "seq": 0,
                             "profileName": "",
@@ -167,10 +167,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 2,
                     "wepName": "Pistola de plasma ",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-PP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CL-PP",
                             "seq": 0,
                             "profileName": "Normal",
@@ -190,6 +190,7 @@
                         },
                         {
                             "wepprofileId": "CHAOS-MW-CL-PP-1",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CL-PP",
                             "seq": 1,
                             "profileName": "Sobrecarga",
@@ -221,10 +222,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 3,
                     "wepName": "Garra relámpago",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-LC-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CL-LC",
                             "seq": 0,
                             "profileName": "",
@@ -248,10 +249,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 4,
                     "wepName": "Puño de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-PF-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CL-PF",
                             "seq": 0,
                             "profileName": "",
@@ -274,10 +275,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 5,
                     "wepName": "Arma de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-PW-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CL-PW",
                             "seq": 0,
                             "profileName": "",
@@ -298,10 +299,10 @@
                     "opTypeId": "CHAOS-MW-CL",
                     "seq": 6,
                     "wepName": "Garras relámpago reliquia",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CL-RLC-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CL-RLC",
                             "seq": 0,
                             "profileName": "",
@@ -350,10 +351,10 @@
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CH-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CH-BP",
                             "seq": 0,
                             "profileName": "",
@@ -374,10 +375,10 @@
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 2,
                     "wepName": "Pistola de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CH-PP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CH-PP",
                             "seq": 0,
                             "profileName": "Normal",
@@ -397,6 +398,7 @@
                         },
                         {
                             "wepprofileId": "CHAOS-MW-CH-PP-1",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CH-PP",
                             "seq": 1,
                             "profileName": "Sobrecarga",
@@ -428,10 +430,10 @@
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 3,
                     "wepName": "Puño de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CH-PF-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CH-PF",
                             "seq": 0,
                             "profileName": "",
@@ -454,10 +456,10 @@
                     "opTypeId": "CHAOS-MW-CH",
                     "seq": 4,
                     "wepName": "Arma de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CH-PW-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CH-PW",
                             "seq": 0,
                             "profileName": "",
@@ -506,10 +508,10 @@
                     "opTypeId": "CHAOS-MW-CC",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CC-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-CC-BP",
                             "seq": 0,
                             "profileName": "",
@@ -530,10 +532,10 @@
                     "opTypeId": "CHAOS-MW-CC",
                     "seq": 2,
                     "wepName": "Garras mutadas",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-CC-MC-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-CC-MC",
                             "seq": 0,
                             "profileName": "",
@@ -591,10 +593,10 @@
                     "opTypeId": "CHAOS-MW-DEP",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-DEP-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-DEP-BP",
                             "seq": 0,
                             "profileName": "",
@@ -615,10 +617,10 @@
                     "opTypeId": "CHAOS-MW-DEP",
                     "seq": 2,
                     "wepName": "Gran hacha sierra",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-DEP-GC-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-DEP-GC",
                             "seq": 0,
                             "profileName": "",
@@ -676,10 +678,10 @@
                     "opTypeId": "CHAOS-MW-HM",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-HM-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-HM-BP",
                             "seq": 0,
                             "profileName": "",
@@ -700,10 +702,10 @@
                     "opTypeId": "CHAOS-MW-HM",
                     "seq": 2,
                     "wepName": "Arma de energía",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-HM-PW-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-HM-PW",
                             "seq": 0,
                             "profileName": "",
@@ -762,10 +764,10 @@
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-RPT-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-RPT-BP",
                             "seq": 0,
                             "profileName": "",
@@ -786,10 +788,10 @@
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 2,
                     "wepName": "Pistola de plasma ",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-RPT-PP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-RPT-PP",
                             "seq": 0,
                             "profileName": "Normal",
@@ -809,6 +811,7 @@
                         },
                         {
                             "wepprofileId": "CHAOS-MW-RPT-PP-1",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-RPT-PP",
                             "seq": 1,
                             "profileName": "Sobrecarga",
@@ -840,10 +843,10 @@
                     "opTypeId": "CHAOS-MW-RPT",
                     "seq": 3,
                     "wepName": "Espada sierra",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-RPT-CS-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-RPT-CS",
                             "seq": 0,
                             "profileName": "",
@@ -881,10 +884,10 @@
                     "opTypeId": "CHAOS-MW-SHR",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SHR-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SHR-BP",
                             "seq": 0,
                             "profileName": "",
@@ -905,10 +908,10 @@
                     "opTypeId": "CHAOS-MW-SHR",
                     "seq": 2,
                     "wepName": "Espada sierra",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SHR-CS-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-SHR-CS",
                             "seq": 0,
                             "profileName": "",
@@ -965,10 +968,10 @@
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 1,
                     "wepName": "Pistola bólter",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-BP-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SKY-BP",
                             "seq": 0,
                             "profileName": "",
@@ -989,10 +992,10 @@
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 2,
                     "wepName": "Lanzallamas",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-FL-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SKY-FL",
                             "seq": 0,
                             "profileName": "",
@@ -1020,10 +1023,10 @@
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 3,
                     "wepName": "Rifle de fusión",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-MG-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SKY-MG",
                             "seq": 0,
                             "profileName": "",
@@ -1052,10 +1055,10 @@
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 4,
                     "wepName": "Rifle de plasma",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-PG-0",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SKY-PG",
                             "seq": 0,
                             "profileName": "Normal",
@@ -1071,6 +1074,7 @@
                         },
                         {
                             "wepprofileId": "CHAOS-MW-SKY-PG-1",
+                            "wepType": "R",
                             "wepId": "CHAOS-MW-SKY-PG",
                             "seq": 1,
                             "profileName": "Sobrecarga",
@@ -1098,10 +1102,10 @@
                     "opTypeId": "CHAOS-MW-SKY",
                     "seq": 5,
                     "wepName": "Fists",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-SKY-F-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-SKY-F",
                             "seq": 0,
                             "profileName": "",
@@ -1132,10 +1136,10 @@
                     "opTypeId": "CHAOS-MW-WT",
                     "seq": 1,
                     "wepName": "Garra relámpago",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "CHAOS-MW-WT-LC-0",
+                            "wepType": "M",
                             "wepId": "CHAOS-MW-WT-LC",
                             "seq": 0,
                             "profileName": "",

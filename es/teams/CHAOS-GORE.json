@@ -147,10 +147,10 @@
           "opTypeId": "CHAOS-GORE-BH",
           "seq": 1,
           "wepName": "Icono de Khorne",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-BH-IOK-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-BH-IOK",
               "seq": 0,
               "profileName": "",
@@ -174,10 +174,10 @@
           "opTypeId": "CHAOS-GORE-BH",
           "seq": 2,
           "wepName": "Cuchilla sierra",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-BH-CB-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-BH-CB",
               "seq": 0,
               "profileName": "",
@@ -225,10 +225,10 @@
           "opTypeId": "CHAOS-GORE-ASP",
           "seq": 1,
           "wepName": "Pistola automática",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-ASP-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-ASP-AP",
               "seq": 0,
               "profileName": "",
@@ -249,10 +249,10 @@
           "opTypeId": "CHAOS-GORE-ASP",
           "seq": 2,
           "wepName": "Archa sierra",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-ASP-CG-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-ASP-CG",
               "seq": 0,
               "profileName": "",
@@ -294,10 +294,10 @@
           "opTypeId": "CHAOS-GORE-BT",
           "seq": 1,
           "wepName": "Pistola automática",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-BT-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-BT-AP",
               "seq": 0,
               "profileName": "",
@@ -318,10 +318,10 @@
           "opTypeId": "CHAOS-GORE-BT",
           "seq": 2,
           "wepName": "Filo ritual",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-BT-RB-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-BT-RB",
               "seq": 0,
               "profileName": "",
@@ -372,10 +372,10 @@
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 1,
           "wepName": "Pistola automática",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-IMP-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-IMP-AP",
               "seq": 0,
               "profileName": "",
@@ -396,10 +396,10 @@
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 2,
           "wepName": "Clavacarnes",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-IMP-FSR-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-IMP-FSR",
               "seq": 0,
               "profileName": "",
@@ -429,10 +429,10 @@
           "opTypeId": "CHAOS-GORE-IMP",
           "seq": 3,
           "wepName": "Clavacarnes",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-IMP-FSM-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-IMP-FSM",
               "seq": 0,
               "profileName": "",
@@ -463,10 +463,10 @@
           "opTypeId": "CHAOS-GORE-INC",
           "seq": 1,
           "wepName": "Pistolas automáticas dobles",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-INC-DAPR-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-INC-DAPR",
               "seq": 0,
               "profileName": "",
@@ -497,10 +497,10 @@
           "opTypeId": "CHAOS-GORE-INC",
           "seq": 2,
           "wepName": "Pistolas automáticas dobles",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-INC-DAPM-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-INC-DAPM",
               "seq": 0,
               "profileName": "",
@@ -561,10 +561,10 @@
           "opTypeId": "CHAOS-GORE-SC",
           "seq": 1,
           "wepName": "Pistola automática",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-SC-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-SC-AP",
               "seq": 0,
               "profileName": "",
@@ -585,10 +585,10 @@
           "opTypeId": "CHAOS-GORE-SC",
           "seq": 2,
           "wepName": "Gran hacha sierra",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-SC-GCA-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-SC-GCA",
               "seq": 0,
               "profileName": "",
@@ -636,10 +636,10 @@
           "opTypeId": "CHAOS-GORE-ST",
           "seq": 1,
           "wepName": "Pistola automática",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-ST-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-GORE-ST-AP",
               "seq": 0,
               "profileName": "",
@@ -660,10 +660,10 @@
           "opTypeId": "CHAOS-GORE-ST",
           "seq": 2,
           "wepName": "Picos destripadores",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-GORE-ST-PR-0",
+              "wepType": "M",
               "wepId": "CHAOS-GORE-ST-PR",
               "seq": 0,
               "profileName": "",

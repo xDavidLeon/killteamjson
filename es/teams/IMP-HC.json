@@ -133,10 +133,10 @@
           "opTypeId": "IMP-HC-SRSP",
           "seq": 0,
           "wepName": "Chordclaw & Transonic Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRSP-CCATB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRSP-CCATB",
               "seq": 0,
               "profileName": "",
@@ -193,10 +193,10 @@
           "opTypeId": "IMP-HC-SIP",
           "seq": 0,
           "wepName": "Flechette Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIP-FB-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SIP-FB",
               "seq": 0,
               "profileName": "",
@@ -223,10 +223,10 @@
           "opTypeId": "IMP-HC-SIP",
           "seq": 1,
           "wepName": "Stubcarbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIP-SC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SIP-SC",
               "seq": 0,
               "profileName": "",
@@ -246,10 +246,10 @@
           "opTypeId": "IMP-HC-SIP",
           "seq": 2,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIP-PW-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SIP-PW",
               "seq": 0,
               "profileName": "",
@@ -270,10 +270,10 @@
           "opTypeId": "IMP-HC-SIP",
           "seq": 3,
           "wepName": "Taser Goad",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIP-TG-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SIP-TG",
               "seq": 0,
               "profileName": "",
@@ -325,10 +325,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 0,
           "wepName": "Arc Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-AP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGA-AP",
               "seq": 0,
               "profileName": "",
@@ -356,10 +356,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 1,
           "wepName": "Galvanic Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-GR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGA-GR",
               "seq": 0,
               "profileName": "",
@@ -385,10 +385,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 2,
           "wepName": "Master-Crafted Radium Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-MCRP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGA-MCRP",
               "seq": 0,
               "profileName": "",
@@ -415,10 +415,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 3,
           "wepName": "Phosphor Blast Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-PBP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGA-PBP",
               "seq": 0,
               "profileName": "",
@@ -446,10 +446,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 4,
           "wepName": "Arc Maul",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-AM-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGA-AM",
               "seq": 0,
               "profileName": "",
@@ -469,10 +469,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 5,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGA-GB",
               "seq": 0,
               "profileName": "",
@@ -488,10 +488,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-PW-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGA-PW",
               "seq": 0,
               "profileName": "",
@@ -512,10 +512,10 @@
           "opTypeId": "IMP-HC-SRGA",
           "seq": 7,
           "wepName": "Taser Goad",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGA-TG-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGA-TG",
               "seq": 0,
               "profileName": "",
@@ -573,10 +573,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 0,
           "wepName": "Arc Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-AP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVA-AP",
               "seq": 0,
               "profileName": "",
@@ -604,10 +604,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 1,
           "wepName": "Master-Crafted Radium Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-MCRP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVA-MCRP",
               "seq": 0,
               "profileName": "",
@@ -634,10 +634,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 2,
           "wepName": "Phosphor Blast Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-PBP-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVA-PBP",
               "seq": 0,
               "profileName": "",
@@ -665,10 +665,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 3,
           "wepName": "Radium Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-RC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVA-RC",
               "seq": 0,
               "profileName": "",
@@ -688,10 +688,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 4,
           "wepName": "Arc Maul",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-AM-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVA-AM",
               "seq": 0,
               "profileName": "",
@@ -711,10 +711,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 5,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVA-GB",
               "seq": 0,
               "profileName": "",
@@ -730,10 +730,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-PW-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVA-PW",
               "seq": 0,
               "profileName": "",
@@ -754,10 +754,10 @@
           "opTypeId": "IMP-HC-SVA",
           "seq": 7,
           "wepName": "Taser Goad",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVA-TG-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVA-TG",
               "seq": 0,
               "profileName": "",
@@ -815,10 +815,10 @@
           "opTypeId": "IMP-HC-SIW",
           "seq": 0,
           "wepName": "Flechette Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIW-FB-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SIW-FB",
               "seq": 0,
               "profileName": "",
@@ -845,10 +845,10 @@
           "opTypeId": "IMP-HC-SIW",
           "seq": 1,
           "wepName": "Stubcarbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIW-SC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SIW-SC",
               "seq": 0,
               "profileName": "",
@@ -868,10 +868,10 @@
           "opTypeId": "IMP-HC-SIW",
           "seq": 2,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIW-PW-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SIW-PW",
               "seq": 0,
               "profileName": "",
@@ -892,10 +892,10 @@
           "opTypeId": "IMP-HC-SIW",
           "seq": 3,
           "wepName": "Taser Goad",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SIW-TG-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SIW-TG",
               "seq": 0,
               "profileName": "",
@@ -934,10 +934,10 @@
           "opTypeId": "IMP-HC-SRSW",
           "seq": 0,
           "wepName": "Chordclaw & Transonic Razor",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRSW-CCATB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRSW-CCATB",
               "seq": 0,
               "profileName": "",
@@ -957,10 +957,10 @@
           "opTypeId": "IMP-HC-SRSW",
           "seq": 1,
           "wepName": "Transonic Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRSW-TB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRSW-TB",
               "seq": 0,
               "profileName": "",
@@ -1002,10 +1002,10 @@
           "opTypeId": "IMP-HC-SRGD",
           "seq": 0,
           "wepName": "Galvanic Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGD-GR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGD-GR",
               "seq": 0,
               "profileName": "",
@@ -1031,10 +1031,10 @@
           "opTypeId": "IMP-HC-SRGD",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGD-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGD-GB",
               "seq": 0,
               "profileName": "",
@@ -1088,10 +1088,10 @@
           "opTypeId": "IMP-HC-SRGG",
           "seq": 0,
           "wepName": "Arc Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGG-AR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGG-AR",
               "seq": 0,
               "profileName": "",
@@ -1115,10 +1115,10 @@
           "opTypeId": "IMP-HC-SRGG",
           "seq": 1,
           "wepName": "Plasma Caliver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGG-PC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGG-PC",
               "seq": 0,
               "profileName": "Standard",
@@ -1134,6 +1134,7 @@
             },
             {
               "wepprofileId": "IMP-HC-SRGG-PC-1",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGG-PC",
               "seq": 1,
               "profileName": "Supercharge",
@@ -1161,10 +1162,10 @@
           "opTypeId": "IMP-HC-SRGG",
           "seq": 2,
           "wepName": "Transuranic Arquebus",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGG-TA-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGG-TA",
               "seq": 0,
               "profileName": "Mobile",
@@ -1188,6 +1189,7 @@
             },
             {
               "wepprofileId": "IMP-HC-SRGG-TA-1",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGG-TA",
               "seq": 1,
               "profileName": "Stationary",
@@ -1218,10 +1220,10 @@
           "opTypeId": "IMP-HC-SRGG",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGG-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGG-GB",
               "seq": 0,
               "profileName": "",
@@ -1259,10 +1261,10 @@
           "opTypeId": "IMP-HC-SRGS",
           "seq": 0,
           "wepName": "Galvanic Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGS-GR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGS-GR",
               "seq": 0,
               "profileName": "",
@@ -1288,10 +1290,10 @@
           "opTypeId": "IMP-HC-SRGS",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGS-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGS-GB",
               "seq": 0,
               "profileName": "",
@@ -1348,10 +1350,10 @@
           "opTypeId": "IMP-HC-SRGW",
           "seq": 0,
           "wepName": "Galvanic Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGW-GR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SRGW-GR",
               "seq": 0,
               "profileName": "",
@@ -1377,10 +1379,10 @@
           "opTypeId": "IMP-HC-SRGW",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SRGW-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SRGW-GB",
               "seq": 0,
               "profileName": "",
@@ -1418,10 +1420,10 @@
           "opTypeId": "IMP-HC-SVD",
           "seq": 0,
           "wepName": "Radium Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVD-RC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVD-RC",
               "seq": 0,
               "profileName": "",
@@ -1441,10 +1443,10 @@
           "opTypeId": "IMP-HC-SVD",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVD-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVD-GB",
               "seq": 0,
               "profileName": "",
@@ -1499,10 +1501,10 @@
           "opTypeId": "IMP-HC-SVG",
           "seq": 0,
           "wepName": "Arc Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVG-AR-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVG-AR",
               "seq": 0,
               "profileName": "",
@@ -1526,10 +1528,10 @@
           "opTypeId": "IMP-HC-SVG",
           "seq": 1,
           "wepName": "Plasma Caliver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVG-PC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVG-PC",
               "seq": 0,
               "profileName": "Standard",
@@ -1545,6 +1547,7 @@
             },
             {
               "wepprofileId": "IMP-HC-SVG-PC-1",
+              "wepType": "R",
               "wepId": "IMP-HC-SVG-PC",
               "seq": 1,
               "profileName": "Supercharge",
@@ -1572,10 +1575,10 @@
           "opTypeId": "IMP-HC-SVG",
           "seq": 2,
           "wepName": "Transuranic Arquebus",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVG-TA-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVG-TA",
               "seq": 0,
               "profileName": "Mobile",
@@ -1599,6 +1602,7 @@
             },
             {
               "wepprofileId": "IMP-HC-SVG-TA-1",
+              "wepType": "R",
               "wepId": "IMP-HC-SVG-TA",
               "seq": 1,
               "profileName": "Stationary",
@@ -1629,10 +1633,10 @@
           "opTypeId": "IMP-HC-SVG",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVG-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVG-GB",
               "seq": 0,
               "profileName": "",
@@ -1670,10 +1674,10 @@
           "opTypeId": "IMP-HC-SVS",
           "seq": 0,
           "wepName": "Radium Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVS-RC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVS-RC",
               "seq": 0,
               "profileName": "",
@@ -1693,10 +1697,10 @@
           "opTypeId": "IMP-HC-SVS",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVS-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVS-GB",
               "seq": 0,
               "profileName": "",
@@ -1753,10 +1757,10 @@
           "opTypeId": "IMP-HC-SVW",
           "seq": 0,
           "wepName": "Radium Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVW-RC-0",
+              "wepType": "R",
               "wepId": "IMP-HC-SVW-RC",
               "seq": 0,
               "profileName": "",
@@ -1776,10 +1780,10 @@
           "opTypeId": "IMP-HC-SVW",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-HC-SVW-GB-0",
+              "wepType": "M",
               "wepId": "IMP-HC-SVW-GB",
               "seq": 0,
               "profileName": "",

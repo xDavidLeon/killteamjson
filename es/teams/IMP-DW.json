@@ -142,10 +142,10 @@
           "opTypeId": "IMP-DW-SGT",
           "seq": 1,
           "wepName": "Pistola de plasma",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-SGT-PP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-SGT-PP",
               "seq": 1,
               "profileName": "Estándar",
@@ -165,6 +165,7 @@
             },
             {
               "wepprofileId": "IMP-DW-SGT-PP-02",
+              "wepType": "R",
               "wepId": "IMP-DW-SGT-PP",
               "seq": 2,
               "profileName": "Sobrecarga",
@@ -196,10 +197,10 @@
           "opTypeId": "IMP-DW-SGT",
           "seq": 2,
           "wepName": "Arma de energía",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-SGT-PW-01",
+              "wepType": "M",
               "wepId": "IMP-DW-SGT-PW",
               "seq": 1,
               "profileName": "",
@@ -248,10 +249,10 @@
           "opTypeId": "IMP-DW-AEG",
           "seq": 1,
           "wepName": "Pistola bólter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-AEG-BP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-AEG-BP",
               "seq": 1,
               "profileName": "",
@@ -272,10 +273,10 @@
           "opTypeId": "IMP-DW-AEG",
           "seq": 2,
           "wepName": "Maza de energía y escudo tormenta",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-AEG-PMSS-01",
+              "wepType": "M",
               "wepId": "IMP-DW-AEG-PMSS",
               "seq": 1,
               "profileName": "",
@@ -326,10 +327,10 @@
           "opTypeId": "IMP-DW-BLM",
           "seq": 1,
           "wepName": "Pistola bólter especial",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BLM-SIBP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BLM-SIBP",
               "seq": 1,
               "profileName": "",
@@ -354,10 +355,10 @@
           "opTypeId": "IMP-DW-BLM",
           "seq": 2,
           "wepName": "Espada xenofase",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BLM-XPB-01",
+              "wepType": "M",
               "wepId": "IMP-DW-BLM-XPB",
               "seq": 1,
               "profileName": "Duelo",
@@ -376,6 +377,7 @@
             },
             {
               "wepprofileId": "IMP-DW-BLM-XPB-02",
+              "wepType": "M",
               "wepId": "IMP-DW-BLM-XPB",
               "seq": 2,
               "profileName": "Barrido de phase",
@@ -424,10 +426,10 @@
           "opTypeId": "IMP-DW-BOM",
           "seq": 1,
           "wepName": "Pistola bólter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BOM-BP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BOM-BP",
               "seq": 1,
               "profileName": "",
@@ -448,10 +450,10 @@
           "opTypeId": "IMP-DW-BOM",
           "seq": 2,
           "wepName": "Cañón frag",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BOM-FC-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BOM-FC",
               "seq": 1,
               "profileName": "Proyectil",
@@ -467,6 +469,7 @@
             },
             {
               "wepprofileId": "IMP-DW-BOM-FC-02",
+              "wepType": "R",
               "wepId": "IMP-DW-BOM-FC",
               "seq": 2,
               "profileName": "Metralla",
@@ -487,10 +490,10 @@
           "opTypeId": "IMP-DW-BOM",
           "seq": 3,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BOM-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-BOM-F",
               "seq": 1,
               "profileName": "",
@@ -521,10 +524,10 @@
           "opTypeId": "IMP-DW-BRC",
           "seq": 1,
           "wepName": "Lanzagranadas auxiliar",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BRC-AGL-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BRC-AGL",
               "seq": 1,
               "profileName": "Frag",
@@ -540,6 +543,7 @@
             },
             {
               "wepprofileId": "IMP-DW-BRC-AGL-02",
+              "wepType": "R",
               "wepId": "IMP-DW-BRC-AGL",
               "seq": 2,
               "profileName": "Krak",
@@ -560,10 +564,10 @@
           "opTypeId": "IMP-DW-BRC",
           "seq": 2,
           "wepName": "Rifle bolter tormenta infernal",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BRC-HSBR-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BRC-HSBR",
               "seq": 1,
               "profileName": "",
@@ -584,10 +588,10 @@
           "opTypeId": "IMP-DW-BRC",
           "seq": 3,
           "wepName": "Bomba de fusión",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BRC-MB-01",
+              "wepType": "R",
               "wepId": "IMP-DW-BRC-MB",
               "seq": 1,
               "profileName": "",
@@ -624,10 +628,10 @@
           "opTypeId": "IMP-DW-BRC",
           "seq": 4,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-BRC-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-BRC-F",
               "seq": 1,
               "profileName": "",
@@ -658,10 +662,10 @@
           "opTypeId": "IMP-DW-DEM",
           "seq": 1,
           "wepName": "Pistola bólter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-DEM-BP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-DEM-BP",
               "seq": 1,
               "profileName": "",
@@ -682,10 +686,10 @@
           "opTypeId": "IMP-DW-DEM",
           "seq": 2,
           "wepName": "Martillo trueno pesado",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-DEM-HTH-01",
+              "wepType": "M",
               "wepId": "IMP-DW-DEM-HTH",
               "seq": 1,
               "profileName": "",
@@ -736,10 +740,10 @@
           "opTypeId": "IMP-DW-DIS",
           "seq": 1,
           "wepName": "Carabina bólter de tirador",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-DIS-MBC-01",
+              "wepType": "R",
               "wepId": "IMP-DW-DIS-MBC",
               "seq": 1,
               "profileName": "",
@@ -760,10 +764,10 @@
           "opTypeId": "IMP-DW-DIS",
           "seq": 2,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-DIS-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-DIS-F",
               "seq": 1,
               "profileName": "",
@@ -807,10 +811,10 @@
           "opTypeId": "IMP-DW-GNR",
           "seq": 1,
           "wepName": "Pistola bólter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-GNR-BP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-GNR-BP",
               "seq": 1,
               "profileName": "",
@@ -831,10 +835,10 @@
           "opTypeId": "IMP-DW-GNR",
           "seq": 2,
           "wepName": "Incinerador de plasma pesado",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-GNR-HPI-01",
+              "wepType": "R",
               "wepId": "IMP-DW-GNR-HPI",
               "seq": 1,
               "profileName": "Estándar",
@@ -850,6 +854,7 @@
             },
             {
               "wepprofileId": "IMP-DW-GNR-HPI-02",
+              "wepType": "R",
               "wepId": "IMP-DW-GNR-HPI",
               "seq": 2,
               "profileName": "Sobrecarga",
@@ -877,10 +882,10 @@
           "opTypeId": "IMP-DW-GNR",
           "seq": 3,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-GNR-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-GNR-F",
               "seq": 1,
               "profileName": "",
@@ -911,10 +916,10 @@
           "opTypeId": "IMP-DW-HTK",
           "seq": 1,
           "wepName": "Pistola bólter especial",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HTK-SIBP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-HTK-SIBP",
               "seq": 1,
               "profileName": "",
@@ -939,10 +944,10 @@
           "opTypeId": "IMP-DW-HTK",
           "seq": 2,
           "wepName": "Filoarmas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HTK-CK-01",
+              "wepType": "M",
               "wepId": "IMP-DW-HTK-CK",
               "seq": 1,
               "profileName": "",
@@ -986,10 +991,10 @@
           "opTypeId": "IMP-DW-HSL",
           "seq": 1,
           "wepName": "Pistola bólter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HSL-BP-01",
+              "wepType": "R",
               "wepId": "IMP-DW-HSL-BP",
               "seq": 1,
               "profileName": "",
@@ -1010,10 +1015,10 @@
           "opTypeId": "IMP-DW-HSL",
           "seq": 2,
           "wepName": "Bólter pesado infernus",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HSL-IHB-01",
+              "wepType": "R",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 1,
               "profileName": "Llamas",
@@ -1036,6 +1041,7 @@
             },
             {
               "wepprofileId": "IMP-DW-HSL-IHB-02",
+              "wepType": "R",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 2,
               "profileName": "Concentrado",
@@ -1052,6 +1058,7 @@
             },
             {
               "wepprofileId": "IMP-DW-HSL-IHB-03",
+              "wepType": "R",
               "wepId": "IMP-DW-HSL-IHB",
               "seq": 3,
               "profileName": "Barrido",
@@ -1077,10 +1084,10 @@
           "opTypeId": "IMP-DW-HSL",
           "seq": 3,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-HSL-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-HSL-F",
               "seq": 1,
               "profileName": "",
@@ -1111,10 +1118,10 @@
           "opTypeId": "IMP-DW-MRK",
           "seq": 1,
           "wepName": "Rifle bólter silencio",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-MRK-SBR-01",
+              "wepType": "R",
               "wepId": "IMP-DW-MRK-SBR",
               "seq": 1,
               "profileName": "Móvil",
@@ -1125,6 +1132,7 @@
             },
             {
               "wepprofileId": "IMP-DW-MRK-SBR-02",
+              "wepType": "R",
               "wepId": "IMP-DW-MRK-SBR",
               "seq": 2,
               "profileName": "Pesada",
@@ -1154,10 +1162,10 @@
           "opTypeId": "IMP-DW-MRK",
           "seq": 2,
           "wepName": "Puños",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DW-MRK-F-01",
+              "wepType": "M",
               "wepId": "IMP-DW-MRK-F",
               "seq": 1,
               "profileName": "",

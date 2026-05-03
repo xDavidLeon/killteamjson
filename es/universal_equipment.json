@@ -106,10 +106,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Granada Frag",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "UNIVERSAL-UE-XG-FRAG-0",
+              "wepType": "R",
               "wepId": "UNIVERSAL-UE-XG-FRAG",
               "seq": 0,
               "profileName": "",
@@ -137,10 +137,10 @@
           "opTypeId": null,
           "seq": 1,
           "wepName": "Granada Krak",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "UNIVERSAL-UE-XG-KRAK-0",
+              "wepType": "R",
               "wepId": "UNIVERSAL-UE-XG-KRAK",
               "seq": 0,
               "profileName": "",
