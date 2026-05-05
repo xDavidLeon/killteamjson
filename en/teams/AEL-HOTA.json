@@ -133,10 +133,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 0,
           "wepName": "Blast Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-BP-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KAS-BP",
               "seq": 0,
               "profileName": "",
@@ -161,10 +161,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 1,
           "wepName": "Splinter Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-SP-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KAS-SP",
               "seq": 0,
               "profileName": "",
@@ -189,10 +189,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 2,
           "wepName": "Splinter Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-SR-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KAS-SR",
               "seq": 0,
               "profileName": "",
@@ -213,10 +213,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 3,
           "wepName": "Agoniser",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-AG-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KAS-AG",
               "seq": 0,
               "profileName": "",
@@ -243,10 +243,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 4,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KAS-AOB",
               "seq": 0,
               "profileName": "",
@@ -262,10 +262,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 5,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-PW-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KAS-PW",
               "seq": 0,
               "profileName": "",
@@ -286,10 +286,10 @@
           "opTypeId": "AEL-HOTA-KAS",
           "seq": 6,
           "wepName": "Venom Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAS-VB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KAS-VB",
               "seq": 0,
               "profileName": "",
@@ -344,10 +344,10 @@
           "opTypeId": "AEL-HOTA-KAG",
           "seq": 0,
           "wepName": "Splinter Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAG-SR-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KAG-SR",
               "seq": 0,
               "profileName": "",
@@ -368,10 +368,10 @@
           "opTypeId": "AEL-HOTA-KAG",
           "seq": 1,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KAG-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KAG-AOB",
               "seq": 0,
               "profileName": "",
@@ -415,10 +415,10 @@
           "opTypeId": "AEL-HOTA-KCD",
           "seq": 0,
           "wepName": "Splinter Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KCD-SP-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KCD-SP",
               "seq": 0,
               "profileName": "",
@@ -443,10 +443,10 @@
           "opTypeId": "AEL-HOTA-KCD",
           "seq": 1,
           "wepName": "Razorflail",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KCD-RF-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KCD-RF",
               "seq": 0,
               "profileName": "",
@@ -491,10 +491,10 @@
           "opTypeId": "AEL-HOTA-KDOY",
           "seq": 0,
           "wepName": "Stinger Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KDOY-SP-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KDOY-SP",
               "seq": 0,
               "profileName": "",
@@ -522,10 +522,10 @@
           "opTypeId": "AEL-HOTA-KDOY",
           "seq": 1,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KDOY-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KDOY-AOB",
               "seq": 0,
               "profileName": "",
@@ -574,10 +574,10 @@
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 0,
           "wepName": "Splinter Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KELX-SR-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KELX-SR",
               "seq": 0,
               "profileName": "",
@@ -598,10 +598,10 @@
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 1,
           "wepName": "Stim-Needler",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KELX-SN-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KELX-SN",
               "seq": 0,
               "profileName": "",
@@ -629,10 +629,10 @@
           "opTypeId": "AEL-HOTA-KELX",
           "seq": 2,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KELX-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KELX-AOB",
               "seq": 0,
               "profileName": "",
@@ -694,10 +694,10 @@
           "opTypeId": "AEL-HOTA-KFLAY",
           "seq": 0,
           "wepName": "Pain Sculptors",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KFLAY-PS-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KFLAY-PS",
               "seq": 0,
               "profileName": "",
@@ -742,10 +742,10 @@
           "opTypeId": "AEL-HOTA-KGNR",
           "seq": 0,
           "wepName": "Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KGNR-BL-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KGNR-BL",
               "seq": 0,
               "profileName": "",
@@ -766,10 +766,10 @@
           "opTypeId": "AEL-HOTA-KGNR",
           "seq": 1,
           "wepName": "Shredder",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KGNR-SH-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KGNR-SH",
               "seq": 0,
               "profileName": "",
@@ -793,10 +793,10 @@
           "opTypeId": "AEL-HOTA-KGNR",
           "seq": 2,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KGNR-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KGNR-AOB",
               "seq": 0,
               "profileName": "",
@@ -827,10 +827,10 @@
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 0,
           "wepName": "Dark Lance",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KHGNR-DL-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KHGNR-DL",
               "seq": 0,
               "profileName": "",
@@ -855,10 +855,10 @@
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 1,
           "wepName": "Splinter Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KHGNR-SC-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KHGNR-SC",
               "seq": 0,
               "profileName": "Focused",
@@ -878,6 +878,7 @@
             },
             {
               "wepprofileId": "AEL-HOTA-KHGNR-SC-1",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KHGNR-SC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -906,10 +907,10 @@
           "opTypeId": "AEL-HOTA-KHGNR",
           "seq": 2,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KHGNR-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KHGNR-AOB",
               "seq": 0,
               "profileName": "",
@@ -940,10 +941,10 @@
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 0,
           "wepName": "Razorwing",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KSA-RW-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KSA-RW",
               "seq": 0,
               "profileName": "",
@@ -969,10 +970,10 @@
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 1,
           "wepName": "Shardcarbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KSA-SC-0",
+              "wepType": "R",
               "wepId": "AEL-HOTA-KSA-SC",
               "seq": 0,
               "profileName": "",
@@ -997,10 +998,10 @@
           "opTypeId": "AEL-HOTA-KSA",
           "seq": 2,
           "wepName": "Array Of Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-HOTA-KSA-AOB-0",
+              "wepType": "M",
               "wepId": "AEL-HOTA-KSA-AOB",
               "seq": 0,
               "profileName": "",

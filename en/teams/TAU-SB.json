@@ -138,15 +138,15 @@
           "opTypeId": "TAU-SB-SHAS",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-SHAS-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-SHAS-BC",
               "seq": 1,
               "profileName": "Focused",
               "ATK": "5",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "3/4",
               "WR": [
                 {
@@ -156,11 +156,12 @@
             },
             {
               "wepprofileId": "TAU-SB-SHAS-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-SHAS-BC",
               "seq": 2,
               "profileName": "Sweeping",
               "ATK": "4",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "3/4",
               "WR": [
                 {
@@ -179,15 +180,15 @@
           "opTypeId": "TAU-SB-SHAS",
           "seq": 2,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-SHAS-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-SHAS-FB",
               "seq": 1,
               "profileName": "Short Range",
               "ATK": "4",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "6/3",
               "WR": [
                 {
@@ -206,11 +207,12 @@
             },
             {
               "wepprofileId": "TAU-SB-SHAS-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-SHAS-FB",
               "seq": 2,
               "profileName": "Long Range",
               "ATK": "4",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "4/5",
               "WR": [
                 {
@@ -230,15 +232,15 @@
           "opTypeId": "TAU-SB-SHAS",
           "seq": 3,
           "wepName": "Pulse Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-SHAS-PP-01",
+              "wepType": "R",
               "wepId": "TAU-SB-SHAS-PP",
               "seq": 1,
               "profileName": "Ranged",
               "ATK": "4",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "4/5",
               "WR": [
                 {
@@ -246,14 +248,23 @@
                   "number": 8
                 }
               ]
-            },
+            }
+          ]
+        },
+        {
+          "wepId": "TAU-SB-SHAS-PP-02",
+          "opTypeId": "TAU-SB-SHAS",
+          "seq": 4,
+          "wepName": "Pulse Pistol",
+          "profiles": [
             {
-              "wepprofileId": "TAU-SB-SHAS-PP-02",
-              "wepId": "TAU-SB-SHAS-PP",
-              "seq": 2,
+              "wepprofileId": "TAU-SB-SHAS-PP-02-01",
+              "wepType": "M",
+              "wepId": "TAU-SB-SHAS-PP-02",
+              "seq": 1,
               "profileName": "Point-blank",
-              "ATK": "4",
-              "HIT": "3+",
+              "ATK": "3",
+              "HIT": "4+",
               "DMG": "4/5",
               "WR": [
                 {
@@ -297,10 +308,10 @@
           "opTypeId": "TAU-SB-DES",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-DES-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-DES-BC",
               "seq": 1,
               "profileName": "Focused",
@@ -315,6 +326,7 @@
             },
             {
               "wepprofileId": "TAU-SB-DES-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-DES-BC",
               "seq": 2,
               "profileName": "Sweeping",
@@ -338,10 +350,10 @@
           "opTypeId": "TAU-SB-DES",
           "seq": 2,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-DES-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-DES-FB",
               "seq": 1,
               "profileName": "Short Range",
@@ -365,6 +377,7 @@
             },
             {
               "wepprofileId": "TAU-SB-DES-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-DES-FB",
               "seq": 2,
               "profileName": "Long Range",
@@ -389,10 +402,10 @@
           "opTypeId": "TAU-SB-DES",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-DES-F-01",
+              "wepType": "M",
               "wepId": "TAU-SB-DES-F",
               "seq": 1,
               "profileName": "",
@@ -430,10 +443,10 @@
           "opTypeId": "TAU-SB-INF",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-INF-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-INF-BC",
               "seq": 1,
               "profileName": "Focused",
@@ -448,6 +461,7 @@
             },
             {
               "wepprofileId": "TAU-SB-INF-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-INF-BC",
               "seq": 2,
               "profileName": "Sweeping",
@@ -471,10 +485,10 @@
           "opTypeId": "TAU-SB-INF",
           "seq": 2,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-INF-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-INF-FB",
               "seq": 1,
               "profileName": "Short Range",
@@ -498,6 +512,7 @@
             },
             {
               "wepprofileId": "TAU-SB-INF-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-INF-FB",
               "seq": 2,
               "profileName": "Long Range",
@@ -522,10 +537,10 @@
           "opTypeId": "TAU-SB-INF",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-INF-F-01",
+              "wepType": "M",
               "wepId": "TAU-SB-INF-F",
               "seq": 1,
               "profileName": "",
@@ -563,10 +578,10 @@
           "opTypeId": "TAU-SB-LIB",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LIB-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-LIB-BC",
               "seq": 1,
               "profileName": "Focused",
@@ -581,6 +596,7 @@
             },
             {
               "wepprofileId": "TAU-SB-LIB-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-LIB-BC",
               "seq": 2,
               "profileName": "Sweeping",
@@ -604,10 +620,10 @@
           "opTypeId": "TAU-SB-LIB",
           "seq": 2,
           "wepName": "EMP Bomb",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LIB-EMP-01",
+              "wepType": "R",
               "wepId": "TAU-SB-LIB-EMP",
               "seq": 1,
               "profileName": "",
@@ -651,10 +667,10 @@
           "opTypeId": "TAU-SB-LIB",
           "seq": 3,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LIB-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-LIB-FB",
               "seq": 1,
               "profileName": "Short Range",
@@ -678,6 +694,7 @@
             },
             {
               "wepprofileId": "TAU-SB-LIB-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-LIB-FB",
               "seq": 2,
               "profileName": "Long Range",
@@ -702,10 +719,10 @@
           "opTypeId": "TAU-SB-LIB",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LIB-F-01",
+              "wepType": "M",
               "wepId": "TAU-SB-LIB-F",
               "seq": 1,
               "profileName": "",
@@ -743,10 +760,10 @@
           "opTypeId": "TAU-SB-LOD",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LOD-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-LOD-BC",
               "seq": 1,
               "profileName": "Focused",
@@ -761,6 +778,7 @@
             },
             {
               "wepprofileId": "TAU-SB-LOD-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-LOD-BC",
               "seq": 2,
               "profileName": "Sweeping",
@@ -784,10 +802,10 @@
           "opTypeId": "TAU-SB-LOD",
           "seq": 2,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LOD-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-LOD-FB",
               "seq": 1,
               "profileName": "Short Range",
@@ -811,6 +829,7 @@
             },
             {
               "wepprofileId": "TAU-SB-LOD-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-LOD-FB",
               "seq": 2,
               "profileName": "Long Range",
@@ -835,10 +854,10 @@
           "opTypeId": "TAU-SB-LOD",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-LOD-F-01",
+              "wepType": "M",
               "wepId": "TAU-SB-LOD-F",
               "seq": 1,
               "profileName": "",
@@ -882,10 +901,10 @@
           "opTypeId": "TAU-SB-NEU",
           "seq": 1,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-NEU-BC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-NEU-BC",
               "seq": 1,
               "profileName": "Focused",
@@ -900,6 +919,7 @@
             },
             {
               "wepprofileId": "TAU-SB-NEU-BC-02",
+              "wepType": "R",
               "wepId": "TAU-SB-NEU-BC",
               "seq": 2,
               "profileName": "Sweeping",
@@ -923,10 +943,10 @@
           "opTypeId": "TAU-SB-NEU",
           "seq": 2,
           "wepName": "Fusion Blaster",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-NEU-FB-01",
+              "wepType": "R",
               "wepId": "TAU-SB-NEU-FB",
               "seq": 1,
               "profileName": "Short Range",
@@ -950,6 +970,7 @@
             },
             {
               "wepprofileId": "TAU-SB-NEU-FB-02",
+              "wepType": "R",
               "wepId": "TAU-SB-NEU-FB",
               "seq": 2,
               "profileName": "Long Range",
@@ -974,10 +995,10 @@
           "opTypeId": "TAU-SB-NEU",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-NEU-F-01",
+              "wepType": "M",
               "wepId": "TAU-SB-NEU-F",
               "seq": 1,
               "profileName": "",
@@ -1021,10 +1042,10 @@
           "opTypeId": "TAU-SB-GD",
           "seq": 1,
           "wepName": "Twin Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-GD-TPC-01",
+              "wepType": "R",
               "wepId": "TAU-SB-GD-TPC",
               "seq": 1,
               "profileName": "",
@@ -1044,10 +1065,10 @@
           "opTypeId": "TAU-SB-GD",
           "seq": 2,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-GD-R-01",
+              "wepType": "M",
               "wepId": "TAU-SB-GD-R",
               "seq": 1,
               "profileName": "",
@@ -1091,10 +1112,10 @@
           "opTypeId": "TAU-SB-MD",
           "seq": 1,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-SB-MD-R-01",
+              "wepType": "M",
               "wepId": "TAU-SB-MD-R",
               "seq": 1,
               "profileName": "",

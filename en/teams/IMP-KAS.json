@@ -110,9 +110,9 @@
         {
           "wepId": "IMP-KAS-CD-COMBAT-DAGGER",
           "wepName": "Combat Dagger",
-          "wepType": "M",
           "profiles": [
             {
+              "wepType": "M",
               "profileName": "",
               "ATK": "3",
               "HIT": "4+",
@@ -154,10 +154,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 0,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-BP-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-SGT-BP",
               "seq": 0,
               "profileName": "",
@@ -178,10 +178,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 1,
           "wepName": "Hot-Shot Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-HSLG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-SGT-HSLG",
               "seq": 0,
               "profileName": "",
@@ -197,10 +197,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 2,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-SGT-HSLP",
               "seq": 0,
               "profileName": "",
@@ -221,10 +221,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 3,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-PP-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-SGT-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -244,6 +244,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-SGT-PP-1",
+              "wepType": "R",
               "wepId": "IMP-KAS-SGT-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -275,10 +276,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 4,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-CS-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-SGT-CS",
               "seq": 0,
               "profileName": "",
@@ -294,10 +295,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 5,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-SGT-GB",
               "seq": 0,
               "profileName": "",
@@ -313,10 +314,10 @@
           "opTypeId": "IMP-KAS-SGT",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SGT-PW-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-SGT-PW",
               "seq": 0,
               "profileName": "",
@@ -375,10 +376,10 @@
           "opTypeId": "IMP-KAS-MDC",
           "seq": 0,
           "wepName": "Hot-Shot Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-MDC-HSLG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-MDC-HSLG",
               "seq": 0,
               "profileName": "",
@@ -394,10 +395,10 @@
           "opTypeId": "IMP-KAS-MDC",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-MDC-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-MDC-GB",
               "seq": 0,
               "profileName": "",
@@ -452,10 +453,10 @@
           "opTypeId": "IMP-KAS-DT",
           "seq": 0,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-DT-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-DT-HSLP",
               "seq": 0,
               "profileName": "",
@@ -476,10 +477,10 @@
           "opTypeId": "IMP-KAS-DT",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-DT-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-DT-GB",
               "seq": 0,
               "profileName": "",
@@ -523,10 +524,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 0,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-FL-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-FL",
               "seq": 0,
               "profileName": "",
@@ -554,10 +555,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 1,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-GL-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -573,6 +574,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-GNR-GL-1",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -593,10 +595,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 2,
           "wepName": "Hot-Shot Volley Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-HSVG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-HSVG",
               "seq": 0,
               "profileName": "Focused",
@@ -613,6 +615,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-GNR-HSVG-1",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-HSVG",
               "seq": 1,
               "profileName": "Sweeping",
@@ -638,10 +641,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 3,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-MG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-MG",
               "seq": 0,
               "profileName": "",
@@ -670,10 +673,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 4,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-PG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -689,6 +692,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-GNR-PG-1",
+              "wepType": "R",
               "wepId": "IMP-KAS-GNR-PG",
               "seq": 1,
               "profileName": "Supercharge",
@@ -716,10 +720,10 @@
           "opTypeId": "IMP-KAS-GNR",
           "seq": 5,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-GNR-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-GNR-GB",
               "seq": 0,
               "profileName": "",
@@ -750,10 +754,10 @@
           "opTypeId": "IMP-KAS-RT",
           "seq": 0,
           "wepName": "Hot-Shot Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-RT-HSLG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-RT-HSLG",
               "seq": 0,
               "profileName": "",
@@ -769,10 +773,10 @@
           "opTypeId": "IMP-KAS-RT",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-RT-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-RT-GB",
               "seq": 0,
               "profileName": "",
@@ -827,10 +831,10 @@
           "opTypeId": "IMP-KAS-SS",
           "seq": 0,
           "wepName": "Hot-Shot Marksman Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SS-HSMR-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-SS-HSMR",
               "seq": 0,
               "profileName": "Concealed",
@@ -855,6 +859,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-SS-HSMR-1",
+              "wepType": "R",
               "wepId": "IMP-KAS-SS-HSMR",
               "seq": 1,
               "profileName": "Mobile",
@@ -865,6 +870,7 @@
             },
             {
               "wepprofileId": "IMP-KAS-SS-HSMR-2",
+              "wepType": "R",
               "wepId": "IMP-KAS-SS-HSMR",
               "seq": 2,
               "profileName": "Stationary",
@@ -888,10 +894,10 @@
           "opTypeId": "IMP-KAS-SS",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-SS-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-SS-GB",
               "seq": 0,
               "profileName": "",
@@ -929,10 +935,10 @@
           "opTypeId": "IMP-KAS-TRP",
           "seq": 0,
           "wepName": "Hot-Shot Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-TRP-HSLG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-TRP-HSLG",
               "seq": 0,
               "profileName": "",
@@ -948,10 +954,10 @@
           "opTypeId": "IMP-KAS-TRP",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-TRP-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-TRP-GB",
               "seq": 0,
               "profileName": "",
@@ -989,10 +995,10 @@
           "opTypeId": "IMP-KAS-VOX",
           "seq": 0,
           "wepName": "Hot-Shot Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-VOX-HSLG-0",
+              "wepType": "R",
               "wepId": "IMP-KAS-VOX-HSLG",
               "seq": 0,
               "profileName": "",
@@ -1008,10 +1014,10 @@
           "opTypeId": "IMP-KAS-VOX",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-KAS-VOX-GB-0",
+              "wepType": "M",
               "wepId": "IMP-KAS-VOX-GB",
               "seq": 0,
               "profileName": "",

@@ -134,10 +134,10 @@
           "opTypeId": "TAU-PF-SU",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-SU-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-SU-PC",
               "seq": 0,
               "profileName": "",
@@ -153,10 +153,10 @@
           "opTypeId": "TAU-PF-SU",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-SU-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-SU-GB",
               "seq": 0,
               "profileName": "",
@@ -194,10 +194,10 @@
           "opTypeId": "TAU-PF-AG",
           "seq": 0,
           "wepName": "Fusion Grenade",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-AG-FG-0",
+              "wepType": "R",
               "wepId": "TAU-PF-AG-FG",
               "seq": 0,
               "profileName": "",
@@ -233,10 +233,10 @@
           "opTypeId": "TAU-PF-AG",
           "seq": 1,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-AG-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-AG-PC",
               "seq": 0,
               "profileName": "",
@@ -252,10 +252,10 @@
           "opTypeId": "TAU-PF-AG",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-AG-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-AG-GB",
               "seq": 0,
               "profileName": "",
@@ -293,10 +293,10 @@
           "opTypeId": "TAU-PF-BL",
           "seq": 0,
           "wepName": "Suppressed Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-BL-SPC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-BL-SPC",
               "seq": 0,
               "profileName": "",
@@ -316,10 +316,10 @@
           "opTypeId": "TAU-PF-BL",
           "seq": 1,
           "wepName": "Bionic Arm",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-BL-BA-0",
+              "wepType": "M",
               "wepId": "TAU-PF-BL-BA",
               "seq": 0,
               "profileName": "",
@@ -357,10 +357,10 @@
           "opTypeId": "TAU-PF-COMMS",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-COMMS-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-COMMS-PC",
               "seq": 0,
               "profileName": "",
@@ -376,10 +376,10 @@
           "opTypeId": "TAU-PF-COMMS",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-COMMS-F-0",
+              "wepType": "M",
               "wepId": "TAU-PF-COMMS-F",
               "seq": 0,
               "profileName": "",
@@ -428,10 +428,10 @@
           "opTypeId": "TAU-PF-DC",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-DC-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-DC-PC",
               "seq": 0,
               "profileName": "",
@@ -447,10 +447,10 @@
           "opTypeId": "TAU-PF-DC",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-DC-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-DC-GB",
               "seq": 0,
               "profileName": "",
@@ -505,10 +505,10 @@
           "opTypeId": "TAU-PF-MARKS",
           "seq": 0,
           "wepName": "Marksman Rail Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MARKS-MRR-0",
+              "wepType": "R",
               "wepId": "TAU-PF-MARKS-MRR",
               "seq": 0,
               "profileName": "Standard",
@@ -532,6 +532,7 @@
             },
             {
               "wepprofileId": "TAU-PF-MARKS-MRR-1",
+              "wepType": "R",
               "wepId": "TAU-PF-MARKS-MRR",
               "seq": 1,
               "profileName": "Dart Round",
@@ -555,10 +556,10 @@
           "opTypeId": "TAU-PF-MARKS",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MARKS-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MARKS-GB",
               "seq": 0,
               "profileName": "",
@@ -596,10 +597,10 @@
           "opTypeId": "TAU-PF-MDC",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MDC-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-MDC-PC",
               "seq": 0,
               "profileName": "",
@@ -615,10 +616,10 @@
           "opTypeId": "TAU-PF-MDC",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MDC-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MDC-GB",
               "seq": 0,
               "profileName": "",
@@ -673,10 +674,10 @@
           "opTypeId": "TAU-PF-SL",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-SL-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-SL-PC",
               "seq": 0,
               "profileName": "",
@@ -692,10 +693,10 @@
           "opTypeId": "TAU-PF-SL",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-SL-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-SL-GB",
               "seq": 0,
               "profileName": "",
@@ -739,10 +740,10 @@
           "opTypeId": "TAU-PF-TSI",
           "seq": 0,
           "wepName": "Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-TSI-PC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-TSI-PC",
               "seq": 0,
               "profileName": "",
@@ -758,10 +759,10 @@
           "opTypeId": "TAU-PF-TSI",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-TSI-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-TSI-GB",
               "seq": 0,
               "profileName": "",
@@ -815,10 +816,10 @@
           "opTypeId": "TAU-PF-WE",
           "seq": 0,
           "wepName": "Ion Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-WE-IR-0",
+              "wepType": "R",
               "wepId": "TAU-PF-WE-IR",
               "seq": 0,
               "profileName": "Standard",
@@ -835,6 +836,7 @@
             },
             {
               "wepprofileId": "TAU-PF-WE-IR-1",
+              "wepType": "R",
               "wepId": "TAU-PF-WE-IR",
               "seq": 1,
               "profileName": "Overcharge",
@@ -862,10 +864,10 @@
           "opTypeId": "TAU-PF-WE",
           "seq": 1,
           "wepName": "Rail Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-WE-RR-0",
+              "wepType": "R",
               "wepId": "TAU-PF-WE-RR",
               "seq": 0,
               "profileName": "",
@@ -894,10 +896,10 @@
           "opTypeId": "TAU-PF-WE",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-WE-GB-0",
+              "wepType": "M",
               "wepId": "TAU-PF-WE-GB",
               "seq": 0,
               "profileName": "",
@@ -928,10 +930,10 @@
           "opTypeId": "TAU-PF-MB3",
           "seq": 0,
           "wepName": "Burst Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MB3-BC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-MB3-BC",
               "seq": 0,
               "profileName": "Focused",
@@ -953,6 +955,7 @@
             },
             {
               "wepprofileId": "TAU-PF-MB3-BC-1",
+              "wepType": "R",
               "wepId": "TAU-PF-MB3-BC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -983,10 +986,10 @@
           "opTypeId": "TAU-PF-MB3",
           "seq": 1,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MB3-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MB3-R",
               "seq": 0,
               "profileName": "",
@@ -1030,10 +1033,10 @@
           "opTypeId": "TAU-PF-MV1",
           "seq": 0,
           "wepName": "Twin Pulse Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV1-TPC-0",
+              "wepType": "R",
               "wepId": "TAU-PF-MV1-TPC",
               "seq": 0,
               "profileName": "",
@@ -1053,10 +1056,10 @@
           "opTypeId": "TAU-PF-MV1",
           "seq": 1,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV1-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MV1-R",
               "seq": 0,
               "profileName": "",
@@ -1094,10 +1097,10 @@
           "opTypeId": "TAU-PF-MV4",
           "seq": 0,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV4-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MV4-R",
               "seq": 0,
               "profileName": "",
@@ -1141,10 +1144,10 @@
           "opTypeId": "TAU-PF-MV7",
           "seq": 0,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV7-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MV7-R",
               "seq": 0,
               "profileName": "",
@@ -1188,10 +1191,10 @@
           "opTypeId": "TAU-PF-MV31",
           "seq": 0,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV31-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MV31-R",
               "seq": 0,
               "profileName": "",
@@ -1243,10 +1246,10 @@
           "opTypeId": "TAU-PF-MV33",
           "seq": 0,
           "wepName": "Ram",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-PF-MV33-R-0",
+              "wepType": "M",
               "wepId": "TAU-PF-MV33-R",
               "seq": 0,
               "profileName": "",

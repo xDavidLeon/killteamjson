@@ -27,10 +27,10 @@
           "opTypeId": "SPEC-NPO-BR-TRP",
           "seq": 0,
           "wepName": "Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-BR-TRP-B-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-BR-TRP-B",
               "seq": 0,
               "profileName": "",
@@ -72,10 +72,10 @@
           "opTypeId": "SPEC-NPO-BR-TGH",
           "seq": 0,
           "wepName": "Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-BR-TGH-B-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-BR-TGH-B",
               "seq": 0,
               "profileName": "",
@@ -117,10 +117,10 @@
           "opTypeId": "SPEC-NPO-BR-HVY",
           "seq": 0,
           "wepName": "Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-BR-HVY-B-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-BR-HVY-B",
               "seq": 0,
               "profileName": "",
@@ -168,10 +168,10 @@
           "opTypeId": "SPEC-NPO-MM-TRP",
           "seq": 0,
           "wepName": "Firearm",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-TRP-FA-0",
+              "wepType": "R",
               "wepId": "SPEC-NPO-MM-TRP-FA",
               "seq": 0,
               "profileName": "",
@@ -187,10 +187,10 @@
           "opTypeId": "SPEC-NPO-MM-TRP",
           "seq": 1,
           "wepName": "Special Weapon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-TRP-SW-0",
+              "wepType": "R",
               "wepId": "SPEC-NPO-MM-TRP-SW",
               "seq": 0,
               "profileName": "",
@@ -211,10 +211,10 @@
           "opTypeId": "SPEC-NPO-MM-TRP",
           "seq": 2,
           "wepName": "Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-TRP-K-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-MM-TRP-K",
               "seq": 0,
               "profileName": "",
@@ -258,10 +258,10 @@
           "opTypeId": "SPEC-NPO-MM-WAR",
           "seq": 0,
           "wepName": "Firearm",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-WAR-FA-0",
+              "wepType": "R",
               "wepId": "SPEC-NPO-MM-WAR-FA",
               "seq": 0,
               "profileName": "",
@@ -277,10 +277,10 @@
           "opTypeId": "SPEC-NPO-MM-WAR",
           "seq": 1,
           "wepName": "Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-WAR-K-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-MM-WAR-K",
               "seq": 0,
               "profileName": "",
@@ -318,10 +318,10 @@
           "opTypeId": "SPEC-NPO-MM-HVY",
           "seq": 0,
           "wepName": "Firearm",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-HVY-FA-0",
+              "wepType": "R",
               "wepId": "SPEC-NPO-MM-HVY-FA",
               "seq": 0,
               "profileName": "",
@@ -337,10 +337,10 @@
           "opTypeId": "SPEC-NPO-MM-HVY",
           "seq": 1,
           "wepName": "Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-MM-HVY-K-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-MM-HVY-K",
               "seq": 0,
               "profileName": "",
@@ -384,10 +384,10 @@
           "opTypeId": "SPEC-NPO-SNP",
           "seq": 1,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-SNP-SNP-0",
+              "wepType": "R",
               "wepId": "SPEC-NPO-SNP-SNP",
               "seq": 0,
               "profileName": "",
@@ -414,10 +414,10 @@
           "opTypeId": "SPEC-NPO-SNP",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-NPO-SNP-GB-0",
+              "wepType": "M",
               "wepId": "SPEC-NPO-SNP-GB",
               "seq": 0,
               "profileName": "",

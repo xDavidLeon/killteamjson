@@ -148,10 +148,10 @@
           "opTypeId": "TYR-RAV-PRM",
           "seq": 1,
           "wepName": "Hoja de cola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-PRM-TB-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-PRM-TB",
               "seq": 1,
               "profileName": "",
@@ -178,10 +178,10 @@
           "opTypeId": "TYR-RAV-PRM",
           "seq": 2,
           "wepName": "Garras afiladas y garras aceradas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-PRM-STRC-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-PRM-STRC",
               "seq": 1,
               "profileName": "",
@@ -229,10 +229,10 @@
           "opTypeId": "TYR-RAV-FTL",
           "seq": 1,
           "wepName": "Pinza de cola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-FTL-PT-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-FTL-PT",
               "seq": 1,
               "profileName": "",
@@ -256,10 +256,10 @@
           "opTypeId": "TYR-RAV-FTL",
           "seq": 2,
           "wepName": "Glándulas tóxicas",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-FTL-TG-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-FTL-TG",
               "seq": 1,
               "profileName": "",
@@ -286,10 +286,10 @@
           "opTypeId": "TYR-RAV-FTL",
           "seq": 3,
           "wepName": "Guadañas tóxicas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-FTL-TS-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-FTL-TS",
               "seq": 1,
               "profileName": "",
@@ -352,10 +352,10 @@
           "opTypeId": "TYR-RAV-TRS",
           "seq": 1,
           "wepName": "Pinza de cola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-TRS-PT-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-TRS-PT",
               "seq": 1,
               "profileName": "",
@@ -379,10 +379,10 @@
           "opTypeId": "TYR-RAV-TRS",
           "seq": 2,
           "wepName": "Espolones afilados y garras aceradas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-TRS-ST-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-TRS-ST",
               "seq": 1,
               "profileName": "",
@@ -426,10 +426,10 @@
           "opTypeId": "TYR-RAV-VSP",
           "seq": 1,
           "wepName": "Pinza de cola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-VSP-PT-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-VSP-PT",
               "seq": 1,
               "profileName": "",
@@ -453,10 +453,10 @@
           "opTypeId": "TYR-RAV-VSP",
           "seq": 2,
           "wepName": "Proyectil venenoso",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-VSP-VB-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-VSP-VB",
               "seq": 1,
               "profileName": "Área",
@@ -479,6 +479,7 @@
             },
             {
               "wepprofileId": "TYR-RAV-VSP-VB-2",
+              "wepType": "R",
               "wepId": "TYR-RAV-VSP-VB",
               "seq": 2,
               "profileName": "Concentrado",
@@ -506,10 +507,10 @@
           "opTypeId": "TYR-RAV-VSP",
           "seq": 3,
           "wepName": "Espolones afilados y garras aceradas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-VSP-ST-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-VSP-ST",
               "seq": 1,
               "profileName": "",
@@ -560,10 +561,10 @@
           "opTypeId": "TYR-RAV-WAR",
           "seq": 1,
           "wepName": "Pinza de cola",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-WAR-PT-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-WAR-PT",
               "seq": 1,
               "profileName": "",
@@ -587,10 +588,10 @@
           "opTypeId": "TYR-RAV-WAR",
           "seq": 2,
           "wepName": "Espolones afilados",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-WAR-ST-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-WAR-ST",
               "seq": 1,
               "profileName": "",
@@ -628,10 +629,10 @@
           "opTypeId": "TYR-RAV-WRK",
           "seq": 1,
           "wepName": "Mazahueso",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-WRK-BM-1",
+              "wepType": "R",
               "wepId": "TYR-RAV-WRK-BM",
               "seq": 1,
               "profileName": "",
@@ -659,10 +660,10 @@
           "opTypeId": "TYR-RAV-WRK",
           "seq": 2,
           "wepName": "Espolones afilados y garras aplastadoras",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-RAV-WRK-STCC-1",
+              "wepType": "M",
               "wepId": "TYR-RAV-WRK-STCC",
               "seq": 1,
               "profileName": "",

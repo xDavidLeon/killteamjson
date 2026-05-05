@@ -96,9 +96,9 @@
         {
           "wepId": "CHAOS-PM-BG-BLIGHT-GRENADE",
           "wepName": "Blight Grenade",
-          "wepType": "R",
           "profiles": [
             {
+              "wepType": "R",
               "profileName": "",
               "ATK": "4",
               "HIT": "4+",
@@ -172,10 +172,10 @@
           "opTypeId": "CHAOS-PM-CHAMP",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-CHAMP-PP-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-CHAMP-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -195,6 +195,7 @@
             },
             {
               "wepprofileId": "CHAOS-PM-CHAMP-PP-1",
+              "wepType": "R",
               "wepId": "CHAOS-PM-CHAMP-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -226,10 +227,10 @@
           "opTypeId": "CHAOS-PM-CHAMP",
           "seq": 2,
           "wepName": "Plague Sword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-CHAMP-PS-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-CHAMP-PS",
               "seq": 0,
               "profileName": "",
@@ -277,10 +278,10 @@
           "opTypeId": "CHAOS-PM-MAL",
           "seq": 1,
           "wepName": "Entropy",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-MAL-ENT-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-MAL-ENT",
               "seq": 0,
               "profileName": "",
@@ -313,10 +314,10 @@
           "opTypeId": "CHAOS-PM-MAL",
           "seq": 2,
           "wepName": "Plague Wind",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-MAL-PW-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-MAL-PW",
               "seq": 0,
               "profileName": "",
@@ -349,10 +350,10 @@
           "opTypeId": "CHAOS-PM-MAL",
           "seq": 3,
           "wepName": "Corrupted Staff",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-MAL-CS-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-MAL-CS",
               "seq": 0,
               "profileName": "",
@@ -429,10 +430,10 @@
           "opTypeId": "CHAOS-PM-BOMB",
           "seq": 1,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-BOMB-BG-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-BOMB-BG",
               "seq": 0,
               "profileName": "",
@@ -448,10 +449,10 @@
           "opTypeId": "CHAOS-PM-BOMB",
           "seq": 3,
           "wepName": "Blight Grenade",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-BOMB-BGR-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-BOMB-BGR",
               "seq": 0,
               "profileName": "",
@@ -488,10 +489,10 @@
           "opTypeId": "CHAOS-PM-BOMB",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-BOMB-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-BOMB-F",
               "seq": 0,
               "profileName": "",
@@ -507,10 +508,10 @@
           "opTypeId": "CHAOS-PM-BOMB",
           "seq": 4,
           "wepName": "Krak Grenade",
-          "wepType": "E",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-BOMB-KG-0",
+              "wepType": "E",
               "wepId": "CHAOS-PM-BOMB-KG",
               "seq": 0,
               "profileName": "",
@@ -560,10 +561,10 @@
           "opTypeId": "CHAOS-PM-FTR",
           "seq": 1,
           "wepName": "Flail Of Corruption",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-FTR-FOC-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-FTR-FOC",
               "seq": 0,
               "profileName": "",
@@ -621,10 +622,10 @@
           "opTypeId": "CHAOS-PM-HGNR",
           "seq": 1,
           "wepName": "Plague Spewer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-HGNR-PS-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-HGNR-PS",
               "seq": 0,
               "profileName": "",
@@ -658,10 +659,10 @@
           "opTypeId": "CHAOS-PM-HGNR",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-HGNR-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-HGNR-F",
               "seq": 0,
               "profileName": "",
@@ -692,10 +693,10 @@
           "opTypeId": "CHAOS-PM-IB",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-IB-BP-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-IB-BP",
               "seq": 0,
               "profileName": "",
@@ -716,10 +717,10 @@
           "opTypeId": "CHAOS-PM-IB",
           "seq": 2,
           "wepName": "Plague Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-IB-PK-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-IB-PK",
               "seq": 0,
               "profileName": "",
@@ -770,10 +771,10 @@
           "opTypeId": "CHAOS-PM-WAR",
           "seq": 1,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-WAR-BG-0",
+              "wepType": "R",
               "wepId": "CHAOS-PM-WAR-BG",
               "seq": 0,
               "profileName": "",
@@ -793,10 +794,10 @@
           "opTypeId": "CHAOS-PM-WAR",
           "seq": 2,
           "wepName": "Plague Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-PM-WAR-PK-0",
+              "wepType": "M",
               "wepId": "CHAOS-PM-WAR-PK",
               "seq": 0,
               "profileName": "",

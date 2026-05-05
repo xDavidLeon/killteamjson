@@ -133,10 +133,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 1,
           "wepName": "Autogun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-AG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LDR-AG",
               "seq": 0,
               "profileName": "",
@@ -152,10 +152,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 2,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-BP-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LDR-BP",
               "seq": 0,
               "profileName": "",
@@ -176,10 +176,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 3,
           "wepName": "Master-Crafter AutoPistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-MCAP-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LDR-MCAP",
               "seq": 0,
               "profileName": "",
@@ -204,10 +204,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 4,
           "wepName": "Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-SG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LDR-SG",
               "seq": 0,
               "profileName": "",
@@ -228,10 +228,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 5,
           "wepName": "Web Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-WB-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LDR-WB",
               "seq": 0,
               "profileName": "",
@@ -258,10 +258,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 6,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-CS-0",
+              "wepType": "M",
               "wepId": "TYR-WB-LDR-CS",
               "seq": 0,
               "profileName": "",
@@ -277,10 +277,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 7,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-GB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-LDR-GB",
               "seq": 0,
               "profileName": "",
@@ -296,10 +296,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 8,
           "wepName": "Power Maul",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-PM-0",
+              "wepType": "M",
               "wepId": "TYR-WB-LDR-PM",
               "seq": 0,
               "profileName": "",
@@ -319,10 +319,10 @@
           "opTypeId": "TYR-WB-LDR",
           "seq": 9,
           "wepName": "Power Pick",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LDR-PP-0",
+              "wepType": "M",
               "wepId": "TYR-WB-LDR-PP",
               "seq": 0,
               "profileName": "",
@@ -370,10 +370,10 @@
           "opTypeId": "TYR-WB-KLM",
           "seq": 1,
           "wepName": "Liberator Autostubs",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-KLM-LAS-0",
+              "wepType": "R",
               "wepId": "TYR-WB-KLM-LAS",
               "seq": 0,
               "profileName": "Hypersense",
@@ -399,6 +399,7 @@
             },
             {
               "wepprofileId": "TYR-WB-KLM-LAS-1",
+              "wepType": "R",
               "wepId": "TYR-WB-KLM-LAS",
               "seq": 1,
               "profileName": "Long Range",
@@ -418,6 +419,7 @@
             },
             {
               "wepprofileId": "TYR-WB-KLM-LAS-2",
+              "wepType": "R",
               "wepId": "TYR-WB-KLM-LAS",
               "seq": 2,
               "profileName": "Short Range",
@@ -445,10 +447,10 @@
           "opTypeId": "TYR-WB-KLM",
           "seq": 2,
           "wepName": "Kelermorph Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-KLM-KK-0",
+              "wepType": "M",
               "wepId": "TYR-WB-KLM-KK",
               "seq": 0,
               "profileName": "",
@@ -502,10 +504,10 @@
           "opTypeId": "TYR-WB-LOC",
           "seq": 1,
           "wepName": "Barbed Tail",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LOC-BT-0",
+              "wepType": "R",
               "wepId": "TYR-WB-LOC-BT",
               "seq": 0,
               "profileName": "",
@@ -529,10 +531,10 @@
           "opTypeId": "TYR-WB-LOC",
           "seq": 2,
           "wepName": "Locus Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-LOC-LB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-LOC-LB",
               "seq": 0,
               "profileName": "",
@@ -593,10 +595,10 @@
           "opTypeId": "TYR-WB-GNR",
           "seq": 1,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-GNR-FL-0",
+              "wepType": "R",
               "wepId": "TYR-WB-GNR-FL",
               "seq": 0,
               "profileName": "",
@@ -624,10 +626,10 @@
           "opTypeId": "TYR-WB-GNR",
           "seq": 2,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-GNR-GL-0",
+              "wepType": "R",
               "wepId": "TYR-WB-GNR-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -643,6 +645,7 @@
             },
             {
               "wepprofileId": "TYR-WB-GNR-GL-1",
+              "wepType": "R",
               "wepId": "TYR-WB-GNR-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -663,10 +666,10 @@
           "opTypeId": "TYR-WB-GNR",
           "seq": 3,
           "wepName": "Webber",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-GNR-WB-0",
+              "wepType": "R",
               "wepId": "TYR-WB-GNR-WB",
               "seq": 0,
               "profileName": "",
@@ -693,10 +696,10 @@
           "opTypeId": "TYR-WB-GNR",
           "seq": 4,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-GNR-GB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-GNR-GB",
               "seq": 0,
               "profileName": "",
@@ -734,10 +737,10 @@
           "opTypeId": "TYR-WB-HGNR",
           "seq": 1,
           "wepName": "Heavy Stubber",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-HGNR-HS-0",
+              "wepType": "R",
               "wepId": "TYR-WB-HGNR-HS",
               "seq": 0,
               "profileName": "Focused",
@@ -753,6 +756,7 @@
             },
             {
               "wepprofileId": "TYR-WB-HGNR-HS-1",
+              "wepType": "R",
               "wepId": "TYR-WB-HGNR-HS",
               "seq": 1,
               "profileName": "Sweeping",
@@ -777,10 +781,10 @@
           "opTypeId": "TYR-WB-HGNR",
           "seq": 2,
           "wepName": "Mining Laser",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-HGNR-ML-0",
+              "wepType": "R",
               "wepId": "TYR-WB-HGNR-ML",
               "seq": 0,
               "profileName": "",
@@ -805,10 +809,10 @@
           "opTypeId": "TYR-WB-HGNR",
           "seq": 3,
           "wepName": "Seismic Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-HGNR-SC-0",
+              "wepType": "R",
               "wepId": "TYR-WB-HGNR-SC",
               "seq": 0,
               "profileName": "Long-Wave",
@@ -831,6 +835,7 @@
             },
             {
               "wepprofileId": "TYR-WB-HGNR-SC-1",
+              "wepType": "R",
               "wepId": "TYR-WB-HGNR-SC",
               "seq": 1,
               "profileName": "Short-Wave",
@@ -863,10 +868,10 @@
           "opTypeId": "TYR-WB-HGNR",
           "seq": 4,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-HGNR-GB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-HGNR-GB",
               "seq": 0,
               "profileName": "",
@@ -904,10 +909,10 @@
           "opTypeId": "TYR-WB-IB",
           "seq": 1,
           "wepName": "Autogun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-IB-AG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-IB-AG",
               "seq": 0,
               "profileName": "",
@@ -923,10 +928,10 @@
           "opTypeId": "TYR-WB-IB",
           "seq": 2,
           "wepName": "Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-IB-SG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-IB-SG",
               "seq": 0,
               "profileName": "",
@@ -947,10 +952,10 @@
           "opTypeId": "TYR-WB-IB",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-IB-GB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-IB-GB",
               "seq": 0,
               "profileName": "",
@@ -1000,10 +1005,10 @@
           "opTypeId": "TYR-WB-SNP",
           "seq": 1,
           "wepName": "Sanctus Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-SNP-SSR-0",
+              "wepType": "R",
               "wepId": "TYR-WB-SNP-SSR",
               "seq": 0,
               "profileName": "Mobile",
@@ -1014,6 +1019,7 @@
             },
             {
               "wepprofileId": "TYR-WB-SNP-SSR-1",
+              "wepType": "R",
               "wepId": "TYR-WB-SNP-SSR",
               "seq": 1,
               "profileName": "Stationary",
@@ -1041,10 +1047,10 @@
           "opTypeId": "TYR-WB-SNP",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-SNP-F-0",
+              "wepType": "M",
               "wepId": "TYR-WB-SNP-F",
               "seq": 0,
               "profileName": "",
@@ -1114,10 +1120,10 @@
           "opTypeId": "TYR-WB-TAL",
           "seq": 1,
           "wepName": "Sanctus Bio-Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-TAL-SBD-0",
+              "wepType": "M",
               "wepId": "TYR-WB-TAL-SBD",
               "seq": 0,
               "profileName": "",
@@ -1203,10 +1209,10 @@
           "opTypeId": "TYR-WB-WAR",
           "seq": 1,
           "wepName": "Autogun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-WAR-AG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-WAR-AG",
               "seq": 0,
               "profileName": "",
@@ -1222,10 +1228,10 @@
           "opTypeId": "TYR-WB-WAR",
           "seq": 2,
           "wepName": "Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-WAR-SG-0",
+              "wepType": "R",
               "wepId": "TYR-WB-WAR-SG",
               "seq": 0,
               "profileName": "",
@@ -1246,10 +1252,10 @@
           "opTypeId": "TYR-WB-WAR",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TYR-WB-WAR-GB-0",
+              "wepType": "M",
               "wepId": "TYR-WB-WAR-GB",
               "seq": 0,
               "profileName": "",

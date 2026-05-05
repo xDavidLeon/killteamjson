@@ -27,10 +27,10 @@
           "opTypeId": "SPEC-TITUS-TIT",
           "seq": 1,
           "wepName": "Heavy Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-TIT-HBP-0",
+              "wepType": "R",
               "wepId": "SPEC-TITUS-TIT-HBP",
               "seq": 0,
               "profileName": "",
@@ -56,10 +56,10 @@
           "opTypeId": "SPEC-TITUS-TIT",
           "seq": 2,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-TIT-CS-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-TIT-CS",
               "seq": 0,
               "profileName": "",
@@ -108,10 +108,10 @@
           "opTypeId": "SPEC-TITUS-GAD",
           "seq": 1,
           "wepName": "Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-GAD-BR-0",
+              "wepType": "R",
               "wepId": "SPEC-TITUS-GAD-BR",
               "seq": 0,
               "profileName": "",
@@ -133,10 +133,10 @@
           "opTypeId": "SPEC-TITUS-GAD",
           "seq": 2,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-GAD-CS-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-GAD-CS",
               "seq": 0,
               "profileName": "",
@@ -181,10 +181,10 @@
           "opTypeId": "SPEC-TITUS-CHA",
           "seq": 1,
           "wepName": "Bolt Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-CHA-BR-0",
+              "wepType": "R",
               "wepId": "SPEC-TITUS-CHA-BR",
               "seq": 0,
               "profileName": "",
@@ -206,10 +206,10 @@
           "opTypeId": "SPEC-TITUS-CHA",
           "seq": 2,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-CHA-CS-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-CHA-CS",
               "seq": 0,
               "profileName": "",
@@ -254,10 +254,10 @@
           "opTypeId": "SPEC-TITUS-HOR",
           "seq": 1,
           "wepName": "Scything Talons",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-HOR-SC-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-HOR-SC",
               "seq": 0,
               "profileName": "",
@@ -295,10 +295,10 @@
           "opTypeId": "SPEC-TITUS-TER",
           "seq": 1,
           "wepName": "Ranged Bio-Weapon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-TER-RBW-0",
+              "wepType": "R",
               "wepId": "SPEC-TITUS-TER-RBW",
               "seq": 0,
               "profileName": "",
@@ -314,10 +314,10 @@
           "opTypeId": "SPEC-TITUS-TER",
           "seq": 2,
           "wepName": "Claws & Teeth",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-TER-CAT-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-TER-CAT",
               "seq": 0,
               "profileName": "",
@@ -355,10 +355,10 @@
           "opTypeId": "SPEC-TITUS-WAR",
           "seq": 1,
           "wepName": "Ranged Bio-Weapon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-WAR-RBW-0",
+              "wepType": "R",
               "wepId": "SPEC-TITUS-WAR-RBW",
               "seq": 0,
               "profileName": "",
@@ -374,10 +374,10 @@
           "opTypeId": "SPEC-TITUS-WAR",
           "seq": 2,
           "wepName": "Boneswords",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-WAR-BS-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-WAR-BS",
               "seq": 0,
               "profileName": "",
@@ -427,10 +427,10 @@
           "opTypeId": "SPEC-TITUS-LIC",
           "seq": 1,
           "wepName": "Claws & Talons",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "SPEC-TITUS-LIC-CAT-0",
+              "wepType": "M",
               "wepId": "SPEC-TITUS-LIC-CAT",
               "seq": 0,
               "profileName": "",

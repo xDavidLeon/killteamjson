@@ -91,10 +91,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Tempestus Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TD-TEMPESTUS-DAGGER-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-TD-TEMPESTUS-DAGGER",
               "seq": 0,
               "profileName": "",
@@ -159,10 +159,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 0,
           "wepName": "Hot-Shot Lascarbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-HSLC-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-TEMP-HSLC",
               "seq": 0,
               "profileName": "",
@@ -178,10 +178,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 1,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-TEMP-HSLP",
               "seq": 0,
               "profileName": "",
@@ -202,10 +202,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 2,
           "wepName": "Relic Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-RBP-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-TEMP-RBP",
               "seq": 0,
               "profileName": "",
@@ -230,10 +230,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 3,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-CS-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-TEMP-CS",
               "seq": 0,
               "profileName": "",
@@ -249,10 +249,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-F-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-TEMP-F",
               "seq": 0,
               "profileName": "",
@@ -268,10 +268,10 @@
           "opTypeId": "IMP-TEMPAQ-TEMP",
           "seq": 5,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TEMP-PW-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-TEMP-PW",
               "seq": 0,
               "profileName": "",
@@ -330,10 +330,10 @@
           "opTypeId": "IMP-TEMPAQ-GRN",
           "seq": 0,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GRN-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GRN-HSLP",
               "seq": 0,
               "profileName": "",
@@ -354,10 +354,10 @@
           "opTypeId": "IMP-TEMPAQ-GRN",
           "seq": 1,
           "wepName": "Melta Bomb",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GRN-MB-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GRN-MB",
               "seq": 0,
               "profileName": "",
@@ -394,10 +394,10 @@
           "opTypeId": "IMP-TEMPAQ-GRN",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GRN-F-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-GRN-F",
               "seq": 0,
               "profileName": "",
@@ -435,10 +435,10 @@
           "opTypeId": "IMP-TEMPAQ-GF",
           "seq": 0,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GF-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GF-HSLP",
               "seq": 0,
               "profileName": "Focused",
@@ -460,6 +460,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-GF-HSLP-1",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GF-HSLP",
               "seq": 1,
               "profileName": "Salvo",
@@ -483,10 +484,10 @@
           "opTypeId": "IMP-TEMPAQ-GF",
           "seq": 2,
           "wepName": "Hot-Shot Laspistol (Point Blank)",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GF-HSLPPB-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-GF-HSLPPB",
               "seq": 0,
               "profileName": "",
@@ -528,10 +529,10 @@
           "opTypeId": "IMP-TEMPAQ-GNR",
           "seq": 0,
           "wepName": "Melta Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GNR-MC-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GNR-MC",
               "seq": 0,
               "profileName": "",
@@ -560,10 +561,10 @@
           "opTypeId": "IMP-TEMPAQ-GNR",
           "seq": 1,
           "wepName": "Plasma Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GNR-PC-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GNR-PC",
               "seq": 0,
               "profileName": "Standard",
@@ -579,6 +580,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-GNR-PC-1",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-GNR-PC",
               "seq": 1,
               "profileName": "Supercharge",
@@ -606,10 +608,10 @@
           "opTypeId": "IMP-TEMPAQ-GNR",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-GNR-F-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -640,10 +642,10 @@
           "opTypeId": "IMP-TEMPAQ-MRK",
           "seq": 0,
           "wepName": "Hot-Shot Longlas",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-MRK-HSLL",
               "seq": 0,
               "profileName": "Concealed",
@@ -668,6 +670,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-1",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-MRK-HSLL",
               "seq": 1,
               "profileName": "Mobile",
@@ -678,6 +681,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-MRK-HSLL-2",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-MRK-HSLL",
               "seq": 2,
               "profileName": "Stationary",
@@ -701,10 +705,10 @@
           "opTypeId": "IMP-TEMPAQ-MRK",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-MRK-F-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-MRK-F",
               "seq": 0,
               "profileName": "",
@@ -742,10 +746,10 @@
           "opTypeId": "IMP-TEMPAQ-PRE",
           "seq": 0,
           "wepName": "Hot-Shot Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-PRE-HSLP-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-PRE-HSLP",
               "seq": 0,
               "profileName": "",
@@ -766,10 +770,10 @@
           "opTypeId": "IMP-TEMPAQ-PRE",
           "seq": 1,
           "wepName": "Tempestus Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-PRE-TD-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-PRE-TD",
               "seq": 0,
               "profileName": "",
@@ -821,10 +825,10 @@
           "opTypeId": "IMP-TEMPAQ-SS",
           "seq": 0,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-SS-FL-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-SS-FL",
               "seq": 0,
               "profileName": "",
@@ -852,10 +856,10 @@
           "opTypeId": "IMP-TEMPAQ-SS",
           "seq": 1,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-SS-GL-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-SS-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -871,6 +875,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-SS-GL-1",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-SS-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -891,10 +896,10 @@
           "opTypeId": "IMP-TEMPAQ-SS",
           "seq": 3,
           "wepName": "Hot-Shot Volley Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-SS-HSVG-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-SS-HSVG",
               "seq": 0,
               "profileName": "Focused",
@@ -911,6 +916,7 @@
             },
             {
               "wepprofileId": "IMP-TEMPAQ-SS-HSVG-1",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-SS-HSVG",
               "seq": 1,
               "profileName": "Sweeping",
@@ -964,10 +970,10 @@
           "opTypeId": "IMP-TEMPAQ-TRP",
           "seq": 0,
           "wepName": "Hot-Shot Lascarbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TRP-HSLC-0",
+              "wepType": "R",
               "wepId": "IMP-TEMPAQ-TRP-HSLC",
               "seq": 0,
               "profileName": "",
@@ -983,10 +989,10 @@
           "opTypeId": "IMP-TEMPAQ-TRP",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-TEMPAQ-TRP-F-0",
+              "wepType": "M",
               "wepId": "IMP-TEMPAQ-TRP-F",
               "seq": 0,
               "profileName": "",

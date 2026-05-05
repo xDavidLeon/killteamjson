@@ -133,10 +133,10 @@
           "opTypeId": "TAU-FSKB-KB",
           "seq": 0,
           "wepName": "Kroot Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-KB-KR-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-KB-KR",
               "seq": 0,
               "profileName": "",
@@ -152,10 +152,10 @@
           "opTypeId": "TAU-FSKB-KB",
           "seq": 1,
           "wepName": "Pulse Weapon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-KB-PC-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-KB-PC",
               "seq": 0,
               "profileName": "",
@@ -171,10 +171,10 @@
           "opTypeId": "TAU-FSKB-KB",
           "seq": 3,
           "wepName": "Ritual Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-KB-RB-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-KB-RB",
               "seq": 0,
               "profileName": "",
@@ -218,10 +218,10 @@
           "opTypeId": "TAU-FSKB-BH",
           "seq": 0,
           "wepName": "Accelerator Bow",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-BH-AB-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-BH-AB",
               "seq": 0,
               "profileName": "Fused Arrow",
@@ -237,6 +237,7 @@
             },
             {
               "wepprofileId": "TAU-FSKB-BH-AB-1",
+              "wepType": "R",
               "wepId": "TAU-FSKB-BH-AB",
               "seq": 1,
               "profileName": "Glide Arrow",
@@ -251,6 +252,7 @@
             },
             {
               "wepprofileId": "TAU-FSKB-BH-AB-2",
+              "wepType": "R",
               "wepId": "TAU-FSKB-BH-AB",
               "seq": 2,
               "profileName": "Voltaic Arrow",
@@ -271,10 +273,10 @@
           "opTypeId": "TAU-FSKB-BH",
           "seq": 1,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-BH-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-BH-BL",
               "seq": 0,
               "profileName": "",
@@ -321,10 +323,10 @@
           "opTypeId": "TAU-FSKB-CB",
           "seq": 0,
           "wepName": "Kroot Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-CB-KR-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-CB-KR",
               "seq": 0,
               "profileName": "",
@@ -340,10 +342,10 @@
           "opTypeId": "TAU-FSKB-CB",
           "seq": 1,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-CB-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-CB-BL",
               "seq": 0,
               "profileName": "",
@@ -387,10 +389,10 @@
           "opTypeId": "TAU-FSKB-CS",
           "seq": 0,
           "wepName": "Cut-Skin's Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-CS-CSB-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-CS-CSB",
               "seq": 0,
               "profileName": "",
@@ -442,10 +444,10 @@
           "opTypeId": "TAU-FSKB-HGNR",
           "seq": 0,
           "wepName": "Dvorgite Skinner",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-HGNR-DV-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-HGNR-DV",
               "seq": 0,
               "profileName": "",
@@ -478,10 +480,10 @@
           "opTypeId": "TAU-FSKB-HGNR",
           "seq": 1,
           "wepName": "Londaxi Trabalest",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-HGNR-LT-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-HGNR-LT",
               "seq": 0,
               "profileName": "",
@@ -509,10 +511,10 @@
           "opTypeId": "TAU-FSKB-HGNR",
           "seq": 2,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-HGNR-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-HGNR-BL",
               "seq": 0,
               "profileName": "",
@@ -543,10 +545,10 @@
           "opTypeId": "TAU-FSKB-HND",
           "seq": 0,
           "wepName": "Ripping Fangs",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-HND-RF-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-HND-RF",
               "seq": 0,
               "profileName": "",
@@ -608,10 +610,10 @@
           "opTypeId": "TAU-FSKB-LS",
           "seq": 0,
           "wepName": "Kroot Hunting Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-LS-KHR-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-LS-KHR",
               "seq": 0,
               "profileName": "Concealed",
@@ -636,6 +638,7 @@
             },
             {
               "wepprofileId": "TAU-FSKB-LS-KHR-1",
+              "wepType": "R",
               "wepId": "TAU-FSKB-LS-KHR",
               "seq": 1,
               "profileName": "Mobile",
@@ -646,6 +649,7 @@
             },
             {
               "wepprofileId": "TAU-FSKB-LS-KHR-2",
+              "wepType": "R",
               "wepId": "TAU-FSKB-LS-KHR",
               "seq": 2,
               "profileName": "Stationary",
@@ -669,10 +673,10 @@
           "opTypeId": "TAU-FSKB-LS",
           "seq": 1,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-LS-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-LS-BL",
               "seq": 0,
               "profileName": "",
@@ -721,10 +725,10 @@
           "opTypeId": "TAU-FSKB-PST",
           "seq": 0,
           "wepName": "Dual Kroot Pistols",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-PST-DKP-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-PST-DKP",
               "seq": 0,
               "profileName": "Focused",
@@ -747,6 +751,7 @@
             },
             {
               "wepprofileId": "TAU-FSKB-PST-DKP-1",
+              "wepType": "R",
               "wepId": "TAU-FSKB-PST-DKP",
               "seq": 1,
               "profileName": "Salvo",
@@ -770,10 +775,10 @@
           "opTypeId": "TAU-FSKB-PST",
           "seq": 1,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-PST-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-PST-BL",
               "seq": 0,
               "profileName": "",
@@ -817,10 +822,10 @@
           "opTypeId": "TAU-FSKB-STK",
           "seq": 0,
           "wepName": "Kroot Scattergun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-STK-KSG-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-STK-KSG",
               "seq": 0,
               "profileName": "",
@@ -841,10 +846,10 @@
           "opTypeId": "TAU-FSKB-STK",
           "seq": 1,
           "wepName": "Stalker's Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-STK-SB-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-STK-SB",
               "seq": 0,
               "profileName": "",
@@ -906,10 +911,10 @@
           "opTypeId": "TAU-FSKB-TRK",
           "seq": 0,
           "wepName": "Kroot Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-TRK-KR-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-TRK-KR",
               "seq": 0,
               "profileName": "",
@@ -925,10 +930,10 @@
           "opTypeId": "TAU-FSKB-TRK",
           "seq": 1,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-TRK-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-TRK-BL",
               "seq": 0,
               "profileName": "",
@@ -991,10 +996,10 @@
           "opTypeId": "TAU-FSKB-WAR",
           "seq": 0,
           "wepName": "Kroot Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-WAR-KR-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-WAR-KR",
               "seq": 0,
               "profileName": "",
@@ -1010,10 +1015,10 @@
           "opTypeId": "TAU-FSKB-WAR",
           "seq": 1,
           "wepName": "Kroot Scattergun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-WAR-KSG-0",
+              "wepType": "R",
               "wepId": "TAU-FSKB-WAR-KSG",
               "seq": 0,
               "profileName": "",
@@ -1034,10 +1039,10 @@
           "opTypeId": "TAU-FSKB-WAR",
           "seq": 2,
           "wepName": "Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "TAU-FSKB-WAR-BL-0",
+              "wepType": "M",
               "wepId": "TAU-FSKB-WAR-BL",
               "seq": 0,
               "profileName": "",

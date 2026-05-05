@@ -133,10 +133,10 @@
           "opTypeId": "IMP-NOV-SUP",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-SUP-PP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-SUP-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -156,6 +156,7 @@
             },
             {
               "wepprofileId": "IMP-NOV-SUP-PP-1",
+              "wepType": "R",
               "wepId": "IMP-NOV-SUP-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -187,10 +188,10 @@
           "opTypeId": "IMP-NOV-SUP",
           "seq": 2,
           "wepName": "Relic Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-SUP-RBP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-SUP-RBP",
               "seq": 0,
               "profileName": "",
@@ -215,10 +216,10 @@
           "opTypeId": "IMP-NOV-SUP",
           "seq": 3,
           "wepName": "Relic Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-SUP-RBG-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-SUP-RBG",
               "seq": 0,
               "profileName": "",
@@ -239,10 +240,10 @@
           "opTypeId": "IMP-NOV-SUP",
           "seq": 4,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-SUP-GB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-SUP-GB",
               "seq": 0,
               "profileName": "",
@@ -258,10 +259,10 @@
           "opTypeId": "IMP-NOV-SUP",
           "seq": 5,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-SUP-PW-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-SUP-PW",
               "seq": 0,
               "profileName": "",
@@ -304,10 +305,10 @@
           "opTypeId": "IMP-NOV-CON",
           "seq": 1,
           "wepName": "Condemnor Stakethrower",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-CON-CST-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-CON-CST",
               "seq": 0,
               "profileName": "",
@@ -339,10 +340,10 @@
           "opTypeId": "IMP-NOV-CON",
           "seq": 2,
           "wepName": "Null Rod",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-CON-NR-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-CON-NR",
               "seq": 0,
               "profileName": "",
@@ -387,10 +388,10 @@
           "opTypeId": "IMP-NOV-DIA",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-DIA-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-DIA-AP",
               "seq": 0,
               "profileName": "",
@@ -411,10 +412,10 @@
           "opTypeId": "IMP-NOV-DIA",
           "seq": 2,
           "wepName": "Dialogus Stave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-DIA-DS-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-DIA-DS",
               "seq": 0,
               "profileName": "",
@@ -483,10 +484,10 @@
           "opTypeId": "IMP-NOV-DUE",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-DUE-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-DUE-AP",
               "seq": 0,
               "profileName": "",
@@ -507,10 +508,10 @@
           "opTypeId": "IMP-NOV-DUE",
           "seq": 2,
           "wepName": "Duelling Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-DUE-DB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-DUE-DB",
               "seq": 0,
               "profileName": "",
@@ -548,10 +549,10 @@
           "opTypeId": "IMP-NOV-EXA",
           "seq": 1,
           "wepName": "Neural Whips",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-EXA-NWR-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-EXA-NWR",
               "seq": 0,
               "profileName": "",
@@ -579,10 +580,10 @@
           "opTypeId": "IMP-NOV-EXA",
           "seq": 2,
           "wepName": "Neural Whips",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-EXA-NWM-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-EXA-NWM",
               "seq": 0,
               "profileName": "",
@@ -638,10 +639,10 @@
           "opTypeId": "IMP-NOV-HOS",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-HOS-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-HOS-AP",
               "seq": 0,
               "profileName": "",
@@ -662,10 +663,10 @@
           "opTypeId": "IMP-NOV-HOS",
           "seq": 2,
           "wepName": "Surgical Saw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-HOS-SS-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-HOS-SS",
               "seq": 0,
               "profileName": "",
@@ -727,10 +728,10 @@
           "opTypeId": "IMP-NOV-MIL",
           "seq": 1,
           "wepName": "Autogun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-MIL-AG-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-MIL-AG",
               "seq": 0,
               "profileName": "",
@@ -746,10 +747,10 @@
           "opTypeId": "IMP-NOV-MIL",
           "seq": 2,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-MIL-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-MIL-AP",
               "seq": 0,
               "profileName": "",
@@ -770,10 +771,10 @@
           "opTypeId": "IMP-NOV-MIL",
           "seq": 3,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-MIL-GB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-MIL-GB",
               "seq": 0,
               "profileName": "",
@@ -789,10 +790,10 @@
           "opTypeId": "IMP-NOV-MIL",
           "seq": 4,
           "wepName": "Novitiate Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-MIL-NB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-MIL-NB",
               "seq": 0,
               "profileName": "",
@@ -830,10 +831,10 @@
           "opTypeId": "IMP-NOV-PEN",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PEN-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-PEN-AP",
               "seq": 0,
               "profileName": "",
@@ -854,10 +855,10 @@
           "opTypeId": "IMP-NOV-PEN",
           "seq": 2,
           "wepName": "Penitent Eviscerator",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PEN-PE-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-PEN-PE",
               "seq": 0,
               "profileName": "",
@@ -902,10 +903,10 @@
           "opTypeId": "IMP-NOV-PRE",
           "seq": 1,
           "wepName": "Mace Of The Righteous",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PRE-MOTR-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-PRE-MOTR",
               "seq": 0,
               "profileName": "",
@@ -956,10 +957,10 @@
           "opTypeId": "IMP-NOV-PRO",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PRO-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-PRO-AP",
               "seq": 0,
               "profileName": "",
@@ -980,10 +981,10 @@
           "opTypeId": "IMP-NOV-PRO",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PRO-GB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-PRO-GB",
               "seq": 0,
               "profileName": "",
@@ -1021,10 +1022,10 @@
           "opTypeId": "IMP-NOV-PUR",
           "seq": 1,
           "wepName": "Ministorum Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PUR-MF-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-PUR-MF",
               "seq": 0,
               "profileName": "",
@@ -1052,10 +1053,10 @@
           "opTypeId": "IMP-NOV-PUR",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-PUR-GB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-PUR-GB",
               "seq": 0,
               "profileName": "",
@@ -1093,10 +1094,10 @@
           "opTypeId": "IMP-NOV-REL",
           "seq": 1,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-REL-AP-0",
+              "wepType": "R",
               "wepId": "IMP-NOV-REL-AP",
               "seq": 0,
               "profileName": "",
@@ -1117,10 +1118,10 @@
           "opTypeId": "IMP-NOV-REL",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-NOV-REL-GB-0",
+              "wepType": "M",
               "wepId": "IMP-NOV-REL-GB",
               "seq": 0,
               "profileName": "",

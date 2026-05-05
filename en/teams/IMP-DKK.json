@@ -105,10 +105,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Hand Axe",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-HA-HAND-AXE-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-HA-HAND-AXE",
               "seq": 0,
               "profileName": "",
@@ -147,10 +147,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 0,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-BP-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-WM-BP",
               "seq": 0,
               "profileName": "",
@@ -171,10 +171,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 1,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-BG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-WM-BG",
               "seq": 0,
               "profileName": "",
@@ -190,10 +190,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 2,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-PP-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-WM-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -213,6 +213,7 @@
             },
             {
               "wepprofileId": "IMP-DKK-WM-PP-1",
+              "wepType": "R",
               "wepId": "IMP-DKK-WM-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -244,10 +245,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 3,
           "wepName": "Relic Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-RLP-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-WM-RLP",
               "seq": 0,
               "profileName": "",
@@ -272,10 +273,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 4,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-WM-B",
               "seq": 0,
               "profileName": "",
@@ -291,10 +292,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 5,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-CS-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-WM-CS",
               "seq": 0,
               "profileName": "",
@@ -310,10 +311,10 @@
           "opTypeId": "IMP-DKK-WM",
           "seq": 6,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-WM-PW-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-WM-PW",
               "seq": 0,
               "profileName": "",
@@ -368,10 +369,10 @@
           "opTypeId": "IMP-DKK-BRU",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-BRU-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-BRU-LG",
               "seq": 0,
               "profileName": "",
@@ -387,10 +388,10 @@
           "opTypeId": "IMP-DKK-BRU",
           "seq": 1,
           "wepName": "Trench Club",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-BRU-TC-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-BRU-TC",
               "seq": 0,
               "profileName": "",
@@ -432,10 +433,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 0,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-BP-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-CON-BP",
               "seq": 0,
               "profileName": "",
@@ -456,10 +457,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 1,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-BG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-CON-BG",
               "seq": 0,
               "profileName": "",
@@ -475,10 +476,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 2,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-CON-LG",
               "seq": 0,
               "profileName": "",
@@ -494,10 +495,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 3,
           "wepName": "Relic Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-RLP-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-CON-RLP",
               "seq": 0,
               "profileName": "",
@@ -522,10 +523,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 4,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-CON-B",
               "seq": 0,
               "profileName": "",
@@ -541,10 +542,10 @@
           "opTypeId": "IMP-DKK-CON",
           "seq": 5,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-CON-CS-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-CON-CS",
               "seq": 0,
               "profileName": "",
@@ -594,10 +595,10 @@
           "opTypeId": "IMP-DKK-GNR",
           "seq": 0,
           "wepName": "Flamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-GNR-FL-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-FL",
               "seq": 0,
               "profileName": "",
@@ -625,10 +626,10 @@
           "opTypeId": "IMP-DKK-GNR",
           "seq": 1,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-GNR-GL-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-GL",
               "seq": 0,
               "profileName": "Frag",
@@ -644,6 +645,7 @@
             },
             {
               "wepprofileId": "IMP-DKK-GNR-GL-1",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-GL",
               "seq": 1,
               "profileName": "Krak",
@@ -664,10 +666,10 @@
           "opTypeId": "IMP-DKK-GNR",
           "seq": 2,
           "wepName": "Meltagun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-GNR-MG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-MG",
               "seq": 0,
               "profileName": "",
@@ -696,10 +698,10 @@
           "opTypeId": "IMP-DKK-GNR",
           "seq": 3,
           "wepName": "Plasma Gun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-GNR-PG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-PG",
               "seq": 0,
               "profileName": "Standard",
@@ -715,6 +717,7 @@
             },
             {
               "wepprofileId": "IMP-DKK-GNR-PG-1",
+              "wepType": "R",
               "wepId": "IMP-DKK-GNR-PG",
               "seq": 1,
               "profileName": "Supercharge",
@@ -742,10 +745,10 @@
           "opTypeId": "IMP-DKK-GNR",
           "seq": 4,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-GNR-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-GNR-B",
               "seq": 0,
               "profileName": "",
@@ -776,10 +779,10 @@
           "opTypeId": "IMP-DKK-MDC",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-MDC-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-MDC-LG",
               "seq": 0,
               "profileName": "",
@@ -795,10 +798,10 @@
           "opTypeId": "IMP-DKK-MDC",
           "seq": 1,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-MDC-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-MDC-B",
               "seq": 0,
               "profileName": "",
@@ -853,10 +856,10 @@
           "opTypeId": "IMP-DKK-SAP",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SAP-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-SAP-LG",
               "seq": 0,
               "profileName": "",
@@ -872,10 +875,10 @@
           "opTypeId": "IMP-DKK-SAP",
           "seq": 1,
           "wepName": "Remote Detonator",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SAP-RD-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-SAP-RD",
               "seq": 0,
               "profileName": "",
@@ -910,10 +913,10 @@
           "opTypeId": "IMP-DKK-SAP",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SAP-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-SAP-B",
               "seq": 0,
               "profileName": "",
@@ -951,10 +954,10 @@
           "opTypeId": "IMP-DKK-SNP",
           "seq": 0,
           "wepName": "Long-Las",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SNP-LL-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-SNP-LL",
               "seq": 0,
               "profileName": "Concealed",
@@ -979,6 +982,7 @@
             },
             {
               "wepprofileId": "IMP-DKK-SNP-LL-1",
+              "wepType": "R",
               "wepId": "IMP-DKK-SNP-LL",
               "seq": 1,
               "profileName": "Mobile",
@@ -989,6 +993,7 @@
             },
             {
               "wepprofileId": "IMP-DKK-SNP-LL-2",
+              "wepType": "R",
               "wepId": "IMP-DKK-SNP-LL",
               "seq": 2,
               "profileName": "Stationary",
@@ -1012,10 +1017,10 @@
           "opTypeId": "IMP-DKK-SNP",
           "seq": 1,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SNP-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-SNP-B",
               "seq": 0,
               "profileName": "",
@@ -1046,10 +1051,10 @@
           "opTypeId": "IMP-DKK-SPT",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SPT-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-SPT-LG",
               "seq": 0,
               "profileName": "",
@@ -1065,10 +1070,10 @@
           "opTypeId": "IMP-DKK-SPT",
           "seq": 1,
           "wepName": "Mortar Barrage",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SPT-MB-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-SPT-MB",
               "seq": 0,
               "profileName": "",
@@ -1096,10 +1101,10 @@
           "opTypeId": "IMP-DKK-SPT",
           "seq": 2,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-SPT-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-SPT-B",
               "seq": 0,
               "profileName": "",
@@ -1149,10 +1154,10 @@
           "opTypeId": "IMP-DKK-TRP",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-TRP-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-TRP-LG",
               "seq": 0,
               "profileName": "",
@@ -1168,10 +1173,10 @@
           "opTypeId": "IMP-DKK-TRP",
           "seq": 1,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-TRP-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-TRP-B",
               "seq": 0,
               "profileName": "",
@@ -1209,10 +1214,10 @@
           "opTypeId": "IMP-DKK-VET",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-VET-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-VET-LG",
               "seq": 0,
               "profileName": "",
@@ -1228,10 +1233,10 @@
           "opTypeId": "IMP-DKK-VET",
           "seq": 1,
           "wepName": "Bionic Arm",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-VET-BA-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-VET-BA",
               "seq": 0,
               "profileName": "",
@@ -1275,10 +1280,10 @@
           "opTypeId": "IMP-DKK-VOX",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-VOX-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-VOX-LG",
               "seq": 0,
               "profileName": "",
@@ -1294,10 +1299,10 @@
           "opTypeId": "IMP-DKK-VOX",
           "seq": 1,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-VOX-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-VOX-B",
               "seq": 0,
               "profileName": "",
@@ -1352,10 +1357,10 @@
           "opTypeId": "IMP-DKK-ZLT",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-ZLT-LG-0",
+              "wepType": "R",
               "wepId": "IMP-DKK-ZLT-LG",
               "seq": 0,
               "profileName": "",
@@ -1371,10 +1376,10 @@
           "opTypeId": "IMP-DKK-ZLT",
           "seq": 1,
           "wepName": "Bayonet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-DKK-ZLT-B-0",
+              "wepType": "M",
               "wepId": "IMP-DKK-ZLT-B",
               "seq": 0,
               "profileName": "",

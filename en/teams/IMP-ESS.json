@@ -126,10 +126,10 @@
           "opTypeId": "IMP-ESS-EV",
           "seq": 1,
           "wepName": "Heirloom Relic Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-EV-HRP-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-EV-HRP",
               "seq": 0,
               "profileName": "",
@@ -159,10 +159,10 @@
           "opTypeId": "IMP-ESS-EV",
           "seq": 2,
           "wepName": "Monomolecular Cane-Rapier",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-EV-MMCR-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-EV-MMCR",
               "seq": 0,
               "profileName": "",
@@ -235,10 +235,10 @@
           "opTypeId": "IMP-ESS-CAN",
           "seq": 0,
           "wepName": "Vicious Bite",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-CAN-VB-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-CAN-VB",
               "seq": 0,
               "profileName": "",
@@ -306,10 +306,10 @@
           "opTypeId": "IMP-ESS-DCE",
           "seq": 0,
           "wepName": "Dartmask",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-DCE-DM-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-DCE-DM",
               "seq": 0,
               "profileName": "",
@@ -340,10 +340,10 @@
           "opTypeId": "IMP-ESS-DCE",
           "seq": 1,
           "wepName": "Power Weapon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-DCE-PW-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-DCE-PW",
               "seq": 0,
               "profileName": "",
@@ -414,10 +414,10 @@
           "opTypeId": "IMP-ESS-LM",
           "seq": 0,
           "wepName": "Voltaic Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-LM-VP-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-LM-VP",
               "seq": 0,
               "profileName": "",
@@ -446,10 +446,10 @@
           "opTypeId": "IMP-ESS-LM",
           "seq": 1,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-LM-GB-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-LM-GB",
               "seq": 0,
               "profileName": "",
@@ -511,10 +511,10 @@
           "opTypeId": "IMP-ESS-REJAD",
           "seq": 0,
           "wepName": "Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-REJAD-LP-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-REJAD-LP",
               "seq": 0,
               "profileName": "",
@@ -535,10 +535,10 @@
           "opTypeId": "IMP-ESS-REJAD",
           "seq": 1,
           "wepName": "Scalpel Claw",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-REJAD-SC-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-REJAD-SC",
               "seq": 0,
               "profileName": "",
@@ -602,10 +602,10 @@
           "opTypeId": "IMP-ESS-VMST",
           "seq": 0,
           "wepName": "Artificer Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VMST-ASG-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-VMST-ASG",
               "seq": 0,
               "profileName": "Close Range",
@@ -621,6 +621,7 @@
             },
             {
               "wepprofileId": "IMP-ESS-VMST-ASG-1",
+              "wepType": "R",
               "wepId": "IMP-ESS-VMST-ASG",
               "seq": 1,
               "profileName": "Long Range",
@@ -636,10 +637,10 @@
           "opTypeId": "IMP-ESS-VMST",
           "seq": 1,
           "wepName": "Relic Laspistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VMST-RLP-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-VMST-RLP",
               "seq": 0,
               "profileName": "",
@@ -664,10 +665,10 @@
           "opTypeId": "IMP-ESS-VMST",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VMST-GB-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-VMST-GB",
               "seq": 0,
               "profileName": "",
@@ -731,10 +732,10 @@
           "opTypeId": "IMP-ESS-VM",
           "seq": 0,
           "wepName": "Lasgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VM-LG-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-VM-LG",
               "seq": 0,
               "profileName": "",
@@ -750,10 +751,10 @@
           "opTypeId": "IMP-ESS-VM",
           "seq": 1,
           "wepName": "Rotor Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VM-RC-0",
+              "wepType": "R",
               "wepId": "IMP-ESS-VM-RC",
               "seq": 0,
               "profileName": "Focused",
@@ -772,6 +773,7 @@
             },
             {
               "wepprofileId": "IMP-ESS-VM-RC-1",
+              "wepType": "R",
               "wepId": "IMP-ESS-VM-RC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -799,10 +801,10 @@
           "opTypeId": "IMP-ESS-VM",
           "seq": 2,
           "wepName": "Gun Butt",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-ESS-VM-GB-0",
+              "wepType": "M",
               "wepId": "IMP-ESS-VM-GB",
               "seq": 0,
               "profileName": "",

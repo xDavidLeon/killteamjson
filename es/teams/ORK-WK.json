@@ -142,10 +142,10 @@
           "opTypeId": "ORK-WK-NOB",
           "seq": 1,
           "wepName": "Rokkit Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-NOB-RP-0",
+              "wepType": "R",
               "wepId": "ORK-WK-NOB-RP",
               "seq": 0,
               "profileName": "",
@@ -170,10 +170,10 @@
           "opTypeId": "ORK-WK-NOB",
           "seq": 2,
           "wepName": "Two Rokkit Pistols",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-NOB-2RP-0",
+              "wepType": "R",
               "wepId": "ORK-WK-NOB-2RP",
               "seq": 0,
               "profileName": "Focused",
@@ -196,6 +196,7 @@
             },
             {
               "wepprofileId": "ORK-WK-NOB-2RP-1",
+              "wepType": "R",
               "wepId": "ORK-WK-NOB-2RP",
               "seq": 1,
               "profileName": "Salvo",
@@ -223,10 +224,10 @@
           "opTypeId": "ORK-WK-NOB",
           "seq": 3,
           "wepName": "Choppa",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-NOB-CHOP-0",
+              "wepType": "M",
               "wepId": "ORK-WK-NOB-CHOP",
               "seq": 0,
               "profileName": "",
@@ -242,10 +243,10 @@
           "opTypeId": "ORK-WK-NOB",
           "seq": 4,
           "wepName": "Smash Hammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-NOB-SH-0",
+              "wepType": "M",
               "wepId": "ORK-WK-NOB-SH",
               "seq": 0,
               "profileName": "",
@@ -293,10 +294,10 @@
           "opTypeId": "ORK-WK-BBFTR",
           "seq": 1,
           "wepName": "Smash Hammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-BBFTR-SH-0",
+              "wepType": "M",
               "wepId": "ORK-WK-BBFTR-SH",
               "seq": 0,
               "profileName": "",
@@ -349,10 +350,10 @@
           "opTypeId": "ORK-WK-BBDEMO",
           "seq": 1,
           "wepName": "Tankhammer",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-BBDEMO-TH-0",
+              "wepType": "M",
               "wepId": "ORK-WK-BBDEMO-TH",
               "seq": 0,
               "profileName": "Bash",
@@ -363,6 +364,7 @@
             },
             {
               "wepprofileId": "ORK-WK-BBDEMO-TH-1",
+              "wepType": "M",
               "wepId": "ORK-WK-BBDEMO-TH",
               "seq": 1,
               "profileName": "Detonate",
@@ -418,10 +420,10 @@
           "opTypeId": "ORK-WK-BBKRU",
           "seq": 1,
           "wepName": "Knucklebustas",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-BBKRU-KB-0",
+              "wepType": "M",
               "wepId": "ORK-WK-BBKRU-KB",
               "seq": 0,
               "profileName": "",
@@ -469,10 +471,10 @@
           "opTypeId": "ORK-WK-TBGNR",
           "seq": 1,
           "wepName": "'Eavy Rokkit Launcha",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBGNR-ERL-0",
+              "wepType": "R",
               "wepId": "ORK-WK-TBGNR-ERL",
               "seq": 0,
               "profileName": "",
@@ -497,10 +499,10 @@
           "opTypeId": "ORK-WK-TBGNR",
           "seq": 2,
           "wepName": "Rokkit Launcha",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBGNR-RL-0",
+              "wepType": "R",
               "wepId": "ORK-WK-TBGNR-RL",
               "seq": 0,
               "profileName": "",
@@ -521,10 +523,10 @@
           "opTypeId": "ORK-WK-TBGNR",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBGNR-F-0",
+              "wepType": "M",
               "wepId": "ORK-WK-TBGNR-F",
               "seq": 0,
               "profileName": "",
@@ -562,10 +564,10 @@
           "opTypeId": "ORK-WK-TBROK",
           "seq": 1,
           "wepName": "Pulsa Rokkit",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBROK-PR-0",
+              "wepType": "R",
               "wepId": "ORK-WK-TBROK-PR",
               "seq": 0,
               "profileName": "",
@@ -593,10 +595,10 @@
           "opTypeId": "ORK-WK-TBROK",
           "seq": 2,
           "wepName": "Rokkit Launcha",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBROK-RL-0",
+              "wepType": "R",
               "wepId": "ORK-WK-TBROK-RL",
               "seq": 0,
               "profileName": "",
@@ -617,10 +619,10 @@
           "opTypeId": "ORK-WK-TBROK",
           "seq": 3,
           "wepName": "Rokkit Rack",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBROK-RR-0",
+              "wepType": "R",
               "wepId": "ORK-WK-TBROK-RR",
               "seq": 0,
               "profileName": "",
@@ -652,10 +654,10 @@
           "opTypeId": "ORK-WK-TBROK",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-TBROK-F-0",
+              "wepType": "M",
               "wepId": "ORK-WK-TBROK-F",
               "seq": 0,
               "profileName": "",
@@ -693,10 +695,10 @@
           "opTypeId": "ORK-WK-SQUIG",
           "seq": 1,
           "wepName": "Explosives",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-SQUIG-EX-0",
+              "wepType": "R",
               "wepId": "ORK-WK-SQUIG-EX",
               "seq": 0,
               "profileName": "",
@@ -724,10 +726,10 @@
           "opTypeId": "ORK-WK-SQUIG",
           "seq": 2,
           "wepName": "Bite",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "ORK-WK-SQUIG-B-0",
+              "wepType": "M",
               "wepId": "ORK-WK-SQUIG-B",
               "seq": 0,
               "profileName": "",

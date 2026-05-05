@@ -193,10 +193,10 @@
           "opTypeId": "CHAOS-WC-SOD",
           "seq": 1,
           "wepName": "Inferno Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOD-IBP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOD-IBP",
               "seq": 0,
               "profileName": "",
@@ -221,10 +221,10 @@
           "opTypeId": "CHAOS-WC-SOD",
           "seq": 2,
           "wepName": "Warpflame Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOD-WFP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOD-WFP",
               "seq": 0,
               "profileName": "",
@@ -253,10 +253,10 @@
           "opTypeId": "CHAOS-WC-SOD",
           "seq": 0,
           "wepName": "Doombolt",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOD-DB-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOD-DB",
               "seq": 0,
               "profileName": "",
@@ -284,10 +284,10 @@
           "opTypeId": "CHAOS-WC-SOD",
           "seq": 3,
           "wepName": "Force Stave",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOD-FS-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOD-FS",
               "seq": 0,
               "profileName": "",
@@ -310,10 +310,10 @@
           "opTypeId": "CHAOS-WC-SOD",
           "seq": 4,
           "wepName": "Prosperine Khopesh",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOD-PK-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-SOD-PK",
               "seq": 0,
               "profileName": "",
@@ -398,10 +398,10 @@
           "opTypeId": "CHAOS-WC-SOT",
           "seq": 1,
           "wepName": "Inferno Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOT-IBP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOT-IBP",
               "seq": 0,
               "profileName": "",
@@ -426,10 +426,10 @@
           "opTypeId": "CHAOS-WC-SOT",
           "seq": 2,
           "wepName": "Warpflame Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOT-WFP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOT-WFP",
               "seq": 0,
               "profileName": "",
@@ -458,10 +458,10 @@
           "opTypeId": "CHAOS-WC-SOT",
           "seq": 0,
           "wepName": "Fluxblast",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOT-FB-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOT-FB",
               "seq": 0,
               "profileName": "",
@@ -488,10 +488,10 @@
           "opTypeId": "CHAOS-WC-SOT",
           "seq": 3,
           "wepName": "Force Stave",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOT-FS-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOT-FS",
               "seq": 0,
               "profileName": "",
@@ -514,10 +514,10 @@
           "opTypeId": "CHAOS-WC-SOT",
           "seq": 4,
           "wepName": "Prosperine Khopesh",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOT-PK-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-SOT-PK",
               "seq": 0,
               "profileName": "",
@@ -598,10 +598,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 1,
           "wepName": "Inferno Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-IBP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOW-IBP",
               "seq": 0,
               "profileName": "",
@@ -626,10 +626,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 3,
           "wepName": "Warpflame Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-WFP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-SOW-WFP",
               "seq": 0,
               "profileName": "",
@@ -658,10 +658,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 0,
           "wepName": "Firestorm",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-FSTRM-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOW-FSTRM",
               "seq": 0,
               "profileName": "",
@@ -692,10 +692,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 2,
           "wepName": "Mindburn",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-MB-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOW-MB",
               "seq": 0,
               "profileName": "",
@@ -729,10 +729,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 4,
           "wepName": "Force Stave",
-          "wepType": "P",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-FS-0",
+              "wepType": "P",
               "wepId": "CHAOS-WC-SOW-FS",
               "seq": 0,
               "profileName": "",
@@ -755,10 +755,10 @@
           "opTypeId": "CHAOS-WC-SOW",
           "seq": 5,
           "wepName": "Prosperine Khopesh",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-SOW-PK-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-SOW-PK",
               "seq": 0,
               "profileName": "",
@@ -821,10 +821,10 @@
           "opTypeId": "CHAOS-WC-GNR",
           "seq": 0,
           "wepName": "Soulreaper Cannon",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-GNR-SRC-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-GNR-SRC",
               "seq": 0,
               "profileName": "Focused",
@@ -840,6 +840,7 @@
             },
             {
               "wepprofileId": "CHAOS-WC-GNR-SRC-1",
+              "wepType": "R",
               "wepId": "CHAOS-WC-GNR-SRC",
               "seq": 1,
               "profileName": "Sweeping",
@@ -864,10 +865,10 @@
           "opTypeId": "CHAOS-WC-GNR",
           "seq": 1,
           "wepName": "Warpflamer",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-GNR-WFL-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-GNR-WFL",
               "seq": 0,
               "profileName": "",
@@ -899,10 +900,10 @@
           "opTypeId": "CHAOS-WC-GNR",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-GNR-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -946,10 +947,10 @@
           "opTypeId": "CHAOS-WC-IB",
           "seq": 0,
           "wepName": "Inferno Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-IB-IBG-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-IB-IBG",
               "seq": 0,
               "profileName": "",
@@ -970,10 +971,10 @@
           "opTypeId": "CHAOS-WC-IB",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-IB-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-IB-F",
               "seq": 0,
               "profileName": "",
@@ -1023,10 +1024,10 @@
           "opTypeId": "CHAOS-WC-WAR",
           "seq": 0,
           "wepName": "Inferno Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-WAR-IBG-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-WAR-IBG",
               "seq": 0,
               "profileName": "",
@@ -1047,10 +1048,10 @@
           "opTypeId": "CHAOS-WC-WAR",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-WAR-F-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-WAR-F",
               "seq": 0,
               "profileName": "",
@@ -1100,10 +1101,10 @@
           "opTypeId": "CHAOS-WC-TZC",
           "seq": 0,
           "wepName": "Greataxe",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZC-GA-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZC-GA",
               "seq": 0,
               "profileName": "",
@@ -1127,10 +1128,10 @@
           "opTypeId": "CHAOS-WC-TZC",
           "seq": 1,
           "wepName": "Greatblade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZC-GB-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZC-GB",
               "seq": 0,
               "profileName": "",
@@ -1169,10 +1170,10 @@
           "opTypeId": "CHAOS-WC-TZHB",
           "seq": 0,
           "wepName": "Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZHB-D-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZHB-D",
               "seq": 0,
               "profileName": "",
@@ -1219,10 +1220,10 @@
           "opTypeId": "CHAOS-WC-TZIB",
           "seq": 0,
           "wepName": "Dagger",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZIB-D-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZIB-D",
               "seq": 0,
               "profileName": "",
@@ -1266,10 +1267,10 @@
           "opTypeId": "CHAOS-WC-TZWAR",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZWAR-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-WC-TZWAR-AP",
               "seq": 0,
               "profileName": "",
@@ -1290,10 +1291,10 @@
           "opTypeId": "CHAOS-WC-TZWAR",
           "seq": 1,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZWAR-CS-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZWAR-CS",
               "seq": 0,
               "profileName": "",
@@ -1309,10 +1310,10 @@
           "opTypeId": "CHAOS-WC-TZWAR",
           "seq": 2,
           "wepName": "Tzaangor Blade & Shield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZWAR-TBS-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZWAR-TBS",
               "seq": 0,
               "profileName": "",
@@ -1332,10 +1333,10 @@
           "opTypeId": "CHAOS-WC-TZWAR",
           "seq": 3,
           "wepName": "Tzaangor Blades",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-WC-TZWAR-TB-0",
+              "wepType": "M",
               "wepId": "CHAOS-WC-TZWAR-TB",
               "seq": 0,
               "profileName": "",

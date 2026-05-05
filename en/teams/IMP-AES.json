@@ -138,10 +138,10 @@
           "opTypeId": "IMP-AES-PE",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-PE-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-PE-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -157,6 +157,7 @@
             },
             {
               "wepprofileId": "IMP-AES-PE-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-PE-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -172,10 +173,10 @@
           "opTypeId": "IMP-AES-PE",
           "seq": 1,
           "wepName": "Shot Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-PE-SP-0",
+              "wepType": "R",
               "wepId": "IMP-AES-PE-SP",
               "seq": 0,
               "profileName": "",
@@ -196,10 +197,10 @@
           "opTypeId": "IMP-AES-PE",
           "seq": 2,
           "wepName": "Dominator Maul & Assault Shield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-PE-DMAS-0",
+              "wepType": "M",
               "wepId": "IMP-AES-PE-DMAS",
               "seq": 0,
               "profileName": "",
@@ -226,10 +227,10 @@
           "opTypeId": "IMP-AES-PE",
           "seq": 3,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-PE-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-PE-RB",
               "seq": 0,
               "profileName": "",
@@ -290,10 +291,10 @@
           "opTypeId": "IMP-AES-CAST",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-CAST-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-CAST-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -309,6 +310,7 @@
             },
             {
               "wepprofileId": "IMP-AES-CAST-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-CAST-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -324,10 +326,10 @@
           "opTypeId": "IMP-AES-CAST",
           "seq": 1,
           "wepName": "Excruciator Maul",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-CAST-EM-0",
+              "wepType": "M",
               "wepId": "IMP-AES-CAST-EM",
               "seq": 0,
               "profileName": "",
@@ -384,10 +386,10 @@
           "opTypeId": "IMP-AES-CHI",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-CHI-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-CHI-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -403,6 +405,7 @@
             },
             {
               "wepprofileId": "IMP-AES-CHI-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-CHI-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -418,10 +421,10 @@
           "opTypeId": "IMP-AES-CHI",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-CHI-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-CHI-RB",
               "seq": 0,
               "profileName": "",
@@ -476,10 +479,10 @@
           "opTypeId": "IMP-AES-GNR",
           "seq": 0,
           "wepName": "Grenade Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-GNR-GL-0",
+              "wepType": "R",
               "wepId": "IMP-AES-GNR-GL",
               "seq": 0,
               "profileName": "",
@@ -500,10 +503,10 @@
           "opTypeId": "IMP-AES-GNR",
           "seq": 1,
           "wepName": "Heavy Stubber",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-GNR-HS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-GNR-HS",
               "seq": 0,
               "profileName": "Focused",
@@ -519,6 +522,7 @@
             },
             {
               "wepprofileId": "IMP-AES-GNR-HS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-GNR-HS",
               "seq": 1,
               "profileName": "Sweeping",
@@ -543,10 +547,10 @@
           "opTypeId": "IMP-AES-GNR",
           "seq": 2,
           "wepName": "Webber",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-GNR-WEB-0",
+              "wepType": "R",
               "wepId": "IMP-AES-GNR-WEB",
               "seq": 0,
               "profileName": "",
@@ -573,10 +577,10 @@
           "opTypeId": "IMP-AES-GNR",
           "seq": 3,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-GNR-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-GNR-RB",
               "seq": 0,
               "profileName": "",
@@ -607,10 +611,10 @@
           "opTypeId": "IMP-AES-LSH",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-LSH-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-LSH-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -626,6 +630,7 @@
             },
             {
               "wepprofileId": "IMP-AES-LSH-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-LSH-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -641,10 +646,10 @@
           "opTypeId": "IMP-AES-LSH",
           "seq": 1,
           "wepName": "Shotpistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-LSH-SP-0",
+              "wepType": "R",
               "wepId": "IMP-AES-LSH-SP",
               "seq": 0,
               "profileName": "",
@@ -665,10 +670,10 @@
           "opTypeId": "IMP-AES-LSH",
           "seq": 2,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-LSH-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-LSH-RB",
               "seq": 0,
               "profileName": "",
@@ -725,10 +730,10 @@
           "opTypeId": "IMP-AES-RVR",
           "seq": 0,
           "wepName": "Mechanical Bite",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-RVR-MB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-RVR-MB",
               "seq": 0,
               "profileName": "",
@@ -790,10 +795,10 @@
           "opTypeId": "IMP-AES-MAL",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-MAL-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-MAL-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -809,6 +814,7 @@
             },
             {
               "wepprofileId": "IMP-AES-MAL-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-MAL-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -824,10 +830,10 @@
           "opTypeId": "IMP-AES-MAL",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-MAL-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-MAL-RB",
               "seq": 0,
               "profileName": "",
@@ -879,10 +885,10 @@
           "opTypeId": "IMP-AES-MRK",
           "seq": 0,
           "wepName": "Executioner Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-MRK-ESG-0",
+              "wepType": "R",
               "wepId": "IMP-AES-MRK-ESG",
               "seq": 0,
               "profileName": "Concealed",
@@ -907,6 +913,7 @@
             },
             {
               "wepprofileId": "IMP-AES-MRK-ESG-1",
+              "wepType": "R",
               "wepId": "IMP-AES-MRK-ESG",
               "seq": 1,
               "profileName": "Mobile",
@@ -917,6 +924,7 @@
             },
             {
               "wepprofileId": "IMP-AES-MRK-ESG-2",
+              "wepType": "R",
               "wepId": "IMP-AES-MRK-ESG",
               "seq": 2,
               "profileName": "Stationary",
@@ -940,10 +948,10 @@
           "opTypeId": "IMP-AES-MRK",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-MRK-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-MRK-RB",
               "seq": 0,
               "profileName": "",
@@ -992,10 +1000,10 @@
           "opTypeId": "IMP-AES-REV",
           "seq": 0,
           "wepName": "Scoped Shot Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-REV-SSP-0",
+              "wepType": "R",
               "wepId": "IMP-AES-REV-SSP",
               "seq": 0,
               "profileName": "Short Range",
@@ -1015,6 +1023,7 @@
             },
             {
               "wepprofileId": "IMP-AES-REV-SSP-1",
+              "wepType": "R",
               "wepId": "IMP-AES-REV-SSP",
               "seq": 1,
               "profileName": "Long Range",
@@ -1030,10 +1039,10 @@
           "opTypeId": "IMP-AES-REV",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-REV-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-REV-RB",
               "seq": 0,
               "profileName": "",
@@ -1089,10 +1098,10 @@
           "opTypeId": "IMP-AES-SUB",
           "seq": 0,
           "wepName": "Shot Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-SUB-SP-0",
+              "wepType": "R",
               "wepId": "IMP-AES-SUB-SP",
               "seq": 0,
               "profileName": "",
@@ -1113,10 +1122,10 @@
           "opTypeId": "IMP-AES-SUB",
           "seq": 1,
           "wepName": "Shock Maul & Assault Shield",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-SUB-SMAS-0",
+              "wepType": "M",
               "wepId": "IMP-AES-SUB-SMAS",
               "seq": 0,
               "profileName": "",
@@ -1161,10 +1170,10 @@
           "opTypeId": "IMP-AES-VIG",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-VIG-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-VIG-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -1180,6 +1189,7 @@
             },
             {
               "wepprofileId": "IMP-AES-VIG-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-VIG-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -1195,10 +1205,10 @@
           "opTypeId": "IMP-AES-VIG",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-VIG-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-VIG-RB",
               "seq": 0,
               "profileName": "",
@@ -1236,10 +1246,10 @@
           "opTypeId": "IMP-AES-VOX",
           "seq": 0,
           "wepName": "Combat Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-VOX-CS-0",
+              "wepType": "R",
               "wepId": "IMP-AES-VOX-CS",
               "seq": 0,
               "profileName": "Close Range",
@@ -1255,6 +1265,7 @@
             },
             {
               "wepprofileId": "IMP-AES-VOX-CS-1",
+              "wepType": "R",
               "wepId": "IMP-AES-VOX-CS",
               "seq": 1,
               "profileName": "Long Range",
@@ -1270,10 +1281,10 @@
           "opTypeId": "IMP-AES-VOX",
           "seq": 1,
           "wepName": "Repression Baton",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-AES-VOX-RB-0",
+              "wepType": "M",
               "wepId": "IMP-AES-VOX-RB",
               "seq": 0,
               "profileName": "",

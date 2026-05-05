@@ -143,10 +143,10 @@
                     "opTypeId": "IMP-CI-SUP",
                     "seq": 1,
                     "wepName": "Inferno Pistol",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-SUP-IP-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-SUP-IP",
                             "seq": 0,
                             "profileName": "",
@@ -175,10 +175,10 @@
                     "opTypeId": "IMP-CI-SUP",
                     "seq": 2,
                     "wepName": "Relic Bolt Pistol",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-SUP-RBP-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-SUP-RBP",
                             "seq": 0,
                             "profileName": "",
@@ -203,10 +203,10 @@
                     "opTypeId": "IMP-CI-SUP",
                     "seq": 3,
                     "wepName": "Relic Condemnor Stakethrower",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-SUP-RCS-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-SUP-RCS",
                             "seq": 0,
                             "profileName": "",
@@ -241,10 +241,10 @@
                     "opTypeId": "IMP-CI-SUP",
                     "seq": 4,
                     "wepName": "Null Mace",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-SUP-NM-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-SUP-NM",
                             "seq": 0,
                             "profileName": "",
@@ -305,10 +305,10 @@
                     "opTypeId": "IMP-CI-ABJ",
                     "seq": 1,
                     "wepName": "Blessed Sword & Praesidium Protectiva",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-ABJ-BSD-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-ABJ-BSD",
                             "seq": 0,
                             "profileName": "Defensive",
@@ -324,6 +324,7 @@
                         },
                         {
                             "wepprofileId": "IMP-CI-ABJ-BSD-1",
+                            "wepType": "M",
                             "wepId": "IMP-CI-ABJ-BSD",
                             "seq": 1,
                             "profileName": "Offensive",
@@ -372,10 +373,10 @@
                     "opTypeId": "IMP-CI-CEN",
                     "seq": 1,
                     "wepName": "Virge Of Admonition",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-CEN-VA-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-CEN-VA",
                             "seq": 0,
                             "profileName": "",
@@ -445,10 +446,10 @@
                     "opTypeId": "IMP-CI-CRE",
                     "seq": 1,
                     "wepName": "Hand Flamer",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-CRE-HF-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-CRE-HF",
                             "seq": 0,
                             "profileName": "Standard",
@@ -471,6 +472,7 @@
                         },
                         {
                             "wepprofileId": "IMP-CI-CRE-HF-1",
+                            "wepType": "R",
                             "wepId": "IMP-CI-CRE-HF",
                             "seq": 1,
                             "profileName": "Deluge",
@@ -501,10 +503,10 @@
                     "opTypeId": "IMP-CI-CRE",
                     "seq": 2,
                     "wepName": "Null Mace",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-CRE-NM-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-CRE-NM",
                             "seq": 0,
                             "profileName": "",
@@ -549,10 +551,10 @@
                     "opTypeId": "IMP-CI-DEN",
                     "seq": 1,
                     "wepName": "Voice Of Condemnation",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-DEN-VC-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-DEN-VC",
                             "seq": 0,
                             "profileName": "",
@@ -579,10 +581,10 @@
                     "opTypeId": "IMP-CI-DEN",
                     "seq": 2,
                     "wepName": "Staff Of Declamation",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-DEN-SD-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-DEN-SD",
                             "seq": 0,
                             "profileName": "",
@@ -640,10 +642,10 @@
                     "opTypeId": "IMP-CI-MOR",
                     "seq": 1,
                     "wepName": "Blessed Broadsword",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-MOR-BB-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-MOR-BB",
                             "seq": 0,
                             "profileName": "",
@@ -695,10 +697,10 @@
                     "opTypeId": "IMP-CI-REL",
                     "seq": 1,
                     "wepName": "Bolt Pistol",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-REL-BP-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-REL-BP",
                             "seq": 0,
                             "profileName": "",
@@ -719,10 +721,10 @@
                     "opTypeId": "IMP-CI-REL",
                     "seq": 2,
                     "wepName": "Condemnor Stakethrower",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-REL-CS-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-REL-CS",
                             "seq": 0,
                             "profileName": "",
@@ -753,10 +755,10 @@
                     "opTypeId": "IMP-CI-REL",
                     "seq": 3,
                     "wepName": "Gun Butt",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-REL-GB-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-REL-GB",
                             "seq": 0,
                             "profileName": "",
@@ -800,10 +802,10 @@
                     "opTypeId": "IMP-CI-WAR",
                     "seq": 1,
                     "wepName": "Bolt Pistol",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-WAR-BP-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-WAR-BP",
                             "seq": 0,
                             "profileName": "",
@@ -824,10 +826,10 @@
                     "opTypeId": "IMP-CI-WAR",
                     "seq": 2,
                     "wepName": "Condemnor Stakethrower",
-                    "wepType": "R",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-WAR-CS-0",
+                            "wepType": "R",
                             "wepId": "IMP-CI-WAR-CS",
                             "seq": 0,
                             "profileName": "",
@@ -858,10 +860,10 @@
                     "opTypeId": "IMP-CI-WAR",
                     "seq": 3,
                     "wepName": "Null Mace",
-                    "wepType": "M",
                     "profiles": [
                         {
                             "wepprofileId": "IMP-CI-WAR-NM-0",
+                            "wepType": "M",
                             "wepId": "IMP-CI-WAR-NM",
                             "seq": 0,
                             "profileName": "",

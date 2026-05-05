@@ -107,10 +107,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-CB-COMBAT-BLADE-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-CB-COMBAT-BLADE",
               "seq": 0,
               "profileName": "",
@@ -183,10 +183,10 @@
           "opTypeId": "IMP-PHO-INFSGT",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFSGT-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFSGT-MBC",
               "seq": 0,
               "profileName": "",
@@ -207,10 +207,10 @@
           "opTypeId": "IMP-PHO-INFSGT",
           "seq": 0,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFSGT-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFSGT-F",
               "seq": 0,
               "profileName": "",
@@ -254,10 +254,10 @@
           "opTypeId": "IMP-PHO-INFCOM",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFCOM-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFCOM-MBC",
               "seq": 0,
               "profileName": "",
@@ -278,10 +278,10 @@
           "opTypeId": "IMP-PHO-INFCOM",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFCOM-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFCOM-F",
               "seq": 0,
               "profileName": "",
@@ -331,10 +331,10 @@
           "opTypeId": "IMP-PHO-INFHEL",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFHEL-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFHEL-MBC",
               "seq": 0,
               "profileName": "",
@@ -355,10 +355,10 @@
           "opTypeId": "IMP-PHO-INFHEL",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFHEL-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFHEL-F",
               "seq": 0,
               "profileName": "",
@@ -419,10 +419,10 @@
           "opTypeId": "IMP-PHO-INFSAB",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFSAB-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFSAB-MBC",
               "seq": 0,
               "profileName": "",
@@ -443,10 +443,10 @@
           "opTypeId": "IMP-PHO-INFSAB",
           "seq": 1,
           "wepName": "Remote Detonator",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFSAB-RD-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFSAB-RD",
               "seq": 0,
               "profileName": "",
@@ -481,10 +481,10 @@
           "opTypeId": "IMP-PHO-INFSAB",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFSAB-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFSAB-F",
               "seq": 0,
               "profileName": "",
@@ -534,10 +534,10 @@
           "opTypeId": "IMP-PHO-INFVET",
           "seq": 0,
           "wepName": "Custom Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFVET-CBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFVET-CBC",
               "seq": 0,
               "profileName": "",
@@ -557,10 +557,10 @@
           "opTypeId": "IMP-PHO-INFVET",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFVET-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFVET-F",
               "seq": 0,
               "profileName": "",
@@ -598,10 +598,10 @@
           "opTypeId": "IMP-PHO-INFVOX",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFVOX-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFVOX-MBC",
               "seq": 0,
               "profileName": "",
@@ -622,10 +622,10 @@
           "opTypeId": "IMP-PHO-INFVOX",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFVOX-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFVOX-F",
               "seq": 0,
               "profileName": "",
@@ -687,10 +687,10 @@
           "opTypeId": "IMP-PHO-INFWAR",
           "seq": 0,
           "wepName": "Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFWAR-MBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INFWAR-MBC",
               "seq": 0,
               "profileName": "",
@@ -711,10 +711,10 @@
           "opTypeId": "IMP-PHO-INFWAR",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INFWAR-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INFWAR-F",
               "seq": 0,
               "profileName": "",
@@ -758,10 +758,10 @@
           "opTypeId": "IMP-PHO-INCSGT",
           "seq": 0,
           "wepName": "Occulus Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCSGT-OBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INCSGT-OBC",
               "seq": 0,
               "profileName": "",
@@ -781,10 +781,10 @@
           "opTypeId": "IMP-PHO-INCSGT",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCSGT-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INCSGT-F",
               "seq": 0,
               "profileName": "",
@@ -828,10 +828,10 @@
           "opTypeId": "IMP-PHO-INCMARK",
           "seq": 0,
           "wepName": "Stalker Marksman Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCMARK-SMBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INCMARK-SMBC",
               "seq": 0,
               "profileName": "",
@@ -856,10 +856,10 @@
           "opTypeId": "IMP-PHO-INCMARK",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCMARK-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INCMARK-F",
               "seq": 0,
               "profileName": "",
@@ -903,10 +903,10 @@
           "opTypeId": "IMP-PHO-INCML",
           "seq": 0,
           "wepName": "Occulus Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCML-OBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INCML-OBC",
               "seq": 0,
               "profileName": "",
@@ -926,10 +926,10 @@
           "opTypeId": "IMP-PHO-INCML",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCML-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INCML-F",
               "seq": 0,
               "profileName": "",
@@ -979,10 +979,10 @@
           "opTypeId": "IMP-PHO-INCWAR",
           "seq": 0,
           "wepName": "Occulus Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCWAR-OBC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-INCWAR-OBC",
               "seq": 0,
               "profileName": "",
@@ -1002,10 +1002,10 @@
           "opTypeId": "IMP-PHO-INCWAR",
           "seq": 1,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-INCWAR-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-INCWAR-F",
               "seq": 0,
               "profileName": "",
@@ -1049,10 +1049,10 @@
           "opTypeId": "IMP-PHO-RVRSGT",
           "seq": 0,
           "wepName": "Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRSGT-BC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-RVRSGT-BC",
               "seq": 0,
               "profileName": "",
@@ -1073,10 +1073,10 @@
           "opTypeId": "IMP-PHO-RVRSGT",
           "seq": 1,
           "wepName": "Special Issue Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRSGT-SIBP-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-RVRSGT-SIBP",
               "seq": 0,
               "profileName": "",
@@ -1101,10 +1101,10 @@
           "opTypeId": "IMP-PHO-RVRSGT",
           "seq": 2,
           "wepName": "Combat Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRSGT-CK-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-RVRSGT-CK",
               "seq": 0,
               "profileName": "",
@@ -1120,10 +1120,10 @@
           "opTypeId": "IMP-PHO-RVRSGT",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRSGT-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-RVRSGT-F",
               "seq": 0,
               "profileName": "",
@@ -1173,10 +1173,10 @@
           "opTypeId": "IMP-PHO-RVRWAR",
           "seq": 0,
           "wepName": "Bolt Carbine",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRWAR-BC-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-RVRWAR-BC",
               "seq": 0,
               "profileName": "",
@@ -1197,10 +1197,10 @@
           "opTypeId": "IMP-PHO-RVRWAR",
           "seq": 1,
           "wepName": "Special Issue Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRWAR-SIBP-0",
+              "wepType": "R",
               "wepId": "IMP-PHO-RVRWAR-SIBP",
               "seq": 0,
               "profileName": "",
@@ -1225,10 +1225,10 @@
           "opTypeId": "IMP-PHO-RVRWAR",
           "seq": 2,
           "wepName": "Combat Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRWAR-CK-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-RVRWAR-CK",
               "seq": 0,
               "profileName": "",
@@ -1244,10 +1244,10 @@
           "opTypeId": "IMP-PHO-RVRWAR",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-PHO-RVRWAR-F-0",
+              "wepType": "M",
               "wepId": "IMP-PHO-RVRWAR-F",
               "seq": 0,
               "profileName": "",

@@ -89,9 +89,9 @@
         {
           "wepId": "AEL-MND-BD-BONE-DART",
           "wepName": "Bone Dart",
-          "wepType": "R",
           "profiles": [
             {
+              "wepType": "R",
               "profileName": "",
               "ATK": "4",
               "HIT": "3+",
@@ -170,10 +170,10 @@
           "opTypeId": "AEL-MND-NF",
           "seq": 1,
           "wepName": "Baleblast",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-NF-BB-0",
+              "wepType": "R",
               "wepId": "AEL-MND-NF-BB",
               "seq": 0,
               "profileName": "",
@@ -193,10 +193,10 @@
           "opTypeId": "AEL-MND-NF",
           "seq": 2,
           "wepName": "Huskblade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-NF-HB-0",
+              "wepType": "M",
               "wepId": "AEL-MND-NF-HB",
               "seq": 0,
               "profileName": "",
@@ -248,10 +248,10 @@
           "opTypeId": "AEL-MND-COTF",
           "seq": 1,
           "wepName": "Baleblast",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-COTF-BB-0",
+              "wepType": "R",
               "wepId": "AEL-MND-COTF-BB",
               "seq": 0,
               "profileName": "",
@@ -271,10 +271,10 @@
           "opTypeId": "AEL-MND-COTF",
           "seq": 2,
           "wepName": "Baleblade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-COTF-BBL-0",
+              "wepType": "M",
               "wepId": "AEL-MND-COTF-BBL",
               "seq": 0,
               "profileName": "",
@@ -326,10 +326,10 @@
           "opTypeId": "AEL-MND-ABS",
           "seq": 1,
           "wepName": "Balesurge",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-ABS-BS-0",
+              "wepType": "R",
               "wepId": "AEL-MND-ABS-BS",
               "seq": 0,
               "profileName": "Blast",
@@ -348,6 +348,7 @@
             },
             {
               "wepprofileId": "AEL-MND-ABS-BS-1",
+              "wepType": "R",
               "wepId": "AEL-MND-ABS-BS",
               "seq": 1,
               "profileName": "Burn",
@@ -371,10 +372,10 @@
           "opTypeId": "AEL-MND-ABS",
           "seq": 2,
           "wepName": "Glimmersteel Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-ABS-GSB-0",
+              "wepType": "M",
               "wepId": "AEL-MND-ABS-GSB",
               "seq": 0,
               "profileName": "",
@@ -434,10 +435,10 @@
           "opTypeId": "AEL-MND-DM",
           "seq": 1,
           "wepName": "Baleblast",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-DM-BB-0",
+              "wepType": "R",
               "wepId": "AEL-MND-DM-BB",
               "seq": 0,
               "profileName": "",
@@ -457,10 +458,10 @@
           "opTypeId": "AEL-MND-DM",
           "seq": 2,
           "wepName": "Horrifying Scream",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-DM-HS-0",
+              "wepType": "R",
               "wepId": "AEL-MND-DM-HS",
               "seq": 0,
               "profileName": "",
@@ -495,10 +496,10 @@
           "opTypeId": "AEL-MND-DM",
           "seq": 3,
           "wepName": "Glimmersteel Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-DM-GSB-0",
+              "wepType": "M",
               "wepId": "AEL-MND-DM-GSB",
               "seq": 0,
               "profileName": "",
@@ -556,10 +557,10 @@
           "opTypeId": "AEL-MND-SW",
           "seq": 1,
           "wepName": "Baleblast",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-SW-BB-0",
+              "wepType": "R",
               "wepId": "AEL-MND-SW-BB",
               "seq": 0,
               "profileName": "",
@@ -579,10 +580,10 @@
           "opTypeId": "AEL-MND-SW",
           "seq": 2,
           "wepName": "Glimmersteel Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-SW-GSB-0",
+              "wepType": "M",
               "wepId": "AEL-MND-SW-GSB",
               "seq": 0,
               "profileName": "",
@@ -644,10 +645,10 @@
           "opTypeId": "AEL-MND-WAR",
           "seq": 1,
           "wepName": "Baleblast",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-WAR-BB-0",
+              "wepType": "R",
               "wepId": "AEL-MND-WAR-BB",
               "seq": 0,
               "profileName": "",
@@ -667,10 +668,10 @@
           "opTypeId": "AEL-MND-WAR",
           "seq": 2,
           "wepName": "Glimmersteel Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "AEL-MND-WAR-GSB-0",
+              "wepType": "M",
               "wepId": "AEL-MND-WAR-GSB",
               "seq": 0,
               "profileName": "",

@@ -96,9 +96,9 @@
         {
           "wepId": "IMP-SCT-CBAK-COMBAT-BLADE",
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
+              "wepType": "M",
               "profileName": "",
               "ATK": "3",
               "HIT": "3+",
@@ -149,10 +149,10 @@
           "opTypeId": "IMP-SCT-SGT",
           "seq": 1,
           "wepName": "Astartes Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SGT-ASG-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-SGT-ASG",
               "seq": 0,
               "profileName": "",
@@ -173,10 +173,10 @@
           "opTypeId": "IMP-SCT-SGT",
           "seq": 2,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SGT-BP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-SGT-BP",
               "seq": 0,
               "profileName": "",
@@ -197,10 +197,10 @@
           "opTypeId": "IMP-SCT-SGT",
           "seq": 3,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SGT-BG-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-SGT-BG",
               "seq": 0,
               "profileName": "",
@@ -216,10 +216,10 @@
           "opTypeId": "IMP-SCT-SGT",
           "seq": 4,
           "wepName": "Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SGT-CS-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-SGT-CS",
               "seq": 0,
               "profileName": "",
@@ -235,10 +235,10 @@
           "opTypeId": "IMP-SCT-SGT",
           "seq": 5,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SGT-F-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-SGT-F",
               "seq": 0,
               "profileName": "",
@@ -282,10 +282,10 @@
           "opTypeId": "IMP-SCT-HGNR",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HGNR-BP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-HGNR-BP",
               "seq": 0,
               "profileName": "",
@@ -306,10 +306,10 @@
           "opTypeId": "IMP-SCT-HGNR",
           "seq": 2,
           "wepName": "Heavy Bolter",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HGNR-HB-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-HGNR-HB",
               "seq": 0,
               "profileName": "Focused",
@@ -330,6 +330,7 @@
             },
             {
               "wepprofileId": "IMP-SCT-HGNR-HB-1",
+              "wepType": "R",
               "wepId": "IMP-SCT-HGNR-HB",
               "seq": 1,
               "profileName": "Sweeping",
@@ -359,10 +360,10 @@
           "opTypeId": "IMP-SCT-HGNR",
           "seq": 3,
           "wepName": "Missile Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HGNR-ML-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-HGNR-ML",
               "seq": 0,
               "profileName": "Frag",
@@ -382,6 +383,7 @@
             },
             {
               "wepprofileId": "IMP-SCT-HGNR-ML-1",
+              "wepType": "R",
               "wepId": "IMP-SCT-HGNR-ML",
               "seq": 1,
               "profileName": "Krak",
@@ -406,10 +408,10 @@
           "opTypeId": "IMP-SCT-HGNR",
           "seq": 4,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HGNR-F-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-HGNR-F",
               "seq": 0,
               "profileName": "",
@@ -440,10 +442,10 @@
           "opTypeId": "IMP-SCT-HNT",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HNT-BP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-HNT-BP",
               "seq": 0,
               "profileName": "",
@@ -464,10 +466,10 @@
           "opTypeId": "IMP-SCT-HNT",
           "seq": 2,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-HNT-CB-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-HNT-CB",
               "seq": 0,
               "profileName": "",
@@ -511,10 +513,10 @@
           "opTypeId": "IMP-SCT-SNP",
           "seq": 1,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SNP-BP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-SNP-BP",
               "seq": 0,
               "profileName": "",
@@ -535,10 +537,10 @@
           "opTypeId": "IMP-SCT-SNP",
           "seq": 2,
           "wepName": "Sniper Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SNP-SNP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-SNP-SNP",
               "seq": 0,
               "profileName": "Mobile",
@@ -549,6 +551,7 @@
             },
             {
               "wepprofileId": "IMP-SCT-SNP-SNP-1",
+              "wepType": "R",
               "wepId": "IMP-SCT-SNP-SNP",
               "seq": 1,
               "profileName": "Stationary",
@@ -576,10 +579,10 @@
           "opTypeId": "IMP-SCT-SNP",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-SNP-F-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-SNP-F",
               "seq": 0,
               "profileName": "",
@@ -633,10 +636,10 @@
           "opTypeId": "IMP-SCT-TRK",
           "seq": 1,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-TRK-BG-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-TRK-BG",
               "seq": 0,
               "profileName": "",
@@ -652,10 +655,10 @@
           "opTypeId": "IMP-SCT-TRK",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-TRK-F-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-TRK-F",
               "seq": 0,
               "profileName": "",
@@ -719,10 +722,10 @@
           "opTypeId": "IMP-SCT-WAR",
           "seq": 1,
           "wepName": "Astartes Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-WAR-ASG-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-WAR-ASG",
               "seq": 0,
               "profileName": "",
@@ -743,10 +746,10 @@
           "opTypeId": "IMP-SCT-WAR",
           "seq": 2,
           "wepName": "Bolt Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-WAR-BP-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-WAR-BP",
               "seq": 0,
               "profileName": "",
@@ -767,10 +770,10 @@
           "opTypeId": "IMP-SCT-WAR",
           "seq": 3,
           "wepName": "Boltgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-WAR-BG-0",
+              "wepType": "R",
               "wepId": "IMP-SCT-WAR-BG",
               "seq": 0,
               "profileName": "",
@@ -786,10 +789,10 @@
           "opTypeId": "IMP-SCT-WAR",
           "seq": 4,
           "wepName": "Combat Blade",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-WAR-CB-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-WAR-CB",
               "seq": 0,
               "profileName": "",
@@ -805,10 +808,10 @@
           "opTypeId": "IMP-SCT-WAR",
           "seq": 5,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "IMP-SCT-WAR-F-0",
+              "wepType": "M",
               "wepId": "IMP-SCT-WAR-F",
               "seq": 0,
               "profileName": "",

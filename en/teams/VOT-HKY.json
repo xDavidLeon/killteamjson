@@ -105,10 +105,10 @@
           "opTypeId": null,
           "seq": 0,
           "wepName": "Plasma Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-PK-PLASMA-KNIFE-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-PK-PLASMA-KNIFE",
               "seq": 0,
               "profileName": "",
@@ -164,10 +164,10 @@
           "opTypeId": "VOT-HKY-THEYN",
           "seq": 1,
           "wepName": "Bolt Revolver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-THEYN-BR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-THEYN-BR",
               "seq": 0,
               "profileName": "",
@@ -188,10 +188,10 @@
           "opTypeId": "VOT-HKY-THEYN",
           "seq": 2,
           "wepName": "Bolt Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-THEYN-BS-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-THEYN-BS",
               "seq": 0,
               "profileName": "Short Range",
@@ -207,6 +207,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-THEYN-BS-1",
+              "wepType": "R",
               "wepId": "VOT-HKY-THEYN-BS",
               "seq": 1,
               "profileName": "Long Range",
@@ -222,10 +223,10 @@
           "opTypeId": "VOT-HKY-THEYN",
           "seq": 3,
           "wepName": "Plasma Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-THEYN-PK-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-THEYN-PK",
               "seq": 0,
               "profileName": "",
@@ -274,10 +275,10 @@
           "opTypeId": "VOT-HKY-BLD",
           "seq": 1,
           "wepName": "Throwing Plasma Knife",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-BLD-TPK-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-BLD-TPK",
               "seq": 0,
               "profileName": "",
@@ -309,10 +310,10 @@
           "opTypeId": "VOT-HKY-BLD",
           "seq": 2,
           "wepName": "Dual Plasma Knives",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-BLD-DPK-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-BLD-DPK",
               "seq": 0,
               "profileName": "",
@@ -364,10 +365,10 @@
           "opTypeId": "VOT-HKY-BOMB",
           "seq": 1,
           "wepName": "Wroughtlock Revolvers",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-BOMB-WLR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-BOMB-WLR",
               "seq": 0,
               "profileName": "",
@@ -395,10 +396,10 @@
           "opTypeId": "VOT-HKY-BOMB",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-BOMB-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-BOMB-F",
               "seq": 0,
               "profileName": "",
@@ -442,10 +443,10 @@
           "opTypeId": "VOT-HKY-GNR",
           "seq": 1,
           "wepName": "APM Launcher",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-GNR-APM-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-GNR-APM",
               "seq": 0,
               "profileName": "Armour Piercing",
@@ -468,6 +469,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-GNR-APM-1",
+              "wepType": "R",
               "wepId": "VOT-HKY-GNR-APM",
               "seq": 1,
               "profileName": "Breaching",
@@ -490,6 +492,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-GNR-APM-2",
+              "wepType": "R",
               "wepId": "VOT-HKY-GNR-APM",
               "seq": 2,
               "profileName": "High Explosive",
@@ -517,10 +520,10 @@
           "opTypeId": "VOT-HKY-GNR",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-GNR-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-GNR-F",
               "seq": 0,
               "profileName": "",
@@ -551,10 +554,10 @@
           "opTypeId": "VOT-HKY-IRN",
           "seq": 1,
           "wepName": "Bolt Revolver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-IRN-BR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-IRN-BR",
               "seq": 0,
               "profileName": "",
@@ -575,10 +578,10 @@
           "opTypeId": "VOT-HKY-IRN",
           "seq": 2,
           "wepName": "Entrencher",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-IRN-ENT-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-IRN-ENT",
               "seq": 0,
               "profileName": "",
@@ -622,10 +625,10 @@
           "opTypeId": "VOT-HKY-RFL",
           "seq": 1,
           "wepName": "Magna-Coil Rifle",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-RFL-MCR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-RFL-MCR",
               "seq": 0,
               "profileName": "Concealed",
@@ -654,6 +657,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-RFL-MCR-1",
+              "wepType": "R",
               "wepId": "VOT-HKY-RFL-MCR",
               "seq": 1,
               "profileName": "Mobile",
@@ -673,6 +677,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-RFL-MCR-2",
+              "wepType": "R",
               "wepId": "VOT-HKY-RFL-MCR",
               "seq": 2,
               "profileName": "Stationary",
@@ -700,10 +705,10 @@
           "opTypeId": "VOT-HKY-RFL",
           "seq": 2,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-RFL-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-RFL-F",
               "seq": 0,
               "profileName": "",
@@ -741,10 +746,10 @@
           "opTypeId": "VOT-HKY-TRK",
           "seq": 1,
           "wepName": "SiNR Handbow",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-TRK-SINR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-TRK-SINR",
               "seq": 0,
               "profileName": "",
@@ -764,10 +769,10 @@
           "opTypeId": "VOT-HKY-TRK",
           "seq": 2,
           "wepName": "Throwing Hatchet",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-TRK-TH-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-TRK-TH",
               "seq": 0,
               "profileName": "",
@@ -798,10 +803,10 @@
           "opTypeId": "VOT-HKY-TRK",
           "seq": 3,
           "wepName": "Hatchet",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-TRK-H-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-TRK-H",
               "seq": 0,
               "profileName": "",
@@ -845,10 +850,10 @@
           "opTypeId": "VOT-HKY-WAR",
           "seq": 1,
           "wepName": "Bolt Revolver",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-WAR-BR-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-WAR-BR",
               "seq": 0,
               "profileName": "",
@@ -869,10 +874,10 @@
           "opTypeId": "VOT-HKY-WAR",
           "seq": 2,
           "wepName": "Bolt Shotgun",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-WAR-BS-0",
+              "wepType": "R",
               "wepId": "VOT-HKY-WAR-BS",
               "seq": 0,
               "profileName": "Short Range",
@@ -888,6 +893,7 @@
             },
             {
               "wepprofileId": "VOT-HKY-WAR-BS-1",
+              "wepType": "R",
               "wepId": "VOT-HKY-WAR-BS",
               "seq": 1,
               "profileName": "Long Range",
@@ -903,10 +909,10 @@
           "opTypeId": "VOT-HKY-WAR",
           "seq": 3,
           "wepName": "Fists",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-WAR-F-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-WAR-F",
               "seq": 0,
               "profileName": "",
@@ -922,10 +928,10 @@
           "opTypeId": "VOT-HKY-WAR",
           "seq": 4,
           "wepName": "Plasma Knife",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "VOT-HKY-WAR-PK-0",
+              "wepType": "M",
               "wepId": "VOT-HKY-WAR-PK",
               "seq": 0,
               "profileName": "",

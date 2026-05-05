@@ -133,10 +133,10 @@
           "opTypeId": "CHAOS-FELL-IH",
           "seq": 0,
           "wepName": "Corrupted Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-IH-CP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-IH-CP",
               "seq": 0,
               "profileName": "",
@@ -160,10 +160,10 @@
           "opTypeId": "CHAOS-FELL-IH",
           "seq": 1,
           "wepName": "Plasma Pistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-IH-PP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-IH-PP",
               "seq": 0,
               "profileName": "Standard",
@@ -183,6 +183,7 @@
             },
             {
               "wepprofileId": "CHAOS-FELL-IH-PP-1",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-IH-PP",
               "seq": 1,
               "profileName": "Supercharge",
@@ -214,10 +215,10 @@
           "opTypeId": "CHAOS-FELL-IH",
           "seq": 2,
           "wepName": "Bludgeon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-IH-BL-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-IH-BL",
               "seq": 0,
               "profileName": "",
@@ -237,10 +238,10 @@
           "opTypeId": "CHAOS-FELL-IH",
           "seq": 3,
           "wepName": "Corrupted Chainsword",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-IH-CC-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-IH-CC",
               "seq": 0,
               "profileName": "",
@@ -282,10 +283,10 @@
           "opTypeId": "CHAOS-FELL-DK",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-DK-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-DK-AP",
               "seq": 0,
               "profileName": "",
@@ -306,10 +307,10 @@
           "opTypeId": "CHAOS-FELL-DK",
           "seq": 1,
           "wepName": "Bludgeon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-DK-BL-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-DK-BL",
               "seq": 0,
               "profileName": "",
@@ -371,10 +372,10 @@
           "opTypeId": "CHAOS-FELL-FB",
           "seq": 0,
           "wepName": "Triple Cleavers",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-FB-3C-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-FB-3C",
               "seq": 0,
               "profileName": "Offensive",
@@ -433,10 +434,10 @@
           "opTypeId": "CHAOS-FELL-GS",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-GS-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-GS-AP",
               "seq": 0,
               "profileName": "",
@@ -457,10 +458,10 @@
           "opTypeId": "CHAOS-FELL-GS",
           "seq": 1,
           "wepName": "Bionic Fist",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-GS-BF-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-GS-BF",
               "seq": 0,
               "profileName": "",
@@ -517,10 +518,10 @@
           "opTypeId": "CHAOS-FELL-GH",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-GH-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-GH-AP",
               "seq": 0,
               "profileName": "",
@@ -541,10 +542,10 @@
           "opTypeId": "CHAOS-FELL-GH",
           "seq": 1,
           "wepName": "Skullcleaver",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-GH-SC-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-GH-SC",
               "seq": 0,
               "profileName": "",
@@ -590,10 +591,10 @@
           "opTypeId": "CHAOS-FELL-HG",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-HG-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-HG-AP",
               "seq": 0,
               "profileName": "",
@@ -614,10 +615,10 @@
           "opTypeId": "CHAOS-FELL-HG",
           "seq": 1,
           "wepName": "Crackthorn Whip",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-HG-CWR-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-HG-CWR",
               "seq": 0,
               "profileName": "",
@@ -645,10 +646,10 @@
           "opTypeId": "CHAOS-FELL-HG",
           "seq": 2,
           "wepName": "Crackthorn Whip",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-HG-CWM-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-HG-CWM",
               "seq": 0,
               "profileName": "",
@@ -712,10 +713,10 @@
           "opTypeId": "CHAOS-FELL-MNG",
           "seq": 0,
           "wepName": "Vicious Claws",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-MNG-VC-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-MNG-VC",
               "seq": 0,
               "profileName": "",
@@ -766,10 +767,10 @@
           "opTypeId": "CHAOS-FELL-SHA",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-SHA-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-SHA-AP",
               "seq": 0,
               "profileName": "",
@@ -790,10 +791,10 @@
           "opTypeId": "CHAOS-FELL-SHA",
           "seq": 1,
           "wepName": "Tech-Curse",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-SHA-TC-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-SHA-TC",
               "seq": 0,
               "profileName": "",
@@ -823,10 +824,10 @@
           "opTypeId": "CHAOS-FELL-SHA",
           "seq": 0,
           "wepName": "Braystave",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-SHA-BS-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-SHA-BS",
               "seq": 0,
               "profileName": "",
@@ -891,10 +892,10 @@
           "opTypeId": "CHAOS-FELL-TOX",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-TOX-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-TOX-AP",
               "seq": 0,
               "profileName": "",
@@ -915,10 +916,10 @@
           "opTypeId": "CHAOS-FELL-TOX",
           "seq": 1,
           "wepName": "Cleaver",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-TOX-CL-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-TOX-CL",
               "seq": 0,
               "profileName": "",
@@ -962,10 +963,10 @@
           "opTypeId": "CHAOS-FELL-VND",
           "seq": 0,
           "wepName": "Mancrusher",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-VND-MC-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-VND-MC",
               "seq": 0,
               "profileName": "",
@@ -1019,10 +1020,10 @@
           "opTypeId": "CHAOS-FELL-WAR",
           "seq": 0,
           "wepName": "Autopistol",
-          "wepType": "R",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-WAR-AP-0",
+              "wepType": "R",
               "wepId": "CHAOS-FELL-WAR-AP",
               "seq": 0,
               "profileName": "",
@@ -1043,10 +1044,10 @@
           "opTypeId": "CHAOS-FELL-WAR",
           "seq": 1,
           "wepName": "Bludgeon",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-WAR-BL-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-WAR-BL",
               "seq": 0,
               "profileName": "",
@@ -1066,10 +1067,10 @@
           "opTypeId": "CHAOS-FELL-WAR",
           "seq": 2,
           "wepName": "Cleaver",
-          "wepType": "M",
           "profiles": [
             {
               "wepprofileId": "CHAOS-FELL-WAR-CL-0",
+              "wepType": "M",
               "wepId": "CHAOS-FELL-WAR-CL",
               "seq": 0,
               "profileName": "",
