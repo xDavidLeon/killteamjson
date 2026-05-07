@@ -1,10 +1,10 @@
 {
   "factionId": "VOT",
   "killteamId": "VOT-HKS",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hearthkyn_salvagers-beync2a0vk-ksvegw5pxs.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_hearthkyn_salvagers-7ih6r2u7u4-sof3ovjopi.pdf",
   "killteamName": "Hearthkyn Salvagers",
   "description": "Highly adept warriors and explorers of wrecked voidships and abandoned space stations, Hearthkyn Salvagers are tasked with identifying valuable material and marking it for later retrieval.\nHeavily armed and utterly resolute, Hearthkyn Salvager kill teams seize and defend such claims with the steadfast determination typical of the Kin.",
   "composition": "A HEARTHKYN SALVAGERS KillTeam is composed of:\n\n- 1 HEARTHKYN SALVAGER THEYN operative with one option from each of the following:\n  - Autoch-pattern bolt pistol, Autoch-pattern bolter, bolt revolver, EtaCarn plasma pistol, ion blaster or ion pistol\n  - Concussion gauntlet or plasma weapon\n- 9 HEARTHKYN SALVAGER operatives selected from the following list:\n  - DOZR\n  - FIELD MEDIC\n  - GRENADIER\n  - JUMP PACK WARRIOR\n  - KINLYNK*\n  - KOGNITAAR*\n  - LOKATR*\n  - LUGGER*\n  - WARRIOR*\n  - GUNNER with one of the following options:\n    - EtaCarn plasma beamer; fists\n    - HYLas auto rifle; fists\n    - HYLas rotary cannon; fists\n    - L7 missile launcher; fists\n    - Magna rail rifle; fists\n\nOther than GUNNER and WARRIOR operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to three GUNNER operatives (each must have a different option).\n\n*With one of the following options:\n\n- Autoch-pattern bolter; fists\n- Ion blaster; fists\n",
@@ -51,7 +51,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "The Ancestors Are Watching",
-      "description": "Use this firefight ploy during a friendly HEARTHKYN SALVAGER operative's activation. Until the end of that activation, that operative can perform either a free Shoot or a free Fight action."
+      "description": "Use this firefight ploy during a friendly HEARTHKYN SALVAGER operative's activation. Until the end of that activation, that operative can perform either a free Shoot or a free Fight action and you can ignore any changes to that operative's weapon stats from being injured."
     },
     {
       "ployId": "VOT-HKS-T-ST",
@@ -989,7 +989,7 @@
       "killteamId": "VOT-HKS",
       "seq": 6,
       "opTypeName": "Hearthkyn Jump Pack Warrior",
-      "MOVE": "7\"",
+      "MOVE": "8\"",
       "APL": 2,
       "SAVE": "3+",
       "WOUNDS": 8,
@@ -1495,7 +1495,7 @@
           "abilityId": "VOT-HKS-LUG-A-WS",
           "opTypeId": "VOT-HKS-LUG",
           "abilityName": "Well Supplied",
-          "description": "You can select one additional equipment option."
+          "description": "You can select one additional equipment option, and in the Ready step of the first Strategy phase, you gain 1 additional CP."
         }
       ]
     },

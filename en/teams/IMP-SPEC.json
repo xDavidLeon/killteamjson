@@ -96,7 +96,43 @@
       "killteamId": "IMP-SPEC",
       "seq": 1,
       "eqName": "Sniper Overwatch",
-      "description": "Once per turning point, a friendly SPECTRE SQUAD operative can use the following ranged weapon:\n\n**Sniper overwatch** (ATK 4, HIT 3+, DMG 3/3): Devastating 2, Heavy (Dash only), Saturate, Silent"
+      "description": "Once per turning point, a friendly SPECTRE SQUAD operative can use the following ranged weapon:",
+      "weapons": [
+        {
+          "wepId": "IMP-SPEC-SO-OVERWATCH",
+          "opTypeId": null,
+          "seq": 0,
+          "wepName": "Sniper Overwatch",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-SPEC-SO-OVERWATCH-0",
+              "wepType": "R",
+              "wepId": "IMP-SPEC-SO-OVERWATCH",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "eqId": "IMP-SPEC-TFT",
@@ -117,7 +153,10 @@
       "killteamId": "IMP-SPEC",
       "seq": 4,
       "eqName": "Advanced Camouflage",
-      "description": "Friendly SPECTRE SQUAD operatives (excluding VOX-RELAY BEACON) can perform the following unique action:\n\n**ADVANCED CAMOUFLAGE (1AP)**: Until the start of this operative's next activation, while it has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\". This operative cannot perform this action while visible to and within 3\" of an enemy operative."
+      "description": "Friendly SPECTRE SQUAD operatives (excluding VOX-RELAY BEACON) can perform the following unique action:",
+      "actions": [
+        "ACTION-IMP-SPEC-FE-ADVANCED-CAMOUFLAGE"
+      ]
     }
   ],
   "opTypes": [
@@ -1136,6 +1175,22 @@
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": "ACTION-IMP-SPEC-FE-ADVANCED-CAMOUFLAGE",
+      "type": "unique",
+      "seq": 0,
+      "AP": 1,
+      "name": "Advanced Camouflage",
+      "description": null,
+      "effects": [
+        "Until the start of this operative's next activation, while it has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+      ],
+      "conditions": [
+        "This operative cannot perform this action while visible to and within 3\" of an enemy operative."
       ]
     }
   ]
