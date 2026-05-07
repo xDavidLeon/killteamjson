@@ -280,11 +280,28 @@
       "packs": []
     },
     {
+      "id": "wall",
+      "name": "Wall",
+      "aliases": ["Wall terrain"],
+      "category": "terrain_rule",
+      "text": "Operatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "wall"
+      ],
+      "references": [
+        "blocking",
+        "hatchway"
+      ]
+    },
+    {
       "id": "gallowdark-wall",
       "name": "Gallowdark Wall",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway, which is\nexplained separately on page 69.\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pages 67-68).",
+      "text": "A Gallowdark wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway.",
       "examples": [
         "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Gallowdark wall. This would make operative A\nmore than 3” from operative B.",
         "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
@@ -306,7 +323,8 @@
         "hatchway",
         "cover",
         "obscured",
-        "distances"
+        "distances",
+        "wall"
       ],
       "packs": [
         "Killzone: Gallowdark"
@@ -665,7 +683,7 @@
       "name": "Tomb World Wall",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway (pg 55) or a\nbreach point (pg 56).\n\nWall terrain:\n\nOperatives cannot move over or through Wall terrain (this takes precedence over all other rules).\n\nVisibility cannot be determined over or through Wall terrain.\n\nOther than to areas of the killzone (centre of the killzone, drop zones, etc.), distances cannot be\nmeasured over or through Wall terrain; they must be measured around it using the shortest\npossible route.\n\nFor the purposes of cover and obscured, only the corners and ends of Wall terrain can intervene,\nunless the active operative has passed it (see examples on pg 54).",
+      "text": "A Tomb World wall terrain feature is Heavy and Wall terrain. Some walls include a hatchway or a breach point.",
       "examples": [
         "Operative A would usually be within 3” of operative B, but as distances cannot be measured over or\nthrough Wall terrain, it must be measured around the Tomb World wall. This would make operative A\nmore than 3” from operative B.",
         "Operative B is not in cover as a corner or end of the wall is not intervening. Note that minor parts of the\nwall that protrude do not make a corner or end alone; it must be the main structure of the wall that\nturns a corner or ends, as shown in the following diagrams.",
@@ -687,7 +705,8 @@
         "breach-point",
         "cover",
         "obscured",
-        "distances"
+        "distances",
+        "wall"
       ],
       "packs": [
         "Killzone: Tomb World"

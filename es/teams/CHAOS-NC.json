@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-NC",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_nemesis_claw-qjp9jwgrao-orpyxtablk.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_nemesis_claw-le761lixdu-zplfe3awa6.pdf",
   "killteamName": "Nemesis Claw",
   "description": "The Night Lords are synonymous with terror and murder, for their favoured mode of warfare is the unfettered application of brutal, overwhelming force. They show no mercy whatsoever, eschewing all subtlety and guile for wanton bloodshed and destruction.\n  \n  \n\nThe Night Lords do not worship any of the four major Chaos Gods individually, but acknowledge them equally in the form of Chaos Undivided as they ruthlessly spread terror and fear amongst the galaxy's inhabitants. The Night Lords are experts in the use of terror tactics to win battles and demoralise their foes before the main combat even begins. ",
   "composition": "A NEMESIS CLAW KillTeam is composed of:\n\n- 1 NEMESIS CLAW Visionary with one of the following options:\n  - Bolt pistol, power fist\n  - Bolt pistol, power maul\n  - Bolt pistol, power weapon\n  - Plasma Pistol, Nostraman Chainblade\n- 5 Nemesis Claw operatives selected from the following list:\n  - Fearmonger\n  - Gunner with one of the following options:\n    - Bolt Pistol, Flamer, Fists\n      - Bolt Pistol, Meltagun, Fists\n      - Bolt Pistol, Plasma Gun, Fists   \n  - Heavy Gunner with one of the following options:\n    - Bolt Pistol, Heavy Bolter, Fists\n    - Bolt Pistol, Missile Launcher, Fists    \n  - Screecher\n  - Skinthief\n  - Ventrilokar\n  - Warrior with one of the following options:\n    - Bolt pistol, Chainsword\n    - Boltgun, Fists\n  \n",
@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Preysight",
-      "description": "Whenever you are selecting a valid target for a friendly NEMESIS CLAW operative, enemy operatives within 6\" cannot use Light terrain for cover.\nWhile this can allow such operatives to be targeted (assuming they are visible), it does not remove their cover save (if any)."
+      "description": "Whenever a friendly NEMESIS CLAW operative performs the Shoot action, you can use this rule. If you do, until the end of that action, that friendly operative’s ranged weapons have the Range 6” and Seek Light weapon rules."
     },
     {
       "ployId": "CHAOS-NC-S-RTD",
@@ -117,7 +117,7 @@
     {
       "abilityId": "CHAOS-NC-TA-INMICL",
       "abilityName": "In Midnight Clad",
-      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It has Heavy Terrain within its control range, or any part of its base is underneath Vantage terrain.\r "
+      "description": "Whenever an enemy operative is shooting a friendly NEMESIS CLAW operative, that friendly operative is obscured if both of the following are true:\r \r - It is more than 8\" from enemy operatives it is visible to.\r - It’s within 1\" of Heavy terrain that’s not lower than it, or any part of its base is underneath Vantage terrain.\r "
     }
   ],
   "opTypes": [
@@ -1124,7 +1124,7 @@
     {
       "id": "WR-CHAOS-NC-TERRORCHEM",
       "name": "Terrorchem",
-      "description": "In the Resolve Attack Dice step, if you inflict damage with any Critical successes, the operative this weapon is being used against gains one of your Terrorchem tokens (if it does not already have one).",
+      "description": "In the Resolve Attack Dice step, if you inflict damage with any Critical successes (including as a result of the Devastating weapon rule), the operative this weapon is being used against gains one of your Terrorchem tokens (if it does not already have one).",
       "team": "CHAOS-NC"
     }
   ]

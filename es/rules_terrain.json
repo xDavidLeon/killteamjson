@@ -279,11 +279,28 @@
       "packs": []
     },
     {
+      "id": "wall",
+      "name": "Muro",
+      "aliases": ["Terreno de muro"],
+      "category": "terrain_rule",
+      "text": "Los agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado.",
+      "examples": [],
+      "actions": [],
+      "tags": [
+        "terrain",
+        "wall"
+      ],
+      "references": [
+        "blocking",
+        "hatchway"
+      ]
+    },	
+    {
       "id": "gallowdark-wall",
       "name": "Muro del Horcasombría",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Un muro del Horcasombría es un elemento de terreno Pesado y Muro. Algunos muros incluyen una escotilla, que se \nexplican en la pág. 69.\n\nTerreno Muro:\n\nLos agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado (ver ejemplos en las págs. 67-68).",
+      "text": "Un muro del Horcasombría es un elemento de terreno Pesado y Muro. Algunos muros incluyen una escotilla.",
       "examples": [
         "El agente A normalmente estaría a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Horcasombría. Esto haría que el agente A estuviera a más de 3” del agente B.",
         "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
@@ -305,7 +322,8 @@
         "hatchway",
         "cover",
         "obscured",
-        "distances"
+        "distances",
+        "wall"
       ],
       "packs": [
         "Killzone: Gallowdark"
@@ -666,7 +684,7 @@
       "name": "Tomb World Wall",
       "aliases": [],
       "category": "terrain_rule",
-      "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla (pág. 55) o un punto de brecha (pág. 56).\n\nTerreno de muro:\n\nLos agentes no pueden moverse por encima o a través de terreno de muro (esto tiene preferencia sobre todas las demás reglas).\n\nLa visibilidad no puede determinarse por encima o a través de terreno de muro.\n\nAparte de hacia áreas de la zona de aniquilación (el centro de la zona de aniquilación, las zonas de descenso, etc), no se pueden medir distancias por encima o a través de terreno de muro; deben medirse rodeándolo por la ruta más corta posible.\n\nA efectos de la cobertura y el ofuscamiento, solo las esquinas y los finales de un terreno de muro pueden interponerse, a menos que el agente activo los haya superado (ver ejemplos en la pág. 54).",
+      "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla o un punto de brecha.",
       "examples": [
         "El agente A estaría normalmente a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Mundo Necrópolis. Esto haría que el agente A estuviera a más de 3” del agente B.",
         "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
@@ -688,7 +706,8 @@
         "breach-point",
         "cover",
         "obscured",
-        "distances"
+        "distances",
+        "wall"
       ],
       "packs": [
         "Killzone: Tomb World"
