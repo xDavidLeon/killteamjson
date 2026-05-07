@@ -58,7 +58,7 @@
       "actions": [
         "ACTION-TAC-2025-CLEAR"
       ],
-      "victoryPoints": "Al final de cada punto de inflexión tras el primero, si los agentes amigos controlan algún marcador de objetivo que tenga una de tus fichas de Revisado, ganas 1PV.\nSi se cumple lo anterior y cualquiera de esos marcadores de objetivo también está purgado, ganas 2PV en su lugar..\nNo puedes ganar más de 2PV por esta operación en cada punto de inflexión."
+      "victoryPoints": "Al final de cada punto de inflexión tras el primero, si al menos un marcador de objetivo (excluyendo el tuyo) está revisado y ningún agente enemigo disputa ese marcador, ganas 1PV. Si ese marcador también tiene una de tus fichas de Revisado, ganas 2PV en su lugar. Si los agentes amigos controlan un marcador de objetivo que tiene una de tus fichas de Revisado, ganas 1PV."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
@@ -68,7 +68,7 @@
       ],
       "title": "Dominación",
       "archetype": "Buscar y Destruir",
-      "reveal": "La primera vez que un agente enemigo resulte incapacitado por un agente amigo.",
+      "reveal": "La primera vez que un agente enemigo resulte incapacitado por un agente amigo o dos de tus fichas de Dominación si ese agente enemigo tenía un atributo Heridas de 12 o más.",
       "additionalRules": "Siempre que un agente amigo incapacite a un agente enemigo, ese agente amigo recibe 1 ficha de Dominación.",
       "actions": [],
       "victoryPoints": "Al final del tercer y cuarto punto de inflexión, puedes retirar las fichas de Dominación de los agentes amigos que no estén incapacitados. Ganas 1PV por cada ficha que retires.\nNo puedes ganar más de 3PV por esta operación en cada punto de inflexión."

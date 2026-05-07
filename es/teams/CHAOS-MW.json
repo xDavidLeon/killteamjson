@@ -1,10 +1,10 @@
 {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-MW",
-    "version": "January '26",
+    "version": "April '26",
     "classified": true,
     "season": "Tomb World",
-    "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_murderwing-nk5ocpzzgd-qcvchireiu.pdf",
+    "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_murderwing-ws5qr6gye1-apk2xviaml.pdf",
     "killteamName": "Ala Asesina",
     "description": "Los agentes que conforman los comandos Ala Asesina son asesinos sádicos cuyas numerosas obsesiones se reflejan en las mutaciones que poseen, las armaduras que visten y las armas que portan en combate. Son cazadores implacables que combinan sus habilidades para garantizar que su presa elegida no escape de sus garras.",
     "composition": "Un equipo de exterminio ALA ASESINA está compuesto por:\n\n- 1 agente SEÑOR DEL CAOS ALA ASESINA con una de cada una de las siguientes opciones:\n  - Pistola bólter o pistola de plasma\n  - Garra relámpago, puño de energía o arma de energía\n  O la siguiente opción:\n  - Garras relámpago reliquia\n\n- 5 agentes ALA ASESINA elegidos de la siguiente lista:\n  - CAMPEÓN con una opción de cada una de las siguientes categorías:\n    - Pistola bólter o pistola de plasma\n    - Puño de energía o arma de energía\n  -  GARRAMALDITA\n  - DEPREDADOR\n  - MAESTRO CAZADOR\n  - RAPAZ con una de las siguientes opciones:\n    - Pistola bólter; espada sierra\n    - Pistola de plasma ; espada sierra\n  - ESTRIDENTE\n  - IGNÍFERO con una de las siguientes opciones:\n    - Lanzallamas; pistola bólter; puños\n    - Pistola bólter; rifle de fusión ; puños\n    - Pistola bólter; rifle de plasma ; puños\n  - ESPOLÓN DE LA DISFORMIDAD\n\n-Salvo agentes RAPAZ, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.\n- No puedes incluir más de dos operativos equipados con la combinación de las siguientes armas: fusil de fusión, rifle de plasma y pistola de plasma.",
@@ -105,7 +105,7 @@
             "killteamId": "CHAOS-MW",
             "seq": 4,
             "eqName": "VOCOEMISORES",
-            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOCOGRITO (1AP):** Cada agente enemigo a 3\" o menos de este agente hace un chequeo de aturdimiento. Para ello, tira 1D6: con 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación. Un agente no puede realizar esta acción si tiene una orden de ocultarse."
+            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOCOGRITO (1AP):** Cada agente enemigo a 2\" o menos de este agente hace un chequeo de aturdimiento. Para ello, tira 1D6: con 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación. Un agente no puede realizar esta acción si tiene una orden de ocultarse."
         }
     ],
     "teamAbilities": [
@@ -1167,7 +1167,7 @@
                     "abilityId": "CHAOS-MW-WT-STV",
                     "opTypeId": "CHAOS-MW-WT",
                     "abilityName": "Rajar el velo:",
-                    "description": " Al desplegar a este agente antes de la batalla, en lugar de ello puedes desplegarlo en la disformidad: sitúalo a un lado en lugar de en la zona de aniquilación. En la primera fase de tiroteo, cuando se active a este agente, coloca uno de tus marcadores de Disformidad completamente dentro de tu territorio, y a continuación este agente queda usado.\n\nEn la segunda fase de tiroteo, cuando actives a este agente, despliégalo con una orden de tu elección en una ubicación en la que pueda colocarse, o bien completamente dentro de tu zona de descenso, o completamente dentro de tu territorio disputando tu marcador de Disformidad. Continúa con su activación de manera normal, pero durante esa activación no puede realizar más de dos acciones y no puede usar más de 4\" de distancia de movimiento. Hasta el paso de preparación de la siguiente fase de estrategia, este agente está ofuscado para los agentes a más de 3\" de él.\n\nCuando este agente se encuentre en la disformidad, no puede ser el agente ALA ASESINA amigo apostado de cara al ardid de tiroteo Narcisismo malicioso."
+                    "description": " Al desplegar a este agente antes de la batalla, en lugar de ello puedes desplegarlo en la disformidad: sitúalo a un lado en lugar de en la zona de aniquilación. En la primera fase de tiroteo, cuando se active a este agente, coloca uno de tus marcadores de Disformidad completamente dentro de tu territorio, y a continuación este agente queda usado.\n\nEn la segunda fase de tiroteo, cuando actives a este agente, despliégalo con una orden de tu elección en una ubicación en la que pueda colocarse, o bien completamente dentro de tu zona de descenso, o completamente dentro de tu territorio disputando tu marcador de Disformidad. Continúa con su activación de manera normal, pero durante esa activación no puede gastar más de 2AP en ella y no puede usar más de 4\" de distancia de movimiento.\n\nCuando este agente se encuentre en la disformidad, no puede ser el agente ALA ASESINA amigo apostado de cara al ardid de tiroteo Narcisismo malicioso."
                 }
             ]
         }

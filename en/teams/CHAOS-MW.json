@@ -1,10 +1,10 @@
 {
     "factionId": "CHAOS",
     "killteamId": "CHAOS-MW",
-    "version": "March '26",
+    "version": "April '26",
     "classified": true,
     "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_01-04_kt_teamrules_murderwing-x2ycoqsqf6-zd64sifxqz.pdf",
+    "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_murderwing-ws5qr6gye1-apk2xviaml.pdf",
     "killteamName": "Murderwing",
     "description": "The Murderwing kill team, comprised of Night Lords Chaos Space Marines, specializes in high-speed aerial combat and brutal assaults. Emphasizing fear and speed, they utilize jump packs to traverse the battlefield in bounding leaps, striking from above with terrifying ferocity.",
     "composition": "A MURDERWING KillTeam is composed of:\n\n- 1 MURDERWING CHAOS LORD operative with one option from each of the following:\n  - Bolt pistol or plasma pistol\n  - Lightning claw, power fist or power weapon\n  Or the following option:\n  - Relic lightning claws\n\n- 5 MURDERWING operatives selected from the following list:\n  - CHAMPION with one option from each of the following:\n    - Plasma pistol or bolt pistol\n    - Power fist or power weapon\n  - CURSECLAW\n  - DEPREDATOR\n  - HUNTMASTER\n  - RAPTOR with one of the following options:\n    - Bolt pistol; chainsword\n    - Plasma pistol; chainsword\n  - SHRIEKER\n  - SKYSEAR with one of the following options:\n    - Flamer; bolt pistol; fists\n    - Meltagun; bolt pistol; fists\n    - Plasma gun; bolt pistol; fists\n  - WARP TALON\n\n- Other than RAPTOR operatives, your kill team can only include each operative on this list once.\n- You cannot select more than two operatives with these weapons combined: Meltagun, Plasma gun, Plasma pistol.",
@@ -105,7 +105,7 @@
             "killteamId": "CHAOS-MW",
             "seq": 4,
             "eqName": "Vox-Casters",
-            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOX-CRY (1AP):** Each enemy operative within 3\" of this operative takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation. An operative cannot perform this action while it has a Conceal order."
+            "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOX-CRY (1AP):** Each enemy operative within 2\" of this operative takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation. An operative cannot perform this action while it has a Conceal order."
         }
     ],
     "teamAbilities": [
@@ -1167,7 +1167,7 @@
                     "abilityId": "CHAOS-MW-WT-STV",
                     "opTypeId": "CHAOS-MW-WT",
                     "abilityName": "Slice The Veil",
-                    "description": "When setting up this operative before the battle, you can set it up in the warp instead: place it to one side instead of in the killzone. In the first Firefight phase, when this operative is activated, place one of your Warp markers wholly within your territory, then expend this operative.\n\nIn the second Firefight phase, when this operative is activated, set it up with an order of your choice in a location it can be placed either wholly within your drop zone, or wholly within your territory contesting your Warp marker. Continue its activation as normal, but during that activation it cannot perform more than two actions and cannot use more than 4\" of move distance. Until the Ready step of the next Strategy phase, this operative is obscured to operatives more than 3\" from it.\n\nWhenever this operative is in the warp, it cannot be the ready friendly MURDERWING operative for the Malicious Narcissism firefight ploy."
+                    "description": "When setting up this operative before the battle, you can set it up in the warp instead: place it to one side instead of in the killzone. In the first Firefight phase, when this operative is activated, place one of your Warp markers wholly within your territory, then expend this operative.\n\nIn the second Firefight phase, when this operative is activated, set it up with an order of your choice in a location it can be placed either wholly within your drop zone, or wholly within your territory contesting your Warp marker. Continue its activation as normal, but during that activation you cannot spend more than 2AP for it and it cannot use more than 4\" of move distance.\n\nWhenever this operative is in the warp, it cannot be the ready friendly MURDERWING operative for the Malicious Narcissism firefight ploy."
                 }
             ]
         }
