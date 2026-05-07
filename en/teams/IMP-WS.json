@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-WS",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_wolf_scouts-7rdhkc4jn4-ttpun6cqc9.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
   "killteamName": "Wolf Scouts",
   "description": "Wolf Scout kill teams are their Great Company's most feared and accomplished hunters, roving far ahead of the Space Wolves' strike forces on solitary, unsupported missions. They cause death and anarchy behind enemy lines through assassination, sabotage and more besides, often while cloaked in strange mists or furious storms.",
   "composition": "A WOLF SCOUT Killteam is composed of:\n- 1 WOLF SCOUT FENRISIAN WOLF\n- 5 WOLF SCOUT operatives selected from the following list:\n  - PACK LEADER\n  - FANGBEARER\n  - FROSTEYE\n  - GUNNER\n  - TRAPMASTER\n  - RUNE PRIEST SKJALD\n  - HUNTER\n\nOther than HUNTER operatives, your kill team can only include each operative on this list once.",
@@ -84,14 +84,14 @@
       "killteamId": "IMP-WS",
       "seq": 1,
       "eqName": "Frost Weapons",
-      "description": "Friendly WOLF SCOUT operatives' combat blades have the Lethal 5+ weapon rule, and one friendly WOLF SCOUT PACK LEADER operative's power weapon has the Lethal 4+ weapon rule (if any)."
+      "description": "Whenever a friendly WOLF SCOUT operative is wholly within your STORM, its combat blades (if any) has the Lethal 5+ weapon rule."
     },
     {
       "eqId": "IMP-WS-RC",
       "killteamId": "IMP-WS",
       "seq": 2,
       "eqName": "Runic Charms",
-      "description": "Once per turning point, when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF), at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
+      "description": "Once per turning point, when an operative is shooting a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) that's wholly within your STORM, at the start of the Roll Defence Dice step, you can use this rule. If you do, worsen the x of the Piercing weapon rule by 1 (if any) until the end of that sequence. Note that Piercing 1 would therefore be ignored."
     },
     {
       "eqId": "IMP-WS-WN",
@@ -105,14 +105,14 @@
       "killteamId": "IMP-WS",
       "seq": 4,
       "eqName": "Talismanic Trophies",
-      "description": "Whenever a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) is fighting or retaliating, in the Resolve Attack Dice step, you can subtract 1 from the damage inflicted on it from one success."
+      "description": "Whenever a friendly WOLF SCOUT operative (excluding FENRISIAN WOLF) that's wholly within your STORM is fighting or retaliating, in the Resolve Attack Dice step, you can subtract 1 from the damage inflicted on it from one normal success."
     }
   ],
   "teamAbilities": [
     {
       "abilityId": "IMP-WS-TA-ES",
       "abilityName": "Elemental Storm",
-      "description": "STRATEGIC GAMBIT. Remove your Storm marker from the killzone (if any), then place it in the killzone. Whenever an operative is within 6\" horizontally of your Storm marker, it's within your STORM.\n\nEach friendly WOLF SCOUT operative can perform the Charge action while it has a Conceal order if it starts and/or ends that action within your STORM."
+      "description": "STRATEGIC GAMBIT. Remove your Storm marker from the killzone (if any), then place it in the killzone. Whenever an operative is within 6\" horizontally of your Storm marker, it's within your STORM.\n\nEach friendly WOLF SCOUT operative can perform the Charge action while it has a Conceal order if it ends that action within your STORM."
     },
     {
       "abilityId": "IMP-WS-TA-HA",
@@ -129,7 +129,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "3+",
-      "WOUNDS": 14,
+      "WOUNDS": 13,
       "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PACK LEADER",
       "basesize": 32,
       "weapons": [
@@ -293,7 +293,7 @@
           "abilityId": "IMP-WS-FB-SC",
           "opTypeId": "IMP-WS-FB",
           "abilityName": "Spiritual Chirurgy",
-          "description": "You can ignore any changes to the stats of friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) from being injured (including their weapons' stats). Friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) are not affected by enemy operatives' Shock and Stun weapon rules and you can ignore any changes to their APL stat. Note that friendly operatives have these rules if you select this operative for the battle (even if it's incapacitated later)."
+          "description": "You can ignore any changes to the stats of friendly WOLF SCOUT operatives (excluding FENRISIAN WOLF) from being injured (including their weapons' stats). Note that friendly operatives have this rule if you select this operative for the battle (even if it's incapacitated later)."
         },
         {
           "abilityId": "IMP-WS-FB-HB",
@@ -322,34 +322,11 @@
           "wepName": "Instigator Bolt Carbine",
           "profiles": [
             {
-              "wepprofileId": "IMP-WS-FE-IBC-01",
-              "wepType": "R",
-              "wepId": "IMP-WS-FE-IBC",
-              "seq": 1,
-              "profileName": "Heavy",
-              "ATK": "4",
-              "HIT": "2+",
-              "DMG": "3/4",
-              "WR": [
-                {
-                  "id": "WR-UNIV-HEAVY",
-                  "details": "Dash only"
-                },
-                {
-                  "id": "WR-UNIV-PIERCING-CRITS",
-                  "number": 1
-                },
-                {
-                  "id": "WR-UNIV-SILENT"
-                }
-              ]
-            },
-            {
               "wepprofileId": "IMP-WS-FE-IBC-02",
               "wepType": "R",
               "wepId": "IMP-WS-FE-IBC",
               "seq": 2,
-              "profileName": "Mobile",
+              "profileName": "",
               "ATK": "4",
               "HIT": "3+",
               "DMG": "3/4",
@@ -396,7 +373,7 @@
           "abilityId": "IMP-WS-FE-HS",
           "opTypeId": "IMP-WS-FE",
           "abilityName": "Hunter's Senses",
-          "description": "1AP. Select one of the following rules for all profiles of this operative's instigator bolt carbine to have until the start of its next activation:\n- Severe.\n- Saturate, and whenever this operative is shooting with that weapon, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+          "description": "1AP. Select one of the following rules for this operative's instigator bolt carbine to have until the start of its next activation:\n- Severe.\n- Saturate, and whenever this operative is shooting with that weapon, enemy operatives cannot be obscured.\n\nThis operative cannot perform this action while within control range of an enemy operative."
         }
       ]
     },

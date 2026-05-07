@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DKK",
-  "version": "January '26",
+  "version": "April '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_death_korps-rqbli7eo8r-wox4jgl7u9.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_death_korps-t7f9rdqq5a-uzoyjhayvf.pdf",
   "killteamName": "Death Korps",
   "description": "Grim, fatalistic and utterly uncompromising, the Death Korps of Krieg are famed for their endurance and ability to do\nbattle in the most horrific conditions. Death Korps kill teams are made up of veteran specialists who have seen more fighting that many Astra Militarum soldiers will experience in their entire lifetime.",
   "composition": "A DEATH KORPS KillTeam is composed of:\n\n- 1 DEATH KORPS WATCHMASTER operative with the following:\n  - Boltgun; bayonet  \n  Or one option from each of the following:\n  - Bolt pistol, plasma pistol or relic laspistol\n  - Chainsword or power weapon\n- 4 TROOPER operatives*\n- 9 DEATH KORPS operatives selected from the following list:\n  - BRUISER\n  - CONFIDANT with one of the following options:\n    - Boltgun or lasgun; bayonet\n    - Bolt pistol or relic laspistol; chainsword    \n  - GUNNER with bayonet and flamer\n  - GUNNER with bayonet and grenade launcher\n  - GUNNER with bayonet and meltagun\n  - GUNNER with bayonet and plasma gun\n  - MEDIC\n  - SAPPER\n  - SNIPER\n  - SPOTTER\n  - TROOPER\n  - VETERAN\n  - VOX-OPERATOR\n  - ZEALOT\n\nOther than TROOPER operatives, your kill team can only include each operative on this list once.  \n\n*Up to four times, instead of taking one of these TROOPER operatives, you can select one DEATH KORPS ploy to cost you 0CP for the battle.",
@@ -1127,7 +1127,7 @@
           "description": null,
           "effects": [
             "**SUPPORT**",
-            "Select one enemy operative visible to this operative. Until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:",
+            "Select one enemy operative visible to this operative. Until the end of the turning point, until the end of the turning point, whenever a friendly HUNTER CLADE operative within 3\" of this operative is shooting that enemy operative, you can use this effect. If you do:",
             "- That friendly operative's ranged weapons have the Seek Light weapon rule.",
             "- That enemy operative cannot be obscured."
           ],

@@ -1,10 +1,10 @@
 {
     "factionId": "IMP",
     "killteamId": "IMP-WS",
-    "version": "January '26",
+    "version": "April '26",
     "classified": true,
     "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_wolf_scouts-7rdhkc4jn4-ttpun6cqc9.pdf",
+    "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
     "killteamName": "Exploradores lobo",
     "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
     "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
@@ -84,14 +84,14 @@
             "killteamId": "IMP-WS",
             "seq": 1,
             "eqName": "ARMAS GÉLIDAS",
-            "description": "Los filopuñales de los agentes EXPLORADOR LOBO amigos tienen la regla de armas Letal 5+, y el arma de energía (si la tiene) de 1 agente JEFE DE MANADA EXPLORADOR LOBO tiene la regla de armas Letal 4+."
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté totalmente en tu TORMENTA, sus filopuñales (si los tiene) tienen la regla de armas Letal 5+."
         },
         {
             "eqId": "IMP-WS-RC",
             "killteamId": "IMP-WS",
             "seq": 2,
             "eqName": "COLGANTES RÚNICOS",
-            "description": "Una vez por punto de inflexión, cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría."
+            "description": "Una vez por punto de inflexión, cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo que esté totalmente en tu TORMENTA, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría."
         },
         {
             "eqId": "IMP-WS-WN",
@@ -105,14 +105,14 @@
             "killteamId": "IMP-WS",
             "seq": 4,
             "eqName": "TROFEOS Y TALISMANES",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) combata o contraataque, en el paso de Resolver dados de ataque, puedes restar 1 al daño que sufra por uno de los éxitos."
+            "description": "Siempre que un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) que esté totalmente en tu TORMENTA combata o contraataque, en el paso de Resolver dados de ataque, puedes restar 1 al daño que sufra por uno de los éxitos normales."
         }
     ],
     "teamAbilities": [
         {
             "abilityId": "IMP-WS-TA-ES",
             "abilityName": "TORMENTA ELEMENTAL",
-            "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si empieza o termina esa acción en tu TORMENTA."
+            "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si termina esa acción en tu TORMENTA."
         },
         {
             "abilityId": "IMP-WS-TA-HA",
@@ -129,7 +129,7 @@
             "MOVE": "7\"",
             "APL": 3,
             "SAVE": "3+",
-            "WOUNDS": 14,
+            "WOUNDS": 13,
             "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PACK LEADER",
             "basesize": 32,
             "weapons": [
@@ -294,7 +294,7 @@
                     "abilityId": "IMP-WS-FB-SC",
                     "opTypeId": "IMP-WS-FB",
                     "abilityName": "Cirugía espiritual",
-                    "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) no se ven afectados por las reglas Choque ni Aturdidora de las armas enemigas, y puedes ignorar los cambios a su atributo LPA. Recuerda que los agentes amigos solo tienen estas reglas si incluyes a este agente en la batalla (incluso si luego resulta incapacitado)."
+                    "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Recuerda que los agentes amigos solo tienen esta regla si incluyes a este agente en la batalla (incluso si luego resulta incapacitado)."
                 },
                 {
                     "abilityId": "IMP-WS-FB-HB",
@@ -323,35 +323,11 @@
                     "wepName": "Carabina bólter instigador",
                     "profiles": [
                         {
-                            "wepprofileId": "IMP-WS-FE-IBC-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-FE-IBC",
-                            "seq": 1,
-                            "profileName": "Pesada",
-                            "ATK": "4",
-                            "HIT": "2+",
-                            "DMG": "3/4",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-HEAVY",
-                                    "details": "solo Correr"
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1,
-                                    "details": "Crits"
-                                },
-                                {
-                                    "id": "WR-UNIV-SILENT"
-                                }
-                            ]
-                        },
-                        {
                             "wepprofileId": "IMP-WS-FE-IBC-02",
                             "wepType": "R",
                             "wepId": "IMP-WS-FE-IBC",
                             "seq": 2,
-                            "profileName": "móvil",
+                            "profileName": "",
                             "ATK": "4",
                             "HIT": "3+",
                             "DMG": "3/4",
@@ -399,7 +375,7 @@
                     "abilityId": "IMP-WS-FE-HS",
                     "opTypeId": "IMP-WS-FE",
                     "abilityName": "SENTIDOS DE CAZADOR",
-                    "description": "1AP. Elige 1 de las siguientes reglas para todos los perfiles de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+                    "description": "1AP. Elige 1 de las siguientes reglas para el perfil de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative."
                 }
             ]
         },
