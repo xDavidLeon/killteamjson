@@ -1,0 +1,235 @@
+{
+  "factionId": "SPEC",
+  "killteamId": "SPEC-NEMESIS",
+  "version": "",
+  "file": "",
+  "killteamName": "Nemesis mission operatives",
+  "description": "Nemesis and NPO datacards from Kill Team mission packs: [Ambull](https://assets.warhammer-community.com/eng_ambull_mission_pack-fxyqry76tu-hy0r3phikw.pdf) and [The Archivist](https://assets.warhammer-community.com/eng_the_archivist_mission_pack-izuueemzxv-hjug8aifii.pdf). Extra Defence and Bulky full rules appear on the Nemesis Operatives card in those products.",
+  "composition": "",
+  "archetypes": [],
+  "ploys": [],
+  "equipments": [],
+  "opTypes": [
+    {
+      "opTypeId": "SPEC-NEMESIS-AMB",
+      "killteamId": "SPEC-NEMESIS",
+      "seq": 1,
+      "opTypeName": "Ambull",
+      "MOVE": "6\"",
+      "APL": 4,
+      "SAVE": "4+",
+      "WOUNDS": 35,
+      "keywords": "NEMESIS, AMBULL",
+      "basesize": 50,
+      "weapons": [
+        {
+          "wepId": "SPEC-NEMESIS-AMB-EC",
+          "opTypeId": "SPEC-NEMESIS-AMB",
+          "seq": 1,
+          "wepName": "Enormous claws",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NEMESIS-AMB-EC-0",
+              "wepType": "M",
+              "wepId": "SPEC-NEMESIS-AMB-EC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-CEASELESS"
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NEMESIS-AMB-ED",
+          "opTypeId": "SPEC-NEMESIS-AMB",
+          "abilityName": "Extra Defence",
+          "description": "Whenever an operative is shooting this operative, collect and roll one additional defence dice, unless this operative is injured."
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-AMB-BLK",
+          "opTypeId": "SPEC-NEMESIS-AMB",
+          "abilityName": "Bulky",
+          "description": "This operative cannot be placed on Vantage terrain higher than 2\" from the killzone floor.\nWhenever this operative would perform the Fight action, the distance requirements of its control range can be changed to 1\" horizontally and 4\" vertically until the end of that action.\nThis operative can move through other operatives (excluding NEMESIS operatives).\nIgnore all changes to this operative's APL and if it's a player operative, APL changes don't affect the 5AP you can spend per turning point."
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-AMB-BEH",
+          "opTypeId": "SPEC-NEMESIS-AMB",
+          "abilityName": "Behaviour: Brawler",
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible"
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-AMB-RMS",
+          "opTypeId": "SPEC-NEMESIS-AMB",
+          "abilityName": "Rad-Maggot Symbiosis",
+          "description": "Whenever this NPO is activated, it regains a number of lost wounds equal to its APL+1. Its APL is determined by the NPO activation card."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NEMESIS-BW",
+      "killteamId": "SPEC-NEMESIS",
+      "seq": 2,
+      "opTypeName": "Borewyrm Infestation",
+      "MOVE": "4\"",
+      "APL": 1,
+      "SAVE": "5+",
+      "WOUNDS": 5,
+      "keywords": "BOREWYRM INFESTATION",
+      "basesize": 25,
+      "weapons": [
+        {
+          "wepId": "SPEC-NEMESIS-BW-VJ",
+          "opTypeId": "SPEC-NEMESIS-BW",
+          "seq": 1,
+          "wepName": "Vicious jaws",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NEMESIS-BW-VJ-0",
+              "wepType": "M",
+              "wepId": "SPEC-NEMESIS-BW-VJ",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NEMESIS-BW-BEH",
+          "opTypeId": "SPEC-NEMESIS-BW",
+          "abilityName": "Behaviour: Brawler",
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible"
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-BW-SM",
+          "opTypeId": "SPEC-NEMESIS-BW",
+          "abilityName": "Small",
+          "description": "Whenever this NPO has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-NEMESIS-ARC",
+      "killteamId": "SPEC-NEMESIS",
+      "seq": 3,
+      "opTypeName": "Archivist",
+      "MOVE": "6\"",
+      "APL": 4,
+      "SAVE": "4+",
+      "WOUNDS": 35,
+      "keywords": "NEMESIS, ARCHIVIST",
+      "basesize": 50,
+      "weapons": [
+        {
+          "wepId": "SPEC-NEMESIS-ARC-AD",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "seq": 1,
+          "wepName": "Atomic disassembler",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NEMESIS-ARC-AD-0",
+              "wepType": "R",
+              "wepId": "SPEC-NEMESIS-ARC-AD",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "4/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-NEMESIS-ARC-EG",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "seq": 2,
+          "wepName": "Eradicator glove",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-NEMESIS-ARC-EG-0",
+              "wepType": "M",
+              "wepId": "SPEC-NEMESIS-ARC-EG",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "5/7",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-NEMESIS-ARC-ED",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "abilityName": "Extra Defence",
+          "description": "Whenever an operative is shooting this operative, collect and roll one additional defence dice, unless this operative is injured."
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-ARC-BLK",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "abilityName": "Bulky",
+          "description": "This operative cannot be placed on Vantage terrain higher than 2\" from the killzone floor.\nWhenever this operative would perform the Fight action, the distance requirements of its control range can be changed to 1\" horizontally and 4\" vertically until the end of that action.\nThis operative can move through other operatives (excluding NEMESIS operatives).\nIgnore all changes to this operative's APL and if it's a player operative, APL changes don't affect the 5AP you can spend per turning point."
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-ARC-BEH",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "abilityName": "Behaviour",
+          "description": "This NPO will shoot the closest player operative as a priority, but will fight if the need arises and shoot other NPOs. When activated, if it will perform the Fight or Shoot action during that activation, give it an Engage order. Otherwise, give it a Conceal order.\n\n1. Fight.\n2. Shoot the closest player operative.\n3. Charge the closest operative with less than 10 wounds remaining.\n4. Reposition towards the closest player operative, to cover if possible (a subsequent Dash action can fulfil this).\n5. Shoot the closest NPO.\n6. Dash towards the closest player operative, to cover if possible."
+        },
+        {
+          "abilityId": "SPEC-NEMESIS-ARC-XS",
+          "opTypeId": "SPEC-NEMESIS-ARC",
+          "abilityName": "Xenotech Shielding",
+          "description": "Whenever an operative is shooting this NPO:\n- Ignore the Piercing weapon rule.\n- Normal and Critical Dmg of 4 or more inflicts 1 less damage on this operative.\n- This NPO can benefit from the effects of the Extra Defence core rule regardless of being injured (this takes precedence over that rule)."
+        }
+      ]
+    }
+  ]
+}
