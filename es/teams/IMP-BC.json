@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-BC",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_battleclade-a02xgiycvd-obzomoweoa.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_battleclade-hdnhljvvjh-qv26vge1tg.pdf",
   "killteamName": "Battleclade",
   "description": "*\"Let nothing dissuade your quest for knowledge. Let none slow your pursuit and acquisition of holy technology. Let none stand between you and the procurement of that which is rightfully the machine god's due.\"*  \n- Thusdorius Knoch, Invictus Acquisitor",
   "composition": "A BATTLECLADE KillTeam is composed of:\n\n- 1 BATTLECLADE TECHNOARCHEOLOGIST\n- 1 BATTLECLADE SERVITOR UNDERSEER\n- 8 BATTLECLADE operatives selected from the following list:\n  - AUTO-PROXY SERVITOR\n  - BREACHER SERVITOR\n  - COMBAT SERVITOR with one of the following options:\n    - Servo-claw; incendine igniter\n    - Servo-claw; meltagun\n    - Servo-claw; phosphor blaster\n  - GUN SERVITOR with heavy arc rifle and augmetic claw\n  - GUN SERVITOR with heavy bolter and augmetic claw\n  - TECHNOMEDIC SERVITOR\n\nOther than COMBAT SERVITOR operatives, your kill team can only include each operative on this list once.\nYour kill team can only include up to one COMBAT SERVITOR operative with meltagun, and it can only include up to three COMBAT SERVITOR operatives with incendine igniter.",
@@ -27,7 +27,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Incantation Of The Iron Soul",
-      "description": "Whenever an attack dice inflicts damage of 3 or more on a friendly BATTLECLADE operative, roll one D6: on a 5+, subtract 1 from that inflicted damage."
+      "description": "Siempre que un dado de ataque inflija 3 o más de daño a un operativo BATTLECLADE amigo, lanza un D6: con un 4+, resta 1 a ese daño infligido."
     },
     {
       "ployId": "IMP-BC-S-NSP",
@@ -98,14 +98,14 @@
       "killteamId": "IMP-BC",
       "seq": 3,
       "eqName": "Concealed Apparatus",
-      "description": "STRATEGIC GAMBIT in the second turning point.  \n\nYou can swap the locations of any number of friendly BATTLECLADE SERVITOR operatives with each other (excluding GUN SERVITOR), and you can swap the locations of friendly BATTLECLADE GUN SERVITOR operatives with each other (remove them from the killzone and set them back up again).\nYou cannot swap any operatives that have done any of the following during the battle:\n\n- Used any weapons on their datacard.\n- Performed any actions on their datacard.\n- Used the Mechanosuture Array rule(see TECHNOMEDIC).\n"
+      "description": "Una vez por batalla, un operativo COMBAT SERVITOR o GUN SERVITOR puede usar otra opción de arma de su tarjeta de datos que no haya elegido para la batalla."
     },
     {
       "eqId": "IMP-BC-NCRC",
       "killteamId": "IMP-BC",
       "seq": 4,
       "eqName": "Neurocyclic Reserve Cells",
-      "description": "After revealing this equipment option, roll one D3. A number of times during the battle equal to the result, whenever you TRANSFER POWER, you can use this rule. If you do, you can TRANSFER POWER for 0AP (this takes precedence over the normal Noospheric Network rules)."
+      "description": "Una vez por punto de combate, siempre que TRANSFER POWER, puedes usar esta regla. Si lo haces, puedes TRANSFER POWER por 0PA (esto prevalece sobre las reglas normales de Noospheric Network)."
     }
   ],
   "teamAbilities": [
@@ -707,11 +707,11 @@
           "name": "Network Override",
           "description": null,
           "effects": [
-            "SUPPORT. Select one friendly BATTLECLADE SERVITOR operative within 6\" of either this operative or a friendly BATTLECLADE AUTO-PROXY operative to immediately NETWORK COUNTERACT (you don't have to TRANSFER POWER to do so).",
-            "Continue this operative's activation after doing so."
+            "SUPPORT. Elige un operativo BATTLECLADE SERVITOR amigo a 6\" o menos de este operativo o de un operativo BATTLECLADE AUTO-PROXY amigo para que realice inmediatamente NETWORK COUNTERACT (no tienes que TRANSFER POWER para ello) o realice una acción Dash gratuita.",
+            "Continúa la activación de este operativo después de hacerlo. A los efectos del equipo universal Comms Device, el operativo desde el que se mide la distancia debe controlar esa marca."
           ],
           "conditions": [
-            "This operative cannot perform this action while within control range of an enemy operative.\nFor the purposes of the Comms Device universal equipment, the operative the distance is being determined from must control that marker"
+            "Este operativo puede realizar esta acción dos veces durante su activación, pero no puede realizarla mientras esté dentro del rango de control de un operativo enemigo."
           ]
         },
         {
