@@ -1,10 +1,10 @@
 {
   "factionId": "ORK",
   "killteamId": "ORK-KOM",
-  "version": "October '25",
+  "version": "April '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_kommandos_online_rules-qfbmqhvdy0-s3chxdxxil.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_kommandos-d3vrktmnva-ymyvbmc6jv.pdf",
   "killteamName": "Orkomandos",
   "description": "A diferencia de la mayor parte de su especie, Los Orkomandos aprecian la sutileza. Usarán cualquier truco sucio y rastrero que se les ocurra para lograr sus metas. Por supuesto, en cuanto estalla la pelea, su amor por la violencia sale a relucir.",
   "composition": "Un equipo de exterminio de ORKOMANDOS está compuesto por:\n\n- 1 1 agente NOBLE ORKOMANDO con una de las siguientes opciones:\n  - Piztola; gran rebanadora\n  -  Piztola; garra d'energía\n- 9 agentes ORKOMANDO elegidos de la siguiente lista:\n  - GARRAPATO BOMBA (X)\n  - ORKORRASO\n  - ORKORIETE\n  - ACHICHARRADOR\n  -  TELEKO\n  - ZUELTADAKKA\n  - KANIJO (X)\n  - CHIKO KOBETE\n  - RAJADOR\n  - FRANCOTIRADORK\n\nSalvo agentes ORKORRASO, tu comando solo puede incluir uno de cada uno de los agentes de esta lista. \n\n(X) Estos agentes cuentan como media opción cada uno, lo que significa que puedes elegir ambos y cuentan como una sola elección.",
@@ -995,8 +995,7 @@
                   "id": "WR-UNIV-SATURATE"
                 },
                 {
-                  "id": "WR-UNIV-SEEK",
-                  "details": "Ligera"
+                  "id": "WR-UNIV-SEEK"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
