@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-ESS",
-  "version": "January '26",
+  "version": "April '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_elucidian_starstriders-uan3mmkdni-rcfs5dxxlc.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
   "killteamName": "Elucidian Starstriders",
   "description": "Elucia Vhane is a scion of a noble mercantile dynasty. Leaving behind her family's operations in the galactic north, Vhane led her Elucidian Starstriders to the Eastern Fringe. Alongside her esoteric crew, the bold Rogue Trader seeks to eclipse the rich history of her ancestors with her own rise to glory - or die trying.",
   "composition": "Note that you do not select your operatives from a list.\nThis kill team's operatives are specified.\n\nAn ELUCIDIAN STARSTRIDERS killteam is composed of every ELUCIDIAN STARSTRIDER operative in the following list:\n\n- 1 ELUCIA VHANE\n- 1 CANID\n- 1 DEATH CULT EXECUTIONER\n- 1 LECTRO-MAESTER\n- 1 REJUVENAT ADEPT\n- 1 VOIDMASTER\n- 3 VOIDSMAN with lasgun and gun butt\n- 1 VOIDSMAN with rotor cannon and gun butt\n",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Stake Claim",
-      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
+      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead. At the end of the turning point, remove your Claim marker from the killzone.’"
     },
     {
       "ployId": "IMP-ESS-S-UX",
