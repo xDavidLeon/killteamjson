@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://killteamjson.local/schemas/team_overlay.schema.json",
+  "title": "Kill team Spanish overlay",
+  "description": "Sparse translation overlay merged onto en/teams/*.json. Unknown keys at any level are allowed for forward compatibility.",
+  "type": "object",
+  "required": ["killteamId", "locale"],
+  "properties": {
+    "killteamId": { "type": "string" },
+    "locale": { "type": "string", "const": "es" },
+    "team": {
+      "type": "object",
+      "description": "Top-level localized strings: killteamName, description, composition"
+    },
+    "ploys": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "equipments": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "teamAbilities": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    },
+    "opTypes": {
+      "type": "object",
+      "additionalProperties": { "type": "object" }
+    }
+  }
+}

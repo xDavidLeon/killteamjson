@@ -10,7 +10,7 @@
   "composition": "El KillTeam ÁNGELES DE LA MUERTE está compuesto por:\n \n- 1 agente ÁNGEL DE LA MUERTE elegido de la siguiente lista:\n  - SARGENTO INTERCESOR DE ASALTO con una opción de cada una de las siguientes categorías:\n    - Pistola lanzallamas o pistola bólter pesada\n    - Espada sierra, puño de energía, arma de energía o martillo de trueno  \n   - O la siguiente opción:\n      - Pistola de plasma; espada sierra\n  - SARGENTO INTERCESOR con una opción de cada una de las siguientes categorías:\n    - Rifle bólter automático, rifle bólter o rifle bólter silencio\n    - Espada sierra, puños, puño de energía, arma de energía o martillo de trueno\n  - CAPITÁN MARINE ESPACIAL\n- 5 agentes ÁNGEL DE LA MUERTE elegidos de la siguiente lista:\n  - GRANADERO INTERCESOR DE ASALTO\n  - COMBATIENTE INTERCESOR DE ASALTO\n  - FRANCOTIRADOR ELIMINADOR\n  - TIRADOR INTERCESOR PESADO\n  - TIRADOR INTERCESOR con lanzagranadas auxiliar y una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños    \n  - COMBATIENTE INTERCESOR con una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños\n\nSalvo agentes COMBATIENTE, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.\n\nAlgunas reglas de ÁNGEL DE LA MUERTE hacen referencia a “armas bólter”. Eso es cualquier arma a distancia que incluya la palabra “bólter” en el nombre, como por ejemplo “rifle bólter silencio”, “pistola bólter pesada”, etc.\n\n---\n\n**Tácticas de capítulo:**  \nAl elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.\n",
   "archetypes": [
     "Security",
-    "Seek and destroy"
+    "Seek & Destroy"
   ],
   "ploys": [
     {
@@ -585,7 +585,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -792,14 +792,14 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-SATURATE"
                 },
                 {
                   "id": "WR-UNIV-SEEK",
-                  "details": "Ligera"
+                  "details": "Light"
                 },
                 {
                   "id": "WR-UNIV-SILENT"
@@ -822,7 +822,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-SILENT"
@@ -845,7 +845,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-PIERCING",
@@ -1327,7 +1327,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -1454,7 +1454,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",

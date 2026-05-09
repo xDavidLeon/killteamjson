@@ -1,0 +1,101 @@
+{
+  "locale": "es",
+  "equipments": {
+    "UNIVERSAL-UE-AC": {
+      "eqName": "Depósito de Munición",
+      "description": "Antes de la batalla, puedes desplegar uno de tus marcadores de Depósito de munición completamente dentro de tu territorio. Los agentes amigos pueden realizar la siguiente misión durante la batalla.",
+      "effects": ""
+    },
+    "UNIVERSAL-UE-RW": {
+      "eqName": "Alambre de Púas",
+      "description": "El alambre de púas es terreno Expuesto y Obstructor. Antes de la batalla, puedes desplegarlo completamente dentro de tu territorio, en el suelo de la zona de aniquilación y a más de 2\" de todos los demás elementos de terreno de equipo, puntos de acceso y terreno accesible.  \n\r Obstructor: Cuando un agente vaya a pasar a través de este elemento de terreno estando a 1\" o menos del mismo, trata la distancia como si fuera 1\" más de lo que es."
+    },
+    "UNIVERSAL-UE-CD": {
+      "eqName": "Aparato de Comunicaciones",
+      "description": "Antes de la batalla, puedes desplegar uno de tus marcadores de aparato de comunicaciones completamente dentro de tu territorio. Mientras un agente amigo controle este marcador, suma 3\" a los requisitos de distancia de sus reglas APOYO que se refieran a agentes amigos (p.ej., \"elige a un agente amigo a 6\" o menos\" sería \"a 9\" o menos\" en su lugar). Ten en cuenta que no puedes beneficiarte de los marcadores de aparato de comunicaciones de tu oponente."
+    },
+    "UNIVERSAL-UE-MN": {
+      "eqName": "Minas",
+      "description": "Antes de la batalla, puedes desplegar hasta uno de tus marcadores de mina completamente dentro de tu territorio y a más de 2\" de otros marcadores, puntos de acceso y terreno accesible. La primera vez que ese marcador quede dentro de la zona de control de un agente, retira el marcador e inflige 1D3+3 puntos de daño al agente."
+    },
+    "UNIVERSAL-UE-LB": {
+      "eqName": "Barricadas Ligeras",
+      "description": "Las barricadas ligeras son terreno Ligero, excepto los pies, que son insignificantes y terreno expuesto. Antes de la batalla, puedes desplegar cualquier número de ellas completamente dentro de tu territorio, en el suelo de la zona de aniquilación y a más de 2\" de todos los demás elementos de terreno de equipo, puntos de acceso y terreno accesible."
+    },
+    "UNIVERSAL-UE-HB": {
+      "eqName": "Barricada Pesada",
+      "description": "Una barricada pesada es terreno Pesado. Antes de la batalla, puedes desplegarla completamente a 4\" o menos de tu zona de descenso, en el suelo de la zona de aniquilación y a más de 2” de otros elementos de terreno de equipo, puntos de acceso y terreno accesible."
+    },
+    "UNIVERSAL-UE-LAD": {
+      "eqName": "Escaleras",
+      "description": "Las escaleras son terreno Expuesto. Antes de la batalla, puedes desplegar cualquier número de ellas de la siguiente forma:\r \r - Completamente dentro de tu territorio.\r - En vertical contra terreno que tenga una altura de al menos 2\".\r - A más de 2\" de otros elementos de terreno de equipo.\r - A más de 1\" de puertas y puntos de acceso.\r \r Además, un agente puede o bien mover a través de escaleras como si no estuvieran ahí (pero no puede terminar el Movimiento sobre ellas), o trepar por ellas. Una vez por acción, cuando un agente trepe por este elemento de terreno, trata la distancia vertical como 1\". Ten en cuenta que si un agente sigue a continuación trepando por otro elemento de terreno durante esa acción (incluyendo otra escalera), esa distancia se determina de manera normal."
+    },
+    "UNIVERSAL-UE-BC": {
+      "eqName": "Carga de Demolición",
+      "description": "Una vez por batalla, cuando un operativo amigo realice la acción Brecha, puedes utilizar esta regla. Si lo haces, el operativo puede realizar esa acción por 1AP menos (hasta un mínimo de 1AP) como si tuviese la palabra 'Marcador de Brecha' en su hoja de datos."
+    },
+    "UNIVERSAL-UE-PB": {
+      "eqName": "Barricada Portátil",
+      "description": "Una barricada portátil es terreno Ligero, Protector y Portátil.\r Antes de la batalla, puedes desplegarla completamente dentro de tu territorio, en el suelo de la zona de aniquilación y a más de 2\" de todos los demás elementos de terreno de equipo, puntos de acceso o terreno accesible.\n  \n\n**Protector:** Mientras un agente se encuentre a cubierto tras este elemento de terreno, mejora en 1 su atributo Salvación (hasta un máximo de 2+). \n\n**Portátil:**  Este elemento de terreno solo otorga cobertura mientras un agente se encuentre conectado a él y si el escudo está interpuesto (ignora sus pies).\n Los agentes conectados a su parte interior pueden realizar la siguiente acción unica durante la batalla."
+    },
+    "UNIVERSAL-UE-UG": {
+      "eqName": "Granadas Especiales",
+      "description": "Cuando elijas este equipo, selecciona dos granadas especiales (2 de humo, 2 aturdidoras, o 1 de humo y 1 aturdidora).\n Cada selección es una acción única que pueden realizar tus agentes, pero tu comando solo podrá realizar esa acción durante la batalla un número total de veces igual a tu selección."
+    },
+    "UNIVERSAL-UE-XG": {
+      "eqName": "Granadas Explosivas",
+      "description": "Cuando elijas este equipo, selecciona dos granadas explosivas (2 frag, 2 perforantes, o 1 frag y 1 perforante). Cada selección es una arma distinta que pueden usar tus agentes, pero tu comando solo podrá usar esa arma durante la batalla un número total de veces igual a tu selección.",
+      "weapons": {
+        "UNIVERSAL-UE-XG-FRAG": {
+          "wepName": "Granada Frag"
+        },
+        "UNIVERSAL-UE-XG-KRAK": {
+          "wepName": "Granada Krak"
+        }
+      }
+    }
+  },
+  "actions": {
+    "ACTION-UE-AMMO-RESUPPLY": {
+      "effects": [
+        "Uno de tus marcadores de Depósito de munición controlado por el agente activo es usado este punto de inflexión.",
+        "Hasta el inicio del siguiente punto de inflexión, cuando este agente dispare con un arma de su tarjeta de datos, puedes repetir uno de tus dados de ataque."
+      ],
+      "conditions": [
+        "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, si ese marcador no es tuyo o si ese marcador ha sido usado durante este punto de inflexión."
+      ],
+      "name": "Recarga de Munición"
+    },
+    "ACTION-UE-MOVE-WITH-BARRICADE": {
+      "effects": [
+        "Igual que la acción de Reposición, excepto que el agente activo no puede moverse más que su atributo de Movimiento menos 2\", no puede trepar, dejarse caer, saltar o utilizar cualquier regla de facción que lo quite de la zona de aniquilación y volver a desplegarla (ej. SUCESORES RECUPERADORES VOLAR, MANDRÁGORAS PASO COMBRÍO).",
+        "Antes de que este agente se mueva, retira la barricada portátil a la que está conectado. Tras haber movido al agente, vuelve a colocar la barricada portátil de manera que quede de nuevo conectada a él, pero la barricada portátil no puede desplegarse a 2\" o menos de otros elementos de terreno de equipo, puntos de acceso o terreno accesible. Si esto no es posible, la barricada portátil no se vuelve a desplegar."
+      ],
+      "conditions": [
+        "Esta acción se considera una acción de Reposición. Un agente no puede realizar la acción de Moverse con Barricada en el mismo punto de inflexión en que ha realizado una acción de Retroceder o Cargar."
+      ],
+      "name": "Moverse con Barricada"
+    },
+    "ACTION-UE-SMOKE-GRENADE": {
+      "effects": [
+        "Coloca uno de tus marcadores de granada de humo a 6\" o menos de este agente. Debe ser visible para este agente, o estar situado en un terreno Aventajado o un elemento de terreno visible para este agente. El marcador genera un área de humo de 1\" horizontalmente y de una altura ilimitada verticalmente a partir de él (pero no por debajo de él).",
+        "Mientras un agente se encuentre completamente dentro de un área de humo, se considera ofuscado para los agentes a más de 2\" de él, y viceversa.",
+        "Además, cuando un agente dispare contra un agente enemigo que se encuentre completamente dentro de un área de humo, las armas con Perforante 2 o Críticos Perforantes 2 se convierten en Perforante 1 o Críticos Perforantes 1 (respectivamente), a menos que ambos agentes se encuentren a 2\" o menos uno de otro.",
+        "En el paso de preparación de la siguiente fase de estrategia, tira un D3. Retira ese marcador de granada de humo una vez que se haya completado un número de activaciones igual al resultado de ese D3, o al final del punto de inflexión (lo que ocurra antes)."
+      ],
+      "conditions": [
+        "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si se ha alcanzado el número total de veces que tu comando puede realizarla."
+      ],
+      "name": "Granada de humo"
+    },
+    "ACTION-UE-STUN-GRENADE": {
+      "effects": [
+        "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Dicho agente y cada otro agente a 1\" o menos de él hace un chequeo de aturdimiento. Para que un agente haga un chequeo de aturdimiento, tira un D6: si el resultado es 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación."
+      ],
+      "conditions": [
+        "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si has alcanzado el número total de veces que tu comando puede realizarla."
+      ],
+      "name": "Granada aturdidora"
+    }
+  }
+}

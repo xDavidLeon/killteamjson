@@ -1,0 +1,51 @@
+{
+  "locale": "es",
+  "title": "Secuencia de Partida",
+  "steps": {
+    "1": {
+      "description": [
+        "Cada jugador elige un comando para la batalla.",
+        "Determinad la zona de aniquilación y los elementos de terreno. Aseguraos de definir bien los tipos de terreno.",
+        "Determinad 1 operación crítica compartida para ambos y desplegad los marcadores de objetivo. Todos los marcadores de objetivo deben desplegarse en el suelo de la zona de aniquilación salvo en la Zona de aniquilación: Bheta-Decima.",
+        "Desempate: El ganador decide quién tiene la iniciativa.",
+        "El jugador con la iniciativa elige una zona de descenso. Su oponente usa la otra zona de descenso y recibe la carta de iniciativa Repite tu tirada de iniciativa (explicada en el paso 4)."
+      ],
+      "name": "Montar la Batalla"
+    },
+    "2": {
+      "description": [
+        "Cada jugador elige en secreto sus agentes para la batalla según los requisitos de selección de su comando. A continuación los jugadores revelan sus selecciones a la vez.",
+        "Cada jugador elige en secreto hasta 4 opciones de equipo. Cada opción no puede ser elegida más de una vez por jugador. A continuación los jugadores revelan sus selecciones a la vez.",
+        "Cada jugador comienza con 2PM.",
+        "Cada jugador elige en secreto una operación táctica de uno de los arquetipos de su comando (Infiltración, Reconocimiento, Seguridad o Buscar y destruir, según se especifiquen en las reglas de su comando)."
+      ],
+      "name": "Elegir Agentes "
+    },
+    "3": {
+      "description": [
+        "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar una pieza de equipo que se despliegue antes de la batalla (p. ej. escaleras). Esto se hace pieza de equipo a pieza de equipo, no opción a opción.",
+        "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar un tercio (redondeado al alza) de su comando. Cuando un jugador despliega un agente, lo debe hacer completamente en su zona de descenso y le debe dar una orden de ocultarse."
+      ],
+      "name": "Desplegar Agentes"
+    },
+    "4": {
+      "description": [
+        "Para determinar la iniciativa en cada punto de inflexión (incluido el primero), los jugadores desempatan (no se vuelven a tirar los empates). Empezando por el perdedor del desempate, cada jugador alterna entre usar una carta de iniciativa para modificar el resultado de su tirada o pasar, hasta que ambos pasen sucesivamente.",
+        "Si uno o varios jugadores usan reglas de su comando para modificar la tirada, deben hacerlo antes de usar cartas de iniciativa, empezando por el jugador que pierde el desempate.",
+        "La carta de iniciativa Repite tu tirada de iniciativa permite repetir la tirada. El resto de cartas modifican el resultado hacia arriba o abajo, incluso más allá de 6 o por debajo de 1.",
+        "El ganador del desempate decide quién tiene la iniciativa. El perdedor recibe una carta de iniciativa según el número del punto de inflexión. Si hay empate, el jugador sin iniciativa se convierte en el ganador.",
+        "Como Gambito Estratégico en el primer punto de inflexión, cada jugador elige en secreto una de sus tres operaciones (crítica, asesinato o táctica) como su operación primaria. Luego la indica en secreto con una carta o dado.",
+        "Cada jugador puede obtener un máximo de 6PV por cada operación"
+      ],
+      "name": "Librar la batalla"
+    },
+    "5": {
+      "description": [
+        "La batalla termina tras haber completado cuatro puntos de inflexión. Si un jugador no tiene agentes en la zona de aniquilación pero la batalla no ha terminado, el otro jugador completa los turnos restantes hasta el final.çf",
+        "Al final de la batalla, todos los jugadores revelan sus operaciones primarias de manera simultánea. Obtienen PV adicionales igual a la mitad de lo que puntuaron con esa operación (redondeando al alza).",
+        "El jugador con más PV es el ganador. Si hay empate, la batalla acaba en empate."
+      ],
+      "name": "Fin de la Batalla"
+    }
+  }
+}

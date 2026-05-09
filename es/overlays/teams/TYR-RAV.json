@@ -1,0 +1,222 @@
+{
+  "killteamId": "TYR-RAV",
+  "locale": "es",
+  "team": {
+    "description": "Los comandos de Mántifex están hiperadaptados hasta tal punto que superan todo tipo de defensas sus presas. Guiados por sus imperativos sinápticos, los Mántifex excavan a velocidad horripilante para atacar a su presa desde ángulos vulnerables, antes de usar sus espolones afilados, garras quitinosas y virulentas biotoxinas para ejecutar la voluntad de la Mente Colmena..",
+    "composition": "Los comandos de **MÁNTIFEX** está compuesto por:\n\n- 1 **MÁNTIFEX** PRIMUS\n- 4 agentes **MÁNTIFEX** elegidos de la siguiente lista:\n  - GARRAVIL\n  - GUADAÑA TRÉMULA\n  - ESCUPEVENENO\n  - COMBATIENTE\n  -  DEMOLEDOR\n\nSalvo agentes **COMBATIENTE**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.",
+    "killteamName": "Mántifex"
+  },
+  "ploys": {
+    "TYR-RAV-S-TL": {
+      "description": "Siempre que un agente **MÁNTIFEX** amigo se encuentre en tu **TÚNEL** estará tras cobertura, a menos que se encuentre a 2\" o menos del agente activo. Considera esto como una cobertura brindada por terreno ligero (y a la que, por tanto, le afectan las reglas que evitan esto, como Buscadora (Ligero) y terreno Aventajado).",
+      "ployName": "ACECHADORES DESDE EL TÚNEL"
+    },
+    "TYR-RAV-S-WOOS": {
+      "description": "Elige un agente **MÁNTIFEX** amigo en la zona de aniquilación. Puedes realizar de inmediato una acción libre de Excavar con ese agente. Si se encuentra a 2\" o menos de tu **TÚNEL**, puedes realizar de inmediato una acción libre de Retroceder o Reposicionarse antes de que lo haga.",
+      "ployName": "DESAPARICIÓN SIBILINA"
+    },
+    "TYR-RAV-S-WCE": {
+      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo:\n\n-  Si ese agente amigo ha realizado la acción **Excavar** durante ese punto de inflexión, puedes repetir la tirada de uno de tus dados de defensa\n-  Si ese agente amigo está en tu **TÚNEL**, puedes repetir la tirada de cualquiera de tus dados de defensa.\n",
+      "ployName": "EMERGENCIA ENTRELAZADA"
+    },
+    "TYR-RAV-S-DFB": {
+      "description": "Siempre que un agente **MÁNTIFEX** amigo combata:\n\n- Si ha realizado la acción **Excavar** durante esa activación o reacción, sus armas de combate tienen la regla de armas Equilibrada.\n- Si está en tu **TÚNEL**, sus armas de combate tienen la regla de armas Incesante.\n",
+      "ployName": "MUERTE DESDE ABAJO"
+    },
+    "TYR-RAV-T-STH": {
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo realice la acción **Combatir** y tome como blanco a un agente **MÁNTIFEX** amigo en tu **TÚNEL**.\nEn el paso de Resolver dados de ataque de esa secuencia, tú resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante).",
+      "ployName": "HORROR SUBTERRÁNEO"
+    },
+    "TYR-RAV-T-SE": {
+      "description": "Usa este ardid de tiroteo durante la activación o reacción de un agente **MÁNTIFEX** amigo. Durante esa activación o reacción, ese agente puede:\n\n- Realizar la acción **Retroceder** por 1 PA menos.\n- Realizar la acción Cargar aún estando en la zona de control de un agente enemigo. Además, al realizarla puede abandonar la zona de control de dicho agente (aunque por lo demás se seguirán aplicando los requisitos normales para ese movimiento).\n",
+      "ployName": "EVASIÓN SERPENTEANTE"
+    },
+    "TYR-RAV-T-DF": {
+      "description": "Usa este ardid de tiroteo cuando un agente **MÁNTIFEX** amigo está incapacitado. Antes de que ese agente sea retirado de la zona de aniquilación, inflige 1D3 daños a cada agente enemigo en su zona de control (tira por separado para cada uno).\nSi ese agente amigo es un **ESCUPEVENENO** que actualmente se esté beneficiando de los efectos de su acción **Saco dorsal distendido**, en su lugar inflige 2D3 daños.",
+      "ployName": "FRENESÍ DE MUERTE"
+    },
+    "TYR-RAV-T-BS": {
+      "description": "Usa este ardid de tiroteo cuando un agente **MÁNTIFEX** amigo realice la acción **Excavar**. Antes de que ese agente sea retirado de la zona de aniquilación, o después de desplegarlo en tu **TÚNEL**, inflige 1D3+1 daños a cada agente enemigo dentro de su zona de control (tira por separado para cada uno).\nNo puedes usar este ardid en la fase de estrategia, durante la activación o la reacción de un agente **GARRAVIL** si realiza la acción **Embestida tóxica** (y viceversa)",
+      "ployName": "GOLPE CAVADOR"
+    }
+  },
+  "equipments": {
+    "TYR-RAV-CPC": {
+      "eqName": "CAMUFLAJE DE CROMATOESPORAS",
+      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo, si puedes guardar cualquier salvación por cobertura, puedes guardar una salvación por cobertura adicional. Esto no se acumula con las salvaciones por cobertura mejoradas debido a terreno aventajado.",
+      "effects": ""
+    },
+    "TYR-RAV-AB": {
+      "eqName": "SANGRE ÁCIDA",
+      "description": "Siempre que un agente **MÁNTIFEX** amigo esté combatiendo o contraatacando, siempre que un dado de ataque le inflija daño, tira 1D6: con un 5+, inflige 1 daño al agente enemigo en esa secuencia.",
+      "effects": ""
+    },
+    "TYR-RAV-MMF": {
+      "eqName": "CARNE METAMÓRFICA",
+      "description": "Siempre que un agente **MÁNTIFEX** amigo se active, recupera hasta 1D3 heridas perdidas.",
+      "effects": ""
+    },
+    "TYR-RAV-HS": {
+      "eqName": "SENTIDOS AGUDIZADOS",
+      "description": "Una vez por batalla, después de desempatar para decidir la iniciativa, si un agente **MÁNTIFEX** amigo está bajo tierra y un agente enemigo se encuentra a 5\" o menos de tu **TÚNEL**, puedes repetir la tirada.",
+      "effects": ""
+    }
+  },
+  "teamAbilities": {
+    "TYR-RAV-TA-BU": {
+      "description": "Al desplegar un comando **MÁNTIFEX** antes de la batalla, tus primeros dos agentes deben colocarse de manera normal.\n Cada otro agente **MÁNTIFEX** amigo posterior puede ser desplegado bajo tierra: colócalo a un lado en lugar de colocarlo en la zona de aniquilación.  \n\nEn la fase de tiroteo, los agentes **MÁNTIFEX** amigos desplegados bajo tierra se activan y pueden reaccionar de forma normal. Siempre que un agente **MÁNTIFEX** amigo esté bajo tierra, no puede realizar más acciones que Excavar\nAl final de la batalla, todos los agentes **MÁNTIFEX** amigos bajo tierra quedan incapacitados.  \n\nLos agentes **MÁNTIFEX** amigos pueden realizar la siguiente acción única:  \n\n**EXCAVAR (1 AP)**:  \n\nSi este agente está bajo tierra, despliégalo en tu **TÚNEL** en una ubicación en la que pueda colocarse (ya no está bajo tierra y puede desplegarse dentro de la zona de control de agentes enemigos).\nHasta el final de la activación/reacción, resta 2\" a su atributo Movimiento.\nAlternativamente, en lugar de resolver el efecto de arriba, si este agente se encuentra en la zona de aniquilación y en tu **TÚNEL**, retíralo de la zona de aniquilación; ahora está bajo tierra.\nUn agente no puede realizar esta acción mientras transporta un marcador, o si no está ni bajo tierra ni en tu **TÚNEL**.",
+      "abilityName": "EXCAVAR"
+    },
+    "TYR-RAV-TA-PRIN": {
+      "description": "Durante la activación de cada agente **MÁNTIFEX** amigo, puede realizar dos acciones de **Combatir**.\nCada agente MÁNTIFEX amigo puede reaccionar sin importar cuál sea su orden.\n\n- Puedes cambiar su orden primero o cambiar su orden en lugar de realizar una acción (en el segundo caso, se sigue considerando que ha reaccionado este punto de inflexión).\n- Durante la reacción, si no realiza una acción de misión puede realizar una acción libre de **Excavar**.\n",
+      "abilityName": "INSTINTOS DE DEPREDADOR"
+    },
+    "TYR-RAV-TA-TU": {
+      "description": "Al final del paso de Desplegar agentes, coloca tu marcador de Túnel numerado con el “0” en el suelo de la zona de aniquilación, completamente dentro de tu zona de descenso y tocando tu borde de la zona de aniquilación.\nComo **GAMBITO ESTRATÉGICO**, en los primeros cuatro puntos de inflexión puedes colocar tu siguiente marcador de Túnel numerado en el suelo de la zona de aniquilación completamente a 5” o menos del marcador de Túnel que lo precede.\nEsto significa que, a medida que progresa la batalla, puedes tener una serie de marcadores de Túnel numerados en secuencia (0, 1, 2, 3 y 4).\nUna vez que hayas colocado cinco marcadores de Túnel, no coloques más (en caso de que la batalla dure más de cuatro puntos de inflexión).  \n\nTus marcadores de Túnel y el área entre los marcadores numerados en secuencia (es decir, entre el 0 y el 1, 1 y 2, etc.) crean tu **TÚNEL**.  \n\nEn una zona de aniquilación que usa las reglas de combate cerrado (p. ej., Zona de Aniquilación: Mundo Necrópolis), tu TÚNEL y la distancia entre tus marcadores de Túnel se pueden medir a través de terreno Muro. En una zona de aniquilación que use reglas de áreas peligrosas (p. ej., Zona de aniquilación: Bheta Decima), en relación a la regla Movimiento restringido, las partes de un marcador de Túnel que toquen un área peligrosa se consideran un área peligrosa.",
+      "abilityName": "TÚNEL"
+    }
+  },
+  "opTypes": {
+    "TYR-RAV-PRM": {
+      "opTypeName": "PRIMUS",
+      "weapons": {
+        "TYR-RAV-PRM-TB": {
+          "wepName": "Hoja de cola"
+        },
+        "TYR-RAV-PRM-STRC": {
+          "wepName": "Garras afiladas y garras aceradas"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-PRM-A-NPC": {
+          "description": "Al determinar el control de un marcador, considera el atributo LPA total de los agentes enemigos que lo estén disputando como si fuera 1 menos si al menos uno de esos agentes enemigos se encuentra a 3\" o menos de este agente.\nTen en cuenta que esto no es un cambio a su atributo LPA, de modo que cualquier cambio es acumulable con esto. Siempre que un agente enemigo se encuentre a 3\" o menos de este agente\n\n- Tu oponente debe gastar 1 PA adicional para que ese agente enemigo pueda realizar una acción de Recoger marcador y acciones de misión.\n- Tu oponente no puede repetir la tirada de sus dados de ataque o de defensa para ese agente.\n",
+          "abilityName": "Cresta neurodepredadora"
+        },
+        "TYR-RAV-PRM-A-SL": {
+          "description": "**GAMBITO ESTRATÉGICO** si este agente no está incapacitado  \n\nTira 1D6 y compara el resultado con el número del punto de inflexión actual; si el resultado es:\n\n-  El doble o más alto, ganas 1PM.\n-  Menor: inflige tanto daño a este agente como el resultado\n\n- Cualquier otro resultado, no ocurre nada.\n",
+          "abilityName": "Enlace sináptico"
+        }
+      }
+    },
+    "TYR-RAV-FTL": {
+      "opTypeName": "GARRAVIL",
+      "weapons": {
+        "TYR-RAV-FTL-PT": {
+          "wepName": "Pinza de cola"
+        },
+        "TYR-RAV-FTL-TG": {
+          "wepName": "Glándulas tóxicas"
+        },
+        "TYR-RAV-FTL-TS": {
+          "wepName": "Guadañas tóxicas"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-FTL-A-PSN": {
+          "description": " En el paso de Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma obtiene una de tus fichas de Veneno (si no tiene una ya). Siempre que un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños.",
+          "abilityName": "*Veneno"
+        }
+      },
+      "actions": {
+        "TYR-RAV-FTL-TL": {
+          "effects": [
+            "- Elige un agente enemigo a 2\" o menos de este agente. Como alternativa, si este agente se encuentra bajo tierra, elige un agente enemigo en tu TÚNEL. Inflígele a ese agente enemigo 1D3+2 daños y ese agente gana dos de tus fichas de Veneno (si no tenía ya una).",
+            "- Este agente puede realizar esta acción bajo tierra (esto tiene prioridad sobre las reglas de Excavar normales)."
+          ],
+          "name": "EMBESTIDA TÓXICA"
+        }
+      }
+    },
+    "TYR-RAV-TRS": {
+      "opTypeName": "GUADAÑA TRÉMULA",
+      "weapons": {
+        "TYR-RAV-TRS-PT": {
+          "wepName": "Pinza de cola"
+        },
+        "TYR-RAV-TRS-ST": {
+          "wepName": "Espolones afilados y garras aceradas"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-TRS-A-HSH": {
+          "description": "Este agente puede realizar la acción **Cargar** mientras tenga una orden de ocultarse si ha realizado la acción **Excavar** durante la misma activación/reacción.",
+          "abilityName": "Cazador hipersensorial"
+        },
+        "TYR-RAV-TRS-A-STA": {
+          "description": "Una vez por punto de inflexión en la fase de tiroteo, después de que un agente enemigo realice una acción en la que se mueva más de 2\" y termine a 2\" o menos de tu **TÚNEL**,  si este agente está bajo tierra y se encuentra apostado o no ha reaccionado durante este punto de inflexión, puedes interrumpir para usar esta regla.  \n\nSi lo haces, activa o reacciona con este agente (lo que sea apropiado), pero durante su activación/reacción debe combatir o disparar contra ese agente enemigo, y hasta que lo haga no podrá combatir ni disparar contra ningún otro agente enemigo (si no le es posible hacerlo, se cancelará la activación/reacción de este agente y esta regla se considerará no usada). Tras completar la activación/reacción de este agente, continúa con la activación/reacción de ese agente enemigo (de ser posible).",
+          "abilityName": "Emboscada subterránea"
+        }
+      }
+    },
+    "TYR-RAV-VSP": {
+      "opTypeName": " ESCUPEVENENO",
+      "weapons": {
+        "TYR-RAV-VSP-PT": {
+          "wepName": "Pinza de cola"
+        },
+        "TYR-RAV-VSP-VB": {
+          "wepName": "Proyectil venenoso",
+          "profiles": {
+            "TYR-RAV-VSP-VB-1": {
+              "profileName": "Área"
+            },
+            "TYR-RAV-VSP-VB-2": {
+              "profileName": "Concentrado"
+            }
+          }
+        },
+        "TYR-RAV-VSP-ST": {
+          "wepName": "Espolones afilados y garras aceradas"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-VSP-A-PSN": {
+          "description": "En el paso de Resolver dados de ataque, si infliges algún daño con éxito, el agente contra el que se usa esta arma obtiene una de tus fichas de Veneno (si no tiene una ya).\nSiempre que un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños.",
+          "abilityName": "*Veneno"
+        }
+      },
+      "actions": {
+        "TYR-RAV-VSP-DDS": {
+          "effects": [
+            "Hasta que este agente haya disparado con su proyectil venenoso, realice esta acción de nuevo o realice la acción Excavar (lo que ocurra antes), todos los perfiles de su proyectil venenoso tienen la regla de armas Letal 5+, suman 1 a su atributo Atq y se elimina la regla de armas Alcance 8\"."
+          ],
+          "name": "SACO DORSAL DISTENDIDO"
+        }
+      }
+    },
+    "TYR-RAV-WAR": {
+      "opTypeName": "COMBATIENTE",
+      "weapons": {
+        "TYR-RAV-WAR-PT": {
+          "wepName": "Pinza de cola"
+        },
+        "TYR-RAV-WAR-ST": {
+          "wepName": "Espolones afilados"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-WAR-A-IB": {
+          "description": "Siempre que este agente dispare, combata o contraataque contra un agente enemigo herido, o un agente enemigo que haya realizado la acción **Retroceder** durante este punto de inflexión, sus armas tienen la regla de armas Letal 5+.",
+          "abilityName": "Comportamiento instintivo"
+        }
+      }
+    },
+    "TYR-RAV-WRK": {
+      "opTypeName": "DEMOLEDOR",
+      "weapons": {
+        "TYR-RAV-WRK-BM": {
+          "wepName": "Mazahueso"
+        },
+        "TYR-RAV-WRK-STCC": {
+          "wepName": "Espolones afilados y garras aplastadoras"
+        }
+      },
+      "abilities": {
+        "TYR-RAV-WRK-A-RIC": {
+          "description": "Los Daños normales y críticos de 4 o más infligen 1 daño menos a este agente.",
+          "abilityName": "Cascarón reforzado"
+        }
+      }
+    }
+  }
+}

@@ -288,7 +288,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "Escudo*"
+                  "id": "WR-CHAOS-BLD-SHIELD"
                 }
               ]
             }
@@ -609,7 +609,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Reposicionarse"
+                  "details": "Reposition"
                 },
                 {
                   "id": "WR-UNIV-LIMITED",
@@ -1142,7 +1142,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -1190,8 +1190,8 @@
   "weapon_rules": [
     {
       "id": "WR-IMP-DW-PHASE",
-      "name": "Barrido de fase",
-      "description": " Siempre que este agente realice la acción de Combatir con este perfil de arma, si no resulta incapacitado puede realizar inmediatamente una acción libre de Combatir; debes seleccionar este mismo perfil y solo puede combatir contra cada agente enemigo en su zona de control una vez por activación o reacción usando este perfil. Esto tiene preferencia sobre las restricciones de acciones y puedes seguir realizando acciones libres de Combatir hasta que este agente quede incapacitado o haya combatido contra todos los enemigos de su zona de control.",
+      "name": "Phase Sweep",
+      "description": "Whenever this operative performs the Fight action with this weapon profile, if it isn't incapacitated, it can immediately perform a free Fight action afterwards, but you must select this weapon profile and it can only fight against each enemy operative within its control range once per activation or counteraction using this weapon profile.\nThis takes precedence over action restrictions, and you can continue to perform free Fight actions until this operative is incapacitated or has fought against every enemy operative within its control range.",
       "team": "IMP-DW"
     }
   ]

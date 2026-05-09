@@ -1,0 +1,378 @@
+{
+  "killteamId": "IMP-AOD",
+  "locale": "es",
+  "team": {
+    "description": "Los marines espaciales, guerreros transhumanos modificados genéticamente, se encuentran entre las fuerzas de combate más selectas de la humanidad.\nLos equipos de exterminio Ángeles de la Muerte están compuestos por especialistas de élite entrenados en innumerables formas de combate, capaces de vencer a casi cualquier enemigo.",
+    "composition": "El KillTeam ÁNGELES DE LA MUERTE está compuesto por:\n \n- 1 agente ÁNGEL DE LA MUERTE elegido de la siguiente lista:\n  - SARGENTO INTERCESOR DE ASALTO con una opción de cada una de las siguientes categorías:\n    - Pistola lanzallamas o pistola bólter pesada\n    - Espada sierra, puño de energía, arma de energía o martillo de trueno  \n   - O la siguiente opción:\n      - Pistola de plasma; espada sierra\n  - SARGENTO INTERCESOR con una opción de cada una de las siguientes categorías:\n    - Rifle bólter automático, rifle bólter o rifle bólter silencio\n    - Espada sierra, puños, puño de energía, arma de energía o martillo de trueno\n  - CAPITÁN MARINE ESPACIAL\n- 5 agentes ÁNGEL DE LA MUERTE elegidos de la siguiente lista:\n  - GRANADERO INTERCESOR DE ASALTO\n  - COMBATIENTE INTERCESOR DE ASALTO\n  - FRANCOTIRADOR ELIMINADOR\n  - TIRADOR INTERCESOR PESADO\n  - TIRADOR INTERCESOR con lanzagranadas auxiliar y una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños    \n  - COMBATIENTE INTERCESOR con una de las siguientes opciones:\n    - Rifle bólter automático; puños\n    - Rifle bólter; puños\n    - Rifle bólter silencio; puños\n\nSalvo agentes COMBATIENTE, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.\n\nAlgunas reglas de ÁNGEL DE LA MUERTE hacen referencia a “armas bólter”. Eso es cualquier arma a distancia que incluya la palabra “bólter” en el nombre, como por ejemplo “rifle bólter silencio”, “pistola bólter pesada”, etc.\n\n---\n\n**Tácticas de capítulo:**  \nAl elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.\n",
+    "killteamName": "Ángeles de la muerte"
+  },
+  "ploys": {
+    "IMP-AOD-S-ADT": {
+      "description": "Cambia tu TÁCTICA DE CAPÍTULO secundaria. Ten en cuenta que este ardid solo dura hasta el final del punto de inflexión, tras lo cual recuperas tu TÁCTICA DE CAPÍTULO secundaria original.",
+      "ployName": "Tácticas Flexibles"
+    },
+    "IMP-AOD-S-ATSKNF": {
+      "description": "Puedes ignorar cualquier cambio a los atributos de agentes ÁNGEL DE LA MUERTE amigos debido a estar lesionados (incluyendo los atributos de sus armas).",
+      "ployName": "Y no conocerán el miedo"
+    },
+    "IMP-AOD-S-CD": {
+      "description": "Elige una DOCTRINA DE COMBATE de las siguientes. Siempre que un agente ÁNGEL DE LA MUERTE amigo haga X, sus armas tienen la regla de arma Equilibrada. X depende de la DOCTRINA DE COMBATE que hayas elegido.  \n\n\n- **Doctrina devastadora:** Disparar contra un agente a más de 6\" de él.\n- **Doctrina táctica:** Disparar contra un agente a 6\" o menos de él.\n- **Doctrina de asalto:** Combatir o contraatacar.",
+      "ployName": "Doctrina de combate"
+    },
+    "IMP-AOD-S-IND": {
+      "description": "Siempre que un agente dispara contra un agente ÁNGEL DE LA MUERTE amigo, si sacas dos o más fallos, puedes descartar uno de ellos para guardar el otro como éxito normal en su lugar"
+    },
+    "IMP-AOD-T-ADJT": {
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ÁNGEL DE LA MUERTE amigo, antes o después de que realice una acción. Si has usado el ardid de estrategia Doctrina de combate durante este punto de inflexión, cambia la DOCTRINA DE COMBATE que hayas elegido.",
+      "ployName": "Ajustar doctrina"
+    },
+    "IMP-AOD-T-SA": {
+      "description": "Usa este ardid de tiroteo cuando un agente ÁNGEL DE LA MUERTE amigo realiza una acción de Combatir durante una activación en la que haya realizado una acción de Cargar, al inicio del paso de resolver dados de ataque. Hasta el final de esa acción:\n\n-  Su arma de combate tiene la regla de arma Choque.\n- La primera vez que golpees durante esa secuencia, inflige 1 daño adicional (hasta un máximo de 7).\n  \n**Choque:** La primera vez que golpees con un éxito crítico en cada secuencia, descarta también uno de los éxitos normales sin resolver de tu oponente (o un éxito crítico si no tiene).",
+      "ployName": "Asalto de choque"
+    },
+    "IMP-AOD-T-TP": {
+      "description": "Usa este ardid de tiroteo cuando un agente dispare contra un agente ÁNGEL DE LA MUERTE amigo, en el paso de tirar dados de defensa. Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar.",
+      "ployName": "Fisiología transhumana"
+    },
+    "IMP-AOD-T-WOV": {
+      "description": "Usa este ardid de tiroteo cuando un agente ÁNGEL DE LA MUERTE amigo reaccione. Puede realizar una acción de 1PA adicional gratis durante esa reacción, pero ambas acciones deben ser distintas.",
+      "ployName": "Ira de la venganza"
+    }
+  },
+  "equipments": {
+    "IMP-AOD-CR": {
+      "eqName": "Relicarios deL capítulo",
+      "description": "Puedes usar el ardid de tiroteo Ira de venganza por 0PM si el agente amigo especificado tiene una orden de trabarse.",
+      "effects": ""
+    },
+    "IMP-AOD-PS": {
+      "eqName": "Sellos de pureza",
+      "description": "Una vez por punto de inflexión, cuando un agente ÁNGEL DE LA MUERTE amigo dispare, combata o contraataque, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar.",
+      "effects": ""
+    },
+    "IMP-AOD-TS": {
+      "eqName": "Escudos Decorativos",
+      "description": "Una vez por punto de inflexión, cuando un agente ÁNGEL DE LA MUERTE amigo combate o contraataca, después de que tu oponente tire sus dados de ataque, pero antes de que se repitan tiradas, puedes usar esta regla. Si lo haces, tu oponente no puede guardar dados de ataque con un resultado menor que 6 como éxitos críticos durante esa secuencia (por ejemplo, debido a las reglas de arma Letal, Desgarradora o Severa).",
+      "effects": ""
+    },
+    "IMP-AOD-AUS": {
+      "description": "Una vez por punto de inflexión, cuando un agente ÁNGEL DE LA MUERTE amigo realiza una acción de Disparar y estás eligiendo blanco válido, puedes usar esta regla. Si lo haces, hasta el final de la activación (o reacción), los agentes enemigos a 8\" o menos de ese agente amigo no pueden estar ofuscados",
+      "effects": ""
+    }
+  },
+  "teamAbilities": {
+    "IMP-AOD-TA-AS": {
+      "description": "Durante la activación de cada agente ÁNGEL DE LA MUERTE amigo, este puede realizar o bien dos acciones de Combatir, o bien dos acciones de Disparar. Si son dos acciones de Disparar, debe seleccionarse un arma bólter al menos para una de ellas, y si es un rifle bólter de francotirador o un bólter pesado, debe gastarse 1 PA adicional en la segunda acción si ambas usan esa arma  \n\nCada agente ÁNGEL DE LA MUERTE amigo puede reaccionar sin importar cuál sea su orden."
+    },
+    "IMP-AOD-TA-CT": {
+      "description": "Al elegir tu comando, elige una TÁCTICA DE CAPÍTULO primaria y otra secundaria que los agentes ÁNGEL DE LA MUERTE amigos obtendrán durante esta batalla. Los efectos de múltiples instancias de la misma TÁCTICA DE CAPÍTULO no se acumulan.",
+      "abilityName": "Tácticas de capítulo"
+    },
+    "IMP-AOD-TA-CTAG": {
+      "description": "Las armas de combate de este agente tienen la regla de armas Desgarradora.\n\n**Desgarradora.:** Si guardas algún éxito crítico, puedes guardar uno de tus éxitos normales como crítico en su lugar.",
+      "abilityName": "[TC] Agresivo"
+    },
+    "IMP-AOD-TA-CTDU": {
+      "description": "Siempre que este agente combata o contraataque, cada uno de tus éxitos normales puede bloquear un éxito crítico sin resolver (a menos que el arma del agente enemigo tenga la regla de arma Brutal).",
+      "abilityName": "[TC] Duelistas"
+    },
+    "IMP-AOD-TA-CTHA": {
+      "description": "Siempre que un agente dispare a este agente, los resultados de 5+ en los dados de defensa son éxitos críticos. Siempre que este agente esté contraatacando, la primera vez que un dado de ataque inflija un daño normal de 3 o más a este agente durante esa secuencia, ese dado le infligirá 1 punto de daño menos.",
+      "abilityName": "[TC] Robustos"
+    },
+    "IMP-AOD-TA-CTMO": {
+      "description": "- Este agente puede realizar la acción de Retroceder por 1 PA menos.\n- Este agente puede realizar acciones de Cargar aún estando en la zona de control de un agente enemigo, y al hacerlo puede abandonar la zona de control de dicho agente (pero luego se siguen aplicando los requisitos normales para ese movimiento).\n",
+      "abilityName": "[TC] Móviles"
+    },
+    "IMP-AOD-TA-CTRE": {
+      "description": "Puedes ignorar cualquier cambio en la estadística LPA de este operativo, y no se ve afectado por la regla de armas **Choque** de los operativos enemigos.",
+      "abilityName": "[TC] Resueltos"
+    },
+    "IMP-AOD-TA-CTSH": {
+      "description": "Siempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certera 2 en su lugar.\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no.",
+      "abilityName": "[TC] Tirador Certero"
+    },
+    "IMP-AOD-TA-CTSISP": {
+      "description": "Las armas a distancia de este agente tienen la regla de armas Saturación.\n\n**Saturación:** El defensor no puede guardar salvaciones de cobertura..\n\nSiempre que este agente esté luchando o contraatacando, los agentes enemigos no podrán ayudarle.",
+      "abilityName": "[TC] Especialista en Asedios"
+    },
+    "IMP-AOD-TA-CTST": {
+      "description": "Siempre que un agente enemigo dispare contra este agente, si está en cobertura, puedes guardar una salvación adicional por cobertura o convertir una salvación por cobertura en una salvación crítica.\nNo se acumula con salvaciones por cobertura mejoradas por terreno Aventajado.",
+      "abilityName": "[TC] SigilosoS"
+    }
+  },
+  "opTypes": {
+    "IMP-AOD-CPT": {
+      "opTypeName": "Capitán Marine Espacial",
+      "weapons": {
+        "IMP-AOD-CPT-PP": {
+          "wepName": "Pistola de Plasma",
+          "profiles": {
+            "IMP-AOD-CPT-PP-0": {
+              "profileName": "Estandar"
+            },
+            "IMP-AOD-CPT-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-AOD-CPT-PF": {
+          "wepName": "Puño de combate"
+        }
+      },
+      "abilities": {
+        "IMP-AOD-CPT-A-HL": {
+          "description": "Una vez por punto de inflexión, puedes elegir una de las siguientes opciones:\n-  Usar un ardid de tiroteo por 0PM si este es el agente ÁNGEL DE LA MUERTE especificado (excepto repetición de mando).\n-  Usa el ardid de estrategia Doctrina de combate cuando actives un agente ÁNGEL DE LA MUERTE si este agente está en la zona de aniquilación y no está en la zona de control de ningún agente enemigo (pagando su coste en PM de manera normal). Ten en cuenta que no puedes hacer si ya has usado ese ardida durante este punto de inflexión.\n- Usa el ardid de tiroteo Ajustar doctrina por 0PM si este agente está en la zona de aniquilación y fuera de la zona de control de todos los agentes enemigos.",
+          "abilityName": "Líder heroico"
+        },
+        "IMP-AOD-CPT-A-IH": {
+          "description": "Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido.",
+          "abilityName": "Aura de hierro"
+        }
+      }
+    },
+    "IMP-AOD-ASGT": {
+      "opTypeName": "Sargento Intercesor de Asalto",
+      "weapons": {
+        "IMP-AOD-ASGT-HFL": {
+          "wepName": "Pistola lanzallamas"
+        },
+        "IMP-AOD-ASGT-HBP": {
+          "wepName": "Pistola bólter pesada"
+        },
+        "IMP-AOD-ASGT-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "IMP-AOD-ASGT-PP-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-AOD-ASGT-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-AOD-ASGT-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-AOD-ASGT-PF": {
+          "wepName": "Puño de energía"
+        },
+        "IMP-AOD-ASGT-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-AOD-ASGT-TH": {
+          "wepName": "Martillo de trueno"
+        }
+      },
+      "abilities": {
+        "IMP-AOD-ASGT-A-CVET": {
+          "description": " Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una TÁCTICA DE CAPÍTULO adicional para que este agente la tenga durante esta batalla. A diferencia de las TÁCTICAS DE CAPÍTULO primarias y secundarias, no tienes que elegir la misma en cada batalla de una campaña o torneo.",
+          "abilityName": "Veterano del Capítulo"
+        },
+        "IMP-AOD-ASGT-A-DW": {
+          "description": " Puedes realizar cada una de las siguientes opciones una vez por batalla:\n\n-  Cuando uses el ardid de estrategia Doctrina de combate y elijas Asalto, si este agente está en la zona de aniquilación, te cuesta 0PM.\n- Cuando uses el ardid de estrategia Doctrina de combate y elijas Táctica, si este agente está en la zona de aniquilación, te cuesta 0PM.",
+          "abilityName": "Guerra según las doctrinas"
+        }
+      }
+    },
+    "IMP-AOD-ISGT": {
+      "opTypeName": "Sargento intercesor",
+      "weapons": {
+        "IMP-AOD-ISGT-ABR": {
+          "wepName": "Rifle bólter automático"
+        },
+        "IMP-AOD-ISGT-BR": {
+          "wepName": "Rifle bólter"
+        },
+        "IMP-AOD-ISGT-SBR": {
+          "wepName": "Rifle bólter silencio",
+          "profiles": {
+            "IMP-AOD-ISGT-SBR-0": {
+              "profileName": "Pesado"
+            },
+            "IMP-AOD-ISGT-SBR-1": {
+              "profileName": "Móvil"
+            }
+          }
+        },
+        "IMP-AOD-ISGT-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-AOD-ISGT-F": {
+          "wepName": "Puños"
+        },
+        "IMP-AOD-ISGT-PF": {
+          "wepName": "Puño de energía"
+        },
+        "IMP-AOD-ISGT-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-AOD-ISGT-TH": {
+          "wepName": "Martillo de trueno"
+        }
+      },
+      "abilities": {
+        "IMP-AOD-ISGT-A-CVET": {
+          "description": " Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una TÁCTICA DE CAPÍTULO adicional para que este agente la tenga durante esta batalla. A diferencia de las TÁCTICAS DE CAPÍTULO primarias y secundarias, no tienes que elegir la misma en cada batalla de una campaña o torneo.",
+          "abilityName": "Veterano del Capítulo"
+        },
+        "IMP-AOD-ISGT-A-DW": {
+          "description": "Puedes realizar cada una de las siguientes opciones una vez por batalla:\n\n-  Cuando uses el ardid de estrategia Doctrina de combate y elijas Asalto, si este agente está en la zona de aniquilación, te cuesta 0PM.\n- Cuando uses el ardid de estrategia Doctrina de combate y elijas Táctica, si este agente está en la zona de aniquilación, te cuesta 0PM.",
+          "abilityName": "Guerra según las doctrinas"
+        }
+      }
+    },
+    "IMP-AOD-SNP": {
+      "opTypeName": "Francotirador Eliminador",
+      "weapons": {
+        "IMP-AOD-SNP-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-AOD-SNP-BSR": {
+          "wepName": "Rifle bólter de francotirador",
+          "profiles": {
+            "IMP-AOD-SNP-BSR-0": {
+              "profileName": "Ejecutor"
+            },
+            "IMP-AOD-SNP-BSR-1": {
+              "profileName": "Hiperfrag"
+            }
+          }
+        },
+        "IMP-AOD-SNP-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-AOD-SNP-A-CC": {
+          "description": " Siempre que un agente dispare contra este agente, ignora la regla de arma Saturación.\nEste agente tiene la TÁCTICA DE CAPÍTULO Sigilosos. Si ya habías elegido esa TÁCTICA DE CAPÍTULO, puedes hacer sus dos opciones (es decir, guardar dos salvaciones por cobertura; un éxito normal y uno crítico).",
+          "abilityName": "Capa de camuflaje"
+        },
+        "IMP-AOD-SNP-A-ST": {
+          "description": "Siempre que un agente enemigo dispare contra este agente, si está en cobertura, puedes guardar una salvación adicional por cobertura o convertir una salvación por cobertura en una salvación crítica.\nNo se acumula con salvaciones por cobertura mejoradas por terreno Aventajado.",
+          "abilityName": "Sigiloso"
+        }
+      },
+      "actions": {
+        "IMP-AOD-SNP-OPT": {
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente, siempre que dispare, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo."
+          ],
+          "name": "Óptica"
+        }
+      }
+    },
+    "IMP-AOD-GRN": {
+      "opTypeName": "Granadero Intercesor de Asalto",
+      "weapons": {
+        "IMP-AOD-GRN-HBP": {
+          "wepName": "Pistola bólter pesada"
+        },
+        "IMP-AOD-GRN-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-AOD-GRN-FG": {
+          "wepName": "Granada Frag"
+        },
+        "IMP-AOD-GRN-KG": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "IMP-AOD-GRN-A-GRN": {
+          "description": "Este agente puede usar granadas frag y krak (ver equipo universal).\nHacer esto no cuenta de cara a los usos limitados que tengas (es decir, si también seleccionas esas granadas como equipo para otros agentes).\nCuando lo hace, mejora en 1 el atributo Impactar de esa arma.",
+          "abilityName": "Granadero"
+        }
+      }
+    },
+    "IMP-AOD-AWAR": {
+      "opTypeName": "Guerrero Intercesor de Asalto",
+      "weapons": {
+        "IMP-AOD-AWAR-HBP": {
+          "wepName": "Pistola bólter pesada"
+        },
+        "IMP-AOD-AWAR-CS": {
+          "wepName": "Espada sierra"
+        }
+      }
+    },
+    "IMP-AOD-HGNR": {
+      "opTypeName": "Tirador Intercesor Pesado",
+      "weapons": {
+        "IMP-AOD-HGNR-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "IMP-AOD-HGNR-HB-0": {
+              "profileName": "Dirigida"
+            },
+            "IMP-AOD-HGNR-HB-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-AOD-HGNR-BP": {
+          "wepName": "Pistola Bólter"
+        },
+        "IMP-AOD-HGNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "IMP-AOD-GNR": {
+      "opTypeName": "Tirador Intercesor",
+      "weapons": {
+        "IMP-AOD-GNR-ABR": {
+          "wepName": "Rifle bólter automático"
+        },
+        "IMP-AOD-GNR-GL": {
+          "wepName": "Lanzagranadas Auxiliar"
+        },
+        "IMP-AOD-GNR-BR": {
+          "wepName": "Rifle bólter"
+        },
+        "IMP-AOD-GNR-SBR": {
+          "wepName": "Rifle bólter silencio",
+          "profiles": {
+            "IMP-AOD-GNR-SBR-0": {
+              "profileName": "Pesada"
+            },
+            "IMP-AOD-GNR-SBR-1": {
+              "profileName": "Móvil"
+            }
+          }
+        },
+        "IMP-AOD-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "IMP-AOD-WAR": {
+      "opTypeName": "Combatiente Intercesor",
+      "weapons": {
+        "IMP-AOD-WAR-ABR": {
+          "wepName": "Rifle bólter automático"
+        },
+        "IMP-AOD-WAR-BR": {
+          "wepName": "Rifle bólter"
+        },
+        "IMP-AOD-WAR-SBR": {
+          "wepName": "Rifle bólter silencio",
+          "profiles": {
+            "IMP-AOD-WAR-SBR-0": {
+              "profileName": "Pesada"
+            },
+            "IMP-AOD-WAR-SBR-1": {
+              "profileName": "Móvil"
+            }
+          }
+        },
+        "IMP-AOD-WAR-F": {
+          "wepName": "Puños"
+        }
+      }
+    }
+  }
+}

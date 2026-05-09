@@ -1095,5 +1095,25 @@
         }
       ]
     }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-CHAOS-FELL-HEADTAKER",
+      "name": "Headtaker",
+      "description": "Whenever this operative incapacitates an operative with this weapon, roll one D3:\n\n- This operative regains a number of lost wounds equal to the result (unless it has one of your Frenzy tokens).\n- Until the end of the battle, add the result to the Critical Dmg stat of this operative's skullcleaver (to a maximum of 8).\n",
+      "team": "CHAOS-FELL"
+    },
+    {
+      "id": "WR-CHAOS-FELL-TACTUAL",
+      "name": "Tactual Hunter",
+      "description": "Whenever this operative is fighting with this weapon against an expended operative, the first time you strike with a critical success during that sequence,\nyou can immediately resolve another of your successes as a strike (before your opponent).",
+      "team": "CHAOS-FELL"
+    },
+    {
+      "id": "WR-CHAOS-FELL-VICIOUS",
+      "name": "Vicious Blows",
+      "description": "Whenever this operative is fighting, this weapon has the Ceaseless weapon rule.",
+      "team": "CHAOS-FELL"
+    }
   ]
 }

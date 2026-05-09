@@ -11,7 +11,7 @@ Primary tasks are:
 ## Repository Structure
 
 ```
-en/                         # English data (source of truth)
+en/                         # English data (canonical source of truth)
   teams/                    # One JSON per kill team  (e.g. IMP-AOD.json)
   packs/ops_2025.json       # Approved Tac Ops & Crit Ops
   packs/packs_actions.json  # Mission pack actions
@@ -21,20 +21,27 @@ en/                         # English data (source of truth)
   rules_key.json
   rules_sequence.json
   rules_terrain.json
-es/                         # Spanish translations (mirrors en/ structure exactly)
-  teams/
-  ...
+es/                         # Generated Spanish flat JSON (for app/runtime compatibility)
+  overlays/                 # Spanish sparse overlays (authoring source)
+    teams/                  # One sparse overlay per translated team
+    packs/
+    ...
 extra/                      # Tier lists and supplementary data
-tools/                      # Python scripts for translation (git-ignored)
+scripts/                    # Build/validation scripts
 killteam_ids.txt            # Reference list of all kill team IDs
 README.md                   # Full schema documentation
 ```
 
 ## Translation Rule (IMPORTANT)
 
-**Whenever `en/` is modified, the corresponding `es/` file must be updated too.**  
-Keep all IDs, structure, and non-translatable fields identical. Only translate user-facing strings: `name`, `description`, `composition`, `ployName`, `abilityName`, `eqName`, `wepName`, `profileName`, `optionName`, etc.  
-IDs (e.g. `killteamId`, `ployId`, `wepId`) are **never** translated.
+**Whenever `en/` is modified, the Spanish overlays (and generated `es/` files) must stay in sync.**  
+Author translations in `es/overlays/` (sparse JSON keyed by IDs), then generate flat Spanish files in `es/` with:
+`python3 scripts/build_es_locale.py build`
+
+Translate user-facing strings such as `killteamName`, `description`, `composition`, `ployName`, `abilityName`, `eqName`, `wepName`, `profileName`, `optionName`, action `name`/`effects`/`conditions`, etc.
+
+Do **not** localize structural/mechanical fields (`*Id`, stats, sequencing, weapon rules references).
+Keep `archetypes[]`, `keywords`, and weapon rule `details` as canonical English tokens for now (localized client-side).
 
 ## Kill Team File Naming
 
@@ -101,14 +108,21 @@ IDs follow a hierarchical dot-notation path:
 2. Update `version` to the new dataslate month/year (e.g. `"April '26"`).
 3. Apply stat/weapon/ploy/equipment changes from the PDF.
 4. Check `en/weapon_rules.json` to confirm any referenced `WR-` IDs exist.
-5. Mirror all changes to the matching `es/teams/` file (translate user-facing strings, keep IDs identical).
+5. Update the matching `es/overlays/teams/{ID}.json` entries for any changed user-facing strings.
+6. Regenerate flat Spanish files: `python3 scripts/build_es_locale.py build`.
+7. Validate overlays and merge output:
+   - `python3 scripts/build_es_locale.py validate`
+   - `python3 scripts/build_es_locale.py verify`
 
 ## Workflow: Bug Fix
 
 1. Identify the file (`en/teams/{ID}.json`) and the wrong field.
 2. Correct the value to match the official source PDF.
-3. Mirror the fix to `es/teams/{ID}.json`.
-4. Commit with a message like `fix: correct [field] for [team name]`.
+3. Mirror translation-impacting text updates in `es/overlays/teams/{ID}.json` when needed.
+4. Rebuild and verify:
+   - `python3 scripts/build_es_locale.py build`
+   - `python3 scripts/build_es_locale.py verify`
+5. Commit with a message like `fix: correct [field] for [team name]`.
 
 ## Commit Message Convention
 

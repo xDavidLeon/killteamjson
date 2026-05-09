@@ -1,0 +1,19 @@
+{
+  "killteamId": "CHAOS-LEG",
+  "locale": "es",
+  "equipments": {
+    "CHAOS-LEG-WA": {
+      "effects": ""
+    },
+    "CHAOS-LEG-MB": {
+      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
+      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
+    },
+    "CHAOS-LEG-TR": {
+      "effects": ""
+    },
+    "CHAOS-LEG-CT": {
+      "effects": ""
+    }
+  }
+}

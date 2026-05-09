@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://killteamjson.local/schemas/bundle_overlay.schema.json",
+  "title": "weapon_rules / universal_actions / etc. Spanish overlay",
+  "oneOf": [
+    {
+      "type": "object",
+      "required": ["locale", "weapon_rules"],
+      "properties": {
+        "locale": { "type": "string", "const": "es" },
+        "weapon_rules": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["locale", "actions"],
+      "properties": {
+        "locale": { "type": "string", "const": "es" },
+        "actions": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["locale", "entries"],
+      "properties": {
+        "locale": { "type": "string", "const": "es" },
+        "entries": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["locale", "ops"],
+      "properties": {
+        "locale": { "type": "string", "const": "es" },
+        "ops": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
+      }
+    },
+    {
+      "type": "object",
+      "required": ["locale", "rules_terrain"],
+      "properties": {
+        "locale": { "type": "string", "const": "es" },
+        "rules_terrain": {
+          "type": "object",
+          "additionalProperties": { "type": "object" }
+        }
+      }
+    }
+  ]
+}

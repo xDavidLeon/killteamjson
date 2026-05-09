@@ -1,868 +1,866 @@
 {
-    "factionId": "IMP",
-    "killteamId": "IMP-WS",
-    "version": "April '26",
-    "classified": true,
-    "season": "Tomb world",
-    "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
-    "killteamName": "Exploradores lobo",
-    "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
-    "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
-    "archetypes": [
-        "Recon",
-        "Seek & Destroy"
-    ],
-    "ploys": [
+  "factionId": "IMP",
+  "killteamId": "IMP-WS",
+  "version": "April '26",
+  "classified": true,
+  "season": "Tomb world",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_wolf_scout-98qutcyf0n-a3v14lxt0s.pdf",
+  "killteamName": "Exploradores lobo",
+  "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
+  "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "IMP-WS-S-CBTS",
+      "killteamId": "IMP-WS",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "OCULTOS EN LA TORMENTA",
+      "description": "Siempre que un agente dispare a un agente EXPLORADOR LOBO amigo en tu TORMENTA, puedes repetir uno de tus dados de defensa."
+    },
+    {
+      "ployId": "IMP-WS-S-TW",
+      "killteamId": "IMP-WS",
+      "ployType": "S",
+      "seq": 2,
+      "ployName": "IRA TEMPESTUOSA",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo ataque o contraataque, si está en tu TORMENTA o estaba en tu TORMENTA al inicio de la activación, sus armas de combate tienen la regla de armas Equilibrada."
+    },
+    {
+      "ployId": "IMP-WS-S-SB",
+      "killteamId": "IMP-WS",
+      "ployType": "S",
+      "seq": 3,
+      "ployName": "MORDISCO DE LA TORMENTA",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté en tu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3)."
+    },
+    {
+      "ployId": "IMP-WS-S-SF",
+      "killteamId": "IMP-WS",
+      "ployType": "S",
+      "seq": 4,
+      "ployName": "LUCHADORES SALVAJES",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia."
+    },
+    {
+      "ployId": "IMP-WS-T-AS",
+      "killteamId": "IMP-WS",
+      "ployType": "T",
+      "seq": 5,
+      "ployName": "SENTIDOS AGUZADOS",
+      "description": "Usa este ardid de tiroteo cuando un agente EXPLORADOR LOBO amigo realice la acción de Disparar y elijas un blanco válido. Hasta el final de esa acción, las armas a distancia de ese agente amigo tienen las reglas de armas Alcance 6\" y Buscadora (Ligero), y los agentes enemigos no pueden estar ofuscados."
+    },
+    {
+      "ployId": "IMP-WS-T-CA",
+      "killteamId": "IMP-WS",
+      "ployType": "T",
+      "seq": 6,
+      "ployName": "DEVOLVER EL ATAQUE",
+      "description": "Usa este ardid de tiroteo al final de la activación de un agente enemigo, o después de que un agente enemigo realice la acción de Combatir. 1 agente EXPLORADOR LOBO amigo puede realizar de inmediato una acción libre de Combatir, pero solo puede combatir contra ese agente enemigo."
+    },
+    {
+      "ployId": "IMP-WS-T-TBL",
+      "killteamId": "IMP-WS",
+      "ployType": "T",
+      "seq": 7,
+      "ployName": "TOCADO POR LOKYAR",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque para un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) si está combatiendo a más de 5\" de todo otro agente amigo. Puedes repetir cualquiera de tus dados de ataque."
+    },
+    {
+      "ployId": "IMP-WS-T-TP",
+      "killteamId": "IMP-WS",
+      "ployType": "T",
+      "seq": 8,
+      "ployName": "FISIOLOGÍA TRANSHUMANA",
+      "description": "Usa este ardid de tiroteo cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo, en el paso de tirar dados de defensa. Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "IMP-WS-FW",
+      "killteamId": "IMP-WS",
+      "seq": 1,
+      "eqName": "ARMAS GÉLIDAS",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo esté totalmente en tu TORMENTA, sus filopuñales (si los tiene) tienen la regla de armas Letal 5+."
+    },
+    {
+      "eqId": "IMP-WS-RC",
+      "killteamId": "IMP-WS",
+      "seq": 2,
+      "eqName": "COLGANTES RÚNICOS",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo que esté totalmente en tu TORMENTA, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría."
+    },
+    {
+      "eqId": "IMP-WS-WN",
+      "killteamId": "IMP-WS",
+      "seq": 3,
+      "eqName": "COLLARES DE DIENTES DE LOBO",
+      "description": "Una vez por punto de inflexión, cuando un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo dispare, combata o contraataque, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar."
+    },
+    {
+      "eqId": "IMP-WS-TT",
+      "killteamId": "IMP-WS",
+      "seq": 4,
+      "eqName": "TROFEOS Y TALISMANES",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) que esté totalmente en tu TORMENTA combata o contraataque, en el paso de Resolver dados de ataque, puedes restar 1 al daño que sufra por uno de los éxitos normales."
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "IMP-WS-TA-ES",
+      "abilityName": "TORMENTA ELEMENTAL",
+      "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si termina esa acción en tu TORMENTA."
+    },
+    {
+      "abilityId": "IMP-WS-TA-HA",
+      "abilityName": "ASTARTES A LA CAZA",
+      "description": "Durante la activación de cada agente EXPLORADOR LOBO amigo, este puede realizar dos acciones de Disparar o dos acciones de Combatir. Si realiza dos acciones de Disparar:\n- Se debe gastar 1PA adicional para la segunda acción si en ambas se usa un rifle de plasma o una pistola de plasma.\n- No puedes elegir dos armas a distancia PSÍQUICA.\n\nTodo agente EXPLORADOR LOBO amigo puede reaccionar sin importar su orden. Siempre que lo haga en tu TORMENTA, puedes cambiar primero su orden, o cambiar su orden en lugar de realizar una acción (en este caso, se sigue considerando que ha reaccionado en este punto de inflexión)."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "IMP-WS-PL",
+      "killteamId": "IMP-WS",
+      "seq": 1,
+      "opTypeName": "Jefe de manada",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PACK LEADER",
+      "basesize": 32,
+      "weapons": [
         {
-            "ployId": "IMP-WS-S-CBTS",
-            "killteamId": "IMP-WS",
-            "ployType": "S",
-            "seq": 1,
-            "ployName": "OCULTOS EN LA TORMENTA",
-            "description": "Siempre que un agente dispare a un agente EXPLORADOR LOBO amigo en tu TORMENTA, puedes repetir uno de tus dados de defensa."
+          "wepId": "IMP-WS-PL-PP",
+          "opTypeId": "IMP-WS-PL",
+          "seq": 1,
+          "wepName": "Pistola de plasma",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-PL-PP-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-PL-PP",
+              "seq": 1,
+              "profileName": "Normal",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-WS-PL-PP-02",
+              "wepType": "R",
+              "wepId": "IMP-WS-PL-PP",
+              "seq": 2,
+              "profileName": "Sobrecarga",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
         },
         {
-            "ployId": "IMP-WS-S-TW",
-            "killteamId": "IMP-WS",
-            "ployType": "S",
-            "seq": 2,
-            "ployName": "IRA TEMPESTUOSA",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo ataque o contraataque, si está en tu TORMENTA o estaba en tu TORMENTA al inicio de la activación, sus armas de combate tienen la regla de armas Equilibrada."
-        },
-        {
-            "ployId": "IMP-WS-S-SB",
-            "killteamId": "IMP-WS",
-            "ployType": "S",
-            "seq": 3,
-            "ployName": "MORDISCO DE LA TORMENTA",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté en tu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3)."
-        },
-        {
-            "ployId": "IMP-WS-S-SF",
-            "killteamId": "IMP-WS",
-            "ployType": "S",
-            "seq": 4,
-            "ployName": "LUCHADORES SALVAJES",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia."
-        },
-        {
-            "ployId": "IMP-WS-T-AS",
-            "killteamId": "IMP-WS",
-            "ployType": "T",
-            "seq": 5,
-            "ployName": "SENTIDOS AGUZADOS",
-            "description": "Usa este ardid de tiroteo cuando un agente EXPLORADOR LOBO amigo realice la acción de Disparar y elijas un blanco válido. Hasta el final de esa acción, las armas a distancia de ese agente amigo tienen las reglas de armas Alcance 6\" y Buscadora (Ligero), y los agentes enemigos no pueden estar ofuscados."
-        },
-        {
-            "ployId": "IMP-WS-T-CA",
-            "killteamId": "IMP-WS",
-            "ployType": "T",
-            "seq": 6,
-            "ployName": "DEVOLVER EL ATAQUE",
-            "description": "Usa este ardid de tiroteo al final de la activación de un agente enemigo, o después de que un agente enemigo realice la acción de Combatir. 1 agente EXPLORADOR LOBO amigo puede realizar de inmediato una acción libre de Combatir, pero solo puede combatir contra ese agente enemigo."
-        },
-        {
-            "ployId": "IMP-WS-T-TBL",
-            "killteamId": "IMP-WS",
-            "ployType": "T",
-            "seq": 7,
-            "ployName": "TOCADO POR LOKYAR",
-            "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque para un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) si está combatiendo a más de 5\" de todo otro agente amigo. Puedes repetir cualquiera de tus dados de ataque."
-        },
-        {
-            "ployId": "IMP-WS-T-TP",
-            "killteamId": "IMP-WS",
-            "ployType": "T",
-            "seq": 8,
-            "ployName": "FISIOLOGÍA TRANSHUMANA",
-            "description": "Usa este ardid de tiroteo cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo, en el paso de tirar dados de defensa. Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
+          "wepId": "IMP-WS-PL-PW",
+          "opTypeId": "IMP-WS-PL",
+          "seq": 2,
+          "wepName": "Arma de energía",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-PL-PW-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-PL-PW",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
         }
-    ],
-    "equipments": [
+      ],
+      "abilities": [
         {
-            "eqId": "IMP-WS-FW",
-            "killteamId": "IMP-WS",
-            "seq": 1,
-            "eqName": "ARMAS GÉLIDAS",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo esté totalmente en tu TORMENTA, sus filopuñales (si los tiene) tienen la regla de armas Letal 5+."
+          "abilityId": "IMP-WS-PL-LG",
+          "opTypeId": "IMP-WS-PL",
+          "abilityName": "Astucia lupina",
+          "description": " Una vez por batalla, después de desempatar para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tu D6."
         },
         {
-            "eqId": "IMP-WS-RC",
-            "killteamId": "IMP-WS",
-            "seq": 2,
-            "eqName": "COLGANTES RÚNICOS",
-            "description": "Una vez por punto de inflexión, cuando un agente dispare a un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo que esté totalmente en tu TORMENTA, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría."
-        },
-        {
-            "eqId": "IMP-WS-WN",
-            "killteamId": "IMP-WS",
-            "seq": 3,
-            "eqName": "COLLARES DE DIENTES DE LOBO",
-            "description": "Una vez por punto de inflexión, cuando un agente EXPLORADOR LOBO (salvo LOBO FENRISIANO) amigo dispare, combata o contraataque, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar."
-        },
-        {
-            "eqId": "IMP-WS-TT",
-            "killteamId": "IMP-WS",
-            "seq": 4,
-            "eqName": "TROFEOS Y TALISMANES",
-            "description": "Siempre que un agente EXPLORADOR LOBO amigo (salvo LOBO FENRISIANO) que esté totalmente en tu TORMENTA combata o contraataque, en el paso de Resolver dados de ataque, puedes restar 1 al daño que sufra por uno de los éxitos normales."
+          "abilityId": "IMP-WS-PL-GV",
+          "opTypeId": "IMP-WS-PL",
+          "abilityName": "Rudo veterano",
+          "description": "La primera vez que este agente quedaría incapacitado durante la batalla, no queda incapacitado, le queda 1 herida restante y no puede ser incapacitado durante el resto de la acción. Todos los dados de ataque restantes se descartan (incluyendo los tuyos si este agente está combatiendo o contraatacando). No puedes utilizar el ardid Devolver el Ataque o inflingir daño como resultado del ardid Luchadores Salvajes al final de la acción."
         }
-    ],
-    "teamAbilities": [
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-FB",
+      "killteamId": "IMP-WS",
+      "seq": 2,
+      "opTypeName": "Portacolmillos",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FANGBEARER",
+      "basesize": 32,
+      "weapons": [
         {
-            "abilityId": "IMP-WS-TA-ES",
-            "abilityName": "TORMENTA ELEMENTAL",
-            "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si termina esa acción en tu TORMENTA."
+          "wepId": "IMP-WS-FB-ABP",
+          "opTypeId": "IMP-WS-FB",
+          "seq": 1,
+          "wepName": "Pistola bólter absolvor",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-FB-ABP-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-FB-ABP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 9
+                },
+                {
+                  "id": "WR-UNIV-PIERCING-CRITS",
+                  "number": 1
+                }
+              ]
+            }
+          ]
         },
         {
-            "abilityId": "IMP-WS-TA-HA",
-            "abilityName": "ASTARTES A LA CAZA",
-            "description": "Durante la activación de cada agente EXPLORADOR LOBO amigo, este puede realizar dos acciones de Disparar o dos acciones de Combatir. Si realiza dos acciones de Disparar:\n- Se debe gastar 1PA adicional para la segunda acción si en ambas se usa un rifle de plasma o una pistola de plasma.\n- No puedes elegir dos armas a distancia PSÍQUICA.\n\nTodo agente EXPLORADOR LOBO amigo puede reaccionar sin importar su orden. Siempre que lo haga en tu TORMENTA, puedes cambiar primero su orden, o cambiar su orden en lugar de realizar una acción (en este caso, se sigue considerando que ha reaccionado en este punto de inflexión)."
+          "wepId": "IMP-WS-FB-CB",
+          "opTypeId": "IMP-WS-FB",
+          "seq": 2,
+          "wepName": "Filopuñal",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-FB-CB-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-FB-CB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
         }
-    ],
-    "opTypes": [
+      ],
+      "abilities": [
         {
-            "opTypeId": "IMP-WS-PL",
-            "killteamId": "IMP-WS",
-            "seq": 1,
-            "opTypeName": "Jefe de manada",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PACK LEADER",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-PL-PP",
-                    "opTypeId": "IMP-WS-PL",
-                    "seq": 1,
-                    "wepName": "Pistola de plasma",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-PL-PP-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-PL-PP",
-                            "seq": 1,
-                            "profileName": "Normal",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "3/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        },
-                        {
-                            "wepprofileId": "IMP-WS-PL-PP-02",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-PL-PP",
-                            "seq": 2,
-                            "profileName": "Sobrecarga",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-HOT"
-                                },
-                                {
-                                    "id": "WR-UNIV-LETHAL",
-                                    "number": 5
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-PL-PW",
-                    "opTypeId": "IMP-WS-PL",
-                    "seq": 2,
-                    "wepName": "Arma de energía",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-PL-PW-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-PL-PW",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/6",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-LETHAL",
-                                    "number": 5
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-PL-LG",
-                    "opTypeId": "IMP-WS-PL",
-                    "abilityName": "Astucia lupina",
-                    "description": " Una vez por batalla, después de desempatar para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tu D6."
-                },
-                {
-                    "abilityId": "IMP-WS-PL-GV",
-                    "opTypeId": "IMP-WS-PL",
-                    "abilityName": "Rudo veterano",
-                    "description": "La primera vez que este agente quedaría incapacitado durante la batalla, no queda incapacitado, le queda 1 herida restante y no puede ser incapacitado durante el resto de la acción. Todos los dados de ataque restantes se descartan (incluyendo los tuyos si este agente está combatiendo o contraatacando). No puedes utilizar el ardid Devolver el Ataque o inflingir daño como resultado del ardid Luchadores Salvajes al final de la acción."
-                }
-            ]
+          "abilityId": "IMP-WS-FB-SC",
+          "opTypeId": "IMP-WS-FB",
+          "abilityName": "Cirugía espiritual",
+          "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Recuerda que los agentes amigos solo tienen esta regla si incluyes a este agente en la batalla (incluso si luego resulta incapacitado)."
         },
         {
-            "opTypeId": "IMP-WS-FB",
-            "killteamId": "IMP-WS",
-            "seq": 2,
-            "opTypeName": "Portacolmillos",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FANGBEARER",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-FB-ABP",
-                    "opTypeId": "IMP-WS-FB",
-                    "seq": 1,
-                    "wepName": "Pistola bólter absolvor",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-FB-ABP-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-FB-ABP",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 9
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1,
-                                    "details": "Crits"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-FB-CB",
-                    "opTypeId": "IMP-WS-FB",
-                    "seq": 2,
-                    "wepName": "Filopuñal",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-FB-CB-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-FB-CB",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": []
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-FB-SC",
-                    "opTypeId": "IMP-WS-FB",
-                    "abilityName": "Cirugía espiritual",
-                    "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Recuerda que los agentes amigos solo tienen esta regla si incluyes a este agente en la batalla (incluso si luego resulta incapacitado)."
-                },
-                {
-                    "abilityId": "IMP-WS-FB-HB",
-                    "opTypeId": "IMP-WS-FB",
-                    "abilityName": "BÁLSAMOS CURATIVOS",
-                    "description": "Elige un agente EXPLORADOR LOBO amigo en la zona de control de este agente. Ese agente recupera hasta 1D3+3 heridas perdidas. Este agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-FE",
-            "killteamId": "IMP-WS",
-            "seq": 3,
-            "opTypeName": "Ojogélido",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FROSTEYE",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-FE-IBC",
-                    "opTypeId": "IMP-WS-FE",
-                    "seq": 1,
-                    "wepName": "Carabina bólter instigador",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-FE-IBC-02",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-FE-IBC",
-                            "seq": 2,
-                            "profileName": "",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "3/4",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1,
-                                    "details": "Crits"
-                                },
-                                {
-                                    "id": "WR-UNIV-SILENT"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-FE-CB",
-                    "opTypeId": "IMP-WS-FE",
-                    "seq": 2,
-                    "wepName": "Filopuñal",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-FE-CB-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-FE-CB",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": []
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-FE-SVE",
-                    "opTypeId": "IMP-WS-FE",
-                    "abilityName": "Tormenta ejecutora",
-                    "description": " Siempre que este agente esté en tu TORMENTA:\n- Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, Reglamento básico de Kill Team).\n- Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse, pero, si lo hace, no puede realizar más de una acción de Disparar durante el resto del punto de inflexión (p. ej. no puede Disparar durante la interrupción y durante la reacción)."
-                },
-                {
-                    "abilityId": "IMP-WS-FE-HS",
-                    "opTypeId": "IMP-WS-FE",
-                    "abilityName": "SENTIDOS DE CAZADOR",
-                    "description": "1AP. Elige 1 de las siguientes reglas para el perfil de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-GNR",
-            "killteamId": "IMP-WS",
-            "seq": 4,
-            "opTypeName": "Tirador",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, GUNNER",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-GNR-PG",
-                    "opTypeId": "IMP-WS-GNR",
-                    "seq": 1,
-                    "wepName": "Rifle de plasma",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-GNR-PG-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-GNR-PG",
-                            "seq": 1,
-                            "profileName": "Normal",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/6",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        },
-                        {
-                            "wepprofileId": "IMP-WS-GNR-PG-02",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-GNR-PG",
-                            "seq": 2,
-                            "profileName": "Sobrecarga",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "5/6",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-HOT"
-                                },
-                                {
-                                    "id": "WR-UNIV-LETHAL",
-                                    "number": 5
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-GNR-CB",
-                    "opTypeId": "IMP-WS-GNR",
-                    "seq": 2,
-                    "wepName": "Filopuñal",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-GNR-CB-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-GNR-CB",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": []
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-GNR-TF",
-                    "opTypeId": "IMP-WS-GNR",
-                    "abilityName": "Furia de la tempestad",
-                    "description": "Siempre que este agente esté en tu TORMENTA:\n- Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora\n- Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-HNT",
-            "killteamId": "IMP-WS",
-            "seq": 5,
-            "opTypeName": "Cazador",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, HUNTER",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-HNT-PP",
-                    "opTypeId": "IMP-WS-HNT",
-                    "seq": 1,
-                    "wepName": "Pistola de plasma",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-HNT-PP-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-HNT-PP",
-                            "seq": 1,
-                            "profileName": "Normal",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "3/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        },
-                        {
-                            "wepprofileId": "IMP-WS-HNT-PP-02",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-HNT-PP",
-                            "seq": 2,
-                            "profileName": "Sobrecarga",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-HOT"
-                                },
-                                {
-                                    "id": "WR-UNIV-LETHAL",
-                                    "number": 5
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-HNT-CB",
-                    "opTypeId": "IMP-WS-HNT",
-                    "seq": 2,
-                    "wepName": "Filopuñal",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-HNT-CB-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-HNT-CB",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": []
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-HNT-FT",
-                    "opTypeId": "IMP-WS-HNT",
-                    "abilityName": "Temperamento fiero",
-                    "description": " Siempre que este agente esté en tu TORMENTA, sus armas tienen la regla de armas Severa."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-RPS",
-            "killteamId": "IMP-WS",
-            "seq": 6,
-            "opTypeName": "Sacerdote rúnico escaldo",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PSYKER, RUNE PRIEST SKJALD",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-RPS-BP",
-                    "opTypeId": "IMP-WS-RPS",
-                    "seq": 1,
-                    "wepName": "Pistola bólter",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-RPS-BP-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-RPS-BP",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "3/4",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-RPS-JWW",
-                    "opTypeId": "IMP-WS-RPS",
-                    "seq": 2,
-                    "wepName": "Fauces del Mundo Lobo",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-RPS-JWW-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-RPS-JWW",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "3/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-PSYCHIC"
-                                },
-                                {
-                                    "id": "WR-UNIV-BLAST",
-                                    "number": 2
-                                },
-                                {
-                                    "id": "WR-UNIV-SEVERE"
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-RPS-TC",
-                    "opTypeId": "IMP-WS-RPS",
-                    "seq": 3,
-                    "wepName": "Golpe de trueno",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-RPS-TC-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-RPS-TC",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "2+",
-                            "DMG": "2/2",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-PSYCHIC"
-                                },
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 6
-                                },
-                                {
-                                    "id": "WR-UNIV-SATURATE"
-                                },
-                                {
-                                    "id": "WR-UNIV-SEEK-LIGHT"
-                                },
-                                {
-                                    "id": "WR-UNIV-STUN"
-                                },
-                                {
-                                    "id": "WR-UNIV-TORRENT",
-                                    "number": 2
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-RPS-RS",
-                    "opTypeId": "IMP-WS-RPS",
-                    "seq": 4,
-                    "wepName": "Báculo rúnico",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-RPS-RS-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-RPS-RS",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/6",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-PSYCHIC"
-                                },
-                                {
-                                    "id": "WR-UNIV-SHOCK"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-RPS-CTR",
-                    "opTypeId": "IMP-WS-RPS",
-                    "abilityName": "Lanzar las runas",
-                    "description": " Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Por cada 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de mando dos veces por 0PM."
-                },
-                {
-                    "abilityId": "IMP-WS-RPS-CTS",
-                    "opTypeId": "IMP-WS-RPS",
-                    "abilityName": "LLAMAR A LA TORMENTA",
-                    "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-TM",
-            "killteamId": "IMP-WS",
-            "seq": 7,
-            "opTypeName": "Maestro trampero",
-            "MOVE": "7\"",
-            "APL": 3,
-            "SAVE": "3+",
-            "WOUNDS": 13,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, TRAPMASTER",
-            "basesize": 32,
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-TM-PP",
-                    "opTypeId": "IMP-WS-TM",
-                    "seq": 1,
-                    "wepName": "Pistola de plasma",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-TM-PP-01",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-TM-PP",
-                            "seq": 1,
-                            "profileName": "Normal",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "3/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        },
-                        {
-                            "wepprofileId": "IMP-WS-TM-PP-02",
-                            "wepType": "R",
-                            "wepId": "IMP-WS-TM-PP",
-                            "seq": 2,
-                            "profileName": "Sobrecarga",
-                            "ATK": "4",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RANGE",
-                                    "number": 8
-                                },
-                                {
-                                    "id": "WR-UNIV-HOT"
-                                },
-                                {
-                                    "id": "WR-UNIV-LETHAL",
-                                    "number": 5
-                                },
-                                {
-                                    "id": "WR-UNIV-PIERCING",
-                                    "number": 1
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "wepId": "IMP-WS-TM-CB",
-                    "opTypeId": "IMP-WS-TM",
-                    "seq": 2,
-                    "wepName": "Filopuñal",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-TM-CB-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-TM-CB",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": []
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-TM-HM",
-                    "opTypeId": "IMP-WS-TM",
-                    "abilityName": "Mina de disrupción",
-                    "description": "Este agente lleva tu marcador de Mina de disrupción. Puede realizar la acción de Recoger marcador sobre ese marcador, pero ese marcador no puede ser colocado en la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva el marcador en cuestión y el marcador no puede ser colocado, es retirado junto con este agente)."
-                },
-                {
-                    "abilityId": "IMP-WS-TM-PM",
-                    "opTypeId": "IMP-WS-TM",
-                    "abilityName": "Mina de proximidad",
-                    "description": "La primera vez que tu marcador de Mina de disrupción quede dentro de la zona de control de otro agente, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación, e inflígele 2D3+3 daños (o 1D3+6 si ese marcador está a 6” o menos horizontalmente de tu marcador de Tormenta); si no resulta incapacitado, termina su acción (si está realizando una), aunque los efectos de la misma no se hayan completado. Si no puede ser colocado, muévelo la distancia mínima hasta que pueda. Este agente se ignora de cara a esos efectos (no puede activar ese marcador ni sufrir daños debido al mismo)."
-                }
-            ]
-        },
-        {
-            "opTypeId": "IMP-WS-FW",
-            "killteamId": "IMP-WS",
-            "seq": 8,
-            "opTypeName": "Lobo fenrisiano",
-            "MOVE": "8\"",
-            "APL": 2,
-            "SAVE": "5+",
-            "WOUNDS": 9,
-            "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FENRISIAN WOLF",
-            "basesize": "60x35",
-            "weapons": [
-                {
-                    "wepId": "IMP-WS-FW-F",
-                    "opTypeId": "IMP-WS-FW",
-                    "seq": 1,
-                    "wepName": "Colmillos",
-                    "profiles": [
-                        {
-                            "wepprofileId": "IMP-WS-FW-F-01",
-                            "wepType": "M",
-                            "wepId": "IMP-WS-FW-F",
-                            "seq": 1,
-                            "profileName": "",
-                            "ATK": "5",
-                            "HIT": "3+",
-                            "DMG": "4/5",
-                            "WR": [
-                                {
-                                    "id": "WR-UNIV-RENDING"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ],
-            "abilities": [
-                {
-                    "abilityId": "IMP-WS-FW-IP",
-                    "opTypeId": "IMP-WS-FW",
-                    "abilityName": "Depredador instintivo",
-                    "description": "Este agente solo puede realizar las acciones de Cargar, Correr, Retroceder, Combatir, Guardia y Reposicionarse. No puede usar armas que no estén en su hoja de datos. Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse."
-                },
-                {
-                    "abilityId": "IMP-WS-FW-P",
-                    "opTypeId": "IMP-WS-FW",
-                    "abilityName": "Sin parar",
-                    "description": " Una vez por batalla GAMBITO ESTRATÉGICO. Si el atributo LPA de este agente es 2 o más, este agente puede realizar una acción libre de Cargar, Retroceder o Reposicionarse. Si lo hace, hasta el final de su siguiente activación, resta 1 a su atributo LPA y no puede realizar ninguna de las acciones anteriores"
-                }
-            ]
+          "abilityId": "IMP-WS-FB-HB",
+          "opTypeId": "IMP-WS-FB",
+          "abilityName": "BÁLSAMOS CURATIVOS",
+          "description": "Elige un agente EXPLORADOR LOBO amigo en la zona de control de este agente. Ese agente recupera hasta 1D3+3 heridas perdidas. Este agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
         }
-    ]
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-FE",
+      "killteamId": "IMP-WS",
+      "seq": 3,
+      "opTypeName": "Ojogélido",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FROSTEYE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-WS-FE-IBC",
+          "opTypeId": "IMP-WS-FE",
+          "seq": 1,
+          "wepName": "Carabina bólter instigador",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-FE-IBC-02",
+              "wepType": "R",
+              "wepId": "IMP-WS-FE-IBC",
+              "seq": 2,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING-CRITS",
+                  "number": 1
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-FE-CB",
+          "opTypeId": "IMP-WS-FE",
+          "seq": 2,
+          "wepName": "Filopuñal",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-FE-CB-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-FE-CB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-FE-SVE",
+          "opTypeId": "IMP-WS-FE",
+          "abilityName": "Tormenta ejecutora",
+          "description": " Siempre que este agente esté en tu TORMENTA:\n- Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, Reglamento básico de Kill Team).\n- Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse, pero, si lo hace, no puede realizar más de una acción de Disparar durante el resto del punto de inflexión (p. ej. no puede Disparar durante la interrupción y durante la reacción)."
+        },
+        {
+          "abilityId": "IMP-WS-FE-HS",
+          "opTypeId": "IMP-WS-FE",
+          "abilityName": "SENTIDOS DE CAZADOR",
+          "description": "1AP. Elige 1 de las siguientes reglas para el perfil de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-GNR",
+      "killteamId": "IMP-WS",
+      "seq": 4,
+      "opTypeName": "Tirador",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, GUNNER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-WS-GNR-PG",
+          "opTypeId": "IMP-WS-GNR",
+          "seq": 1,
+          "wepName": "Rifle de plasma",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-GNR-PG-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-GNR-PG",
+              "seq": 1,
+              "profileName": "Normal",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-WS-GNR-PG-02",
+              "wepType": "R",
+              "wepId": "IMP-WS-GNR-PG",
+              "seq": 2,
+              "profileName": "Sobrecarga",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "5/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-GNR-CB",
+          "opTypeId": "IMP-WS-GNR",
+          "seq": 2,
+          "wepName": "Filopuñal",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-GNR-CB-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-GNR-CB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-GNR-TF",
+          "opTypeId": "IMP-WS-GNR",
+          "abilityName": "Furia de la tempestad",
+          "description": "Siempre que este agente esté en tu TORMENTA:\n- Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora\n- Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-HNT",
+      "killteamId": "IMP-WS",
+      "seq": 5,
+      "opTypeName": "Cazador",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, HUNTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-WS-HNT-PP",
+          "opTypeId": "IMP-WS-HNT",
+          "seq": 1,
+          "wepName": "Pistola de plasma",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-HNT-PP-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-HNT-PP",
+              "seq": 1,
+              "profileName": "Normal",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-WS-HNT-PP-02",
+              "wepType": "R",
+              "wepId": "IMP-WS-HNT-PP",
+              "seq": 2,
+              "profileName": "Sobrecarga",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-HNT-CB",
+          "opTypeId": "IMP-WS-HNT",
+          "seq": 2,
+          "wepName": "Filopuñal",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-HNT-CB-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-HNT-CB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-HNT-FT",
+          "opTypeId": "IMP-WS-HNT",
+          "abilityName": "Temperamento fiero",
+          "description": " Siempre que este agente esté en tu TORMENTA, sus armas tienen la regla de armas Severa."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-RPS",
+      "killteamId": "IMP-WS",
+      "seq": 6,
+      "opTypeName": "Sacerdote rúnico escaldo",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, PSYKER, RUNE PRIEST SKJALD",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-WS-RPS-BP",
+          "opTypeId": "IMP-WS-RPS",
+          "seq": 1,
+          "wepName": "Pistola bólter",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-RPS-BP-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-RPS-BP",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-RPS-JWW",
+          "opTypeId": "IMP-WS-RPS",
+          "seq": 2,
+          "wepName": "Fauces del Mundo Lobo",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-RPS-JWW-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-RPS-JWW",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-RPS-TC",
+          "opTypeId": "IMP-WS-RPS",
+          "seq": 3,
+          "wepName": "Golpe de trueno",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-RPS-TC-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-RPS-TC",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "2+",
+              "DMG": "2/2",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-SATURATE"
+                },
+                {
+                  "id": "WR-UNIV-SEEK-LIGHT"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-RPS-RS",
+          "opTypeId": "IMP-WS-RPS",
+          "seq": 4,
+          "wepName": "Báculo rúnico",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-RPS-RS-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-RPS-RS",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-RPS-CTR",
+          "opTypeId": "IMP-WS-RPS",
+          "abilityName": "Lanzar las runas",
+          "description": " Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Por cada 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de mando dos veces por 0PM."
+        },
+        {
+          "abilityId": "IMP-WS-RPS-CTS",
+          "opTypeId": "IMP-WS-RPS",
+          "abilityName": "LLAMAR A LA TORMENTA",
+          "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-TM",
+      "killteamId": "IMP-WS",
+      "seq": 7,
+      "opTypeName": "Maestro trampero",
+      "MOVE": "7\"",
+      "APL": 3,
+      "SAVE": "3+",
+      "WOUNDS": 13,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, TRAPMASTER",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "IMP-WS-TM-PP",
+          "opTypeId": "IMP-WS-TM",
+          "seq": 1,
+          "wepName": "Pistola de plasma",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-TM-PP-01",
+              "wepType": "R",
+              "wepId": "IMP-WS-TM-PP",
+              "seq": 1,
+              "profileName": "Normal",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "IMP-WS-TM-PP-02",
+              "wepType": "R",
+              "wepId": "IMP-WS-TM-PP",
+              "seq": 2,
+              "profileName": "Sobrecarga",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "IMP-WS-TM-CB",
+          "opTypeId": "IMP-WS-TM",
+          "seq": 2,
+          "wepName": "Filopuñal",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-TM-CB-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-TM-CB",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-TM-HM",
+          "opTypeId": "IMP-WS-TM",
+          "abilityName": "Mina de disrupción",
+          "description": "Este agente lleva tu marcador de Mina de disrupción. Puede realizar la acción de Recoger marcador sobre ese marcador, pero ese marcador no puede ser colocado en la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva el marcador en cuestión y el marcador no puede ser colocado, es retirado junto con este agente)."
+        },
+        {
+          "abilityId": "IMP-WS-TM-PM",
+          "opTypeId": "IMP-WS-TM",
+          "abilityName": "Mina de proximidad",
+          "description": "La primera vez que tu marcador de Mina de disrupción quede dentro de la zona de control de otro agente, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación, e inflígele 2D3+3 daños (o 1D3+6 si ese marcador está a 6” o menos horizontalmente de tu marcador de Tormenta); si no resulta incapacitado, termina su acción (si está realizando una), aunque los efectos de la misma no se hayan completado. Si no puede ser colocado, muévelo la distancia mínima hasta que pueda. Este agente se ignora de cara a esos efectos (no puede activar ese marcador ni sufrir daños debido al mismo)."
+        }
+      ]
+    },
+    {
+      "opTypeId": "IMP-WS-FW",
+      "killteamId": "IMP-WS",
+      "seq": 8,
+      "opTypeName": "Lobo fenrisiano",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 9,
+      "keywords": "WOLF SCOUT, IMPERIUM, ADEPTUS ASTARTES, SPACE WOLVES, FENRISIAN WOLF",
+      "basesize": "60x35",
+      "weapons": [
+        {
+          "wepId": "IMP-WS-FW-F",
+          "opTypeId": "IMP-WS-FW",
+          "seq": 1,
+          "wepName": "Colmillos",
+          "profiles": [
+            {
+              "wepprofileId": "IMP-WS-FW-F-01",
+              "wepType": "M",
+              "wepId": "IMP-WS-FW-F",
+              "seq": 1,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "IMP-WS-FW-IP",
+          "opTypeId": "IMP-WS-FW",
+          "abilityName": "Depredador instintivo",
+          "description": "Este agente solo puede realizar las acciones de Cargar, Correr, Retroceder, Combatir, Guardia y Reposicionarse. No puede usar armas que no estén en su hoja de datos. Este agente puede realizar la acción de Cargar mientras tenga una orden de ocultarse."
+        },
+        {
+          "abilityId": "IMP-WS-FW-P",
+          "opTypeId": "IMP-WS-FW",
+          "abilityName": "Sin parar",
+          "description": " Una vez por batalla GAMBITO ESTRATÉGICO. Si el atributo LPA de este agente es 2 o más, este agente puede realizar una acción libre de Cargar, Retroceder o Reposicionarse. Si lo hace, hasta el final de su siguiente activación, resta 1 a su atributo LPA y no puede realizar ninguna de las acciones anteriores"
+        }
+      ]
+    }
+  ]
 }

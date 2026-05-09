@@ -8,11 +8,11 @@
       "seq": 601,
       "eqName": "Depósito de Munición",
       "description": "Antes de la batalla, puedes desplegar uno de tus marcadores de Depósito de munición completamente dentro de tu territorio. Los agentes amigos pueden realizar la siguiente misión durante la batalla.",
-      "effects": "",
       "amount": 1,
       "actions": [
         "ACTION-UE-AMMO-RESUPPLY"
-      ]
+      ],
+      "effects": ""
     },
     {
       "eqId": "UNIVERSAL-UE-RW",
@@ -73,7 +73,7 @@
     {
       "eqId": "UNIVERSAL-UE-PB",
       "killteamId": null,
-      "seq": 608,
+      "seq": 609,
       "eqName": "Barricada Portátil",
       "description": "Una barricada portátil es terreno Ligero, Protector y Portátil.\r Antes de la batalla, puedes desplegarla completamente dentro de tu territorio, en el suelo de la zona de aniquilación y a más de 2\" de todos los demás elementos de terreno de equipo, puntos de acceso o terreno accesible.\n  \n\n**Protector:** Mientras un agente se encuentre a cubierto tras este elemento de terreno, mejora en 1 su atributo Salvación (hasta un máximo de 2+). \n\n**Portátil:**  Este elemento de terreno solo otorga cobertura mientras un agente se encuentre conectado a él y si el escudo está interpuesto (ignora sus pies).\n Los agentes conectados a su parte interior pueden realizar la siguiente acción unica durante la batalla.",
       "amount": 1,
@@ -84,7 +84,7 @@
     {
       "eqId": "UNIVERSAL-UE-UG",
       "killteamId": null,
-      "seq": 609,
+      "seq": 610,
       "eqName": "Granadas Especiales",
       "description": "Cuando elijas este equipo, selecciona dos granadas especiales (2 de humo, 2 aturdidoras, o 1 de humo y 1 aturdidora).\n Cada selección es una acción única que pueden realizar tus agentes, pero tu comando solo podrá realizar esa acción durante la batalla un número total de veces igual a tu selección.",
       "amount": 2,
@@ -96,71 +96,18 @@
     {
       "eqId": "UNIVERSAL-UE-XG",
       "killteamId": null,
-      "seq": 610,
+      "seq": 611,
       "eqName": "Granadas Explosivas",
       "description": "Cuando elijas este equipo, selecciona dos granadas explosivas (2 frag, 2 perforantes, o 1 frag y 1 perforante). Cada selección es una arma distinta que pueden usar tus agentes, pero tu comando solo podrá usar esa arma durante la batalla un número total de veces igual a tu selección.",
       "amount": 2,
-      "weapons": [
-        {
-          "wepId": "UNIVERSAL-UE-XG-FRAG",
-          "opTypeId": null,
-          "seq": 0,
-          "wepName": "Granada Frag",
-          "profiles": [
-            {
-              "wepprofileId": "UNIVERSAL-UE-XG-FRAG-0",
-              "wepType": "R",
-              "wepId": "UNIVERSAL-UE-XG-FRAG",
-              "seq": 0,
-              "profileName": "",
-              "ATK": "4",
-              "HIT": "4+",
-              "DMG": "2/4",
-              "WR": [
-                {
-                  "id": "WR-UNIV-RANGE",
-                  "number": 6
-                },
-                {
-                  "id": "WR-UNIV-BLAST",
-                  "number": 2
-                },
-                {
-                  "id": "WR-UNIV-SATURATE"
-                }
-              ]
-            }
-          ]
+      "weapons": {
+        "UNIVERSAL-UE-XG-FRAG": {
+          "wepName": "Granada Frag"
         },
-        {
-          "wepId": "UNIVERSAL-UE-XG-KRAK",
-          "opTypeId": null,
-          "seq": 1,
-          "wepName": "Granada Krak",
-          "profiles": [
-            {
-              "wepprofileId": "UNIVERSAL-UE-XG-KRAK-0",
-              "wepType": "R",
-              "wepId": "UNIVERSAL-UE-XG-KRAK",
-              "seq": 0,
-              "profileName": "",
-              "ATK": "4",
-              "HIT": "4+",
-              "DMG": "4/5",
-              "WR": [
-                {
-                  "id": "WR-UNIV-RANGE",
-                  "number": 6
-                },
-                {
-                  "id": "WR-UNIV-PIERCING",
-                  "number": 1
-                }
-              ]
-            }
-          ]
+        "UNIVERSAL-UE-XG-KRAK": {
+          "wepName": "Granada Krak"
         }
-      ]
+      }
     }
   ],
   "actions": [
@@ -168,7 +115,7 @@
       "id": "ACTION-UE-AMMO-RESUPPLY",
       "type": "mission",
       "seq": 301,
-      "AP": 0,
+      "AP": 1,
       "name": "Recarga de Munición",
       "description": null,
       "effects": [
@@ -177,6 +124,9 @@
       ],
       "conditions": [
         "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, si ese marcador no es tuyo o si ese marcador ha sido usado durante este punto de inflexión."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -192,6 +142,9 @@
       ],
       "conditions": [
         "Esta acción se considera una acción de Reposición. Un agente no puede realizar la acción de Moverse con Barricada en el mismo punto de inflexión en que ha realizado una acción de Retroceder o Cargar."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -209,6 +162,9 @@
       ],
       "conditions": [
         "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si se ha alcanzado el número total de veces que tu comando puede realizarla."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     },
     {
@@ -223,6 +179,9 @@
       ],
       "conditions": [
         "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si has alcanzado el número total de veces que tu comando puede realizarla."
+      ],
+      "packs": [
+        "Universal Equipment"
       ]
     }
   ]

@@ -1,0 +1,225 @@
+{
+  "killteamId": "CHAOS-GORE",
+  "locale": "es",
+  "team": {
+    "description": "Los comandos de Siembrasangres son territoriales y agresivos, pero verlos como simples carniceros enloquecidos sería simplificar demasiado. Se esfuerzan por imitar la pericia marcial y la disciplina militar de una banda de Desangradores, y son capaces de identificar y destruir activos estratégicos a fin de lograr la victoria en nombre de Khorne.",
+    "composition": "Un comando SIEMBRASANGRES está compuesto por:\n\n- 1 agente HERALDO DE SANGRE SIEMBRASANGRE\n- 7 agentes SIEMBRASANGRE elegidos de la siguiente lista:\n  - ASPIRANTE\n  - CAZASANGRE\n  - EMPALADOR\n  - INCITADOR\n  - RECLAMACRÁNEOS\n  - ACECHANTE\n\nSalvo agentes ASPIRANTE, tu comando solo puede incluir uno de cada uno de los anteriores agentes.",
+    "killteamName": "Siembrasangres"
+  },
+  "ploys": {
+    "CHAOS-GORE-S-AE": {
+      "description": "Cuando un agente dispare contra un agente SIEMBRASANGRE amigo, si el DEPÓSITO SANGRIENTO de ese agente amigo está:\n\n- Medio lleno, puedes repetir uno de tus dados de defensa.\n- Lleno, puedes repetir cualesquiera de tus dados de defensa.\n",
+      "ployName": "RESISTENCIA AUMENTADA"
+    },
+    "CHAOS-GORE-S-EV": {
+      "description": "Cuando el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo esté: \n\n-  Medio lleno, sus armas de combate tienen la regla de armas Equilibrada.\n- Lleno, sus armas de combate tienen la regla de armas Implacable.\n",
+      "ployName": "VIOLENCIA MEJORADA"
+    },
+    "CHAOS-GORE-S-GT": {
+      "description": "Cuando un agente SIEMBRASANGRE amigo combata o contraataque, la primera vez que tu oponente golpee durante esa secuencia, reduce a la mitad el daño infligido (redondeando al alza y hasta un mínimo de 2).",
+      "ployName": "TENACIDAD SANGRIENTA"
+    },
+    "CHAOS-GORE-S-HFB": {
+      "description": "Elige un agente SIEMBRASANGRE amigo. Si tiene una orden de Ocultarse, cámbiala a Trabarse. A continuación, puede realizar de inmediato una acción libre de Cargar, pero no puede moverse más de 3\" durante dicha acción.",
+      "ployName": "CAZAR POR LA SANGRE"
+    },
+    "CHAOS-GORE-T-DD": {
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo resulte incapacitado, antes de retirarlo de la zona de aniquilación. Inflige daño, determinado por el DEPÓSITO SANGRIENTO de ese agente amigo, a un agente enemigo en la zona de control de ese agente amigo.\n  \nInflígele:\n\n- 1D3 si está vacío.\n-  1D3+1 si está medio lleno.\n- 1D3+2 si está lleno.\n",
+      "ployName": "MORIR MATANDO"
+    },
+    "CHAOS-GORE-T-GT": {
+      "description": "Usa este ardid de tiroteo cuando vayas a reaccionar. Puedes hacerlo con un agente SIEMBRASANGRE amigo que tenga una orden de Ocultarse, pero antes de que reaccione debes cambiar su orden a Trabarse y durante esa reacción no podrá llevar a cabo acciones que no sean Cargar, Combatir o Disparar.",
+      "ployName": "ANSIA DE SANGRE"
+    },
+    "CHAOS-GORE-T-LF": {
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo con un DEPÓSITO SANGRIENTO vacío sea activado o reaccione. Incrementa el DEPÓSITO SANGRIENTO de ese agente.\nAl final de esa activación o reacción, disminuye su DEPÓSITO SANGRIENTO (no puedes aprovechar esta disminución para usar una regla SANGUAVITAE); si no puedes disminuir el DEPÓSITO SANGRIENTO, inflígele 1D3 daños.",
+      "ployName": "LACERAR CARNE"
+    },
+    "CHAOS-GORE-T-UBA": {
+      "description": "Usa este ardid de tiroteo cuando un agente SIEMBRASANGRE amigo combata durante una activación en la que haya realizado una acción de Cargar, al final del paso de Tirar dados de ataque.\nHasta el final de esa secuencia, las armas de combate de ese agente tienen la regla de armas Severa.",
+      "ployName": "AGRESIÓN DESENFRENADA"
+    }
+  },
+  "equipments": {
+    "CHAOS-GORE-GT": {
+      "eqName": "TÓTEM SANGUINOLENTO",
+      "description": "Antes de la batalla, puedes desplegar uno de tus marcadores de Tótem sanguinolento completamente dentro de tu territorio y a más de 2\" de otros marcadores (salvo tu marcador de Cadáver ensangrentado). Cuando un agente enemigo a 3\" o menos de tu marcador de Tótem sanguinolento dispare, combata o contraataque, tu oponente no podrá repetir sus dados de ataque.",
+      "effects": ""
+    },
+    "CHAOS-GORE-BC": {
+      "eqName": "CADÁVER ENSANGRENTADO",
+      "description": "Antes de la batalla, puedes desplegar hasta uno de tus marcadores de Cadáver ensagrentado completamente dentro de tu territorio y a más de 2\" de otros marcadores (salvo tu marcador de Tótem sanguinolento).\nLos agentes SIEMBRASANGRE amigos pueden realizar la acción Recoger marcador sobre ese marcador. En el paso de Preparación de cada fase de estrategia, puedes incrementar el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo que controle dicho marcador, a menos que ese agente amigo se encuentre en la zona de control de un agente enemigo.",
+      "effects": ""
+    },
+    "CHAOS-GORE-CS": {
+      "eqName": "SELLO DEL CAOS",
+      "description": "Una vez por punto de inflexión, cuando un agente enemigo dispare contra un agente SIEMBRASANGRE amigo, al inicio del paso de Tirar dados de defensa puedes usar esta regla. Si lo haces, hasta el final de esa secuencia empeora en 1 la x de la regla de armas Penetración (si la hay). Eso significa que Penetración 1 se ignoraría.",
+      "effects": ""
+    },
+    "CHAOS-GORE-WC": {
+      "eqName": "CADENAS DE MUÑECA",
+      "description": "Una vez por punto de inflexión, cuando un agente SIEMBRASANGRE amigo realice la acción de Disparar y selecciones un arma a distancia, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción las siguientes armas de combate se tratan como armas a distancia con la regla de armas Alcance 2\": cuchilla sierra, archa sierra, gran hacha sierra (ignora su regla de armas Brutal), picos destripadores.",
+      "effects": ""
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-GORE-TA-SA": {
+      "description": "Cada regla SANGUAVITAE especifica cuándo puede ser usada, y debes disminuir el DEPÓSITO SANGRIENTO del agente.  \n\nNo puedes usar la misma regla SANGUAVITAE más de una vez por activación o reacción, y no puedes usar más de dos reglas SANGUAVITAE por activación o reacción. \n\nNo puedes usar Manía y Furia durante una misma activación.  \n  \n\n**REJUVENECER:**  \n\nCUÁNDO:  Durante la activación o reacción de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Ese agente recupera hasta 1D3+1 heridas perdidas.\n  \n\n**MANÍA:**  \n\nCUÁNDO: Durante la activación de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Hasta el inicio de la siguiente activación de ese agente, suma 1 a su atributo LPA.\n  \n\n**FURIA:**  \n\nCUÁNDO: Durante la activación de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción.  \n\nEFECTO: Ese agente puede realizar dos acciones de Combatir durante esa activación, y la segunda es libre..\n  \n\n**EMBESTIR:**  \n\nCUÁNDO: Cuando un agente SIEMBRASANGRE amigo realice la acción de Cargar durante su activación.  \n\nEFECTO: Cuando ese agente termine de moverse durante esa acción, puedes infligir 1D3 daños a un agente enemigo en su zona de control.\n  \n\n**ACELERAR:**  \n\nCUÁNDO:  Cuando un agente SIEMBRASANGRE amigo realice la acción de Cargar o de Reposicionarse.  \n\nEFECTO: Hasta el final de esa acción, suma 1\" al atributo Movimiento de ese agente.\n  \n\n**RABIA:**  \n\nCUÁNDO:  Cuando un agente SIEMBRASANGRE amigo realice una acción de Combatir.  \n\nEFECTO: Hasta el final de esa acción, suma 1 al atributo Ataque de las armas de combate de ese agente.\n",
+      "abilityName": "SANGUAVITAE"
+    },
+    "CHAOS-GORE-TA-RUOFKH": {
+      "description": "Cada agente SIEMBRASANGRE amigo no puede perder más de 8 heridas por acción de Disparar.",
+      "abilityName": "RUNAS DE KHORNE"
+    },
+    "CHAOS-GORE-TA-GOTA": {
+      "description": "Cada agente SIEMBRASANGRE amigo tiene un DEPÓSITO SANGRIENTO con tres niveles posibles de capacidad: lleno, medio lleno y vacío. Empieza la batalla como medio lleno. Cuando incrementas un DEPÓSITO SANGRIENTO, sube un nivel; cuando lo disminuyes, baja un nivel. No puedes incrementar un DEPÓSITO SANGRIENTO cuando ya está lleno, ni disminuirlo cuando ya está vacío.  \n\nCuando un agente SIEMBRASANGRE amigo incapacita a un agente en su zona de control, o a 2\" o menos de él y visible para él, puedes incrementar su DEPÓSITO SANGRIENTO.   \n\nCuando un agente SIEMBRASANGRE amigo utiliza una regla SANGUAVITAE, debes disminuir su DEPÓSITO SANGRIENTO.",
+      "abilityName": "DEPÓSITOS SANGRIENTOS"
+    }
+  },
+  "opTypes": {
+    "CHAOS-GORE-BH": {
+      "opTypeName": "HERALDO DE SANGRE",
+      "weapons": {
+        "CHAOS-GORE-BH-IOK": {
+          "wepName": "Icono de Khorne"
+        },
+        "CHAOS-GORE-BH-CB": {
+          "wepName": "Cuchilla sierra"
+        }
+      },
+      "abilities": {
+        "CHAOS-GORE-BH-A-IA": {
+          "description": " Una vez por batalla, cuando un dado de ataque inflija daño normal a este agente, puedes ignorar ese daño infligido.",
+          "abilityName": "Apoteosis inminente"
+        },
+        "CHAOS-GORE-BH-A-KF": {
+          "description": "Una vez durante cada una de las activaciones de este agente, antes o después de que realice una acción, si su DEPÓSITO SANGRIENTO está vacío, puedes incrementar su DEPÓSITO SANGRIENTO.",
+          "abilityName": "Favor de Khorne"
+        }
+      }
+    },
+    "CHAOS-GORE-ASP": {
+      "opTypeName": "ASPIRANTE",
+      "weapons": {
+        "CHAOS-GORE-ASP-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-GORE-ASP-CG": {
+          "wepName": "Archa sierra"
+        }
+      },
+      "abilities": {
+        "CHAOS-GORE-ASP-A-OB": {
+          "description": "1 vez durante cada una de las activaciones de este agente, cuando este agente termine una acción de Combatir, si ya no tiene agentes enemigos en su zona de control, puedes usar esta regla. Si lo haces, si ya no se encuentra en la zona de control de agentes enemigos, puede realizar inmediatamente una acción libre de Cargar (incluso aunque ya haya realizado la acción de Cargar durante esa activación),\npero no puede moverse más de 2\" durante esa acción. Hacerlo no le impide realizar una acción de Cargar, Correr o Reposicionarse más tarde durante esa activación.",
+          "abilityName": "Ansia de sangre obsesiva"
+        }
+      }
+    },
+    "CHAOS-GORE-BT": {
+      "opTypeName": "CAZASANGRE",
+      "weapons": {
+        "CHAOS-GORE-BT-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-GORE-BT-RB": {
+          "wepName": "Filo ritual"
+        }
+      },
+      "actions": {
+        "CHAOS-GORE-BT-TFR": {
+          "effects": [
+            "Disminuye el DEPÓSITO SANGRIENTO de este agente. En lugar de usar una regla SANGUAVITAE, puedes incrementar el DEPÓSITO SANGRIENTO de otro agente SIEMBRASANGRE amigo distinto a 8\" o menos de este agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si su DEPÓSITO SANGRIENTO está vacío."
+          ],
+          "name": "RITUAL DE TRANSFUSIÓN"
+        }
+      }
+    },
+    "CHAOS-GORE-IMP": {
+      "opTypeName": "EMPALADOR",
+      "weapons": {
+        "CHAOS-GORE-IMP-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-GORE-IMP-FSR": {
+          "wepName": "Clavacarnes"
+        },
+        "CHAOS-GORE-IMP-FSM": {
+          "wepName": "Clavacarnes"
+        }
+      }
+    },
+    "CHAOS-GORE-INC": {
+      "opTypeName": "INCITADOR",
+      "weapons": {
+        "CHAOS-GORE-INC-DAPR": {
+          "wepName": "Pistolas automáticas dobles"
+        },
+        "CHAOS-GORE-INC-DAPM": {
+          "wepName": "Pistolas automáticas dobles"
+        }
+      },
+      "abilities": {
+        "CHAOS-GORE-INC-A-ITH": {
+          "description": "Cuando este agente incapacite a un agente enemigo desde más de 2\" de distancia, antes de que ese agente enemigo sea retirado de la zona de aniquilación, puedes incrementar el DEPÓSITO SANGRIENTO de un agente SIEMBRASANGRE amigo a 8\" o menos de ese agente enemigo.  \n\nCuando este agente inflija daño a un agente enemigo con cualquiera de los perfiles de sus pistolas automáticas dobles pero no lo incapacite, ese agente enemigo gana una de tus fichas de Ampollas (si no tiene ya una).  \n\nDurante la activación o reacción de un agente SIEMBRASANGRE amigo, antes o después de que realice una acción, si se encuentra a 8\" o menos de un agente enemigo que tenga una de tus fichas de Ampollas puedes retirar esa ficha e incrementar el DEPÓSITO SANGRIENTO de ese agente amigo.",
+          "abilityName": "Incitar a la caza"
+        }
+      },
+      "actions": {
+        "CHAOS-GORE-INC-DAS": {
+          "effects": [
+            "Realiza una acción libre de Correr y una acción libre de Disparar con este agente en cualquier orden. Solo puedes elegir unas pistolas automáticas dobles para esa acción de Disparar."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si tiene una orden de ocultarse."
+          ],
+          "name": "CORRER Y AMETRALLAR"
+        }
+      }
+    },
+    "CHAOS-GORE-SC": {
+      "opTypeName": "RECLAMACRÁNEOS",
+      "weapons": {
+        "CHAOS-GORE-SC-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-GORE-SC-GCA": {
+          "wepName": "Gran hacha sierra"
+        }
+      },
+      "abilities": {
+        "CHAOS-GORE-SC-A-BRU": {
+          "description": "Siempre que un dado de ataque vaya a infligir Daño crítico a este agente, puedes decidir que ese dado inflija Daño normal en su lugar.",
+          "abilityName": "Bruto"
+        },
+        "CHAOS-GORE-SC-A-CS": {
+          "description": "Una vez por punto de inflexión, si este agente incapacita a un agente enemigo con su gran hacha sierra, ganas 1PM.",
+          "abilityName": "Reclamar cráneo"
+        }
+      }
+    },
+    "CHAOS-GORE-ST": {
+      "opTypeName": "ACECHANTE",
+      "weapons": {
+        "CHAOS-GORE-ST-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-GORE-ST-PR": {
+          "wepName": "Picos destripadores"
+        }
+      },
+      "abilities": {
+        "CHAOS-GORE-ST-A-CP": {
+          "description": "Siempre que este agente trepa hacia arriba, puedes considerar la distancia vertical como 2\" (sin importar la distancia real que mueva en vertical dicho agente).",
+          "abilityName": "Garfios de escalada"
+        },
+        "CHAOS-GORE-ST-A-RTS": {
+          "description": "Cuando este agente combata durante una activación en la que se haya dejado caer desde terreno Aventajado al menos 2\" por encima del suelo de la zona de aniquilación, o cuando este agente combate contra un agente enemigo que se encuentre en terreno Aventajado al menos 2\" por encima del suelo de la zona de aniquilación, las armas de combate de este agente tienen la regla de armas Implacable.",
+          "abilityName": "Acechar en tejados"
+        }
+      }
+    }
+  }
+}

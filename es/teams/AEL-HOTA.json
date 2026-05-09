@@ -1,7 +1,7 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-HOTA",
-  "version": "January '25",
+  "version": "January '26",
   "classified": true,
   "season": "Gallowdark",
   "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_hand_of_the_archon-ijq4ui6dxc-qnz6k5jaxl.pdf",
@@ -475,12 +475,6 @@
           "opTypeId": "AEL-HOTA-KCD",
           "abilityName": "Duelista Carmesí",
           "description": " Este agente puede realizar 2 acciones de Combatir durante su activación."
-        },
-        {
-          "abilityId": "AEL-HOTA-KCD-A-EB",
-          "opTypeId": "AEL-HOTA-KCD",
-          "abilityName": "Exhibición brutal",
-          "description": "Una vez por punto de inflexión, cuando este agente incapacite a un agente enemigo en su zona de control, puedes elegir a otro agente enemigo a 6\" o menos de cualquier agente o del agente enemigo incapacitado y que sea visible para él. Hasta el inicio del siguiente punto de inflexión, ese otro agente enemigo no puede controlar marcadores ni realizar acciones de Recoger marcador ni de misión."
         }
       ]
     },
@@ -850,7 +844,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-PIERCING",
@@ -878,7 +872,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -898,7 +892,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-LETHAL",
@@ -1060,20 +1054,20 @@
   "weapon_rules": [
     {
       "id": "WR-AEL-HOTA-FLAY",
-      "name": "Desollar",
-      "description": "Siempre que este agente usa esta arma, la primera vez que golpees con un éxito crítico durante esa secuencia, puedes elegir un agente MANO DEL ARCONTE amigo a 6\" o menos de él para que obtenga una de tus fichas de Dolor.",
+      "name": "Flay",
+      "description": "Whenever this operative is using this weapon, the first time you strike with a critical success during that sequence, you can select one friendly HAND OF THE ARCHON operative within 6\" of it to gain one of your Pain tokens.",
       "team": "AEL-HOTA"
     },
     {
       "id": "WR-AEL-HOTA-STINGER",
-      "name": "Aguijón",
-      "description": "Cuando un agente enemigo queda incapacitado por esta arma, antes de retirarlo de la zona de aniquilación, inflige 1D3 daños a cada otro agente a 2\" o menos ese agente enemigo y visible para él. Cada agente que quede subsiguientemente incapacitado debido a esta regla de armas provocará que esto vuelva a suceder.",
+      "name": "Stinger",
+      "description": "Whenever an enemy operative is incapacitated by this weapon, before it's removed from the killzone, inflict D3 damage on each other operative visible to and within 2\" of it.\nEach operative subsequently incapacitated as a result of this weapon rule will cause this to happen again.",
       "team": "AEL-HOTA"
     },
     {
       "id": "WR-AEL-HOTA-TANGLE",
-      "name": "Enredar",
-      "description": "Cuando este agente combate o contraataca con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno).",
+      "name": "Tangle",
+      "description": "Whenever this operative is fighting or retaliating with this weapon, each of your blocks can be allocated to block two unresolved successes (instead of one).",
       "team": "AEL-HOTA"
     }
   ]

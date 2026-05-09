@@ -87,15 +87,15 @@
       "description": "Los agentes ORKOMANDO amigos (salvo **GARRAPATO BOMBA** o **GROT**) tienen la siguiente arma de combate. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la versión que sea mejor.",
       "weapons": [
         {
-          "wepId": "ORK-KOM-CHP-Rebanadora",
+          "wepId": "ORK-KOM-CHP-CHOPPA",
           "opTypeId": null,
           "seq": 0,
-          "wepName": "Rebanadora",
+          "wepName": "Choppa",
           "profiles": [
             {
-              "wepprofileId": "ORK-KOM-CHP-Rebanadora-0",
+              "wepprofileId": "ORK-KOM-CHP-CHOPPA-0",
               "wepType": "M",
-              "wepId": "ORK-KOM-CHP-Rebanadora",
+              "wepId": "ORK-KOM-CHP-CHOPPA",
               "seq": 0,
               "profileName": "",
               "ATK": "3",
@@ -149,7 +149,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Reposicionar"
+                  "details": "Reposition"
                 },
                 {
                   "id": "WR-UNIV-SATURATE"
@@ -703,7 +703,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": " Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
@@ -1071,7 +1071,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 }
               ]
             },
@@ -1210,8 +1210,8 @@
   "weapon_rules": [
     {
       "id": "WR-ORK-KOM-EXPLOSIVE",
-      "name": "Explosivo",
-      "description": "Este agente puede realizar la acción de Disparar con esta arma mientras esté dentro de la zona de control de un agente enemigo. No selecciones un blanco válido. En su lugar, este agente es siempre el objetivo principal y no puede estar en cobertura ni oculto.",
+      "name": "Explosive",
+      "description": "This operative can perform the shoot action with this weapon while within control range of an enemy operative.\nDo not select a valid target, instead this operative is always the primary target and cannot be in cover or obscured.",
       "team": "ORK-KOM"
     }
   ]

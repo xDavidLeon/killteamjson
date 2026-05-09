@@ -1,0 +1,55 @@
+{
+  "locale": "es",
+  "actions": {
+    "ACTION-GUARD": {
+      "effects": [
+        "El agente se pone en guardia (ver abajo) hasta que se cumpla alguna de estas condiciones: \n - El agente realiza una acción, mueve o es desplegado.\n - Un agente enemigo termina una acción en su zona de control y no interrumpes esa activación (ver abajo).\n - Su orden cambia.\n - Es el inicio del siguiente punto de inflexión."
+      ],
+      "conditions": [
+        "Esta acción se considera una acción de Disparar. Un agente no puede realizar esta acción mientras tenga una orden de Ocultarse, o si está en la zona de control de un agente enemigo."
+      ],
+      "name": "Ponerse en Guardia"
+    },
+    "ACTION-HATCHWAY-FIGHT": {
+      "effects": [
+        "Combate con el agente activo (ver secuencia de combate en la pág. 44).",
+        "En el paso de elegir agente enemigo, debes elegir un agente enemigo a 2\" o menos del punto de acceso de una escotilla abierta que el agente activo esté tocando, y al otro lado del mismo. Mientras dura la acción, esos agentes se considera que están dentro de la zona de control uno de otro."
+      ],
+      "conditions": [
+        "Esta acción se considera una acción de Combatir. Un agente no puede realizar esta acción estando en la zona de control de un agente enemigo, o si su peana no está tocando el punto de acceso de una escotilla abierta."
+      ],
+      "name": "Combate en la Escotilla"
+    },
+    "ACTION-OPERATE-HATCH": {
+      "effects": [
+        "Abre o cierra una escotilla cuyo punto de acceso está en la zona de control del agente.",
+        "Un agente puede realizar esta acción durante una acción de Correr o Reposicionar, y puede usar cualquier movimiento restante después de ello."
+      ],
+      "conditions": [
+        "No se puede realizar esta acción estando en la zona de control de un agente enemigo, o si la escotilla está abierta y su punto de acceso está en la zona de control de un agente enemigo."
+      ],
+      "name": "Operar Portillo"
+    },
+    "ACTION-BREACH": {
+      "effects": [
+        "Abre un punto de brecha cerrado cuyo punto de acceso esté en la zona de control del agente.",
+        "Un agente que tenga las palabras \"marcador de brecha\", \"granadero\" o \"mina\" en su tarjeta de datos, o que tenga un arma con la regla de armas Penetración 2 o Críticos de penetración 2 (salvo armas con la regla de armas Área o Ráfaga), puede realizar esta acción por 1 PA menos (hasta un mínimo de 1 PA), pero no puede hacerlo durante una activación/reacción en la que haya realizado la acción Cargar o Disparar (o viceversa).",
+        "Tira 1D6 por separado por cada agente que se encuentre en el otro lado de un punto de acceso y tenga ese punto de acceso en su zona de control: con un 4+, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación e inflígele daño igual a la mitad del resultado del dado (redondeando al alza)."
+      ],
+      "conditions": [
+        "Un agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si el punto de brecha está abierto."
+      ],
+      "name": "Brecha"
+    },
+    "ACTION-DOOR-FIGHT": {
+      "effects": [
+        "Combate con el agente activo (ver secuencia de combate en la pág. 44).",
+        "En el paso de elegir agente enemigo, debes elegir un agente enemigo a 2\" o menos de una puerta que el agente activo esté tocando, y al otro lado de la misma. Mientras dure la acción, esos agentes se considera que están dentro de la zona de control uno de otro."
+      ],
+      "conditions": [
+        "Esta acción se considera una acción de Combatir. Un agente no puede realizar esta acción estando en la zona de control de un agente enemigo, o si su peana no toca una puerta."
+      ],
+      "name": "Combatir en Puerta"
+    }
+  }
+}

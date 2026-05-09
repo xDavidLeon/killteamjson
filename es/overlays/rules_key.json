@@ -1,0 +1,209 @@
+{
+  "locale": "es",
+  "entries": {
+    "bases": {
+      "aliases": [
+        "peana"
+      ],
+      "text": "Todos los agentes están sobre peanas. La peana es una parte importante de la miniatura a efectos de reglas, en particular para medir distancias. El tamaño de peana de cada agente se especifica en su ficha de datos. Los lados de varias peanas pueden tocarse, pero una peana no puede colocarse sobre otra. Los agentes amigos pueden moverse a través de otros agentes amigos (la peana y la miniatura), pero no a través de agentes enemigos. Las peanas no pueden moverse a través de terreno, o sobrepasar el borde de la zona de combate.",
+      "name": "Peanas"
+    },
+    "control-range": {
+      "examples": [
+        "Los agentes A y B están dentro de la zona de control mutua.",
+        "El terreno está dentro de la zona de control tanto del agente B como del C.",
+        "Debido al terreno, el agente B no es visible para el agente C, y viceversa, por lo tanto no están en la zona de control mutua."
+      ],
+      "aliases": [
+        "zona de control"
+      ],
+      "text": "Muchas reglas se refieren a la zona de control, como mover, combatir y usar cobertura. Para que algo esté en la zona de control de un agente, debe estar a 1\" o menos del mismo y ser visible para él. La zona de control entre agentes es mutua, por lo que dos agentes están en la zona de control uno de otro si uno de ellos es visible para el otro y se encuentra a 1\" o menos del otro. Imagina la zona de control como un área de interacción que el agente tiene con las cosas cercanas a él.",
+      "name": "Zona de Control"
+    },
+    "cover": {
+      "examples": [
+        "Hay terreno intermedio dentro de la zona de control del agente A, por lo tanto está en cobertura.",
+        "Hay terreno intermedio, pero no está dentro de la zona de control del agente A, por lo tanto no está en cobertura.",
+        "Hay terreno dentro de la zona de control del agente A, pero el terreno no es intermedio, por lo tanto no está en cobertura.",
+        "Hay terreno intermedio dentro de la zona de control del agente A, pero el agente B está a menos de 2\" del agente A, por lo tanto no está en cobertura."
+      ],
+      "aliases": [
+        "cobertura"
+      ],
+      "text": "La cobertura se determina de un agente a otro, normalmente cuando uno de ellos está disparando. Un agente está en cobertura si hay terreno intermedio dentro de su zona de control. Sin embargo, no puede estar en cobertura a menos de 2\" del otro agente. Intermedio se explica aquí. Un agente en cobertura con una orden de Ocultar no es un objetivo válido. Un agente en cobertura con una orden de Entrar en Combate es un objetivo válido, pero tiene una salvación por cobertura (ver acción Disparar aquí).",
+      "name": "Cobertura"
+    },
+    "damage": {
+      "aliases": [
+        "daño"
+      ],
+      "text": "Cuando se inflige daño a un agente, reduce sus heridas en esa cantidad. El número inicial de heridas de un agente se determina por su estadística de Heridas (ver fichas de datos). Si las heridas de un agente se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un agente tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los agentes lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada agente con dados, marcadores o escribiéndolo. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un agente queda incapacitado, pero antes de ser retirado.",
+      "name": "Daño"
+    },
+    "datacard": {
+      "text": "Las fichas de datos contienen reglas específicas para cada agente, incluyendo estadísticas clave.",
+      "name": "Ficha de Datos"
+    },
+    "dice": {
+      "examples": [
+        "Por ejemplo, si se requiere un 4+, un resultado de 4, 5 o 6 cumple con esto, y si se requiere un 1-4, un resultado de 1, 2, 3 o 4 cumple con esto."
+      ],
+      "aliases": [
+        "D6",
+        "D3",
+        "dados",
+        "dado"
+      ],
+      "text": "Se utilizan dados de 6 caras para determinar el resultado de varias reglas. Esto a menudo requerirá x+, donde x es el resultado más bajo posible, por ejemplo, 3+. A veces se requerirá un resultado dentro de un rango, por ejemplo, 1-3. Algunas reglas raras requieren que tires un D3. Para hacerlo, tira un D6 y divide el resultado por la mitad (redondeando hacia arriba). Algunas requieren xD6 o xD3 (por ejemplo, 2D6 o 3D3). Tira x número de dados y suma los resultados. Algunas requieren D6+x o D3+x (por ejemplo, D6+2 o D3+3). Tira ese dado y suma x al resultado. Algunas reglas te permiten repetir una tirada de dado. Nunca puedes repetir una tirada de dado más de una vez, y no puedes seleccionar el resultado original, incluso si el nuevo resultado es peor. Si es un dado de ataque o defensa, lo repites antes de que se retenga o se descarte. Si puedes repetir varios dados diferentes, puedes hacerlo en cualquier orden, incluso viendo el resultado de una repetición antes de decidir la siguiente. Si varios jugadores pueden repetir dados al mismo tiempo (por ejemplo, durante una acción de Luchar), alternan entre repetir un dado o pasar hasta que ambos pasen sucesivamente, comenzando con el jugador con iniciativa (esto tiene prioridad sobre la iniciativa y las reglas que sucederían al mismo tiempo).",
+      "name": "Dados"
+    },
+    "distance": {
+      "examples": [
+        "Ejemplo de medición de distancia: Agente B está a menos de 2\" de Agente A. El marcador objetivo está a menos de 2\" de Agente A. Agente C está complamente a menos de 2\" de Agente A."
+      ],
+      "aliases": [
+        "distancia"
+      ],
+      "text": "Varias reglas tienen un requisito de distancia en pulgadas. Al medir hacia y desde algo, hazlo desde la parte más cercana de ello. Para un agente, hazlo desde su base, ignorando todas las partes de su miniatura. Al medir hacia y desde un área de la zona de combate, mida solo la distancia horizontal (en otras palabras, mire desde arriba para ignorar la distancia vertical). Si una regla requiere que algo esté 'a menos' de una distancia, el requisito se cumple si alguna parte de ello está a esa distancia o menos. Si una regla requiere que algo esté 'totalmente a menos' de una distancia, el requisito se cumple si cada parte de ello está a esa distancia o menos. Un agente siempre está dentro y totalmente dentro de los requisitos de distancia de sí mismo y de un marcador que lleva. Si un agente lleva un marcador, ese marcador está a la misma distancia que ese agente. Los agentes dentro de una cierta distancia de un agente que lleva un marcador también están dentro de la misma distancia de ese marcador.",
+      "name": "Distancia"
+    },
+    "equipment": {
+      "aliases": [
+        "equipo"
+      ],
+      "text": "El equipo son reglas adicionales que puedes seleccionar antes de la batalla, como se especifica en tu secuencia de juego (ver equipo). El equipo universal se puede seleccionar para cualquier equipo de matar, mientras que el equipo de facción es específico. Cada jugador no puede seleccionar cada opción de equipo más de una vez por juego.",
+      "name": "Equipo"
+    },
+    "intervening": {
+      "examples": [
+        "Las líneas de puntería cruzan el terreno, por lo tanto, es interpuesto.",
+        "Debido a dónde ha decidido el jugador del agente A dibujar las líneas de puntería, el terreno no es interpuesto.",
+        "Ninguna de estas líneas de puntería cruza la característica del terreno A, por lo tanto, no es interpuesto."
+      ],
+      "aliases": [
+        "interpuesto"
+      ],
+      "text": "Reglas como Cobertura y Oscurecido requieren determinar si algo es interpuesto, por ejemplo, terreno. La mayor parte del tiempo esto se determina fácilmente: si está entre el agente y el objetivo previsto, está interpuesto. A veces esto no está claro, por lo que usamos líneas de puntería. Para usar líneas de puntería, el jugador del agente dibuja líneas rectas imaginarias de 1 mm de diámetro desde cualquier punto de su base hasta cada parte frontal de la base del objetivo previsto. Cualquier cosa que al menos una de estas líneas cruce está interpuesto. Cualquier cosa que todas estas líneas crucen está totalmente interpuesto. El jugador del agente decide desde qué punto de la base se dibujan las líneas de puntería. Esto puede permitir al agente obtener un ángulo de puntería más favorable: imagine al agente inclinándose a la derecha o a la izquierda según corresponda. La intervención generalmente se determina de un agente a otro, pero algunas reglas raras requerirán que la determine a partir de otras cosas, como marcadores. En tales casos, trate todas las partes de esa cosa como la 'base' al determinar esto. Más comúnmente, las líneas de puntería se pueden dibujar en un plano bidimensional (de arriba hacia abajo) para facilitar. Sin embargo, si hay una diferencia de altura entre los agentes (por ejemplo, uno de ellos está en terreno de Vantage), las líneas de puntería deben dibujarse en un plano tridimensional. Ninguna de estas líneas de puntería cruza la característica del terreno A, por lo tanto, no es interpuesto.",
+      "name": "Interpuesto"
+    },
+    "keyword": {
+      "text": "Las palabras clave son un método de identificación para ciertas reglas. Usarás palabras clave con más frecuencia con los agentes (ver datacards), ya que algunas reglas solo afectarán a los agentes con las palabras clave relevantes. Algunas reglas raras también tienen palabras clave, por ejemplo, SOPORTE o GAMBITO ESTRATÉGICO. Estas palabras clave no significan nada por sí mismas, pero otras reglas interactúan con ellas. Las palabras clave se muestran en fuente NEGRITA DE PALABRA CLAVE. Las que están en naranja con un símbolo de calavera, por ejemplo, TEMPESTUS AQUILON, son palabras clave de facción utilizadas para identificar a todos los agentes/reglas de ese equipo de matar.",
+      "name": "Clave"
+    },
+    "marker": {
+      "examples": [
+        "Ejemplo de marcadores en juego. Solo tres agentes disputan el marcador de objetivo, ya que no está dentro de la zona de control del agente naranja de la izquierda (la característica del terreno evita que sea visible). El LPA total de los agentes naranjas que disputan el marcador de objetivo es 2. El LPA total de los agentes blancos que lo disputan es 4, por lo que lo controlan."
+      ],
+      "aliases": [
+        "marcador",
+        "marcadores"
+      ],
+      "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los agentes a su alrededor. Se pueden colocar debajo de los agentes (retire temporalmente a los agentes para hacerlo), y los agentes se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los agentes disputan los marcadores dentro de su zona de control. Los agentes amigos controlan un marcador si el LPA total de los que lo disputan es mayor que el de los agentes enemigos, pero el control no puede cambiar durante una acción. Mientras un agente lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único agente que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de matar. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
+      "name": "Marcador"
+    },
+    "obscured": {
+      "examples": [
+        "El agente B es visible para el agente A a través de una ventana. Sin embargo, hay terreno pesado interpuesto a más de 1\" de ambos agentes, por lo que el agente B está oscurecido.",
+        "Hay terreno pesado interpuesto, pero está a 1\" de A, por lo que el agente B no está oscurecido.",
+        "Hay terreno pesado interpuesto. Si bien partes de él están a 1\" de los agentes, parte de él no lo está, por lo que el agente B está oscurecido."
+      ],
+      "aliases": [
+        "oscurecido",
+        "oscurecidos"
+      ],
+      "text": "Oscurecido se determina de un agente a otro, normalmente cuando uno de ellos está disparando. Un agente está oscurecido si hay terreno pesado interpuesto que está a más de 1\" de ambos agentes. Sin embargo, no puede estar oscurecido por terreno pesado interpuesto que esté a 1\" de cualquiera de los agentes. Cuando un agente está disparando, si el agente objetivo está oscurecido: El atacante debe descartar un éxito de su elección en lugar de conservarlo. Todos los éxitos críticos del atacante se conservan como éxitos normales y no se pueden cambiar a éxitos críticos (esto tiene prioridad sobre todas las demás reglas). \nOscurecido es cuando un agente es un objetivo válido, pero los obstáculos interpuestos (normalmente terreno) lo convierten en un objetivo menos eficiente. Imagina que el agente tiene que apuntar al enemigo a través de una ruina o una ventana distante. En otras palabras, que un agente esté a 1\" de una característica del terreno no impide que toda la característica del terreno sea oscurecedora, solo la parte a 1\" del agente.",
+      "name": "Oscurecido"
+    },
+    "operative": {
+      "aliases": [
+        "Operativo",
+        "agentes",
+        "operativos",
+        "agente"
+      ],
+      "text": "Los agentes u operativos son las miniaturas de Citadel utilizadas en el juego. Tus agentes son agentes amigos, y los agentes de tu oponente son agentes enemigos.",
+      "name": "Agente"
+    },
+    "order": {
+      "aliases": [
+        "ordenes",
+        "orden"
+      ],
+      "text": "Una orden es un estado que puede tener un agente. Puede ser orden de Ocultarse o orden de Trabarse. A los agentes se les da una orden de Ocultarse cuando se colocan antes de la batalla. Puedes cambiar la orden de un agente cada vez que se activa. Los marcadores de orden tienen dos caras. El lado más claro muestra que un agente está listo (puede ser activado en la fase de Tiroteo) y el lado más oscuro muestra que un agente está usado (ha sido activado en la fase de Tiroteo).",
+      "name": "Orden"
+    },
+    "order-conceal": {
+      "aliases": [
+        "ocultarse",
+        "oculto"
+      ],
+      "text": "El agente no puede realizar acciones de Disparar y Cargar, y no puede Reaccionar. Sin embargo, no es un objetivo válido mientras está en cobertura.",
+      "name": "Oculto"
+    },
+    "order-engage": {
+      "aliases": [
+        "trabarse",
+        "trabado"
+      ],
+      "text": "El agente puede realizar acciones como de costumbre y puede Reaccionar.",
+      "name": "Trabado"
+    },
+    "ploy": {
+      "examples": [
+        "Repetición de Mando: Usa este ardid de tiroteo después de tirar tus dados de ataque o de defensa. Puedes repetir uno de esos dados."
+      ],
+      "aliases": [
+        "gambitos",
+        "gambito"
+      ],
+      "text": "Los jugadores pueden gastar CP en gambitos para obtener bonificaciones de reglas en el momento oportuno. A menos que se especifique lo contrario, todos los gambitos cuestan 1 CP. Hay dos tipos de gambitos: Cada gambito de estrategia es un GAMBITO ESTRATÉGICO (se usa en el paso de Gambito de la fase de Estrategia). Algunos aplican reglas que se resuelven “inmediatamente”; de lo contrario, aplican reglas que duran hasta el final del punto de giro. Los gambitos de tiroteo se utilizan en la fase de Tiroteo y aplican reglas según especifique el gambito. Todos los jugadores tienen acceso al gambito de tiroteo Repetición de Mando a continuación y a los gambitos de las reglas de su equipo de matar. Aparte de la Repetición de Mando, cada jugador no puede usar cada gambito más de una vez por punto de giro.",
+      "name": "Gambito"
+    },
+    "precedence": {
+      "text": "Algunas reglas raras entrarán en conflicto entre sí, por lo que debe establecerse cuál tiene prioridad. En orden de prioridad, una regla tiene prioridad si: 1. Lo dice específicamente. 2. El comentario del diseñador en línea lo dice. 3. No se encuentra en el libro básico (es decir, otras reglas tienen prioridad sobre las reglas del libro básico). 4. Dice \"no puede\". 5. El jugador con iniciativa decide.",
+      "name": "Precedencia"
+    },
+    "roll-off": {
+      "aliases": [],
+      "text": "Si una regla requiere una tirada enfrentada, ambos jugadores tiran un D6 y quien obtenga el mayor gana la tirada enfrentada. Si hay empate, vuelven a tirar.",
+      "name": "Tirada enfrentada"
+    },
+    "token": {
+      "aliases": [
+        "marcadores",
+        "marcador"
+      ],
+      "text": "Los marcadores se utilizan para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al agente correspondiente, pero se pueden mover para dejar espacio a otros agentes y marcadores según sea necesario. Se retiran cuando termina el efecto de la regla que se está rastreando.",
+      "name": "Marcador"
+    },
+    "valid-target": {
+      "aliases": [
+        "válido",
+        "válidos",
+        "valido",
+        "validos"
+      ],
+      "text": "Algunas reglas requieren que selecciones un objetivo válido para un agente. Esto es más común cuando un agente está disparando, pero algunas reglas raras también lo requieren. Si el objetivo previsto tiene una orden de Trabarse, es un objetivo válido si es visible para el agente. Si el objetivo previsto tiene una orden de Ocultarse, es un objetivo válido si es visible para el agente y no está en cobertura.",
+      "name": "Objetivo válido"
+    },
+    "visible": {
+      "aliases": [
+        "visibles",
+        "visible"
+      ],
+      "text": "Para que algo sea visible, el agente debe poder verlo. Para comprobar la visibilidad, mira desde detrás del agente y determina si puedes trazar una línea recta sin obstáculos de 1 mm de diámetro desde su cabeza hasta cualquier parte de lo que intenta ver. Ignora las bases de los agentes al determinar esto. Un agente es siempre visible para sí mismo. El agente enemigo es visible en ambas imágenes a continuación, incluso cuando está parcialmente detrás de la ruina cercana."
+    },
+    "killzone-floor": {
+      "text": "El suelo de la zona de combate es el nivel más bajo de la zona de combate (es decir, el tablero de juego). Cualquier cosa que esté sobre un marcador que esté en el suelo de la zona de combate también está en el suelo de la zona de combate.",
+      "name": "Suelo de la Zona de Combate"
+    },
+    "classified": {
+      "text": "Al planificar tu torneo, debes determinar si utilizará el formato Clasificado. Recomendamos que tu torneo sea Clasificado si tus premios por ganar incluyen un billete para el Campeonato Mundial de Warhammer. En todos los demás entornos de torneo, puedes permitir el juego de todos los equipos con las reglas de la 3ª edición. Los equipos clasificados se pueden jugar en torneos de formato clasificado. Los equipos que no son clasificados continuarán recibiendo actualizaciones de reglas regulares – actualizaciones de equilibrio, comentarios del diseñador y erratas – y se equilibrarán durante toda la edición actual de Kill Team",
+      "name": "Clasificado"
+    },
+    "season": {
+      "text": "Una temporada suele durar alrededor de 12 meses y se refiere a un período durante el cual equipos específicos están disponibles para jugar y reciben actualizaciones regulares de sus reglas. Cada temporada permite a los jugadores disfrutar de una gama equilibrada y manejable de equipos mientras se introduce nuevo contenido.",
+      "name": "Temporada"
+    }
+  }
+}

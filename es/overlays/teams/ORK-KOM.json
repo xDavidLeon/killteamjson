@@ -1,0 +1,382 @@
+{
+  "killteamId": "ORK-KOM",
+  "locale": "es",
+  "team": {
+    "description": "A diferencia de la mayor parte de su especie, Los Orkomandos aprecian la sutileza. Usarán cualquier truco sucio y rastrero que se les ocurra para lograr sus metas. Por supuesto, en cuanto estalla la pelea, su amor por la violencia sale a relucir.",
+    "composition": "Un equipo de exterminio de ORKOMANDOS está compuesto por:\n\n- 1 1 agente NOBLE ORKOMANDO con una de las siguientes opciones:\n  - Piztola; gran rebanadora\n  -  Piztola; garra d'energía\n- 9 agentes ORKOMANDO elegidos de la siguiente lista:\n  - GARRAPATO BOMBA (X)\n  - ORKORRASO\n  - ORKORIETE\n  - ACHICHARRADOR\n  -  TELEKO\n  - ZUELTADAKKA\n  - KANIJO (X)\n  - CHIKO KOBETE\n  - RAJADOR\n  - FRANCOTIRADORK\n\nSalvo agentes ORKORRASO, tu comando solo puede incluir uno de cada uno de los agentes de esta lista. \n\n(X) Estos agentes cuentan como media opción cada uno, lo que significa que puedes elegir ambos y cuentan como una sola elección.",
+    "killteamName": "Orkomandos"
+  },
+  "ploys": {
+    "ORK-KOM-S-DD": {
+      "description": "Las armas a distancia de los agentes ORKOMANDO amigos tienen la regla de arma Castigadora."
+    },
+    "ORK-KOM-S-SA": {
+      "description": "Cada vez que un agente enemigo dispara a un agente ORKOMANDO amigo que tenga una orden de ocultarse, puedes guardar uno de tus dados de defensa como éxito normal sin tirarlo (además de la salvación por cobertura, si dispones de ella).",
+      "ployName": "EZKONDIDOZ"
+    },
+    "ORK-KOM-S-SHHH": {
+      "description": "Cada agente ORKOMANDO amigo que no sea un blanco válido para los agentes enemigos, o que tenga una orden de ocultarse y se encuentre a más de 6\" de todo agente enemigo, puede realizar inmediatamente una acción libre de Correr. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "ORK-KOM-S-WAAGH": {
+      "description": "Las armas de combate de los agentes ORKOMANDO amigos tienen la regla de arma Equilibrada."
+    },
+    "ORK-KOM-T-JAS": {
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflige Daño normal a un agente ORKOMANDO amigo (que no sea GARRAPATO BOMBA o GROT). Ignora ese daño infligido",
+      "ployName": "ZOLO EZ UN RAZGUÑO"
+    },
+    "ORK-KOM-T-KBB": {
+      "description": "Usa este ardid de tiroteo cuando un agente ORKOMANDO amigo que tenga una orden de ocultarse esté combatiendo durante una activación en la que haya realizado una acción de **Cargar**, al resolver el primer dado de ataque, si este golpea con un éxito normal. \n Ese éxito normal se considera un éxito crítico en su lugar.",
+      "ployName": "AZTUTOZ PERO BRUTOZ"
+    },
+    "ORK-KOM-T-KE": {
+      "description": "Usa este ardid de tiroteo al final de la fase de tiroteo. Elige un agente ORKOMANDO amigo. Este puede realizar inmediatamente una acción libre de **Combatir**.",
+      "ployName": "¡MACHAKAZLOZ!"
+    },
+    "ORK-KOM-T-SIO": {
+      "description": "Usa este ardid de tiroteo cuando un agente ORKOMANDO amigo es activado, o cuando su atributo LPA cambia. Hasta el inicio del siguiente punto de inflexión, puedes ignorar cualquier cambio a su atributo LPA.",
+      "ployName": "NO TE PAREZ"
+    }
+  },
+  "equipments": {
+    "ORK-KOM-CHP": {
+      "eqName": "REBANADORAZ",
+      "description": "Los agentes ORKOMANDO amigos (salvo **GARRAPATO BOMBA** o **GROT**) tienen la siguiente arma de combate. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la versión que sea mejor.",
+      "effects": "ADDWEP:Rebanadora|M|3|3+|4/5|"
+    },
+    "ORK-KOM-CS": {
+      "eqName": "CULATA PLEGABLE",
+      "description": "Elimina la regla de arma Alcance de las siguientes armas a distancia que tengan los agentes ORKOMANDO amigos:\r \r-  Piztola kalambrazo\r - Piztola\r ",
+      "effects": ""
+    },
+    "ORK-KOM-DYN": {
+      "eqName": "DINAMITA",
+      "description": "Una vez por batalla, un agente ORKOMANDO amigo (que no sea GARRAPATO BOMBA o GROT) puede usar la siguiente arma a distancia:",
+      "effects": "ADDWEP:Dynamite|R|5|4+|4/5|Range 4\", Blast 1\", Saturate, Limited, Heavy (RepositionOnly)",
+      "weapons": {
+        "ORK-KOM-DYN-DYNAMITE": {
+          "wepName": "Dinamita"
+        }
+      }
+    },
+    "ORK-KOM-HRP": {
+      "eqName": "ARPÓN",
+      "description": "Una vez por punto de inflexión, un agente ORKOMANDO amigo (salvo GARRAPATO BOMBA o GROT) puede usar la siguiente arma a distancia:",
+      "effects": "ADDWEP:Harpoon|R|4|4+|4/5|Range 8\", Lethal 5+, Stun",
+      "weapons": {
+        "ORK-KOM-HRP-HARPOON": {
+          "wepName": "Arpón"
+        }
+      }
+    }
+  },
+  "opTypes": {
+    "ORK-KOM-NOB": {
+      "opTypeName": "NOBLE ORKOMANDO",
+      "weapons": {
+        "ORK-KOM-NOB-SLG": {
+          "wepName": "Piztola"
+        },
+        "ORK-KOM-NOB-BC": {
+          "wepName": "Gran rebanadora"
+        },
+        "ORK-KOM-NOB-PC": {
+          "wepName": "Garra d'energía"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-NOB-A-TS": {
+          "description": "Cada agente **ORKOMANDO** amigo (salvo **GARRAPATO BOMBA**) puede realizar acciones de Cargar aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        },
+        "ORK-KOM-NOB-KT": {
+          "description": "Este agente puede realizar 2 acciones de Combatir durante su activación",
+          "abilityName": "La hora de laz tortaz"
+        }
+      },
+      "actions": {
+        "ORK-KOM-NOB-GID": {
+          "effects": [
+            "**APOYO**  Elige un agente ORKOMANDO amigo distinto (salvo GARRAPATO BOMBA) a 6\" o menos de este agente y visible para él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o como reacción."
+          ],
+          "name": "¡MANOZ A LA OBRA!"
+        }
+      }
+    },
+    "ORK-KOM-BOY": {
+      "opTypeName": "ORKORRASO",
+      "weapons": {
+        "ORK-KOM-BOY-SLG": {
+          "wepName": "Piztola"
+        },
+        "ORK-KOM-BOY-CHP": {
+          "wepName": "Rebanadora"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-BOY-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        },
+        "ORK-KOM-BOY-A-TWN": {
+          "description": "Puedes llevar a cabo cada una de las siguientes opciones una vez por punto de inflexión:\r \r -  Un agente ORKORRASO ORKOMANDO amigo puede realizar la acción Granada de humo\r -  Un agente ORKORRASO ORKOMANDO amigo puede realizar la acción Granada aturdidora.\r \r Las reglas para esas acciones figuran en el equipo universal.  \n\r Realizar esas acciones usando esta regla no cuenta para sus límites de acciones (es decir, si también eliges esas granadas como equipo).",
+          "abilityName": "Kachivachez táktikoz"
+        }
+      }
+    },
+    "ORK-KOM-GROT": {
+      "opTypeName": "KANIJO KOMANDO",
+      "weapons": {
+        "ORK-KOM-GROT-GC": {
+          "wepName": "Rebanadora de Grot"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-GROT-A-SZ": {
+          "description": " Este agente no puede tener una orden de trabarse. Siempre que este agente esté tras cobertura, no puede ser elegido como blanco válido, teniendo esto prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos..",
+          "abilityName": "Ezkurridizo"
+        },
+        "ORK-KOM-GROT-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      },
+      "actions": {
+        "ORK-KOM-GROT-GH": {
+          "effects": [
+            "Elige un punto visible en un elemento de terreno para este agente.",
+            ". Retira a este agente de la zona de aniquilación y despliégalo de nuevo a 1\" o menos en horizontal de ese punto, en una localización donde ser desplegado, fuera de la zona de control de todo agente enemigo y con el punto elegido visible para él.",
+            "Este agente no puede realizar la acción Operar portillo durante esta acción.",
+            "Esta acción se considera una acción de Reposicionarse.",
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, ni durante una activación en la que haya realizado una acción de Cargar o Retroceder (o viceversa)."
+          ],
+          "name": "GANCHO PA’ TREPAR"
+        }
+      }
+    },
+    "ORK-KOM-SLS": {
+      "opTypeName": "RAJADOR",
+      "weapons": {
+        "ORK-KOM-SLS-TK": {
+          "wepName": "Kuchilloz arrojadizoz"
+        },
+        "ORK-KOM-SLS-TC": {
+          "wepName": "Rebanadoraz gemelaz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-SLS-A-DAYG": {
+          "description": " Después de que este agente combata o contraataque, si no resulta incapacitado puedes infligir 1D3 daños al agente enemigo en dicha secuencia.",
+          "abilityName": "¿Ez lo mejor ke zabez hazer?"
+        },
+        "ORK-KOM-SLS-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      }
+    },
+    "ORK-KOM-BRC": {
+      "opTypeName": "ORKORIETE",
+      "weapons": {
+        "ORK-KOM-BRC-SLG": {
+          "wepName": "Piztola"
+        },
+        "ORK-KOM-BRC-RAM": {
+          "wepName": "Ariete de azedio"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-BRC-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      },
+      "actions": {
+        "ORK-KOM-BRC-BRC": {
+          "effects": [
+            "Coloca uno de tus marcadores de Brecha dentro de la zona de control de este agente y tan cerca como sea posible de un elemento de terreno dentro de su zona de control",
+            " Cuando un agente se encuentre a 1\" o menos de ese marcador, las partes de ese elemento de terreno que no tengan más de 1\" de grosor se considerarán terreno Accesible para él.",
+            "Este agente puede realizar esta acción durante una acción de Cargar o Reposicionarse, y le cuesta 1 PA menos durante esas acciones.",
+            " Tras hacerlo, puede usar la distancia de movimiento que le quedase."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si no hay un elemento de terreno en su zona de control."
+          ],
+          "name": "ABRIR BRECHA"
+        }
+      }
+    },
+    "ORK-KOM-SNP": {
+      "opTypeName": "FRANCOTIRADORK",
+      "weapons": {
+        "ORK-KOM-SNP-SBS": {
+          "wepName": "Akribillador pezado kon mirilla",
+          "profiles": {
+            "ORK-KOM-SNP-SBS-0": {
+              "profileName": "oculto"
+            },
+            "ORK-KOM-SNP-SBS-1": {
+              "profileName": "inmóvil"
+            },
+            "ORK-KOM-SNP-SBS-2": {
+              "profileName": "barrido"
+            }
+          }
+        },
+        "ORK-KOM-SNP-F ": {
+          "wepName": "Puñoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-SNP-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      }
+    },
+    "ORK-KOM-DAK": {
+      "opTypeName": "ZUELTADAKKA",
+      "weapons": {
+        "ORK-KOM-DAK-DS": {
+          "wepName": "Dakkatralladora",
+          "profiles": {
+            "ORK-KOM-DAK-DS-0": {
+              "profileName": "corto alcance"
+            },
+            "ORK-KOM-DAK-DS-1": {
+              "profileName": "largo alcance"
+            }
+          }
+        },
+        "ORK-KOM-DAK-F": {
+          "wepName": "Puñoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-DAK-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      },
+      "actions": {
+        "ORK-KOM-DAK-DD": {
+          "effects": [
+            "Realiza una acción libre de Correr y una acción libre de Disparar con este agente en cualquier orden. Solo puedes elegir una dakkatralladora para esa acción de Disparar."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o mientras tenga una orden de ocultarse"
+          ],
+          "name": "¡DAKKA A TODA MECHA!"
+        }
+      }
+    },
+    "ORK-KOM-COMMS": {
+      "opTypeName": "TELEKO",
+      "weapons": {
+        "ORK-KOM-COMMS-SHO": {
+          "wepName": "Piztola kalambrazo"
+        },
+        "ORK-KOM-COMMS-F": {
+          "wepName": "Puñoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-COMMS-A-IGAPL": {
+          "description": ": Una vez por activación de este agente, puede realizar una acción de Colocar marcador, Recoger marcador o una acción de misión por 1 PA menos.",
+          "abilityName": "Tengo un plan, chavalez"
+        },
+        "ORK-KOM-COMMS-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      },
+      "actions": {
+        "ORK-KOM-COMMS-LI": {
+          "effects": [
+            "**APOYO**",
+            "Elige un agente ORKOMANDO amigo distinto (salvo GARRAPATO BOMBA) a 6\" o menos de este agente y visible para él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
+          ],
+          "name": "EZKUCHADME"
+        }
+      }
+    },
+    "ORK-KOM-BRN": {
+      "opTypeName": "ACHICHARRADOR",
+      "weapons": {
+        "ORK-KOM-BRN-BRN": {
+          "wepName": "Achicharrador",
+          "profiles": {
+            "ORK-KOM-BRN-BRN-0": {
+              "profileName": "estándar"
+            },
+            "ORK-KOM-BRN-BRN-1": {
+              "profileName": "tromba"
+            }
+          }
+        },
+        "ORK-KOM-BRN-F": {
+          "wepName": "Puñoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-BRN-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      }
+    },
+    "ORK-KOM-RKT": {
+      "opTypeName": "CHIKO KOBETE",
+      "weapons": {
+        "ORK-KOM-RKT-RL": {
+          "wepName": "Lanzakobetez",
+          "profiles": {
+            "ORK-KOM-RKT-RL-0": {
+              "profileName": "apuntado"
+            },
+            "ORK-KOM-RKT-RL-1": {
+              "profileName": "móvil"
+            }
+          }
+        },
+        "ORK-KOM-RKT-F": {
+          "wepName": "Puñoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-RKT-A-TS": {
+          "description": "Cada agente ORKOMANDO amigo (salvo GARRAPATO BOMBA) puede realizar acciones de **Cargar** aunque tenga una orden de ocultarse.",
+          "abilityName": "DEGOLLADOREZ"
+        }
+      }
+    },
+    "ORK-KOM-SQUIG": {
+      "opTypeName": "GARRAPATO BOMBA",
+      "weapons": {
+        "ORK-KOM-SQUIG-EXPL": {
+          "wepName": "Explozivoz"
+        },
+        "ORK-KOM-SQUIG-BIT": {
+          "wepName": "Mordizquitoz"
+        }
+      },
+      "abilities": {
+        "ORK-KOM-SQUIG-A-EXP": {
+          "description": "Este agente se ignora para las operaciones de asesinato/eliminación de tu oponente (al quedar incapacitado, y al determinar tu número inicial de agentes). También se ignora para condiciones de victoria y puntuar PV si esto requiere que agentes “escapen”, “sobrevivan” o queden incapacitados por agentes enemigos (si escapa/sobrevive/es incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/ser incapacitados, etc.).",
+          "abilityName": "Prescindible"
+        },
+        "ORK-KOM-SQUIG-A-STP": {
+          "description": " Durante la fase de tiroteo, al determinar la orden de este agente, no puedes elegir ocultarse.\n Este agente no puede realizar otras acciones que no sean Cargar, Combatir, Correr, Disparar o Reposicionarse, ni usar armas que no figuren en su tarjeta de datos.",
+          "abilityName": "Eztúpido"
+        }
+      }
+    }
+  }
+}

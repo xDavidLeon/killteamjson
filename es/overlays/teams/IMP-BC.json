@@ -1,0 +1,32 @@
+{
+  "killteamId": "IMP-BC",
+  "locale": "es",
+  "ploys": {
+    "IMP-BC-S-IOTIS": {
+      "description": "Siempre que un dado de ataque inflija 3 o más de daño a un operativo BATTLECLADE amigo, lanza un D6: con un 4+, resta 1 a ese daño infligido."
+    }
+  },
+  "equipments": {
+    "IMP-BC-CA": {
+      "description": "Una vez por batalla, un operativo COMBAT SERVITOR o GUN SERVITOR puede usar otra opción de arma de su tarjeta de datos que no haya elegido para la batalla."
+    },
+    "IMP-BC-NCRC": {
+      "description": "Una vez por punto de combate, siempre que TRANSFER POWER, puedes usar esta regla. Si lo haces, puedes TRANSFER POWER por 0PA (esto prevalece sobre las reglas normales de Noospheric Network)."
+    }
+  },
+  "opTypes": {
+    "IMP-BC-BSU": {
+      "actions": {
+        "IMP-BC-BSU-NOR": {
+          "effects": [
+            "SUPPORT. Elige un operativo BATTLECLADE SERVITOR amigo a 6\" o menos de este operativo o de un operativo BATTLECLADE AUTO-PROXY amigo para que realice inmediatamente NETWORK COUNTERACT (no tienes que TRANSFER POWER para ello) o realice una acción Dash gratuita.",
+            "Continúa la activación de este operativo después de hacerlo. A los efectos del equipo universal Comms Device, el operativo desde el que se mide la distancia debe controlar esa marca."
+          ],
+          "conditions": [
+            "Este operativo puede realizar esta acción dos veces durante su activación, pero no puede realizarla mientras esté dentro del rango de control de un operativo enemigo."
+          ]
+        }
+      }
+    }
+  }
+}
