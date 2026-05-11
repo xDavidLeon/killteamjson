@@ -97,7 +97,9 @@
     "aliases": [],
     "category": "key_principle",
     "text": "Datacards contain specific rules for each operative, including key stats.",
-    "examples": [],
+    "examples": [
+      "1 - Type of operative.\n\n2 - Operative stats.\n\n3 - Weapon stats:\nThe kill team selection pages in your kill team’s rules specify what weapons an operative has. If it doesn’t specify, an operative has all the weapons on its datacard.\nRanged weapons are used when the operative is shooting. Melee weapons are used when the operative is fighting or retaliating.\nAtk: The number of attack dice to roll whenever an operative uses this weapon.\nHit: The result required for successful attack dice whenever an operative uses this weapon.\nDmg: The damage each attack dice inflicts with this weapon. The first value is its Normal Dmg stat (damage from a normal success), the second value is its Critical Dmg stat (damage from a critical success).\nSometimes different weapons will have the same primary name but different secondary names, represented in brackets, e.g. ‘plasma gun (standard)’ and ‘plasma gun (supercharge)’. These are effectively separate profiles of the same weapon, but used as different weapons. If a rule refers to just the primary name, it includes all weapons with that primary name.\n\n4 - Weapon rules:\nAdditional rules that apply whenever the operative uses this weapon.\n\n5 - Additional rules:\nAdditional rules the operative has.\nUnique actions that can be performed by the operative.\n\n6 - Keywords:\nUsed to identify the operative for rules — some rules will only affect operatives with the relevant keywords.\nShown in KEYWORD BOLD font.\nKeywords in orange with a skull symbol, e.g. TEMPESTUS AQUILON, are faction keywords — used to identify all operatives from that kill team.\n\n7 - Base size in mm."
+    ],
     "tags": [
       "reference",
       "stats"
@@ -105,6 +107,84 @@
     "references": [
       "operative",
       "keyword",
+      "damage"
+    ]
+  },
+  {
+    "id": "stat-apl",
+    "name": "APL (Action Point Limit)",
+    "aliases": [
+      "apl",
+      "action point limit"
+    ],
+    "category": "key_principle",
+    "text": "The total cost of actions an operative can perform during its activation, and a stat used to determine control of markers. Some rare rules change an operative’s APL. Regardless of how many APL stat changes an operative is affected by, the total can never be more than -1 or +1 from its normal APL. This takes precedence over all stat changes.",
+    "examples": [],
+    "tags": [
+      "stats",
+      "action points"
+    ],
+    "references": [
+      "datacard"
+    ]
+  },
+  {
+    "id": "stat-move",
+    "name": "Move",
+    "aliases": [
+      "move"
+    ],
+    "category": "key_principle",
+    "text": "The operative’s move distance, used when performing the Reposition, Fall Back and Charge actions. An operative’s Move stat can never be changed to less than 4\". This takes precedence over all stat changes.",
+    "examples": [],
+    "tags": [
+      "stats",
+      "movement",
+      "action"
+    ],
+    "references": [
+      "datacard",
+      "ACTION-CHARGE",
+      "ACTION-FALL-BACK",
+      "ACTION-REPOSITION"
+    ]
+  },
+  {
+    "id": "stat-save",
+    "name": "Save",
+    "aliases": [
+      "save"
+    ],
+    "category": "key_principle",
+    "text": "The result required for successful defence dice whenever another operative is shooting the operative.",
+    "examples": [],
+    "tags": [
+      "stats",
+      "defence",
+      "shooting"
+    ],
+    "references": [
+      "datacard",
+      "ACTION-SHOOT"
+    ]
+  },
+  {
+    "id": "stat-wounds",
+    "name": "Wounds",
+    "aliases": [
+      "wounds",
+      "wound"
+    ],
+    "category": "key_principle",
+    "text": "The operative’s starting number of wounds, which is reduced as damage is inflicted upon it.",
+    "examples": [],
+    "tags": [
+      "stats",
+      "wounds",
+      "wound"
+    ],
+    "references": [
+      "datacard",
       "damage"
     ]
   },

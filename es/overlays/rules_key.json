@@ -44,8 +44,44 @@
       "name": "Daño"
     },
     "datacard": {
+      "examples": [
+        "1 - Tipo de agente.\n\n2 - Estadísticas del agente.\n\n3 - Estadísticas de armas:\nLas páginas de selección de equipo de matar en las reglas de tu equipo de matar especifican qué armas tiene un agente. Si no lo especifican, el agente tiene todas las armas de su ficha de datos.\nLas armas a distancia se usan cuando el agente dispara. Las armas cuerpo a cuerpo se usan cuando el agente lucha o contraataca.\nAtq: el número de dados de ataque a tirar cuando el agente usa esta arma.\nImpacto: el resultado necesario para que los dados de ataque de esta arma tengan éxito.\nDaño: el daño que inflige cada dado de ataque con esta arma. El primer valor es su estadística de daño normal (daño por un éxito normal); el segundo es su estadística de daño crítico (daño por un éxito crítico).\nA veces distintas armas tendrán el mismo nombre principal pero distintos nombres secundarios, entre paréntesis, p. ej. «pistola de plasma (estándar)» y «pistola de plasma (sobrecarga)». En la práctica son perfiles distintos de la misma arma, usados como armas distintas. Si una regla se refiere solo al nombre principal, incluye todas las armas con ese nombre principal.\n\n4 - Reglas de armas:\nReglas adicionales que aplican cuando el agente usa esta arma.\n\n5 - Reglas adicionales:\nReglas adicionales del agente.\nAcciones únicas que el agente puede realizar.\n\n6 - Palabras clave:\nSirven para identificar al agente a efectos de reglas; algunas reglas solo afectan a agentes con las palabras clave pertinentes.\nAparecen en tipografía NEGRITA DE PALABRA CLAVE.\nLas palabras clave en naranja con símbolo de calavera, p. ej. TEMPESTUS AQUILON, son palabras clave de facción: identifican a todos los agentes de ese equipo de matar.\n\n7 - Tamaño de la base en mm."
+      ],
       "text": "Las fichas de datos contienen reglas específicas para cada agente, incluyendo estadísticas clave.",
       "name": "Ficha de Datos"
+    },
+    "stat-apl": {
+      "aliases": [
+        "lpa",
+        "apl",
+        "límite de puntos de acción"
+      ],
+      "text": "El coste total en PA de las acciones que un agente puede realizar durante su activación, y una estadística que se usa para determinar el control de los marcadores. Algunas reglas raras cambian el LPA de un agente. Sin importar cuántos cambios al LPA afecten a un agente, el total nunca puede ser más de -1 o +1 respecto a su LPA normal. Esto tiene prioridad sobre todos los cambios a estadísticas.",
+      "name": "LPA (límite de puntos de acción)"
+    },
+    "stat-move": {
+      "aliases": [
+        "movimiento",
+        "moverse"
+      ],
+      "text": "La distancia de movimiento del agente, usada al realizar las acciones Reubicarse, Retirarse y Cargar. La estadística de Movimiento de un agente nunca puede cambiarse a menos de 4\". Esto tiene prioridad sobre todos los cambios a estadísticas.",
+      "name": "Movimiento"
+    },
+    "stat-save": {
+      "aliases": [
+        "salvación",
+        "salvacion"
+      ],
+      "text": "El resultado necesario para que los dados de defensa sean exitosos cuando otro agente está disparando a ese agente.",
+      "name": "Salvación"
+    },
+    "stat-wounds": {
+      "aliases": [
+        "herida",
+        "heridas"
+      ],
+      "text": "El número inicial de heridas del agente, que se reduce al infligirle daño.",
+      "name": "Heridas"
     },
     "dice": {
       "examples": [
