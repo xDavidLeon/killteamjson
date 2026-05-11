@@ -22,10 +22,10 @@ en/                         # English data (canonical source of truth)
   rules_sequence.json
   rules_terrain.json
 es/                         # Generated Spanish flat JSON (for app/runtime compatibility)
-  overlays/                 # Spanish sparse overlays (authoring source)
+  overlays/                 # Spanish sparse overlays (authoring source) — mirrors en/ layout
     teams/                  # One sparse overlay per translated team
     packs/
-    ...
+    ...                       # Same relative paths as en/ (e.g. rules_key.json, weapon_rules.json)
 extra/                      # Tier lists and supplementary data
 scripts/                    # Build/validation scripts
 killteam_ids.txt            # Reference list of all kill team IDs (see below)
@@ -44,13 +44,19 @@ Do not leave new team JSON in `en/teams/` without the corresponding `killteam_id
 
 ## Translation Rule (IMPORTANT)
 
-**Whenever `en/` is modified, the Spanish overlays (and generated `es/` files) must stay in sync.**  
-Author translations in `es/overlays/` (sparse JSON keyed by IDs), then generate flat Spanish files in `es/` with:
-`python3 scripts/build_es_locale.py build`
+**Whenever you change a file under `en/`, you must update the matching Spanish overlay under `es/overlays/` (same relative path), then regenerate flat `es/` files.** Do not treat `en/` as the only edit when an overlay exists for that path.
+
+1. **Path pairing** — mirror the path after the locale folder:
+   - `en/teams/{ID}.json` → `es/overlays/teams/{ID}.json`
+   - `en/packs/foo.json` → `es/overlays/packs/foo.json`
+   - `en/rules_key.json` → `es/overlays/rules_key.json` (and likewise for `weapon_rules.json`, `universal_actions.json`, `universal_equipment.json`, `rules_sequence.json`, `rules_terrain.json`, etc.)
+2. **Author** sparse translations in that overlay (keyed by IDs / structure the build script expects), then run:
+   `python3 scripts/build_es_locale.py build`
+3. If the `en/` change is **only** structural (IDs, stats, `references` to other rule ids, sequencing) and the overlay does not duplicate those fields, still **open the paired overlay** and confirm nothing is stale; update any affected Spanish strings.
 
 Translate user-facing strings such as `killteamName`, `description`, `composition`, `ployName`, `abilityName`, `eqName`, `wepName`, `profileName`, `optionName`, action `name`/`effects`/`conditions`, etc.
 
-Do **not** localize structural/mechanical fields (`*Id`, stats, sequencing, weapon rules references).
+Do **not** localize structural/mechanical fields (`*Id`, stats, sequencing, weapon rules references, cross-rule `references[]` ids in `rules_key.json`).
 Keep `archetypes[]`, `keywords`, and weapon rule `details` as canonical English tokens for now (localized client-side).
 
 ## Kill Team File Naming
@@ -119,7 +125,7 @@ IDs follow a hierarchical dot-notation path:
 3. Apply stat/weapon/ploy/equipment changes from the PDF.
 4. If you added a **new** team file under `en/teams/`, update `killteam_ids.txt` per **killteam_ids.txt (IMPORTANT)** above.
 5. Check `en/weapon_rules.json` to confirm any referenced `WR-` IDs exist.
-6. Update the matching `es/overlays/teams/{ID}.json` entries for any changed user-facing strings.
+6. Update the matching `es/overlays/...` file(s) for any changed user-facing strings (at minimum `es/overlays/teams/{ID}.json`; if you edited other `en/*.json` in the same change, update those overlays too).
 7. Regenerate flat Spanish files: `python3 scripts/build_es_locale.py build`.
 8. Validate overlays and merge output:
    - `python3 scripts/build_es_locale.py validate`
@@ -129,7 +135,7 @@ IDs follow a hierarchical dot-notation path:
 
 1. Identify the file (`en/teams/{ID}.json`) and the wrong field.
 2. Correct the value to match the official source PDF.
-3. Mirror translation-impacting text updates in `es/overlays/teams/{ID}.json` when needed.
+3. Mirror translation-impacting text updates in the paired `es/overlays/...` file (same relative path as the `en/` file you fixed).
 4. Rebuild and verify:
    - `python3 scripts/build_es_locale.py build`
    - `python3 scripts/build_es_locale.py verify`
@@ -149,4 +155,5 @@ chore: [structural/tooling change]
 - Do not add homebrew stats, abilities, or rules not in official GW sources.
 - Do not invent new `WR-` IDs — check `weapon_rules.json` first.
 - Do not modify `es/` without also updating `en/` (or vice versa).
+- Do not change `en/` without checking the matching `es/overlays/{same path}` and running `build` / `verify` when strings or overlay structure are affected.
 - Do not change IDs for existing entries — downstream apps (KT SERVITOR) reference them.

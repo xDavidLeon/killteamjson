@@ -15,9 +15,9 @@
       "positioning"
     ],
     "references": [
-      "datacards",
-      "distances",
-      "operatives",
+      "datacard",
+      "distance",
+      "operative",
       "killzone-floor"
     ]
   },
@@ -41,8 +41,8 @@
     "references": [
       "visible",
       "cover",
-      "markers",
-      "distances"
+      "marker",
+      "distance"
     ]
   },
   {
@@ -67,7 +67,7 @@
     "references": [
       "control-range",
       "intervening",
-      "orders",
+      "order",
       "valid-target",
       "visible"
     ]
@@ -87,8 +87,8 @@
       "states"
     ],
     "references": [
-      "datacards",
-      "tokens"
+      "datacard",
+      "token"
     ]
   },
   {
@@ -103,8 +103,8 @@
       "stats"
     ],
     "references": [
-      "operatives",
-      "keywords",
+      "operative",
+      "keyword",
       "damage"
     ]
   },
@@ -142,7 +142,7 @@
       "measurement"
     ],
     "references": [
-      "markers",
+      "marker",
       "bases",
       "control-range"
     ]
@@ -161,7 +161,7 @@
       "loadout"
     ],
     "references": [
-      "datacards"
+      "datacard"
     ]
   },
   {
@@ -184,7 +184,7 @@
     "references": [
       "cover",
       "obscured",
-      "markers",
+      "marker",
       "visible"
     ]
   },
@@ -200,8 +200,8 @@
       "factions"
     ],
     "references": [
-      "datacards",
-      "ploys"
+      "datacard",
+      "ploy"
     ]
   },
   {
@@ -222,8 +222,8 @@
     ],
     "references": [
       "control-range",
-      "distances",
-      "tokens"
+      "distance",
+      "token"
     ]
   },
   {
@@ -268,8 +268,8 @@
     ],
     "references": [
       "bases",
-      "orders",
-      "datacards"
+      "order",
+      "datacard"
     ]
   },
   {
@@ -346,7 +346,7 @@
     "references": [
       "dice",
       "roll-off",
-      "keywords"
+      "keyword"
     ]
   },
   {
@@ -396,8 +396,8 @@
       "state"
     ],
     "references": [
-      "markers",
-      "orders",
+      "marker",
+      "order",
       "damage"
     ]
   },
@@ -415,7 +415,7 @@
       "targeting"
     ],
     "references": [
-      "orders",
+      "order",
       "cover",
       "visible"
     ]
@@ -456,7 +456,7 @@
     ],
     "references": [
       "bases",
-      "markers"
+      "marker"
     ]
   },
   {

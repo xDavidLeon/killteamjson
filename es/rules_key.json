@@ -3,7 +3,10 @@
     "id": "bases",
     "name": "Peanas",
     "aliases": [
-      "peana"
+      "peana",
+      "peanas",
+      "base",
+      "bases"
     ],
     "category": "key_principle",
     "text": "Todos los agentes están sobre peanas. La peana es una parte importante de la miniatura a efectos de reglas, en particular para medir distancias. El tamaño de peana de cada agente se especifica en su ficha de datos. Los lados de varias peanas pueden tocarse, pero una peana no puede colocarse sobre otra. Los agentes amigos pueden moverse a través de otros agentes amigos (la peana y la miniatura), pero no a través de agentes enemigos. Las peanas no pueden moverse a través de terreno, o sobrepasar el borde de la zona de combate.",
@@ -14,9 +17,9 @@
       "positioning"
     ],
     "references": [
-      "datacards",
-      "distances",
-      "operatives",
+      "datacard",
+      "distance",
+      "operative",
       "killzone-floor"
     ]
   },
@@ -40,8 +43,8 @@
     "references": [
       "visible",
       "cover",
-      "markers",
-      "distances"
+      "marker",
+      "distance"
     ]
   },
   {
@@ -66,7 +69,7 @@
     "references": [
       "control-range",
       "intervening",
-      "orders",
+      "order",
       "valid-target",
       "visible"
     ]
@@ -78,7 +81,7 @@
       "daño"
     ],
     "category": "key_principle",
-    "text": "Cuando se inflige daño a un agente, reduce sus heridas en esa cantidad. El número inicial de heridas de un agente se determina por su estadística de Heridas (ver fichas de datos). Si las heridas de un agente se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un agente tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los agentes lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada agente con dados, marcadores o escribiéndolo. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un agente queda incapacitado, pero antes de ser retirado.",
+    "text": "Cuando se inflige daño a un agente, reduce sus heridas en esa cantidad. El número inicial de heridas de un agente se determina por su estadística de Heridas (ver ficha de datos). Si las heridas de un agente se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un agente tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los agentes lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada agente con dados, fichas o por escrito. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un agente queda incapacitado, pero antes de ser retirado.",
     "examples": [],
     "tags": [
       "wounds",
@@ -86,8 +89,8 @@
       "states"
     ],
     "references": [
-      "datacards",
-      "tokens"
+      "datacard",
+      "token"
     ]
   },
   {
@@ -102,8 +105,8 @@
       "stats"
     ],
     "references": [
-      "operatives",
-      "keywords",
+      "operative",
+      "keyword",
       "damage"
     ]
   },
@@ -144,7 +147,7 @@
       "measurement"
     ],
     "references": [
-      "markers",
+      "marker",
       "bases",
       "control-range"
     ]
@@ -163,7 +166,7 @@
       "loadout"
     ],
     "references": [
-      "datacards"
+      "datacard"
     ]
   },
   {
@@ -186,7 +189,7 @@
     "references": [
       "cover",
       "obscured",
-      "markers",
+      "marker",
       "visible"
     ]
   },
@@ -195,15 +198,15 @@
     "name": "Clave",
     "aliases": [],
     "category": "key_principle",
-    "text": "Las palabras clave son un método de identificación para ciertas reglas. Usarás palabras clave con más frecuencia con los agentes (ver datacards), ya que algunas reglas solo afectarán a los agentes con las palabras clave relevantes. Algunas reglas raras también tienen palabras clave, por ejemplo, SOPORTE o GAMBITO ESTRATÉGICO. Estas palabras clave no significan nada por sí mismas, pero otras reglas interactúan con ellas. Las palabras clave se muestran en fuente NEGRITA DE PALABRA CLAVE. Las que están en naranja con un símbolo de calavera, por ejemplo, TEMPESTUS AQUILON, son palabras clave de facción utilizadas para identificar a todos los agentes/reglas de ese equipo de matar.",
+    "text": "Las palabras clave son un método de identificación para ciertas reglas. Usarás palabras clave con más frecuencia con los agentes (ver las fichas de datos), ya que algunas reglas solo afectarán a los agentes con las palabras clave relevantes. Algunas reglas raras también tienen palabras clave, por ejemplo, SOPORTE o GAMBITO ESTRATÉGICO. Estas palabras clave no significan nada por sí mismas, pero otras reglas interactúan con ellas. Las palabras clave se muestran en fuente NEGRITA DE PALABRA CLAVE. Las que están en naranja con un símbolo de calavera, por ejemplo, TEMPESTUS AQUILON, son palabras clave de facción utilizadas para identificar a todos los agentes/reglas de ese equipo de matar.",
     "examples": [],
     "tags": [
       "identifiers",
       "factions"
     ],
     "references": [
-      "datacards",
-      "ploys"
+      "datacard",
+      "ploy"
     ]
   },
   {
@@ -214,7 +217,7 @@
       "marcadores"
     ],
     "category": "key_principle",
-    "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los agentes a su alrededor. Se pueden colocar debajo de los agentes (retire temporalmente a los agentes para hacerlo), y los agentes se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los agentes disputan los marcadores dentro de su zona de control. Los agentes amigos controlan un marcador si el LPA total de los que lo disputan es mayor que el de los agentes enemigos, pero el control no puede cambiar durante una acción. Mientras un agente lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único agente que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de matar. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
+    "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los agentes a su alrededor. Se pueden colocar debajo de los agentes (retire temporalmente a los agentes para hacerlo), y los agentes se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los agentes disputan los marcadores dentro de su zona de control. Los agentes amigos controlan un marcador si el LPA total de los que lo disputan es mayor que el de los agentes enemigos, pero el control no puede cambiar durante una acción. Mientras un agente lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único agente que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de combate. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
     "examples": [
       "Ejemplo de marcadores en juego. Solo tres agentes disputan el marcador de objetivo, ya que no está dentro de la zona de control del agente naranja de la izquierda (la característica del terreno evita que sea visible). El LPA total de los agentes naranjas que disputan el marcador de objetivo es 2. El LPA total de los agentes blancos que lo disputan es 4, por lo que lo controlan."
     ],
@@ -225,8 +228,8 @@
     ],
     "references": [
       "control-range",
-      "distances",
-      "tokens"
+      "distance",
+      "token"
     ]
   },
   {
@@ -273,8 +276,8 @@
     ],
     "references": [
       "bases",
-      "orders",
-      "datacards"
+      "order",
+      "datacard"
     ]
   },
   {
@@ -353,7 +356,7 @@
     "references": [
       "dice",
       "roll-off",
-      "keywords"
+      "keyword"
     ]
   },
   {
@@ -361,7 +364,7 @@
     "name": "Precedencia",
     "aliases": [],
     "category": "key_principle",
-    "text": "Algunas reglas raras entrarán en conflicto entre sí, por lo que debe establecerse cuál tiene prioridad. En orden de prioridad, una regla tiene prioridad si: 1. Lo dice específicamente. 2. El comentario del diseñador en línea lo dice. 3. No se encuentra en el libro básico (es decir, otras reglas tienen prioridad sobre las reglas del libro básico). 4. Dice \"no puede\". 5. El jugador con iniciativa decide.",
+    "text": "Algunas reglas raras entrarán en conflicto entre sí, por lo que debe establecerse cuál tiene prioridad. En orden de prioridad, una regla tiene prioridad si: 1. Lo dice específicamente. 2. El comentario del diseñador en línea lo dice. 3. No se encuentra en el libro básico (es decir, otras reglas tienen prioridad sobre las reglas del libro básico). 4. Dice \"no puede\". 5. Lo decide el jugador que controla el agente activo. 6. Lo decide el jugador con iniciativa.",
     "examples": [],
     "tags": [
       "rules",
@@ -374,7 +377,10 @@
   {
     "id": "roll-off",
     "name": "Tirada enfrentada",
-    "aliases": [],
+    "aliases": [
+      "tirada enfrentada",
+      "roll-off"
+    ],
     "category": "key_principle",
     "text": "Si una regla requiere una tirada enfrentada, ambos jugadores tiran un D6 y quien obtenga el mayor gana la tirada enfrentada. Si hay empate, vuelven a tirar.",
     "examples": [],
@@ -388,21 +394,23 @@
   },
   {
     "id": "token",
-    "name": "Marcador",
+    "name": "Ficha",
     "aliases": [
-      "marcadores",
-      "marcador"
+      "ficha",
+      "fichas",
+      "token",
+      "tokens"
     ],
     "category": "key_principle",
-    "text": "Los marcadores se utilizan para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al agente correspondiente, pero se pueden mover para dejar espacio a otros agentes y marcadores según sea necesario. Se retiran cuando termina el efecto de la regla que se está rastreando.",
+    "text": "Las fichas sirven para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al agente correspondiente, pero se pueden mover para dejar espacio a otros agentes y marcadores cuando sea necesario. Se retiran cuando termina el efecto de la regla que se estaba rastreando.",
     "examples": [],
     "tags": [
       "tracking",
       "state"
     ],
     "references": [
-      "markers",
-      "orders",
+      "marker",
+      "order",
       "damage"
     ]
   },
@@ -423,7 +431,7 @@
       "targeting"
     ],
     "references": [
-      "orders",
+      "order",
       "cover",
       "visible"
     ]
@@ -438,8 +446,8 @@
     "category": "key_principle",
     "text": "Para que algo sea visible, el agente debe poder verlo. Para comprobar la visibilidad, mira desde detrás del agente y determina si puedes trazar una línea recta sin obstáculos de 1 mm de diámetro desde su cabeza hasta cualquier parte de lo que intenta ver. Ignora las bases de los agentes al determinar esto. Un agente es siempre visible para sí mismo. El agente enemigo es visible en ambas imágenes a continuación, incluso cuando está parcialmente detrás de la ruina cercana.",
     "examples": [
-      "Full visibility example.",
-      "Partial visibility example."
+      "Ejemplo de visibilidad total.",
+      "Ejemplo de visibilidad parcial."
     ],
     "tags": [
       "line-of-sight",
@@ -465,7 +473,7 @@
     ],
     "references": [
       "bases",
-      "markers"
+      "marker"
     ]
   },
   {
