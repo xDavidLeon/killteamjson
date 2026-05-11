@@ -11,6 +11,21 @@
       "text": "Todos los agentes están sobre peanas. La peana es una parte importante de la miniatura a efectos de reglas, en particular para medir distancias. El tamaño de peana de cada agente se especifica en su ficha de datos. Los lados de varias peanas pueden tocarse, pero una peana no puede colocarse sobre otra. Los agentes amigos pueden moverse a través de otros agentes amigos (la peana y la miniatura), pero no a través de agentes enemigos. Las peanas no pueden moverse a través de terreno, o sobrepasar el borde de la zona de combate.",
       "name": "Peanas"
     },
+    "initiative": {
+      "aliases": [
+        "iniciativa"
+      ],
+      "text": "El jugador con iniciativa activa primero en el punto de giro y decide el orden de resolución de las reglas que ocurrirían al mismo tiempo. En el primer punto de giro, el jugador con iniciativa lo determina la secuencia de juego de tu paquete de misión. En los puntos de giro posteriores, los jugadores hacen una tirada enfrentada y el ganador decide quién tiene la iniciativa. Sin embargo, si la tirada enfrentada es un empate, el jugador que no tenía iniciativa en el punto de giro anterior decide quién tiene la iniciativa (esto tiene prioridad sobre tiradas enfrentadas y empates).",
+      "name": "Iniciativa"
+    },
+    "action": {
+      "aliases": [
+        "acción",
+        "acciones"
+      ],
+      "text": "Las acciones tienen efectos y condiciones. Las condiciones son requisitos que deben cumplirse para que el agente pueda realizar esa acción; los efectos son el resultado de realizarla, incluidos los requisitos al hacerlo. Hay cuatro tipos de acciones: universales, únicas, de misión y gratuitas.\nLas acciones universales son las más habituales y las pueden realizar todos los agentes salvo que se indique lo contrario.\nLas acciones únicas son más raras y aparecen en las reglas de tu equipo de matar. Solo los agentes indicados pueden realizarlas.\nLas acciones de misión dependen de la misión o zona de combate que estés jugando; si las hay, estarán en tu paquete de misión, reglas de la zona de combate o el equipo que hayas elegido.\nLas acciones gratuitas solo se pueden realizar cuando otra regla lo indique, y aplican las siguientes reglas:\nDeben cumplirse las condiciones de la acción.\nNo cuesta PA adicionales al agente realizar la acción.\nEl agente sigue contando como si hubiera realizado la acción a todos los efectos. Por ejemplo, si la realizó durante su activación, no podría volver a realizarla en esa misma activación.",
+      "name": "Acción"
+    },
     "control-range": {
       "examples": [
         "Los agentes A y B están dentro de la zona de control mutua.",
@@ -195,7 +210,8 @@
       ],
       "aliases": [
         "gambitos",
-        "gambito"
+        "gambito",
+        "gambit"
       ],
       "text": "Los jugadores pueden gastar CP en gambitos para obtener bonificaciones de reglas en el momento oportuno. A menos que se especifique lo contrario, todos los gambitos cuestan 1 CP. Hay dos tipos de gambitos: Cada gambito de estrategia es un GAMBITO ESTRATÉGICO (se usa en el paso de Gambito de la fase de Estrategia). Algunos aplican reglas que se resuelven “inmediatamente”; de lo contrario, aplican reglas que duran hasta el final del punto de giro. Los gambitos de tiroteo se utilizan en la fase de Tiroteo y aplican reglas según especifique el gambito. Todos los jugadores tienen acceso al gambito de tiroteo Repetición de Mando a continuación y a los gambitos de las reglas de su equipo de matar. Aparte de la Repetición de Mando, cada jugador no puede usar cada gambito más de una vez por punto de giro.",
       "name": "Gambito"
@@ -243,6 +259,50 @@
       ],
       "text": "Para que algo sea visible, el agente debe poder verlo. Para comprobar la visibilidad, mira desde detrás del agente y determina si puedes trazar una línea recta sin obstáculos de 1 mm de diámetro desde su cabeza hasta cualquier parte de lo que intenta ver. Ignora las bases de los agentes al determinar esto. Un agente es siempre visible para sí mismo. El agente enemigo es visible en ambas imágenes a continuación, incluso cuando está parcialmente detrás de la ruina cercana.",
       "name": "Visible"
+    },
+    "game-sequence": {
+      "aliases": [
+        "secuencia de juego"
+      ],
+      "text": "El paso principal de la secuencia de juego es la batalla, donde tus agentes combaten e intentas lograr la victoria. Una batalla consta de varios puntos de giro, y cada punto de giro incluye una fase de Estrategia y una fase de Tiroteo. Deben completarse en orden y por completo; entonces termina el punto de giro y comienza el siguiente. Repite el proceso hasta que termine la batalla, según indique tu paquete de misión.",
+      "name": "Secuencia de juego"
+    },
+    "turning-point": {
+      "aliases": [
+        "punto de giro"
+      ],
+      "text": "Un punto de giro consta de una fase de Estrategia y una fase de Tiroteo.",
+      "name": "Punto de giro"
+    },
+    "strategy-phase": {
+      "aliases": [
+        "fase de estrategia"
+      ],
+      "text": "Los jugadores pueden usar gambitos de estrategia durante la fase de Estrategia.",
+      "name": "Fase de Estrategia"
+    },
+    "firefight-phase": {
+      "aliases": [
+        "fase de tiroteo"
+      ],
+      "text": "El jugador que tiene la iniciativa activa a un agente amigo preparado. Cuando termina esa activación, su oponente activa a uno de sus agentes amigos preparados. Los jugadores repiten el proceso, alternando activaciones hasta que todos los agentes de un jugador estén gastados; en ese caso puede reaccionar entre las activaciones restantes del oponente. Cuando todos los agentes están gastados, termina la fase de Tiroteo.",
+      "name": "Fase de Tiroteo"
+    },
+    "expended": {
+      "aliases": [
+        "gastado",
+        "gastados"
+      ],
+      "text": "Cuando terminas la activación de tu agente, ese agente queda gastado. Mientras está gastado, un agente no está preparado.",
+      "name": "Gastado"
+    },
+    "ready": {
+      "aliases": [
+        "preparado",
+        "preparados"
+      ],
+      "text": "Un agente está preparado si no ha sido gastado. Los agentes preparados pueden realizar acciones. Mientras lo hace, se conoce como el agente activo.",
+      "name": "Preparado"
     },
     "killzone-floor": {
       "text": "El suelo de la zona de combate es el nivel más bajo de la zona de combate (es decir, el tablero de juego). Cualquier cosa que esté sobre un marcador que esté en el suelo de la zona de combate también está en el suelo de la zona de combate.",

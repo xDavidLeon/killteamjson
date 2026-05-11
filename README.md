@@ -175,7 +175,6 @@ Key principles and rules glossary. Root object is an array of rule objects. Each
 - `category` - *string* - Category classification (e.g., `"key_principle"`).
 - `text` - *string* - Markdown-formatted rules text explaining the rule.
 - `examples` - *string[]* - Array of example scenarios or use cases (may be empty).
-- `tags` - *string[]* - Array of tags for categorization and search.
 - `references` - *string[]* - Array of rule IDs that this rule references or relates to.
 
 ### `rules_sequence.json`

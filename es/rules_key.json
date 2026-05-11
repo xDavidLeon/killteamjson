@@ -11,16 +11,39 @@
     "category": "key_principle",
     "text": "Todos los agentes están sobre peanas. La peana es una parte importante de la miniatura a efectos de reglas, en particular para medir distancias. El tamaño de peana de cada agente se especifica en su ficha de datos. Los lados de varias peanas pueden tocarse, pero una peana no puede colocarse sobre otra. Los agentes amigos pueden moverse a través de otros agentes amigos (la peana y la miniatura), pero no a través de agentes enemigos. Las peanas no pueden moverse a través de terreno, o sobrepasar el borde de la zona de combate.",
     "examples": [],
-    "tags": [
-      "movement",
-      "measurement",
-      "positioning"
-    ],
     "references": [
       "datacard",
       "distance",
       "operative",
       "killzone-floor"
+    ]
+  },
+  {
+    "id": "initiative",
+    "name": "Iniciativa",
+    "aliases": [
+      "iniciativa"
+    ],
+    "category": "key_principle",
+    "text": "El jugador con iniciativa activa primero en el punto de giro y decide el orden de resolución de las reglas que ocurrirían al mismo tiempo. En el primer punto de giro, el jugador con iniciativa lo determina la secuencia de juego de tu paquete de misión. En los puntos de giro posteriores, los jugadores hacen una tirada enfrentada y el ganador decide quién tiene la iniciativa. Sin embargo, si la tirada enfrentada es un empate, el jugador que no tenía iniciativa en el punto de giro anterior decide quién tiene la iniciativa (esto tiene prioridad sobre tiradas enfrentadas y empates).",
+    "examples": [],
+    "references": [
+      "dice",
+      "roll-off"
+    ]
+  },
+  {
+    "id": "action",
+    "name": "Acción",
+    "aliases": [
+      "acción",
+      "acciones"
+    ],
+    "category": "key_principle",
+    "text": "Las acciones tienen efectos y condiciones. Las condiciones son requisitos que deben cumplirse para que el agente pueda realizar esa acción; los efectos son el resultado de realizarla, incluidos los requisitos al hacerlo. Hay cuatro tipos de acciones: universales, únicas, de misión y gratuitas.\nLas acciones universales son las más habituales y las pueden realizar todos los agentes salvo que se indique lo contrario.\nLas acciones únicas son más raras y aparecen en las reglas de tu equipo de matar. Solo los agentes indicados pueden realizarlas.\nLas acciones de misión dependen de la misión o zona de combate que estés jugando; si las hay, estarán en tu paquete de misión, reglas de la zona de combate o el equipo que hayas elegido.\nLas acciones gratuitas solo se pueden realizar cuando otra regla lo indique, y aplican las siguientes reglas:\nDeben cumplirse las condiciones de la acción.\nNo cuesta PA adicionales al agente realizar la acción.\nEl agente sigue contando como si hubiera realizado la acción a todos los efectos. Por ejemplo, si la realizó durante su activación, no podría volver a realizarla en esa misma activación.",
+    "examples": [],
+    "references": [
+      "stat-apl"
     ]
   },
   {
@@ -35,10 +58,6 @@
       "Los agentes A y B están dentro de la zona de control mutua.",
       "El terreno está dentro de la zona de control tanto del agente B como del C.",
       "Debido al terreno, el agente B no es visible para el agente C, y viceversa, por lo tanto no están en la zona de control mutua."
-    ],
-    "tags": [
-      "proximity",
-      "measurement"
     ],
     "references": [
       "visible",
@@ -61,11 +80,6 @@
       "Hay terreno dentro de la zona de control del agente A, pero el terreno no es intermedio, por lo tanto no está en cobertura.",
       "Hay terreno intermedio dentro de la zona de control del agente A, pero el agente B está a menos de 2\" del agente A, por lo tanto no está en cobertura."
     ],
-    "tags": [
-      "terrain",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "control-range",
       "intervening",
@@ -83,11 +97,6 @@
     "category": "key_principle",
     "text": "Cuando se inflige daño a un agente, reduce sus heridas en esa cantidad. El número inicial de heridas de un agente se determina por su estadística de Heridas (ver ficha de datos). Si las heridas de un agente se reducen a 0 o menos, queda incapacitado y luego es retirado de la zona de combate. Mientras un agente tenga menos de sus heridas iniciales restantes, está herido. Mientras tenga menos de la mitad de sus heridas iniciales restantes, también está lesionado. Resta 2\" de la estadística de Movimiento de los agentes lesionados y empeora la estadística de Impacto de sus armas en 1. Lleva la cuenta de las heridas restantes de cada agente con dados, fichas o por escrito. \"Incapacitado\" y \"retirado de la zona de combate\" son cosas separadas. Algunas reglas entran en vigor cuando un agente queda incapacitado, pero antes de ser retirado.",
     "examples": [],
-    "tags": [
-      "wounds",
-      "injury",
-      "states"
-    ],
     "references": [
       "datacard",
       "token"
@@ -102,10 +111,6 @@
     "examples": [
       "1 - Tipo de agente.\n\n2 - Estadísticas del agente.\n\n3 - Estadísticas de armas:\nLas páginas de selección de equipo de matar en las reglas de tu equipo de matar especifican qué armas tiene un agente. Si no lo especifican, el agente tiene todas las armas de su ficha de datos.\nLas armas a distancia se usan cuando el agente dispara. Las armas cuerpo a cuerpo se usan cuando el agente lucha o contraataca.\nAtq: el número de dados de ataque a tirar cuando el agente usa esta arma.\nImpacto: el resultado necesario para que los dados de ataque de esta arma tengan éxito.\nDaño: el daño que inflige cada dado de ataque con esta arma. El primer valor es su estadística de daño normal (daño por un éxito normal); el segundo es su estadística de daño crítico (daño por un éxito crítico).\nA veces distintas armas tendrán el mismo nombre principal pero distintos nombres secundarios, entre paréntesis, p. ej. «pistola de plasma (estándar)» y «pistola de plasma (sobrecarga)». En la práctica son perfiles distintos de la misma arma, usados como armas distintas. Si una regla se refiere solo al nombre principal, incluye todas las armas con ese nombre principal.\n\n4 - Reglas de armas:\nReglas adicionales que aplican cuando el agente usa esta arma.\n\n5 - Reglas adicionales:\nReglas adicionales del agente.\nAcciones únicas que el agente puede realizar.\n\n6 - Palabras clave:\nSirven para identificar al agente a efectos de reglas; algunas reglas solo afectan a agentes con las palabras clave pertinentes.\nAparecen en tipografía NEGRITA DE PALABRA CLAVE.\nLas palabras clave en naranja con símbolo de calavera, p. ej. TEMPESTUS AQUILON, son palabras clave de facción: identifican a todos los agentes de ese equipo de matar.\n\n7 - Tamaño de la base en mm."
     ],
-    "tags": [
-      "reference",
-      "stats"
-    ],
     "references": [
       "operative",
       "keyword",
@@ -118,15 +123,13 @@
     "aliases": [
       "lpa",
       "apl",
+      "APL",
+      "LPA",
       "límite de puntos de acción"
     ],
     "category": "key_principle",
     "text": "El coste total en PA de las acciones que un agente puede realizar durante su activación, y una estadística que se usa para determinar el control de los marcadores. Algunas reglas raras cambian el LPA de un agente. Sin importar cuántos cambios al LPA afecten a un agente, el total nunca puede ser más de -1 o +1 respecto a su LPA normal. Esto tiene prioridad sobre todos los cambios a estadísticas.",
     "examples": [],
-    "tags": [
-      "stats",
-      "action points"
-    ],
     "references": [
       "datacard"
     ]
@@ -141,11 +144,6 @@
     "category": "key_principle",
     "text": "La distancia de movimiento del agente, usada al realizar las acciones Reubicarse, Retirarse y Cargar. La estadística de Movimiento de un agente nunca puede cambiarse a menos de 4\". Esto tiene prioridad sobre todos los cambios a estadísticas.",
     "examples": [],
-    "tags": [
-      "stats",
-      "movement",
-      "action"
-    ],
     "references": [
       "datacard",
       "ACTION-CHARGE",
@@ -163,11 +161,6 @@
     "category": "key_principle",
     "text": "El resultado necesario para que los dados de defensa sean exitosos cuando otro agente está disparando a ese agente.",
     "examples": [],
-    "tags": [
-      "stats",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "datacard",
       "ACTION-SHOOT"
@@ -183,11 +176,6 @@
     "category": "key_principle",
     "text": "El número inicial de heridas del agente, que se reduce al infligirle daño.",
     "examples": [],
-    "tags": [
-      "stats",
-      "wounds",
-      "wound"
-    ],
     "references": [
       "datacard",
       "damage"
@@ -207,12 +195,9 @@
     "examples": [
       "Por ejemplo, si se requiere un 4+, un resultado de 4, 5 o 6 cumple con esto, y si se requiere un 1-4, un resultado de 1, 2, 3 o 4 cumple con esto."
     ],
-    "tags": [
-      "dice",
-      "randomness"
-    ],
     "references": [
-      "roll-off"
+      "roll-off",
+      "initiative"
     ]
   },
   {
@@ -225,9 +210,6 @@
     "text": "Varias reglas tienen un requisito de distancia en pulgadas. Al medir hacia y desde algo, hazlo desde la parte más cercana de ello. Para un agente, hazlo desde su base, ignorando todas las partes de su miniatura. Al medir hacia y desde un área de la zona de combate, mida solo la distancia horizontal (en otras palabras, mire desde arriba para ignorar la distancia vertical). Si una regla requiere que algo esté 'a menos' de una distancia, el requisito se cumple si alguna parte de ello está a esa distancia o menos. Si una regla requiere que algo esté 'totalmente a menos' de una distancia, el requisito se cumple si cada parte de ello está a esa distancia o menos. Un agente siempre está dentro y totalmente dentro de los requisitos de distancia de sí mismo y de un marcador que lleva. Si un agente lleva un marcador, ese marcador está a la misma distancia que ese agente. Los agentes dentro de una cierta distancia de un agente que lleva un marcador también están dentro de la misma distancia de ese marcador.",
     "examples": [
       "Ejemplo de medición de distancia: Agente B está a menos de 2\" de Agente A. El marcador objetivo está a menos de 2\" de Agente A. Agente C está complamente a menos de 2\" de Agente A."
-    ],
-    "tags": [
-      "measurement"
     ],
     "references": [
       "marker",
@@ -244,10 +226,6 @@
     "category": "key_principle",
     "text": "El equipo son reglas adicionales que puedes seleccionar antes de la batalla, como se especifica en tu secuencia de juego (ver equipo). El equipo universal se puede seleccionar para cualquier equipo de matar, mientras que el equipo de facción es específico. Cada jugador no puede seleccionar cada opción de equipo más de una vez por juego.",
     "examples": [],
-    "tags": [
-      "pre-battle",
-      "loadout"
-    ],
     "references": [
       "datacard"
     ]
@@ -265,15 +243,12 @@
       "Debido a dónde ha decidido el jugador del agente A dibujar las líneas de puntería, el terreno no es interpuesto.",
       "Ninguna de estas líneas de puntería cruza la característica del terreno A, por lo tanto, no es interpuesto."
     ],
-    "tags": [
-      "terrain",
-      "line-of-sight"
-    ],
     "references": [
       "cover",
       "obscured",
       "marker",
-      "visible"
+      "visible",
+      "blocking"
     ]
   },
   {
@@ -283,10 +258,6 @@
     "category": "key_principle",
     "text": "Las palabras clave son un método de identificación para ciertas reglas. Usarás palabras clave con más frecuencia con los agentes (ver las fichas de datos), ya que algunas reglas solo afectarán a los agentes con las palabras clave relevantes. Algunas reglas raras también tienen palabras clave, por ejemplo, SOPORTE o GAMBITO ESTRATÉGICO. Estas palabras clave no significan nada por sí mismas, pero otras reglas interactúan con ellas. Las palabras clave se muestran en fuente NEGRITA DE PALABRA CLAVE. Las que están en naranja con un símbolo de calavera, por ejemplo, TEMPESTUS AQUILON, son palabras clave de facción utilizadas para identificar a todos los agentes/reglas de ese equipo de matar.",
     "examples": [],
-    "tags": [
-      "identifiers",
-      "factions"
-    ],
     "references": [
       "datacard",
       "ploy"
@@ -303,11 +274,6 @@
     "text": "Los marcadores se colocan en ubicaciones precisas (esta debe ser una ubicación en la que se puedan colocar) e impactan el juego y los agentes a su alrededor. Se pueden colocar debajo de los agentes (retire temporalmente a los agentes para hacerlo), y los agentes se pueden colocar sobre ellos. Los marcadores de objetivo tienen 40 mm de diámetro. Todos los demás marcadores tienen 20 mm de diámetro. Algunos marcadores se conocen como marcadores de misión. Esto no significa nada por sí mismo, pero otras reglas interactúan con él. Los agentes disputan los marcadores dentro de su zona de control. Los agentes amigos controlan un marcador si el LPA total de los que lo disputan es mayor que el de los agentes enemigos, pero el control no puede cambiar durante una acción. Mientras un agente lleva un marcador (ver Recoger marcador aquí), disputa y controla ese marcador, y es el único agente que puede. Los marcadores de objetivo son el tipo de marcador más común y representan ubicaciones vitales en la zona de combate. Controlarlos a menudo es necesario para lograr la victoria. Está bien usar una miniatura para representar un marcador, pero tenga un marcador normal disponible si crea problemas de reglas (por ejemplo, es demasiado grande).",
     "examples": [
       "Ejemplo de marcadores en juego. Solo tres agentes disputan el marcador de objetivo, ya que no está dentro de la zona de control del agente naranja de la izquierda (la característica del terreno evita que sea visible). El LPA total de los agentes naranjas que disputan el marcador de objetivo es 2. El LPA total de los agentes blancos que lo disputan es 4, por lo que lo controlan."
-    ],
-    "tags": [
-      "objectives",
-      "markers",
-      "control"
     ],
     "references": [
       "control-range",
@@ -329,11 +295,6 @@
       "Hay terreno pesado interpuesto, pero está a 1\" de A, por lo que el agente B no está oscurecido.",
       "Hay terreno pesado interpuesto. Si bien partes de él están a 1\" de los agentes, parte de él no lo está, por lo que el agente B está oscurecido."
     ],
-    "tags": [
-      "terrain",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "intervening",
       "visible",
@@ -353,10 +314,6 @@
     "category": "key_principle",
     "text": "Los agentes u operativos son las miniaturas de Citadel utilizadas en el juego. Tus agentes son agentes amigos, y los agentes de tu oponente son agentes enemigos.",
     "examples": [],
-    "tags": [
-      "core",
-      "entities"
-    ],
     "references": [
       "bases",
       "order",
@@ -373,11 +330,6 @@
     "category": "key_principle",
     "text": "Una orden es un estado que puede tener un agente. Puede ser orden de Ocultarse o orden de Trabarse. A los agentes se les da una orden de Ocultarse cuando se colocan antes de la batalla. Puedes cambiar la orden de un agente cada vez que se activa. Los marcadores de orden tienen dos caras. El lado más claro muestra que un agente está listo (puede ser activado en la fase de Tiroteo) y el lado más oscuro muestra que un agente está usado (ha sido activado en la fase de Tiroteo).",
     "examples": [],
-    "tags": [
-      "stealth",
-      "activation",
-      "tokens"
-    ],
     "references": [
       "order-conceal",
       "order-engage"
@@ -393,10 +345,6 @@
     "category": "key_principle",
     "text": "El agente no puede realizar acciones de Disparar y Cargar, y no puede Reaccionar. Sin embargo, no es un objetivo válido mientras está en cobertura.",
     "examples": [],
-    "tags": [
-      "stealth",
-      "cover"
-    ],
     "references": [
       "cover",
       "valid-target",
@@ -413,9 +361,6 @@
     "category": "key_principle",
     "text": "El agente puede realizar acciones como de costumbre y puede Reaccionar.",
     "examples": [],
-    "tags": [
-      "engagement"
-    ],
     "references": [
       "order"
     ]
@@ -425,16 +370,13 @@
     "name": "Gambito",
     "aliases": [
       "gambitos",
-      "gambito"
+      "gambito",
+      "gambit"
     ],
     "category": "key_principle",
     "text": "Los jugadores pueden gastar CP en gambitos para obtener bonificaciones de reglas en el momento oportuno. A menos que se especifique lo contrario, todos los gambitos cuestan 1 CP. Hay dos tipos de gambitos: Cada gambito de estrategia es un GAMBITO ESTRATÉGICO (se usa en el paso de Gambito de la fase de Estrategia). Algunos aplican reglas que se resuelven “inmediatamente”; de lo contrario, aplican reglas que duran hasta el final del punto de giro. Los gambitos de tiroteo se utilizan en la fase de Tiroteo y aplican reglas según especifique el gambito. Todos los jugadores tienen acceso al gambito de tiroteo Repetición de Mando a continuación y a los gambitos de las reglas de su equipo de matar. Aparte de la Repetición de Mando, cada jugador no puede usar cada gambito más de una vez por punto de giro.",
     "examples": [
       "Repetición de Mando: Usa este ardid de tiroteo después de tirar tus dados de ataque o de defensa. Puedes repetir uno de esos dados."
-    ],
-    "tags": [
-      "command-points",
-      "tactics"
     ],
     "references": [
       "dice",
@@ -449,12 +391,9 @@
     "category": "key_principle",
     "text": "Algunas reglas raras entrarán en conflicto entre sí, por lo que debe establecerse cuál tiene prioridad. En orden de prioridad, una regla tiene prioridad si: 1. Lo dice específicamente. 2. El comentario del diseñador en línea lo dice. 3. No se encuentra en el libro básico (es decir, otras reglas tienen prioridad sobre las reglas del libro básico). 4. Dice \"no puede\". 5. Lo decide el jugador que controla el agente activo. 6. Lo decide el jugador con iniciativa.",
     "examples": [],
-    "tags": [
-      "rules",
-      "conflict-resolution"
-    ],
     "references": [
-      "roll-off"
+      "roll-off",
+      "initiative"
     ]
   },
   {
@@ -467,10 +406,6 @@
     "category": "key_principle",
     "text": "Si una regla requiere una tirada enfrentada, ambos jugadores tiran un D6 y quien obtenga el mayor gana la tirada enfrentada. Si hay empate, vuelven a tirar.",
     "examples": [],
-    "tags": [
-      "dice",
-      "tiebreaker"
-    ],
     "references": [
       "dice"
     ]
@@ -487,10 +422,6 @@
     "category": "key_principle",
     "text": "Las fichas sirven para ayudarte a llevar la cuenta de los efectos de las reglas. A menudo se colocan junto al agente correspondiente, pero se pueden mover para dejar espacio a otros agentes y marcadores cuando sea necesario. Se retiran cuando termina el efecto de la regla que se estaba rastreando.",
     "examples": [],
-    "tags": [
-      "tracking",
-      "state"
-    ],
     "references": [
       "marker",
       "order",
@@ -509,10 +440,6 @@
     "category": "key_principle",
     "text": "Algunas reglas requieren que selecciones un objetivo válido para un agente. Esto es más común cuando un agente está disparando, pero algunas reglas raras también lo requieren. Si el objetivo previsto tiene una orden de Trabarse, es un objetivo válido si es visible para el agente. Si el objetivo previsto tiene una orden de Ocultarse, es un objetivo válido si es visible para el agente y no está en cobertura.",
     "examples": [],
-    "tags": [
-      "shooting",
-      "targeting"
-    ],
     "references": [
       "order",
       "cover",
@@ -532,10 +459,6 @@
       "Ejemplo de visibilidad total.",
       "Ejemplo de visibilidad parcial."
     ],
-    "tags": [
-      "line-of-sight",
-      "perception"
-    ],
     "references": [
       "cover",
       "obscured",
@@ -550,10 +473,6 @@
     "category": "key_principle",
     "text": "El suelo de la zona de combate es el nivel más bajo de la zona de combate (es decir, el tablero de juego). Cualquier cosa que esté sobre un marcador que esté en el suelo de la zona de combate también está en el suelo de la zona de combate.",
     "examples": [],
-    "tags": [
-      "terrain",
-      "levels"
-    ],
     "references": [
       "bases",
       "marker"
@@ -566,9 +485,6 @@
     "category": "key_principle",
     "text": "Al planificar tu torneo, debes determinar si utilizará el formato Clasificado. Recomendamos que tu torneo sea Clasificado si tus premios por ganar incluyen un billete para el Campeonato Mundial de Warhammer. En todos los demás entornos de torneo, puedes permitir el juego de todos los equipos con las reglas de la 3ª edición. Los equipos clasificados se pueden jugar en torneos de formato clasificado. Los equipos que no son clasificados continuarán recibiendo actualizaciones de reglas regulares – actualizaciones de equilibrio, comentarios del diseñador y erratas – y se equilibrarán durante toda la edición actual de Kill Team",
     "examples": [],
-    "tags": [
-      "tournaments"
-    ],
     "references": [
       "season"
     ]
@@ -580,11 +496,91 @@
     "category": "key_principle",
     "text": "Una temporada suele durar alrededor de 12 meses y se refiere a un período durante el cual equipos específicos están disponibles para jugar y reciben actualizaciones regulares de sus reglas. Cada temporada permite a los jugadores disfrutar de una gama equilibrada y manejable de equipos mientras se introduce nuevo contenido.",
     "examples": [],
-    "tags": [
-      "seasons"
-    ],
     "references": [
       "classified"
+    ]
+  },
+  {
+    "id": "game-sequence",
+    "name": "Secuencia de juego",
+    "aliases": [
+      "secuencia de juego"
+    ],
+    "category": "key_principle",
+    "text": "El paso principal de la secuencia de juego es la batalla, donde tus agentes combaten e intentas lograr la victoria. Una batalla consta de varios puntos de giro, y cada punto de giro incluye una fase de Estrategia y una fase de Tiroteo. Deben completarse en orden y por completo; entonces termina el punto de giro y comienza el siguiente. Repite el proceso hasta que termine la batalla, según indique tu paquete de misión.",
+    "examples": [],
+    "references": [
+      "turning-point"
+    ]
+  },
+  {
+    "id": "turning-point",
+    "name": "Punto de giro",
+    "aliases": [
+      "punto de giro"
+    ],
+    "category": "key_principle",
+    "text": "Un punto de giro consta de una fase de Estrategia y una fase de Tiroteo.",
+    "examples": [],
+    "references": [
+      "game-sequence"
+    ]
+  },
+  {
+    "id": "strategy-phase",
+    "name": "Fase de Estrategia",
+    "aliases": [
+      "fase de estrategia"
+    ],
+    "category": "key_principle",
+    "text": "Los jugadores pueden usar gambitos de estrategia durante la fase de Estrategia.",
+    "examples": [],
+    "references": [
+      "turning-point",
+      "ploy"
+    ]
+  },
+  {
+    "id": "firefight-phase",
+    "name": "Fase de Tiroteo",
+    "aliases": [
+      "fase de tiroteo"
+    ],
+    "category": "key_principle",
+    "text": "El jugador que tiene la iniciativa activa a un agente amigo preparado. Cuando termina esa activación, su oponente activa a uno de sus agentes amigos preparados. Los jugadores repiten el proceso, alternando activaciones hasta que todos los agentes de un jugador estén gastados; en ese caso puede reaccionar entre las activaciones restantes del oponente. Cuando todos los agentes están gastados, termina la fase de Tiroteo.",
+    "examples": [],
+    "references": [
+      "turning-point",
+      "expended",
+      "ready"
+    ]
+  },
+  {
+    "id": "expended",
+    "name": "Gastado",
+    "aliases": [
+      "gastado",
+      "gastados"
+    ],
+    "category": "key_principle",
+    "text": "Cuando terminas la activación de tu agente, ese agente queda gastado. Mientras está gastado, un agente no está preparado.",
+    "examples": [],
+    "references": [
+      "firefight-phase"
+    ]
+  },
+  {
+    "id": "ready",
+    "name": "Preparado",
+    "aliases": [
+      "preparado",
+      "preparados"
+    ],
+    "category": "key_principle",
+    "text": "Un agente está preparado si no ha sido gastado. Los agentes preparados pueden realizar acciones. Mientras lo hace, se conoce como el agente activo.",
+    "examples": [],
+    "references": [
+      "expended"
     ]
   }
 ]

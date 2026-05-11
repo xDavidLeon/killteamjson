@@ -9,16 +9,39 @@
     "category": "key_principle",
     "text": "All operatives are on bases. The base is an important part of the miniature for rules purposes, in particular measuring distances. Each operative’s base size is specified on its datacard. The sides of different bases can touch, but a base cannot be placed on another. Friendly operatives can move through other friendly operatives (the base and the miniature), but not through enemy operatives. Bases cannot move through terrain, or be over the edge of the killzone.",
     "examples": [],
-    "tags": [
-      "movement",
-      "measurement",
-      "positioning"
-    ],
     "references": [
       "datacard",
       "distance",
       "operative",
       "killzone-floor"
+    ]
+  },
+  {
+    "id": "initiative",
+    "name": "Initiative",
+    "aliases": [
+      "initiative"
+    ],
+    "category": "key_principle",
+    "text": "The player with initiative activates first in the turning point and decides the order of resolution for rules that would happen at the same time. In the first turning point, the player with initiative is determined by the game sequence of your mission pack. In subsequent turning points, the players roll-off and the winner decides who has initiative. However, if the roll-off is a tie, the player who didn’t have initiative in the previous turning point decides who has initiative (this takes precedence over roll-offs and ties).",
+    "examples": [],
+    "references": [
+      "dice",
+      "roll-off"
+    ]
+  },
+  {
+    "id": "action",
+    "name": "Action",
+    "aliases": [
+      "action",
+      "actions"
+    ],
+    "category": "key_principle",
+    "text": "Actions have effects and conditions. Conditions are requirements that must be fulfilled for the operative to perform that action, whilst effects are the results of performing that action, including any requirements when doing so. There are four different types of actions: universal, unique, mission and free.\nUniversal actions are the most common actions you will use and can be performed by all operatives unless specified otherwise.\nUnique actions are rarer actions in your kill team’s rules. Only specified operatives can perform them.\nMission actions are specific to the mission or killzone you are playing. If there are any, they will be in your mission pack, killzone rules or the equipment you’ve selected.\nFree actions can only be performed when another rule specifies, and the following rules apply:\nThe conditions of the action must be met.\nIt does not cost the operative any additional AP to perform the action.\nThe operative would still count as performing the action for all other rules purposes. For example, if it performed the action during its activation, it wouldn’t be able to perform it again during that activation.",
+    "examples": [],
+    "references": [
+      "stat-apl"
     ]
   },
   {
@@ -33,10 +56,6 @@
       "Operatives A and B are within each other’s control range.",
       "The terrain is within both operative B and C’s control range.",
       "Because of the terrain, operative B is not visible to operative C, and vice versa, therefore they are not\nwithin each other’s control range."
-    ],
-    "tags": [
-      "proximity",
-      "measurement"
     ],
     "references": [
       "visible",
@@ -59,11 +78,6 @@
       "There’s terrain within operative A’s control range, but the terrain is not intervening, therefore it’s not in\ncover.",
       "There’s intervening terrain within operative A’s control range, but operative B is within 2\" of operative A,\ntherefore it’s not in cover."
     ],
-    "tags": [
-      "terrain",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "control-range",
       "intervening",
@@ -81,11 +95,6 @@
     "category": "key_principle",
     "text": "When damage is inflicted on an operative, reduce their wounds by that amount. An operative’s starting number of wounds is determined by its Wounds stat (see datacards). If an operative’s wounds are reduced to 0 or less, it’s incapacitated, then removed from the killzone. While an operative has fewer than its starting wounds remaining, it’s wounded. While it has fewer than half its starting wounds remaining, it’s also injured. Subtract 2\" from the Move stat of injured operatives and worsen the Hit stat of their weapons by 1. Keep track of each operative’s remaining wounds with dice, tokens or by writing it down. ‘Incapacitated’ and ‘removed from the killzone’ are separate. Some rules take effect when an operative is incapacitated, but before it’s removed.",
     "examples": [],
-    "tags": [
-      "wounds",
-      "injury",
-      "states"
-    ],
     "references": [
       "datacard",
       "token"
@@ -99,10 +108,6 @@
     "text": "Datacards contain specific rules for each operative, including key stats.",
     "examples": [
       "1 - Type of operative.\n\n2 - Operative stats.\n\n3 - Weapon stats:\nThe kill team selection pages in your kill team’s rules specify what weapons an operative has. If it doesn’t specify, an operative has all the weapons on its datacard.\nRanged weapons are used when the operative is shooting. Melee weapons are used when the operative is fighting or retaliating.\nAtk: The number of attack dice to roll whenever an operative uses this weapon.\nHit: The result required for successful attack dice whenever an operative uses this weapon.\nDmg: The damage each attack dice inflicts with this weapon. The first value is its Normal Dmg stat (damage from a normal success), the second value is its Critical Dmg stat (damage from a critical success).\nSometimes different weapons will have the same primary name but different secondary names, represented in brackets, e.g. ‘plasma gun (standard)’ and ‘plasma gun (supercharge)’. These are effectively separate profiles of the same weapon, but used as different weapons. If a rule refers to just the primary name, it includes all weapons with that primary name.\n\n4 - Weapon rules:\nAdditional rules that apply whenever the operative uses this weapon.\n\n5 - Additional rules:\nAdditional rules the operative has.\nUnique actions that can be performed by the operative.\n\n6 - Keywords:\nUsed to identify the operative for rules — some rules will only affect operatives with the relevant keywords.\nShown in KEYWORD BOLD font.\nKeywords in orange with a skull symbol, e.g. TEMPESTUS AQUILON, are faction keywords — used to identify all operatives from that kill team.\n\n7 - Base size in mm."
-    ],
-    "tags": [
-      "reference",
-      "stats"
     ],
     "references": [
       "operative",
@@ -121,10 +126,6 @@
     "category": "key_principle",
     "text": "The total cost of actions an operative can perform during its activation, and a stat used to determine control of markers. Some rare rules change an operative’s APL. Regardless of how many APL stat changes an operative is affected by, the total can never be more than -1 or +1 from its normal APL. This takes precedence over all stat changes.",
     "examples": [],
-    "tags": [
-      "stats",
-      "action points"
-    ],
     "references": [
       "datacard"
     ]
@@ -138,11 +139,6 @@
     "category": "key_principle",
     "text": "The operative’s move distance, used when performing the Reposition, Fall Back and Charge actions. An operative’s Move stat can never be changed to less than 4\". This takes precedence over all stat changes.",
     "examples": [],
-    "tags": [
-      "stats",
-      "movement",
-      "action"
-    ],
     "references": [
       "datacard",
       "ACTION-CHARGE",
@@ -159,11 +155,6 @@
     "category": "key_principle",
     "text": "The result required for successful defence dice whenever another operative is shooting the operative.",
     "examples": [],
-    "tags": [
-      "stats",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "datacard",
       "ACTION-SHOOT"
@@ -179,11 +170,6 @@
     "category": "key_principle",
     "text": "The operative’s starting number of wounds, which is reduced as damage is inflicted upon it.",
     "examples": [],
-    "tags": [
-      "stats",
-      "wounds",
-      "wound"
-    ],
     "references": [
       "datacard",
       "damage"
@@ -202,12 +188,9 @@
     "examples": [
       "For example, if a 4+ is required, a dice result of 4, 5 or 6 fulfils this, and if a 1-4 is required, a dice result of\n1, 2, 3 or 4 fulfils this."
     ],
-    "tags": [
-      "dice",
-      "randomness"
-    ],
     "references": [
-      "roll-off"
+      "roll-off",
+      "initiative"
     ]
   },
   {
@@ -218,9 +201,6 @@
     "text": "Various rules have a distance requirement in inches. When measuring to and from something, do so from the closest part of it. For an operative, do so from its base, ignoring all parts of its miniature. When measuring to and from an area of the killzone, measure the horizontal distance only (in other words, look from above to ignore the vertical distance). If a rule requires something to be ‘within’ a distance, the requirement is fulfilled if any part of it is that distance or less. If a rule requires something to be ‘wholly within’ a distance, the requirement is fulfilled if every part of it is that distance or less. An operative is always within and wholly within distance requirements of itself and a marker it’s carrying. If an operative is carrying a marker, that marker is the same distance as that operative. Operatives within a certain distance of an operative that’s carrying a marker are also within the same distance of that marker.",
     "examples": [
       "Distance measuring example: Operative B is within 2\" of operative A. The objective marker is within 2\"\nof operative A. Operative C is wholly within 2\" of operative A."
-    ],
-    "tags": [
-      "measurement"
     ],
     "references": [
       "marker",
@@ -237,10 +217,6 @@
     "category": "key_principle",
     "text": "Equipment are additional rules you can select before the battle, as specified in your game sequence (see equipment). Universal equipment can be selected for any kill team whereas faction equipment is specific. Each player cannot select each equipment option more than once per game.",
     "examples": [],
-    "tags": [
-      "pre-battle",
-      "loadout"
-    ],
     "references": [
       "datacard"
     ]
@@ -258,15 +234,12 @@
       "Due to where operative A’s player has decided to draw the targeting lines from, the terrain is not intervening.",
       "None of these targeting lines cross terrain feature A, therefore it’s not intervening."
     ],
-    "tags": [
-      "terrain",
-      "line-of-sight"
-    ],
     "references": [
       "cover",
       "obscured",
       "marker",
-      "visible"
+      "visible",
+      "blocking"
     ]
   },
   {
@@ -276,10 +249,6 @@
     "category": "key_principle",
     "text": "Keywords are an identification method for certain rules. You will most commonly use keywords with operatives (see datacards) – some rules will only affect operatives with the relevant keywords. Some rare rules also have keywords, e.g., SUPPORT or STRATEGIC GAMBIT. These keywords mean nothing on their own, but other rules interact with them. Keywords are shown in KEYWORD BOLD font. Those in orange with a skull symbol, e.g., TEMPESTUS AQUILON, are faction keywords used to identify all operatives/rules from that kill team.",
     "examples": [],
-    "tags": [
-      "identifiers",
-      "factions"
-    ],
     "references": [
       "datacard",
       "ploy"
@@ -295,11 +264,6 @@
     "text": "Markers are placed in precise locations (this must be a location in which they can be placed) and impact the game and operatives around them. They can be placed underneath operatives (temporarily remove operatives to do so), and operatives can be placed upon them. Objective markers are 40mm in diameter. All other markers are 20mm in diameter. Some markers are known as mission markers. This means nothing on its own, but other rules interact with it. Operatives contest markers within their control range. Friendly operatives control a marker if the total APL of those contesting it is greater than that of enemy operatives, but control cannot change during an action. While an operative is carrying a marker (see Pick Up Marker here), it contests and controls that marker, and is the only operative that can. Objective markers are the most common marker, representing vital locations in the killzone. Controlling them is often required to achieve victory. It’s fine to use a miniature to represent a marker, but have a normal marker available if it creates rules issues (e.g., it’s too big).",
     "examples": [
       "Example of markers in play. Only three operatives contest the objective marker, as it isn’t within control range of the orange operative on the left (the terrain feature prevents it from being visible). The total APL of the orange operatives contesting the objective marker is 2. The total APL of the white operatives contesting it is 4, so they control it."
-    ],
-    "tags": [
-      "objectives",
-      "markers",
-      "control"
     ],
     "references": [
       "control-range",
@@ -321,11 +285,6 @@
       "There’s intervening Heavy terrain, but it’s within 1” of A, therefore operative B is not obscured.",
       "There’s intervening Heavy terrain. Whilst parts of it are within 1” of the operatives, part of it isn’t, therefore operative B is obscured."
     ],
-    "tags": [
-      "terrain",
-      "defence",
-      "shooting"
-    ],
     "references": [
       "intervening",
       "visible",
@@ -343,10 +302,6 @@
     "category": "key_principle",
     "text": "Operatives are the Citadel miniatures used in the game. Your operatives are friendly operatives, and your opponent’s operatives are enemy operatives.",
     "examples": [],
-    "tags": [
-      "core",
-      "entities"
-    ],
     "references": [
       "bases",
       "order",
@@ -363,11 +318,6 @@
     "category": "key_principle",
     "text": "An order is a state that an operative can have. It can be Conceal or Engage. Operatives are given a Conceal order when they are set up before the battle. You can change an operative’s order whenever it’s activated. Order tokens have two sides. The lighter side shows an operative is ready (it can be activated in the Firefight phase) and the darker side shows an operative is expended (it has been activated in the Firefight phase).",
     "examples": [],
-    "tags": [
-      "stealth",
-      "activation",
-      "tokens"
-    ],
     "references": [
       "order-conceal",
       "order-engage"
@@ -382,10 +332,6 @@
     "category": "key_principle",
     "text": "The operative cannot perform Shoot and Charge actions, and it cannot counteract. However, it’s not a valid target while it’s in cover.",
     "examples": [],
-    "tags": [
-      "stealth",
-      "cover"
-    ],
     "references": [
       "cover",
       "valid-target",
@@ -401,9 +347,6 @@
     "category": "key_principle",
     "text": "The operative can perform actions as normal and can counteract.",
     "examples": [],
-    "tags": [
-      "engagement"
-    ],
     "references": [
       "order"
     ]
@@ -413,16 +356,13 @@
     "name": "Ploy",
     "aliases": [
       "ploy",
-      "ploys"
+      "ploys",
+      "gambit"
     ],
     "category": "key_principle",
     "text": "Players can spend CP on ploys to gain rules bonuses at the opportune moment. Unless otherwise specified, all ploys cost 1CP. There are two types of ploys: Every strategy ploy is a STRATEGIC GAMBIT (used in the Gambit step of the Strategy phase). Some apply rules that are resolved “immediately”; otherwise, they apply rules that last until the end of the turning point. Firefight ploys are used in the Firefight phase and apply rules as the ploy specifies. All players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s rules. Other than Command Re-roll, each player cannot use each ploy more than once per turning point.",
     "examples": [
       "Command Re-roll: Use this firefight ploy after rolling your attack or defence dice. You can re-roll one of those dice."
-    ],
-    "tags": [
-      "command-points",
-      "tactics"
     ],
     "references": [
       "dice",
@@ -437,12 +377,9 @@
     "category": "key_principle",
     "text": "Some rare rules will conflict with each other, so it must be established which takes precedence. In order of priority, a rule takes precedence if: 1. It specifically says so. 2. The online designer’s commentary says so. 3. It’s not found in the core book (i.e., other rules take precedence over core book rules). 4. It says \"cannot\". 5. The active operative’s controlling player decides. 6. The player with initiative decides.",
     "examples": [],
-    "tags": [
-      "rules",
-      "conflict-resolution"
-    ],
     "references": [
-      "roll-off"
+      "roll-off",
+      "initiative"
     ]
   },
   {
@@ -454,10 +391,6 @@
     "category": "key_principle",
     "text": "If a rule requires a roll-off, both players roll one D6 and whoever has the highest wins the roll-off. If there’s a tie, roll-off again.",
     "examples": [],
-    "tags": [
-      "dice",
-      "tiebreaker"
-    ],
     "references": [
       "dice"
     ]
@@ -472,10 +405,6 @@
     "category": "key_principle",
     "text": "Tokens are used to help you keep track of rules effects. They are often placed next to the relevant operative, but can be moved to make space for other operatives and markers as necessary. They are removed when the tracked rules effect ends.",
     "examples": [],
-    "tags": [
-      "tracking",
-      "state"
-    ],
     "references": [
       "marker",
       "order",
@@ -491,10 +420,6 @@
     "category": "key_principle",
     "text": "Some rules require you to select a valid target for an operative. This is most common when an operative is shooting, but some rare rules require it too. If the intended target has an Engage order, it’s a valid target if it’s visible to the operative. If the intended target has a Conceal order, it’s a valid target if it’s visible to the operative and not in cover.",
     "examples": [],
-    "tags": [
-      "shooting",
-      "targeting"
-    ],
     "references": [
       "order",
       "cover",
@@ -513,10 +438,6 @@
       "Full visibility example.",
       "Partial visibility example."
     ],
-    "tags": [
-      "line-of-sight",
-      "perception"
-    ],
     "references": [
       "cover",
       "obscured",
@@ -531,10 +452,6 @@
     "category": "key_principle",
     "text": "The killzone floor is the lowest level of the killzone (i.e., the game board). Anything that’s on a marker that’s on the killzone floor is also on the killzone floor.",
     "examples": [],
-    "tags": [
-      "terrain",
-      "levels"
-    ],
     "references": [
       "bases",
       "marker"
@@ -547,9 +464,6 @@
     "category": "key_principle",
     "text": "When planning your tournament, you must determine if it will be using the Classified format. We recommend making your tournament Classified if your prizes for winning include a ticket to the World Championships of Warhammer. In all other tournament settings, you may allow play of all kill teams with 3rd edition rules. Classified teams can be played in Classified format tournaments. Teams that are not Classified will continue to receive regular Rules Updates – balance updates, designer’s commentaries and erratas – and will be balanced throughout the current edition of Kill Team",
     "examples": [],
-    "tags": [
-      "tournaments"
-    ],
     "references": [
       "season"
     ]
@@ -561,11 +475,89 @@
     "category": "key_principle",
     "text": "A season typically lasts around 12 months and refers to a period during which specific kill teams are available for play and receive regular updates to their rules. Each season allows players to enjoy a balanced and manageable range of teams while new content is introduced.",
     "examples": [],
-    "tags": [
-      "seasons"
-    ],
     "references": [
       "classified"
+    ]
+  },
+  {
+    "id": "game-sequence",
+    "name": "Game Sequence",
+    "aliases": [
+      "game sequence"
+    ],
+    "category": "key_principle",
+    "text": "The main step of the game sequence is the battle, where your operatives fight one another and you attempt to achieve victory. A battle consists of multiple turning points, and each turning point includes a Strategy phase and a Firefight phase. They must be completed in order and in full, at which point the turning point ends and the next begins. Repeat this process until the battle ends, as specified by your mission pack.",
+    "examples": [],
+    "references": [
+      "turning-point"
+    ]
+  },
+  {
+    "id": "turning-point",
+    "name": "Turning Point",
+    "aliases": [
+      "turning point"
+    ],
+    "category": "key_principle",
+    "text": "A turning point consists of a Strategy phase and a Firefight phase.",
+    "examples": [],
+    "references": [
+      "game-sequence"
+    ]
+  },
+  {
+    "id": "strategy-phase",
+    "name": "Strategy Phase",
+    "aliases": [
+      "strategy phase"
+    ],
+    "category": "key_principle",
+    "text": "Players can use strategic ploys during the strategy phase.",
+    "examples": [],
+    "references": [
+      "turning-point",
+      "ploy"
+    ]
+  },
+  {
+    "id": "firefight-phase",
+    "name": "Firefight Phase",
+    "aliases": [
+      "firefight phase"
+    ],
+    "category": "key_principle",
+    "text": "The player who has initiative activates a ready friendly operative. Once that activation ends, their opponent activates one of their ready friendly operatives. The players repeat this process, alternating activations until all of one player’s operatives are expended, in which case they can counteract between their opponent’s remaining activations. Once all operatives are expended, the Firefight phase ends.",
+    "examples": [],
+    "references": [
+      "turning-point",
+      "expended",
+      "ready"
+    ]
+  },
+  {
+    "id": "expended",
+    "name": "Expended",
+    "aliases": [
+      "expended"
+    ],
+    "category": "key_principle",
+    "text": "When you’ve finished with your operative’s activation, that operative is expended. While expended, an operative is not ready.",
+    "examples": [],
+    "references": [
+      "firefight-phase"
+    ]
+  },
+  {
+    "id": "ready",
+    "name": "Ready",
+    "aliases": [
+      "ready"
+    ],
+    "category": "key_principle",
+    "text": "An operative is ready if it has not been expended. Ready operatives can perform actions. While an operative is doing so it’s known as the active operative.",
+    "examples": [],
+    "references": [
+      "expended"
     ]
   }
 ]
