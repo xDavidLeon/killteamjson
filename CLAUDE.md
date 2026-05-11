@@ -28,9 +28,19 @@ es/                         # Generated Spanish flat JSON (for app/runtime compa
     ...
 extra/                      # Tier lists and supplementary data
 scripts/                    # Build/validation scripts
-killteam_ids.txt            # Reference list of all kill team IDs
+killteam_ids.txt            # Reference list of all kill team IDs (see below)
 README.md                   # Full schema documentation
 ```
+
+## killteam_ids.txt (IMPORTANT)
+
+Whenever you **add a new kill team** (`en/teams/{ID}.json`), **always** update `killteam_ids.txt` at the repo root in the same pass:
+
+- Add a line `killteamId` then tab then `killteamName`, matching the existing rows.
+- Keep ordering consistent with the file (grouped by faction prefix, then by ID).
+- Bump the trailing `Total: N teams` count to match.
+
+Do not leave new team JSON in `en/teams/` without the corresponding `killteam_ids.txt` entry.
 
 ## Translation Rule (IMPORTANT)
 
@@ -107,10 +117,11 @@ IDs follow a hierarchical dot-notation path:
 1. Locate the relevant PDF on the GW website and update the `file` URL.
 2. Update `version` to the new dataslate month/year (e.g. `"April '26"`).
 3. Apply stat/weapon/ploy/equipment changes from the PDF.
-4. Check `en/weapon_rules.json` to confirm any referenced `WR-` IDs exist.
-5. Update the matching `es/overlays/teams/{ID}.json` entries for any changed user-facing strings.
-6. Regenerate flat Spanish files: `python3 scripts/build_es_locale.py build`.
-7. Validate overlays and merge output:
+4. If you added a **new** team file under `en/teams/`, update `killteam_ids.txt` per **killteam_ids.txt (IMPORTANT)** above.
+5. Check `en/weapon_rules.json` to confirm any referenced `WR-` IDs exist.
+6. Update the matching `es/overlays/teams/{ID}.json` entries for any changed user-facing strings.
+7. Regenerate flat Spanish files: `python3 scripts/build_es_locale.py build`.
+8. Validate overlays and merge output:
    - `python3 scripts/build_es_locale.py validate`
    - `python3 scripts/build_es_locale.py verify`
 
@@ -134,6 +145,7 @@ chore: [structural/tooling change]
 
 ## What NOT to Do
 
+- Do not add a new `en/teams/{ID}.json` without updating `killteam_ids.txt` (and its total).
 - Do not add homebrew stats, abilities, or rules not in official GW sources.
 - Do not invent new `WR-` IDs — check `weapon_rules.json` first.
 - Do not modify `es/` without also updating `en/` (or vice versa).
