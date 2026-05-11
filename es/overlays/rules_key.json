@@ -54,6 +54,8 @@
       "aliases": [
         "lpa",
         "apl",
+        "APL",
+        "LPA",
         "límite de puntos de acción"
       ],
       "text": "El coste total en PA de las acciones que un agente puede realizar durante su activación, y una estadística que se usa para determinar el control de los marcadores. Algunas reglas raras cambian el LPA de un agente. Sin importar cuántos cambios al LPA afecten a un agente, el total nunca puede ser más de -1 o +1 respecto a su LPA normal. Esto tiene prioridad sobre todos los cambios a estadísticas.",
