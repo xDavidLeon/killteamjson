@@ -332,7 +332,9 @@
     "name": "Ploy",
     "aliases": [
       "ploy",
-      "ploys"
+      "ploys",
+      "gambit",
+      "gambits"
     ],
     "category": "key_principle",
     "text": "Players can spend CP on ploys to gain rules bonuses at the opportune moment. Unless otherwise specified, all ploys cost 1CP. There are two types of ploys: Every strategy ploy is a STRATEGIC GAMBIT (used in the Gambit step of the Strategy phase). Some apply rules that are resolved “immediately”; otherwise, they apply rules that last until the end of the turning point. Firefight ploys are used in the Firefight phase and apply rules as the ploy specifies. All players have access to the Command Re-roll firefight ploy below and the ploys in their kill team’s rules. Other than Command Re-roll, each player cannot use each ploy more than once per turning point.",
