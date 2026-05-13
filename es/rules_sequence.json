@@ -16,7 +16,7 @@
     {
       "id": 2,
       "icon": "♟",
-      "name": "Elegir Agentes ",
+      "name": "Elegir Agentes",
       "description": [
         "Cada jugador elige en secreto sus agentes para la batalla según los requisitos de selección de su comando. A continuación los jugadores revelan sus selecciones a la vez.",
         "Cada jugador elige en secreto hasta 4 opciones de equipo. Cada opción no puede ser elegida más de una vez por jugador. A continuación los jugadores revelan sus selecciones a la vez.",
@@ -29,7 +29,7 @@
       "icon": "🔥",
       "name": "Desplegar Agentes",
       "description": [
-        "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar una pieza de equipo que se despliegue antes de la batalla (p. ej. escaleras). Esto se hace pieza de equipo a pieza de equipo, no opción a opción.",
+        "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar una pieza de equipo que se despliegue antes de la batalla (p. ej. escaleras). Nota: se hace pieza de equipo a pieza de equipo, no opción a opción.",
         "Empezando por el jugador con la iniciativa, los jugadores se alternan para desplegar un tercio (redondeado al alza) de su comando. Cuando un jugador despliega un agente, lo debe hacer completamente en su zona de descenso y le debe dar una orden de ocultarse."
       ]
     },
@@ -38,12 +38,15 @@
       "icon": "🕒",
       "name": "Librar la batalla",
       "description": [
-        "Para determinar la iniciativa en cada punto de inflexión (incluido el primero), los jugadores desempatan (no se vuelven a tirar los empates). Empezando por el perdedor del desempate, cada jugador alterna entre usar una carta de iniciativa para modificar el resultado de su tirada o pasar, hasta que ambos pasen sucesivamente.",
-        "Si uno o varios jugadores usan reglas de su comando para modificar la tirada, deben hacerlo antes de usar cartas de iniciativa, empezando por el jugador que pierde el desempate.",
-        "La carta de iniciativa Repite tu tirada de iniciativa permite repetir la tirada. El resto de cartas modifican el resultado hacia arriba o abajo, incluso más allá de 6 o por debajo de 1.",
-        "El ganador del desempate decide quién tiene la iniciativa. El perdedor recibe una carta de iniciativa según el número del punto de inflexión. Si hay empate, el jugador sin iniciativa se convierte en el ganador.",
-        "Como Gambito Estratégico en el primer punto de inflexión, cada jugador elige en secreto una de sus tres operaciones (crítica, asesinato o táctica) como su operación primaria. Luego la indica en secreto con una carta o dado.",
-        "Cada jugador puede obtener un máximo de 6PV por cada operación"
+        "Para determinar la iniciativa en cada punto de inflexión (incluido el primero), los jugadores desempatan (los empates no se vuelven a tirar). Empezando por el jugador que pierde el desempate, cada jugador alterna entre usar una carta de iniciativa para alterar el resultado de su tirada o pasar, hasta que ambos pasen sucesivamente.",
+        "Si uno o varios jugadores van a usar reglas de su comando para afectar el desempate, deben hacerlo antes de jugar cartas de iniciativa, empezando por el jugador que va perdiendo el desempate.",
+        "La carta de iniciativa Repite tu tirada de iniciativa permite al jugador repetir su tirada de iniciativa. El resto de cartas de iniciativa modifican el resultado de la tirada del jugador hacia arriba o hacia abajo (puede superar el 6 o bajar de 1).",
+        "El ganador del desempate decide quién tiene la iniciativa. Salvo durante el cuarto punto de inflexión, el perdedor del desempate obtiene una carta de iniciativa con un valor igual al número del punto de inflexión. Si el desempate es un empate, el ganador es el jugador que no tenía la iniciativa en ese momento.",
+        "Una batalla comprende cuatro puntos de inflexión (salvo que se indique lo contrario). Cada punto de inflexión incluye una fase de Estrategia —también llamada fase de Gambito— y una fase de Tiroteo.",
+        "Como GAMBITO ESTRATÉGICO durante el primer punto de inflexión, cada jugador elige en secreto una de sus tres operaciones (Operación crítica, Operación táctica u Operación de asesinato) como su Operación primaria. A continuación, cada jugador coloca una carta con su elección boca abajo, o usa un dado u otro método para indicarla.",
+        "Empezando por el jugador con la iniciativa, los jugadores alternan usar un GAMBITO ESTRATÉGICO o pasar, hasta que cada jugador pase en sucesión. Todo gambito de estrategia es también un GAMBITO ESTRATÉGICO. Cada jugador no puede usar cada GAMBITO ESTRATÉGICO más de una vez por punto de inflexión.",
+        "Durante la fase de Tiroteo, los jugadores se alternan para activar agentes amigos preparados, empezando por el jugador con la iniciativa. Siempre que se active un agente, primero elige su orden (Trabarse u Ocultarse). A continuación realiza acciones y, mientras lo hace, se le considera el agente activo. Cada acción cuesta PA, y no puedes gastar más PA durante la activación de un agente de los que marque su NPA. Salvo que se especifique lo contrario, un agente no puede realizar la misma acción más de una vez durante su activación. Cuando el agente termina de realizar acciones, queda usado (ficha de orden con el lado de usado arriba). Cuando todos los agentes están usados, termina el punto de inflexión.",
+        "Cada jugador puede obtener un máximo de 6PV por cada operación."
       ]
     },
     {
@@ -51,7 +54,7 @@
       "icon": "🏆",
       "name": "Fin de la Batalla",
       "description": [
-        "La batalla termina tras haber completado cuatro puntos de inflexión. Si un jugador no tiene agentes en la zona de aniquilación pero la batalla no ha terminado, el otro jugador completa los turnos restantes hasta el final.çf",
+        "La batalla termina tras haber completado cuatro puntos de inflexión. Si un jugador no tiene agentes en la zona de aniquilación pero la batalla no ha terminado, el otro jugador completa los turnos restantes hasta el final.",
         "Al final de la batalla, todos los jugadores revelan sus operaciones primarias de manera simultánea. Obtienen PV adicionales igual a la mitad de lo que puntuaron con esa operación (redondeando al alza).",
         "El jugador con más PV es el ganador. Si hay empate, la batalla acaba en empate."
       ]
