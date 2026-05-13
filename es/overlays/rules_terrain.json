@@ -1,0 +1,165 @@
+{
+  "locale": "es",
+  "rules_terrain": {
+    "terrain-and-movement": {
+      "text": "Los agentes no pueden atravesar terreno; deben rodearlo, trepar por encima o saltar/dejarse caer.\n\nLos agentes deben terminar un movimiento en una ubicación en la que puedan ser colocados; no pueden terminarlo a medio trepar, saltar o\ndejarse caer. Si eso no es posible, no pueden iniciar el movimiento.",
+      "name": "Terreno Y Movimiento"
+    },
+    "climb": {
+      "text": "Un agente debe estar a 1\" o menos en horizontal y a 3\" o menos en vertical de un terreno que es visible para él para poder treparlo.\nTrepar se considera un movimiento vertical de 2\" como mínimo (es decir, una distancia de 1\" se considerará 2\").",
+      "name": "Trepar"
+    },
+    "drop": {
+      "text": "Los agentes se dejan caer cuando se mueven fuera de un terreno o tras saltar. Ignora 2\" de la distancia vertical\npor la que se caigan en cada acción. Por tanto, una caída vertical de 2\" o menos se ignora. Si cae\nvarias veces durante una acción, solo se ignoran 2\" en total, no 2\" por cada caída.",
+      "name": "Dejarse caer"
+    },
+    "jump": {
+      "text": "Los agentes pueden saltar del terreno Aventajado que esté a 2\" o más por encima del suelo de la zona de aniquilación cuando mueven fuera del mismo.\nPuedes moverlos hasta 4\" desde el borde en horizontal cuando saltan, como si fuera cualquier otro movimiento,\npero debe ser un solo incremento en línea recta. Luego el agente debe dejarse caer o trepar desde ahí. Al saltar\ndesde un elemento de terreno, si tiene almena en el borde desde el que quieres saltar, debes treparla primero\npero aún así saltas desde el nivel del terreno Aventajado. Al saltar hacia un elemento de terreno,\npuedes ignorar una diferencia de altura de 1\" o menos, incluidas almenas o barandillas.\n\nSaltar significa que los agentes pueden moverse a través de huecos de hasta 4\" de ancho, y por encima de cosas que estén por debajo de ellos.",
+      "name": "Saltar"
+    },
+    "terrain-feature": {
+      "text": "Una zona de eliminacion se compone de diferentes partes, cada una de las cuales es un tipo de terreno (una parte puede ser más de un tipo). Si utilizas una característica del terreno de una zona de eliminacion específica, se especificará el tipo de cada parte de esa característica del terreno. Si utilizas una característica del terreno de una zona de eliminacion de tu propia creación, debes especificar el tipo de cada parte de esa característica del terreno antes de la batalla. A continuación se indican los tipos de terreno más comunes, pero algunas zonas de combate tienen sus propios tipos",
+      "name": "Característica del terreno"
+    },
+    "heavy": {
+      "text": "El terreno grande es Pesado. Puede ofuscar agentes.\n\nEs bueno tener una mezcla de terreno Ligero y Pesado en tu zona de aniquilación, pues algunas reglas interactúan con \ncada tipo de forma distinta.",
+      "name": "Pesado"
+    },
+    "light": {
+      "text": "El terreno pequeño es Ligero. No tiene reglas adicionales propias, pero otras reglas interactúan con él mismo de forma distinta\n(p. ej., terreno Aventajado de la pág. 60).",
+      "name": "Ligero"
+    },
+    "blocking": {
+      "text": "El terreno Bloqueado se suele atribuir a huecos intermedios o por debajo de un elemento de terreno.  No se puede\ntrazar visibilidad a través de esos huecos, y a efectos de cobertura y ofuscación, los huecos están interpuestos como\nel terreno de su alrededor.\n\nTécnicamente, el terreno Bloqueado no es realmente terreno físico, sino huecos por los que los agentes no deberían \npoder ver. El terreno Bloqueado es raro, pero existe para instancias en que es necesario",
+      "name": "Bloqueado"
+    },
+    "vantage": {
+      "text": "El terreno Aventajado representa los niveles más altos de la zona de aniquilación, áreas en que los agentes pueden colocarse sobre el tablero. Si un terreno no es Aventajado, los agentes pueden mover por encima del mismo pero no terminar un movimiento sobre él o ser desplegados ahí. El terreno Aventajado es también terreno Ligero, y tiene además las siguientes características.\n\nEn primer lugar, siempre que un agente en terreno Aventajado dispare a un agente que tenga una orden de Trabarse,  su arma a distancia tiene la regla de arma Certera 1 si el blanco está por lo menos 2\" por debajo de él, o Certera 2 si el blanco está por lo menos 4\" por debajo de él.\n\nEn segundo lugar, al elegir un blanco válido para un agente en terreno Aventajado, los agentes por lo menos 2\" por debajo de ese agente con una orden de Ocultarse no se consideran a cubierto debido al terreno Ligero. Esto puede hacer que esos agentes sean elegidos como blanco (siempre que también sean visibles), pero no les niega su salvación de cobertura, y el defensor puede guardarla como éxito crítico en su lugar, o guardar una salvación de cobertura adicional.\n\nEn tercer lugar, a efectos de estar ofuscado, ignora el terreno Pesado conectado a terreno Aventajado donde esté el agente activo o el blanco elegido.\n\nComo el terreno Aventajado también es Ligero, un agente en este terreno a menudo estará cubierto de los agentes que estén más abajo que ellos; imagina que se agachan para ganar una salvaguarda de cobertura o evitar ser un objetivo válido.\n\nSi un agente está obstruido para moverse a través del terreno Aventajado por agentes enemigos u otras característica puede moverse alrededor de estas obstrucciones (sin caer) siempre que parte de su base esté en el terreno Aventajado.",
+      "name": "Aventajado"
+    },
+    "accessible": {
+      "text": "Los agentes pueden moverse a través de terreno Accesible (esto tiene preferencia sobre Peanas, y Terreno y movimiento), ero hacerlo cuenta como 1\" adicional. Solo es necesario que el centro de la peana de un agente pase a través del terreno Accesible, por lo que los tamaños de peana no importan.",
+      "name": "Accesible"
+    },
+    "insignificant": {
+      "text": "El terreno Insignificante suele ser muy pequeño. A efectos de trepar y dejarse caer, se ignora.\n\nUn agente puede moverse por encima y a través de terreno Insignificante sin tener que subir y bajar",
+      "name": "Insignificante"
+    },
+    "exposed": {
+      "text": "El terreno Expuesto suele ser muy pequeño, o es terreno con grandes huecos tras el cual los agentes no deberían poder cubrirse. A efectos de estar a cubierto u ofuscado, \nnunca se considera interpuesto.\n\nEs especialmente importante identificar el terreno Insignificante y Expuesto antes de la batalla, para evitar \nmalentendidos posteriores.",
+      "name": "Expuesto"
+    },
+    "ceiling": {
+      "text": "Los agentes con una peana redonda de 50 mm o menos, o una peana ovalada de 60x35 mm, pueden mover bajo\nterreno Techo sin importar la altura del agente (esto tiene prioridad sobre las reglas de Terreno y Movimiento\nde la pág. 56). El agente sigue teniendo que terminar la acción en una ubicación en la que pueda ser colocado.",
+      "name": "Techo"
+    },
+    "wall": {
+      "aliases": [
+        "Terreno de muro"
+      ],
+      "text": "Los agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado.",
+      "name": "Muro"
+    },
+    "gallowdark-wall": {
+      "examples": [
+        "El agente A normalmente estaría a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Horcasombría. Esto haría que el agente A estuviera a más de 3” del agente B.",
+        "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
+        "Una esquina del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "El agente A ha pasado la esquina del muro, por lo tanto no es interpuesto y el agente B no está en cobertura. Ten en cuenta que si el agente A estuviera completamente en el lado izquierdo de la línea negra punteada, el muro sería interpuesto y el agente B estaría en cobertura.",
+        "Un final del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "Como la escotilla está abierta, un final del muro es interpuesto. Está a más de 1” de ambos agentes, por lo tanto el agente B está ofuscado."
+      ],
+      "text": "Un muro del Horcasombría es un elemento de terreno Pesado y Muro. Algunos muros incluyen una escotilla.",
+      "name": "Muro del Horcasombría"
+    },
+    "hatchway": {
+      "text": "Una escotilla tiene dos estados: cerrada y abierta. Tiene dos partes: un punto de acceso y un portillo, y sus tipos de terreno dependen del estado del escotilla. Los agentes pueden realizar la acción de misión Operar portillo para cambiar su estado. Las escotillas empiezan la batalla cerradas.\n\nComo el punto de acceso de una escotilla abierta es terreno Expuesto, deben usarse los muros a ambos lados para estar a cubierto un ofuscado en lugar del punto de acceso.\n\n **CERRADA**\nMientras una escotilla está cerrada:\n\nSu portillo debe estar totalmente cerrado.\n\nEl punto de acceso y el portillo son terrenos Pesados y Muro.\n\n **ABIERTO**\n Mientras una escotilla está abierta:\n\nSu portillo debe estar totalmente abierto (no puede estar entreabierto).\n\nEl punto de acceso es terreno Accesible, Insignificante y Expuesto.\n\nEl portillo es terreno Pesado y Muro, y el hueco debajo del mismo es terreno Bloqueado.\n\nSi algún agente impediría que el portillo se abriera o cerrara del todo, retíralos temporalmente de la zona de aniquilación, abre o cierra el portillo, y luego devuélvelos lo más cerca como puedas de su ubicación original. Si un agente está en la zona de control de un agente enemigo antes de que se abra un portillo, debe ser devuelto a ella.",
+      "name": "Escotilla"
+    },
+    "condensed-environment": {
+      "text": "Las armas con las reglas de arma Área, Ráfaga y/o x” Devastadora (es decir, Devastadora con un requisito de distancia) también tienen la regla de arma Letal 5+ (pág. 111).",
+      "name": "Entorno Compacto"
+    },
+    "gallowdark-on-guard": {
+      "aliases": [
+        "en guardia"
+      ],
+      "text": "Una vez durante la activación de cada agente enemigo, después de que ese agente enemigo realice una acción, puedes interrumpir esa activación y elegir un agente amigo en guardia para realizar la acción de Combatir o Disparar gratis (incluidas acciones que se consideren como tales, como Combatir en escotilla, ver abajo). Si lo haces, el agente amigo no podrá Reaccionar durante el punto de inflexión.\n\nEste agente amigo incluso puede realizar la acción de Disparar estando en la zona de control de un agente enemigo (esto tiene prioridad sobre las condiciones normales de la acción Disparar). Esto se denomina disparo a bocajarro y tiene las siguientes reglas adicionales mientras tu agente lo realiza:\n\nToma como blanco al agente enemigo en la zona de control de tu agente (aunque normalmente no fuese un blanco válido).\nEmpeora en 1 el atributo Impactar de las armas de tu agente.\nHasta el final de la activación del agente enemigo interrumpido, tu agente no puede contraatacar.\n\nSi lo haces, ese agente amigo no puede contrarrestar durante el punto de inflexión.",
+      "name": "Ponerse en Guardia"
+    },
+    "gantry": {
+      "text": "Los suelos de pasarela son terreno Accesible y Aventajado.\n\nLos pilares de pasarela son terreno Pesado.\n\nLos elementos de terreno pasarela tienen tres tamaños: largas, medianas y cortas. Cuando están conectadas (es decir, sus suelos se tocan), se considera un único terreno.",
+      "name": "Pasarela"
+    },
+    "thermometric-condenser": {
+      "text": "El techo es terreno Accesible y Aventajado.\n\nEl reborde interior del techo es terreno Expuesto e Insignificante: ignora la leve diferencia de altura entre el área exterior e interior del techo.\n\nLas almenas del techo son terreno Ligero.\n\nTodas las demás partes de la Fragua Ferratónica son terreno Pesado.",
+      "name": "Fragua Ferratónica"
+    },
+    "restricted-movement": {
+      "text": "Ninguna parte de la peana de un agente puede tocar un área peligrosa.\n\nDepredadores al acecho detienen a los agentes que se acercan demasiado al océano, y las fuertes corrientes y aguas tóxicas les impiden sumergirse.",
+      "name": "Movimiento Restringido"
+    },
+    "restricted-targeting": {
+      "examples": [
+        "Hay 4\" de área peligrosa entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez).",
+        "Media el contorno de una pasarela entre los agentes A y B, por lo que el agente B no es un blanco válido (ni tampoco lo sería el agente A a su vez). Ten en cuenta que la pasarela izquierda se ignora al determinar esto, pues el agente A está sobre ella."
+      ],
+      "text": "Al elegir un blanco válido para un agente en el suelo de la zona de aniquilación, un blanco en el suelo de la zona de aniquilación no es un blanco válido si hay 4\" de área peligrosa entre ellos.\n\nAl elegir un blanco válido para un agente en terreno Aventajado, un blanco en el suelo de la zona de aniquilación no es un blanco válido si media el contorno de una pasarela entre ellos. Lo mismo se aplica a la inversa (desde un agente en el suelo de la zona de aniquilación hasta un blanco en terreno Aventajado). Sin embargo, en ambos casos, ignora el contorno de los elementos de terreno pasarelas en las que estén el agente activo o el blanco.\n\nOlas implacables, brumas marinas y gases industriales hacen más difícil a los agentes ver a sus blancos al otro lado de un tramo oceánico.\n\nEn ambos casos, usa líneas de objetivo para determinar si un área peligrosa o el contorno de una pasarela están entre ellos.\n\nLos blancos restringidos solo afectan cuando uno o más agentes implicados están en el suelo de la zona de aniquilación; si están ambos en terreno Aventajado, no tiene efecto alguno.",
+      "name": "Blancos Restringidos"
+    },
+    "equipment-terrain-placement": {
+      "text": "Se puede desplegar Equipo en terreno Aventajado, en el suelo de la zona de aniquilación y a 2\" o menos de terreno Accesible (esto tiene preferencia sobre las restricciones habituales)",
+      "name": "Equipo"
+    },
+    "stronghold": {
+      "text": "A Los niveles superiores de un elemento de terreno fortaleza son terreno Aventajado y Techo.\n\nB La puerta es terreno Accesible y Pesado.\n\nC La escalera de incendios es terreno Aventajado, Insignificante y Expuesto.\n\nD La rejilla rota es terreno Bloqueado.\n\nE Los tres contenedores en la Fortaleza A son terreno bloqueado y pesado.\n\nF Las pequeñas almenas rotas en el borde del terreno aventajado de la Fortaleza A son terreno insignificante y expuesto.\n\nG El hueco en el terreno aventajado que conforma el 1er piso de la Fortaleza B es terreno accesible.\n\nH No puedes tener más de un agente amigo en el nivel superior más alto de la Fortaleza B a la vez, y ese agente debe colocarse en un extremo u otro de ese nivel, no puede colocarse en el medio (es decir, no se puede impedir que un agente enemigo se mueva a o se despliegue en el otro extremo). Si la peana de un agente es demasiado grande para ser colocada ahí, deberá mover o desplegarse lo más cerca posible del extremo deseado, y entonces déjalo a un lado y trátalo como si estuviera ahí. Ponlo lo más cerca de donde querías que estuviese en ese nivel cuando sea importante para comprobar otras reglas (zona de control, visibilidad, distancias, etc.) Esto tiene prioridad sobre las reglas de peanas y de solo poder estar en un lugar en el que se pueda colocar.\n\nTodas las demás partes de la misma son terreno Pesado.\n\nA efectos de zona de control, ignora la puerta y partes de este elemento de terreno inferiores a 2” de altura al determinar la visibilidad.",
+      "name": "Fortaleza"
+    },
+    "large-ruin": {
+      "text": "A El nivel superior de una ruina grande es terreno Aventajado y Techo. A efectos de interposición y líneas de tiro, se considera que este nivel tiene la misma altura que el primer nivel de un elemento de terreno fortaleza.\n\nB La almena superior es terreno Ligero.\n\nC La puerta es terreno Accesible y Pesado.\n\nD La mirilla de la puerta es terreno Bloqueado.\n\nE Las ventanas que no están rotas son terreno Pesado y con Barrotes.\n\n **Terreno con Barrotes:** No se puede trazar visibilidad a través de este terreno a menos que el agente o lo que intenta ver estén a 1\" o menos en horizontal de él.\n\nTodas las partes del mismo son terreno Pesado.",
+      "name": "Ruina Grande"
+    },
+    "small-ruin": {
+      "text": "Esto es terreno Pesado.",
+      "name": "Ruina Pequeña"
+    },
+    "heavy-rubble": {
+      "text": "Esto es terreno Pesado.",
+      "name": "Escombros Pesados"
+    },
+    "light-rubble": {
+      "text": "Esto es terreno Ligero.",
+      "name": "Escombros Ligeros"
+    },
+    "condensed-stronghold": {
+      "text": "Cuando un agente dispara con un arma con la regla de arma Área, Ráfaga y/o x” Devastadora (es decir, Devastadora con un requisito de distancia), también tiene la regla de arma Letal 5+ (pág. 111) si el blanco está completamente dentro de un elemento de terreno fortaleza y en el suelo de la zona de aniquilación o en una plataforma de tiro.\n\nLa regla Fortaleza compacta siempre se refiere a la ubicación del blanco, por lo que si el blanco principal está completamente dentro de una fortaleza, pero el blanco secundario no lo está, esta regla no se aplica a ese blanco secundario.",
+      "name": "Fortaleza Compacta"
+    },
+    "garrisoned-stronghold": {
+      "text": "Cuando un agente completamente dentro de un elemento de terreno fortaleza contraataca contra un agente que no lo está, el defensor se resuelve primero (esto tiene preferencia sobre el orden normal de resolución de combates).",
+      "name": "Fortaleza Guarnecida"
+    },
+    "tomb-world-wall": {
+      "examples": [
+        "El agente A estaría normalmente a 3” del agente B, pero como las distancias no se pueden medir por encima o a través del terreno de muro, debe medirse alrededor del muro del Mundo Necrópolis. Esto haría que el agente A estuviera a más de 3” del agente B.",
+        "El agente B no está en cobertura ya que una esquina o el final del muro no es interpuesto. Ten en cuenta que las partes menores del muro que sobresalen no forman una esquina o un final por sí solas; debe ser la estructura principal del muro la que gire una esquina o termine, como se muestra en los siguientes diagramas.",
+        "Una esquina del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "El agente A ha pasado la esquina del muro, por lo tanto no es interpuesto y el agente B no está en cobertura. Ten en cuenta que si el agente A estuviera completamente en el lado izquierdo de la línea negra punteada, el muro sería interpuesto y el agente B estaría en cobertura.",
+        "Un final del muro es interpuesto, por lo tanto el agente B está en cobertura.",
+        "Como la escotilla está abierta, un final del muro es interpuesto. Está a más de 1” de ambos agentes, por lo tanto el agente B está ofuscado."
+      ],
+      "text": "Un elemento de terreno de Mundo Necrópolis es terreno pesado y de muro. Algunos muros incluyen escotilla o un punto de brecha."
+    },
+    "breach-point": {
+      "text": "Un punto de brecha tiene dos estados: cerrado y abierto. Tiene dos partes, un punto de acceso y un punto de brecha, y sus tipos de terreno dependen del estado del punto de brecha. Los puntos de brecha empiezan la batalla cerrados. Para abrir un punto de brecha, los agentes pueden realizar la acción de misión Brecha (tras la cual no podrán volver a cerrarlo).\n\n**CERRADA**\nMientras un punto de brecha está cerrado:\n\nSu brecha de muro debe estar en su punto de acceso.\n\nEl punto de acceso y la brecha de muro son terreno pesado y de muro.\n\n**ABIERTA**\nMientras un punto de brecha está abierto:\n\nSu brecha de muro debe retirarse de la zona de aniquilación.\n\nSu punto de acceso es terreno accesible e insignificante.\n\nSu punto de acceso es también terreno expuesto. Esto significa que los muros en cualquiera de sus lados deben ser usados para cobertura y ofuscación en su lugar.",
+      "name": "Punto de Brecha"
+    },
+    "teleport-pad": {
+      "text": "Un punto de teleportación es terreno expuesto, insignificante y aventajado. No puede haber en él más de un agente a la vez, y mientras un agente esté en él, dicho agente no puede tocar el suelo de la zona de aniquilación (en otras palabras, un agente no puede estar a la vez en el punto de teleportación y en el suelo de la zona de aniquilación).\n\nDesde el inicio del segundo punto de inflexión, siempre que un agente amigo en un punto de teleportación realice la acción de Cargar, Retroceder o Reposicionarse, puedes teleportarlo. Si lo haces, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a colocarlo en el punto de teleportación. Debe seguir cumpliendo todos los demás requisitos para esa acción, o de lo contrario no podrá teleportarse (p. ej., si es la acción de Cargar, el agente deberá terminar esa acción en la zona de control de un agente enemigo). Los elementos de terreno de equipo no se pueden colocar a menos de 2\" de una plataforma de teletransporte. Si otro agente está en el otro punto de teleportación cuando un agente se teleporte, intercambialos (si se trata de un agente enemigo, su jugador controlador lo coloca). Cada agente no puede teleportarse más de una vez por cada acción.",
+      "name": "Punto de teleportación"
+    },
+    "sarcophagus-and-debris-light": {
+      "name": "Sarcófago y escombros (terreno ligero)"
+    }
+  }
+}

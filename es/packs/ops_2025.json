@@ -7,7 +7,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Flanco",
-      "archetype": "Reconocimiento",
+      "archetype": "Recon",
       "reveal": "Como GAMBITO ESTRATÉGICO.",
       "additionalRules": "Divide la zona de aniquilación en dos flancos (izquierdo y derecho) trazando una línea imaginaria similar a la línea central, salvo que esta sale del centro del borde de la zona de aniquilación de cada jugador. Un agente disputa un flanco mientras está, a la vez, completamente en él y completamente en el territorio del oponente. Los agentes amigos controlan un flanco si el atributo LPA total de quienes lo disputan es mayor que el de los agentes enemigos.",
       "actions": [],
@@ -22,7 +22,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Recuperar",
-      "archetype": "Reconocimiento",
+      "archetype": "Recon",
       "reveal": "La primera vez que ganes PV por esta operación.",
       "additionalRules": null,
       "actions": [
@@ -37,7 +37,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Vigilar el movimiento enemigo",
-      "archetype": "Reconocimiento",
+      "archetype": "Recon",
       "reveal": "La primera vez que un agente amigo realiza la acción Vigilar.",
       "additionalRules": null,
       "actions": [
@@ -52,7 +52,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Revisar y purgar",
-      "archetype": "Buscar y Destruir",
+      "archetype": "Seek & Destroy",
       "reveal": "La primera vez que un agente enemigo es incapacitado mientras disputa un marcador de objetivo, o la primera vez que un agente amigo realiza la acción Purgar (lo que ocurra primero).",
       "additionalRules": "Cuando un agente enemigo que disputa un marcador de objetivo es incapacitado, ese marcador de objetivo recibe una de tus fichas de Revisado (si no tiene ya una) hasta el paso de Preparación de la siguiente fase de estrategia.",
       "actions": [
@@ -67,7 +67,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Dominación",
-      "archetype": "Buscar y Destruir",
+      "archetype": "Seek & Destroy",
       "reveal": "La primera vez que un agente enemigo resulte incapacitado por un agente amigo o dos de tus fichas de Dominación si ese agente enemigo tenía un atributo Heridas de 12 o más.",
       "additionalRules": "Siempre que un agente amigo incapacite a un agente enemigo, ese agente amigo recibe 1 ficha de Dominación.",
       "actions": [],
@@ -80,7 +80,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Hacer huir",
-      "archetype": "Buscar y Destruir",
+      "archetype": "Seek & Destroy",
       "reveal": "La primera vez que ganes PV por esta operación.",
       "additionalRules": null,
       "actions": [],
@@ -93,7 +93,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Izar bandera",
-      "archetype": "Seguridad",
+      "archetype": "Security",
       "reveal": "Cuando realices la acción Izar bandera.",
       "additionalRules": null,
       "actions": [
@@ -108,7 +108,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Mártires",
-      "archetype": "Seguridad",
+      "archetype": "Security",
       "reveal": "La primera vez que un agente amigo resulte incapacitado mientras disputa un marcador de objetivo.",
       "additionalRules": "Un marcador de objetivo recibe una de tus fichas de Mártir siempre que un agente amigo resulte incapacitado mientras lo disputa.",
       "actions": [],
@@ -121,7 +121,7 @@
         "Approved Ops: 2025"
       ],
       "title": "El mensajero",
-      "archetype": "Seguridad",
+      "archetype": "Security",
       "reveal": "La primera vez que elijas mensajero.",
       "additionalRules": "Como GAMBITO ESTRATÉGICO en cada punto de inflexión tras el primero, elige un agente amigo para que sea tu mensajero hasta el paso de Preparación de la siguiente fase de estrategia. No puedes elegir un agente que hayas elegido en un punto de inflexión anterior.",
       "actions": [],
@@ -134,7 +134,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Localizar enemigo",
-      "archetype": "Infiltración",
+      "archetype": "Infiltration",
       "reveal": "La primera vez que ganes PV por esta operación.",
       "additionalRules": "n agente enemigo está localizado si es un blanco válido para un agente amigo a 6\" o menos de él. Ese agente amigo debe tener una orden de Ocultarse, no puede ser un blanco válido para el agente enemigo que está intentando localizar y no puede tener agentes enemigos en su zona de control.",
       "actions": [],
@@ -147,7 +147,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Colocar dispositivos",
-      "archetype": "Infiltración",
+      "archetype": "Infiltration",
       "reveal": "La primera vez que un agente amigo realiza la acción Colocar dispositivo.",
       "additionalRules": null,
       "actions": [
@@ -162,7 +162,7 @@
         "Approved Ops: 2025"
       ],
       "title": "Robar información",
-      "archetype": "Infiltración",
+      "archetype": "Infiltration",
       "reveal": "La primera vez que un agente enemigo resulta incapacitado.",
       "additionalRules": "Siempre que un agente enemigo resulte incapacitado, antes de retirarlo de la zona de aniquilación, coloca 1 de tus marcadores de misión de Información en su zona de control.\nLos agentes amigos pueden realizar la acción de Recoger marcador sobre tus marcadores de misión de Información, y a efectos de las condiciones de esa acción, ignora el primer marcador de misión de Información que transporte el agente activo. En otras palabras, cada agente amigo puede transportar hasta 2 marcadores de misión de Información, o 1 de información y otro de otro tipo.",
       "actions": [],
@@ -298,13 +298,13 @@
       "type": "mission",
       "seq": 201,
       "AP": 1,
-      "name": "Asegurar",
+      "name": "Secure",
       "description": null,
       "effects": [
-        "Un marcador de objetivo que el agente activo controla está asegurado por tu comando hasta que el comando enemigo asegure ese marcador de objetivo."
+        "One objective marker the active operative controls is secured by your kill team until the enemy kill team secures that objective marker."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, o estando en la zona de control de un agente enemigo."
+        "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative. "
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -315,13 +315,13 @@
       "type": "mission",
       "seq": 202,
       "AP": 1,
-      "name": "Saquear",
+      "name": "Loot",
       "description": null,
       "effects": [
-        "Un marcador de objetivo que controle el agente activo es saqueado."
+        "One objective marker the active operative controls is looted."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, estando en la zona de control de un agente enemigo, o si ese marcador de objetivo ya ha sido saqueado durante este punto de inflexión. "
+        "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already been looted during this turning point. "
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -332,13 +332,13 @@
       "type": "mission",
       "seq": 203,
       "AP": 1,
-      "name": "Recuperar",
+      "name": "Retrieve",
       "description": null,
       "effects": [
-        "Si el agente activo controla un marcador de objetivo que no ha sido registrado por algún agente amigo, ese agente transporta ahora uno de tus marcadores de misión de Recuperar y se considera que ese marcador ha sido registrado por agentes amigos. Los agentes amigos pueden realizar la acción Recoger marcador sobre tus marcadores de misión de Recuperar."
+        "If the active operative controls an objective marker that hasn't been searched by friendly operatives, that operative is now carrying one of your Retrieval mission markers and that objective marker has been searched by friendly operatives. Friendly operatives can perform the Pick Up Marker action on your Retrieval mission markers."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, si está en la zona de control de un agente enemigo, o si ya está transportando un marcador."
+        "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it’s already carrying a marker."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -349,13 +349,13 @@
       "type": "mission",
       "seq": 204,
       "AP": 1,
-      "name": "Vigilar",
+      "name": "Scout",
       "description": null,
       "effects": [
-        " Elige 1 agente enemigo apostado visible para el agente activo y a más de 6\" de él. Ese agente enemigo está bajo vigilancia hasta el paso de Preparación de la siguiente fase de estrategia."
+        " Select one ready enemy operative visible to and more than 6\" from the active operative. That enemy operative is now monitored until the Ready step of the next Strategy phase."
       ],
       "conditions": [
-        " Un agente no puede realizar esta acción mientras tenga una orden de Trabarse, durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
+        " An operative cannot perform this action while it has an Engage order, during the first turning point, or while within control range of an enemy operative."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -366,13 +366,13 @@
       "type": "mission",
       "seq": 205,
       "AP": 1,
-      "name": "Purgar",
+      "name": "Clear",
       "description": null,
       "effects": [
-        "Un marcador de objetivo controlado por el agente activo es purgado de cara a este punto de inflexión."
+        "An objective marker the active operative controls is cleared for the turning point."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
+        "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -383,13 +383,13 @@
       "type": "mission",
       "seq": 206,
       "AP": 1,
-      "name": "Izar bandera",
+      "name": "Plant Banner",
       "description": null,
       "effects": [
-        "Coloca tu marcador de misión de Bandera dentro de la zona de control del agente activo, completamente en el territorio del oponente y a más de 5\" de un borde neutral de la zona de aniquilación. Los agentes pueden realizar la acción Recoger marcador en tu marcador de misión de Bandera."
+        "Place your Banner mission marker within the active operative's control range, wholly within your opponent's territory and more than 5\" from a neutral killzone edge. Operatives can perform the Pick Up Marker action on your Banner mission marker."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, si está en la zona de control de un agente enemigo, ni si un agente amigo ya ha realizado esta acción durante la batalla."
+        "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if a friendly operative has already performed this action during the battle."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -400,13 +400,13 @@
       "type": "mission",
       "seq": 207,
       "AP": 1,
-      "name": "Colocar dispositivo",
+      "name": "Plant Device",
       "description": null,
       "effects": [
-        "1 marcador de objetivo controlado por el agente activo recibe una de tus fichas de Dispositivo."
+        "One objective marker the active operative controls gains one of your Device tokens."
       ],
       "conditions": [
-        " Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo ya tiene una de tus fichas de Dispositivo."
+        " An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker already has one of your Device tokens."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -417,13 +417,13 @@
       "type": "mission",
       "seq": 208,
       "AP": 1,
-      "name": "Iniciar Transmisión",
+      "name": "Initiate Transmission",
       "description": null,
       "effects": [
-        "Un marcador de objetivo que controle el agente activo está transmitiendo hasta el inicio del siguiente punto de inflexión."
+        "One objective marker the active operative controls is transmitting until the start of the next turning point."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, o estando en la zona de control de un agente enemigo."
+        "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -434,13 +434,13 @@
       "type": "mission",
       "seq": 209,
       "AP": 1,
-      "name": "Mover el orbe",
+      "name": "Move Orb",
       "description": null,
       "effects": [
-        "Si el agente activo controla el marcador de objetivo que tiene la ficha del orbe, mueve esa ficha de esta manera:\n - Si la tiene el marcador de objetivo central, muévela al marcador de objetivo de cualquier jugador (a tu elección).\n - Si la tiene el marcador de objetivo de un jugador, muévela al marcador de objetivo central."
+        "If the active operative controls the objective marker that has the Orb token, move that token as follows:\n - If the centre objective marker has it, move it to either player's objective marker (your choice).\n - If a player's objective marker has it, move it to the centre objective marker."
       ],
       "conditions": [
-        " Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si no controla el marcador de objetivo que tiene la ficha del orbe. "
+        " An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if it doesn't control the objective marker that has the Orb token. "
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -451,13 +451,13 @@
       "type": "mission",
       "seq": 210,
       "AP": 1,
-      "name": "Descargar datos",
+      "name": "Download",
       "description": null,
       "effects": [
-        "Se descargan datos de 1 marcador de objetivo central o del oponente que controle el agente activo."
+        "One centre or opponent's objective marker the active operative controls is downloaded."
       ],
       "conditions": [
-        " Un agente no puede realizar esta acción durante el primer o segundo punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ya se han descargado datos de ese marcador de objetivo durante la batalla."
+        " An operative cannot perform this action during the first or second turning point, while within control range of an enemy operative, or if that objective marker has already been downloaded during the battle."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -468,13 +468,13 @@
       "type": "mission",
       "seq": 211,
       "AP": 1,
-      "name": "Compilar datos",
+      "name": "Compile Data",
       "description": null,
       "effects": [
-        "1 marcador de objetivo controlado por el agente activo gana 1 punto de datos. Usa un dado para marcar cuántos puntos de datos tiene ese marcador de objetivo."
+        "One objective marker the active operative controls gains 1 Data point. Use a dice as a token to keep track of Data points at that objective marker."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo ya ha ganado algún punto de datos en este punto de inflexión."
+        "An operative cannot perform this action during the first turning point, while within control range of an enemy operative, or if that objective marker has already gained a Data point during this turning point."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -485,13 +485,13 @@
       "type": "mission",
       "seq": 212,
       "AP": 1,
-      "name": "Enviar datos",
+      "name": "Send Data",
       "description": null,
       "effects": [
-        "Retira todos los puntos de datos de un marcador de objetivo controlado por el agente activo."
+        "Remove all Data points from an objective marker the active operative controls."
       ],
       "conditions": [
-        " Un agente no puede realizar esta acción durante el primer, segundo, o tercer punto de inflexión, mientras esté en la zona de control de un agente enemigo, o si ese marcador de objetivo no tiene puntos de datos que retirar."
+        " An operative cannot perform this action during the first, second or third turning point, while within control range of an enemy operative, or if that objective marker doesn't have any Data points to remove."
       ],
       "packs": [
         "Approved Ops: 2025"
@@ -502,13 +502,13 @@
       "type": "mission",
       "seq": 213,
       "AP": 2,
-      "name": "Reiniciar",
+      "name": "Reboot",
       "description": null,
       "effects": [
-        "1 marcador de objetivo inerte controlado por el agente activo deja de estar inerte."
+        "One inert objective marker the active operative controls is no longer inert."
       ],
       "conditions": [
-        "Un agente no puede realizar esta acción durante el primer punto de inflexión, o si está en la zona de control de un agente enemigo."
+        "An operative cannot perform this action during the first turning point, or while within control range of an enemy operative."
       ],
       "packs": [
         "Approved Ops: 2025"

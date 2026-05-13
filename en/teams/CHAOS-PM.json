@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-PM",
-  "version": "March '26",
+  "version": "April '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_01-04_kt_teamrules_plague_marines_online_rules-2x2uvfovpw-ituayw6kdd.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_plague_marines-liggy6zl51-fa8nryqey9.pdf",
   "killteamName": "Plague Marines",
   "description": "Corrupted sons of Mortarion, Plague Marines are suffused and bloated with rot and disease. Though compact and slow moving, Plague Marines are horrifyingly resilient, trudging relentlessly towards their objectives while spreading contagion in their wake.",
   "composition": "A PLAGUE MARINES KillTeam is composed of:\n\n- 1 PLAGUE MARINE CHAMPION operative\n- 5 PLAGUE MARINE operatives selected from the following list:\n  - BOMBARDIER\n  - FIGHTER\n  - HEAVY GUNNER\n  - ICON BEARER\n  - MALIGNANT PLAGUECASTER\n  - WARRIOR\n\nYour kill team can only include each operative on this list once",
@@ -557,9 +557,33 @@
       "basesize": 32,
       "weapons": [
         {
-          "wepId": "CHAOS-PM-FTR-FOC",
+          "wepId": "CHAOS-PM-FTR-BP",
           "opTypeId": "CHAOS-PM-FTR",
           "seq": 1,
+          "wepName": "Bolt Pistol",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-FTR-BP-0",
+              "wepType": "R",
+              "wepId": "CHAOS-PM-FTR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-FTR-FOC",
+          "opTypeId": "CHAOS-PM-FTR",
+          "seq": 2,
           "wepName": "Flail Of Corruption",
           "profiles": [
             {
@@ -618,9 +642,33 @@
       "basesize": 32,
       "weapons": [
         {
-          "wepId": "CHAOS-PM-HGNR-PS",
+          "wepId": "CHAOS-PM-HGNR-BP",
           "opTypeId": "CHAOS-PM-HGNR",
           "seq": 1,
+          "wepName": "Bolt Pistol",
+          "profiles": [
+            {
+              "wepprofileId": "CHAOS-PM-HGNR-BP-0",
+              "wepType": "R",
+              "wepId": "CHAOS-PM-HGNR-BP",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "CHAOS-PM-HGNR-PS",
+          "opTypeId": "CHAOS-PM-HGNR",
+          "seq": 2,
           "wepName": "Plague Spewer",
           "profiles": [
             {
@@ -657,7 +705,7 @@
         {
           "wepId": "CHAOS-PM-HGNR-F",
           "opTypeId": "CHAOS-PM-HGNR",
-          "seq": 2,
+          "seq": 3,
           "wepName": "Fists",
           "profiles": [
             {

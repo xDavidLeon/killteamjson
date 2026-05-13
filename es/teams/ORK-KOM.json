@@ -1,10 +1,10 @@
 {
   "factionId": "ORK",
   "killteamId": "ORK-KOM",
-  "version": "October '25",
+  "version": "April '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_kommandos_online_rules-qfbmqhvdy0-s3chxdxxil.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_kommandos-d3vrktmnva-ymyvbmc6jv.pdf",
   "killteamName": "Orkomandos",
   "description": "A diferencia de la mayor parte de su especie, Los Orkomandos aprecian la sutileza. Usarán cualquier truco sucio y rastrero que se les ocurra para lograr sus metas. Por supuesto, en cuanto estalla la pelea, su amor por la violencia sale a relucir.",
   "composition": "Un equipo de exterminio de ORKOMANDOS está compuesto por:\n\n- 1 1 agente NOBLE ORKOMANDO con una de las siguientes opciones:\n  - Piztola; gran rebanadora\n  -  Piztola; garra d'energía\n- 9 agentes ORKOMANDO elegidos de la siguiente lista:\n  - GARRAPATO BOMBA (X)\n  - ORKORRASO\n  - ORKORIETE\n  - ACHICHARRADOR\n  -  TELEKO\n  - ZUELTADAKKA\n  - KANIJO (X)\n  - CHIKO KOBETE\n  - RAJADOR\n  - FRANCOTIRADORK\n\nSalvo agentes ORKORRASO, tu comando solo puede incluir uno de cada uno de los agentes de esta lista. \n\n(X) Estos agentes cuentan como media opción cada uno, lo que significa que puedes elegir ambos y cuentan como una sola elección.",
@@ -87,15 +87,15 @@
       "description": "Los agentes ORKOMANDO amigos (salvo **GARRAPATO BOMBA** o **GROT**) tienen la siguiente arma de combate. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la versión que sea mejor.",
       "weapons": [
         {
-          "wepId": "ORK-KOM-CHP-Rebanadora",
+          "wepId": "ORK-KOM-CHP-CHOPPA",
           "opTypeId": null,
           "seq": 0,
-          "wepName": "Rebanadora",
+          "wepName": "Choppa",
           "profiles": [
             {
-              "wepprofileId": "ORK-KOM-CHP-Rebanadora-0",
+              "wepprofileId": "ORK-KOM-CHP-CHOPPA-0",
               "wepType": "M",
-              "wepId": "ORK-KOM-CHP-Rebanadora",
+              "wepId": "ORK-KOM-CHP-CHOPPA",
               "seq": 0,
               "profileName": "",
               "ATK": "3",
@@ -149,7 +149,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Reposicionar"
+                  "details": "Reposition"
                 },
                 {
                   "id": "WR-UNIV-SATURATE"
@@ -703,7 +703,7 @@
               "WR": [
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": " Correr"
+                  "details": "Dash"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
@@ -995,8 +995,7 @@
                   "id": "WR-UNIV-SATURATE"
                 },
                 {
-                  "id": "WR-UNIV-SEEK",
-                  "details": "Ligera"
+                  "id": "WR-UNIV-SEEK"
                 },
                 {
                   "id": "WR-UNIV-TORRENT",
@@ -1072,7 +1071,7 @@
                 },
                 {
                   "id": "WR-UNIV-HEAVY",
-                  "details": "Correr"
+                  "details": "Dash"
                 }
               ]
             },
@@ -1211,8 +1210,8 @@
   "weapon_rules": [
     {
       "id": "WR-ORK-KOM-EXPLOSIVE",
-      "name": "Explosivo",
-      "description": "Este agente puede realizar la acción de Disparar con esta arma mientras esté dentro de la zona de control de un agente enemigo. No selecciones un blanco válido. En su lugar, este agente es siempre el objetivo principal y no puede estar en cobertura ni oculto.",
+      "name": "Explosive",
+      "description": "This operative can perform the shoot action with this weapon while within control range of an enemy operative.\nDo not select a valid target, instead this operative is always the primary target and cannot be in cover or obscured.",
       "team": "ORK-KOM"
     }
   ]

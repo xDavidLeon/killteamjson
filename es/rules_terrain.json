@@ -13,9 +13,9 @@
         "terrain"
       ],
       "references": [
-        "climbing",
-        "dropping",
-        "jumping",
+        "climb",
+        "drop",
+        "jump",
         "ceiling",
         "accessible"
       ],
@@ -38,8 +38,8 @@
       ],
       "references": [
         "terrain-and-movement",
-        "dropping",
-        "jumping",
+        "drop",
+        "jump",
         "insignificant"
       ],
       "packs": []
@@ -60,8 +60,8 @@
       ],
       "references": [
         "terrain-and-movement",
-        "climbing",
-        "jumping"
+        "climb",
+        "jump"
       ],
       "packs": []
     },
@@ -80,8 +80,8 @@
       ],
       "references": [
         "vantage",
-        "dropping",
-        "climbing",
+        "drop",
+        "climb",
         "terrain-and-movement"
       ],
       "packs": []
@@ -167,7 +167,8 @@
       "references": [
         "cover",
         "obscured",
-        "visible"
+        "visible",
+        "intervening"
       ],
       "packs": []
     },
@@ -195,7 +196,8 @@
         "obscured",
         "valid-target",
         "visible"
-      ]
+      ],
+      "packs": []
     },
     {
       "id": "accessible",
@@ -233,8 +235,8 @@
         "movement"
       ],
       "references": [
-        "climbing",
-        "dropping",
+        "climb",
+        "drop",
         "exposed"
       ],
       "packs": []
@@ -281,7 +283,9 @@
     {
       "id": "wall",
       "name": "Muro",
-      "aliases": ["Terreno de muro"],
+      "aliases": [
+        "Terreno de muro"
+      ],
       "category": "terrain_rule",
       "text": "Los agentes no pueden mover por encima o a través de terreno Muro (esto tiene preferencia sobre todas las demás reglas).\n\nNo se puede determinar la visibilidad por encima o a través de terreno Muro.\n\nA excepción de las áreas de la zona de aniquilación (el centro de la zona de aniquilación, zonas de descenso, etc.), no pueden medirse distancias por encima o a través de terreno Muro; deben \nmedirse alrededor del mismo por la ruta más\n corta posible.\n\nA efectos de cobertura y ofuscado, solo las esquinas y extremos de terreno Muro pueden estar interpuestos,\n a menos que el agente activo lo haya rebasado.",
       "examples": [],
@@ -294,7 +298,7 @@
         "blocking",
         "hatchway"
       ]
-    },	
+    },
     {
       "id": "gallowdark-wall",
       "name": "Muro del Horcasombría",
@@ -322,7 +326,7 @@
         "hatchway",
         "cover",
         "obscured",
-        "distances",
+        "distance",
         "wall"
       ],
       "packs": [
@@ -339,9 +343,9 @@
       "actions": [
         {
           "id": "operate-hatch",
-          "name": "Operar Portillo",
+          "name": "Operate Hatch",
           "cost": "1APL",
-          "text": "Abre o cierra una escotilla cuyo punto de acceso está en la zona de control del agente.\n\nUn agente puede realizar esta acción durante una acción de Correr o Reposicionar, y puede usar cualquier movimiento restante después de ello.\n\nNo se puede realizar esta acción estando en la zona de control de un agente enemigo, o si la escotilla está abierta y su punto de acceso está en la zona de control de un agente enemigo.\n\nAbrir una escotilla puede hacer que el agente pase a estar en la zona de control de un agente enemigo, en cuyo caso su acción de Correr o Reposicionar terminaría inmediatamente (a menos que una regla permita mover estando en la zona de control de un agente enemigo).",
+          "text": "Open or close a hatchway that’s access point is within the operative’s control range.\n\nAn operative can perform this action during a Dash or Reposition action, and any remaining\nmove distance can be used after it does so.\n\nAn operative cannot perform this action while within control range of an enemy operative, or if\nthat hatchway is open and its access point is within an enemy operative’s control range.\n\nOpening a hatchway can cause the operative to be within control range of an enemy operative, in which\ncase its Dash or Reposition action would immediately end (unless it has rules that allow it to move within\ncontrol range of an enemy operative).",
           "examples": [],
           "tags": [
             "action",
@@ -389,7 +393,7 @@
       ],
       "references": [],
       "packs": [
-        "Killzone: Bheta-Decima",
+        "Killzone: Gallowdark",
         "Killzone: Tomb World"
       ]
     },
@@ -706,7 +710,7 @@
         "breach-point",
         "cover",
         "obscured",
-        "distances",
+        "distance",
         "wall"
       ],
       "packs": [
@@ -766,7 +770,7 @@
       "id": "sarcophagus-and-debris-light",
       "name": "Sarcófago y escombros (terreno ligero)",
       "aliases": [],
-      "category": "Esto es terreno Ligero.",
+      "category": "terrain_rule",
       "text": "This is Light terrain.",
       "examples": [],
       "actions": [],

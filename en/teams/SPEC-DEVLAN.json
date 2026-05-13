@@ -1,0 +1,335 @@
+{
+  "factionId": "SPEC",
+  "killteamId": "SPEC-DEVLAN",
+  "version": "",
+  "file": "https://assets.warhammer-community.com/eng_terror_on_devlan_mission_pack-xxesbxnr8b-lyb0mbmtbe.pdf",
+  "killteamName": "Terror on Devlan",
+  "description": "Joint Ops mission pack for solo or cooperative play against the Red Terror NPO and Termagant and Ripper Swarm NPOs. Uses Killzone: Volkus unless you substitute another killzone.",
+  "composition": "",
+  "archetypes": [],
+  "ploys": [],
+  "equipments": [],
+  "opTypes": [
+    {
+      "opTypeId": "SPEC-DEVLAN-TMG",
+      "killteamId": "SPEC-DEVLAN",
+      "seq": 1,
+      "opTypeName": "Termagant",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "",
+      "basesize": 28,
+      "weapons": [
+        {
+          "wepId": "SPEC-DEVLAN-TMG-FB",
+          "opTypeId": "SPEC-DEVLAN-TMG",
+          "seq": 1,
+          "wepName": "Fleshborer",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-TMG-FB-0",
+              "wepType": "R",
+              "wepId": "SPEC-DEVLAN-TMG-FB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "4+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-DEVLAN-TMG-CT",
+          "opTypeId": "SPEC-DEVLAN-TMG",
+          "seq": 2,
+          "wepName": "Claws & teeth",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-TMG-CT-0",
+              "wepType": "M",
+              "wepId": "SPEC-DEVLAN-TMG-CT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "4+",
+              "DMG": "2/3",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-DEVLAN-TMG-BEH",
+          "opTypeId": "SPEC-DEVLAN-TMG",
+          "abilityName": "Behaviour",
+          "description": "This NPO will move to an ideal position to shoot the enemy. When activated, if it will perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1. Fall Back to cover. If possible, to a location where there's a valid target that isn't obscured, if not, to a location that's appropriate for the NPOs to better win the mission.\n2. Shoot.\n3. Reposition to cover. If possible, to a location where there's a valid target that isn't obscured, if not, to a location that's appropriate for the NPOs to better win the mission (a subsequent Dash action can fulfil these, if able).\n4. Dash to cover. If possible, to a location where there's a valid target that isn't obscured, if not, to a location that's appropriate for the NPOs to better win the mission."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-TMG-LIM",
+          "opTypeId": "SPEC-DEVLAN-TMG",
+          "abilityName": "Limit",
+          "description": "We recommend limiting the number of Termagant NPOs in the killzone at once to 10 – don't set up any that would exceed this limit. If you would set up a number of NPOs that exceed this number, but they would all be in different locations, use the threat principle to determine which ones to set up without exceeding the NPO limit."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-DEVLAN-RS",
+      "killteamId": "SPEC-DEVLAN",
+      "seq": 2,
+      "opTypeName": "Ripper Swarm",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 10,
+      "keywords": "",
+      "basesize": 40,
+      "weapons": [
+        {
+          "wepId": "SPEC-DEVLAN-RS-CT",
+          "opTypeId": "SPEC-DEVLAN-RS",
+          "seq": 1,
+          "wepName": "Claws & teeth",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-RS-CT-0",
+              "wepType": "M",
+              "wepId": "SPEC-DEVLAN-RS-CT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "4+",
+              "DMG": "1/2",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-DEVLAN-RS-BEH",
+          "opTypeId": "SPEC-DEVLAN-RS",
+          "abilityName": "Behaviour",
+          "description": "This NPO will move towards the enemy to fight them, but will seek cover on its way. When activated, if it will perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1. Fight.\n2. Charge the closest player operative via the shortest possible route.\n3. Reposition towards the closest player operative, to cover if possible (a subsequent Dash action can fulfil this, if able).\n4. Dash towards the closest player operative, to cover if possible."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RS-HH",
+          "opTypeId": "SPEC-DEVLAN-RS",
+          "abilityName": "Hidden Horrors",
+          "description": "Whenever this NPO has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RS-LIM",
+          "opTypeId": "SPEC-DEVLAN-RS",
+          "abilityName": "Limit",
+          "description": "This NPO is only set up in the killzone in certain circumstances, as determined by the mission."
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-DEVLAN-RTH",
+      "killteamId": "SPEC-DEVLAN",
+      "seq": 3,
+      "opTypeName": "Red Terror (Hunt)",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 30,
+      "keywords": "",
+      "basesize": 100,
+      "weapons": [
+        {
+          "wepId": "SPEC-DEVLAN-RTH-PT",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "seq": 1,
+          "wepName": "Pincer tail",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-RTH-PT-0",
+              "wepType": "R",
+              "wepId": "SPEC-DEVLAN-RTH-PT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "4/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-SEEK"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "SPEC-DEVLAN-RTH-STM",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "seq": 2,
+          "wepName": "Scything talons & maw",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-RTH-STM-0",
+              "wepType": "M",
+              "wepId": "SPEC-DEVLAN-RTH-STM",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-FF",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Fearsome Foe",
+          "description": "This NPO cannot be in cover or obscured unless the intervening part of terrain is at least 3\" tall. Whenever determining control range for this NPO (to and from it), the distance requirements are 1\" horizontally and 6\" vertically. Whenever this NPO is expended and you draw an NPO activation card that requires you to activate it, ready it first, continue its activation as normal, then expend it again. This means it can activate multiple times per turning point."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-BU",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Burrow",
+          "description": "Whenever this NPO performs an action in which it moves, it will burrow. Don't move it; instead, remove it from the killzone and set it back up on the killzone floor wholly within a distance equal to its permitted move distance horizontally of its original location to fulfil its behaviour.\nIt must be set up in a location it can be placed: if any terrain features smaller than 3\" tall (at their highest point) would prevent this, temporarily remove them from the killzone to do so (return them when this NPO leaves that location); if any other operatives would prevent this, remove them from the killzone and set them back up as close as possible to their previous location and within control range of this NPO. Note that removing enemy operatives in this way only relates to the Charge action, as this NPO cannot end a move within control range of an enemy operative during the Reposition or Dash action (as per the core rules). In other words, push other operatives when possible and temporarily remove smaller terrain features so that this NPO can be placed."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-SI",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Survival Instincts",
+          "description": "This NPO cannot be incapacitated or injured and its APL stat cannot be changed. Whenever it would have been incapacitated, it regains all lost wounds and changes its behaviour to Lurk; if its behaviour is already Lurk, it regains all lost wounds and gains a Regeneration token instead (explained on the Lurk datacard). Regardless, all remaining attack dice are discarded (including this NPO's own dice if it was fighting or retaliating). Whenever this NPO has a Regeneration token, it's treated as being wounded."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-BC",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Behaviour Changes",
+          "description": "This NPO has two behaviours – Hunt and Lurk. Only one is active at once, and it can change between them during the battle. Swap to the relevant datacard when this happens; if it's during this NPO's activation, this NPO can then continue to perform actions according to the new datacard's behaviour with its remaining action points. It starts the battle with the Hunt behaviour."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-BEH",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Behaviour",
+          "description": "This NPO will emerge from underground and move towards player operatives to fight or shoot them. Whenever this NPO is activated, if it will perform the Fight, Charge or Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1. Emerge (see Emerge action).\n2. Fight.\n3. Charge the closest player operative via the shortest possible route.\n4. Reposition towards the closest player operative, to cover if possible (a subsequent Dash action can fulfil this, if able).\n5. Shoot.\n6. Dash towards the closest player operative, to cover if possible."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTH-SW",
+          "opTypeId": "SPEC-DEVLAN-RTH",
+          "abilityName": "Swallow Whole",
+          "description": "Whenever this NPO is fighting with its scything talons & maw weapon, after it strikes with each critical success, roll one D6: if the result is higher than the enemy operative's remaining wounds, that enemy operative is incapacitated (taking precedence over all other rules) and this NPO regains a number of lost wounds equal to the D6 result."
+        }
+      ],
+      "actions": [
+        {
+          "id": "SPEC-DEVLAN-RTH-UA-EM",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Emerge",
+          "description": null,
+          "effects": [
+            "Remove the Burrow marker from the killzone, then set up this NPO where the centre of that marker was. If the Burrow marker isn't in the killzone, set up this NPO wholly within an NPO drop zone (randomly determined if there are multiple, and with as much of it in the drop zone as possible if the area is too small). As described in its Burrow rule, temporarily remove smaller terrain features and push other operatives (if necessary) to do this.",
+            "Subtract 2\" from this NPO's Move stat until the end of its activation."
+          ],
+          "conditions": [
+            "This NPO cannot perform this action unless it's underground (where it starts the battle, or as a result of the Disappear Underground action from the Lurk behaviour)."
+          ]
+        }
+      ]
+    },
+    {
+      "opTypeId": "SPEC-DEVLAN-RTL",
+      "killteamId": "SPEC-DEVLAN",
+      "seq": 4,
+      "opTypeName": "Red Terror (Lurk)",
+      "MOVE": "6\"",
+      "APL": 2,
+      "SAVE": "4+",
+      "WOUNDS": 30,
+      "keywords": "",
+      "basesize": 100,
+      "weapons": [
+        {
+          "wepId": "SPEC-DEVLAN-RTL-ST",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "seq": 1,
+          "wepName": "Scything talons",
+          "profiles": [
+            {
+              "wepprofileId": "SPEC-DEVLAN-RTL-ST-0",
+              "wepType": "M",
+              "wepId": "SPEC-DEVLAN-RTL-ST",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "4+",
+              "DMG": "4/6",
+              "WR": []
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-FF",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Fearsome Foe",
+          "description": "This NPO cannot be in cover or obscured unless the intervening part of terrain is at least 3\" tall. Whenever determining control range for this NPO (to and from it), the distance requirements are 1\" horizontally and 6\" vertically. Whenever this NPO is expended and you draw an NPO activation card that requires you to activate it, ready it first, continue its activation as normal, then expend it again. This means it can activate multiple times per turning point."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-BU",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Burrow",
+          "description": "Whenever this NPO performs an action in which it moves, it will burrow. Don't move it; instead, remove it from the killzone and set it back up on the killzone floor wholly within a distance equal to its permitted move distance horizontally of its original location to fulfil its behaviour.\nIt must be set up in a location it can be placed: if any terrain features smaller than 3\" tall (at their highest point) would prevent this, temporarily remove them from the killzone to do so (return them when this NPO leaves that location); if any other operatives would prevent this, remove them from the killzone and set them back up as close as possible to their previous location and within control range of this NPO. Note that removing enemy operatives in this way only relates to the Charge action, as this NPO cannot end a move within control range of an enemy operative during the Reposition or Dash action (as per the core rules). In other words, push other operatives when possible and temporarily remove smaller terrain features so that this NPO can be placed."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-SI",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Survival Instincts",
+          "description": "This NPO cannot be incapacitated or injured and its APL stat cannot be changed. Whenever it would have been incapacitated, it regains all lost wounds and changes its behaviour to Lurk; if its behaviour is already Lurk, it regains all lost wounds and gains a Regeneration token instead (explained on the Lurk datacard). Regardless, all remaining attack dice are discarded (including this NPO's own dice if it was fighting or retaliating). Whenever this NPO has a Regeneration token, it's treated as being wounded."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-BC",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Behaviour Changes",
+          "description": "This NPO has two behaviours – Hunt and Lurk. Only one is active at once, and it can change between them during the battle. Swap to the relevant datacard when this happens; if it's during this NPO's activation, this NPO can then continue to perform actions according to the new datacard's behaviour with its remaining action points. It starts the battle with the Hunt behaviour."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-BEH",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Behaviour",
+          "description": "This NPO will retreat from player operatives to disappear underground. Once underground and fully regenerated, its behaviour will change to Hunt. Whenever this NPO is activated, give it a Conceal order, unless its behaviour will change to Hunt, in which case determine its order from that datacard.\n\n1. Disappear Underground (see Disappear Underground action).\n2. Fall Back towards a location it can perform the Disappear Underground action.\n3. Reposition towards a location it can perform the Disappear Underground action (a subsequent Dash action can fulfil this, if able).\n4. Dash towards a location it can perform the Disappear Underground action."
+        },
+        {
+          "abilityId": "SPEC-DEVLAN-RTL-REG",
+          "opTypeId": "SPEC-DEVLAN-RTL",
+          "abilityName": "Regeneration",
+          "description": "Whenever this NPO is activated underground:\n- If it has any Regeneration tokens, discard one of them and end its activation.\n- If it doesn't have any Regeneration tokens, change its behaviour to Hunt, determine its order as per that datacard, then continue its activation."
+        }
+      ],
+      "actions": [
+        {
+          "id": "SPEC-DEVLAN-RTL-UA-DU",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Disappear Underground",
+          "description": null,
+          "effects": [
+            "Remove this NPO from the killzone, then place a Burrow marker where the centre of this NPO was. This NPO is now underground, gains one Regeneration token, regains all lost wounds and ends its activation. Remove all other tokens and rules effects it had (e.g. Poison tokens, etc.)."
+          ],
+          "conditions": [
+            "This NPO cannot perform this action while within 5\" of player operatives unless it's within an NPO drop zone. It cannot perform this action unless it's on the killzone floor."
+          ]
+        }
+      ]
+    }
+  ]
+}

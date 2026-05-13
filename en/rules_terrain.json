@@ -13,9 +13,9 @@
         "terrain"
       ],
       "references": [
-        "climbing",
-        "dropping",
-        "jumping",
+        "climb",
+        "drop",
+        "jump",
         "ceiling",
         "accessible"
       ],
@@ -38,8 +38,8 @@
       ],
       "references": [
         "terrain-and-movement",
-        "dropping",
-        "jumping",
+        "drop",
+        "jump",
         "insignificant"
       ],
       "packs": []
@@ -60,8 +60,8 @@
       ],
       "references": [
         "terrain-and-movement",
-        "climbing",
-        "jumping"
+        "climb",
+        "jump"
       ],
       "packs": []
     },
@@ -80,8 +80,8 @@
       ],
       "references": [
         "vantage",
-        "dropping",
-        "climbing",
+        "drop",
+        "climb",
         "terrain-and-movement"
       ],
       "packs": []
@@ -167,7 +167,8 @@
       "references": [
         "cover",
         "obscured",
-        "visible"
+        "visible",
+        "intervening"
       ],
       "packs": []
     },
@@ -234,8 +235,8 @@
         "movement"
       ],
       "references": [
-        "climbing",
-        "dropping",
+        "climb",
+        "drop",
         "exposed"
       ],
       "packs": []
@@ -323,7 +324,7 @@
         "hatchway",
         "cover",
         "obscured",
-        "distances",
+        "distance",
         "wall"
       ],
       "packs": [
@@ -705,7 +706,7 @@
         "breach-point",
         "cover",
         "obscured",
-        "distances",
+        "distance",
         "wall"
       ],
       "packs": [

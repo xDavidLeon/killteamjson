@@ -807,8 +807,8 @@
   "weapon_rules": [
     {
       "id": "WR-AEL-VDT-HUMBLING",
-      "name": "Crueldad humillante",
-      "description": "Si el blanco de esta arma no resulta incapacitado pero alguno de tus dados de ataque inflige daño, el blanco obtiene una de tus fichas de Crueldad humillante (si no tiene una ya). Mientras un enemigo tenga una de tus fichas de Crueldad humillante, empeora en 1 el atributo Impactar de sus armas y resta 2\" a su atributo Movimiento. Esto no se acumula con estar lesionado. Al final de la siguiente activación de ese agente enemigo, retira su ficha de Crueldad humillante.",
+      "name": "Humbling Cruelty",
+      "description": "If the target of this weapon isn't incapacitated but any of your attack dice inflict damage, the target gains one of your Humbling Cruelty tokens (if it doesn't already have one).\nWhenever an enemy operative has one of your Humbling Cruelty tokens, worsen the Hit stat of its weapons by 1 and subtract 2\" from its Move stat.\nThis isn't cumulative with being injured. At the end of that enemy operative's next activation, remove its Humbling Cruelty token.",
       "team": "AEL-VDT"
     }
   ]

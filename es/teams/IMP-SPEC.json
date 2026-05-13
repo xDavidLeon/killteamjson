@@ -188,8 +188,13 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-LETHAL", "number": 5 },
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -260,7 +265,9 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -281,8 +288,14 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Reposition" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
               ]
             }
           ]
@@ -360,7 +373,9 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -381,8 +396,14 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Reposition" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
               ]
             }
           ]
@@ -450,7 +471,9 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -471,8 +494,14 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Reposition" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
               ]
             }
           ]
@@ -540,9 +569,18 @@
               "HIT": "3+",
               "DMG": "6/3",
               "WR": [
-                { "id": "WR-UNIV-RANGE", "number": 6 },
-                { "id": "WR-UNIV-DEVASTATING", "number": 4 },
-                { "id": "WR-UNIV-PIERCING", "number": 2 }
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 6
+                },
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 4
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 2
+                }
               ]
             }
           ]
@@ -563,7 +601,10 @@
               "HIT": "3+",
               "DMG": "4/6",
               "WR": [
-                { "id": "WR-UNIV-PIERCING", "number": 1 }
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
               ]
             },
             {
@@ -576,9 +617,17 @@
               "HIT": "3+",
               "DMG": "5/6",
               "WR": [
-                { "id": "WR-UNIV-HOT" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 },
-                { "id": "WR-UNIV-PIERCING", "number": 1 }
+                {
+                  "id": "WR-UNIV-HOT"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
               ]
             }
           ]
@@ -633,7 +682,10 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RANGE", "number": 8 }
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
               ]
             }
           ]
@@ -654,8 +706,13 @@
               "HIT": "3+",
               "DMG": "3/5",
               "WR": [
-                { "id": "WR-UNIV-BLAST", "number": 2 },
-                { "id": "WR-UNIV-HEAVY" }
+                {
+                  "id": "WR-UNIV-BLAST",
+                  "number": 2
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
               ]
             },
             {
@@ -668,8 +725,13 @@
               "HIT": "3+",
               "DMG": "5/7",
               "WR": [
-                { "id": "WR-UNIV-HEAVY" },
-                { "id": "WR-UNIV-PIERCING", "number": 1 }
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-PIERCING",
+                  "number": 1
+                }
               ]
             }
           ]
@@ -731,7 +793,10 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RANGE", "number": 8 }
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                }
               ]
             }
           ]
@@ -809,10 +874,19 @@
               "HIT": "2+",
               "DMG": "3/3",
               "WR": [
-                { "id": "WR-UNIV-DEVASTATING", "number": 3 },
-                { "id": "WR-UNIV-HEAVY" },
-                { "id": "WR-UNIV-SILENT" },
-                { "id": "WR-SHARED-CONCEALED" }
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-SILENT"
+                },
+                {
+                  "id": "WR-SHARED-CONCEALED"
+                }
               ]
             },
             {
@@ -836,8 +910,13 @@
               "HIT": "2+",
               "DMG": "3/3",
               "WR": [
-                { "id": "WR-UNIV-DEVASTATING", "number": 3 },
-                { "id": "WR-UNIV-HEAVY" }
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-UNIV-HEAVY"
+                }
               ]
             }
           ]
@@ -892,7 +971,10 @@
               "HIT": "3+",
               "DMG": "3/4",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Dash" }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                }
               ]
             },
             {
@@ -905,11 +987,24 @@
               "HIT": "5+",
               "DMG": "0/0",
               "WR": [
-                { "id": "WR-UNIV-HEAVY" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 },
-                { "id": "WR-UNIV-SEEK", "details": "Light" },
-                { "id": "WR-UNIV-STUN" },
-                { "id": "WR-UNIV-TORRENT", "number": 1 }
+                {
+                  "id": "WR-UNIV-HEAVY"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SEEK",
+                  "details": "Light"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
               ]
             },
             {
@@ -922,8 +1017,14 @@
               "HIT": "3+",
               "DMG": "3/4",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Dash" },
-                { "id": "WR-UNIV-TORRENT", "number": 1 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Dash"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 1
+                }
               ]
             }
           ]
@@ -985,7 +1086,9 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -1006,8 +1109,14 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Reposition" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
               ]
             }
           ]
@@ -1069,7 +1178,9 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-RENDING" }
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
               ]
             }
           ]
@@ -1090,8 +1201,14 @@
               "HIT": "3+",
               "DMG": "2/3",
               "WR": [
-                { "id": "WR-UNIV-HEAVY", "details": "Reposition" },
-                { "id": "WR-UNIV-LETHAL", "number": 5 }
+                {
+                  "id": "WR-UNIV-HEAVY",
+                  "details": "Reposition"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
               ]
             }
           ]

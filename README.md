@@ -175,7 +175,6 @@ Key principles and rules glossary. Root object is an array of rule objects. Each
 - `category` - *string* - Category classification (e.g., `"key_principle"`).
 - `text` - *string* - Markdown-formatted rules text explaining the rule.
 - `examples` - *string[]* - Array of example scenarios or use cases (may be empty).
-- `tags` - *string[]* - Array of tags for categorization and search.
 - `references` - *string[]* - Array of rule IDs that this rule references or relates to.
 
 ### `rules_sequence.json`
@@ -248,26 +247,47 @@ Thank you for contributing to the Kill Team JSON dataset!
 
 ## Translation
 
-This project supports translation into multiple languages. See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for detailed information on:
+This repository uses a canonical + overlay localization model:
 
-- Translation approaches and recommendations
-- Which fields should be translated
-- How to maintain translations
-- Tooling for translation validation
+- `en/` is canonical game data (IDs, stats, structure, and English source strings).
+- `es/overlays/` is the Spanish authoring source (sparse, ID-keyed translation patches).
+- `es/` contains generated flat Spanish JSON for runtime compatibility.
 
-**Quick Start for Translators:**
+### Translation Scope
 
-1. Copy the English JSON file structure (e.g., `en/teams/IMP-AOD.json` → `es/teams/IMP-AOD.json`)
-2. Translate all user-facing string fields (names, descriptions, etc.)
-3. Keep all IDs and structure identical
-4. Validate using `python tools/validate_translation.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
-5. Check completeness using `python tools/check_translation_completeness.py en/teams/IMP-AOD.json es/teams/IMP-AOD.json`
+Translate user-facing text fields only, for example:
 
-**Translation Tooling:**
-All translation tools are located in the `tools/` folder:
-- `tools/validate_translation.py` - Validates structure matches English base
-- `tools/extract_translatables.py` - Extracts translatable strings for translation services
-- `tools/check_translation_completeness.py` - Reports translation progress
+- team: `killteamName`, `description`, `composition`
+- ploys/equipment/abilities/options: `*Name`, `description`, and textual `effects`
+- embedded actions: `name`, `description`, `effects`, `conditions`
+- shared files (`weapon_rules`, packs, universal actions/equipment, rules docs): display names and text content
 
-See [TRANSLATION_GUIDE.md](TRANSLATION_GUIDE.md) for full details.
+Do not translate structural/mechanical keys and values:
+
+- any `*Id`, stat blocks, sequencing, weapon rule links (`WR[].id`, `WR[].number`)
+- canonical tokens currently localized client-side: `archetypes[]`, operative `keywords`, weapon profile `WR[].details`
+
+### Authoring Workflow
+
+1. Update canonical data in `en/`.
+2. Update relevant Spanish overlays in `es/overlays/`.
+3. Build flat Spanish output:
+   - `python3 scripts/build_es_locale.py build`
+4. Validate overlays and referential integrity:
+   - `python3 scripts/build_es_locale.py validate`
+5. Verify generated output round-trips against checked-in `es/`:
+   - `python3 scripts/build_es_locale.py verify`
+
+### Overlay Tooling
+
+Main workflow script:
+
+- `scripts/build_es_locale.py extract` - one-time/maintenance extraction of sparse overlays from current `en/` + `es/`
+- `scripts/build_es_locale.py build` - merge `en/` + `es/overlays/` into flat `es/`
+- `scripts/build_es_locale.py validate` - overlay schema/referential checks
+- `scripts/build_es_locale.py verify` - round-trip parity check
+
+Optional JSON Schema validation dependency:
+
+- `pip install -r requirements-dev.txt`
 

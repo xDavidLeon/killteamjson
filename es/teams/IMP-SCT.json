@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-SCT",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_scout_squad-khwwrygy00-yi4rroozc8.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_scout_squad-gsh9kmjzgi-cx2xtxmp8b.pdf",
   "killteamName": "Scout Squad",
   "description": "Scouts are the new recruits of a Space Marine chapter who have advanced far enough in the early stages of their training and biological transformation to take part in battle with the rest of the Chapter.\n  \n  \n\nMore lightly armed and armoured than full Battle brothers, their role is to range ahead of the main Space Marine force, preparing the way for the main advance by infiltrating enemy lines, sabotaging and gathering intelligence - causing as much chaos and disruption as possible.",
   "composition": "A SCOUT SQUAD killteam is composed of:\n\n- 1 SCOUT SQUAD Sergeant operative with one of the following options:\n  - Astartes shotgun, fists\n  - Boltgun, fists\n  - Bolt Pistol, Chainsword\n- 8 SCOUT SQUAD operatives selected from the following list:\n  - Heavy Gunner with Fists, Bolt Pistol and Heavy Bolter\n  - Heavy Gunner with Fists, Bolt Pistol and Missile Launcher\n  - Hunter\n  - Sniper\n  - Tracker\n  - Warrior with one of the following options:\n    - Astartes Shotgun, fists\n    - Boltgun, Fists\n    - Bolt Pistol, Combat Blade\n\nOther than Warrior operatives, your Killteam can only include each operative once.",
@@ -87,9 +87,16 @@
       "description": "Whenever an operative is shooting a friendly SCOUT SQUAD operative (excluding SNIPER), if you can retain any cover saves, you can retain one additional cover save.  \n\r This is not cumulative with improved cover saves from vantage terrain."
     },
     {
-      "eqId": "IMP-SCT-CBAK",
+      "eqId": "IMP-SCT-TO",
       "killteamId": "IMP-SCT",
       "seq": 2,
+      "eqName": "Targeting Oculars",
+      "description": "Up to twice per turning point, when a friendly SCOUT SQUAD operative is performing the Shoot action and you are selecting a valid target, you can use this rule. If you do, until the end of that action, its ranged weapons have the Lethal 5+ and Saturate weapon rules.<hr/>\r **Saturate:** The defender cannot retain Cover saves."
+    },
+    {
+      "eqId": "IMP-SCT-CBAK",
+      "killteamId": "IMP-SCT",
+      "seq": 3,
       "eqName": "Combat Blades",
       "description": "Friendly SCOUT SQUAD operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance, use the better version.",
       "weapons": [
@@ -110,18 +117,11 @@
       ]
     },
     {
-      "eqId": "IMP-SCT-HWBP",
-      "killteamId": "IMP-SCT",
-      "seq": 3,
-      "eqName": "Heavy Weapon Bipod",
-      "description": "Whenever a friendly SCOUT SQUAD HEAVY GUNNER operative is shooting with a heavy bolter or missile launcher, if it has not moved during the activation, or if it is a counteraction, that weapon has the Ceaseless rule; if the weapon already has that weapon rule it has the Relentless weapon rule. Note that operative is not restricted from moving after shooting.<hr/>\n**Ceaseless:** Can re-roll any or all results of one value (e.g. all results of 2)  \n\n**Relentless:** Can re-roll any or all Attack dice"
-    },
-    {
-      "eqId": "IMP-SCT-TO",
+      "eqId": "IMP-SCT-TACTICAL-VOX-LINK",
       "killteamId": "IMP-SCT",
       "seq": 4,
-      "eqName": "Targeting Oculars",
-      "description": "Up to twice per turning point, when a friendly SCOUT SQUAD operative is performing the Shoot action and you are selecting a valid target, you can use this rule. If you do, until the end of that action, its ranged weapons have the Lethal 5+ and Saturate weapon rules.<hr/>\r **Saturate:** The defender cannot retain Cover saves."
+      "eqName": "Tactical Vox-Link",
+      "description": "Once per turning point, you can use the Astartes Training or Emboldened Aspirant firefight ploy for 0CP if a friendly SERGEANT operative is in the killzone."
     }
   ],
   "teamAbilities": [
@@ -261,7 +261,7 @@
           "abilityId": "IMP-SCT-SGT-A-GAE",
           "opTypeId": "IMP-SCT-SGT",
           "abilityName": "Guidance And Experience",
-          "description": "Once during each of this operative's activations, you can select one other friendly SCOUT SQUAD operative visible to it.\nUntil the end of that operative's next activation, add 1 to its APL stat."
+          "description": "Once during each of this operative's activations, you can select one other friendly SCOUT SQUAD operative in the killzone.\nUntil the end of that operative's next activation, add 1 to its APL stat."
         }
       ]
     },
@@ -423,7 +423,14 @@
           ]
         }
       ],
-      "abilities": []
+      "abilities": [
+        {
+          "abilityId": "IMP-SCT-HGNR-A-BIPOD",
+          "opTypeId": "IMP-SCT-HGNR",
+          "abilityName": "Heavy Weapon Bipod",
+          "description": "Whenever this operative is shooting with a weapon from its datacard, if it hasn’t moved during the activation, or if it’s a counteraction, that weapon has the Ceaseless weapon rule; if the weapon already has that weapon rule (i.e. from the Ambush strategy ploy), it has the Relentless weapon rule instead. Note that this operative isn’t restricted from moving after shooting."
+        }
+      ]
     },
     {
       "opTypeId": "IMP-SCT-HNT",

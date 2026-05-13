@@ -1166,20 +1166,20 @@
   "weapon_rules": [
     {
       "id": "WR-IMP-SANC-BLAZE",
-      "name": "Llamarada",
-      "description": "Si infliges daño con éxitos críticos, el agente contra el que se está usando esta arma gana una de tus fichas de Llamarada (si no tiene ya una). Cuando un agente con una de tus fichas de Llamarada sea activado, inflige 1D3 daños. A continuación, el jugador controlador de ese agente elige una de las siguientes opciones: - Tira 1D6: con un 3+, retira esa ficha. - Resta 1 al atributo LPA del agente hasta el final de esa activación para retirar esa ficha.",
+      "name": "Blaze",
+      "description": "If you inflict damage with any critical successes, the operative this weapon is being used against gains one of your Blaze tokens (if it doesn't already have one).\r Whenever an operative that has one of your Blaze tokens is activated, inflict D3 damage on it. Then that operative's controlling player selects one of the following:\r \r - Roll one D6: on a 3+, remove that token.\r - Subtract 1 from the operative's APL stat until the end of that activation to remove that token.\r ",
       "team": "IMP-SANC"
     },
     {
       "id": "WR-IMP-SANC-TWIN",
-      "name": "Ráfaga doble",
-      "description": "Elige hasta dos blancos válidos. Dispara con esta arma contra ambos en el orden que elijas (tira cada secuencia por separado). Ráfaga 0\" significa que no puedes elegir blancos secundarios, pero esta arma sigue teniendo la regla de armas Ráfaga a todos los demás efectos de reglas, como por ejemplo de la regla Fortaleza condensada (ver Zona de aniquilación: Volkus, Libro básico de Kill Team).",
+      "name": "Twin Torrent",
+      "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately).",
       "team": "IMP-SANC"
     },
     {
       "id": "WR-IMP-SANC-WREATHED",
-      "name": "Envuelto",
-      "description": "Este agente puede realizar acciones de Disparar con esta arma mientras aún está en la zona de control de un agente enemigo. No selecciones un blanco válido. En lugar de eso, este agente es siempre el blanco principal, pero dispara solo contra los blancos secundarios y estos no pueden estar a cubierto ni ocultados (en otras palabras, determinas el Área desde este agente, pero este agente no se ve afectado).",
+      "name": "Wreathed",
+      "description": "This operative can perform the Shoot action with this weapon while within control range of an enemy operative.\nDon't select a valid target. Instead, this operative is always the primary target, but only shoot against secondary targets and they cannot be in cover or obscured (in other words, determine Blast from this operative, but this operative isn't affected).",
       "team": "IMP-SANC"
     }
   ]

@@ -1,0 +1,82 @@
+{
+  "killteamId": "SPEC-NEMESIS",
+  "locale": "es",
+  "team": {
+    "description": "Datacards de Némesis y NPO de los paquetes de misión de Kill Team: [Ambull](https://assets.warhammer-community.com/eng_ambull_mission_pack-fxyqry76tu-hy0r3phikw.pdf) y [El Archivista](https://assets.warhammer-community.com/eng_the_archivist_mission_pack-izuueemzxv-hjug8aifii.pdf). El texto completo de Defensa adicional y Corpulento aparece en la carta de Operativos Némesis de esos productos.",
+    "killteamName": "Operativos de misión Némesis"
+  },
+  "opTypes": {
+    "SPEC-NEMESIS-AMB": {
+      "weapons": {
+        "SPEC-NEMESIS-AMB-EC": {
+          "wepName": "Garras enormes"
+        }
+      },
+      "abilities": {
+        "SPEC-NEMESIS-AMB-ED": {
+          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté lesionado.",
+          "abilityName": "Defensa adicional"
+        },
+        "SPEC-NEMESIS-AMB-BLK": {
+          "description": "Este operativo no puede colocarse en terreno Ventaja a más de 2\" del suelo de la zona de aniquilación.\nSiempre que este operativo vaya a realizar la acción Combatir, los requisitos de distancia de su rango de control pueden cambiarse a 1\" en horizontal y 4\" en vertical hasta el final de esa acción.\nEste operativo puede moverse a través de otros operativos (salvo operativos NEMESIS).\nIgnora todos los cambios al atributo LPA de este operativo y, si es un operativo de jugador, los cambios al LPA no afectan a los 5PA que puedes gastar por punto de combate.",
+          "abilityName": "Corpulento"
+        },
+        "SPEC-NEMESIS-AMB-BEH": {
+          "description": "Cuando se active, si este NPO puede realizar cualquiera de sus dos primeras acciones durante esa activación, dale una orden de Trabar. Si no puede, dale una orden de Ocultarse.\n\n- Combatir.\n- Cargar contra el operativo enemigo más cercano por la ruta más corta posible.\n- Reposicionarse hacia el operativo enemigo más cercano, a cobertura si es posible (una acción Correr posterior puede cumplir esto, si puede).\n- Correr hacia el operativo enemigo más cercano, a cobertura si es posible.",
+          "abilityName": "Comportamiento: Peleador"
+        },
+        "SPEC-NEMESIS-AMB-RMS": {
+          "description": "Siempre que se active este NPO, recupera un número de heridas perdidas igual a su LPA+1. Su LPA la determina la carta de activación de NPO.",
+          "abilityName": "Simbiosis con radgusanos"
+        }
+      }
+    },
+    "SPEC-NEMESIS-BW": {
+      "opTypeName": "Infestación de gusanos perforadores",
+      "weapons": {
+        "SPEC-NEMESIS-BW-VJ": {
+          "wepName": "Fauces voraces"
+        }
+      },
+      "abilities": {
+        "SPEC-NEMESIS-BW-BEH": {
+          "description": "Cuando se active, si este NPO puede realizar cualquiera de sus dos primeras acciones durante esa activación, dale una orden de Trabar. Si no puede, dale una orden de Ocultarse.\n\n- Combatir.\n- Cargar contra el operativo enemigo más cercano por la ruta más corta posible.\n- Reposicionarse hacia el operativo enemigo más cercano, a cobertura si es posible (una acción Correr posterior puede cumplir esto, si puede).\n- Correr hacia el operativo enemigo más cercano, a cobertura si es posible.",
+          "abilityName": "Comportamiento: Peleador"
+        },
+        "SPEC-NEMESIS-BW-SM": {
+          "description": "Siempre que este NPO tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como blanco válido, con prioridad sobre todas las demás reglas (p. ej. Buscador, terreno Ventaja) salvo estar a 2\".",
+          "abilityName": "Pequeño"
+        }
+      }
+    },
+    "SPEC-NEMESIS-ARC": {
+      "opTypeName": "Archivista",
+      "weapons": {
+        "SPEC-NEMESIS-ARC-AD": {
+          "wepName": "Desintegrador atómico"
+        },
+        "SPEC-NEMESIS-ARC-EG": {
+          "wepName": "Guante erradicador"
+        }
+      },
+      "abilities": {
+        "SPEC-NEMESIS-ARC-ED": {
+          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté lesionado.",
+          "abilityName": "Defensa adicional"
+        },
+        "SPEC-NEMESIS-ARC-BLK": {
+          "description": "Este operativo no puede colocarse en terreno Ventaja a más de 2\" del suelo de la zona de aniquilación.\nSiempre que este operativo vaya a realizar la acción Combatir, los requisitos de distancia de su rango de control pueden cambiarse a 1\" en horizontal y 4\" en vertical hasta el final de esa acción.\nEste operativo puede moverse a través de otros operativos (salvo operativos NEMESIS).\nIgnora todos los cambios al atributo LPA de este operativo y, si es un operativo de jugador, los cambios al LPA no afectan a los 5PA que puedes gastar por punto de combate.",
+          "abilityName": "Corpulento"
+        },
+        "SPEC-NEMESIS-ARC-BEH": {
+          "description": "Este NPO disparará al operativo del jugador más cercano como prioridad, pero combatirá si hace falta y disparará a otros NPO. Cuando se active, si va a realizar las acciones Combatir o Disparar durante esa activación, dale una orden de Trabar. Si no, dale una orden de Ocultarse.\n\n1. Combatir.\n2. Disparar al operativo del jugador más cercano.\n3. Cargar contra el operativo más cercano con menos de 10 heridas restantes.\n4. Reposicionarse hacia el operativo del jugador más cercano, a cobertura si es posible (una acción Correr posterior puede cumplir esto).\n5. Disparar al NPO más cercano.\n6. Correr hacia el operativo del jugador más cercano, a cobertura si es posible.",
+          "abilityName": "Comportamiento"
+        },
+        "SPEC-NEMESIS-ARC-XS": {
+          "description": "Siempre que un operativo dispare a este NPO:\n- Ignora la regla de armas Penetración.\n- El daño normal y crítico de 4 o más inflige 1 daño menos a este operativo.\n- Este NPO puede beneficiarse de los efectos de la regla básica Defensa adicional aunque esté lesionado (esto prevalece sobre esa regla).",
+          "abilityName": "Blindaje xenotecnológico"
+        }
+      }
+    }
+  }
+}

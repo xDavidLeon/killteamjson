@@ -1,0 +1,243 @@
+{
+  "killteamId": "AEL-BOK",
+  "locale": "es",
+  "team": {
+    "description": "Atléticos, gráciles y completamente letales, los guerreros Aeldari que integran los comandos de Filos de Khaine llevan acabo misiones de la mayor importancia en nombre de sus mundos astronave. Son enviados a cortar hebras del destino específicas para asegurar que ciertos eventos terribles que han sido predecidos no lleguen a ocurrir jamás.",
+    "composition": "Un equipo de FILOS DE KHAINE se compone de:\n\n- 1 agente elegido de la siguiente lista:\n  - **EXARCA VENGADOR IMPLACABLE** equipado con una de las siguientes opciones:\n    - Catapulta shuriken, puños\n    - Catapulta shuriken doble; culatas\n    O una opción de cada una de las siguientes categorías:\n    - Espada implacable o arma de energía\n    - Escudo iridiscente o pistola shuriken\n  - **EXARCA ESPECTRO AULLANTE** equipado con una de las siguientes opciones:\n    - Espadas gemelas\n    - Pistola shuriken; Ejecutora\n    - Pistola shuriken; Arma de energía\n    - Triskelión, Arma de energía\n    - Triskelión; Pistola shuriken\n  - **EXARCA ESCORPIÓN ASESINO** equipado con una de las siguientes opciones:\n    - Pistola shuriken; sable mordedor\n    - Pistola shuriken, pinza de escorpión y espada sierra\n    - Pistolas shuriken dobles, espadas sierra doble\n- 7 agentes FILOS DE KHAINE elegidos de la siguiente lista:\n  - **COMBATIENTE VENGADOR IMPLACABLE**\n  - **COMBATIENTE ESPECTRO AULLANTE**\n  - **COMBATIENTE ESCORPIÓN ASESINO**",
+    "killteamName": "Filos de Khaine"
+  },
+  "ploys": {
+    "AEL-BOK-S-DOD": {
+      "description": "Selecciona dos agentes FILOS DE KHAINE amigos visibles y a 6\" entre sí. Retíralos de la zona de combate y colócalos en la ubicación que ocupaba el otro (es decir, intercambian posiciones).",
+      "ployName": "Danza de la Muerte"
+    },
+    "AEL-BOK-S-FW": {
+      "description": "Hasta el final del Punto de Inflexión, cada vez que se realice un ataque a distancia contra un agente FILOS DE KHAINE amigo preparado, puedes repetir cualquier resultado de tus dados de defensa que sea 1 resultado (por ejemplo, resultados de 2).",
+      "ployName": "Advertidos"
+    },
+    "AEL-BOK-S-KV": {
+      "description": "Hasta el final del Punto de Inflexión, cada vez que un agente FILOS DE KHAINE amigo dispare a un agente enemigo agotado, las armas a distancia de ese agente amigo ganan la regla especial Incesante.",
+      "ployName": "Venganza De Khaine"
+    },
+    "AEL-BOK-S-RP": {
+      "description": "Cada vez que un agente FILOS DE KHAINE amigo combata contra un agente enemigo que esté preparado, las armas cuerpo a cuerpo de ese agente amigo ganan la regla especial Incesante.",
+      "ployName": "Aplomo Implacable"
+    },
+    "AEL-BOK-T-BW": {
+      "description": "Usa este ardid táctico durante la activación de un agente FILOS DE KHAINE amigo. Hasta el final de su activación, ese agente puede realizar dos acciones de Combatir.",
+      "ployName": "Viento Afilado"
+    },
+    "AEL-BOK-T-CON": {
+      "description": "Usa este ardid de tiroteo cuando un agente FILOS DE KHAINE amigo contraataque o un agente enemigo dispara contra él, después de que tu oponente tire sus dados de ataque, pero antes de repetir tiradas. Hasta el final de la secuencia, tu oponente no puede repetir sus dados de ataque (si tu oponente ha declarado el uso de algún ardid de tiroteo durante esa secuencia que le permitiría repetir tiradas, ese ardid se cancela y los PM gastados en él se recuperan).",
+      "ployName": "Desprecio"
+    },
+    "AEL-BOK-T-FL": {
+      "description": "Usa este ardid táctico cuando un agente FILOS DE KHAINE amigo es activado, durante su activación antes o despues de hacer una acción. Hasta el final de su activación, ese agente puede realizar la acción de Retroceder por un punto de acción menos (hasta un mínimo de 0PA).",
+      "ployName": "Luz Que Se Apaga"
+    },
+    "AEL-BOK-T-SF": {
+      "description": "Usa este ardid táctico durante la activación de un agente FILOS DE KHAINE amigo. Hasta el final de su activación, ese agente puede realizar dos acciones de Disparar.",
+      "ployName": "Caída De Estrella"
+    }
+  },
+  "equipments": {
+    "AEL-BOK-ROP": {
+      "eqName": "Runa De Profecía",
+      "description": "Una vez por batalla, tras tirar para decidir la iniciativa, puedes sumar D3 o restar D3 a tu resultado.",
+      "effects": ""
+    },
+    "AEL-BOK-ROS": {
+      "eqName": "Runa De Escudo",
+      "description": "Una vez por batalla, cuando un dado de ataque inflija Daño Normal a un agente FILOS DE KHAINE amigo, puedes ignorar ese daño infligido.",
+      "effects": ""
+    },
+    "AEL-BOK-ROF": {
+      "eqName": "Runa De Adivinación",
+      "description": "Cuando se revela este equipo, tira un D3. En la fase de Estrategia del turno correspondiente al resultado, ganas 1 punto de mando adicional.",
+      "effects": ""
+    },
+    "AEL-BOK-WBT": {
+      "eqName": "Talismán de Hueso Espectral",
+      "description": "Una vez por punto de inflexión, cuando un agente FILOS DE KHAINE amigo dispare, combata o contraataque, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar.",
+      "effects": ""
+    }
+  },
+  "teamAbilities": {
+    "AEL-BOK-TA-ASTE": {
+      "description": "Las **TÉCNICAS DE SENDA** son habilidades únicas que aparecen a continuación y que están disponibles para agentes FILOS DE KHAINE con la clave relevante.\n- No puedes usar más de una **TÉCNICAS DE SENDA** por activación o reacción.\n- No puedes usar cada **TÉCNICAS DE SENDA** más de una vez por Punto de Inflexión.\n- Si todos los agentes FILOS DE KHAINE amigos elegidos para su despliegue tienen la misma clave de Senda (p. ej. **ESCORPIÓN ASESINO**), no puedes usar cada **TÉCNICAS DE SENDA** más de dos veces por Punto de Inflexión en lugar de una.",
+      "abilityName": "Las Técnicas de Senda"
+    },
+    "AEL-BOK-TA-ASTE-DA": {
+      "description": "**Huracán cortante**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **VENGADOR IMPLACABLE** amigo realice la acción de **Reposicionarse**. Ese agente puede realizar una acción de **Disparar** durante la acción de Reposicionarse (debe hacerlo en un lugar donde pueda colocarse, y cualquier distancia de movimiento restante que le quedara de la acción de Reposicionarse puede usarse después de realizar el Disparo). Debes seleccionar una catapulta shuriken, pistola shuriken o catapulta shuriken doble para esa acción de Disparar.\n  \n  \n\n**Muerte por mil filos**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **VENGADOR IMPLACABLE** amigo realice la acción de **Disparar** y selecciones una catapulta shuriken o catapulta shuriken doble. Hasta el final de la acción, esa arma tendrá la regla especial Torrente 2\", pero no podrás seleccionar más de un objetivo secundario.\n  \n  \n\n**Vigilancia del Vengador**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **VENGADOR IMPLACABLE** amigo realice la acción de **Disparar** y selecciones una catapulta shuriken o catapulta shuriken doble. Hasta el final de la acción, esa arma tendrá la regla especial **Letal 5+**.\n  \n  \n\n**Insensible, Inamovible**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente enemigo esté disparando a un agente **VENGADOR IMPLACABLE** amigo y hayas tirado dos o más fallos. Puedes descartar uno de esos fallos para conservar el otro como un éxito normal en su lugar.\n  \n  \n\n**Calor furioso de la llama que se apaga**  \n\nUsa esta **TÉCNICA DE SENDA** durante la activación de un agente **VENGADOR IMPLACABLE** amigo. Hasta el inicio de su próxima activación, puedes ignorar cualquier cambio a sus características debido a estar lesionado (incluidas las características de sus armas).",
+      "abilityName": "Técnicas de senda Vengador Implacable"
+    },
+    "AEL-BOK-TA-ASTE-HB": {
+      "description": "**La aflicción**  \n\nUsa esta **TÉCNICA DE SENDA** durante la activación de un agente **ESPECTRO AULLANTE** amigo, después de que haya realizado una acción de **Cargar**, incapacitado a un agente enemigo en combate y no esté ya dentro de la zona de amenaza de un agente enemigo. Realiza una acción libre de **Cargar** con ese agente amigo usando cualquier incremento de movimiento de la primera acción de Carga. Esta **TÉCNICA DE SENDA** permite a ese agente realizar, por tanto, dos acciones de Carga.\n\n**Lluvia de lágrimas**  \n\nUsa esta **TÉCNICA DE SENDA** en el paso de resolver impactos con éxito de un combate, después de que un agente **ESPECTRO AULLANTE** amigo golpee con un impacto crítico, si el agente enemigo no resultó incapacitado. Realiza inmediatamente una acción libre de **Retroceder** con ese agente de hasta 3\", incluso si ya realizó una acción que impida realizar esta acción\n\n**Alarido mortífero**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESPECTRO AULLANTE** amigo realice una acción de **Disparar**. Hasta el final de la acción, utiliza la siguiente arma a distancia:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Alarido mortífero|5|3+|1/2|\n|Weapon Rules|\n|Rng 6\", Saturate, Seek Light, Stun, Tor 1\"|\n\n**Acróbata**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESPECTRO AULLANTE** amigo realiza una acción de movimiento. Hasta el final de la acción, ese agente: \n- Puede ignorar todas las distancias verticales al caer o escalar.\n- Puede moverse a través de agentes enemigos, dentro de su rango de control, y durante la acción de **Cargar** puede abandonar dicho rango de control (debe terminar el movimiento cumpliendo los requisitos).\n- No puede moverse más allá de su atributo de Movimiento si es una acción de Carga.\n\n**El grito ladrón**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESPECTRO AULLANTE** amigo esté combatiendo o contraatacando. Al inicio del paso de Resolución de Dados de Ataque, puedes resolver uno de tus éxitos antes del orden normal; dicho éxito debe utilizarse para bloquear.",
+      "abilityName": "Técnicas de senda Espectro Aullante"
+    },
+    "AEL-BOK-TA-ASTE-SS": {
+      "description": "**Acecho paciente, golpe súbito**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESCORPIÓN ASESINO** amigo con una orden de Ocultarse realiza una acción de **Reposicionarse**. Durante esa acción, ese agente puede moverse dentro de la zona de amenaza de agentes enemigos (no puede terminar el movimiento ahí) y puedes infligir <b>D3+2</b> heridas a un agente enemigo que esté dentro de la zona de amenaza cuando termine el movimiento.\n  \n  \n\n**Golpear y desvanecerse**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESCORPIÓN ASESINO** amigo incapacite a un agente enemigo al **combatir** o **contraatacar**, si ya no esté a menos de 3\" de agentes enemigos. Cambia la orden de ese agente a **Ocultarse** y puede realizar inmediatamente una acción libre de **Correr**, incluso si ya realizó una acción que le impida **Correr**.\n  \n  \n\n**Ojo del Escorpión**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESCORPIÓN ASESINO** amigo realiza una acción de **Disparar** y seleccionas una pistola shuriken. Hasta el final de la acción, esa pistola tendrá la regla de arma **Buscadora (Ligero)**.\n  \n  \n\n**Golpes despiadados**  \n\nUsa esta **TÉCNICA DE SENDA** cuando un agente **ESCORPIÓN ASESINO** amigo esté combatiendo. La primera vez que consigas un impacto crítico en esa secuencia, las armas de combate cuerpo a cuerpo de ese agente obtendrán la regla especial **Choque** hasta el final de la secuencia.\n  \n  \n\n**Uno con la penumbra**  \n\nUsa esta **TÉCNICA DE SENDA** durante la activación de un agente **ESCORPIÓN ASESINO** amigo. Hasta el inicio de su próxima activación, mientras ese agente tenga una orden de **Ocultarse** y esté cubierto, no podrá ser seleccionado como objetivo válido, independientemente de cualquier otra regla (p.ej., Buscadora, Terreno elevado) salvo estar a 2\" o menos.",
+      "abilityName": "Técnicas de senda Escorpión Asesino"
+    },
+    "AEL-BOK-TA-AT": {
+      "description": "Buscar y destruir, o el arquetipo asociado a la clave de Senda más común en tu comando (si hay dos claves empatadas por la más común, puedes decidir cuál de ellas usar). Las claves de Senda y sus arquetipos asociados son las siguientes:\n- **VENGADOR IMPLACABLE**: Seguridad\n- **ESPECTRO AULLANTE**: Reconocimiento\n- **ESCORPIÓN ASESINO**: Infiltración",
+      "abilityName": "Arquetipos"
+    }
+  },
+  "opTypes": {
+    "AEL-BOK-DAX": {
+      "opTypeName": "Exarca Vengador Implacable",
+      "weapons": {
+        "AEL-BOK-DAX-SC": {
+          "wepName": "Catapulta shuriken"
+        },
+        "AEL-BOK-DAX-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-BOK-DAX-TSC": {
+          "wepName": "Catapulta shuriken doble"
+        },
+        "AEL-BOK-DAX-DS": {
+          "wepName": "Espada implacable"
+        },
+        "AEL-BOK-DAX-F": {
+          "wepName": "Puños"
+        },
+        "AEL-BOK-DAX-GB": {
+          "wepName": "Culatas"
+        },
+        "AEL-BOK-DAX-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-DAX-A-DT": {
+          "description": "Siempre que este operativo dispute un marcador de objetivo o uno de tus marcadores de misión, o siempre que esté disparando a un operativo enemigo que lo haga, las armas de este operativo tienen la regla de arma Equilibrada.",
+          "abilityName": "Tácticas Defensivas"
+        },
+        "AEL-BOK-DAX-A-EX": {
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación.",
+          "abilityName": "Exarca"
+        },
+        "AEL-BOK-DAX-A-SS": {
+          "description": "Siempre que un operativo esté disparando a un operativo aliado de FILOS DE KHAINE que sea visible y esté a menos de 2” de este operativo, ignora la regla de arma Perforante. Este operativo solo tiene esta regla si seleccionas la opción de arma Escudo iridiscente.",
+          "abilityName": "Escudo iridiscente"
+        }
+      }
+    },
+    "AEL-BOK-HBX": {
+      "opTypeName": "Exarca Espectro Aullante",
+      "weapons": {
+        "AEL-BOK-HBX-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-BOK-HBX-TSK": {
+          "wepName": "Triskelión (arrojadizo)"
+        },
+        "AEL-BOK-HBX-EXE": {
+          "wepName": "Ejecutora"
+        },
+        "AEL-BOK-HBX-MS": {
+          "wepName": "Espadas gemelas"
+        },
+        "AEL-BOK-HBX-PW": {
+          "wepName": "Arma de energía"
+        },
+        "AEL-BOK-HBX-TSKM": {
+          "wepName": "Triskelión (rebanador)"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-HBX-A-BM": {
+          "description": "Siempre que este operativo esté combatiendo, empeora en 1 el atributo Habilidad de Armas cuerpo a cuerpo del operativo enemigo. Esto no es acumulativo con estar herido.",
+          "abilityName": "Máscara de espectro"
+        },
+        "AEL-BOK-HBX-A-EX": {
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación.",
+          "abilityName": "Exarca"
+        }
+      }
+    },
+    "AEL-BOK-SSX": {
+      "opTypeName": "Exarca Escorpión Asesino",
+      "weapons": {
+        "AEL-BOK-SSX-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-BOK-SSX-TSP": {
+          "wepName": "Pistolas shuriken dobles"
+        },
+        "AEL-BOK-SSX-BB": {
+          "wepName": "Sable mordedor"
+        },
+        "AEL-BOK-SSX-TCS": {
+          "wepName": "Espadas sierras dobles"
+        },
+        "AEL-BOK-SSX-SCC": {
+          "wepName": "Pinza de escorpión y espada sierra"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-SSX-A-EX": {
+          "description": "Este agente puede realizar dos acciones de **Disparar** o **Combatir** durante su activación.",
+          "abilityName": "Exarca"
+        },
+        "AEL-BOK-SSX-A-M": {
+          "description": "Siempre que este operativo realice la acción de **Combatir**, al inicio del paso de Tirada de Dados de Ataque, inflige 2 de daño al operativo enemigo en esa secuencia.",
+          "abilityName": "Mandiblásteres"
+        }
+      }
+    },
+    "AEL-BOK-DAW": {
+      "opTypeName": "Combatiente Vengador Implacable",
+      "weapons": {
+        "AEL-BOK-DAW-SC": {
+          "wepName": "Catapulta shuriken"
+        },
+        "AEL-BOK-DAW-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-DAW-A-DT": {
+          "description": "Siempre que este operativo dispute un marcador de objetivo o uno de tus marcadores de misión, o siempre que esté disparando a un operativo enemigo que lo haga, las armas de este operativo tienen la regla de arma Equilibrada.",
+          "abilityName": "Tácticas Defensivas"
+        }
+      }
+    },
+    "AEL-BOK-HBW": {
+      "opTypeName": "Combatiente Espectro Aullante",
+      "weapons": {
+        "AEL-BOK-HBW-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-BOK-HBW-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-HBW-A-BM": {
+          "description": "Siempre que este operativo esté combatiendo, empeora en 1 el atributo Habilidad de Armas cuerpo a cuerpo del operativo enemigo. Esto no es acumulativo con estar herido.",
+          "abilityName": "Máscara de espectro"
+        }
+      }
+    },
+    "AEL-BOK-SSW": {
+      "opTypeName": "Combatiente Escorpión Asesino",
+      "weapons": {
+        "AEL-BOK-SSW-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-BOK-SSW-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "AEL-BOK-SSW-A-M": {
+          "description": "Siempre que este operativo realice la acción de **Combatir**, al inicio del paso de Tirada de Dados de Ataque, inflige 2 de daño al operativo enemigo en esa secuencia.",
+          "abilityName": "Mandiblásteres"
+        }
+      }
+    }
+  }
+}

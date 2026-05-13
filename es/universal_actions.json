@@ -6,10 +6,6 @@
       "seq": 101,
       "AP": 1,
       "name": "Reposicionarse",
-      "aliases": [
-        "reposicionar",
-        "reposición"
-      ],
       "description": null,
       "effects": [
         "Mueve el agente activo, una distancia que no exceda su atributo Movimiento, hasta una ubicación en la que pueda colocarse. Esto debe hacerse en uno o más incrementos en línea recta, y estos siempre se redondean al alza hasta la pulgada más cercana"
@@ -53,9 +49,6 @@
       "seq": 104,
       "AP": 1,
       "name": "Cargar",
-      "aliases": [
-        "carga"
-      ],
       "description": null,
       "effects": [
         "Igual que la acción de Reposicionarse, pero el agente activo puede mover 2\" adicionales.",

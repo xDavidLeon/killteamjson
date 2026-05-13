@@ -1,0 +1,293 @@
+{
+  "killteamId": "AEL-HOTA",
+  "locale": "es",
+  "team": {
+    "description": "Los Arcontes de las Cábala Drukhari están siempre tramando cómo expandir sus extensos imperios criminales. Si sus planes requieren un toque sutil, pueden recurrir a los equipos de exterminio Mano del Arconte. Estas bandas de asesinos, ladrones, torturadores y peores cosas empuñan una variedad de armas esotéricas y macabras que les ayudan en sus misiones diabólicas.",
+    "composition": "El comando MANO DEL ARCONTE  está compuesto por:\n\n- 1 agente ARCHISIBARITA **MANO DEL ARCONTE** con una de las siguientes opciones:\n  - Pistola bláster; espada venenosa\n  - Pistola cristalina; espada venenosa\n  - Pistola cristalina; agonizador\n  - Pistola cristalina; arma de energía\n  - Rifle cristalino; cuchillas por doquier\n- 8  agentes **MANO DEL ARCONTE** elegidos dela siguiente lista:\n  - ESPÍA\n  - DUELISTA CARMESÍ\n  - DISCÍPULO DE YAELINDRA\n  - ELIXICANTE\n  - DESPELLEJADOR\n  - TIRADOR con una de las siguientes opciones:\n    - Blaster; cuchillas por doquier\n    - Desgarrador; cuchillas por doquier\n  - TIRADOR PESADO con una de las siguientes opciones:\n    - Lanza oscura; cuchillas por doquier\n    - Cañón cristalino; cuchillas por doquier\n  - ASESINO PARTECIELOS\n\nSalvo agentes **ESPÍA**, tu comando solo puede incluir uno de cada uno de los agentes de esta lista.  \n\nTu comando solo puede incluir hasta dos armas de luzoscura (la pistola bláster, el bláster y la lanza oscura son armas de luzoscura).",
+    "killteamName": "Mano del arconte"
+  },
+  "ploys": {
+    "AEL-HOTA-S-BA": {
+      "description": "Las armas de combate de los agentes **MANO DEL ARCONTE** amigos tienen la regla de armas Desgarradora.",
+      "ployName": "ARTISTAS DE LA HOJA"
+    },
+    "AEL-HOTA-S-DON": {
+      "description": "Siempre que un agente enemigo dispare contra un agente MANO DEL ARCONTE amigo a más de 2\" de todo agente enemigo, si hay terreno Pesado o Ligero interpuesto o cualquier parte de la peana de ese agente amigo se encuentra bajo terreno Aventajado, puedes repetir uno de tus dados de defensa.",
+      "ployName": "MORADORES DE LA NOCHE"
+    },
+    "AEL-HOTA-S-FDD": {
+      "description": "Cuando un agente **MANO DEL ARCONTE** amigo sea activado, antes de determinar su orden puedes elegir un agente enemigo para el que dicho agente amigo no sea un blanco válido\nHasta el final de esa activación, la primera vez que ese agente amigo dispare o combata contra ese agente enemigo, puedes guardar uno de tus éxitos normales como éxito crítico en su lugar.",
+      "ployName": "DESDE LA OSCURIDAD, MUERTE"
+    },
+    "AEL-HOTA-S-MS": {
+      "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispare o combata contra un agente enemigo herido, las armas de dicho agente amigo tienen la regla de armas Equilibrada.",
+      "ployName": "SÁDICOS DESPIADADOS"
+    },
+    "AEL-HOTA-T-CD": {
+      "description": "Usa este ardid de tiroteo durante la activación de un agente MANO DEL ARCONTE amigo, antes o después de que realice una acción. Durante esa activación, ese agente puede realizar una acción de **Retroceder** por 1 PA menos.",
+      "ployName": "ENGAÑO CRUEL"
+    },
+    "AEL-HOTA-T-CS": {
+      "description": "Usa este ardid de tiroteo después de que un oponente utilice un ardid de tiroteo (excepto uno que cueste 0PM).\n La siguiente vez que fuera a usar ese ardid, debe gastar 1 PM adicional para hacerlo (y en ese momento este efecto termina).\n No puedes usar este ardid de nuevo durante la batalla hasta que su efecto haya terminado.",
+      "ployName": "ARGUCIA RETORCIDA"
+    },
+    "AEL-HOTA-T-HA": {
+      "description": "Usa este ardid de tiroteo cuando sea tu turno de activar un agente amigo. Puedes saltarte esa activación.",
+      "ployName": "ARROGANCIA ATROZ"
+    },
+    "AEL-HOTA-T-POTW": {
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente **MANO DEL ARCONTE** amigo, si está disparando o combatiendo contra un agente enemigo herido. Puedes repetir cualquiera de tus dados de ataque.",
+      "ployName": "DEPREDAR A LOS HERIDOS"
+    }
+  },
+  "equipments": {
+    "AEL-HOTA-CS": {
+      "eqName": "CEPO DE CADENA",
+      "description": "Cuando un agente enemigo vaya a realizar una acción de Retroceder mientras se encuentra en la zona de control de un agente **MANO DEL ARCONTE** amigo, si no hay otros agente enemigos en la zona de control de ese agente amigo, puedes usar esta regla.\n En tal caso, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que el del agente amigo en cuestión.\n Si cualquier resultado es un 4+, dicho agente enemigo no puede realizar esa acción durante esta activación o reacción (no se gastan PA en ella), y no puedes volver a utilizar esta regla durante este punto de inflexión.",
+      "effects": ""
+    },
+    "AEL-HOTA-WB": {
+      "eqName": "HOJAS MEZQUINAS",
+      "description": "Suma 1 al atributo Ataque de las cuchillas por doquier de los agentes MANO DEL ARCONTE amigos.",
+      "effects": "wepid:AOB|ATK:+1"
+    },
+    "AEL-HOTA-TC": {
+      "eqName": "COBERTURA TÓXICA",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo combata o contraataque y estés eligiendo un arma de combate, puedes usar esta regla.\nSi lo haces, hasta el final de esa secuencia el arma de combate de dicho agente tiene la regla de armas Letal 5+.",
+      "effects": ""
+    },
+    "AEL-HOTA-RP": {
+      "eqName": "VENENO REFINADO",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo realice la acción Disparar y elijas una carabina cristalina, un cañón cristalino, una pistola cristalina, un rifle cristalino o una pistola aguijón, puedes usar esta regla.\n Si lo haces, hasta el final de la acción suma al atributo Daño normal de dicha arma.",
+      "effects": ""
+    }
+  },
+  "teamAbilities": {
+    "AEL-HOTA-TA-POFRPA": {
+      "description": "Después de que un agente **MANO DEL ARCONTE** amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha sido lesionado durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición **\"cuándo\"**. No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera 1D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n",
+      "abilityName": "PODER DEL DOLOR"
+    }
+  },
+  "opTypes": {
+    "AEL-HOTA-KAS": {
+      "opTypeName": "ARCHISIBARITA",
+      "weapons": {
+        "AEL-HOTA-KAS-BP": {
+          "wepName": "Pistola bláster"
+        },
+        "AEL-HOTA-KAS-SP": {
+          "wepName": "Pistola cristalina"
+        },
+        "AEL-HOTA-KAS-SR": {
+          "wepName": "Rifle cristalino"
+        },
+        "AEL-HOTA-KAS-AG": {
+          "wepName": "Agonizador"
+        },
+        "AEL-HOTA-KAS-AOB": {
+          "wepName": "Cuchillas por doquier"
+        },
+        "AEL-HOTA-KAS-PW": {
+          "wepName": "Arma de energía"
+        },
+        "AEL-HOTA-KAS-VB": {
+          "wepName": "Espada venenosa"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KAS-A-CUN": {
+          "description": " En el paso de gambito de cada fase de estrategia, si este agente está en la zona de aniquilación y pasas en la primera oportunidad que tengas, ganas 1PM. Ignora cada **GAMBITO ESTRATÉGICO** del pack de misiones (si lo hay) al determinar esto.",
+          "abilityName": "Astucia"
+        },
+        "AEL-HOTA-KAS-A-RIF": {
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
+        },
+        "AEL-HOTA-KAS-A-TV": {
+          "description": "Una vez durante cada activación de este operativo, si no tiene ninguna de tus fichas de Dolor cuando realice una acción de Combatir o Disparar, puede ganar una de tus fichas de Dolor cuando selecciones un objetivo válido o un agente enemigo contra el cual combatir.",
+          "abilityName": "Visión Tortuosa"
+        }
+      }
+    },
+    "AEL-HOTA-KAG": {
+      "opTypeName": "ESPÍA",
+      "weapons": {
+        "AEL-HOTA-KAG-SR": {
+          "wepName": "Rifle cristalino"
+        },
+        "AEL-HOTA-KAG-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KAG-A-RIF": {
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
+        },
+        "AEL-HOTA-KAG-A-SC": {
+          "description": " Una vez por punto de inflexión que otro agente MANO DEL ARCONTE amigo obtenga una de tus fichas de Dolor, un ESPÍA MANO DEL ARCONTE amigo que no tenga una de tus fichas de Dolor puede también obtener una.",
+          "abilityName": "Competición sádica"
+        }
+      }
+    },
+    "AEL-HOTA-KCD": {
+      "opTypeName": "DUELISTA CARMESÍ",
+      "weapons": {
+        "AEL-HOTA-KCD-SP": {
+          "wepName": "Pistola cristalina"
+        },
+        "AEL-HOTA-KCD-RF": {
+          "wepName": "Enredador cuchilla"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KCD-A-CD": {
+          "description": " Este agente puede realizar 2 acciones de Combatir durante su activación.",
+          "abilityName": "Duelista Carmesí"
+        }
+      }
+    },
+    "AEL-HOTA-KDOY": {
+      "opTypeName": "DISCÍPULO DE YAELINDRA",
+      "weapons": {
+        "AEL-HOTA-KDOY-SP": {
+          "wepName": "Pistola aguijón"
+        },
+        "AEL-HOTA-KDOY-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      },
+      "actions": {
+        "AEL-HOTA-KDOY-TG": {
+          "effects": [
+            "Elige un agente enemigo a 6\" o menos de este agente y visible para él. El agente enemigo elegido y cada otro agente a 1\" o menos de él hacen un chequeo de veneno.",
+            "Para que un agente haga un chequeo de veneno, tira 1D6, sumando 1 al resultado si ese agente tiene un atributo Salvación de 4+ o peor:",
+            "si el resultado es 3+, infliges 1D3 daños a ese agente y este obtiene una de tus fichas de Veneno (si no tiene ya una). Cuando un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
+          ],
+          "name": "GRANADA TORMENTO"
+        }
+      }
+    },
+    "AEL-HOTA-KELX": {
+      "opTypeName": "ELIXICANTE",
+      "weapons": {
+        "AEL-HOTA-KELX-SR": {
+          "wepName": "Rifle cristalino"
+        },
+        "AEL-HOTA-KELX-SN": {
+          "wepName": "Inyectaestimulantes"
+        },
+        "AEL-HOTA-KELX-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KELX-A-CD": {
+          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira 1D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  En la fase de Preparación de cada fase de Estrategia, puedes elegir un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar lesionado.\n",
+          "abilityName": "Drogas de combate"
+        },
+        "AEL-HOTA-KELX-A-RIF": {
+          "description": "Siempre que un agente **MANO DEL ARCONTE** amigo dispara con un rifle cristalino durante una activación en la que no haya realizado una acción de **Cargar**, **Retroceder** o **Reposicionarse**, \n esa arma tiene la regla de armas Certera 1. Ten en cuenta que el agente no se ve impedido de realizar esas acciones después de disparar."
+        }
+      },
+      "actions": {
+        "AEL-HOTA-KELX-AD": {
+          "effects": [
+            "Elige un agente **MANO DEL ARCONTE** amigo a 3\" o menos de esta agente y visible para él, y a continuación elige una de las siguientes opciones para ese agente amigo:",
+            "- Recupera hasta 2D3 heridas perdidas.",
+            "-  Elige una regla **DROGA DE COMBATE** distinta para que la tenga en esa batalla (esto reemplaza a la anterior)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
+          ],
+          "name": "ADMINISTRAR DROGA"
+        }
+      }
+    },
+    "AEL-HOTA-KFLAY": {
+      "opTypeName": "DESPELLEJADOR",
+      "weapons": {
+        "AEL-HOTA-KFLAY-PS": {
+          "wepName": "Escultores de dolor"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KFLAY-A-ITP": {
+          "description": " Los Daños normales y críticos de 3 o más infligen 1 daño menos a este agente.",
+          "abilityName": "Insensible al dolor"
+        }
+      }
+    },
+    "AEL-HOTA-KGNR": {
+      "opTypeName": "TIRADOR",
+      "weapons": {
+        "AEL-HOTA-KGNR-SH": {
+          "wepName": "Desgarrador"
+        },
+        "AEL-HOTA-KGNR-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      }
+    },
+    "AEL-HOTA-KHGNR": {
+      "opTypeName": "TIRADOR PESADO",
+      "weapons": {
+        "AEL-HOTA-KHGNR-DL": {
+          "wepName": "Lanza oscura"
+        },
+        "AEL-HOTA-KHGNR-SC": {
+          "wepName": "Cañón cristalino",
+          "profiles": {
+            "AEL-HOTA-KHGNR-SC-0": {
+              "profileName": "Concentrado"
+            },
+            "AEL-HOTA-KHGNR-SC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "AEL-HOTA-KHGNR-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      }
+    },
+    "AEL-HOTA-KSA": {
+      "opTypeName": "ASESINO PARTECIELOS",
+      "weapons": {
+        "AEL-HOTA-KSA-RW": {
+          "wepName": "Filopluma"
+        },
+        "AEL-HOTA-KSA-SC": {
+          "wepName": "Carabina cristalina"
+        },
+        "AEL-HOTA-KSA-AOB": {
+          "wepName": "Cuchillas por doquier"
+        }
+      },
+      "abilities": {
+        "AEL-HOTA-KSA-A-MH": {
+          "description": "Si este agente no realiza la acción única **Marcar** (ver reverso de la tarjeta) durante su activación, puede realizar dos acciones de **Disparar** durante su activación, pero debe elegirse un filopluma para una (y solo una) de estas acciones.",
+          "abilityName": "Cazador implacable"
+        },
+        "AEL-HOTA-KSA-A-OMEN": {
+          "description": "En el paso de Elegir agentes, cuando selecciones el equipo, puedes elegir un agente enemigo u otro agente MANO DEL ARCONTE amigo distinto (revela tu selección cuando reveles el equipo).  \n\n Cuando se tiren dados de ataque o defensa por ese agente:\n\n- Si es un agente enemigo, tu oponente debe repetir sus resultados de 6.\n- Si es un agente amigo, puedes repetir cualesquiera de tus resultados de 1.\n",
+          "abilityName": "Presagio"
+        }
+      },
+      "actions": {
+        "AEL-HOTA-KSA-MARK": {
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, cuando este agente dispare contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "-  Las armas a distancia de este agente tienen la regla de armas Buscadora (Ligero).",
+            "-  Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
+          ],
+          "name": "MARCAR"
+        }
+      }
+    }
+  }
+}

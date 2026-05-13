@@ -4,7 +4,7 @@
   "version": "October '25",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_legionaries_online_rules-wdpu85w6pv-8ndq4m5egw.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-10_kill_team_team_rules_legionaries-e5hsbsasn6-l5akyfyeyu.pdf",
   "killteamName": "Legionaries",
   "description": "Legionary kill teams are bitter veterans who possess centuries of combat experience. Some are little more than\nravening killers who desire only to reave, slaughter and despoil. Others are devoted worshippers of the Dark Gods,\nseeking to conduct fell rituals in the hope of pleasing their infernal patrons and attaining greater power.",
   "composition": "A LEGIONARIES KillTeam is composed of:\n\n- 1 LEGIONARY operative selected from the following list:\n  - ASPIRING CHAMPION with one option from each of the following:\n    - Plasma pistol or tainted bolt pistol\n    - Power fist, power maul, power weapon or tainted chainsword  \n  - CHOSEN with one of the following options:\n    - Plasma pistol; daemon blade\n    - Tainted bolt pistol; daemon blade\n- 5 LEGIONARY operatives selected from the following list:\n  - ANOINTED\n  - BALEFIRE ACOLYTE\n  - BUTCHER\n  - ICON BEARER with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword  \n  - SHRIVETALON\n    - WARRIOR with one of the following options:\n    - Boltgun; fists\n    - Bolt pistol; chainsword    \n  - GUNNER with one of the following options:\n    - Bolt pistol; flamer; fists\n      - Bolt pistol; meltagun; fists\n      - Bolt pistol; plasma gun; fists   \n  - HEAVY GUNNER with one of the following options:\n    - Bolt pistol; heavy bolter; fists\n    - Bolt pistol; missile launcher; fists\n    - Bolt pistol; reaper chaincannon; fists\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
@@ -93,6 +93,22 @@
       "seq": 52,
       "eqName": "Malefic Blades",
       "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
+      "weapons": [
+        {
+          "wepId": "CHAOS-LEG-MB-MALEFIC-BLADE",
+          "wepName": "Malefic Blade",
+          "profiles": [
+            {
+              "wepType": "M",
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": []
+            }
+          ]
+        }
+      ],
       "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
     },
     {
@@ -1439,8 +1455,8 @@
   "weapon_rules": [
     {
       "id": "WR-CHAOS-LEG-SIPHON",
-      "name": "Drenaje Vital",
-      "description": "Cuando elijas esta arma, puedes usar esta regla. Si lo haces, al inicio del paso de Resolver Dados de Ataque, puedes selecciona un agente amigo LEGIONARIO visible y a 6\" de este agente. Por cada dado de ataque que resuelvas durante ese paso que inflija daño, ese agente amigo recupera 1 herida perdida, o 1D3 heridas perdidas si fue un éxito crítico. No puedes usar esta regla de arma más de una vez por punto de inflexión.",
+      "name": "Siphon Life",
+      "description": "When you select this weapon, you can use this rule. If you do, at the start of the Resolve Attack Dice step, select one friendly LEGIONARY operative visible to and within 6\" of this operative.\r For each attack die you resolve during that step that inflicts damage, that friendly operative regains 1 lost wound, or D3 lost wounds if it was a critical success. You cannot use this weapon rule more than once per Turning Point.",
       "team": "CHAOS-LEG"
     }
   ]

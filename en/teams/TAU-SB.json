@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-SB",
-  "version": "November '25",
+  "version": "April '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_17-12_killteam_xv26_stealth_battlesuits_online_rules-noe604q009-vmw72m7mmx.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_xv26_stealth_battlesuits-yamtq4dpgz-6sgtomgwjs.pdf",
   "killteamName": "XV26 Stealth Battlesuits",
   "description": "Kill teams of XV26 Stealth Battlesuits provide the T'au Empire with experts in innovative tactics considered unconventional - at best - by Fire caste academies. They use infiltration to identify and eliminate key targets, penetrate hostile regions to conduct aggressive reconnaissance, and launch ambushes from within the enemy's own midst.",
   "composition": "An XV26 STEALTH BATTLESUIT Killteam is composed of:\n- 1 XV26 STEALTH BATTLESUIT SHAS'VRE operative\n- 1 XV26 STEALTH BATTLESUIT MV75 MARKER DRONE operative\n- 1 XV26 STEALTH BATTLESUIT MV15 GUN DRONE operative\n- 4 XV26 STEALTH BATTLESUIT operatives selected from the following list:\n  - DESIGNATOR\n  - INFILTRATOR\n  - LIBERATOR\n  - LODESTAR\n  - NEUTRALISER\n\nOther than INFILTRATOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two fusion blasters.",
@@ -91,7 +91,7 @@
       "killteamId": "TAU-SB",
       "seq": 2,
       "eqName": "Counter-Network Jammers",
-      "description": "Whenever determining control of a marker, treat the total APL stat of enemy operatives that contest it as 1 lower if only one friendly XV26 STEALTH BATTLESUIT operative and only two enemy operatives contest it. That friendly XV26 STEALTH BATTLESUIT operative cannot be a DRONE operative. Note this isn't a change to the APL stat, so any changes are cumulative with this."
+      "description": "STRATEGIC GAMBIT. Select one objective marker or mission marker. Until the end of the turning point, whenever determining control of that marker, treat the total APL stat of enemy operatives that contest it as 1 lower if at least one of those enemy operatives is within 3\" of friendly XV26 STEALTH BATTLESUIT operatives. Note this isn't a change to the APL stat, so any changes are cumulative with this."
     },
     {
       "eqId": "TAU-SB-ABF",
@@ -423,6 +423,22 @@
           "opTypeId": "TAU-SB-DES",
           "abilityName": "Markerlight",
           "description": "Whenever an enemy operative is a valid target for this operative, or is visible to this operative and within 2\" of your Ambush marker (see Prepare Ambush strategy ploy), it's marked. Whenever a friendly XV26 STEALTH BATTLESUIT operative is shooting an operative that's marked, that friendly operative's ranged weapons have the Severe weapon rule. Note that an operative can be a valid target for this operative even if this operative isn't the active operative."
+        }
+      ],
+      "actions": [
+        {
+          "id": "TAU-SB-DES-FM",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Focused Markerlight",
+          "description": null,
+          "effects": [
+            "Select one enemy operative visible to this operative. Once during this turning point, when a friendly XV26 STEALTH BATTLESUIT operative is shooting that enemy operative, you can use this effect. If you do, improve the Hit stat of that friendly operative's ranged weapons by 1 until the end of that action."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative."
+          ]
         }
       ]
     },
@@ -1015,7 +1031,7 @@
           "abilityId": "TAU-SB-NEU-MSP",
           "opTypeId": "TAU-SB-NEU",
           "abilityName": "Multispectrum Sensor Package",
-          "description": "SUPPORT. Once per turning point, when an enemy operative visible to and within 8\" of this operative is activated, you can use this rule. If you do, each friendly XV26 STEALTH BATTLESUIT operative within 3\" of this operative can immediately do one of the following:\n- Perform a free Dash action (in an order of your choice).\n- Change its order.\n\nEach friendly operative that performs the Dash action cannot end that move within 3\" of an enemy operative. Note that a Comms Device from universal equipment only affects the second distance of this rule."
+          "description": "SUPPORT. Once per turning point, when an enemy operative within 8\" of this operative is activated, you can use this rule. If you do, each friendly XV26 STEALTH BATTLESUIT operative within 3\" of this operative can immediately do one of the following:\n- Perform a free Dash action (in an order of your choice).\n- Change its order.\n\nEach friendly operative that performs the Dash action cannot end that move within 3\" of an enemy operative. Note that a Comms Device from universal equipment only affects the second distance of this rule."
         },
         {
           "abilityId": "TAU-SB-NEU-SJ",

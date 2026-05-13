@@ -1,0 +1,100 @@
+{
+  "locale": "es",
+  "weapon_rules": {
+    "WR-UNIV-ACCURATE": {
+      "description": "Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certero 2 en su lugar (esto tiene preferencia ante las reglas x que figuran en el encabezamiento de esta sección).",
+      "name": "Certera"
+    },
+    "WR-UNIV-BALANCED": {
+      "description": "Puedes repetir uno de tus dados de ataque.",
+      "name": "Equilibrada"
+    },
+    "WR-UNIV-BLAST": {
+      "description": "El blanco que selecciones es el blanco principal. Tras disparar al blanco principal, dispara con esta arma contra cada blanco secundario en el orden que elijas (tira por cada secuencia por separado). Los blancos secundarios son otros agentes visibles para el blanco principal y a x o menos del mismo; p. ej., “Área 2” (todos se consideran blancos válidos, a pesar de que tengan órdenes de Ocultarse). Los blancos secundarios están a cubierto y ofuscados si el blanco principal lo estaba.",
+      "name": "Área"
+    },
+    "WR-UNIV-BRUTAL": {
+      "description": "Tu oponente solo puede bloquear con éxitos críticos."
+    },
+    "WR-UNIV-CEASELESS": {
+      "description": "Puedes repetir todos tus dados de ataque que hayan obtenido un mismo resultado a tu elección (p. ej., repetir todos los dados con un resultado de 2).",
+      "name": "Incesante"
+    },
+    "WR-UNIV-DEVASTATING": {
+      "description": "Cada éxito crítico guardado inflige inmediatamente x daño al agente contra el que se utiliza el arma; p. ej., Devastadora 3. Si la regla empieza con una distancia (p. ej., 1” Devastadora x), inflige x daño a ese agente y a cualquier otro visible para el blanco y a esa distancia o menos del mismo. Ten en cuenta que el éxito no se descarta después de hacerlo: puede resolverse más adelante en la secuencia.",
+      "name": "Devastadora"
+    },
+    "WR-UNIV-HEAVY": {
+      "description": "Un agente no puede usar esta arma en una activación o reacción en la que se haya movido, y no puede moverse en una activación o reacción en la que haya usado esta arma. Si la regla es Pesada (solo x), donde x es una acción de mover, tiene ese movimiento permitido, pero solo ese; p. ej., Pesada (solo Correr). Esta regla de arma no impide usar la acción Ponerse en guardia.",
+      "name": "Pesada"
+    },
+    "WR-UNIV-HOT": {
+      "description": "Después de que un agente usa esta arma, tira 1D6. Si el resultado es menor que el atributo Impactar del arma, inflige un daño a ese agente igual al resultado multiplicado por dos. Si se usa múltiples veces en una acción (p. ej., Área), igualmente solo tiras 1D6.",
+      "name": "Sobrecalentamiento"
+    },
+    "WR-UNIV-LETHAL": {
+      "description": "Tus éxitos con un resultado igual o superior a x son éxitos críticos; p. ej., Letal 5+.",
+      "name": "Letal"
+    },
+    "WR-UNIV-LIMITED": {
+      "description": "En cuanto un agente ha usado esta arma x veces en batalla, deja de tenerla. Si se usa múltiples veces en una acción (p. ej., Área), se considera de un solo uso.",
+      "name": "Limitada"
+    },
+    "WR-UNIV-PIERCING": {
+      "description": "El defensor reúne x dados de defensa menos; p. ej., Penetración 1. Si la regla es Críticos de penetración x, eso solo sucede si guardas algún éxito crítico.",
+      "name": "Penetración"
+    },
+    "WR-UNIV-PSYCHIC": {
+      "description": "El perfil del arma tiene la palabra clave Psíquica.",
+      "name": "Psíquica"
+    },
+    "WR-UNIV-PUNISHING": {
+      "description": "Si guardas algún éxito crítico, puedes guardar uno de tus fallos como un éxito normal en lugar de descartarlo.",
+      "name": "Castigadora"
+    },
+    "WR-UNIV-RANGE": {
+      "description": "Solo los agentes a x o menos del agente activo pueden ser blancos válidos; p. ej., Alcance 9\"",
+      "name": "Alcance"
+    },
+    "WR-UNIV-RELENTLESS": {
+      "description": "Puedes repetir cualquiera de tus dados de ataque.",
+      "name": "Implacable"
+    },
+    "WR-UNIV-RENDING": {
+      "description": "Si guardas algún éxito crítico, puedes guardar uno de tus éxitos normales como crítico en su lugar.",
+      "name": "Desgarradora"
+    },
+    "WR-UNIV-SATURATE": {
+      "description": "El defensor no puede guardar salvaciones de cobertura.",
+      "name": "Saturación"
+    },
+    "WR-UNIV-SEEK": {
+      "description": "Al elegir un blanco válido, los agentes no pueden usar la cobertura de terreno. Si la regla es Buscadora (Ligero), los agentes no pueden usar la cobertura de terreno Ligero. Esto permite elegir esos agentes como blanco (siempre que sean visibles), pero no anula su salvación de cobertura (si la tienen).",
+      "name": "Buscadora"
+    },
+    "WR-UNIV-SEVERE": {
+      "description": "Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no.",
+      "name": "Severa"
+    },
+    "WR-UNIV-SHOCK": {
+      "description": "La primera vez que golpees con un éxito crítico en cada secuencia, descarta también uno de los éxitos normales sin resolver de tu oponente (o un éxito crítico si no tiene).",
+      "name": "Choque"
+    },
+    "WR-UNIV-SILENT": {
+      "description": "Un agente puede realizar la acción de Disparar con esta arma mientras tiene una orden de Ocultarse.",
+      "name": "Silenciosa"
+    },
+    "WR-UNIV-STUN": {
+      "description": "Si guardas algún éxito crítico, resta 1 al atributo LPA del agente contra el que se usa esta arma hasta el final de su siguiente activación.",
+      "name": "Aturdidora"
+    },
+    "WR-UNIV-TORRENT": {
+      "description": "Elige un blanco válido como blanco principal, luego elige cualquier número de otros blancos válidos a x o menos del primer blanco como blancos secundarios; p. ej., Ráfaga 2\". Dispara con esta arma contra todos ellos en el orden que prefieras (tira por cada secuencia por separado).",
+      "name": "Ráfaga"
+    },
+    "WR-SHARED-CONCEALED": {
+      "description": "Este agente solo puede usar esta arma la primera vez que realiza una acción de Disparar durante la batalla.",
+      "name": "Posición oculta"
+    }
+  }
+}

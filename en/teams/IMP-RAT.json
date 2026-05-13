@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-RAT",
-  "version": "January '26",
+  "version": "April '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kt_teamrules_ratlings-loogoevawx-nrcsregyye.pdf",
+  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
   "killteamName": "Ratlings",
   "description": "Though less resilient than their baseline Human comrades, Ratlings are naturally excellent shots. It is said that Ratling marksmen can take the head off a Heretic from over a kilometre away. Coupled with their knack for staying out of harm's way, this makes Ratlings formidable snipers who can exact a withering toll upon superior enemy forces. ",
   "composition": "A RATLING KillTeam is composed of:\n\n- 1 RATLING FIXER operative with one of the following options:  \n  - Battle Rifle, Fists\n  - Sniper Rifle, Fists\n- 10 RATLING operatives selected from the following list:\n  - BATTLEMUTT\n  - BULLGRYN* with one from each of the following:\n    - Grenadier Gauntlet or Power Maul\n    - Brute Shield or Slabshield  \n  - OGRYN*\n  - BIG SHOT\n  - BOMBER\n  - HARDBIT\n  - RAIDER\n  - SNEAK\n  - SNIPER\n  - SPOTTER\n  - STASHMASTER\n  - VOX-THIEF\n\n*You cannot select more than three of these operatives combined. Up to three times, instead of selecting one of these operatives, you can select one RATLING ploy to cost you 0CP for the battle.  \n\nOther than BULLGRYN, OGRYN, and SNIPER operatives, your KillTeam can only include each operative above once.",
@@ -431,7 +431,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": []
             },
@@ -494,7 +494,7 @@
           "description": null,
           "effects": [],
           "conditions": [
-            "**SUPPORT**\r Select one enemy operative visible to this operative. Once during this Turning Point, when a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
+            "**SUPPORT**\r Select one enemy operative visible to this operative. Until the end of the Turning Point, whenever a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
           ]
         }
       ]
@@ -567,7 +567,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": []
             },
@@ -658,7 +658,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": []
             },
@@ -749,7 +749,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": [
                 {
@@ -920,7 +920,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": []
             },
@@ -1017,7 +1017,7 @@
               "seq": 0,
               "profileName": "Mobile",
               "ATK": "4",
-              "HIT": "4+",
+              "HIT": "3+",
               "DMG": "3/4",
               "WR": [
                 {

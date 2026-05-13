@@ -305,7 +305,7 @@
                   "id": "WR-UNIV-SHOCK"
                 },
                 {
-                  "id": "Veneno*"
+                  "id": "WR-CHAOS-PM-POISON"
                 }
               ]
             }
@@ -496,7 +496,7 @@
                   "number": 1
                 },
                 {
-                  "id": "Veneno*"
+                  "id": "WR-CHAOS-PM-POISON"
                 }
               ]
             }
@@ -692,8 +692,8 @@
   "weapon_rules": [
     {
       "id": "WR-TYR-RAV-CRUSH",
-      "name": "Machacar",
-      "description": "Siempre que golpees, desempata con tu oponente y suma 1 al resultado si este agente contra el que se usa esta arma tiene un atributo Heridas de 9 o menos. Si ganas, inflige tanto daño adicional a ese agente como la diferencia entre los resultados (hasta un máximo de 3 daños adicionales).",
+      "name": "Crush",
+      "description": "Whenever you strike, you and your opponent roll-off, adding 1 to your result if the operative this weapon is being used against has a Wounds stat of 9 or less. If you win, inflict additional damage on that operative equal to the difference between the dice results (to a maximum of 3 additional damage).",
       "team": "TYR-RAV"
     }
   ]
