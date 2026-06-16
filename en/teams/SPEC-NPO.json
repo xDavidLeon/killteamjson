@@ -2,7 +2,7 @@
   "factionId": "SPEC",
   "killteamId": "SPEC-NPO",
   "version": "",
-  "file": "",
+  "file": "https://assets.warhammer-community.com/eng_kt_volkus_compound_mission_pack-oai8j5hmhd-a6ugpgdgkj.pdf",
   "killteamName": "Non-Player Operatives",
   "description": "Non-player operatives for joint operations in KT2024.",
   "composition": "",
@@ -51,7 +51,7 @@
           "abilityId": "SPEC-NPO-BR-TRP-A-BEH",
           "opTypeId": "SPEC-NPO-BR-TRP",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fight\n2 - Charge the closest enemy operative via the shortest possible route\n3 - Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n4 - Dash towards the closest enemy operative, to cover if possible\n"
         }
       ]
     },
@@ -96,7 +96,7 @@
           "abilityId": "SPEC-NPO-BR-TGH-A-BEH",
           "opTypeId": "SPEC-NPO-BR-TGH",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fight\n2 - Charge the closest enemy operative via the shortest possible route\n3 - Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n4 - Dash towards the closest enemy operative, to cover if possible\n"
         }
       ]
     },
@@ -147,7 +147,7 @@
           "abilityId": "SPEC-NPO-BR-HVY-A-BEH",
           "opTypeId": "SPEC-NPO-BR-HVY",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fight\n- Charge the closest enemy operative via the shortest possible route\n- Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n- Dash towards the closest enemy operative, to cover if possible\n"
+          "description": "When activated, if this NPO can perform either of its first two actions during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fight\n2 - Charge the closest enemy operative via the shortest possible route\n3 - Reposition toward the closest enemy operative, to cover if possible (a subsequent Dash action can fulfil this, if able)\n4 - Dash towards the closest enemy operative, to cover if possible\n"
         }
       ]
     },
@@ -231,7 +231,7 @@
           "abilityId": "SPEC-NPO-MM-TRP-A-BEH",
           "opTypeId": "SPEC-NPO-MM-TRP",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n2 - Shoot\n3 - Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n4 - Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
         },
         {
           "abilityId": "SPEC-NPO-MM-TRP-A-SW",
@@ -297,7 +297,7 @@
           "abilityId": "SPEC-NPO-MM-WAR-A-BEH",
           "opTypeId": "SPEC-NPO-MM-WAR",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n2 - Shoot\n3 - Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n4 - Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
         }
       ]
     },
@@ -363,7 +363,7 @@
           "abilityId": "SPEC-NPO-MM-HVY-A-BEH",
           "opTypeId": "SPEC-NPO-MM-HVY",
           "abilityName": "Behaviour",
-          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n- Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n- Shoot\n- Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n- Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
+          "description": "When activated, if this NPO can perform the Shoot action during that activation, give it an Engage order. If it cannot, give it a Conceal order.\n\n1 - Fall Back to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n2 - Shoot\n3 - Reposition to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO (a subsequent Dash action can fulfil these, if able)\n4 - Dash to cover. If possible, to a location where there is a valid target that is not obscured. If not, where there is an objective marker visible to this NPO\n"
         }
       ]
     },

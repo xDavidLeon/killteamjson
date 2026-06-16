@@ -42,8 +42,12 @@
           "If player(s) would use their kill team rules to affect the roll-off, they must do so before playing initiative cards, starting with the player that's losing the roll-off.",
           "The Re-roll initiative card allows the player to re-roll their initiative roll. The remaining initiative cards all change the player's roll result up or down (this can take it above 6 or below 1).",
           "The winner of the roll-off decides who has initiative. Except during the fourth turning point, the loser of the roll-off gains an initiative card with a value equal to the turning point. If the roll-off is a tie, the player that didn't have initiative at that time is the winner.",
+          "A battle includes four turning points (unless specified otherwise). Each turning point includes a Strategy phase - also called Gambit phase - and a Firefight phase.",
           "As a Strategic Gambit during the first turning point, each player secretly selects one of their three operations (Crit Op, Tac Op or Kill Op) as their Primary Op. Then, each player places a card with their choice face down, or uses a die or other method to indicate it.",
+          "Starting with the player who has initiative, players alternate using a STRATEGIC GAMBIT or passing, until each player passes in succession. Every strategy ploy is also a STRATEGIC GAMBIT. Each player cannot use each STRATEGIC GAMBIT more than once per turning point.",
+          "During the Firefight phase, the players alternate activating ready friendly operatives, starting with the player who has initiative. Whenever an operative activates, first select its order (Engage or Conceal). It then performs actions, and is known as the active operative while doing so. Each action costs AP, and you cannot spend more AP during an operative’s activation than its APL. Unless otherwise specified, an operative cannot perform the same action more than once during its activation. When the operative has finished performing actions, it’s expended (order token expended side up). When all operatives are expended, the turning point ends.",
           "Each player can score a maximum of 6VP for each operation."
+
         ]
       },
       {
