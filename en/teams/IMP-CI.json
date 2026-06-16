@@ -223,8 +223,9 @@
                                     "number": 5
                                 },
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1,
+                                    "details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
@@ -488,7 +489,8 @@
                                     "id": "WR-UNIV-SATURATE"
                                 },
                                 {
-                                    "id": "WR-UNIV-SEEK-LIGHT"
+                                    "id": "WR-UNIV-SEEK",
+                                    "details": "Light"
                                 },
                                 {
                                     "id": "WR-UNIV-TORRENT",
@@ -737,8 +739,9 @@
                                     "number": 1
                                 },
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1,
+                                    "details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
@@ -842,8 +845,9 @@
                                     "number": 1
                                 },
                                 {
-                                    "id": "WR-UNIV-PIERCING-CRITS",
-                                    "number": 1
+                                    "id": "WR-UNIV-PIERCING",
+                                    "number": 1,
+                                    "details": "Crits"
                                 },
                                 {
                                     "id": "WR-UNIV-SILENT"
