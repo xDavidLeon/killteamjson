@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-SB",
-  "version": "April '26",
+  "version": "June '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_xv26_stealth_battlesuits-yamtq4dpgz-6sgtomgwjs.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_xv26_stealth_battlesuits_online_rules-ee27yjjgg3-mpri6mnolp.pdf",
   "killteamName": "XV26 Stealth Battlesuits",
   "description": "Kill teams of XV26 Stealth Battlesuits provide the T'au Empire with experts in innovative tactics considered unconventional - at best - by Fire caste academies. They use infiltration to identify and eliminate key targets, penetrate hostile regions to conduct aggressive reconnaissance, and launch ambushes from within the enemy's own midst.",
   "composition": "An XV26 STEALTH BATTLESUIT Killteam is composed of:\n- 1 XV26 STEALTH BATTLESUIT SHAS'VRE operative\n- 1 XV26 STEALTH BATTLESUIT MV75 MARKER DRONE operative\n- 1 XV26 STEALTH BATTLESUIT MV15 GUN DRONE operative\n- 4 XV26 STEALTH BATTLESUIT operatives selected from the following list:\n  - DESIGNATOR\n  - INFILTRATOR\n  - LIBERATOR\n  - LODESTAR\n  - NEUTRALISER\n\nOther than INFILTRATOR operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two fusion blasters.",
@@ -434,7 +434,7 @@
           "name": "Focused Markerlight",
           "description": null,
           "effects": [
-            "Select one enemy operative visible to this operative. Once during this turning point, when a friendly XV26 STEALTH BATTLESUIT operative is shooting that enemy operative, you can use this effect. If you do, improve the Hit stat of that friendly operative's ranged weapons by 1 until the end of that action."
+            "Select one enemy operative visible to this operative. Once during this turning point, when a friendly XV26 STEALTH BATTLESUIT operative is shooting that enemy operative, you can use this effect. If you do, improve the Hit stat of ranged weapons on that friendly operative's datacard by 1 until the end of that action."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."

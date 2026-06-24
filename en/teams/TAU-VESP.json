@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-VESP",
-  "version": "November '25",
+  "version": "June '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_vespid_stingwings_online_rules-i3ca6b0kmu-bwtpd4ssui.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
   "killteamName": "Vespid Stingwings",
   "description": "\"So swift and so deadly are the Mal'Kor, it is as though they fury of the D'Yangi moon tempests had swept the enemy away. I almost pity those who stand against them\"  \n\n*--Shas'o Vior'la Shem*",
   "composition": "A VESPID STINGWINGS killteam is composed of:\n\n- 1 VESPID STINGWING STRAIN LEADER operative\n- 1 VESPID STINGWING OVERSIGHT DRONE operative\n- 9 VESPID STINGWING operatives selected from the following list:\n  - LONGSTING\n  - SHADESTRAIN\n  - SKYBLAST\n  - SWARMGUARD\n  - WARRIOR\n\nOther than WARRIOR operatives, your killteam can only include each operative above once.",
@@ -121,7 +121,7 @@
     {
       "abilityId": "TAU-VESP-TA-CO",
       "abilityName": "Communion",
-      "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
+      "description": "Communion points are used to maintain the tactical focus of friendly VESPID STINGWING operatives.\nIn the Ready step of each Strategy phase, you gain 1D3 Communion points, plus 1 if a friendly OVERSIGHT DRONE operative is in the killzone.\nCommunion points are used as follows (OVERSIGHT DRONE operatives are unaffected by the following):\n\n- Whenever a friendly VESPID STINGWING ooperative is performing the Shoot action, it can only target the closest enemy operative within 8\" of it (excluding enemy operatives within control range of other friendly VESPID STINGWING operatives) unless you spend 1 of your Communion points. For weapons with the Blast and Torrent weapon rules, only the first target must be selected in this way.\n- Whenever a friendly VESPID STINGWING operative (excluding DRONE) performs the Charge action, it must finish the action within control range of the closest enemy operative unless you spend 1 of your Communion points.\n- Whenever you would perform the Pick Up Marker or a mission action (excluding Operate Hatch) with a friendly VESPID STINGWING operative, you must also spend one of your Communion points to do so.\n- Whenever a friendly VESPID STINGWING operative is shooting, you can spend one (and only one) of your Communion points to re-roll one Attack Die.\n"
     },
     {
       "abilityId": "TAU-VESP-TA-FL",

@@ -160,7 +160,7 @@
       "actions": {
         "TAU-SB-DES-FM": {
           "effects": [
-            "Elige un agente enemigo visible para este agente. Una vez durante este punto de inflexión, cuando un agente **EXOARMADURA XV26 SIGILO** amigo dispare a ese agente enemigo, puedes usar este efecto. Si lo haces, mejora en 1 el atributo Impactar de las armas a distancia de ese agente amigo hasta el final de esa acción."
+            "Elige un agente enemigo visible para este agente. Una vez durante este punto de inflexión, cuando un agente **EXOARMADURA XV26 SIGILO** amigo dispare a ese agente enemigo, puedes usar este efecto. Si lo haces, mejora en 1 el atributo Impactar de las armas a distancia en la hoja de datos de ese agente amigo hasta el final de esa acción."
           ],
           "conditions": [
             "Este agente no puede realizar esta acción mientras esté dentro del rango de control de un agente enemigo."
