@@ -1,0 +1,556 @@
+{
+  "factionId": "AEL",
+  "killteamId": "AEL-EDM",
+  "version": "July '26",
+  "classified": true,
+  "season": "",
+  "file": "https://assets.warhammer-community.com/eng_22-07_kill_team_team_rules_exodite_dragon_masters-bfqzdncjqz-ijdqo65ctu.pdf",
+  "killteamName": "Exodite Dragon Masters",
+  "description": "The ceremonial positions at the heart of a Dragon Master kill team are bonded in a harmony of martial, spiritual and strategic skills. When bound together, these clan champions form a deadly trinary. Bolstered by the strength and speed of their ferocious drakesteeds, alongside the keen senses of their Drakolithes, no prey can long evade them.",
+  "composition": "An EXODITE DRAGON MASTERS kill team is composed of:\n\n- 1 EXODITE DRAGON MASTER CLANBLADE operative\n- 1 EXODITE DRAGON MASTER LEYSTALKER operative\n- 1 EXODITE DRAGON MASTER STONESINGER operative\n- 2 EXODITE DRAGON MASTER DRAKOLITHE operatives\n\nNote that you don't select your operatives from a list. This kill team's operatives are specified.",
+  "archetypes": [
+    "Recon",
+    "Seek & Destroy"
+  ],
+  "ploys": [
+    {
+      "ployId": "AEL-EDM-S-DF",
+      "killteamId": "AEL-EDM",
+      "ployType": "S",
+      "seq": 1,
+      "ployName": "Draconic Fury",
+      "description": "Whenever a friendly EXODITE DRAGON MASTER operative is fighting:\n- If it has SPEED 4+, its melee weapons have the Balanced weapon rule.\n- If it has SPEED 7+, its melee weapons have the Ceaseless weapon rule."
+    },
+    {
+      "ployId": "AEL-EDM-S-SF",
+      "killteamId": "AEL-EDM",
+      "ployType": "S",
+      "seq": 2,
+      "ployName": "Sinuous Flux",
+      "description": "Whenever an enemy operative is shooting a friendly EXODITE DRAGON MASTER operative more than 6\" from it, if that friendly operative has SPEED 4+ or SPEED 7+, your opponent cannot re-roll their attack dice."
+    },
+    {
+      "ployId": "AEL-EDM-S-WSP",
+      "killteamId": "AEL-EDM",
+      "ployType": "S",
+      "seq": 3,
+      "ployName": "Wind-Swift Precision",
+      "description": "Whenever a friendly EXODITE DRAGON MASTER operative is shooting, if it has SPEED 4+, its ranged weapons have the Balanced weapon rule."
+    },
+    {
+      "ployId": "AEL-EDM-S-RTD",
+      "killteamId": "AEL-EDM",
+      "ployType": "S",
+      "seq": 4,
+      "ployName": "Ride Them Down",
+      "description": "Once during each friendly EXODITE DRAGON MASTER MOUNTED operative's activation, whenever it ends its move during the Sprint action:\n- If it moved 4\" or more during that action, you can inflict 1 damage on one enemy operative within its control range.\n- If it moved 7\" or more during that action, or it's a CLANBLADE operative, you can inflict D3 damage on one enemy operative within its control range instead."
+    },
+    {
+      "ployId": "AEL-EDM-T-LEAP",
+      "killteamId": "AEL-EDM",
+      "ployType": "T",
+      "seq": 5,
+      "ployName": "Leap",
+      "description": "Use this firefight ploy when a friendly EXODITE DRAGON MASTER MOUNTED operative performs the Sprint action. Instead of moving that operative, remove it from the killzone and set it back up in a location it can be placed within 1\" horizontally of its original location. This distance cannot be measured through terrain features more than 2\" tall, and that operative cannot be set up on Vantage terrain higher than 2\" from the killzone floor. That operative is treated as having moved 3\" for the purposes of its movement allowance and has SPEED 3-."
+    },
+    {
+      "ployId": "AEL-EDM-T-FH",
+      "killteamId": "AEL-EDM",
+      "ployType": "T",
+      "seq": 6,
+      "ployName": "Feral Hunger",
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly EXODITE DRAGON MASTER operative, if it's fighting against a wounded enemy operative with its Drakesteed fangs & talons or fangs & talons. You can re-roll any of your attack dice."
+    },
+    {
+      "ployId": "AEL-EDM-T-SS",
+      "killteamId": "AEL-EDM",
+      "ployType": "T",
+      "seq": 7,
+      "ployName": "Survivalist Spirit",
+      "description": "Use this firefight ploy during a friendly EXODITE DRAGON MASTER MOUNTED operative's activation or counteraction, before or after it performs an action. Until the start of its next activation, you can ignore any changes to that operative's weapon stats from being injured."
+    },
+    {
+      "ployId": "AEL-EDM-T-RM",
+      "killteamId": "AEL-EDM",
+      "ployType": "T",
+      "seq": 8,
+      "ployName": "Riding Mastery",
+      "description": "Use this firefight ploy when a friendly EXODITE DRAGON MASTER MOUNTED operative performs the Sprint action during its activation. During that action, that operative can perform the Pick Up Marker, Place Marker or a mission action (you can determine control during that action to do so), and any remaining move distance it had from that Sprint action can be used after it does so."
+    }
+  ],
+  "equipments": [
+    {
+      "eqId": "AEL-EDM-EQ-CT",
+      "killteamId": "AEL-EDM",
+      "seq": 1,
+      "eqName": "Clan Talismans",
+      "description": "Once per turning point, when a friendly EXODITE DRAGON MASTER MOUNTED operative is shooting, fighting or retaliating, if you roll two or more fails, you can discard one of them to retain another as a normal success instead."
+    },
+    {
+      "eqId": "AEL-EDM-EQ-LCM",
+      "killteamId": "AEL-EDM",
+      "seq": 2,
+      "eqName": "Lileathan Crystal Matrices",
+      "description": "Once per turning point, when a friendly EXODITE DRAGON MASTER operative is performing the Shoot action and you select a solar carbine or a profile of its long rifle, you can use this rule. If you do, until the end of that activation, that weapon has the Piercing 1 weapon rule."
+    },
+    {
+      "eqId": "AEL-EDM-EQ-DM",
+      "killteamId": "AEL-EDM",
+      "seq": 3,
+      "eqName": "Dragonscale Mesh",
+      "description": "Once per turning point, when an operative is shooting a friendly EXODITE DRAGON MASTER MOUNTED operative, in the Roll Defence Dice step, you can retain one of your normal successes as a critical success instead."
+    },
+    {
+      "eqId": "AEL-EDM-EQ-SPS",
+      "killteamId": "AEL-EDM",
+      "seq": 4,
+      "eqName": "Spirit Stones",
+      "description": "Whenever a friendly EXODITE DRAGON MASTER MOUNTED operative is incapacitated, you gain 1CP."
+    }
+  ],
+  "teamAbilities": [
+    {
+      "abilityId": "AEL-EDM-TA-DCT",
+      "abilityName": "Draconic Cavalry Tactics",
+      "description": "When setting up an EXODITE DRAGON MASTER kill team before the battle, the first third of your kill team must be friendly DRAKOLITHE operatives set up as normal. Each friendly EXODITE DRAGON MASTER MOUNTED operative thereafter must be set up in reserve: place it to one side instead of in the killzone.\n\nIn the first Firefight phase, each friendly EXODITE DRAGON MASTER MOUNTED operative set up in reserve is activated as normal. When it is, set it up in a location it can be placed on the killzone floor with its base touching your killzone edge (it's no longer in reserve). The operative is treated as performing the Turn action (spend the AP accordingly), then continue its activation as normal.\n\nEach friendly EXODITE DRAGON MASTER MOUNTED operative is activated twice per turning point (it's only expended after the second activation). You cannot spend more than 3AP for it per activation, or more than its APL stat per turning point.\n\nEach friendly EXODITE DRAGON MASTER MOUNTED operative cannot be in cover from or obscured by Light terrain, terrain parts less than 2\" tall or terrain that's not wholly intervening.\n\nWhenever a friendly EXODITE DRAGON MASTER MOUNTED operative would perform the Fight action, the distance requirements of its control range can be changed to 1\" horizontally and 4\" vertically until the end of that action."
+    },
+    {
+      "abilityId": "AEL-EDM-TA-DA",
+      "abilityName": "Drakesteed Agility",
+      "description": "EXODITE DRAGON MASTER MOUNTED operatives cannot perform the Charge, Dash, Fall Back or Reposition actions; instead they can perform the Sprint and Turn unique actions.\n\n**Sprint (0AP)**  \nMove the active operative to a location it can be placed. This must be directly forwards or backwards in one or more straight-line increments, and increments are always rounded up to the nearest inch. It cannot move more than 9\" forwards or 3\" backwards per activation, and it cannot move more than 12\" per turning point. Before or after one of the increments, you can pivot the active operative up to 45°. This doesn't use any of its movement allowance, and it can then continue its movement with any remaining move distance. The active operative cannot climb or finish the move on Vantage terrain higher than 2\" from the killzone floor. It can move through operatives and it treats terrain parts less than 2\" tall as Accessible terrain. Whenever it moves through an equipment terrain feature, remove that terrain feature from the battle. An operative cannot perform this action while counteracting. For the purposes of your opponent's rules, mission rules and killzone rules, this action is treated as the Reposition action, or the Charge action if the active operative ends the action within control range of an enemy operative.\n\n**Turn (1AP)**  \nPivot the active operative up to 45°. This doesn't use any of its movement allowance. An operative cannot perform this action while counteracting. For the purposes of your opponent's rules, mission rules and killzone rules, this action is treated as the Dash action, or the Charge action if the active operative ends the action within control range of an enemy operative."
+    },
+    {
+      "abilityId": "AEL-EDM-TA-MS",
+      "abilityName": "Mercurial Speed",
+      "description": "Each friendly EXODITE DRAGON MASTER operative has a SPEED that has three levels: SPEED 3-, SPEED 4+ and SPEED 7+. An operative can only have one SPEED level at a time, and it starts the battle with SPEED 3-.\n\nAn EXODITE DRAGON MASTER MOUNTED operative has SPEED 3- if either of the following are true:\n- It ends the Sprint action and it either moved backwards or less than 4\" forwards.\n- It ends its activation without performing the Sprint action.\n\nAn EXODITE DRAGON MASTER MOUNTED operative has SPEED 4+ if it ends the Sprint action and moved 4\" or more during that action, or SPEED 7+ instead if it moved 7\" or more during that action.\n\nWhenever an operative is shooting a friendly EXODITE DRAGON MASTER operative, if that friendly operative has SPEED 4+, you can retain one of your defence dice as a normal success without rolling it; if it has SPEED 7+, you can retain one as a critical success instead.\n\nEXODITE DRAGON MASTER DRAKOLITHE operatives' SPEED changes as described on their datacard."
+    }
+  ],
+  "opTypes": [
+    {
+      "opTypeId": "AEL-EDM-CB",
+      "killteamId": "AEL-EDM",
+      "seq": 0,
+      "opTypeName": "Dragon Master Clanblade",
+      "MOVE": "12\"",
+      "APL": 4,
+      "SAVE": "3+",
+      "WOUNDS": 24,
+      "keywords": "EXODITE DRAGON MASTER, AELDARI, MOUNTED, CLANBLADE",
+      "basesize": "75x42",
+      "weapons": [
+        {
+          "wepId": "AEL-EDM-CB-SC",
+          "opTypeId": "AEL-EDM-CB",
+          "seq": 0,
+          "wepName": "Solar Carbine",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-CB-SC-0",
+              "wepType": "R",
+              "wepId": "AEL-EDM-CB-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-CB-DFT",
+          "opTypeId": "AEL-EDM-CB",
+          "seq": 1,
+          "wepName": "Drakesteed Fangs & Talons",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-CB-DFT-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-CB-DFT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-CB-MB",
+          "opTypeId": "AEL-EDM-CB",
+          "seq": 2,
+          "wepName": "Moonblades",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-CB-MB-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-CB-MB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "5",
+              "HIT": "3+",
+              "DMG": "4/6",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-EDM-CB-A-SCL",
+          "opTypeId": "AEL-EDM-CB",
+          "abilityName": "Scaleshield",
+          "description": "Whenever an operative is shooting this operative, and no attack dice are retained as critical successes, worsen the x of the Piercing weapon rule by 1 (if any). Note that Piercing 1 would therefore be ignored."
+        },
+        {
+          "abilityId": "AEL-EDM-CB-A-UPG",
+          "opTypeId": "AEL-EDM-CB",
+          "abilityName": "Clanblade Upgrades",
+          "description": "When this operative is selected for the battle, select up to two different Clanblade Upgrade rules (from those below) to be added to its datacard for the battle.\n\n**Moonsong Cull**  \nOnce during each of this operative's activations, after it's performed the Sprint action forwards and incapacitated an enemy operative during the Fight action, if it's no longer within control range of enemy operatives, you can use this rule. If you do, it can immediately perform a free Sprint action forwards using any remaining move distance it had from that first Sprint action, but it cannot pivot during that free action. That operative can perform two Sprint actions during its activation to do so, and its SPEED is measured by the distance moved during both Sprint actions combined. The operative cannot have performed any other actions between those actions.\n\n**Speartip Of The Clan**  \nWhenever this operative is fighting:\n- If it has SPEED 4+, the first time you strike with a normal success during that sequence, inflict 1 additional damage.\n- If it has SPEED 7+, add 1 to the Normal Dmg stat of melee weapons on its datacard.\n\n**Bladed Stance**  \nWhenever this operative is fighting or retaliating with its moonblades, you can resolve one of your successes before the normal order. If you do, that success must be used to block.\n\n**Spectral Nimbus**  \nOnce per turning point, when this operative is fighting or retaliating, after your opponent rolls their attack dice, but before re-rolls, you can use this rule. If you do, your opponent cannot retain attack dice results of less than 6 as critical successes during that sequence (e.g. as a result of the Lethal, Rending or Severe weapon rules).\n\n**Focused Reflection**  \nWhenever an enemy operative is shooting this operative while within 6\" of it, if you allocate one or more critical successes to block your opponent's attack dice, you can use this rule. If you do, after the action, before incapacitated operatives are removed (including this one, if relevant), inflict 1 damage on that enemy operative for each critical success allocated this way."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-EDM-LEY",
+      "killteamId": "AEL-EDM",
+      "seq": 1,
+      "opTypeName": "Dragon Master Leystalker",
+      "MOVE": "12\"",
+      "APL": 4,
+      "SAVE": "3+",
+      "WOUNDS": 24,
+      "keywords": "EXODITE DRAGON MASTER, AELDARI, MOUNTED, LEYSTALKER",
+      "basesize": "75x42",
+      "weapons": [
+        {
+          "wepId": "AEL-EDM-LEY-LR",
+          "opTypeId": "AEL-EDM-LEY",
+          "seq": 0,
+          "wepName": "Long Rifle",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-LEY-LR-0",
+              "wepType": "R",
+              "wepId": "AEL-EDM-LEY-LR",
+              "seq": 0,
+              "profileName": "Mobile",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                }
+              ]
+            },
+            {
+              "wepprofileId": "AEL-EDM-LEY-LR-1",
+              "wepType": "R",
+              "wepId": "AEL-EDM-LEY-LR",
+              "seq": 1,
+              "profileName": "Stationary",
+              "ATK": "4",
+              "HIT": "2+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 3
+                },
+                {
+                  "id": "WR-AEL-EDM-AIMED"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-LEY-DFT",
+          "opTypeId": "AEL-EDM-LEY",
+          "seq": 1,
+          "wepName": "Drakesteed Fangs & Talons",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-LEY-DFT-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-LEY-DFT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-LEY-HB",
+          "opTypeId": "AEL-EDM-LEY",
+          "seq": 2,
+          "wepName": "Hunting Blade",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-LEY-HB-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-LEY-HB",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "3",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-EDM-LEY-A-IMP",
+          "opTypeId": "AEL-EDM-LEY",
+          "abilityName": "Implacable Darkscale",
+          "description": "You can ignore any changes to this operative's drakesteed fangs & talons weapon's Hit stat from being injured."
+        },
+        {
+          "abilityId": "AEL-EDM-LEY-A-UPG",
+          "opTypeId": "AEL-EDM-LEY",
+          "abilityName": "Leystalker Upgrades",
+          "description": "When this operative is selected for the battle, select up to two different Leystalker Upgrade rules (from those below) to be added to its datacard for the battle.\n\n**Fated Shot**  \nOnce per turning point, when this operative performs the Shoot action and you select a profile of its long rifle, you can use this rule. If you do, select one of the following rules for it to have until the end of that sequence:\n- Enemy operatives cannot be obscured.\n- Having other friendly EXODITE DRAGON MASTER operatives within an enemy operative's control range doesn't prevent that enemy operative from being selected as a valid target.\n\n**Nexus Sentinel**  \nOnce per turning point, this operative can perform the Guard action during its activation regardless of the killzone if it has SPEED 3- (see close quarters rules, Kill Team Core Book). Whenever this operative performs a point-blank shot as a result of the Guard action, don't worsen the Hit stat of its weapons as a result of performing a point-blank shot.\n\n**Nomad Executioner**  \nWhenever this operative is performing the Sprint action, it can perform the Shoot action during that action (it must do so in a location it can be placed, and any remaining move distance it had from that Sprint action can be used after it does so). Note that as the Shoot action occurs before the Sprint action ends, for that Shoot action, this operative's SPEED is whatever it had before beginning the Sprint action.\n\n**Elusive Phantasm**  \nAt the end of each Firefight phase, if this operative isn't within control range of enemy operatives, it can perform a free Sprint or Turn action, but it cannot move more than 3\" during that action and its SPEED remains the same. Note that it must still have the necessary amount of movement allowance remaining this turning point.\n\n**Gloaming Mantle**  \nWhenever an operative is shooting this operative from more than 8\" away, if you cannot retain any cover saves, you can retain one of your defence dice as a normal success without rolling it; if you can retain any cover saves, you can retain one cover save as a critical success instead."
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-EDM-STO",
+      "killteamId": "AEL-EDM",
+      "seq": 2,
+      "opTypeName": "Dragon Master Stonesinger",
+      "MOVE": "12\"",
+      "APL": 4,
+      "SAVE": "3+",
+      "WOUNDS": 24,
+      "keywords": "EXODITE DRAGON MASTER, AELDARI, MOUNTED, PSYKER, STONESINGER",
+      "basesize": "75x42",
+      "weapons": [
+        {
+          "wepId": "AEL-EDM-STO-SC",
+          "opTypeId": "AEL-EDM-STO",
+          "seq": 0,
+          "wepName": "Solar Carbine",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-STO-SC-0",
+              "wepType": "R",
+              "wepId": "AEL-EDM-STO-SC",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/3",
+              "WR": [
+                {
+                  "id": "WR-UNIV-DEVASTATING",
+                  "number": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-STO-VS",
+          "opTypeId": "AEL-EDM-STO",
+          "seq": 1,
+          "wepName": "Venomcrest Spit",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-STO-VS-0",
+              "wepType": "R",
+              "wepId": "AEL-EDM-STO-VS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RANGE",
+                  "number": 8
+                },
+                {
+                  "id": "WR-UNIV-SEVERE"
+                },
+                {
+                  "id": "WR-UNIV-TORRENT",
+                  "number": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-STO-DFT",
+          "opTypeId": "AEL-EDM-STO",
+          "seq": 2,
+          "wepName": "Drakesteed Fangs & Talons",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-STO-DFT-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-STO-DFT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "6",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-BRUTAL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "wepId": "AEL-EDM-STO-SS",
+          "opTypeId": "AEL-EDM-STO",
+          "seq": 3,
+          "wepName": "Stone Stave",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-STO-SS-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-STO-SS",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/5",
+              "WR": [
+                {
+                  "id": "WR-UNIV-PSYCHIC"
+                },
+                {
+                  "id": "WR-UNIV-LETHAL",
+                  "number": 5
+                },
+                {
+                  "id": "WR-UNIV-SHOCK"
+                },
+                {
+                  "id": "WR-UNIV-STUN"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-EDM-STO-A-UPG",
+          "opTypeId": "AEL-EDM-STO",
+          "abilityName": "Stonesinger Upgrades",
+          "description": "When this operative is selected for the battle, select up to two different Stonesinger Upgrade rules (from those below) to be added to its datacard for the battle.\n\n**Cleansing Of The Pale Moon (1AP)**  \nPSYCHIC. Select one friendly EXODITE DRAGON MASTER operative visible to this operative. Remove one rules effect or stat change your opponent has applied to it (e.g. Poison token, -1APL, cannot be activated or perform actions, etc.) This cannot allow it to regain lost wounds, remove mission pack rules or ignore the effects of being injured.  \nThis operative cannot perform this action while within control range of an enemy operative. Note that unlike this operative's other unique action upgrades, it can perform this action more than once per turning point.\n\n**Wails Of The World (1AP)**  \nPSYCHIC. Select one enemy operative visible to this operative. Subtract 2\" from the Move stat of that operative and each other enemy operative within 2\" of it until the end of their next activations respectively (this isn't cumulative with being injured). MOUNTED operatives are unaffected. Roll 2D3 separately for each of those operatives: inflict damage on that operative equal to the difference between the result and their new Move stat (this takes precedence over stats not changing during an action). MOUNTED operatives are unaffected.  \nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point.\n\n**Earthen Wrath**  \nThis operative has the following ranged weapon:\n\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:---:|:---:|:---:|\n|Earthen Wrath|4|3+|4/3|\n|Weapon Rules|\n|Devastating 2, Saturate, Earthen Wrath\\*|\n\n\\*Earthen Wrath: If the target is in cover, this weapon has the Lethal 5+ weapon rule.\n\n**Sow The Seeds**  \nOnce per turning point, during this operative's activation, before or after it performs an action, you can use this rule. If you do, select one objective marker it controls. Until this operative is incapacitated, until you use this rule again or until an enemy operative controls that marker (whichever comes first), this operative is treated as contesting that marker with an APL of 1 and controlling it for the purposes of mission actions and victory conditions (even if it's not within this operative's control range). Note that this could allow this operative to perform a mission action that would require it to control that marker.\n\n**Wind's Grace (1AP)**  \nPSYCHIC. Select one friendly EXODITE DRAGON MASTER operative visible to this operative. Until the start of this operative's first activation in the next turning point, until it's incapacitated or until it performs this action again (whichever comes first), that selected operative's SPEED is one higher (i.e. if it would have SPEED 3-, it has SPEED 4+; if it would have SPEED 4+, it has SPEED 7+).  \nThis operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+        }
+      ],
+      "actions": [
+        {
+          "id": "AEL-EDM-STO-ACT-SOR",
+          "type": "ability",
+          "seq": 0,
+          "AP": 1,
+          "name": "Song Of Renewal",
+          "description": null,
+          "effects": [
+            "PSYCHIC. Select one friendly EXODITE DRAGON MASTER operative visible to this operative. That operative regains up to 2D3 lost wounds.",
+            "PSYCHIC. Alternatively, each friendly EXODITE DRAGON MASTER operative can regain up to D3 lost wounds."
+          ],
+          "conditions": [
+            "This operative cannot perform this action while within control range of an enemy operative, or more than once per turning point."
+          ]
+        }
+      ]
+    },
+    {
+      "opTypeId": "AEL-EDM-DRAK",
+      "killteamId": "AEL-EDM",
+      "seq": 3,
+      "opTypeName": "Dragon Master Drakolithe",
+      "MOVE": "8\"",
+      "APL": 2,
+      "SAVE": "5+",
+      "WOUNDS": 7,
+      "keywords": "EXODITE DRAGON MASTER, AELDARI, DRAKOLITHE",
+      "basesize": 32,
+      "weapons": [
+        {
+          "wepId": "AEL-EDM-DRAK-FT",
+          "opTypeId": "AEL-EDM-DRAK",
+          "seq": 0,
+          "wepName": "Fangs & Talons",
+          "profiles": [
+            {
+              "wepprofileId": "AEL-EDM-DRAK-FT-0",
+              "wepType": "M",
+              "wepId": "AEL-EDM-DRAK-FT",
+              "seq": 0,
+              "profileName": "",
+              "ATK": "4",
+              "HIT": "3+",
+              "DMG": "3/4",
+              "WR": [
+                {
+                  "id": "WR-UNIV-RENDING"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "abilities": [
+        {
+          "abilityId": "AEL-EDM-DRAK-A-PE",
+          "opTypeId": "AEL-EDM-DRAK",
+          "abilityName": "Preternatural Evasion",
+          "description": "Whenever this operative performs the Charge, Fall Back or Reposition action, if it ends that action more than 2\" from its previous location, it has SPEED 4+; if it ends more than 5\" from its previous location, it has SPEED 7+ instead. Whenever this operative ends its activation, if it didn't gain SPEED 4+ or SPEED 7+ during that activation, it has SPEED 3-. Note that it's the distance from the previous location, not the distance moved (in other words it cannot just circle back to its previous location and gain high SPEED)."
+        },
+        {
+          "abilityId": "AEL-EDM-DRAK-A-BST",
+          "opTypeId": "AEL-EDM-DRAK",
+          "abilityName": "Beast",
+          "description": "This operative cannot perform any actions other than Charge, Dash, Fall Back, Fight, Guard, Pick Up Marker, Place Marker, Reposition and mission actions. This operative cannot perform the Pick Up Marker, Place Marker or mission actions unless there's a friendly LEYSTALKER operative that isn't incapacitated. It cannot use any weapons that aren't on its datacard."
+        }
+      ]
+    }
+  ],
+  "weapon_rules": [
+    {
+      "id": "WR-AEL-EDM-AIMED",
+      "name": "Aimed",
+      "description": "This operative cannot use this weapon during an activation in which it moved more than 3\", and it cannot move more than 3\" during an activation in which it used this weapon. This weapon rule has no effect on preventing the Guard action.",
+      "team": "AEL-EDM"
+    }
+  ]
+}

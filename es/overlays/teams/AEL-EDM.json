@@ -1,0 +1,190 @@
+{
+  "killteamId": "AEL-EDM",
+  "locale": "es",
+  "team": {
+    "killteamName": "Señores Dragoneros Exoditas",
+    "description": "El puesto ceremonial de todo comando de Señores Dragoneros lo vincula una armonía de destrezas marciales, espirituales y estratégicas. Unidos, estos campeones del clan forman un trío letal. Reforzados por la potencia y velocidad de sus dracocorceles, junto con los agudos sentidos de los dracolitos, no hay presa capaz de evitarlos por mucho tiempo.",
+    "composition": "Un comando de SEÑORES DRAGONEROS EXODITAS se compone de:\n\n- 1 agente FILO DEL CLAN SEÑOR DRAGONERO EXODITA\n- 1 agente LEYACECHADOR SEÑOR DRAGONERO EXODITA\n- 1 agente CANTARROCA SEÑOR DRAGONERO EXODITA\n- 2 agentes DRACOLITA SEÑOR DRAGONERO EXODITA\n\nTen en cuenta que no se eligen los agentes de una lista, sino que en este comando vienen especificados."
+  },
+  "ploys": {
+    "AEL-EDM-S-DF": {
+      "ployName": "Furia de Draco",
+      "description": "Siempre que un agente SEÑOR DRAGONERO EXODITA amigo combata:\n- Si tiene VELOCIDAD 4+, sus armas de combate tienen la regla de arma Equilibrada.\n- Si tiene VELOCIDAD 7+, sus armas de combate tienen la regla de arma Incesante."
+    },
+    "AEL-EDM-S-SF": {
+      "ployName": "Evasión Sinuosa",
+      "description": "Siempre que un agente enemigo dispare contra un agente SEÑOR DRAGONERO EXODITA amigo a más de 6\" de él, si ese agente amigo tiene VELOCIDAD 4+ o 7+, tu oponente no puede repetir sus dados de ataque."
+    },
+    "AEL-EDM-S-WSP": {
+      "ployName": "Precisión Veloz",
+      "description": "Siempre que un agente SEÑOR DRAGONERO EXODITA amigo dispare, si tiene VELOCIDAD 4+, sus armas a distancia tienen la regla de armas Equilibrada."
+    },
+    "AEL-EDM-S-RTD": {
+      "ployName": "Chocar y Derribar",
+      "description": "Una vez durante la activación de cada agente SEÑOR DRAGONERO EXODITA MONTADO amigo, al terminar el movimiento de la acción de Esprintar:\n- Si se ha movido 4\" o más durante esa acción, puedes infligir 1 daño a 1 agente enemigo en su zona de control.\n- Si se ha movido 7\" o más durante esa acción, o si es un agente FILO DEL CLAN, puedes, en su lugar, infligir 1D3 daños a 1 agente enemigo en su zona de control."
+    },
+    "AEL-EDM-T-LEAP": {
+      "ployName": "Salto",
+      "description": "Usa este ardid de tiroteo cuando un agente SEÑOR DRAGONERO EXODITA MONTADO amigo realice la acción de Esprintar. En lugar de mover ese agente, retíralo de la zona de aniquilación y redespliégalo en un lugar donde pueda colocarse a 1\" en horizontal de su posición original. Esta distancia no puede medirse a través de elementos de terreno de una altura superior a 2\", y ese agente no puede desplegarse en un terreno Aventajado a una altura superior a 2\" sobre el suelo de la zona de aniquilación. Se considera que ese agente ha movido 3\" a efectos de calcular su movimiento restante y tiene VELOCIDAD 3-."
+    },
+    "AEL-EDM-T-FH": {
+      "ployName": "Hambre Feral",
+      "description": "Usa este ardid de tiroteo después de tirar los dados de ataque de un agente SEÑOR DRAGONERO EXODITA amigo, si está combatiendo con sus Colmillos y espolones o con sus Colmillos y espolones de dracocorcel contra un agente enemigo herido. Puedes repetir cualquiera de tus dados de ataque."
+    },
+    "AEL-EDM-T-SS": {
+      "ployName": "Espíritu de Supervivencia",
+      "description": "Usa este ardid de tiroteo durante la activación o reacción de un agente SEÑOR DRAGONERO EXODITA MONTADO amigo, antes o después de realizar una acción. Hasta el inicio de su siguiente activación, puedes ignorar cualquier cambio a los atributos de las armas de ese agente por estar herido."
+    },
+    "AEL-EDM-T-RM": {
+      "ployName": "Jinetes Expertos",
+      "description": "Usa este ardid de tiroteo cuando un agente SEÑOR DRAGONERO EXODITA MONTADO amigo realice la acción de Esprintar durante su activación. Durante esa acción, ese agente puede realizar la acción de Recoger marcador, Colocar marcador o una acción de misión (puedes determinar el control durante esa acción para ello), y mover la distancia restante que le quede de esa acción de Esprintar después de realizarla."
+    }
+  },
+  "equipments": {
+    "AEL-EDM-EQ-CT": {
+      "eqName": "Talismanes del Clan",
+      "effects": "",
+      "description": "Una vez por punto de inflexión, cuando un agente SEÑOR DRAGONERO EXODITA MONTADO amigo dispare, combata o contraataque, si obtienes dos o más fallos, puedes descartar uno de ellos para guardar otro como un éxito normal en su lugar."
+    },
+    "AEL-EDM-EQ-LCM": {
+      "eqName": "Matrices Cristalinas de Lileath",
+      "effects": "",
+      "description": "Una vez por punto de inflexión, cuando un agente SEÑOR DRAGONERO EXODITA amigo realice una acción de Disparar y elijas una carabina solar o un perfil de su rifle largo, puedes usar esta regla. Si lo haces, hasta el final de esa activación, esa arma tiene la regla de arma Penetración 1."
+    },
+    "AEL-EDM-EQ-DM": {
+      "eqName": "Armadura de Escamas de Dragón",
+      "effects": "",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare contra un agente SEÑOR DRAGONERO EXODITA MONTADO amigo, en el paso de Tirar dados de defensa puedes guardar uno de tus éxitos normales como un éxito crítico en su lugar."
+    },
+    "AEL-EDM-EQ-SPS": {
+      "eqName": "Joyas Espirituales",
+      "effects": "",
+      "description": "Siempre que un agente SEÑOR DRAGONERO EXODITA MONTADO amigo resulte incapacitado, ganas 1PM."
+    }
+  },
+  "teamAbilities": {
+    "AEL-EDM-TA-DCT": {
+      "abilityName": "Tácticas de Dracocaballería",
+      "description": "Al desplegar un comando de SEÑORES DRAGONEROS EXODITAS antes de la batalla, el primer tercio de tu comando deben ser agentes DRACOLITA amigos desplegados normalmente. Cada agente SEÑOR DRAGONERO EXODITA MONTADO amigo posterior debe desplegarse en reserva: déjalo a un lado en lugar de en la zona de aniquilación.\n\nEn la primera fase de tiroteo, cada agente SEÑOR DRAGONERO EXODITA MONTADO amigo desplegado en reserva se activa normalmente. En ese momento, despliégalo en un lugar donde pueda desplegarse en el suelo de la zona de aniquilación con su peana en contacto con el borde de esta (deja de estar en reserva). Se considera que el agente realiza la acción de Girar (gasta los PA adecuados) y entonces puedes seguir con su activación normalmente.\n\nCada agente SEÑOR DRAGONERO EXODITA MONTADO amigo se activa 2 veces por punto de inflexión (solo se considera usado tras la segunda activación). No puedes gastar más de 3PA con él por activación, ni más de su atributo LPA por punto de inflexión.\n\nLos agentes SEÑOR DRAGONERO EXODITA MONTADO amigos no están nunca a cubierto ni ofuscados debido a (en ambos casos) terreno Ligero, ni a partes de terreno de una altura inferior a 2\", ni a terreno que no esté completamente interpuesto. Siempre que un agente SEÑOR DRAGONERO EXODITA MONTADO amigo vaya a realizar la acción de Combatir, los requisitos de distancia de su zona de control pueden cambiar a 1\" en horizontal y 4\" en vertical hasta el final de esa acción."
+    },
+    "AEL-EDM-TA-DA": {
+      "abilityName": "Agilidad de Dracocorcel",
+      "description": "Los agentes SEÑOR DRAGONERO EXODITA MONTADO no pueden realizar las acciones de Cargar, Correr, Retroceder ni Reposicionarse. En su lugar, pueden realizar sus acciones propias de Esprintar y Girar.\n\n**Esprintar (0PA)**  \nMueve el agente activo a un lugar donde pueda colocarse. Esto debe ser directamente hacia delante o atrás en uno o más incrementos en línea recta. Cada incremento cuenta como 1\" (si es menor, redondea a 1\"). No puede mover más de 9\" hacia delante o 3\" hacia atrás por activación, y no puede mover más de 12\" por punto de inflexión. Antes o después de uno de los incrementos, puedes pivotar el agente activo hasta 45° (esto no gasta movimiento restante) y después mover toda la distancia restante. El agente activo no puede trepar ni terminar el movimiento en un terreno Aventajado a una altura superior a 2\" sobre el suelo de la zona de aniquilación. Al mover puede atravesar agentes y trata todas las partes de los elementos de terreno de una altura inferior a 2\" como terreno accesible. Siempre que atraviese un elemento de terreno equipo, retira del juego ese elemento de terreno. Un agente no puede realizar esta acción mientras Reacciona. A efectos de reglas del oponente, reglas de la misión, y reglas de la zona de aniquilación, esta acción se considera como la acción de Reposicionarse, o la de Cargar si el agente activo la termina en la zona de control de algún agente enemigo.\n\n**Girar (1PA)**  \nPivota el agente activo hasta 45°. Esto no gasta nada de su movimiento restante. Un agente no puede realizar esta acción mientras Reacciona. A efectos de reglas del oponente, reglas de la misión, y reglas de la zona de aniquilación, esta acción se considera como la acción de Correr, o la de Cargar si el agente activo la termina en la zona de control de algún agente enemigo."
+    },
+    "AEL-EDM-TA-MS": {
+      "abilityName": "Veloces cual Rayo",
+      "description": "Cada agente SEÑOR DRAGONERO EXODITA amigo tiene tres niveles en su VELOCIDAD: VELOCIDAD 3-, VELOCIDAD 4+ y VELOCIDAD 7+. Un agente solo usa uno de sus niveles de VELOCIDAD a la vez, y comienza la batalla con VELOCIDAD 3-.\n\nUn agente SEÑOR DRAGONERO EXODITA MONTADO tiene VELOCIDAD 3- si cumple alguna de estas condiciones:\n- Termina la acción de Esprintar y, o bien movió hacia atrás, o bien lo hizo menos de 4\" hacia delante.\n- Termina su activación sin haber realizado la acción de Esprintar.\n\nUn agente SEÑOR DRAGONERO EXODITA MONTADO tiene VELOCIDAD 4+ si termina la acción de Esprintar y se ha movido 4\" o más durante ella, o, en su lugar, VELOCIDAD 7+ si se ha movido 7\" o más durante ella.\n\nSiempre que un agente dispare contra un agente SEÑOR DRAGONERO EXODITA, si ese agente amigo tiene VELOCIDAD 4+, puedes guardar uno de tus dados de defensa como un éxito normal sin tirarlo. Si tiene VELOCIDAD 7+, en su lugar puedes guardarlo como éxito crítico.\n\nEn el caso de los agentes DRACOLITA SEÑOR DRAGONERO EXODITA, su VELOCIDAD cambia como se describe en su tarjeta de datos."
+    }
+  },
+  "opTypes": {
+    "AEL-EDM-CB": {
+      "opTypeName": "Señor Dragonero Filo del Clan",
+      "weapons": {
+        "AEL-EDM-CB-SC": {
+          "wepName": "Carabina Solar"
+        },
+        "AEL-EDM-CB-DFT": {
+          "wepName": "Colmillos y Espolones de Dracocorcel"
+        },
+        "AEL-EDM-CB-MB": {
+          "wepName": "Filos Lunares"
+        }
+      },
+      "abilities": {
+        "AEL-EDM-CB-A-SCL": {
+          "abilityName": "Escudo de Escamas",
+          "description": "Siempre que un agente dispare contra este agente, si no se guardan dados de ataque como éxitos críticos, empeora en 1 el x de la regla de armas Penetración (si lo hay). Eso significa que Penetración 1 se ignora."
+        },
+        "AEL-EDM-CB-A-UPG": {
+          "abilityName": "Mejoras de Filo del Clan",
+          "description": "Al elegir este agente para la batalla, elige hasta 2 reglas de Mejora de Filo del Clan distintas (de las siguientes) y añádelas a su tarjeta de datos durante esta batalla.\n\n**Canto Letal**  \nUna vez durante cada activación de este agente, tras realizar la acción de Esprintar e incapacitar a un agente enemigo durante la acción de Combatir, si ya no está en la zona de control de agentes enemigos, puedes usar esta regla. Si lo haces, puede realizar inmediatamente una acción libre de Esprintar usando la distancia de movimiento restante que le quedara de esa primera acción de Esprintar, pero no puede pivotar durante esa acción libre. Ese agente puede realizar dos acciones de Esprintar durante su activación para ello, y su VELOCIDAD se determina por la distancia recorrida durante ambas acciones de Esprintar combinadas. El agente no puede haber realizado ninguna otra acción entre esas acciones.\n\n**Punta de Lanza del Clan**  \nCuando este agente combata:\n- Si tiene VELOCIDAD 4+, la primera vez que golpees con un éxito normal durante esa secuencia, inflige 1 daño adicional.\n- Si tiene VELOCIDAD 7+, suma 1 al atributo Daño normal de las armas de combate de su tarjeta de datos.\n\n**Esgrimista Experto**  \nCuando este agente combata o contraataque con sus filos lunares, puedes resolver 1 de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear.\n\n**Nimbo Espectral**  \nUna vez por punto de inflexión, cuando este agente combata o contraataque, después de que tu oponente tire sus dados de ataque, pero antes de repetir tiradas, puedes usar esta regla. Si lo haces, tu oponente no puede guardar dados de ataque con un resultado menor que 6 como éxitos críticos durante esa secuencia (p. ej., debido a las reglas de armas Letal, Desgarradora o Severa).\n\n**Ataque Reflejado**  \nSiempre que un agente enemigo dispare a este agente a 6\" o menos de él, si asignas algún éxito crítico para bloquear los dados de ataque de tu oponente, puedes usar esta regla. Si lo haces, después de la acción, antes de que se retiren los agentes incapacitados (incluido este, si es necesario), inflige 1 daño a ese agente enemigo por cada éxito crítico asignado de esta manera."
+        }
+      }
+    },
+    "AEL-EDM-LEY": {
+      "opTypeName": "Señor Dragonero Leyacechador",
+      "weapons": {
+        "AEL-EDM-LEY-LR": {
+          "wepName": "Rifle Largo",
+          "profiles": {
+            "AEL-EDM-LEY-LR-0": {
+              "profileName": "Móvil"
+            },
+            "AEL-EDM-LEY-LR-1": {
+              "profileName": "Inmóvil"
+            }
+          }
+        },
+        "AEL-EDM-LEY-DFT": {
+          "wepName": "Colmillos y Espolones de Dracocorcel"
+        },
+        "AEL-EDM-LEY-HB": {
+          "wepName": "Filo de Caza"
+        }
+      },
+      "abilities": {
+        "AEL-EDM-LEY-A-IMP": {
+          "abilityName": "Escama Oscura Implacable",
+          "description": "Puedes ignorar cualquier cambio al atributo Impactar del arma colmillos y espolones de dracocorcel de este agente por estar lesionado."
+        },
+        "AEL-EDM-LEY-A-UPG": {
+          "abilityName": "Mejoras de Leyacechador",
+          "description": "Al elegir este agente para la batalla, elige hasta 2 reglas de Mejora de Leyacechador distintas (de las siguientes) y añádelas a su tarjeta de datos durante esta batalla.\n\n**Disparo Predestinado**  \nUna vez por punto de inflexión, cuando este agente realice la acción de Disparar y elijas un perfil de su rifle largo, puedes usar esta regla. Si lo haces, elige una de las siguientes reglas, la cual tendrá hasta el final de esa secuencia:\n- Los agentes enemigos no pueden estar ofuscados.\n- Que haya otros agentes SEÑOR DRAGONERO EXODITA amigos en la zona de control de un agente enemigo no impide que dicho agente enemigo sea elegido como blanco válido.\n\n**Centinela del Nexo**  \nUna vez por punto de inflexión, este agente puede realizar la acción de Ponerse en guardia durante su activación independientemente de la zona de aniquilación si tiene VELOCIDAD 3- (ver reglas de combate cerrado en el Reglamento básico de Kill Team). Siempre que este agente realice un disparo a bocajarro debido a la acción de Ponerse en guardia, no empeores el atributo Impactar de sus armas por ello.\n\n**Verdugo Nómada**  \nSiempre que este agente realice la acción de Esprintar, puede realizar la acción de Disparar durante esa acción (debe hacerlo en una ubicación donde pueda colocarse, y cualquier movimiento restante que le quedara tras dicha acción de Esprintar puede usarse después). Recuerda que, como la acción de Disparar ocurre antes de que finalice la acción de Esprintar, para dicha acción de Disparar, la VELOCIDAD de este agente es la que tenía antes de comenzar la acción de Esprintar.\n\n**Fantasma Esquivo**  \nAl final de cada fase de tiroteo, si este agente no tiene agentes enemigos en su zona de control, puede realizar una acción libre de Esprintar o Girar, pero no puede mover más de 3\" durante esa acción y su VELOCIDAD permanece igual. Ten en cuenta que aún debe tener la cantidad necesaria de movimiento restante en este punto de inflexión.\n\n**Manto Crepuscular**  \nSiempre que un agente dispare contra este agente a más de 8\", si no puedes guardar salvaciones por cobertura, puedes guardar 1 de tus dados de defensa como un éxito normal sin tirarlo. Si puedes guardar alguna salvación por cobertura puedes, en su lugar, guardar una salvación por cobertura como éxito crítico."
+        }
+      }
+    },
+    "AEL-EDM-STO": {
+      "opTypeName": "Señor Dragonero Cantarroca",
+      "weapons": {
+        "AEL-EDM-STO-SC": {
+          "wepName": "Carabina Solar"
+        },
+        "AEL-EDM-STO-VS": {
+          "wepName": "Escupitajo de Draco de Cresta Venenosa"
+        },
+        "AEL-EDM-STO-DFT": {
+          "wepName": "Colmillos y Espolones de Dracocorcel"
+        },
+        "AEL-EDM-STO-SS": {
+          "wepName": "Báculo Pétreo"
+        }
+      },
+      "abilities": {
+        "AEL-EDM-STO-A-UPG": {
+          "abilityName": "Mejoras de Cantarroca",
+          "description": "Al elegir este agente para la batalla, elige hasta 2 reglas de Mejora de Cantarroca distintas (de las siguientes) y añádelas a su tarjeta de datos durante esta batalla.\n\n**Purificación de la Luna Pálida (1PA)**  \nPSÍQUICA. Elige 1 agente SEÑOR DRAGONERO EXODITA amigo visible para este agente. Elimina un efecto de reglas o cambio de atributos que tu oponente le haya aplicado (p. ej., ficha de veneno, -1 LPA, no se puede activar ni realizar acciones, etc.). Esto no le permite recuperar heridas perdidas, eliminar las reglas del pack de misiones ni ignorar los efectos de estar lesionado.  \nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo. Ten en cuenta que, al contrario que las demás mejoras de este agente, sí puede realizarla más de una vez por punto de inflexión.\n\n**Lamentos del Mundo (1PA)**  \nPSÍQUICA. Elige 1 agente enemigo visible para este agente. Resta 2\" al atributo Movimiento de ese agente y de cada uno de los otros agentes enemigos a 2\" o menos de él hasta el final de sus próximas activaciones respectivamente (esto no se acumula con estar lesionado). Los agentes MONTADO no se ven afectados. Tira 2D3 por separado por cada uno de esos agentes: inflige tanto daño a ese agente como la diferencia entre el resultado y su nuevo atributo Movimiento (esto tiene preferencia sobre los atributos que no cambian durante una acción). Los agentes MONTADO no se ven afectados.  \nEste agente no puede realizar esta acción si está en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión.\n\n**Ira de la Roca**  \nEste agente tiene esta arma a distancia:\n\n|**Nombre**|**ATQ**|**IMP**|**DAÑO**|\n|-----|:---:|:---:|:---:|\n|Ira de la roca|4|3+|4/3|\n|Reglas de armas|\n|Devastadora 2, Saturación, Ira de la roca\\*|\n\n\\*Ira de la roca: Si el blanco está en cobertura, esta arma tiene la regla de arma Letal 5+.\n\n**Sembrar las Semillas**  \nUna vez por punto de inflexión, durante la activación de este agente, antes o después de que realice una acción, puedes usar esta regla. Si lo haces, elige 1 marcador de objetivo que controle. Hasta que este agente quede incapacitado, hasta que uses esta regla de nuevo, o hasta que algún agente enemigo controle ese marcador (lo que ocurra antes), se considera que este agente disputa ese marcador con un LPA de 1 y lo controla a efectos de acciones de misión y condiciones de victoria (aunque no esté en la zona de control de este agente). Ten en cuenta que esto podría permitirle realizar una acción de misión que requeriría controlar ese marcador.\n\n**Viento Protector (1PA)**  \nPSÍQUICA. Elige 1 agente SEÑOR DRAGONERO EXODITA amigo visible para este agente. Hasta el inicio de la primera activación de este agente en el siguiente punto de inflexión, hasta que quede incapacitado o hasta que realice esta acción de nuevo (lo que ocurra primero), la VELOCIDAD de ese agente elegido es un nivel mayor (es decir, si tiene VELOCIDAD 3-, tendría VELOCIDAD 4+; si tiene VELOCIDAD 4+, tendría VELOCIDAD 7+).  \nEste agente no puede realizar esta acción si está en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+        }
+      },
+      "actions": {
+        "AEL-EDM-STO-ACT-SOR": {
+          "name": "Canción de Renovación",
+          "effects": [
+            "PSÍQUICA. Elige 1 agente SEÑOR DRAGONERO EXODITA amigo visible para este agente. Ese agente recupera hasta 2D3 heridas perdidas.",
+            "PSÍQUICA. Alternativamente, cada agente SEÑOR DRAGONERO EXODITA amigo puede recuperar hasta 1D3 heridas perdidas."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    },
+    "AEL-EDM-DRAK": {
+      "opTypeName": "Dracolita",
+      "weapons": {
+        "AEL-EDM-DRAK-FT": {
+          "wepName": "Colmillos y Espolones"
+        }
+      },
+      "abilities": {
+        "AEL-EDM-DRAK-A-PE": {
+          "abilityName": "Evasión Sobrenatural",
+          "description": "Siempre que este agente realice la acción de Cargar, Retroceder o Reposicionarse, si termina dicha acción a más de 2\" de su ubicación anterior, pasa a tener VELOCIDAD 4+. Si termina a más de 5\" de su ubicación anterior, en su lugar pasa a tener VELOCIDAD 7+. Al finalizar su activación, si no ha llegado a VELOCIDAD 4+ o 7+ durante dicha activación, pasa a tener VELOCIDAD 3-. Ten en cuenta que se trata de la distancia desde la ubicación anterior, no de la distancia recorrida (es decir, no puede simplemente regresar a su ubicación anterior y pasar a tener una alta VELOCIDAD)."
+        },
+        "AEL-EDM-DRAK-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción aparte de Cargar, Correr, Retroceder, Combatir, Ponerse en guardia, Recoger marcador, Colocar marcador, Reposicionarse y acciones de misión. Este agente no puede realizar las acciones de Recoger marcador, Colocar marcador, ni acciones de misión a menos que haya un agente LEYACECHADOR amigo que no esté incapacitado. Además, no puede usar armas que no estén en su tarjeta de datos."
+        }
+      }
+    }
+  }
+}
