@@ -5,6 +5,9 @@ tools/
 # Personal, machine-specific Claude Code settings (not shared)
 .claude/settings.local.json
 
+# Claude Code local worktrees (not shared)
+.claude/worktrees/
+
 # Generated Spanish flat locale — build artifacts produced by
 # scripts/build_es_locale.py. The tracked authoring sources are en/ and
 # es/overlays/; the flat es/ files are regenerated locally and not committed.
