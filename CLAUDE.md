@@ -21,8 +21,8 @@ en/                         # English data (canonical source of truth)
   rules_key.json
   rules_sequence.json
   rules_terrain.json
-es/                         # Generated Spanish flat JSON (for app/runtime compatibility)
-  overlays/                 # Spanish sparse overlays (authoring source) — mirrors en/ layout
+es/                         # Generated Spanish flat JSON — build artifacts, git-ignored (NOT committed)
+  overlays/                 # Spanish sparse overlays (authoring source, committed) — mirrors en/ layout
     teams/                  # One sparse overlay per translated team
     packs/
     ...                       # Same relative paths as en/ (e.g. rules_key.json, weapon_rules.json)
@@ -52,6 +52,7 @@ Do not leave new team JSON in `en/teams/` without the corresponding `killteam_id
    - `en/rules_key.json` → `es/overlays/rules_key.json` (and likewise for `weapon_rules.json`, `universal_actions.json`, `universal_equipment.json`, `rules_sequence.json`, `rules_terrain.json`, etc.)
 2. **Author** sparse translations in that overlay (keyed by IDs / structure the build script expects), then run:
    `python3 scripts/build_es_locale.py build`
+   The flat `es/` files this produces are **git-ignored build artifacts** — run `build`/`validate`/`verify` locally, but **commit only the `es/overlays/` sources** (never the generated flat `es/` files).
 3. If the `en/` change is **only** structural (IDs, stats, `references` to other rule ids, sequencing) and the overlay does not duplicate those fields, still **open the paired overlay** and confirm nothing is stale; update any affected Spanish strings.
 
 Translate user-facing strings such as `killteamName`, `description`, `composition`, `ployName`, `abilityName`, `eqName`, `wepName`, `profileName`, `optionName`, action `name`/`effects`/`conditions`, etc.
