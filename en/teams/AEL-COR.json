@@ -1134,7 +1134,9 @@
           "name": "Pistol Barrage",
           "description": null,
           "effects": [
-            "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order).",
+            "Perform 2 free shoot actions with this operative (this takes precedence over action restrictions). You must select its fusion pistol for one action and its shuriken pistol for the other (in any order)."
+          ],
+          "conditions": [
             "This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
           ]
         }
@@ -1277,7 +1279,9 @@
           "description": null,
           "effects": [
             "*PSYCHIC*",
-            "Select 2 Friendly CORSAIR VOIDSCARRED operatives visible to and within 5\" of this operative. Remove them both from the killzone and set them back up in each other's locations (in other words, swap their positions). If one of them performed a Charge, Fall Back, or Reposition option during this turning point and the other is ready, the other cannot perform any of those actions in its activation during this turning point.",
+            "Select 2 Friendly CORSAIR VOIDSCARRED operatives visible to and within 5\" of this operative. Remove them both from the killzone and set them back up in each other's locations (in other words, swap their positions). If one of them performed a Charge, Fall Back, or Reposition option during this turning point and the other is ready, the other cannot perform any of those actions in its activation during this turning point."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         },
@@ -1290,7 +1294,9 @@
           "description": null,
           "effects": [
             "*PSYCHIC*",
-            "Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage.",
+            "Select one Friendly CORSAIR VOIDSCARRED operative visible to and within 6\" of this operative.\r  Until the start of this operative's next activation, until it is incapacitated, or until it performs this action again (Whichever comes first), the first time an attack dice inflicts normal damage on that friendly operative, ignore that inflicted damage."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }

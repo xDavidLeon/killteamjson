@@ -28,7 +28,7 @@
       "ployName": "CAMUFLAJE FANTASMAL"
     },
     "TAU-SB-T-VRT": {
-      "description": "Usa este ardid de tiroteo cuando un agente enemigo termine una acción de Cargar dentro de la zona de control de un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**). Interrumpe esa acción para usar esta regla. Si lo haces, ese agente amigo puede realizar inmediatamente una acción libre de Retroceder, pero no puede mover más de 3\" durante ella. Después, ese agente enemigo puede realizar inmediatamente una acción libre de Reposicionarse usando el movimiento que le quede de la primera acción de Cargar, y puede hacerlo aunque haya realizado una acción que prohíba realizar la acción de Reposicionarse.",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo termine una acción de Cargar dentro de la zona de control de un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**). Interrumpe esa acción para usar esta regla. Si lo haces, ese agente amigo puede realizar inmediatamente una acción libre de Retroceder, pero no puede mover más de 3\" durante ella. Esta acción no puede ser impedida por las reglas de tu oponente (tiene prioridad sobre todas esas reglas). Después, ese agente enemigo puede realizar inmediatamente una acción libre de Reposicionarse usando el movimiento que le quede de la primera acción de Cargar, y puede hacerlo aunque haya realizado una acción que prohíba realizar la acción de Reposicionarse.",
       "ployName": "RETROPROPULSORES VECTORIZADOS"
     },
     "TAU-SB-T-EJP": {
@@ -43,7 +43,7 @@
   "equipments": {
     "TAU-SB-XM": {
       "eqName": "MULTIAPUNTADORES XV26",
-      "description": "Una vez por punto de inflexión, cuando un agente **EXOARMADURA XV26 SIGILO** amigo realice la acción de Disparar y elijas un cañón rotativo (barrido), puedes usar esta regla. Si lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 2\""
+      "description": "Una vez por punto de inflexión, cuando un agente **EXOARMADURA XV26 SIGILO** amigo realice la acción de Disparar y elijas un cañón rotativo (barrido), puedes usar esta regla. Si lo haces, elige una de las siguientes opciones:\n\n- Hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 2\".\n- Hasta el final de esa acción, esa arma tiene la regla de armas Ráfaga 3\", pero no puedes elegir más de un blanco secundario."
     },
     "TAU-SB-CNJ": {
       "eqName": "INTERFERIDORES DE REDES",
@@ -279,7 +279,7 @@
           "abilityName": "Lanzador de electrobengalas"
         },
         "TAU-SB-LOD-HB": {
-          "description": "Este agente porta tu marcador de baliza. Los agentes (salvo **DRON**) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está en la zona de aniquilación y a más de 6\" de tu zona de descenso, tira 1D6. Si está en el territorio de tu oponente, en lugar de eso tira 2D6, o 3D6 si está a 6\" o menos de la zona de descenso de tu oponente. Si alguno de esos dados saca 4+, ganas 1PM adicional.",
+          "description": "Este agente porta tu marcador de baliza. Los agentes (salvo **DRON**) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está colocado en la zona de aniquilación, tira 1D6 y suma 1 al resultado por cada marcador de objetivo que esté a 6\" o menos de tu marcador de baliza. Si el resultado es 5+, ganas 1PM.",
           "abilityName": "Baliza"
         }
       }

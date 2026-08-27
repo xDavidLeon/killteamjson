@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "January '26",
+  "version": "August '26",
   "classified": true,
   "season": "Tomb world",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_deathwatch-wngg7m6abd-uc8ksrsq97.pdf",
+  "file": "https://assets.warhammer-community.com/eng_deathwatch_online_rules-vn8chdq2c8-xfl54bekws.pdf",
   "killteamName": "Deathwatch",
   "description": "Deathwatch kill teams combat the xenos foes of the Imperium with adaptive expertise and specialist weaponry.  \n\nThey wield some of Humanity's most highly advanced weapons alongside more esoteric equipment. Besides their superhuman strength and speed, the Deathwatch bring to the battlefield their hatred of the xenos in all its forms.",
   "composition": "\nA DEATHWATCH Killteam is composed of 5 DEATHWATCH operatives selected from the following list:\n- WATCH SERGEANT\n- AEGIS\n- BLADEMASTER\n- BOMBARD\n- BREACHER\n- DEMOLISHER\n- DISRUPTOR\n- GUNNER\n- HEADTAKER\n- HORDE-SLAYER\n- MARKSMAN\n\nYour kill team can only include each operative on this list once, and can only include up to one GRAVIS operative.",
@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Mission Tactics",
-      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against or fighting against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
+      "description": "Select Conceal or Engage. Whenever a friendly DEATHWATCH operative is shooting against, fighting against, or retaliating against an enemy operative that has that order, that friendly operative's weapons have the Balanced weapon rule."
     },
     {
       "ployId": "IMP-DW-S-TLV",
@@ -51,7 +51,7 @@
       "ployType": "T",
       "seq": 5,
       "ployName": "Suffer Not The Alien",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against or fighting against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against, fighting against, or retaliating against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
     },
     {
       "ployId": "IMP-DW-T-AT",

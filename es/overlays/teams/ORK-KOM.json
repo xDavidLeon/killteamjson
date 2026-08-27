@@ -136,7 +136,7 @@
       },
       "abilities": {
         "ORK-KOM-GROT-A-SZ": {
-          "description": " Este agente no puede tener una orden de trabarse. Siempre que este agente esté tras cobertura, no puede ser elegido como blanco válido, teniendo esto prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos..",
+          "description": " Este agente no puede tener una orden de trabarse. Siempre que este agente esté tras cobertura, no puede ser elegido como blanco válido, teniendo esto prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos.",
           "abilityName": "Ezkurridizo"
         },
         "ORK-KOM-GROT-A-TS": {
@@ -148,10 +148,11 @@
         "ORK-KOM-GROT-GH": {
           "effects": [
             "Elige un punto visible en un elemento de terreno para este agente.",
-            ". Retira a este agente de la zona de aniquilación y despliégalo de nuevo a 1\" o menos en horizontal de ese punto, en una localización donde ser desplegado, fuera de la zona de control de todo agente enemigo y con el punto elegido visible para él.",
-            "Este agente no puede realizar la acción Operar portillo durante esta acción.",
-            "Esta acción se considera una acción de Reposicionarse.",
-            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, ni durante una activación en la que haya realizado una acción de Cargar o Retroceder (o viceversa)."
+            "Retira a este agente de la zona de aniquilación y despliégalo de nuevo a 1\" o menos en horizontal de ese punto, en una localización donde ser desplegado, fuera de la zona de control de todo agente enemigo y con el punto elegido visible para él.",
+            "Este agente no puede realizar la acción Operar portillo durante esta acción."
+          ],
+          "conditions": [
+            "Esta acción se considera una acción de Reposicionarse. Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, ni durante una activación en la que haya realizado una acción de Cargar o Retroceder (o viceversa)."
           ],
           "name": "GANCHO PA’ TREPAR"
         }

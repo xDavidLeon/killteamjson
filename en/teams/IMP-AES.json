@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-AES",
-  "version": "January '26",
+  "version": "June '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_exaction_squad-owtfhxa0gg-n6msfm6mk6.pdf",
+  "file": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_exaction_squad_online_rules-w6tqairoed-qhpndqu8fq.pdf",
   "killteamName": "Exaction Squad",
   "description": "It is the responsibility of the Adeptus Arbites to enforce Imperial law. Exaction Squads are formed from the most\nhighly skilled and experienced Arbitrators. They are tasked with hunting down and securing the most heinous of\ncriminals, returning them alive to face the full extent of the Emperor's justice.",
   "composition": "An EXACTION SQUAD KillTeam is composed of:\n\n- 1 EXACTION SQUAD PROCTOR-EXACTANT operative with one of the following options:\n  - Combat shotgun; repression baton\n  - Shotpistol; dominator maul & assault shield\n- 10 EXACTION SQUAD operatives selected from the following list:\n  - CASTIGATOR\n  - CHIRURGANT\n  - LEASHMASTER\n  - R-VR CYBER-MASTIFF\n  - MALOCATOR\n  - MARKSMAN\n  - REVELATUM\n  - SUBDUCTOR\n  - VIGILANT\n  - VOX-SIGNIFIER\n  - GUNNER with one of the following options:\n    - Grenade launcher; repression baton\n    - Heavy stubber; repression baton\n    - Webber; repression baton\n        \n\n  \n\nOther than GUNNER, SUBDUCTOR and VIGILANT operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two GUNNER operatives (each must have a different option) and up to four SUBDUCTOR operatives.",
@@ -862,7 +862,9 @@
           "name": "Veriscant",
           "description": null,
           "effects": [
-            "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Lethal 5+ and Severe weapon rules.",
+            "Select one enemy operative visible to this operative. Until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first),\r whenever a friendly EXACTION SQUAD operative is shooting against, fighting against or retaliating against that enemy operative, that friendly operative's weapons have the Lethal 5+ and Severe weapon rules."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }

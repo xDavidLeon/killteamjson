@@ -33,7 +33,7 @@
     "ACTION-BREACH": {
       "effects": [
         "Abre un punto de brecha cerrado cuyo punto de acceso esté en la zona de control del agente.",
-        "Un agente que tenga las palabras \"marcador de brecha\", \"granadero\" o \"mina\" en su tarjeta de datos, o que tenga un arma con la regla de armas Penetración 2 o Críticos de penetración 2 (salvo armas con la regla de armas Área o Ráfaga), puede realizar esta acción por 1 PA menos (hasta un mínimo de 1 PA), pero no puede hacerlo durante una activación/reacción en la que haya realizado la acción Cargar o Disparar (o viceversa).",
+        "Un agente que tenga las palabras \"marcador de brecha\", \"granadero\" o \"mina\" en su tarjeta de datos, o que tenga un arma con la regla de armas Penetración 2 o Críticos de penetración 2 (salvo armas con la regla de armas Área o Ráfaga), puede realizar esta acción por 1 PA menos (hasta un mínimo de 1 PA). No puede realizar esta acción por menos de 2 PA durante una activación/reacción en la que haya realizado la acción Cargar o Disparar (o viceversa).",
         "Tira 1D6 por separado por cada agente que se encuentre en el otro lado de un punto de acceso y tenga ese punto de acceso en su zona de control: con un 4+, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación e inflígele daño igual a la mitad del resultado del dado (redondeando al alza)."
       ],
       "conditions": [

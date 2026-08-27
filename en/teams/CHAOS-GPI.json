@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-GPI",
-  "version": "October '25",
+  "version": "August '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_gellerpox_infected-sqrxy2hexz-wnoxt5c43h.pdf",
+  "file": "https://assets.warhammer-community.com/eng_gellerpox_infected_online_rules-cchcqkm6eu-fsvtx5g2ca.pdf",
   "killteamName": "Gellerpox Infected",
   "description": "Corrupted by a gruesome techno-organic affliction, the Gellerpox Infected are nightmarish meldings of flesh,\nmachinery and rampant disease. Most of these hideous beings began as loyal servants of the God-Emperor. Those\norigins are long gone, however, wiped away by supernatural sickness and a compulsion to spread their infection\nacross the stars.",
   "composition": "Note that other than MUTOID VERMIN, you do not select your operatives from a list.  \n\nThis kill team's operatives are specified.  \n\nA GELLERPOX INFECTED killteam is composed of every GELLERPOX INFECTED operative in the following list:\n\n- 1 GELLERPOX INFECTED VULGRAR THRICE-CURSED\n- 1 GELLERPOX INFECTED BLOATSPAWN\n- 1 GELLERPOX INFECTED FLESHSCREAMER\n- 1 GELLERPOX INFECTED LUMBERGHAST\n- 4 GELLERPOX INFECTED GLITCHLING\n- 1 GELLERPOX INFECTED MUTANT with frag grenade and heavy axe\n- 2 GELLERPOX INFECTED MUTANT with frag grenade and improvised weapon\n\nIf you selected the Mutoid Vermin faction equipment:  \n\nSpecified number of GELLERPOX INFECTED operatives selected from the following list:\n\n- CURSEMITE\n- EYESTINGER SWARM\n- SLUDGE-GRUB\n",
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Rust Emanations",
-      "description": "Whenever a friendly GELLERPOX INFECTED NIGHTMARE HULK operative is fighting, your opponent cannot retain results of 3 as successes."
+      "description": "Whenever a friendly GELLERPOX INFECTED operative (excluding MUTOID VERMIN) is fighting or retaliating, your opponent cannot retain results of 3 as successes."
     },
     {
       "ployId": "CHAOS-GPI-T-BA",

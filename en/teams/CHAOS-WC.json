@@ -557,7 +557,9 @@
           "name": "Reconstitution Ritual",
           "description": null,
           "effects": [
-            "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative. That operative regains up to 2D3 lost wounds.",
+            "**PSYCHIC** Select one friendly WARPCOVEN operative visible to and within 6\" of this operative. That operative regains up to 2D3 lost wounds."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
           ]
         },
@@ -798,7 +800,9 @@
           "name": "Alight",
           "description": null,
           "effects": [
-            "**PSYCHIC** Select one enemy operative visible to this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r that enemy operative gains one of your Alight tokens (if it doesn't already have one).\r Whenever a friendly WARPCOVEN operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Alight tokens, that friendly operative's weapons have the Ceaseless weapon rule.",
+            "**PSYCHIC** Select one enemy operative visible to this operative.\r Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r that enemy operative gains one of your Alight tokens (if it doesn't already have one).\r Whenever a friendly WARPCOVEN operative is shooting against, fighting against or retaliating against an enemy operative that has one of your Alight tokens, that friendly operative's weapons have the Ceaseless weapon rule."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }

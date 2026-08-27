@@ -1,10 +1,10 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-FELL",
-  "version": "November '25",
+  "version": "August '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_fellgor_ravagers-ssbqiaazxu-15qwa6wxxn.pdf",
+  "file": "https://assets.warhammer-community.com/eng_fellgor_ravagers_online_rules-98ktzb7tza-d8lud7bdhh.pdf",
   "killteamName": "Fellgor Ravagers",
   "description": "Of all the mutant Beastmen in thrall to the Dark Gods, Fellgor Ravagers believe themselves the greatest and most powerful.\nThey stalk space hulks, underhives and warp-tainted ruins, using their keen senses to track unsuspecting prey through the darkness before striking and butchering their foes with savage glee.",
   "composition": "A FELLGOR RAVAGERS KillTeam is composed of:\n\n- 1 FELLGOR RAVAGER IRONHORN operative with one of the following options:\n  - Corrupted pistol; corrupted chainsword\n  - Plasma pistol; bludgeon\n- 9 FELLGOR RAVAGER operatives selected from the following list:\n  - DEATHKNELL\n  - FLUXBRAY\n  - GNARLSCAR\n  - GOREHORN\n  - HERD-GOAD\n  - MANGLER\n  - SHAMAN\n  - TOXHORN\n  - VANDAL\n  - WARRIOR with one of the following options:\n    - Autopistol; bludgeon\n    - Autopistol; cleaver\n\nOther than WARRIOR operatives, your kill team can only include each operative on this list once.",
@@ -112,7 +112,7 @@
     {
       "abilityId": "CHAOS-FELL-TA-FR",
       "abilityName": "Frenzy",
-      "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
+      "description": "Whenever a friendly FELLGOR RAVAGER operative that does not have one of your Frenzy tokens would be incapacitated during the battle, it is not incapacitated and it gains one of your Frenzy tokens.\nAll remaining attack dice are discarded (including yours if this operative is fighting or retaliating).\nIf it has a Conceal order, change it to Engage.  \n\nWhenever a friendly FELLGOR RAVAGER operative has one of your Frenzy tokens:\n\n- It's only incapacitated as detailed below.\n- It cannot have a Conceal order.\n- It's injured.\n- It cannot perform the Pick Up Marker, unique (excluding Sweeping Blow, see VANDAL) or mission actions (excluding Operate Hatch).\n- For the purpose of determining control of markers and areas of the killzone, treat its APL stat as 1. This takes precedence over any stat changes.\n\n\nA friendly FELLGOR RAVAGER operative that has one of your Frenzy tokens is incapacitated when one of the following is met:\n\n- Its activation or counteraction ends.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes with a critical success.\n- An enemy operative is fighting against or retaliating against it and your opponent strikes it for a second time with a normal success. Note this can be strikes from two different Fight actions.\n- An enemy operative is shooting it and Critical Dmg is inflicted on it.\n- An enemy operative is shooting it and Normal Dmg from two or more attack dice is inflicted on it.\n- The battle ends (resolve this before any victory conditions that resolve at the end of the battle).\n\n\nYour opponent treats a FELLGOR RAVAGER operative as being incapacitated (instead of when it would be incapacitated normally) when it gains one of your Frenzy\ntokens for the purposes of scoring VPs (e.g. kill op) and faction rules that require it to be incapacitated (e.g. HAND OF THE ARCHON Power From Pain, CHAOS CULT Mutation, etc.)."
     }
   ],
   "opTypes": [
@@ -349,8 +349,7 @@
           "name": "Gong Knell",
           "description": null,
           "effects": [
-            "Until the start of this operative's next activation or until this operative is incapacitated (whichever comes first), whenever an operative is shooting",
-            "this operative, improve this operative's Save stat by 1 and ignore the Piercing weapon rule."
+            "Until the start of this operative's next activation or until this operative is incapacitated (whichever comes first), whenever an operative is shooting this operative, improve this operative's Save stat by 1."
           ]
         }
       ]
@@ -686,7 +685,6 @@
           "name": "Incite Fury",
           "description": null,
           "effects": [
-            "**SUPPORT**",
             "Select one other friendly FELLGOR RAVAGER operative (excluding SHAMAN and IRONHORN) visible to and within 3\" of this operative.",
             "Until the end of that operative's next activation, add 1 to its APL stat."
           ],
@@ -721,7 +719,7 @@
               "seq": 0,
               "profileName": "",
               "ATK": "4",
-              "HIT": "3+",
+              "HIT": "4+",
               "DMG": "4/6",
               "WR": [
                 {
@@ -869,7 +867,9 @@
           "name": "Mantle Of Darkness",
           "description": null,
           "effects": [
-            "**PSYCHIC**\r Until the start of this operative's next activation or until it's incapacitated (whichever comes first), whenever a friendly FELLGOR RAVAGER operative is within 3\" of this operative,\r has a Conceal order and is in cover, that friendly operative cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".",
+            "**PSYCHIC**\r Until the start of this operative's next activation or until it's incapacitated (whichever comes first), whenever a friendly FELLGOR RAVAGER operative is within 3\" of this operative,\r has a Conceal order and is in cover, that friendly operative cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\"."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }

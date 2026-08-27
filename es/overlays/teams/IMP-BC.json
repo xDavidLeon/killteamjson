@@ -23,7 +23,7 @@
             "Continúa la activación de este operativo después de hacerlo. A los efectos del equipo universal Comms Device, el operativo desde el que se mide la distancia debe controlar esa marca."
           ],
           "conditions": [
-            "Este operativo puede realizar esta acción dos veces durante su activación, pero no puede realizarla mientras esté dentro del rango de control de un operativo enemigo."
+            "Este operativo puede realizar esta acción dos veces durante su activación, pero debe seleccionar un operativo amigo distinto cada vez y no puede realizarla mientras esté dentro del rango de control de un operativo enemigo."
           ]
         }
       }

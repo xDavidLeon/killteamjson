@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-INB",
-  "version": "January '26",
+  "version": "August '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_imperial_navy_breachers-rjrzfyyser-nk3cjyrrbd.pdf",
+  "file": "https://assets.warhammer-community.com/eng_imperial_navy_breachers_online_rules-n7skbopw8m-0bb7tzt799.pdf",
   "killteamName": "Imperial Navy Breachers",
   "description": "Counted amongst the complement of many Navis Imperialis vessels, Navy Breachers are elite Voidsmen who are outfitted, trained and endlessly drilled in boarding actions and void-based combat. Wielding a wide array of cutting gear, boarding shields and close-range weapons, they are well-suited to deadly combat in close confines.",
   "composition": "An IMPERIAL NAVY BREACHERS killteam is composed of:\n- 1 IMPERIAL NAVY BREACHER SERGEANT-AT-ARMS operative with the following:  \n  - Navis shotgun and Navis hatchet  \n  Or one option from each of the following:  \n  - Bolt pistol or heirloom autopistol\n  - Chainsword or power weapon\n- 10 IMPERIAL NAVY BREACHER operatives selected from the following list:\n  - ARMSMAN\n  - AXEJACK\n  - C.A.T. UNIT\n  - ENDURANT\n  - GHEISTSKULL\n  - GRENADIER\n  - GUNNER with Navis las-volley and gun butt\n  - GUNNER with meltagun and gun butt\n  - GUNNER with plasma gun and gun butt\n  - HATCHCUTTER\n  - SURVEYOR\n  - VOID-JAMMER\n\nOther than ARMSMAN operatives, your kill team can only include each operative on this list once. Your kill team can only include up to two GUNNER operatives.  \n\nYour kill team can only include a GHEISTSKULL operative if it also includes a VOID-JAMMER operative, and it can only include a C.A.T. UNIT operative if it also includes a SURVEYOR operative.  \n\nThese operatives count as half a selection each, meaning you can select both of them and it's treated as one selection in total.",
@@ -91,7 +91,7 @@
       "killteamId": "IMP-INB",
       "seq": 2,
       "eqName": "Slugs",
-      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats."
+      "description": "Up to three times per turning point, whenever a friendly IMPERIAL NAVY BREACHER operative is performing the Shoot action and you select a navis shotgun (long range), you can use this rule.\nIf you do, until the end of that action, improve the Hit stat of that weapon by 1 and add 1 to both of its Dmg stats, and that weapon has the Accurate 1 weapon rule."
     },
     {
       "eqId": "IMP-INB-CS",
@@ -622,10 +622,10 @@
           "name": "Boost",
           "description": null,
           "effects": [
-            "Until the end of the activation, add 6\" to this operative's Move stat."
+            "The next time this operative performs a Charge action during this activation, add 4\" to the distance it can move (instead of 2\")."
           ],
           "conditions": [
-            "This operative can only perform this action once per battle, and cannot perform it during the first turning point."
+            "This operative cannot perform this action more than once per battle, and cannot perform it during the first turning point."
           ]
         }
       ]

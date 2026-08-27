@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-INQ",
-  "version": "June '25",
+  "version": "August '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_17-12_inquisitorial_agents_online_rules-wesku2hgog-vuhhp5hqur.pdf",
+  "file": "https://assets.warhammer-community.com/eng_inquisitorial_agents_online_rules-wxk0cybqst-vpe1dopkcv.pdf",
   "killteamName": "Inquisitorial Agents",
   "description": "The reach of the Inquisition extends across the vastness of the Imperium. Inquisitorial kill teams bring together agents from all strata of Imperial society, from elite soldiers to zealous priests. Together, these disparate elements combine their skills to deadly effect, enabling them to root out and destroy heretics, aliens and the servants of Chaos.",
   "composition": "An INQUISITORIAL AGENTS killteam is composed of:\n\n- 1 INQUISITORIAL AGENT INTERROGATOR operative\n- 1 INQUISITORIAL AGENT TOME-SKULL operative\n- 5 INQUISITORIAL AGENT operatives selected from the following list:\n  - AUTOSAVANT\n  - QUESTKEEPER\n  - DEATH WORLD VETERAN\n  - ENLIGHTENER\n  - HEXORCIST\n  - MYSTIC\n  - PENAL LEGIONNAIRE\n  - PISTOLIER\n  - GUN SERVITOR with one of the following options:\n    - Heavy bolter; servo-claw\n    - Multi-melta; servo-claw\n    - Plasma cannon; servo-claw\n- 5 INQUISITORIAL AGENT operatives selected from the list above, or REQUISITIONED operatives from one group in the Inquisitorial Requisition faction rule (you cannot select REQUISITIONED operatives from different groups).\n  \nYour kill team can only include each operative on this list once, unless you're not including any REQUISITIONED operatives, in which case you can include up to two GUN SERVITOR operatives, but each one must have different options.  \n\nYour kill team (including any REQUISITIONED operatives) cannot include more than one weapon with the Piercing 2 weapon rule, and cannot include more than three weapons with the Piercing X (excluding Piercing Crits X) weapon rule combined.",
@@ -192,7 +192,7 @@
           "abilityId": "IMP-INQ-INQ24-INT-A-IT",
           "opTypeId": "IMP-INQ-INQ24-INT",
           "abilityName": "Inquisitorial Tomes",
-          "description": "STRATEGIC GAMBIT and/or when this operative is activated. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they can be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons.\r "
+          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they cannot be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of friendly operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons.\r "
         }
       ]
     },
@@ -889,9 +889,11 @@
           "AP": 1,
           "name": "Scry",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**PSYCHIC**\r Select one friendly INQUISITORIAL AGENT operative within 6\" of this operative, then select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\r \r - **Guidance:** PSYCHIC. Whenever the selected operative is shooting, fighting or retaliating, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r - **Protection:** PSYCHIC. Whenever an operative is shooting the selected operative, in the Roll Defence Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead."
+          ],
           "conditions": [
-            "**PSYCHIC**\r Select one friendly INQUISITORIAL AGENT operative within 6\" of this operative, then select one of the following effects to last until the start of this operative's next activation, until it's incapacitated or until it performs this action again (whichever comes first):\r \r - **Guidance:** PSYCHIC. Whenever the selected operative is shooting, fighting or retaliating, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r - **Protection:** PSYCHIC. Whenever an operative is shooting the selected operative, in the Roll Defence Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead.\r \r This operative cannot perform this action while within control range of an enemy operative."
+            "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }
       ]
@@ -1105,7 +1107,9 @@
           "name": "Pistol Barrage",
           "description": null,
           "effects": [
-            "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select a profile of its scoped plasma pistol for one action and its suppressed autopistol for the other (in any order).",
+            "Perform two free Shoot actions with this operative (this takes precedence over action restrictions). You must select a profile of its scoped plasma pistol for one action and its suppressed autopistol for the other (in any order)."
+          ],
+          "conditions": [
             "This operative cannot perform this action while it has a Conceal order, or during an activation in which it performed the Shoot action (or vice versa)."
           ]
         }

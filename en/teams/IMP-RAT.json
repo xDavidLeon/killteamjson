@@ -492,9 +492,11 @@
           "AP": 1,
           "name": "Spot",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**SUPPORT**\r Select one enemy operative visible to this operative. Until the end of the Turning Point, whenever a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one enemy operative visible to this operative. Until the end of the Turning Point, whenever a friendly RATLING operative within 3\" of this operative is shooting that enemy operative, you can use this effect.\r If you do:\r \r - That friendly operative's ranged weapons have the Seek Light weapon rule.\r - That enemy operative is not Obscured.\r \r This operative cannot perform this action while within Control Range of an enemy operative."
+            "This operative cannot perform this action while within Control Range of an enemy operative."
           ]
         }
       ]

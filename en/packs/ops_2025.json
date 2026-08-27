@@ -58,7 +58,7 @@
       "actions": [
         "ACTION-TAC-2025-CLEAR"
       ],
-      "victoryPoints": "At the end of each turning point after the first, if the center or your opponent's objective marker is cleared and enemy operatives do not contest that marker, you score 1VP. If that marker is also swept, you score 2VP instead. If friendly operatives control an objective marker that is swept, you score 1 VP."
+      "victoryPoints": "At the end of each turning point after the first, if the centre or your opponent's objective marker is cleared and enemy operatives do not contest that marker, you score 1VP. If that marker is also swept, you score 2VP instead. If friendly operatives control an objective marker that is swept, you score 1VP.\nYou cannot score more than 2VP from this op per turning point."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
@@ -68,8 +68,8 @@
       ],
       "title": "Dominate",
       "archetype": "Seek & Destroy",
-      "reveal": "The first time an enemy operative is incapacitated by a friendly operative or two of your Dominate tokens if that enemy operative had a Wounds stat of 12 or more.",
-      "additionalRules": "Each time a friendly operative incapacitates an enemy operative, that friendly operative gains one of your Dominate tokens.",
+      "reveal": "The first time an enemy operative is incapacitated by a friendly operative.",
+      "additionalRules": "Each time a friendly operative incapacitates an enemy operative, that friendly operative gains one of your Dominate tokens or two of your Dominate tokens if that enemy operative had a Wounds stat of 12 or more.",
       "actions": [],
       "victoryPoints": "At the end of the third and fourth turning point, you can remove Dominate tokens from friendly operatives that are in the killzone and aren't incapacitated. For each you remove, you score 1VP.\nYou cannot score more than 3VP from this op per turning point."
     },

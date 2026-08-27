@@ -8,19 +8,19 @@
   },
   "ploys": {
     "IMP-WS-S-CBTS": {
-      "description": "Siempre que un agente dispare a un agente EXPLORADOR LOBO amigo en tu TORMENTA, puedes repetir uno de tus dados de defensa.",
+      "description": "Siempre que un agente dispare a un agente EXPLORADOR LOBO amigo totalmente en tu TORMENTA, puedes repetir uno de tus dados de defensa.",
       "ployName": "OCULTOS EN LA TORMENTA"
     },
     "IMP-WS-S-TW": {
-      "description": "Siempre que un agente EXPLORADOR LOBO amigo ataque o contraataque, si está en tu TORMENTA o estaba en tu TORMENTA al inicio de la activación, sus armas de combate tienen la regla de armas Equilibrada.",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo ataque o contraataque, si está totalmente en tu TORMENTA o estaba totalmente en tu TORMENTA al inicio de la activación, sus armas de combate tienen la regla de armas Equilibrada.",
       "ployName": "IRA TEMPESTUOSA"
     },
     "IMP-WS-S-SB": {
-      "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté en tu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3).",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo esté combatiendo contra un enemigo que esté totalmente en tu TORMENTA, resta 1 al atributo Ataque de las armas de combate de ese operativo enemigo (hasta un mínimo de 3).",
       "ployName": "MORDISCO DE LA TORMENTA"
     },
     "IMP-WS-S-SF": {
-      "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado, puedes infligir 1D3+1 daños al agente enemigo en esa secuencia.",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado y sigue en la zona de control del agente enemigo de esa secuencia, puedes infligir 1D3+1 daños a ese agente enemigo.",
       "ployName": "LUCHADORES SALVAJES"
     },
     "IMP-WS-T-AS": {
@@ -60,11 +60,11 @@
   },
   "teamAbilities": {
     "IMP-WS-TA-ES": {
-      "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté a 6\" o menos horizontalmente de tu marcador de tormenta, se considera en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si termina esa acción en tu TORMENTA.",
+      "description": "GAMBITO ESTRATÉGICO. Retira tu marcador de tormenta de la zona de aniquilación (si hay alguno), y colócalo en la zona de aniquilación. Siempre que un agente esté totalmente a 6\" o menos horizontalmente de tu marcador de tormenta, se considera totalmente en tu TORMENTA.\n\nTodo agente EXPLORADOR LOBO amigo puede realizar la acción de Cargar mientras tiene una orden de ocultarse si termina esa acción totalmente en tu TORMENTA.",
       "abilityName": "TORMENTA ELEMENTAL"
     },
     "IMP-WS-TA-HA": {
-      "description": "Durante la activación de cada agente EXPLORADOR LOBO amigo, este puede realizar dos acciones de Disparar o dos acciones de Combatir. Si realiza dos acciones de Disparar:\n- Se debe gastar 1PA adicional para la segunda acción si en ambas se usa un rifle de plasma o una pistola de plasma.\n- No puedes elegir dos armas a distancia PSÍQUICA.\n\nTodo agente EXPLORADOR LOBO amigo puede reaccionar sin importar su orden. Siempre que lo haga en tu TORMENTA, puedes cambiar primero su orden, o cambiar su orden en lugar de realizar una acción (en este caso, se sigue considerando que ha reaccionado en este punto de inflexión).",
+      "description": "Durante la activación de cada agente EXPLORADOR LOBO amigo, este puede realizar dos acciones de Disparar o dos acciones de Combatir. Si realiza dos acciones de Disparar:\n- Se debe gastar 1PA adicional para la segunda acción si en ambas se usa un rifle de plasma o una pistola de plasma.\n- No puedes elegir dos armas a distancia PSÍQUICA.\n\nTodo agente EXPLORADOR LOBO amigo puede reaccionar sin importar su orden. Siempre que lo haga totalmente en tu TORMENTA, puedes cambiar primero su orden, o cambiar su orden en lugar de realizar una acción (en este caso, se sigue considerando que ha reaccionado en este punto de inflexión).",
       "abilityName": "ASTARTES A LA CAZA"
     }
   },
@@ -114,7 +114,7 @@
           "abilityName": "Cirugía espiritual"
         },
         "IMP-WS-FB-HB": {
-          "description": "Elige un agente EXPLORADOR LOBO amigo en la zona de control de este agente. Ese agente recupera hasta 1D3+3 heridas perdidas. Este agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo.",
+          "description": "Elige un agente EXPLORADOR LOBO amigo en la zona de control de este agente. Ese agente recupera hasta 1D3+3 heridas perdidas. Este agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo, ni más de una vez por punto de inflexión.",
           "abilityName": "BÁLSAMOS CURATIVOS"
         }
       }
@@ -131,7 +131,7 @@
       },
       "abilities": {
         "IMP-WS-FE-SVE": {
-          "description": " Siempre que este agente esté en tu TORMENTA:\n- Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, Reglamento básico de Kill Team).\n- Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse, pero, si lo hace, no puede realizar más de una acción de Disparar durante el resto del punto de inflexión (p. ej. no puede Disparar durante la interrupción y durante la reacción).",
+          "description": " Siempre que este agente esté totalmente en tu TORMENTA:\n- Puede realizar la acción de Ponerse en guardia independientemente de la zona de aniquilación (ver reglas de combate cerrado, Reglamento básico de Kill Team).\n- Puede realizar la acción de Ponerse en guardia mientras tiene una orden de ocultarse, pero, si lo hace, no puede realizar más de una acción de Disparar durante el resto del punto de inflexión (p. ej. no puede Disparar durante la interrupción y durante la reacción).",
           "abilityName": "Tormenta ejecutora"
         },
         "IMP-WS-FE-HS": {
@@ -160,7 +160,7 @@
       },
       "abilities": {
         "IMP-WS-GNR-TF": {
-          "description": "Siempre que este agente esté en tu TORMENTA:\n- Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora\n- Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento.",
+          "description": "Siempre que este agente esté totalmente en tu TORMENTA:\n- Todos los perfiles de su rifle de plasma tienen la regla de armas Castigadora\n- Su rifle de plasma (sobrecarga) no tiene la regla de armas Sobrecalentamiento.",
           "abilityName": "Furia de la tempestad"
         }
       }
@@ -185,7 +185,7 @@
       },
       "abilities": {
         "IMP-WS-HNT-FT": {
-          "description": " Siempre que este agente esté en tu TORMENTA, sus armas tienen la regla de armas Severa.",
+          "description": " Siempre que este agente esté totalmente en tu TORMENTA, sus armas tienen la regla de armas Severa.",
           "abilityName": "Temperamento fiero"
         }
       }
@@ -208,11 +208,11 @@
       },
       "abilities": {
         "IMP-WS-RPS-CTR": {
-          "description": " Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Por cada 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de mando dos veces por 0PM.",
+          "description": " Tras elegir este agente, antes de la batalla, tira tres D6 y déjalos a un lado. Por cada 1-4, puedes usar el ardid de tiroteo Repetición de mando por 0PM una vez durante el punto de inflexión que coincida con el resultado. Si uno o más resultados son 5-6, ganas 1PM. Por ejemplo, si obtuviste 2, 2, y 5, ganas 1PM y durante el segundo punto de inflexión podrás usar Repetición de mando dos veces por 0PM.",
           "abilityName": "Lanzar las runas"
         },
         "IMP-WS-RPS-CTS": {
-          "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo.",
+          "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté totalmente en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo.",
           "abilityName": "LLAMAR A LA TORMENTA"
         }
       }

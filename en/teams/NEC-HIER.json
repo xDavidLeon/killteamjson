@@ -1,10 +1,10 @@
 {
   "factionId": "NEC",
   "killteamId": "NEC-HIER",
-  "version": "April '26",
+  "version": "August '26",
   "classified": true,
   "season": "Gallowdark",
-  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_hierotek_circle-o4ojjsfngr-t8uuy32lcb.pdf",
+  "file": "https://assets.warhammer-community.com/eng_hierotek_circle_online_rules-df98wqycag-bek3q27dqk.pdf",
   "killteamName": "Hierotek Circle",
   "description": "Led by ambitious and devious Crypteks, Hierotek Circles employ Necron soldiery and unique Canoptek constructs\nto further the rise of their own dynasties. They achieve this by learning of their lords' enemies and undermining the\npower of these rivals through artifice, sabotage, theft and murder.",
   "composition": "A HIEROTEK CIRCLE KillTeam is composed of:\n\n- 1 HIEROTEK CIRCLE operative selected from the following list:\n  - CHRONOMANCER operative with one of the following options:\n    - Aeonstave\n    - Entropic lance\n  - PSYCHOMANCER\n  - TECHNOMANCER\n- 1 PLASMACYTE ACCELERATOR operative\n- 1 PLASMACYTE REANIMATOR operative\n- 5 HIEROTEK CIRCLE operatives selected from the following list:\n  - APPRENTEK\n  - DEATHMARK\n  - DESPOTEK with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet    \n  - GUARDIAN with one of the following options:\n    - Gauss blaster; bayonet\n    - Tesla carbine; bayonet\n        \nOther than DEATHMARK and GUARDIAN operatives, your kill team can only include each operative on this list once.",
@@ -84,7 +84,7 @@
       "killteamId": "NEC-HIER",
       "seq": 1,
       "eqName": "Magnification Conduits",
-      "description": "Once per turning point, when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative is performing the Shoot action, you can use this rule.\nIf you do, select one other friendly HIEROTEK CIRCLE operative (excluding PLASMACYTE) that has an Engage order and is visible to that friendly operative.\nUntil the end of that action, that other friendly operative can be treated as the active operative for the Magnify weapon rule."
+      "description": "Once per turning point, when a friendly HIEROTEK CIRCLE APPRENTEK or HIEROTEK CIRCLE CRYPTEK operative is performing the Shoot action, you can use this rule.\nIf you do, select one other friendly HIEROTEK CIRCLE operative (excluding PLASMACYTE) that has an Engage order, isn't within control range of enemy operatives and is visible to that friendly operative.\nUntil the end of that action, that other friendly operative can be treated as the active operative for the Magnify weapon rule."
     },
     {
       "eqId": "NEC-HIER-PS",
@@ -112,7 +112,7 @@
     {
       "abilityId": "NEC-HIER-TA-LIME",
       "abilityName": "Living Metal",
-      "description": "In the Ready step of each Strategy phase, after resolving all other rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains 1D3+1 lost wounds (roll separately for each)."
+      "description": "In the Ready step of each Strategy phase, before resolving all other faction rules in this step (e.g. Reanimation Protocols faction rule), each friendly HIEROTEK CIRCLE operative regains up to 1D3+1 lost wounds (roll separately for each)."
     },
     {
       "abilityId": "NEC-HIER-TA-REPR",
@@ -272,7 +272,9 @@
           "name": "Countertemporal Nanomine",
           "description": null,
           "effects": [
-            "Place your Countertemporal Nanomine marker visible to this operative, or on Vantage terrain of a terrain feature that is visible to this operative.\r Whenever an enemy operative is within 4\" of your Countertemporal Nanomine marker, subtract 2\" from its Move stat.\r When this operative is next activated, is incapacitated or this action is performed again by a friendly operative (whichever comes first), remove that marker.",
+            "Place your Countertemporal Nanomine marker visible to and within 8\" of this operative, or within 8\" of this operative and on Vantage terrain of a terrain feature that is visible to this operative.\r Whenever an enemy operative is within 4\" of your Countertemporal Nanomine marker, subtract 2\" from its Move stat.\r When this operative is next activated, is incapacitated or this action is performed again by a friendly operative (whichever comes first), remove that marker."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         },
@@ -283,9 +285,11 @@
           "AP": 1,
           "name": "Interstitial Command",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         },
         {
@@ -295,9 +299,11 @@
           "AP": 1,
           "name": "Timesplinter",
           "description": null,
-          "effects": [],
+          "effects": [
+            "Select one other expended friendly HIEROTEK CIRCLE operative visible to and within 5\" of this operative.\r Remove it from the killzone and set it back up visible to and within 5\" horizontally of this operative, in a location it can be placed.\r Note that a Comms Device from universal equipment only affects the first distance of this rule."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one expended friendly HIEROTEK CIRCLE operative visible to and within 5\" of this operative.\r Remove it from the killzone and set it back up visible to and within 5\" of this operative, measuring the horizontal distance only, in a location it can be placed.\r Each friendly operative can only be selected for this rule once per turning point. Note that a Comms device from universal equipment only affects the first distance of this rule.  \r \r This operative cannot perform this action while within control range of an enemy operative, during the first turning point, or if a friendly operative has already performed this action during this turning point."
+            "This operative cannot perform this action while within control range of an enemy operative, during the first turning point, or if a friendly operative has already performed this action during this turning point."
           ]
         }
       ]
@@ -403,7 +409,9 @@
           "name": "Nightmare Shroud",
           "description": null,
           "effects": [
-            "Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r whenever an enemy operative within 4\" of this operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice and cannot retain attack dice results of less than 6 as critical successes (e.g. as a results of the Lethal, Rending, or Severe weapon rules).",
+            "Until the start of this operative's next activation, until it is incapacitated or until this action is performed again by a friendly operative (whichever comes first),\r whenever an enemy operative within 4\" of this operative is shooting, fighting or retaliating, your opponent cannot re-roll their attack dice and cannot retain attack dice results of less than 6 as critical successes (e.g. as a results of the Lethal, Rending, or Severe weapon rules)."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         },
@@ -414,9 +422,11 @@
           "AP": 1,
           "name": "Interstitial Command",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         },
         {
@@ -516,7 +526,9 @@
             "Rending",
             "Saturate",
             "Severe",
-            "Note that if you select a staff of light or arcane conduit, you only select the additional weapon rules for either the ranged or melee profile of that weapon.",
+            "Note that if you select a staff of light or arcane conduit, you only select the additional weapon rules for either the ranged or melee profile of that weapon."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         },
@@ -528,7 +540,9 @@
           "name": "Canoptek Repair",
           "description": null,
           "effects": [
-            "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds.",
+            "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
           ]
         },
@@ -556,9 +570,11 @@
           "AP": 1,
           "name": "Interstitial Command",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative, or within 6\" of a friendly DESPOTEK operative that is visible to this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         }
       ]
@@ -993,9 +1009,11 @@
           "AP": 1,
           "name": "Interstitial Command",
           "description": null,
-          "effects": [],
+          "effects": [
+            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point."
+          ],
           "conditions": [
-            "**SUPPORT**\r Select one other friendly HIEROTEK CIRCLE operative (excluding APPRENTEK and CRYPTEK) visible to and within 6\" of this operative.\r That selected operative can immediately perform a 1AP action for free (excluding Accelerate); it cannot move or be removed and set up more than 2\" during that action, perform an action it has already performed during this turning point,\r or perform that action again during this turning point.  \r \r This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
+            "This operative cannot perform this action while within control range of an enemy operative, or while counteracting."
           ]
         }
       ]

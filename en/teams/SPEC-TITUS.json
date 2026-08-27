@@ -85,7 +85,9 @@
           "name": "Righteous Fury",
           "description": null,
           "effects": [
-            "Player operatives within 6\" of this operative regain up to D3+3 lost wounds (roll separately for each), then remove all Mortal Wound tokens from those operatives.",
+            "Player operatives within 6\" of this operative regain up to D3+3 lost wounds (roll separately for each), then remove all Mortal Wound tokens from those operatives."
+          ],
+          "conditions": [
             "This operative cannot perform this action more than once per battle."
           ]
         }
@@ -158,7 +160,9 @@
           "name": "Battle Cry",
           "description": null,
           "effects": [
-            "Inflict D3+3 damage on each enemy operative within 3\" of this operative (roll separately for each).",
+            "Inflict D3+3 damage on each enemy operative within 3\" of this operative (roll separately for each)."
+          ],
+          "conditions": [
             "This operative cannot perform this action more than once per battle."
           ]
         }
@@ -231,7 +235,9 @@
           "name": "Auspex Scan",
           "description": null,
           "effects": [
-            "Until the end of this operative's next activation, whenever a player operative is shooting, fighting or retaliating, add 1 to the Critical Dmg stat of its weapons, and its successes equal to or greater than 5 are critical successes.",
+            "Until the end of this operative's next activation, whenever a player operative is shooting, fighting or retaliating, add 1 to the Critical Dmg stat of its weapons, and its successes equal to or greater than 5 are critical successes."
+          ],
+          "conditions": [
             "This operative cannot perform this action more than once per battle."
           ]
         }

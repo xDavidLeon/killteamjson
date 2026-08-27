@@ -16,7 +16,7 @@
       "ployName": "DESAPARICIÓN SIBILINA"
     },
     "TYR-RAV-S-WCE": {
-      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo:\n\n-  Si ese agente amigo ha realizado la acción **Excavar** durante ese punto de inflexión, puedes repetir la tirada de uno de tus dados de defensa\n-  Si ese agente amigo está en tu **TÚNEL**, puedes repetir la tirada de cualquiera de tus dados de defensa.\n",
+      "description": "Siempre que un agente dispare contra un agente **MÁNTIFEX** amigo:\n\n-  Si ese agente amigo ha realizado la acción **Excavar** durante ese punto de inflexión, puedes repetir la tirada de uno de tus dados de defensa\n-  Si ese agente amigo está en tu **TÚNEL**, puedes repetir la tirada de cualesquiera de tus dados de defensa que tengan un mismo resultado.\n",
       "ployName": "EMERGENCIA ENTRELAZADA"
     },
     "TYR-RAV-S-DFB": {
@@ -120,7 +120,7 @@
       "actions": {
         "TYR-RAV-FTL-TL": {
           "effects": [
-            "- Elige un agente enemigo a 2\" o menos de este agente. Como alternativa, si este agente se encuentra bajo tierra, elige un agente enemigo en tu TÚNEL. Inflígele a ese agente enemigo 1D3+2 daños y ese agente gana dos de tus fichas de Veneno (si no tenía ya una).",
+            "- Elige un agente enemigo visible para este agente y a 2\" o menos de él. Si hay agentes enemigos en la zona de control de este agente, no puedes elegir uno que no lo esté. Como alternativa, si este agente se encuentra bajo tierra, elige un agente enemigo en tu TÚNEL. Inflígele a ese agente enemigo 1D3+2 daños y ese agente gana una de tus fichas de Veneno (si no tenía ya una).",
             "- Este agente puede realizar esta acción bajo tierra (esto tiene prioridad sobre las reglas de Excavar normales)."
           ],
           "name": "EMBESTIDA TÓXICA"

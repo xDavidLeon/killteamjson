@@ -135,7 +135,7 @@
     {
       "id": "WR-UNIV-TORRENT",
       "name": "Torrent",
-      "description": "Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2\". Shoot with this weapon against all of them in an order of your choice (roll each sequence separately).",
+      "description": "Select a valid target as normal as the primary target, then select any number of other valid targets within x of the first valid target as secondary targets, e.g., Torrent 2\". Shoot with this weapon against all of them in an order of your choice (roll each sequence separately). Note that Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torrent weapon rule for all other rules purposes, e.g. the Condensed Stronghold rule.",
       "team": null
     },
     {

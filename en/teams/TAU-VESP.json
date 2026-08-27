@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Aerial Agility",
-      "description": "Whenever an operative is shooting a friendly VESPID STINGWING operative while counteracting or interrupting, or during an activation in which that shooting operative moved or was setup, roll 1D6 whenever a normal sucess would inflict damage.\nOn a 5+, ignore that inflicted damage. A maximum of one Attack Die can be ignored per shooting sequence."
+      "description": "Whenever an operative is shooting a friendly VESPID STINGWING operative while counteracting or interrupting, or during an activation in which that shooting operative moved or was set up, roll one D6 whenever an attack dice would inflict Normal Dmg: on a 5+, ignore that inflicted damage.\nYou cannot ignore more than one attack dice per Shoot action sequence this way."
     },
     {
       "ployId": "TAU-VESP-S-AP",
@@ -250,7 +250,9 @@
           "name": "Aerial Guidance",
           "description": null,
           "effects": [
-            "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative.",
+            "**SUPPORT:** Until the start of this operative's next activation, whenever another friendly VESPID STINGWING operative within 6\" of this operative is shooting an enemy operative Visible To this operative, that friendly operative's ranged weapons have the Lethal 5+ and Saturate weapon rules. This has no effect while this operative is within control range of an enemy operative."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }

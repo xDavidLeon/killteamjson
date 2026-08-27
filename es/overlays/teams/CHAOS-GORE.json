@@ -58,7 +58,7 @@
     },
     "CHAOS-GORE-WC": {
       "eqName": "CADENAS DE MUÑECA",
-      "description": "Una vez por punto de inflexión, cuando un agente SIEMBRASANGRE amigo realice la acción de Disparar y selecciones un arma a distancia, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción las siguientes armas de combate se tratan como armas a distancia con la regla de armas Alcance 2\": cuchilla sierra, archa sierra, gran hacha sierra (ignora su regla de armas Brutal), picos destripadores.",
+      "description": "Una vez por punto de inflexión, cuando un agente SIEMBRASANGRE amigo realice la acción de Disparar y selecciones un arma a distancia, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción las siguientes armas de combate se tratan como armas a distancia con la regla de armas Alcance 2\": cuchilla sierra, archa sierra, gran hacha sierra (ignora su regla de armas Brutal), picos destripadores. Si esa arma de combate tiene las reglas de armas Equilibrada o Implacable como resultado de la estratagema de estrategia VIOLENCIA MEJORADA, tiene esas reglas de armas mientras sea un arma a distancia.",
       "effects": ""
     }
   },
@@ -110,7 +110,7 @@
       },
       "abilities": {
         "CHAOS-GORE-ASP-A-OB": {
-          "description": "1 vez durante cada una de las activaciones de este agente, cuando este agente termine una acción de Combatir, si ya no tiene agentes enemigos en su zona de control, puedes usar esta regla. Si lo haces, si ya no se encuentra en la zona de control de agentes enemigos, puede realizar inmediatamente una acción libre de Cargar (incluso aunque ya haya realizado la acción de Cargar durante esa activación),\npero no puede moverse más de 2\" durante esa acción. Hacerlo no le impide realizar una acción de Cargar, Correr o Reposicionarse más tarde durante esa activación.",
+          "description": "Una vez por punto de inflexión, cuando un agente con esta regla termine una acción de Combatir, si ya no se encuentra en la zona de control de agentes enemigos, puedes usar esta regla. Si lo haces, puede realizar inmediatamente una acción libre de Cargar (incluso aunque ya haya realizado la acción de Cargar durante esa activación),\npero no puede moverse más de 2\" durante esa acción. Hacerlo no le impide realizar una acción de Cargar, Correr o Reposicionarse más tarde durante esa activación.",
           "abilityName": "Ansia de sangre obsesiva"
         }
       }
@@ -148,6 +148,17 @@
         },
         "CHAOS-GORE-IMP-FSM": {
           "wepName": "Clavacarnes"
+        }
+      },
+      "actions": {
+        "CHAOS-GORE-IMP-GF": {
+          "effects": [
+            "Disminuye el DEPÓSITO SANGRIENTO de este agente. Hasta que este agente use cualquier perfil de su clavacarnes, todos sus perfiles tienen la regla de armas Severa."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción si se encuentra en la zona de control de un agente enemigo, o si su DEPÓSITO SANGRIENTO está vacío."
+          ],
+          "name": "COMBUSTIBLE SANGRIENTO"
         }
       }
     },

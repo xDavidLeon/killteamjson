@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-SANC",
-  "version": "November '25",
+  "version": "February '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_sanctifiers_online_rules-m54vhjfy2h-d8jqj038iw.pdf",
+  "file": "https://assets.warhammer-community.com/eng_25-02_kt_teamrules_sanctifiers-3vpsecfbfe-vclbyfaed7.pdf",
   "killteamName": "Sanctifiers",
   "description": "As the Great Gun reloads and its hallowed ammunition is transported across Hive Fissilicus, great processions of pilgrims and preachers accompany these holy relics to their final assembly points. They are far from a peaceful congregation, and any who seek to disrupt the great Day of Firing will find themselves lit by the flames and faith wielded by the Sanctifiers.",
   "composition": "A SANCTIFIER kill team is composed of:\n\n- 1 SANCTIFIER CONFESSOR\n- 1 SANCTIFIER CHERUB\n- 9 SANCTIFIER operatives selected from the following list:\n  - CONFLAGRATOR\n  - DEATH CULT ASSASSIN\n  - DRILL ABBOT\n  - MIRACULIST\n  - MISSIONARY with one of the following options:\n    - Ministorum flamer; brazier of holy fire\n    - Ministorum flamer; gun butt; holy relic\n  - MISSIONARY with one of the following options:\n    - Meltagun; chainsword; holy relic\n    - Plasma gun; chainsword; brazier of holy fire\n  - PERSECUTOR\n  - PREACHER\n  - RELIQUANT\n  - SALVATIONIST\n\nOther than PREACHER operatives, your kill team can only include each operative above once.  \n\nYour kill team can only include up to four PREACHER operatives.  \n\nYou cannot select an option that includes a brazier of holy fire more than once per battle.",
@@ -211,7 +211,7 @@
           "abilityId": "IMP-SANC-CRB-A-CRB",
           "opTypeId": "IMP-SANC-CRB",
           "abilityName": "Cherub",
-          "description": "\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Vantage terrain).\n- This operative cannot use any weapons that aren't on its datacard, or perform unique actions other than Incentivise.\n"
+          "description": "\n- Whenever determining control of an objective marker, treat this operative's APL stat as 1 lower. Note this isn't a change to its APL stat, so any changes are cumulative with this.\n- Whenever this operative has a Conceal order and is in cover, it cannot be selected as a valid target, taking precedence over all other rules (e.g. Seek, Vantage terrain) except being within 2\".\n- This operative cannot use any weapons that aren't on its datacard, or perform unique actions other than Incentivise.\n"
         },
         {
           "abilityId": "IMP-SANC-CRB-A-FLY",
@@ -230,7 +230,9 @@
           "description": null,
           "effects": [
             "SUPPORT. Select one other friendly SANCTIFIER operative (excluding CONFESSOR, DEATH CULT ASSASSIN, MIRACULIST and ORATOR) visible to and within 2\" of this operative.",
-            "Until the end of that operative's next activation, add 1 to its APL stat.",
+            "Until the end of that operative's next activation, add 1 to its APL stat."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }
@@ -416,7 +418,9 @@
           "name": "Trained Assassin",
           "description": null,
           "effects": [
-            "Change this operative's order.",
+            "Change this operative's order."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }
@@ -1018,7 +1022,7 @@
           "abilityId": "IMP-SANC-PRC-A-DTF",
           "opTypeId": "IMP-SANC-PRC",
           "abilityName": "Defend The Faith",
-          "description": "Whenever this operative contests an objective marker, it's benefitting from the SERMON."
+          "description": "Whenever this operative controls an objective marker, it's benefitting from the SERMON."
         }
       ]
     },
@@ -1152,7 +1156,9 @@
           "name": "Medikit",
           "description": null,
           "effects": [
-            "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds.",
+            "Select one friendly SANCTIFIER operative within this operative's control range to regain up to 2D3 lost wounds."
+          ],
+          "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
           ]
         }
@@ -1169,7 +1175,7 @@
     {
       "id": "WR-IMP-SANC-TWIN",
       "name": "Twin Torrent",
-      "description": "Select up to two valid targets. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately).",
+      "description": "Select up to two different valid targets that aren't within control range of friendly operatives. Shoot with this weapon against both of them in an order of your choice (roll each sequence separately). Torrent 0\" means you cannot select secondary targets, but this weapon still has the Torrent weapon rule for all other rules purposes, e.g. the Condensed Stronghold rule (see Killzone: Volkus, Kill Team Core Book).",
       "team": "IMP-SANC"
     },
     {

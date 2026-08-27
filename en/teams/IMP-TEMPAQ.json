@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-TEMPAQ",
-  "version": "June '25",
+  "version": "August '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_tempestus_aquilons_online_rules-lmtd3jnxje-xwnybrafnr.pdf",
+  "file": "https://assets.warhammer-community.com/eng_tempestus_aquilons_online_rules-ulwuv6xiox-urjoo7nn95.pdf",
   "killteamName": "Tempestus Aquilons",
   "description": "\"It doesn't matter who or what the enemy are. If they stand between us and following our orders, they'll die for it.\"  \n\n*--Tempestus Aquilon Therka Drayv, prior to the Ossinium Drop*",
   "composition": "A TEMPESTUS AQUILON KillTeam is composed of:\n\n- 1 TEMPESTUS AQUILON TEMPESTOR operative with one of the following options:\n  - Hot-Shot Laspistol; Power Weapon\n  - Relic Bolt Pistol; Chainsword\n  - Hot-Shot Lascarbine; Fists\n- 1 SERVO-SENTRY with one of the following options:\n  - Flamer\n  - Grenade Launcher\n  - Hot-Shot Volley Gun\n- 9 TEMPESTUS AQUILON operatives selected from the following list:\n  - GRENADIER\n  - GUNFIGHTER\n  - GUNNER with Melta Carbine and Fists\n  - GUNNER with Plasma Carbine and Fists\n  - MARKSMAN\n  - PRECURSOR\n  - TROOPER\n\nOther than TROOPER operatives, your killteam can only include each operative above once.",
@@ -798,7 +798,7 @@
           "abilityId": "IMP-TEMPAQ-PRE-A-DYN",
           "opTypeId": "IMP-TEMPAQ-PRE",
           "abilityName": "Dynamic",
-          "description": "Whenever this operative performs the Fight or Shoot action, it can immediately perform a free Dash action afterwards. It can do so even if it performed the Charge action during this activation, but can only use the remaining distance it had from that Charge action (to a maximum of 3\")."
+          "description": "Whenever this operative performs the Fight or Shoot action, it can immediately perform a free Dash action afterwards. It can do so even if it performed the Charge action during this activation."
         },
         {
           "abilityId": "IMP-TEMPAQ-PRE-A-VKF",
@@ -1024,7 +1024,7 @@
     {
       "id": "WR-IMP-TEMPAQ-SALVO",
       "name": "Salvo",
-      "description": "Select up to two valid targets. Shoot this weapon against both of them in an order of your choice (roll each sequence separately).",
+      "description": "Select up to two different valid targets that aren't within control range of friendly operatives. Shoot this weapon against both of them in an order of your choice (roll each sequence separately).",
       "team": "IMP-TEMPAQ"
     }
   ]

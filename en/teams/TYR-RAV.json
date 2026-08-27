@@ -1,10 +1,10 @@
 {
   "factionId": "TYR",
   "killteamId": "TYR-RAV",
-  "version": "November '25",
+  "version": "August '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-12_kt_raveners_online_rules-essk6jkv2r-uoltqtiunq.pdf",
+  "file": "https://assets.warhammer-community.com/eng_raveners_online_rules-8vfeyxgbks-nf6lxfcbfw.pdf",
   "killteamName": "Raveners",
   "description": "Ravener kill teams are hyperadapted to such an extent that they are able to overcome all manner of a prey species' defences. Driven by alien synaptic imperatives, Raveners burrow with horrific speed to strike at prey from vulnerable angles, before using razor-sharp talons, chitinous claws and virulent biotoxins to enact the Hive Mind's will.",
   "composition": "A RAVENERS KillTeam  is composed of:\n\n- 1 RAVENER PRIME\n- 4 RAVENER operatives selected from the following list:\n  - FELLTALON\n  - TREMORSCYTHE\n  - VENOMSPITTER\n  - WARRIOR\n  - WRECKER\n\nOther than WARRIOR operatives, your KillTeam can only include each operative on this list once.",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Whipcord Emergence",
-      "description": "Whenever an operative is shooting a friendly RAVENER operative:\n\n- f that friendly operative has performed the Burrow action during that turning point, you can re-roll one of your defence dice.\n- f that friendly operative is on your TUNNEL, you can re-roll any of your defence dice.\n"
+      "description": "Whenever an operative is shooting a friendly RAVENER operative:\n\n- If that friendly operative has performed the Burrow action during that turning point, you can re-roll one of your defence dice.\n- If that friendly operative is on your TUNNEL, you can re-roll any of your defence dice results of one result.\n"
     },
     {
       "ployId": "TYR-RAV-S-DFB",
@@ -135,7 +135,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
-      "WOUNDS": 21,
+      "WOUNDS": 19,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, LEADER, PRIME",
       "basesize": 40,
       "weapons": [
@@ -216,7 +216,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
-      "WOUNDS": 20,
+      "WOUNDS": 18,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, FELLTALON",
       "basesize": 40,
       "weapons": [
@@ -325,7 +325,7 @@
           "name": "Toxic Lunge",
           "description": null,
           "effects": [
-            "- Select one enemy operative within 2\" of this operative. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).",
+            "- Select one enemy operative visible to and within 2\" of this operative. If enemy operatives are within control range of this operative, you cannot select an enemy operative that isn't. Alternatively, if this operative is underground, select one enemy operative on your TUNNEL. Inflict D3+2 damage on that enemy operative and it gains one of your Poison tokens (if it doesn't already have one).",
             "- This operative can perform this action while underground (this takes precedence over the normal Burrow rules)."
           ]
         }
@@ -339,7 +339,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
-      "WOUNDS": 20,
+      "WOUNDS": 18,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, TREMORSCYTHE",
       "basesize": 40,
       "weapons": [
@@ -413,7 +413,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
-      "WOUNDS": 20,
+      "WOUNDS": 18,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, VENOMSPITTER",
       "basesize": 40,
       "weapons": [
@@ -548,7 +548,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "5+",
-      "WOUNDS": 20,
+      "WOUNDS": 18,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WARRIOR",
       "basesize": 40,
       "weapons": [
@@ -616,7 +616,7 @@
       "MOVE": "7\"",
       "APL": 3,
       "SAVE": "4+",
-      "WOUNDS": 20,
+      "WOUNDS": 18,
       "keywords": "RAVENER, GREAT DEVOURER, TYRANID, WRECKER",
       "basesize": 40,
       "weapons": [

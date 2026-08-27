@@ -1,10 +1,10 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-NOV",
-  "version": "April '26",
+  "version": "August '26",
   "classified": false,
   "season": "Octarius",
-  "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_novitiates-kpn2dh2ljk-kkaiyhpput.pdf",
+  "file": "https://assets.warhammer-community.com/eng_novitiates_online_rules-b4a5xsy3fu-5twxaatuzc.pdf",
   "killteamName": "Novitiates",
   "description": "New inductees into the ranks of the Adepta Sororitas, Sisters Novitiate who display great zeal and determination are\noften deployed together in kill teams to hunt down apostates or root out heretics. In performing such duties, they may one day rise to become full Sisters, spreading the Emperor's light ever further.",
   "composition": "A NOVITIATES killteam is composed of:\n\n- 1 NOVITIATE SUPERIOR operative with one of the following options:\n  - Plasma pistol; power weapon\n  - Relic boltgun; gun butt\n  - Relic bolt pistol; power weapon\n- 9 NOVITIATE operatives selected from the following list:\n  - CONDEMNOR\n  - DIALOGUS\n  - DUELLIST\n  - EXACTOR\n  - HOSPITALLER\n  - PENITENT\n  - PRECEPTOR\n  - PRONATUS\n  - PURGATUS\n  - RELIQUARIUS\n  - MILITANT with one of the following options:\n    - Autopistol; Novitiate blade\n    - Autogun; gun butt\n\nOther than MILITANT and PURGATUS operatives, your kill team can only include each operative on this list once.  \n\nYour kill team can only include up to two PURGATUS operatives.",
@@ -614,7 +614,7 @@
           "description": null,
           "effects": [
             "Select one other friendly NOVITIATE operative (excluding SUPERIOR) visible to and within 3\" of this operative that isn't currently benefitting from the effects of this action.",
-            "Until the end of that operative's next activation, add 1\" to its Move stat, it can perform two Fight actions during its next activation, and one of them can be free."
+            "Until the end of that operative's next activation, add 1 to its APL stat, add 1\" to its Move stat, and it can perform two Fight actions during its next activation."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."
