@@ -1,10 +1,10 @@
 {
   "factionId": "TAU",
   "killteamId": "TAU-VESP",
-  "version": "June '26",
+  "version": "August '26",
   "classified": true,
   "season": "Volkus",
-  "file": "https://assets.warhammer-community.com/eng_17-06_kill_team_team_rules_vespid_stingwings_online_rules-ivlsu9qyii-6ecf1h69ml.pdf",
+  "file": "https://assets.warhammer-community.com/eng_vespid_stingwings_online_rules-im3is77cs2-gtnx7xocbs.pdf",
   "killteamName": "Vespid Stingwings",
   "description": "\"So swift and so deadly are the Mal'Kor, it is as though they fury of the D'Yangi moon tempests had swept the enemy away. I almost pity those who stand against them\"  \n\n*--Shas'o Vior'la Shem*",
   "composition": "A VESPID STINGWINGS killteam is composed of:\n\n- 1 VESPID STINGWING STRAIN LEADER operative\n- 1 VESPID STINGWING OVERSIGHT DRONE operative\n- 9 VESPID STINGWING operatives selected from the following list:\n  - LONGSTING\n  - SHADESTRAIN\n  - SKYBLAST\n  - SWARMGUARD\n  - WARRIOR\n\nOther than WARRIOR operatives, your killteam can only include each operative above once.",
@@ -19,7 +19,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Aerial Agility",
-      "description": "Whenever an operative is shooting a friendly VESPID STINGWING operative while counteracting, or during an activation in which that shooting operative moved or was setup, roll 1D6 whenever a normal sucess would inflict damage.\nOn a 5+, ignore that inflicted damage. A maximum of one Attack Die can be ignored per shooting sequence."
+      "description": "Whenever an operative is shooting a friendly VESPID STINGWING operative while counteracting or interrupting, or during an activation in which that shooting operative moved or was setup, roll 1D6 whenever a normal sucess would inflict damage.\nOn a 5+, ignore that inflicted damage. A maximum of one Attack Die can be ignored per shooting sequence."
     },
     {
       "ployId": "TAU-VESP-S-AP",
@@ -191,7 +191,7 @@
           "abilityId": "TAU-VESP-VSL-A-CH",
           "opTypeId": "TAU-VESP-VSL",
           "abilityName": "Communion Helm",
-          "description": "Once during each of this operative's activations, you can spend one Communion Point for free."
+          "description": "Once during each of this operative's activations, you can do one of the following:\n• Spend 1 Communion point for free.\n• Spend 1 Communion point and select one friendly VESPID STINGWING operative within 3\" of this operative. That other friendly operative can immediately perform a free 1AP mission action (you must still spend a Communion point for it to perform that action as normal, and this cannot be ignored using the Convergence Stimulant equipment)."
         },
         {
           "abilityId": "TAU-VESP-VSL-A-COM",

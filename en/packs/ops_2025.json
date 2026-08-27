@@ -54,11 +54,11 @@
       "title": "Sweep & Clear",
       "archetype": "Seek & Destroy",
       "reveal": "The first time an enemy operative is incapacitated while contesting an objective marker, or the first time a friendly operative performs the Clear action (whichever comes first).",
-      "additionalRules": "When an enemy operative that contests an objective marker is incapacitated, that objective marker gains one of your Swept tokens (if it doesn't already have one) until the Ready step of the next Strategy phase.",
+      "additionalRules": "When an enemy operative that contests an objective marker is incapacitated, that objective marker is swept until the Ready step of the next Strategy phase.",
       "actions": [
         "ACTION-TAC-2025-CLEAR"
       ],
-      "victoryPoints": "At the end of each turning point after the first, if at least one objective marker (excluding your objective marker) is cleared and enemy operatives do not contest that marker, you score 1VP. If that marker also has one of your Swept tokens, you score 2VP instead. If friendly operatives control an objective marker that has one of your Swept tokens, you score 1 VP."
+      "victoryPoints": "At the end of each turning point after the first, if the center or your opponent's objective marker is cleared and enemy operatives do not contest that marker, you score 1VP. If that marker is also swept, you score 2VP instead. If friendly operatives control an objective marker that is swept, you score 1 VP."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-02",
@@ -71,7 +71,7 @@
       "reveal": "The first time an enemy operative is incapacitated by a friendly operative or two of your Dominate tokens if that enemy operative had a Wounds stat of 12 or more.",
       "additionalRules": "Each time a friendly operative incapacitates an enemy operative, that friendly operative gains one of your Dominate tokens.",
       "actions": [],
-      "victoryPoints": "At the end of the third and fourth turning point, you can remove Dominate tokens from friendly operatives that aren't incapacitated. For each you remove, you score 1VP.\nYou cannot score more than 3VP from this op per turning point."
+      "victoryPoints": "At the end of the third and fourth turning point, you can remove Dominate tokens from friendly operatives that are in the killzone and aren't incapacitated. For each you remove, you score 1VP.\nYou cannot score more than 3VP from this op per turning point."
     },
     {
       "id": "OP-TAC-2025-SEEKANDDESTROY-03",

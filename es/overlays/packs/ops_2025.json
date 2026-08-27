@@ -21,14 +21,14 @@
     },
     "OP-TAC-2025-SEEKANDDESTROY-01": {
       "title": "Revisar y purgar",
-      "additionalRules": "Cuando un agente enemigo que disputa un marcador de objetivo es incapacitado, ese marcador de objetivo recibe una de tus fichas de Revisado (si no tiene ya una) hasta el paso de Preparación de la siguiente fase de estrategia.",
-      "victoryPoints": "Al final de cada punto de inflexión tras el primero, si al menos un marcador de objetivo (excluyendo el tuyo) está revisado y ningún agente enemigo disputa ese marcador, ganas 1PV. Si ese marcador también tiene una de tus fichas de Revisado, ganas 2PV en su lugar. Si los agentes amigos controlan un marcador de objetivo que tiene una de tus fichas de Revisado, ganas 1PV.",
+      "additionalRules": "Cuando un agente enemigo que disputa un marcador de objetivo es incapacitado, ese marcador de objetivo está Revisado hasta el paso de Preparación de la siguiente fase de estrategia.",
+      "victoryPoints": "Al final de cada punto de inflexión tras el primero, si el marcador central o el enemigo está Purgado y ningún agente enemigo disputa ese marcador, ganas 1PV. Si ese marcador también está Revisado, ganas 2PV en su lugar. Si los agentes amigos controlan un marcador de objetivo que está Revisado, ganas 1PV.",
       "reveal": "La primera vez que un agente enemigo es incapacitado mientras disputa un marcador de objetivo, o la primera vez que un agente amigo realiza la acción Purgar (lo que ocurra primero)."
     },
     "OP-TAC-2025-SEEKANDDESTROY-02": {
       "title": "Dominación",
       "additionalRules": "Siempre que un agente amigo incapacite a un agente enemigo, ese agente amigo recibe 1 ficha de Dominación.",
-      "victoryPoints": "Al final del tercer y cuarto punto de inflexión, puedes retirar las fichas de Dominación de los agentes amigos que no estén incapacitados. Ganas 1PV por cada ficha que retires.\nNo puedes ganar más de 3PV por esta operación en cada punto de inflexión.",
+      "victoryPoints": "Al final del tercer y cuarto punto de inflexión, puedes retirar las fichas de Dominación de los agentes amigos que no estén incapacitados y se encuentren en la zona de aniquilación. Ganas 1PV por cada ficha que retires.\nNo puedes ganar más de 3PV por esta operación en cada punto de inflexión.",
       "reveal": "La primera vez que un agente enemigo resulte incapacitado por un agente amigo o dos de tus fichas de Dominación si ese agente enemigo tenía un atributo Heridas de 12 o más."
     },
     "OP-TAC-2025-SEEKANDDESTROY-03": {
