@@ -1,7 +1,7 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-INQ",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
   "file": "https://assets.warhammer-community.com/eng_inquisitorial_agents_online_rules-wxk0cybqst-vpe1dopkcv.pdf",
@@ -53,7 +53,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Absolute Authority",
-      "description": "Use this firefight ploy during the battle, when an opponent uses a strategy or firefight ploy (excluding Command Re-roll or one that costs 0CP).\nTheir ploy isn't used, the CP spent on it is refunded and they cannot use that ploy again during this turning point. This ploy cannot be used to stop the same ploy more than once per battle."
+      "description": "Use this firefight ploy during the battle, when an opponent uses a strategy or firefight ploy (excluding Command Re-roll or one that costs 0CP).\nTheir ploy isn't used, the CP spent on it is refunded and they cannot use that ploy again during this turning point. This ploy cannot be used to stop the same ploy more than once per battle. This ploy costs 1 additional CP to use if the opponent's ploy is a strategy ploy."
     },
     {
       "ployId": "IMP-INQ-T-IP",
@@ -192,7 +192,7 @@
           "abilityId": "IMP-INQ-INQ24-INT-A-IT",
           "opTypeId": "IMP-INQ-INQ24-INT",
           "abilityName": "Inquisitorial Tomes",
-          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they cannot be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of friendly operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons.\r "
+          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following INQUISITORIAL TOME rules for this operative to have,\r and one for a friendly INQUISITORIAL AGENT TOME-SKULL operative to have (they cannot be the same, and ignore the rule you didn't select for each operative):\r \r - **Denunciation:** Whenever a friendly INQUISITORIAL AGENT operative is shooting against, fighting against or retaliating against an enemy operative within 2\" of friendly operatives with this rule, add 1 to the Atk stat of that friendly operative's weapons.\r - **Sanctification:** Whenever an enemy operative is shooting against, fighting against or retaliating against a friendly INQUISITORIAL AGENT operative within 2\" of friendly operatives with this rule, subtract 1 from the Atk stat of that enemy operative's weapons (to a minimum of 2).\r "
         }
       ]
     },

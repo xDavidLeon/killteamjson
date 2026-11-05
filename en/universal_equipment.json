@@ -227,7 +227,7 @@
       "name": "Stun Grenade",
       "description": null,
       "effects": [
-        "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, subtract 1 from its APL stat until the end of its next activation."
+        "Select one enemy operative visible to and within 6\" of this operative. That operative and each other operative within 1\" of it takes a stun test. For an operative to take a stun test, roll one D6: on a 3+, or a 2+ if it's a valid target to this operative, subtract 1 from its APL stat until the end of its next activation."
       ],
       "conditions": [
         "An operative cannot perform this action while within control range of an enemy operative, or if you have reached the total number of times your kill team can perform it."

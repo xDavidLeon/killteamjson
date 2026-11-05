@@ -1,7 +1,7 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-CULT",
-  "version": "July '25",
+  "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
   "file": "https://assets.warhammer-community.com/eng_17-12_kill_team_team_rules_chaos_cult-x4tsrknbaq-lc1rwd37iy.pdf",
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Sickening Aura",
-      "description": "Whenever an enemy operative is within 2\" of friendly CHAOS CULT MUTANT or CHAOS CULT TORMENT operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
+      "description": "Whenever an enemy operative is within control range of friendly CHAOS CULT MUTANT or CHAOS CULT TORMENT operatives, worsen the Hit stat of that enemy operative's weapons by 1. This isn't cumulative with being injured."
     },
     {
       "ployId": "CHAOS-CULT-T-AM",
@@ -534,7 +534,7 @@
           "effects": [
             "**PSYCHIC**",
             "Remove your Malefic Vortex marker from the killzone (if any). Then place your Malefic Vortex marker visible to this operative, or on Vantage terrain of a terrain feature that's visible to this operative.",
-            "Inflict 1 damage on each enemy operative within 2\" of that marker. In addition, in the Ready step of each Strategy phase, inflict 1 damage on each enemy operative within 2\" of that marker."
+            "Inflict 1 damage on each enemy operative with that marker within its control range. In addition, in the Ready step of each Strategy phase, inflict 1 damage on each enemy operative with that marker within its control range."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."

@@ -90,7 +90,7 @@
     },
     "ACTION-UE-STUN-GRENADE": {
       "effects": [
-        "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Dicho agente y cada otro agente a 1\" o menos de él hace un chequeo de aturdimiento. Para que un agente haga un chequeo de aturdimiento, tira un D6: si el resultado es 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación."
+        "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Dicho agente y cada otro agente a 1\" o menos de él hace un chequeo de aturdimiento. Para que un agente haga un chequeo de aturdimiento, tira un D6: si el resultado es 3+, o 2+ si es un blanco válido para este agente, resta 1 a su atributo LPA hasta el final de su siguiente activación."
       ],
       "conditions": [
         "Un agente no puede realizar esta acción si está en la zona de control de un agente enemigo, o si has alcanzado el número total de veces que tu comando puede realizarla."

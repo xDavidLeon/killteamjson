@@ -1,7 +1,7 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-RAT",
-  "version": "April '26",
+  "version": "November '26",
   "classified": true,
   "season": "Volkus",
   "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_ratlings-ulbqsnxhjb-jmv6tjlrsi.pdf",
@@ -59,7 +59,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Shoot And Hide",
-      "description": "Use this Firefight Ploy after a friendly RATLING operative that has an Engage order perfoms the Shoot action with a rifle.\r If it is more than 3\" from enemy operatives, or not visible to every enemy operative, you can change its order to Conceal."
+      "description": "Use this Firefight Ploy after a friendly RATLING operative that has an Engage order perfoms the Shoot action with a rifle.\r If it is more than 3\" from enemy operatives, or not visible to every enemy operative, you can change its order to Conceal.\nAlternatively, use this firefight ploy when a friendly RATLING operative is on Vantage terrain and is shooting. During that action, you can ignore ramparts less than 2\" tall within its control range when determining visibility."
     },
     {
       "ployId": "IMP-RAT-T-SI",

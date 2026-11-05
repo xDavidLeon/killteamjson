@@ -1,7 +1,7 @@
 {
   "factionId": "VOT",
   "killteamId": "VOT-HKY",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
   "file": "https://assets.warhammer-community.com/eng_hernkyn_yaegirs_online_rules-7vprxsaew8-0p1ctuqlni.pdf",
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Hidden Engagement",
-      "description": "Whenever a friendly HERNKYN YAEGIR operative is shooting, if it is in Cover from the target's perspective, its weapons have the Balanced weapon rule.\nNote that your opponent still determines the targeting lines for this (i.e, they decide on a which point of their operative's base targeting lines are drawn from).  \n**Balanced:** Can re-roll one Attack die."
+      "description": "Whenever a friendly HERNKYN YAEGIR operative is shooting, if it's in cover from the target's perspective, that friendly operative's weapons have the Ceaseless weapon rule; if a weapon already has that weapon rule, it has the Ceaseless and Balanced weapon rules.\nNote that your opponent still determines the targeting lines for this (i.e, they decide on a which point of their operative's base targeting lines are drawn from).  \n**Ceaseless:** You can re-roll any of your attack dice results of one result (e.g., results of 2).  \n**Balanced:** Can re-roll one Attack die."
     },
     {
       "ployId": "VOT-HKY-T-STRD",

@@ -1,7 +1,7 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-DW",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "Tomb world",
   "file": "https://assets.warhammer-community.com/eng_deathwatch_online_rules-vn8chdq2c8-xfl54bekws.pdf",
@@ -51,7 +51,7 @@
       "ployType": "T",
       "seq": 5,
       "ployName": "Suffer Not The Alien",
-      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against, fighting against, or retaliating against an operative that doesn't have the CHAOS or IMPERIUM keyword. You can re-roll any of your attack dice."
+      "description": "Use this firefight ploy after rolling your attack dice for a friendly DEATHWATCH operative, if it's shooting against, fighting against, or retaliating against an operative that doesn't have the CHAOS or IMPERIUM keyword. That friendly operative's weapons have the Ceaseless weapon rule until the end of that sequence; if that enemy operative also doesn't have the CHAOS keyword, that friendly operative's weapons have the Relentless weapon rule until the end of that sequence instead."
     },
     {
       "ployId": "IMP-DW-T-AT",
@@ -460,6 +460,9 @@
                 {
                   "id": "WR-UNIV-PIERCING",
                   "number": 1
+                },
+                {
+                  "id": "WR-UNIV-RENDING"
                 }
               ]
             },

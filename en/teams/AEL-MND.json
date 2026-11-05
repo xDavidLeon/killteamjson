@@ -1,7 +1,7 @@
 {
   "factionId": "AEL",
   "killteamId": "AEL-MND",
-  "version": "January '26",
+  "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
   "file": "https://assets.warhammer-community.com/eng_28-01_kill_team_team_rules_mandrakes-w2j9qwhaxz-oveknnlmoe.pdf",
@@ -702,7 +702,7 @@
     {
       "id": "WR-AEL-MND-SOULSTRIKE",
       "name": "Soulstrike",
-      "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail.",
+      "description": "Successful defence dice are determined differently. Each result that is equal to or less than the target's APL stat is a success and is retained.\nEach result that is higher than the target's APL stat is a fail and is discarded.\nEach result of a 1 is always a critical success. Each other success is a normal success. Each result of 6 is always a fail.\nIf the operative doesn't have an APL stat (e.g. NEMESIS operatives), treat its APL stat as 4 for the purposes of these rules.",
       "team": "AEL-MND"
     }
   ]

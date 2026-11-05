@@ -1,7 +1,7 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-ESS",
-  "version": "April '26",
+  "version": "November '26",
   "classified": false,
   "season": "Octarius",
   "file": "https://assets.warhammer-community.com/eng_29-04_kill_team_team_rules_elucidian_starstriders-4c0hnv9gz9-4fuvbi96ce.pdf",
@@ -35,7 +35,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Stake Claim",
-      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against, fighting against or retaliating against an enemy operative that's within 3\" of that marker, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead. At the end of the turning point, remove your Claim marker from the killzone.’"
+      "description": "Place your Claim marker in the killzone. Whenever a friendly ELUCIDIAN STARSTRIDER operative is shooting against (excluding with PRIVATEER SUPPORT ASSET weapons), fighting against or retaliating against an enemy operative that's within 3\" of that marker, in the Roll Attack Dice step, you can retain one of your fails as a normal success instead of discarding it, or retain one of your normal successes as a critical success instead. At the end of the turning point, remove your Claim marker from the killzone."
     },
     {
       "ployId": "IMP-ESS-S-UX",

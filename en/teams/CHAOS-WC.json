@@ -1,7 +1,7 @@
 {
   "factionId": "CHAOS",
   "killteamId": "CHAOS-WC",
-  "version": "April '26",
+  "version": "November '26",
   "classified": false,
   "season": "Octarius",
   "file": "https://assets.warhammer-community.com/eng_29-04_kt_teamrules_warpcoven-dlvflmyfdc-tqfq81iy7v.pdf",
@@ -98,7 +98,7 @@
       "killteamId": "CHAOS-WC",
       "seq": 3,
       "eqName": "Sorcerous Scrolls",
-      "description": "Once per battle, when a friendly WARPCOVEN SORCERER operative is activated or counteracts, you can select a different BOON OF TZEENTCH for it to have until the end of the battle (it loses any it previously had). It cannot be the same BOON OF TZEENTCH any other friendly operative has.\r Note that if you use this rule when a friendly operative counteracts and you select Echoes from the Warp, it can be used immediately to change the operative's order and perform a free action during that counteraction."
+      "description": "Once per battle, when a friendly WARPCOVEN SORCERER operative is activated or counteracts, you can select a different BOON OF TZEENTCH for it to have until the end of the battle (it loses any it previously had). It cannot be the same BOON OF TZEENTCH any other friendly operative has."
     },
     {
       "eqId": "CHAOS-WC-AR",
@@ -127,7 +127,7 @@
     {
       "abilityId": "CHAOS-WC-TA-BOECFRTHWA",
       "abilityName": "[BOT] Echoes From The Warp",
-      "description": "Once per battle, when you counteract with this operative, you can change its order, and it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
+      "description": "Whenever you counteract with this operative, you can change its order first, and it can perform an additional 1AP action for free during that counteraction, but both actions must be different."
     },
     {
       "abilityId": "CHAOS-WC-TA-BOWASW",
@@ -335,7 +335,7 @@
           "abilityId": "CHAOS-WC-SOD-A-AS",
           "opTypeId": "CHAOS-WC-SOD",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-SOD-A-BOT",
@@ -539,7 +539,7 @@
           "abilityId": "CHAOS-WC-SOT-A-AS",
           "opTypeId": "CHAOS-WC-SOT",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-SOT-A-BOT",
@@ -782,7 +782,7 @@
           "abilityId": "CHAOS-WC-SOW-A-AS",
           "opTypeId": "CHAOS-WC-SOW",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-SOW-A-BOT",
@@ -924,7 +924,7 @@
           "abilityId": "CHAOS-WC-GNR-A-AS",
           "opTypeId": "CHAOS-WC-GNR",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-GNR-A-SA",
@@ -995,7 +995,7 @@
           "abilityId": "CHAOS-WC-IB-A-AS",
           "opTypeId": "CHAOS-WC-IB",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-IB-A-IB",
@@ -1072,7 +1072,7 @@
           "abilityId": "CHAOS-WC-WAR-A-AS",
           "opTypeId": "CHAOS-WC-WAR",
           "abilityName": "Astartes",
-          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order."
+          "description": "During each friendly WARPCOVEN HERETIC ASTARTES operative's activation, it can perform either two Shoot actions or two Fight actions.\nIf it's two Shoot actions and a soulreaper cannon or a warpflamer is selected for both, 1 additional AP must be spent for the second action.\nYou cannot select the same PSYCHIC ranged weapon more than once per activation.\nEach friendly WARPCOVEN HERETIC ASTARTES operative can counteract regardless of its order. Whenever a friendly WARPCOVEN SORCERER does, it can perform an additional 1AP action for free during that counteraction, but both actions must be different and you cannot perform a Fight and Shoot action during the same counteraction."
         },
         {
           "abilityId": "CHAOS-WC-WAR-A-SA",

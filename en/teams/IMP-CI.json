@@ -1,7 +1,7 @@
 {
     "factionId": "IMP",
     "killteamId": "IMP-CI",
-    "version": "August '26",
+    "version": "November '26",
     "classified": true,
     "season": "Tomb world",
     "file": "https://assets.warhammer-community.com/eng_celestian_insidiants_online_rules-lqzptdkmld-qrehe4wai4.pdf",
@@ -98,7 +98,7 @@
             "killteamId": "IMP-CI",
             "seq": 3,
             "eqName": "Saintly Relics",
-            "description": "Whenever an attack dice would inflict damage on a friendly CELESTIAN INSIDIANT operative, you can use this rule. If you do, roll one D6, or two D6 if that operative is INSPIRING: if any result is a 6, ignore the damage inflicted from that attack dice. You cannot ignore more than one attack dice per action and two attack dice per battle this way."
+            "description": "Whenever an attack dice would inflict damage on a friendly CELESTIAN INSIDIANT operative, you can use this rule. If you do, roll one D6, or two D6 if that operative is INSPIRING: if any result is a 6, ignore the damage inflicted from that attack dice. You cannot ignore more than one attack dice per turning point and two attack dice per battle this way."
         },
         {
             "eqId": "IMP-CI-EQ-AF",

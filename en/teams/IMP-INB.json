@@ -1,7 +1,7 @@
 {
   "factionId": "IMP",
   "killteamId": "IMP-INB",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "Gallowdark",
   "file": "https://assets.warhammer-community.com/eng_imperial_navy_breachers_online_rules-n7skbopw8m-0bb7tzt799.pdf",
@@ -105,7 +105,7 @@
       "killteamId": "IMP-INB",
       "seq": 4,
       "eqName": "System Override Device",
-      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Operate Hatch action for 1 less AP."
+      "description": "Once per turning point, one friendly IMPERIAL NAVY BREACHER operative can perform the Breach or Operate Hatch action for 1 less AP."
     }
   ],
   "teamAbilities": [

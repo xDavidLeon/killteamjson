@@ -1,7 +1,7 @@
 {
   "factionId": "TYR",
   "killteamId": "TYR-BBRO",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
   "file": "https://assets.warhammer-community.com/eng_brood_brothers_online_rules-ztviivggwv-tdvilxxaue.pdf",
@@ -1266,7 +1266,7 @@
           "abilityId": "TYR-BBRO-MAG-A-SL",
           "opTypeId": "TYR-BBRO-MAG",
           "abilityName": "Spiritual Leader",
-          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following for friendly BROOD BROTHER operatives to have until the end of the turning point or until this operative is incapacitated (whichever comes first):\r \r - Whenever an enemy operative is shooting a friendly BROOD BROTHER operative, ignore the piercing rule.\r - You can ignore any changes to friendly BROOD BROTHER operative's stats from being injured (including their weapons' stats).\r - You can ignore any changes to the APL stats of friendly BROOD BROTHER operative.\r "
+          "description": "STRATEGIC GAMBIT if this operative is in the killzone. Select one of the following for friendly BROOD BROTHER operatives to have until the end of the turning point or until this operative is incapacitated (whichever comes first):\r \r - You can ignore any changes to friendly BROOD BROTHER operative's stats from being injured (including their weapons' stats).\r - You can ignore any changes to the APL stats of friendly BROOD BROTHER operative.\r "
         }
       ],
       "actions": [

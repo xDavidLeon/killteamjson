@@ -1,7 +1,7 @@
 {
   "factionId": "NEC",
   "killteamId": "NEC-HIER",
-  "version": "August '26",
+  "version": "November '26",
   "classified": true,
   "season": "Gallowdark",
   "file": "https://assets.warhammer-community.com/eng_hierotek_circle_online_rules-df98wqycag-bek3q27dqk.pdf",
@@ -540,7 +540,7 @@
           "name": "Canoptek Repair",
           "description": null,
           "effects": [
-            "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative to regain up to 2D3 lost wounds."
+            "**SUPPORT**\r Select one friendly HIEROTEK CIRCLE operative visible to and within 6\" of this operative to regain up to D3+3 lost wounds."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative, or if a friendly operative has already performed this action during this turning point."
