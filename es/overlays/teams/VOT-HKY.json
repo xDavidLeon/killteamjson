@@ -1,18 +1,278 @@
 {
   "killteamId": "VOT-HKY",
   "locale": "es",
+  "team": {
+    "killteamName": "Hernkyn Yaegirs",
+    "description": "Los Hernkyn son aquellos Kin que sirven como exploradores, batidores, prospectores y pioneros de las Ligas de Votann. Para los Kin, cualquier región de espacio en blanco en sus cartas estelares es un misterio que hay que resolver. El deseo de sondear las profundidades del vacío, de descubrir sus secretos y reclamar sus riquezas está profundamente arraigado en su psique, al igual que la necesidad de saber qué fuentes de peligro -- si las hay -- podrían acechar entre las sombras. ",
+    "composition": "Un equipo de exterminio HERNKYN YAEGIR está compuesto por:\n\n- 1 agente Theyn HERNKYN YAEGIR\n- 9 agentes HERNKYN YAEGIR elegidos de la siguiente lista:\n  - Bladekyn\n  - Fanfarrón\n  - Artillero\n  - Ironbraek\n  - Riflekyn\n  - Rastreador\n  - Guerrero con una de las siguientes opciones:\n    - Revólver bólter, cuchillo de plasma\n    - Escopeta bólter, puños\nSalvo los agentes Guerrero, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "VOT-HKY-S-IP": {
+      "ployName": "En posición",
+      "description": "Siempre que un agente HERNKYN YAEGIR amigo tenga una orden de Ocultarse y esté en cobertura, no puede ser seleccionado como objetivo válido, lo que tiene preferencia sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+    },
+    "VOT-HKY-S-TS": {
+      "ployName": "Supervivientes curtidos",
+      "description": "La primera vez durante el punto de inflexión que un dado de ataque inflija daño a cada agente HERNKYN YAEGIR amigo en el paso de Resolver dados de ataque, puedes reducir a la mitad ese daño infligido (redondeando hacia arriba, hasta un mínimo de 2)."
+    },
+    "VOT-HKY-S-MBW": {
+      "ployName": "Maestría con la hoja",
+      "description": "Siempre que un agente HERNKYN YAEGIR amigo esté combatiendo, o tenga una orden de Ocultarse y esté contraatacando,\nsuma 1 al atributo Ataque de sus armas cuerpo a cuerpo (hasta un máximo de 4) y estas tienen la regla de armas Equilibrada;\nsi el arma ya tiene esa regla de armas, tiene la regla de armas Incesante en lugar de Equilibrada."
+    },
+    "VOT-HKY-S-HE": {
+      "ployName": "Enfrentamiento oculto",
+      "description": "Siempre que un agente HERNKYN YAEGIR amigo esté disparando, si está en cobertura desde la perspectiva del objetivo, las armas de ese agente amigo tienen la regla de armas Incesante; si un arma ya tiene esa regla de armas, tiene las reglas de armas Incesante y Equilibrada.\nTen en cuenta que tu oponente sigue determinando las líneas de visión para esto (es decir, decide desde qué punto de la peana de su agente se trazan las líneas de visión).  \n**Incesante:** Puedes repetir cualquiera de tus dados de ataque que hayan obtenido un mismo resultado (p. ej., resultados de 2).  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "VOT-HKY-T-STRD": {
+      "ployName": "Robusto",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo esté disparando contra un agente HERNKYN YAEGIR amigo, al reunir tus dados de defensa.\nCambia los éxitos críticos conservados del atacante a éxitos normales (las reglas de armas que ya se hayan resuelto no se ven afectadas, p. ej., Penetración Crítica)."
+    },
+    "VOT-HKY-T-BTB": {
+      "ployName": "Lazos que unen",
+      "description": "Usa este ardid de tiroteo cuando se active un agente HERNKYN YAEGIR amigo.\nElige otro agente HERNKYN YAEGIR amigo preparado que sea visible para ese agente y esté a 3\" o menos de él.\nCuando ese primer agente amigo quede gastado, puedes activar ese otro agente amigo antes de que tu oponente active.\nNinguno de los dos agentes puede ser un agente FANFARRÓN si se ha usado su GAMBITO ESTRATÉGICO Negociación de llave forjada durante este punto de inflexión."
+    },
+    "VOT-HKY-T-NKLB": {
+      "ployName": "No se abandona a ningún Kin",
+      "description": "Usa este ardid de tiroteo cuando un agente HERNKYN YAEGIR amigo quede incapacitado.\nAntes de retirar ese agente de la zona de aniquilación, retira tu marcador de Kin Caído de la zona de aniquilación (si lo hay) y, después, colócalo dentro de la zona de control de ese agente.\nDespués, ese agente queda incapacitado de forma normal.  \n\nSiempre que un agente HERNKYN YAEGIR amigo que esté a 3\" o menos de tu marcador de Kin Caído esté disparando, combatiendo o contraatacando, en el paso de Tirar dados de ataque,\npuedes conservar uno de tus fallos como éxito normal en lugar de descartarlo, o conservar uno de tus éxitos normales como éxito crítico en su lugar."
+    },
+    "VOT-HKY-T-SD": {
+      "ployName": "Defensa firme",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo termine un movimiento dentro de la zona de control de un agente HERNKYN YAEGIR amigo.\r Elige otro agente HERNKYN YAEGIR amigo que sea visible para ese agente amigo y esté a 6\" o menos de él, pero que no esté a su vez dentro de la zona de control de agentes enemigos.\r El agente elegido puede realizar una acción Disparar.\r Durante esa acción:\r \r - Puede seleccionar como objetivo a ese agente enemigo aunque esté dentro de la zona de control de un agente amigo.\r - No se puede seleccionar a otros agentes enemigos como objetivo válido.\r - No puedes seleccionar una granada frag o krak, ni un arma con la regla de armas Área o x\" Devastadora x (es decir, Devastadora con una distancia)\r "
+    }
+  },
   "equipments": {
     "VOT-HKY-FSBS": {
-      "effects": ""
+      "eqName": "Proyectiles bólter de tormenta de fuego",
+      "description": "Una vez por punto de inflexión, cuando un agente HERNKYN YAEGIR amigo esté realizando la acción Disparar y selecciones una escopeta bólter (corto alcance), puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Área 1\"."
     },
     "VOT-HKY-KVCU": {
-      "effects": ""
+      "eqName": "Traje interior de ceramida KV",
+      "description": "Siempre que un agente enemigo esté disparando contra un agente HERNKYN YAEGIR amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga, puedes repetir uno de tus dados de defensa.\nAdemás, los agentes HERNKYN YAEGIR amigos no se ven afectados por la regla de armas X\" Devastadora X (es decir, Devastadora con una distancia) salvo que sean el objetivo durante esa secuencia."
     },
     "VOT-HKY-PK": {
-      "effects": "ADDWEP:Plasma Knife|M|3|4+|3/5|Lethal 5+"
+      "eqName": "Cuchillos de plasma",
+      "description": "Los agentes HERNKYN YAEGIR amigos tienen la siguiente arma cuerpo a cuerpo. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la mejor versión, y esa arma tiene la regla de armas Equilibrada durante la batalla..",
+      "weapons": {
+        "VOT-HKY-PK-PLASMA-KNIFE": {
+          "wepName": "Cuchillo de plasma"
+        }
+      }
     },
     "VOT-HKY-SBS": {
-      "effects": ""
+      "eqName": "Proyectiles bólter estabilizados",
+      "description": "Hasta dos veces por punto de inflexión, siempre que un agente HERNKYN YAEGIR amigo esté realizando la acción Disparar y hayas seleccionado una escopeta bólter (largo alcance), puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, mejora en 1 el atributo Impactar de esa arma y suma 1 a sus dos atributos de daño, y esa arma tiene la regla de armas Certera 1."
+    }
+  },
+  "teamAbilities": {
+    "VOT-HKY-TA-RE": {
+      "abilityName": "Ingeniosos",
+      "description": "En el paso de Preparación de cada fase de estrategia después de la primera, ganas puntos de Ingenio determinados por el número de agentes HERNKYN YAEGIR amigos en la zona de aniquilación que no estén dentro de la zona de control de agentes enemigos.\nAl final de cada punto de inflexión, descarta tus puntos de Ingenio.\n\n| **Agentes** | **Puntos de Ingenio** |\n|:---:|:---:|\n|5+|2|\n|1-4|1|\n\nPuedes gastar 1 de tus puntos de Ingenio durante cada activación de cada agente HERNKYN YAEGIR amigo para hacer una de las siguientes cosas:\n\n- Antes o después de que realice una acción, si no está dentro de la zona de control de agentes enemigos, puedes usar esta regla. Si lo haces, suma 1 al atributo LPA de ese agente amigo hasta el final de su activación.\n- Cuando se active, si no está dentro de la zona de control de agentes enemigos, recupera hasta D3+1 heridas perdidas."
+    },
+    "VOT-HKY-TA-DAEX": {
+      "abilityName": "Exploradores intrépidos",
+      "description": "**GAMBITO ESTRATÉGICO** en el primer punto de inflexión.  \n\nCada agente HERNKYN YAEGIR amigo que esté totalmente dentro de tu zona de despliegue puede realizar inmediatamente una acción gratuita de Reposicionarse. Cada uno que lo haga debe terminar ese movimiento totalmente a 4\" o menos de tu zona de despliegue."
+    }
+  },
+  "opTypes": {
+    "VOT-HKY-THEYN": {
+      "opTypeName": "Theyn Yaegir",
+      "weapons": {
+        "VOT-HKY-THEYN-BR": {
+          "wepName": "Revólver bólter"
+        },
+        "VOT-HKY-THEYN-BS": {
+          "wepName": "Escopeta bólter",
+          "profiles": {
+            "VOT-HKY-THEYN-BS-0": {
+              "profileName": "Corto alcance"
+            },
+            "VOT-HKY-THEYN-BS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "VOT-HKY-THEYN-PK": {
+          "wepName": "Cuchillo de plasma"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-THEYN-A-OC": {
+          "abilityName": "Convicción absoluta",
+          "description": "La primera vez que este agente fuera a quedar incapacitado durante la batalla, no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción.\nTodos los dados de ataque restantes se descartan (incluidos los tuyos, si este agente está combatiendo o contraatacando)."
+        },
+        "VOT-HKY-THEYN-A-VETA": {
+          "abilityName": "Aventurero veterano",
+          "description": "En el paso de Preparación de cada fase de estrategia después de la primera, si este agente no está dentro de la zona de control de agentes enemigos, ganas 1 punto de Ingenio."
+        }
+      }
+    },
+    "VOT-HKY-BLD": {
+      "opTypeName": "Bladekyn Yaegir",
+      "weapons": {
+        "VOT-HKY-BLD-TPK": {
+          "wepName": "Cuchillo de plasma arrojadizo"
+        },
+        "VOT-HKY-BLD-DPK": {
+          "wepName": "Cuchillos de plasma dobles"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-BLD-A-IH": {
+          "abilityName": "Dureza irreprimible",
+          "description": "Si este agente queda incapacitado durante la acción Combatir, puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de retirar a este agente de la zona de aniquilación."
+        },
+        "VOT-HKY-BLD-A-ST": {
+          "abilityName": "Acechador",
+          "description": "Este agente puede realizar la acción Cargar mientras tiene una orden de Ocultarse."
+        }
+      }
+    },
+    "VOT-HKY-BOMB": {
+      "opTypeName": "Fanfarrón Yaegir",
+      "weapons": {
+        "VOT-HKY-BOMB-WLR": {
+          "wepName": "Revólveres de llave forjada"
+        },
+        "VOT-HKY-BOMB-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-BOMB-A-BK": {
+          "abilityName": "Asesino descarado",
+          "description": "Siempre que este agente incapacite a un agente enemigo con sus revólveres de llave forjada, tira un D6 por separado por cada otro agente enemigo que sea visible para ese agente enemigo y esté a 2\" o menos de él.\nSi el resultado es mayor que el atributo LPA de ese otro agente enemigo, resta 1 a su atributo LPA hasta el final de su siguiente activación."
+        },
+        "VOT-HKY-BOMB-A-WLN": {
+          "abilityName": "Negociación de llave forjada",
+          "description": "**GAMBITO ESTRATÉGICO**  \n\nEste agente puede realizar inmediatamente una acción gratuita de Disparar (puedes cambiar su orden a Trabarse para hacerlo)."
+        }
+      }
+    },
+    "VOT-HKY-GNR": {
+      "opTypeName": "Artillero Yaegir",
+      "weapons": {
+        "VOT-HKY-GNR-APM": {
+          "wepName": "Lanzador APM",
+          "profiles": {
+            "VOT-HKY-GNR-APM-0": {
+              "profileName": "Perforante"
+            },
+            "VOT-HKY-GNR-APM-1": {
+              "profileName": "Demoledor"
+            },
+            "VOT-HKY-GNR-APM-2": {
+              "profileName": "Alto explosivo"
+            }
+          }
+        },
+        "VOT-HKY-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "VOT-HKY-IRN": {
+      "opTypeName": "Ironbraek Yaegir",
+      "weapons": {
+        "VOT-HKY-IRN-BR": {
+          "wepName": "Revólver bólter"
+        },
+        "VOT-HKY-IRN-ENT": {
+          "wepName": "Atrincheradora"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-IRN-A-HPM": {
+          "abilityName": "Mina Hy-Pex",
+          "description": "Siempre que uno de tus marcadores de Campo de minas boca abajo esté a la vez dentro de la zona de control de un agente enemigo y fuera de la zona de control de un agente HERNKYN YAEGIR amigo, dale la vuelta al marcador.\nSi está en blanco, no tiene efecto.\nSi es una mina Hy-Pex, inflige 3 de daño a ese agente enemigo y tira 1D6. Si el resultado es menor que el atributo Salvación de ese agente enemigo, inflígele un daño adicional igual al resultado del dado.\nSi no queda incapacitado, termina su acción (si la hay), aunque no se hayan cumplido los efectos de esa acción.\nSi no puede colocarse, muévelo la distancia mínima necesaria para hacerlo. En cualquier caso, ese marcador no se retira."
+        },
+        "VOT-HKY-IRN-A-MF": {
+          "abilityName": "Campo de minas",
+          "description": "Tienes cinco marcadores de Campo de minas durante la batalla. En el reverso, tres de ellos son minas Hy-Pex y dos están en blanco.\r Despliega todos tus marcadores de Campo de minas como si fueran un elemento de equipo. Cada uno debe desplegarse boca abajo (sin revelar sus detalles),\r a más de 2\" de otros marcadores, puntos de acceso y terreno Accesible, y a más de 6\" de la zona de despliegue de tu oponente y de tus otros marcadores de Campo de minas.\r Siempre que este agente quede preparado, si no está dentro de la zona de control de agentes enemigos, puedes restablecer uno de tus marcadores de Campo de minas volteados que esté dentro de su zona de control (vuelve a darle la vuelta al marcador)."
+        }
+      }
+    },
+    "VOT-HKY-RFL": {
+      "opTypeName": "Riflekyn Yaegir",
+      "weapons": {
+        "VOT-HKY-RFL-MCR": {
+          "wepName": "Rifle magna-bobina",
+          "profiles": {
+            "VOT-HKY-RFL-MCR-0": {
+              "profileName": "Oculto"
+            },
+            "VOT-HKY-RFL-MCR-1": {
+              "profileName": "Móvil"
+            },
+            "VOT-HKY-RFL-MCR-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "VOT-HKY-RFL-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-RFL-A-WWC": {
+          "abilityName": "Capa Weavewerke",
+          "description": "Siempre que un agente esté disparando contra este agente:\n\n- Ignora la regla de armas Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar una salvación por cobertura como éxito crítico en su lugar.\n\nEsto no es acumulativo con las salvaciones por cobertura mejoradas del terreno Aventajado."
+        }
+      }
+    },
+    "VOT-HKY-TRK": {
+      "opTypeName": "Rastreador Yaegir",
+      "weapons": {
+        "VOT-HKY-TRK-SINR": {
+          "wepName": "Ballesta de mano SiNR"
+        },
+        "VOT-HKY-TRK-TH": {
+          "wepName": "Hachuela arrojadiza"
+        },
+        "VOT-HKY-TRK-H": {
+          "wepName": "Hachuela"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-TRK-A-PSV": {
+          "abilityName": "Visor panespectral",
+          "description": "Siempre que este agente esté disparando contra un enemigo que esté a 6\" o menos de él:\n\n- Las armas de este agente tienen la regla de armas Buscadora (Ligero).\n- Ese agente no puede estar ofuscado.\n"
+        },
+        "VOT-HKY-TRK-A-TRK": {
+          "abilityName": "Rastreador",
+          "description": "Siempre que este agente esté disparando o combatiendo contra un agente gastado que esté a 6\" o menos de él, las armas de este agente tienen la regla de armas Castigadora."
+        }
+      }
+    },
+    "VOT-HKY-WAR": {
+      "opTypeName": "Guerrero Yaegir",
+      "weapons": {
+        "VOT-HKY-WAR-BR": {
+          "wepName": "Revólver bólter"
+        },
+        "VOT-HKY-WAR-BS": {
+          "wepName": "Escopeta bólter",
+          "profiles": {
+            "VOT-HKY-WAR-BS-0": {
+              "profileName": "Corto alcance"
+            },
+            "VOT-HKY-WAR-BS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "VOT-HKY-WAR-F": {
+          "wepName": "Puños"
+        },
+        "VOT-HKY-WAR-PK": {
+          "wepName": "Cuchillo de plasma"
+        }
+      },
+      "abilities": {
+        "VOT-HKY-WAR-A-INT": {
+          "abilityName": "Intrépido",
+          "description": "Siempre que gastes un punto de Ingenio para este agente, lo siguiente tiene preferencia:\n\n- Si sumas 1 a su atributo LPA, en su lugar dura hasta el inicio de su siguiente activación.\n- Si recupera heridas perdidas, en su lugar recupera 4.\n"
+        }
+      }
     }
   }
 }

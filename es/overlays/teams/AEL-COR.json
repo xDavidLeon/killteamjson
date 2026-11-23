@@ -264,7 +264,7 @@
       "abilities": {
         "AEL-COR-SR-A-BP": {
           "abilityName": "Retrorreactor de parpadeo",
-          "description": "Siempre que este agente realice la acción Cargar, Retroceder o Reposicionarse, puede hacer un Salto disforme.\r Si lo hace, no lo muevas; en su lugar, retíralo de la zona de exterminio y vuelve a desplegarlo totalmente a 7\" o menos de su ubicación original, midiendo solo la distancia horizontal\r (en la zona de exterminio Gallowdark, esta distancia puede medirse a través de muros).\r Debe desplegarse en una ubicación donde pueda colocarse y, a menos que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
+          "description": "Siempre que este agente realice la acción Cargar, Retroceder o Reposicionarse, puede hacer un Salto disforme.\r Si lo hace, no lo muevas; en su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo totalmente a 7\" o menos de su ubicación original, midiendo solo la distancia horizontal\r (en la zona de aniquilación Gallowdark, esta distancia puede medirse a través de muros).\r Debe desplegarse en una ubicación donde pueda colocarse y, a menos que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
         },
         "AEL-COR-SR-A-SA": {
           "abilityName": "Ataque cortante",
@@ -324,7 +324,7 @@
           "name": "Pliegue disforme",
           "effects": [
             "*PSÍQUICA*",
-            "Elige 2 agentes CORSARIO MARCADO POR EL VACÍO amigos visibles para este agente y a 5\" o menos de él. Retíralos a ambos de la zona de exterminio y vuelve a desplegar cada uno en la ubicación del otro (en otras palabras, intercambia sus posiciones). Si uno de ellos realizó una acción Cargar, Retroceder o Reposicionarse durante este punto de inflexión y el otro está preparado, el otro no puede realizar ninguna de esas acciones en su activación durante este punto de inflexión."
+            "Elige 2 agentes CORSARIO MARCADO POR EL VACÍO amigos visibles para este agente y a 5\" o menos de él. Retíralos a ambos de la zona de aniquilación y vuelve a desplegar cada uno en la ubicación del otro (en otras palabras, intercambia sus posiciones). Si uno de ellos realizó una acción Cargar, Retroceder o Reposicionarse durante este punto de inflexión y el otro está preparado, el otro no puede realizar ninguna de esas acciones en su activación durante este punto de inflexión."
           ],
           "conditions": [
             "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."

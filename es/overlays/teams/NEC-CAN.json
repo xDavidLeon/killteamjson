@@ -213,7 +213,7 @@
         },
         "NEC-CAN-WAR-EC": {
           "abilityName": "Constructo prescindible",
-          "description": "Este agente se ignora para la operación de aniquilación/eliminación de tu oponente (cuando queda incapacitado, y al determinar tu número inicial de agentes).\nTambién se ignora para las condiciones de victoria y la obtención de PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado, y al determinar tu número inicial de agentes).\nTambién se ignora para las condiciones de victoria y la obtención de PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
         }
       }
     },

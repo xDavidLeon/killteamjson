@@ -240,7 +240,7 @@
       "abilities": {
         "CHAOS-CULT-MUT-A-AM": {
           "abilityName": "Mutante Maldito",
-          "description": "Este agente no puede realizar acciones únicas. Debes gastar 1 PA adicional para que este agente realice la acción Recoger Marcador y acciones de misión (excepto Operar portillo)."
+          "description": "Este agente no puede realizar acciones únicas. Debes gastar 1 PA adicional para que este agente realice la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
         },
         "CHAOS-CULT-MUT-A-UR": {
           "abilityName": "Regeneración Antinatural",
@@ -258,7 +258,7 @@
       "abilities": {
         "CHAOS-CULT-TOR-A-AT": {
           "abilityName": "Tormento Maldito",
-          "description": "Este agente no puede usar armas que no estén en su ficha de datos, ni realizar la acción Recoger Marcador, acciones únicas ni acciones de misión (excepto Operar portillo)."
+          "description": "Este agente no puede usar armas que no estén en su ficha de datos, ni realizar la acción Recoger Marcador, acciones únicas ni acciones de misión (excepto Operar escotilla)."
         },
         "CHAOS-CULT-TOR-A-BRU": {
           "abilityName": "Bruto",

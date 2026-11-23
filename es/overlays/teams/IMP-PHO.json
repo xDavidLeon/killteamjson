@@ -1,25 +1,421 @@
 {
   "killteamId": "IMP-PHO",
   "locale": "es",
+  "team": {
+    "killteamName": "Equipo de Ataque Phobos",
+    "description": "Maestros del sigilo y del subterfugio, los Equipos de Ataque Phobos están formados por Infiltradores, Incursores y Segadores de los Marines Espaciales.\nPoseedores de una fuerza transhumana y equipados con una variedad de explosivos, equipo de comunicaciones y armamento de precisión, son capaces de superar en maniobras y arrollar a fuerzas enemigas muchas veces más numerosas que ellos.",
+    "composition": "Un KillTeam EQUIPO DE ATAQUE PHOBOS está compuesto por:\n\n- 1 agente EQUIPO DE ATAQUE PHOBOS elegido de la siguiente lista:\n  - SARGENTO INFILTRADOR\n  - SARGENTO INCURSOR\n  - SARGENTO SEGADOR con una de las siguientes opciones:\n    - Pistola bólter especial; cuchillo de combate\n    - Carabina bólter; puños\n- 5 agentes EQUIPO DE ATAQUE PHOBOS elegidos de la siguiente lista:\n  - COMUNICADOR INFILTRADOR\n  - ADEPTO HELIX INFILTRADOR\n  - SABOTEADOR INFILTRADOR\n  - VETERANO INFILTRADOR\n  - ROMPEVOX INFILTRADOR\n  - COMBATIENTE INFILTRADOR\n  - TIRADOR INCURSOR\n  - MINADOR INCURSOR\n  - COMBATIENTE INCURSOR\n  - COMBATIENTE SEGADOR con una de las siguientes opciones:\n    - Pistola bólter especial; cuchillo de combate\n    - Carabina bólter; puños\n\nSalvo los agentes COMBATIENTE, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "IMP-PHO-S-ATSKNF": {
+      "ployName": "Y No Conocerán el Miedo",
+      "description": "Puedes ignorar cualquier cambio en los atributos de los agentes EQUIPO DE ATAQUE PHOBOS amigos por estar heridos (incluidos los atributos de sus armas)."
+    },
+    "IMP-PHO-S-DS": {
+      "ployName": "Disparos Mortíferos",
+      "description": "Siempre que un agente EQUIPO DE ATAQUE PHOBOS amigo dispare durante una activación en la que no haya realizado la acción Cargar, Retroceder o Reposicionarse, o contra un agente que no esté en cobertura y esté a más de 6\" de él,\r las armas a distancia de ese agente amigo tienen la regla de armas Equilibrada.  \r \r Ten en cuenta que, para el primer requisito, ese agente no tiene restricciones para realizar esas acciones después de disparar.  \r **Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "IMP-PHO-S-GWF": {
+      "ployName": "Guerra de Guerrillas",
+      "description": "Los agentes EQUIPO DE ATAQUE PHOBOS amigos pueden realizar la siguiente acción única:  \n\r **Guerra de Guerrillas (1 PA):**\r Cambia la orden de este agente.  \n\r Un agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+    },
+    "IMP-PHO-S-LA": {
+      "ployName": "Asaltos Mortíferos",
+      "description": "Siempre que un agente EQUIPO DE ATAQUE PHOBOS amigo combata, sus armas de combate tienen la regla de armas Equilibrada.\nSi ese agente amigo lo hace durante una activación en la que haya realizado la acción Cargar, sus armas de combate también tienen la regla de armas Letal 5+.  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "IMP-PHO-T-CS": {
+      "ployName": "Disparo Crítico",
+      "description": "Usa este ardid de tiroteo cuando resuelvas un éxito crítico de un agente EQUIPO DE ATAQUE PHOBOS amigo que esté disparando con un arma bólter. Inflige D3 de daño adicional."
+    },
+    "IMP-PHO-T-PA": {
+      "ployName": "Emboscada Paciente",
+      "description": "Usa este ardid de tiroteo cuando sea tu turno de activar un agente amigo. Puedes saltarte esa activación."
+    },
+    "IMP-PHO-T-SA": {
+      "ployName": "Asalto Sigiloso",
+      "description": "Usa este ardid de tiroteo cuando un agente EQUIPO DE ATAQUE PHOBOS amigo que tenga una orden de Ocultarse se active, reciba una orden de Trabarse, realice la acción Cargar y después la acción Combatir,\ny estés resolviendo tu primer dado de ataque de esta activación.\nTras hacerlo, puedes resolver inmediatamente otro de tus dados de ataque (antes que tu oponente). El agente no puede haber realizado ninguna otra acción durante esta activación (pero puede hacerlo tras resolver este ardid)."
+    },
+    "IMP-PHO-T-TP": {
+      "ployName": "Fisiología Transhumana",
+      "description": "Usa este ardid de tiroteo cuando un agente dispare contra un agente EQUIPO DE ATAQUE PHOBOS amigo, en el paso de Tirar dados de defensa.\nPuedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
+    }
+  },
   "equipments": {
     "IMP-PHO-PS": {
-      "effects": ""
+      "eqName": "Sellos de Pureza",
+      "description": "Una vez por punto de inflexión, cuando un agente EQUIPO DE ATAQUE PHOBOS amigo esté disparando, combatiendo o contraatacando, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como éxito normal en su lugar."
     },
     "IMP-PHO-AUG": {
-      "effects": ""
+      "eqName": "Granadas Especiales Adicionales",
+      "description": "Este equipo te permite elegir cuatro granadas especiales del equipo Granadas Especiales (ver equipo universal).  \n\nNo puedes elegir también ese equipo de la forma normal (es decir, para tener seis)."
     },
     "IMP-PHO-CB": {
-      "effects": "ADDWEP:Combat Blade|M|5|3+|3/4|"
+      "eqName": "Filopuñales",
+      "description": "Los agentes EQUIPO DE ATAQUE PHOBOS amigos tienen la siguiente arma de combate:",
+      "weapons": {
+        "IMP-PHO-CB-COMBAT-BLADE": {
+          "wepName": "Filopuñal"
+        }
+      }
     },
     "IMP-PHO-SIA": {
-      "effects": ""
+      "eqName": "Munición Especial",
+      "description": "Una vez por punto de inflexión, cuando un agente EQUIPO DE ATAQUE PHOBOS amigo esté realizando la acción Disparar y elijas una carabina bólter, una carabina bólter de tirador o una carabina bólter occulus,\npuedes usar esta regla. Si lo haces, hasta el final del punto de inflexión, esa arma tiene la regla de armas Penetración 1."
+    }
+  },
+  "teamAbilities": {
+    "IMP-PHO-TA-AS": {
+      "abilityName": "Astartes",
+      "description": "Durante la activación de cada agente EQUIPO DE ATAQUE PHOBOS amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar, debe seleccionarse un arma bólter al menos para una de ellas.\nUn arma bólter es cualquier arma a distancia que incluya 'bólter' en su nombre, p. ej. carabina bólter de tirador, pistola bólter especial, etc.  \n\nCada agente EQUIPO DE ATAQUE PHOBOS amigo puede reaccionar independientemente de su orden."
+    },
+    "IMP-PHO-TA-CUBA": {
+      "abilityName": "Personalizada - Equilibrada",
+      "description": "La carabina bólter personalizada obtiene la regla de armas Equilibrada."
+    },
+    "IMP-PHO-TA-CULE": {
+      "abilityName": "Personalizada - Letal 5+",
+      "description": "La carabina bólter personalizada obtiene la regla de armas Letal 5+."
+    },
+    "IMP-PHO-TA-CUPICR": {
+      "abilityName": "Personalizada - Penetración Crítica 1",
+      "description": "La carabina bólter personalizada obtiene la regla de armas Penetración Crítica 1."
+    },
+    "IMP-PHO-TA-CURE": {
+      "abilityName": "Personalizada - Desgarradora",
+      "description": "La carabina bólter personalizada obtiene la regla de armas Desgarradora."
+    },
+    "IMP-PHO-TA-CUSA": {
+      "abilityName": "Personalizada - Saturación",
+      "description": "La carabina bólter personalizada obtiene la regla de armas Saturación."
     }
   },
   "opTypes": {
+    "IMP-PHO-INFSGT": {
+      "opTypeName": "Sargento Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFSGT-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFSGT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFSGT-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        },
+        "IMP-PHO-INFSGT-A-TA": {
+          "abilityName": "Ventaja Táctica",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por batalla:\n\n- Al hacer la tirada de desempate para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tus dados.\n- Puedes usar un ardid de tiroteo por 0PM si este es el agente EQUIPO DE ATAQUE PHOBOS especificado (incluida la Repetición de mando si los dados de ataque o de defensa se tiraron por este agente),\no el ardid de tiroteo Emboscada Paciente por 0PM si este agente está preparado y no está dentro de la zona de control de agentes enemigos.\n"
+        }
+      }
+    },
+    "IMP-PHO-INFCOM": {
+      "opTypeName": "Comunicador Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFCOM-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFCOM-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFCOM-A-CA": {
+          "abilityName": "Equipo de Comunicaciones",
+          "description": "Una vez por punto de inflexión, durante la activación o reacción de un agente EQUIPO DE ATAQUE PHOBOS amigo, antes o después de que realice una acción,\nsi este agente está en la zona de aniquilación, puedes cambiar un ardid de estrategia que hayas usado en este punto de inflexión (hacerlo no te cuesta ningún PM)."
+        },
+        "IMP-PHO-INFCOM-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        },
+        "IMP-PHO-INFCOM-A-SA": {
+          "abilityName": "Supervisión Estratégica",
+          "description": "En el paso de Preparar de cada fase de estrategia, cuando obtengas PM, si este agente está en la zona de aniquilación y no está dentro de la zona de control de agentes enemigos, puedes usar esta regla.\nSi lo haces, tira un D6: con un 4+, obtienes un PM adicional."
+        }
+      }
+    },
+    "IMP-PHO-INFHEL": {
+      "opTypeName": "Adepto Helix Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFHEL-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFHEL-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFHEL-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente EQUIPO DE ATAQUE PHOBOS amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese otro agente estén dentro de la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no queda incapacitado, le quedan 1D3 heridas y no puede quedar incapacitado durante el resto de esa acción.  \n\r Tras esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento dentro de la zona de control de este agente.\r Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus respectivas siguientes activaciones, y si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\r No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        },
+        "IMP-PHO-INFHEL-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        }
+      },
+      "actions": {
+        "IMP-PHO-INFHEL-HG": {
+          "name": "Guantelete Helix",
+          "effects": [
+            "Elige un agente EQUIPO DE ATAQUE PHOBOS amigo dentro de la zona de control de este agente para que recupere hasta 1D3+3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
     "IMP-PHO-INFSAB": {
+      "opTypeName": "Saboteador Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFSAB-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFSAB-RD": {
+          "wepName": "Detonador remoto"
+        },
+        "IMP-PHO-INFSAB-F": {
+          "wepName": "Puños"
+        }
+      },
       "abilities": {
         "IMP-PHO-INFSAB-A-DET": {
-          "description": "Don't select a valid target. Instead, shoot against each operative within 2\" of your Explosives marker, unless Heavy terrain is wholly intervening between that operative and that marker.\nEach of those operatives cannot be in cover or obscured.\nRoll each sequence separately in an order of your choice.\nThis weapon cannot be selected if your Explosives marker is not in the killzone.\nAt the end of the action, remove your Explosives marker from the killzone.\nIn a killzone that uses the close quarters rules (e.g. Killzone: Tomb World), this weapon has the Lethal 5+ weapon rule."
+          "abilityName": "*Detonar",
+          "description": "No elijas un objetivo válido. En su lugar, dispara contra cada agente a 2\" o menos de tu marcador de Explosivos, salvo que haya terreno Pesado totalmente interpuesto entre ese agente y ese marcador.\nNinguno de esos agentes puede estar en cobertura ni ofuscado.\nTira cada secuencia por separado en el orden que elijas.\nEsta arma no puede elegirse si tu marcador de Explosivos no está en la zona de aniquilación.\nAl final de la acción, retira tu marcador de Explosivos de la zona de aniquilación."
+        },
+        "IMP-PHO-INFSAB-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        },
+        "IMP-PHO-INFSAB-A-PE": {
+          "abilityName": "Colocar Explosivos",
+          "description": "Este agente lleva tu marcador de Explosivos.\nPuede realizar la acción Recoger Marcador sobre ese marcador, y siempre que realice la acción Colocar Marcador sobre ese marcador, puede realizar inmediatamente una acción Correr gratuita."
+        }
+      }
+    },
+    "IMP-PHO-INFVET": {
+      "opTypeName": "Veterano Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFVET-CBC": {
+          "wepName": "Carabina bólter personalizada"
+        },
+        "IMP-PHO-INFVET-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFVET-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        }
+      }
+    },
+    "IMP-PHO-INFVOX": {
+      "opTypeName": "Rompevox Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFVOX-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFVOX-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFVOX-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        },
+        "IMP-PHO-INFVOX-A-VB": {
+          "abilityName": "Rompevox",
+          "description": "Siempre que un agente enemigo esté a 6\" o menos de este agente, tu oponente no puede repetir sus dados de ataque ni de defensa por ese agente."
+        }
+      },
+      "actions": {
+        "IMP-PHO-INFVOX-SCAN": {
+          "name": "Escaneo de Áuspex",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero),",
+            "siempre que un agente EQUIPO DE ATAQUE PHOBOS amigo dispare contra un agente enemigo a 8\" o menos de este agente,",
+            "ese agente enemigo no puede estar ofuscado; si ese agente amigo es un INCURSOR, sus armas a distancia también tienen la regla de armas Buscadora (Ligero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-PHO-INFWAR": {
+      "opTypeName": "Combatiente Infiltrador",
+      "weapons": {
+        "IMP-PHO-INFWAR-MBC": {
+          "wepName": "Carabina bólter de tirador"
+        },
+        "IMP-PHO-INFWAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INFWAR-A-OS": {
+          "abilityName": "Omniinterferidor",
+          "description": "**GAMBITO ESTRATÉGICO** si hay un agente INFILTRADOR amigo en la zona de aniquilación.\nElige un agente enemigo visible para un agente INFILTRADOR amigo, o a 6\" o menos de un agente ROMPEVOX amigo.\nEn la siguiente fase de tiroteo, ese agente enemigo no puede activarse ni realizar acciones hasta que se cumpla una de las siguientes condiciones:\n\n- Tu oponente ha activado un número de agentes enemigos igual al número de agentes INFILTRADOR amigos que había en la zona de aniquilación cuando se usó este GAMBITO ESTRATÉGICO.\n- Es el último agente enemigo por activar.\n"
+        },
+        "IMP-PHO-INFWAR-A-VG": {
+          "abilityName": "Vanguardia",
+          "description": "Una vez por punto de inflexión, un agente EQUIPO DE ATAQUE PHOBOS amigo con esta regla puede realizar la acción Recoger Marcador o una acción de misión por 1 PA menos."
+        }
+      }
+    },
+    "IMP-PHO-INCSGT": {
+      "opTypeName": "Sargento Incursor",
+      "weapons": {
+        "IMP-PHO-INCSGT-OBC": {
+          "wepName": "Carabina bólter occulus"
+        },
+        "IMP-PHO-INCSGT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INCSGT-A-MSA": {
+          "abilityName": "Sensor Multiespectral",
+          "description": "Siempre que un agente INCURSOR amigo dispare, los agentes enemigos no pueden estar ofuscados."
+        },
+        "IMP-PHO-INCSGT-A-TA": {
+          "abilityName": "Ventaja Táctica",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por batalla:\n\n- Al hacer la tirada de desempate para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tus dados.\n- Puedes usar un ardid de tiroteo por 0PM si este es el agente EQUIPO DE ATAQUE PHOBOS especificado (incluida la Repetición de mando si los dados de ataque o de defensa se tiraron por este agente),\no el ardid de tiroteo Emboscada Paciente por 0PM si este agente está preparado y no está dentro de la zona de control de agentes enemigos.\n"
+        }
+      }
+    },
+    "IMP-PHO-INCMARK": {
+      "opTypeName": "Tirador Incursor",
+      "weapons": {
+        "IMP-PHO-INCMARK-SMBC": {
+          "wepName": "Carabina bólter de tirador silencio"
+        },
+        "IMP-PHO-INCMARK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INCMARK-A-MSA": {
+          "abilityName": "Sensor Multiespectral",
+          "description": "Siempre que un agente INCURSOR amigo dispare, los agentes enemigos no pueden estar ofuscados."
+        },
+        "IMP-PHO-INCMARK-A-TT": {
+          "abilityName": "Rastrear Objetivo",
+          "description": "Este agente puede realizar la acción Ponerse en guardia (ver reglas de combate en espacios cerrados, Libro Básico de Kill Team) en cualquier zona de aniquilación.\nPuede realizar la acción Ponerse en guardia mientras tenga una orden de Ocultarse, pero cuando realices la acción gratuita Disparar o Combatir durante la interrupción, debes cambiar su orden a Trabarse."
+        }
+      }
+    },
+    "IMP-PHO-INCML": {
+      "opTypeName": "Minador Incursor",
+      "weapons": {
+        "IMP-PHO-INCML-OBC": {
+          "wepName": "Carabina bólter occulus"
+        },
+        "IMP-PHO-INCML-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INCML-A-HW": {
+          "abilityName": "Mina Perturbadora",
+          "description": "Este agente lleva tu marcador de Mina Perturbadora.\nPuede realizar la acción Recoger Marcador sobre ese marcador, pero ese marcador no puede colocarse dentro de la zona de control de un agente enemigo\n(si este agente queda incapacitado mientras lleva ese marcador y ese marcador no puede colocarse, se retira junto con este agente)."
+        },
+        "IMP-PHO-INCML-A-MSA": {
+          "abilityName": "Sensor Multiespectral",
+          "description": "Siempre que un agente INCURSOR amigo dispare, los agentes enemigos no pueden estar ofuscados."
+        },
+        "IMP-PHO-INCML-A-PM": {
+          "abilityName": "Mina de Proximidad",
+          "description": "La primera vez que tu marcador de Mina Perturbadora esté dentro de la zona de control de otro agente,\nretira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación e inflígele 2D3+3 de daño;\nsi no queda incapacitado, termina su acción (si la hay), aunque no se hayan cumplido los efectos de esa acción.\nSi no puede colocarse, muévelo la distancia mínima para poder hacerlo.\nTen en cuenta que este agente se ignora para estos efectos (es decir, no puede activarlo ni recibir daño de ese marcador)."
+        }
+      }
+    },
+    "IMP-PHO-INCWAR": {
+      "opTypeName": "Combatiente Incursor",
+      "weapons": {
+        "IMP-PHO-INCWAR-OBC": {
+          "wepName": "Carabina bólter occulus"
+        },
+        "IMP-PHO-INCWAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-INCWAR-A-MSA": {
+          "abilityName": "Sensor Multiespectral",
+          "description": "Siempre que un agente INCURSOR amigo dispare, los agentes enemigos no pueden estar ofuscados."
+        },
+        "IMP-PHO-INCWAR-A-VG": {
+          "abilityName": "Vanguardia",
+          "description": "Una vez por punto de inflexión, un agente EQUIPO DE ATAQUE PHOBOS amigo con esta regla puede realizar la acción Recoger Marcador o una acción de misión por 1 PA menos."
+        }
+      }
+    },
+    "IMP-PHO-RVRSGT": {
+      "opTypeName": "Sargento Segador",
+      "weapons": {
+        "IMP-PHO-RVRSGT-BC": {
+          "wepName": "Carabina bólter"
+        },
+        "IMP-PHO-RVRSGT-SIBP": {
+          "wepName": "Pistola bólter especial"
+        },
+        "IMP-PHO-RVRSGT-CK": {
+          "wepName": "Cuchillo de combate"
+        },
+        "IMP-PHO-RVRSGT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-RVRSGT-A-GCGL": {
+          "abilityName": "Gravicaídas y Lanzagarfios",
+          "description": "Siempre que este agente trepe, puedes considerar que la distancia vertical es de 2\" (independientemente de cuánto se mueva realmente el agente en vertical). Siempre que este agente se deje caer, ignora la distancia vertical."
+        },
+        "IMP-PHO-RVRSGT-A-TA": {
+          "abilityName": "Ventaja Táctica",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por batalla:\n\n- Al hacer la tirada de desempate para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tus dados.\n- Puedes usar un ardid de tiroteo por 0PM si este es el agente EQUIPO DE ATAQUE PHOBOS especificado (incluida la Repetición de mando si los dados de ataque o de defensa se tiraron por este agente),\no el ardid de tiroteo Emboscada Paciente por 0PM si este agente está preparado y no está dentro de la zona de control de agentes enemigos.\n"
+        },
+        "IMP-PHO-RVRSGT-A-TER": {
+          "abilityName": "Terror",
+          "description": "Siempre que un agente enemigo esté a 3\" o menos de agentes SEGADOR amigos, tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Recoger Marcador y acciones de misión.  \n\nAl determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de agentes SEGADOR amigos.\nTen en cuenta que esto no es un cambio al atributo LPA, así que cualquier cambio es acumulativo con esto."
+        }
+      }
+    },
+    "IMP-PHO-RVRWAR": {
+      "opTypeName": "Combatiente Segador",
+      "weapons": {
+        "IMP-PHO-RVRWAR-BC": {
+          "wepName": "Carabina bólter"
+        },
+        "IMP-PHO-RVRWAR-SIBP": {
+          "wepName": "Pistola bólter especial"
+        },
+        "IMP-PHO-RVRWAR-CK": {
+          "wepName": "Cuchillo de combate"
+        },
+        "IMP-PHO-RVRWAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-PHO-RVRWAR-A-GCGL": {
+          "abilityName": "Gravicaídas y Lanzagarfios",
+          "description": "Siempre que este agente trepe, puedes considerar que la distancia vertical es de 2\" (independientemente de cuánto se mueva realmente el agente en vertical). Siempre que este agente se deje caer, ignora la distancia vertical."
+        },
+        "IMP-PHO-RVRWAR-A-TER": {
+          "abilityName": "Terror",
+          "description": "Siempre que un agente enemigo esté a 3\" o menos de agentes SEGADOR amigos, tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Recoger Marcador y acciones de misión.  \n\nAl determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de agentes SEGADOR amigos.\nTen en cuenta que esto no es un cambio al atributo LPA, así que cualquier cambio es acumulativo con esto."
+        },
+        "IMP-PHO-RVRWAR-A-VG": {
+          "abilityName": "Vanguardia",
+          "description": "Una vez por punto de inflexión, un agente EQUIPO DE ATAQUE PHOBOS amigo con esta regla puede realizar la acción Recoger Marcador o una acción de misión por 1 PA menos."
         }
       }
     }

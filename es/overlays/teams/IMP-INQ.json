@@ -29,7 +29,7 @@
     },
     "IMP-INQ-T-IP": {
       "ployName": "Presencia Intimidante",
-      "description": "Usa este ardid de tiroteo cuando un agente enemigo visible para un agente AGENTE INQUISITORIAL amigo y a 3\" o menos de él, o visible para un agente MÍSTICO amigo y a 6\" o menos de él, realice la acción Recoger Marcador o una acción de misión (excepto Operar Escotilla).\nTu oponente debe gastar 1PA adicional para que ese agente enemigo realice esa acción (si no puede o decide no hacerlo, se le reembolsan los PA gastados en ella)."
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo visible para un agente AGENTE INQUISITORIAL amigo y a 3\" o menos de él, o visible para un agente MÍSTICO amigo y a 6\" o menos de él, realice la acción Recoger Marcador o una acción de misión (excepto Operar escotilla).\nTu oponente debe gastar 1PA adicional para que ese agente enemigo realice esa acción (si no puede o decide no hacerlo, se le reembolsan los PA gastados en ella)."
     },
     "IMP-INQ-T-RPI": {
       "ployName": "Implacable en la Persecución",
@@ -1411,7 +1411,7 @@
         "IMP-INQ-INQ-INB24-HC-WS": {
           "name": "Soldar",
           "effects": [
-            "Elige una escotilla cerrada (p. ej., zona de aniquilación: Gallowdark) en la zona de control de este agente. Los demás agentes deben gastar 1PA adicional para realizar la acción Operar Escotilla para abrir esa escotilla.",
+            "Elige una escotilla cerrada (p. ej., zona de aniquilación: Gallowdark) en la zona de control de este agente. Los demás agentes deben gastar 1PA adicional para realizar la acción Operar escotilla para abrir esa escotilla.",
             "Este efecto termina cuando se abre esa escotilla. Ten en cuenta que este agente no se ve afectado por este efecto."
           ],
           "conditions": [

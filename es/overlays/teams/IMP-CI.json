@@ -25,7 +25,7 @@
     },
     "IMP-CI-T-GM": {
       "ployName": "Gloria a los mártires",
-      "description": "Usa este ardid de tiroteo cuando un agente CELESTE INSIDIANTE amigo quede incapacitado mientras combate o contraataca. Puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de que sea retirado de la zona de exterminio. Si ese agente enemigo queda incapacitado como resultado, ese agente amigo se vuelve INSPIRANTE antes de ser retirado de la zona de exterminio y puedes resolver la regla de facción Martirio."
+      "description": "Usa este ardid de tiroteo cuando un agente CELESTE INSIDIANTE amigo quede incapacitado mientras combate o contraataca. Puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de que sea retirado de la zona de aniquilación. Si ese agente enemigo queda incapacitado como resultado, ese agente amigo se vuelve INSPIRANTE antes de ser retirado de la zona de aniquilación y puedes resolver la regla de facción Martirio."
     },
     "IMP-CI-T-FF": {
       "ployName": "Fe y furia",
@@ -61,7 +61,7 @@
   "teamAbilities": {
     "IMP-CI-TA-MAR": {
       "abilityName": "Martirio",
-      "description": "Siempre que un agente CELESTE INSIDIANTE amigo INSPIRANTE quede incapacitado, antes de que sea retirado de la zona de exterminio, elige otro agente CELESTE INSIDIANTE amigo para el que ese agente sea visible o a 6\" o menos de él. Después, ese agente elegido obtiene una BENDICIÓN (los agentes incapacitados no pueden ser elegidos para una BENDICIÓN).\n\n**BENDICIONES:**\n\n*   **Ardor:** Hasta el final de la batalla, suma 1 al atributo LPA de ese agente. No puedes elegir esta BENDICIÓN para un agente SUPERIORA.\n*   **Ira:** Hasta el final de la batalla, las armas de la hoja de datos de ese agente tienen la regla de armas Incesante.\n*   **Restauración:** Ese agente recupera hasta D3+2 heridas perdidas.\n*   **Exigencia:** Ese agente puede realizar inmediatamente una acción gratuita de Cargar o de Correr (en el primer caso, no puede moverse más de 3\"), pero debe terminar ese movimiento más cerca de ese agente INSPIRANTE incapacitado."
+      "description": "Siempre que un agente CELESTE INSIDIANTE amigo INSPIRANTE quede incapacitado, antes de que sea retirado de la zona de aniquilación, elige otro agente CELESTE INSIDIANTE amigo para el que ese agente sea visible o a 6\" o menos de él. Después, ese agente elegido obtiene una BENDICIÓN (los agentes incapacitados no pueden ser elegidos para una BENDICIÓN).\n\n**BENDICIONES:**\n\n*   **Ardor:** Hasta el final de la batalla, suma 1 al atributo LPA de ese agente. No puedes elegir esta BENDICIÓN para un agente SUPERIORA.\n*   **Ira:** Hasta el final de la batalla, las armas de la hoja de datos de ese agente tienen la regla de armas Incesante.\n*   **Restauración:** Ese agente recupera hasta D3+2 heridas perdidas.\n*   **Exigencia:** Ese agente puede realizar inmediatamente una acción gratuita de Cargar o de Correr (en el primer caso, no puede moverse más de 3\"), pero debe terminar ese movimiento más cerca de ese agente INSPIRANTE incapacitado."
     },
     "IMP-CI-TA-WWH": {
       "abilityName": "Armas de las cazadoras de brujas",

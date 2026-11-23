@@ -13,7 +13,7 @@
     },
     "TAU-PF-S-RS": {
       "ployName": "Barrido de reconocimiento",
-      "description": "Elige un borde de la zona de exterminio (excepto el tuyo). Cada agente RASTREADOR amigo que esté totalmente a 6\" o menos de ese borde puede realizar inmediatamente una acción gratuita de Correr en el orden que elijas, pero cada uno que lo haga debe terminar ese movimiento totalmente a 6\" o menos de un borde de la zona de exterminio (excepto el tuyo). No puedes usar este ardid durante el primer punto de inflexión."
+      "description": "Elige un borde de la zona de aniquilación (excepto el tuyo). Cada agente RASTREADOR amigo que esté totalmente a 6\" o menos de ese borde puede realizar inmediatamente una acción gratuita de Correr en el orden que elijas, pero cada uno que lo haga debe terminar ese movimiento totalmente a 6\" o menos de un borde de la zona de aniquilación (excepto el tuyo). No puedes usar este ardid durante el primer punto de inflexión."
     },
     "TAU-PF-S-SF": {
       "ployName": "Fuego de supresión",
@@ -47,7 +47,7 @@
     },
     "TAU-PF-OSUL": {
       "eqName": "Enlace de reconocimiento orbital",
-      "description": "Una vez por punto de inflexión, cuando un agente RASTREADOR amigo realice la acción Designador láser, puedes usar esta regla.\nSi lo haces, puedes elegir en su lugar un agente enemigo en la zona de exterminio para que obtenga una de tus fichas de Designador láser (no necesita ser visible).\nEsto no es acumulativo con las reglas Designador láser de alta intensidad o Analizar."
+      "description": "Una vez por punto de inflexión, cuando un agente RASTREADOR amigo realice la acción Designador láser, puedes usar esta regla.\nSi lo haces, puedes elegir en su lugar un agente enemigo en la zona de aniquilación para que obtenga una de tus fichas de Designador láser (no necesita ser visible).\nEsto no es acumulativo con las reglas Designador láser de alta intensidad o Analizar."
     },
     "TAU-PF-HIML": {
       "eqName": "Designador láser de alta intensidad",
@@ -156,7 +156,7 @@
       "abilities": {
         "TAU-PF-DC-A-DC": {
           "abilityName": "Controlador de drones",
-          "description": "Siempre que este agente esté en la zona de exterminio:\n\n- Suma 2\" al atributo Movimiento de los agentes DRON RASTREADOR amigos.\n- El ardid de tiroteo Protocolos salvadores te cuesta 0PM.\n"
+          "description": "Siempre que este agente esté en la zona de aniquilación:\n\n- Suma 2\" al atributo Movimiento de los agentes DRON RASTREADOR amigos.\n- El ardid de tiroteo Protocolos salvadores te cuesta 0PM.\n"
         }
       },
       "actions": {

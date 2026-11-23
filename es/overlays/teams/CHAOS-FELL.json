@@ -1,18 +1,350 @@
 {
   "killteamId": "CHAOS-FELL",
   "locale": "es",
+  "team": {
+    "killteamName": "Asoladores Fellgor",
+    "description": "De todos los Hombres Bestia mutantes esclavizados por los Dioses Oscuros, los Asoladores Fellgor se consideran los más grandes y poderosos.\nAcechan en pecios espaciales, subcolmenas y ruinas mancilladas por la disformidad, y usan sus agudos sentidos para rastrear a presas desprevenidas a través de la oscuridad antes de atacar y despedazar a sus enemigos con salvaje regocijo.",
+    "composition": "Un KillTeam ASOLADORES FELLGOR está compuesto por:\n\n- 1 agente CUERNO DE HIERRO ASOLADOR FELLGOR con una de las siguientes opciones:\n  - Pistola corrupta; espada sierra corrupta\n  - Pistola de plasma; garrote\n- 9 agentes ASOLADOR FELLGOR elegidos de la siguiente lista:\n  - TOQUE DE DIFUNTOS\n  - BRAMIDO DEL FLUJO\n  - CICATRIZ NUDOSA\n  - CUERNO SANGRIENTO\n  - AGUIJADOR DE LA MANADA\n  - DESTROZADOR\n  - CHAMÁN\n  - CUERNO TÓXICO\n  - VÁNDALO\n  - GUERRERO con una de las siguientes opciones:\n    - Pistola automática; garrote\n    - Pistola automática; cuchilla de carnicero\n\nSalvo los agentes GUERRERO, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "CHAOS-FELL-S-AMB": {
+      "ployName": "Emboscada",
+      "description": "Siempre que se active un agente ASOLADOR FELLGOR amigo, si su orden cambia de Ocultarse a Trabarse, está emboscando durante esa activación. Siempre que un agente ASOLADOR FELLGOR amigo que esté emboscando combata,\r puedes guardar uno de tus éxitos normales como éxito crítico en su lugar. Ten en cuenta que un agente que tenga una de tus fichas de Frenesí no puede emboscar."
+    },
+    "CHAOS-FELL-S-PFP": {
+      "ployName": "Lluvia de Disparos",
+      "description": "Siempre que un agente ASOLADOR FELLGOR amigo dispare contra un agente enemigo que haya sido disparado por otro agente ASOLADOR FELLGOR amigo durante este punto de inflexión, las armas a distancia de ese primer agente amigo tienen la regla de armas\nIncesante; si el agente enemigo ha sido disparado por más de otro agente ASOLADOR FELLGOR amigo durante este punto de inflexión, las armas a distancia de ese primer agente amigo tienen en su lugar la regla de armas Implacable.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej. todos los resultados de 2)  \n**Implacable:** Puedes repetir cualquiera o todos los dados de ataque."
+    },
+    "CHAOS-FELL-S-RD": {
+      "ployName": "Determinación Temeraria",
+      "description": "Siempre que un agente enemigo dispare contra un agente ASOLADOR FELLGOR amigo gastado, si no puedes guardar ninguna salvación por cobertura, puedes guardar uno de tus dados de defensa como éxito normal sin tirarlo."
+    },
+    "CHAOS-FELL-S-VT": {
+      "ployName": "Temperamento Violento",
+      "description": "Siempre que un agente ASOLADOR FELLGOR amigo combata o contraataque, después de tirar tus dados de ataque, puedes usar esta regla. Si lo haces, debes repetir todos tus dados de ataque (no puedes repetir solo algunos)."
+    },
+    "CHAOS-FELL-T-AF": {
+      "ployName": "Furia Animal",
+      "description": "Usa este ardid de tiroteo cuando un agente ASOLADOR FELLGOR amigo esté combatiendo o contraatacando y asestes un golpe con un éxito crítico. Inflige 1 de daño adicional con ese golpe."
+    },
+    "CHAOS-FELL-T-BS": {
+      "ployName": "Olfato de Sangre",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ASOLADOR FELLGOR amigo, cuando incapacite a un agente enemigo dentro de su zona de control. Elige otro agente\nASOLADOR FELLGOR amigo preparado que sea visible para el agente enemigo incapacitado y esté a 3\" o menos de él. Cuando ese primer agente amigo quede gastado, puedes activar ese\notro agente amigo antes de que active tu oponente. Cuando ese otro agente quede gastado, tu oponente activa a continuación de la forma normal."
+    },
+    "CHAOS-FELL-T-RR": {
+      "ployName": "Desenfreno Despiadado",
+      "description": "Usa este ardid de tiroteo después de que un agente ASOLADOR FELLGOR amigo realice la acción Combatir, si ya no está dentro de la zona de control de agentes enemigos. Ese agente amigo puede\nrealizar inmediatamente una acción Cargar gratuita (aunque ya haya realizado la acción Cargar durante esa activación), pero no puede moverse más de 3\" durante esa acción."
+    },
+    "CHAOS-FELL-T-WR": {
+      "ployName": "Ira Salvaje",
+      "description": "Usa este ardid de tiroteo cuando se active un agente ASOLADOR FELLGOR amigo. Hasta el final de la activación de ese agente, suma 1\" a su atributo Movimiento."
+    }
+  },
   "equipments": {
     "CHAOS-FELL-BA": {
-      "effects": ""
+      "eqName": "Adornos de Latón",
+      "description": "Una vez por batalla, puedes usar los ardides de tiroteo Furia Animal e Ira Salvaje por 0PM cada uno."
     },
     "CHAOS-FELL-GM": {
-      "effects": ""
+      "eqName": "Marcas de Sangre",
+      "description": "Una vez por punto de inflexión, cuando un agente ASOLADOR FELLGOR amigo esté combatiendo o contraatacando, puedes usar esta regla.\nSi lo haces, inflige 1 de daño a ese agente amigo y repite uno de tus dados de ataque. Si el resultado es un fallo, inflige 1 de daño adicional a ese agente amigo."
     },
     "CHAOS-FELL-CS": {
-      "effects": ""
+      "eqName": "Sigilo del Caos",
+      "description": "Una vez por punto de inflexión, cuando un agente esté disparando contra un agente ASOLADOR FELLGOR amigo, al inicio del paso de Tirar dados de defensa, puedes usar esta regla.\nSi lo haces, empeora en 1 la x de la regla de armas Penetración (si la hay) hasta el final de esa secuencia. Ten en cuenta que, por tanto, Penetración 1 se ignoraría."
     },
     "CHAOS-FELL-WP": {
-      "effects": "NOINJMOV"
+      "eqName": "Pintura de Guerra",
+      "description": "Puedes ignorar cualquier cambio en el atributo Movimiento de los agentes ASOLADOR FELLGOR amigos por estar heridos."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-FELL-TA-FR": {
+      "abilityName": "Frenesí",
+      "description": "Siempre que un agente ASOLADOR FELLGOR amigo que no tenga una de tus fichas de Frenesí fuera a quedar incapacitado durante la batalla, no queda incapacitado y obtiene una de tus fichas de Frenesí.\nTodos los dados de ataque restantes se descartan (incluidos los tuyos si este agente está combatiendo o contraatacando).\nSi tiene una orden de Ocultarse, cámbiala a Trabarse.  \n\nSiempre que un agente ASOLADOR FELLGOR amigo tenga una de tus fichas de Frenesí:\n\n- Solo queda incapacitado según se detalla más abajo.\n- No puede tener una orden de Ocultarse.\n- Está herido.\n- No puede realizar la acción Recoger Marcador, acciones únicas (excepto Golpe Barredor, ver VÁNDALO) ni acciones de misión (excepto Operar escotilla).\n- A efectos de determinar el control de marcadores y de áreas de la zona de aniquilación, considera que su atributo LPA es 1. Esto tiene prioridad sobre cualquier cambio de atributos.\n\n\nUn agente ASOLADOR FELLGOR amigo que tenga una de tus fichas de Frenesí queda incapacitado cuando se cumple una de las siguientes condiciones:\n\n- Su activación o reacción termina.\n- Un agente enemigo está combatiendo o contraatacando contra él y tu oponente asesta un golpe con un éxito crítico.\n- Un agente enemigo está combatiendo o contraatacando contra él y tu oponente lo golpea por segunda vez con un éxito normal. Ten en cuenta que pueden ser golpes de dos acciones de Combatir diferentes.\n- Un agente enemigo le está disparando y se le inflige Daño crítico.\n- Un agente enemigo le está disparando y se le inflige Daño normal de dos o más dados de ataque.\n- La batalla termina (resuelve esto antes que cualquier condición de victoria que se resuelva al final de la batalla).\n\n\nTu oponente considera que un agente ASOLADOR FELLGOR está incapacitado (en lugar de cuando quedaría incapacitado normalmente) cuando obtiene una de tus fichas\nde Frenesí, a efectos de puntuar PV (p. ej. operación de exterminio) y de reglas de facción que requieren que esté incapacitado (p. ej. Poder del Dolor de la MANO DEL ARCONTE, Mutación del CULTO DEL CAOS, etc.)."
+    }
+  },
+  "opTypes": {
+    "CHAOS-FELL-IH": {
+      "opTypeName": "Cuerno de Hierro Fellgor",
+      "weapons": {
+        "CHAOS-FELL-IH-CP": {
+          "wepName": "Pistola corrupta"
+        },
+        "CHAOS-FELL-IH-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-FELL-IH-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-FELL-IH-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-FELL-IH-BL": {
+          "wepName": "Garrote"
+        },
+        "CHAOS-FELL-IH-CC": {
+          "wepName": "Espada sierra corrupta"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-IH-A-CTA": {
+          "abilityName": "Ordenar el Ataque",
+          "description": "**GAMBITO ESTRATÉGICO** si este agente no tiene una de tus fichas de Frenesí. Elige un agente ASOLADOR FELLGOR amigo visible para este agente y a 6\" o menos de él.\nEse agente elegido, y cada uno de los demás agentes ASOLADOR FELLGOR amigos visibles para él y a 2\" o menos de él, pueden realizar inmediatamente una acción Correr gratuita en el orden que elijas."
+        }
+      }
+    },
+    "CHAOS-FELL-DK": {
+      "opTypeName": "Toque de Difuntos Fellgor",
+      "weapons": {
+        "CHAOS-FELL-DK-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-DK-BL": {
+          "wepName": "Garrote"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-DK-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Este agente no se ve afectado por el punto sobre el control de marcadores de la regla de facción Frenesí. Siempre que se determine el control de un marcador, considera que el atributo LPA de este\nagente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, así que cualquier cambio es acumulativo con esto."
+        },
+        "CHAOS-FELL-DK-A-WG": {
+          "abilityName": "Gong de Guerra",
+          "description": "Siempre que un dado de ataque fuera a infligir Daño crítico a un agente ASOLADOR FELLGOR amigo a 3\" o menos de este agente, si este agente no tiene una de tus fichas de Frenesí, puedes elegir que ese dado de ataque inflija Daño normal en su lugar."
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-DK-GK": {
+          "name": "Tañido del Gong",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que este agente quede incapacitado (lo que ocurra primero), siempre que un agente dispare contra este agente, mejora en 1 el atributo Salvación de este agente."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-FB": {
+      "opTypeName": "Bramido del Flujo Fellgor",
+      "weapons": {
+        "CHAOS-FELL-FB-3C": {
+          "wepName": "Cuchillas de carnicero triples",
+          "profiles": {
+            "CHAOS-FELL-FB-3C-0": {
+              "profileName": "Ofensivo"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-FB-A-BW": {
+          "abilityName": "Remolino de Hojas",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, si no tiene una de tus fichas de Frenesí, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-FB-CF": {
+          "name": "Ráfaga de Cuchillas",
+          "effects": [
+            "Realiza una acción Reposicionarse gratuita con este agente. Durante esa acción, puede moverse 2\" adicionales y puede moverse dentro de la zona de control de agentes enemigos (no puede empezar ni terminar el movimiento allí).",
+            "Inflige D3+1 de daño a cada agente enemigo en cuya zona de control se haya movido (tira por separado para cada uno después de que se haya movido, en el orden en que se movió dentro de su zona de control)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-GS": {
+      "opTypeName": "Cicatriz Nudosa Fellgor",
+      "weapons": {
+        "CHAOS-FELL-GS-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-GS-BF": {
+          "wepName": "Puño biónico"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-GS-A-SAG": {
+          "abilityName": "Sagaz",
+          "description": "Al final de la activación de este agente, puedes cambiar su orden."
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-GS-UCA": {
+          "name": "Ataque Inflexible",
+          "effects": [
+            "Realiza una acción Combatir gratuita con este agente y después una acción Disparar gratuita con este agente (o viceversa).",
+            "Este agente puede realizar esa acción Disparar mientras esté dentro de la zona de control de un agente enemigo, pero si lo hace, puede y debe elegir como objetivo a un agente enemigo dentro de su zona de control",
+            "(aunque haya otros agentes amigos dentro de la zona de control de ese agente enemigo). Solo puedes elegir una pistola automática para esa acción Disparar."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-GH": {
+      "opTypeName": "Cuerno Sangriento Fellgor",
+      "weapons": {
+        "CHAOS-FELL-GH-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-GH-SC": {
+          "wepName": "Partecráneos"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-GH-A-CHP": {
+          "abilityName": "Campeón",
+          "description": "Este agente puede realizar dos acciones Combatir durante su activación."
+        }
+      }
+    },
+    "CHAOS-FELL-HG": {
+      "opTypeName": "Aguijador de la Manada Fellgor",
+      "weapons": {
+        "CHAOS-FELL-HG-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-HG-CWR": {
+          "wepName": "Látigo de espinas restallante"
+        },
+        "CHAOS-FELL-HG-CWM": {
+          "wepName": "Látigo de espinas restallante"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-HG-A-WC": {
+          "abilityName": "Control del Látigo",
+          "description": "Siempre que un agente enemigo sea visible para este agente y esté a 3\" o menos de él, si este agente no está dentro de la zona de control de ningún otro agente enemigo:\n\n- Resta 1 al atributo Ataque de las armas de combate de ese agente enemigo (hasta un mínimo de 1).\n- Tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Retroceder.\n"
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-HG-IF": {
+          "name": "Incitar Furia",
+          "effects": [
+            "Elige otro agente ASOLADOR FELLGOR amigo (excepto CHAMÁN y CUERNO DE HIERRO) visible para este agente y a 3\" o menos de él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-MNG": {
+      "opTypeName": "Destrozador Fellgor",
+      "weapons": {
+        "CHAOS-FELL-MNG-VC": {
+          "wepName": "Garras voraces"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-MNG-A-BSK": {
+          "abilityName": "Berserker",
+          "description": "Este agente no puede realizar la acción Disparar (salvo con Ponerse en Guardia, pero en ese caso no puede realizar una acción Disparar gratuita durante la interrupción).\nDebes gastar 1 PA adicional para que este agente realice la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-FELL-MNG-A-SAV": {
+          "abilityName": "Salvaje",
+          "description": "La primera vez que este agente realice la acción Combatir durante cada una de sus activaciones, si no está incapacitado, puede realizar inmediatamente después una acción Combatir gratuita\n(no tienes que elegir el mismo agente enemigo contra el que combatir).\nEsto tiene prioridad sobre las restricciones de acciones, y no puedes usar el ardid de tiroteo Desenfreno Despiadado entre esas dos acciones Combatir."
+        }
+      }
+    },
+    "CHAOS-FELL-SHA": {
+      "opTypeName": "Chamán Fellgor",
+      "weapons": {
+        "CHAOS-FELL-SHA-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-SHA-TC": {
+          "wepName": "Tecnomaldición"
+        },
+        "CHAOS-FELL-SHA-BS": {
+          "wepName": "Báculo bramido"
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-SHA-ARJ": {
+          "name": "Rejuvenecimiento Apoplético",
+          "effects": [
+            "Elige un agente ASOLADOR FELLGOR amigo que no tenga una de tus fichas de Frenesí y que sea visible para este agente y esté a 6\" o menos de él.",
+            "Ese agente amigo recupera 2D3 heridas perdidas; si ese agente ha incapacitado a un agente enemigo mientras combatía o contraatacaba durante la batalla,",
+            "recupera 6 heridas perdidas en su lugar."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "CHAOS-FELL-SHA-MOD": {
+          "name": "Manto de Oscuridad",
+          "effects": [
+            "**PSÍQUICA**\r Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero), siempre que un agente ASOLADOR FELLGOR amigo esté a 3\" o menos de este agente,\r tenga una orden de Ocultarse y esté en cobertura, ese agente amigo no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-TOX": {
+      "opTypeName": "Cuerno Tóxico Fellgor",
+      "weapons": {
+        "CHAOS-FELL-TOX-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-TOX-CL": {
+          "wepName": "Cuchilla de carnicero"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-TOX-A-PB": {
+          "abilityName": "Bomba de Pestilencia",
+          "description": "Este agente puede usar granadas aturdidoras (ver equipo universal).  \n\nHacerlo no cuenta para ningún uso limitado que tengas (es decir, si también eliges esa granada del equipo para otros agentes).\nSiempre que un agente enemigo haga una prueba de aturdimiento como resultado de que este agente realice la acción Granada aturdidora, si el resultado es 3+, inflige también a ese agente enemigo un daño igual al resultado del D6 dividido entre dos (redondeando hacia arriba)."
+        },
+        "CHAOS-FELL-TOX-A-TB": {
+          "abilityName": "Bendiciones Tóxicas",
+          "description": "Puedes ignorar cualquier cambio en el atributo LPA de este agente, y no se ve afectado por la regla de armas Choque de los agentes enemigos. Siempre que un dado de ataque inflija Daño normal de 3 o más a este agente, tira un D6:\ncon un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "CHAOS-FELL-VND": {
+      "opTypeName": "Vándalo Fellgor",
+      "weapons": {
+        "CHAOS-FELL-VND-MC": {
+          "wepName": "Aplastahombres"
+        }
+      },
+      "actions": {
+        "CHAOS-FELL-VND-SB": {
+          "name": "Golpe Barredor",
+          "effects": [
+            "Inflige D3+1 de daño a cada otro agente visible para este agente y a 2\" o menos de él."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse."
+          ]
+        }
+      }
+    },
+    "CHAOS-FELL-WAR": {
+      "opTypeName": "Guerrero Fellgor",
+      "weapons": {
+        "CHAOS-FELL-WAR-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-FELL-WAR-BL": {
+          "wepName": "Garrote"
+        },
+        "CHAOS-FELL-WAR-CL": {
+          "wepName": "Cuchilla de carnicero"
+        }
+      },
+      "abilities": {
+        "CHAOS-FELL-WAR-A-WF": {
+          "abilityName": "Frenesí del Guerrero",
+          "description": "Siempre que este agente tenga una de tus fichas de Frenesí, no puede estar herido. Esto tiene prioridad sobre las reglas normales de Frenesí."
+        }
+      }
     }
   }
 }

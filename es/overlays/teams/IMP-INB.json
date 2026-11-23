@@ -9,7 +9,7 @@
   "ploys": {
     "IMP-INB-S-AO": {
       "ployName": "Orden de ataque",
-      "description": "Coloca tu marcador de Orden de ataque en la zona de exterminio. Siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo a 3\" o menos de ese marcador esté disparando, combatiendo o contraatacando, sus armas tienen la regla de armas Incesante.\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de defensa en la misma fase de estrategia.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
+      "description": "Coloca tu marcador de Orden de ataque en la zona de aniquilación. Siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo a 3\" o menos de ese marcador esté disparando, combatiendo o contraatacando, sus armas tienen la regla de armas Incesante.\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de defensa en la misma fase de estrategia.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
     },
     "IMP-INB-S-BFCA": {
       "ployName": "Preparados para el contraataque",
@@ -21,7 +21,7 @@
     },
     "IMP-INB-S-DO": {
       "ployName": "Orden de defensa",
-      "description": "Coloca tu marcador de Orden de defensa en la zona de exterminio. Siempre que un agente dispare a un agente ABORDADOR DE LA ARMADA IMPERIAL amigo que esté a 3\" o menos de ese marcador, puedes repetir cualquiera de tus resultados de dados de defensa de un mismo valor (p. ej., resultados de 2).\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de ataque en la misma fase de estrategia."
+      "description": "Coloca tu marcador de Orden de defensa en la zona de aniquilación. Siempre que un agente dispare a un agente ABORDADOR DE LA ARMADA IMPERIAL amigo que esté a 3\" o menos de ese marcador, puedes repetir cualquiera de tus resultados de dados de defensa de un mismo valor (p. ej., resultados de 2).\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de ataque en la misma fase de estrategia."
     },
     "IMP-INB-T-BL": {
       "ployName": "Ofensiva relámpago",
@@ -29,7 +29,7 @@
     },
     "IMP-INB-T-DH": {
       "ployName": "Marinero de cubierta",
-      "description": "Usa este ardid de tiroteo durante la activación de un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, antes o después de que realice una acción.\r Ese agente puede moverse a través de un elemento de terreno Accesible sin que cuente como 1\" adicional y/o realizar una acción Operar portillo gratuita durante su activación, y puede hacerlo durante la acción Cargar o Retroceder.\r No puedes usar este ardid si el punto de acceso ha sido soldado (ver agente CORTAESCOTILLAS), salvo que sea la activación de un agente CORTAESCOTILLAS amigo."
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, antes o después de que realice una acción.\r Ese agente puede moverse a través de un elemento de terreno Accesible sin que cuente como 1\" adicional y/o realizar una acción Operar escotilla gratuita durante su activación, y puede hacerlo durante la acción Cargar o Retroceder.\r No puedes usar este ardid si el punto de acceso ha sido soldado (ver agente CORTAESCOTILLAS), salvo que sea la activación de un agente CORTAESCOTILLAS amigo."
     },
     "IMP-INB-T-LID": {
       "ployName": "Asegurar la posición",
@@ -55,7 +55,7 @@
     },
     "IMP-INB-SORD": {
       "eqName": "Dispositivo de anulación de sistemas",
-      "description": "Una vez por punto de inflexión, un agente ABORDADOR DE LA ARMADA IMPERIAL amigo puede realizar la acción Brecha u Operar portillo por 1 PA menos."
+      "description": "Una vez por punto de inflexión, un agente ABORDADOR DE LA ARMADA IMPERIAL amigo puede realizar la acción Brecha u Operar escotilla por 1 PA menos."
     }
   },
   "teamAbilities": {
@@ -102,7 +102,7 @@
       "abilities": {
         "IMP-INB-SGT-A-CB": {
           "abilityName": "Irrupción al mando",
-          "description": "Siempre que fueras a usar el ardid de estrategia Orden de ataque u Orden de defensa, si este agente está en la zona de exterminio, te cuesta 0PM.\nUna vez durante cada una de las activaciones de este agente, antes o después de que realice una acción, si tu marcador de Orden de ataque u Orden de defensa está en la zona de exterminio (ver el ardid de estrategia correspondiente), puedes elegir una de estas opciones:\n\n- Retirar ese marcador y volver a colocarlo.\n- Cambiar el ardid elegido por el otro (p. ej., tu Orden de ataque pasa a ser una Orden de defensa).\n\nNo puedes hacer ambas cosas, y no necesitas gastar PM para cambiar el ardid."
+          "description": "Siempre que fueras a usar el ardid de estrategia Orden de ataque u Orden de defensa, si este agente está en la zona de aniquilación, te cuesta 0PM.\nUna vez durante cada una de las activaciones de este agente, antes o después de que realice una acción, si tu marcador de Orden de ataque u Orden de defensa está en la zona de aniquilación (ver el ardid de estrategia correspondiente), puedes elegir una de estas opciones:\n\n- Retirar ese marcador y volver a colocarlo.\n- Cambiar el ardid elegido por el otro (p. ej., tu Orden de ataque pasa a ser una Orden de defensa).\n\nNo puedes hacer ambas cosas, y no necesitas gastar PM para cambiar el ardid."
         }
       }
     },
@@ -324,7 +324,7 @@
         "IMP-INB-HC-WS": {
           "name": "Soldar",
           "effects": [
-            "Elige una escotilla cerrada (p. ej., Zona de exterminio: Gallowdark) dentro de la zona de control de este agente. Los demás agentes deben gastar 1 PA adicional para realizar la acción Operar portillo para abrir esa escotilla.",
+            "Elige una escotilla cerrada (p. ej., Zona de aniquilación: Gallowdark) dentro de la zona de control de este agente. Los demás agentes deben gastar 1 PA adicional para realizar la acción Operar escotilla para abrir esa escotilla.",
             "Este efecto termina cuando se abre esa escotilla. Ten en cuenta que este agente no se ve afectado por este efecto."
           ],
           "conditions": [
@@ -358,7 +358,7 @@
             "Elige un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo. Ese agente puede realizar inmediatamente una acción gratuita, pero no puede moverse más de 3\" durante esa acción."
           ],
           "conditions": [
-            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo en la zona de exterminio."
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo en la zona de aniquilación."
           ]
         },
         "IMP-INB-SRV-WF": {
@@ -398,7 +398,7 @@
       "abilities": {
         "IMP-INB-VJ-A-DET": {
           "abilityName": "*Detonar",
-          "description": "No elijas un objetivo válido. En su lugar, un agente CRÁNEO ESPECTRAL ABORDADOR DE LA ARMADA IMPERIAL amigo es siempre el objetivo principal y no puede estar en cobertura ni oscurecido. Si ese agente no está en la zona de exterminio, no puedes elegir esta arma."
+          "description": "No elijas un objetivo válido. En su lugar, un agente CRÁNEO ESPECTRAL ABORDADOR DE LA ARMADA IMPERIAL amigo es siempre el objetivo principal y no puede estar en cobertura ni oscurecido. Si ese agente no está en la zona de aniquilación, no puedes elegir esta arma."
         }
       },
       "actions": {
@@ -409,7 +409,7 @@
             "con un 3+, resta 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación."
           ],
           "conditions": [
-            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente CRÁNEO ESPECTRAL amigo en la zona de exterminio."
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente CRÁNEO ESPECTRAL amigo en la zona de aniquilación."
           ]
         }
       }
