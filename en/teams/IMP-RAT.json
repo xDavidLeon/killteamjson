@@ -59,7 +59,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Shoot And Hide",
-      "description": "Use this Firefight Ploy after a friendly RATLING operative that has an Engage order perfoms the Shoot action with a rifle.\r If it is more than 3\" from enemy operatives, or not visible to every enemy operative, you can change its order to Conceal.\nAlternatively, use this firefight ploy when a friendly RATLING operative is on Vantage terrain and is shooting. During that action, you can ignore ramparts less than 2\" tall within its control range when determining visibility."
+      "description": "Use this Firefight Ploy after a friendly RATLING operative that has an Engage order performs the Shoot action with a rifle.\r If it is more than 3\" from enemy operatives, or not visible to every enemy operative, you can change its order to Conceal.\nAlternatively, use this firefight ploy when a friendly RATLING operative is on Vantage terrain and is shooting. During that action, you can ignore ramparts less than 2\" tall within its control range when determining visibility."
     },
     {
       "ployId": "IMP-RAT-T-SI",
@@ -808,7 +808,7 @@
           "abilityId": "IMP-RAT-RAID-A-GH",
           "opTypeId": "IMP-RAT-RAID",
           "abilityName": "Grappling Hook",
-          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the oeprative actually moves vertically)."
+          "description": "Whenever this operative is climbing up, you can treat the vertical distance as 2\" (regardless of how far the operative actually moves vertically)."
         },
         {
           "abilityId": "IMP-RAT-RAID-A-SCAR",

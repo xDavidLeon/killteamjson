@@ -67,7 +67,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Kaboom!",
-      "description": "Use this Firefight ploy when a friendly WRECKA KREW operative performs the Shoot action and a weapon with the Blast weapon rule is selected.\nUntil the end of that action, add 1\" to that weapons' Blast and it has the Severe weapon rule when shooting the primary target.\nYou cannot use this ploy and the Drill Rokkit rule (see equipment) during the same action.\nNote that Sever does not generate a Wrecka point (as it is not a 6)."
+      "description": "Use this Firefight ploy when a friendly WRECKA KREW operative performs the Shoot action and a weapon with the Blast weapon rule is selected.\nUntil the end of that action, add 1\" to that weapons' Blast and it has the Severe weapon rule when shooting the primary target.\nYou cannot use this ploy and the Drill Rokkit rule (see equipment) during the same action.\nNote that Severe does not generate a Wrecka point (as it is not a 6)."
     },
     {
       "ployId": "ORK-WK-T-PS",
@@ -395,7 +395,7 @@
           "abilityId": "ORK-WK-BBDEMO-A-RT",
           "opTypeId": "ORK-WK-BBDEMO",
           "abilityName": "Reckless Temperament",
-          "description": "Normal Dmg of 4 or more inflicts 1 less damage on this operative; if this operative has an Engage order, Critical Dmg or 4 or more also inflicts 1 less damage on this operative."
+          "description": "Normal Dmg of 4 or more inflicts 1 less damage on this operative; if this operative has an Engage order, Critical Dmg of 4 or more also inflicts 1 less damage on this operative."
         }
       ]
     },
