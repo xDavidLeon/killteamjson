@@ -69,7 +69,7 @@
           "abilityName": "Excavar"
         },
         "SPEC-DEVLAN-RTH-SI": {
-          "description": "Este NPO no puede quedar incapacitado ni lesionado y su atributo LPA no puede cambiar. Siempre que habría quedado incapacitado, recupera todas las heridas perdidas y cambia su comportamiento a Acecho; si ya está en Acecho, recupera todas las heridas perdidas y obtiene una ficha de Regeneración en su lugar (se explica en la tarjeta de Acecho). En cualquier caso, descarta todos los dados de ataque restantes (incluidos los propios de este NPO si combatía o contraatacaba). Siempre que este NPO tenga una ficha de Regeneración, se considera lesionado.",
+          "description": "Este NPO no puede quedar incapacitado ni herido y su atributo LPA no puede cambiar. Siempre que habría quedado incapacitado, recupera todas las heridas perdidas y cambia su comportamiento a Acecho; si ya está en Acecho, recupera todas las heridas perdidas y obtiene una ficha de Regeneración en su lugar (se explica en la tarjeta de Acecho). En cualquier caso, descarta todos los dados de ataque restantes (incluidos los propios de este NPO si combatía o contraatacaba). Siempre que este NPO tenga una ficha de Regeneración, se considera herido.",
           "abilityName": "Instintos de supervivencia"
         },
         "SPEC-DEVLAN-RTH-BC": {
@@ -115,7 +115,7 @@
           "abilityName": "Excavar"
         },
         "SPEC-DEVLAN-RTL-SI": {
-          "description": "Este NPO no puede quedar incapacitado ni lesionado y su atributo LPA no puede cambiar. Siempre que habría quedado incapacitado, recupera todas las heridas perdidas y cambia su comportamiento a Acecho; si ya está en Acecho, recupera todas las heridas perdidas y obtiene una ficha de Regeneración en su lugar (se explica en la tarjeta de Acecho). En cualquier caso, descarta todos los dados de ataque restantes (incluidos los propios de este NPO si combatía o contraatacaba). Siempre que este NPO tenga una ficha de Regeneración, se considera lesionado.",
+          "description": "Este NPO no puede quedar incapacitado ni herido y su atributo LPA no puede cambiar. Siempre que habría quedado incapacitado, recupera todas las heridas perdidas y cambia su comportamiento a Acecho; si ya está en Acecho, recupera todas las heridas perdidas y obtiene una ficha de Regeneración en su lugar (se explica en la tarjeta de Acecho). En cualquier caso, descarta todos los dados de ataque restantes (incluidos los propios de este NPO si combatía o contraatacaba). Siempre que este NPO tenga una ficha de Regeneración, se considera herido.",
           "abilityName": "Instintos de supervivencia"
         },
         "SPEC-DEVLAN-RTL-BC": {
