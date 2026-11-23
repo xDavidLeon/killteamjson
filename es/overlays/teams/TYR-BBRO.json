@@ -1,0 +1,510 @@
+{
+  "killteamId": "TYR-BBRO",
+  "locale": "es",
+  "team": {
+    "killteamName": "Hermanos de Prole",
+    "description": "Los Hermanos de Prole son los humanos de los Cultos Genestealer que han sido implantados por los genestealers y han servido de huéspedes para su descendencia de híbridos genestealer.  \n\nMuchos de estos Hermanos de Prole pueden ser miembros de las autoridades civiles o militares locales y seguir desempeñando sus funciones habituales en la sociedad. Permanecen ocultos hasta que el culto/clan es lo bastante poderoso como para hacerse por completo con el control de la sociedad que lo alberga. Consideran al Patriarca genestealer como un abuelo o una deidad, y a menudo lo veneran. Son miembros especialmente fanáticos del clan, motivados por intensos vínculos instintivos con sus parientes genestealers e híbridos. ",
+    "composition": "Un equipo de exterminio HERMANO DE PROLE está compuesto por:\n\n- 1 agente Comandante HERMANO DE PROLE con una de las siguientes opciones:\n  - Pistola bólter, espada sierra y garra\n  - Fusil automático con tambor, bayoneta\n  - Pistola láser, arma de energía y garra\n- 9 agentes HERMANO DE PROLE elegidos de la siguiente lista:\n  - Agitador\n  - Artillero con lanzallamas y bayoneta (1)\n  - Artillero con lanzagranadas y bayoneta (1)\n  - Artillero con rifle de fusión y bayoneta (1)\n  - Artillero con rifle de plasma y bayoneta (1)\n  - Portaicono\n  - Acuchillador\n  - Médico\n  - Zapador\n  - Francotirador (1)\n  - Soldado\n  - Veterano\n  - Operador de vox\n- 3 agentes Hermano de Prole elegidos de la siguiente lista (3):\n  - 2 agentes Familiar Psíquico (siguen contando como una sola selección)\n  - Magus (cuenta como dos selecciones) (2)\n  - Patriarca (cuenta como tres selecciones) (2)\n  - Primus (cuenta como dos selecciones) (2)\n  - Soldado\n\nSalvo los agentes Soldado, tu comando solo puede incluir cada opción de esta lista una vez.  \n\n(1) No puedes seleccionar más de tres de estos agentes en total.  \n\n(2) Tu comando solo puede incluir hasta un agente AQUELARRE DE PROLE. Si se selecciona uno de estos agentes para el despliegue, tu agente Comandante pierde la clave Líder durante la batalla.  \n\n(3) Hasta tres veces, en lugar de seleccionar uno de estos agentes, puedes seleccionar un ardid HERMANO DE PROLE para que te cueste 0PM durante la batalla. Ten en cuenta que las selecciones que \"cuentan como\" siguen aplicándose; por ejemplo, si seleccionas un agente Patriarca, no podrías hacer esto."
+  },
+  "ploys": {
+    "TYR-BBRO-S-CD": {
+      "ployName": "Devoción al Culto",
+      "description": "Siempre que un agente HERMANO DE PROLE amigo (salvo PATRIARCA) quede incapacitado al combatir o contraatacar,\nsi tienes algún dado de ataque sin resolver, puedes tirar 1D6.\nSi el resultado es un éxito como si fuera el paso de Tirar dados de ataque de esa secuencia (es decir, usando la misma arma, pero sin repeticiones), puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos\nnormales sin resolver, o con cualquiera de tus éxitos en su lugar si el resultado del 1D6 es un éxito crítico. En ambos casos, ese agente amigo se retira después de la zona de aniquilación."
+    },
+    "TYR-BBRO-S-EB": {
+      "ployName": "Infiltrados",
+      "description": "Siempre que un agente enemigo esté disparando contra un agente HERMANO DE PROLE amigo, si puedes conservar alguna salvación por cobertura como resultado de terreno Pesado, puedes conservar una salvación por cobertura adicional."
+    },
+    "TYR-BBRO-S-PER": {
+      "ployName": "Omnipresentes",
+      "description": "Durante la activación de un agente HERMANO DE PROLE amigo, puedes ignorar la primera distancia vertical de 2\" que mueva durante una escalada."
+    },
+    "TYR-BBRO-S-UPR": {
+      "ployName": "Alzamiento",
+      "description": "La primera vez que cada agente HERMANO DE PROLE amigo realice la acción Disparar o Combatir durante cada una de sus activaciones,\nsi su orden se cambió de Ocultarse a Trabarse al inicio de esa activación,\nel agente enemigo seleccionado como objetivo válido o contra el que combatir gana una de tus fichas de Fuego Cruzado en cuanto es seleccionado (en lugar de después de resolver tus dados de ataque).  \n\nEste ardid no tiene efecto si ese agente amigo se activó dentro de la zona de control de un agente enemigo.  \n\nTen en cuenta que este ardid no puede surtir efecto más de una vez por activación (no puedes usarlo durante la acción de disparar y durante la de combatir en la misma activación)."
+    },
+    "TYR-BBRO-T-UL": {
+      "ployName": "Lealtad Incuestionable",
+      "description": "Usa este ardid de tiroteo cuando un agente LÍDER HERMANO DE PROLE amigo sea seleccionado como objetivo válido de una acción Disparar o para combatir contra él durante la acción Combatir.\r Elige otro agente GUARDIA DE PROLE HERMANO DE PROLE amigo (salvo LÍDER) visible para ese agente LÍDER y a 3\" o menos de él para que pase a ser el objetivo válido o el agente contra el que se combate (según corresponda) en su lugar (aunque normalmente no sería válido para ello).\r Si es la acción Combatir, considera que ese otro agente está dentro de la zona de control del agente que combate mientras dure esa acción. Si es la acción Disparar, ese otro agente solo está en cobertura u ofuscado si el objetivo original lo estaba.  \n\r Este ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+    },
+    "TYR-BBRO-T-RC": {
+      "ployName": "Coordinación Despiadada",
+      "description": "Usa este ardid de tiroteo al seleccionar un objetivo válido para un agente HERMANO DE PROLE amigo.\r Hasta el final de la acción, determina la Visibilidad de forma normal, pero puedes determinar en su lugar lo que está interpuesto (para cobertura y ofuscación) desde otro agente HERMANO DE PROLE amigo para el que sean visibles tanto ese agente amigo como el potencial objetivo\r válido, pero que no esté a su vez dentro de la zona de control de agentes enemigos.  \n\r Ten en cuenta que el agente amigo no obtiene los beneficios adicionales del terreno Aventajado si el otro agente está sobre él (p. ej., para elegir como objetivo a un agente enemigo con una orden de Ocultarse que está en cobertura proporcionada solo por terreno Ligero)."
+    },
+    "TYR-BBRO-T-INS": {
+      "ployName": "Insidiosos",
+      "description": "Usa este ardid de tiroteo tras una activación. Antes de la siguiente activación, puedes realizar una acción Correr gratis con un agente HERMANO DE PROLE amigo, siempre que no sea un objetivo válido para un agente enemigo al empezar y al terminar esa acción. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "TYR-BBRO-T-IDL": {
+      "ployName": "Idolatría",
+      "description": "Usa este ardid de tiroteo cuando un agente HERMANO DE PROLE amigo (salvo LÍDER) a 6\" o menos de un agente LÍDER HERMANO DE PROLE amigo o de un agente PORTAICONO HERMANO DE PROLE amigo esté disparando,\ncombatiendo o contraatacando, en el paso de Tirar dados de ataque. Puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo, o conservar uno de tus éxitos normales como éxito crítico en su lugar."
+    }
+  },
+  "equipments": {
+    "TYR-BBRO-CD": {
+      "eqName": "Disfraces Encubiertos",
+      "description": "Tras revelar esta opción de equipo, tira 1D3.\nComo GAMBITO ESTRATÉGICO en el primer punto de inflexión, un número de agentes GUARDIA DE PROLE HERMANO DE PROLE amigos igual al resultado que estén totalmente dentro de tu zona de despliegue pueden realizar inmediatamente una acción\nReposicionarse gratis, pero deben terminar ese movimiento totalmente a 3\" o menos de tu zona de despliegue."
+    },
+    "TYR-BBRO-CK": {
+      "eqName": "Cuchillos del Culto",
+      "description": "Los agentes GUARDIA DE PROLE HERMANO DE PROLE amigos tienen la siguiente arma cuerpo a cuerpo:",
+      "weapons": {
+        "TYR-BBRO-CK-CULT-KNIFE": {
+          "wepName": "Cuchillo del culto"
+        }
+      }
+    },
+    "TYR-BBRO-CT": {
+      "eqName": "Talismán del Culto",
+      "description": "Una vez por punto de inflexión, cuando un agente esté disparando contra un agente HERMANO DE PROLE amigo (salvo Patriarca), en el paso de Tirar dados de defensa, puedes conservar uno de tus éxitos normales como éxito crítico en su lugar."
+    },
+    "TYR-BBRO-LO": {
+      "eqName": "Vigía",
+      "description": "GAMBITO ESTRATÉGICO: elige un agente enemigo visible para un agente HERMANO DE PROLE amigo para que gane una de tus fichas de Fuego Cruzado."
+    }
+  },
+  "teamAbilities": {
+    "TYR-BBRO-TA-CR": {
+      "abilityName": "Fuego Cruzado",
+      "description": "Siempre que un agente HERMANO DE PROLE amigo esté disparando o combatiendo contra un agente enemigo, tras resolver todos tus dados de ataque, si ese agente enemigo no está incapacitado, gana una de tus fichas de Fuego Cruzado.  \n\nSiempre que un agente HERMANO DE PROLE amigo esté disparando, combatiendo o contraatacando contra un agente enemigo que tenga alguna de tus fichas de Fuego Cruzado, puedes retirar cualquiera de esas fichas. Por cada una que retires, puedes repetir uno de tus dados de ataque."
+    }
+  },
+  "opTypes": {
+    "TYR-BBRO-CMDR": {
+      "opTypeName": "Comandante Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-CMDR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "TYR-BBRO-CMDR-DFAG": {
+          "wepName": "Fusil automático con tambor"
+        },
+        "TYR-BBRO-CMDR-LP": {
+          "wepName": "Pistola láser"
+        },
+        "TYR-BBRO-CMDR-BAY": {
+          "wepName": "Bayoneta"
+        },
+        "TYR-BBRO-CMDR-CSAC": {
+          "wepName": "Espada sierra y garra"
+        },
+        "TYR-BBRO-CMDR-PWAC": {
+          "wepName": "Arma de energía y garra"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-CMDR-A-COORD": {
+          "abilityName": "Coordinar",
+          "description": "GAMBITO ESTRATÉGICO. Elige un agente enemigo para que gane una de tus fichas de Fuego Cruzado."
+        }
+      }
+    },
+    "TYR-BBRO-AGIT": {
+      "opTypeName": "Agitador Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-AGIT-SM": {
+          "wepName": "Maza de choque"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-AGIT-A-DEV": {
+          "abilityName": "Devoto",
+          "description": "Una vez por punto de inflexión, cuando este agente esté combatiendo o contraatacando, en el paso de Resolver dados de ataque, puedes ignorar el daño que le inflija un éxito normal."
+        },
+        "TYR-BBRO-AGIT-A-PC": {
+          "abilityName": "Emisor de Psirena",
+          "description": "Siempre que un agente HERMANO DE PROLE amigo esté disparando, combatiendo o contraatacando contra un agente enemigo a 6\" o menos de este agente, puedes repetir uno de tus dados de ataque."
+        }
+      }
+    },
+    "TYR-BBRO-GNR": {
+      "opTypeName": "Artillero Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "TYR-BBRO-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "TYR-BBRO-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "TYR-BBRO-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "TYR-BBRO-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "TYR-BBRO-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "TYR-BBRO-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "TYR-BBRO-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "TYR-BBRO-GNR-BAY": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "TYR-BBRO-IW": {
+      "opTypeName": "Portaicono Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-IW-LK": {
+          "wepName": "Cuchillo grande"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-IW-A-BMD": {
+          "abilityName": "Devoción a la Mente de Prole",
+          "description": "Una vez por punto de inflexión, cuando un agente GUARDIA DE PROLE HERMANO DE PROLE amigo preparado quede incapacitado mientras es visible para este agente y está a 6\" o menos de él, puedes usar esta regla.\r Si lo haces, antes de que ese agente sea retirado de la zona de aniquilación, puede realizar una acción de 1PA gratis (salvo Combatir y Explosivos) y puedes cambiar su orden para ello.\r Después queda incapacitado de forma normal.   \r No puedes usar esta regla y la regla ¡Médico! (consulta la hoja de datos de MÉDICO) sobre el mismo agente al mismo tiempo."
+        },
+        "TYR-BBRO-IW-A-CI": {
+          "abilityName": "Icono del Culto",
+          "description": "Siempre que se determine el control de un marcador a 4\" o menos de este agente, considera que el atributo LPA total de los agentes HERMANO DE PROLE amigos que lo controlan es 1 mayor si al menos un agente HERMANO DE PROLE amigo disputa ese marcador.\nTen en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        }
+      }
+    },
+    "TYR-BBRO-KF": {
+      "opTypeName": "Acuchillador Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-KF-PFK": {
+          "wepName": "Cuchillos de combate envenenados"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-KF-A-ASS": {
+          "abilityName": "Asesino",
+          "description": "Este agente puede realizar la acción Cargar mientras tenga una orden de Ocultarse."
+        },
+        "TYR-BBRO-KF-A-CA": {
+          "abilityName": "Contraataque",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, cada vez que tu oponente resuelva un éxito normal, inflige 1 de daño al agente enemigo de esa secuencia."
+        }
+      }
+    },
+    "TYR-BBRO-MED": {
+      "opTypeName": "Médico Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-MED-LG": {
+          "wepName": "Rifle láser"
+        },
+        "TYR-BBRO-MED-B": {
+          "wepName": "Bayoneta"
+        },
+        "TYR-BBRO-MED-GN": {
+          "wepName": "Agujagénica"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-MED-A-MED": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente HERMANO DE PROLE amigo (salvo PATRIARCA) fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese agente estén dentro de la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de esa acción.\r Tras esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratis, pero debe terminar ese movimiento dentro de la zona de control de este agente.\r Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivas, y si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\r No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "TYR-BBRO-MED-MED": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente HERMANO DE PROLE amigo (salvo PATRIARCA) dentro de la zona de control de este agente para que recupere 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TYR-BBRO-SAP": {
+      "opTypeName": "Zapador Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-SAP-DC": {
+          "wepName": "Carga demoledora"
+        },
+        "TYR-BBRO-SAP-BAY": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-SAP-A-FD": {
+          "abilityName": "Desafío Final",
+          "description": "Si este agente queda incapacitado, puede realizar una acción única Explosivos gratis antes de ser retirado de la zona de aniquilación."
+        },
+        "TYR-BBRO-SAP-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag y krak (consulta el equipo universal).\nHacerlo no cuenta para ningún uso limitado que tengas (es decir, si también seleccionas esas granadas del equipo para otros agentes).\nSiempre que lo haga, mejora en 1 el atributo Impactar de esa arma."
+        }
+      },
+      "actions": {
+        "TYR-BBRO-SAP-XPL": {
+          "name": "Explosivos",
+          "effects": [
+            "La primera vez que este agente realice esta acción durante la batalla, coloca tu marcador de Explosivos dentro de su zona de control.",
+            "La segunda vez que este agente realice esta acción durante la batalla, inflige 2D6 de daño a cada agente a 2\" o menos de ese marcador (tira por separado para cada uno) a menos que haya terreno Pesado totalmente interpuesto entre ese agente y ese marcador."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción más de dos veces por batalla, mientras esté dentro de la zona de control de un agente enemigo, ni durante la misma activación en la que haya realizado la acción Cargar, Correr o Retroceder (ni viceversa)."
+          ]
+        }
+      }
+    },
+    "TYR-BBRO-SNP": {
+      "opTypeName": "Francotirador Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-SNP-SNP": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "TYR-BBRO-SNP-SNP-0": {
+              "profileName": "Oculto"
+            },
+            "TYR-BBRO-SNP-SNP-1": {
+              "profileName": "Móvil"
+            },
+            "TYR-BBRO-SNP-SNP-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "TYR-BBRO-SNP-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "TYR-BBRO-VET": {
+      "opTypeName": "Veterano Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-VET-CSG": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "TYR-BBRO-VET-CSG-0": {
+              "profileName": "Corto alcance"
+            },
+            "TYR-BBRO-VET-CSG-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "TYR-BBRO-VET-BAC": {
+          "wepName": "Bayoneta y garra"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-VET-A-BG": {
+          "abilityName": "Guardaespaldas",
+          "description": "Puedes usar el ardid de tiroteo Lealtad Incuestionable por 0 PM si este es el agente GUARDIA DE PROLE amigo especificado."
+        },
+        "TYR-BBRO-VET-A-RES": {
+          "abilityName": "Resistente",
+          "description": "El daño normal de 3 o más inflige 1 punto de daño menos a este agente."
+        }
+      }
+    },
+    "TYR-BBRO-VOX": {
+      "opTypeName": "Operador de Vox Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-VOX-LG": {
+          "wepName": "Rifle láser"
+        },
+        "TYR-BBRO-VOX-BAY": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "actions": {
+        "TYR-BBRO-VOX-JAM": {
+          "name": "Interferir",
+          "effects": [
+            "Elige un agente enemigo preparado que sea un objetivo válido para este agente, o que sea visible para este agente en su lugar si gastas 1 PA adicional.",
+            "Tira 1D6; hasta el final del punto de inflexión, ese agente enemigo no puede ser activado ni realizar acciones hasta que sea el último agente enemigo por activar, o hasta que tu oponente haya activado, después de esta acción, un número de agentes enemigos igual al resultado de la tirada (lo que ocurra primero)"
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TYR-BBRO-VOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente GUARDIA DE PROLE HERMANO DE PROLE amigo visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TYR-BBRO-TRP": {
+      "opTypeName": "Soldado Hermano de Prole",
+      "weapons": {
+        "TYR-BBRO-TRP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "TYR-BBRO-TRP-BAY": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-TRP-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede usado, debes activar a continuación cualquier otro agente SOLDADO HERMANO DE PROLE amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede usado, tu oponente activa de forma normal (en otras palabras, no puedes activar más de dos agentes de la forma especificada con esta regla)."
+        }
+      }
+    },
+    "TYR-BBRO-MAG": {
+      "opTypeName": "Magus",
+      "weapons": {
+        "TYR-BBRO-MAG-AP": {
+          "wepName": "Pistola automática"
+        },
+        "TYR-BBRO-MAG-BD": {
+          "wepName": "Biodaga"
+        },
+        "TYR-BBRO-MAG-FS": {
+          "wepName": "Báculo de fuerza"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-MAG-A-SL": {
+          "abilityName": "Líder Espiritual",
+          "description": "GAMBITO ESTRATÉGICO si este agente está en la zona de aniquilación. Elige una de las siguientes opciones para que los agentes HERMANO DE PROLE amigos la tengan hasta el final del punto de inflexión o hasta que este agente quede incapacitado (lo que ocurra primero):\r \r - Puedes ignorar cualquier cambio en los atributos de los agentes HERMANO DE PROLE amigos por estar heridos (incluidos los atributos de sus armas).\r - Puedes ignorar cualquier cambio en los atributos LPA de los agentes HERMANO DE PROLE amigos.\r "
+        }
+      },
+      "actions": {
+        "TYR-BBRO-MAG-MOS": {
+          "name": "Embate Mental",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente enemigo que sea un objetivo válido para este agente.",
+            "Inflígele 2 de daño, o 4 de daño en su lugar si está a 6\" o menos de este agente.",
+            "Después tira 1D6; si el resultado es mayor que el atributo LPA de ese enemigo, inflígele 2 de daño adicionales, o 4 de daño en su lugar si está a 6\" o menos de este agente.",
+            "Sigue tirando 1D6 de este modo hasta que saques un resultado igual o inferior al atributo LPA de ese agente enemigo, hasta que quede incapacitado o hasta que le inflijas 8 de daño durante esta acción (lo que ocurra primero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TYR-BBRO-MAG-TPOL": {
+          "name": "Sobrecarga Telepática",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente enemigo que sea un objetivo válido para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TYR-BBRO-FAM": {
+      "opTypeName": "Familiar Psíquico",
+      "weapons": {
+        "TYR-BBRO-FAM-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-FAM-A-ELU": {
+          "abilityName": "Escurridizo",
+          "description": "Este agente puede realizar acciones de misión mientras esté dentro de la zona de control de un agente enemigo (esto tiene prioridad sobre las condiciones normales de esas acciones).\nPuede moverse a través de agentes enemigos y dentro de su zona de control y, durante la acción Cargar, puede salir de su zona de control (aun así debe terminar el movimiento cumpliendo todos los requisitos de ese movimiento)."
+        },
+        "TYR-BBRO-FAM-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede usado, debes activar a continuación cualquier otro agente FAMILIAR PSÍQUICO HERMANO DE PROLE amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede usado, tu oponente activa de forma normal."
+        },
+        "TYR-BBRO-FAM-A-smol": {
+          "abilityName": "Pequeño",
+          "description": "Este agente no puede usar armas que no estén en su hoja de datos ni realizar acciones únicas.\r Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser seleccionado como objetivo válido, lo cual tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\r Este agente puede realizar la acción Retroceder por 1 PA menos."
+        }
+      }
+    },
+    "TYR-BBRO-PAT": {
+      "opTypeName": "Patriarca",
+      "weapons": {
+        "TYR-BBRO-PAT-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-PAT-A-AP": {
+          "abilityName": "Depredador Alfa",
+          "description": "Siempre que un agente esté disparando contra este agente, ignora la regla de armas Penetración.\nPuedes activar este agente dos veces durante el punto de inflexión siempre que tenga PA que gastar (permanece preparado mientras aún pueda ser activado una segunda vez).\nPor punto de inflexión no puede moverse más de 9\" y no puedes gastar más de 4PA en total por él."
+        },
+        "TYR-BBRO-PAT-A-MNS": {
+          "abilityName": "Monstruo",
+          "description": "Este agente no puede usar armas que no estén en su hoja de datos ni realizar acciones únicas (salvo Hacia las Sombras y Control Mental).\nSiempre que tu oponente esté seleccionando un objetivo válido, si este agente tiene una orden de Ocultarse, no puede usar terreno Ligero como cobertura.\nAunque esto puede permitir que este agente sea elegido como objetivo (suponiendo que sea visible), no elimina su salvación por cobertura (si la tiene)."
+        }
+      },
+      "actions": {
+        "TYR-BBRO-PAT-IS": {
+          "name": "Hacia las Sombras",
+          "effects": [
+            "Cambia la orden de este agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TYR-BBRO-PAT-MC": {
+          "name": "Control Mental",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente enemigo visible para este agente y a 2\" o menos de él.",
+            "Ambos jugadores tiran 1D6 y suman al total el atributo LPA de su respectivo agente.",
+            "Si tu total es mayor que el de tu oponente, puedes resolver el segundo efecto de esta acción.",
+            "Hasta el final de la activación, ese agente enemigo es un agente amigo (un agente enemigo para tu oponente), puedes cambiar su orden y puede realizar inmediatamente una acción gratis.",
+            "No puede realizar una acción en la que se mueva que no sea Correr (en cuyo caso especifica a tu oponente el lugar al que debe mover a este agente).",
+            "Solo puedes resolver el segundo efecto de esta acción una vez por batalla."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, a menos que el único agente enemigo en cuya zona de control esté sea el seleccionado para esta acción."
+          ]
+        }
+      }
+    },
+    "TYR-BBRO-PRIM": {
+      "opTypeName": "Primus",
+      "weapons": {
+        "TYR-BBRO-PRIM-SNP": {
+          "wepName": "Pistola de agujas con mira",
+          "profiles": {
+            "TYR-BBRO-PRIM-SNP-0": {
+              "profileName": "Corto alcance"
+            },
+            "TYR-BBRO-PRIM-SNP-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "TYR-BBRO-PRIM-BSATIC": {
+          "wepName": "Espada ósea y garra inyectora de toxinas"
+        }
+      },
+      "abilities": {
+        "TYR-BBRO-PRIM-A-FOTP": {
+          "abilityName": "Puño del Patriarca",
+          "description": "Este agente puede realizar dos acciones de Disparar o dos acciones de Combatir durante su activación."
+        },
+        "TYR-BBRO-PRIM-A-MM": {
+          "abilityName": "Mente Maestra",
+          "description": "Una vez por punto de inflexión, tras la tirada enfrentada para determinar la iniciativa, si este agente está en la zona de aniquilación, puedes hacer una de las siguientes cosas (no puedes elegir cada opción más de una vez por batalla):\r \r - Suma 1 al resultado de tu dado.\r - Si no tuviste la iniciativa en el punto de inflexión anterior, repite tu dado.\r "
+        }
+      },
+      "actions": {
+        "TYR-BBRO-PRIM-CONS": {
+          "name": "Conspirar",
+          "effects": [
+            "Ganas 1 PM."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    }
+  }
+}

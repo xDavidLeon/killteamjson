@@ -1,29 +1,247 @@
 {
   "killteamId": "IMP-BC",
   "locale": "es",
+  "team": {
+    "killteamName": "Clado de Batalla",
+    "description": "*\"Que nada te disuada en tu búsqueda del conocimiento. Que nadie frene tu persecución y adquisición de la sagrada tecnología. Que nadie se interponga entre tú y la obtención de aquello que por derecho le corresponde al Dios Máquina.\"*  \n- Thusdorius Knoch, Adquisidor Invictus",
+    "composition": "Un equipo de exterminio CLADO DE BATALLA está compuesto por:\n\n- 1 TECNOARQUEÓLOGO CLADO DE BATALLA\n- 1 SUPERVISOR DE SERVIDORES CLADO DE BATALLA\n- 8 agentes CLADO DE BATALLA elegidos de la siguiente lista:\n  - SERVIDOR AUTOPROXY\n  - SERVIDOR DE BRECHA\n  - SERVIDOR DE COMBATE con una de las siguientes opciones:\n    - Servogarra; ignitor incendiario\n    - Servogarra; rifle de fusión\n    - Servogarra; bláster de fósforo\n  - SERVIDOR ARTILLERO con rifle de arco pesado y garra augmética\n  - SERVIDOR ARTILLERO con bólter pesado y garra augmética\n  - SERVIDOR TECNOMÉDICO\n\nSalvo los agentes SERVIDOR DE COMBATE, tu comando solo puede incluir a cada agente de esta lista una vez.\nTu comando solo puede incluir hasta un agente SERVIDOR DE COMBATE con rifle de fusión, y solo puede incluir hasta tres agentes SERVIDOR DE COMBATE con ignitor incendiario."
+  },
   "ploys": {
+    "IMP-BC-S-DOR": {
+      "ployName": "Deber de recuperación",
+      "description": "Una vez por acción, puedes usar el ardid de tiroteo Repetición de mando por 0PM si el dado de ataque o de defensa se tiró por un agente CLADO DE BATALLA amigo que disputa un marcador de objetivo o uno de tus marcadores de misión."
+    },
     "IMP-BC-S-IOTIS": {
-      "description": "Siempre que un dado de ataque inflija 3 o más de daño a un operativo BATTLECLADE amigo, lanza un D6: con un 4+, resta 1 a ese daño infligido."
+      "ployName": "Encantamiento del alma de hierro",
+      "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente CLADO DE BATALLA amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+    },
+    "IMP-BC-S-NSP": {
+      "ployName": "Posesión noosférica",
+      "description": "APOYO. Siempre que un agente SERVIDOR CLADO DE BATALLA amigo esté a 6\" o menos de un agente AUTOPROXY CLADO DE BATALLA o SUPERVISOR DE SERVIDORES CLADO DE BATALLA amigo, las armas de ese agente SERVIDOR amigo tienen la regla de armas Certera 1.  \n\nA efectos de esta regla de APOYO y del equipo Aparato de Comunicaciones, el agente AUTOPROXY o SUPERVISOR DE SERVIDORES debe controlar tu marcador de Aparato de Comunicaciones para sumar 3\" a su requisito de distancia para esta regla."
+    },
+    "IMP-BC-S-PA": {
+      "ployName": "Adquisición prioritaria",
+      "description": "Elige un marcador de objetivo o uno de tus marcadores de misión.\n\n- Al determinar el control de ese marcador, considera que el atributo LPA total de los agentes CLADO DE BATALLA amigos que lo disputan es 1 mayor si al menos un agente CLADO DE BATALLA amigo disputa ese marcador. Ten en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto.\n- Siempre que un agente CLADO DE BATALLA amigo esté a 3\" o menos de ese marcador, suma 1 al atributo Ataque de sus armas cuerpo a cuerpo (hasta un máximo de 4).\n"
+    },
+    "IMP-BC-T-AFS": {
+      "ployName": "Súplica autoférrica",
+      "description": "Usa este ardid de tiroteo cuando un agente esté disparando contra un agente TECNOSACERDOTE CLADO DE BATALLA amigo, al inicio del paso de Tirar dados de ataque. Hasta el final de la secuencia, ignora la regla de armas Penetración."
+    },
+    "IMP-BC-T-RA": {
+      "ployName": "Acceso remoto",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente TECNOSACERDOTE CLADO DE BATALLA amigo. Una vez durante esa activación, puedes usar una de las siguientes reglas:\n\n- Ese agente no necesita que un marcador esté dentro de su zona de control para realizar una acción de misión que normalmente lo requiera (esto tiene preferencia sobre las condiciones de esa acción).\nEn su lugar, el marcador debe estar a 4\" o menos de él y ningún agente enemigo puede disputar ese marcador. No obstante, al determinarlo puedes ignorar a los agentes enemigos que estén dentro de la zona de control de otros agentes CLADO DE BATALLA amigos.\n- Ese agente no necesita que el punto de acceso de una escotilla esté dentro de su zona de control para realizar una acción Operar escotilla. En su lugar, ese punto de acceso debe estar a 4\" o menos de él.\n"
+    },
+    "IMP-BC-T-SE": {
+      "ployName": "Exorcismo del sistema",
+      "description": "Usa este ardid de tiroteo cuando fueras a activar un agente CLADO DE BATALLA amigo. Elimina un efecto de regla o un cambio de atributo que tu oponente le haya aplicado (p. ej., ficha de Veneno, -1LPA, no poder ser activado o realizar acciones, etc.) y, después, actívalo. Este ardid no puede permitirle recuperar heridas perdidas, ignorar los efectos de estar herido, eliminar reglas del pack de misiones ni eliminar un -1LPA que tú le hayas aplicado (p. ej., por TRANSFERIR ENERGÍA)."
+    },
+    "IMP-BC-T-SS": {
+      "ployName": "Sustitución servil",
+      "description": "Usa este ardid de tiroteo cuando un agente TECNOSACERDOTE CLADO DE BATALLA amigo sea seleccionado como objetivo válido de una acción Disparar o para combatir contra él durante la acción Combatir.\nElige un agente SERVIDOR CLADO DE BATALLA amigo que sea visible para ese primer agente amigo y esté a 3\" o menos de él para que se convierta en el objetivo válido o en el agente contra el que se combate (según corresponda) en su lugar (aunque normalmente no fuera válido para ello).\nSi es la acción Combatir, considera que ese agente SERVIDOR está dentro de la zona de control del agente que combate mientras dure esa acción.\nSi es la acción Disparar, ese agente SERVIDOR solo está en cobertura u ofuscado si el objetivo original lo estaba.  \n\nEste ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
     }
   },
   "equipments": {
+    "IMP-BC-CG": {
+      "eqName": "Disfraces encubiertos",
+      "description": "Después de revelar esta opción de equipo, tira un D3. Como GAMBITO ESTRATÉGICO en el primer punto de inflexión, un número de agentes CLADO DE BATALLA amigos igual al resultado que estén totalmente dentro de tu zona de despliegue pueden realizar inmediatamente una acción gratuita de Reposicionarse, pero deben terminar ese movimiento totalmente a 3\" o menos de tu zona de despliegue.\nTu agente TECNOARQUEÓLOGO no puede realizar más de una acción Reposicionarse en la fase de estrategia del primer punto de inflexión (es decir, también como resultado de la regla Buscador de arcanos divinos)."
+    },
+    "IMP-BC-EC": {
+      "eqName": "Condensadores electrománticos",
+      "description": "Las armas cuerpo a cuerpo de los agentes CLADO DE BATALLA amigos tienen la regla de armas Choque. Siempre que un agente CLADO DE BATALLA amigo esté contraatacando, sus armas cuerpo a cuerpo también tienen la regla de armas Severa."
+    },
     "IMP-BC-CA": {
-      "description": "Una vez por batalla, un operativo COMBAT SERVITOR o GUN SERVITOR puede usar otra opción de arma de su tarjeta de datos que no haya elegido para la batalla."
+      "eqName": "Aparato oculto",
+      "description": "Una vez por batalla, un agente SERVIDOR DE COMBATE o SERVIDOR ARTILLERO puede usar otra opción de arma de su hoja de datos que no se haya seleccionado para la batalla."
     },
     "IMP-BC-NCRC": {
-      "description": "Una vez por punto de combate, siempre que TRANSFER POWER, puedes usar esta regla. Si lo haces, puedes TRANSFER POWER por 0PA (esto prevalece sobre las reglas normales de Noospheric Network)."
+      "eqName": "Células de reserva neurocíclicas",
+      "description": "Una vez por punto de inflexión, siempre que TRANSFIERAS ENERGÍA, puedes usar esta regla. Si lo haces, puedes TRANSFERIR ENERGÍA por 0PA (esto tiene preferencia sobre las reglas normales de Red noosférica)."
+    }
+  },
+  "teamAbilities": {
+    "IMP-BC-TA-NONE": {
+      "abilityName": "Red noosférica",
+      "description": "Una vez durante la activación de cada agente SERVIDOR CLADO DE BATALLA amigo, antes o después de que realice una acción, puedes gastar 1PA para TRANSFERIR ENERGÍA.\nSi lo haces, resta 1 a su atributo LPA hasta el final de esa activación.  \n\nDespués de esa activación, puedes REACCIONAR EN RED con otro agente SERVIDOR CLADO DE BATALLA amigo antes de que tu oponente active. Siempre que REACCIONES EN RED con un agente amigo, elige primero su orden.\nDespués, puede realizar gratis una acción de 1PA, pero no puede moverse más de 2\" durante esa activación. Una vez lo haya hecho, tu oponente activa de forma normal.  \n\nUn agente no puede TRANSFERIR ENERGÍA ni REACCIONAR EN RED si tiene un atributo LPA inferior a 2 (p. ej., si una regla ha cambiado el atributo a menos de 2).\nREACCIONAR EN RED es una reacción, pero el agente no necesita estar gastado con una orden de Trabarse para hacerlo.\nEsto significa que, si está preparado cuando REACCIONA EN RED, todavía puede activarse de forma normal más adelante en el punto de inflexión. Un agente que REACCIONE EN RED no puede volver a hacerlo, ni reaccionar, durante el mismo punto de inflexión."
     }
   },
   "opTypes": {
-    "IMP-BC-BSU": {
+    "IMP-BC-TA": {
+      "opTypeName": "Tecnoarqueólogo Clado de Batalla",
+      "weapons": {
+        "IMP-BC-TA-EP": {
+          "wepName": "Pistola de erradicación"
+        },
+        "IMP-BC-TA-SAC": {
+          "wepName": "Servogarra de arco"
+        }
+      },
+      "abilities": {
+        "IMP-BC-TA-SOA": {
+          "abilityName": "Buscador de arcanos divinos",
+          "description": "GAMBITO ESTRATÉGICO. Puedes cambiar inmediatamente la orden de este agente y/o este puede realizar inmediatamente una acción gratuita de Omniescáner, Retroceder, Colocar Marcador, Recoger Marcador, Reposicionarse o de misión. Si es la acción Retroceder o Reposicionarse y este agente no lleva un marcador, debe terminar ese movimiento dentro de tu zona de despliegue (si no es posible, lo más cerca posible de ella) o con un marcador de objetivo o uno de tus marcadores de misión dentro de su zona de control."
+        }
+      },
       "actions": {
-        "IMP-BC-BSU-NOR": {
+        "IMP-BC-TA-OS": {
+          "name": "Omniescáner",
           "effects": [
-            "SUPPORT. Elige un operativo BATTLECLADE SERVITOR amigo a 6\" o menos de este operativo o de un operativo BATTLECLADE AUTO-PROXY amigo para que realice inmediatamente NETWORK COUNTERACT (no tienes que TRANSFER POWER para ello) o realice una acción Dash gratuita.",
-            "Continúa la activación de este operativo después de hacerlo. A los efectos del equipo universal Comms Device, el operativo desde el que se mide la distancia debe controlar esa marca."
+            "Elige un agente enemigo que sea visible para este agente o esté a 8\" o menos de él para que gane una de tus fichas de Omniescáner. Siempre que un agente CLADO DE BATALLA amigo esté disparando, combatiendo o contraatacando contra un agente enemigo que tenga una de tus fichas de Omniescáner, las armas de ese agente amigo tienen la regla de armas Incesante."
           ],
           "conditions": [
-            "Este operativo puede realizar esta acción dos veces durante su activación, pero debe seleccionar un operativo amigo distinto cada vez y no puede realizarla mientras esté dentro del rango de control de un operativo enemigo."
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-BC-APS": {
+      "opTypeName": "Servidor Autoproxy Clado de Batalla",
+      "weapons": {
+        "IMP-BC-APS-TG": {
+          "wepName": "Aguijada táser"
+        }
+      },
+      "abilities": {
+        "IMP-BC-APS-A-AE": {
+          "abilityName": "Ojo aquiliano",
+          "description": "Siempre que un agente CLADO DE BATALLA amigo esté disparando contra un agente enemigo visible para este agente, las armas a distancia de ese agente amigo tienen la regla de armas Saturación. Esta regla no tiene efecto si este agente está dentro de la zona de control de un agente enemigo."
+        }
+      },
+      "actions": {
+        "IMP-BC-APS-GOTO": {
+          "name": "Mirada del Omnissiah",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente CLADO DE BATALLA amigo esté disparando contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-BC-BBS": {
+      "opTypeName": "Servidor de Brecha Clado de Batalla",
+      "weapons": {
+        "IMP-BC-BBS-LC": {
+          "wepName": "Cortador láser",
+          "profiles": {
+            "IMP-BC-BBS-LC-1": {
+              "profileName": "A quemarropa"
+            },
+            "IMP-BC-BBS-LC-2": {
+              "profileName": "Corto alcance"
+            }
+          }
+        },
+        "IMP-BC-BBS-HPLC": {
+          "wepName": "Pinza hidráulica y cortador láser"
+        }
+      },
+      "actions": {
+        "IMP-BC-BBS-BR": {
+          "name": "Abrir brecha",
+          "effects": [
+            "Coloca uno de tus marcadores de Brecha dentro de la zona de control de este agente, lo más cerca posible de un elemento de terreno que esté dentro de su zona de control. Siempre que un agente esté a 1\" o menos de ese marcador, considera las partes de ese elemento de terreno que no tengan más de 1\" de grosor como terreno Accesible."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un elemento de terreno dentro de su zona de control."
+          ]
+        }
+      }
+    },
+    "IMP-BC-BCS": {
+      "opTypeName": "Servidor de Combate Clado de Batalla",
+      "weapons": {
+        "IMP-BC-BCS-II": {
+          "wepName": "Ignitor incendiario"
+        },
+        "IMP-BC-BCS-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-BC-BCS-PB": {
+          "wepName": "Bláster de fósforo"
+        },
+        "IMP-BC-BCS-SC": {
+          "wepName": "Servogarra"
+        }
+      }
+    },
+    "IMP-BC-BGS": {
+      "opTypeName": "Servidor Artillero Clado de Batalla",
+      "weapons": {
+        "IMP-BC-BGS-HAR": {
+          "wepName": "Rifle de arco pesado"
+        },
+        "IMP-BC-BGS-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "IMP-BC-BGS-HB-1": {
+              "profileName": "Concentrado"
+            },
+            "IMP-BC-BGS-HB-2": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-BC-BGS-AC": {
+          "wepName": "Garra augmética"
+        }
+      }
+    },
+    "IMP-BC-BSU": {
+      "opTypeName": "Supervisor de Servidores Clado de Batalla",
+      "weapons": {
+        "IMP-BC-BSU-MCRP": {
+          "wepName": "Pistola de radio de artesanía magistral"
+        },
+        "IMP-BC-BSU-DS": {
+          "wepName": "Púas de datos"
+        }
+      },
+      "actions": {
+        "IMP-BC-BSU-NOR": {
+          "name": "Anulación de red",
+          "effects": [
+            "APOYO. Elige un agente SERVIDOR CLADO DE BATALLA amigo que esté a 6\" o menos de este agente o de un agente AUTOPROXY CLADO DE BATALLA amigo para que inmediatamente REACCIONE EN RED (no tienes que TRANSFERIR ENERGÍA para ello) o realice una acción gratuita de Correr.",
+            "Continúa la activación de este agente después de hacerlo."
+          ],
+          "conditions": [
+            "Este agente puede realizar esta acción dos veces durante su activación, pero debe elegir un agente amigo distinto cada vez y no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo.\nA efectos del equipo universal Aparato de Comunicaciones, el agente desde el que se determina la distancia debe controlar ese marcador"
+          ]
+        },
+        "IMP-BC-BSU-NSS": {
+          "name": "Acumulador datacoronal",
+          "effects": [
+            "APOYO. Determina los agentes CLADO DE BATALLA amigos que estén a 6\" o menos de este agente y/o de un agente AUTOPROXY CLADO DE BATALLA amigo y, después, tira un D3. Si el resultado es igual o inferior al número de marcadores de objetivo que disputan esos agentes amigos, ganas 1PM. A efectos del equipo universal Aparato de Comunicaciones, el agente desde el que se determina la distancia debe controlar tu marcador de Aparato de Comunicaciones para sumar 3\" a su requisito de distancia para esta regla."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-BC-BTS": {
+      "opTypeName": "Servidor Tecnomédico Clado de Batalla",
+      "weapons": {
+        "IMP-BC-BTS-SCC": {
+          "wepName": "Servogarra quirúrgica"
+        }
+      },
+      "abilities": {
+        "IMP-BC-BTS-A-MSA": {
+          "abilityName": "Matriz de mecanosutura",
+          "description": "Una vez por punto de inflexión, cuando otro agente CLADO DE BATALLA amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él, puedes usar esta regla, siempre que ni este agente ni ese agente estén dentro de la zona de control de un agente enemigo. Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción.\nTras esa acción, ese agente amigo puede realizar inmediatamente una acción gratuita de Correr, pero debe terminar ese movimiento dentro de la zona de control de este agente.\nSi esta regla se usó durante la activación de ese agente amigo, esa activación termina. No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-BC-BTS-ER": {
+          "name": "Reparación expeditiva",
+          "effects": [
+            "Elige un agente CLADO DE BATALLA amigo dentro de la zona de control de este agente para que recupere hasta D3+3 heridas perdidas. No puede ser un agente sobre el que se haya usado la regla Matriz de mecanosutura durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
           ]
         }
       }

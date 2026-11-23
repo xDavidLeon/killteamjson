@@ -1,0 +1,263 @@
+{
+  "killteamId": "IMP-SCT",
+  "locale": "es",
+  "team": {
+    "killteamName": "Escuadra de Exploradores",
+    "description": "Los Exploradores son los nuevos reclutas de un Capítulo de Marines Espaciales que han avanzado lo suficiente en las primeras etapas de su entrenamiento y transformación biológica como para tomar parte en la batalla junto al resto del Capítulo.\n  \n  \n\nCon armas y armaduras más ligeras que las de los Hermanos de Batalla de pleno derecho, su función es adelantarse a la fuerza principal de Marines Espaciales y preparar el camino para el avance principal infiltrándose tras las líneas enemigas, saboteando y reuniendo información, causando tanto caos y desorganización como sea posible.",
+    "composition": "Un equipo de exterminio ESCUADRA DE EXPLORADORES está compuesto por:\n\n- 1 agente Sargento ESCUADRA DE EXPLORADORES con una de las siguientes opciones:\n  - Escopeta Astartes, puños\n  - Bólter, puños\n  - Pistola bólter, espada sierra\n- 8 agentes ESCUADRA DE EXPLORADORES elegidos de la siguiente lista:\n  - Artillero Pesado con puños, pistola bólter y bólter pesado\n  - Artillero Pesado con puños, pistola bólter y lanzamisiles\n  - Cazador\n  - Francotirador\n  - Rastreador\n  - Guerrero con una de las siguientes opciones:\n    - Escopeta Astartes, puños\n    - Bólter, puños\n    - Pistola bólter, filopuñal\n\nSalvo los agentes Guerrero, tu comando solo puede incluir cada agente una vez."
+  },
+  "ploys": {
+    "IMP-SCT-S-AM": {
+      "ployName": "Emboscada",
+      "description": "Siempre que un agente ESCUADRA DE EXPLORADORES amigo esté disparando o combatiendo durante su activación, si su orden se cambió de Ocultarse a Trabarse al inicio de esa activación, o no era visible para los agentes enemigos al inicio de esa activación:\n\n- Sus armas tienen la regla de armas Equilibrada.\n- Si el objetivo está gastado, sus  armas tienen la regla de armas Incesante en su lugar.\n  \n**Incesante:** Puede repetir alguno o todos los resultados de un mismo valor (p. ej. todos los resultados de 2)  \n**Equilibrada:** Puede repetir un dado de ataque."
+    },
+    "IMP-SCT-S-AD": {
+      "ployName": "Entrenamiento Adaptable",
+      "description": "Puedes cambiar a Trabarse la orden de hasta D3 agentes ESCUADRA DE EXPLORADORES amigos que estén a más de 4\" de los agentes enemigos."
+    },
+    "IMP-SCT-S-GE": {
+      "ployName": "Combate de Guerrillas",
+      "description": "Siempre que un agente enemigo dispare contra un agente ESCUADRA DE EXPLORADORES amigo, si ese agente amigo está en cobertura y a más de 6\" de los agentes enemigos para los que es visible, puedes repetir uno de tus dados de defensa."
+    },
+    "IMP-SCT-S-SR": {
+      "ployName": "Reubicación Sigilosa",
+      "description": "Hasta D3 agentes ESCUADRA DE EXPLORADORES amigos que tengan una orden de Ocultarse y estén a más de 4\" de los agentes enemigos pueden realizar de inmediato una acción libre de Correr. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "IMP-SCT-T-AT": {
+      "ployName": "Entrenamiento Astartes",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA DE EXPLORADORES amigo.\nHasta el final de esa activación, ese agente puede hacer una de las siguientes cosas:\n• Realizar dos acciones de Combatir.\n• Realizar dos acciones de Disparar si se selecciona una escopeta Astartes, una pistola bólter o un bólter para al menos una de ellas.\n• Realizar dos acciones de Disparar con un bólter pesado, un lanzamisiles o un rifle de francotirador, pero debe gastarse 1 PA adicional para la segunda acción."
+    },
+    "IMP-SCT-T-CP": {
+      "ployName": "Posición Encubierta",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA DE EXPLORADORES amigo.\r Hasta el inicio de su siguiente activación, mientras ese agente tenga una orden de Ocultarse y esté en cobertura, no puede ser seleccionado como objetivo válido, lo que tiene preferencia sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+    },
+    "IMP-SCT-T-EA": {
+      "ployName": "Aspirante Envalentonado",
+      "description": "Usa este ardid de tiroteo cuando un agente ESCUADRA DE EXPLORADORES amigo realice la acción Combatir o Disparar.\r Si es el primer agente amigo que realiza cualquiera de esas acciones durante este punto de inflexión, o si el agente enemigo en esa acción (el blanco principal, si corresponde) tiene un atributo Heridas mayor que ese agente ESCUADRA DE EXPLORADORES amigo, puedes conservar uno de tus éxitos normales como éxito crítico en su lugar."
+    },
+    "IMP-SCT-T-RP": {
+      "ployName": "Fisiología en Bruto",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA DE EXPLORADORES amigo.\nHasta el inicio de su siguiente activación, suma 1\" a su atributo Movimiento y puedes ignorar cualquier cambio en los atributos de ese agente por estar herido (incluidos los atributos de sus armas)."
+    }
+  },
+  "equipments": {
+    "IMP-SCT-CC": {
+      "eqName": "Capa de Camuflaje",
+      "description": "Siempre que un agente dispare contra un agente ESCUADRA DE EXPLORADORES amigo (excepto FRANCOTIRADOR), si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional.  \n\r Esto no es acumulable con las salvaciones por cobertura mejoradas por terreno Aventajado."
+    },
+    "IMP-SCT-TO": {
+      "eqName": "Oculares de Puntería",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente ESCUADRA DE EXPLORADORES amigo esté realizando la acción Disparar y estés seleccionando un objetivo válido, puedes usar esta regla. Si lo haces, hasta el final de esa acción, sus armas a distancia tienen las reglas de armas Letal 5+ y Saturación.<hr/>\r **Saturación:** El defensor no puede conservar salvaciones por cobertura."
+    },
+    "IMP-SCT-CBAK": {
+      "eqName": "Filopuñales",
+      "description": "Los agentes ESCUADRA DE EXPLORADORES amigos tienen la siguiente arma cuerpo a cuerpo. Ten en cuenta que algunos agentes ya tienen esta arma pero con mejores atributos; en ese caso, usa la mejor versión.",
+      "weapons": {
+        "IMP-SCT-CBAK-COMBAT-BLADE": {
+          "wepName": "Filopuñal"
+        }
+      }
+    },
+    "IMP-SCT-TACTICAL-VOX-LINK": {
+      "eqName": "Enlace Vox Táctico",
+      "description": "Una vez por punto de inflexión, puedes usar el ardid de tiroteo Entrenamiento Astartes o Aspirante Envalentonado por 0PM si hay un agente SARGENTO amigo en la zona de aniquilación."
+    }
+  },
+  "teamAbilities": {
+    "IMP-SCT-TA-FS": {
+      "abilityName": "Exploración avanzada",
+      "description": "Al final del paso de Desplegar agentes, puedes seleccionar y resolver hasta seis opciones de Exploración avanzada.\nCada opción tiene un número entre paréntesis, que es el número máximo de veces que puedes seleccionarla y resolverla durante la batalla.\nPor ejemplo, tus cinco selecciones podrían ser Reposicionarse (2), Alarma de cable (1), Trampa explosiva (1) y Distracción (1).\nSi ambos jugadores tienen esta regla, alternad la resolución selección por selección, empezando por el jugador que tenga la iniciativa.  \n  \n\n**TRAMPA EXPLOSIVA (1):**  \n\nColoca uno de tus marcadores de Trampa explosiva a más de 6\" de la zona de despliegue de tu oponente y a más de 2\" de otros marcadores, puntos de acceso y terreno Accesible.\nLa primera vez que tu marcador de Trampa explosiva esté dentro de la zona de control de un agente enemigo, retira ese marcador e inflige 2D3 de daño a ese agente.\nSi no queda incapacitado, termina su acción (si la hay), aunque no se hayan cumplido los efectos de esa acción.\nSi no puede colocarse, muévelo la distancia mínima para poder hacerlo.  \n  \n\n**DESIGNAR OBJETIVO (1):**  \n\nSelecciona un agente enemigo para que obtenga una de tus fichas de Objetivo.\nSiempre que un agente ESCUADRA DE EXPLORADORES amigo dispare, combata o contraataque contra un agente enemigo que tenga una de tus fichas de Objetivo, puedes repetir uno de tus dados de ataque.  \n  \n\n**IDEAR PLAN (1):**  \n\nGanas 1PM.  \n\n\n\n**DISTRACCIÓN (1):**  \n\nUna vez por batalla, GAMBITO ESTRATÉGICO. Selecciona un agente enemigo a 6\" o menos de un borde de la zona de aniquilación.\nHasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA.  \n  \n\n**REDESPLEGAR (1):**  \n\nCambia el despliegue de un tercio de tus agentes (redondeando hacia arriba).  \n  \n\n**REPOSICIONARSE (2):**  \n\nRealiza una acción libre de Reposicionarse con un agente amigo que esté totalmente dentro de tu zona de despliegue.\nDebe terminar ese movimiento totalmente a 3\" o menos de tu zona de despliegue.  \n  \n\n**ESPIAR (1):**  \n\nSOLO OPERACIONES APROBADAS. Tu oponente debe revelar la operación táctica que ha seleccionado.  \n  \n\n**ALARMA DE CABLE (2):**  \n\nColoca uno de tus marcadores de Alarma de cable a más de 6\" de la zona de despliegue de tu oponente.\nDurante el primer y segundo punto de inflexión, siempre que un agente ESCUADRA DE EXPLORADORES amigo dispare contra un enemigo que esté a 2\" o menos de ese marcador, sus armas a distancia tienen la regla de armas Buscadora.\nEn el paso de Preparar de la tercera fase de estrategia, retira ese marcador.  \n  \n\n**MANIOBRA TÁCTICA (1):**  \n\nDos veces por batalla, GAMBITO ESTRATÉGICO. Selecciona un agente amigo. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+    }
+  },
+  "opTypes": {
+    "IMP-SCT-SGT": {
+      "opTypeName": "Sargento Explorador",
+      "weapons": {
+        "IMP-SCT-SGT-ASG": {
+          "wepName": "Escopeta Astartes"
+        },
+        "IMP-SCT-SGT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-SCT-SGT-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-SCT-SGT-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-SCT-SGT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SCT-SGT-A-AST": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de este agente, puede realizar o bien 2 acciones de Disparar o bien 2 acciones de Combatir.\nSi son 2 acciones de Disparar, debe seleccionarse una escopeta Astartes, una pistola bólter o un bólter para al menos una de ellas.\nEste agente puede reaccionar independientemente de su orden."
+        },
+        "IMP-SCT-SGT-A-GAE": {
+          "abilityName": "Guía y experiencia",
+          "description": "Una vez durante cada una de las activaciones de este agente, puedes seleccionar otro agente ESCUADRA DE EXPLORADORES amigo en la zona de aniquilación.\nHasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+        }
+      }
+    },
+    "IMP-SCT-HGNR": {
+      "opTypeName": "Artillero Pesado Explorador",
+      "weapons": {
+        "IMP-SCT-HGNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-SCT-HGNR-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "IMP-SCT-HGNR-HB-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-SCT-HGNR-HB-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-SCT-HGNR-ML": {
+          "wepName": "Lanzamisiles",
+          "profiles": {
+            "IMP-SCT-HGNR-ML-0": {
+              "profileName": "Frag"
+            },
+            "IMP-SCT-HGNR-ML-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-SCT-HGNR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SCT-HGNR-A-BIPOD": {
+          "abilityName": "Bípode de arma pesada",
+          "description": "Siempre que este agente esté disparando con un arma de su ficha de datos, si no se ha movido durante la activación, o si es una reacción, esa arma tiene la regla de armas Incesante; si el arma ya tiene esa regla de armas (p. ej. por el ardid de estrategia Emboscada), tiene la regla de armas Implacable en su lugar. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      }
+    },
+    "IMP-SCT-HNT": {
+      "opTypeName": "Cazador Explorador",
+      "weapons": {
+        "IMP-SCT-HNT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-SCT-HNT-CB": {
+          "wepName": "Filopuñal"
+        }
+      },
+      "abilities": {
+        "IMP-SCT-HNT-A-GA": {
+          "abilityName": "Asalto con garfio",
+          "description": "Siempre que este agente realice la acción Cargar durante su activación, si trepa, se deja caer, salta o su peana se mueve por debajo de terreno Aventajado durante esa acción, sus armas cuerpo a cuerpo tienen la regla de armas Letal 3+ hasta el final de esa activación."
+        },
+        "IMP-SCT-HNT-A-GL": {
+          "abilityName": "Lanzagarfios",
+          "description": "Siempre que este agente esté trepando hacia arriba, puedes considerar que la distancia vertical es 2\" (independientemente de cuánto se mueva verticalmente el agente)."
+        }
+      }
+    },
+    "IMP-SCT-SNP": {
+      "opTypeName": "Francotirador Explorador",
+      "weapons": {
+        "IMP-SCT-SNP-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-SCT-SNP-SNP": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-SCT-SNP-SNP-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-SCT-SNP-SNP-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-SCT-SNP-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SCT-SNP-A-CAM": {
+          "abilityName": "Capa de camuflaje",
+          "description": "Siempre que un agente dispare contra este agente:\n\n- Ignora la regla de armas Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar una salvación por cobertura como éxito crítico en su lugar. Esto no es acumulable con las salvaciones por cobertura mejoradas por terreno Aventajado.\n"
+        }
+      },
+      "actions": {
+        "IMP-SCT-SNP-OPT": {
+          "name": "Ópticas",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente, siempre que esté disparando, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SCT-TRK": {
+      "opTypeName": "Rastreador Explorador",
+      "weapons": {
+        "IMP-SCT-TRK-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-SCT-TRK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "actions": {
+        "IMP-SCT-TRK-AS": {
+          "name": "Escaneo de áuspex",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero),",
+            "siempre que un agente ESCUADRA DE EXPLORADORES amigo esté disparando contra un agente enemigo a 8\" o menos de este agente,",
+            "ese agente enemigo no puede estar ofuscado.",
+            "Si ese agente amigo es un FRANCOTIRADOR que se esté beneficiando actualmente de los efectos de su acción Ópticas, sus armas a distancia también tienen la regla de armas Buscadora (Ligero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "IMP-SCT-TRK-TE": {
+          "name": "Rastrear al enemigo",
+          "effects": [
+            "Selecciona un agente enemigo a 8\" o menos de este agente. Hasta el final del punto de inflexión, siempre que un agente ESCUADRA DE EXPLORADORES amigo esté disparando contra ese agente enemigo, sus armas a distancia tienen la regla Buscadora (Ligero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SCT-WAR": {
+      "opTypeName": "Guerrero Explorador",
+      "weapons": {
+        "IMP-SCT-WAR-ASG": {
+          "wepName": "Escopeta Astartes"
+        },
+        "IMP-SCT-WAR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-SCT-WAR-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-SCT-WAR-CB": {
+          "wepName": "Filopuñal"
+        },
+        "IMP-SCT-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SCT-WAR-A-AE": {
+          "abilityName": "Equipo adaptable",
+          "description": "Puedes hacer una vez por punto de inflexión cada una de las siguientes cosas.\n\n- Un agente ESCUADRA DE EXPLORADORES GUERRERO amigo puede realizar la acción Granada de humo.\n- Un agente ESCUADRA DE EXPLORADORES GUERRERO amigo puede realizar la acción Granada aturdidora.\n\nLas reglas de estas acciones se encuentran en el equipo universal. Realizar estas acciones mediante esta regla no cuenta para sus límites de acción (p. ej., si seleccionas esas granadas como equipo)."
+        }
+      }
+    }
+  }
+}

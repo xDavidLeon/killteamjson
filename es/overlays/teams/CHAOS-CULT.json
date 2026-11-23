@@ -1,0 +1,274 @@
+{
+  "killteamId": "CHAOS-CULT",
+  "locale": "es",
+  "team": {
+    "killteamName": "Culto del Caos",
+    "description": "Allí donde se enconan la amargura y el descontento, también arraiga la adoración a los Dioses Oscuros. Bandas fanáticas de sectarios se congregan bajo los estandartes de los poderes maléficos. Los más monstruosos de estos fanáticos están deformados hasta resultar irreconocibles, y les brotan garras quitinosas, alas correosas y toda clase de mutaciones con las que masacrar a sus enemigos.",
+    "composition": "Un equipo de exterminio CULTO DEL CAOS está compuesto por:\n \n- 1 agente DEMAGOGO DEL CULTO\n- 2 agentes FILO BENDITO\n- 9 agentes DEVOTO DEL CAOS\n- 1 agente ICONARCA\n- 1 agente BRUJA MENTAL\n"
+  },
+  "ploys": {
+    "CHAOS-CULT-S-CONM": {
+      "ployName": "Criaturas de Pesadilla",
+      "description": "Al determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 2\" o menos de agentes MUTANTE del CULTO DEL CAOS o TORMENTO del CULTO DEL CAOS amigos.  \n\nTen en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulable con esto."
+    },
+    "CHAOS-CULT-S-EIP": {
+      "ployName": "Éxtasis en el Dolor",
+      "description": "Puedes ignorar cualquier cambio en el atributo Impactar de las armas de los agentes CULTO DEL CAOS amigos por estar heridos. Siempre que un agente dispare contra un agente CULTO DEL CAOS amigo que haya perdido heridas, puedes repetir uno de tus dados de defensa."
+    },
+    "CHAOS-CULT-S-FOS": {
+      "ployName": "Embestida Ferviente",
+      "description": "Las armas cuerpo a cuerpo de los agentes CULTO DEL CAOS amigos tienen la regla de armas Certera 1, o la regla de armas Certera 2 si ese agente amigo es un agente MUTANTE o TORMENTO.  \n**Certera 1:** Puedes guardar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "CHAOS-CULT-S-SA": {
+      "ployName": "Aura Nauseabunda",
+      "description": "Siempre que un agente enemigo esté en la zona de control de agentes MUTANTE del CULTO DEL CAOS o TORMENTO del CULTO DEL CAOS amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+    },
+    "CHAOS-CULT-T-AM": {
+      "ployName": "Mutación Aborrecible",
+      "description": "Usa este ardid de tiroteo cuando se active un agente CULTO DEL CAOS amigo (excepto COMUNIÓN OSCURA).\nElige un DON MALDITO para que lo obtenga ese agente. Esto es adicional a cualquier DON MALDITO que ya tenga.\nCada agente amigo no puede ser elegido para este ardid más de una vez por batalla, y si ese agente se convierte en otro distinto (ver regla de facción Mutación), sigue teniendo ese DON MALDITO."
+    },
+    "CHAOS-CULT-T-FD": {
+      "ployName": "Muerte Frenética",
+      "description": "Usa este ardid de tiroteo cuando un agente MUTANTE del CULTO DEL CAOS o TORMENTO del CULTO DEL CAOS amigo quede incapacitado, antes de retirarlo de la zona de aniquilación. Inflige D3 de daño (o D6 de daño en su lugar si ese agente amigo es un TORMENTO) a un agente enemigo visible para ese agente amigo y a 2\" o menos de él."
+    },
+    "CHAOS-CULT-T-FF": {
+      "ployName": "Seguidor Fiel",
+      "description": "Usa este ardid de tiroteo cuando un agente COMUNIÓN OSCURA del CULTO DEL CAOS amigo sea elegido como blanco válido de una acción Disparar o para combatir contra él durante la acción Combatir.\r Elige otro agente CULTO DEL CAOS amigo (excepto COMUNIÓN OSCURA) visible para ese agente COMUNIÓN OSCURA y a 3\" o menos de él para que sea el blanco válido o aquel contra el que se combate (según corresponda) en su lugar\r (aunque normalmente no fuera válido para ello).\r Si es la acción Combatir, considera que ese otro agente está en la zona de control del agente que combate mientras dure esa acción. Si es la acción Disparar, ese otro agente solo está a cubierto u ofuscado si el blanco original lo estaba.  \n\r Este ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+    },
+    "CHAOS-CULT-T-UTD": {
+      "ployName": "Desatar al Demonio",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente MUTANTE del CULTO DEL CAOS o TORMENTO del CULTO DEL CAOS amigo. Durante esa activación, ese agente puede realizar dos acciones Combatir, y una de ellas puede ser gratuita."
+    }
+  },
+  "equipments": {
+    "CHAOS-CULT-BS": {
+      "eqName": "Escritura Funesta",
+      "description": "Una vez por batalla, GAMBITO ESTRATÉGICO. Cambia uno de tus DONES MALDITOS. Ten en cuenta que si es un DON MALDITO que un agente tiene por el ardid de tiroteo Mutación Aborrecible, solo ese agente se beneficia de esto."
+    },
+    "CHAOS-CULT-CG": {
+      "eqName": "Disfraces Encubiertos",
+      "description": "Tras revelar esta opción de equipo, tira un D3. Como GAMBITO ESTRATÉGICO en el primer punto de inflexión, un número de agentes DEVOTO del CULTO DEL CAOS amigos igual al resultado que estén totalmente dentro de tu zona de despliegue pueden realizar inmediatamente\nuna acción Reposicionarse gratuita, pero deben terminar ese movimiento totalmente a 3\" o menos de tu zona de despliegue."
+    },
+    "CHAOS-CULT-UT": {
+      "eqName": "Talismán Impío",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare contra un agente CULTO DEL CAOS amigo, en el paso de Tirar dados de defensa, puedes guardar uno de tus éxitos normales como éxito crítico en su lugar."
+    },
+    "CHAOS-CULT-VB": {
+      "eqName": "Bendición Vil",
+      "description": "Una vez por batalla, cuando un dado de ataque inflija Daño normal a un agente CULTO DEL CAOS amigo (excepto DEVOTO), puedes ignorar ese daño infligido.\nSi ese agente amigo es un agente MUTANTE o TORMENTO, no puedes tirar para la regla Regeneración Antinatural por ese dado de ataque y luego decidir usar esta regla con el mismo dado; debes usar una u otra."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-CULT-TA-MUT": {
+      "abilityName": "Mutación",
+      "description": "Durante la batalla, los agentes CULTO DEL CAOS amigos pueden MUTAR de la siguiente manera:\n\n- Como GAMBITO ESTRATÉGICO, puedes hacer MUTAR a un número de agentes CULTO DEL CAOS amigos según el punto de inflexión, de la siguiente manera: PI1 = 2, PI2 = 2, PI3 = 3, PI4+ = 4.\n- Siempre que un agente DEVOTO amigo incapacite a un agente enemigo que esté en su zona de control, puede MUTAR.\n- Cada agente no puede MUTAR más de una vez por punto de inflexión.\n\n\nSiempre que un agente amigo MUTE, elige una de las siguientes opciones:\n\n- Si es un agente DEVOTO, conviértelo en un agente MUTANTE.\n- Si es un agente MUTANTE, conviértelo en un agente TORMENTO (máximo dos veces por punto de inflexión).\n- Puede recuperar hasta D3+1 heridas perdidas.\n\n\nNo puedes tener más de cinco agentes MUTANTE y tres agentes TORMENTO a la vez. Siempre que un agente amigo se convierta en un nuevo agente:\n\n- Intercambia las miniaturas, asegurándote de que el centro de la peana de la nueva miniatura quede lo más cerca posible de donde estaba el centro de la peana de la miniatura anterior. Esto puede dejarla en la zona de control de agentes enemigos, y si la miniatura anterior lo estaba, la nueva miniatura debe estarlo si es posible.\n- El nuevo tipo de agente pierde un número de heridas igual a las heridas perdidas de su tipo de agente precedente.\n- Sigue siendo el mismo agente a efectos de cualquier regla para la que ya haya sido elegido. El agente simplemente es un nuevo tipo de agente y usará la miniatura y las reglas de la ficha de datos de ese nuevo tipo."
+    },
+    "CHAOS-CULT-TA-ACGI": {
+      "abilityName": "Dones Malditos",
+      "description": "Los DONES MALDITOS son reglas que obtienen los agentes CULTO DEL CAOS amigos cuando se convierten en otro tipo de agente (ver regla de facción Mutación).\nLa primera vez durante la batalla que un agente DEVOTO amigo se convierta en un agente MUTANTE, elige tu DON MALDITO primario.\nLa primera vez durante la batalla que un agente MUTANTE amigo se convierta en un agente TORMENTO, elige tu DON MALDITO secundario.  \n\nTodos los agentes MUTANTE amigos tienen tu DON MALDITO primario, y todos los agentes TORMENTO amigos tienen tus DONES MALDITOS primario y secundario. No puedes elegir el mismo DON MALDITO más de una vez por batalla."
+    },
+    "CHAOS-CULT-TA-DEWI": {
+      "abilityName": "Alas Deformes",
+      "description": "Siempre que este agente esté trepando, puedes considerar que la distancia vertical es de 2\" (independientemente de cuánto se mueva realmente el agente en vertical). Siempre que este agente se esté dejando caer, ignora la distancia vertical."
+    },
+    "CHAOS-CULT-TA-FL": {
+      "abilityName": "Veloz",
+      "description": "Suma 1\" al atributo Movimiento de este agente."
+    },
+    "CHAOS-CULT-TA-CH": {
+      "abilityName": "Quitinoso",
+      "description": "Mejora en 1 el atributo Salvación de este agente."
+    },
+    "CHAOS-CULT-TA-HO": {
+      "abilityName": "Astado",
+      "description": "Siempre que este agente termine su movimiento durante la acción Cargar, puedes infligir 1 de daño a un agente enemigo que esté en su zona de control, o D3 de daño en su lugar si este agente es un TORMENTO."
+    },
+    "CHAOS-CULT-TA-SI": {
+      "abilityName": "Fibroso",
+      "description": "Puedes ignorar cualquier cambio en el atributo Impactar de las armas cuerpo a cuerpo de este agente por estar herido. Las armas cuerpo a cuerpo de este agente tienen la regla de armas Brutal."
+    },
+    "CHAOS-CULT-TA-BA": {
+      "abilityName": "Espinoso",
+      "description": "Siempre que este agente esté combatiendo o contraatacando:\n- Los agentes enemigos no pueden prestar apoyo.\n- La primera vez que golpees durante esa secuencia, inflige también 1 de daño a cada otro agente enemigo que esté en la zona de control de este agente, o D3 de daño en su lugar si este agente es un TORMENTO (tira por separado para cada uno)."
+    }
+  },
+  "opTypes": {
+    "CHAOS-CULT-DEMA": {
+      "opTypeName": "Demagogo del Culto",
+      "weapons": {
+        "CHAOS-CULT-DEMA-P": {
+          "wepName": "Pistola"
+        },
+        "CHAOS-CULT-DEMA-DSR": {
+          "wepName": "Báculo diabólico"
+        },
+        "CHAOS-CULT-DEMA-DSM": {
+          "wepName": "Báculo diabólico"
+        }
+      },
+      "actions": {
+        "CHAOS-CULT-DEMA-IS": {
+          "name": "Incitar a la Masacre",
+          "effects": [
+            "**APOYO** Otro agente CULTO DEL CAOS amigo visible para este agente y a 9\" o menos de él puede realizar inmediatamente una acción Combatir gratuita."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "CHAOS-CULT-DEMA-IU": {
+          "name": "Incitar a la Premura",
+          "effects": [
+            "**APOYO** Otro agente CULTO DEL CAOS amigo visible para este agente y a 9\" o menos de él puede realizar inmediatamente una acción Cargar o Correr gratuita (en el primer caso, no puede moverse más de 3\")."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-CULT-BLBL": {
+      "opTypeName": "Filo Bendito",
+      "weapons": {
+        "CHAOS-CULT-BLBL-CB": {
+          "wepName": "Filo de la comunión"
+        }
+      },
+      "abilities": {
+        "CHAOS-CULT-BLBL-A-AIP": {
+          "abilityName": "Unidos en el Propósito",
+          "description": "Siempre que se active este agente, puedes activar al mismo tiempo otro agente FILO BENDITO amigo preparado que esté a 6\" o menos de él. Completa sus activaciones acción por acción en cualquier orden."
+        },
+        "CHAOS-CULT-BLBL-A-CTD": {
+          "abilityName": "Abatirlos",
+          "description": "Siempre que un agente enemigo realice la acción Retroceder mientras esté en la zona de control de este agente, puedes usar esta regla.\nSi lo haces, inflige D3+1 de daño a ese agente enemigo antes de que se mueva. Si ese agente enemigo está en la zona de control de dos de estos agentes, inflige 2D3+2 de daño en su lugar."
+        }
+      }
+    },
+    "CHAOS-CULT-ICON": {
+      "opTypeName": "Iconarca",
+      "weapons": {
+        "CHAOS-CULT-ICON-BS": {
+          "wepName": "Incensario ardiente"
+        },
+        "CHAOS-CULT-ICON-P": {
+          "wepName": "Pistola"
+        },
+        "CHAOS-CULT-ICON-CMW": {
+          "wepName": "Arma cuerpo a cuerpo tosca"
+        }
+      },
+      "abilities": {
+        "CHAOS-CULT-ICON-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulable con esto."
+        }
+      },
+      "actions": {
+        "CHAOS-CULT-ICON-RI": {
+          "name": "Icono de la Ruina",
+          "effects": [
+            "**PSÍQUICA**",
+            "Elige uno de los siguientes efectos, que dura hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero):",
+            "- **Vigorización:** Siempre que un agente CULTO DEL CAOS amigo esté a 4\" o menos de este agente, el Daño normal y crítico de 4 o más inflige 1 de daño menos a ese agente.",
+            "- **Deterioro:** Siempre que un agente enemigo esté a 4\" o menos de este agente, el Daño normal y crítico inflige 1 de daño más a ese agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-CULT-MW": {
+      "opTypeName": "Bruja Mental",
+      "weapons": {
+        "CHAOS-CULT-MW-IG": {
+          "wepName": "Mirada infernal"
+        },
+        "CHAOS-CULT-MW-F": {
+          "wepName": "Puños"
+        }
+      },
+      "actions": {
+        "CHAOS-CULT-MW-HD": {
+          "name": "Diluvio Atroz",
+          "effects": [
+            "**PSÍQUICA**",
+            "Elige un agente enemigo que sea un blanco válido para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "CHAOS-CULT-MW-MV": {
+          "name": "Vórtice Maléfico",
+          "effects": [
+            "**PSÍQUICA**",
+            "Retira tu marcador de Vórtice Maléfico de la zona de aniquilación (si lo hay). Después, coloca tu marcador de Vórtice Maléfico visible para este agente, o sobre terreno Aventajado de un elemento de terreno que sea visible para este agente.",
+            "Inflige 1 de daño a cada agente enemigo que tenga ese marcador en su zona de control. Además, en el paso de Preparación de cada fase de estrategia, inflige 1 de daño a cada agente enemigo que tenga ese marcador en su zona de control."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-CULT-DEV": {
+      "opTypeName": "Devoto del Caos",
+      "weapons": {
+        "CHAOS-CULT-DEV-P": {
+          "wepName": "Pistola"
+        },
+        "CHAOS-CULT-DEV-CMW": {
+          "wepName": "Arma cuerpo a cuerpo tosca"
+        }
+      },
+      "abilities": {
+        "CHAOS-CULT-DEV-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente DEVOTO del CULTO DEL CAOS amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        }
+      }
+    },
+    "CHAOS-CULT-MUT": {
+      "opTypeName": "Mutante del Caos",
+      "weapons": {
+        "CHAOS-CULT-MUT-BA": {
+          "wepName": "Apéndices blasfemos"
+        }
+      },
+      "abilities": {
+        "CHAOS-CULT-MUT-A-AM": {
+          "abilityName": "Mutante Maldito",
+          "description": "Este agente no puede realizar acciones únicas. Debes gastar 1 PA adicional para que este agente realice la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-CULT-MUT-A-UR": {
+          "abilityName": "Regeneración Antinatural",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "CHAOS-CULT-TOR": {
+      "opTypeName": "Tormento del Caos",
+      "weapons": {
+        "CHAOS-CULT-TOR-HM": {
+          "wepName": "Mutaciones horrendas"
+        }
+      },
+      "abilities": {
+        "CHAOS-CULT-TOR-A-AT": {
+          "abilityName": "Tormento Maldito",
+          "description": "Este agente no puede usar armas que no estén en su ficha de datos, ni realizar la acción Recoger Marcador, acciones únicas ni acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-CULT-TOR-A-BRU": {
+          "abilityName": "Bruto",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, si este agente tiene una orden de Ocultarse, no puede usar terreno Ligero como cobertura.\nAunque esto puede permitir que este agente sea elegido como blanco (suponiendo que sea visible), no elimina su salvación por cobertura (si la tiene)."
+        },
+        "CHAOS-CULT-TOR-A-UR": {
+          "abilityName": "Regeneración Antinatural",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    }
+  }
+}

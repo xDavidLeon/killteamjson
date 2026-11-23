@@ -1,0 +1,400 @@
+{
+  "killteamId": "NEC-HIER",
+  "locale": "es",
+  "team": {
+    "killteamName": "Círculo Hierotek",
+    "description": "Liderados por criptecnólogos ambiciosos y taimados, los Círculos Hierotek emplean soldados necrones y constructos Canoptek únicos\npara favorecer el ascenso de sus propias dinastías. Lo logran descubriendo a los enemigos de sus señores y socavando el\npoder de esos rivales mediante artificios, sabotajes, robos y asesinatos.",
+    "composition": "Un equipo de exterminio CÍRCULO HIEROTEK está compuesto por:\n\n- 1 agente CÍRCULO HIEROTEK elegido de la siguiente lista:\n  - Agente CRONOMANTE con una de las siguientes opciones:\n    - Báculo eónico\n    - Lanza entrópica\n  - PSICOMANTE\n  - TECNOMANTE\n- 1 agente PLASMACITO ACELERADOR\n- 1 agente PLASMACITO REANIMADOR\n- 5 agentes CÍRCULO HIEROTEK elegidos de la siguiente lista:\n  - APRENDITEK\n  - MARCAMUERTES\n  - DÉSPOTEK con una de las siguientes opciones:\n    - Bláster gauss; bayoneta\n    - Carabina tesla; bayoneta    \n  - GUARDIÁN con una de las siguientes opciones:\n    - Bláster gauss; bayoneta\n    - Carabina tesla; bayoneta\n        \nSalvo los agentes MARCAMUERTES y GUARDIÁN, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "NEC-HIER-S-CU": {
+      "ployName": "Dirigir a los subordinados",
+      "description": "Elige una de las siguientes opciones:\n\n- **APOYO** Cada otro agente CÍRCULO HIEROTEK amigo visible y a 6\" o menos de un agente CRIPTECNÓLOGO amigo puede realizar de inmediato una acción gratuita de Correr, en el orden que elijas.\n- **APOYO** Cada otro agente CÍRCULO HIEROTEK amigo (excepto CRIPTECNÓLOGO) visible y a 3\" o menos de un agente APRENDITEK amigo puede realizar de inmediato una acción gratuita de Correr, en el orden que elijas.\n"
+    },
+    "NEC-HIER-S-ME": {
+      "ployName": "Eliminación metódica",
+      "description": "Las armas cuerpo a cuerpo de los agentes CÍRCULO HIEROTEK amigos tienen la regla de armas Certera 1.\nSiempre que un agente CÍRCULO HIEROTEK amigo combata durante una activación en la que no se haya movido más que su atributo Movimiento, o siempre que contraataque, sus armas cuerpo a cuerpo tienen en su lugar la regla de armas Certera 2.  \n**Certera 1:** Puedes conservar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "NEC-HIER-S-ROS": {
+      "ployName": "Embestida implacable",
+      "description": "Siempre que un agente CÍRCULO HIEROTEK amigo dispare contra un agente a 8\" o menos de él, las armas a distancia de ese agente amigo tienen la regla de armas Equilibrada.\nTen en cuenta que, cuando uses la regla de armas Amplificar, este agente debe seguir estando a 8\" o menos del blanco para usar esta regla (no el otro agente amigo desde el que determinas un blanco válido).  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "NEC-HIER-S-UDA": {
+      "ployName": "Androides imperecederos",
+      "description": "Siempre que un agente dispare contra un agente CÍRCULO HIEROTEK amigo, si no puedes conservar ninguna salvación por cobertura, puedes conservar uno de tus dados de defensa como éxito normal sin tirarlo."
+    },
+    "NEC-HIER-T-CC": {
+      "ployName": "Control cortical",
+      "description": "Usa este ardid de tiroteo cuando un agente APRENDITEK CÍRCULO HIEROTEK o CRIPTECNÓLOGO CÍRCULO HIEROTEK amigo realice una acción única de APOYO.\nHasta el final de esa acción, a efectos de elegir a otro agente amigo, ignora el requisito de distancia (solo la visibilidad es un requisito)."
+    },
+    "NEC-HIER-T-DA": {
+      "ployName": "Emboscada dimensional",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente MARCAMUERTES CÍRCULO HIEROTEK amigo, si tiene una orden de Ocultarse.\nDurante esa activación, ese agente puede realizar la acción Ponerse en guardia (ver las reglas de combate cerrado, Libro básico de Kill Team) en cualquier zona de aniquilación y mientras tenga una orden de Ocultarse,\npero cuando realices la acción gratuita de Combatir o Disparar durante la interrupción, debes cambiar su orden a Trabarse."
+    },
+    "NEC-HIER-T-LL": {
+      "ployName": "Relámpago viviente",
+      "description": "Usa este ardid de tiroteo cuando un agente INMORTAL CÍRCULO HIEROTEK amigo esté realizando la acción Disparar y elijas una carabina tesla.\nHasta el final de esa acción, esa arma no tiene el 2\" de su regla de armas Devastadora, pero tiene la regla de armas Área 2\"."
+    },
+    "NEC-HIER-T-RAF": {
+      "ployName": "Función reanimada",
+      "description": "Usa este ardid de tiroteo al determinar el control de un marcador.\nElige uno de tus marcadores de Reanimación. Hasta el inicio del siguiente punto de inflexión, siempre que se determine el control de un marcador, trata ese marcador de Reanimación como un agente CÍRCULO HIEROTEK amigo con un atributo LPA de 1. A efectos de la operación táctica Mártires (Operaciones aprobadas 2025), este ardid no tiene efecto."
+    }
+  },
+  "equipments": {
+    "NEC-HIER-MC": {
+      "eqName": "Conductos de amplificación",
+      "description": "Una vez por punto de inflexión, cuando un agente APRENDITEK CÍRCULO HIEROTEK o CRIPTECNÓLOGO CÍRCULO HIEROTEK amigo esté realizando la acción Disparar, puedes usar esta regla.\nSi lo haces, elige otro agente CÍRCULO HIEROTEK amigo (excepto PLASMACITO) que tenga una orden de Trabarse, no esté en la zona de control de agentes enemigos y sea visible para ese agente amigo.\nHasta el final de esa acción, ese otro agente amigo puede tratarse como el agente activo para la regla de armas Amplificar."
+    },
+    "NEC-HIER-PS": {
+      "eqName": "Desfasador",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare contra un agente CRIPTECNÓLOGO amigo, al inicio del paso de Tirar dados de defensa, puedes usar esta regla.\nSi lo haces, empeora en 1 la x de la regla de armas Penetración (si la hay) hasta el final de esa secuencia.\nTen en cuenta que, por tanto, Penetración 1 se ignoraría."
+    },
+    "NEC-HIER-TC": {
+      "eqName": "Cubo teseracto",
+      "description": "En el paso de Preparación de cada fase de estrategia, cuando ganes PM, si un agente CRIPTECNÓLOGO amigo no está incapacitado, no está en la zona de control de agentes enemigos y no ha sido REANIMADO en este punto de inflexión,\npuedes usar esta regla.\nSi lo haces, tira un D6: con un 1, no puedes usar esta regla durante el resto de la batalla; con un 4+, ganas 1PM.\nUna vez hayas ganado 2PM con esta regla, no puedes usarla durante el resto de la batalla."
+    },
+    "NEC-HIER-TW": {
+      "eqName": "Malla tesla",
+      "description": "Una vez por punto de inflexión, cuando un agente enemigo termine la acción Cargar con agentes CÍRCULO HIEROTEK amigos dentro de su zona de control, puedes usar esta regla. Si lo haces, inflige D3+1 de daño a ese agente enemigo."
+    }
+  },
+  "teamAbilities": {
+    "NEC-HIER-TA-LIME": {
+      "abilityName": "Metal viviente",
+      "description": "En el paso de Preparación de cada fase de estrategia, antes de resolver todas las demás reglas de facción de este paso (p. ej., la regla de facción Protocolos de reanimación), cada agente CÍRCULO HIEROTEK amigo recupera hasta 1D3+1 heridas perdidas (tira por separado para cada uno)."
+    },
+    "NEC-HIER-TA-REPR": {
+      "abilityName": "Protocolos de reanimación",
+      "description": "La primera vez que cada agente CÍRCULO HIEROTEK amigo quede incapacitado, antes de retirarlo de la zona de aniquilación, coloca uno de tus marcadores de Reanimación dentro de su zona de control.\nDespués retíralo como incapacitado, retirando también todas las fichas y efectos de reglas que tuviera (p. ej., la acción Cronometrón del agente CRONOMANTE, fichas de Veneno, cambios en el atributo LPA, estar implantado, etc.).  \n\nEn el paso de Preparación de cada fase de estrategia, elige uno de tus marcadores de Reanimación y tira un 1D6:\ncon un 1-2, deja ese marcador de Reanimación en la zona de aniquilación y repite este proceso con otro de tus marcadores de Reanimación (si los hay);\ncon un 3+, un agente es REANIMADO.  \n\nSolo puedes elegir cada uno de tus marcadores de Reanimación una vez por punto de inflexión, y una vez obtengas un 3+, no eliges ninguno más en ese punto de inflexión.  \n\nSiempre que un agente sea REANIMADO:\n\n- Despliega el agente para el que se colocó ese marcador de Reanimación (ya no está incapacitado). Debe colocarse a 3\" o menos de ese marcador de Reanimación y no en la zona de control de agentes enemigos (si no puedes hacerlo, trata la tirada como un 1-2 en su lugar).\n- Le queda 1 herida.\n- Tiene la orden que elijas y está preparado.\n- Retira ese marcador de Reanimación.\n\nComo los agentes REANIMADOS ya no están incapacitados, a efectos de la operación de exterminio, esto significa que el grado de exterminio de tu oponente puede bajar durante la batalla (pierde los PV correspondientes). Sin embargo, no cambia retroactivamente ningún otro PV que tu oponente haya obtenido, p. ej., de operaciones tácticas..."
+    }
+  },
+  "opTypes": {
+    "NEC-HIER-CHRON": {
+      "opTypeName": "Cronomante",
+      "weapons": {
+        "NEC-HIER-CHRON-ASR": {
+          "wepName": "Báculo eónico"
+        },
+        "NEC-HIER-CHRON-ELR": {
+          "wepName": "Lanza entrópica"
+        },
+        "NEC-HIER-CHRON-ASM": {
+          "wepName": "Báculo eónico"
+        },
+        "NEC-HIER-CHRON-ELM": {
+          "wepName": "Lanza entrópica"
+        }
+      },
+      "actions": {
+        "NEC-HIER-CHRON-CM": {
+          "name": "Cronometrón",
+          "effects": [
+            "**APOYO**",
+            "Elige un agente CÍRCULO HIEROTEK amigo visible y a 6\" o menos de este agente.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que este agente quede incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "resta 1 al atributo Ataques de las armas de un agente siempre que dispare contra ese agente elegido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-CHRON-CTNM": {
+          "name": "Nanomina contratemporal",
+          "effects": [
+            "Coloca tu marcador de Nanomina contratemporal visible y a 8\" o menos de este agente, o a 8\" o menos de este agente y sobre terreno Aventajado de un elemento de escenografía que sea visible para este agente.\r Siempre que un agente enemigo esté a 4\" o menos de tu marcador de Nanomina contratemporal, resta 2\" a su atributo Movimiento.\r Cuando este agente se active de nuevo, quede incapacitado o un agente amigo vuelva a realizar esta acción (lo que ocurra primero), retira ese marcador."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-CHRON-ISC": {
+          "name": "Orden intersticial",
+          "effects": [
+            "**APOYO**\r Elige otro agente CÍRCULO HIEROTEK amigo (excepto APRENDITEK y CRIPTECNÓLOGO) visible y a 6\" o menos de este agente, o a 6\" o menos de un agente DÉSPOTEK amigo que sea visible para este agente.\r Ese agente elegido puede realizar de inmediato una acción de 1PA gratis (excepto Acelerar); no puede moverse ni ser retirado y desplegado de nuevo más de 2\" durante esa acción, ni realizar una acción que ya haya realizado durante este punto de inflexión,\r ni volver a realizar esa acción durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni mientras esté reaccionando."
+          ]
+        },
+        "NEC-HIER-CHRON-RS": {
+          "name": "Astilla temporal",
+          "effects": [
+            "Elige otro agente CÍRCULO HIEROTEK amigo gastado visible y a 5\" o menos de este agente.\r Retíralo de la zona de aniquilación y vuelve a desplegarlo visible y a 5\" o menos en horizontal de este agente, en un lugar donde pueda colocarse.\r Ten en cuenta que un Aparato de Comunicaciones del equipo universal solo afecta a la primera distancia de esta regla."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, durante el primer punto de inflexión, ni si un agente amigo ya ha realizado esta acción durante este punto de inflexión."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-PSYCH": {
+      "opTypeName": "Psicomante",
+      "weapons": {
+        "NEC-HIER-PSYCH-ALR": {
+          "wepName": "Lanza abisal"
+        },
+        "NEC-HIER-PSYCH-ALM": {
+          "wepName": "Lanza abisal"
+        }
+      },
+      "actions": {
+        "NEC-HIER-PSYCH-HOD": {
+          "name": "Heraldo de la desesperación",
+          "effects": [
+            "Coloca tu marcador de Desesperación visible para este agente, o sobre terreno Aventajado de un elemento de escenografía que sea visible para este agente.",
+            "Cuando este agente se active de nuevo, quede incapacitado o un agente amigo vuelva a realizar esta acción (lo que ocurra primero), retira ese marcador.",
+            "Siempre que un agente enemigo esté a 2\" o menos de tu marcador de Desesperación, tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Recoger Marcador y acciones de misión.",
+            "Siempre que se determine el control de un marcador, trata el atributo LPA total de los agentes enemigos que lo disputan como 1 menos si al menos uno de esos agentes enemigos está a 2\" o menos de tu marcador de Desesperación.",
+            "Ten en cuenta que esto no es un cambio en el atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-PSYCH-NS": {
+          "name": "Sudario de pesadilla",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),\r siempre que un agente enemigo a 4\" o menos de este agente dispare, combata o contraataque, tu oponente no puede repetir sus dados de ataque ni puede conservar resultados de dados de ataque inferiores a 6 como éxitos críticos (p. ej., como resultado de las reglas de armas Letal, Desgarradora o Severa)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-PSYCH-RS": {
+          "name": "Orden intersticial",
+          "effects": [
+            "**APOYO**\r Elige otro agente CÍRCULO HIEROTEK amigo (excepto APRENDITEK y CRIPTECNÓLOGO) visible y a 6\" o menos de este agente, o a 6\" o menos de un agente DÉSPOTEK amigo que sea visible para este agente.\r Ese agente elegido puede realizar de inmediato una acción de 1PA gratis (excepto Acelerar); no puede moverse ni ser retirado y desplegado de nuevo más de 2\" durante esa acción, ni realizar una acción que ya haya realizado durante este punto de inflexión,\r ni volver a realizar esa acción durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni mientras esté reaccionando."
+          ]
+        },
+        "NEC-HIER-PSYCH-VOM": {
+          "name": "Visión de locura",
+          "effects": [
+            "Elige un agente enemigo visible para este agente.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "ese agente elegido obtiene una de tus fichas de Locura.",
+            "Siempre que tu oponente fuera a activar un agente enemigo que tenga una de tus fichas de Locura, puedes tirar un D6: si el resultado es igual o superior al LPA de ese agente enemigo,",
+            "no puede activarlo durante esta activación. Si ese agente se activa con éxito, o no hay otros agentes enemigos que puedan activarse, retira su ficha de Locura."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-TECH": {
+      "opTypeName": "Tecnomante",
+      "weapons": {
+        "NEC-HIER-TECH-SOLR": {
+          "wepName": "Báculo de luz"
+        },
+        "NEC-HIER-TECH-SOLM": {
+          "wepName": "Báculo de luz"
+        }
+      },
+      "actions": {
+        "NEC-HIER-TECH-AW": {
+          "name": "Potenciar arma",
+          "effects": [
+            "**APOYO**\r Elige un agente CÍRCULO HIEROTEK amigo visible y a 6\" o menos de este agente.\r Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),\r elige dos de las siguientes reglas de armas para que las tenga una de las armas de la hoja de datos de ese agente elegido:",
+            "Letal 5+",
+            "Desgarradora",
+            "Saturación",
+            "Severa",
+            "Ten en cuenta que, si eliges un báculo de luz o un conducto arcano, solo eliges las reglas de armas adicionales para el perfil a distancia o para el perfil cuerpo a cuerpo de esa arma."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-TECH-CR": {
+          "name": "Reparación Canoptek",
+          "effects": [
+            "**APOYO**\r Elige un agente CÍRCULO HIEROTEK amigo visible y a 6\" o menos de este agente para que recupere hasta D3+3 heridas perdidas."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni si un agente amigo ya ha realizado esta acción durante este punto de inflexión."
+          ]
+        },
+        "NEC-HIER-TECH-RIM": {
+          "name": "Reforzar metal",
+          "effects": [
+            "**APOYO**",
+            "Elige un agente CÍRCULO HIEROTEK amigo visible y a 6\" o menos de este agente.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que un dado de ataque inflija 3 o más de daño a ese agente, resta 1 a ese daño infligido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-HIER-TECH-RS": {
+          "name": "Orden intersticial",
+          "effects": [
+            "**APOYO**\r Elige otro agente CÍRCULO HIEROTEK amigo (excepto APRENDITEK y CRIPTECNÓLOGO) visible y a 6\" o menos de este agente, o a 6\" o menos de un agente DÉSPOTEK amigo que sea visible para este agente.\r Ese agente elegido puede realizar de inmediato una acción de 1PA gratis (excepto Acelerar); no puede moverse ni ser retirado y desplegado de nuevo más de 2\" durante esa acción, ni realizar una acción que ya haya realizado durante este punto de inflexión,\r ni volver a realizar esa acción durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni mientras esté reaccionando."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-PA": {
+      "opTypeName": "Plasmacito acelerador",
+      "weapons": {
+        "NEC-HIER-PA-SP": {
+          "wepName": "Chispa"
+        },
+        "NEC-HIER-PA-CL": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-PA-A-SC": {
+          "abilityName": "Escurridizo",
+          "description": "\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como blanco válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\r - Este agente puede realizar la acción Retroceder por 1 PA menos.\r - Este agente no puede usar armas que no estén en su hoja de datos, ni realizar acciones únicas que no sean Acelerar.\r "
+        }
+      },
+      "actions": {
+        "NEC-HIER-PA-ACC": {
+          "name": "Acelerar",
+          "effects": [
+            "Elige un agente MARCAMUERTES o INMORTAL amigo visible y a 6\" o menos de este agente.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-PR": {
+      "opTypeName": "Plasmacito reanimador",
+      "weapons": {
+        "NEC-HIER-PR-AB": {
+          "wepName": "Haz atomizador"
+        },
+        "NEC-HIER-PR-CL": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-PR-A-SC": {
+          "abilityName": "Escurridizo",
+          "description": "\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como blanco válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\r - Este agente puede realizar la acción Retroceder por 1 PA menos.\r - Este agente no puede usar armas que no estén en su hoja de datos, ni realizar acciones únicas que no sean Reanimar.\r "
+        }
+      },
+      "actions": {
+        "NEC-HIER-PR-RA": {
+          "name": "Reanimar",
+          "effects": [
+            "Elige uno de tus marcadores de Reanimación visible y a 6\" o menos de este agente.",
+            "Tira un D6: con un 3+, un agente amigo es REANIMADO; si has gastado 1 PA adicional, un agente amigo es REANIMADO automáticamente (no necesitas tirar un D6).",
+            "Un agente que sea REANIMADO mediante esta acción única se despliega gastado si ya estaba gastado durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-APP": {
+      "opTypeName": "Aprenditek",
+      "weapons": {
+        "NEC-HIER-APP-ACR": {
+          "wepName": "Conducto arcano"
+        },
+        "NEC-HIER-APP-ACM": {
+          "wepName": "Conducto arcano"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-APP-A-AA": {
+          "abilityName": "Asistencia de aprenditek",
+          "description": "Este agente tiene las mismas acciones únicas que tu agente CRIPTECNÓLOGO elegido para la batalla, pero solo puede realizar una acción única de CRIPTECNÓLOGO por punto de inflexión."
+        }
+      }
+    },
+    "NEC-HIER-DM": {
+      "opTypeName": "Marcamuertes",
+      "weapons": {
+        "NEC-HIER-DM-SD": {
+          "wepName": "Desintegrador sináptico"
+        },
+        "NEC-HIER-DM-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-DM-A-DM": {
+          "abilityName": "Marcado para morir",
+          "description": "Siempre que este agente termine la acción Disparar, el blanco obtiene una de tus fichas de Marcado para morir si no ha quedado incapacitado (el blanco principal, si procede).\nSiempre que un agente MARCAMUERTES CÍRCULO HIEROTEK amigo dispare contra un agente enemigo que tenga una de tus fichas de Marcado para morir, las armas a distancia de ese agente amigo tienen la regla de armas Buscadora."
+        }
+      },
+      "actions": {
+        "NEC-HIER-DM-MDV": {
+          "name": "Visión multidimensional",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente, siempre que dispare, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-ID": {
+      "opTypeName": "Déspotek inmortal",
+      "weapons": {
+        "NEC-HIER-ID-GB": {
+          "wepName": "Bláster gauss"
+        },
+        "NEC-HIER-ID-TC": {
+          "wepName": "Carabina tesla"
+        },
+        "NEC-HIER-ID-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-ID-A-SF": {
+          "abilityName": "Inquebrantable",
+          "description": "Siempre que se determine el control de un marcador, puedes tratar el atributo LPA de este agente como 3. Si lo haces, esto tiene prioridad sobre todas las demás reglas, lo que significa que cualquier cambio en su atributo LPA se ignora para ello."
+        }
+      },
+      "actions": {
+        "NEC-HIER-ID-RS": {
+          "name": "Orden intersticial",
+          "effects": [
+            "**APOYO**\r Elige otro agente CÍRCULO HIEROTEK amigo (excepto APRENDITEK y CRIPTECNÓLOGO) visible y a 6\" o menos de este agente.\r Ese agente elegido puede realizar de inmediato una acción de 1PA gratis (excepto Acelerar); no puede moverse ni ser retirado y desplegado de nuevo más de 2\" durante esa acción, ni realizar una acción que ya haya realizado durante este punto de inflexión,\r ni volver a realizar esa acción durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni mientras esté reaccionando."
+          ]
+        }
+      }
+    },
+    "NEC-HIER-IG": {
+      "opTypeName": "Guardián inmortal",
+      "weapons": {
+        "NEC-HIER-IG-GB": {
+          "wepName": "Bláster gauss"
+        },
+        "NEC-HIER-IG-TC": {
+          "wepName": "Carabina tesla"
+        },
+        "NEC-HIER-IG-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "NEC-HIER-IG-A-SF": {
+          "abilityName": "Inquebrantable",
+          "description": "Siempre que se determine el control de un marcador, puedes tratar el atributo LPA de este agente como 3. Si lo haces, esto tiene prioridad sobre todas las demás reglas, lo que significa que cualquier cambio en su atributo LPA se ignora para ello."
+        }
+      }
+    }
+  }
+}

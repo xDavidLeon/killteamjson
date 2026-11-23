@@ -1,0 +1,281 @@
+{
+  "killteamId": "IMP-CI",
+  "locale": "es",
+  "team": {
+    "killteamName": "Celestes Insidiantes",
+    "description": "Veteranas ensalzadas de las Órdenes Militantes, las Celestes Insidiantes dan caza a las brujas con extrema saña. Las que caen en el cumplimiento de su deber se convierten en mártires, y sus muertes solo sirven para endurecer la determinación de sus hermanas supervivientes.",
+    "composition": "Un equipo de exterminio CELESTE INSIDIANTE está compuesto por:\n\n- 1 agente SUPERIORA CELESTE INSIDIANTE con una de las siguientes opciones:\n  - Lanzaestacas condenador reliquia; pistola bólter reliquia; maza nula\n  - Pistola inferno; maza nula\n\n- 8 agentes CELESTE INSIDIANTE elegidos de la siguiente lista:\n  - ABJURADORA\n  - CENSORA\n  - CREMATORA\n  - DENUNCIA\n  - MORTISANCTUS\n  - RELIQUARIUS\n  - GUERRERA\n\nSalvo los agentes CREMATORA y GUERRERA, tu comando solo puede incluir a cada agente de esta lista una vez. Tu comando solo puede incluir hasta dos agentes CREMATORA."
+  },
+  "ploys": {
+    "IMP-CI-S-SE": {
+      "ployName": "Sospechar y eliminar",
+      "description": "Elige un agente enemigo o un marcador. Si eliges un agente enemigo, ese agente y cada otro agente enemigo visible para él y a 2\" o menos de él obtienen una de tus fichas de Sospecha hasta el final del punto de inflexión. Si elegiste un marcador, cada agente enemigo que dispute ese marcador obtiene una de tus fichas de Sospecha hasta el final del punto de inflexión. Siempre que un agente CELESTE INSIDIANTE amigo dispare o combata contra un agente que tenga una de tus fichas de Sospecha, las armas de ese agente amigo tienen la regla de armas Castigadora."
+    },
+    "IMP-CI-S-WD": {
+      "ployName": "Determinación iracunda",
+      "description": "Siempre que un agente dispare contra un agente CELESTE INSIDIANTE amigo que tenga una orden de Trabarse, puedes repetir uno de tus dados de defensa."
+    },
+    "IMP-CI-S-SS": {
+      "ployName": "Sufrimiento y sacrificio",
+      "description": "Siempre que un agente CELESTE INSIDIANTE amigo herido dispare, combata o contraataque contra un agente enemigo, sus armas tienen la regla de armas Equilibrada."
+    },
+    "IMP-CI-S-HR": {
+      "ployName": "Resistencia sagrada",
+      "description": "Siempre que un agente CELESTE INSIDIANTE amigo INSPIRANTE combata o contraataque, el Daño normal y crítico de 4 o más inflige 1 de daño menos a ese agente amigo."
+    },
+    "IMP-CI-T-GM": {
+      "ployName": "Gloria a los mártires",
+      "description": "Usa este ardid de tiroteo cuando un agente CELESTE INSIDIANTE amigo quede incapacitado mientras combate o contraataca. Puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de que sea retirado de la zona de aniquilación. Si ese agente enemigo queda incapacitado como resultado, ese agente amigo se vuelve INSPIRANTE antes de ser retirado de la zona de aniquilación y puedes resolver la regla de facción Martirio."
+    },
+    "IMP-CI-T-FF": {
+      "ployName": "Fe y furia",
+      "description": "Usa este ardid de tiroteo cuando un agente CELESTE INSIDIANTE amigo esté combatiendo y golpees al agente enemigo de esa secuencia con un éxito crítico. Tras resolver ese golpe, inflige también D3 de daño a cada otro agente enemigo visible para ese agente amigo y a 2\" o menos de él, en el orden que elijas (tira por separado para cada uno). Ten en cuenta que el agente amigo se volvería INSPIRANTE si algún agente enemigo con un atributo Heridas de 6 o más queda incapacitado como resultado de este daño."
+    },
+    "IMP-CI-T-UP": {
+      "ployName": "Persecución inquebrantable",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CELESTE INSIDIANTE amigo, antes o después de que realice una acción. Hasta el final de la activación de ese agente, puedes ignorar cualquier cambio en su atributo Movimiento. Si ese agente es INSPIRANTE, suma 1\" a su atributo Movimiento hasta el final de esa activación. Si ese agente se vuelve INSPIRANTE al realizar la acción Cargar, puedes usar este ardid antes de que se mueva para obtener el movimiento adicional (esto tiene preferencia sobre que los atributos no cambien durante una acción)."
+    },
+    "IMP-CI-T-FH": {
+      "ployName": "Odio ferviente",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente CELESTE INSIDIANTE amigo, si está disparando, combatiendo o contraatacando contra un agente enemigo que no tiene la clave IMPERIUM. Las armas de ese agente amigo tienen la regla de armas Incesante hasta el final de esa secuencia; si ese agente enemigo además tiene la clave CAOS y/o PSYKER, las armas de ese agente amigo tienen en su lugar la regla de armas Implacable hasta el final de esa secuencia."
+    }
+  },
+  "equipments": {
+    "IMP-CI-EQ-PG": {
+      "eqName": "Granadas antipsíquicas",
+      "description": "Este equipo te permite elegir dos granadas especiales del equipo Granadas Especiales (ver equipo universal) y todas deben ser granadas aturdidoras. Si también eliges ese equipo de la forma normal, no puedes elegir ninguna granada aturdidora (es decir, para tener más de dos). Siempre que un agente realice una prueba de aturdimiento como resultado de que un agente CELESTE INSIDIANTE amigo realice la acción Granada Aturdidora, si el resultado es 3+, inflige también a ese primer agente un daño igual a la mitad del resultado del dado (redondeando hacia arriba). Si ese primer agente tiene la clave PSYKER, inflígele en su lugar un daño igual al resultado del dado."
+    },
+    "IMP-CI-EQ-VM": {
+      "eqName": "Vocifera Mortis",
+      "description": "Una vez por batalla, cuando un agente CELESTE INSIDIANTE amigo INSPIRANTE quede incapacitado, puedes usar esta regla. Si lo haces, para la regla de facción Martirio, el otro agente CELESTE INSIDIANTE amigo que elijas puede ser uno que no sea visible para ese agente ni esté a 6\" o menos de él."
+    },
+    "IMP-CI-EQ-SR": {
+      "eqName": "Reliquias santas",
+      "description": "Siempre que un dado de ataque fuera a infligir daño a un agente CELESTE INSIDIANTE amigo, puedes usar esta regla. Si lo haces, tira un D6, o dos D6 si ese agente es INSPIRANTE: si algún resultado es un 6, ignora el daño infligido por ese dado de ataque. No puedes ignorar más de un dado de ataque por punto de inflexión ni más de dos dados de ataque por batalla de esta forma."
+    },
+    "IMP-CI-EQ-AF": {
+      "eqName": "Autoflagelador",
+      "description": "Siempre que se active un agente CELESTE INSIDIANTE amigo, puedes usar esta regla. Si lo haces, tira un D6 e inflige a ese agente un daño igual a la mitad del resultado (redondeando hacia arriba); con un 4+, ese agente también se vuelve INSPIRANTE. No puedes volver INSPIRANTE a más de un agente amigo usando esta regla por punto de inflexión."
+    }
+  },
+  "teamAbilities": {
+    "IMP-CI-TA-MAR": {
+      "abilityName": "Martirio",
+      "description": "Siempre que un agente CELESTE INSIDIANTE amigo INSPIRANTE quede incapacitado, antes de que sea retirado de la zona de aniquilación, elige otro agente CELESTE INSIDIANTE amigo para el que ese agente sea visible o a 6\" o menos de él. Después, ese agente elegido obtiene una BENDICIÓN (los agentes incapacitados no pueden ser elegidos para una BENDICIÓN).\n\n**BENDICIONES:**\n\n*   **Ardor:** Hasta el final de la batalla, suma 1 al atributo LPA de ese agente. No puedes elegir esta BENDICIÓN para un agente SUPERIORA.\n*   **Ira:** Hasta el final de la batalla, las armas de la hoja de datos de ese agente tienen la regla de armas Incesante.\n*   **Restauración:** Ese agente recupera hasta D3+2 heridas perdidas.\n*   **Exigencia:** Ese agente puede realizar inmediatamente una acción gratuita de Cargar o de Correr (en el primer caso, no puede moverse más de 3\"), pero debe terminar ese movimiento más cerca de ese agente INSPIRANTE incapacitado."
+    },
+    "IMP-CI-TA-WWH": {
+      "abilityName": "Armas de las cazadoras de brujas",
+      "description": "Las armas a distancia PSÍQUICAS no pueden infligir daño a los agentes CELESTE INSIDIANTE amigos. A efectos de las acciones PSÍQUICAS, los agentes CELESTE INSIDIANTE amigos no pueden ser elegidos y nunca se considera que estén dentro de las distancias requeridas por esas acciones. Siempre que un agente esté a 3\" o menos de un agente CELESTE INSIDIANTE amigo:\n- Ese agente no puede realizar acciones PSÍQUICAS ni usar reglas adicionales PSÍQUICAS.\n- Ese agente no puede usar armas a distancia PSÍQUICAS.\n- Las armas de combate PSÍQUICAS no tienen reglas de armas y no pueden tener atributos de Daño superiores a 3/4."
+    },
+    "IMP-CI-TA-INS": {
+      "abilityName": "Inspiración",
+      "description": "Siempre que un agente CELESTE INSIDIANTE amigo:\n- Incapacite a un agente enemigo que tenga un atributo Heridas de 6 o más, ese agente amigo se vuelve INSPIRANTE.\n- Realice la acción Cargar, antes de moverse, se vuelve INSPIRANTE.\n\nSiempre que un agente CELESTE INSIDIANTE amigo sea INSPIRANTE, las armas de su hoja de datos tienen la regla de armas Severa."
+    }
+  },
+  "opTypes": {
+    "IMP-CI-SUP": {
+      "opTypeName": "Superiora Insidiante",
+      "weapons": {
+        "IMP-CI-SUP-IP": {
+          "wepName": "Pistola inferno"
+        },
+        "IMP-CI-SUP-RBP": {
+          "wepName": "Pistola bólter reliquia"
+        },
+        "IMP-CI-SUP-RCS": {
+          "wepName": "Lanzaestacas condenador reliquia"
+        },
+        "IMP-CI-SUP-NM": {
+          "wepName": "Maza nula"
+        }
+      },
+      "abilities": {
+        "IMP-CI-SUP-HE": {
+          "abilityName": "Ejemplo sagrado",
+          "description": "Una vez por punto de inflexión, si este agente es INSPIRANTE, puedes usar un ardid de tiroteo por 0PM si este es el agente CELESTE INSIDIANTE especificado (incluida la Repetición de Mando si el dado de ataque o de defensa se tiró por este agente)."
+        }
+      },
+      "actions": {
+        "IMP-CI-SUP-SM": {
+          "name": "Mentora espiritual",
+          "effects": [
+            "APOYO. Elige un agente CELESTE INSIDIANTE amigo visible para este agente y a 6\" o menos de él. Ese agente se vuelve INSPIRANTE."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    },
+    "IMP-CI-ABJ": {
+      "opTypeName": "Abjuradora Insidiante",
+      "weapons": {
+        "IMP-CI-ABJ-BSD": {
+          "wepName": "Espada bendita y Praesidium Protectiva",
+          "profiles": {
+            "IMP-CI-ABJ-BSD-0": {
+              "profileName": "Defensivo"
+            },
+            "IMP-CI-ABJ-BSD-1": {
+              "profileName": "Ofensivo"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "IMP-CI-ABJ-HD": {
+          "abilityName": "Defensora sagrada",
+          "description": "Una vez por punto de inflexión, cuando un agente CELESTE INSIDIANTE amigo visible para este agente y a 2\" o menos de él sea elegido como objetivo válido de una acción Disparar o para combatir contra él durante la acción Combatir, puedes usar esta regla. Si lo haces, este agente se convierte en su lugar en el objetivo válido o en el agente contra el que se combate (según corresponda) (aunque normalmente no fuera válido para ello). Si se trata de la acción Combatir, considera que este agente está en la zona de control del agente que combate mientras dure esa acción. Si se trata de la acción Disparar, este agente solo está en cobertura u oscurecido si el objetivo original lo estaba. Esta regla no tiene efecto si se trata de la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+        },
+        "IMP-CI-ABJ-SHIELD": {
+          "abilityName": "Escudo",
+          "description": "Siempre que este agente combata o contraataque con este perfil de arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+        }
+      }
+    },
+    "IMP-CI-CEN": {
+      "opTypeName": "Censora Insidiante",
+      "weapons": {
+        "IMP-CI-CEN-VA": {
+          "wepName": "Vara de amonestación"
+        }
+      },
+      "abilities": {
+        "IMP-CI-CEN-VIB": {
+          "abilityName": "Portaestandarte de la Vara de amonestación",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, así que cualquier cambio es acumulativo con esto."
+        },
+        "IMP-CI-CEN-NF": {
+          "abilityName": "Campo nulo",
+          "description": "Este agente empieza la batalla con un alcance nulo de 1\". Siempre que un agente enemigo esté dentro del alcance nulo de este agente, resta 2\" al atributo Movimiento de ese agente enemigo y empeora en 1 el atributo Impactar de sus armas (esto no es acumulativo con estar herido)."
+        }
+      },
+      "actions": {
+        "IMP-CI-CEN-NR": {
+          "name": "Ritual de anulación",
+          "effects": [
+            "Suma 1 al alcance nulo de este agente (hasta un máximo de 5\"). Las fichas de Anulación de la guía de marcadores/fichas están numeradas, así que usa la ficha numerada igual al alcance nulo de este agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    },
+    "IMP-CI-CRE": {
+      "opTypeName": "Crematora Insidiante",
+      "weapons": {
+        "IMP-CI-CRE-HF": {
+          "wepName": "Pistola lanzallamas",
+          "profiles": {
+            "IMP-CI-CRE-HF-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-CI-CRE-HF-1": {
+              "profileName": "Diluvio"
+            }
+          }
+        },
+        "IMP-CI-CRE-NM": {
+          "wepName": "Maza nula"
+        }
+      },
+      "abilities": {
+        "IMP-CI-CRE-IP": {
+          "abilityName": "Pira inspiradora",
+          "description": "Una vez por punto de inflexión, cuando este agente inflija daño a un agente enemigo con cualquiera de los perfiles de su pistola lanzallamas pero no lo incapacite, puedes usar esta regla. Si lo haces, puedes elegir un agente CELESTE INSIDIANTE amigo a 6\" o menos de este agente para que se vuelva INSPIRANTE. Ten en cuenta que Ráfaga 0\" significa que no puedes elegir objetivos secundarios, pero esta arma sigue teniendo la regla de armas Ráfaga a efectos de todas las demás reglas."
+        }
+      }
+    },
+    "IMP-CI-DEN": {
+      "opTypeName": "Denuncia Insidiante",
+      "weapons": {
+        "IMP-CI-DEN-VC": {
+          "wepName": "Voz de condena"
+        },
+        "IMP-CI-DEN-SD": {
+          "wepName": "Báculo de declamación"
+        }
+      },
+      "abilities": {
+        "IMP-CI-DEN-AE": {
+          "abilityName": "Exorcista acusadora",
+          "description": "Siempre que este agente sea INSPIRANTE, el ardid de estrategia Sospechar y eliminar te cuesta 0PM si el agente enemigo o el marcador que eliges es visible para este agente o está a 6\" o menos de él."
+        }
+      },
+      "actions": {
+        "IMP-CI-DEN-SD": {
+          "name": "Proclamar sus gestas",
+          "effects": [
+            "APOYO. Elige un agente CELESTE INSIDIANTE amigo INSPIRANTE visible para este agente y a 6\" o menos de él. Ese agente deja de ser INSPIRANTE. Después, elige otro agente CELESTE INSIDIANTE amigo visible para este agente y a 6\" o menos de él. Resuelve en ese agente una BENDICIÓN de la regla de facción Martirio (excepto Exigencia)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-CI-MOR": {
+      "opTypeName": "Mortisanctus Insidiante",
+      "weapons": {
+        "IMP-CI-MOR-BB": {
+          "wepName": "Mandoble bendito"
+        }
+      },
+      "abilities": {
+        "IMP-CI-MOR-ZU": {
+          "abilityName": "Ultimátum fanático",
+          "description": "GAMBITO ESTRATÉGICO una vez por batalla. Elige un agente enemigo a 8\" o menos de este agente y lánzale un ultimátum. Tu oponente debe aceptar o rechazar ese ultimátum (si es un agente no controlado por un jugador, tira un D6: con un 4+, el ultimátum se acepta; en caso contrario, se rechaza).\n\nSi el ultimátum se acepta, siempre que este agente combata o contraataque contra ese agente enemigo, suma 1 al atributo Atq del mandoble bendito de este agente. La primera vez que este agente incapacite a ese agente enemigo mientras combate o contraataca durante la batalla, suma 1 al atributo Atq del mandoble bendito de este agente hasta el final de la batalla. En ambos casos, hasta un máximo de 5.\n\nSi el ultimátum se rechaza, siempre que ese agente enemigo combata o contraataque contra un agente CELESTE INSIDIANTE amigo, resta 1 al atributo Atq de las armas de ese agente enemigo."
+        },
+        "IMP-CI-MOR-BS": {
+          "abilityName": "Guardia de acero",
+          "description": "Siempre que este agente combata o contraataque, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        }
+      }
+    },
+    "IMP-CI-REL": {
+      "opTypeName": "Reliquarius Insidiante",
+      "weapons": {
+        "IMP-CI-REL-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-CI-REL-CS": {
+          "wepName": "Lanzaestacas condenador"
+        },
+        "IMP-CI-REL-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-CI-REL-SN": {
+          "abilityName": "Portaestandarte del Simulacrum Nullificatus",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de este agente. Ten en cuenta que esto no es un cambio al atributo LPA, así que cualquier cambio es acumulativo con esto."
+        },
+        "IMP-CI-REL-DEV": {
+          "abilityName": "Devoción",
+          "description": "Al final de cada una de las activaciones de este agente, si es INSPIRANTE y controla un marcador de objetivo o uno de tus marcadores de misión, un agente CELESTE INSIDIANTE amigo para el que este agente sea visible y que esté a 6\" o menos de él se vuelve INSPIRANTE."
+        }
+      }
+    },
+    "IMP-CI-WAR": {
+      "opTypeName": "Guerrera Insidiante",
+      "weapons": {
+        "IMP-CI-WAR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-CI-WAR-CS": {
+          "wepName": "Lanzaestacas condenador"
+        },
+        "IMP-CI-WAR-NM": {
+          "wepName": "Maza nula"
+        }
+      },
+      "abilities": {
+        "IMP-CI-WAR-IS": {
+          "abilityName": "Golpes inspirados",
+          "description": "Siempre que este agente sea INSPIRANTE, suma 1 al atributo Daño crítico de las armas de su hoja de datos."
+        }
+      }
+    }
+  }
+}

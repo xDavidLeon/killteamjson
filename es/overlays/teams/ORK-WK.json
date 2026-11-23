@@ -1,0 +1,241 @@
+{
+  "killteamId": "ORK-WK",
+  "locale": "es",
+  "team": {
+    "killteamName": "Kuadrilla Deztrozona",
+    "description": "Las Kuadrillas Deztrozonas son infames unidades de equipos de exterminio orkos a las que les encanta el combate explosivo durante sus sanguinarios arrebatos de destrucción.\r Se las considera lo mejor de su especie, y sus miembros son más grandes y fuertes que el orko típico. Las Kuadrillas Deztrozonas también emplean armas que provocan explosiones, y solo pensarlo las enardece hasta ponerse Hasta loz topez y listas para pelear. Estos atributos y su uso de blindaje pezado hacen que las Kuadrillas Deztrozonas sean increíblemente duraderas y letales en batalla.",
+    "composition": "Un equipo de exterminio KUADRILLA DEZTROZONA está compuesto por:\n\n- 1 agente KUADRILLA DEZTROZONA NOBLE JEFE con una de las siguientes opciones:\n  - Piztola kobete; martillo machakador\n  - Doz piztolaz kobete; rebanadora\n- 2 agentes KUADRILLA DEZTROZONA GARRAPATO BOMBA\n- 5 agentes KUADRILLA DEZTROZONA elegidos de la siguiente lista:\n  - CHIKO ROMPEDOR DEMOLEDOR\n  - CHIKO ROMPEDOR LUCHADOR\n  - CHIKO ROMPEDOR APLAZTADOR\n  - REVIENTATANKEZ ARTILLERO con una de las siguientes opciones:\n    - Lanzakobetez pezado; puños\n    - Lanzakobetez; puños    \n  - REVIENTATANKEZ KOBETERO con una de las siguientes opciones:\n    - Lanzakobetez; kobete pulsar; puños\n    - Lanzakobetez; bandeja de kobetez; puños\n\nSalvo los agentes GARRAPATO BOMBA, CHIKO ROMPEDOR LUCHADOR y REVIENTATANKEZ ARTILLERO, tu comando solo puede incluir a cada uno de los agentes anteriores una vez."
+  },
+  "ploys": {
+    "ORK-WK-S-AMP": {
+      "ployName": "Zobreexcitadoz",
+      "description": "Cada agente KUADRILLA DEZTROZONA amigo que tenga una orden de Trabarse puede recuperar inmediatamente 1D3+1 Heridas perdidas (tira por separado para cada uno)."
+    },
+    "ORK-WK-S-DES": {
+      "ployName": "Deztrucción",
+      "description": "Las armas a distancia de los agentes KUADRILLA DEZTROZONA amigos tienen la regla de armas Saturación."
+    },
+    "ORK-WK-S-TG": {
+      "ployName": "Duroz de pelar",
+      "description": "Siempre que un agente dispare contra un agente KUADRILLA DEZTROZONA amigo que tenga una orden de Trabarse, puedes repetir uno de tus dados de defensa."
+    },
+    "ORK-WK-S-WAAAGH": {
+      "ployName": "¡WAAAGH!",
+      "description": "Las armas de combate de los agentes KUADRILLA DEZTROZONA amigos tienen la regla de armas Equilibrada."
+    },
+    "ORK-WK-T-DEMO": {
+      "ployName": "Trabajo de demolición",
+      "description": "Usa este ardid de tiroteo después de que un agente KUADRILLA DEZTROZONA amigo realice la acción Combatir o Disparar, justo antes de retirar a los agentes incapacitados (si los hay).\nColoca uno de tus marcadores de Demolición en la zona de control del objetivo (si está usando un arma de Área, el objetivo principal).\nSiempre que un agente KUADRILLA DEZTROZONA amigo (salvo GARRAPATO BOMBA) dispare, combata o contraataque contra un agente que esté a 3\" o menos de ese marcador,\npuedes gastar un punto de Deztrozo gratis (aunque no tengas ninguno).\nEn el paso de Preparación de la siguiente fase de estrategia, retira ese marcador."
+    },
+    "ORK-WK-T-JSA": {
+      "ployName": "Zolo ez un razguño",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflija Daño normal a un agente KUADRILLA DEZTROZONA amigo (salvo GARRAPATO BOMBA).\nIgnora ese daño infligido."
+    },
+    "ORK-WK-T-KB": {
+      "ployName": "¡Kabum!",
+      "description": "Usa este ardid de tiroteo cuando un agente KUADRILLA DEZTROZONA amigo realice la acción Disparar y se seleccione un arma con la regla de armas Área.\nHasta el final de esa acción, suma 1\" al Área de esa arma, y esta tiene la regla de armas Severa al disparar contra el objetivo principal.\nNo puedes usar este ardid y la regla Kobetez taladro (ver equipo) durante la misma acción.\nTen en cuenta que Severa no genera un punto de Deztrozo (ya que no es un 6)."
+    },
+    "ORK-WK-T-PS": {
+      "ployName": "Una pelea de verdá",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente KUADRILLA DEZTROZONA CHIKO ROMPEDOR o KUADRILLA DEZTROZONA NOBLE JEFE amigo.\nDurante esa activación, ese agente puede realizar dos acciones de Combatir."
+    }
+  },
+  "equipments": {
+    "ORK-WK-DR": {
+      "eqName": "Kobetez taladro",
+      "description": "Una vez por punto de inflexión, siempre que un agente KUADRILLA DEZTROZONA amigo esté realizando la acción Disparar y selecciones un lanzakobetez o un lanzakobetez pezado, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, esa arma pierde la regla de armas Área pero tiene la regla de armas Penetración 1."
+    },
+    "ORK-WK-XA": {
+      "eqName": "Blindaje extra",
+      "description": "Resta 1\" al atributo Movimiento de los agentes KUADRILLA DEZTROZONA amigos y mejora en 1 su atributo Salvación. Esto excluye a los agentes GARRAPATO BOMBA y no es acumulativo con la regla Protectora de una Barricada Portátil del equipo universal."
+    },
+    "ORK-WK-EO": {
+      "eqName": "Aceite de motor",
+      "description": "Una vez por punto de inflexión, siempre que se active un agente KUADRILLA DEZTROZONA amigo (salvo GARRAPATO BOMBA), puedes usar esta regla.\nSi lo haces, hasta el final de esa activación, puedes ignorar cualquier cambio en los atributos de ese agente por estar herido (incluidos los atributos de sus armas)."
+    },
+    "ORK-WK-GL": {
+      "eqName": "Glifoz",
+      "description": "Cuando se seleccione este equipo, selecciona también el ardid de estrategia ¡WAAAGH! o Deztrucción.\nLa primera vez que fueras a usar ese ardid durante la batalla, cuesta 0PM; siempre que fueras a usarlo a partir de entonces, cuesta 0PM si tienes algún punto de Deztrozo."
+    }
+  },
+  "teamAbilities": {
+    "ORK-WK-TA-TAUP": {
+      "abilityName": "Hasta loz topez",
+      "description": "La primera vez que un agente KUADRILLA DEZTROZONA amigo (salvo GARRAPATO BOMBA) que tenga una orden de Trabarse realice la acción Cargar, Disparar o Combatir (salvo Ponerse en guardia) durante cada una de sus activaciones/reacciones, suma 1 a su atributo LPA hasta el inicio de su siguiente activación."
+    },
+    "ORK-WK-TA-WRRA": {
+      "abilityName": "Arrazamiento deztrozón",
+      "description": "Siempre que un agente KUADRILLA DEZTROZONA amigo dispare, combata o contraataque, en el paso de Tirar dados de ataque:\n\n- Por cada resultado de 6 en un dado de ataque que guardes, ganas un punto de Deztrozo\n- Puedes gastar hasta 2 de tus puntos de Deztrozo (salvo que sea un GARRAPATO BOMBA, en cuyo caso no puedes gastar ninguno). Por cada punto que gastes de este modo, guarda uno de tus fallos como éxito normal en lugar de descartarlo\n\nPuedes ganar y gastar puntos de Deztrozo durante la misma acción y puedes hacerlo en el orden que elijas, salvo que hayas empezado la acción con 6, en cuyo caso solo puedes gastarlos.\nSi empiezas una acción con 6 puntos de Deztrozo, no puedes ganar más durante esa acción."
+    }
+  },
+  "opTypes": {
+    "ORK-WK-NOB": {
+      "opTypeName": "Noble Jefe Deztrozón",
+      "weapons": {
+        "ORK-WK-NOB-RP": {
+          "wepName": "Piztola kobete"
+        },
+        "ORK-WK-NOB-2RP": {
+          "wepName": "Doz piztolaz kobete",
+          "profiles": {
+            "ORK-WK-NOB-2RP-0": {
+              "profileName": "Concentrado"
+            },
+            "ORK-WK-NOB-2RP-1": {
+              "profileName": "Salva"
+            }
+          }
+        },
+        "ORK-WK-NOB-CHOP": {
+          "wepName": "Rebanadora"
+        },
+        "ORK-WK-NOB-SH": {
+          "wepName": "Martillo machakador"
+        }
+      },
+      "abilities": {
+        "ORK-WK-NOB-A-BOSS": {
+          "abilityName": "Jefe Deztrozón",
+          "description": "Siempre que este agente realice una acción de Combatir o Disparar (salvo Ponerse en guardia), ganas 1 punto de Deztrozo."
+        },
+        "ORK-WK-NOB-A-SALVO": {
+          "abilityName": "*Salva",
+          "description": "Selecciona hasta dos objetivos válidos diferentes que no estén en la zona de control de agentes amigos. Dispara esta arma contra ambos objetivos principales en el orden que elijas, y después contra todos los objetivos secundarios restantes del mismo modo (tira cada secuencia por separado).\nNo se puede disparar más de una vez contra cada objetivo (principal o secundario) durante la acción."
+        }
+      }
+    },
+    "ORK-WK-BBFTR": {
+      "opTypeName": "Chiko Rompedor Luchador",
+      "weapons": {
+        "ORK-WK-BBFTR-SH": {
+          "wepName": "Martillo machakador"
+        }
+      },
+      "actions": {
+        "ORK-WK-BBFTR-BS": {
+          "name": "Romper cozaz",
+          "effects": [
+            "Elige un elemento de escenografía en la zona de control de este agente.",
+            "Si es terreno de Equipo, retíralo. De lo contrario, coloca uno de tus marcadores de Brecha en la zona de control de este agente lo más cerca posible de ese terreno.",
+            "Siempre que un agente esté a 1\" o menos de ese marcador, considera las partes de ese elemento de escenografía que no tengan más de 1\" de grosor como terreno Accesible."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si no hay un elemento de escenografía en su zona de control."
+          ]
+        }
+      }
+    },
+    "ORK-WK-BBDEMO": {
+      "opTypeName": "Chiko Rompedor Demoledor",
+      "weapons": {
+        "ORK-WK-BBDEMO-TH": {
+          "wepName": "Martillo revientatankez",
+          "profiles": {
+            "ORK-WK-BBDEMO-TH-0": {
+              "profileName": "Golpe"
+            },
+            "ORK-WK-BBDEMO-TH-1": {
+              "profileName": "Detonar"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "ORK-WK-BBDEMO-A-DET": {
+          "abilityName": "*Detonar",
+          "description": "La primera vez durante la batalla que este agente fuera a infligir daño a un agente enemigo con este perfil de arma,\r inflige por separado 1D6+6 de daño a ese agente y a cada otro agente en la zona de control de ese agente enemigo si es un éxito normal,\r o 2D6+6 de daño si es un éxito crítico.\r Después, la acción termina y ganas 1 punto de Deztrozo, más 1 por cada agente que haya resultado incapacitado durante esa acción. El daño de esta regla de armas no puede ignorarse ni reducirse."
+        },
+        "ORK-WK-BBDEMO-A-RT": {
+          "abilityName": "Temperamento temerario",
+          "description": "El Daño normal de 4 o más inflige 1 de daño menos a este agente; si este agente tiene una orden de Trabarse, el Daño crítico de 4 o más también inflige 1 de daño menos a este agente."
+        }
+      }
+    },
+    "ORK-WK-BBKRU": {
+      "opTypeName": "Chiko Rompedor Aplaztador",
+      "weapons": {
+        "ORK-WK-BBKRU-KB": {
+          "wepName": "Rompenudillos"
+        }
+      },
+      "abilities": {
+        "ORK-WK-BBKRU-A-AU": {
+          "abilityName": "Bien blindado",
+          "description": "Siempre que un agente enemigo dispare contra este agente, o este agente combata o contraataque, tu oponente no puede guardar resultados de los dados de ataque menores que 6 como éxitos críticos (p. ej., como resultado de las reglas de armas Letal, Desgarradora o Severa)."
+        }
+      }
+    },
+    "ORK-WK-TBGNR": {
+      "opTypeName": "Revientatankez Artillero",
+      "weapons": {
+        "ORK-WK-TBGNR-ERL": {
+          "wepName": "Lanzakobetez pezado"
+        },
+        "ORK-WK-TBGNR-RL": {
+          "wepName": "Lanzakobetez"
+        },
+        "ORK-WK-TBGNR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "ORK-WK-TBGNR-A-KS": {
+          "abilityName": "Vena kompetitiva",
+          "description": "Una vez por acción de Disparar, si este agente dispara contra un agente enemigo contra el que otro agente amigo ya haya disparado durante este punto de inflexión, ganas 1 punto de Deztrozo.\nDetermínalo cuando selecciones un objetivo válido, pero puedes incluir cualquier objetivo secundario al hacerlo (p. ej., de la regla de armas Área)."
+        }
+      }
+    },
+    "ORK-WK-TBROK": {
+      "opTypeName": "Revientatankez Kobetero",
+      "weapons": {
+        "ORK-WK-TBROK-PR": {
+          "wepName": "Kobete pulsar"
+        },
+        "ORK-WK-TBROK-RL": {
+          "wepName": "Lanzakobetez"
+        },
+        "ORK-WK-TBROK-RR": {
+          "wepName": "Bandeja de kobetez"
+        },
+        "ORK-WK-TBROK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "ORK-WK-TBROK-A-SA": {
+          "abilityName": "Onda de choke",
+          "description": "Siempre que un agente esté a x\" o menos de tu marcador de Pulsar, empeora en 1 el atributo Impactar de sus armas y resta 2\" a su atributo Movimiento.\nEsto es acumulativo con estar herido.\nX son los puntos de Pulsar de ese marcador. En el paso de Preparación de cada fase de estrategia, resta 1 a los puntos de tu marcador de Pulsar.\nSi un marcador de Pulsar llega a tener 0 puntos, retíralo."
+        }
+      }
+    },
+    "ORK-WK-SQUIG": {
+      "opTypeName": "Garrapato Bomba Deztrozón",
+      "weapons": {
+        "ORK-WK-SQUIG-EX": {
+          "wepName": "Explozivoz"
+        },
+        "ORK-WK-SQUIG-B": {
+          "wepName": "Mordizquitoz"
+        }
+      },
+      "abilities": {
+        "ORK-WK-SQUIG-A-BOOM": {
+          "abilityName": "¡Bum!",
+          "description": "Siempre que este agente resulte incapacitado durante una batalla en la que no haya usado sus Explozivoz, tira 1D6, o 2D6 si lo deseas.\nSi algún resultado es 4+, este agente realiza una acción gratuita de Disparar con sus Explozivoz antes de ser retirado de la zona de aniquilación."
+        },
+        "ORK-WK-SQUIG-A-EX": {
+          "abilityName": "*Explosivo",
+          "description": "Este agente puede realizar la acción Disparar con esta arma mientras está en la zona de control de un agente enemigo.\nNo selecciones un objetivo válido. En su lugar, este agente es siempre el objetivo principal y no puede estar a cubierto ni ofuscado."
+        },
+        "ORK-WK-SQUIG-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de matar/eliminación de tu oponente (cuando resulta incapacitado y al determinar tu número inicial de agentes).\r También se ignora para las condiciones de victoria y la puntuación de PV si alguna de ellas requiere que los agentes \"escapen\", \"sobrevivan\" o resulten incapacitados por agentes enemigos (si escapa/sobrevive/resulta incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/resultar incapacitados, etc.)."
+        },
+        "ORK-WK-SQUIG-A-ST": {
+          "abilityName": "Zopenko",
+          "description": "Durante la fase de tiroteo, siempre que determines la orden de este agente, no puedes seleccionar Ocultarse.\nEste agente no puede realizar ninguna acción salvo Cargar, Correr, Combatir, Reposicionarse y Disparar, ni usar ningún arma que no esté en su hoja de datos."
+        }
+      }
+    }
+  }
+}

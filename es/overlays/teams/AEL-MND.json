@@ -1,0 +1,239 @@
+{
+  "killteamId": "AEL-MND",
+  "locale": "es",
+  "team": {
+    "killteamName": "Mandrágoras",
+    "description": "Las Mandrágoras se encuentran en Aelindrach, una región de Commorragh. Literalmente caída en la sombra, es uno de los varios distritos de Commorragh que existen en más de una dimensión a la vez. En Aelindrach, las sombras se espesan y se retuercen como seres vivos, fluyendo unas en otras e intentando atrapar a quienes se aventuran en el distrito.\n  \n  \n\nEs en Aelindrach donde las Mandrágoras y los Cuervos de sombra tienen sus guaridas. Se rumorea que en algún lugar de Aelindrach hay un portal a un mundo donde existen demonios de sombra capaces de congelar el alma con un simple roce. ",
+    "composition": "Un equipo de exterminio MANDRÁGORA está compuesto por:\n\n- 1 Demonio nocturno MANDRÁGORA\n- 8 agentes MANDRÁGORA elegidos de la siguiente lista:  \n  - Abisal\n  - Elector de la carne\n  - Fauces fúnebres\n  - Tejesombras\n  - Guerrero\n\nSalvo los agentes Guerrero, tu comando solo puede incluir a cada agente una vez."
+  },
+  "ploys": {
+    "AEL-MND-S-BITD": {
+      "ployName": "Hoja en la oscuridad",
+      "description": "Cada agente MANDRÁGORA amigo puede realizar la acción Cargar mientras tenga una orden de Ocultarse si empieza o termina esa acción EN LA SOMBRA."
+    },
+    "AEL-MND-S-CH": {
+      "ployName": "Horror reptante",
+      "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente MANDRÁGORA amigo que tenga una orden de Ocultarse si empieza y termina esa acción EN LA SOMBRA.\nNo puedes usar este ardid durante el primer punto de inflexión, y cada agente amigo solo puede ser elegido para este ardid una vez por punto de inflexión."
+    },
+    "AEL-MND-S-GS": {
+      "ployName": "Sudario crepuscular",
+      "description": "Siempre que un agente dispare contra un agente MANDRÁGORA amigo que esté EN LA SOMBRA, puedes conservar uno de tus dados de defensa como éxito normal sin tirarlo (además de una salvación por cobertura, si la hay)."
+    },
+    "AEL-MND-S-IN": {
+      "ployName": "Pesadilla ineludible",
+      "description": "Siempre que un agente MANDRÁGORA amigo dispare, combata o contraataque, si está EN LA SOMBRA puedes repetir uno de tus dados de ataque."
+    },
+    "AEL-MND-T-NWTH": {
+      "ployName": "Ningún lugar donde esconderse",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente MANDRÁGORA amigo, cuando realice una acción en la que se mueva.\r Hasta el final de esa activación, ese agente puede moverse a través de partes de elementos de escenografía como si no estuvieran ahí, pero no puede moverse más que su atributo Movimiento si es la acción Cargar y debe terminar esos movimientos en un lugar donde pueda colocarse."
+    },
+    "AEL-MND-T-SB": {
+      "ployName": "Mordisco de la sombra",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo realice la acción Combatir en una activación en la que haya realizado la acción Cargar,\ny elija como rival a un agente MANDRÁGORA amigo que esté EN LA SOMBRA.\nEn el paso de Resolver dados de ataque de esa secuencia, tú resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+    },
+    "AEL-MND-T-SF": {
+      "ployName": "Festín de almas",
+      "description": "Usa este ardid de tiroteo cuando un agente MANDRÁGORA amigo dispare, combata o contraataque contra un agente enemigo a 6\" o menos de él, al final del paso de Resolver dados de ataque.\nEse agente amigo recupera un número de heridas perdidas igual al atributo LPA de ese agente enemigo, multiplicado por el número de tus dados de ataque que hayan infligido daño durante esa secuencia.\nLos dados de ataque sobrantes se ignoran (es decir, si el agente enemigo queda incapacitado antes de que se resuelvan los dados de ataque restantes).  \n\nNo puedes usar este ardid si ese agente MANDRÁGORA amigo está incapacitado."
+    },
+    "AEL-MND-T-SOOS": {
+      "ployName": "Deslizarse fuera de la vista",
+      "description": "Usa este ardid de tiroteo al final de la activación de cualquier agente.\nElige un agente MANDRÁGORA amigo que tenga una orden de Trabarse y esté EN LA SOMBRA.\nCambia la orden de ese agente a Ocultarse."
+    }
+  },
+  "equipments": {
+    "AEL-MND-BD": {
+      "eqName": "Dardos de hueso",
+      "description": "Una vez por punto de inflexión, un agente MANDRÁGORA amigo puede usar la siguiente arma a distancia:",
+      "weapons": {
+        "AEL-MND-BD-BONE-DART": {
+          "wepName": "Dardo de hueso"
+        }
+      }
+    },
+    "AEL-MND-CS": {
+      "eqName": "Lazo de cadena",
+      "description": "Siempre que un agente enemigo fuera a realizar la acción Retroceder mientras esté en la zona de control de un agente MANDRÁGORA amigo,\nsi no hay otros agentes enemigos dentro de la zona de control de ese agente amigo, puedes usar esta regla.\nSi lo haces, tira 2D6, o 1D6 si ese agente enemigo tiene un atributo Heridas más alto que ese agente amigo.\nSi algún resultado es un 4+, ese enemigo no puede realizar esa acción durante esa activación o reacción (no se gasta ningún PA en ella), y no puedes volver a usar esta regla durante este punto de inflexión."
+    },
+    "AEL-MND-SG": {
+      "eqName": "Glifo de sombra",
+      "description": "Una vez por punto de inflexión, cuando se active un agente MANDRÁGORA amigo EN LA SOMBRA, puedes usar esta regla.\r Si lo haces, hasta el inicio de su siguiente activación, mientras ese agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como blanco válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+    },
+    "AEL-MND-SGM": {
+      "eqName": "Gema de almas",
+      "description": "Una vez por punto de inflexión, cuando un agente MANDRÁGORA amigo esté realizando la acción Disparar y elijas una ráfaga funesta, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, esa arma tiene la regla Área 1\"."
+    }
+  },
+  "teamAbilities": {
+    "AEL-MND-TA-WISH": {
+      "abilityName": "En la sombra",
+      "description": "Un agente está EN LA SOMBRA si se cumple cualquiera de las siguientes condiciones:\n\n- Está a 1\" o menos de terreno Pesado que no esté más bajo que él.\n- Alguna parte de su peana está bajo terreno Aventajado.\n- Hay un marcador de Portal de sombra dentro de su zona de control (ver agente TEJESOMBRAS).\n"
+    },
+    "AEL-MND-TA-UMEN": {
+      "abilityName": "Entidades umbrías",
+      "description": "Siempre que un agente dispare contra un agente MANDRÁGORA amigo, ignora la regla de armas Penetración. Siempre que un agente MANDRÁGORA amigo esté EN LA SOMBRA, mejora en 1 su atributo Salvación."
+    },
+    "AEL-MND-TA-SHPA": {
+      "abilityName": "Pasaje de sombra",
+      "description": "Una vez por punto de inflexión, un agente MANDRÁGORA amigo que esté EN LA SOMBRA puede usar un PASAJE DE SOMBRA cuando realice la acción Reposicionarse.\r Si lo hace, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo EN LA SOMBRA.\r Cuando vuelvas a desplegarlo, no puede:\r \r - Estar en la zona de control de un agente enemigo.\r - Ser un blanco válido para un agente enemigo.\r - Realizar la acción Disparar o Combatir hasta el inicio del siguiente punto de inflexión.\r "
+    }
+  },
+  "opTypes": {
+    "AEL-MND-NF": {
+      "opTypeName": "Demonio nocturno Mandrágora",
+      "weapons": {
+        "AEL-MND-NF-BB": {
+          "wepName": "Ráfaga funesta"
+        },
+        "AEL-MND-NF-HB": {
+          "wepName": "Hoja desecadora"
+        }
+      },
+      "abilities": {
+        "AEL-MND-NF-A-HW": {
+          "abilityName": "Susurros angustiosos",
+          "description": "Siempre que tu oponente fuera a activar un agente enemigo a 6\" o menos de este agente, puedes tirar un dado (no puedes hacerlo si ya has interrumpido la activación de ese agente con esta regla o con la regla adicional Foco obsesivo del agente FAUCES FÚNEBRES durante este punto de inflexión).\r Si el resultado es superior al atributo LPA del agente enemigo, no puede activarlo durante esta activación.\r Si no hay otros agentes enemigos que puedan activarse, esta regla no tiene efecto."
+        },
+        "AEL-MND-NF-A-OUB": {
+          "abilityName": "Oubliex",
+          "description": "Siempre que este agente sea preparado, o si este agente incapacita a un enemigo con su hoja desecadora, su Oubliex se activa.\nSiempre que su oubliex esté activo y un dado de ataque fuera a infligir daño a este agente, puedes tirar un d6; con un 5+, ignora el daño infligido por ese dado de ataque y el oubliex deja de estar activo."
+        }
+      }
+    },
+    "AEL-MND-COTF": {
+      "opTypeName": "Elector de la carne Mandrágora",
+      "weapons": {
+        "AEL-MND-COTF-BB": {
+          "wepName": "Ráfaga funesta"
+        },
+        "AEL-MND-COTF-BBL": {
+          "wepName": "Hoja funesta"
+        }
+      },
+      "abilities": {
+        "AEL-MND-COTF-A-PC": {
+          "abilityName": "Coleccionista de piezas",
+          "description": "Siempre que un agente enemigo realice la acción Retroceder mientras esté en la zona de control de este agente, puedes usar esta regla. Si lo haces, inflige 2D3 de daño a ese agente enemigo antes de que se mueva."
+        },
+        "AEL-MND-COTF-A-SH": {
+          "abilityName": "Cosecha de almas",
+          "description": "Siempre que un agente enemigo quede incapacitado como resultado de la regla Coleccionista de piezas o de la hoja funesta de este agente, ganas 1 punto de Cosecha de almas, o 2 si el agente enemigo tenía un atributo LPA de 3 o más.\nSiempre que se active un agente MANDRÁGORA amigo, puedes gastar 1 de tus puntos de Cosecha de almas para sumar 1 a su atributo LPA hasta el final de la batalla, o para que recupere 2D3 heridas perdidas.\nTen en cuenta que puedes gastar tus puntos de Cosecha de almas aunque este agente esté incapacitado."
+        }
+      }
+    },
+    "AEL-MND-ABS": {
+      "opTypeName": "Abisal Mandrágora",
+      "weapons": {
+        "AEL-MND-ABS-BS": {
+          "wepName": "Oleada funesta",
+          "profiles": {
+            "AEL-MND-ABS-BS-0": {
+              "profileName": "Área"
+            },
+            "AEL-MND-ABS-BS-1": {
+              "profileName": "Quemadura"
+            }
+          }
+        },
+        "AEL-MND-ABS-GSB": {
+          "wepName": "Hoja de acero centelleante"
+        }
+      },
+      "abilities": {
+        "AEL-MND-ABS-A-BF": {
+          "abilityName": "Fuego funesto",
+          "description": "Siempre que un agente MANDRÁGORA amigo dispare contra un agente enemigo que tenga una de tus fichas de Fuego funesto, suma 1 a ambos atributos Daño de las armas a distancia de ese agente amigo y estas tienen la regla de armas Saturación.\nSiempre que un agente dispare contra un agente MANDRÁGORA amigo que tenga una de tus fichas de Fuego funesto, resta 1 a ambos atributos Daño de las armas a distancia de ese agente (hasta un mínimo de 1)."
+        }
+      },
+      "actions": {
+        "AEL-MND-ABS-WIB": {
+          "name": "Envolver en fuego funesto",
+          "effects": [
+            "Elige un agente visible para este agente que no tenga una de tus fichas de Fuego funesto.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero), ese agente elegido obtiene una de tus fichas de Fuego funesto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "AEL-MND-DM": {
+      "opTypeName": "Fauces fúnebres Mandrágora",
+      "weapons": {
+        "AEL-MND-DM-BB": {
+          "wepName": "Ráfaga funesta"
+        },
+        "AEL-MND-DM-HS": {
+          "wepName": "Alarido aterrador"
+        },
+        "AEL-MND-DM-GSB": {
+          "wepName": "Hoja de acero centelleante"
+        }
+      },
+      "abilities": {
+        "AEL-MND-DM-A-HF": {
+          "abilityName": "Foco obsesivo",
+          "description": "Elige un agente enemigo.\r Hasta el paso de Preparación de la siguiente fase de estrategia, obtiene tu ficha de Foco obsesivo.\r La próxima vez que tu oponente fuera a activar un agente enemigo que tenga tu ficha de Foco obsesivo, si este agente está preparado, puedes activar este agente primero (no puedes hacerlo si también has tirado para impedir la activación de ese agente con la regla adicional Susurros angustiosos del agente DEMONIO NOCTURNO durante este punto de inflexión).\r Si lo haces, durante esa activación, este agente debe combatir o disparar contra ese agente enemigo, y no puede hacerlo contra ningún otro agente enemigo hasta que lo haga (si esto no es posible, la activación se cancela).\r Tras completar la activación de este agente, tu oponente activa ese agente enemigo (si es posible), o activa a otro agente enemigo si no puede."
+        }
+      },
+      "actions": {
+        "AEL-MND-DM-PP": {
+          "name": "Proyección pareidólica",
+          "effects": [
+            "Elige un agente enemigo que sea un blanco válido para este agente o que esté EN LA SOMBRA.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero),",
+            "empeora en 1 el atributo Impactar de las armas de ese agente enemigo y resta 2\" a su atributo Movimiento (esto no es acumulativo con estar herido)."
+          ]
+        }
+      }
+    },
+    "AEL-MND-SW": {
+      "opTypeName": "Tejesombras Mandrágora",
+      "weapons": {
+        "AEL-MND-SW-BB": {
+          "wepName": "Ráfaga funesta"
+        },
+        "AEL-MND-SW-GSB": {
+          "wepName": "Hoja de acero centelleante"
+        }
+      },
+      "abilities": {
+        "AEL-MND-SW-A-SPRT": {
+          "abilityName": "Portal de sombra",
+          "description": "Siempre que este agente realice la acción Reposicionarse usando un PASAJE DE SOMBRA, puedes usar esta regla.\nSi lo haces, retira tus marcadores de Portal de sombra de la zona de aniquilación (si los hay), y después coloca uno de tus marcadores de Portal de sombra dentro de la zona de control de este agente antes de que sea retirado\ny otro dentro de su zona de control después de que sea desplegado.  \n\nCada agente MANDRÁGORA amigo puede usar un PASAJE DE SOMBRA en cada punto de inflexión (lo que tiene prioridad sobre un agente una vez por punto de inflexión)\nsi uno de tus marcadores de Portal de sombra está dentro de la zona de control de ese agente cuando es retirado, y el otro cuando es desplegado.\nTen en cuenta que los agentes amigos pueden hacer esto aunque este agente haya quedado incapacitado, y hacerlo no impide que el agente use un PASAJE DE SOMBRA de la forma normal."
+        }
+      },
+      "actions": {
+        "AEL-MND-SW-WD": {
+          "name": "Tejer oscuridad",
+          "effects": [
+            "Retira tu marcador de Tejer oscuridad de la zona de aniquilación (si lo hay).",
+            "Después coloca tu marcador de Tejer oscuridad visible para este agente, o sobre terreno Aventajado de un elemento de escenografía visible para este agente.",
+            "Ese marcador crea una zona de humo con el mismo tamaño y efectos que una granada de humo, salvo que no lo retiras durante el siguiente punto de inflexión.",
+            "Si este agente queda incapacitado, retira tu marcador de Tejer oscuridad de la zona de aniquilación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "AEL-MND-WAR": {
+      "opTypeName": "Guerrero Mandrágora",
+      "weapons": {
+        "AEL-MND-WAR-BB": {
+          "wepName": "Ráfaga funesta"
+        },
+        "AEL-MND-WAR-GSB": {
+          "wepName": "Hoja de acero centelleante"
+        }
+      },
+      "abilities": {
+        "AEL-MND-WAR-A-SW": {
+          "abilityName": "Guerrero de sombra",
+          "description": "Siempre que este agente esté EN LA SOMBRA, suma 1 al atributo de daño crítico de su hoja de acero centelleante."
+        }
+      }
+    }
+  }
+}

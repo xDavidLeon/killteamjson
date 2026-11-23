@@ -1,0 +1,387 @@
+{
+  "killteamId": "TYR-WB",
+  "locale": "es",
+  "team": {
+    "killteamName": "Filosierpe",
+    "description": "Los Cultos Genestealer son insidiosas progenies de híbridos humano-xenos que se extienden sin ser detectados por los mundos imperiales, a veces durante generaciones. Se infiltran en el tejido social, industrial y militar del Imperium, y sus equipos de exterminio de élite Filosierpe se escabullen sin ser detectados hasta lugares perfectos para tender emboscadas.",
+    "composition": "Un equipo de exterminio FILOSIERPE está compuesto por:\n\n- 1 agente LÍDER NEÓFITO FILOSIERPE con una de las siguientes opciones:  \n  - Rifle automático; culata\n  - Escopeta; culata  \n  O una opción de cada una de las siguientes:\n  - Pistola bólter, pistola automática de artesanía magistral o pistola de redes\n  - Espada sierra, maza de energía o pico de energía\n- 13 agentes FILOSIERPE elegidos de la siguiente lista: \n  - KELERMORFO*\n  - LOCUS*\n  - ARTILLERO con lanzallamas y culata\n  - ARTILLERO con lanzagranadas y culata\n  - ARTILLERO con lanzarredes y culata\n  - ARTILLERO PESADO con ametralladora pesada y culata\n  - ARTILLERO PESADO con láser de minería y culata\n  - ARTILLERO PESADO con cañón sísmico y culata\n  - PORTAICONO con una de las siguientes opciones:\n      - Rifle automático; culata\n      - Escopeta; culata\n  - FRANCOTIRADOR SANCTUS*\n  - GARRA SANCTUS*\n  - GUERRERO con una de las siguientes opciones:\n      - Rifle automático; culata\n      - Escopeta; culata\n\n*Cada uno de estos agentes cuenta como dos elecciones.  \nSalvo los agentes GUERRERO, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta dos agentes ARTILLERO, hasta dos agentes ARTILLERO PESADO y hasta dos agentes AGENTE DEL CULTO."
+  },
+  "ploys": {
+    "TYR-WB-S-TDIAH": {
+      "ployName": "El día está cerca",
+      "description": "Siempre que se active un agente FILOSIERPE amigo, si su orden cambia de Ocultarse a Trabarse, hasta el final de esa activación:\n\n- Sus armas a distancia tienen la regla de armas Desgarradora.\n- Suma 1 al atributo Ataque de sus armas cuerpo a cuerpo (hasta un máximo de 5).\n  \n**Desgarradora:** Si conservas algún impacto crítico, conserva 1 impacto normal como impacto crítico en su lugar."
+    },
+    "TYR-WB-S-OWTS": {
+      "ployName": "Uno con las sombras",
+      "description": "Siempre que un agente dispare a un agente FILOSIERPE amigo que tenga una orden de Ocultarse, si hay terreno Ligero interpuesto, ese agente amigo está oscurecido (salvo que el terreno Ligero interpuesto esté a 1\" o menos de cualquiera de los dos agentes)."
+    },
+    "TYR-WB-S-DAD": {
+      "ployName": "Distraer y desaparecer",
+      "description": "Hasta tres agentes FILOSIERPE amigos pueden realizar inmediatamente una acción Correr o Cargar gratuita en el orden que elijas (elige por separado para cada uno y, en el caso de esta última, no puede moverse más de 3\").\nSi se elige un agente AGENTE DEL CULTO FILOSIERPE para este ardid, cuenta como dos agentes, y puede realizar en su lugar una acción Retroceder gratuita (no puede moverse más de 3\"); si lo hace, resta 1 a su atributo LPA hasta el final de su siguiente activación."
+    },
+    "TYR-WB-S-CF": {
+      "ployName": "Fuego cruzado",
+      "description": "Siempre que un agente FILOSIERPE amigo esté disparando a un agente al que otro agente FILOSIERPE amigo ya haya disparado durante este punto de inflexión, las armas a distancia de ese primer agente amigo tienen la regla de armas Certera 1.  \n**Certera 1:** Puedes conservar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "TYR-WB-T-UQL": {
+      "ployName": "Lealtad incuestionable",
+      "description": "Usa este ardid de tiroteo cuando un agente AGENTE DEL CULTO FILOSIERPE o LÍDER FILOSIERPE amigo sea elegido como objetivo válido de una acción Disparar o para combatir contra él durante la acción Combatir.\r Elige otro agente NEÓFITO FILOSIERPE amigo (excepto LÍDER) visible para ese primer agente amigo y a 3\" o menos de él para que pase a ser el objetivo válido o aquel contra el que se combate (según corresponda) en su lugar (aunque normalmente no fuera válido para ello).\r Si es la acción Combatir, considera que ese otro agente está dentro de la zona de control del agente que combate mientras dure esa acción. Si es la acción Disparar, ese otro agente solo está en cobertura u oscurecido si lo estaba el objetivo original.  \n\r Este ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+    },
+    "TYR-WB-T-SID": {
+      "ployName": "Escabullirse en la oscuridad",
+      "description": "Usa este ardid de tiroteo al final de la activación de un agente FILOSIERPE amigo. Si ese agente tiene una orden de Trabarse, cámbiala a Ocultarse. No puedes usar este ardid para cada agente amigo más de una vez por batalla."
+    },
+    "TYR-WB-T-CS": {
+      "ployName": "Serpiente enroscada",
+      "description": "Usa este ardid de tiroteo cuando un agente FILOSIERPE amigo esté disparando o combatiendo, tras tirar tus dados de ataque.\nSi la orden de ese agente amigo cambió de Ocultarse a Trabarse al inicio de esa activación y esta es la primera vez que realiza la acción Disparar o Combatir durante esa activación,\npuedes conservar uno de tus éxitos normales como éxito crítico en su lugar. Ten en cuenta que este ardid no puede surtir efecto más de una vez por activación (no puedes usarlo tanto en la acción Disparar como en la acción Combatir en la misma activación)."
+    },
+    "TYR-WB-T-APGITM": {
+      "ployName": "Un plan forjado durante generaciones",
+      "description": "Usa este ardid de tiroteo cuando un agente NEÓFITO FILOSIERPE amigo quede incapacitado. Puede realizar una acción de misión gratuita antes de ser retirado de la zona de aniquilación."
+    }
+  },
+  "equipments": {
+    "TYR-WB-BC": {
+      "eqName": "Cargas explosivas",
+      "description": "Una vez por punto de inflexión, un agente NEÓFITO FILOSIERPE amigo puede usar la siguiente arma a distancia:\n \n|**Nombre**|**Atq**|**Imp**|**Daño**|\n|-----|:-----:|:-----:|:-----:|\n|Carga explosiva|4|4+|3/5|\n|**Reglas de armas**|\n|Alcance 4\", Área 1\", Saturación|\n"
+    },
+    "TYR-WB-CK": {
+      "eqName": "Cuchillos del culto",
+      "description": "Los agentes NEÓFITO FILOSIERPE amigos tienen la siguiente arma cuerpo a cuerpo:\n \n|**Nombre**|**Atq**|**Imp**|**Daño**|\n|-----|:-----:|:-----:|:-----:|\n|Cuchillo del culto|3|4+|3/4|\n"
+    },
+    "TYR-WB-XT": {
+      "eqName": "Trampas explosivas",
+      "description": "Este equipo te permite elegir dos minas (ver equipo universal).\nNo puedes elegir además ese equipo de forma normal (es decir, para tener tres), y los agentes FILOSIERPE amigos se ignoran para los efectos de tus minas (es decir, no pueden activarlas ni sufrir daño por ellas).\nEsto tiene prioridad sobre las reglas normales de las minas."
+    },
+    "TYR-WB-SL": {
+      "eqName": "Focos",
+      "description": "Siempre que un agente FILOSIERPE amigo esté disparando, el objetivo no puede estar oscurecido si es visible para un agente NEÓFITO FILOSIERPE amigo y está a 6\" o menos de él, siempre que ese agente no esté dentro de la zona de control de agentes enemigos."
+    }
+  },
+  "teamAbilities": {
+    "TYR-WB-TA-CUAM": {
+      "abilityName": "Emboscada del culto",
+      "description": "Siempre que un agente FILOSIERPE amigo esté disparando o combatiendo durante su activación, si su orden cambió de Ocultarse a Trabarse al inicio de esa activación, o si no era visible para los agentes enemigos al inicio de esa activación,\nlas armas de ese agente amigo tienen la regla de armas Incesante."
+    }
+  },
+  "opTypes": {
+    "TYR-WB-LDR": {
+      "opTypeName": "Líder Neófito",
+      "weapons": {
+        "TYR-WB-LDR-AG": {
+          "wepName": "Rifle automático"
+        },
+        "TYR-WB-LDR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "TYR-WB-LDR-MCAP": {
+          "wepName": "Pistola automática de artesanía magistral"
+        },
+        "TYR-WB-LDR-SG": {
+          "wepName": "Escopeta"
+        },
+        "TYR-WB-LDR-WB": {
+          "wepName": "Pistola de redes"
+        },
+        "TYR-WB-LDR-CS": {
+          "wepName": "Espada sierra"
+        },
+        "TYR-WB-LDR-GB": {
+          "wepName": "Culata"
+        },
+        "TYR-WB-LDR-PM": {
+          "wepName": "Maza de energía"
+        },
+        "TYR-WB-LDR-PP": {
+          "wepName": "Pico de energía"
+        }
+      },
+      "abilities": {
+        "TYR-WB-LDR-A-FT": {
+          "abilityName": "Territorio familiar",
+          "description": "Al desplegar un equipo de exterminio FILOSIERPE antes de la batalla, un tercio de tu equipo de exterminio puede desplegarse ESCONDIDO: colócalos a un lado en lugar de en la zona de aniquilación.\nLos agentes AGENTE DEL CULTO no pueden desplegarse ESCONDIDOS.  \n\nEn la fase de tiroteo, los agentes FILOSIERPE amigos desplegados ESCONDIDOS se activan de forma normal.\nCuando lo hagas, puedes gastar ese agente o hacer que emerja. Si emerge, despliégalo en la zona de aniquilación en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado ESCONDIDO):\n\n- Totalmente a 6\" o menos de tu zona de despliegue.\n- A más de 6\" de los agentes enemigos.\n- Con una orden de tu elección.\n\nSe considera que el agente realiza la acción Reposicionarse (gasta los PA correspondientes) y, después, continúa su activación de forma normal. Si el agente es un GUERRERO, ignora su regla Activación en grupo.\nLos agentes amigos que sigan ESCONDIDOS al final del segundo punto de inflexión quedan incapacitados."
+        },
+        "TYR-WB-LDR-A-SV": {
+          "abilityName": "Vector sombrío",
+          "description": "Una vez por punto de inflexión, puedes usar el ardid de tiroteo Escabullirse en la oscuridad o Serpiente enroscada por 0PM si el agente FILOSIERPE amigo especificado es un NEÓFITO visible para este agente."
+        }
+      }
+    },
+    "TYR-WB-KLM": {
+      "opTypeName": "Kelermorfo",
+      "weapons": {
+        "TYR-WB-KLM-LAS": {
+          "wepName": "Pistolas automáticas Liberador",
+          "profiles": {
+            "TYR-WB-KLM-LAS-0": {
+              "profileName": "Hipersentido"
+            },
+            "TYR-WB-KLM-LAS-1": {
+              "profileName": "Largo alcance"
+            },
+            "TYR-WB-KLM-LAS-2": {
+              "profileName": "Corto alcance"
+            }
+          }
+        },
+        "TYR-WB-KLM-KK": {
+          "wepName": "Cuchillo de Kelermorfo"
+        }
+      },
+      "abilities": {
+        "TYR-WB-KLM-A-CA": {
+          "abilityName": "Agente del culto",
+          "description": "Siempre que un agente dispare a un agente AGENTE DEL CULTO FILOSIERPE amigo:\n\n- Ignora las reglas de armas Penetración y Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar en su lugar una salvación por cobertura como éxito crítico. Esto no es acumulable con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        },
+        "TYR-WB-KLM-A-EGS": {
+          "abilityName": "Pistolero experto",
+          "description": "Este agente puede realizar dos acciones Disparar durante su activación."
+        },
+        "TYR-WB-KLM-A-HI": {
+          "abilityName": "Inspiración heroica",
+          "description": "Siempre que un agente NEÓFITO FILOSIERPE amigo visible para este agente y a 3\" o menos de él esté disparando, combatiendo o contraatacando, si este agente ha incapacitado a un agente enemigo durante este punto de inflexión, las armas de ese agente amigo tienen la regla de armas Severa."
+        }
+      }
+    },
+    "TYR-WB-LOC": {
+      "opTypeName": "Locus",
+      "weapons": {
+        "TYR-WB-LOC-BT": {
+          "wepName": "Cola espinosa"
+        },
+        "TYR-WB-LOC-LB": {
+          "wepName": "Hojas de Locus"
+        }
+      },
+      "abilities": {
+        "TYR-WB-LOC-A-BS": {
+          "abilityName": "Postura acerada",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        },
+        "TYR-WB-LOC-A-CA": {
+          "abilityName": "Agente del culto",
+          "description": "Siempre que un agente dispare a un agente AGENTE DEL CULTO FILOSIERPE amigo:\n\n- Ignora las reglas de armas Penetración y Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar en su lugar una salvación por cobertura como éxito crítico. Esto no es acumulable con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        },
+        "TYR-WB-LOC-A-ESM": {
+          "abilityName": "Espadachín experto",
+          "description": "Este agente puede realizar dos acciones Combatir durante su activación. Siempre que este agente termine la acción Combatir, si ya no está dentro de la zona de control de agentes enemigos, puede realizar inmediatamente una acción Cargar gratuita (aunque ya haya realizado la acción Cargar durante esa activación), pero no puede moverse más de 3\" durante esa acción.\nHacerlo no le impide realizar la acción Correr después durante esa activación."
+        },
+        "TYR-WB-LOC-A-QSS": {
+          "abilityName": "Golpe de azogue",
+          "description": "Una vez por punto de inflexión, después de que un agente enemigo realice una acción en la que se mueva o sea desplegado, puedes interrumpir esa activación/reacción para usar esta regla.\nSi lo haces, este agente puede realizar inmediatamente una acción Cargar gratuita (puedes cambiar su orden para hacerlo), pero no puede moverse más de 3\" y debe terminar ese movimiento dentro de la zona de control de ese agente enemigo.\nSi esto no es posible, la interrupción se cancela y esta regla no se considera usada."
+        }
+      }
+    },
+    "TYR-WB-GNR": {
+      "opTypeName": "Artillero Neófito",
+      "weapons": {
+        "TYR-WB-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "TYR-WB-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "TYR-WB-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "TYR-WB-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "TYR-WB-GNR-WB": {
+          "wepName": "Lanzarredes"
+        },
+        "TYR-WB-GNR-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TYR-WB-GNR-A-FT": {
+          "abilityName": "Territorio familiar",
+          "description": "Al desplegar un equipo de exterminio FILOSIERPE antes de la batalla, un tercio de tu equipo de exterminio puede desplegarse ESCONDIDO: colócalos a un lado en lugar de en la zona de aniquilación.\nLos agentes AGENTE DEL CULTO no pueden desplegarse ESCONDIDOS.  \n\nEn la fase de tiroteo, los agentes FILOSIERPE amigos desplegados ESCONDIDOS se activan de forma normal.\nCuando lo hagas, puedes gastar ese agente o hacer que emerja. Si emerge, despliégalo en la zona de aniquilación en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado ESCONDIDO):\n\n- Totalmente a 6\" o menos de tu zona de despliegue.\n- A más de 6\" de los agentes enemigos.\n- Con una orden de tu elección.\n\nSe considera que el agente realiza la acción Reposicionarse (gasta los PA correspondientes) y, después, continúa su activación de forma normal. Si el agente es un GUERRERO, ignora su regla Activación en grupo.\nLos agentes amigos que sigan ESCONDIDOS al final del segundo punto de inflexión quedan incapacitados."
+        }
+      }
+    },
+    "TYR-WB-HGNR": {
+      "opTypeName": "Artillero Pesado Neófito",
+      "weapons": {
+        "TYR-WB-HGNR-HS": {
+          "wepName": "Ametralladora pesada",
+          "profiles": {
+            "TYR-WB-HGNR-HS-0": {
+              "profileName": "Concentrado"
+            },
+            "TYR-WB-HGNR-HS-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "TYR-WB-HGNR-ML": {
+          "wepName": "Láser de minería"
+        },
+        "TYR-WB-HGNR-SC": {
+          "wepName": "Cañón sísmico",
+          "profiles": {
+            "TYR-WB-HGNR-SC-0": {
+              "profileName": "Onda larga"
+            },
+            "TYR-WB-HGNR-SC-1": {
+              "profileName": "Onda corta"
+            }
+          }
+        },
+        "TYR-WB-HGNR-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TYR-WB-HGNR-A-FT": {
+          "abilityName": "Territorio familiar",
+          "description": "Al desplegar un equipo de exterminio FILOSIERPE antes de la batalla, un tercio de tu equipo de exterminio puede desplegarse ESCONDIDO: colócalos a un lado en lugar de en la zona de aniquilación.\nLos agentes AGENTE DEL CULTO no pueden desplegarse ESCONDIDOS.  \n\nEn la fase de tiroteo, los agentes FILOSIERPE amigos desplegados ESCONDIDOS se activan de forma normal.\nCuando lo hagas, puedes gastar ese agente o hacer que emerja. Si emerge, despliégalo en la zona de aniquilación en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado ESCONDIDO):\n\n- Totalmente a 6\" o menos de tu zona de despliegue.\n- A más de 6\" de los agentes enemigos.\n- Con una orden de tu elección.\n\nSe considera que el agente realiza la acción Reposicionarse (gasta los PA correspondientes) y, después, continúa su activación de forma normal. Si el agente es un GUERRERO, ignora su regla Activación en grupo.\nLos agentes amigos que sigan ESCONDIDOS al final del segundo punto de inflexión quedan incapacitados."
+        }
+      }
+    },
+    "TYR-WB-IB": {
+      "opTypeName": "Portaicono Neófito",
+      "weapons": {
+        "TYR-WB-IB-AG": {
+          "wepName": "Rifle automático"
+        },
+        "TYR-WB-IB-SG": {
+          "wepName": "Escopeta"
+        },
+        "TYR-WB-IB-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TYR-WB-IB-A-FT": {
+          "abilityName": "Territorio familiar",
+          "description": "Al desplegar un equipo de exterminio FILOSIERPE antes de la batalla, un tercio de tu equipo de exterminio puede desplegarse ESCONDIDO: colócalos a un lado en lugar de en la zona de aniquilación.\nLos agentes AGENTE DEL CULTO no pueden desplegarse ESCONDIDOS.  \n\nEn la fase de tiroteo, los agentes FILOSIERPE amigos desplegados ESCONDIDOS se activan de forma normal.\nCuando lo hagas, puedes gastar ese agente o hacer que emerja. Si emerge, despliégalo en la zona de aniquilación en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado ESCONDIDO):\n\n- Totalmente a 6\" o menos de tu zona de despliegue.\n- A más de 6\" de los agentes enemigos.\n- Con una orden de tu elección.\n\nSe considera que el agente realiza la acción Reposicionarse (gasta los PA correspondientes) y, después, continúa su activación de forma normal. Si el agente es un GUERRERO, ignora su regla Activación en grupo.\nLos agentes amigos que sigan ESCONDIDOS al final del segundo punto de inflexión quedan incapacitados."
+        },
+        "TYR-WB-IB-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Siempre que determines el control de un marcador, trata el atributo LPA de este agente como 1 mayor.\nTen en cuenta que esto no es un cambio en su atributo LPA, por lo que cualquier cambio es acumulable con esto."
+        },
+        "TYR-WB-IB-A-OTO": {
+          "abilityName": "Derrocad a los opresores",
+          "description": "Una vez por punto de inflexión, cuando un agente NEÓFITO FILOSIERPE amigo preparado quede incapacitado mientras sea visible para este agente y esté a 6\" o menos de él, puedes usar esta regla.\nSi lo haces, antes de retirar ese agente de la zona de aniquilación, puede realizar una acción Disparar gratuita (puedes cambiar su orden para hacerlo), o bien puedes usar el ardid de tiroteo Un plan forjado durante generaciones por 0PM si ese agente\nincapacitado es el agente NEÓFITO FILOSIERPE amigo especificado.  \n\nDespués, se retira de la zona de aniquilación de forma normal."
+        }
+      }
+    },
+    "TYR-WB-SNP": {
+      "opTypeName": "Francotirador Sanctus",
+      "weapons": {
+        "TYR-WB-SNP-SSR": {
+          "wepName": "Rifle de francotirador Sanctus",
+          "profiles": {
+            "TYR-WB-SNP-SSR-0": {
+              "profileName": "Móvil"
+            },
+            "TYR-WB-SNP-SSR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "TYR-WB-SNP-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "TYR-WB-SNP-A-CA": {
+          "abilityName": "Agente del culto",
+          "description": "Siempre que un agente dispare a un agente AGENTE DEL CULTO FILOSIERPE amigo:\n\n- Ignora las reglas de armas Penetración y Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar en su lugar una salvación por cobertura como éxito crítico. Esto no es acumulable con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        }
+      },
+      "actions": {
+        "TYR-WB-SNP-FSS": {
+          "name": "Visión del alma del familiar",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final de la batalla, o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "ese agente enemigo obtiene una de tus fichas de Visión del alma. Siempre que este agente esté disparando a un agente enemigo que tenga una de tus fichas de Visión del alma,",
+            "todos los perfiles del Rifle de francotirador Sanctus de este agente tienen la regla de armas Saturación y ese agente enemigo no puede estar oscurecido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TYR-WB-SNP-TV": {
+          "name": "Apuntar al punto débil",
+          "effects": [
+            "Hasta el final de la activación de este agente, el perfil Estacionario de su Rifle de francotirador Sanctus tiene la regla de armas Letal 5+."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TYR-WB-TAL": {
+      "opTypeName": "Garra Sanctus",
+      "weapons": {
+        "TYR-WB-TAL-SBD": {
+          "wepName": "Biodaga Sanctus"
+        }
+      },
+      "abilities": {
+        "TYR-WB-TAL-A-CA": {
+          "abilityName": "Agente del culto",
+          "description": "Siempre que un agente dispare a un agente AGENTE DEL CULTO FILOSIERPE amigo:\n\n- Ignora las reglas de armas Penetración y Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar en su lugar una salvación por cobertura como éxito crítico. Esto no es acumulable con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        },
+        "TYR-WB-TAL-A-CS": {
+          "abilityName": "Sombra acechante",
+          "description": "Este agente puede realizar la acción Cargar mientras tenga una orden de Ocultarse. Siempre que este agente realice la acción Combatir, puede realizar inmediatamente después una acción Correr o Retroceder gratuita\n(en el caso de esta última, no puede moverse más de 3\"), aunque haya realizado una acción que le impida realizar esas acciones."
+        }
+      },
+      "actions": {
+        "TYR-WB-TAL-ASS": {
+          "name": "Asesinar",
+          "effects": [
+            "Elige un agente enemigo para el que este agente no sea visible.",
+            "Realiza una acción Cargar gratuita con este agente, pero sin superar su atributo Movimiento (es decir, no sumes 2\"), y debe terminar ese movimiento dentro de la zona de control de ese agente enemigo.",
+            "Después, realiza inmediatamente una acción Combatir gratuita con este agente contra ese agente enemigo. La primera vez que asestes un golpe durante esa acción, puedes resolver inmediatamente otro de tus éxitos como golpe (antes que tu oponente)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Trabarse, ni mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TYR-WB-TAL-FSS": {
+          "name": "Visión del alma del familiar",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final de la batalla, o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "ese agente enemigo obtiene una de tus fichas de Visión del alma. Siempre que este agente esté disparando a un agente enemigo que tenga una de tus fichas de Visión del alma,",
+            "su Biodaga Sanctus tiene las reglas de armas Brutal y Equilibrada."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TYR-WB-WAR": {
+      "opTypeName": "Guerrero Neófito",
+      "weapons": {
+        "TYR-WB-WAR-AG": {
+          "wepName": "Rifle automático"
+        },
+        "TYR-WB-WAR-SG": {
+          "wepName": "Escopeta"
+        },
+        "TYR-WB-WAR-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TYR-WB-WAR-A-FT": {
+          "abilityName": "Territorio familiar",
+          "description": "Al desplegar un equipo de exterminio FILOSIERPE antes de la batalla, un tercio de tu equipo de exterminio puede desplegarse ESCONDIDO: colócalos a un lado en lugar de en la zona de aniquilación.\nLos agentes AGENTE DEL CULTO no pueden desplegarse ESCONDIDOS.  \n\nEn la fase de tiroteo, los agentes FILOSIERPE amigos desplegados ESCONDIDOS se activan de forma normal.\nCuando lo hagas, puedes gastar ese agente o hacer que emerja. Si emerge, despliégalo en la zona de aniquilación en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado ESCONDIDO):\n\n- Totalmente a 6\" o menos de tu zona de despliegue.\n- A más de 6\" de los agentes enemigos.\n- Con una orden de tu elección.\n\nSe considera que el agente realiza la acción Reposicionarse (gasta los PA correspondientes) y, después, continúa su activación de forma normal. Si el agente es un GUERRERO, ignora su regla Activación en grupo.\nLos agentes amigos que sigan ESCONDIDOS al final del segundo punto de inflexión quedan incapacitados."
+        },
+        "TYR-WB-WAR-A-GA": {
+          "abilityName": "Activación en grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente GUERRERO FILOSIERPE amigo preparado (si es posible) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa de forma normal (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        }
+      }
+    }
+  }
+}

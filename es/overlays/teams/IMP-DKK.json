@@ -1,0 +1,393 @@
+{
+  "killteamId": "IMP-DKK",
+  "locale": "es",
+  "team": {
+    "killteamName": "Korps de la Muerte",
+    "description": "Sombríos, fatalistas y absolutamente intransigentes, los Korps de la Muerte de Krieg son famosos por su resistencia y su capacidad para\ncombatir en las condiciones más espantosas. Los equipos de exterminio de los Korps de la Muerte están formados por especialistas veteranos que han visto más combates de los que muchos soldados del Astra Militarum vivirán en toda su vida.",
+    "composition": "Un equipo de exterminio KORPS DE LA MUERTE está compuesto por:\n\n- 1 agente MAESTRO DE GUARDIA del KORPS DE LA MUERTE con lo siguiente:\n  - Bólter; bayoneta  \n  O una opción de cada una de las siguientes:\n  - Pistola bólter, pistola de plasma o pistola láser reliquia\n  - Espada sierra o arma de energía\n- 4 agentes SOLDADO*\n- 9 agentes KORPS DE LA MUERTE elegidos de la siguiente lista:\n  - MATÓN\n  - CONFIDENTE con una de las siguientes opciones:\n    - Bólter o rifle láser; bayoneta\n    - Pistola bólter o pistola láser reliquia; espada sierra    \n  - ARTILLERO con bayoneta y lanzallamas\n  - ARTILLERO con bayoneta y lanzagranadas\n  - ARTILLERO con bayoneta y rifle de fusión\n  - ARTILLERO con bayoneta y rifle de plasma\n  - MÉDICO\n  - ZAPADOR\n  - FRANCOTIRADOR\n  - OBSERVADOR\n  - SOLDADO\n  - VETERANO\n  - OPERADOR DE VOX\n  - FANÁTICO\n\nSalvo los agentes SOLDADO, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\n*Hasta cuatro veces, en lugar de incluir uno de estos agentes SOLDADO, puedes elegir un ardid KORPS DE LA MUERTE para que te cueste 0PM durante la batalla."
+  },
+  "ploys": {
+    "IMP-DKK-S-CTL": {
+      "ployName": "Despejad la Línea",
+      "description": "Las armas cuerpo a cuerpo de los agentes KORPS DE LA MUERTE amigos tienen la regla de armas Certera 1. Siempre que un agente KORPS DE LA MUERTE amigo esté combatiendo totalmente dentro de tu territorio, o siempre que esté contraatacando, sus armas cuerpo a cuerpo también tienen la regla de armas Severa.  \n **Certera 1:** Puedes guardar 1 dado de ataque como éxito normal sin tirarlo.  \n **Severa:** Si no guardas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de armas Devastadora y Penetración Crítica siguen teniendo efecto, pero Castigadora y Desgarradora no."
+    },
+    "IMP-DKK-S-RG": {
+      "ployName": "Reagruparse",
+      "description": "**APOYO**\nElige un agente KORPS DE LA MUERTE amigo que esté a más de 3\" de agentes enemigos.\nCada otro agente KORPS DE LA MUERTE amigo a 5\" o menos de ese agente y que no esté en la zona de control de agentes enemigos puede realizar inmediatamente una acción Correr gratuita en el orden que elijas,\npero cada uno que lo haga debe terminar ese movimiento más cerca de ese agente.\nTen en cuenta que un Aparato de Comunicaciones del equipo universal solo afecta a la segunda distancia de esta regla.  \n\nNo puedes usar este ardid y el GAMBITO ESTRATÉGICO del equipo de facción Cronómetro en el mismo punto de inflexión."
+    },
+    "IMP-DKK-S-SWF": {
+      "ployName": "Guerra de Asedio",
+      "description": "Las armas a distancia de los agentes KORPS DE LA MUERTE amigos tienen las reglas de armas Saturación y Certera 1.  \n**Saturación:** El defensor no puede guardar salvaciones por cobertura.  \n**Certera x:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos."
+    },
+    "IMP-DKK-S-TC": {
+      "ployName": "Ponerse a Cubierto",
+      "description": "Siempre que un agente dispare contra un agente KORPS DE LA MUERTE amigo, si puedes guardar alguna salvación por cobertura, mejora en 1 el atributo Salvación de ese agente amigo."
+    },
+    "IMP-DKK-T-CA": {
+      "ployName": "Armas Combinadas",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente KORPS DE LA MUERTE amigo, si está disparando contra un agente enemigo contra el que ya haya disparado otro agente KORPS DE LA MUERTE amigo durante este punto de inflexión.\r Puedes repetir cualquiera de tus dados de ataque."
+    },
+    "IMP-DKK-T-IDA": {
+      "ployName": "En la Muerte, Expiación",
+      "description": "Usa este ardid de tiroteo cuando un agente KORPS DE LA MUERTE amigo preparado quede incapacitado, si no está en la zona de control de agentes enemigos.\r Antes de retirarlo de la zona de aniquilación, puede realizar inmediatamente una acción gratuita y puedes cambiar su orden para ello.\r Salvo que se especifique lo contrario, el agente se consideraría herido a estos efectos. Ten en cuenta que ese agente amigo está herido mientras dure esa acción."
+    },
+    "IMP-DKK-T-IL": {
+      "ployName": "Liderazgo Inspirador",
+      "description": "**APOYO**\nUsa este ardid de tiroteo durante la activación de un agente MAESTRO DE GUARDIA del KORPS DE LA MUERTE o CONFIDENTE del KORPS DE LA MUERTE amigo, antes o después de que realice una acción.\nEse agente da una ORDEN DE GUARDIA."
+    },
+    "IMP-DKK-T-ILS": {
+      "ployName": "En la Vida, Vergüenza",
+      "description": "Usa este ardid de tiroteo cuando un agente KORPS DE LA MUERTE amigo se active y reciba una orden de Trabarse.\nRecibe todas las ÓRDENES DE GUARDIA. Esto tiene preferencia sobre la regla normal de que los agentes no pueden beneficiarse de más de una ORDEN DE GUARDIA a la vez."
+    }
+  },
+  "equipments": {
+    "IMP-DKK-CM": {
+      "eqName": "Cronómetro",
+      "description": "Una vez por batalla, GAMBITO ESTRATÉGICO en el primer o segundo punto de inflexión.\nCada agente KORPS DE LA MUERTE amigo totalmente dentro de tu territorio puede realizar inmediatamente una acción Correr gratuita en el orden que elijas, pero cada uno que lo haga debe terminar ese movimiento más cerca de una zona de despliegue de tu oponente o de un borde de la zona de aniquilación.  \n\nNo puedes usar este GAMBITO ESTRATÉGICO y el ardid de estrategia Reagruparse durante el mismo punto de inflexión."
+    },
+    "IMP-DKK-CB": {
+      "eqName": "Microcomunicadores",
+      "description": "Siempre que un agente MAESTRO DE GUARDIA del KORPS DE LA MUERTE amigo o un agente CONFIDENTE del KORPS DE LA MUERTE amigo dé una ORDEN DE GUARDIA, puedes usar esta regla.\nSi lo haces, en lugar de que cada agente KORPS DE LA MUERTE amigo a 6\" o menos de él reciba esa orden, puedes elegir un agente KORPS DE LA MUERTE amigo para que reciba esa orden."
+    },
+    "IMP-DKK-HA": {
+      "eqName": "Hachas de Mano",
+      "description": "Los agentes KORPS DE LA MUERTE amigos tienen la siguiente arma cuerpo a cuerpo:",
+      "weapons": {
+        "IMP-DKK-HA-HAND-AXE": {
+          "wepName": "Hacha de mano"
+        }
+      }
+    },
+    "IMP-DKK-GB": {
+      "eqName": "Bombardeo de Gas",
+      "description": "Una vez por batalla, GAMBITO ESTRATÉGICO. Coloca tu marcador de Gas en la zona de aniquilación; no puede colocarse debajo de terreno Aventajado.\nSiempre que un agente esté a 3\" o menos de ese marcador, resta 1 a su atributo LPA. En el paso de Preparación de la siguiente fase de estrategia, retira ese marcador.\nTen en cuenta que el atributo LPA de un agente solo cambia mientras esté a 3\" o menos de ese marcador. Si se mueve a más de 3\" de ese marcador, su atributo LPA deja de estar cambiado por esta regla."
+    }
+  },
+  "opTypes": {
+    "IMP-DKK-WM": {
+      "opTypeName": "Maestro de Guardia del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-WM-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-DKK-WM-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-DKK-WM-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "IMP-DKK-WM-PP-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-DKK-WM-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-DKK-WM-RLP": {
+          "wepName": "Pistola láser reliquia"
+        },
+        "IMP-DKK-WM-B": {
+          "wepName": "Bayoneta"
+        },
+        "IMP-DKK-WM-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-DKK-WM-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-WM-A-AO": {
+          "abilityName": "Órdenes Adaptables",
+          "description": "Si este agente no da una ORDEN DE GUARDIA como GAMBITO ESTRATÉGICO, puedes usar el ardid de tiroteo Liderazgo Inspirador por 0PM durante la activación de este agente."
+        },
+        "IMP-DKK-WM-A-GO": {
+          "abilityName": "Órdenes de Guardia",
+          "description": "**GAMBITO ESTRATÉGICO** y **APOYO**\n Un agente MAESTRO DE GUARDIA del KORPS DE LA MUERTE amigo puede dar una ORDEN DE GUARDIA.\n Siempre que lo haga, elige una ORDEN DE GUARDIA para que la reciban todos los agentes KORPS DE LA MUERTE amigos a 6\" o menos de él.\n Siempre que un agente amigo reciba una ORDEN DE GUARDIA, aplica sus reglas hasta el final del punto de inflexión.\n Los agentes no pueden beneficiarse de más de una ORDEN DE GUARDIA a la vez; solo se benefician de la orden más reciente que hayan recibido durante el punto de inflexión.\n \n - **¡Apuntad!**  \n\n Las armas a distancia de los agentes que hayan recibido esta orden (excepto el bombardeo de mortero y el detonador remoto) tienen la regla de armas Incesante.\n - **¡Calad bayonetas!**  \n\n Las armas cuerpo a cuerpo de los agentes que hayan recibido esta orden tienen la regla de armas Incesante.\n - **¡Atrincheraos!**  \n\n Siempre que un agente dispare contra un agente amigo que haya recibido esta orden, si puedes guardar alguna salvación por cobertura, puedes repetir cualquiera de tus dados de defensa que hayan obtenido un mismo resultado (p. ej., los resultados de 2).\n - **¡Moveos! ¡Moveos! ¡Moveos!**  \n\n Siempre que un agente que haya recibido esta orden esté realizando la acción Reposicionarse, suma 1\" a su atributo Movimiento.\n "
+        },
+        "IMP-DKK-WM-A-BR": {
+          "abilityName": "¡Abatidlo!",
+          "description": "**GAMBITO ESTRATÉGICO** si este agente está en la zona de aniquilación. Elige un agente enemigo. Siempre que un agente KORPS DE LA MUERTE amigo esté disparando, combatiendo o contraatacando contra ese agente enemigo, las armas de ese agente amigo tienen la regla de armas Castigadora"
+        }
+      }
+    },
+    "IMP-DKK-BRU": {
+      "opTypeName": "Matón del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-BRU-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-BRU-TC": {
+          "wepName": "Garrote de trinchera"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-BRU-A-BRU": {
+          "abilityName": "Matón",
+          "description": "Una vez por punto de inflexión, cuando este agente esté combatiendo o contraatacando, en el paso de Resolver dados de ataque, puedes ignorar el daño que le inflija un éxito normal. Si este agente queda incapacitado durante la acción Combatir, puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de retirar a este agente de la zona de aniquilación."
+        }
+      }
+    },
+    "IMP-DKK-CON": {
+      "opTypeName": "Confidente del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-CON-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-DKK-CON-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-DKK-CON-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-CON-RLP": {
+          "wepName": "Pistola láser reliquia"
+        },
+        "IMP-DKK-CON-B": {
+          "wepName": "Bayoneta"
+        },
+        "IMP-DKK-CON-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-CON-A-DIR": {
+          "abilityName": "Directiva",
+          "description": "Siempre que se active este agente, si no has usado la regla Segundo al Mando durante la batalla, puedes elegir otro agente KORPS DE LA MUERTE amigo preparado que sea visible para él y esté a 6\" o menos de él.\nCuando este agente quede gastado, activa ese otro agente amigo antes de que tu oponente active (si ese agente es un SOLDADO, ignora su regla Activación en Grupo)."
+        },
+        "IMP-DKK-CON-A-GO": {
+          "abilityName": "Órdenes de Guardia",
+          "description": "**GAMBITO ESTRATÉGICO** y **APOYO**\n Un agente MAESTRO DE GUARDIA del KORPS DE LA MUERTE amigo puede dar una ORDEN DE GUARDIA.\n Siempre que lo haga, elige una ORDEN DE GUARDIA para que la reciban todos los agentes KORPS DE LA MUERTE amigos a 6\" o menos de él.\n Siempre que un agente amigo reciba una ORDEN DE GUARDIA, aplica sus reglas hasta el final del punto de inflexión.\n Los agentes no pueden beneficiarse de más de una ORDEN DE GUARDIA a la vez; solo se benefician de la orden más reciente que hayan recibido durante el punto de inflexión.\n \n - **¡Apuntad!**  \n\n Las armas a distancia de los agentes que hayan recibido esta orden (excepto el bombardeo de mortero y el detonador remoto) tienen la regla de armas Incesante.\n - **¡Calad bayonetas!**  \n\n Las armas cuerpo a cuerpo de los agentes que hayan recibido esta orden tienen la regla de armas Incesante.\n - **¡Atrincheraos!**  \n\n Siempre que un agente dispare contra un agente amigo que haya recibido esta orden, si puedes guardar alguna salvación por cobertura, puedes repetir cualquiera de tus dados de defensa que hayan obtenido un mismo resultado (p. ej., los resultados de 2).\n - **¡Moveos! ¡Moveos! ¡Moveos!**  \n\n Siempre que un agente que haya recibido esta orden esté realizando la acción Reposicionarse, suma 1\" a su atributo Movimiento.\n "
+        },
+        "IMP-DKK-CON-A-SIC": {
+          "abilityName": "Segundo al Mando",
+          "description": "Si un agente MAESTRO DE GUARDIA amigo queda incapacitado y es retirado de la zona de aniquilación, puedes usar esta regla.\nSi lo haces, hasta el final de la batalla, este agente puede dar una ORDEN DE GUARDIA como GAMBITO ESTRATÉGICO (aunque no sea un agente MAESTRO DE GUARDIA)."
+        }
+      }
+    },
+    "IMP-DKK-GNR": {
+      "opTypeName": "Artillero del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-DKK-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-DKK-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-DKK-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-DKK-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-DKK-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-DKK-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-DKK-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-DKK-GNR-B": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "IMP-DKK-MDC": {
+      "opTypeName": "Médico del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-MDC-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-MDC-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente KORPS DE LA MUERTE amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él, puedes usar esta regla,\r siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de esa acción.\rTras esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento en la zona de control de este agente.\r Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus respectivas siguientes activaciones, y si esta regla se ha usado durante la activación de ese agente amigo, esa activación termina.  \n\r No puedes usar esta regla si este agente está incapacitado, o si es una acción Disparar y este agente fuera a ser un blanco principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-DKK-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente KORPS DE LA MUERTE amigo que esté en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente con el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-DKK-SAP": {
+      "opTypeName": "Zapador del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-SAP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-SAP-RD": {
+          "wepName": "Detonador remoto"
+        },
+        "IMP-DKK-SAP-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-SAP-A-ML": {
+          "abilityName": "Colocaminas",
+          "description": "Este agente lleva tu marcador de Mina. Puede realizar la acción Recoger Marcador con ese marcador, y siempre que realice la acción Colocar Marcador con ese marcador, puede realizar inmediatamente una acción Correr gratuita."
+        }
+      }
+    },
+    "IMP-DKK-SNP": {
+      "opTypeName": "Francotirador del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-SNP-LL": {
+          "wepName": "Láser largo",
+          "profiles": {
+            "IMP-DKK-SNP-LL-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-DKK-SNP-LL-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-DKK-SNP-LL-2": {
+              "profileName": "Inmóvil"
+            }
+          }
+        },
+        "IMP-DKK-SNP-B": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "IMP-DKK-SPT": {
+      "opTypeName": "Observador del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-SPT-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-SPT-MB": {
+          "wepName": "Bombardeo de mortero"
+        },
+        "IMP-DKK-SPT-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "actions": {
+        "IMP-DKK-SPT-SPT": {
+          "name": "Localizar",
+          "effects": [
+            "**APOYO**",
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente KORPS DE LA MUERTE amigo a 3\" o menos de este agente esté disparando contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-DKK-TRP": {
+      "opTypeName": "Soldado del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-TRP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-TRP-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-TRP-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente SOLDADO del KORPS DE LA MUERTE amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        }
+      }
+    },
+    "IMP-DKK-VET": {
+      "opTypeName": "Veterano del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-VET-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-VET-BA": {
+          "wepName": "Brazo biónico"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-VET-A-BIO": {
+          "abilityName": "Biónica",
+          "description": "El Daño normal de 3 o más inflige 1 de daño menos a este agente."
+        },
+        "IMP-DKK-VET-A-VG": {
+          "abilityName": "Guardia Veterano",
+          "description": "Siempre que se active este agente, puede recibir una ORDEN DE GUARDIA."
+        }
+      }
+    },
+    "IMP-DKK-VOX": {
+      "opTypeName": "Operador de Vox del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-VOX-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-VOX-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-VOX-A-RO": {
+          "abilityName": "Retransmitir Órdenes",
+          "description": "Una vez por punto de inflexión, cuando este agente reciba una ORDEN DE GUARDIA, si no está en la zona de control de agentes enemigos, puede retransmitir esa orden.\nSiempre que se retransmita una orden, todos los agentes KORPS DE LA MUERTE amigos que estén en la zona de aniquilación reciben esa orden; después, resta 1 al atributo LPA de este agente hasta el final de su siguiente activación."
+        }
+      },
+      "actions": {
+        "IMP-DKK-VOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente KORPS DE LA MUERTE amigo visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-DKK-ZLT": {
+      "opTypeName": "Fanático del Korps de la Muerte",
+      "weapons": {
+        "IMP-DKK-ZLT-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-DKK-ZLT-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-DKK-ZLT-A-TEP": {
+          "abilityName": "El Emperador Protege",
+          "description": "Siempre que un agente dispare contra este agente, puedes repetir cualquiera de tus dados de defensa."
+        },
+        "IMP-DKK-ZLT-A-UP": {
+          "abilityName": "Cartilla Edificante",
+          "description": "**APOYO**\nSiempre que un agente KORPS DE LA MUERTE amigo esté a 3\" o menos de este agente, las armas de ese agente amigo tienen la regla de armas Severa.\n\n**Severa:** Si no guardas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Cualquier regla que tenga efecto como resultado de guardar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue teniéndolo."
+        }
+      }
+    }
+  }
+}

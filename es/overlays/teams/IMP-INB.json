@@ -1,0 +1,418 @@
+{
+  "killteamId": "IMP-INB",
+  "locale": "es",
+  "team": {
+    "killteamName": "Abordadores de la Armada Imperial",
+    "description": "Presentes en la dotación de muchas naves de la Navis Imperialis, los Abordadores de la Armada son tripulantes del vacío de élite equipados, adiestrados e instruidos sin descanso en acciones de abordaje y combate en el vacío. Empuñan una amplia variedad de herramientas de corte, escudos de abordaje y armas de corto alcance, por lo que están perfectamente preparados para el combate letal en espacios reducidos.",
+    "composition": "Un equipo de exterminio ABORDADOR DE LA ARMADA IMPERIAL está compuesto por:\n- 1 agente SARGENTO DE ARMAS ABORDADOR DE LA ARMADA IMPERIAL con lo siguiente:  \n  - Escopeta Navis y hacha Navis  \n  O una opción de cada una de las siguientes:  \n  - Pistola bólter o pistola automática heredada\n  - Espada sierra o arma de energía\n- 10 agentes ABORDADOR DE LA ARMADA IMPERIAL elegidos de la siguiente lista:\n  - HOMBRE DE ARMAS\n  - HACHERO\n  - UNIDAD C.A.T.\n  - RESISTENTE\n  - CRÁNEO ESPECTRAL\n  - GRANADERO\n  - ARTILLERO con descargador láser Navis y culata\n  - ARTILLERO con rifle de fusión y culata\n  - ARTILLERO con rifle de plasma y culata\n  - CORTAESCOTILLAS\n  - AGRIMENSOR\n  - INTERFERIDOR DEL VACÍO\n\nSalvo los agentes HOMBRE DE ARMAS, tu comando solo puede incluir a cada agente de esta lista una vez. Tu comando solo puede incluir hasta dos agentes ARTILLERO.  \n\nTu comando solo puede incluir un agente CRÁNEO ESPECTRAL si también incluye un agente INTERFERIDOR DEL VACÍO, y solo puede incluir un agente UNIDAD C.A.T. si también incluye un agente AGRIMENSOR.  \n\nEstos agentes cuentan como media elección cada uno, lo que significa que puedes elegir ambos y se considera una sola elección en total."
+  },
+  "ploys": {
+    "IMP-INB-S-AO": {
+      "ployName": "Orden de ataque",
+      "description": "Coloca tu marcador de Orden de ataque en la zona de aniquilación. Siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo a 3\" o menos de ese marcador esté disparando, combatiendo o contraatacando, sus armas tienen la regla de armas Incesante.\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de defensa en la misma fase de estrategia.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
+    },
+    "IMP-INB-S-BFCA": {
+      "ployName": "Preparados para el contraataque",
+      "description": "Siempre que un agente esté disparando, combatiendo o contraatacando contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo que esté dentro de tu territorio o que no haya realizado la acción Cargar, Retroceder o Reposicionarse durante este punto de inflexión,\r el Daño normal y crítico de 3 o más inflige 1 de daño menos a ese agente amigo."
+    },
+    "IMP-INB-S-CA": {
+      "ployName": "Asalto a corta distancia",
+      "description": "Siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo esté combatiendo o disparando a un agente a 3\" o menos de él:\n • Suma 1 a ambos atributos de Daño de todos los perfiles de sus Escopetas Navis o Escopetas pesadas Navis (si las tiene).\n • Si obtienes dos o más fallos, puedes descartar uno de ellos para conservar otro como éxito normal en su lugar.\n"
+    },
+    "IMP-INB-S-DO": {
+      "ployName": "Orden de defensa",
+      "description": "Coloca tu marcador de Orden de defensa en la zona de aniquilación. Siempre que un agente dispare a un agente ABORDADOR DE LA ARMADA IMPERIAL amigo que esté a 3\" o menos de ese marcador, puedes repetir cualquiera de tus resultados de dados de defensa de un mismo valor (p. ej., resultados de 2).\nEn el paso de Preparar de la siguiente fase de estrategia, retira ese marcador. No puedes usar este ardid y el ardid de estrategia Orden de ataque en la misma fase de estrategia."
+    },
+    "IMP-INB-T-BL": {
+      "ployName": "Ofensiva relámpago",
+      "description": "Usa este ardid de tiroteo cuando un agente ABORDADOR DE LA ARMADA IMPERIAL amigo realice la acción Disparar o Combatir y elijas un agente enemigo a 6\" o menos de él como objetivo válido o para combatir contra él.\nSi es el primer agente amigo en realizar cualquiera de esas acciones durante este punto de inflexión, sus armas tienen la regla de armas Certera 1 para esa acción.\nSi es el primer agente amigo en ser activado durante este punto de inflexión, sus armas también tienen la regla de armas Severa para esa acción.  \n**Severa:** Si no conservas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Cualquier regla que surta efecto como resultado de conservar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue surtiéndolo.  \n**Certera 1:** Puedes conservar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "IMP-INB-T-DH": {
+      "ployName": "Marinero de cubierta",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, antes o después de que realice una acción.\r Ese agente puede moverse a través de un elemento de terreno Accesible sin que cuente como 1\" adicional y/o realizar una acción Operar escotilla gratuita durante su activación, y puede hacerlo durante la acción Cargar o Retroceder.\r No puedes usar este ardid si el punto de acceso ha sido soldado (ver agente CORTAESCOTILLAS), salvo que sea la activación de un agente CORTAESCOTILLAS amigo."
+    },
+    "IMP-INB-T-LID": {
+      "ployName": "Asegurar la posición",
+      "description": "Usa este ardid de tiroteo cuando se active un agente ABORDADOR DE LA ARMADA IMPERIAL amigo. Elige un marcador de objetivo.\nHasta el final de la batalla o hasta que vuelvas a usar este ardid (lo que ocurra primero), al determinar el control de ese marcador de objetivo, trata el atributo LPA de ese agente amigo como 1 mayor.\nTen en cuenta que esto no es un cambio en el atributo LPA, por lo que cualquier cambio es acumulable con esto."
+    },
+    "IMP-INB-T-OT": {
+      "ployName": "Abrumar al objetivo",
+      "description": "Usa este ardid de tiroteo cuando actives cualquiera de los agentes ABORDADOR DE LA ARMADA IMPERIAL amigos mientras usas la regla de facción Irrumpir y despejar. Hasta el final de la activación de ese agente, suma 1 a su atributo LPA."
+    }
+  },
+  "equipments": {
+    "IMP-INB-RB": {
+      "eqName": "Respiradores",
+      "description": "Puedes ignorar cualquier cambio en los atributos LPA de los agentes ABORDADOR DE LA ARMADA IMPERIAL amigos, y no se ven afectados por la regla de armas Choque de los agentes enemigos."
+    },
+    "IMP-INB-SL": {
+      "eqName": "Balas sólidas",
+      "description": "Hasta tres veces por punto de inflexión, siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo esté realizando la acción Disparar y elijas una escopeta Navis (largo alcance), puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, mejora en 1 el atributo Impactar de esa arma y suma 1 a ambos atributos de Daño, y esa arma tiene la regla de armas Certera 1."
+    },
+    "IMP-INB-CS": {
+      "eqName": "Estimulantes de combate",
+      "description": "Puedes ignorar cualquier cambio en el atributo Movimiento de los agentes ABORDADOR DE LA ARMADA IMPERIAL amigos por estar heridos."
+    },
+    "IMP-INB-SORD": {
+      "eqName": "Dispositivo de anulación de sistemas",
+      "description": "Una vez por punto de inflexión, un agente ABORDADOR DE LA ARMADA IMPERIAL amigo puede realizar la acción Brecha u Operar escotilla por 1 PA menos."
+    }
+  },
+  "teamAbilities": {
+    "IMP-INB-TA-BRANCL": {
+      "abilityName": "Irrumpir y despejar",
+      "description": "Una vez por punto de inflexión, cuando se active un agente ABORDADOR DE LA ARMADA IMPERIAL amigo preparado, puedes usar esta regla.\nSi lo haces, elige otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo preparado visible para ese agente y a 3\" o menos de él.\nCuando ese primer agente amigo quede gastado, puedes activar a ese otro agente amigo antes de que tu oponente active. Cuando ese otro agente quede gastado, tu oponente activa de forma normal."
+    },
+    "IMP-INB-TA-VOAR": {
+      "abilityName": "Armadura de vacío",
+      "description": "Siempre que un agente dispare a un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tengan un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+    }
+  },
+  "opTypes": {
+    "IMP-INB-SGT": {
+      "opTypeName": "Sargento de Armas Navis",
+      "weapons": {
+        "IMP-INB-SGT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-INB-SGT-HAP": {
+          "wepName": "Pistola automática heredada"
+        },
+        "IMP-INB-SGT-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INB-SGT-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-SGT-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-SGT-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-INB-SGT-NH": {
+          "wepName": "Hacha Navis"
+        },
+        "IMP-INB-SGT-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-INB-SGT-A-CB": {
+          "abilityName": "Irrupción al mando",
+          "description": "Siempre que fueras a usar el ardid de estrategia Orden de ataque u Orden de defensa, si este agente está en la zona de aniquilación, te cuesta 0PM.\nUna vez durante cada una de las activaciones de este agente, antes o después de que realice una acción, si tu marcador de Orden de ataque u Orden de defensa está en la zona de aniquilación (ver el ardid de estrategia correspondiente), puedes elegir una de estas opciones:\n\n- Retirar ese marcador y volver a colocarlo.\n- Cambiar el ardid elegido por el otro (p. ej., tu Orden de ataque pasa a ser una Orden de defensa).\n\nNo puedes hacer ambas cosas, y no necesitas gastar PM para cambiar el ardid."
+        }
+      }
+    },
+    "IMP-INB-ARM": {
+      "opTypeName": "Hombre de Armas Navis",
+      "weapons": {
+        "IMP-INB-ARM-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INB-ARM-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-ARM-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-ARM-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "abilities": {
+        "IMP-INB-ARM-A-GA": {
+          "abilityName": "Activación en grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente HOMBRE DE ARMAS ABORDADOR DE LA ARMADA IMPERIAL amigo preparado (si es posible) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa de forma normal (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla).\nIgnora esta regla cuando estés usando la regla de facción Irrumpir y despejar."
+        }
+      }
+    },
+    "IMP-INB-AXE": {
+      "opTypeName": "Hachero Navis",
+      "weapons": {
+        "IMP-INB-AXE-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INB-AXE-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-INB-AXE-A-EMB": {
+          "abilityName": "Envalentonado",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente durante un punto de inflexión en el que haya realizado la acción Cargar, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "IMP-INB-CAT": {
+      "opTypeName": "Unidad C.A.T. Navis",
+      "abilities": {
+        "IMP-INB-CAT-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes).\r También se ignora para las condiciones de victoria y la obtención de PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por un agente enemigo (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        },
+        "IMP-INB-CAT-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "\r - Este agente no puede activarse ni realizar acciones si está dentro de la zona de control de un agente enemigo, o si un agente AGRIMENSOR ABORDADOR DE LA ARMADA IMPERIAL amigo ha quedado incapacitado. El punto de inflexión puede terminar aunque este agente siga preparado.\r - Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Reposicionarse y Localizar.\r - No puede contraatacar, ayudar en un combate, trepar ni saltar.\r - Siempre que determines el control de un marcador, trata el atributo LPA de este agente como 1 menor. Ten en cuenta que esto no es un cambio en su atributo LPA, por lo que cualquier cambio es acumulable con esto.\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\r - Siempre que determines qué es visible para este agente, traza la línea desde cualquier parte de la miniatura.\r "
+        }
+      },
+      "actions": {
+        "IMP-INB-CAT-SPT": {
+          "name": "Localizar",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, hasta que ese agente enemigo deje de ser visible para este agente o hasta que este agente vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo esté disparando a ese agente enemigo, puedes usar este efecto.",
+            "Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar oscurecido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INB-END": {
+      "opTypeName": "Resistente Navis",
+      "weapons": {
+        "IMP-INB-END-NHS": {
+          "wepName": "Escopeta pesada Navis",
+          "profiles": {
+            "IMP-INB-END-NHS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-END-NHS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-END-SB": {
+          "wepName": "Golpe de escudo"
+        }
+      },
+      "abilities": {
+        "IMP-INB-END-A-BW": {
+          "abilityName": "Muro de abordaje",
+          "description": "Siempre que tu oponente esté eligiendo un objetivo válido, no puede elegir a otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo cuya peana esté en contacto con la de este agente si este agente tiene una orden de Trabarse y está interpuesto.\nEsta regla no tiene efecto si la peana de más de otro agente amigo está en contacto con la de este agente."
+        },
+        "IMP-INB-END-A-DIS": {
+          "abilityName": "Desengancharse",
+          "description": "Este agente puede realizar la acción Retroceder por 1 PA menos."
+        },
+        "IMP-INB-END-A-SH": {
+          "abilityName": "*Escudo",
+          "description": "Siempre que este agente esté combatiendo o contraatacando con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+        }
+      }
+    },
+    "IMP-INB-GS": {
+      "opTypeName": "Cráneo espectral Navis",
+      "abilities": {
+        "IMP-INB-GS-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes).\r También se ignora para las condiciones de victoria y la obtención de PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        },
+        "IMP-INB-GS-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "\r - Este agente no puede realizar ninguna acción salvo Impulso, Cargar, Correr, Retroceder y Reposicionarse.\r - No puede contraatacar ni ayudar en un combate.\r - Siempre que determines el control de un marcador, trata el atributo LPA de este agente como 1 menor. Ten en cuenta que esto no es un cambio en su atributo LPA, por lo que cualquier cambio es acumulable con esto.\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\r "
+        }
+      },
+      "actions": {
+        "IMP-INB-GS-BST": {
+          "name": "Impulso",
+          "effects": [
+            "La próxima vez que este agente realice una acción Cargar durante esta activación, suma 4\" a la distancia que puede moverse (en lugar de 2\")."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción más de una vez por batalla, y no puede realizarla durante el primer punto de inflexión."
+          ]
+        }
+      }
+    },
+    "IMP-INB-GRN": {
+      "opTypeName": "Granadero Navis",
+      "weapons": {
+        "IMP-INB-GRN-DC": {
+          "wepName": "Carga demoledora"
+        },
+        "IMP-INB-GRN-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INB-GRN-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-GRN-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-GRN-NH": {
+          "wepName": "Hacha Navis"
+        },
+        "IMP-INB-GRN-FG": {
+          "wepName": "Granada Frag"
+        },
+        "IMP-INB-GRN-KG": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "IMP-INB-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag, krak y aturdidoras (ver equipo universal). Hacerlo no cuenta para ninguno de tus usos limitados (es decir, si también eliges esas granadas como equipo para otros agentes).\nSiempre que este agente use una granada frag o krak, mejora en 1 el atributo Impactar de esa arma."
+        }
+      }
+    },
+    "IMP-INB-GNR": {
+      "opTypeName": "Artillero Navis",
+      "weapons": {
+        "IMP-INB-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-INB-GNR-NLV": {
+          "wepName": "Descargador láser Navis",
+          "profiles": {
+            "IMP-INB-GNR-NLV-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INB-GNR-NLV-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INB-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-INB-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INB-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INB-GNR-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-INB-HC": {
+      "opTypeName": "Cortaescotillas Navis",
+      "weapons": {
+        "IMP-INB-HC-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INB-HC-CF": {
+          "wepName": "Puño sierra"
+        }
+      },
+      "actions": {
+        "IMP-INB-HC-BP": {
+          "name": "Punto de brecha",
+          "effects": [
+            "Coloca uno de tus marcadores de Brecha dentro de la zona de control de este agente, lo más cerca posible de un elemento de terreno que esté dentro de su zona de control.",
+            "Siempre que un agente esté a 1\" o menos de ese marcador, trata las partes de ese elemento de terreno que no tengan más de 1\" de grosor como terreno Accesible."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un elemento de terreno dentro de su zona de control."
+          ]
+        },
+        "IMP-INB-HC-WS": {
+          "name": "Soldar",
+          "effects": [
+            "Elige una escotilla cerrada (p. ej., Zona de aniquilación: Gallowdark) dentro de la zona de control de este agente. Los demás agentes deben gastar 1 PA adicional para realizar la acción Operar escotilla para abrir esa escotilla.",
+            "Este efecto termina cuando se abre esa escotilla. Ten en cuenta que este agente no se ve afectado por este efecto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no está a 1\" o menos de una escotilla cerrada."
+          ]
+        }
+      }
+    },
+    "IMP-INB-SRV": {
+      "opTypeName": "Agrimensor Navis",
+      "weapons": {
+        "IMP-INB-SRV-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INB-SRV-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-SRV-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-SRV-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "actions": {
+        "IMP-INB-SRV-RC": {
+          "name": "Control remoto",
+          "effects": [
+            "Elige un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo. Ese agente puede realizar inmediatamente una acción gratuita, pero no puede moverse más de 3\" durante esa acción."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo en la zona de aniquilación."
+          ]
+        },
+        "IMP-INB-SRV-WF": {
+          "name": "Guiar",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo (excepto UNIDAD C.A.T. o CRÁNEO ESPECTRAL) visible para este agente y a 6\" o menos de él, o visible para un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo y a 6\" o menos de él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA. A efectos del equipo universal Aparato de Comunicaciones, el agente desde el que se determina la distancia debe controlar ese marcador."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INB-VJ": {
+      "opTypeName": "Interferidor del vacío Navis",
+      "weapons": {
+        "IMP-INB-VJ-GD": {
+          "wepName": "Detonador de cráneo espectral"
+        },
+        "IMP-INB-VJ-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INB-VJ-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INB-VJ-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INB-VJ-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "abilities": {
+        "IMP-INB-VJ-A-DET": {
+          "abilityName": "*Detonar",
+          "description": "No elijas un objetivo válido. En su lugar, un agente CRÁNEO ESPECTRAL ABORDADOR DE LA ARMADA IMPERIAL amigo es siempre el objetivo principal y no puede estar en cobertura ni oscurecido. Si ese agente no está en la zona de aniquilación, no puedes elegir esta arma."
+        }
+      },
+      "actions": {
+        "IMP-INB-VJ-IP": {
+          "name": "Pulso de interferencia",
+          "effects": [
+            "Elige un agente enemigo visible para un agente CRÁNEO ESPECTRAL amigo y a 8\" o menos de él. Tira un D6 y suma 1 al resultado si ese agente enemigo es un objetivo válido para ese agente CRÁNEO ESPECTRAL amigo:",
+            "con un 3+, resta 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no hay un agente CRÁNEO ESPECTRAL amigo en la zona de aniquilación."
+          ]
+        }
+      }
+    }
+  }
+}

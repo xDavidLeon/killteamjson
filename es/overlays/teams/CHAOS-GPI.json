@@ -1,0 +1,336 @@
+{
+  "killteamId": "CHAOS-GPI",
+  "locale": "es",
+  "team": {
+    "killteamName": "Infectados de Viruela Geller",
+    "description": "Corrompidos por una espantosa dolencia tecnoorgánica, los Infectados de Viruela Geller son fusiones de pesadilla de carne,\nmaquinaria y enfermedad desenfrenada. La mayoría de estos seres repugnantes empezaron como leales servidores del Dios Emperador. Sin\nembargo, esos orígenes desaparecieron hace mucho, borrados por una enfermedad sobrenatural y la compulsión de propagar su infección\npor las estrellas.",
+    "composition": "Ten en cuenta que, salvo las ALIMAÑAS MUTOIDES, no eliges tus agentes de una lista.  \n\nLos agentes de este equipo de exterminio están especificados.  \n\nUn equipo de exterminio INFECTADOS DE VIRUELA GELLER está compuesto por todos los agentes INFECTADOS DE VIRUELA GELLER de la siguiente lista:\n\n- 1 VULGRAR EL TRES VECES MALDITO de los INFECTADOS DE VIRUELA GELLER\n- 1 ENGENDRO HINCHADO de los INFECTADOS DE VIRUELA GELLER\n- 1 AULLACARNE de los INFECTADOS DE VIRUELA GELLER\n- 1 ESPANTO RENQUEANTE de los INFECTADOS DE VIRUELA GELLER\n- 4 AVERIADILLO de los INFECTADOS DE VIRUELA GELLER\n- 1 MUTANTE de los INFECTADOS DE VIRUELA GELLER con granada frag y hacha pesada\n- 2 MUTANTE de los INFECTADOS DE VIRUELA GELLER con granada frag y arma improvisada\n\nSi has elegido el equipo de facción Alimañas Mutoides:  \n\nEl número especificado de agentes INFECTADOS DE VIRUELA GELLER elegidos de la siguiente lista:\n\n- ÁCARO MALDITO\n- ENJAMBRE PICAOJOS\n- LARVA DE LODO\n"
+  },
+  "ploys": {
+    "CHAOS-GPI-S-BOI": {
+      "ployName": "Bendiciones de la Infección",
+      "description": "Siempre que un agente INFECTADOS DE VIRUELA GELLER amigo esté combatiendo o contraatacando, puedes hacer una de las siguientes cosas:\n\n- Si sacas tres o más fallos, puedes descartar uno de ellos para guardar otro como éxito normal en su lugar.\n- Si sacas tres o más éxitos, puedes descartar uno de tus fallos para guardar uno de tus éxitos normales como éxito crítico en su lugar.\n"
+    },
+    "CHAOS-GPI-S-DTTH": {
+      "ployName": "Atraídos por el Zumbido",
+      "description": "Elige un marcador de objetivo. Siempre que un agente INFECTADOS DE VIRUELA GELLER amigo realice la acción Reposicionarse o Cargar durante su activación, puedes usar esta regla.\r Si lo haces, suma 1\" a su atributo Movimiento hasta el final de esa activación, pero debe terminar ese movimiento a 2\" o menos de ese marcador de objetivo."
+    },
+    "CHAOS-GPI-S-PRD": {
+      "ployName": "Determinación Apestada",
+      "description": "Siempre que un agente dispare contra un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES) que tenga una orden de Trabarse, puedes repetir uno de tus dados de defensa."
+    },
+    "CHAOS-GPI-S-RE": {
+      "ployName": "Emanaciones de Óxido",
+      "description": "Siempre que un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES) esté combatiendo o contraatacando, tu oponente no puede guardar resultados de 3 como éxitos."
+    },
+    "CHAOS-GPI-T-BA": {
+      "ployName": "Arrollar",
+      "description": "Usa este ardid de tiroteo durante la activación o reacción de un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigo, antes o después de que realice una acción.\nDurante esa activación/reacción:\n\n- Puede moverse a través de agentes enemigos y dentro de su zona de control.\n- Puede realizar las acciones Cargar y Reposicionarse mientras esté en la zona de control de un agente enemigo, y puede salir de la zona de control de ese agente para hacerlo (pero entonces se aplican los requisitos normales de ese movimiento).\n"
+    },
+    "CHAOS-GPI-T-FOS": {
+      "ployName": "Embestida Aterradora",
+      "description": "Usa este ardid de tiroteo después de que un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigo realice la acción Combatir, si no está incapacitado.\nPuede realizar inmediatamente una acción Combatir gratuita (no tienes que elegir el mismo agente enemigo contra el que combatir). Esto tiene preferencia sobre las restricciones de acciones."
+    },
+    "CHAOS-GPI-T-PD": {
+      "ployName": "Muerte Putrefacta",
+      "description": "Usa este ardid de tiroteo cuando un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES) quede incapacitado, antes de retirarlo de la zona de aniquilación.\r Inflige 1 de daño (o D3 de daño en su lugar si ese agente amigo es un MOLE DE PESADILLA) a cada agente enemigo visible para ese agente amigo y a 2\" o menos de él."
+    },
+    "CHAOS-GPI-T-RT": {
+      "ployName": "Tecnología Repugnante",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo esté disparando contra un agente INFECTADOS DE VIRUELA GELLER amigo.\nLas armas a distancia de ese agente tienen la regla de armas Sobrecalentamiento hasta el final de esa secuencia; si el arma ya tiene esa regla de armas, cuando tu oponente tire un D6 por esa regla de armas,\npuedes sumar o restar 1 al resultado. Ten en cuenta que, en este último caso, puedes ver el resultado de la tirada de tu oponente para la regla de armas Sobrecalentamiento antes de decidir usar este ardid.  \n\n**Sobrecalentamiento:** Después de usar esta arma, tira 1D6. Si el resultado es menor que el atributo Impactar del arma, inflige a ese agente un daño igual al resultado multiplicado por 2. Si se usa varias veces en una acción (p. ej., Área), tira solo 1D6."
+    }
+  },
+  "equipments": {
+    "CHAOS-GPI-MV": {
+      "eqName": "Alimañas Mutoides",
+      "description": "Tras revelar esta opción de equipo, añade dos agentes ALIMAÑAS MUTOIDES de los INFECTADOS DE VIRUELA GELLER a tu equipo de exterminio para la batalla."
+    },
+    "CHAOS-GPI-PS": {
+      "eqName": "Reservas Contaminadas",
+      "description": "Tras revelar esta opción de equipo, tira 2D6: con un 7+, retira una de las opciones de equipo elegidas por tu oponente; de lo contrario, ese jugador retira una de sus propias opciones de equipo elegidas.\nNo puede volver a elegir ese equipo durante la secuencia de juego (p. ej., en el paso de Exploración de Operaciones Aprobadas). No puedes elegir esta opción de equipo después del paso de Elegir agentes."
+    },
+    "CHAOS-GPI-MS": {
+      "eqName": "Síntomas Mutados",
+      "description": "Una vez por batalla, cuando actives un agente INFECTADOS DE VIRUELA GELLER amigo, puedes elegir una TECNOMALDICIÓN adicional para que ese agente la obtenga hasta el final del punto de inflexión (debe ser distinta de tu TECNOMALDICIÓN existente). Ten en cuenta que si una regla hace referencia a que un agente enemigo se ve afectado por tu regla de TECNOMALDICIÓN elegida (p. ej., la regla Propagar los Dones Gloriosos del agente VULGRAR EL TRES VECES MALDITO), también se ve afectado por tu regla de TECNOMALDICIÓN adicional."
+    },
+    "CHAOS-GPI-PB": {
+      "eqName": "Fuelles de Plaga",
+      "description": "Siempre que un agente dispare contra un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigo que esté a más de 6\" de él, puedes guardar uno de tus resultados de 3 en los dados de defensa como éxito normal en lugar de descartarlo."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-GPI-TA-BA": {
+      "abilityName": "Cañón Combado",
+      "description": "**Tecnomaldición**  \n\nResta 1 al atributo Ataques de las armas a distancia de ese agente enemigo."
+    },
+    "CHAOS-GPI-TA-SCRU": {
+      "abilityName": "Púas de Óxido Aullantes",
+      "description": "**Tecnomaldición**  \n\nSiempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo."
+    },
+    "CHAOS-GPI-TA-VIVOST": {
+      "abilityName": "Estática Vox Viral",
+      "description": "**Tecnomaldición**  \n\nNo se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga)."
+    }
+  },
+  "opTypes": {
+    "CHAOS-GPI-VTC": {
+      "opTypeName": "Vulgrar el Tres Veces Maldito",
+      "weapons": {
+        "CHAOS-GPI-VTC-PG": {
+          "wepName": "Tripahoguera",
+          "profiles": {
+            "CHAOS-GPI-VTC-PG-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-GPI-VTC-PG-1": {
+              "profileName": "Diluvio"
+            }
+          }
+        },
+        "CHAOS-GPI-VTC-FMW": {
+          "wepName": "Armas fusionadas a la carne"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-VTC-A-NH": {
+          "abilityName": "Mole de Pesadilla",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden usar terreno Ligero como cobertura.\nAunque esto puede permitir que esos agentes sean elegidos como blanco (suponiendo que sean visibles), no elimina su salvación por cobertura (si la tienen).  \n\nLos agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden realizar acciones únicas.\nDebes gastar 1 PA adicional para que los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos (excepto VULGRAR EL TRES VECES MALDITO) realicen la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-GPI-VTC-A-RR": {
+          "abilityName": "Repugnantemente Resistente",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER o MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+        },
+        "CHAOS-GPI-VTC-A-STGG": {
+          "abilityName": "Propagar los Dones Gloriosos",
+          "description": "Una vez por batalla, GAMBITO ESTRATÉGICO. Elige un marcador de objetivo que controle este agente para que obtenga una de tus fichas de Tecnomaldición.\nNo puede ser un marcador de objetivo que esté en la zona de control de un agente enemigo.\nSiempre que ese marcador de objetivo esté en la zona de control de un agente enemigo, ese agente se ve afectado por tu regla de TECNOMALDICIÓN elegida y por una regla adicional determinada por tu TECNOMALDICIÓN, como se muestra a continuación.\nNo puedes usar este GAMBITO ESTRATÉGICO mientras este agente esté en la zona de control de un agente enemigo.\n\n- Cañón Combado: Sin efecto adicional.\n- Púas de Óxido Aullantes: Esta TECNOMALDICIÓN inflige 2 de daño a ese agente enemigo (en lugar de 1).\n- Estática Vox Viral: Siempre que se active ese agente enemigo, resta 1 a su atributo LPA hasta el final de su activación.\n"
+        },
+        "CHAOS-GPI-VTC-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        }
+      }
+    },
+    "CHAOS-GPI-BS": {
+      "opTypeName": "Engendro Hinchado",
+      "weapons": {
+        "CHAOS-GPI-BS-MT": {
+          "wepName": "Tentáculos mutantes"
+        },
+        "CHAOS-GPI-BS-MCT": {
+          "wepName": "Garras y tentáculos mutantes",
+          "profiles": {
+            "CHAOS-GPI-BS-MCT-0": {
+              "profileName": "Tajo"
+            },
+            "CHAOS-GPI-BS-MCT-1": {
+              "profileName": "Barrido"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-BS-A-NH": {
+          "abilityName": "Mole de Pesadilla",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden usar terreno Ligero como cobertura.\nAunque esto puede permitir que esos agentes sean elegidos como blanco (suponiendo que sean visibles), no elimina su salvación por cobertura (si la tienen).  \n\nLos agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden realizar acciones únicas.\nDebes gastar 1 PA adicional para que los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos (excepto VULGRAR EL TRES VECES MALDITO) realicen la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-GPI-BS-A-RR": {
+          "abilityName": "Repugnantemente Resistente",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER o MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+        },
+        "CHAOS-GPI-BS-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        },
+        "CHAOS-GPI-BS-A-TG": {
+          "abilityName": "Agarre Tentacular",
+          "description": "Siempre que un agente enemigo fuera a realizar la acción Retroceder mientras esté en la zona de control de este agente, puedes usar esta regla.\nSi lo haces, tira un D6, sumando 1 al resultado si ese agente enemigo tiene un atributo Heridas de 8 o menos: con un 4+, ese agente enemigo no puede realizar esa acción durante esa activación/reacción (no se le devuelven los PA gastados en ella)."
+        }
+      }
+    },
+    "CHAOS-GPI-FS": {
+      "opTypeName": "Aullacarne",
+      "weapons": {
+        "CHAOS-GPI-FS-MFC": {
+          "wepName": "Puño y cuchilla mutantes",
+          "profiles": {
+            "CHAOS-GPI-FS-MFC-0": {
+              "profileName": "Golpe cercenador"
+            },
+            "CHAOS-GPI-FS-MFC-1": {
+              "profileName": "Tajo"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-FS-A-HS": {
+          "abilityName": "Chillidos Horripilantes",
+          "description": "Siempre que un agente enemigo esté a 3\" o menos de este agente, tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Recoger Marcador y acciones de misión.  \n\nAl determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de este agente.\nTen en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulable con esto."
+        },
+        "CHAOS-GPI-FS-A-NH": {
+          "abilityName": "Mole de Pesadilla",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden usar terreno Ligero como cobertura.\nAunque esto puede permitir que esos agentes sean elegidos como blanco (suponiendo que sean visibles), no elimina su salvación por cobertura (si la tienen).  \n\nLos agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden realizar acciones únicas.\nDebes gastar 1 PA adicional para que los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos (excepto VULGRAR EL TRES VECES MALDITO) realicen la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-GPI-FS-A-RR": {
+          "abilityName": "Repugnantemente Resistente",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER o MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+        },
+        "CHAOS-GPI-FS-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        }
+      }
+    },
+    "CHAOS-GPI-LG": {
+      "opTypeName": "Espanto Renqueante",
+      "weapons": {
+        "CHAOS-GPI-LG-MC": {
+          "wepName": "Garra mutante"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-LG-A-NH": {
+          "abilityName": "Mole de Pesadilla",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden usar terreno Ligero como cobertura.\nAunque esto puede permitir que esos agentes sean elegidos como blanco (suponiendo que sean visibles), no elimina su salvación por cobertura (si la tienen).  \n\nLos agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos no pueden realizar acciones únicas.\nDebes gastar 1 PA adicional para que los agentes MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER amigos (excepto VULGRAR EL TRES VECES MALDITO) realicen la acción Recoger Marcador y acciones de misión (excepto Operar escotilla)."
+        },
+        "CHAOS-GPI-LG-A-RR": {
+          "abilityName": "Repugnantemente Resistente",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER o MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+        },
+        "CHAOS-GPI-LG-A-SC": {
+          "abilityName": "Embestida Erizada",
+          "description": "Siempre que este agente termine de moverse durante la acción Cargar, puedes infligir D3 de daño a cada agente enemigo que esté en su zona de control (tira por separado para cada uno)."
+        },
+        "CHAOS-GPI-LG-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        }
+      }
+    },
+    "CHAOS-GPI-GM": {
+      "opTypeName": "Mutante de Viruela Geller",
+      "weapons": {
+        "CHAOS-GPI-GM-HA": {
+          "wepName": "Hacha pesada"
+        },
+        "CHAOS-GPI-GM-IW": {
+          "wepName": "Arma improvisada"
+        },
+        "CHAOS-GPI-GM-FG": {
+          "wepName": "Granada Frag"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-GM-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        },
+        "CHAOS-GPI-GM-A-GM": {
+          "abilityName": "Máscaras Gellercausto",
+          "description": "Siempre que un dado de ataque fuera a infligir Daño crítico a este agente, puedes elegir que ese dado de ataque inflija Daño normal en su lugar."
+        },
+        "CHAOS-GPI-GM-A-RR": {
+          "abilityName": "Repugnantemente Resistente",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MOLE DE PESADILLA de los INFECTADOS DE VIRUELA GELLER o MUTANTE de los INFECTADOS DE VIRUELA GELLER amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+        },
+        "CHAOS-GPI-GM-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        }
+      }
+    },
+    "CHAOS-GPI-GL": {
+      "opTypeName": "Averiadillo",
+      "weapons": {
+        "CHAOS-GPI-GL-DE": {
+          "wepName": "Efluvio enfermo"
+        },
+        "CHAOS-GPI-GL-DN": {
+          "wepName": "Pinzas enfermas"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-GL-A-DM": {
+          "abilityName": "Demoníaco",
+          "description": "Siempre que un agente dispare contra este agente, ignora la regla de armas Penetración."
+        },
+        "CHAOS-GPI-GL-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        },
+        "CHAOS-GPI-GL-A-SMOL": {
+          "abilityName": "Pequeño",
+          "description": "Este agente no puede usar armas que no estén en su ficha de datos, ni realizar acciones únicas. Siempre que este agente tenga una orden de Ocultarse y esté a cubierto, no puede ser elegido como blanco válido, lo cual tiene preferencia sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) excepto estar a 2\" o menos."
+        },
+        "CHAOS-GPI-GL-A-TC": {
+          "abilityName": "Tecnomaldición",
+          "description": "Al final del paso de Elegir agentes, elige una TECNOMALDICIÓN para que la obtengan los agentes INFECTADOS DE VIRUELA GELLER amigos durante la batalla.\n Siempre que un agente enemigo esté dentro del alcance de infección de tu TECNOMALDICIÓN elegida,\n ese agente enemigo se ve afectado por el síntoma de la TECNOMALDICIÓN elegida. Cada TECNOMALDICIÓN, su alcance de infección y su síntoma se indican a continuación:  \n\n Cada TECNOMALDICIÓN se indica a continuación:\n \n - \n \t\t**Cañón Combado**  \n\n        Alcance de infección: A 2\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 3\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.   \n\n        Síntoma: Resta 1 al atributo Ataques de las armas a distancia de ese agente enemigo.\n \t\n     - \n \t\t**Púas de Óxido Aullantes**\n\t\tAlcance de infección: En la zona de control de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES).  \n\n\t\tSíntoma: Siempre que ese agente enemigo esté combatiendo o contraatacando contra un agente INFECTADOS DE VIRUELA GELLER amigo, si tu oponente descarta algún dado de ataque como fallo, inflige 1 de daño a ese agente enemigo.\n \t\n     - \n \t\t**Estática Vox Viral**\n\t\tAlcance de infección: A 3\" o menos de un agente INFECTADOS DE VIRUELA GELLER amigo (excepto ALIMAÑAS MUTOIDES), o a 4\" o menos de un agente AVERIADILLO de los INFECTADOS DE VIRUELA GELLER amigo.  \n\n\t\tSíntoma: No se puede sumar al atributo LPA de ese agente enemigo (retira todos los cambios positivos a su atributo LPA que tenga).\n \t\n "
+        }
+      }
+    },
+    "CHAOS-GPI-CM": {
+      "opTypeName": "Ácaro Maldito",
+      "weapons": {
+        "CHAOS-GPI-CM-BSP": {
+          "wepName": "Probóscide chupasangre"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-CM-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente ALIMAÑAS MUTOIDES de los INFECTADOS DE VIRUELA GELLER amigo preparado (si puedes) antes de que tu oponente active. Cuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        },
+        "CHAOS-GPI-CM-A-MV": {
+          "abilityName": "Alimañas Mutoides",
+          "description": "Los agentes ALIMAÑAS MUTOIDES no pueden realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Reposicionarse y Disparar, ni usar armas que no estén en su ficha de datos.\nPueden realizar la acción Retroceder por 1 PA menos.  \n\nLos agentes ALIMAÑAS MUTOIDES no pueden disputar marcadores ni zonas de la zona de aniquilación, y se ignoran para la operación de matar/eliminación de tu oponente (cuando quedan incapacitados y al determinar tu número inicial de agentes).\nTambién se ignoran para las condiciones de victoria y para puntuar PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapan/sobreviven/quedan incapacitados, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.).  \n\nLos agentes pueden moverse a través de agentes ALIMAÑAS MUTOIDES, y los agentes enemigos pueden moverse dentro de su zona de control.\nTener solo agentes ALIMAÑAS MUTOIDES en su zona de control no impide que los agentes enemigos realicen las acciones Cargar, Correr y Reposicionarse, y los agentes enemigos pueden salir de la zona de control de los agentes ALIMAÑAS MUTOIDES al realizar la acción Cargar."
+        }
+      }
+    },
+    "CHAOS-GPI-ESS": {
+      "opTypeName": "Enjambre Picaojos",
+      "weapons": {
+        "CHAOS-GPI-ESS-SW": {
+          "wepName": "Enjambre"
+        },
+        "CHAOS-GPI-ESS-ST": {
+          "wepName": "Aguijón"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-ESS-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente ALIMAÑAS MUTOIDES de los INFECTADOS DE VIRUELA GELLER amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        },
+        "CHAOS-GPI-ESS-A-MV": {
+          "abilityName": "Alimañas Mutoides",
+          "description": "Los agentes ALIMAÑAS MUTOIDES no pueden realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Reposicionarse y Disparar, ni usar armas que no estén en su ficha de datos.\nPueden realizar la acción Retroceder por 1 PA menos.  \n\nLos agentes ALIMAÑAS MUTOIDES no pueden disputar marcadores ni zonas de la zona de aniquilación, y se ignoran para la operación de matar/eliminación de tu oponente (cuando quedan incapacitados y al determinar tu número inicial de agentes).\nTambién se ignoran para las condiciones de victoria y para puntuar PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapan/sobreviven/quedan incapacitados, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.).  \n\nLos agentes pueden moverse a través de agentes ALIMAÑAS MUTOIDES, y los agentes enemigos pueden moverse dentro de su zona de control.\nTener solo agentes ALIMAÑAS MUTOIDES en su zona de control no impide que los agentes enemigos realicen las acciones Cargar, Correr y Reposicionarse, y los agentes enemigos pueden salir de la zona de control de los agentes ALIMAÑAS MUTOIDES al realizar la acción Cargar."
+        }
+      }
+    },
+    "CHAOS-GPI-SG": {
+      "opTypeName": "Larva de Lodo",
+      "weapons": {
+        "CHAOS-GPI-SG-AS": {
+          "wepName": "Escupitajo ácido"
+        },
+        "CHAOS-GPI-SG-FM": {
+          "wepName": "Fauces con colmillos"
+        }
+      },
+      "abilities": {
+        "CHAOS-GPI-SG-A-CD": {
+          "abilityName": "Muerte Cáustica",
+          "description": "Cuando este agente quede incapacitado, tira un D6 por separado por cada agente enemigo visible para él y a 2\" o menos de él: con un 4+, inflige 1 de daño a ese agente."
+        },
+        "CHAOS-GPI-SG-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente ALIMAÑAS MUTOIDES de los INFECTADOS DE VIRUELA GELLER amigo preparado (si puedes) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        },
+        "CHAOS-GPI-SG-A-MV": {
+          "abilityName": "Alimañas Mutoides",
+          "description": "Los agentes ALIMAÑAS MUTOIDES no pueden realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Reposicionarse y Disparar, ni usar armas que no estén en su ficha de datos.\nPueden realizar la acción Retroceder por 1 PA menos.  \n\nLos agentes ALIMAÑAS MUTOIDES no pueden disputar marcadores ni zonas de la zona de aniquilación, y se ignoran para la operación de matar/eliminación de tu oponente (cuando quedan incapacitados y al determinar tu número inicial de agentes).\nTambién se ignoran para las condiciones de victoria y para puntuar PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapan/sobreviven/quedan incapacitados, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.).  \n\nLos agentes pueden moverse a través de agentes ALIMAÑAS MUTOIDES, y los agentes enemigos pueden moverse dentro de su zona de control.\nTener solo agentes ALIMAÑAS MUTOIDES en su zona de control no impide que los agentes enemigos realicen las acciones Cargar, Correr y Reposicionarse, y los agentes enemigos pueden salir de la zona de control de los agentes ALIMAÑAS MUTOIDES al realizar la acción Cargar."
+        }
+      }
+    }
+  }
+}

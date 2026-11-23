@@ -1,0 +1,151 @@
+{
+  "killteamId": "SPEC-TITUS",
+  "locale": "es",
+  "team": {
+    "killteamName": "Pack de misión de Titus",
+    "description": "El Pack de misión del Teniente Titus es un derivado de Warhammer 40,000: Kill Team. Su juego principal incluye una gama ampliada de miniaturas detalladas, escenografía evocadora y reglas únicas. Libra batallas tácticas contra tus oponentes con tu equipo de agentes de élite, todo ello ambientado en la sombría oscuridad del futuro lejano.",
+    "composition": "Uno de cada uno de los Marines Espaciales.\n\n1 Guerrero tiránido y 6 NPO con cualquier combinación de Hormagantes y Termagantes. Despliégalos a 3\" o menos del marcador de objetivo 1, con escenografía interpuesta dentro de su zona de control vista desde la zona de despliegue del jugador."
+  },
+  "opTypes": {
+    "SPEC-TITUS-TIT": {
+      "opTypeName": "Teniente Titus",
+      "weapons": {
+        "SPEC-TITUS-TIT-HBP": {
+          "wepName": "Pistola bólter pesada"
+        },
+        "SPEC-TITUS-TIT-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "actions": {
+        "SPEC-TITUS-TIT-UA-RF": {
+          "name": "Furia justa",
+          "effects": [
+            "Los agentes del jugador a 6\" o menos de este agente recuperan hasta D3+3 heridas perdidas (tira por separado para cada uno) y, después, retira todas las fichas de Herida mortal de esos agentes."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción más de una vez por batalla."
+          ]
+        }
+      }
+    },
+    "SPEC-TITUS-GAD": {
+      "opTypeName": "Gadriel",
+      "weapons": {
+        "SPEC-TITUS-GAD-BR": {
+          "wepName": "Rifle bólter"
+        },
+        "SPEC-TITUS-GAD-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "actions": {
+        "SPEC-TITUS-GAD-UA-BC": {
+          "name": "Grito de batalla",
+          "effects": [
+            "Inflige D3+3 de daño a cada agente enemigo a 3\" o menos de este agente (tira por separado para cada uno)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción más de una vez por batalla."
+          ]
+        }
+      }
+    },
+    "SPEC-TITUS-CHA": {
+      "opTypeName": "Chairon",
+      "weapons": {
+        "SPEC-TITUS-CHA-BR": {
+          "wepName": "Rifle bólter"
+        },
+        "SPEC-TITUS-CHA-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "actions": {
+        "SPEC-TITUS-CHA-UA-AS": {
+          "name": "Escaneo de áuspex",
+          "effects": [
+            "Hasta el final de la siguiente activación de este agente, siempre que un agente del jugador dispare, combata o contraataque, suma 1 al atributo de Daño crítico de sus armas, y sus éxitos iguales o superiores a 5 son éxitos críticos."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción más de una vez por batalla."
+          ]
+        }
+      }
+    },
+    "SPEC-TITUS-HOR": {
+      "opTypeName": "Hormagante",
+      "weapons": {
+        "SPEC-TITUS-HOR-SC": {
+          "wepName": "Garras segadoras"
+        }
+      },
+      "abilities": {
+        "SPEC-TITUS-HOR-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "1. Combatir.  \n\n2. Cargar contra el agente del jugador más cercano por la ruta más corta posible.  \n\n3. Reposicionarse hacia el agente del jugador más cercano por la ruta más corta posible.  \n\n4. Correr hacia el agente del jugador más cercano por la ruta más corta posible.  \n"
+        }
+      }
+    },
+    "SPEC-TITUS-TER": {
+      "opTypeName": "Termagante",
+      "weapons": {
+        "SPEC-TITUS-TER-RBW": {
+          "wepName": "Bioarma a distancia"
+        },
+        "SPEC-TITUS-TER-CAT": {
+          "wepName": "Garras y colmillos"
+        }
+      },
+      "abilities": {
+        "SPEC-TITUS-TER-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "1. Retroceder. Si es posible, a una ubicación donde haya un objetivo válido.  \n\n2. Reposicionarse hacia el agente del jugador más cercano, a cobertura si es posible. Además, a una ubicación donde haya un objetivo válido si es posible.  \n\n3. Disparar.  \n\n4. Correr hacia el agente del jugador más cercano, a cobertura si es posible.  \n\n5. Combatir"
+        }
+      }
+    },
+    "SPEC-TITUS-WAR": {
+      "opTypeName": "Guerrero tiránido",
+      "weapons": {
+        "SPEC-TITUS-WAR-RBW": {
+          "wepName": "Bioarma a distancia"
+        },
+        "SPEC-TITUS-WAR-BS": {
+          "wepName": "Espadas óseas"
+        }
+      },
+      "abilities": {
+        "SPEC-TITUS-WAR-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "1. Combatir  \n\n2. Cargar contra el agente del jugador más cercano por la ruta más corta posible.  \n\n3. Disparar al agente del jugador más cercano.  \n\n4. Reposicionarse hacia el agente del jugador más cercano.  \n\n5. Correr hacia el agente del jugador más cercano."
+        },
+        "SPEC-TITUS-WAR-A-SBL": {
+          "abilityName": "Contragolpe sináptico",
+          "description": "Siempre que este agente quede incapacitado, antes de retirarlo de la zona de aniquilación, inflige D3 de daño a cada Hormagante y Termagante a 3\" o menos de él (tira por separado para cada uno)."
+        },
+        "SPEC-TITUS-WAR-A-SYN": {
+          "abilityName": "Sinapsis",
+          "description": "Siempre que un NPO Hormagante o Termagante esté disparando o combatiendo a 3\" o menos de este agente, conserva uno de los dados de ataque de ese agente como éxito normal sin tirarlo."
+        }
+      }
+    },
+    "SPEC-TITUS-LIC": {
+      "opTypeName": "Lictor",
+      "weapons": {
+        "SPEC-TITUS-LIC-CAT": {
+          "wepName": "Garras y espolones"
+        }
+      },
+      "abilities": {
+        "SPEC-TITUS-LIC-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "1. Combatir.  \n\n2. Cargar contra el agente del jugador más cercano por la ruta más corta posible.  \n\n3. Reposicionarse hacia el agente del jugador más cercano, a cobertura si es posible (una acción Correr posterior puede cumplir esto, si es capaz).  \n\n4. Correr hacia el agente del jugador más cercano, a cobertura si es posible."
+        },
+        "SPEC-TITUS-LIC-A-HP": {
+          "abilityName": "Depredador oculto",
+          "description": "Después de que este agente realice la acción Combatir, realiza inmediatamente una acción Retroceder gratuita, a cobertura si es posible. Siempre que este agente esté en cobertura respecto a un agente del jugador, no es visible para ese agente del jugador."
+        }
+      }
+    }
+  }
+}

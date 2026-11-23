@@ -1,0 +1,236 @@
+{
+  "killteamId": "CHAOS-PM",
+  "locale": "es",
+  "team": {
+    "killteamName": "Marines de Plaga",
+    "description": "Hijos corruptos de Mortarion, los Marines de Plaga están impregnados e hinchados de podredumbre y enfermedad. Aunque son compactos y lentos, los Marines de Plaga son terriblemente resistentes, y avanzan pesada e implacablemente hacia sus objetivos mientras van sembrando el contagio a su paso.",
+    "composition": "Un equipo de exterminio MARINES DE PLAGA está compuesto por:\n\n- 1 agente CAMPEÓN MARINE DE PLAGA\n- 5 agentes MARINE DE PLAGA elegidos de la siguiente lista:\n  - BOMBARDERO\n  - LUCHADOR\n  - ARTILLERO PESADO\n  - PORTAICONO\n  - LANZAPLAGAS MALIGNO\n  - GUERRERO\n\nTu comando solo puede incluir a cada agente de esta lista una vez"
+  },
+  "ploys": {
+    "CHAOS-PM-S-COF": {
+      "ployName": "Nube de Moscas",
+      "description": "Coloca uno de tus marcadores de Nube de Moscas en la zona de aniquilación.\r Siempre que un agente dispare contra un agente MARINE DE PLAGA amigo que esté a más de 3\" de él, si ese agente amigo está totalmente a 1\" o menos de ese marcador,\r ese agente amigo está ofuscado. En el paso de Preparación de la siguiente fase de estrategia, retira ese marcador."
+    },
+    "CHAOS-PM-S-CONT": {
+      "ployName": "Contagio",
+      "description": "Resta 2\" al atributo Movimiento de un agente enemigo y empeora en 1 el atributo Impactar de sus armas (esto no es acumulable con estar herido) siempre que se cumpla cualquiera de las siguientes condiciones:\r \r - Tiene una de tus fichas de Veneno y es visible para agentes MARINE DE PLAGA amigos (o viceversa) y está a 3\" o menos de ellos.\r - Es visible para un agente PORTAICONO MARINE DE PLAGA amigo (o viceversa) y está a 3\" o menos de él.\r "
+    },
+    "CHAOS-PM-S-LD": {
+      "ployName": "Muerte Tambaleante",
+      "description": "Siempre que un agente MARINE DE PLAGA amigo dispare o combata durante una activación en la que no se haya movido más de 3\", o siempre que contraataque, sus armas tienen la regla de armas Incesante.<hr/>\n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
+    },
+    "CHAOS-PM-S-NURG": {
+      "ployName": "Nurglings",
+      "description": "Elige un agente enemigo a 3\" o menos de un agente MARINE DE PLAGA amigo, o un agente enemigo que tenga una de tus fichas de Veneno y esté a 7\" o menos de un agente MARINE DE PLAGA amigo.\nHasta el final de la siguiente activación del agente elegido, resta 1 a su atributo LPA."
+    },
+    "CHAOS-PM-T-COR": {
+      "ployName": "Maldición de la Podredumbre",
+      "description": "Usa este ardid de tiroteo cuando un agente MARINE DE PLAGA amigo esté combatiendo o disparando contra un agente enemigo a 3\" o menos de él (o a 7\" o menos de él si ese agente enemigo tiene una de tus fichas de Veneno),\ndespués de que tu oponente tire sus dados de ataque o de defensa. Por cada resultado de 3 que saque, inflige 1 de daño a ese agente enemigo; ese resultado se considera un fallo y no puede repetirlo."
+    },
+    "CHAOS-PM-T-PD": {
+      "ployName": "Muerte Venenosa",
+      "description": "Usa este ardid de tiroteo cuando un agente MARINE DE PLAGA amigo quede incapacitado, antes de retirarlo de la zona de aniquilación. Cada agente enemigo visible para ese agente y a 3\" o menos de él obtiene una de tus fichas de Veneno (si no tiene ya una);\r a cada uno de esos agentes enemigos que ya tenga una de tus fichas de Veneno (incluso si la ha obtenido durante esta acción), inflígele 1 de daño en su lugar."
+    },
+    "CHAOS-PM-T-SR": {
+      "ployName": "Resistencia Nauseabunda",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflija daño a un agente MARINE DE PLAGA amigo.\nHasta el final de la activación/reacción, a efectos de la regla Asquerosamente Resistente de ese agente, resta siempre 1 al daño infligido (hasta un mínimo de 2); no necesitas tirar."
+    },
+    "CHAOS-PM-T-VP": {
+      "ployName": "Veneno Virulento",
+      "description": "Usa este ardid de tiroteo durante la activación o reacción de un agente MARINE DE PLAGA amigo, antes o después de que realice una acción.\n\n- Un agente enemigo a 3\" o menos, o visible para ese agente y a 7\" o menos de él, obtiene una de tus fichas de Veneno (si no tiene ya una)."
+    }
+  },
+  "equipments": {
+    "CHAOS-PM-PB": {
+      "eqName": "Campanas de Plaga",
+      "description": "Puedes ignorar cualquier cambio en los atributos de los agentes MARINE DE PLAGA amigos por estar heridos (incluidos los atributos de sus armas)."
+    },
+    "CHAOS-PM-BG": {
+      "eqName": "Granadas Infectas",
+      "description": "Los agentes MARINE DE PLAGA amigos tienen la siguiente arma a distancia (no puedes elegirla para usarla más de dos veces durante la batalla):",
+      "weapons": {
+        "CHAOS-PM-BG-BLIGHT-GRENADE": {
+          "wepName": "Granada Infecta"
+        }
+      }
+    },
+    "CHAOS-PM-PR": {
+      "eqName": "Proyectiles de Plaga",
+      "description": "Los bólters y pistolas bólter de los agentes MARINE DE PLAGA amigos tienen las reglas de armas Veneno y Severa."
+    },
+    "CHAOS-PM-PV": {
+      "eqName": "Respiraderos Venenosos",
+      "description": "Siempre que se active un agente enemigo a 3\" o menos de un agente MARINE DE PLAGA amigo:\n• Si ese agente enemigo no tiene una de tus fichas de Veneno, tira un D3: con un 3, obtiene una.\n• Si ese agente enemigo tiene una de tus fichas de Veneno, inflígele D3 de daño (en lugar de 1).’"
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-PM-TA-AS": {
+      "abilityName": "Astartes",
+      "description": "Durante la activación de cada agente MARINE DE PLAGA amigo, este puede realizar dos acciones Disparar o dos acciones Combatir.\nSi son dos acciones Disparar, debe elegirse una pistola bólter, un bólter o un arma PSÍQUICA para al menos una de ellas.\nNo puedes elegir la misma arma a distancia PSÍQUICA más de una vez por activación.  \n\nCada agente MARINE DE PLAGA amigo puede reaccionar independientemente de su orden."
+    },
+    "CHAOS-PM-TA-DIRE": {
+      "abilityName": "Asquerosamente Resistente",
+      "description": "Siempre que un dado de ataque inflija 3 o más de daño a un agente MARINE DE PLAGA amigo, tira un D6: con un 4+, resta 1 a ese daño infligido."
+    }
+  },
+  "opTypes": {
+    "CHAOS-PM-CHAMP": {
+      "opTypeName": "Campeón Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-CHAMP-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-PM-CHAMP-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-PM-CHAMP-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-PM-CHAMP-PS": {
+          "wepName": "Espada de plaga"
+        }
+      },
+      "abilities": {
+        "CHAOS-PM-CHAMP-A-GB": {
+          "abilityName": "Bendición del Abuelo",
+          "description": "Siempre que un agente enemigo que tenga una de tus fichas de Veneno pierda una o más heridas a 7\" o menos de este agente, este agente recupera hasta un número igual de heridas perdidas (hasta un máximo de 3 heridas perdidas por punto de inflexión,\r y solo si este agente no está incapacitado)."
+        }
+      }
+    },
+    "CHAOS-PM-MAL": {
+      "opTypeName": "Lanzaplagas Maligno",
+      "weapons": {
+        "CHAOS-PM-MAL-ENT": {
+          "wepName": "Entropía"
+        },
+        "CHAOS-PM-MAL-PW": {
+          "wepName": "Viento de plaga"
+        },
+        "CHAOS-PM-MAL-CS": {
+          "wepName": "Báculo corrupto"
+        }
+      },
+      "actions": {
+        "CHAOS-PM-MAL-PM": {
+          "name": "Miasma Venenoso",
+          "effects": [
+            "**PSÍQUICA**",
+            "Elige un agente enemigo visible para este agente y a 7\" o menos de él, o un agente enemigo que sea un blanco válido para este agente.",
+            "Ese agente enemigo obtiene una de tus fichas de Veneno (si no tiene ya una). Si ya tiene una, inflige 3 de daño a ese agente enemigo en su lugar."
+          ],
+          "conditions": [
+            "Un agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "CHAOS-PM-MAL-PV": {
+          "name": "Vitalidad Putrefacta",
+          "effects": [
+            "**PSÍQUICA**\r Elige un agente amigo visible para este agente y a 3\" o menos de él y, a continuación, tira 2D6: si el resultado es 7, el agente elegido recupera 7 heridas perdidas; de lo contrario, el agente elegido recupera un número de heridas perdidas igual al D6 más alto."
+          ],
+          "conditions": [
+            "Un agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    },
+    "CHAOS-PM-BOMB": {
+      "opTypeName": "Bombardero Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-BOMB-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-PM-BOMB-BGR": {
+          "wepName": "Granada Infecta"
+        },
+        "CHAOS-PM-BOMB-F": {
+          "wepName": "Puños"
+        },
+        "CHAOS-PM-BOMB-KG": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "CHAOS-PM-BOMB-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas infectas y granadas krak (ver equipo de facción y equipo universal).\nHacerlo no cuenta para ningún límite de usos que tengas (es decir, si también eliges esas granadas como equipo para otros agentes).\nSiempre que lo haga, mejora en 1 el atributo Impactar de esa arma y las granadas infectas tienen la regla de armas Tóxica."
+        }
+      }
+    },
+    "CHAOS-PM-FTR": {
+      "opTypeName": "Luchador Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-FTR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-PM-FTR-FOC": {
+          "wepName": "Mangual de corrupción"
+        }
+      },
+      "actions": {
+        "CHAOS-PM-FTR-FL": {
+          "name": "Azotar",
+          "effects": [
+            "Inflige D3+2 de daño a cada otro agente que sea visible para este agente y esté a 2\" o menos de él. Tira por separado para cada uno: si es un agente enemigo y el resultado del D3 es un 3, ese agente enemigo también obtiene una de tus fichas de Veneno (si no tiene ya una)."
+          ],
+          "conditions": [
+            "A efectos de las restricciones de acciones y de la regla de facción Astartes, esta acción se considera una acción Combatir. Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse."
+          ]
+        }
+      }
+    },
+    "CHAOS-PM-HGNR": {
+      "opTypeName": "Artillero Pesado Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-HGNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-PM-HGNR-PS": {
+          "wepName": "Escupeplagas"
+        },
+        "CHAOS-PM-HGNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "CHAOS-PM-IB": {
+      "opTypeName": "Portaicono Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-IB-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-PM-IB-PK": {
+          "wepName": "Cuchillo de plaga"
+        }
+      },
+      "abilities": {
+        "CHAOS-PM-IB-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulable con esto."
+        },
+        "CHAOS-PM-IB-A-IOC": {
+          "abilityName": "Icono del Contagio",
+          "description": "Siempre que este agente esté en el territorio de tu oponente, el ardid de estrategia Contagio te cuesta 0PM."
+        }
+      }
+    },
+    "CHAOS-PM-WAR": {
+      "opTypeName": "Guerrero Marine de Plaga",
+      "weapons": {
+        "CHAOS-PM-WAR-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-PM-WAR-PK": {
+          "wepName": "Cuchillo de plaga"
+        }
+      },
+      "abilities": {
+        "CHAOS-PM-WAR-A-RF": {
+          "abilityName": "Fortaleza Repulsiva",
+          "description": "Siempre que un agente dispare contra este agente, los resultados de 5+ en los dados de defensa son éxitos críticos."
+        }
+      }
+    }
+  }
+}

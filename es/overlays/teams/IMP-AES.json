@@ -1,0 +1,465 @@
+{
+  "killteamId": "IMP-AES",
+  "locale": "es",
+  "team": {
+    "killteamName": "Escuadra de Exacción",
+    "description": "Es responsabilidad del Adeptus Arbites hacer cumplir la ley imperial. Las Escuadras de Exacción se forman con los Arbitradores más\nhábiles y experimentados. Se les encomienda dar caza y apresar a los más atroces\ncriminales, para devolverlos con vida y que afronten todo el peso de la justicia del Emperador.",
+    "composition": "Un equipo de exterminio ESCUADRA DE EXACCIÓN está compuesto por:\n\n- 1 agente ESCUADRA DE EXACCIÓN PROCTOR-EXACTOR con una de las siguientes opciones:\n  - Escopeta de combate; porra de represión\n  - Pistola escopeta; maza dominadora y escudo de asalto\n- 10 agentes ESCUADRA DE EXACCIÓN elegidos de la siguiente lista:\n  - CASTIGADOR\n  - CIRUJANO\n  - AMO DE TRAÍLLA\n  - CIBERMASTÍN R-VR\n  - MALOCATOR\n  - TIRADOR\n  - REVELATUM\n  - SUBDUCTOR\n  - VIGILANTE\n  - SEÑALIZADOR VOX\n  - ARTILLERO con una de las siguientes opciones:\n    - Lanzagranadas; porra de represión\n    - Ametralladora pesada; porra de represión\n    - Lanzarredes; porra de represión\n        \n\n  \n\nSalvo los agentes ARTILLERO, SUBDUCTOR y VIGILANTE, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta dos agentes ARTILLERO (cada uno debe tener una opción diferente) y hasta cuatro agentes SUBDUCTOR."
+  },
+  "ploys": {
+    "IMP-AES-S-DJ": {
+      "ployName": "Impartir justicia",
+      "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo combata o contraataque, si no se ha movido más que su atributo Movimiento durante la activación, o si es una reacción, sus armas de combate tienen la regla de armas Incesante.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
+    },
+    "IMP-AES-S-GRI": {
+      "ployName": "La culpa se revela",
+      "description": "Siempre que estés seleccionando un objetivo válido para un agente ESCUADRA DE EXACCIÓN amigo, los agentes enemigos a 4\" o menos de él no pueden estar a cubierto (en lugar de 2\").\nAunque esto puede permitir que esos agentes sean elegidos como objetivo (siempre que sean visibles), no elimina su salvación por cobertura (si la tienen), salvo que el agente ESCUADRA DE EXACCIÓN amigo esté a 2\" o menos de forma normal."
+    },
+    "IMP-AES-S-IVJ": {
+      "ployName": "Jurisdicción inviolable",
+      "description": "Siempre que un agente dispare contra un agente ESCUADRA DE EXACCIÓN amigo que esté a 2\" o menos de un marcador de objetivo o de un agente enemigo, puedes repetir uno de tus dados de defensa."
+    },
+    "IMP-AES-S-TD": {
+      "ployName": "Decreto terminal",
+      "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo dispare contra un agente enemigo a 6\" o menos de él, o siempre que un agente ESCUADRA DE EXACCIÓN ARTILLERO amigo dispare, las armas a distancia de ese agente amigo tienen la regla de armas Equilibrada.  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "IMP-AES-T-BB": {
+      "ployName": "Refuerzo brutal",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA DE EXACCIÓN amigo, antes o después de que realice una acción.\nElige un agente enemigo en su zona de control. Otro agente ESCUADRA DE EXACCIÓN amigo puede realizar inmediatamente una acción gratuita de Combatir, pero solo puede combatir contra ese agente enemigo."
+    },
+    "IMP-AES-T-EO": {
+      "ployName": "Orden de ejecución",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo realice una acción de misión (salvo Accionar escotilla).\r Alternativamente, úsalo al final de la fase de tiroteo y elige un agente enemigo que controle un marcador de objetivo.  \n\r En ambos casos, la próxima vez que tu oponente fuera a activar a ese agente enemigo, puedes interrumpir esa activación y activar un agente ESCUADRA DE EXACCIÓN amigo preparado.\r Si lo haces, durante esa activación, ese agente amigo debe combatir o disparar contra ese agente enemigo, y no puede hacerlo contra ningún otro agente enemigo hasta que lo haga\r (si no es posible, se cancela la activación de ese agente amigo).  \n\r Después de completar la activación de ese agente amigo, continúa la activación de ese agente enemigo (si es posible). No puedes volver a usar este ardid de tiroteo hasta que ese agente enemigo sea activado o resulte incapacitado."
+    },
+    "IMP-AES-T-EP": {
+      "ployName": "Castigo exacto",
+      "description": "Usa este ardid de tiroteo después de que un agente enemigo dispare o combata contra un agente ESCUADRA DE EXACCIÓN amigo que esté a 6\" o menos de él, y ese agente amigo no resulte incapacitado como consecuencia.\nEse agente amigo puede realizar inmediatamente una acción gratuita de Disparar o una acción gratuita de Combatir, pero no pueden seleccionarse otros agentes enemigos como objetivo válido ni para combatir contra ellos durante esa acción\n(ten en cuenta que los objetivos secundarios de la regla de armas Área todavía pueden ser elegidos como objetivo)."
+    },
+    "IMP-AES-T-LAOTEL": {
+      "ployName": "El largo brazo de la ley del Emperador",
+      "description": "Usa este ardid de tiroteo cuando un agente ESCUADRA DE EXACCIÓN amigo esté realizando la acción Disparar y selecciones un arma con la regla de armas Alcance x (salvo granada frag o krak). Hasta el final de esa acción, suma 3\" a x."
+    }
+  },
+  "equipments": {
+    "IMP-AES-MAN": {
+      "eqName": "Grilletes",
+      "description": "Siempre que un agente enemigo fuera a realizar la acción Retroceder mientras está en la zona de control de un agente ESCUADRA DE EXACCIÓN amigo, si no hay otros agentes enemigos en la zona de control de ese agente amigo,\npuedes usar esta regla.\nSi lo haces, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que ese agente amigo.\nSi algún resultado es 4+, ese agente enemigo no puede realizar esa acción durante esa activación o reacción (no se gasta ningún PA en ella), y no puedes volver a usar esta regla durante este punto de inflexión."
+    },
+    "IMP-AES-SPL": {
+      "eqName": "Fósforo-lumen estroboscópico",
+      "description": "Siempre que un agente enemigo dispare, combata o contraataque contra un agente ESCUADRA DE EXACCIÓN amigo que esté a 2\" o menos de él, tu oponente no puede repetir sus resultados de 1 en los dados de ataque."
+    },
+    "IMP-AES-SIS": {
+      "eqName": "Cartuchos de dotación especial",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente ESCUADRA DE EXACCIÓN amigo esté realizando la acción Disparar y selecciones una escopeta de combate, escopeta ejecutora, pistola escopeta con mira o pistola escopeta, puedes usar esta regla.\nSi lo haces, elige una de las siguientes reglas de armas para que esa arma la tenga hasta el final de esa acción:\n\n- Saturación.\n- Penetración 1, pero solo si el objetivo tiene un atributo Salvación de 3+ o mejor.\n- Ráfaga 1\", pero no puedes seleccionar más de un objetivo secundario.\n"
+    },
+    "IMP-AES-RMV": {
+      "eqName": "Visor de espejo reforzado",
+      "description": "Puedes ignorar cualquier cambio en los atributos LPA de los agentes ESCUADRA DE EXACCIÓN amigos, y no les afecta la regla de armas Choque de los agentes enemigos."
+    }
+  },
+  "teamAbilities": {
+    "IMP-AES-TA-MAFOJU": {
+      "abilityName": "Marcado para la justicia",
+      "description": "**GAMBITO ESTRATÉGICO** Elige un agente enemigo para que sea tu marcado durante el punto de inflexión.\nSiempre que un agente ESCUADRA DE EXACCIÓN amigo dispare, combata o contraataque contra tu marcado, las armas de ese agente amigo tienen la regla de armas Castigadora.\nSiempre que tu marcado resulte incapacitado, puedes elegir un nuevo agente enemigo para que sea tu marcado durante el punto de inflexión (y puedes seguir haciéndolo durante este punto de inflexión)."
+    },
+    "IMP-AES-TA-RUEF": {
+      "abilityName": "Eficiencia despiadada",
+      "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo dispare (salvo con granadas frag o krak) y estés seleccionando un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea seleccionado."
+    }
+  },
+  "opTypes": {
+    "IMP-AES-PE": {
+      "opTypeName": "Proctor-Exactor Arbites",
+      "weapons": {
+        "IMP-AES-PE-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-PE-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-PE-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-PE-SP": {
+          "wepName": "Pistola escopeta"
+        },
+        "IMP-AES-PE-DMAS": {
+          "wepName": "Maza dominadora y escudo de asalto"
+        },
+        "IMP-AES-PE-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-PE-A-AS": {
+          "abilityName": "Escudo de asalto",
+          "description": "Si este agente tiene una maza dominadora y escudo de asalto, tiene un atributo Salvación de 3+."
+        },
+        "IMP-AES-PE-A-NA": {
+          "abilityName": "Nuncio-aquila",
+          "description": "\n- Siempre que un agente enemigo esté a 3\" o menos de tu marcador de Nuncio-aquila (o de este agente si tu marcador de Nuncio-aquila no está en la zona de aniquilación), tu oponente debe gastar 1 PA adicional para que ese agente enemigo realice la acción Recoger Marcador y acciones de misión.\n- Siempre que se determine el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de tu marcador de Nuncio-aquila\n(o de este agente si tu marcador de Nuncio-aquila no está en la zona de aniquilación). Ten en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto\n"
+        }
+      },
+      "actions": {
+        "IMP-AES-PE-DNA": {
+          "name": "Desplegar Nuncio-aquila",
+          "effects": [
+            "Si tu marcador de Nuncio-aquila no está en la zona de aniquilación, colócalo a 6\" o menos en horizontal de este agente; de lo contrario, mueve tu marcador de Nuncio-aquila hasta 6\" en horizontal.",
+            "Si este agente es retirado de la zona de aniquilación, retira tu marcador de Nuncio-aquila de la zona de aniquilación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-AES-CAST": {
+      "opTypeName": "Castigador Arbites",
+      "weapons": {
+        "IMP-AES-CAST-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-CAST-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-CAST-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-CAST-EM": {
+          "wepName": "Maza excruciadora"
+        }
+      },
+      "abilities": {
+        "IMP-AES-CAST-A-CA": {
+          "abilityName": "Arresto del castigador",
+          "description": "Siempre que un agente enemigo esté en la zona de control de este agente, si no hay otros agentes enemigos en la zona de control de este agente, ese agente enemigo no puede realizar la acción Retroceder."
+        },
+        "IMP-AES-CAST-A-EF": {
+          "abilityName": "Concentración inducida",
+          "description": "Puedes ignorar cualquier cambio en los atributos de este agente (incluidos los atributos de sus armas, pero salvo su atributo Salvación)."
+        },
+        "IMP-AES-CAST-A-ZD": {
+          "abilityName": "Dedicación celosa",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "IMP-AES-CHI": {
+      "opTypeName": "Cirujano Arbites",
+      "weapons": {
+        "IMP-AES-CHI-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-CHI-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-CHI-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-CHI-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-CHI-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente ESCUADRA DE EXACCIÓN amigo fuera a resultar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no resulta incapacitado, le queda 1 herida y no puede resultar incapacitado durante el resto de la acción. Después de esa acción, ese agente amigo puede realizar inmediatamente una acción gratuita de Correr, pero debe terminar ese movimiento en la\r zona de control de este agente. Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivas y, si esta regla se usó durante la\r activación de ese agente amigo, esa activación termina. No puedes usar esta regla si este agente está incapacitado, o si es una acción de Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-AES-CHI-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente ESCUADRA DE EXACCIÓN amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-AES-GNR": {
+      "opTypeName": "Artillero Arbites",
+      "weapons": {
+        "IMP-AES-GNR-GL": {
+          "wepName": "Lanzagranadas"
+        },
+        "IMP-AES-GNR-HS": {
+          "wepName": "Ametralladora pesada",
+          "profiles": {
+            "IMP-AES-GNR-HS-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-AES-GNR-HS-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-AES-GNR-WEB": {
+          "wepName": "Lanzarredes"
+        },
+        "IMP-AES-GNR-RB": {
+          "wepName": "Porra de represión"
+        }
+      }
+    },
+    "IMP-AES-LSH": {
+      "opTypeName": "Amo de Traílla Arbites",
+      "weapons": {
+        "IMP-AES-LSH-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-LSH-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-LSH-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-LSH-SP": {
+          "wepName": "Pistola escopeta"
+        },
+        "IMP-AES-LSH-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-LSH-A-AP": {
+          "abilityName": "Patrón de ataque",
+          "description": "GAMBITO ESTRATÉGICO en el primer punto de inflexión. Elige dos de los siguientes patrones de ataque para que un agente ESCUADRA DE EXACCIÓN CIBERMASTÍN R-VR amigo los tenga durante la batalla:\n\n- Agresivo: Sus armas de combate tienen la regla de armas Implacable.\n- Veloz: Suma 2\" a su atributo Movimiento.\n- Defensivo: Mejora en 1 su atributo Salvación.\n"
+        },
+        "IMP-AES-LSH-A-HND": {
+          "abilityName": "Adiestrador",
+          "description": "Siempre que este agente se active, puedes activar al mismo tiempo un agente ESCUADRA DE EXACCIÓN CIBERMASTÍN R-VR amigo preparado. Completa sus activaciones acción por acción en cualquier orden."
+        }
+      },
+      "actions": {
+        "IMP-AES-LSH-RC": {
+          "name": "Orden R-VR",
+          "effects": [
+            "Elige un agente ESCUADRA DE EXACCIÓN CIBERMASTÍN R-VR amigo y cambia uno de sus patrones de ataque."
+          ]
+        }
+      }
+    },
+    "IMP-AES-RVR": {
+      "opTypeName": "Cibermastín R-VR",
+      "weapons": {
+        "IMP-AES-RVR-MB": {
+          "wepName": "Mordisco mecánico"
+        }
+      },
+      "abilities": {
+        "IMP-AES-RVR-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción salvo Apresar, Cargar, Correr, Retroceder, Combatir, Ponerse en guardia, Reposicionarse, Recoger Marcador y Colocar Marcador. No puede usar ningún arma que no esté en su hoja de datos."
+        }
+      },
+      "actions": {
+        "IMP-AES-RVR-APP": {
+          "name": "Apresar",
+          "effects": [
+            "Elige un agente enemigo en la zona de control de este agente.",
+            "Hasta que ese agente enemigo deje de estar en la zona de control de este agente, o hasta que este agente vuelva a realizar esta acción (lo que ocurra primero),",
+            "empeora en 1 el atributo Impactar de las armas de ese agente enemigo (esto no es acumulativo con estar herido);",
+            "además, ese agente enemigo no puede realizar la acción Retroceder."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción salvo que haya un agente enemigo en su zona de control."
+          ]
+        }
+      }
+    },
+    "IMP-AES-MAL": {
+      "opTypeName": "Malocator Arbites",
+      "weapons": {
+        "IMP-AES-MAL-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-MAL-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-MAL-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-MAL-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-MAL-A-AF": {
+          "abilityName": "Concentración aguda",
+          "description": "Una vez durante cada una de las activaciones de este agente, puede realizar la acción Recoger Marcador, Colocar Marcador, Veriscant o una acción de misión por 1 PA menos."
+        }
+      },
+      "actions": {
+        "IMP-AES-MAL-VER": {
+          "name": "Veriscant",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero),\r siempre que un agente ESCUADRA DE EXACCIÓN amigo dispare, combata o contraataque contra ese agente enemigo, las armas de ese agente amigo tienen las reglas de armas Letal 5+ y Severa."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-AES-MRK": {
+      "opTypeName": "Tirador Arbites",
+      "weapons": {
+        "IMP-AES-MRK-ESG": {
+          "wepName": "Escopeta ejecutora",
+          "profiles": {
+            "IMP-AES-MRK-ESG-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-AES-MRK-ESG-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-AES-MRK-ESG-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-AES-MRK-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "actions": {
+        "IMP-AES-MRK-OPT": {
+          "name": "Ópticas",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente:",
+            "- Los perfiles oculto y estacionario de su escopeta ejecutora tienen la regla de armas Letal 5+.",
+            "- Siempre que dispare con su escopeta ejecutora, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-AES-REV": {
+      "opTypeName": "Revelatum Arbites",
+      "weapons": {
+        "IMP-AES-REV-SSP": {
+          "wepName": "Pistola escopeta con mira",
+          "profiles": {
+            "IMP-AES-REV-SSP-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-REV-SSP-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-REV-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-REV-A-FITF": {
+          "abilityName": "El primero en el campo",
+          "description": "**GAMBITO ESTRATÉGICO** en el primer punto de inflexión.\nSi este agente está totalmente dentro de tu zona de despliegue, puede realizar inmediatamente una acción gratuita de Reposicionarse."
+        }
+      },
+      "actions": {
+        "IMP-AES-REV-SPT": {
+          "name": "Avistar",
+          "effects": [
+            "Elige un agente enemigo que sea visible para este agente y esté a 8\" o menos de él. Hasta el final del punto de inflexión, siempre que un agente ESCUADRA DE EXACCIÓN amigo dispare contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-AES-SUB": {
+      "opTypeName": "Subductor Arbites",
+      "weapons": {
+        "IMP-AES-SUB-SP": {
+          "wepName": "Pistola escopeta"
+        },
+        "IMP-AES-SUB-SMAS": {
+          "wepName": "Maza de choque y escudo de asalto"
+        }
+      },
+      "abilities": {
+        "IMP-AES-SUB-A-SS": {
+          "abilityName": "Subyugador obstinado",
+          "description": "Puedes ignorar cualquier cambio en el atributo Impactar de las armas de combate de este agente."
+        }
+      }
+    },
+    "IMP-AES-VIG": {
+      "opTypeName": "Vigilante Arbites",
+      "weapons": {
+        "IMP-AES-VIG-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-VIG-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-VIG-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-VIG-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-AES-VIG-A-SQV": {
+          "abilityName": "Vigilancia a corta distancia",
+          "description": "Este agente puede realizar la acción Disparar (salvo Ponerse en guardia) mientras está en la zona de control de un agente enemigo, pero solo si no ha realizado la acción Cargar durante la activación,\no si es una reacción. Ten en cuenta que este agente no tiene restringido realizar la acción Cargar después de realizar la acción Disparar."
+        }
+      }
+    },
+    "IMP-AES-VOX": {
+      "opTypeName": "Señalizador Vox Arbites",
+      "weapons": {
+        "IMP-AES-VOX-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-AES-VOX-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-AES-VOX-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-AES-VOX-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "actions": {
+        "IMP-AES-VOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente ESCUADRA DE EXACCIÓN amigo visible para este agente. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    }
+  }
+}

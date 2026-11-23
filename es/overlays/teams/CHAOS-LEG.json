@@ -1,19 +1,369 @@
 {
   "killteamId": "CHAOS-LEG",
   "locale": "es",
+  "team": {
+    "killteamName": "Legionarios",
+    "description": "Los equipos de exterminio de Legionarios son veteranos resentidos que poseen siglos de experiencia en combate. Algunos son poco más que\nasesinos voraces que solo desean saquear, masacrar y profanar. Otros son devotos adoradores de los Dioses Oscuros,\nque buscan llevar a cabo rituales nefastos con la esperanza de complacer a sus patrones infernales y alcanzar un poder mayor.",
+    "composition": "Un equipo de exterminio LEGIONARIOS está compuesto por:\n\n- 1 agente LEGIONARIO elegido de la siguiente lista:\n  - CAMPEÓN ASPIRANTE con una opción de cada una de las siguientes:\n    - Pistola de plasma o pistola bólter corrupta\n    - Puño de energía, maza de energía, arma de energía o espada sierra corrupta  \n  - ELEGIDO con una de las siguientes opciones:\n    - Pistola de plasma; espada demoníaca\n    - Pistola bólter corrupta; espada demoníaca\n- 5 agentes LEGIONARIO elegidos de la siguiente lista:\n  - UNGIDO\n  - ACÓLITO DEL FUEGO FUNESTO\n  - CARNICERO\n  - PORTAICONO con una de las siguientes opciones:\n    - Bólter; puños\n    - Pistola bólter; espada sierra  \n  - GARRA EXPIATORIA\n  - GUERRERO con una de las siguientes opciones:\n    - Bólter; puños\n    - Pistola bólter; espada sierra\n  - ARTILLERO con una de las siguientes opciones:\n    - Pistola bólter; lanzallamas; puños\n    - Pistola bólter; rifle de fusión; puños\n    - Pistola bólter; rifle de plasma; puños\n  - ARTILLERO PESADO con una de las siguientes opciones:\n    - Pistola bólter; bólter pesado; puños\n    - Pistola bólter; lanzamisiles; puños\n    - Pistola bólter; cañón de cadena segador; puños\n\nSalvo los agentes GUERRERO, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "CHAOS-LEG-S-BFTBG": {
+      "ployName": "Sangre para el Dios de la Sangre",
+      "description": "Siempre que un agente LEGIONARIO amigo (salvo KHORNE) esté combatiendo, la primera vez que golpees durante esa secuencia, inflige 1 de daño adicional (hasta un máximo de 7).  \r \r Suma 1 a ambos atributos de Daño de las armas cuerpo a cuerpo de los agentes LEGIONARIO KHORNE amigos (hasta un máximo de 7)."
+    },
+    "CHAOS-LEG-S-FF": {
+      "ployName": "Destinos volubles",
+      "description": "Siempre que un agente LEGIONARIO amigo esté disparando contra un agente enemigo preparado, las armas a distancia de ese agente amigo tienen la regla de armas Equilibrada.   \nSiempre que un agente esté disparando contra un agente LEGIONARIO TZEENTCH amigo preparado, en el paso de Tirar dados de defensa, si conservas algún éxito crítico, puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo.   \n \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "CHAOS-LEG-S-IMP": {
+      "ployName": "Implacable",
+      "description": "Siempre que un agente esté disparando contra un agente LEGIONARIO amigo, las armas con la regla de armas Penetración 1 tienen en su lugar la regla de armas Penetración Crítica 1.\n\nPuedes ignorar cualquier cambio en los atributos de los agentes LEGIONARIO NURGLE amigos por estar heridos (incluidos los atributos de sus armas)."
+    },
+    "CHAOS-LEG-S-QSS": {
+      "ployName": "Velocidad de azogue",
+      "description": "Siempre que un agente LEGIONARIO amigo que haya realizado una acción en la que se haya movido durante este punto de inflexión esté combatiendo, empeora en 1 el atributo Impactar de las armas cuerpo a cuerpo del agente enemigo.  \n\r Siempre que un agente esté disparando contra un agente LEGIONARIO SLAANESH amigo que esté a más de 6\" de él y que haya realizado una acción en la que se haya movido durante este punto de inflexión, empeora en 1 el atributo Impactar de las armas del agente enemigo.  \n\r En todos los casos de este ardid, esto no es acumulativo con estar herido."
+    },
+    "CHAOS-LEG-T-MA": {
+      "ployName": "Aura maligna",
+      "description": "Usa este ardid de tiroteo cuando un agente LEGIONARIO NURGLE amigo esté realizando la acción Disparar, al seleccionar un objetivo válido.\nHasta el final de esa acción, siempre que ese agente amigo esté disparando contra un agente enemigo que esté a 3\" o menos de él (es decir, incluidos los objetivos secundarios, si los hay),\nlas armas a distancia de ese agente amigo tienen la regla de armas Penetración 1.  \n\n**Penetración 1:** El defensor reúne 1 dado de defensa menos."
+    },
+    "CHAOS-LEG-T-MAC": {
+      "ployName": "Mutabilidad y cambio",
+      "description": "Usa este ardid de tiroteo cuando se active un agente LEGIONARIO TZEENTCH amigo. Hasta el final de la activación de ese agente, suma 1 a su atributo LPA, pero no puede realizar la misma acción más de una vez durante esa activación.\nSi es un agente GUERRERO, la palabra clave de Marca del Caos de ese agente no puede cambiarse durante este punto de inflexión (consulta la regla adicional Pacto infernal)."
+    },
+    "CHAOS-LEG-T-SC": {
+      "ployName": "Cautivación nauseabunda",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente LEGIONARIO SLAANESH amigo, antes o después de que realice una acción.\nElige un agente enemigo que sea visible para ese agente amigo y esté a 4\" o menos de él. Hasta el final de la siguiente activación de ese agente enemigo, resta 1 a su atributo LPA."
+    },
+    "CHAOS-LEG-T-UEBS": {
+      "ployName": "Matanza interminable",
+      "description": "Usa este ardid de tiroteo cuando un agente LEGIONARIO KHORNE amigo quede incapacitado mientras combate o contraataca.  \n\nPuedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de retirarlo de la zona de aniquilación."
+    }
+  },
   "equipments": {
     "CHAOS-LEG-WA": {
-      "effects": ""
+      "eqName": "Armadura protegida",
+      "description": "**GAMBITO ESTRATÉGICO** Elige un agente LEGIONARIO amigo. Hasta el paso de Preparación de la siguiente fase de estrategia, cambia el atributo Salvación de ese agente a 2+."
     },
     "CHAOS-LEG-MB": {
-      "description": "Friendly LEGIONARY operatives have the following melee weapon for the battle:\n|**Name**|**ATK**|**HIT**|**DMG**|\n|-----|:-----:|:-----:|:-----:|\n|Malefic Blade|5|3+|3/4|\n",
-      "effects": "ADDWEP:Malefic Blade|M|5|3+|3/4|"
+      "eqName": "Hojas maléficas",
+      "description": "Los agentes LEGIONARIO amigos tienen la siguiente arma cuerpo a cuerpo durante la batalla:",
+      "weapons": {
+        "CHAOS-LEG-MB-MALEFIC-BLADE": {
+          "wepName": "Hoja maléfica"
+        }
+      }
     },
     "CHAOS-LEG-TR": {
-      "effects": ""
+      "eqName": "Proyectiles corruptos",
+      "description": "Una vez por punto de inflexión, cuando un agente LEGIONARIO amigo esté realizando la acción Disparar y selecciones una pistola bólter o un bólter, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Desgarradora."
     },
     "CHAOS-LEG-CT": {
-      "effects": ""
+      "eqName": "Talismanes del Caos",
+      "description": "**GAMBITO ESTRATÉGICO**\nElige una palabra clave de Marca del Caos.\nUna vez durante cada una de sus activaciones, cuando un agente LEGIONARIO amigo que tenga esa palabra clave esté disparando, combatiendo o contraatacando, si obtienes dos o más fallos,\npuedes infligir D3 de daño a ese agente amigo para descartar uno de ellos y conservar el otro como éxito normal en su lugar.\nTen en cuenta que, si es la acción Disparar y ese daño incapacita a ese agente amigo, la acción no termina (continúa la secuencia con tus dados de ataque con éxito)."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-LEG-TA-AS": {
+      "abilityName": "Astartes",
+      "description": "Durante la activación de cada agente LEGIONARIO amigo, este puede realizar dos acciones Disparar o dos acciones Combatir.\nSi son dos acciones Disparar, debe seleccionarse una pistola bólter, un bólter o una pistola bólter corrupta para al menos una de ellas.  \n\nCada agente LEGIONARIO amigo puede reaccionar independientemente de su orden."
+    },
+    "CHAOS-LEG-TA-MAOFCH": {
+      "abilityName": "Marca del Caos",
+      "description": "Siempre que selecciones un agente LEGIONARIO para la batalla, debes elegir una de las siguientes palabras clave para que la tenga durante esa batalla: KHORNE, NURGLE, SLAANESH, TZEENTCH, INDIVISO.\nLa palabra clave de cada agente puede ser diferente, pero un agente ACÓLITO DEL FUEGO FUNESTO no puede tener la palabra clave KHORNE.  \n\nLos agentes LEGIONARIO amigos tienen una regla adicional determinada por esta palabra clave. Además, los ardides LEGIONARIO tienen beneficios adicionales para los agentes con la palabra clave correspondiente."
+    },
+    "CHAOS-LEG-TA-KHWRON": {
+      "abilityName": "Khorne - Embestida iracunda",
+      "description": "Las armas cuerpo a cuerpo de este agente tienen la regla de armas Severa.  \n**Severa:** Si no conservas ningún éxito crítico, puedes cambiar uno de tus éxitos normales a un éxito crítico. Cualquier regla que surta efecto como resultado de conservar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue haciéndolo."
+    },
+    "CHAOS-LEG-TA-NUDIVI": {
+      "abilityName": "Nurgle - Vigor repugnante",
+      "description": "Siempre que se inflija a este agente un Daño normal de 3 o más, tira un D6: con un 5+, resta 1 a ese daño infligido."
+    },
+    "CHAOS-LEG-TA-SLUNAG": {
+      "abilityName": "Slaanesh - Agilidad antinatural",
+      "description": "Suma 1\" al atributo Movimiento de este agente."
+    },
+    "CHAOS-LEG-TA-TZEMGU": {
+      "abilityName": "Tzeentch - Guía empírea",
+      "description": "Las armas a distancia de este agente tienen la regla de armas Severa.  \n**Severa:** Si no conservas ningún éxito crítico, puedes cambiar uno de tus éxitos normales a un éxito crítico. Cualquier regla que surta efecto como resultado de conservar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue haciéndolo."
+    },
+    "CHAOS-LEG-TA-UNVIRE": {
+      "abilityName": "Indiviso - Saqueadores despiadados",
+      "description": "Siempre que este agente esté disparando, combatiendo o contraatacando contra un agente enemigo que esté a 6\" o menos de él, las armas de este agente tienen la regla de armas Incesante."
+    }
+  },
+  "opTypes": {
+    "CHAOS-LEG-AC": {
+      "opTypeName": "Campeón Aspirante Legionario",
+      "weapons": {
+        "CHAOS-LEG-AC-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-LEG-AC-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-LEG-AC-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-LEG-AC-TBP": {
+          "wepName": "Pistola bólter corrupta"
+        },
+        "CHAOS-LEG-AC-PF": {
+          "wepName": "Puño de energía"
+        },
+        "CHAOS-LEG-AC-PM": {
+          "wepName": "Maza de energía"
+        },
+        "CHAOS-LEG-AC-PW": {
+          "wepName": "Arma de energía"
+        },
+        "CHAOS-LEG-AC-TCS": {
+          "wepName": "Espada sierra corrupta"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-AC-A-ITEOTG": {
+          "abilityName": "A los ojos de los dioses",
+          "description": "Una vez durante cada una de las activaciones de este agente, si incapacita a un agente enemigo, suma 1 a su atributo LPA hasta el final de esa activación."
+        }
+      }
+    },
+    "CHAOS-LEG-CHO": {
+      "opTypeName": "Elegido Legionario",
+      "weapons": {
+        "CHAOS-LEG-CHO-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-LEG-CHO-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-LEG-CHO-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-LEG-CHO-TBP": {
+          "wepName": "Pistola bólter corrupta"
+        },
+        "CHAOS-LEG-CHO-DB": {
+          "wepName": "Espada demoníaca"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-CHO-A-DA": {
+          "abilityName": "Aura demoníaca",
+          "description": "Siempre que un agente enemigo realice la acción Retroceder mientras está dentro de la zona de control de este agente, puedes usar esta regla.\nSi lo haces, tira un D6: con un 3+, ese agente enemigo no puede realizar esa acción durante esa activación/reacción (los PA gastados en ella se recuperan)."
+        },
+        "CHAOS-LEG-CHO-A-SG": {
+          "abilityName": "Atracón de almas",
+          "description": "Después de que este agente combata o contraataque, si no ha quedado incapacitado pero ha incapacitado a un agente enemigo durante esa secuencia, recupera hasta D3+1 heridas perdidas."
+        }
+      }
+    },
+    "CHAOS-LEG-ANO": {
+      "opTypeName": "Ungido Legionario",
+      "weapons": {
+        "CHAOS-LEG-ANO-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-ANO-DC": {
+          "wepName": "Garra demoníaca"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-ANO-A-UD": {
+          "abilityName": "Desatar al demonio",
+          "description": "Una vez por batalla, cuando se active este agente, puedes usar esta regla. Si lo haces, hasta el final de la batalla:\r \r - Este agente no puede realizar la acción Recoger Marcador ni acciones de misión (salvo Operar escotilla). Si lleva un marcador, debe realizar inmediatamente la acción Colocar Marcador por 0PA (esto tiene preferencia sobre todas las demás reglas).\r - El Daño normal y el Daño crítico de 4 o más infligen 1 punto de daño menos a este agente.  \nSi este agente tiene la palabra clave NURGLE, no puedes reducir el daño de un dado de ataque en más de 1. Dicho de otro modo, no puedes usar ambas reglas para reducir en 2 un Daño normal de 4 o más.\r - Su garra demoníaca tiene las reglas de armas Incesante y Letal 5+.\r "
+        }
+      }
+    },
+    "CHAOS-LEG-BA": {
+      "opTypeName": "Acólito del Fuego Funesto Legionario",
+      "weapons": {
+        "CHAOS-LEG-BA-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-BA-FB": {
+          "wepName": "Explosión ígnea"
+        },
+        "CHAOS-LEG-BA-LS": {
+          "wepName": "Sifón vital"
+        },
+        "CHAOS-LEG-BA-FD": {
+          "wepName": "Daga funesta"
+        }
+      }
+    },
+    "CHAOS-LEG-BUT": {
+      "opTypeName": "Carnicero Legionario",
+      "weapons": {
+        "CHAOS-LEG-BUT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-BUT-DHCA": {
+          "wepName": "Hacha sierra a dos manos"
+        }
+      }
+    },
+    "CHAOS-LEG-GNR": {
+      "opTypeName": "Artillero Legionario",
+      "weapons": {
+        "CHAOS-LEG-GNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "CHAOS-LEG-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "CHAOS-LEG-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "CHAOS-LEG-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-LEG-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-LEG-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "CHAOS-LEG-HGNR": {
+      "opTypeName": "Artillero Pesado Legionario",
+      "weapons": {
+        "CHAOS-LEG-HGNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-HGNR-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "CHAOS-LEG-HGNR-HB-0": {
+              "profileName": "Concentrado"
+            },
+            "CHAOS-LEG-HGNR-HB-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "CHAOS-LEG-HGNR-ML": {
+          "wepName": "Lanzamisiles",
+          "profiles": {
+            "CHAOS-LEG-HGNR-ML-0": {
+              "profileName": "Frag"
+            },
+            "CHAOS-LEG-HGNR-ML-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "CHAOS-LEG-HGNR-RCC": {
+          "wepName": "Cañón de cadena segador",
+          "profiles": {
+            "CHAOS-LEG-HGNR-RCC-0": {
+              "profileName": "Concentrado"
+            },
+            "CHAOS-LEG-HGNR-RCC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "CHAOS-LEG-HGNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "CHAOS-LEG-IB": {
+      "opTypeName": "Portaicono Legionario",
+      "weapons": {
+        "CHAOS-LEG-IB-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-IB-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-LEG-IB-CS": {
+          "wepName": "Espada sierra"
+        },
+        "CHAOS-LEG-IB-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-IB-A-FOTDG": {
+          "abilityName": "Favorecido de los Dioses Oscuros",
+          "description": "En el paso de Preparación de cada fase de estrategia, si este agente controla un marcador de objetivo que no esté corrompido, ese marcador de objetivo queda corrompido durante la batalla y ganas 1PM. Ten en cuenta que si cualquier agente (incluidos los agentes enemigos) ha corrompido un marcador de objetivo, no puedes corromper ese marcador de objetivo."
+        },
+        "CHAOS-LEG-IB-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        }
+      }
+    },
+    "CHAOS-LEG-STL": {
+      "opTypeName": "Garra Expiatoria Legionario",
+      "weapons": {
+        "CHAOS-LEG-STL-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-STL-FB": {
+          "wepName": "Cuchillas desolladoras"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-STL-A-HDM": {
+          "abilityName": "Desmembramiento horripilante",
+          "description": "Siempre que este agente incapacite a un agente enemigo mientras combate o contraataca, elige otro agente enemigo que sea visible para este agente o para el agente enemigo incapacitado\ny esté a 3\" o menos de él. Resta 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación."
+        },
+        "CHAOS-LEG-STL-A-VR": {
+          "abilityName": "Reflejos despiadados",
+          "description": "Siempre que este agente esté contraatacando, resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+        }
+      },
+      "actions": {
+        "CHAOS-LEG-STL-GM": {
+          "name": "Marca macabra",
+          "effects": [
+            "Coloca tu marcador Macabro dentro de la zona de control de este agente.",
+            "- Siempre que un agente enemigo esté a 3\" o menos de tu marcador Macabro, tu oponente debe gastar 1PA adicional para que ese agente enemigo realice la acción Recoger Marcador y las acciones de misión.",
+            "- Al determinar el control de un marcador, considera que el atributo LPA total de los agentes enemigos que lo disputan es 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de tu marcador Macabro.",
+            "Ten en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-LEG-WAR": {
+      "opTypeName": "Guerrero Legionario",
+      "weapons": {
+        "CHAOS-LEG-WAR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-LEG-WAR-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-LEG-WAR-CS": {
+          "wepName": "Espada sierra"
+        },
+        "CHAOS-LEG-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-LEG-WAR-A-IP": {
+          "abilityName": "Pacto infernal",
+          "description": "Una vez por batalla, cuando se active un agente GUERRERO LEGIONARIO amigo, puedes usar esta regla. Si lo haces, cambia la palabra clave de Marca del Caos de ese agente."
+        }
+      }
     }
   }
 }

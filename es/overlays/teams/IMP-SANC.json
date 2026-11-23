@@ -1,18 +1,339 @@
 {
   "killteamId": "IMP-SANC",
   "locale": "es",
+  "team": {
+    "killteamName": "Santificadores",
+    "description": "Mientras el Gran Cañón se recarga y su munición consagrada es transportada a través de la Colmena Fissilicus, grandes procesiones de peregrinos y predicadores acompañan a estas santas reliquias hasta sus puntos de ensamblaje final. Distan mucho de ser una congregación pacífica, y todo aquel que pretenda perturbar el gran Día del Disparo se verá iluminado por las llamas y la fe que esgrimen los Santificadores.",
+    "composition": "Un equipo de exterminio SANTIFICADOR está compuesto por:\n\n- 1 CONFESOR SANTIFICADOR\n- 1 QUERUBÍN SANTIFICADOR\n- 9 agentes SANTIFICADOR elegidos de la siguiente lista:\n  - CONFLAGRADOR\n  - ASESINO DEL CULTO DE LA MUERTE\n  - ABAD INSTRUCTOR\n  - MILAGRERO\n  - MISIONERO con una de las siguientes opciones:\n    - Lanzallamas del Ministorum; brasero de fuego sagrado\n    - Lanzallamas del Ministorum; culata; reliquia sagrada\n  - MISIONERO con una de las siguientes opciones:\n    - Rifle de fusión; espada sierra; reliquia sagrada\n    - Rifle de plasma; espada sierra; brasero de fuego sagrado\n  - PERSEGUIDOR\n  - PREDICADOR\n  - PORTARRELIQUIAS\n  - SALVACIONISTA\n\nSalvo los agentes PREDICADOR, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta cuatro agentes PREDICADOR.  \n\nNo puedes seleccionar una opción que incluya un brasero de fuego sagrado más de una vez por batalla."
+  },
+  "ploys": {
+    "IMP-SANC-S-FB": {
+      "ployName": "Reyerta ferviente",
+      "description": "Siempre que un agente SANTIFICADOR amigo que se esté beneficiando del SERMÓN esté combatiendo o contraatacando, sus armas cuerpo a cuerpo tienen la regla de armas Incesante."
+    },
+    "IMP-SANC-S-RTF": {
+      "ployName": "Reunir al rebaño",
+      "description": "Cada agente SANTIFICADOR amigo (salvo ORADOR) que se esté beneficiando del SERMÓN puede realizar inmediatamente una acción gratuita de Correr o Retroceder en el orden que elijas (elige por separado para cada uno y, en el caso de la segunda, no puede moverse más de 3\").\nCada uno que lo haga debe terminar ese movimiento más cerca de un agente ORADOR amigo y visible para él (o viceversa). No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "IMP-SANC-S-TEP": {
+      "ployName": "El Emperador protege",
+      "description": "Siempre que un agente esté disparando contra un agente SANTIFICADOR amigo que se esté beneficiando del SERMÓN, puedes repetir cualquiera de tus dados de defensa que hayan obtenido un mismo resultado (p. ej., resultados de 2)."
+    },
+    "IMP-SANC-S-ZB": {
+      "ployName": "Persecución fervorosa",
+      "description": "Siempre que un agente SANTIFICADOR amigo esté combatiendo durante una activación en la que haya realizado la acción Cargar, sus armas cuerpo a cuerpo tienen la regla de armas Letal 5+."
+    },
+    "IMP-SANC-T-AE": {
+      "ployName": "Erradicación ardiente",
+      "description": "Usa este ardid de tiroteo después de tirar tus dados de ataque por un agente SANTIFICADOR amigo, si está disparando o combatiendo contra un agente enemigo que esté a 3\" o menos de un agente ORADOR amigo (o a 6\" si el ORADOR es un CONFESOR).\nPuedes repetir cualquiera de tus dados de ataque."
+    },
+    "IMP-SANC-T-RF": {
+      "ployName": "Redimidos por el fuego",
+      "description": "Usa este ardid de tiroteo cuando un agente SANTIFICADOR amigo que tenga un arma con la regla de armas Llamas quede incapacitado, antes de retirarlo de la zona de aniquilación.\nCada agente enemigo que sea visible para él y esté a 2\" o menos de él gana una de tus fichas de Llamas (si no tiene ya una)."
+    },
+    "IMP-SANC-T-ROS": {
+      "ployName": "Rosarius",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflija Daño normal a un agente SANTIFICADOR amigo. Ignora ese daño infligido."
+    },
+    "IMP-SANC-T-UWD": {
+      "ployName": "Devoción inquebrantable",
+      "description": "Usa este ardid de tiroteo cuando un agente ORADOR SANTIFICADOR o MILAGRERO SANTIFICADOR amigo sea seleccionado como objetivo válido de una acción Disparar o para combatir contra él durante la acción Combatir.\nElige otro agente SANTIFICADOR amigo (salvo CONFESOR, MILAGRERO y ORADOR) que sea visible para ese primer agente amigo y esté a 3\" o menos de él para que se convierta en el objetivo válido o en el agente contra el que se combate (según corresponda)\nen su lugar (aunque normalmente no fuera válido para ello).\nSi es la acción Combatir, considera que ese otro agente está dentro de la zona de control del agente que combate mientras dure esa acción.\nSi es la acción Disparar, ese otro agente solo está en cobertura u ofuscado si el objetivo original lo estaba.  \n\nEste ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+    }
+  },
   "equipments": {
     "IMP-SANC-SO": {
-      "effects": ""
+      "eqName": "Orbes de santificación",
+      "description": "Una vez por punto de inflexión, un agente SANTIFICADOR amigo (salvo QUERUBÍN, ASESINO DEL CULTO DE LA MUERTE y MILAGRERO) puede realizar la siguiente acción única:  \n\n**ORBE DE SANTIFICACIÓN (1PA):**\n\n- Elige un agente enemigo que sea visible para este agente y esté a 6\" o menos de él. Ese agente y cada otro agente enemigo que esté a 1\" o menos de él realizan una prueba de empapamiento.\nPara que un agente realice una prueba de empapamiento, tira un D6: con un 3+, gana una de tus fichas de Empapado.\n- Siempre que un agente SANTIFICADOR amigo esté disparando contra un agente que tenga una de tus fichas de Empapado con un arma que tenga la regla de armas Llamas, esa arma también tiene la regla de armas Buscadora.\n- Después de que un agente SANTIFICADOR amigo use un arma que tenga la regla de armas Llamas contra un agente enemigo que tenga una de tus fichas de Empapado, retira esa ficha (aunque no se haya usado la regla de armas Buscadora).  \n\n- Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo.\n"
     },
     "IMP-SANC-PS": {
-      "effects": ""
+      "eqName": "Sellos de pureza",
+      "description": "Una vez por punto de inflexión, cuando un agente SANTIFICADOR amigo esté disparando o combatiendo, si obtienes dos o más fallos, puedes descartar uno de ellos para conservar otro como éxito normal en su lugar."
     },
     "IMP-SANC-ET": {
-      "effects": ""
+      "eqName": "Textos de la Eclesiarquía",
+      "description": "En el paso de Preparación de cada fase de estrategia, tira 3D6: si el resultado es menor que las heridas restantes de un agente ORADOR amigo, ganas 1PM.\nTen en cuenta que esto se hace antes del paso de Gambitos, por lo que si no hay un agente ORADOR válido, no puedes usar esta regla durante ese punto de inflexión (p. ej., durante el primer punto de inflexión)."
     },
     "IMP-SANC-ICS": {
-      "effects": ""
+      "eqName": "Símbolos del Culto Imperial",
+      "description": "Una vez por punto de inflexión, cuando un agente esté disparando contra un agente SANTIFICADOR amigo que se esté beneficiando del SERMÓN, al reunir tus dados de defensa, puedes usar esta regla.\nSi lo haces, cambia uno de los éxitos críticos conservados por el atacante a un éxito normal (las reglas de armas que ya se hayan resuelto no se ven afectadas, p. ej., Penetración Crítica)."
+    }
+  },
+  "teamAbilities": {
+    "IMP-SANC-TA-MISE": {
+      "abilityName": "Sermón del Ministorum",
+      "description": "GAMBITO ESTRATÉGICO. Elige un agente SANTIFICADOR amigo. Si un agente CONFESOR amigo no ha quedado incapacitado, debes elegirlo a él.\nHasta que vuelvas a usar este GAMBITO ESTRATÉGICO durante la batalla, ese agente tiene la palabra clave ORADOR.  \n\nSiempre que un agente SANTIFICADOR amigo esté a 3\" o menos de un agente ORADOR amigo (o a 6\" si el ORADOR es un CONFESOR), ese agente SANTIFICADOR amigo se está beneficiando del SERMÓN.  \n\nSiempre que un agente SANTIFICADOR amigo sea activado a 3\" o menos de un agente ORADOR amigo (o a 6\" si el ORADOR es un CONFESOR), ese agente SANTIFICADOR amigo se beneficia\ndel SERMÓN hasta el final de esa activación (es decir, aunque después se aleje del agente ORADOR más allá de la distancia requerida).  \n\nSiempre que un agente SANTIFICADOR amigo se esté beneficiando del SERMÓN, el Daño normal y el Daño crítico de 4 o más le infligen 1 punto de daño menos."
+    }
+  },
+  "opTypes": {
+    "IMP-SANC-CFS": {
+      "opTypeName": "Confesor Santificador",
+      "weapons": {
+        "IMP-SANC-CFS-MOC": {
+          "wepName": "Maza de censura"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-CFS-A-CD": {
+          "abilityName": "Declamación autoritaria",
+          "description": "Siempre que un agente enemigo fuera a realizar una acción durante una activación o reacción mientras es visible para este agente y está a 6\" o menos de él, puedes usar esta regla.\nSi lo haces, tira un D6: si el resultado es mayor que el atributo LPA de ese agente enemigo:\n\n- No puede realizar esa acción durante esa activación/reacción (los PA gastados en ella no se recuperan). Si es una reacción, esa reacción termina.\n- No puedes volver a usar esta regla durante la batalla.\n"
+        },
+        "IMP-SANC-CFS-A-LTP": {
+          "abilityName": "Encabezar la procesión",
+          "description": "En cada punto de inflexión después del primero, siempre que este agente sea un ORADOR y realice la acción Cargar, Retroceder o Reposicionarse durante su activación, puedes usar esta regla antes de que se mueva. Si lo haces, determina cada otro agente SANTIFICADOR amigo que se esté beneficiando del SERMÓN y sea visible para este agente (o viceversa).\r Después de que este agente termine esa acción, cada uno de esos agentes SANTIFICADOR amigos puede realizar inmediatamente una acción gratuita de Cargar, Retroceder o Reposicionarse en el orden que elijas (elige por separado para cada uno), pero ninguno puede moverse más de 3\" y cada uno debe terminar ese movimiento en una ubicación en la que siga beneficiándose del SERMÓN.\r Si este agente queda incapacitado antes de que esta regla se haya resuelto por completo, p. ej., por la interrupción de la acción Guardia (consulta las reglas de combate en espacios cerrados, Libro básico de Kill Team), no lo retires de la zona de aniquilación hasta que esta regla se haya resuelto."
+        }
+      }
+    },
+    "IMP-SANC-CRB": {
+      "opTypeName": "Querubín Santificador",
+      "weapons": {
+        "IMP-SANC-CRB-INC": {
+          "wepName": "Incentivador"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-CRB-A-CRB": {
+          "abilityName": "Querubín",
+          "description": "\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto.\n- Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser seleccionado como objetivo válido, lo que tiene preferencia sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) salvo estar a 2\" o menos.\n- Este agente no puede usar ningún arma que no esté en su hoja de datos, ni realizar acciones únicas que no sean Incentivar.\n"
+        },
+        "IMP-SANC-CRB-A-FLY": {
+          "abilityName": "Volar",
+          "description": "Siempre que este agente esté realizando la acción Cargar, Retroceder o Reposicionarse, puede VOLAR. Si lo hace, no lo muevas.\nEn su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo totalmente a una distancia en horizontal de su ubicación original igual o inferior a su atributo Movimiento (en una zona de aniquilación que use las reglas de combate en espacios cerrados, p. ej., Zona de aniquilación: Gallowdark, esta distancia no puede medirse por encima ni a través de terreno de Muro).\nTen en cuenta que no obtiene distancia adicional al realizar la acción Cargar. Debe desplegarse en una ubicación en la que pueda colocarse y, salvo que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
+        }
+      },
+      "actions": {
+        "IMP-SANC-CRB-INC": {
+          "name": "Incentivar",
+          "effects": [
+            "APOYO. Elige otro agente SANTIFICADOR amigo (salvo CONFESOR, ASESINO DEL CULTO DE LA MUERTE, MILAGRERO y ORADOR) que sea visible para este agente y esté a 2\" o menos de él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SANC-CFG": {
+      "opTypeName": "Conflagrador Santificador",
+      "weapons": {
+        "IMP-SANC-CFG-THF": {
+          "wepName": "Pistolas lanzallamas dobles",
+          "profiles": {
+            "IMP-SANC-CFG-THF-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-SANC-CFG-THF-1": {
+              "profileName": "Ráfaga doble"
+            }
+          }
+        },
+        "IMP-SANC-CFG-GB": {
+          "wepName": "Culatas"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-CFG-A-SR": {
+          "abilityName": "Soporte de santificación",
+          "description": "Este agente puede realizar la acción Orbe de santificación (consulta el equipo de facción). Hacerlo de esta manera no cuenta para el límite de una vez por punto de inflexión (es decir, si también seleccionas ese equipo para otros agentes)."
+        }
+      }
+    },
+    "IMP-SANC-ASS": {
+      "opTypeName": "Asesino del Culto Santificador",
+      "weapons": {
+        "IMP-SANC-ASS-TK": {
+          "wepName": "Cuchillos arrojadizos"
+        },
+        "IMP-SANC-ASS-RB": {
+          "wepName": "Filos rituales"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-ASS-A-BS": {
+          "abilityName": "Postura afilada",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        }
+      },
+      "actions": {
+        "IMP-SANC-ASS-TA": {
+          "name": "Asesino entrenado",
+          "effects": [
+            "Cambia la orden de este agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SANC-ABB": {
+      "opTypeName": "Abad Instructor Santificador",
+      "weapons": {
+        "IMP-SANC-ABB-GH": {
+          "wepName": "Gran martillo"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-ABB-A-NS": {
+          "abilityName": "Cráneo nulo",
+          "description": "Siempre que un agente enemigo esté a 4\" o menos de este agente, no se puede sumar al atributo LPA de ese agente enemigo (elimina todos los cambios positivos que tenga en su atributo LPA). Si un agente enemigo que esté a más de 4\" de este agente tiene un cambio positivo en su atributo LPA y tu oponente gasta sus últimos PA en mover ese agente a 4\" o menos de este agente, esto puede hacer que tu oponente haya gastado más PA que su atributo LPA; esto está permitido en esta situación."
+        },
+        "IMP-SANC-ABB-A-SPD": {
+          "abilityName": "Disciplinario de la Schola Progenium",
+          "description": "Siempre que un agente SANTIFICADOR amigo esté a 6\" o menos de este agente, puedes ignorar cualquier cambio en los atributos de ese agente por estar herido (incluidos los atributos de sus armas)."
+        }
+      }
+    },
+    "IMP-SANC-PER": {
+      "opTypeName": "Perseguidor Santificador",
+      "weapons": {
+        "IMP-SANC-PER-HF": {
+          "wepName": "Pistola lanzallamas"
+        },
+        "IMP-SANC-PER-EV": {
+          "wepName": "Evisceradora"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-PER-A-FR": {
+          "abilityName": "Represalia fanática",
+          "description": "Si este agente queda incapacitado durante la acción Combatir, puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de retirar a este agente de la zona de aniquilación."
+        },
+        "IMP-SANC-PER-A-MC": {
+          "abilityName": "Castigo despiadado",
+          "description": "La primera vez que este agente realice la acción Combatir durante cada una de sus activaciones, si ni él ni el agente enemigo de esa secuencia han quedado incapacitados, este agente puede realizar inmediatamente después una acción gratuita de Combatir, pero no puedes seleccionar a ningún otro agente enemigo para combatir contra él durante esa acción (y solo si sigue siendo válido combatir contra él).\nEsto tiene preferencia sobre las restricciones de acciones."
+        }
+      }
+    },
+    "IMP-SANC-MIR": {
+      "opTypeName": "Milagrero Santificador",
+      "weapons": {
+        "IMP-SANC-MIR-HL": {
+          "wepName": "Luz sagrada"
+        },
+        "IMP-SANC-MIR-WIF": {
+          "wepName": "Envolver en llamas"
+        },
+        "IMP-SANC-MIR-BH": {
+          "wepName": "Manos ardientes"
+        },
+        "IMP-SANC-MIR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-MIR-A-MIR": {
+          "abilityName": "Milagro",
+          "description": "La primera vez que este agente fuera a quedar incapacitado durante la batalla, no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción.\nTodos los dados de ataque restantes se descartan (incluidos los tuyos si este agente está combatiendo o contraatacando) y, después, este agente puede realizar inmediatamente una acción gratuita de Correr o Retroceder (en el caso de la segunda, no puede moverse más de 3\"), aunque haya realizado una acción que le impida realizar esas acciones."
+        }
+      }
+    },
+    "IMP-SANC-MIS": {
+      "opTypeName": "Misionero Santificador",
+      "weapons": {
+        "IMP-SANC-MIS-BOHFR": {
+          "wepName": "Brasero de fuego sagrado"
+        },
+        "IMP-SANC-MIS-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-SANC-MIS-MF": {
+          "wepName": "Lanzallamas del Ministorum"
+        },
+        "IMP-SANC-MIS-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-SANC-MIS-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-SANC-MIS-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-SANC-MIS-BOHFM": {
+          "wepName": "Brasero de fuego sagrado"
+        },
+        "IMP-SANC-MIS-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-SANC-MIS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-MIS-A-HR": {
+          "abilityName": "Reliquia sagrada",
+          "description": " Si este agente tiene una reliquia sagrada, siempre se está beneficiando del SERMÓN"
+        },
+        "IMP-SANC-MIS-A-STWOTGE": {
+          "abilityName": "Difundir la palabra del Dios Emperador",
+          "description": "Siempre que este agente esté a más de 6\" de otros agentes amigos, sus armas tienen la regla de armas Severa."
+        }
+      }
+    },
+    "IMP-SANC-PRC": {
+      "opTypeName": "Predicador Santificador",
+      "weapons": {
+        "IMP-SANC-PRC-HF": {
+          "wepName": "Pistola lanzallamas"
+        },
+        "IMP-SANC-PRC-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-PRC-A-DTF": {
+          "abilityName": "Defender la fe",
+          "description": "Siempre que este agente controle un marcador de objetivo, se está beneficiando del SERMÓN."
+        }
+      }
+    },
+    "IMP-SANC-REL": {
+      "opTypeName": "Portarreliquias Santificador",
+      "weapons": {
+        "IMP-SANC-REL-HF": {
+          "wepName": "Pistola lanzallamas"
+        },
+        "IMP-SANC-REL-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-REL-A-CI": {
+          "abilityName": "Icono del culto",
+          "description": "Al determinar el control de un marcador que esté a 4\" o menos de este agente, considera que el atributo LPA total de los agentes SANTIFICADOR amigos que lo disputan es 1 mayor si al menos un agente SANTIFICADOR amigo disputa ese marcador.\nTen en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        },
+        "IMP-SANC-REL-A-ICD": {
+          "abilityName": "Devoción al Culto Imperial",
+          "description": "Una vez por punto de inflexión, cuando un agente SANTIFICADOR amigo preparado quede incapacitado mientras es visible para este agente y está a 6\" o menos de él, puedes usar esta regla.\r Si lo haces, antes de retirar ese agente de la zona de aniquilación, puede realizar una acción gratuita (salvo Combatir), y puedes cambiar su orden para hacerlo.\r Después se retira de la zona de aniquilación de forma normal."
+        }
+      }
+    },
+    "IMP-SANC-SAL": {
+      "opTypeName": "Salvacionista Santificador",
+      "weapons": {
+        "IMP-SANC-SAL-SS": {
+          "wepName": "Báculo de almas"
+        }
+      },
+      "abilities": {
+        "IMP-SANC-SAL-A-CF": {
+          "abilityName": "Campo de conversión",
+          "description": "Siempre que un agente que esté a más de 6\" de este agente esté disparando contra un agente SANTIFICADOR amigo que esté a 6\" o menos de este agente, mejora en 1 el atributo Salvación de ese agente amigo."
+        }
+      },
+      "actions": {
+        "IMP-SANC-SAL-MED": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente SANTIFICADOR amigo dentro de la zona de control de este agente para que recupere hasta 2D3 heridas perdidas."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
     }
   }
 }

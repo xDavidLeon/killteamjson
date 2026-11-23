@@ -1,0 +1,143 @@
+{
+  "killteamId": "SPEC-NPO",
+  "locale": "es",
+  "team": {
+    "killteamName": "Agentes no jugadores",
+    "description": "Agentes no jugadores para operaciones conjuntas en KT2024."
+  },
+  "opTypes": {
+    "SPEC-NPO-BR-TRP": {
+      "opTypeName": "Soldado Pendenciero",
+      "weapons": {
+        "SPEC-NPO-BR-TRP-B": {
+          "wepName": "Hojas"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-BR-TRP-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar cualquiera de sus dos primeras acciones durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Combatir\n2 - Cargar contra el agente enemigo más cercano por la ruta más corta posible\n3 - Reposicionarse hacia el agente enemigo más cercano, a cobertura si es posible (una acción de Correr posterior puede cumplirlo, si es capaz)\n4 - Correr hacia el agente enemigo más cercano, a cobertura si es posible\n"
+        }
+      }
+    },
+    "SPEC-NPO-BR-TGH": {
+      "opTypeName": "Duro Pendenciero",
+      "weapons": {
+        "SPEC-NPO-BR-TGH-B": {
+          "wepName": "Hojas"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-BR-TGH-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar cualquiera de sus dos primeras acciones durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Combatir\n2 - Cargar contra el agente enemigo más cercano por la ruta más corta posible\n3 - Reposicionarse hacia el agente enemigo más cercano, a cobertura si es posible (una acción de Correr posterior puede cumplirlo, si es capaz)\n4 - Correr hacia el agente enemigo más cercano, a cobertura si es posible\n"
+        }
+      }
+    },
+    "SPEC-NPO-BR-HVY": {
+      "opTypeName": "Pesado Pendenciero",
+      "weapons": {
+        "SPEC-NPO-BR-HVY-B": {
+          "wepName": "Hojas"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-BR-HVY-A-2F": {
+          "abilityName": "Combate doble",
+          "description": "Este agente puede realizar dos acciones de Combatir durante su activación."
+        },
+        "SPEC-NPO-BR-HVY-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar cualquiera de sus dos primeras acciones durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Combatir\n2 - Cargar contra el agente enemigo más cercano por la ruta más corta posible\n3 - Reposicionarse hacia el agente enemigo más cercano, a cobertura si es posible (una acción de Correr posterior puede cumplirlo, si es capaz)\n4 - Correr hacia el agente enemigo más cercano, a cobertura si es posible\n"
+        }
+      }
+    },
+    "SPEC-NPO-MM-TRP": {
+      "opTypeName": "Soldado Tirador",
+      "weapons": {
+        "SPEC-NPO-MM-TRP-FA": {
+          "wepName": "Arma de fuego"
+        },
+        "SPEC-NPO-MM-TRP-SW": {
+          "wepName": "Arma especial"
+        },
+        "SPEC-NPO-MM-TRP-K": {
+          "wepName": "Cuchillo"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-MM-TRP-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar la acción Disparar durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Retroceder a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n2 - Disparar\n3 - Reposicionarse a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO (una acción de Correr posterior puede cumplir estas condiciones, si es capaz)\n4 - Correr a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n"
+        },
+        "SPEC-NPO-MM-TRP-A-SW": {
+          "abilityName": "Arma especial",
+          "description": "Solo 1 de cada 3 agentes Soldado Tirador puede tener esta arma."
+        }
+      }
+    },
+    "SPEC-NPO-MM-WAR": {
+      "opTypeName": "Guerrero Tirador",
+      "weapons": {
+        "SPEC-NPO-MM-WAR-FA": {
+          "wepName": "Arma de fuego"
+        },
+        "SPEC-NPO-MM-WAR-K": {
+          "wepName": "Cuchillo"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-MM-WAR-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar la acción Disparar durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Retroceder a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n2 - Disparar\n3 - Reposicionarse a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO (una acción de Correr posterior puede cumplir estas condiciones, si es capaz)\n4 - Correr a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n"
+        }
+      }
+    },
+    "SPEC-NPO-MM-HVY": {
+      "opTypeName": "Pesado Tirador",
+      "weapons": {
+        "SPEC-NPO-MM-HVY-FA": {
+          "wepName": "Arma de fuego"
+        },
+        "SPEC-NPO-MM-HVY-K": {
+          "wepName": "Cuchillo"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-MM-HVY-A-2R": {
+          "abilityName": "Disparo doble",
+          "description": "Este agente puede realizar dos acciones de Disparar durante su activación."
+        },
+        "SPEC-NPO-MM-HVY-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Cuando se active, si este NPO puede realizar la acción Disparar durante esa activación, dale una orden de Trabarse. Si no puede, dale una orden de Ocultarse.\n\n1 - Retroceder a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n2 - Disparar\n3 - Reposicionarse a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO (una acción de Correr posterior puede cumplir estas condiciones, si es capaz)\n4 - Correr a cobertura. Si es posible, a una ubicación donde haya un objetivo válido que no esté ofuscado. Si no, donde haya un marcador de objetivo visible para este NPO\n"
+        }
+      }
+    },
+    "SPEC-NPO-SNP": {
+      "opTypeName": "Francotirador",
+      "weapons": {
+        "SPEC-NPO-SNP-SNP": {
+          "wepName": "Rifle de francotirador"
+        },
+        "SPEC-NPO-SNP-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "SPEC-NPO-SNP-A-BEH": {
+          "abilityName": "Comportamiento",
+          "description": "Este agente no puede moverse, tener una orden de Trabarse, ser preparado ni ser activado. Siempre que un NPO fuera a activarse, si este agente ha recargado (ver abajo) y hay un objetivo válido para él, realiza la acción Disparar con este agente en lugar de activar un NPO; después, deja de estar recargado."
+        },
+        "SPEC-NPO-SNP-A-REL": {
+          "abilityName": "Recargar",
+          "description": "En el paso de Preparación de cada fase de estrategia, este agente ha recargado. Cada vez que este agente realice la acción Disparar, después tira un D6: tras haberse activado este punto de inflexión un número de agentes del jugador igual al resultado, este agente ha recargado."
+        },
+        "SPEC-NPO-SNP-A-SN": {
+          "abilityName": "Nido de francotirador",
+          "description": "Siempre que este agente dispare, los agentes no pueden estar ofuscados. Siempre que se determine la visibilidad desde este agente (pero no hacia él), la línea también puede trazarse desde cualquier parte del terreno Aventajado en el que esté, o desde el parapeto que toque ese terreno Aventajado."
+        }
+      }
+    }
+  }
+}

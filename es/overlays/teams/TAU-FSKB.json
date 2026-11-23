@@ -1,0 +1,352 @@
+{
+  "killteamId": "TAU-FSKB",
+  "locale": "es",
+  "team": {
+    "killteamName": "Banda de Acechadores Lejanos",
+    "description": "Las Bandas de Acechadores Lejanos actúan como exploradores de la especie kroot. Recorren la galaxia de un extremo a otro en busca de material genético nuevo y valioso que llevar de vuelta a sus Moldeadores. Las Bandas de Acechadores Lejanos cuentan con expertos rastreadores, cazadores y guerrilleros capaces de rivalizar con enemigos tecnológicamente mucho más avanzados.",
+    "composition": "Un equipo de exterminio BANDA DE ACECHADORES LEJANOS está compuesto por:\n\n- 1 agente TRATANTE DE MUERTE BANDA DE ACECHADORES LEJANOS con una de las siguientes opciones:\n  - Rifle kroot; filo ritual\n  - Arma de inducción; filo ritual\n- 11 agentes BANDA DE ACECHADORES LEJANOS elegidos de la siguiente lista:\n  - CAZADOR CON ARCO\n  - SANGREFRÍA\n  - CORTAPIELES\n  - SABUESO\n  - VISTA LEJANA\n  - PISTOLERO\n  - ACECHADOR\n  - RASTREADOR\n  - ARTILLERO PESADO con una de las siguientes opciones:\n    - Desollador dvorgita; filo\n    - Tribalesta londaxi; filo    \n  - GUERRERO con una de las siguientes opciones:\n    - Rifle kroot; filo\n    - Escopeta kroot; filo\n        \nSalvo los agentes SABUESO y GUERRERO, tu comando solo puede incluir cada agente de esta lista una vez. Tu comando solo puede incluir hasta dos agentes SABUESO."
+  },
+  "ploys": {
+    "TAU-FSKB-S-BND": {
+      "ployName": "Saltar",
+      "description": "Durante la activación de cada agente BANDA DE ACECHADORES LEJANOS amigo, puedes ignorar la primera distancia vertical de 2\" que mueva durante una escalada."
+    },
+    "TAU-FSKB-S-CT": {
+      "ployName": "Degolladores",
+      "description": "Suma 1 al atributo Ataque de las armas cuerpo a cuerpo de los agentes BANDA DE ACECHADORES LEJANOS amigos (hasta un máximo de 5)."
+    },
+    "TAU-FSKB-S-PR": {
+      "ployName": "Presa",
+      "description": "Siempre que un agente BANDA DE ACECHADORES LEJANOS amigo esté disparando durante una activación en la que no haya realizado la acción Cargar, Retroceder o Reposicionarse, sus armas a distancia tienen las reglas de armas Equilibrada y Severa; si el arma ya tiene la regla de armas Equilibrada, en su lugar tiene las reglas de armas Incesante y Severa.\r Ten en cuenta que ese agente no tiene restringido realizar esas acciones después de disparar.  \n**Severa:** Si no conservas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Cualquier regla que surta efecto como resultado de conservar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue haciéndolo.  \n**Equilibrada:** Puede repetir un dado de ataque."
+    },
+    "TAU-FSKB-S-RG": {
+      "ployName": "Bribones",
+      "description": "Siempre que un agente esté disparando contra un agente BANDA DE ACECHADORES LEJANOS amigo:\n\n- Ignora la regla de armas Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar una salvación por cobertura como éxito crítico en su lugar. Esto no es acumulativo con las salvaciones por cobertura mejoradas del terreno Aventajado.\n  \n**Saturación:** El defensor no puede conservar salvaciones por cobertura."
+    },
+    "TAU-FSKB-T-PCH": {
+      "ployName": "Furtivismo",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente BANDA DE ACECHADORES LEJANOS amigo. Hasta el final de esa activación, ese agente no tiene que controlar un marcador para realizar la acción Recoger Marcador o acciones de misión que normalmente lo requieran (esto tiene prioridad sobre las condiciones de esa acción; solo necesita disputar el marcador)."
+    },
+    "TAU-FSKB-T-SA": {
+      "ployName": "Escabullirse",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente BANDA DE ACECHADORES LEJANOS amigo, antes o después de que realice una acción. Durante esa activación, ese agente puede realizar la acción Retroceder por 1 PA menos."
+    },
+    "TAU-FSKB-T-SAMB": {
+      "ployName": "Emboscada Salvaje",
+      "description": "Usa este ardid de tiroteo durante la acción Combatir cuando un agente BANDA DE ACECHADORES LEJANOS amigo preparado que tenga terreno Ligero o Pesado dentro de su zona de control sea seleccionado para combatir contra él.\nEn el paso de Resolver dados de ataque de esa secuencia, resuelves tú el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+    },
+    "TAU-FSKB-T-VFTKB": {
+      "ployName": "Venganza por la Banda",
+      "description": "Usa este ardid de tiroteo cuando un agente BANDA DE ACECHADORES LEJANOS amigo quede incapacitado por un agente enemigo.\nHasta el final de la batalla, siempre que otro agente BANDA DE ACECHADORES LEJANOS amigo esté disparando, combatiendo o contraatacando contra ese agente enemigo, las armas de ese otro agente amigo tienen la regla de armas Implacable.\nNo puedes volver a usar este ardid durante la batalla hasta que ese agente enemigo quede incapacitado.  \n**Implacable:** Puede repetir cualquier cantidad de dados de ataque, o todos."
+    }
+  },
+  "equipments": {
+    "TAU-FSKB-PS": {
+      "eqName": "Disparo Perforante",
+      "description": "Una vez por punto de inflexión, cuando un agente BANDA DE ACECHADORES LEJANOS amigo esté realizando la acción Disparar y selecciones un rifle kroot, una escopeta kroot o unas pistolas kroot dobles (concentrado), puedes usar esta regla.\r Si lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Penetración 1.  \nNo puedes usar las reglas Disparo Perforante y Disparo Tóxico durante la misma acción."
+    },
+    "TAU-FSKB-TS": {
+      "eqName": "Disparo Tóxico",
+      "description": "Una vez por punto de inflexión, cuando un agente BANDA DE ACECHADORES LEJANOS amigo esté realizando la acción Disparar y selecciones un rifle kroot, una escopeta kroot o unas pistolas kroot dobles (concentrado), puedes usar esta regla.\r Si lo haces, hasta el final de esa acción, esa arma tiene las reglas de armas Letal 5+ y Aturdidora.  \nNo puedes usar las reglas Disparo Perforante y Disparo Tóxico durante la misma acción."
+    },
+    "TAU-FSKB-MEAT": {
+      "eqName": "Carne",
+      "description": "Una vez por punto de inflexión, cuando se active un agente BANDA DE ACECHADORES LEJANOS amigo (salvo SABUESO), si no está dentro de la zona de control de agentes enemigos, puedes usar esta regla. Si lo haces, ese agente amigo recupera D3+1 heridas perdidas."
+    },
+    "TAU-FSKB-TRP": {
+      "eqName": "Trofeo",
+      "description": "Una vez por batalla, durante la activación de un agente BANDA DE ACECHADORES LEJANOS amigo (salvo SABUESO), antes o después de que realice una acción, si no está dentro de la zona de control de agentes enemigos, puedes usar esta regla.\r Si lo haces, suma 1 al atributo LPA de ese agente amigo hasta el final de su activación."
+    }
+  },
+  "teamAbilities": {
+    "TAU-FSKB-TA-FA": {
+      "abilityName": "Acechadores Lejanos",
+      "description": "En el paso de Preparación de cada fase de Estrategia, puedes cambiar la orden de hasta tres agentes BANDA DE ACECHADORES LEJANOS amigos que no estén dentro de la zona de control de agentes enemigos.  \n\nSiempre que sea tu turno de reaccionar, puedes en su lugar cambiar la orden de un agente BANDA DE ACECHADORES LEJANOS amigo que no esté dentro de la zona de control de agentes enemigos.\nEsto sigue contando como que reaccionas (así que después la activación vuelve a pasar a tu oponente), pero no cuenta como la reacción de ese agente amigo en este punto de inflexión."
+    }
+  },
+  "opTypes": {
+    "TAU-FSKB-KB": {
+      "opTypeName": "Tratante de Muerte Kroot",
+      "weapons": {
+        "TAU-FSKB-KB-KR": {
+          "wepName": "Rifle kroot"
+        },
+        "TAU-FSKB-KB-PC": {
+          "wepName": "Arma de inducción"
+        },
+        "TAU-FSKB-KB-RB": {
+          "wepName": "Filo ritual"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-KB-A-CTK": {
+          "abilityName": "Señalar la Presa",
+          "description": "**GAMBITO ESTRATÉGICO** si este agente está en la zona de aniquilación.\r Elige un agente enemigo para que sea tu presa marcada durante el punto de inflexión.\r Siempre que un agente BANDA DE ACECHADORES LEJANOS amigo esté disparando, combatiendo o contraatacando contra tu presa marcada, las armas de ese agente amigo tienen la regla de armas Equilibrada.\r Siempre que tu presa marcada quede incapacitada, puedes elegir un nuevo agente enemigo para que sea tu presa marcada durante el punto de inflexión (y puedes seguir haciéndolo durante este punto de inflexión)."
+        },
+        "TAU-FSKB-KB-A-VS": {
+          "abilityName": "Chillido de Victoria",
+          "description": "Siempre que tu presa marcada quede incapacitada, puedes elegir un agente BANDA DE ACECHADORES LEJANOS amigo a 6\" o menos de este agente.\r Hasta el final de la batalla, las armas de ese agente tienen la regla de armas Equilibrada. Cada agente amigo solo puede ser elegido para esta regla una vez por batalla."
+        }
+      }
+    },
+    "TAU-FSKB-BH": {
+      "opTypeName": "Cazador con Arco Kroot",
+      "weapons": {
+        "TAU-FSKB-BH-AB": {
+          "wepName": "Arco acelerador",
+          "profiles": {
+            "TAU-FSKB-BH-AB-0": {
+              "profileName": "Flecha con espoleta"
+            },
+            "TAU-FSKB-BH-AB-1": {
+              "profileName": "Flecha planeadora"
+            },
+            "TAU-FSKB-BH-AB-2": {
+              "profileName": "Flecha voltaica"
+            }
+          }
+        },
+        "TAU-FSKB-BH-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "actions": {
+        "TAU-FSKB-BH-NRG": {
+          "name": "Energizar",
+          "effects": [
+            "Hasta el final del punto de inflexión o hasta que este agente haya disparado con su arco acelerador (lo que ocurra primero), todos los perfiles de su arco acelerador tienen la regla de armas Letal 5+."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-FSKB-CB": {
+      "opTypeName": "Sangrefría Kroot",
+      "weapons": {
+        "TAU-FSKB-CB-KR": {
+          "wepName": "Rifle kroot"
+        },
+        "TAU-FSKB-CB-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-CB-A-CB": {
+          "abilityName": "A Sangre Fría",
+          "description": "Siempre que este agente esté disparando, combatiendo o contraatacando contra un agente enemigo que haya perdido heridas, las armas de este agente tienen la regla de armas Letal 5+;\nsi ese agente enemigo además está herido, las armas de este agente también tienen la regla de armas Desgarradora."
+        },
+        "TAU-FSKB-CB-A-HRD": {
+          "abilityName": "Robusto",
+          "description": "Siempre que un dado de ataque fuera a infligir Daño crítico a este agente, puedes elegir que ese dado de ataque inflija Daño normal en su lugar."
+        }
+      }
+    },
+    "TAU-FSKB-CS": {
+      "opTypeName": "Cortapieles Kroot",
+      "weapons": {
+        "TAU-FSKB-CS-CSB": {
+          "wepName": "Filos de Cortapieles"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-CS-A-SA": {
+          "abilityName": "Asalto Salvaje",
+          "description": "La primera vez que este agente realice la acción Combatir durante cada una de sus activaciones, si ni él ni el agente enemigo de esa secuencia quedan incapacitados,\neste agente puede realizar inmediatamente después una acción Combatir gratis, pero solo puede combatir contra ese agente enemigo (y solo si sigue siendo válido para combatir contra él).\nEsto tiene prioridad sobre las restricciones de acciones."
+        },
+        "TAU-FSKB-CS-A-VD": {
+          "abilityName": "Duelista Despiadado",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, por cada dado de ataque que tu oponente descarte como fallo, inflige 1 de daño al agente enemigo de esa secuencia."
+        }
+      }
+    },
+    "TAU-FSKB-HGNR": {
+      "opTypeName": "Artillero Pesado Kroot",
+      "weapons": {
+        "TAU-FSKB-HGNR-DV": {
+          "wepName": "Desollador dvorgita"
+        },
+        "TAU-FSKB-HGNR-LT": {
+          "wepName": "Tribalesta londaxi"
+        },
+        "TAU-FSKB-HGNR-BL": {
+          "wepName": "Filo"
+        }
+      }
+    },
+    "TAU-FSKB-HND": {
+      "opTypeName": "Sabueso Kroot",
+      "weapons": {
+        "TAU-FSKB-HND-RF": {
+          "wepName": "Colmillos desgarradores"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-HND-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Recolectar, Guardia, Reposicionarse, Recoger Marcador y Colocar Marcador. No puede usar armas que no estén en su hoja de datos."
+        },
+        "TAU-FSKB-HND-A-BT": {
+          "abilityName": "Malhumorado",
+          "description": "Siempre que un agente enemigo realice la acción Combatir, si este agente es un agente válido contra el que combatir, puedes obligarle a seleccionar a este agente para combatir contra él en su lugar.\nSiempre que un agente enemigo termine la acción Cargar dentro de la zona de control de otro agente BANDA DE ACECHADORES LEJANOS amigo a 3\" o menos de este agente, si este agente no está dentro de la zona de control de agentes enemigos,\neste agente puede realizar inmediatamente una acción Cargar gratis (puedes cambiar su orden a Trabarse para ello), pero debe terminar ese movimiento dentro de la zona de control de ese agente enemigo."
+        }
+      },
+      "actions": {
+        "TAU-FSKB-HND-GAT": {
+          "name": "Recolectar",
+          "effects": [
+            "Realiza una acción Correr o Reposicionarse gratis con este agente. Durante ese movimiento, puedes realizar una acción Recoger Marcador o Colocar Marcador gratis con este agente (puedes determinar el control durante esa acción para ello),",
+            "y cualquier distancia de movimiento restante que tuviera de la acción Correr o Reposicionarse puede usarse después de hacerlo."
+          ]
+        }
+      }
+    },
+    "TAU-FSKB-LS": {
+      "opTypeName": "Vista Lejana Kroot",
+      "weapons": {
+        "TAU-FSKB-LS-KHR": {
+          "wepName": "Rifle de caza kroot",
+          "profiles": {
+            "TAU-FSKB-LS-KHR-0": {
+              "profileName": "Oculto"
+            },
+            "TAU-FSKB-LS-KHR-1": {
+              "profileName": "Móvil"
+            },
+            "TAU-FSKB-LS-KHR-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "TAU-FSKB-LS-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "actions": {
+        "TAU-FSKB-LS-LS": {
+          "name": "Vista Lejana",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente:",
+            "- Los perfiles oculto y estacionario de su rifle de caza kroot tienen la regla de armas Letal 5+.",
+            "- Siempre que esté disparando con su rifle de caza kroot, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-FSKB-PST": {
+      "opTypeName": "Pistolero Kroot",
+      "weapons": {
+        "TAU-FSKB-PST-DKP": {
+          "wepName": "Pistolas kroot dobles",
+          "profiles": {
+            "TAU-FSKB-PST-DKP-0": {
+              "profileName": "Concentrado"
+            },
+            "TAU-FSKB-PST-DKP-1": {
+              "profileName": "Salva"
+            }
+          }
+        },
+        "TAU-FSKB-PST-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-PST-A-QD": {
+          "abilityName": "Desenfundado Rápido",
+          "description": "Una vez por punto de inflexión, cuando un agente enemigo esté realizando la acción Disparar y este agente sea seleccionado como objetivo válido (o si va a ser un objetivo secundario por la regla de armas Área),\nsi este agente está preparado, puedes interrumpir esa acción para usar esta regla.\nSi lo haces, este agente puede realizar inmediatamente una acción Disparar gratis con sus pistolas kroot dobles (concentrado) contra ese agente enemigo (puedes cambiar su orden a Trabarse para ello),\npero ese agente enemigo debe ser un objetivo válido."
+        },
+        "TAU-FSKB-PST-A-SLV": {
+          "abilityName": "*Salva",
+          "description": "Selecciona hasta dos objetivos válidos. Dispara con esta arma contra ambos en el orden que elijas (tira cada secuencia por separado)."
+        }
+      }
+    },
+    "TAU-FSKB-STK": {
+      "opTypeName": "Acechador Kroot",
+      "weapons": {
+        "TAU-FSKB-STK-KSG": {
+          "wepName": "Escopeta kroot"
+        },
+        "TAU-FSKB-STK-SB": {
+          "wepName": "Filo de Acechador"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-STK-A-STK": {
+          "abilityName": "Acechador",
+          "description": "Este agente puede realizar la acción Cargar mientras tenga una orden de Ocultarse."
+        }
+      },
+      "actions": {
+        "TAU-FSKB-STK-SA": {
+          "name": "Ataque Sigiloso",
+          "effects": [
+            "Realiza una acción Cargar gratis con este agente, pero sin superar su atributo Movimiento (es decir, no sumes 2\"). Después realiza inmediatamente una acción Combatir gratis con este agente.",
+            "La primera vez que golpees durante esa acción, puedes resolver inmediatamente otro de tus éxitos como golpe (antes que tu oponente)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Trabarse, mientras esté dentro de la zona de control de un agente enemigo, o si no está a 1\" o menos de terreno Ligero o Pesado."
+          ]
+        }
+      }
+    },
+    "TAU-FSKB-TRK": {
+      "opTypeName": "Rastreador Kroot",
+      "weapons": {
+        "TAU-FSKB-TRK-KR": {
+          "wepName": "Rifle kroot"
+        },
+        "TAU-FSKB-TRK-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "actions": {
+        "TAU-FSKB-TRK-FTEA": {
+          "name": "Desde el Ojo en lo Alto",
+          "effects": [
+            "**APOYO** Elige otro agente BANDA DE ACECHADORES LEJANOS amigo visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "TAU-FSKB-TRK-MFTH": {
+          "name": "Marcado para la Caza",
+          "effects": [
+            "Retira tu marcador de Pech'ra de la zona de aniquilación (si lo hay). Después coloca tu marcador de Pech'ra visible para este agente, o sobre el terreno Aventajado de un elemento de terreno que sea visible para este agente.",
+            "Siempre que un agente BANDA DE ACECHADORES LEJANOS amigo esté disparando contra un agente enemigo que tenga ese marcador dentro de su zona de control, las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "Al inicio de la siguiente activación de este agente o si es retirado de la zona de aniquilación (lo que ocurra primero), retira tu marcador de Pech'ra de la zona de aniquilación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-FSKB-WAR": {
+      "opTypeName": "Guerrero Kroot",
+      "weapons": {
+        "TAU-FSKB-WAR-KR": {
+          "wepName": "Rifle kroot"
+        },
+        "TAU-FSKB-WAR-KSG": {
+          "wepName": "Escopeta kroot"
+        },
+        "TAU-FSKB-WAR-BL": {
+          "wepName": "Filo"
+        }
+      },
+      "abilities": {
+        "TAU-FSKB-WAR-A-RFA": {
+          "abilityName": "Preparado para Todo",
+          "description": "Una vez por punto de inflexión, durante la activación de un agente GUERRERO amigo, puedes usar la regla Carne, Disparo Perforante o Disparo Tóxico (consulta el equipo de facción) para ese agente. Hacerlo no cuenta para su límite de una vez por punto de inflexión."
+        }
+      }
+    }
+  }
+}

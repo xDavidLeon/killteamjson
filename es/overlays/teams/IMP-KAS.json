@@ -1,0 +1,323 @@
+{
+  "killteamId": "IMP-KAS",
+  "locale": "es",
+  "team": {
+    "killteamName": "Kasrkin",
+    "description": "Entre los guerreros de mayor élite de Cadia, los Kasrkin son entrenados desde su nacimiento en el arte de la guerra.\nEnfundados en armadura de caparazón y portando una amplia variedad de equipo especializado, son las fuerzas especiales de los regimientos cadianos, encargadas de completar misiones casi imposibles en defensa y en pos de la causa imperial.",
+    "composition": "Un equipo de exterminio KASRKIN está compuesto por:\n\n- 1 agente SARGENTO KASRKIN con una de las siguientes opciones:\n  - Pistola bólter; arma de energía\n  - Rifle láser infernal; culata\n  - Pistola láser infernal; arma de energía\n  - Pistola de plasma; espada sierra\n- 9 agentes KASRKIN elegidos de la siguiente lista:\n  - MÉDICO DE COMBATE\n  - SOLDADO DE DEMOLICIÓN\n  - ARTILLERO con lanzallamas y culata*\n  - ARTILLERO con lanzagranadas y culata*\n  - ARTILLERO con fusil de salvas infernal y culata*\n  - ARTILLERO con rifle de fusión y culata*\n  - ARTILLERO con rifle de plasma y culata*\n  - SOLDADO DE RECONOCIMIENTO\n  - TIRADOR DE PRECISIÓN*\n  - SOLDADO\n  - SOLDADO DE VOX\n\nSalvo los agentes SOLDADO, tu comando solo puede incluir cada agente de esta lista una vez.  \n\n*No puedes seleccionar más de cuatro de estos agentes en total.  \n\nAlgunas reglas KASRKIN hacen referencia a un 'arma infernal'. Se trata de un arma a distancia que incluye 'infernal' en su nombre, p. ej., rifle láser infernal, todos los perfiles de un rifle de tirador infernal, etc."
+  },
+  "ploys": {
+    "IMP-KAS-S-CS": {
+      "ployName": "Barrido de Limpieza",
+      "description": "Coloca tu marcador de Barrido de Limpieza en la zona de aniquilación.\r Siempre que un agente KASRKIN amigo a 5\" o menos en horizontal de ese marcador esté disparando contra un agente que también esté a 5\" o menos en horizontal de ese marcador,\r las armas de ese agente amigo tienen la regla de armas Incesante. En el paso de Preparación de la siguiente fase de Estrategia, retira ese marcador."
+    },
+    "IMP-KAS-S-EFC": {
+      "ployName": "Atacar desde Cobertura",
+      "description": "Siempre que un agente esté disparando contra un agente KASRKIN amigo que esté en cobertura, puedes repetir uno de tus dados de defensa."
+    },
+    "IMP-KAS-S-EP": {
+      "ployName": "Patrón de Eliminación",
+      "description": "Siempre que un agente KASRKIN amigo esté disparando con un arma infernal contra un agente que no pueda conservar ninguna salvación por cobertura o que esté siendo escaneado (consulta SOLDADO DE RECONOCIMIENTO), esa arma tiene la regla de armas Penetración Crítica 1,\r o Penetración 1 en su lugar si es un fusil de salvas infernal.  \n\r **Penetración 1:** El defensor reúne 1 dado de defensa menos.  \n\r **Penetración Crítica 1:** Si conservas algún éxito crítico, el defensor reúne 1 dado de defensa menos."
+    },
+    "IMP-KAS-S-REL": {
+      "ployName": "Reubicarse",
+      "description": "Elige un agente KASRKIN amigo que esté a más de 3\" de agentes enemigos.\nEse agente, y cada otro agente KASRKIN amigo que esté a la vez a 3\" o menos de ese agente y a más de 3\" de agentes enemigos,\npueden realizar inmediatamente una acción Correr gratis en el orden que elijas. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "IMP-KAS-T-CR": {
+      "ployName": "Retirada Cubierta",
+      "description": "Usa este ardid de tiroteo cuando un agente KASRKIN amigo realice la acción Retroceder mientras es visible para otro agente KASRKIN amigo y está a 6\" o menos de él, si ese otro agente no está dentro de la zona de control de agentes enemigos.\nDespués de que ese agente amigo haya terminado de moverse, pero antes de que termine esa acción Retroceder, ese otro agente amigo puede realizar inmediatamente una acción Disparar gratis (puedes cambiar su orden a Trabarse para ello)."
+    },
+    "IMP-KAS-T-GNG": {
+      "ployName": "No Ceder Terreno",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente KASRKIN amigo, o al final de la fase de Tiroteo.\nElige uno de tus marcadores de misión o un marcador de objetivo.\nHasta el final de esa activación o hasta el inicio del siguiente punto de inflexión, respectivamente, si el LPA total de los agentes KASRKIN amigos que disputan ese marcador es 2,\ny el LPA total de los agentes enemigos que lo disputan es el mismo, los agentes KASRKIN amigos controlan ese marcador."
+    },
+    "IMP-KAS-T-NT": {
+      "ployName": "Neutralizar Objetivo",
+      "description": "Usa este ardid de tiroteo cuando un agente KASRKIN amigo esté disparando, tras tirar tus dados de ataque, si está disparando contra un agente que no puede conservar ninguna salvación por cobertura o que está siendo escaneado (consulta SOLDADO DE RECONOCIMIENTO). Puedes repetir cualquiera de tus dados de ataque."
+    },
+    "IMP-KAS-T-STI": {
+      "ployName": "Tomar la Iniciativa",
+      "description": "Usa este ardid de tiroteo al inicio de la fase de Tiroteo. Un agente KASRKIN amigo puede realizar inmediatamente una acción de 1PA gratis, pero no puede moverse durante esa acción. No puedes usar este ardid si eres el jugador que tiene la iniciativa."
+    }
+  },
+  "equipments": {
+    "IMP-KAS-FG": {
+      "eqName": "Empuñadura Delantera",
+      "description": "Siempre que un agente KASRKIN amigo esté disparando contra un agente a 3\" o menos de él, las armas a distancia de su hoja de datos\n(salvo las armas que incluyan 'pistola' en su nombre, p. ej., pistola láser infernal, todos los perfiles de una pistola de plasma, etc.) tienen la regla de armas Certera 1."
+    },
+    "IMP-KAS-LRS": {
+      "eqName": "Mira de Largo Alcance",
+      "description": "Siempre que un agente KASRKIN amigo esté disparando contra un agente a más de 6\" de él, las armas infernales de ese agente amigo tienen la regla de armas Saturación."
+    },
+    "IMP-KAS-ROC": {
+      "eqName": "Reliquias de Cadia",
+      "description": "Una vez por punto de inflexión, cuando un agente KASRKIN amigo esté disparando, combatiendo o contraatacando, si obtienes dos o más fallos, puedes descartar uno de ellos para conservar otro como éxito normal en su lugar."
+    },
+    "IMP-KAS-CD": {
+      "eqName": "Dagas de Combate",
+      "description": "Los agentes KASRKIN amigos tienen la siguiente arma cuerpo a cuerpo:",
+      "weapons": {
+        "IMP-KAS-CD-COMBAT-DAGGER": {
+          "wepName": "Daga de combate"
+        }
+      }
+    }
+  },
+  "teamAbilities": {
+    "IMP-KAS-TA-SKATAR": {
+      "abilityName": "Destreza con las Armas",
+      "description": "**GAMBITO ESTRATÉGICO** Elige una DESTREZA CON LAS ARMAS para que los agentes KASRKIN amigos la tengan hasta el paso de Preparación de la siguiente fase de Estrategia.\n\n- **¡Acribilladlos!**  \nLas armas a distancia de los agentes KASRKIN amigos tienen la regla de armas Severa.\n- **Golpe Rápido**  \n Siempre que un agente KASRKIN amigo esté realizando la acción Reposicionarse, suma 1\" a su atributo Movimiento.\n- **Hielo en las Venas**  \n Siempre que un agente KASRKIN amigo esté combatiendo o contraatacando, o un agente esté disparando contra él, la primera vez que un dado de ataque le inflija un Daño normal de 3 o más durante esa secuencia, ese dado le inflige 1 punto de daño menos.\n- **¡Por Cadia!**  \n Suma 1 al atributo Ataque de las armas cuerpo a cuerpo de los agentes KASRKIN amigos (hasta un máximo de 4). Siempre que un agente KASRKIN amigo esté combatiendo, la primera vez que golpees durante esa secuencia, inflige 1 de daño adicional.\n"
+    },
+    "IMP-KAS-TA-RAP": {
+      "abilityName": "Fuego Rápido",
+      "description": "Cada agente KASRKIN amigo que no realice una acción en la que se mueva durante su activación puede realizar dos acciones Disparar (salvo Guardia) durante esa activación, pero debe seleccionarse una pistola bólter, un rifle láser infernal o una pistola láser infernal para ambas acciones."
+    }
+  },
+  "opTypes": {
+    "IMP-KAS-SGT": {
+      "opTypeName": "Sargento Kasrkin",
+      "weapons": {
+        "IMP-KAS-SGT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-KAS-SGT-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-KAS-SGT-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-KAS-SGT-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "IMP-KAS-SGT-PP-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-KAS-SGT-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-KAS-SGT-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-KAS-SGT-GB": {
+          "wepName": "Culata"
+        },
+        "IMP-KAS-SGT-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-SGT-AB-VL": {
+          "abilityName": "Liderazgo Veterano",
+          "description": "Siempre que este agente esté en la zona de aniquilación y uses el GAMBITO ESTRATÉGICO DESTREZA CON LAS ARMAS, puedes elegir una DESTREZA CON LAS ARMAS adicional, pero no pueden ser la misma."
+        }
+      },
+      "actions": {
+        "IMP-KAS-SGT-TC": {
+          "name": "Mando Táctico",
+          "effects": [
+            "Elige un agente KASRKIN amigo y, después, elige una DESTREZA CON LAS ARMAS para que ese agente la tenga hasta el paso de Preparación de la siguiente fase de Estrategia. Puede ser además de cualquier DESTREZA CON LAS ARMAS que ya tenga, pero no pueden ser la misma.",
+            "Alternativamente, en lugar de resolver el efecto anterior, si tu marcador de Barrido de Limpieza está en la zona de aniquilación, puedes retirarlo y volver a colocarlo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-KAS-MDC": {
+      "opTypeName": "Médico de Combate Kasrkin",
+      "weapons": {
+        "IMP-KAS-MDC-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-KAS-MDC-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente KASRKIN amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese agente estén dentro de la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de esa acción. Tras esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratis, pero debe terminar ese movimiento dentro de la zona de control de este agente.\r Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivas, y si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\r No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-KAS-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente KASRKIN amigo dentro de la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-KAS-DT": {
+      "opTypeName": "Soldado de Demolición Kasrkin",
+      "weapons": {
+        "IMP-KAS-DT-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-KAS-DT-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-DT-A-MM": {
+          "abilityName": "Mina de Fusión",
+          "description": "Este agente lleva tu marcador de Mina de Fusión.\nPuede realizar la acción Recoger Marcador sobre ese marcador y, siempre que realice la acción Colocar Marcador sobre ese marcador, puede realizar inmediatamente una acción Correr gratis.\nEse marcador no puede colocarse dentro de la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva ese marcador y ese marcador no puede colocarse, se retira junto con este agente)."
+        },
+        "IMP-KAS-DT-A-PM": {
+          "abilityName": "Mina de Proximidad",
+          "description": "La primera vez que tu marcador de Mina de Fusión esté dentro de la zona de control de otro agente, retira ese marcador e inflige 2D6+3 de daño a ese agente;\nsi no queda incapacitado, termina su acción (si la hay), aunque los efectos de esa acción no se hayan cumplido.\nSi no puede colocarse, muévelo la distancia mínima necesaria para ello.\nTen en cuenta que este agente se ignora para estos efectos (es decir, no puede detonarlo ni sufrir daño de ese marcador)."
+        }
+      }
+    },
+    "IMP-KAS-GNR": {
+      "opTypeName": "Artillero Kasrkin",
+      "weapons": {
+        "IMP-KAS-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-KAS-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-KAS-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-KAS-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-KAS-GNR-HSVG": {
+          "wepName": "Fusil de salvas infernal",
+          "profiles": {
+            "IMP-KAS-GNR-HSVG-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-KAS-GNR-HSVG-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-KAS-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-KAS-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-KAS-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-KAS-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-KAS-GNR-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-KAS-RT": {
+      "opTypeName": "Soldado de Reconocimiento Kasrkin",
+      "weapons": {
+        "IMP-KAS-RT-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-KAS-RT-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-RT-A-RKZ": {
+          "abilityName": "Reconocer la Zona de Aniquilación",
+          "description": "El ardid de estrategia Reubicarse te cuesta 0PM si este agente es el agente KASRKIN amigo seleccionado.\r"
+        }
+      },
+      "actions": {
+        "IMP-KAS-RT-AUS": {
+          "name": "Escaneo de Áuspex",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero),",
+            "siempre que un agente enemigo esté a 8\" o menos de este agente, ese agente enemigo está siendo escaneado. Siempre que un agente KASRKIN amigo esté disparando contra un agente enemigo que esté siendo escaneado, ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-KAS-SS": {
+      "opTypeName": "Tirador de Precisión Kasrkin",
+      "weapons": {
+        "IMP-KAS-SS-HSMR": {
+          "wepName": "Rifle de tirador infernal",
+          "profiles": {
+            "IMP-KAS-SS-HSMR-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-KAS-SS-HSMR-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-KAS-SS-HSMR-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-KAS-SS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-SS-A-CAM": {
+          "abilityName": "Capa de Camuflaje",
+          "description": "Siempre que un agente esté disparando contra este agente:\n\n- Ignora la regla de armas Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar una salvación por cobertura como éxito crítico en su lugar.]\nEsto no es acumulativo con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        }
+      }
+    },
+    "IMP-KAS-TRP": {
+      "opTypeName": "Soldado Kasrkin",
+      "weapons": {
+        "IMP-KAS-TRP-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-KAS-TRP-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-KAS-TRP-A-AE": {
+          "abilityName": "Equipo Adaptable",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por punto de inflexión:\n\n- Un agente SOLDADO KASRKIN amigo puede realizar la acción Granada de Humo.\n- Un agente SOLDADO KASRKIN amigo puede realizar la acción Granada Aturdidora.\n\nLas reglas de estas acciones se encuentran en el equipo universal. Realizar estas acciones usando esta regla no cuenta para sus límites de acciones (es decir, si también seleccionas esas granadas del equipo)."
+        }
+      }
+    },
+    "IMP-KAS-VOX": {
+      "opTypeName": "Soldado de Vox Kasrkin",
+      "weapons": {
+        "IMP-KAS-VOX-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-KAS-VOX-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "actions": {
+        "IMP-KAS-VOX-BC": {
+          "name": "Comunicaciones de Batalla",
+          "effects": [
+            "Elige otro agente KASRKIN amigo. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA (hasta un máximo de 3 después de sumar todos los cambios al atributo LPA)."
+          ],
+          "conditions": [
+            "Este agente puede realizar esta acción dos veces durante su activación, pero no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    }
+  }
+}

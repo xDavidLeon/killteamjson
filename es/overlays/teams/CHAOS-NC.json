@@ -1,0 +1,315 @@
+{
+  "killteamId": "CHAOS-NC",
+  "locale": "es",
+  "team": {
+    "killteamName": "Garra Némesis",
+    "description": "Los Amos de la Noche son sinónimo de terror y asesinato, pues su forma de guerra predilecta es la aplicación desenfrenada de una fuerza brutal y abrumadora. No muestran piedad alguna y renuncian a toda sutileza y astucia en favor del derramamiento de sangre y la destrucción gratuitos.\n  \n  \n\nLos Amos de la Noche no adoran individualmente a ninguno de los cuatro grandes Dioses del Caos, sino que los reconocen por igual en la forma del Caos Indiviso mientras siembran sin piedad el terror y el miedo entre los habitantes de la galaxia. Los Amos de la Noche son expertos en el uso de tácticas de terror para ganar batallas y desmoralizar a sus enemigos incluso antes de que empiece el combate principal. ",
+    "composition": "Un equipo de exterminio GARRA NÉMESIS está compuesto por:\n\n- 1 Visionario GARRA NÉMESIS con una de las siguientes opciones:\n  - Pistola bólter, puño de energía\n  - Pistola bólter, maza de energía\n  - Pistola bólter, arma de energía\n  - Pistola de plasma, cuchilla sierra nostramana\n- 5 agentes Garra Némesis elegidos de la siguiente lista:\n  - Sembrador de Miedo\n  - Artillero con una de las siguientes opciones:\n    - Pistola bólter, lanzallamas, puños\n      - Pistola bólter, rifle de fusión, puños\n      - Pistola bólter, rifle de plasma, puños   \n  - Artillero Pesado con una de las siguientes opciones:\n    - Pistola bólter, bólter pesado, puños\n    - Pistola bólter, lanzamisiles, puños    \n  - Chillador\n  - Ladrón de Pieles\n  - Ventrilokar\n  - Guerrero con una de las siguientes opciones:\n    - Pistola bólter, espada sierra\n    - Bólter, puños\n  \n"
+  },
+  "ploys": {
+    "CHAOS-NC-S-PS": {
+      "ployName": "Vista de depredador",
+      "description": "Siempre que un agente GARRA NÉMESIS amigo realice la acción Disparar, puedes usar esta regla. Si lo haces, hasta el final de esa acción, las armas a distancia de ese agente amigo tienen las reglas de armas Alcance 6” y Buscadora (Ligero)."
+    },
+    "CHAOS-NC-S-RTD": {
+      "ployName": "Regreso a la oscuridad",
+      "description": "Un agente GARRA NÉMESIS amigo puede realizar inmediatamente una acción gratuita de Retroceder o de Reposicionarse, pero debe terminar ese movimiento con terreno Pesado en su zona de control, o con cualquier parte de su peana bajo terreno Aventajado.\r Además, no puede moverse más de 4\" durante esa acción y no puede terminar ese movimiento más cerca de agentes enemigos (en una zona de aniquilación que use las reglas de combate en espacios cerrados, p. ej., Zona de aniquilación: Gallowdark, ignora el terreno Muro al determinar esto)."
+    },
+    "CHAOS-NC-S-TBH": {
+      "ployName": "La Caza Negra",
+      "description": "Siempre que un agente GARRA NÉMESIS amigo dispare, combata o contraataque contra un agente enemigo herido, puedes repetir uno de tus dados de ataque."
+    },
+    "CHAOS-NC-S-WHCFY": {
+      "ployName": "Venimos a por ti",
+      "description": "Siempre que se active un agente GARRA NÉMESIS amigo, si la primera acción que realiza durante esa activación es la acción Cargar, cuando termine su movimiento durante esa acción, puedes infligir D3 de daño a un agente enemigo en su zona de control."
+    },
+    "CHAOS-NC-T-DF": {
+      "ployName": "Luchador sucio",
+      "description": "Usa este ardid de tiroteo cuando un agente GARRA NÉMESIS amigo esté contraatacando, al inicio del paso de Resolver dados de ataque.\nPuedes resolver uno de tus éxitos antes del orden normal. Si lo haces, no puedes resolver ningún otro éxito durante esa secuencia."
+    },
+    "CHAOS-NC-T-DTTFE": {
+      "ployName": "Muerte al Falso Emperador",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente GARRA NÉMESIS amigo, si está disparando, combatiendo o contraatacando contra un agente enemigo que tiene la clave IMPERIUM. Las armas de ese agente amigo tienen la regla de armas Incesante hasta el final de la secuencia; si ese agente enemigo además tiene la clave Adeptus Astartes, las armas de ese agente amigo tienen en su lugar la regla de armas Implacable hasta el final de esa secuencia.  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)  \n**Implacable:** Puedes repetir cualquiera o todos los dados de ataque."
+    },
+    "CHAOS-NC-T-PFM": {
+      "ployName": "Propensión al asesinato",
+      "description": "Usa este ardid de tiroteo después de que un agente GARRA NÉMESIS amigo incapacite a un agente enemigo en su zona de control.\nEse agente amigo puede realizar inmediatamente una acción gratuita de Cargar o de Correr (en el primer caso, no puede moverse más de 3\") aunque haya realizado una acción que le impida realizar la acción Cargar o Correr."
+    },
+    "CHAOS-NC-T-VS": {
+      "ployName": "Alarido vox",
+      "description": "Usa este ardid de tiroteo cuando tu oponente fuera a activar un agente enemigo que sea visible para un agente GARRA NÉMESIS amigo. Tira un D6; si el resultado es mayor que el atributo LPA de ese agente enemigo, tu oponente no puede activarlo durante esta activación; si el resultado es menor o igual que el atributo LPA de ese agente enemigo, este ardid no se considera usado, se te devuelven los PM gastados en él y no puedes volver a usar este ardid durante este punto de inflexión. Si no hay otros agentes enemigos que puedan ser activados, este ardid no tiene efecto."
+    }
+  },
+  "equipments": {
+    "CHAOS-NC-CS": {
+      "eqName": "Lazo de cadena",
+      "description": "Siempre que un agente enemigo fuera a realizar la acción Retroceder mientras está en la zona de control de un agente GARRA NÉMESIS amigo, si no hay otros agentes enemigos en la zona de control de ese agente amigo, puedes usar esta regla.\nSi lo haces, tira 2D6, o 1D6 si ese agente enemigo tiene un atributo Heridas mayor que el de ese agente amigo.\nSi algún resultado es 4+, ese agente enemigo no puede realizar esa acción durante esa activación o reacción (no se gastan PA en ella), y no puedes volver a usar esta regla durante este punto de inflexión."
+    },
+    "CHAOS-NC-CJ": {
+      "eqName": "Inhibidor de comunicaciones",
+      "description": "Siempre que un agente enemigo esté a 3\" o menos de un agente GARRA NÉMESIS amigo, no se puede sumar al atributo LPA de ese agente enemigo. Ten en cuenta que esto no afecta a los atributos LPA que ya hayan sido modificados."
+    },
+    "CHAOS-NC-FS": {
+      "eqName": "Piel desollada",
+      "description": "Siempre que un agente enemigo dispare, combata o contraataque contra un agente GARRA NÉMESIS amigo a 2\" o menos de él, tu oponente no puede repetir sus resultados de 1 en los dados de ataque."
+    },
+    "CHAOS-NC-GT": {
+      "eqName": "Trofeo macabro",
+      "description": "Una vez por batalla, cuando un agente GARRA NÉMESIS amigo incapacite a un agente enemigo a 2\" o menos de él, puedes usar esta regla.\nSi lo haces, ese agente amigo obtiene una de tus fichas de Trofeo macabro (si no tiene ya una).\nSiempre que un agente GARRA NÉMESIS amigo que tenga una de tus fichas de Trofeo macabro sea visible para un agente enemigo y esté a 2\" o menos de él, resta 1 al atributo ATQ de las armas de ese agente enemigo."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-NC-TA-AS": {
+      "abilityName": "Astartes",
+      "description": "Durante la activación de cada agente GARRA NÉMESIS amigo, este puede realizar o bien 2 acciones de Disparar o bien 2 acciones de Combatir.\nSi son 2 acciones de Disparar, en al menos una de ellas se debe seleccionar una pistola bólter, un bólter o una pistola bólter con mira.\nCada agente GARRA NÉMESIS amigo puede reaccionar independientemente de su orden."
+    },
+    "CHAOS-NC-TA-INMICL": {
+      "abilityName": "Vestidos de medianoche",
+      "description": "Siempre que un agente enemigo dispare contra un agente GARRA NÉMESIS amigo, ese agente amigo está oscurecido si se cumplen las dos condiciones siguientes:\r \r - Está a más de 8\" de los agentes enemigos para los que es visible.\r - Está a 1\" o menos de terreno Pesado que no esté más bajo que él, o cualquier parte de su peana está bajo terreno Aventajado.\r "
+    }
+  },
+  "opTypes": {
+    "CHAOS-NC-VIS": {
+      "opTypeName": "Visionario Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-VIS-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-VIS-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-NC-VIS-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-NC-VIS-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-NC-VIS-NCB": {
+          "wepName": "Cuchilla sierra nostramana"
+        },
+        "CHAOS-NC-VIS-PF": {
+          "wepName": "Puño de energía"
+        },
+        "CHAOS-NC-VIS-PM": {
+          "wepName": "Maza de energía"
+        },
+        "CHAOS-NC-VIS-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-VIS-A-PRE": {
+          "abilityName": "Presciencia",
+          "description": "*PSÍQUICA*  \r \r En el paso de Preparar de cada fase de estrategia, obtienes 1D3 puntos de Presciencia.\r Al final de cada punto de inflexión, descarta tus puntos de Presciencia. Puedes gastar tus puntos de Presciencia en la fase de tiroteo de la siguiente forma (no puedes usar cada una de las siguientes reglas más de una vez por punto de inflexión).\r \r - Mal presagio: *PSÍQUICA* Siempre que sea tu turno de activar un agente amigo, puedes gastar 1 de tus puntos de Presciencia para saltarte esa activación.\r - Augurio: *PSÍQUICA* Siempre que un dado de ataque inflija daño normal a este agente, puedes gastar 1 de tus puntos de Presciencia para ignorar ese daño infligido.\r \r No puedes obtener ni gastar tus puntos de Presciencia si este agente está incapacitado."
+        }
+      },
+      "actions": {
+        "CHAOS-NC-VIS-PREM": {
+          "name": "Premonición",
+          "effects": [
+            "*PSÍQUICA* Gasta 1 de tus puntos de Presciencia para obtener 1PM."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni durante una activación en la que haya realizado la acción Cargar o Retroceder (o viceversa)."
+          ]
+        }
+      }
+    },
+    "CHAOS-NC-FRM": {
+      "opTypeName": "Sembrador de Miedo Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-FRM-SCP": {
+          "wepName": "Pistola bólter con mira",
+          "profiles": {
+            "CHAOS-NC-FRM-SCP-0": {
+              "profileName": "Corto alcance"
+            },
+            "CHAOS-NC-FRM-SCP-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "CHAOS-NC-FRM-TCV": {
+          "wepName": "Vial de terroquímico"
+        },
+        "CHAOS-NC-FRM-TB": {
+          "wepName": "Hoja corrupta"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-FRM-A-TCP": {
+          "abilityName": "Veneno terroquímico",
+          "description": "Siempre que se active un agente que tenga una de tus fichas de Terroquímico, inflígele 1D3 de daño."
+        }
+      },
+      "actions": {
+        "CHAOS-NC-FRM-PO": {
+          "name": "Envenenar objetivo",
+          "effects": [
+            "Elige un marcador de objetivo que controle este agente para que obtenga una de tus fichas de Terroquímico.",
+            "No puede ser un marcador de objetivo que esté en la zona de control de un agente enemigo, ni uno que ya tenga una de tus fichas de Terroquímico.",
+            "La primera vez que un agente enemigo que no tenga una de tus fichas de Terroquímico dispute ese marcador de objetivo, ese agente obtiene esa ficha de Terroquímico y luego se le infligen 2D3 de daño",
+            "(si ocurre durante una acción, al final de esa acción)."
+          ]
+        }
+      }
+    },
+    "CHAOS-NC-GNR": {
+      "opTypeName": "Artillero Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-GNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "CHAOS-NC-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "CHAOS-NC-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "CHAOS-NC-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-NC-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-NC-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "CHAOS-NC-HGNR": {
+      "opTypeName": "Artillero Pesado Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-HGNR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-HGNR-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "CHAOS-NC-HGNR-HB-0": {
+              "profileName": "Concentrado"
+            },
+            "CHAOS-NC-HGNR-HB-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "CHAOS-NC-HGNR-ML": {
+          "wepName": "Lanzamisiles",
+          "profiles": {
+            "CHAOS-NC-HGNR-ML-0": {
+              "profileName": "Frag"
+            },
+            "CHAOS-NC-HGNR-ML-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "CHAOS-NC-HGNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "CHAOS-NC-SCR": {
+      "opTypeName": "Chillador Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-SCR-LC": {
+          "wepName": "Garra relámpago"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-SCR-A-AFC": {
+          "abilityName": "Apetito de crueldad",
+          "description": "Siempre que este agente combata contra un agente enemigo herido, las garras relámpago de este agente obtienen la regla de armas Letal 4+."
+        },
+        "CHAOS-NC-SCR-A-SCR": {
+          "abilityName": "Chillador",
+          "description": "Siempre que un agente enemigo a 3\" o menos de este agente dispare, combata o contraataque, tu oponente no puede repetir sus dados de ataque."
+        }
+      }
+    },
+    "CHAOS-NC-SKT": {
+      "opTypeName": "Ladrón de Pieles Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-SKT-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-SKT-NCG": {
+          "wepName": "Archa sierra nostramana"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-SKT-A-FTA": {
+          "abilityName": "Desollarlos vivos",
+          "description": "Una vez por punto de inflexión, cuando este agente incapacite a un agente enemigo en su zona de control, puedes elegir otro agente enemigo visible para este agente o para el agente incapacitado y a 6\" o menos de él.\nHasta el inicio del siguiente punto de inflexión, ese otro agente enemigo no puede controlar marcadores ni realizar la acción Recoger Marcador ni acciones de misión."
+        },
+        "CHAOS-NC-SKT-A-TOTSP": {
+          "abilityName": "Tirano de los Fosos de Desuello",
+          "description": "Siempre que este agente combata o contraataque, el daño normal y crítico de 3 o más le inflige 1 de daño menos."
+        }
+      }
+    },
+    "CHAOS-NC-VEN": {
+      "opTypeName": "Ventrilokar Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-VEN-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-VEN-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-VEN-A-IB": {
+          "abilityName": "Portaestandarte",
+          "description": "Al determinar el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, así que cualquier cambio es acumulativo con esto."
+        }
+      },
+      "actions": {
+        "CHAOS-NC-VEN-DCM": {
+          "name": "Mímica desconcertante",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente enemigo a 6\" o menos de este agente y después elige una de las siguientes opciones para ese agente enemigo (solo puedes elegir cada opción una vez por batalla):",
+            "- Hasta el final de la siguiente activación, resta 1 a su atributo LPA",
+            "- Cambia su orden",
+            "- Realiza con él una acción gratuita de Correr (indica a tu oponente la ubicación a la que debe moverlo)"
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-NC-WAR": {
+      "opTypeName": "Guerrero Amo de la Noche",
+      "weapons": {
+        "CHAOS-NC-WAR-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-NC-WAR-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-NC-WAR-CS": {
+          "wepName": "Espada sierra"
+        },
+        "CHAOS-NC-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-NC-WAR-A-CT": {
+          "abilityName": "Torturador cruel",
+          "description": "Siempre que este agente dispare, combata o contraataque contra un agente enemigo herido, o contra un agente enemigo que tenga un atributo Heridas de 7 o menos, sus armas tienen la regla Letal 5+."
+        }
+      }
+    }
+  }
+}

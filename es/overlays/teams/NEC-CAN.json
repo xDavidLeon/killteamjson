@@ -1,0 +1,253 @@
+{
+  "killteamId": "NEC-CAN",
+  "locale": "es",
+  "team": {
+    "killteamName": "Círculo Canoptek",
+    "description": "Los equipos de exterminio del Círculo Canoptek están formados por siniestros constructos alienígenas sometidos a su amo criptecnólogo. Los constructos Canoptek, sin emociones ni vida, superan los obstáculos que se interponen en las ambiciones de un criptecnólogo, ya sean roca y metal o los cuerpos de los vivos, mientras su amo accede a nodos de poder y datos para potenciar aún más las antiguas capacidades de los constructos.",
+    "composition": "Un equipo de exterminio CÍRCULO CANOPTEK está compuesto por:\n\n- 1 agente GEOMANTE CÍRCULO CANOPTEK\n- 2 agentes REPTADOR DE TUMBAS CÍRCULO CANOPTEK con una de las siguientes opciones (elige por separado para cada uno):\n  - Segadores gauss dobles; garras\n  - Aislador transdimensional; garras*\n- 1 agente ACELERADOR CÍRCULO CANOPTEK\n- 1 agente REANIMADOR CÍRCULO CANOPTEK\n- 3 agentes GUERRERO CÍRCULO CANOPTEK con una de las siguientes opciones (elige por separado para cada uno):\n  - Escalpelo gauss; garras y cola\n  - Lanzador tesla; garras y cola\n\n*Tu comando solo puede incluir hasta un aislador transdimensional. "
+  },
+  "ploys": {
+    "NEC-CAN-S-HS": {
+      "ployName": "Hiperescudo",
+      "description": "Siempre que un agente dispare contra un agente CÍRCULO CANOPTEK amigo, si tu MATRIZ DE NODOS OBELISCO está interpuesta, o ese agente amigo está dentro de tu MATRIZ DE NODOS OBELISCO, puedes repetir cualquiera de tus dados de defensa que tengan un mismo resultado (p. ej., resultados de 2)."
+    },
+    "NEC-CAN-S-TDA": {
+      "ployName": "Amplificación transdinámica",
+      "description": "Siempre que un agente CÍRCULO CANOPTEK amigo dispare, si tu MATRIZ DE NODOS OBELISCO está interpuesta, o el blanco está dentro de tu MATRIZ DE NODOS OBELISCO, las armas de ese agente amigo tienen la regla de armas Incesante."
+    },
+    "NEC-CAN-S-CGR": {
+      "ployName": "Repulsión criptogravítica",
+      "description": "Una vez por acción, la primera vez que un agente enemigo fuera a moverse dentro de tu MATRIZ DE NODOS OBELISCO, la distancia se trata como 1\" adicional. Ten en cuenta que esto significa que, si ese agente enemigo no tiene suficiente distancia de movimiento (p. ej., está al final de su movimiento), ese agente no puede moverse dentro de tu MATRIZ DE NODOS OBELISCO."
+    },
+    "NEC-CAN-S-SD": {
+      "ployName": "Drenaje de almas",
+      "description": "Siempre que un agente enemigo esté dentro de tu MATRIZ DE NODOS OBELISCO, o siempre que combata o contraataque contra un agente CÍRCULO CANOPTEK amigo que esté dentro de tu MATRIZ DE NODOS OBELISCO, resta 1 a ambos atributos Daño de las armas cuerpo a cuerpo de ese agente enemigo (hasta un mínimo de 2) hasta el final de la activación/reacción. Ten en cuenta que esto significa que, si el agente enemigo se mueve a través de tu MATRIZ DE NODOS OBELISCO, aplica este cambio al final de esa acción de movimiento hasta el final de la activación/reacción."
+    },
+    "NEC-CAN-T-SF": {
+      "ployName": "Destello de escudo",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflija Daño normal a un agente CÍRCULO CANOPTEK amigo. Si tu MATRIZ DE NODOS OBELISCO está interpuesta, o ese agente amigo está dentro de tu MATRIZ DE NODOS OBELISCO, ignora ese daño infligido. Ten en cuenta que tu oponente determina si está interpuesta (es decir, desde qué punto de la peana de su agente se trazan las líneas de apuntado)."
+    },
+    "NEC-CAN-T-AON": {
+      "ployName": "Animar nodos obelisco",
+      "description": "Usa este ardid de tiroteo cuando sea tu turno de activar o reaccionar. En su lugar, mueve cualquier número de tus marcadores de NODO OBELISCO. Pueden moverse hasta 6\" en total, y las distancias siempre se redondean hacia arriba a la pulgada más cercana (así que si mueves un marcador 1.5\", se considera que lo mueves 2\"). Por ejemplo, podrías mover un marcador 6\", tres marcadores 1\" cada uno, o cualquier combinación que no supere 6\" en total. También puedes moverlos 0\" (para saltarte en la práctica una activación). En cualquier caso, tu oponente activa con normalidad después."
+    },
+    "NEC-CAN-T-NR": {
+      "ployName": "Respuesta nodal",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CÍRCULO CANOPTEK amigo, antes o después de que realice una acción. Puedes cambiar uno de los ardides de estrategia que hayas usado durante este punto de inflexión (solo pagas PM adicionales si ese ardid cuesta más), o usar ahora un ardid de estrategia (pagando su coste en PM de forma normal)."
+    },
+    "NEC-CAN-T-ST": {
+      "ployName": "Siervo sacrificial",
+      "description": "Usa este ardid de tiroteo cuando un agente GEOMANTE CÍRCULO CANOPTEK amigo sea elegido como blanco válido de una acción Disparar o para combatir contra él durante la acción Combatir.\nElige otro agente CANOPTEK CÍRCULO CANOPTEK amigo visible y a 3\" o menos de ese primer agente amigo para que pase a ser el blanco válido o el agente contra el que se combate (según corresponda) en su lugar (aunque normalmente no fuera válido para ello).\nSi es la acción Combatir, trata a ese otro agente como si estuviera dentro de la zona de control del agente que combate mientras dure esa acción. Si es la acción Disparar, ese otro agente solo está en cobertura u ofuscado si el blanco original lo estaba.\n\nEste ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla de armas Área o Ráfaga."
+    }
+  },
+  "equipments": {
+    "NEC-CAN-MM": {
+      "eqName": "Manipulador de matriz",
+      "description": "Una vez por batalla, durante la activación o reacción de un agente CÍRCULO CANOPTEK amigo, puedes usar esta regla. Si lo haces, hasta el final de esa activación/reacción, un agente GEOMANTE CÍRCULO CANOPTEK amigo se trata como tu cuarto marcador de NODO OBELISCO."
+    },
+    "NEC-CAN-AON": {
+      "eqName": "Nodos obelisco despertados",
+      "description": "Tras revelar esta opción de equipo, tira un D3. Puedes usar el ardid de tiroteo Animar nodos obelisco por 0PM un número de veces durante la batalla igual al resultado."
+    },
+    "NEC-CAN-SDC": {
+      "eqName": "Cofres de nanoescarabajos",
+      "description": "Siempre que se active un agente CÍRCULO CANOPTEK amigo, recupera hasta D3 heridas perdidas."
+    },
+    "NEC-CAN-PS": {
+      "eqName": "Desfasador",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare contra un agente GEOMANTE CÍRCULO CANOPTEK amigo, al inicio del paso de Tirar dados de defensa, puedes usar esta regla.\nSi lo haces, empeora en 1 la x de la regla de armas Penetración (si la hay) hasta el final de esa secuencia. Ten en cuenta que, por tanto, Penetración 1 se ignoraría."
+    }
+  },
+  "teamAbilities": {
+    "NEC-CAN-TA-OBNOMA": {
+      "abilityName": "Matriz de nodos obelisco",
+      "description": "Como GAMBITO ESTRATÉGICO en el primer punto de inflexión, coloca tus tres marcadores de NODO OBELISCO totalmente dentro de tu territorio. Como GAMBITO ESTRATÉGICO en cada punto de inflexión posterior al primero, puedes mover tus marcadores de NODO OBELISCO hasta 3\" cada uno.\n\nTus marcadores de NODO OBELISCO controlan otros marcadores a 1\" o menos de ellos que no disputen agentes enemigos (trata tus marcadores de NODO OBELISCO como agentes amigos a este efecto).\nSi más de un jugador fuera a usar sus marcadores de NODO OBELISCO para controlar el mismo marcador, ningún marcador de NODO OBELISCO lo controla.\n\nSiempre que uno de tus marcadores de NODO OBELISCO esté a 6\" o menos en horizontal de otro de tus marcadores de NODO OBELISCO, esos marcadores y el área entre ellos crean una MATRIZ DE NODOS OBELISCO por encima y por debajo (en otras palabras, su altura en la zona de aniquilación es irrelevante).\nSi tus tres marcadores de NODO OBELISCO cumplen esto, crean una MATRIZ DE NODOS OBELISCO combinada más grande.\nSiempre que un agente CÍRCULO CANOPTEK amigo esté dentro de tu MATRIZ DE NODOS OBELISCO:\n- Las armas de su hoja de datos tienen la regla de armas Certera 1.\n- Suma 1 a su atributo LPA (hasta un máximo de 3)."
+    }
+  },
+  "opTypes": {
+    "NEC-CAN-GEO": {
+      "opTypeName": "Geomante",
+      "weapons": {
+        "NEC-CAN-GEO-TGR": {
+          "wepName": "Guja sísmica",
+          "profiles": {
+            "NEC-CAN-GEO-TGR-01": {
+              "profileName": "Separar materia"
+            },
+            "NEC-CAN-GEO-TGR-02": {
+              "profileName": "Temblor"
+            }
+          }
+        },
+        "NEC-CAN-GEO-TGM": {
+          "wepName": "Guja sísmica"
+        }
+      },
+      "abilities": {
+        "NEC-CAN-GEO-SNC": {
+          "abilityName": "Control de nodos obelisco",
+          "description": "Siempre que este agente fuera a realizar una acción de misión (excepto Recoger Marcador o Recuperar, Operaciones aprobadas 2025), si requiere que este agente controle un marcador de objetivo, puedes en su lugar determinar el control desde uno de tus marcadores de NODO OBELISCO (ver la regla de facción Matriz de nodos obelisco).\nSiempre que este agente fuera a realizar la acción Operar escotilla, puedes en su lugar abrir o cerrar una escotilla cuyo punto de acceso esté a 1\" o menos de uno de tus marcadores de NODO OBELISCO.\nTen en cuenta que debes seguir cumpliendo las condiciones de la acción Operar escotilla."
+        }
+      },
+      "actions": {
+        "NEC-CAN-GEO-CC": {
+          "name": "Control Canoptek",
+          "effects": [
+            "APOYO. Elige un agente CANOPTEK CÍRCULO CANOPTEK amigo visible y a 6\" o menos de este agente. Como alternativa, puedes elegir un agente CANOPTEK CÍRCULO CANOPTEK amigo que sea visible para este agente y esté dentro de tu MATRIZ DE NODOS OBELISCO (APOYO no se aplica a esta elección).",
+            "Ese agente elegido puede realizar de inmediato una acción de 1PA gratis; durante esa acción, no puede moverse más de 2\" o debe desplegarse totalmente a 2\" o menos si es retirado y desplegado de nuevo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni mientras esté reaccionando."
+          ]
+        },
+        "NEC-CAN-GEO-GD": {
+          "name": "Perturbación geomántica",
+          "effects": [
+            "Elige un punto de un elemento de escenografía; ese punto debe ser visible y estar a 8\" o menos de este agente. Tira 2D6 por separado por cada agente a 2\" o menos de ese punto. Si el resultado es superior a las heridas restantes de ese agente, inflígele un daño igual a la diferencia."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-CAN-GEO-MB": {
+          "name": "Brecha molecular",
+          "effects": [
+            "APOYO. Elige un agente CÍRCULO CANOPTEK amigo visible y a 6\" o menos de este agente. Como alternativa, puedes elegir un agente CÍRCULO CANOPTEK amigo visible para este agente y dentro de tu MATRIZ DE NODOS OBELISCO (APOYO no se aplica a esta elección).",
+            "La próxima vez que el agente elegido realice una acción en la que se mueva, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo totalmente a una distancia igual a su atributo Movimiento (o 3\" si era una acción de Correr) o menos en horizontal de su",
+            "ubicación original (en una zona de aniquilación que use las reglas de combate cerrado, p. ej., Zona de aniquilación: Mundo Tumba, esta distancia puede medirse por encima y a través de terreno Muro y el agente puede desplegarse al otro lado). Ten en cuenta que no gana distancia adicional al realizar la acción Cargar.",
+            "Debe desplegarse en un lugar donde pueda colocarse y, a menos que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-CAN-ACC": {
+      "opTypeName": "Macrocito acelerador Canoptek",
+      "weapons": {
+        "NEC-CAN-ACC-SP": {
+          "wepName": "Chispa"
+        },
+        "NEC-CAN-ACC-CAS": {
+          "wepName": "Garras y chispa"
+        }
+      },
+      "actions": {
+        "NEC-CAN-ACC-CO": {
+          "name": "Sobrecarga craneal",
+          "effects": [
+            "Elige un agente enemigo visible y a 3\" o menos de este agente. Como alternativa, si este agente está dentro de tu MATRIZ DE NODOS OBELISCO, puedes elegir un agente enemigo dentro de tu MATRIZ DE NODOS OBELISCO.",
+            "Hasta el final de la siguiente activación de ese agente enemigo, resta 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "NEC-CAN-ACC-OC": {
+          "name": "Supercarga",
+          "effects": [
+            "Elige otro agente CANOPTEK CÍRCULO CANOPTEK amigo visible y a 3\" o menos de este agente. Como alternativa, si este agente está dentro de tu MATRIZ DE NODOS OBELISCO, puedes elegir otro agente CANOPTEK CÍRCULO CANOPTEK amigo dentro de tu MATRIZ DE NODOS OBELISCO.",
+            "Hasta el final de la siguiente activación de ese agente elegido, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "NEC-CAN-REA": {
+      "opTypeName": "Macrocito reanimador Canoptek",
+      "weapons": {
+        "NEC-CAN-REA-AB": {
+          "wepName": "Haz atomizador"
+        },
+        "NEC-CAN-REA-CAT": {
+          "wepName": "Garras y cola"
+        }
+      },
+      "abilities": {
+        "NEC-CAN-REA-REA": {
+          "abilityName": "Reanimar",
+          "description": "Una vez por punto de inflexión, cuando otro agente CÍRCULO CANOPTEK amigo fuera a quedar incapacitado, si ese agente está visible y a 6\" o menos de este agente, o si este agente y ese otro están dentro de tu MATRIZ DE NODOS OBELISCO,\npuedes usar esta regla, siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\nSi lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción.\nTras esa acción, ese agente amigo puede realizar de inmediato una acción gratuita de Correr, pero debe terminar esa acción dentro de la zona de control de este agente o dentro de tu MATRIZ DE NODOS OBELISCO. Resta 1 al atributo LPA de este agente y de ese agente hasta el final de sus respectivas siguientes activaciones y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.\n\nNo puedes usar esta regla si este agente está incapacitado, o si es una acción Disparar y este agente fuera a ser un blanco principal o secundario."
+        }
+      },
+      "actions": {
+        "NEC-CAN-REA-NB": {
+          "name": "Haz de nanoescarabajos",
+          "effects": [
+            "Elige un agente CÍRCULO CANOPTEK amigo visible y a 6\" o menos de este agente. Como alternativa, si este agente está dentro de tu MATRIZ DE NODOS OBELISCO, puedes elegir otro agente CÍRCULO CANOPTEK amigo dentro de tu MATRIZ DE NODOS OBELISCO.",
+            "El agente elegido recupera hasta 3D3 heridas perdidas. No puede ser un agente con el que se haya usado la regla Reanimar durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni más de una vez por punto de inflexión."
+          ]
+        }
+      }
+    },
+    "NEC-CAN-WAR": {
+      "opTypeName": "Macrocito guerrero Canoptek",
+      "weapons": {
+        "NEC-CAN-WAR-GS": {
+          "wepName": "Escalpelo gauss"
+        },
+        "NEC-CAN-WAR-TC": {
+          "wepName": "Lanzador tesla",
+          "profiles": {
+            "NEC-CAN-WAR-TC-01": {
+              "profileName": "Concentrado"
+            },
+            "NEC-CAN-WAR-TC-02": {
+              "profileName": "Relámpago viviente"
+            }
+          }
+        },
+        "NEC-CAN-WAR-CAT": {
+          "wepName": "Garras y cola"
+        }
+      },
+      "abilities": {
+        "NEC-CAN-WAR-AD": {
+          "abilityName": "Defensa agresiva",
+          "description": "Si este agente queda incapacitado por un agente enemigo a 2\" o menos de él, antes de retirar a este agente de la zona de aniquilación, tira un D3: con un 2+, inflige 1 de daño a ese agente enemigo."
+        },
+        "NEC-CAN-WAR-EC": {
+          "abilityName": "Constructo prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado, y al determinar tu número inicial de agentes).\nTambién se ignora para las condiciones de victoria y la obtención de PV si alguna de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        }
+      }
+    },
+    "NEC-CAN-TC": {
+      "opTypeName": "Reptador de tumbas Canoptek",
+      "weapons": {
+        "NEC-CAN-TC-TDI": {
+          "wepName": "Aislador transdimensional"
+        },
+        "NEC-CAN-TC-TGR": {
+          "wepName": "Segadores gauss dobles",
+          "profiles": {
+            "NEC-CAN-TC-TGR-01": {
+              "profileName": "Concentrado"
+            },
+            "NEC-CAN-TC-TGR-02": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "NEC-CAN-TC-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "NEC-CAN-TC-SF": {
+          "abilityName": "Inquebrantable",
+          "description": "Siempre que se determine el control de un marcador, puedes tratar el atributo LPA de este agente como 3. Si lo haces, esto tiene prioridad sobre todas las demás reglas, lo que significa que cualquier cambio en su atributo LPA se ignora para ello."
+        },
+        "NEC-CAN-TC-WS": {
+          "abilityName": "Centinela armado",
+          "description": "Siempre que tu oponente esté eligiendo un blanco válido, si este agente tiene una orden de Ocultarse, no puede usar terreno Ligero como cobertura. Aunque esto puede permitir que este agente sea elegido como blanco (suponiendo que sea visible), no elimina su salvación por cobertura (si la tiene)"
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@
   "file": "https://assets.warhammer-community.com/eng_hernkyn_yaegirs_online_rules-7vprxsaew8-0p1ctuqlni.pdf",
   "killteamName": "Hernkyn Yaegirs",
   "description": "The Hernkyn are those Kin who serve as the Leagues of Votann's explorers, scouts, prospectors and pioneers. To the Kin, any region of blank space upon their star charts is a mystery in need of solving. The desire to plumb the depths of the void, to discover its secrets and claim its riches is deeply ingrained in their psyche, as is the need to know what -- if any -- sources of peril might lurk amidst the shadows. ",
-  "composition": "A HERNKYN YAEGIR killteam is composed of:\n\n- 1 HERNKYN YAEGIR Theyn operative\n- 9 HERNKYN YAEGIR operatives selected from the following list:\n  - Bladekyn\n  - Bombast\n  - Gunner\n  - Ironbreak\n  - Riflekyn\n  - Tracker\n  - Warrior with one of the following options:\n    - Bolt Revolver, plasma knife\n    - Bolt Shotgun, Fists\nOther than Warrior operatives, your kill team can only include each operative on this list once.",
+  "composition": "A HERNKYN YAEGIR killteam is composed of:\n\n- 1 HERNKYN YAEGIR Theyn operative\n- 9 HERNKYN YAEGIR operatives selected from the following list:\n  - Bladekyn\n  - Bombast\n  - Gunner\n  - Ironbraek\n  - Riflekyn\n  - Tracker\n  - Warrior with one of the following options:\n    - Bolt Revolver, plasma knife\n    - Bolt Shotgun, Fists\nOther than Warrior operatives, your kill team can only include each operative on this list once.",
   "archetypes": [
     "Infiltration",
     "Seek & Destroy"
@@ -43,7 +43,7 @@
       "ployType": "S",
       "seq": 1,
       "ployName": "Hidden Engagement",
-      "description": "Whenever a friendly HERNKYN YAEGIR operative is shooting, if it's in cover from the target's perspective, that friendly operative's weapons have the Ceaseless weapon rule; if a weapon already has that weapon rule, it has the Ceaseless and Balanced weapon rules.\nNote that your opponent still determines the targeting lines for this (i.e, they decide on a which point of their operative's base targeting lines are drawn from).  \n**Ceaseless:** You can re-roll any of your attack dice results of one result (e.g., results of 2).  \n**Balanced:** Can re-roll one Attack die."
+      "description": "Whenever a friendly HERNKYN YAEGIR operative is shooting, if it's in cover from the target's perspective, that friendly operative's weapons have the Ceaseless weapon rule; if a weapon already has that weapon rule, it has the Ceaseless and Balanced weapon rules.\nNote that your opponent still determines the targeting lines for this (i.e. they decide which point of their operative's base targeting lines are drawn from).  \n**Ceaseless:** You can re-roll any of your attack dice results of one result (e.g., results of 2).  \n**Balanced:** Can re-roll one Attack die."
     },
     {
       "ployId": "VOT-HKY-T-STRD",
@@ -98,7 +98,7 @@
       "killteamId": "VOT-HKY",
       "seq": 3,
       "eqName": "Plasma Knives",
-      "description": "Friendly HERNKYN YAEGIR operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance use the better version, and that weapon has the Balanced weapon rule for the battle..",
+      "description": "Friendly HERNKYN YAEGIR operatives have the following melee weapon. Note that some operatives already have this weapon but with better stats; in that instance use the better version, and that weapon has the Balanced weapon rule for the battle.",
       "weapons": [
         {
           "wepId": "VOT-HKY-PK-PLASMA-KNIFE",
@@ -151,7 +151,7 @@
       "opTypeId": "VOT-HKY-THEYN",
       "killteamId": "VOT-HKY",
       "seq": 0,
-      "opTypeName": "Yeagir Theyn",
+      "opTypeName": "Yaegir Theyn",
       "MOVE": "5\"",
       "APL": 2,
       "SAVE": "4+",
@@ -612,7 +612,7 @@
       "opTypeId": "VOT-HKY-RFL",
       "killteamId": "VOT-HKY",
       "seq": 5,
-      "opTypeName": "Yeaegir Riflekyn",
+      "opTypeName": "Yaegir Riflekyn",
       "MOVE": "5\"",
       "APL": 2,
       "SAVE": "4+",

@@ -1,18 +1,198 @@
 {
   "killteamId": "AEL-VDT",
   "locale": "es",
+  "team": {
+    "killteamName": "Compañía de Danzantes del Vacío",
+    "description": "Incluso entre los ágiles Aeldari, los Arlequines de las Compañías de Danzantes del Vacío exhiben un nivel de destreza y habilidad casi sobrenatural. Actuación y guerra se funden en sus acciones, dirigidas con precisión para moldear el destino de su raza.",
+    "composition": "Un killteam COMPAÑÍA DE DANZANTES DEL VACÍO está compuesto por:\n\n- 1 agente ACTOR PRINCIPAL COMPAÑÍA DE DANZANTES DEL VACÍO con una opción de cada una de las siguientes categorías:\n  - Pistola de fusión, neurodisruptor o pistola shuriken\n  - Hoja, caricia, abrazo, beso o arma de energía\n- 7 agentes COMPAÑÍA DE DANZANTES DEL VACÍO elegidos de la siguiente lista:\n  - BUFÓN DE LA MUERTE\n  - ACTOR con una opción de cada una de las siguientes categorías:\n    - Pistola de fusión, neurodisruptor o pistola shuriken\n    - Hoja, caricia, abrazo o beso    \n  - VIDENTE DE LAS SOMBRAS con granada alucinógena y una de las siguientes opciones:\n    - Neurodisruptor; báculo de niebla\n    - Pistola shuriken; báculo de niebla\n\nSalvo los agentes ACTOR, tu comando solo puede incluir a cada agente de esta lista una vez. Tu comando solo puede incluir hasta una pistola de fusión y hasta un neurodisruptor.\n"
+  },
+  "ploys": {
+    "AEL-VDT-S-CJ": {
+      "ployName": "La Broma de Cegorach",
+      "description": "Siempre que un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo esté combatiendo o contraatacando y tu oponente aseste un golpe con un éxito normal, puedes tirar un D6:  \n\nsi el resultado es menor que el atributo Impactar del arma elegida por tu oponente, ese golpe es un bloqueo en su lugar (ignora la regla de armas Brutal, si es relevante) y no puedes usar esta regla durante el resto de la secuencia."
+    },
+    "AEL-VDT-S-DS": {
+      "ployName": "Salva Fugaz",
+      "description": "Siempre que un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo realice la acción Reposicionarse durante su activación, puede realizar la acción Disparar durante esa acción\n(debe hacerlo en una ubicación en la que pueda ser colocado, y cualquier distancia de movimiento restante que tuviera de esa acción Reposicionarse puede usarse después de hacerlo)."
+    },
+    "AEL-VDT-S-PB": {
+      "ployName": "Difuminado Prismático",
+      "description": "Siempre que un agente dispare contra un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo que haya realizado una acción en la que se movió durante este punto de inflexión, puedes repetir uno de tus dados de defensa."
+    },
+    "AEL-VDT-S-RC": {
+      "ployName": "Crescendo Ascendente",
+      "description": "Los agentes COMPAÑÍA DE DANZANTES DEL VACÍO amigos pueden realizar la acción Correr durante la misma activación en la que hayan realizado la acción Cargar, pero no al revés (es decir, no Correr y después Cargar)."
+    },
+    "AEL-VDT-T-DF": {
+      "ployName": "Campo Dominó",
+      "description": "Usa este ardid de tiroteo cuando un agente esté disparando contra un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo, durante el paso de Resolver dados de defensa.\nPuedes asignar uno de tus dados con éxito para bloquear todos los dados de ataque de tu oponente con resultados coincidentes (p. ej. uno de tus dados de defensa con éxito con un resultado de 5 puede usarse para bloquear todos los dados de ataque con éxito con resultados de 5)."
+    },
+    "AEL-VDT-T-ET": {
+      "ployName": "Objetivo Esquivo",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo. Hasta el inicio de su siguiente activación, mientras ese agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+    },
+    "AEL-VDT-T-ME": {
+      "ployName": "Entrada Asesina",
+      "description": "Usa este ardid de tiroteo cuando un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo esté combatiendo durante una activación en la que haya realizado la acción Cargar, después de que asestes un golpe.\nPuedes resolver inmediatamente otro de tus éxitos normales como golpe (antes que tu oponente), o un éxito crítico si no hay ninguno."
+    },
+    "AEL-VDT-T-TCF": {
+      "ployName": "Cae el Telón",
+      "description": "Usa este ardid de tiroteo cuando un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo esté combatiendo, después de que asestes un golpe con un éxito crítico, si el agente enemigo no está incapacitado.\nTermina esa secuencia (los dados de ataque restantes se descartan) y realiza inmediatamente una acción Retroceder gratuita de hasta 3\" con ese agente (después, la acción Combatir termina).\nEse agente puede hacerlo aunque haya realizado una acción que le impida realizar la acción Retroceder."
+    }
+  },
   "equipments": {
     "AEL-VDT-WBT": {
-      "effects": ""
+      "eqName": "Talismán de Hueso Espectral",
+      "description": "Una vez por punto de inflexión, cuando un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo esté disparando, combatiendo o contraatacando, si sacas dos o más fallos, puedes descartar uno de ellos para guardar otro como éxito normal en su lugar."
     },
     "AEL-VDT-STR": {
-      "effects": ""
+      "eqName": "Proyectiles Tóxicos Aulladores",
+      "description": "Una vez por punto de inflexión, cuando un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo esté realizando la acción Disparar y elijas una pistola shuriken o un cañón aullador (concentrado), puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, esa arma tiene la regla de armas Devastadora 1."
     },
     "AEL-VDT-DM": {
-      "effects": ""
+      "eqName": "Máscara de la Muerte",
+      "description": "Lleva un recuento de Tragedia. Siempre que un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo que tenga una regla de OVACIÓN quede incapacitado, suma 1 a tu recuento de Tragedia. Cuando tu recuento de Tragedia llegue a 3, obtienes 1PM y dejas de llevar ese recuento."
     },
     "AEL-VDT-UM": {
-      "effects": ""
+      "eqName": "Máscara del Suplente",
+      "description": "Una vez por batalla, cuando actives un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo, si el agente amigo que tiene el PAPEL CRUCIAL ha quedado incapacitado, puedes usar esta regla.\nSi lo haces, ese agente activado tiene el PAPEL CRUCIAL durante la batalla."
+    }
+  },
+  "teamAbilities": {
+    "AEL-VDT-TA-HAPA": {
+      "abilityName": "Panoplia del Arlequín",
+      "description": "Siempre que un agente dispare contra un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo y no se guarden dados de ataque como éxitos críticos, empeora en 1 la x de la regla de armas Penetración (si la hay). Ten en cuenta que, por tanto, Penetración 1 se ignoraría.  \n\r Siempre que un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo trepe, puedes considerar que la distancia vertical es de 2\" (independientemente de cuánto se mueva realmente el agente en vertical).  \n\r Los agentes COMPAÑÍA DE DANZANTES DEL VACÍO amigos pueden moverse dentro de la zona de control de agentes enemigos (aun así, deben empezar y terminar el movimiento cumpliendo todos los requisitos de ese movimiento)."
+    },
+    "AEL-VDT-TA-SA": {
+      "abilityName": "Saedath",
+      "description": "Como GAMBITO ESTRATÉGICO en el primer punto de inflexión, debes elegir una ALEGORÍA (Épica o Melodrama, más abajo) para tu equipo de exterminio durante la batalla, y un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo que tenga el PAPEL CRUCIAL durante la batalla.\nSiempre que un agente amigo tenga el PAPEL CRUCIAL, tiene la regla de OVACIÓN de tu ALEGORÍA durante la batalla.  \n\nComo GAMBITO ESTRATÉGICO en cada punto de inflexión posterior, puedes elegir un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo para que obtenga la regla de OVACIÓN de tu ALEGORÍA durante la batalla.  \n\nUna vez por punto de inflexión, cuando un agente amigo que tenga el PAPEL CRUCIAL complete la actuación de tu ALEGORÍA, puedes elegir un agente COMPAÑÍA DE DANZANTES DEL VACÍO amigo para que obtenga la regla de OVACIÓN de tu ALEGORÍA durante la batalla.  \n\n**Épica**  \n\n- Actuación:  \nEl agente incapacita a un agente enemigo mientras combate.\n- Ovación:  \nSiempre que este agente combata, sus armas de combate tienen la regla de armas Equilibrada.\n\n**Melodrama**  \n\n- Actuación:  \nEl agente incapacita a un agente enemigo mientras dispara.\n- Ovación:  \nLas armas a distancia del agente tienen la regla de armas Equilibrada.\n"
+    }
+  },
+  "opTypes": {
+    "AEL-VDT-LPL": {
+      "opTypeName": "Actor Principal",
+      "weapons": {
+        "AEL-VDT-LPL-FP": {
+          "wepName": "Pistola de fusión"
+        },
+        "AEL-VDT-LPL-ND": {
+          "wepName": "Neurodisruptor"
+        },
+        "AEL-VDT-LPL-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-VDT-LPL-B": {
+          "wepName": "Hoja"
+        },
+        "AEL-VDT-LPL-C": {
+          "wepName": "Caricia"
+        },
+        "AEL-VDT-LPL-E": {
+          "wepName": "Abrazo"
+        },
+        "AEL-VDT-LPL-K": {
+          "wepName": "Beso"
+        },
+        "AEL-VDT-LPL-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "AEL-VDT-LPL-A-LTP": {
+          "abilityName": "Dirigir la Función",
+          "description": "GAMBITO ESTRATÉGICO una vez por batalla. Si este agente está en la zona de aniquilación, cambia la ALEGORÍA que elegiste para tu equipo de exterminio. Ten en cuenta que la regla de OVACIÓN que tienen los agentes amigos también cambiará."
+        }
+      }
+    },
+    "AEL-VDT-DJS": {
+      "opTypeName": "Bufón de la Muerte",
+      "weapons": {
+        "AEL-VDT-DJS-SC": {
+          "wepName": "Cañón aullador",
+          "profiles": {
+            "AEL-VDT-DJS-SC-0": {
+              "profileName": "Concentrado"
+            },
+            "AEL-VDT-DJS-SC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "AEL-VDT-DJS-SB": {
+          "wepName": "Hoja aulladora"
+        }
+      }
+    },
+    "AEL-VDT-PLAY": {
+      "opTypeName": "Actor",
+      "weapons": {
+        "AEL-VDT-PLAY-FP": {
+          "wepName": "Pistola de fusión"
+        },
+        "AEL-VDT-PLAY-ND": {
+          "wepName": "Neurodisruptor"
+        },
+        "AEL-VDT-PLAY-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-VDT-PLAY-B": {
+          "wepName": "Hoja"
+        },
+        "AEL-VDT-PLAY-C": {
+          "wepName": "Caricia"
+        },
+        "AEL-VDT-PLAY-E": {
+          "wepName": "Abrazo"
+        },
+        "AEL-VDT-PLAY-K": {
+          "wepName": "Beso"
+        }
+      },
+      "abilities": {
+        "AEL-VDT-PLAY-A-LOTLG": {
+          "abilityName": "Suerte del Dios Risueño",
+          "description": "Una vez por punto de inflexión, puedes usar esta regla. Si lo haces, puedes usar un ardid de tiroteo por 0PM si este es el agente COMPAÑÍA DE DANZANTES DEL VACÍO especificado\n(incluida la Repetición de mando si los dados de ataque o de defensa se tiraron por este agente). No puedes elegir el mismo ardid de tiroteo para esta regla más de una vez por batalla."
+        }
+      }
+    },
+    "AEL-VDT-SDS": {
+      "opTypeName": "Vidente de las Sombras",
+      "weapons": {
+        "AEL-VDT-SDS-HG": {
+          "wepName": "Granada alucinógena"
+        },
+        "AEL-VDT-SDS-ND": {
+          "wepName": "Neurodisruptor"
+        },
+        "AEL-VDT-SDS-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-VDT-SDS-MS": {
+          "wepName": "Báculo de niebla"
+        }
+      },
+      "actions": {
+        "AEL-VDT-SDS-FOG": {
+          "name": "Niebla de Sueños",
+          "effects": [
+            "**PSÍQUICA** Elige un agente enemigo preparado visible para este agente y tira un D6.",
+            "Hasta el final del punto de inflexión, ese agente enemigo no puede activarse ni realizar acciones hasta que sea el último agente enemigo por activar,",
+            "o hasta que tu oponente haya activado, después de esta acción, un número de agentes enemigos igual al resultado del D6 (lo que ocurra primero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "AEL-VDT-SDS-MOM": {
+          "name": "Espejo de Mentes",
+          "effects": [
+            "**PSÍQUICA** Elige un agente enemigo que sea un objetivo válido para este agente y esté a 8\" o menos de él.\r Ambos jugadores tiran cinco D6. Empareja tus dados con los dados de tu oponente según los resultados coincidentes.\r Por cada pareja coincidente, inflige D3 de daño a ese agente enemigo (hasta un máximo de 8). Por ejemplo, si tú sacaste 6, 5, 5, 2, 1 y tu oponente sacó 6, 5, 4, 3, 1, infligirías 3D3 de daño a ese agente enemigo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
     }
   }
 }

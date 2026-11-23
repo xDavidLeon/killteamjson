@@ -1,0 +1,424 @@
+{
+  "killteamId": "TAU-PF",
+  "locale": "es",
+  "team": {
+    "killteamName": "Rastreadores",
+    "description": "Infantería especializada en reconocimiento, los Rastreadores T'au se adentran mucho más allá de sus aliados. Los equipos de exterminio de Rastreadores son capaces\nde operar independientemente de la fuerza principal T'au, y están equipados para casi cualquier situación. Su avanzado equipo\ny su potente armamento les permiten interrumpir comunicaciones, realizar actos de sabotaje y destruir objetivos.",
+    "composition": "Un equipo de exterminio RASTREADORES está compuesto por:\n\n- 1 agente SHAS'UI RASTREADOR\n- 11 agentes RASTREADOR elegidos de la siguiente lista:\n  - GRANADERO DE ASALTO\n  - CURTIDO\n  - ESPECIALISTA EN COMUNICACIONES\n  - CONTROLADOR DE DRONES\n  - TIRADOR\n  - TÉCNICO MÉDICO\n  - SHAS'LA\n  - INTERFERENCIA TRANSPECTRAL\n  - DRON DE RECONOCIMIENTO MB3 (cuenta como dos selecciones)\n  - DRON ACELERADOR DE INDUCCIÓN MV31\n  - DRON GRAVINHIBIDOR MV33\n  - DRON ARTILLADO MV1\n  - DRON ESCUDO MV4\n  - DRON DESIGNADOR MV7\n  - EXPERTO EN ARMAS con una de las siguientes opciones:\n    - Rifle de iones; culata\n    - Rifle de riel; culata\n        \nSalvo los agentes SHAS'LA y EXPERTO EN ARMAS, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta dos agentes EXPERTO EN ARMAS.  \n\nAlgunas reglas de RASTREADOR hacen referencia a un 'arma de inducción'. Las siguientes armas son armas de inducción: cañón rotativo, carabina de inducción, carabina de inducción silenciada, carabina de inducción doble."
+  },
+  "ploys": {
+    "TAU-PF-S-BND": {
+      "ployName": "Vinculados",
+      "description": "Siempre que un agente RASTREADOR amigo (excepto DRON) dispare o contraataque con un arma a distancia (ver el ardid de tiroteo Andanada a quemarropa), si está a 3\" o menos de otro agente RASTREADOR amigo (excepto DRON),\nlas armas a distancia de ese primer agente amigo tienen la regla de armas Certera 1.  \n**Certera 1:** Puedes conservar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "TAU-PF-S-RS": {
+      "ployName": "Barrido de reconocimiento",
+      "description": "Elige un borde de la zona de aniquilación (excepto el tuyo). Cada agente RASTREADOR amigo que esté totalmente a 6\" o menos de ese borde puede realizar inmediatamente una acción gratuita de Correr en el orden que elijas, pero cada uno que lo haga debe terminar ese movimiento totalmente a 6\" o menos de un borde de la zona de aniquilación (excepto el tuyo). No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "TAU-PF-S-SF": {
+      "ployName": "Fuego de supresión",
+      "description": "Siempre que un agente enemigo esté realizando la acción Disparar, si el objetivo (el objetivo principal si el arma tiene las reglas de armas Área o Ráfaga) no es el objetivo válido más cercano,\ntu oponente no puede repetir sus dados de ataque. Ignora a los agentes RASTREADOR amigos que tengan una orden de Ocultarse o estén oscurecidos al determinar esto."
+    },
+    "TAU-PF-S-TC": {
+      "ployName": "A cubierto",
+      "description": "Siempre que un agente dispare contra un agente RASTREADOR amigo, si puedes conservar alguna salvación por cobertura, mejora en 1 el atributo Salvación de ese agente amigo."
+    },
+    "TAU-PF-T-AWC": {
+      "ployName": "Una causa digna",
+      "description": "Usa este ardid de tiroteo al inicio de la fase de tiroteo. Un agente RASTREADOR amigo (excepto DRON) puede realizar inmediatamente una acción de misión gratuita."
+    },
+    "TAU-PF-T-PBF": {
+      "ployName": "Andanada a quemarropa",
+      "description": "Usa este ardid de tiroteo cuando un agente RASTREADOR amigo (excepto DRON) esté contraatacando, si no estaba en la zona de control de agentes enemigos al inicio de esa activación/reacción.\r Puedes usar una de sus armas a distancia como arma de combate (excepto un arma que tenga la palabra 'granada' en su nombre) durante esa secuencia.\r Si lo haces, no puedes bloquear durante esa secuencia, y las siguientes reglas de armas no tienen efecto en sus armas hasta el final de esa secuencia: Devastadora, Penetración, Ráfaga.  \nSi ese agente amigo está preparado, tiene una orden de Trabarse y está contraatacando con un arma de inducción, resuelves tú el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+    },
+    "TAU-PF-T-SF2": {
+      "ployName": "Fuego de apoyo",
+      "description": "Usa este ardid de tiroteo cuando un agente RASTREADOR amigo esté realizando la acción Disparar y estés eligiendo un objetivo válido a 6\" o menos de él. Que haya otros agentes RASTREADOR\namigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+    },
+    "TAU-PF-T-SP": {
+      "ployName": "Protocolos salvadores",
+      "description": "Usa este ardid de tiroteo cuando un agente RASTREADOR amigo (excepto DRON) sea elegido como objetivo válido de una acción Disparar.\r Elige un agente DRON RASTREADOR amigo visible para ese primer agente amigo y a 3\" o menos de él para que se convierta en el objetivo válido en su lugar (aunque normalmente no fuera válido para ello).\r Ese agente DRON amigo solo está en cobertura si el objetivo original lo estaba. Este ardid no tiene efecto si el arma a distancia tiene la regla de armas Área o Ráfaga."
+    }
+  },
+  "equipments": {
+    "TAU-PF-TAO": {
+      "eqName": "Óptica de análisis de objetivos",
+      "description": "Una vez por punto de inflexión, cuando un agente RASTREADOR amigo (excepto DRON) esté realizando la acción Disparar y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, hasta el final de esa acción, si el objetivo tiene al menos una de tus fichas de Designador láser, se considera que tiene una más. Si el arma a distancia tiene la regla de armas Área o Ráfaga, solo se ve afectado el objetivo principal."
+    },
+    "TAU-PF-OSUL": {
+      "eqName": "Enlace de reconocimiento orbital",
+      "description": "Una vez por punto de inflexión, cuando un agente RASTREADOR amigo realice la acción Designador láser, puedes usar esta regla.\nSi lo haces, puedes elegir en su lugar un agente enemigo en la zona de aniquilación para que obtenga una de tus fichas de Designador láser (no necesita ser visible).\nEsto no es acumulativo con las reglas Designador láser de alta intensidad o Analizar."
+    },
+    "TAU-PF-HIML": {
+      "eqName": "Designador láser de alta intensidad",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente RASTREADOR amigo (excepto DRON DESIGNADOR MV7) realice la acción Designador láser, puedes usar esta regla.\nSi lo haces, el agente enemigo que elijas obtiene dos de tus fichas de Designador láser (en lugar de una)."
+    },
+    "TAU-PF-PG": {
+      "eqName": "Granada de fotones",
+      "description": "Una vez por punto de inflexión, un agente RASTREADOR amigo que tenga la acción Designador láser en su hoja de datos (excepto DRON) puede realizar la siguiente acción única:  \n\n**GRANADA DE FOTONES (1 PA):**  \n\nElige un agente enemigo visible para este agente y tira un D6:  \n\nCon un 3+, hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.</br>\nUn agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+    }
+  },
+  "teamAbilities": {
+    "TAU-PF-TA-MA": {
+      "abilityName": "Designador láser",
+      "description": "Elige un agente enemigo visible para este agente. Ese agente enemigo obtiene una de tus fichas de Designador láser (hasta un máximo de cinco).  \n\nUn agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo.\nSi un agente (excepto DRON DE RECONOCIMIENTO MB3) fuera a realizar la acción Disparar (excepto Guardia) y esta acción durante la misma activación, solo el objetivo de esa acción Disparar puede ser elegido para esta acción (y viceversa).\n\nUna vez durante cada una de sus activaciones, siempre que un agente enemigo que tenga alguna de tus fichas de Designador láser realice la acción Correr, Cargar, Retroceder o Reposicionarse, retira una de sus fichas de Designador láser.  \n\nAunque solo algunos agentes RASTREADOR pueden realizar la acción Designador láser, todos los agentes RASTREADOR pueden beneficiarse de sus efectos.\nSiempre que un agente RASTREADOR amigo dispare con un arma de su hoja de datos (excepto la granada de fusión del GRANADERO DE ASALTO), tiene reglas adicionales determinadas por el número de tus fichas de Designador láser que tenga el objetivo.\nSon acumulativas, así que si un agente enemigo tiene dos de tus fichas de Designador láser, el agente amigo que le dispara tiene las reglas de 1 y 2 fichas durante esa secuencia.\n\n|**Fichas**|**Reglas adicionales**|\n|:---:|-----|\n|**1**|Reglas de armas Saturación y Equilibrada.|\n|**2**|Mejora en 1 el atributo Impactar de las armas a distancia de ese agente amigo (hasta un máximo de 3+).|\n|**3**|El objetivo no puede estar oscurecido.|\n|**4**|Regla de armas Buscadora (Ligero).|\n|**5**|Regla de armas Buscadora si el objetivo está a 8\" o menos.|\n\n\n**Saturación:** El defensor no puede conservar salvaciones por cobertura.  \n\n**Equilibrada:** Puede repetir un dado de ataque  \n\n**Buscadora:** Al elegir un objetivo válido, los agentes no pueden usar el terreno como cobertura.  \n\n**Buscadora (Ligero):** Al elegir un objetivo válido, los agentes no pueden usar el terreno ligero como cobertura. Aunque esto puede permitir que dichos agentes sean elegidos como objetivo (suponiendo que sean visibles), no elimina su salvación por cobertura (si la hay)."
+    }
+  },
+  "opTypes": {
+    "TAU-PF-SU": {
+      "opTypeName": "Shas'Ui Rastreador",
+      "weapons": {
+        "TAU-PF-SU-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-SU-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-SU-A-AOW": {
+          "abilityName": "Arte de la guerra",
+          "description": "GAMBITO ESTRATÉGICO. Elige una de las siguientes opciones y aplica sus reglas hasta el final del punto de inflexión. No puedes elegir cada opción más de una vez por batalla:\n\n- Mont'ka: Suma 1\" al atributo Movimiento de los agentes RASTREADOR amigos.\n- Kauyon: Los agentes RASTREADOR amigos pueden realizar una acción gratuita de Designador láser durante su activación si tienen una orden de Ocultarse\n"
+        }
+      }
+    },
+    "TAU-PF-AG": {
+      "opTypeName": "Rastreador Granadero de Asalto",
+      "weapons": {
+        "TAU-PF-AG-FG": {
+          "wepName": "Granada de fusión"
+        },
+        "TAU-PF-AG-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-AG-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-AG-A-GS": {
+          "abilityName": "Especialista en granadas",
+          "description": "Este agente puede usar granadas frag y krak (ver equipo universal).\nHacerlo no cuenta para ningún uso limitado que tengas (es decir, si también eliges esas granadas como equipo para otros agentes).\nSiempre que lo haga, mejora en 1 el atributo Impactar de esa arma."
+        }
+      }
+    },
+    "TAU-PF-BL": {
+      "opTypeName": "Rastreador Curtido",
+      "weapons": {
+        "TAU-PF-BL-SPC": {
+          "wepName": "Carabina de inducción silenciada"
+        },
+        "TAU-PF-BL-BA": {
+          "wepName": "Brazo biónico"
+        }
+      },
+      "abilities": {
+        "TAU-PF-BL-A-VET": {
+          "abilityName": "Veterano",
+          "description": "Durante un punto de inflexión en el que hayas usado el GAMBITO ESTRATÉGICO Arte de la guerra de un agente SHAS'UI amigo y hayas elegido Mont'ka, este agente puede usar Kauyon en su lugar durante su activación (y viceversa)."
+        }
+      }
+    },
+    "TAU-PF-COMMS": {
+      "opTypeName": "Rastreador Especialista en Comunicaciones",
+      "weapons": {
+        "TAU-PF-COMMS-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-COMMS-F": {
+          "wepName": "Puños"
+        }
+      },
+      "actions": {
+        "TAU-PF-COMMS-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente RASTREADOR amigo visible para este agente y a 6\" o menos de él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-PF-DC": {
+      "opTypeName": "Rastreador Controlador de Drones",
+      "weapons": {
+        "TAU-PF-DC-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-DC-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-DC-A-DC": {
+          "abilityName": "Controlador de drones",
+          "description": "Siempre que este agente esté en la zona de aniquilación:\n\n- Suma 2\" al atributo Movimiento de los agentes DRON RASTREADOR amigos.\n- El ardid de tiroteo Protocolos salvadores te cuesta 0PM.\n"
+        }
+      },
+      "actions": {
+        "TAU-PF-DC-RP": {
+          "name": "Pilotaje remoto",
+          "effects": [
+            "Un agente DRON RASTREADOR amigo puede realizar inmediatamente una acción gratuita, pero no puede moverse más de 2\" durante esa acción.",
+            "Esa acción puede ser una que normalmente esté restringida por su regla de dron (esto tiene preferencia sobre esa regla)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo.\nEste agente puede realizar esta acción más de una vez durante su activación, pero si lo hace, el mismo agente DRON no puede realizar la misma acción gratuita más de una vez por activación."
+          ]
+        }
+      }
+    },
+    "TAU-PF-MARKS": {
+      "opTypeName": "Rastreador Tirador",
+      "weapons": {
+        "TAU-PF-MARKS-MRR": {
+          "wepName": "Rifle de riel de tirador",
+          "profiles": {
+            "TAU-PF-MARKS-MRR-0": {
+              "profileName": "Estándar"
+            },
+            "TAU-PF-MARKS-MRR-1": {
+              "profileName": "Proyectil dardo"
+            }
+          }
+        },
+        "TAU-PF-MARKS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MARKS-A-ID": {
+          "abilityName": "Amortiguador inercial",
+          "description": "Puedes ignorar cualquier cambio en el atributo Impactar del rifle de riel de tirador de este agente."
+        }
+      }
+    },
+    "TAU-PF-MDC": {
+      "opTypeName": "Rastreador Técnico Médico",
+      "weapons": {
+        "TAU-PF-MDC-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-MDC-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente RASTREADOR amigo (excepto DRON) fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de esa acción. Tras esa acción, ese agente amigo puede realizar inmediatamente una acción gratuita de Correr, pero debe terminar ese movimiento en la zona de control de este agente.\r Resta 1 al atributo LPA de este agente y de ese otro agente hasta el final de sus siguientes activaciones respectivamente, y si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\r No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "TAU-PF-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente RASTREADOR amigo (excepto DRON) en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente en el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-PF-SL": {
+      "opTypeName": "Shas'La Rastreador",
+      "weapons": {
+        "TAU-PF-SL-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-SL-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-SL-A-FOTFL": {
+          "abilityName": "Impávido en primera línea",
+          "description": "Este agente puede realizar la acción Designador láser mientras esté en la zona de control de un agente enemigo (esto tiene preferencia sobre las condiciones normales de la acción Designador láser).\nAdemás, este agente puede realizar la acción Retroceder por 1 PA menos."
+        },
+        "TAU-PF-SL-A-GA": {
+          "abilityName": "Activación en grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente SHAS'LA RASTREADOR amigo preparado (si es posible) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (en otras palabras, no puedes activar más de dos agentes seguidos con esta regla)."
+        }
+      }
+    },
+    "TAU-PF-TSI": {
+      "opTypeName": "Rastreador Interferencia Transpectral",
+      "weapons": {
+        "TAU-PF-TSI-PC": {
+          "wepName": "Carabina de inducción"
+        },
+        "TAU-PF-TSI-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "TAU-PF-TSI-MDV": {
+          "abilityName": "Visión multidimensional",
+          "description": "Siempre que este agente dispare, los agentes enemigos no pueden estar oscurecidos."
+        }
+      },
+      "actions": {
+        "TAU-PF-TSI-SJ": {
+          "name": "Bloqueo de sistemas",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final de la siguiente activación de ese agente, resta 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-PF-WE": {
+      "opTypeName": "Rastreador Experto en Armas",
+      "weapons": {
+        "TAU-PF-WE-IR": {
+          "wepName": "Rifle de iones",
+          "profiles": {
+            "TAU-PF-WE-IR-0": {
+              "profileName": "Estándar"
+            },
+            "TAU-PF-WE-IR-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "TAU-PF-WE-RR": {
+          "wepName": "Rifle de riel"
+        },
+        "TAU-PF-WE-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "TAU-PF-MB3": {
+      "opTypeName": "Dron de Reconocimiento MB3",
+      "weapons": {
+        "TAU-PF-MB3-BC": {
+          "wepName": "Cañón rotativo",
+          "profiles": {
+            "TAU-PF-MB3-BC-0": {
+              "profileName": "Concentrado"
+            },
+            "TAU-PF-MB3-BC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "TAU-PF-MB3-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MB3-A-ANA": {
+          "abilityName": "Analizar",
+          "description": "Siempre que este agente realice la acción Designador láser, cada otro agente enemigo que sea visible para este agente y esté a 3\" o menos del agente enemigo que elegiste para esa acción también obtiene una de tus fichas de Designador láser."
+        },
+        "TAU-PF-MB3-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        }
+      }
+    },
+    "TAU-PF-MV1": {
+      "opTypeName": "Dron Artillado MV1",
+      "weapons": {
+        "TAU-PF-MV1-TPC": {
+          "wepName": "Carabina de inducción doble"
+        },
+        "TAU-PF-MV1-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MV1-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        }
+      }
+    },
+    "TAU-PF-MV4": {
+      "opTypeName": "Dron Escudo MV4",
+      "weapons": {
+        "TAU-PF-MV4-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MV4-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        },
+        "TAU-PF-MV4-A-SG": {
+          "abilityName": "Generador de escudo",
+          "description": "\n- Este agente ignora la regla de armas Penetración.\n- Una vez por punto de inflexión, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido.\n- Puedes usar el ardid de tiroteo Protocolos salvadores por 0PM si este es el agente DRON especificado.\n"
+        }
+      }
+    },
+    "TAU-PF-MV7": {
+      "opTypeName": "Dron Designador MV7",
+      "weapons": {
+        "TAU-PF-MV7-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MV7-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        },
+        "TAU-PF-MV7-A-HIML": {
+          "abilityName": "Designador láser de alta intensidad",
+          "description": "Siempre que este agente realice la acción Designador láser, el agente enemigo elegido obtiene dos de tus fichas de Designador láser (en lugar de una)."
+        }
+      }
+    },
+    "TAU-PF-MV31": {
+      "opTypeName": "Dron Acelerador de Inducción MV31",
+      "weapons": {
+        "TAU-PF-MV31-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MV31-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        }
+      },
+      "actions": {
+        "TAU-PF-MV31-PA": {
+          "name": "Acelerador de inducción",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero),",
+            "siempre que otro agente RASTREADOR amigo dispare con un arma de inducción a 3\" o menos de este agente, esa arma tiene las reglas de armas Letal 5+ y Severa."
+          ]
+        }
+      }
+    },
+    "TAU-PF-MV33": {
+      "opTypeName": "Dron Gravinhibidor MV33",
+      "weapons": {
+        "TAU-PF-MV33-R": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-PF-MV33-A-DR": {
+          "abilityName": "Dron",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Designador láser, Reposicionarse y Disparar. No puede usar ningún arma que no esté en su hoja de datos.\n- Al determinar el control de un marcador de objetivo, considera que el atributo LPA de este agente es 1 menor.\n- Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\n"
+        },
+        "TAU-PF-MV33-A-GI": {
+          "abilityName": "Gravinhibidor",
+          "description": "\r - Siempre que un agente enemigo realice una acción en la que se mueva (excepto Correr), si fuera a moverse siendo visible para este agente y a 6\" o menos de él, considera la distancia como 2\" adicionales e ignora las distancias adicionales de las reglas de terreno Obstaculizador y Accesible. Ten en cuenta que esto no es un cambio al atributo Movimiento.\r - Siempre que un agente enemigo combata o contraataque mientras es visible para este agente y está a 6\" o menos de él, empeora en 1 el atributo Impactar de las armas de combate de ese agente enemigo. Esto es acumulativo con estar herido.\r "
+        }
+      }
+    }
+  }
+}

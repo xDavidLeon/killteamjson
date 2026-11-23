@@ -1,0 +1,469 @@
+{
+  "killteamId": "IMP-HC",
+  "locale": "es",
+  "team": {
+    "killteamName": "Clado Cazador",
+    "description": "Para los tecnofanáticos del Adeptus Mechanicus, la galaxia es un mecanismo complejo, y su funcionamiento, la creación de\nsu Dios Máquina. Consideran la adquisición de conocimiento una labor sagrada, y encomiendan a sus siervos alterados cibernéticamente\nque la lleven a cabo, cueste lo que cueste.",
+    "composition": "Un equipo de exterminio CLADO CAZADOR está compuesto por:\r \r - 1 agente CLADO CAZADOR elegido de la siguiente lista:\r   - PRINCEPS INFILTRADOR SICARIANO con una opción de cada una de las siguientes:\r     - Bláster de flechettes o carabina de balas\r     - Arma de energía o aguijada táser\r   - PRINCEPS ACECHADOR DEL ÓXIDO SICARIANO\r   - ALFA EXPLORADOR SKITARII con una de las siguientes opciones:\r     - Rifle galvánico; culata\r       - Pistola de radio de artesanía magistral; arma de energía  \r     O una opción de cada una de las siguientes:\r     - Pistola de arco o pistola de fósforo\r     - Maza de arco o aguijada táser\r   - ALFA DE VANGUARDIA SKITARII con una de las siguientes opciones:\r     - Carabina de radio; culata\r     - Pistola de radio de artesanía magistral; arma de energía  \r     O una opción de cada una de las siguientes:\r     - Pistola de arco o pistola de fósforo\r     - Maza de arco o aguijada táser\r - 9 agentes CLADO CAZADOR elegidos de la siguiente lista:\r   - GUERRERO INFILTRADOR SICARIANO* con una opción de cada una de las siguientes:\r     - Bláster de flechettes o carabina de balas\r     - Arma de energía o aguijada táser\r   - GUERRERO ACECHADOR DEL ÓXIDO SICARIANO* con una de las siguientes opciones:\r     - Garra cordal y navaja transónica\r     - Cuchillas transónicas\r   - DIKTAT EXPLORADOR SKITARII\r   - ARTILLERO EXPLORADOR SKITARII* con culata y una de las siguientes opciones:\r     - Rifle de arco, culebrina de plasma o arcabuz transuránico\r   - OTEADOR EXPLORADOR SKITARII\r   - GUERRERO EXPLORADOR SKITARII\r   - DIKTAT DE VANGUARDIA SKITARII\r   - ARTILLERO DE VANGUARDIA SKITARII* con culata y una de las siguientes opciones:\r     - Rifle de arco, culebrina de plasma o arcabuz transuránico    \r   - OTEADOR DE VANGUARDIA SKITARII\r   - GUERRERO DE VANGUARDIA SKITARII\r \r \r *No puedes seleccionar más de 7 de estos agentes en total.  \r \r Salvo los agentes ARTILLERO y GUERRERO, tu comando solo puede incluir cada agente de esta lista una vez.\r Tu comando solo puede incluir hasta un agente DIKTAT, hasta un agente OTEADOR y hasta cinco agentes SICARIANO.  \r \r Tu comando solo puede incluir hasta un rifle de arco, hasta una culebrina de plasma y hasta un arcabuz transuránico."
+  },
+  "ploys": {
+    "IMP-HC-S-AA": {
+      "ployName": "Agentes Acelerantes",
+      "description": "Durante la activación de cada agente CLADO CAZADOR ACECHADOR DEL ÓXIDO amigo, este puede realizar dos acciones de Combatir, y una de ellas puede ser libre."
+    },
+    "IMP-HC-S-DI": {
+      "ployName": "Irradiación Debilitante",
+      "description": "Siempre que un agente enemigo dispare, combata o contraataque contra un agente CLADO CAZADOR VANGUARDIA amigo, si ese agente enemigo está bajo los efectos de la regla Saturación radiactiva\n(ver agentes VANGUARDIA), resta 1 al atributo Daño normal de sus armas (hasta un mínimo de 3)."
+    },
+    "IMP-HC-S-NSI": {
+      "ployName": "Interferencia Neuroestática",
+      "description": "Siempre que un agente enemigo a 6\" o menos de un agente CLADO CAZADOR INFILTRADOR amigo esté disparando, combatiendo o contraatacando, tu oponente no puede repetir sus dados de ataque."
+    },
+    "IMP-HC-S-SP": {
+      "ployName": "Protocolo de Exploración",
+      "description": "Cada agente CLADO CAZADOR EXPLORADOR amigo que tenga una orden de Ocultarse y esté a más de 6\" de los agentes enemigos puede realizar de inmediato una acción libre de Correr, en el orden que elijas. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "IMP-HC-T-CE": {
+      "ployName": "Edicto de Control",
+      "description": "Usa este ardid de tiroteo cuando sea tu turno de activar un agente amigo. Selecciona un agente CLADO CAZADOR LÍDER amigo y otro agente CLADO CAZADOR amigo preparado que sea visible para ese agente LÍDER y esté a 3\" o menos de él;\nactiva uno de ellos de forma normal. Cuando ese primer agente amigo que actives quede gastado, puedes activar el otro agente amigo antes de que active tu oponente.\nCuando ese otro agente quede gastado, tu oponente activa entonces de forma normal. Siempre que uses este ardid, no puedes seleccionar más de un agente CLADO CAZADOR SICARIANO."
+    },
+    "IMP-HC-T-COR": {
+      "ployName": "Anulación de Mando",
+      "description": "Usa este ardid de tiroteo cuando actives un agente CLADO CAZADOR amigo. Selecciona un IMPERATIVO DOCTRINA para que ese agente lo tenga en lugar del que tenga actualmente (si lo hay) hasta el paso de Preparar de la siguiente fase de estrategia."
+    },
+    "IMP-HC-T-OI": {
+      "ployName": "Imperativo del Omnissiah",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CLADO CAZADOR amigo. Alternativamente, úsalo cuando un agente enemigo esté disparando contra un agente CLADO CAZADOR amigo, al final del paso de Tirar dados de ataque. Hasta el paso de Preparar de la siguiente fase de estrategia, ese agente amigo tiene una regla adicional determinada por su IMPERATIVO DOCTRINA actual, como sigue:\n- **Protector:** Las armas a distancia de este agente tienen la regla de armas Severa.\n- **Conquistador:** Siempre que este agente esté combatiendo, tras resolver tu primer dado de ataque durante esa secuencia, puedes resolver de inmediato otro (antes que tu oponente).\n- **Baluarte:** Mejora en 1 el atributo Salvación de este agente. Además, siempre que un agente dispare contra este agente, puedes coger y tirar un dado de defensa adicional. Si usas este ardid durante una acción de Disparar, el atributo Salvación de este agente cambia de inmediato (esto tiene preferencia sobre las reglas básicas).\n- **Agresor:** Puedes ignorar la primera distancia vertical de 2\" que este agente mueva durante una escalada.\n- **Neutral:** Ninguna.\n\nTen en cuenta que puedes usar este ardid tras tirar los dados de ataque o de defensa de este agente, o antes o después de conservar o repetir esos dados."
+    },
+    "IMP-HC-T-SCO": {
+      "ployName": "Sobrecarga de Código Chatarra",
+      "description": "Usa este ardid de tiroteo cuando se active un agente CLADO CAZADOR INFILTRADOR amigo. Alternativamente, usa este ardid de tiroteo cuando un agente CLADO CAZADOR INFILTRADOR amigo, o un agente enemigo a 3\" o menos de ese agente\namigo, fuera a realizar la acción Recoger Marcador o una acción de misión (excepto Operar escotilla). Hasta el inicio de la siguiente activación de ese agente amigo, siempre que se determine el control de un marcador, considera el atributo LPA total de los agentes\nenemigos que lo disputan como 1 menor si al menos uno de esos agentes enemigos está a 3\" o menos de ese agente amigo. Ten en cuenta que esto no es un cambio al atributo LPA, por lo que cualquier cambio es acumulable con esto, y esto puede cambiar el control de un marcador antes de realizar la acción."
+    }
+  },
+  "equipments": {
+    "IMP-HC-RB": {
+      "eqName": "Bombardeo Radiactivo",
+      "description": "Una vez por batalla, GAMBITO ESTRATÉGICO en cualquier punto de inflexión después del primero. Selecciona un marcador de objetivo o la zona de despliegue de tu oponente.\nTira un D6 por separado por cada agente enemigo dentro de la zona de control de ese marcador de objetivo seleccionado o dentro de esa zona de despliegue, y resta 1 si cualquier parte de la peana de ese agente enemigo está debajo de terreno Aventajado:  \n\ncon un 4+, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación;  \n\ncon un 6, además inflígele D3 de daño (tira por separado para cada uno)."
+    },
+    "IMP-HC-RS": {
+      "eqName": "Sistemas Redundantes",
+      "description": "Una vez por punto de inflexión, cuando se active un agente CLADO CAZADOR amigo, si no está dentro de la zona de control de agentes enemigos, puedes usar esta regla.\nSi lo haces, ese agente amigo recupera hasta D3+2 heridas perdidas."
+    },
+    "IMP-HC-RF": {
+      "eqName": "Campo Refractor",
+      "description": "Una vez por punto de inflexión, cuando un agente dispare contra un agente CLADO CAZADOR amigo, al inicio del paso de Tirar dados de defensa, puedes usar esta regla.\nSi lo haces, empeora en 1 la x de la regla de armas Penetración (si la hay) hasta el final de esa secuencia. Ten en cuenta que, por tanto, Penetración 1 se ignoraría."
+    },
+    "IMP-HC-EML": {
+      "eqName": "Enlace Mental Extremis",
+      "description": "Una vez por batalla, puedes usar el ardid de tiroteo Edicto de Control por 0PM, pero en lugar de activar los agentes amigos seleccionados uno tras otro, actívalos al mismo tiempo.\nCompleta sus activaciones acción por acción en cualquier orden."
+    }
+  },
+  "teamAbilities": {
+    "IMP-HC-TA-DOIM": {
+      "abilityName": "Imperativos Doctrina",
+      "description": "*Al final del paso de Seleccionar agentes, selecciona un IMPERATIVO DOCTRINA para que sea el Modo Primario de tu equipo de exterminio hasta el final de la batalla (ten en cuenta que seleccionar un Modo Primario no te otorga automáticamente los efectos de ese IMPERATIVO DOCTRINA durante la batalla; debes seguir seleccionándolo como GAMBITO ESTRATÉGICO, como se indica abajo).*  \n**GAMBITO ESTRATÉGICO**  \n\nSelecciona un IMPERATIVO DOCTRINA para que los agentes CLADO CAZADOR amigos lo tengan hasta el paso de Preparar de la siguiente fase de estrategia.\nCada IMPERATIVO DOCTRINA tiene una regla de Optimización y otra de Depreciación. Ambas están en vigor mientras tu equipo de exterminio tenga ese IMPERATIVO DOCTRINA.  \n  \n\n**Imperativo Protector**\n- Optimización: Las armas a distancia de los agentes CLADO CAZADOR amigos tienen la regla de armas Incesante.\n- Depreciación: Empeora en 1 el atributo Impactar de las armas cuerpo a cuerpo de los agentes CLADO CAZADOR amigos. Esto no es acumulable con estar herido.\n\n**Imperativo Conquistador**\n- Optimización: Las armas cuerpo a cuerpo de los agentes CLADO CAZADOR amigos tienen la regla de armas Incesante.\n- Depreciación: Empeora en 1 el atributo Impactar de las armas a distancia de los agentes CLADO CAZADOR amigos. Esto no es acumulable con estar herido.\n\n**Imperativo Baluarte**\n- Optimización: El Daño normal de 3 o más inflige 1 de daño menos a los agentes CLADO CAZADOR amigos.\n- Depreciación: Resta 1\" al atributo Movimiento de los agentes CLADO CAZADOR amigos.\n\n**Imperativo Agresor**\n- Optimización: Suma 1\" al atributo Movimiento de los agentes CLADO CAZADOR amigos.\n- Depreciación: Empeora en 1 el atributo Salvación de los agentes CLADO CAZADOR amigos.\n\n**Imperativo Neutral**\n- Optimización: Ninguna.\n- Depreciación: Ninguna.\n"
+    }
+  },
+  "opTypes": {
+    "IMP-HC-SRSP": {
+      "opTypeName": "Princeps Acechador del Óxido Sicariano",
+      "weapons": {
+        "IMP-HC-SRSP-CCATB": {
+          "wepName": "Garra cordal y cuchillas transónicas"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRSP-A-COD": {
+          "abilityName": "Cántico de destrucción",
+          "description": "Siempre que un agente CLADO CAZADOR ACECHADOR DEL ÓXIDO amigo a 3\" o menos de este agente esté combatiendo, la primera vez que golpees con un éxito crítico durante esa secuencia, inflige 1 de daño adicional."
+        },
+        "IMP-HC-SRSP-A-CP": {
+          "abilityName": "Protocolo de control",
+          "description": "Puedes usar el ardid de tiroteo Anulación de Mando por 0PM si el agente CLADO CAZADOR amigo especificado es visible para este agente."
+        },
+        "IMP-HC-SRSP-A-WS": {
+          "abilityName": "Acechador de los páramos",
+          "description": "Siempre que un agente dispare contra este agente, si\npuedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o\npuedes conservar una salvación por cobertura como éxito crítico en su lugar. Esto no es acumulable\ncon las salvaciones por cobertura mejoradas por terreno Aventajado."
+        }
+      }
+    },
+    "IMP-HC-SIP": {
+      "opTypeName": "Princeps Infiltrador Sicariano",
+      "weapons": {
+        "IMP-HC-SIP-FB": {
+          "wepName": "Bláster de flechettes"
+        },
+        "IMP-HC-SIP-SC": {
+          "wepName": "Carabina de balas"
+        },
+        "IMP-HC-SIP-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-HC-SIP-TG": {
+          "wepName": "Aguijada táser"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SIP-A-COS": {
+          "abilityName": "Cántico del salmo velado",
+          "description": "Siempre que un agente CLADO CAZADOR INFILTRADOR amigo esté a 3\" o menos de este agente, tenga una orden de Ocultarse y esté en cobertura, ese agente amigo no puede ser seleccionado como objetivo válido, lo que tiene preferencia sobre todas las demás reglas (p. ej. Buscadora, terreno Aventajado) salvo estar a 2\" o menos."
+        },
+        "IMP-HC-SIP-A-CP": {
+          "abilityName": "Protocolo de control",
+          "description": "Puedes usar el ardid de tiroteo Anulación de Mando por 0PM si el agente CLADO CAZADOR amigo especificado es visible para este agente."
+        }
+      }
+    },
+    "IMP-HC-SRGA": {
+      "opTypeName": "Alfa Explorador Skitarii",
+      "weapons": {
+        "IMP-HC-SRGA-AP": {
+          "wepName": "Pistola de arco"
+        },
+        "IMP-HC-SRGA-GR": {
+          "wepName": "Rifle galvánico"
+        },
+        "IMP-HC-SRGA-MCRP": {
+          "wepName": "Pistola de radio de artesanía magistral"
+        },
+        "IMP-HC-SRGA-PBP": {
+          "wepName": "Pistola de fósforo"
+        },
+        "IMP-HC-SRGA-AM": {
+          "wepName": "Maza de arco"
+        },
+        "IMP-HC-SRGA-GB": {
+          "wepName": "Culata"
+        },
+        "IMP-HC-SRGA-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-HC-SRGA-TG": {
+          "wepName": "Aguijada táser"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRGA-A-COE": {
+          "abilityName": "Cántico de eliminación",
+          "description": "Siempre que un agente CLADO CAZADOR EXPLORADOR amigo esté a 3\" o menos de este agente, las armas a distancia de ese agente amigo tienen la regla de armas Castigadora."
+        },
+        "IMP-HC-SRGA-A-CP": {
+          "abilityName": "Protocolo de control",
+          "description": "Puedes usar el ardid de tiroteo Anulación de Mando por 0PM si el agente CLADO CAZADOR amigo especificado es visible para este agente."
+        },
+        "IMP-HC-SRGA-A-TP": {
+          "abilityName": "Protocolo de puntería",
+          "description": "Siempre que este agente esté disparando, si no se ha movido durante la activación, o si es una reacción, las armas a distancia de su ficha de datos tienen la regla de armas Letal 5+. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      }
+    },
+    "IMP-HC-SVA": {
+      "opTypeName": "Alfa de Vanguardia Skitarii",
+      "weapons": {
+        "IMP-HC-SVA-AP": {
+          "wepName": "Pistola de arco"
+        },
+        "IMP-HC-SVA-MCRP": {
+          "wepName": "Pistola de radio de artesanía magistral"
+        },
+        "IMP-HC-SVA-PBP": {
+          "wepName": "Pistola de fósforo"
+        },
+        "IMP-HC-SVA-RC": {
+          "wepName": "Carabina de radio"
+        },
+        "IMP-HC-SVA-AM": {
+          "wepName": "Maza de arco"
+        },
+        "IMP-HC-SVA-GB": {
+          "wepName": "Culata"
+        },
+        "IMP-HC-SVA-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-HC-SVA-TG": {
+          "wepName": "Aguijada táser"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SVA-A-COG": {
+          "abilityName": "Cántico del resplandor",
+          "description": "Siempre que un agente enemigo esté a 3\" o menos de este agente, si está bajo los efectos de la regla Saturación radiactiva, resta también 1 al atributo Ataques de las armas de ese agente enemigo."
+        },
+        "IMP-HC-SVA-A-CP": {
+          "abilityName": "Protocolo de control",
+          "description": "Puedes usar el ardid de tiroteo Anulación de Mando por 0PM si el agente CLADO CAZADOR amigo especificado es visible para este agente."
+        },
+        "IMP-HC-SVA-A-RS": {
+          "abilityName": "Saturación radiactiva",
+          "description": "Siempre que un agente enemigo esté a 2\" o menos de agentes CLADO CAZADOR VANGUARDIA amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+        }
+      }
+    },
+    "IMP-HC-SIW": {
+      "opTypeName": "Guerrero Infiltrador Sicariano",
+      "weapons": {
+        "IMP-HC-SIW-FB": {
+          "wepName": "Bláster de flechettes"
+        },
+        "IMP-HC-SIW-SC": {
+          "wepName": "Carabina de balas"
+        },
+        "IMP-HC-SIW-PW": {
+          "wepName": "Arma de energía"
+        },
+        "IMP-HC-SIW-TG": {
+          "wepName": "Aguijada táser"
+        }
+      }
+    },
+    "IMP-HC-SRSW": {
+      "opTypeName": "Guerrero Acechador del Óxido Sicariano",
+      "weapons": {
+        "IMP-HC-SRSW-CCATB": {
+          "wepName": "Garra cordal y navaja transónica"
+        },
+        "IMP-HC-SRSW-TB": {
+          "wepName": "Cuchillas transónicas"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRSW-A-WS": {
+          "abilityName": "Acechador de los páramos",
+          "description": "Siempre que un agente dispare contra este agente, si\npuedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o\npuedes conservar una salvación por cobertura como éxito crítico en su lugar. Esto no es acumulable\ncon las salvaciones por cobertura mejoradas por terreno Aventajado."
+        }
+      }
+    },
+    "IMP-HC-SRGD": {
+      "opTypeName": "Diktat Explorador Skitarii",
+      "weapons": {
+        "IMP-HC-SRGD-GR": {
+          "wepName": "Rifle galvánico"
+        },
+        "IMP-HC-SRGD-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRGD-A-TP": {
+          "abilityName": "Protocolo de puntería",
+          "description": "Siempre que este agente esté disparando, si no se ha movido durante la activación, o si es una reacción, las armas a distancia de su ficha de datos tienen la regla de armas Letal 5+. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      },
+      "actions": {
+        "IMP-HC-SRGD-SIG": {
+          "name": "Señalar",
+          "effects": [
+            "**APOYO** Selecciona otro agente CLADO CAZADOR amigo que sea visible para este agente y esté a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-HC-SRGG": {
+      "opTypeName": "Artillero Explorador Skitarii",
+      "weapons": {
+        "IMP-HC-SRGG-AR": {
+          "wepName": "Rifle de arco"
+        },
+        "IMP-HC-SRGG-PC": {
+          "wepName": "Culebrina de plasma",
+          "profiles": {
+            "IMP-HC-SRGG-PC-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-HC-SRGG-PC-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-HC-SRGG-TA": {
+          "wepName": "Arcabuz transuránico",
+          "profiles": {
+            "IMP-HC-SRGG-TA-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-HC-SRGG-TA-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-HC-SRGG-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRGG-A-TP": {
+          "abilityName": "Protocolo de puntería",
+          "description": "Siempre que este agente esté disparando, si no se ha movido durante la activación, o si es una reacción, las armas a distancia de su ficha de datos tienen la regla de armas Letal 5+. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      }
+    },
+    "IMP-HC-SRGS": {
+      "opTypeName": "Oteador Explorador Skitarii",
+      "weapons": {
+        "IMP-HC-SRGS-GR": {
+          "wepName": "Rifle galvánico"
+        },
+        "IMP-HC-SRGS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRGS-A-TP": {
+          "abilityName": "Protocolo de puntería",
+          "description": "Siempre que este agente esté disparando, si no se ha movido durante la activación, o si es una reacción, las armas a distancia de su ficha de datos tienen la regla de armas Letal 5+. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      },
+      "actions": {
+        "IMP-HC-SRGS-SPT": {
+          "name": "Avistar",
+          "effects": [
+            "**APOYO**",
+            "Selecciona un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente CLADO CAZADOR amigo a 3\" o menos de este agente esté disparando contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-HC-SRGW": {
+      "opTypeName": "Guerrero Explorador Skitarii",
+      "weapons": {
+        "IMP-HC-SRGW-GR": {
+          "wepName": "Rifle galvánico"
+        },
+        "IMP-HC-SRGW-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SRGW-A-TP": {
+          "abilityName": "Protocolo de puntería",
+          "description": "Siempre que este agente esté disparando, si no se ha movido durante la activación, o si es una reacción, las armas a distancia de su ficha de datos tienen la regla de armas Letal 5+. Ten en cuenta que este agente no tiene restringido moverse después de disparar."
+        }
+      }
+    },
+    "IMP-HC-SVD": {
+      "opTypeName": "Diktat de Vanguardia Skitarii",
+      "weapons": {
+        "IMP-HC-SVD-RC": {
+          "wepName": "Carabina de radio"
+        },
+        "IMP-HC-SVD-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SVD-A-RS": {
+          "abilityName": "Saturación radiactiva",
+          "description": "Siempre que un agente enemigo esté a 2\" o menos de agentes CLADO CAZADOR VANGUARDIA amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+        }
+      },
+      "actions": {
+        "IMP-HC-SVD-SIG": {
+          "name": "Señalar",
+          "effects": [
+            "**APOYO**",
+            "Selecciona otro agente CLADO CAZADOR amigo que sea visible para este agente y esté a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-HC-SVG": {
+      "opTypeName": "Artillero de Vanguardia Skitarii",
+      "weapons": {
+        "IMP-HC-SVG-AR": {
+          "wepName": "Rifle de arco"
+        },
+        "IMP-HC-SVG-PC": {
+          "wepName": "Culebrina de plasma",
+          "profiles": {
+            "IMP-HC-SVG-PC-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-HC-SVG-PC-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-HC-SVG-TA": {
+          "wepName": "Arcabuz transuránico",
+          "profiles": {
+            "IMP-HC-SVG-TA-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-HC-SVG-TA-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-HC-SVG-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SVG-A-RS": {
+          "abilityName": "Saturación radiactiva",
+          "description": "Siempre que un agente enemigo esté a 2\" o menos de agentes CLADO CAZADOR VANGUARDIA amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+        }
+      }
+    },
+    "IMP-HC-SVS": {
+      "opTypeName": "Oteador de Vanguardia Skitarii",
+      "weapons": {
+        "IMP-HC-SVS-RC": {
+          "wepName": "Carabina de radio"
+        },
+        "IMP-HC-SVS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SVS-A-RS": {
+          "abilityName": "Saturación radiactiva",
+          "description": "Siempre que un agente enemigo esté a 2\" o menos de agentes CLADO CAZADOR VANGUARDIA amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+        }
+      },
+      "actions": {
+        "IMP-HC-SVS-SPT": {
+          "name": "Avistar",
+          "effects": [
+            "**APOYO**",
+            "Selecciona un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente CLADO CAZADOR amigo a 3\" o menos de este agente esté disparando contra ese agente enemigo, puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-HC-SVW": {
+      "opTypeName": "Guerrero de Vanguardia Skitarii",
+      "weapons": {
+        "IMP-HC-SVW-RC": {
+          "wepName": "Carabina de radio"
+        },
+        "IMP-HC-SVW-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-HC-SVW-A-RS": {
+          "abilityName": "Saturación radiactiva",
+          "description": "Siempre que un agente enemigo esté a 2\" o menos de agentes CLADO CAZADOR VANGUARDIA amigos, empeora en 1 el atributo Impactar de las armas de ese agente enemigo. Esto no es acumulable con estar herido."
+        }
+      }
+    }
+  }
+}
