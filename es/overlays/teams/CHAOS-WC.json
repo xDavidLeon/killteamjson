@@ -1,0 +1,428 @@
+{
+  "killteamId": "CHAOS-WC",
+  "locale": "es",
+  "team": {
+    "killteamName": "Aquelarre Disforme",
+    "description": "Muchos son los oscuros y terribles secretos de la galaxia, y los Mil Hijos buscan conocerlos todos. Reuniendo\na implacables Rubricae y a mutantes degenerados, los equipos de exterminio del Aquelarre Disforme emplean por igual la hechicería y el salvajismo mientras barren\na quienes se interponen en su camino.",
+    "composition": "El equipo de exterminio AQUELARRE DISFORME está compuesto por 5 agentes AQUELARRE DISFORME elegidos de la siguiente lista:\n\n- HECHICERO DEL DESTINO *(1)*\n- HECHICERO DE TEMPYRION *(1)*\n- HECHICERO DEL FUEGO DISFORME *(1)*\n- ARTILLERO MARINE DE LA RÚBRICA con una de las siguientes opciones:\n  - Lanzallamas disforme; puños\n  - Cañón segador de almas *(2)*; puños\n- PORTAICONO MARINE DE LA RÚBRICA\n- GUERRERO MARINE DE LA RÚBRICA\n- CAMPEÓN TZAANGOR *(3)* con una de las siguientes opciones:\n  - Gran hacha\n  - Gran espada\n- PORTACUERNO TZAANGOR *(3)*\n- PORTAICONO TZAANGOR *(3)*\n- GUERRERO TZAANGOR *(3)* con una de las siguientes opciones:\n- Hojas tzaangor\n  - Hoja y escudo tzaangor\n  - Pistola automática; espada sierra\n\n**(1):** Con báculo de fuerza, las armas PSÍQUICAS de su hoja de datos y una de las siguientes opciones:\n- Pistola bólter infernal\n- Khopesh prosperino\n- Pistola de llama disforme\n\n**(2):** Tu comando solo puede incluir hasta una pistola de llama disforme y hasta un cañón segador de almas.  \n\n**(3):** Cada uno de estos agentes cuenta como media selección.  \n\nDebes seleccionar al menos un agente HECHICERO amigo.\n\nSalvo los agentes GUERRERO y ARTILLERO, tu comando solo puede incluir a cada agente de esta lista una vez."
+  },
+  "ploys": {
+    "CHAOS-WC-S-AW": {
+      "ployName": "Protección etérea",
+      "description": "Siempre que un agente dispare contra un agente AQUELARRE DISFORME amigo, las armas con la regla de armas Penetración 1 tienen en su lugar la regla de armas Penetración Crítica 1."
+    },
+    "CHAOS-WC-S-BOS": {
+      "ployName": "Hermandad de Hechiceros",
+      "description": "Las armas PSÍQUICAS de los agentes AQUELARRE DISFORME HECHICERO amigos tienen la regla de armas Equilibrada, o Incesante en su lugar si otro agente AQUELARRE DISFORME HECHICERO amigo está a 9\" o menos de ese agente.  \r **Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)  \r **Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "CHAOS-WC-S-FIIMW": {
+      "ployName": "El propio destino es mi arma",
+      "description": "Tira 2D6 y resérvalos (ponlos a un lado).\r En la siguiente fase de tiroteo, siempre que un agente dispare, combata o contraataque, después de que tú o tu oponente tiréis los dados de ataque, pero antes de las repeticiones,\r puedes usar uno de tus dados reservados para sustituir uno de los D6 tirados en esa secuencia (tuyos o de tu oponente);\r ese dado de sustitución no puede repetirse ni guardarse como éxito o éxito crítico si no lo es, y se descarta al final de esa secuencia.\r Después, si el resultado combinado de ambos dados reservados era menor que 9, descarta el otro dado.\r No puedes usar más de un dado reservado por secuencia. Descarta los dados reservados que queden al final del punto de inflexión."
+    },
+    "CHAOS-WC-S-SH": {
+      "ployName": "Manada salvaje",
+      "description": "Las armas de combate de los agentes AQUELARRE DISFORME TZAANGOR amigos tienen la regla de armas Certera 1.\nSiempre que un agente AQUELARRE DISFORME TZAANGOR amigo reciba apoyo de un agente AQUELARRE DISFORME amigo, o combata mientras es visible para un agente AQUELARRE DISFORME HECHICERO amigo y está a 6\" o menos de él,\nlas armas de combate de ese agente AQUELARRE DISFORME TZAANGOR amigo también tienen la regla de armas Severa.  \n**Severa:** Si no guardas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Cualquier regla que surta efecto como resultado de guardar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue haciéndolo.  \n**Certera 1:** Puedes guardar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "CHAOS-WC-T-AID": {
+      "ployName": "Todo es polvo",
+      "description": "Usa este ardid de tiroteo cuando un dado de ataque inflija Daño normal a un agente AQUELARRE DISFORME MARINE DE LA RÚBRICA amigo. Ese dado de ataque inflige 1 de daño en su lugar."
+    },
+    "CHAOS-WC-T-CP": {
+      "ployName": "Plan caprichoso",
+      "description": "Usa este ardid de tiroteo al final de la activación de un agente AQUELARRE DISFORME HECHICERO amigo.\r Ese agente amigo puede realizar inmediatamente una acción gratuita de Correr (incluso si ha realizado una acción que le impida realizar la acción Correr), o en su lugar puedes cambiar su orden."
+    },
+    "CHAOS-WC-T-MH": {
+      "ployName": "Manada mutante",
+      "description": "Usa este ardid de tiroteo cuando se active un agente AQUELARRE DISFORME TZAANGOR amigo. Elige otro agente AQUELARRE DISFORME TZAANGOR amigo preparado que sea visible para él y esté a 2\" o menos de él para activarlo al mismo tiempo.\nCompleta sus activaciones acción por acción en cualquier orden."
+    },
+    "CHAOS-WC-T-PB": {
+      "ployName": "Cábala psíquica",
+      "description": "Usa este ardid de tiroteo cuando se active un agente AQUELARRE DISFORME HECHICERO amigo.\r Elige otro agente AQUELARRE DISFORME HECHICERO amigo que sea visible para ese agente y esté a 9\" o menos de él,\r y después elige una de las acciones únicas PSÍQUICAS o armas a distancia PSÍQUICAS de ese otro agente amigo para que el primer agente amigo la tenga hasta el final de su activación.  \nNo puedes elegir un arma a distancia PSÍQUICA que ese otro agente amigo haya usado durante este punto de inflexión, y ese otro agente amigo no puede usar el arma elegida durante este punto de inflexión."
+    }
+  },
+  "equipments": {
+    "CHAOS-WC-ER": {
+      "eqName": "Munición hechizada",
+      "description": "Los bólters infernales, pistolas bólter infernales y pistolas automáticas de los agentes AQUELARRE DISFORME amigos tienen la regla de armas Devastadora 1."
+    },
+    "CHAOS-WC-DMW": {
+      "eqName": "Armas fauces demoníacas",
+      "description": "Suma 1 al atributo Atq de las armas de combate de los agentes AQUELARRE DISFORME MARINE DE LA RÚBRICA amigos. Siempre que un agente AQUELARRE DISFORME MARINE DE LA RÚBRICA amigo contraataque, sus armas de combate tienen la regla de armas Certera 1."
+    },
+    "CHAOS-WC-SS": {
+      "eqName": "Pergaminos hechiceros",
+      "description": "Una vez por batalla, cuando un agente AQUELARRE DISFORME HECHICERO amigo se active o reaccione, puedes elegir un DON DE TZEENTCH diferente para que lo tenga hasta el final de la batalla (pierde cualquiera que tuviera antes). No puede ser el mismo DON DE TZEENTCH que tenga cualquier otro agente amigo."
+    },
+    "CHAOS-WC-AR": {
+      "eqName": "Túnicas arcanas",
+      "description": "Siempre que un dado de ataque fuera a infligir Daño crítico a un agente AQUELARRE DISFORME HECHICERO amigo, puedes elegir que ese dado de ataque inflija Daño normal en su lugar.\nNo puedes usar esta regla para cada agente AQUELARRE DISFORME HECHICERO amigo más de una vez por punto de inflexión."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-WC-TA-LEDE": {
+      "abilityName": "Líder - Destino",
+      "description": "Debes seleccionar al menos un agente HECHICERO amigo, y uno de tus agentes HECHICERO seleccionados debe tener la clave LÍDER durante la batalla.\nSuma 1 al atributo Heridas de ese agente LÍDER durante la batalla."
+    },
+    "CHAOS-WC-TA-BOINSI": {
+      "abilityName": "[DT] Visión incorpórea",
+      "description": "Las armas a distancia de este agente tienen\nla regla de armas Saturación. Siempre que\neste agente dispare, los agentes enemigos\nno pueden estar ofuscados."
+    },
+    "CHAOS-WC-TA-BOTIWA": {
+      "abilityName": "[DT] Paseo temporal",
+      "description": "Suma 1\" al atributo Movimiento de este agente."
+    },
+    "CHAOS-WC-TA-BOECFRTHWA": {
+      "abilityName": "[DT] Ecos de la Disformidad",
+      "description": "Siempre que reacciones con este agente, puedes cambiar primero su orden, y puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas."
+    },
+    "CHAOS-WC-TA-BOWASW": {
+      "abilityName": "[DT] Oleada disforme",
+      "description": "Suma 1 al atributo Daño normal de las armas de combate de este agente."
+    },
+    "CHAOS-WC-TA-BOIMFL": {
+      "abilityName": "[DT] Vuelo inmaterial",
+      "description": "Una vez por punto de inflexión, cuando este agente esté realizando la acción Cargar o Reposicionarse durante su activación, puede VOLAR.\nSi lo hace, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo totalmente a una distancia de su ubicación original igual a su atributo Movimiento, midiendo solo la distancia horizontal.\nEn una zona de aniquilación que use las reglas de espacios cerrados (p. ej., Zona de aniquilación: Gallowdark), esta distancia no puede medirse por encima ni a través de terreno de Muro, y ese agente no puede desplegarse al otro lado de un punto de acceso\n(en otras palabras, no puede VOLAR a través de una escotilla abierta).  \n\nTen en cuenta que no gana distancia adicional al realizar la acción Cargar. Debe desplegarse en una ubicación en la que pueda colocarse y, salvo que sea la acción Cargar, no puede desplegarse en la zona de control de un agente enemigo."
+    },
+    "CHAOS-WC-TA-BOTWOFFA": {
+      "abilityName": "[DT] Giro del destino",
+      "description": "Las armas a distancia PSÍQUICAS de este agente tienen la regla de armas Penetración Crítica 1."
+    },
+    "CHAOS-WC-TA-BOMUAP": {
+      "abilityName": "[DT] Apéndice mutante",
+      "description": "Tener un agente enemigo en la zona de control de este agente no le impide realizar la acción Recoger Marcador ni acciones de misión.  \n\nUna vez por activación, este agente puede realizar la acción Recoger Marcador, Colocar Marcador o una acción de misión por 1 PA menos."
+    },
+    "CHAOS-WC-TA-BOASBO": {
+      "abilityName": "[DT] Bombardeo astral",
+      "description": "Elige una de las armas a distancia PSÍQUICAS de este agente. Esa arma tiene la regla de armas Devastadora 1. Si eliges una descarga funesta, tiene la regla de armas 2\" Devastadora 2 en lugar de Devastadora 2.  \nSi eliges Tormenta de fuego o Quemamentes (HECHICERO DEL FUEGO DISFORME), siempre que ese agente realice la acción Disparar, elige la regla de armas Buscadora (Ligero) o Devastadora 1 para que esa arma la tenga hasta el final de la acción (no puede tener ambas)."
+    },
+    "CHAOS-WC-TA-BOASBODO": {
+      "abilityName": "[DT] Bombardeo astral (Descarga funesta)",
+      "description": "Elige una de las armas a distancia PSÍQUICAS de este agente. Esa arma tiene la regla de armas Devastadora 1. Si eliges una descarga funesta, tiene la regla de armas 2\" Devastadora 2 en lugar de Devastadora 2.  \nSi eliges Tormenta de fuego o Quemamentes (HECHICERO DEL FUEGO DISFORME), siempre que ese agente realice la acción Disparar, elige la regla de armas Buscadora (Ligero) o Devastadora 1 para que esa arma la tenga hasta el final de la acción (no puede tener ambas)."
+    },
+    "CHAOS-WC-TA-BOMAOFTHIM": {
+      "abilityName": "[DT] Maestro del Inmaterium",
+      "description": "Suma 3\" a los requisitos de distancia de las acciones PSÍQUICAS de este agente que tengan un requisito de distancia.   \nTen en cuenta que, para la acción Flujo temporal del HECHICERO DE TEMPYRION, este don solo afecta a la distancia del primer efecto de esa regla."
+    },
+    "CHAOS-WC-TA-LETE": {
+      "abilityName": "Líder - Tempyrion",
+      "description": "Debes seleccionar al menos un agente HECHICERO amigo, y uno de tus agentes HECHICERO seleccionados debe tener la clave LÍDER durante la batalla.\nSuma 1 al atributo Heridas de ese agente LÍDER durante la batalla."
+    },
+    "CHAOS-WC-TA-LEWA": {
+      "abilityName": "Líder - Fuego disforme",
+      "description": "Debes seleccionar al menos un agente HECHICERO amigo, y uno de tus agentes HECHICERO seleccionados debe tener la clave LÍDER durante la batalla.\nSuma 1 al atributo Heridas de ese agente LÍDER durante la batalla."
+    }
+  },
+  "opTypes": {
+    "CHAOS-WC-SOD": {
+      "opTypeName": "Hechicero del Destino",
+      "weapons": {
+        "CHAOS-WC-SOD-IBP": {
+          "wepName": "Pistola bólter infernal"
+        },
+        "CHAOS-WC-SOD-WFP": {
+          "wepName": "Pistola de llama disforme"
+        },
+        "CHAOS-WC-SOD-DB": {
+          "wepName": "Descarga funesta"
+        },
+        "CHAOS-WC-SOD-FS": {
+          "wepName": "Báculo de fuerza"
+        },
+        "CHAOS-WC-SOD-PK": {
+          "wepName": "Khopesh prosperino"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-SOD-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-SOD-A-BOT": {
+          "abilityName": "Dones de Tzeentch",
+          "description": "Siempre que selecciones un agente HECHICERO para la batalla, debes elegir un DON DE TZEENTCH (abajo) para que lo tenga durante la batalla. No puedes elegir cada DON DE TZEENTCH más de una vez por batalla."
+        }
+      },
+      "actions": {
+        "CHAOS-WC-SOD-PBF": {
+          "name": "Protegido por el destino",
+          "effects": [
+            "**PSÍQUICA** Elige un agente AQUELARRE DISFORME amigo visible para este agente. Hasta el inicio de la siguiente activación de este agente,",
+            "hasta que resulte incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que un agente dispare contra ese agente elegido, puedes repetir cualquiera de tus dados de defensa."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un\nagente enemigo."
+          ]
+        },
+        "CHAOS-WC-SOD-RD": {
+          "name": "Devastar el destino",
+          "effects": [
+            "**PSÍQUICA** Elige un agente enemigo que sea visible para este agente y esté a 9\" o menos de él.",
+            "Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que ese agente enemigo dispare, combata o contraataque, tu oponente debe repetir sus resultados de 6 en los dados de ataque, y siempre que se determine el control de un marcador,",
+            "considera que el atributo LPA de ese agente enemigo es 1 menor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que",
+            "cualquier cambio es acumulativo con esto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-WC-SOT": {
+      "opTypeName": "Hechicero de Tempyrion",
+      "weapons": {
+        "CHAOS-WC-SOT-IBP": {
+          "wepName": "Pistola bólter infernal"
+        },
+        "CHAOS-WC-SOT-WFP": {
+          "wepName": "Pistola de llama disforme"
+        },
+        "CHAOS-WC-SOT-FB": {
+          "wepName": "Explosión de flujo"
+        },
+        "CHAOS-WC-SOT-FS": {
+          "wepName": "Báculo de fuerza"
+        },
+        "CHAOS-WC-SOT-PK": {
+          "wepName": "Khopesh prosperino"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-SOT-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-SOT-A-BOT": {
+          "abilityName": "Dones de Tzeentch",
+          "description": "Siempre que selecciones un agente HECHICERO para la batalla, debes elegir un DON DE TZEENTCH (abajo) para que lo tenga durante la batalla. No puedes elegir cada DON DE TZEENTCH más de una vez por batalla."
+        }
+      },
+      "actions": {
+        "CHAOS-WC-SOT-RR": {
+          "name": "Ritual de reconstitución",
+          "effects": [
+            "**PSÍQUICA** Elige un agente AQUELARRE DISFORME amigo que sea visible para este agente y esté a 6\" o menos de él. Ese agente recupera hasta 2D3 heridas perdidas."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si un agente amigo ya ha realizado esta acción durante este punto de inflexión."
+          ]
+        },
+        "CHAOS-WC-SOT-TF": {
+          "name": "Flujo temporal",
+          "effects": [
+            "**PSÍQUICA** Elige un agente AQUELARRE DISFORME amigo que sea visible para este agente y esté a 6\" o menos de él, y coloca tu marcador de Flujo temporal en la zona de control de ese agente.",
+            "Al final de la siguiente activación de ese agente, si no ha resultado incapacitado y sigue estando totalmente a 6\" o menos de tu marcador de Flujo temporal, retira a ese agente de la zona de aniquilación y vuelve a desplegarlo en una",
+            "ubicación en la que pueda colocarse;",
+            "cuando vuelva a desplegarse, debe tener tu marcador de Flujo temporal en su zona de control (o lo más cerca posible).",
+            "Después retira tu marcador de Flujo temporal de la zona de aniquilación. Si ese agente no está totalmente a 6\" o menos de tu marcador de Flujo temporal (incluso si está incapacitado), retira ese marcador de la zona de aniquilación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si tu\nmarcador de Flujo temporal está actualmente en la zona de aniquilación."
+          ]
+        }
+      }
+    },
+    "CHAOS-WC-SOW": {
+      "opTypeName": "Hechicero del Fuego Disforme",
+      "weapons": {
+        "CHAOS-WC-SOW-IBP": {
+          "wepName": "Pistola bólter infernal"
+        },
+        "CHAOS-WC-SOW-WFP": {
+          "wepName": "Pistola de llama disforme"
+        },
+        "CHAOS-WC-SOW-FSTRM": {
+          "wepName": "Tormenta de fuego"
+        },
+        "CHAOS-WC-SOW-MB": {
+          "wepName": "Quemamentes"
+        },
+        "CHAOS-WC-SOW-FS": {
+          "wepName": "Báculo de fuerza"
+        },
+        "CHAOS-WC-SOW-PK": {
+          "wepName": "Khopesh prosperino"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-SOW-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-SOW-A-BOT": {
+          "abilityName": "Dones de Tzeentch",
+          "description": "Siempre que selecciones un agente HECHICERO para la batalla, debes elegir un DON DE TZEENTCH (abajo) para que lo tenga durante la batalla. No puedes elegir cada DON DE TZEENTCH más de una vez por batalla."
+        }
+      },
+      "actions": {
+        "CHAOS-WC-SOW-AL": {
+          "name": "Prender",
+          "effects": [
+            "**PSÍQUICA** Elige un agente enemigo visible para este agente.\r Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado o hasta que un agente amigo vuelva a realizar esta acción (lo que ocurra primero),\r ese agente enemigo gana una de tus fichas de Prender (si no tiene ya una).\r Siempre que un agente AQUELARRE DISFORME amigo dispare, combata o contraataque contra un agente enemigo que tenga una de tus fichas de Prender, las armas de ese agente amigo tienen la regla de armas Incesante."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-WC-GNR": {
+      "opTypeName": "Artillero Marine de la Rúbrica",
+      "weapons": {
+        "CHAOS-WC-GNR-SRC": {
+          "wepName": "Cañón segador de almas",
+          "profiles": {
+            "CHAOS-WC-GNR-SRC-0": {
+              "profileName": "Concentrado"
+            },
+            "CHAOS-WC-GNR-SRC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "CHAOS-WC-GNR-WFL": {
+          "wepName": "Lanzallamas disforme"
+        },
+        "CHAOS-WC-GNR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-GNR-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-GNR-A-SA": {
+          "abilityName": "Autómatas hechiceros",
+          "description": "Siempre que este agente se active, resta 1 a su atributo LPA hasta el final de esa activación, a menos que un agente AQUELARRE DISFORME HECHICERO amigo esté a 9\" o menos de él."
+        }
+      }
+    },
+    "CHAOS-WC-IB": {
+      "opTypeName": "Portaicono Marine de la Rúbrica",
+      "weapons": {
+        "CHAOS-WC-IB-IBG": {
+          "wepName": "Bólter infernal"
+        },
+        "CHAOS-WC-IB-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-IB-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-IB-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Siempre que se determine el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        },
+        "CHAOS-WC-IB-A-SA": {
+          "abilityName": "Autómatas hechiceros",
+          "description": "Siempre que este agente se active, resta 1 a su atributo LPA hasta el final de esa activación, a menos que un agente AQUELARRE DISFORME HECHICERO amigo esté a 9\" o menos de él."
+        }
+      }
+    },
+    "CHAOS-WC-WAR": {
+      "opTypeName": "Guerrero Marine de la Rúbrica",
+      "weapons": {
+        "CHAOS-WC-WAR-IBG": {
+          "wepName": "Bólter infernal"
+        },
+        "CHAOS-WC-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-WAR-A-AS": {
+          "abilityName": "Astartes",
+          "description": "Durante la activación de cada agente AQUELARRE DISFORME HERETIC ASTARTES amigo, este puede realizar o bien dos acciones de Disparar, o bien dos acciones de Combatir.\nSi son dos acciones de Disparar y en ambas se selecciona un cañón segador de almas o un lanzallamas disforme, debe gastarse 1 PA adicional para la segunda acción.\nNo puedes seleccionar la misma arma a distancia PSÍQUICA más de una vez por activación.\nCada agente AQUELARRE DISFORME HERETIC ASTARTES amigo puede reaccionar con independencia de su orden. Siempre que un AQUELARRE DISFORME HECHICERO amigo lo haga, puede realizar una acción adicional de 1PA gratis durante esa reacción, pero ambas acciones deben ser distintas y no puedes realizar una acción de Combatir y Disparar durante la misma reacción."
+        },
+        "CHAOS-WC-WAR-A-SA": {
+          "abilityName": "Autómatas hechiceros",
+          "description": "Siempre que este agente se active, resta 1 a su atributo LPA hasta el final de esa activación, a menos que un agente AQUELARRE DISFORME HECHICERO amigo esté a 9\" o menos de él."
+        },
+        "CHAOS-WC-WAR-A-SAP": {
+          "abilityName": "Lento y decidido",
+          "description": "Siempre que este agente dispare, si no ha realizado la acción Cargar o Reposicionarse durante la activación, o si es una reacción, sus armas a distancia tienen la regla de armas Incesante.\nTen en cuenta que este agente no tiene restringido realizar estas acciones después de disparar."
+        }
+      }
+    },
+    "CHAOS-WC-TZC": {
+      "opTypeName": "Campeón Tzaangor",
+      "weapons": {
+        "CHAOS-WC-TZC-GA": {
+          "wepName": "Gran hacha"
+        },
+        "CHAOS-WC-TZC-GB": {
+          "wepName": "Gran espada"
+        }
+      }
+    },
+    "CHAOS-WC-TZHB": {
+      "opTypeName": "Portacuerno Tzaangor",
+      "weapons": {
+        "CHAOS-WC-TZHB-D": {
+          "wepName": "Daga"
+        }
+      },
+      "actions": {
+        "CHAOS-WC-TZHB-BH": {
+          "name": "Cuerno bramador",
+          "effects": [
+            "Hasta el paso de Preparación de la siguiente fase de estrategia, suma 1\" al atributo Movimiento de los agentes AQUELARRE DISFORME TZAANGOR amigos."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "CHAOS-WC-TZIB": {
+      "opTypeName": "Portaicono Tzaangor",
+      "weapons": {
+        "CHAOS-WC-TZIB-D": {
+          "wepName": "Daga"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-TZIB-A-HB": {
+          "abilityName": "Estandarte de la manada",
+          "description": "Siempre que un dado de ataque inflija un Daño normal de 3 o más a un agente AQUELARRE DISFORME TZAANGOR amigo que sea visible para este agente y esté a 3\" o menos de él, resta 1 a ese daño infligido."
+        },
+        "CHAOS-WC-TZIB-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Siempre que se determine el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        }
+      }
+    },
+    "CHAOS-WC-TZWAR": {
+      "opTypeName": "Guerrero Tzaangor",
+      "weapons": {
+        "CHAOS-WC-TZWAR-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-WC-TZWAR-CS": {
+          "wepName": "Espada sierra"
+        },
+        "CHAOS-WC-TZWAR-TBS": {
+          "wepName": "Hoja y escudo tzaangor"
+        },
+        "CHAOS-WC-TZWAR-TB": {
+          "wepName": "Hojas tzaangor"
+        }
+      },
+      "abilities": {
+        "CHAOS-WC-TZWAR-A-RH": {
+          "abilityName": "Cazadores de reliquias",
+          "description": "Una vez por batalla, un agente AQUELARRE DISFORME GUERRERO TZAANGOR amigo puede realizar la acción Recoger Marcador, Colocar Marcador o una acción de misión por 1 PA menos si ese agente amigo está en el territorio de tu oponente."
+        },
+        "CHAOS-WC-TZWAR-A-SH": {
+          "abilityName": "*Escudo",
+          "description": "Este agente tiene un atributo Salvación de 4+, y siempre que combata o contraataque con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+        }
+      }
+    }
+  }
+}

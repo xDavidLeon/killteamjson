@@ -1,0 +1,1702 @@
+{
+  "killteamId": "IMP-INQ",
+  "locale": "es",
+  "team": {
+    "killteamName": "Agentes Inquisitoriales",
+    "description": "El alcance de la Inquisición se extiende por toda la inmensidad del Imperio. Los equipos de exterminio inquisitoriales reúnen a agentes de todos los estratos de la sociedad imperial, desde soldados de élite hasta sacerdotes fanáticos. Juntos, estos elementos dispares combinan sus habilidades con un efecto letal, lo que les permite erradicar y destruir a herejes, alienígenas y siervos del Caos.",
+    "composition": "Un equipo de exterminio AGENTES INQUISITORIALES está compuesto por:\n\n- 1 agente INTERROGADOR AGENTE INQUISITORIAL\n- 1 agente CRÁNEO-TOMO AGENTE INQUISITORIAL\n- 5 agentes AGENTE INQUISITORIAL elegidos de la siguiente lista:\n  - AUTOSABIO\n  - GUARDIÁN DE LA BÚSQUEDA\n  - VETERANO DE MUNDO LETAL\n  - ILUMINADOR\n  - HEXORCISTA\n  - MÍSTICO\n  - LEGIONARIO PENAL\n  - PISTOLERO\n  - SERVIDOR ARTILLERO con una de las siguientes opciones:\n    - Bólter pesado; servogarra\n    - Multifusión; servogarra\n    - Cañón de plasma; servogarra\n- 5 agentes AGENTE INQUISITORIAL elegidos de la lista anterior, o agentes REQUISADO de un grupo de la regla de facción Requisa Inquisitorial (no puedes elegir agentes REQUISADO de grupos distintos).\n  \nTu comando solo puede incluir una vez a cada agente de esta lista, salvo que no incluyas ningún agente REQUISADO, en cuyo caso puedes incluir hasta dos agentes SERVIDOR ARTILLERO, pero cada uno debe tener opciones distintas.  \n\nTu comando (incluidos los agentes REQUISADO) no puede incluir más de un arma con la regla de armas Penetración 2, y no puede incluir más de tres armas con la regla de armas Penetración X (excepto Penetración Crítica X) en total."
+  },
+  "ploys": {
+    "IMP-INQ-S-DEN": {
+      "ployName": "Denunciar",
+      "description": "Elige un agente enemigo y tira un D3. En la fase de tiroteo de este punto de inflexión, ese agente enemigo no puede ser activado ni realizar acciones hasta que sea el último agente enemigo por activar,\no hasta que tu oponente haya activado un número de agentes enemigos igual al resultado del D3 (lo que ocurra primero).\nEste ardid te cuesta 1PM adicional por cada vez anterior que lo hayas usado durante la batalla (p. ej., 1PM la primera vez que lo uses, 2PM la segunda, etc.)."
+    },
+    "IMP-INQ-S-IJ": {
+      "ployName": "Jurisdicción Irrefutable",
+      "description": "Siempre que un agente dispare contra un agente AGENTE INQUISITORIAL amigo que esté a 3\" o menos de un marcador de objetivo, puedes repetir uno de tus dados de defensa.\nSi ese agente amigo disputa ese marcador, en su lugar puedes repetir cualquiera de tus resultados de dados de defensa de un mismo valor (p. ej., resultados de 2)."
+    },
+    "IMP-INQ-S-IS": {
+      "ployName": "Escrutinio Intenso",
+      "description": "Siempre que elijas un objetivo válido para un agente AGENTE INQUISITORIAL amigo, los agentes enemigos a 4\" o menos de él no pueden estar en cobertura (en lugar de 2\").\nAunque esto puede permitir elegir como objetivo a dichos agentes (suponiendo que sean visibles), no elimina su salvación por cobertura (si la tienen), a menos que el agente AGENTE INQUISITORIAL amigo esté a 2\" o menos de la forma normal."
+    },
+    "IMP-INQ-S-QUA": {
+      "ployName": "Presa",
+      "description": "Elige un agente enemigo para que sea tu presa durante el punto de inflexión. Siempre que un agente AGENTE INQUISITORIAL amigo dispare, combata o contraataque contra tu presa,\nlas armas de ese agente amigo tienen la regla de armas Incesante. Siempre que tu presa quede incapacitada, puedes elegir un nuevo agente enemigo para que sea tu presa (y puedes seguir haciéndolo durante este punto de inflexión).  \n**Incesante:** Puedes repetir cualquiera o todos los resultados de un mismo valor (p. ej., todos los resultados de 2)"
+    },
+    "IMP-INQ-T-AA": {
+      "ployName": "Autoridad Absoluta",
+      "description": "Usa este ardid de tiroteo durante la batalla, cuando un oponente use un ardid de estrategia o de tiroteo (excepto Repetición de Mando o uno que cueste 0PM).\nSu ardid no se usa, se le reembolsan los PM gastados en él y no puede volver a usar ese ardid durante este punto de inflexión. Este ardid no puede usarse para detener el mismo ardid más de una vez por batalla. Usar este ardid cuesta 1PM adicional si el ardid del oponente es un ardid de estrategia."
+    },
+    "IMP-INQ-T-IP": {
+      "ployName": "Presencia Intimidante",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo visible para un agente AGENTE INQUISITORIAL amigo y a 3\" o menos de él, o visible para un agente MÍSTICO amigo y a 6\" o menos de él, realice la acción Recoger Marcador o una acción de misión (excepto Operar Escotilla).\nTu oponente debe gastar 1PA adicional para que ese agente enemigo realice esa acción (si no puede o decide no hacerlo, se le reembolsan los PA gastados en ella)."
+    },
+    "IMP-INQ-T-RPI": {
+      "ployName": "Implacable en la Persecución",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo a 2\" o menos de un agente AGENTE INQUISITORIAL amigo preparado realice una acción en la que se mueva.\nDespués de que se mueva, ese agente AGENTE INQUISITORIAL amigo puede realizar una acción Reposicionarse gratuita, pero debe terminar ese movimiento a 2\" o menos de ese agente enemigo, o una acción Cargar gratuita, pero debe terminar ese movimiento en la zona de control de ese agente enemigo.\nSi ninguna de las dos es posible, ese agente amigo no puede realizar esas acciones, este ardid no se usa y se te reembolsan los PM gastados en él."
+    },
+    "IMP-INQ-T-TEW": {
+      "ployName": "La Voluntad del Emperador",
+      "description": "Usa este ardid de tiroteo cuando se active un agente AGENTE INQUISITORIAL amigo. Hasta el final de la activación de ese agente, puedes ignorar cualquier cambio en sus atributos (incluidos los atributos de sus armas)."
+    }
+  },
+  "equipments": {
+    "IMP-INQ-IR": {
+      "eqName": "Roseta Inquisitorial",
+      "description": "Una vez por batalla, cuando se active un agente AGENTE INQUISITORIAL amigo, si has usado el ardid de estrategia Presa durante este punto de inflexión, puedes usar esta regla.\nSi lo haces, puedes elegir un nuevo agente enemigo para que sea tu presa hasta el final del punto de inflexión."
+    },
+    "IMP-INQ-AB": {
+      "eqName": "Monos Blindados",
+      "description": "Siempre que un agente dispare contra un agente AGENTE INQUISITORIAL amigo (excepto CRÁNEO-TOMO) que tenga un atributo Salvación de 5+, puedes guardar uno de tus resultados de 4 en los dados de defensa como éxito normal."
+    },
+    "IMP-INQ-CD": {
+      "eqName": "Dagas de Combate",
+      "description": "Los agentes AGENTE INQUISITORIAL amigos tienen la siguiente arma cuerpo a cuerpo. Siempre que un agente HERMANA DEL SILENCIO amigo la use, suma 1 a su atributo Ataques.",
+      "weapons": {
+        "IMP-INQ-CD-COMBAT-DAGGER": {
+          "wepName": "Daga de combate"
+        }
+      }
+    },
+    "IMP-INQ-SS": {
+      "eqName": "Servocráneo",
+      "description": "Una vez por batalla, un agente AGENTE INQUISITORIAL amigo puede realizar una acción de misión por 1PA menos."
+    }
+  },
+  "opTypes": {
+    "IMP-INQ-INQ24-INT": {
+      "opTypeName": "Interrogador",
+      "weapons": {
+        "IMP-INQ-INQ24-INT-ESAP": {
+          "wepName": "Pistola automática de culata extendida"
+        },
+        "IMP-INQ-INQ24-INT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-INT-A-IT": {
+          "abilityName": "Tomos Inquisitoriales",
+          "description": "GAMBITO ESTRATÉGICO si este agente está en la zona de aniquilación. Elige una de las siguientes reglas de TOMO INQUISITORIAL para que la tenga este agente,\r y otra para que la tenga un agente CRÁNEO-TOMO AGENTE INQUISITORIAL amigo (no pueden ser la misma, e ignora la regla que no hayas elegido para cada agente):\r \r - **Denuncia:** Siempre que un agente AGENTE INQUISITORIAL amigo dispare, combata o contraataque contra un agente enemigo a 2\" o menos de agentes amigos con esta regla, suma 1 al atributo Ataques de las armas de ese agente amigo.\r - **Santificación:** Siempre que un agente enemigo dispare, combata o contraataque contra un agente AGENTE INQUISITORIAL amigo a 2\" o menos de agentes amigos con esta regla, resta 1 al atributo Ataques de las armas de ese agente enemigo (hasta un mínimo de 2).\r "
+        }
+      }
+    },
+    "IMP-INQ-INQ24-TS": {
+      "opTypeName": "Cráneo-Tomo",
+      "abilities": {
+        "IMP-INQ-INQ24-TS-A-CT": {
+          "abilityName": "Tomo Consagrado",
+          "description": "Este agente puede tener una regla de TOMO INQUISITORIAL (consulta INTERROGADOR). Ten en cuenta que conserva esa regla aunque ese agente INTERROGADOR amigo sea retirado de la zona de aniquilación."
+        },
+        "IMP-INQ-INQ24-TS-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes).\r También se ignora para las condiciones de victoria y para puntuar PV si cualquiera de ellas requiere que los agentes 'escapen', 'sobrevivan' o queden incapacitados (si escapa/sobrevive/queda incapacitado por agentes enemigos, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        },
+        "IMP-INQ-INQ24-TS-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación un agente INTERROGADOR AGENTE INQUISITORIAL amigo preparado (si es posible) antes de que tu oponente active.\nLo mismo se aplica a la inversa (INTERROGADOR seguido de CRÁNEO-TOMO). Cuando ese otro agente quede gastado, tu oponente activa con normalidad."
+        },
+        "IMP-INQ-INQ24-TS-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "\r - Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder y Reposicionarse.\r - No puede contraatacar ni ayudar en un combate.\r - Al determinar el control de un marcador, trata el atributo LPA de este agente como si fuera 1 menor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto.\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) excepto estar a 2\" o menos.\r "
+        }
+      }
+    },
+    "IMP-INQ-INQ24-AS": {
+      "opTypeName": "Autosabio",
+      "weapons": {
+        "IMP-INQ-INQ24-AS-MA": {
+          "wepName": "Apéndices mecánicos"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-AS-A-IR": {
+          "abilityName": "Informe Irrefutable",
+          "description": "Siempre que este agente dispute un marcador de objetivo o uno de tus marcadores de misión, siempre controla ese marcador. Esto tiene prioridad sobre todas las demás reglas."
+        },
+        "IMP-INQ-INQ24-AS-A-LA": {
+          "abilityName": "Armamento Ligero",
+          "description": "Este agente no puede usar armas que no estén en su hoja de datos, ni realizar acciones únicas."
+        },
+        "IMP-INQ-INQ24-AS-A-SC": {
+          "abilityName": "Escribano",
+          "description": "Cada vez posterior que tu oponente use cada ardid durante la batalla (excepto Repetición de Mando), ganas 1PM (hasta un máximo de 2PM por punto de inflexión)."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-QK": {
+      "opTypeName": "Guardián de la Búsqueda",
+      "weapons": {
+        "IMP-INQ-INQ24-QK-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ24-QK-EV": {
+          "wepName": "Evisceradora"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-QK-A-IP": {
+          "abilityName": "Propósito Irreprimible",
+          "description": "Si este agente queda incapacitado mientras combate o contraataca, puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de que sea retirado de la zona de aniquilación."
+        },
+        "IMP-INQ-INQ24-QK-A-ZLT": {
+          "abilityName": "Fanático",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-VET": {
+      "opTypeName": "Veterano de Mundo Letal",
+      "weapons": {
+        "IMP-INQ-INQ24-VET-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ24-VET-K": {
+          "wepName": "Cuchillo"
+        },
+        "IMP-INQ-INQ24-VET-PA": {
+          "wepName": "Arma de asta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-VET-A-HNT": {
+          "abilityName": "Cazador",
+          "description": "Este agente puede realizar la acción Cargar mientras tiene una orden de Ocultarse."
+        },
+        "IMP-INQ-INQ24-VET-A-WTH": {
+          "abilityName": "Curtido",
+          "description": "Una vez por punto de inflexión, cuando este agente esté combatiendo o contraatacando, en el paso de Resolver dados de ataque, puedes ignorar el daño que le inflija un éxito normal."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-ENL": {
+      "opTypeName": "Iluminador",
+      "weapons": {
+        "IMP-INQ-INQ24-ENL-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ24-ENL-PB": {
+          "wepName": "Hojas emparejadas"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-ENL-A-EI": {
+          "abilityName": "Extraer Información",
+          "description": "Siempre que un agente enemigo quede incapacitado en la zona de control de este agente, ganas 1PM."
+        },
+        "IMP-INQ-INQ24-ENL-A-NE": {
+          "abilityName": "Sin Escapatoria",
+          "description": "Siempre que un agente enemigo fuera a realizar la acción Retroceder mientras está en la zona de control de este agente, puedes usar esta regla.\nSi lo haces, tira un D6, restando 1 al resultado si ese agente enemigo tiene un atributo Heridas mayor que el de este agente, y sumando 1 si ese agente enemigo ha perdido heridas:\ncon un 4+, ese agente enemigo no puede realizar esa acción durante esa activación/reacción (no se reembolsan los PA gastados en ella)."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-GUNS": {
+      "opTypeName": "Servidor Artillero",
+      "weapons": {
+        "IMP-INQ-INQ24-GUNS-HB": {
+          "wepName": "Bólter pesado",
+          "profiles": {
+            "IMP-INQ-INQ24-GUNS-HB-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INQ-INQ24-GUNS-HB-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INQ-INQ24-GUNS-MM": {
+          "wepName": "Multifusión"
+        },
+        "IMP-INQ-INQ24-GUNS-PC": {
+          "wepName": "Cañón de plasma",
+          "profiles": {
+            "IMP-INQ-INQ24-GUNS-PC-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ24-GUNS-PC-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ24-GUNS-SC": {
+          "wepName": "Servogarra"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-GUNS-A-LOB": {
+          "abilityName": "Lobotomizado",
+          "description": "Siempre que este agente se active, si es visible para otro agente AGENTE INQUISITORIAL amigo (excepto SERVIDOR ARTILLERO) y está a 3\" o menos de él, o viceversa, suma 1 al atributo LPA de este agente hasta el final de esa activación."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-HEX": {
+      "opTypeName": "Hexorcista",
+      "weapons": {
+        "IMP-INQ-INQ24-HEX-SG": {
+          "wepName": "Escopeta"
+        },
+        "IMP-INQ-INQ24-HEX-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-HEX-A-HEX": {
+          "abilityName": "Hexorcizar",
+          "description": "Siempre que un agente enemigo sea visible para este agente y esté a 6\" o menos de él, tu oponente no puede repetir sus dados de ataque ni de defensa para ese agente."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ24-HEX-CHA": {
+          "name": "Escarmentar",
+          "effects": [
+            "Elige un agente enemigo que sea un objetivo válido para este agente y esté a 6\" o menos de él; a continuación, elige una regla adicional (incluida una acción única) que ese agente enemigo tenga en su hoja de datos (excepto una regla de armas).",
+            "Hasta el final de la siguiente activación de ese agente enemigo, se considera que no tiene esa regla adicional."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INQ24-MYS": {
+      "opTypeName": "Místico",
+      "weapons": {
+        "IMP-INQ-INQ24-MYS-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ24-MYS-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-MYS-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Al determinar el control de un marcador, trata el atributo LPA de este agente como si fuera 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        },
+        "IMP-INQ-INQ24-MYS-A-LA": {
+          "abilityName": "Armamento Ligero",
+          "description": "Este agente no puede usar armas que no estén en su hoja de datos."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ24-MYS-SCRY": {
+          "name": "Escrutar",
+          "effects": [
+            "**PSÍQUICA**\r Elige un agente AGENTE INQUISITORIAL amigo a 6\" o menos de este agente y, a continuación, elige uno de los siguientes efectos, que dura hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero):\r \r - **Guía:** PSÍQUICA. Siempre que el agente elegido esté disparando, combatiendo o contraatacando, en el paso de Tirar dados de ataque, puedes guardar uno de tus fallos como éxito normal en lugar de descartarlo, o guardar uno de tus éxitos normales como éxito crítico en su lugar.\r - **Protección:** PSÍQUICA. Siempre que un agente dispare contra el agente elegido, en el paso de Tirar dados de defensa, puedes guardar uno de tus fallos como éxito normal en lugar de descartarlo, o guardar uno de tus éxitos normales como éxito crítico en su lugar."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INQ24-PEN": {
+      "opTypeName": "Legionario Penal",
+      "weapons": {
+        "IMP-INQ-INQ24-PEN-HF": {
+          "wepName": "Pistola lanzallamas"
+        },
+        "IMP-INQ-INQ24-PEN-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-PEN-A-CM": {
+          "abilityName": "Máscara Química",
+          "description": "Puedes ignorar cualquier cambio al atributo LPA de este agente y cualquier cambio a sus atributos por estar herido. Este agente no se ve afectado por las reglas de armas Choque y Aturdidora de los agentes enemigos."
+        },
+        "IMP-INQ-INQ24-PEN-A-CR": {
+          "abilityName": "Crueldad",
+          "description": "Siempre que este agente dispare, combata o contraataque contra un agente enemigo que haya perdido heridas, las armas de este agente tienen la regla de armas Implacable."
+        }
+      }
+    },
+    "IMP-INQ-INQ24-PST": {
+      "opTypeName": "Pistolero",
+      "weapons": {
+        "IMP-INQ-INQ24-PST-SPP": {
+          "wepName": "Pistola de plasma con mira",
+          "profiles": {
+            "IMP-INQ-INQ24-PST-SPP-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ24-PST-SPP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ24-PST-SAP": {
+          "wepName": "Pistola automática silenciada"
+        },
+        "IMP-INQ-INQ24-PST-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ24-PST-A-PST": {
+          "abilityName": "Pistolero",
+          "description": "Puedes ignorar cualquier cambio al atributo Impactar de las armas a distancia de este agente."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ24-PST-PB": {
+          "name": "Andanada de Pistolas",
+          "effects": [
+            "Realiza dos acciones Disparar gratuitas con este agente (esto tiene prioridad sobre las restricciones de acciones). Debes elegir un perfil de su pistola de plasma con mira para una acción y su pistola automática silenciada para la otra (en cualquier orden)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni durante una activación en la que haya realizado la acción Disparar (o viceversa)."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-SOS24-SOSPRO": {
+      "opTypeName": "Hermana del Silencio Prosecutora",
+      "weapons": {
+        "IMP-INQ-INQ-SOS24-SOSPRO-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-INQ-INQ-SOS24-SOSPRO-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-SOS24-SOSPRO-A-PN": {
+          "abilityName": "Nulo Psíquico",
+          "description": "Las armas a distancia PSÍQUICA no pueden infligir daño a este agente. A efectos de las acciones PSÍQUICA, este agente no puede ser elegido y nunca se considera que esté dentro de las distancias requeridas por esas acciones.\nSiempre que un agente esté a 6\" o menos de este agente:\n\n- Ese agente no puede realizar acciones PSÍQUICA ni usar reglas adicionales PSÍQUICA.\n- Ese agente no puede usar armas a distancia PSÍQUICA.\n- Las armas cuerpo a cuerpo PSÍQUICA no tienen reglas de armas y no pueden tener atributos de Daño superiores a 3/4.\n"
+        }
+      }
+    },
+    "IMP-INQ-SOS24-SOSVIG": {
+      "opTypeName": "Hermana del Silencio Vigilante",
+      "weapons": {
+        "IMP-INQ-INQ-SOS24-SOSVIG-EGB": {
+          "wepName": "Gran espada ejecutora"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-SOS24-SOSVIG-A-PN": {
+          "abilityName": "Nulo Psíquico",
+          "description": "Las armas a distancia PSÍQUICA no pueden infligir daño a este agente. A efectos de las acciones PSÍQUICA, este agente no puede ser elegido y nunca se considera que esté dentro de las distancias requeridas por esas acciones.\nSiempre que un agente esté a 6\" o menos de este agente:\n\n- Ese agente no puede realizar acciones PSÍQUICA ni usar reglas adicionales PSÍQUICA.\n- Ese agente no puede usar armas a distancia PSÍQUICA.\n- Las armas cuerpo a cuerpo PSÍQUICA no tienen reglas de armas y no pueden tener atributos de Daño superiores a 3/4.\n"
+        }
+      }
+    },
+    "IMP-INQ-SOS24-SOSWSK": {
+      "opTypeName": "Hermana del Silencio Cazabrujas",
+      "weapons": {
+        "IMP-INQ-INQ-SOS24-SOSWSK-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-INQ-INQ-SOS24-SOSWSK-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-SOS24-SOSWSK-A-PN": {
+          "abilityName": "Nulo Psíquico",
+          "description": "Las armas a distancia PSÍQUICA no pueden infligir daño a este agente. A efectos de las acciones PSÍQUICA, este agente no puede ser elegido y nunca se considera que esté dentro de las distancias requeridas por esas acciones.\nSiempre que un agente esté a 6\" o menos de este agente:\n\n- Ese agente no puede realizar acciones PSÍQUICA ni usar reglas adicionales PSÍQUICA.\n- Ese agente no puede usar armas a distancia PSÍQUICA.\n- Las armas cuerpo a cuerpo PSÍQUICA no tienen reglas de armas y no pueden tener atributos de Daño superiores a 3/4.\n"
+        }
+      }
+    },
+    "IMP-INQ-DKK24-BRU": {
+      "opTypeName": "Matón del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-BRU-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-BRU-TC": {
+          "wepName": "Garrote de trinchera"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-BRU-A-BRU": {
+          "abilityName": "Matón",
+          "description": "Una vez por punto de inflexión, cuando este agente esté combatiendo o contraatacando, en el paso de Resolver dados de ataque, puedes ignorar el daño que le inflija un éxito normal."
+        }
+      }
+    },
+    "IMP-INQ-DKK24-CON": {
+      "opTypeName": "Confidente del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-CON-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "IMP-INQ-INQ-DKK24-CON-BG": {
+          "wepName": "Bólter"
+        },
+        "IMP-INQ-INQ-DKK24-CON-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-CON-RLP": {
+          "wepName": "Pistola láser reliquia"
+        },
+        "IMP-INQ-INQ-DKK24-CON-B": {
+          "wepName": "Bayoneta"
+        },
+        "IMP-INQ-INQ-DKK24-CON-CS": {
+          "wepName": "Espada sierra"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-CON-A-DIR": {
+          "abilityName": "Directiva",
+          "description": "Siempre que este agente se active, si no has usado la regla Segundo al Mando durante la batalla, puedes elegir otro agente KORPS DE LA MUERTE amigo preparado que sea visible para él y esté a 6\" o menos de él.\nCuando este agente quede gastado, activa ese otro agente amigo antes de que tu oponente active (si ese agente es un SOLDADO, ignora su regla Activación en Grupo)."
+        }
+      }
+    },
+    "IMP-INQ-DKK24-GNR": {
+      "opTypeName": "Artillero del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-INQ-INQ-DKK24-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-INQ-INQ-DKK24-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-INQ-INQ-DKK24-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-INQ-INQ-DKK24-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-INQ-INQ-DKK24-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-INQ-INQ-DKK24-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ-DKK24-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ-DKK24-GNR-B": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "IMP-INQ-DKK24-MDC": {
+      "opTypeName": "Médico del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-MDC-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-MDC-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente KORPS DE LA MUERTE amigo fuera a ser retirado de la zona de aniquilación como incapacitado mientras es visible para este agente y está a 3\" o menos de él, puedes usar esta regla,\nsiempre que ni este agente ni ese agente estén en la zona de control de un agente enemigo.\nSi lo haces, ese agente amigo no queda incapacitado y le queda 1 herida.\nA continuación, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento en la zona de control de este agente.\nResta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivamente y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\nNo puedes usar esta regla si este agente está incapacitado."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-DKK24-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente KORPS DE LA MUERTE amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-DKK24-SAP": {
+      "opTypeName": "Zapador del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-SAP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-SAP-RD": {
+          "wepName": "Detonador remoto"
+        },
+        "IMP-INQ-INQ-DKK24-SAP-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-SAP-A-DET": {
+          "abilityName": "*Detonar",
+          "description": "No elijas un objetivo válido. En su lugar, dispara contra cada agente a 2\" o menos de tu marcador de Mina, salvo que haya terreno Pesado totalmente interpuesto entre ese agente y ese marcador.\nNinguno de esos agentes puede estar en cobertura ni ofuscado. Tira cada secuencia por separado en el orden que elijas.\nEsta arma no puede elegirse si tu marcador de Mina no está en la zona de aniquilación. Al final de la acción, retira tu marcador de Mina de la zona de aniquilación."
+        },
+        "IMP-INQ-INQ-DKK24-SAP-A-ML": {
+          "abilityName": "Minador",
+          "description": "Este agente lleva tu marcador de Mina. Puede realizar la acción Recoger Marcador sobre ese marcador y, siempre que realice la acción Colocar Marcador sobre ese marcador, puede realizar inmediatamente una acción Correr gratuita."
+        }
+      }
+    },
+    "IMP-INQ-DKK24-SNP": {
+      "opTypeName": "Francotirador del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-SNP-LL": {
+          "wepName": "Láser largo",
+          "profiles": {
+            "IMP-INQ-INQ-DKK24-SNP-LL-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-INQ-INQ-DKK24-SNP-LL-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-INQ-INQ-DKK24-SNP-LL-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-INQ-INQ-DKK24-SNP-B": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "IMP-INQ-DKK24-TRP": {
+      "opTypeName": "Soldado del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-TRP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-TRP-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-TRP-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente SOLDADO KORPS DE LA MUERTE amigo preparado (si es posible) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (dicho de otro modo, no puedes activar más de dos agentes seguidos con esta regla)."
+        }
+      }
+    },
+    "IMP-INQ-DKK24-VET": {
+      "opTypeName": "Veterano del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-VET-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-VET-BA": {
+          "wepName": "Brazo biónico"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-VET-A-BIO": {
+          "abilityName": "Biónica",
+          "description": "El Daño normal de 3 o más inflige 1 punto de daño menos a este agente."
+        },
+        "IMP-INQ-INQ-DKK24-VET-A-VG": {
+          "abilityName": "Guardia Veterano",
+          "description": "Siempre que este agente se active, puede recibir una ORDEN DE GUARDIA IMPERIAL."
+        }
+      }
+    },
+    "IMP-INQ-DKK24-VOX": {
+      "opTypeName": "Operador de Vox del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-VOX-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-VOX-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-VOX-A-RO": {
+          "abilityName": "Retransmitir Órdenes",
+          "description": "Una vez por punto de inflexión, cuando este agente reciba una ORDEN DE GUARDIA IMPERIAL, si no está en la zona de control de agentes enemigos, puede retransmitir esa orden.\nSiempre que se retransmita una orden, todos los agentes KORPS DE LA MUERTE amigos en la zona de aniquilación reciben esa orden; a continuación, resta 1 al atributo LPA de este agente hasta el final de su siguiente activación."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-DKK24-VOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente KORPS DE LA MUERTE amigo visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-DKK24-ZLT": {
+      "opTypeName": "Fanático del Korps de la Muerte",
+      "weapons": {
+        "IMP-INQ-INQ-DKK24-ZLT-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-INQ-INQ-DKK24-ZLT-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-DKK24-ZLT-A-TEP": {
+          "abilityName": "El Emperador Protege",
+          "description": "Siempre que un agente dispare contra este agente, puedes repetir cualquiera de tus dados de defensa."
+        },
+        "IMP-INQ-INQ-DKK24-ZLT-A-UP": {
+          "abilityName": "Cartilla Edificante",
+          "description": "**APOYO**\nSiempre que un agente KORPS DE LA MUERTE amigo esté a 3\" o menos de este agente, las armas de ese agente amigo tienen la regla de armas Severa."
+        }
+      }
+    },
+    "IMP-INQ-TS24-TSVOX": {
+      "opTypeName": "Operador de Vox Vástago Tempestus",
+      "weapons": {
+        "IMP-INQ-INQ-TS24-TSVOX-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-TS24-TSVOX-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-TS24-TSVOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "APOYO. Elige otro agente AGENTE INQUISITORIAL amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente puede realizar esta acción dos veces durante su activación, pero no puede realizarla mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-TS24-TSGUN": {
+      "opTypeName": "Artillero Vástago Tempestus",
+      "weapons": {
+        "IMP-INQ-INQ-TS24-TSGUN-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-INQ-INQ-TS24-TSGUN-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-INQ-INQ-TS24-TSGUN-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-INQ-INQ-TS24-TSGUN-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-INQ-INQ-TS24-TSGUN-HSVG": {
+          "wepName": "Fusil de salvas infernal",
+          "profiles": {
+            "IMP-INQ-INQ-TS24-TSGUN-HSVG-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INQ-INQ-TS24-TSGUN-HSVG-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INQ-INQ-TS24-TSGUN-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-INQ-INQ-TS24-TSGUN-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-INQ-INQ-TS24-TSGUN-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ-TS24-TSGUN-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ-TS24-TSGUN-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-INQ-TS24-TSMED": {
+      "opTypeName": "Médico Vástago Tempestus",
+      "weapons": {
+        "IMP-INQ-INQ-TS24-TSMED-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-TS24-TSMED-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-TS24-TSMED-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente AGENTE INQUISITORIAL amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él, puedes usar esta regla, siempre que ni este agente ni ese agente estén en la zona de control de un agente enemigo. Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción. Después de esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento en la zona de control de este agente.\r Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivamente y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.\r No puedes usar esta regla si este agente está incapacitado o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-TS24-TSMED-MDC": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente AGENTE INQUISITORIAL amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas. No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-TS24-TSTRP": {
+      "opTypeName": "Soldado Vástago Tempestus",
+      "weapons": {
+        "IMP-INQ-INQ-TS24-TSTRP-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-TS24-TSTRP-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-TS24-TSTRP-A-AE": {
+          "abilityName": "Equipo Adaptable",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por punto de inflexión:\n\n- Un agente SOLDADO VÁSTAGO TEMPESTUS AGENTE INQUISITORIAL amigo puede realizar la acción Granada de Humo.\n- Un agente SOLDADO VÁSTAGO TEMPESTUS AGENTE INQUISITORIAL amigo puede realizar la acción Granada Aturdidora.\n\nLas reglas de estas acciones se encuentran en el equipo universal. Realizar estas acciones usando esta regla no cuenta para sus límites de acciones (es decir, si también eliges esas granadas del equipo)."
+        }
+      }
+    },
+    "IMP-INQ-AES24-CAST": {
+      "opTypeName": "Castigador Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-CAST-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-CAST-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-CAST-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-CAST-EM": {
+          "wepName": "Maza excruciadora"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-CAST-A-CA": {
+          "abilityName": "Arresto del Castigador",
+          "description": "Siempre que un agente enemigo esté en la zona de control de este agente, si no hay otros agentes enemigos en la zona de control de este agente, ese agente enemigo no puede realizar la acción Retroceder."
+        },
+        "IMP-INQ-INQ-AES24-CAST-A-EF": {
+          "abilityName": "Concentración Inculcada",
+          "description": "Puedes ignorar cualquier cambio en los atributos de este agente (incluidos los atributos de sus armas, pero excepto su atributo Salvación)."
+        },
+        "IMP-INQ-INQ-AES24-CAST-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        },
+        "IMP-INQ-INQ-AES24-CAST-A-ZD": {
+          "abilityName": "Dedicación Fanática",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        }
+      }
+    },
+    "IMP-INQ-AES24-CHI": {
+      "opTypeName": "Cirujano Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-CHI-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-CHI-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-CHI-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-CHI-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-CHI-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente ESCUADRA DE EXACCIÓN amigo fuera a ser retirado de la zona de aniquilación como incapacitado mientras es visible para este agente y está a 3\" o menos de él,\npuedes usar esta regla, siempre que ni este agente ni ese agente estén en la zona de control de un agente enemigo.\nSi lo haces, ese agente amigo no queda incapacitado y le queda 1 herida. A continuación, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento en la zona de\ncontrol de este agente. Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivamente y, si esta regla se usó durante la\nactivación de ese agente amigo, esa activación termina. No puedes usar esta regla si este agente está incapacitado."
+        },
+        "IMP-INQ-INQ-AES24-CHI-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-CHI-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente ESCUADRA DE EXACCIÓN amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-GNR": {
+      "opTypeName": "Artillero Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-GNR-GL": {
+          "wepName": "Lanzagranadas"
+        },
+        "IMP-INQ-INQ-AES24-GNR-HS": {
+          "wepName": "Ametralladora pesada",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-GNR-HS-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INQ-INQ-AES24-GNR-HS-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-GNR-WEB": {
+          "wepName": "Lanzarredes"
+        },
+        "IMP-INQ-INQ-AES24-GNR-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-GNR-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      }
+    },
+    "IMP-INQ-AES24-LSH": {
+      "opTypeName": "Amo de Traílla Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-LSH-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-LSH-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-LSH-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-LSH-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-LSH-A-AP": {
+          "abilityName": "Patrón de Ataque",
+          "description": "GAMBITO ESTRATÉGICO en el primer punto de inflexión. Elige uno de los siguientes patrones de ataque para que lo tenga un agente CIBERMASTÍN R-VR ESCUADRA DE EXACCIÓN amigo durante la batalla:\n\n- Agresivo: Sus armas cuerpo a cuerpo tienen la regla de armas Implacable.\n- Veloz: Suma 2\" a su atributo Movimiento.\n- Defensivo: Mejora en 1 su atributo Salvación.\n"
+        },
+        "IMP-INQ-INQ-AES24-LSH-A-HND": {
+          "abilityName": "Adiestrador",
+          "description": "Siempre que este agente se active, puedes activar a la vez un agente CIBERMASTÍN R-VR ESCUADRA DE EXACCIÓN amigo preparado. Completa sus activaciones acción por acción en cualquier orden."
+        },
+        "IMP-INQ-INQ-AES24-LSH-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-LSH-RC": {
+          "name": "Orden R-VR",
+          "effects": [
+            "Elige un agente CIBERMASTÍN R-VR ESCUADRA DE EXACCIÓN amigo y cambia su patrón de ataque."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-RVR": {
+      "opTypeName": "Cibermastín R-VR",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-RVR-MB": {
+          "wepName": "Mordisco mecánico"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-RVR-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción salvo Aprehender, Cargar, Correr, Retroceder, Combatir, Guardia, Reposicionarse, Recoger Marcador y Colocar Marcador. No puede usar armas que no estén en su hoja de datos."
+        },
+        "IMP-INQ-INQ-AES24-RVR-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-RVR-APP": {
+          "name": "Aprehender",
+          "effects": [
+            "Elige un agente enemigo en la zona de control de este agente.",
+            "Hasta que ese agente enemigo deje de estar en la zona de control de este agente, o hasta que este agente vuelva a realizar esta acción (lo que ocurra primero),",
+            "empeora en 1 el atributo Impactar de las armas de ese agente enemigo (esto no es acumulativo con estar herido);",
+            "además, ese agente enemigo no puede realizar la acción Retroceder."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción a menos que haya un agente enemigo en su zona de control."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-MAL": {
+      "opTypeName": "Malocator Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-MAL-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-MAL-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-MAL-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-MAL-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-MAL-A-AF": {
+          "abilityName": "Concentración Aguda",
+          "description": "Una vez durante cada una de las activaciones de este agente, puede realizar la acción Recoger Marcador, Colocar Marcador, Veriscant o una acción de misión por 1PA menos."
+        },
+        "IMP-INQ-INQ-AES24-MAL-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-MAL-VER": {
+          "name": "Veriscant",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que un agente ESCUADRA DE EXACCIÓN amigo dispare, combata o contraataque contra ese agente enemigo, las armas de ese agente amigo tienen la regla de armas Severa;",
+            "si el arma ya tiene esa regla de armas, tiene la regla de armas Letal 5+."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-MRK": {
+      "opTypeName": "Tirador Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-MRK-ESG": {
+          "wepName": "Escopeta ejecutora",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-MRK-ESG-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-INQ-INQ-AES24-MRK-ESG-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-INQ-INQ-AES24-MRK-ESG-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-MRK-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-MRK-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-MRK-OPT": {
+          "name": "Óptica",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente:",
+            "- Los perfiles oculto y estacionario de su escopeta ejecutora tienen la regla de armas Letal 5+.",
+            "- Siempre que esté disparando con su escopeta ejecutora, los agentes enemigos no pueden estar ofuscados."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-REV": {
+      "opTypeName": "Revelatum Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-REV-SSP": {
+          "wepName": "Pistola escopeta con mira",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-REV-SSP-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-REV-SSP-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-REV-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-REV-A-FITF": {
+          "abilityName": "Primero en el Terreno",
+          "description": "**GAMBITO ESTRATÉGICO** en el primer punto de inflexión.\nSi este agente está totalmente dentro de tu zona de despliegue, puede realizar inmediatamente una acción Reposicionarse gratuita."
+        },
+        "IMP-INQ-INQ-AES24-REV-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-REV-SPT": {
+          "name": "Avistar",
+          "effects": [
+            "**APOYO**",
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente ESCUADRA DE EXACCIÓN amigo a 3\" o menos de este agente dispare contra ese agente enemigo,",
+            "puedes usar este efecto. Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-AES24-SUB": {
+      "opTypeName": "Subductor Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-SUB-SP": {
+          "wepName": "Pistola escopeta"
+        },
+        "IMP-INQ-INQ-AES24-SUB-SMAS": {
+          "wepName": "Maza de choque y escudo de asalto"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-SUB-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        },
+        "IMP-INQ-INQ-AES24-SUB-A-REP": {
+          "abilityName": "*Reprimir",
+          "description": "Siempre que este agente use esta arma:\n\n- Cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno).\n- Si este agente está contraatacando, resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante).\n"
+        },
+        "IMP-INQ-INQ-AES24-SUB-A-SS": {
+          "abilityName": "Subductor Obstinado",
+          "description": "Puedes ignorar cualquier cambio al atributo Impactar de las armas cuerpo a cuerpo de este agente."
+        }
+      }
+    },
+    "IMP-INQ-AES24-VIG": {
+      "opTypeName": "Vigilante Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-VIG-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-VIG-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-VIG-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-VIG-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-VIG-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        },
+        "IMP-INQ-INQ-AES24-VIG-A-SQV": {
+          "abilityName": "Vigilancia en Espacios Cerrados",
+          "description": "Este agente puede realizar la acción Disparar (excepto Guardia) mientras esté en la zona de control de un agente enemigo, pero solo si no ha realizado la acción Cargar durante la activación,\no si es una reacción. Ten en cuenta que este agente no tiene restringido realizar la acción Cargar después de realizar la acción Disparar."
+        }
+      }
+    },
+    "IMP-INQ-AES24-VOX": {
+      "opTypeName": "Señalizador Vox Arbites",
+      "weapons": {
+        "IMP-INQ-INQ-AES24-VOX-CS": {
+          "wepName": "Escopeta de combate",
+          "profiles": {
+            "IMP-INQ-INQ-AES24-VOX-CS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-AES24-VOX-CS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-AES24-VOX-RB": {
+          "wepName": "Porra de represión"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-AES24-VOX-A-RE": {
+          "abilityName": "Eficiencia Despiadada",
+          "description": "Siempre que un agente ESCUADRA DE EXACCIÓN amigo esté disparando (excepto con granadas frag o krak) y estés eligiendo un objetivo válido, puedes usar esta regla.\nSi lo haces, que haya otros agentes ESCUADRA DE EXACCIÓN amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-AES24-VOX-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente ESCUADRA DE EXACCIÓN amigo visible para este agente. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INB24-ARM": {
+      "opTypeName": "Hombre de Armas Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-ARM-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-ARM-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-INB24-ARM-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-ARM-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-ARM-A-GA": {
+          "abilityName": "Activación en Grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente HOMBRE DE ARMAS ABORDADOR DE LA ARMADA IMPERIAL amigo preparado (si es posible) antes de que tu oponente active.\nCuando ese otro agente quede gastado, tu oponente activa con normalidad (dicho de otro modo, no puedes activar más de dos agentes seguidos con esta regla).\nIgnora esta regla cuando uses la regla de facción Abrir Brecha y Despejar."
+        },
+        "IMP-INQ-INQ-INB24-ARM-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      }
+    },
+    "IMP-INQ-INB24-AXE": {
+      "opTypeName": "Hachero Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-AXE-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ-INB24-AXE-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-AXE-A-EMB": {
+          "abilityName": "Envalentonado",
+          "description": "Siempre que un dado de ataque inflija 3 o más de daño a este agente durante un punto de inflexión en el que haya realizado la acción Cargar, tira un D6: con un 5+, resta 1 a ese daño infligido."
+        },
+        "IMP-INQ-INQ-INB24-AXE-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      }
+    },
+    "IMP-INQ-INB24-CAT": {
+      "opTypeName": "Unidad C.A.T. Navis",
+      "abilities": {
+        "IMP-INQ-INQ-INB24-CAT-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes).\nTambién se ignora para las condiciones de victoria que requieren que los agentes 'escapen', 'sobrevivan' o queden incapacitados (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        },
+        "IMP-INQ-INQ-INB24-CAT-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "\n- Este agente no puede ser activado ni realizar acciones si está en la zona de control de un agente enemigo, o si un agente AGRIMENSOR ABORDADOR DE LA ARMADA IMPERIAL amigo ha quedado incapacitado. El punto de inflexión puede terminar aunque este agente siga preparado.\n- Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Reposicionarse y Avistar.\n- No puede contraatacar, ayudar en un combate, trepar ni saltar.\n- Al determinar el control de un marcador, trata el atributo LPA de este agente como si fuera 1 menor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto.\n- Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., terreno Aventajado).\n- Al determinar qué es visible para este agente, traza la línea desde cualquier parte de la miniatura.\n"
+        },
+        "IMP-INQ-INQ-INB24-CAT-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-INB24-CAT-SPT": {
+          "name": "Avistar",
+          "effects": [
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, hasta que ese agente enemigo deje de ser visible para este agente o hasta que este agente vuelva a realizar esta acción (lo que ocurra primero),",
+            "siempre que un agente ABORDADOR DE LA ARMADA IMPERIAL amigo dispare contra ese agente enemigo, puedes usar este efecto.",
+            "Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INB24-END": {
+      "opTypeName": "Resistente Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-END-NHS": {
+          "wepName": "Escopeta pesada Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-END-NHS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-INB24-END-NHS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-END-SB": {
+          "wepName": "Golpe de escudo"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-END-A-BW": {
+          "abilityName": "Muro de Brecha",
+          "description": "Siempre que tu oponente esté eligiendo un objetivo válido, no puede elegir a otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo cuya peana esté en contacto con la de este agente si este agente tiene una orden de Trabarse y está interpuesto.\nEsta regla no tiene efecto si la peana de más de un agente amigo distinto está en contacto con la de este agente."
+        },
+        "IMP-INQ-INQ-INB24-END-A-DIS": {
+          "abilityName": "Desengancharse",
+          "description": "Este agente puede realizar la acción Retroceder por 1PA menos."
+        },
+        "IMP-INQ-INQ-INB24-END-A-SH": {
+          "abilityName": "*Escudo",
+          "description": "Siempre que este agente combata o contraataque con esta arma, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+        },
+        "IMP-INQ-INQ-INB24-END-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      }
+    },
+    "IMP-INQ-INB24-GS": {
+      "opTypeName": "Cráneo espectral Navis",
+      "abilities": {
+        "IMP-INQ-INQ-INB24-GS-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes).\nTambién se ignora para las condiciones de victoria que requieren que los agentes 'escapen', 'sobrevivan' o queden incapacitados (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.)."
+        },
+        "IMP-INQ-INQ-INB24-GS-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "\n- Este agente no puede realizar ninguna acción salvo Impulso, Cargar, Correr, Retroceder y Reposicionarse.\n- No puede contraatacar ni ayudar en un combate.\n- Al determinar el control de un marcador, trata el atributo LPA de este agente como si fuera 1 menor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto.\n- Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., terreno Aventajado).\n"
+        },
+        "IMP-INQ-INQ-INB24-GS-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-INB24-GS-BST": {
+          "name": "Impulso",
+          "effects": [
+            "Hasta el final de la activación, suma 6\" al atributo Movimiento de este agente."
+          ],
+          "conditions": [
+            "Este agente solo puede realizar esta acción una vez por batalla, y no puede realizarla durante el primer punto de inflexión."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INB24-GRN": {
+      "opTypeName": "Granadero Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-GRN-DC": {
+          "wepName": "Carga demoledora"
+        },
+        "IMP-INQ-INQ-INB24-GRN-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-GRN-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-INB24-GRN-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-GRN-NH": {
+          "wepName": "Hacha Navis"
+        },
+        "IMP-INQ-INQ-INB24-GRN-FG": {
+          "wepName": "Granada Frag"
+        },
+        "IMP-INQ-INQ-INB24-GRN-KG": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag, krak y aturdidoras (consulta el equipo universal). Hacerlo no cuenta para ningún uso limitado que tengas (es decir, si también eliges esas granadas del equipo para otros agentes).\nSiempre que este agente use una granada frag o krak, mejora en 1 el atributo Impactar de esa arma."
+        },
+        "IMP-INQ-INQ-INB24-GRN-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      }
+    },
+    "IMP-INQ-INB24-GNR": {
+      "opTypeName": "Artillero Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-INQ-INQ-INB24-GNR-NLV": {
+          "wepName": "Descargador láser Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-GNR-NLV-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INQ-INQ-INB24-GNR-NLV-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ-INB24-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-GNR-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-GNR-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      }
+    },
+    "IMP-INQ-INB24-HC": {
+      "opTypeName": "Cortaescotillas Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-HC-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-INQ-INQ-INB24-HC-CF": {
+          "wepName": "Puño sierra"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-HC-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-INB24-HC-BP": {
+          "name": "Punto de Brecha",
+          "effects": [
+            "Coloca uno de tus marcadores de Brecha en la zona de control de este agente, lo más cerca posible de un elemento de terreno que esté en su zona de control.",
+            "Siempre que un agente esté a 1\" o menos de ese marcador, trata las partes de ese elemento de terreno que no tengan más de 1\" de grosor como terreno Accesible."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si no hay un elemento de terreno en su zona de control."
+          ]
+        },
+        "IMP-INQ-INQ-INB24-HC-WS": {
+          "name": "Soldar",
+          "effects": [
+            "Elige una escotilla cerrada (p. ej., zona de aniquilación: Gallowdark) en la zona de control de este agente. Los demás agentes deben gastar 1PA adicional para realizar la acción Operar Escotilla para abrir esa escotilla.",
+            "Este efecto termina cuando se abre esa escotilla. Ten en cuenta que este agente no se ve afectado por este efecto."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si no está a 1\" o menos de una escotilla cerrada."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INB24-SRV": {
+      "opTypeName": "Agrimensor Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-SRV-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-SRV-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-INB24-SRV-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-SRV-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-SRV-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-INB24-SRV-RC": {
+          "name": "Control Remoto",
+          "effects": [
+            "Elige un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo. Ese agente puede realizar inmediatamente una acción gratuita, pero no puede moverse más de 3\" durante esa acción."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si no hay un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo en la zona de aniquilación."
+          ]
+        },
+        "IMP-INQ-INQ-INB24-SRV-WF": {
+          "name": "Orientar",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente ABORDADOR DE LA ARMADA IMPERIAL amigo (excepto UNIDAD C.A.T. o CRÁNEO ESPECTRAL) visible para este agente y a 6\" o menos de él, o visible para un agente UNIDAD C.A.T. ABORDADOR DE LA ARMADA IMPERIAL amigo y a 6\" o menos de él.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA. A efectos del equipo universal Aparato de Comunicaciones, el agente desde el que se determina la distancia debe controlar ese marcador."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-INB24-VJ": {
+      "opTypeName": "Interferidor del vacío Navis",
+      "weapons": {
+        "IMP-INQ-INQ-INB24-VJ-GD": {
+          "wepName": "Detonador de cráneo espectral"
+        },
+        "IMP-INQ-INQ-INB24-VJ-NS": {
+          "wepName": "Escopeta Navis",
+          "profiles": {
+            "IMP-INQ-INQ-INB24-VJ-NS-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-INQ-INQ-INB24-VJ-NS-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-INQ-INQ-INB24-VJ-NH": {
+          "wepName": "Hacha Navis"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-INB24-VJ-A-DET": {
+          "abilityName": "*Detonar",
+          "description": "No elijas un objetivo válido. En su lugar, un agente CRÁNEO ESPECTRAL ABORDADOR DE LA ARMADA IMPERIAL amigo siempre es el objetivo principal y no puede estar en cobertura ni ofuscado. Si ese agente no está en la zona de aniquilación, no puedes elegir esta arma."
+        },
+        "IMP-INQ-INQ-INB24-VJ-A-VA": {
+          "abilityName": "Armadura de Vacío",
+          "description": "Siempre que un agente dispare contra un agente ABORDADOR DE LA ARMADA IMPERIAL amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga (excepto las armas que tienen un perfil de barrido),\npuedes repetir uno de tus dados de defensa, o hasta dos de tus dados de defensa si ese agente amigo es un GRANADERO.  \n\nLos agentes ABORDADOR DE LA ARMADA IMPERIAL amigos no se ven afectados por la regla de armas x\" Devastadora x (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-INB24-VJ-IP": {
+          "name": "Pulso de Interferencia",
+          "effects": [
+            "Elige un agente enemigo visible para un agente CRÁNEO ESPECTRAL amigo y a 8\" o menos de él. Tira un D6, sumando 1 al resultado si ese agente enemigo es un objetivo válido para ese agente CRÁNEO ESPECTRAL amigo:",
+            "con un 3+, resta 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, o si no hay un agente CRÁNEO ESPECTRAL amigo en la zona de aniquilación."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-KAS24-MDC": {
+      "opTypeName": "Médico de Combate Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-MDC-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-KAS24-MDC-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-KAS24-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente KASRKIN amigo fuera a ser retirado de la zona de aniquilación como incapacitado mientras es visible para este agente y está a 3\" o menos de él,\npuedes usar esta regla, siempre que ni este agente ni ese agente estén en la zona de control de un agente enemigo.\nSi lo haces, ese agente amigo no queda incapacitado y le queda 1 herida. A continuación, ese agente amigo puede realizar inmediatamente una acción Correr gratuita, pero debe terminar ese movimiento en la zona de control de este agente.\nResta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivamente y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.  \n\nNo puedes usar esta regla si este agente está incapacitado."
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-KAS24-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente KASRKIN amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-KAS24-DT": {
+      "opTypeName": "Soldado de Demolición Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-DT-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-INQ-INQ-KAS24-DT-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-KAS24-DT-A-MM": {
+          "abilityName": "Mina de Fusión",
+          "description": "Este agente lleva tu marcador de Mina de Fusión.\nPuede realizar la acción Recoger Marcador sobre ese marcador y, siempre que realice la acción Colocar Marcador sobre ese marcador, puede realizar inmediatamente una acción Correr gratuita.\nEse marcador no puede colocarse en la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva ese marcador y ese marcador no puede colocarse, se retira junto con este agente)."
+        },
+        "IMP-INQ-INQ-KAS24-DT-A-PM": {
+          "abilityName": "Mina de Proximidad",
+          "description": "La primera vez que tu marcador de Mina de Fusión esté en la zona de control de otro agente, retira ese marcador e inflige 2D6+3 de daño a ese agente;\nsi no queda incapacitado, termina su acción (si la hay), aunque no se hayan cumplido los efectos de esa acción.\nSi no puede colocarse, muévelo la distancia mínima necesaria para ello.\nTen en cuenta que este agente se ignora para estos efectos (es decir, no puede activarlo ni sufrir daño de ese marcador)."
+        }
+      }
+    },
+    "IMP-INQ-KAS24-GNR": {
+      "opTypeName": "Artillero Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-INQ-INQ-KAS24-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-INQ-INQ-KAS24-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-INQ-INQ-KAS24-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-INQ-INQ-KAS24-GNR-HSVG": {
+          "wepName": "Fusil de salvas infernal",
+          "profiles": {
+            "IMP-INQ-INQ-KAS24-GNR-HSVG-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-INQ-INQ-KAS24-GNR-HSVG-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-INQ-INQ-KAS24-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-INQ-INQ-KAS24-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-INQ-INQ-KAS24-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-INQ-INQ-KAS24-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-INQ-INQ-KAS24-GNR-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-INQ-KAS24-RT": {
+      "opTypeName": "Soldado de Reconocimiento Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-RT-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-KAS24-RT-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-KAS24-RT-AUS": {
+          "name": "Escaneo de Áuspex",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente o hasta que quede incapacitado (lo que ocurra primero),",
+            "siempre que un agente KASRKIN amigo dispare contra un agente enemigo a 8\" o menos de este agente, ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-INQ-KAS24-SS": {
+      "opTypeName": "Tirador de Precisión Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-SS-HSMR": {
+          "wepName": "Rifle de tirador infernal",
+          "profiles": {
+            "IMP-INQ-INQ-KAS24-SS-HSMR-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-INQ-INQ-KAS24-SS-HSMR-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-INQ-INQ-KAS24-SS-HSMR-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-INQ-INQ-KAS24-SS-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-KAS24-SS-A-CAM": {
+          "abilityName": "Capa de Camuflaje",
+          "description": "Siempre que un agente dispare contra este agente:\n\n- Ignora la regla de armas Saturación.\n- Si puedes guardar alguna salvación por cobertura, puedes guardar una salvación por cobertura adicional, o puedes guardar una salvación por cobertura como éxito crítico en su lugar.]\nEsto no es acumulativo con las salvaciones por cobertura mejoradas del terreno Aventajado.\n"
+        }
+      }
+    },
+    "IMP-INQ-KAS24-TRP": {
+      "opTypeName": "Soldado Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-TRP-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-KAS24-TRP-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-INQ-INQ-KAS24-TRP-A-AE": {
+          "abilityName": "Equipo Adaptable",
+          "description": "Puedes hacer cada una de las siguientes cosas una vez por punto de inflexión:\n\n- Un agente SOLDADO KASRKIN amigo puede realizar la acción Granada de Humo.\n- Un agente SOLDADO KASRKIN amigo puede realizar la acción Granada Aturdidora.\n\nLas reglas de estas acciones se encuentran en el equipo universal. Realizar estas acciones usando esta regla no cuenta para sus límites de acciones (es decir, si también eliges esas granadas del equipo)."
+        }
+      }
+    },
+    "IMP-INQ-KAS24-VOX": {
+      "opTypeName": "Soldado de Vox Kasrkin",
+      "weapons": {
+        "IMP-INQ-INQ-KAS24-VOX-HSLG": {
+          "wepName": "Rifle láser infernal"
+        },
+        "IMP-INQ-INQ-KAS24-VOX-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "actions": {
+        "IMP-INQ-INQ-KAS24-VOX-BC": {
+          "name": "Comunicaciones de Combate",
+          "effects": [
+            "Elige otro agente KASRKIN amigo. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA (hasta un máximo de 3 después de totalizar todos los cambios del atributo LPA)."
+          ],
+          "conditions": [
+            "Este agente puede realizar esta acción dos veces durante su activación, pero no puede realizarla mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    }
+  }
+}

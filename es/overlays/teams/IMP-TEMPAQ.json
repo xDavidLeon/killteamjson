@@ -1,0 +1,295 @@
+{
+  "killteamId": "IMP-TEMPAQ",
+  "locale": "es",
+  "team": {
+    "killteamName": "Aquilones Tempestus",
+    "description": "\"No importa quién o qué sea el enemigo. Si se interpone entre nosotros y el cumplimiento de nuestras órdenes, morirá por ello.\"  \n\n*--Aquilón Tempestus Therka Drayv, antes del Lanzamiento de Ossinium*",
+    "composition": "Un equipo de exterminio AQUILÓN TEMPESTUS está compuesto por:\n\n- 1 agente TEMPESTOR AQUILÓN TEMPESTUS con una de las siguientes opciones:\n  - Pistola láser infernal; Arma de energía\n  - Pistola bólter reliquia; Espada sierra\n  - Carabina láser infernal; Puños\n- 1 SERVOCENTINELA con una de las siguientes opciones:\n  - Lanzallamas\n  - Lanzagranadas\n  - Fusil de salvas infernal\n- 9 agentes AQUILÓN TEMPESTUS elegidos de la siguiente lista:\n  - GRANADERO\n  - PISTOLERO\n  - ARTILLERO con Carabina de fusión y Puños\n  - ARTILLERO con Carabina de plasma y Puños\n  - TIRADOR\n  - PRECURSOR\n  - SOLDADO\n\nSalvo los agentes SOLDADO, tu comando solo puede incluir a cada agente de la lista anterior una vez."
+  },
+  "ploys": {
+    "IMP-TEMPAQ-S-DAS": {
+      "ployName": "Lanzarse y asegurar",
+      "description": "Elige un marcador.\r \r - Hasta el paso de Preparar del siguiente punto de inflexión, al determinar el control de ese marcador, trata el atributo LPA total de los agentes AQUILÓN TEMPESTUS amigos que lo disputan como 1 mayor, siempre que al menos un agente AQUILÓN TEMPESTUS amigo lo dispute realmente.\r - Siempre que un agente AQUILÓN TEMPESTUS amigo esté a 3\" o menos de ese marcador, suma 1 al atributo Ataque de sus armas cuerpo a cuerpo (hasta un máximo de 4).\r "
+    },
+    "IMP-TEMPAQ-S-EA": {
+      "ployName": "Ojo en las alturas",
+      "description": "Elige un agente enemigo. Ese agente y todos los demás agentes enemigos a 3\" o menos de él obtienen una de tus fichas de Detectado hasta el final del punto de inflexión.\nSiempre que un agente enemigo con una ficha de Detectado:\n\n- Esté disparando a un agente AQUILÓN TEMPESTUS amigo, puedes repetir uno de tus dados de defensa.\n- Esté combatiendo o contraatacando contra un agente AQUILÓN TEMPESTUS amigo, uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno).\n"
+    },
+    "IMP-TEMPAQ-S-MM": {
+      "ployName": "Mantener el impulso",
+      "description": "Siempre que un agente AQUILÓN TEMPESTUS amigo esté disparando o combatiendo contra un agente enemigo preparado, sus armas tienen la regla de armas Severa.  \n**Severa:** Si no conservas ningún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Cualquier regla que surta efecto como resultado de conservar un éxito crítico (p. ej., Devastadora, Penetración Crítica, etc.) sigue surtiéndolo."
+    },
+    "IMP-TEMPAQ-S-SO": {
+      "ployName": "Ofensiva repentina",
+      "description": "Cuenta el número de agentes AQUILÓN TEMPESTUS amigos que no estén incapacitados y divide el resultado a la mitad (redondeando hacia arriba) para obtener x.\nHasta el final de su activación, las armas de los agentes AQUILÓN TEMPESTUS amigos tienen la regla de armas Equilibrada si están entre los primeros agentes amigos activados en este punto de inflexión, en número igual a x.\nPor ejemplo, si tienes cinco agentes, se beneficiarán los tres primeros que se activen.  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "IMP-TEMPAQ-T-AC": {
+      "ployName": "Ajustar coordenadas",
+      "description": "Usa este ardid de tiroteo cuando un agente AQUILÓN TEMPESTUS amigo aterrice. Puedes desplegarlo a 5\" o menos de uno de tus marcadores de Lanzamiento (midiendo solo la distancia horizontal), lo que tiene prioridad sobre el requisito de distancia normal.\nNo puede realizar las acciones Correr, Combatir ni Disparar durante este punto de inflexión."
+    },
+    "IMP-TEMPAQ-T-HD": {
+      "ployName": "Lanzamiento en caliente",
+      "description": "Usa este ardid de tiroteo tras tirar los dados de ataque de un agente AQUILÓN TEMPESTUS amigo que esté totalmente dentro del territorio de tu oponente, o que haya aterrizado o se haya dejado caer desde terreno Aventajado al menos 2\" por encima del suelo de la zona de exterminio durante esta activación. Si el objetivo está a 6\" o menos de él, puedes repetir cualquiera de tus dados de ataque."
+    },
+    "IMP-TEMPAQ-T-PRO": {
+      "ployName": "Progena",
+      "description": "Usa este ardid de tiroteo cuando se active un agente AQUILÓN TEMPESTUS amigo (excepto SERVOCENTINELA).\nRecupera 2D3 heridas perdidas y, durante esa activación, puedes ignorar cualquier cambio en su atributo LPA."
+    },
+    "IMP-TEMPAQ-T-TE": {
+      "ployName": "Ejemplares Tempestus",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente AQUILÓN TEMPESTUS amigo (excepto SERVOCENTINELA y cualquier agente con un atributo LPA mayor que 2).\nDurante esa activación, puede realizar Recoger Marcador, Colocar Marcador o una acción de misión por 1 PA menos."
+    }
+  },
+  "equipments": {
+    "IMP-TEMPAQ-TD": {
+      "eqName": "Daga Tempestus",
+      "description": "Los agentes Aquilón Tempestus amigos (excepto SERVOCENTINELA) tienen la siguiente arma cuerpo a cuerpo:",
+      "weapons": {
+        "IMP-TEMPAQ-TD-TEMPESTUS-DAGGER": {
+          "wepName": "Daga Tempestus"
+        }
+      }
+    },
+    "IMP-TEMPAQ-CS": {
+      "eqName": "Estimulantes de combate",
+      "description": "Puedes ignorar cualquier cambio en el atributo Movimiento de los agentes AQUILÓN TEMPESTUS amigos por estar heridos."
+    },
+    "IMP-TEMPAQ-DA": {
+      "eqName": "Augurio de lanzamiento",
+      "description": "Una vez durante la batalla, cuando se active un agente AQUILÓN TEMPESTUS amigo que esté desplegado en las alturas, antes de gastar o hacer aterrizar a ese agente, puedes mover de nuevo uno de tus marcadores de Lanzamiento.\r Sin embargo, no puede moverse más cerca de la zona de despliegue de tu oponente."
+    },
+    "IMP-TEMPAQ-ROS": {
+      "eqName": "Supervisor remoto",
+      "description": "Una vez durante la batalla, al hacer la tirada de desempate para decidir la iniciativa, puedes repetir tu D6."
+    }
+  },
+  "teamAbilities": {
+    "IMP-TEMPAQ-TA-DRIN": {
+      "abilityName": "Inserción por lanzamiento",
+      "description": "Al desplegar un equipo de exterminio AQUILÓN TEMPESTUS antes de la batalla, el primer tercio de tu equipo de exterminio debe desplegarse de forma normal.\nCada tercio posterior puede desplegarse en las alturas: colócalos a un lado en lugar de en la zona de exterminio.\nPor cada tercio que se despliegue en las alturas, debes desplegar el tercio completo de esta forma (no solo algunos de ellos) y, después, colocar tus marcadores de Lanzamiento totalmente dentro de tu zona de despliegue.\n  \n\nComo GAMBITO ESTRATÉGICO en el primer y el segundo punto de inflexión, puedes mover tus marcadores de Lanzamiento hasta 4\", midiendo solo la distancia horizontal. En combate cerrado, esto puede medirse y moverse a través de muros.\n  \n\nDurante la fase de tiroteo, los agentes AQUILÓN TEMPESTUS amigos desplegados en las alturas se activan de forma normal.\nCuando lo hagas, puedes gastar o hacer aterrizar a ese agente. Si aterriza, despliégalo en la zona de exterminio en una ubicación donde pueda colocarse de la siguiente forma (ya no está desplegado en las alturas):\n\n- A 3\" o menos de uno de tus marcadores de Lanzamiento, midiendo solo la distancia horizontal, o totalmente dentro de tu zona de despliegue.\n- No dentro de la zona de control de un agente enemigo (salvo que estés desplegando un agente PRECURSOR, que puede desplegarse dentro de la zona de control de un agente enemigo)\n- Sin ninguna parte de su peana debajo de terreno Aventajado\n- Con una orden de tu elección\n\nSe considera que el agente realiza la acción Reposicionarse (gastando los PA correspondientes) y, después, continúa su activación de forma normal. Está Oscurecido hasta el final de la siguiente activación o el final del punto de inflexión (lo que ocurra primero).  \n\nMenos de la mitad de tus agentes pueden estar desplegados en las alturas al final del primer punto de inflexión. En otras palabras, al final del primer punto de inflexión, más de la mitad de tus agentes deben haberse desplegado en la zona de exterminio durante la batalla.  \n\nAl preparar a tus agentes durante el segundo y el tercer punto de inflexión, retira uno de tus marcadores de Lanzamiento. Esto significa que los agentes que sigan desplegados en las alturas quedan incapacitados al final del segundo punto de inflexión."
+    },
+    "IMP-TEMPAQ-TA-GRCH": {
+      "abilityName": "Paracaídas gravítico",
+      "description": "Siempre que un agente AQUILÓN TEMPESTUS amigo se deje caer, ignora la distancia vertical."
+    }
+  },
+  "opTypes": {
+    "IMP-TEMPAQ-TEMP": {
+      "opTypeName": "Tempestor Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-TEMP-HSLC": {
+          "wepName": "Carabina láser infernal"
+        },
+        "IMP-TEMPAQ-TEMP-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-TEMPAQ-TEMP-RBP": {
+          "wepName": "Pistola bólter reliquia"
+        },
+        "IMP-TEMPAQ-TEMP-CS": {
+          "wepName": "Espada sierra"
+        },
+        "IMP-TEMPAQ-TEMP-F": {
+          "wepName": "Puños"
+        },
+        "IMP-TEMPAQ-TEMP-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-TEMP-A-VET": {
+          "abilityName": "Veterano Tempestus",
+          "description": "Una vez por batalla, puedes usar un ardid de tiroteo por 0 PM si este es el agente AQUILÓN TEMPESTUS especificado, o bien el ardid de tiroteo Repetición de mando por 0 PM si este es el agente por el que se tiró el dado de ataque o de defensa."
+        }
+      },
+      "actions": {
+        "IMP-TEMPAQ-TEMP-CMD": {
+          "name": "Mando",
+          "effects": [
+            "**Apoyo:** Elige un agente AQUILÓN TEMPESTUS amigo (excepto SERVOCENTINELA) visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-TEMPAQ-GRN": {
+      "opTypeName": "Granadero Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-GRN-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-TEMPAQ-GRN-MB": {
+          "wepName": "Bomba de fusión"
+        },
+        "IMP-TEMPAQ-GRN-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag, krak, de humo y aturdidoras (ver equipo universal). Hacerlo no cuenta para ninguno de tus usos limitados (es decir, si también eliges esas granadas como equipo para otros agentes).\r Siempre que este agente use una granada frag o krak, mejora en 1 el atributo Impactar de esa arma."
+        }
+      }
+    },
+    "IMP-TEMPAQ-GF": {
+      "opTypeName": "Pistolero Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-GF-HSLP": {
+          "wepName": "Pistola láser infernal",
+          "profiles": {
+            "IMP-TEMPAQ-GF-HSLP-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-TEMPAQ-GF-HSLP-1": {
+              "profileName": "Salva"
+            }
+          }
+        },
+        "IMP-TEMPAQ-GF-HSLPPB": {
+          "wepName": "Pistola láser infernal (A quemarropa)"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-GF-A-GF": {
+          "abilityName": "Duelo de pistoleros",
+          "description": "Siempre que un agente enemigo a 8\" o menos de este agente le dispare, lleva la cuenta de cada dado de ataque que se descarte como fallo.\nTras la acción, antes de retirar a los agentes incapacitados (incluido este, si procede), este agente puede realizar una acción Disparar gratuita (cambia su orden a Trabarse para hacerlo), pero solo puede elegir como objetivo a ese agente enemigo con sus Pistolas láser infernal (Concentrado), y solo tiras un número de dados de ataque igual a los dados de ataque descartados de tu oponente más uno (hasta un máximo de cuatro)."
+        }
+      }
+    },
+    "IMP-TEMPAQ-GNR": {
+      "opTypeName": "Artillero Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-GNR-MC": {
+          "wepName": "Carabina de fusión"
+        },
+        "IMP-TEMPAQ-GNR-PC": {
+          "wepName": "Carabina de plasma",
+          "profiles": {
+            "IMP-TEMPAQ-GNR-PC-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-TEMPAQ-GNR-PC-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-TEMPAQ-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "IMP-TEMPAQ-MRK": {
+      "opTypeName": "Tirador Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-MRK-HSLL": {
+          "wepName": "Láser largo infernal",
+          "profiles": {
+            "IMP-TEMPAQ-MRK-HSLL-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-TEMPAQ-MRK-HSLL-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-TEMPAQ-MRK-HSLL-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-TEMPAQ-MRK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-MRK-A-SNPVANT": {
+          "abilityName": "Posición aventajada de francotirador",
+          "description": "Siempre que este agente esté en terreno Aventajado y dispare a un agente que tenga una orden de Trabarse y esté al menos 2\" más bajo que él, todos los perfiles de su Láser largo infernal tienen la regla de armas Severa."
+        }
+      }
+    },
+    "IMP-TEMPAQ-PRE": {
+      "opTypeName": "Precursor Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-PRE-HSLP": {
+          "wepName": "Pistola láser infernal"
+        },
+        "IMP-TEMPAQ-PRE-TD": {
+          "wepName": "Daga Tempestus"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-PRE-A-DYN": {
+          "abilityName": "Dinámico",
+          "description": "Siempre que este agente realice la acción Combatir o Disparar, puede realizar inmediatamente después una acción Correr gratuita. Puede hacerlo aunque haya realizado la acción Cargar durante esta activación."
+        },
+        "IMP-TEMPAQ-PRE-A-VKF": {
+          "abilityName": "Cuchillero despiadado",
+          "description": "Siempre que este agente esté combatiendo, tras resolver tu primer dado de ataque, puedes resolver inmediatamente otro (antes que tu oponente)."
+        }
+      }
+    },
+    "IMP-TEMPAQ-SS": {
+      "opTypeName": "Servocentinela Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-SS-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "IMP-TEMPAQ-SS-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "IMP-TEMPAQ-SS-GL-0": {
+              "profileName": "Frag"
+            },
+            "IMP-TEMPAQ-SS-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-TEMPAQ-SS-HSVG": {
+          "wepName": "Fusil de salvas infernal",
+          "profiles": {
+            "IMP-TEMPAQ-SS-HSVG-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-TEMPAQ-SS-HSVG-1": {
+              "profileName": "Barrido"
+            }
+          }
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-SS-A-MAC": {
+          "abilityName": "Máquina",
+          "description": "Este agente no puede realizar ninguna acción salvo Correr, Retroceder, Reposicionarse y Disparar. No puede contraatacar, ayudar en un combate ni usar armas que no estén en su hoja de datos."
+        },
+        "IMP-TEMPAQ-SS-A-TUR": {
+          "abilityName": "Torreta",
+          "description": "Este agente puede realizar dos acciones Disparar durante su activación."
+        }
+      }
+    },
+    "IMP-TEMPAQ-TRP": {
+      "opTypeName": "Soldado Aquilón",
+      "weapons": {
+        "IMP-TEMPAQ-TRP-HSLC": {
+          "wepName": "Carabina láser infernal"
+        },
+        "IMP-TEMPAQ-TRP-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-TEMPAQ-TRP-A-RAP": {
+          "abilityName": "Inserción rápida",
+          "description": "GAMBITO ESTRATÉGICO en la primera fase de estrategia. Cada agente SOLDADO AQUILÓN TEMPESTUS amigo que esté totalmente dentro de tu zona de despliegue puede realizar inmediatamente una acción Reposicionarse gratuita, pero debe terminar esa acción totalmente a 3\" o menos de tu zona de despliegue."
+        },
+        "IMP-TEMPAQ-TRP-A-SWL": {
+          "abilityName": "Aterrizaje veloz",
+          "description": "Cuando este agente aterrice, puedes desplegarlo a 4\" o menos de uno de tus marcadores de Lanzamiento (midiendo solo la distancia horizontal), lo que tiene prioridad sobre el requisito de distancia normal."
+        }
+      }
+    }
+  }
+}

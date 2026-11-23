@@ -1,0 +1,230 @@
+{
+  "killteamId": "TAU-VESP",
+  "locale": "es",
+  "team": {
+    "killteamName": "Aguijonalas Véspidos",
+    "description": "\"Tan veloces y tan letales son los Mal'Kor que es como si la furia de las tempestades lunares de D'Yangi hubiera barrido al enemigo. Casi compadezco a quienes se enfrentan a ellos\"  \n\n*--Shas'o Vior'la Shem*",
+    "composition": "Un equipo de exterminio AGUIJONALAS VÉSPIDOS está compuesto por:\n\n- 1 agente LÍDER DE CEPA AGUIJONALA VÉSPIDO\n- 1 agente DRON SUPERVISOR AGUIJONALA VÉSPIDO\n- 9 agentes AGUIJONALA VÉSPIDO elegidos de la siguiente lista:\n  - AGUIJÓN LARGO\n  - CEPA SOMBRÍA\n  - EXPLOSIÓN CELESTE\n  - GUARDIA DE ENJAMBRE\n  - GUERRERO\n\nSalvo los agentes GUERRERO, tu comando solo puede incluir una vez a cada agente de esta lista."
+  },
+  "ploys": {
+    "TAU-VESP-S-AA": {
+      "ployName": "Agilidad Aérea",
+      "description": "Siempre que un agente dispare contra un agente AGUIJONALA VÉSPIDO amigo mientras reacciona o interrumpe, o durante una activación en la que ese agente que dispara se haya movido o haya sido colocado, tira un D6 cada vez que un dado de ataque fuera a infligir Daño normal: con un 5+, ignora ese daño infligido.\nNo puedes ignorar más de un dado de ataque por secuencia de la acción Disparar de esta manera."
+    },
+    "TAU-VESP-S-AP": {
+      "ployName": "Depredadores Aéreos",
+      "description": "Siempre que un agente AGUIJONALA VÉSPIDO amigo se mueva o use VOLAR, sus armas tienen la regla de armas Equilibrada hasta el final de esa activación.  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "TAU-VESP-S-HES": {
+      "ployName": "Exoesqueleto Endurecido",
+      "description": "Siempre que un agente AGUIJONALA VÉSPIDO amigo (excepto DRON SUPERVISOR) combata o contraataque, el Daño normal de 4 o más le inflige 1 punto de daño menos."
+    },
+    "TAU-VESP-S-ST": {
+      "ployName": "Aguijonazo",
+      "description": "Mejora en 1 el atributo Impactar de las garras de los agentes AGUIJONALA VÉSPIDO amigos, y esas armas tienen las reglas de armas Letal 5+ y Choque."
+    },
+    "TAU-VESP-T-VV": {
+      "ployName": "Veneno Feroz",
+      "description": "Usa este ardid de tiroteo cuando un agente AGUIJONALA VÉSPIDO amigo (excepto DRON SUPERVISOR) esté combatiendo y golpee con un éxito crítico. Inflige D3 de daño adicional."
+    },
+    "TAU-VESP-T-OCL": {
+      "ployName": "Ocelos",
+      "description": "Usa este ardid de tiroteo cuando un agente AGUIJONALA VÉSPIDO amigo realice la acción Disparar durante una activación en la que haya usado VOLAR.\r Hasta el final de esa acción, obtiene todos los beneficios de la primera y la segunda característica principal del terreno Aventajado. Al determinar la diferencia de altura entre agentes para las reglas del terreno Aventajado, trata a ese agente amigo como si estuviera 3\" más alto de lo que está (pero no al determinar la distancia para Comunión)."
+    },
+    "TAU-VESP-T-NO": {
+      "ployName": "Sobrecarga de Neutrones",
+      "description": "Usa este ardid de tiroteo cuando resuelvas un éxito crítico para un agente AGUIJONALA VÉSPIDO amigo que esté disparando con un arma de neutrones durante una activación en la que se haya movido o haya usado VOLAR. Si el objetivo está a 4\" o menos de él, inflige D3 de daño adicional."
+    },
+    "TAU-VESP-T-DFL": {
+      "ployName": "Vuelo Raudo",
+      "description": "Usa este ardid de tiroteo cuando un agente AGUIJONALA VÉSPIDO amigo realice la acción Reposicionarse. Hasta el final de esa acción, puede moverse D3\" adicionales, o ser colocado D3\" más lejos si usa VOLAR. En cualquier caso, no puede realizar acciones Combatir ni Disparar durante el resto del punto de inflexión."
+    }
+  },
+  "equipments": {
+    "TAU-VESP-NS": {
+      "eqName": "Neuroestimulante",
+      "description": "En el paso de Preparación de cada fase de estrategia, al determinar cuántos puntos de Comunión ganas, puedes tirar dos D3 y elegir uno de esos D3 para usarlo."
+    },
+    "TAU-VESP-AGS": {
+      "eqName": "Estimulante de Agresión",
+      "description": "Siempre que un agente AGUIJONALA VÉSPIDO amigo (excepto DRON SUPERVISOR) combata, sus armas cuerpo a cuerpo tienen la regla de armas Incesante."
+    },
+    "TAU-VESP-AS": {
+      "eqName": "Estimulante Acelerante",
+      "description": "Siempre que un agente AGUIJONALA VÉSPIDO amigo (excepto DRON SUPERVISOR) realice la acción Cargar o Correr, puede moverse 1\" adicional. Si usa VOLAR para esta acción, puedes volver a colocarlo 1\" más lejos."
+    },
+    "TAU-VESP-CS": {
+      "eqName": "Estimulante de Convergencia",
+      "description": "Una vez por punto de inflexión, un agente AGUIJONALA VÉSPIDO amigo puede realizar la acción Recoger Marcador o una acción de misión sin gastar un punto de Comunión."
+    }
+  },
+  "teamAbilities": {
+    "TAU-VESP-TA-NECH": {
+      "abilityName": "Carga de Neutrones",
+      "description": "Las armas de neutrones son todas las armas que tienen la palabra \"neutrones\" en su nombre. Siempre que un agente AGUIJONALA VÉSPIDO amigo se mueva o use VOLAR, sus armas de neutrones tienen la regla de armas Penetración 1 hasta el final del punto de inflexión."
+    },
+    "TAU-VESP-TA-CO": {
+      "abilityName": "Comunión",
+      "description": "Los puntos de Comunión se usan para mantener la concentración táctica de los agentes AGUIJONALA VÉSPIDO amigos.\nEn el paso de Preparación de cada fase de estrategia, ganas 1D3 puntos de Comunión, más 1 si hay un agente DRON SUPERVISOR amigo en la zona de aniquilación.\nLos puntos de Comunión se usan de la siguiente manera (los agentes DRON SUPERVISOR no se ven afectados por lo siguiente):\n\n- Siempre que un agente AGUIJONALA VÉSPIDO amigo realice la acción Disparar, solo puede elegir como objetivo al agente enemigo más cercano a 8\" o menos de él (excluyendo a los agentes enemigos que estén en la zona de control de otros agentes AGUIJONALA VÉSPIDO amigos), a menos que gastes 1 de tus puntos de Comunión. En las armas con las reglas de armas Área y Ráfaga, solo el primer objetivo debe elegirse de esta manera.\n- Siempre que un agente AGUIJONALA VÉSPIDO amigo (excepto DRON) realice la acción Cargar, debe terminar la acción en la zona de control del agente enemigo más cercano, a menos que gastes 1 de tus puntos de Comunión.\n- Siempre que fueras a realizar la acción Recoger Marcador o una acción de misión (excepto Operar Escotilla) con un agente AGUIJONALA VÉSPIDO amigo, también debes gastar uno de tus puntos de Comunión para hacerlo.\n- Siempre que un agente AGUIJONALA VÉSPIDO amigo esté disparando, puedes gastar uno (y solo uno) de tus puntos de Comunión para repetir un dado de ataque.\n"
+    },
+    "TAU-VESP-TA-FL": {
+      "abilityName": "Volar",
+      "description": "Siempre que un agente AGUIJONALA VÉSPIDO amigo realice una acción en la que se mueva, puede VOLAR.\nSi lo hace, no lo muevas. En su lugar, retíralo de la zona de aniquilación y vuelve a colocarlo totalmente a una distancia igual o inferior a su atributo Movimiento (o 3\" si era Correr) de su posición original, midiendo solo la distancia horizontal.\nTen en cuenta que no gana distancia adicional al realizar la acción Cargar.  \n\nDebe colocarse en un lugar donde pueda colocarse y, salvo que fuera la acción Cargar, no puede colocarse en la zona de control de un agente enemigo.\nEn una zona de aniquilación que use las reglas de Combate en Espacios Cerrados (p. ej., la zona de aniquilación Gallowdark), no puedes medir la distancia por encima ni a través de terreno muro, y ese agente no puede colocarse al otro lado de un punto de acceso (dicho de otro modo, no puede VOLAR a través de una escotilla abierta)."
+    }
+  },
+  "opTypes": {
+    "TAU-VESP-VSL": {
+      "opTypeName": "Líder de Cepa Véspido",
+      "weapons": {
+        "TAU-VESP-VSL-NB": {
+          "wepName": "Bláster de neutrones"
+        },
+        "TAU-VESP-VSL-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TAU-VESP-VSL-A-CH": {
+          "abilityName": "Yelmo de Comunión",
+          "description": "Una vez durante cada una de las activaciones de este agente, puedes hacer una de las siguientes cosas:\n• Gastar 1 punto de Comunión gratis.\n• Gastar 1 punto de Comunión y elegir un agente AGUIJONALA VÉSPIDO amigo a 3\" o menos de este agente. Ese otro agente amigo puede realizar inmediatamente una acción de misión de 1PA gratuita (aun así debes gastar un punto de Comunión para que realice esa acción de forma normal, y esto no puede ignorarse usando el equipo Estimulante de Convergencia)."
+        },
+        "TAU-VESP-VSL-A-COM": {
+          "abilityName": "Comulgar",
+          "description": "Al elegir tus agentes para la batalla, elige también un ardid de estrategia AGUIJONALA VÉSPIDO. Siempre que este agente esté en la zona de aniquilación y no esté en la zona de control de un agente enemigo, ese ardid te cuesta 0PM."
+        }
+      }
+    },
+    "TAU-VESP-OSD": {
+      "opTypeName": "Dron Supervisor",
+      "weapons": {
+        "TAU-VESP-OSD-RAM": {
+          "wepName": "Topetazo"
+        }
+      },
+      "abilities": {
+        "TAU-VESP-OSD-A-EDR": {
+          "abilityName": "Dron Evasivo",
+          "description": "\r - Este agente no puede realizar ninguna acción salvo Guía Aérea, Cargar, Correr, Retroceder, Combatir o Reposicionarse.\r - Al determinar el control de los marcadores de objetivo, trata el atributo LPA de este agente como si fuera 1 menor.\r - Al determinar qué es visible para este agente, el disco redondo de la parte superior de la miniatura es su cabeza.\r - Siempre que este agente tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene prioridad sobre todas las demás reglas (p. ej., Buscadora, terreno Aventajado) excepto estar a 2\" o menos.\r - Siempre que un agente dispare contra este agente, ignora la regla de armas Penetración.\r "
+        }
+      },
+      "actions": {
+        "TAU-VESP-OSD-AG": {
+          "name": "Guía Aérea",
+          "effects": [
+            "**APOYO:** Hasta el inicio de la siguiente activación de este agente, siempre que otro agente AGUIJONALA VÉSPIDO amigo a 6\" o menos de este agente dispare contra un agente enemigo visible para este agente, las armas a distancia de ese agente amigo tienen las reglas de armas Letal 5+ y Saturación. Esto no tiene efecto mientras este agente esté en la zona de control de un agente enemigo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "TAU-VESP-VLS": {
+      "opTypeName": "Aguijón Largo Véspido",
+      "weapons": {
+        "TAU-VESP-VLS-NRR": {
+          "wepName": "Rifle de riel de neutrones",
+          "profiles": {
+            "TAU-VESP-VLS-NRR-0": {
+              "profileName": "Estándar"
+            },
+            "TAU-VESP-VLS-NRR-1": {
+              "profileName": "Apuntado"
+            }
+          }
+        },
+        "TAU-VESP-VLS-C": {
+          "wepName": "Garras"
+        }
+      }
+    },
+    "TAU-VESP-VSS": {
+      "opTypeName": "Cepa Sombría Véspido",
+      "weapons": {
+        "TAU-VESP-VSS-NS": {
+          "wepName": "Aguijón de neutrones"
+        },
+        "TAU-VESP-VSS-NG": {
+          "wepName": "Granada de neutrones"
+        },
+        "TAU-VESP-VSS-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TAU-VESP-VSS-A-CAM": {
+          "abilityName": "Camuflado",
+          "description": "Siempre que un agente dispare contra este agente, ignora la regla de armas Penetración y todas las salvaciones por cobertura se guardan como éxitos críticos. Esta regla no tiene efecto si este agente no ha sido elegido como objetivo válido, p. ej., si es un objetivo secundario de la regla de armas Área."
+        },
+        "TAU-VESP-VSS-A-GR": {
+          "abilityName": "Equipo Fantasma",
+          "description": "Mientras este agente tenga una orden de Ocultarse, tu oponente no puede elegirlo como objetivo válido a menos que esté a 6\" o menos del agente que intenta elegirlo como objetivo. Ten en cuenta que esta regla no tiene efecto si este agente no ha sido elegido como objetivo válido, p. ej., si es un objetivo secundario de la regla de armas Área."
+        }
+      }
+    },
+    "TAU-VESP-VSB": {
+      "opTypeName": "Explosión Celeste Véspido",
+      "weapons": {
+        "TAU-VESP-VSB-NGL": {
+          "wepName": "Lanzagranadas de neutrones"
+        },
+        "TAU-VESP-VSB-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TAU-VESP-VSB-A-NF": {
+          "abilityName": "Lluvia de Neutrones",
+          "description": "Una vez durante la activación de cada agente enemigo, en cuanto esté a 2\" o menos de uno de tus marcadores de Lluvia de Neutrones, inflígele 1D3 de daño (varios marcadores no son acumulativos)."
+        }
+      }
+    },
+    "TAU-VESP-VSG": {
+      "opTypeName": "Guardia de Enjambre Véspido",
+      "weapons": {
+        "TAU-VESP-VSG-FL": {
+          "wepName": "Lanzallamas",
+          "profiles": {
+            "TAU-VESP-VSG-FL-0": {
+              "profileName": "Estándar"
+            },
+            "TAU-VESP-VSG-FL-1": {
+              "profileName": "Antorcha celeste"
+            }
+          }
+        },
+        "TAU-VESP-VSG-C": {
+          "wepName": "Garras"
+        }
+      },
+      "actions": {
+        "TAU-VESP-VSG-ST": {
+          "name": "Asalto de Antorcha Celeste",
+          "effects": [
+            "Realiza una acción Reposicionarse gratuita con este agente. Durante esa acción, debe VOLAR y puede moverse 2\" adicionales. A continuación, realiza una acción Disparar gratuita. Solo puedes elegir el lanzallamas (antorcha celeste) para esa acción Disparar."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni mientras esté en la zona de control de un agente enemigo"
+          ]
+        }
+      }
+    },
+    "TAU-VESP-WAR": {
+      "opTypeName": "Guerrero Véspido",
+      "weapons": {
+        "TAU-VESP-WAR-NB": {
+          "wepName": "Bláster de neutrones"
+        },
+        "TAU-VESP-WAR-C": {
+          "wepName": "Garras"
+        }
+      },
+      "abilities": {
+        "TAU-VESP-WAR-A-WI": {
+          "abilityName": "Instintos de Guerrero",
+          "description": "Siempre que este agente esté disparando, si no gastas puntos de Comunión durante esa secuencia, su bláster de neutrones tiene la regla de armas Certera 1 hasta el final de esa secuencia."
+        }
+      }
+    }
+  }
+}

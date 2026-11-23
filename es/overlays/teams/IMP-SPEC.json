@@ -1,0 +1,376 @@
+{
+  "killteamId": "IMP-SPEC",
+  "locale": "es",
+  "team": {
+    "killteamName": "Escuadra Espectro",
+    "description": "Las Escuadras Espectro son una fuerza de élite de reconocimiento e infiltración del Astra Militarum. En lugar de confiar en la fuerza bruta de la potencia de fuego o en la mera superioridad numérica, los Espectros recurren al sabotaje, el subterfugio y la guerra de guerrillas para superar a sus oponentes. Las Escuadras Espectro empuñan muchas de las mismas armas que portan los soldados rasos de la Guardia Imperial, y aprovechan su familiaridad con este robusto equipo para lograr resultados impresionantes. Esto, unido a su variedad de especialistas veteranos de gran experiencia, permite a las Escuadras Espectro derrotar a equipos de exterminio enemigos que, a primera vista, parecen mucho más de élite.",
+    "composition": "Un equipo de exterminio ESCUADRA ESPECTRO está compuesto por:\n\n- 1 SARGENTO VETERANO ESCUADRA ESPECTRO\n- 1 BALIZA DE RETRANSMISIÓN VOX ESCUADRA ESPECTRO\n- 9 agentes ESCUADRA ESPECTRO elegidos de la siguiente lista:\n  - MÉDICO DE CAMPAÑA*\n  - GRANADERO*\n  - GUÍA*\n  - ARTILLERO con una de las siguientes opciones:\n    - Rifle de fusión; puños\n    - Rifle de plasma; puños\n  - ARTILLERO PESADO\n  - CARGADOR\n  - TIRADOR DE PRECISIÓN\n  - AMETRALLADOR\n  - SOLDADO*\n  - OPERADOR DE VOX*\n\nSalvo los agentes SOLDADO, tu comando solo puede incluir cada agente de esta lista una vez.\n\n*Con una de las siguientes opciones:\n- Rifle láser; culata\n- Carabina láser; culata"
+  },
+  "ploys": {
+    "IMP-SPEC-S-DIS": {
+      "ployName": "Desaparecer",
+      "description": "Un agente ESCUADRA ESPECTRO amigo puede realizar inmediatamente una acción Reposicionarse gratis. No puede terminar ese movimiento más cerca de agentes enemigos o de la zona de despliegue de tu oponente (a menos que termine ese movimiento totalmente dentro de tu zona de despliegue) y no puede volver a realizar esa acción durante el punto de inflexión. En una zona de aniquilación que use las reglas de combate en espacios cerrados (p. ej., Zona de aniquilación: Mundo Tumba), ignora el terreno Muro al determinar si está más cerca."
+    },
+    "IMP-SPEC-S-HE": {
+      "ployName": "Combate Oculto",
+      "description": "Siempre que un agente ESCUADRA ESPECTRO amigo esté disparando, si está en cobertura desde la perspectiva del objetivo, las armas de ese agente amigo tienen la regla de armas Equilibrada. Ten en cuenta que tu oponente sigue determinando las líneas de objetivo para esto (es decir, decide desde qué punto de la peana de su agente se trazan las líneas de objetivo)."
+    },
+    "IMP-SPEC-S-AV": {
+      "ployName": "Andanada de Emboscada",
+      "description": "Siempre que se active un agente ESCUADRA ESPECTRO amigo, si está a más de 3\" de agentes enemigos y no es un objetivo válido para agentes enemigos antes de determinar su orden, sus armas a distancia (salvo el perfil supresor de una autoametralladora) tienen la regla de armas Devastadora 1 hasta el final de esa activación. Si esa arma ya tenía la regla de armas Devastadora x, suma 1 a la x de su regla de armas Devastadora x en su lugar."
+    },
+    "IMP-SPEC-S-PAT": {
+      "ployName": "Paciencia",
+      "description": "En la fase de Tiroteo de este punto de inflexión, puedes hacer una de las siguientes cosas:\n- Cuando sea tu turno de activar un agente amigo, puedes saltarte esa activación. No puedes hacer esto hasta después de la primera activación de tu oponente.\n- Cuando un agente ESCUADRA ESPECTRO amigo realice la acción Disparar o Combatir durante su activación, si es el último agente amigo en ser activado durante este punto de inflexión, sus armas tienen la regla de armas Implacable para esa acción."
+    },
+    "IMP-SPEC-T-DOD": {
+      "ployName": "Esquivar",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA ESPECTRO amigo, antes o después de que realice una acción. Durante esa activación, ese agente puede realizar la acción Retroceder por 1 PA menos."
+    },
+    "IMP-SPEC-T-SK": {
+      "ployName": "Asesinos Silenciosos",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ESCUADRA ESPECTRO amigo antes o después de que realice una acción, si tiene una orden de Ocultarse y no es un objetivo válido para agentes enemigos. Hasta el final de esa activación, puede realizar la acción Cargar mientras tenga una orden de Ocultarse, y la primera vez que golpee puedes infligir 3 de daño adicional, pero no puedes resolver ningún otro éxito durante esa secuencia."
+    },
+    "IMP-SPEC-T-SR": {
+      "ployName": "Reacciones Rápidas",
+      "description": "Usa este ardid de tiroteo después de que un agente enemigo que tenga una orden de Ocultarse realice una acción durante su activación, si está a 8\" o menos de un agente ESCUADRA ESPECTRO amigo. Puedes usar la regla de facción Pericia de Campo de Élite para interrumpir esa activación con ese agente ESCUADRA ESPECTRO amigo independientemente de la orden de ese agente enemigo (esto tiene prioridad sobre las reglas normales)."
+    },
+    "IMP-SPEC-T-PD": {
+      "ployName": "Defensa Preparada",
+      "description": "Usa este ardid de tiroteo cuando un agente ESCUADRA ESPECTRO amigo que tenga una orden de Ocultarse o esté preparado esté contraatacando. Puedes hacer una de las siguientes cosas:\n- Al inicio del paso de Resolver dados de ataque, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear.\n- Cuando bloquees, ese bloqueo puede asignarse a bloquear dos éxitos sin resolver (en lugar de uno).\n\nNo puedes usar este ardid durante una activación en la que hayas interrumpido con la regla de facción Pericia de Campo de Élite."
+    }
+  },
+  "equipments": {
+    "IMP-SPEC-SO": {
+      "eqName": "Vigilancia de Francotirador",
+      "description": "Una vez por punto de inflexión, un agente ESCUADRA ESPECTRO amigo puede usar la siguiente arma a distancia:",
+      "weapons": {
+        "IMP-SPEC-SO-OVERWATCH": {
+          "wepName": "Vigilancia de francotirador"
+        }
+      }
+    },
+    "IMP-SPEC-TFT": {
+      "eqName": "Triangulación por Señal Tvid",
+      "description": "Una vez por punto de inflexión, cuando un agente ESCUADRA ESPECTRO amigo esté realizando la acción Disparar y estés seleccionando un objetivo válido, puedes usar esta regla. Si lo haces, ese objetivo no puede estar ofuscado si se cumple cualquiera de las siguientes condiciones:\n- También es un objetivo válido para otro agente ESCUADRA ESPECTRO amigo.\n- Está a 6\" o menos de un agente BALIZA DE RETRANSMISIÓN VOX amigo."
+    },
+    "IMP-SPEC-SF": {
+      "eqName": "Bengala Luminosa",
+      "description": "**GAMBITO ESTRATÉGICO**. Un agente ESCUADRA ESPECTRO amigo puede realizar inmediatamente una acción Granada Aturdidora gratis (consulta el equipo universal). Realizar esta acción usando esta regla no cuenta para sus límites de acciones (es decir, si también seleccionas esa granada del equipo). Cuando el atributo LPA de un agente enemigo cambie como resultado de este GAMBITO ESTRATÉGICO, no puedes usar este equipo durante el resto de la batalla."
+    },
+    "IMP-SPEC-AC": {
+      "eqName": "Camuflaje Avanzado",
+      "description": "Los agentes ESCUADRA ESPECTRO amigos (salvo BALIZA DE RETRANSMISIÓN VOX) pueden realizar la siguiente acción única:"
+    }
+  },
+  "teamAbilities": {
+    "IMP-SPEC-TA-EF": {
+      "abilityName": "Pericia de Campo de Élite",
+      "description": "En el paso de Preparación de cada fase de Estrategia, ganas 1 punto de Pericia de Campo, o 2 si un agente OPERADOR DE VOX ESCUADRA ESPECTRO amigo está en la zona de aniquilación y no está dentro de la zona de control de agentes enemigos. Al final de cada punto de inflexión, descarta tus puntos de Pericia de Campo.\n\nDespués de que un agente enemigo que tenga una orden de Trabarse realice una acción durante su activación, puedes gastar 1 de tus puntos de Pericia de Campo para interrumpir esa activación. Si lo haces, un agente ESCUADRA ESPECTRO amigo preparado que no esté dentro de la zona de control de ningún otro agente enemigo puede realizar una acción Disparar (salvo Guardia), Correr o Reposicionarse gratis.\n\nSi es la acción Disparar, puedes cambiar la orden de ese agente amigo para realizar esta acción. No puedes seleccionar ningún otro agente enemigo como objetivo válido durante esa acción. Estar dentro de la zona de control de ese agente enemigo (pero de ningún otro) no impide que ese agente amigo realice esa acción, en cuyo caso sigue las reglas de disparo a quemarropa de la acción Guardia.\n\nSi es la acción Reposicionarse, ese agente amigo no puede volver a realizar esa acción durante el punto de inflexión. Si es la acción Correr o Reposicionarse, ese agente amigo no puede terminar este movimiento más cerca de ese agente enemigo o de la zona de despliegue de tu oponente (a menos que termine ese movimiento totalmente dentro de tu zona de despliegue). En una zona de aniquilación que use las reglas de combate en espacios cerrados (p. ej., Zona de aniquilación: Mundo Tumba), ignora el terreno Muro al determinar si está más cerca y no puedes teletransportarte.\n\nNo puedes interrumpir la activación de cada agente enemigo más de una vez por activación (incluida Guardia), y cada agente amigo no puede realizar más de una acción gratis por punto de inflexión como resultado de esta regla."
+    },
+    "IMP-SPEC-TA-CC": {
+      "abilityName": "Capas de Camuflaje",
+      "description": "Siempre que un agente esté disparando contra un agente ESCUADRA ESPECTRO amigo (salvo BALIZA DE RETRANSMISIÓN VOX), si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar una salvación por cobertura como éxito crítico en su lugar. Esto no es acumulativo con las salvaciones por cobertura mejoradas del terreno Aventajado."
+    }
+  },
+  "opTypes": {
+    "IMP-SPEC-VS": {
+      "opTypeName": "Sargento Veterano Espectro",
+      "weapons": {
+        "IMP-SPEC-VS-SLC": {
+          "wepName": "Carabina láser con mira"
+        },
+        "IMP-SPEC-VS-BA": {
+          "wepName": "Brazo biónico"
+        }
+      },
+      "actions": {
+        "IMP-SPEC-VS-IM": {
+          "name": "Asignar Misión",
+          "effects": [
+            "Elige un agente ESCUADRA ESPECTRO amigo usado (salvo BALIZA DE RETRANSMISIÓN VOX) visible para este agente que no haya interrumpido la activación de un agente enemigo con la regla de facción Pericia de Campo de Élite en este punto de inflexión. Hasta el final del punto de inflexión, ese agente amigo puede hacerlo aunque esté usado (esto tiene prioridad sobre las reglas normales). Sin embargo, si lo hace, no puede reaccionar durante el punto de inflexión, ni realizar la acción Reposicionarse si ya lo ha hecho en este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SPEC-FM": {
+      "opTypeName": "Médico de Campaña Espectro",
+      "weapons": {
+        "IMP-SPEC-FM-LC": {
+          "wepName": "Carabina láser"
+        },
+        "IMP-SPEC-FM-LR": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-SPEC-FM-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-FM-A-MED": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente ESCUADRA ESPECTRO amigo (salvo BALIZA DE RETRANSMISIÓN VOX) fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él, puedes usar esta regla, siempre que ni este agente ni ese agente estén dentro de la zona de control de un agente enemigo. Si lo haces, ese agente amigo no queda incapacitado, le queda 1 herida y no puede quedar incapacitado durante el resto de la acción. Tras esa acción, ese agente amigo puede realizar inmediatamente una acción Correr gratis, pero debe terminar ese movimiento dentro de la zona de control de este agente. Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivas, y si esta regla se usó durante la activación de ese agente amigo, esa activación termina. No puedes usar esta regla si este agente está incapacitado, o si se trata de una acción Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-SPEC-FM-MK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente ESCUADRA ESPECTRO amigo (salvo BALIZA DE RETRANSMISIÓN VOX) dentro de la zona de control de este agente para que recupere hasta 2D3 heridas perdidas. No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SPEC-GRN": {
+      "opTypeName": "Granadero Espectro",
+      "weapons": {
+        "IMP-SPEC-GRN-LC": {
+          "wepName": "Carabina láser"
+        },
+        "IMP-SPEC-GRN-LR": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-SPEC-GRN-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag, krak y de humo (consulta el equipo universal). Hacerlo no cuenta para ningún uso limitado que tengas (es decir, si también seleccionas esas granadas del equipo para otros agentes). Siempre que este agente esté usando una granada frag o krak, mejora en 1 el atributo Impactar de esa arma."
+        },
+        "IMP-SPEC-GRN-A-MM": {
+          "abilityName": "Mina de Fusión",
+          "description": "Este agente lleva tu marcador de Mina de Fusión. Puede realizar la acción Recoger Marcador sobre ese marcador y, siempre que realice la acción Colocar Marcador sobre ese marcador, puede realizar inmediatamente una acción Correr gratis. Ese marcador no puede colocarse dentro de la zona de control de un agente enemigo (si este agente queda incapacitado mientras lleva ese marcador y ese marcador no puede colocarse, se retira junto con este agente).\n\nLa primera vez que tu marcador de Mina de Fusión esté dentro de la zona de control de otro agente, retira ese marcador e inflige 2D6+3 de daño a ese agente; si no queda incapacitado, termina su acción (si la hay), aunque los efectos de esa acción no se hayan cumplido. Si no puede colocarse, muévelo la distancia mínima necesaria para ello. Ten en cuenta que este agente se ignora para estos efectos (es decir, no puede detonarlo ni sufrir daño de ese marcador)."
+        }
+      }
+    },
+    "IMP-SPEC-GUI": {
+      "opTypeName": "Guía Espectro",
+      "weapons": {
+        "IMP-SPEC-GUI-LC": {
+          "wepName": "Carabina láser"
+        },
+        "IMP-SPEC-GUI-LR": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-SPEC-GUI-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-GUI-A-PK": {
+          "abilityName": "Zona de Aniquilación Preparada",
+          "description": "Puedes seleccionar una opción de equipo adicional, pero debe ser un Depósito de Munición o un elemento de terreno de equipo (consulta el equipo universal)."
+        },
+        "IMP-SPEC-GUI-A-ST": {
+          "abilityName": "Explorar el Terreno",
+          "description": "Los elementos de terreno dentro de tu territorio o a 3\" o menos de este agente están explorados para los agentes ESCUADRA ESPECTRO amigos. Una vez en cada una de sus activaciones, los agentes ESCUADRA ESPECTRO amigos pueden hacer una de las siguientes cosas:\n- Ignorar la primera distancia vertical de 2\" que muevan durante una escalada si el elemento de terreno está explorado para los agentes ESCUADRA ESPECTRO amigos.\n- Realizar la acción Operar Escotilla por 1 PA menos si el punto de acceso está explorado para los agentes ESCUADRA ESPECTRO amigos."
+        }
+      }
+    },
+    "IMP-SPEC-GUN": {
+      "opTypeName": "Artillero Espectro",
+      "weapons": {
+        "IMP-SPEC-GUN-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "IMP-SPEC-GUN-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "IMP-SPEC-GUN-PG-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-SPEC-GUN-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-SPEC-GUN-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-SPEC-HG": {
+      "opTypeName": "Artillero Pesado Espectro",
+      "weapons": {
+        "IMP-SPEC-HG-LP": {
+          "wepName": "Pistola láser"
+        },
+        "IMP-SPEC-HG-ML": {
+          "wepName": "Lanzamisiles",
+          "profiles": {
+            "IMP-SPEC-HG-ML-0": {
+              "profileName": "Frag"
+            },
+            "IMP-SPEC-HG-ML-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "IMP-SPEC-HG-FI": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-HG-A-WT": {
+          "abilityName": "Equipo de Armas",
+          "description": "Siempre que se active este agente, si un agente CARGADOR amigo está dentro de su zona de control, todos los perfiles de su lanzamisiles tienen la regla de armas Pesada (solo Correr) en lugar de la regla de armas Pesada hasta el final de esa activación."
+        }
+      }
+    },
+    "IMP-SPEC-LOD": {
+      "opTypeName": "Cargador Espectro",
+      "weapons": {
+        "IMP-SPEC-LOD-LP": {
+          "wepName": "Pistola láser"
+        },
+        "IMP-SPEC-LOD-FI": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-LOD-A-WA": {
+          "abilityName": "Asistencia de Armas",
+          "description": "Siempre que otro agente ESCUADRA ESPECTRO amigo dentro de la zona de control de este agente esté disparando, puedes repetir uno de tus dados de ataque."
+        }
+      },
+      "actions": {
+        "IMP-SPEC-LOD-LW": {
+          "name": "Cargar Arma",
+          "effects": [
+            "Elige un agente ESCUADRA ESPECTRO amigo dentro de la zona de control de este agente y que no esté a 3\" o menos de agentes enemigos. Ese agente amigo puede realizar inmediatamente una acción Disparar gratis (salvo Guardia), y puedes cambiar su orden para ello."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, mientras esté reaccionando, ni durante una activación en la que haya realizado la acción Cargar, Correr o Disparar (ni viceversa)."
+          ]
+        }
+      }
+    },
+    "IMP-SPEC-SHP": {
+      "opTypeName": "Tirador de Precisión Espectro",
+      "weapons": {
+        "IMP-SPEC-SHP-LL": {
+          "wepName": "Láser largo",
+          "profiles": {
+            "IMP-SPEC-SHP-LL-0": {
+              "profileName": "Oculto"
+            },
+            "IMP-SPEC-SHP-LL-1": {
+              "profileName": "Móvil"
+            },
+            "IMP-SPEC-SHP-LL-2": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-SPEC-SHP-GB": {
+          "wepName": "Culata"
+        }
+      }
+    },
+    "IMP-SPEC-SG": {
+      "opTypeName": "Ametrallador Espectro",
+      "weapons": {
+        "IMP-SPEC-SG-AS": {
+          "wepName": "Autoametralladora",
+          "profiles": {
+            "IMP-SPEC-SG-AS-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-SPEC-SG-AS-1": {
+              "profileName": "Supresor"
+            },
+            "IMP-SPEC-SG-AS-2": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-SPEC-SG-FI": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-SG-A-SF": {
+          "abilityName": "Fuego de Supresión",
+          "description": "Siempre que un agente enemigo sea visible para este agente y esté a 3\" o menos de él, si este agente tiene una orden de Trabarse y no está dentro de la zona de control de ningún otro agente enemigo, resta 1 al atributo Ataque de las armas de ese agente enemigo (hasta un mínimo de 1). Esta regla no tiene efecto si este agente ha realizado la acción Cargar durante este punto de inflexión."
+        }
+      }
+    },
+    "IMP-SPEC-TRP": {
+      "opTypeName": "Soldado Espectro",
+      "weapons": {
+        "IMP-SPEC-TRP-LC": {
+          "wepName": "Carabina láser"
+        },
+        "IMP-SPEC-TRP-LR": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-SPEC-TRP-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-SPEC-TRP-A-CH": {
+          "abilityName": "Sangre Fría",
+          "description": "Una vez por punto de inflexión, un agente ESCUADRA ESPECTRO amigo con esta regla puede interrumpir la activación de un agente enemigo con la regla de facción Pericia de Campo de Élite por 0 puntos de Pericia de Campo (esto tiene prioridad sobre las reglas normales)."
+        }
+      }
+    },
+    "IMP-SPEC-VO": {
+      "opTypeName": "Operador de Vox Espectro",
+      "weapons": {
+        "IMP-SPEC-VO-LC": {
+          "wepName": "Carabina láser"
+        },
+        "IMP-SPEC-VO-LR": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-SPEC-VO-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "actions": {
+        "IMP-SPEC-VO-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**. Elige otro agente ESCUADRA ESPECTRO amigo (salvo BALIZA DE RETRANSMISIÓN VOX) visible para este agente. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-SPEC-VRB": {
+      "opTypeName": "Baliza de Retransmisión Vox Espectro",
+      "abilities": {
+        "IMP-SPEC-VRB-A-PD": {
+          "abilityName": "Predespliegue",
+          "description": "En el paso de Desplegar agentes, este agente puede desplegarse fuera de tu zona de despliegue. Debe desplegarse en un lugar donde pueda colocarse, totalmente dentro de tu territorio y a más de 2\" de marcadores y elementos de terreno de equipo."
+        },
+        "IMP-SPEC-VRB-A-EXP": {
+          "abilityName": "Prescindible",
+          "description": "Este agente no puede realizar ninguna acción salvo Señal. No puede reaccionar, contraatacar ni prestar apoyo en un combate.\n\nEste agente no puede disputar marcadores ni áreas de la zona de aniquilación, y se ignora para la operación de exterminio/eliminación de tu oponente (cuando queda incapacitado y al determinar tu número inicial de agentes). También se ignora para las condiciones de victoria y la obtención de PV si cualquiera de ellas requiere que los agentes 'escapen', 'sobrevivan' o sean incapacitados por agentes enemigos (si escapa/sobrevive/queda incapacitado, al determinar cuántos agentes deben escapar/sobrevivir/quedar incapacitados, etc.).\n\nLos agentes pueden moverse a través de este agente. Tu oponente puede ignorar la zona de control de este agente en cualquier momento. Siempre que un agente ESCUADRA ESPECTRO amigo esté realizando la acción Disparar y estés seleccionando un objetivo válido, puedes ignorar la zona de control de este agente. Ten en cuenta que la zona de control no sería mutua cuando se ignora."
+        }
+      },
+      "actions": {
+        "IMP-SPEC-VRB-SIG": {
+          "name": "Señal",
+          "effects": [
+            "Elige otro agente ESCUADRA ESPECTRO amigo a 6\" o menos de este agente. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    }
+  }
+}

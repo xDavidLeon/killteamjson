@@ -1,0 +1,405 @@
+{
+  "killteamId": "CHAOS-BLD",
+  "locale": "es",
+  "team": {
+    "killteamName": "Ensangrentados",
+    "description": "Muchas tropas del Astra Militarum se han pasado al Caos a lo largo de los siglos, incluidos regimientos enteros del Ejército Imperial, predecesor del Astra Militarum, que siguieron al Señor de la Guerra Horus a la batalla contra el Imperium durante la Herejía de Horus.\n  \n  \n\nEstos Traidores representan las principales tropas mortales a disposición de las fuerzas del Caos, conocidas ahora como \"Traitoris Militarum\" en alto gótico por los defensores del Imperium. Incluso diez milenios después, se sabe que los Señores del Caos atraen a estos seguidores del Caos a sus bandas de guerra y ejércitos personales, que varían enormemente tanto en tamaño como en fuerza.",
+    "composition": "Un equipo de exterminio ENSANGRENTADOS está compuesto por:\n- 1 agente Cabecilla Ensangrentado con una de las siguientes opciones:\n  - Pistola automática o pistola láser, espada sierra o arma de energía\n  - Pistola bólter, espada sierra\n  - Bólter, bayoneta\n  - Pistola de plasma, hoja improvisada *(2)*\n- 9 agentes Ensangrentados elegidos de la siguiente lista:\n  - Granadero de Azufre\n  - Carnicero\n  - Operador de Comunicaciones\n  - Matasanos\n  - Desollador\n  - Artillero con bayoneta y lanzallamas *(1)*\n  - Artillero con bayoneta y lanzagranadas *(1)*\n  - Artillero con bayoneta y rifle de fusión *(1)*\n  - Artillero con bayoneta y rifle de plasma *(1,2)*\n  - Tirador *(1)*\n  - Matón\n  - Limpiatrincheras\n  - Soldado\n- 4 agentes Ensangrentados elegidos de la siguiente lista:\n - Impositor (cuenta como dos elecciones)\n - Ogrete (cuenta como dos elecciones)\n - Soldado\n\nSalvo los agentes Soldado, tu comando solo puede incluir cada agente de esta lista una vez.  \n\n**(1):** No puedes seleccionar más de tres de estos agentes en total  \n\n**(2):** No puedes seleccionar esta opción y este agente a la vez. En otras palabras, solo puedes tener un agente con un arma de plasma."
+  },
+  "ploys": {
+    "CHAOS-BLD-S-BD": {
+      "ployName": "Muerte Amarga",
+      "description": "Siempre que un agente ENSANGRENTADOS amigo quede incapacitado, antes de retirarlo de la zona de aniquilación, tira 1D3;\r con un 3 (o 2+ si ese agente amigo tiene una de tus fichas de Ensangrentado), inflige daño igual al resultado a un agente enemigo visible para ese agente amigo y a 2\" o menos de él."
+    },
+    "CHAOS-BLD-S-GK": {
+      "ployName": "Muerte Gloriosa",
+      "description": "Selecciona un agente enemigo. Hasta el final del punto de inflexión, siempre que un agente ENSANGRENTADOS amigo dispare, combata o contraataque contra ese agente enemigo, sus armas tienen la regla de armas Incesante, o Implacable si el agente que dispara, combate o contraataca tiene una de tus fichas de Ensangrentado.  \n**Incesante:** Puede repetir alguno o todos los resultados de un mismo valor (p. ej. todos los resultados de 2)  \n**Implacable:** Puede repetir alguno o todos los dados de ataque."
+    },
+    "CHAOS-BLD-S-MG": {
+      "ployName": "Determinación Malévola",
+      "description": "Siempre que un agente dispare contra un agente ENSANGRENTADOS amigo que tenga una de tus fichas de Ensangrentado o esté totalmente dentro del territorio de tu oponente, puedes repetir uno de tus dados de defensa."
+    },
+    "CHAOS-BLD-S-RA": {
+      "ployName": "Aspirante Temerario",
+      "description": "Siempre que un agente ENSANGRENTADOS amigo que esté totalmente dentro del territorio de tu oponente y no tenga una de tus fichas de Ensangrentado esté disparando o combatiendo, sus armas tienen la regla de armas Certera 1.  \n\nSiempre que un agente ENSANGRENTADOS amigo que tenga una de tus fichas de Ensangrentado esté totalmente dentro del territorio de tu oponente, sus armas tienen la regla de armas Castigadora.  \n**Castigadora:** Si conservas algún éxito crítico, puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo.  \n**Certera 1:** Puedes conservar 1 dado de ataque como éxito normal sin tirarlo."
+    },
+    "CHAOS-BLD-T-CD": {
+      "ployName": "Desprecio Cruel",
+      "description": "Usa este ardid de tiroteo cuando un agente ENSANGRENTADOS amigo realice la acción Disparar y estés seleccionando un objetivo válido.\nTener otros agentes ENSANGRENTADOS amigos dentro de la zona de control de un agente enemigo no impide que ese agente enemigo sea seleccionado.\nHasta el final de esa acción, siempre que descartes un dado de ataque como fallo, inflige daño igual al resultado del dado a un agente amigo de tu elección dentro de la zona de control del objetivo."
+    },
+    "CHAOS-BLD-T-DF": {
+      "ployName": "Favor Oscuro",
+      "description": "Usa este ardid de tiroteo cuando un agente ENSANGRENTADOS amigo que tenga una de tus fichas de Ensangrentado sea seleccionado como objetivo válido de una acción de Disparar o para combatir contra él durante la acción Combatir.\r Selecciona otro agente ENSANGRENTADOS amigo visible para ese primer agente amigo y a 3\" o menos de él para que pase a ser el objetivo válido o aquel contra el que se combate (según corresponda) en su lugar, aunque normalmente no fuera válido para ello.\r Si es la acción Combatir, considera que ese otro agente está dentro de la zona de control del agente que combate mientras dure esa acción. Si es la acción Disparar, ese otro agente solo está en cobertura u ofuscado si el objetivo original lo estaba.  \n\r Este ardid no tiene efecto si es la acción Disparar y el arma a distancia tiene la regla especial Área o Ráfaga."
+    },
+    "CHAOS-BLD-T-MOR": {
+      "ployName": "Momento de Renombre",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente ENSANGRENTADOS amigo que esté bajo la MIRADA DE LOS DIOSES, antes o después de que realice una acción.  \n\nHasta el final de la activación de ese agente, suma 1 a su atributo LPA."
+    },
+    "CHAOS-BLD-T-RE": {
+      "ployName": "Recompensa Merecida",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo quede incapacitado por un agente ENSANGRENTADOS amigo a 2\" o menos de él que tenga una de tus fichas de Ensangrentado.  \n\nGanas una ficha de Ensangrentado."
+    }
+  },
+  "equipments": {
+    "CHAOS-BLD-CS": {
+      "eqName": "Sigilo del Caos",
+      "description": "El ardid de tiroteo Recompensa Merecida te cuesta 0 PM."
+    },
+    "CHAOS-BLD-ST": {
+      "eqName": "Trofeos Siniestros",
+      "description": "Siempre que un agente enemigo dispare, combata o contraataque contra un agente ENSANGRENTADOS amigo que tenga una de tus fichas de Ensangrentado y esté a 2\" o menos de él,\ntu oponente no puede repetir sus resultados de 1 en los dados de ataque."
+    },
+    "CHAOS-BLD-SOBW": {
+      "eqName": "Símbolos de Culto Sangriento",
+      "description": "Siempre que un agente ENSANGRENTADOS amigo termine una acción, si no quedó incapacitado pero infligió daño a algún agente enemigo durante esa acción, recupera 1 herida perdida."
+    },
+    "CHAOS-BLD-WB": {
+      "eqName": "Hojas Perversas",
+      "description": "Suma 1 a ambos atributos de Daño de la bayoneta, la bayoneta y escudo, y la hoja improvisada de cada agente ENSANGRENTADOS amigo durante la batalla."
+    }
+  },
+  "teamAbilities": {
+    "CHAOS-BLD-TA-BL": {
+      "abilityName": "Ensangrentados",
+      "description": "Ganas una ficha de Ensangrentado:\n\n- En el paso de Preparar de cada fase de estrategia.\n- La primera vez que un agente enemigo quede incapacitado durante cada punto de inflexión.\n- La primera vez que un agente amigo quede incapacitado a 6\" o menos de un agente enemigo durante cada punto de inflexión.\n\nComo gambito estratégico, puedes asignar cualquiera de tus fichas de Ensangrentado sin asignar a agentes\nENSANGRENTADOS amigos. Cada agente no puede tener más de una de tus fichas de Ensangrentado.  \n\nDespués, si cuatro o más agentes amigos en la zona de aniquilación tienen una de tus fichas de Ensangrentado,\npuedes seleccionar uno de ellos para que esté bajo la MIRADA DE LOS DIOSES hasta el final del\npunto de inflexión.  \n\nSiempre que un agente ENSANGRENTADOS amigo tenga una de tus fichas de Ensangrentado, sus armas\ntienen la regla de armas Certera 1. Si ese agente ENSANGRENTADOS amigo está bajo la MIRADA\nDE LOS DIOSES, puedes conservar uno de tus éxitos normales obtenidos gracias a la regla de armas Certera\n1 como éxito crítico en su lugar."
+    }
+  },
+  "opTypes": {
+    "CHAOS-BLD-CHF": {
+      "opTypeName": "Cabecilla Traidor",
+      "weapons": {
+        "CHAOS-BLD-CHF-AP": {
+          "wepName": "Pistola automática"
+        },
+        "CHAOS-BLD-CHF-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-BLD-CHF-BG": {
+          "wepName": "Bólter"
+        },
+        "CHAOS-BLD-CHF-LP": {
+          "wepName": "Pistola láser"
+        },
+        "CHAOS-BLD-CHF-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "CHAOS-BLD-CHF-PP-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-BLD-CHF-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-BLD-CHF-BAY": {
+          "wepName": "Bayoneta"
+        },
+        "CHAOS-BLD-CHF-CS": {
+          "wepName": "Espada sierra"
+        },
+        "CHAOS-BLD-CHF-IB": {
+          "wepName": "Hoja improvisada"
+        },
+        "CHAOS-BLD-CHF-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-CHF-A-BIC": {
+          "abilityName": "Icono ensangrentado",
+          "description": "Una vez por punto de inflexión, cuando un agente\nENSANGRENTADOS amigo que tenga una de tus fichas de Ensangrentado quede\nincapacitado, si este agente está a 6\" o menos de él, puedes recuperar\nesa ficha."
+        },
+        "CHAOS-BLD-CHF-A-LWS": {
+          "abilityName": "Liderar con fuerza",
+          "description": "Siempre que este agente tenga una de tus\nfichas de Ensangrentado o esté totalmente dentro del territorio de tu oponente,\nconsidéralo como si estuviera bajo la MIRADA DE LOS DIOSES."
+        }
+      }
+    },
+    "CHAOS-BLD-GRN": {
+      "opTypeName": "Granadero de Azufre Traidor",
+      "weapons": {
+        "CHAOS-BLD-GRN-DB": {
+          "wepName": "Bomba diabolyk"
+        },
+        "CHAOS-BLD-GRN-LG": {
+          "wepName": "Rifle láser"
+        },
+        "CHAOS-BLD-GRN-BAY": {
+          "wepName": "Bayoneta"
+        },
+        "CHAOS-BLD-GRN-FG": {
+          "wepName": "Granada Frag"
+        },
+        "CHAOS-BLD-GRN-KG": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-GRN-A-EXD": {
+          "abilityName": "Muerte explosiva",
+          "description": "Si este agente queda incapacitado, antes de retirarlo de la zona de aniquilación, puedes usar esta regla. Si lo haces, tira dos D6, o un D6 si este agente está dentro de la zona de control de un agente enemigo. Si algún resultado es 4+, inflige D3+2 de daño a cada agente visible para este agente y a 2\" o menos de él (tira por separado para cada uno). Si este agente no ha usado su bomba diabolyk durante la batalla, inflige D6+2 de daño en su lugar."
+        },
+        "CHAOS-BLD-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag y krak (ver\nequipo universal). Hacerlo no cuenta para ningún uso limitado\nque tengas (p. ej., si también seleccionas esas granadas como equipo\npara otros agentes. Siempre que lo haga, mejora en 1 el atributo Impactar de\nesa arma."
+        }
+      }
+    },
+    "CHAOS-BLD-BUT": {
+      "opTypeName": "Carnicero Traidor",
+      "weapons": {
+        "CHAOS-BLD-BUT-PWAC": {
+          "wepName": "Arma de energía y cuchilla de carnicero"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-BUT-A-US": {
+          "abilityName": "Sustento impío",
+          "description": "Siempre que este agente esté combatiendo o contraatacando,\nsi incapacita al agente enemigo en esa secuencia, recupera d3\nheridas perdidas. Esto es acumulable con el equipo\nSímbolos de Culto Sangriento."
+        }
+      }
+    },
+    "CHAOS-BLD-COM": {
+      "opTypeName": "Operador de Comunicaciones Traidor",
+      "weapons": {
+        "CHAOS-BLD-COM-LG": {
+          "wepName": "Rifle láser"
+        },
+        "CHAOS-BLD-COM-BAY": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "actions": {
+        "CHAOS-BLD-COM-SACT": {
+          "name": "Activación sacrílega",
+          "effects": [
+            "Ganas una ficha de Ensangrentado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo, o si no tiene una de tus fichas de Ensangrentado."
+          ]
+        },
+        "CHAOS-BLD-COM-SIG": {
+          "name": "Señalar",
+          "effects": [
+            "**APOYO:** Selecciona otro agente ENSANGRENTADOS amigo (excepto OGRETE) visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo"
+          ]
+        }
+      }
+    },
+    "CHAOS-BLD-CRPS": {
+      "opTypeName": "Matasanos Traidor",
+      "weapons": {
+        "CHAOS-BLD-CRPS-LG": {
+          "wepName": "Rifle láser"
+        },
+        "CHAOS-BLD-CRPS-BAY": {
+          "wepName": "Bayoneta"
+        },
+        "CHAOS-BLD-CRPS-SN": {
+          "wepName": "Aguja de estimulantes"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-CRPS-A-RD": {
+          "abilityName": "Dosis regular",
+          "description": "Al final del paso de Seleccionar agentes, si este agente ha sido seleccionado para el despliegue, puedes seleccionar otro agente ENSANGRENTADOS amigo para que obtenga una regla ESTIMULANTE durante la batalla (excepto Rejuvenecido).  \n\n**Reglas Estimulante**\n\n- Rejuvenecido: El agente recupera 2d3 heridas perdidas.\n- Enfurecido: Las armas cuerpo a cuerpo del agente tienen la regla de armas Implacable\n- Fortificado: Siempre que un dado de ataque inflija 3 o más de daño al agente, tira un d6; con un 5+, resta 1 al daño infligido.\n"
+        }
+      },
+      "actions": {
+        "CHAOS-BLD-CRPS-STM": {
+          "name": "Estimulantes",
+          "effects": [
+            "Selecciona un agente ENSANGRENTADOS amigo dentro de la zona de control de este agente, y luego selecciona la REGLA ESTIMULANTE Rejuvenecido u otra REGLA ESTIMULANTE para que ese agente la tenga durante esa batalla.",
+            "No puedes seleccionar cada regla ESTIMULANTE para cada agente más de una vez por batalla."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo"
+          ]
+        }
+      }
+    },
+    "CHAOS-BLD-ENF": {
+      "opTypeName": "Impositor Traidor",
+      "weapons": {
+        "CHAOS-BLD-ENF-BP": {
+          "wepName": "Pistola bólter"
+        },
+        "CHAOS-BLD-ENF-PF": {
+          "wepName": "Puño de energía"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-ENF-A-GD": {
+          "abilityName": "Disciplinario implacable",
+          "description": "Siempre que un agente ENSANGRENTADOS amigo esté a 6\" o menos de este agente, puedes ignorar cualquier cambio en los atributos de ese agente por estar herido (incluidos los atributos de sus armas). Siempre que un agente ENSANGRENTADOS amigo se active a 6\" o menos de este agente, puedes ignorar cualquier cambio en los atributos de ese agente por estar herido hasta el final de su activación (incluidos los atributos de sus armas)."
+        }
+      },
+      "actions": {
+        "CHAOS-BLD-ENF-ENF": {
+          "name": "Imponer",
+          "effects": [
+            "Selecciona otro agente ENSANGRENTADOS amigo visible para este agente y a 3\" o menos de él.",
+            "Ese agente puede realizar de inmediato una acción de 1PA de forma gratuita, pero no puede moverse más de 2\" durante esa acción.",
+            "Si el agente seleccionado es un OPERADOR DE COMUNICACIONES, no puede realizar la acción ACTIVACIÓN SACRÍLEGA ni SEÑALAR."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo"
+          ]
+        }
+      }
+    },
+    "CHAOS-BLD-FLN": {
+      "opTypeName": "Desollador Traidor",
+      "weapons": {
+        "CHAOS-BLD-FLN-SKB": {
+          "wepName": "Hojas desolladoras"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-FLN-A-WR": {
+          "abilityName": "Miserable",
+          "description": "Este agente puede realizar la acción Cargar mientras tenga una orden de Ocultarse. Si este agente queda incapacitado durante la acción Combatir, puedes golpear con uno de tus éxitos sin resolver antes de que se retire de la zona de aniquilación."
+        }
+      }
+    },
+    "CHAOS-BLD-GNR": {
+      "opTypeName": "Artillero Traidor",
+      "weapons": {
+        "CHAOS-BLD-GNR-FL": {
+          "wepName": "Lanzallamas"
+        },
+        "CHAOS-BLD-GNR-GL": {
+          "wepName": "Lanzagranadas",
+          "profiles": {
+            "CHAOS-BLD-GNR-GL-0": {
+              "profileName": "Frag"
+            },
+            "CHAOS-BLD-GNR-GL-1": {
+              "profileName": "Krak"
+            }
+          }
+        },
+        "CHAOS-BLD-GNR-MG": {
+          "wepName": "Rifle de fusión"
+        },
+        "CHAOS-BLD-GNR-PG": {
+          "wepName": "Rifle de plasma",
+          "profiles": {
+            "CHAOS-BLD-GNR-PG-0": {
+              "profileName": "Estándar"
+            },
+            "CHAOS-BLD-GNR-PG-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "CHAOS-BLD-GNR-BAY": {
+          "wepName": "Bayoneta"
+        }
+      }
+    },
+    "CHAOS-BLD-OGR": {
+      "opTypeName": "Ogrete Traidor",
+      "weapons": {
+        "CHAOS-BLD-OGR-PMAMC": {
+          "wepName": "Maza de energía y garra mutante"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-OGR-A-AOM": {
+          "abilityName": "Avalancha de músculo",
+          "description": "Siempre que este agente termine su movimiento durante la acción Cargar, puedes infligir 1D3 de daño a un agente enemigo dentro de su zona de control."
+        },
+        "CHAOS-BLD-OGR-A-BRU": {
+          "abilityName": "Bruto",
+          "description": "Siempre que un oponente esté seleccionando un objetivo válido, si este agente tiene una orden de Ocultarse, no puede usar terreno Ligero como cobertura. Aunque esto puede permitir que este agente sea elegido como objetivo (suponiendo que sea visible), no elimina su salvación por cobertura (si la tiene)."
+        },
+        "CHAOS-BLD-OGR-A-CE": {
+          "abilityName": "Potenciado químicamente",
+          "description": "Puedes ignorar cualquier cambio en el atributo LPA de este agente, y no le afectan las reglas Choque y Aturdidora de los agentes enemigos."
+        }
+      }
+    },
+    "CHAOS-BLD-SS": {
+      "opTypeName": "Tirador Traidor",
+      "weapons": {
+        "CHAOS-BLD-SS-LL": {
+          "wepName": "Láser largo",
+          "profiles": {
+            "CHAOS-BLD-SS-LL-0": {
+              "profileName": "Móvil"
+            },
+            "CHAOS-BLD-SS-LL-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "CHAOS-BLD-SS-BAY": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-SS-A-ANWIB": {
+          "abilityName": "Un nombre susurrado en sangre",
+          "description": "**GAMBITO ESTRATÉGICO** en el primer punto de inflexión.  \n\nSelecciona un agente enemigo. Siempre que este agente esté disparando contra ese agente enemigo, considera que este agente tiene una de tus fichas de Ensangrentado y está bajo la MIRADA DE LOS DIOSES."
+        },
+        "CHAOS-BLD-SS-A-CAM": {
+          "abilityName": "Capa de camuflaje",
+          "description": "Siempre que un agente dispare contra este agente, si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional. Esto no es acumulable con las salvaciones por cobertura mejoradas por terreno Aventajado."
+        }
+      }
+    },
+    "CHAOS-BLD-THUG": {
+      "opTypeName": "Matón Traidor",
+      "weapons": {
+        "CHAOS-BLD-THUG-HC": {
+          "wepName": "Garrote pesado"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-THUG-A-TGH": {
+          "abilityName": "Duro",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, o un agente esté disparando contra él, el daño normal de 3 o más le inflige 1 de daño menos."
+        }
+      }
+    },
+    "CHAOS-BLD-TRS": {
+      "opTypeName": "Limpiatrincheras Traidor",
+      "weapons": {
+        "CHAOS-BLD-TRS-LG": {
+          "wepName": "Escopeta"
+        },
+        "CHAOS-BLD-TRS-BAS": {
+          "wepName": "Bayoneta y escudo"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-TRS-A-SHLDg": {
+          "abilityName": "Escudarse",
+          "description": "Siempre que este agente se active, puedes usar esta regla.\nSi lo haces, hasta el inicio de la siguiente activación de este agente:\n\n- Resta 2\" a su atributo Movimiento\n- Siempre que un agente dispare contra este agente, puedes repetir cualquiera de tus dados de defensa\n"
+        }
+      }
+    },
+    "CHAOS-BLD-TRP": {
+      "opTypeName": "Soldado Traidor",
+      "weapons": {
+        "CHAOS-BLD-TRP-LG": {
+          "wepName": "Rifle láser"
+        },
+        "CHAOS-BLD-TRP-BAY ": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "CHAOS-BLD-TRP-A-GA": {
+          "abilityName": "Activación en grupo",
+          "description": "Siempre que este agente quede gastado, debes activar a continuación otro agente ENSANGRENTADOS SOLDADO amigo preparado (si puedes) antes de que active tu oponente.\nCuando ese otro agente quede gastado, tu oponente activa entonces de forma normal (en otras palabras, no puedes activar más de dos agentes como se especifica con esta regla)."
+        }
+      }
+    }
+  }
+}

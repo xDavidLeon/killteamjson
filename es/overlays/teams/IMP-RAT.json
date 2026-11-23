@@ -1,0 +1,474 @@
+{
+  "killteamId": "IMP-RAT",
+  "locale": "es",
+  "team": {
+    "killteamName": "Ratlings",
+    "description": "Aunque son menos resistentes que sus camaradas humanos estándar, los Ratlings son tiradores excelentes por naturaleza. Se dice que los tiradores Ratlings pueden volarle la cabeza a un hereje desde más de un kilómetro de distancia. Sumado a su talento para mantenerse lejos del peligro, esto convierte a los Ratlings en temibles francotiradores capaces de infligir un castigo demoledor a fuerzas enemigas superiores. ",
+    "composition": "Un equipo de exterminio RATLING está compuesto por:\n\n- 1 agente CONSEGUIDOR RATLING con una de las siguientes opciones:  \n  - Rifle de batalla, puños\n  - Rifle de francotirador, puños\n- 10 agentes RATLING elegidos de la siguiente lista:\n  - CHUCHO DE GUERRA\n  - BULLGRYN* con una de cada una de las siguientes:\n    - Guantelete granadero o maza de energía\n    - Escudo bruto o escudo losa  \n  - OGRETE*\n  - PEZ GORDO\n  - BOMBARDERO\n  - TIPO DURO\n  - SAQUEADOR\n  - ESCURRIDIZO\n  - FRANCOTIRADOR\n  - OBSERVADOR\n  - MAESTRO DEL ALIJO\n  - LADRÓN DE VOX\n\n*No puedes elegir más de tres de estos agentes en total. Hasta tres veces, en lugar de elegir uno de estos agentes, puedes elegir un ardid RATLING para que te cueste 0PM durante la batalla.  \n\nSalvo los agentes BULLGRYN, OGRETE y FRANCOTIRADOR, tu comando solo puede incluir una vez a cada agente de los anteriores."
+  },
+  "ploys": {
+    "IMP-RAT-S-CS": {
+      "ployName": "Tiradores de élite",
+      "description": "Siempre que un agente RATLING amigo dispare contra un agente enemigo a más de 6\" de él, si ese agente amigo no ha realizado la acción Cargar, Retroceder o Reposicionarse durante la activación,\no se trata de una reacción, su rifle (si lo tiene) tiene la regla de armas Equilibrada.  \n\nTen en cuenta que no se impide a ese agente realizar esas acciones después de disparar."
+    },
+    "IMP-RAT-S-FA": {
+      "ployName": "Asalto en primera línea",
+      "description": "Siempre que un agente BULLGRYN RATLING amigo u OGRETE RATLING amigo dispare, combata o contraataque estando dentro del territorio de tu oponente o a 3\" o menos de un marcador de objetivo, sus armas tienen la regla de armas Equilibrada."
+    },
+    "IMP-RAT-S-SH": {
+      "ployName": "Escurridizos",
+      "description": "Siempre que un agente RATLING amigo (excepto OGRETE o BULLGRYN) tenga una orden de Ocultarse y esté en cobertura, no puede ser elegido como objetivo válido, lo que tiene preferencia sobre todas las demás reglas (p. ej., terreno Aventajado) salvo estar a 2\" o menos."
+    },
+    "IMP-RAT-S-SP": {
+      "ployName": "Posiciones de francotirador",
+      "description": "Siempre que un agente RATLING amigo esté a más de 6\" de los agentes enemigos y tenga terreno Pesado en su zona de control, el perfil Estacionario de su rifle (si lo tiene) tiene la regla de armas Silenciosa."
+    },
+    "IMP-RAT-T-LAR": {
+      "ployName": "Ladronzuelos",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente RATLING amigo (excepto OGRETE o BULLGRYN).\nHasta el final de esa activación, ese agente no necesita controlar un marcador para realizar las acciones Recoger Marcador o de misión que normalmente lo requieren\n(esto tiene preferencia sobre las condiciones de esa acción; solo necesita disputar el marcador), y que haya un agente enemigo en su zona de control no le impide hacerlo."
+    },
+    "IMP-RAT-T-SAH": {
+      "ployName": "Disparar y esconderse",
+      "description": "Usa este ardid de tiroteo después de que un agente RATLING amigo que tenga una orden de Trabarse realice la acción Disparar con un rifle.\r Si está a más de 3\" de los agentes enemigos, o no es visible para todos los agentes enemigos, puedes cambiar su orden a Ocultarse.\nComo alternativa, usa este ardid de tiroteo cuando un agente RATLING amigo esté sobre terreno Aventajado y esté disparando. Durante esa acción, puedes ignorar los parapetos de menos de 2\" de altura en su zona de control al determinar la visibilidad."
+    },
+    "IMP-RAT-T-SI": {
+      "ployName": "Instinto de supervivencia",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo esté disparando o combatiendo contra un agente RATLING amigo (excepto OGRETE o BULLGRYN) y estés asignando un dado para bloquear.\nSi es un éxito normal, puede bloquear un éxito crítico sin resolver;\nsi es un éxito crítico, puede bloquear dos éxitos sin resolver (normales o críticos)."
+    },
+    "IMP-RAT-T-SS": {
+      "ployName": "Tiro certero",
+      "description": "Usa este ardid de tiroteo cuando un agente RATLING amigo esté realizando la acción Disparar con un rifle y estés eligiendo un objetivo válido.\nQue haya otros agentes RATLING amigos en la zona de control de un agente enemigo no impide que ese agente enemigo sea elegido."
+    }
+  },
+  "equipments": {
+    "IMP-RAT-PR": {
+      "eqName": "Raciones birladas",
+      "description": "Una vez por punto de inflexión, siempre que un agente RATLING amigo dispare con un rifle y hayas tirado tus dados de ataque, puedes usar esta regla. Si lo haces, mejora en 1 el atributo Impactar de su rifle hasta el final de esa secuencia."
+    },
+    "IMP-RAT-LR": {
+      "eqName": "Bala de la suerte",
+      "description": "Una vez por punto de inflexión, siempre que un agente RATLING amigo dispare con un rifle y hayas tirado tus dados de ataque, puedes usar esta regla.\nSi lo haces, esa arma tiene la regla de armas Severa durante esa secuencia."
+    },
+    "IMP-RAT-SG": {
+      "eqName": "Mercancía robada",
+      "description": "Al final del paso de Seleccionar agentes, tira 1D3. Si el resultado es:\n\n- 1, pierdes 1 PM\n- 2, ganas 1 PM\n- 3, tu oponente pierde 1PM\n"
+    },
+    "IMP-RAT-IA": {
+      "eqName": "Armadura improvisada",
+      "description": "Siempre que un agente dispare contra un agente BULLGRYN RATLING amigo u OGRETE RATLING amigo, los resultados de 5+ en los dados de defensa son éxitos críticos."
+    }
+  },
+  "teamAbilities": {
+    "IMP-RAT-TA-SL": {
+      "abilityName": "Escudo losa",
+      "description": "Si este agente tiene un escudo losa, tiene un atributo Salvación de 3+."
+    },
+    "IMP-RAT-TA-BR": {
+      "abilityName": "Escudo bruto",
+      "description": "Si este agente tiene un escudo bruto, siempre que combata o contraataque, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+    }
+  },
+  "opTypes": {
+    "IMP-RAT-FIX": {
+      "opTypeName": "Conseguidor Ratling",
+      "weapons": {
+        "IMP-RAT-FIX-BR": {
+          "wepName": "Rifle de batalla"
+        },
+        "IMP-RAT-FIX-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-FIX-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-FIX-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-FIX-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-FIX-A-MC": {
+          "abilityName": "Contactos en el Munitorum",
+          "description": "Puedes elegir una opción de equipo adicional."
+        },
+        "IMP-RAT-FIX-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        },
+        "IMP-RAT-FIX-A-TD": {
+          "abilityName": "Designación de objetivo",
+          "description": "**Gambito estratégico**\nElige un agente enemigo.\nHasta el final del punto de inflexión, siempre que un agente RATLING amigo dispare contra ese agente enemigo con un rifle, esa arma tiene la regla de armas Letal 5+."
+        }
+      }
+    },
+    "IMP-RAT-BIG": {
+      "opTypeName": "Pez Gordo Ratling",
+      "weapons": {
+        "IMP-RAT-BIG-TSR": {
+          "wepName": "Rifle paratanques",
+          "profiles": {
+            "IMP-RAT-BIG-TSR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-BIG-TSR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-BIG-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-BIG-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      }
+    },
+    "IMP-RAT-HARD": {
+      "opTypeName": "Tipo Duro Ratling",
+      "weapons": {
+        "IMP-RAT-HARD-BR": {
+          "wepName": "Rifle de batalla"
+        },
+        "IMP-RAT-HARD-CK": {
+          "wepName": "Cuchillo de combate"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-HARD-A-HNT": {
+          "abilityName": "Cazador",
+          "description": "Este agente puede realizar la acción Cargar mientras tenga una orden de Ocultarse.\nSi lo hace durante su activación, hasta el final de esa activación, suma 1 al atributo ATQ de su cuchillo de combate y esa arma de combate tiene la regla de armas Brutal."
+        },
+        "IMP-RAT-HARD-A-LIW": {
+          "abilityName": "Al acecho",
+          "description": "Siempre que este agente contraataque mientras haya terreno Ligero o Pesado en su zona de control, resuelves tú el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+        },
+        "IMP-RAT-HARD-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      }
+    },
+    "IMP-RAT-SPOT": {
+      "opTypeName": "Observador Ratling",
+      "weapons": {
+        "IMP-RAT-SPOT-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-SPOT-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-SPOT-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-SPOT-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-SPOT-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      },
+      "actions": {
+        "IMP-RAT-SPOT-SPOT": {
+          "name": "Localizar",
+          "effects": [
+            "**APOYO**\r Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente RATLING amigo a 3\" o menos de este agente dispare contra ese agente enemigo, puedes usar este efecto.\r Si lo haces:\r \r - Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).\r - Ese agente enemigo no está oscurecido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-RAT-BOMB": {
+      "opTypeName": "Bombardero Ratling",
+      "weapons": {
+        "IMP-RAT-BOMB-EXA": {
+          "wepName": "Arsenal explosivo"
+        },
+        "IMP-RAT-BOMB-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-BOMB-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-BOMB-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-BOMB-BA": {
+          "wepName": "Brazo biónico"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-BOMB-A-MINE": {
+          "abilityName": "Mina",
+          "description": "Las minas que elijas del equipo universal infligen en su lugar 2D3+3 de daño, y los agentes RATLING amigos (excepto OGRETE y BULLGRYN) se ignoran a efectos de sus efectos (es decir, no pueden activarlas ni sufrir daño por ellas).\nEsto tiene preferencia sobre las reglas normales de las minas."
+        },
+        "IMP-RAT-BOMB-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        },
+        "IMP-RAT-BOMB-A-TRIP": {
+          "abilityName": "Cable trampa",
+          "description": "Al colocar el equipo antes de la batalla, puedes colocar hasta dos de tus marcadores de Cable trampa totalmente dentro de tu territorio y a más de 2\" de otros marcadores, puntos de acceso y terreno Accesible.\r La primera vez que ese marcador esté en la zona de control de un agente enemigo, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación y termina su acción (si la hay),\r aunque no se hayan cumplido los efectos de esa acción. Si no se puede colocar, muévelo la distancia mínima necesaria para hacerlo."
+        }
+      }
+    },
+    "IMP-RAT-STASH": {
+      "opTypeName": "Maestro del Alijo Ratling",
+      "weapons": {
+        "IMP-RAT-STASH-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-STASH-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-STASH-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-STASH-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-STASH-A-LF": {
+          "abilityName": "Mano larga",
+          "description": "Una vez durante cada una de las activaciones de este agente, puede realizar la acción Colocar Marcador, Recoger Marcador o una acción de misión por 1 PA menos."
+        },
+        "IMP-RAT-STASH-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        },
+        "IMP-RAT-STASH-A-WS": {
+          "abilityName": "Bien surtido",
+          "description": "Si eliges un Depósito de Munición del equipo universal, puedes colocar un marcador de Depósito de Munición adicional."
+        }
+      }
+    },
+    "IMP-RAT-RAID": {
+      "opTypeName": "Saqueador Ratling",
+      "weapons": {
+        "IMP-RAT-RAID-SSR": {
+          "wepName": "Rifle de francotirador silenciado",
+          "profiles": {
+            "IMP-RAT-RAID-SSR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-RAID-SSR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-RAID-DAG": {
+          "wepName": "Daga"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-RAID-A-GH": {
+          "abilityName": "Garfio",
+          "description": "Siempre que este agente esté escalando hacia arriba, puedes considerar que la distancia vertical es de 2\" (independientemente de cuánto se mueva realmente el agente en vertical)."
+        },
+        "IMP-RAT-RAID-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      }
+    },
+    "IMP-RAT-SNP": {
+      "opTypeName": "Francotirador Ratling",
+      "weapons": {
+        "IMP-RAT-SNP-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-SNP-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-SNP-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-SNP-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-SNP-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      }
+    },
+    "IMP-RAT-VOX": {
+      "opTypeName": "Ladrón de Vox Ratling",
+      "weapons": {
+        "IMP-RAT-VOX-SR": {
+          "wepName": "Rifle de francotirador",
+          "profiles": {
+            "IMP-RAT-VOX-SR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-VOX-SR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-VOX-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-VOX-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      },
+      "actions": {
+        "IMP-RAT-VOX-IC": {
+          "name": "Interceptar comunicaciones",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente RATLING amigo visible para este agente y a 6\" o menos de él.",
+            "Hasta el final de su siguiente activación, suma 1 al atributo LPA de ese agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-RAT-SNK": {
+      "opTypeName": "Escurridizo Ratling",
+      "weapons": {
+        "IMP-RAT-SNK-SSR": {
+          "wepName": "Rifle de francotirador silenciado",
+          "profiles": {
+            "IMP-RAT-SNK-SSR-0": {
+              "profileName": "Móvil"
+            },
+            "IMP-RAT-SNK-SSR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "IMP-RAT-SNK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-SNK-A-EV": {
+          "abilityName": "Evadir",
+          "description": "Una vez por punto de inflexión, después de que un agente enemigo realice una acción, puedes interrumpir esa acción (o reacción) y realizar una acción gratuita de Correr con este agente.\nTen en cuenta que este agente no puede usar la regla de facción Escabullirse (en su lugar tiene esta regla)."
+        },
+        "IMP-RAT-SNK-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      },
+      "actions": {
+        "IMP-RAT-SNK-OPT": {
+          "name": "Ópticas",
+          "effects": [
+            "Hasta el inicio de la siguiente activación de este agente, siempre que dispare, los agentes enemigos no pueden estar oscurecidos y el perfil estacionario del rifle de francotirador silenciado de este agente tiene la regla de armas Letal 5+."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-RAT-OGR": {
+      "opTypeName": "Ogrete",
+      "weapons": {
+        "IMP-RAT-OGR-RG": {
+          "wepName": "Arma destripadora"
+        },
+        "IMP-RAT-OGR-B": {
+          "wepName": "Bayoneta"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-OGR-A-BC": {
+          "abilityName": "Carga a la bayoneta",
+          "description": "Siempre que este agente termine de moverse durante la acción Cargar, puedes infligir 1D3+1 de daño a un agente enemigo en su zona de control."
+        },
+        "IMP-RAT-OGR-A-BRU": {
+          "abilityName": "Bruto",
+          "description": "Siempre que tu oponente esté eligiendo un objetivo válido, si este agente tiene una orden de Ocultarse, no puede usar el terreno Ligero como cobertura.\nAunque esto puede permitir que este agente sea elegido como objetivo (suponiendo que sea visible), no elimina su salvación por cobertura (si la hay)."
+        },
+        "IMP-RAT-OGR-A-SW": {
+          "abilityName": "Corto de luces",
+          "description": "Debes gastar 1 PA adicional para que este agente realice las acciones Recoger Marcador y de misión (excepto Operar escotilla)."
+        }
+      }
+    },
+    "IMP-RAT-BULL": {
+      "opTypeName": "Bullgryn",
+      "weapons": {
+        "IMP-RAT-BULL-GG": {
+          "wepName": "Guantelete granadero"
+        },
+        "IMP-RAT-BULL-PM": {
+          "wepName": "Maza de energía"
+        },
+        "IMP-RAT-BULL-BS": {
+          "wepName": "Escudo bruto"
+        },
+        "IMP-RAT-BULL-SS": {
+          "wepName": "Escudo losa"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-BULL-A-BRU": {
+          "abilityName": "Bruto",
+          "description": "Siempre que tu oponente esté eligiendo un objetivo válido, si este agente tiene una orden de Ocultarse, no puede usar el terreno Ligero como cobertura.\nAunque esto puede permitir que este agente sea elegido como objetivo (suponiendo que sea visible), no elimina su salvación por cobertura (si la hay)."
+        },
+        "IMP-RAT-BULL-A-SH": {
+          "abilityName": "Escudo",
+          "description": "Si este agente tiene un escudo losa, tiene un atributo Salvación de 3+;\nsi tiene un escudo bruto, siempre que combata o contraataque, cada uno de tus bloqueos puede asignarse para bloquear dos éxitos sin resolver (en lugar de uno)."
+        },
+        "IMP-RAT-BULL-A-SW": {
+          "abilityName": "Corto de luces",
+          "description": "Debes gastar 1 PA adicional para que este agente realice las acciones Recoger Marcador y de misión (excepto Operar escotilla)."
+        }
+      }
+    },
+    "IMP-RAT-MUTT": {
+      "opTypeName": "Chucho de Guerra Ratling",
+      "weapons": {
+        "IMP-RAT-MUTT-B": {
+          "wepName": "Mordisco"
+        }
+      },
+      "abilities": {
+        "IMP-RAT-MUTT-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir y Reposicionarse.\nNo puede usar ningún arma que no esté en su hoja de datos."
+        },
+        "IMP-RAT-MUTT-A-EQ": {
+          "abilityName": "Alerta temprana",
+          "description": "Una vez por punto de inflexión, después de que un agente enemigo realice una acción en la que se mueva, puedes interrumpir esa activación (o reacción) para usar esta regla.\r Si lo haces, cada agente RATLING amigo (excepto OGRETE y BULLGRYN) a 6\" o menos de este agente y a 2\" o menos de ese agente enemigo puede realizar una acción gratuita de Correr o una acción gratuita de Retroceder, pero no puede moverse más de 3\".\r En ambos casos, ninguno puede terminar ese movimiento a 2\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento (si esto no es posible para un agente, no puede moverse)."
+        },
+        "IMP-RAT-MUTT-A-SCAR": {
+          "abilityName": "Escabullirse",
+          "description": "Después de la activación de cada agente enemigo, antes de que se active el siguiente agente, puedes realizar una acción gratuita de Correr con un agente RATLING amigo (excepto BULLGRYN, OGRETE y ESCURRIDIZO), \npero no puede terminar ese movimiento a 3\" o menos de un agente enemigo a menos que no sea visible para ningún agente enemigo cuando termine ese movimiento.\n  \n\nCada agente amigo solo puede hacer esto una vez por punto de inflexión, y no puede hacerlo después de la última activación del punto de inflexión."
+        }
+      }
+    }
+  }
+}

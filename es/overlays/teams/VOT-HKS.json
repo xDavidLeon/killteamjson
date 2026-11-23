@@ -1,0 +1,434 @@
+{
+  "killteamId": "VOT-HKS",
+  "locale": "es",
+  "team": {
+    "killteamName": "Recuperadores Hearthkyn",
+    "description": "Guerreros sumamente diestros y exploradores de naves del vacío naufragadas y estaciones espaciales abandonadas, los Recuperadores Hearthkyn tienen la misión de identificar materiales valiosos y marcarlos para recuperarlos más tarde.\nFuertemente armados y absolutamente resueltos, los equipos de exterminio de Recuperadores Hearthkyn se apoderan de esos hallazgos y los defienden con la firme determinación típica de los Kin.",
+    "composition": "Un equipo de exterminio RECUPERADORES HEARTHKYN está compuesto por:\n\n- 1 agente THEYN RECUPERADOR HEARTHKYN con una opción de cada una de las siguientes:\n  - Pistola bólter patrón Autoch, bólter patrón Autoch, revólver bólter, pistola de plasma EtaCarn, bláster de iones o pistola de iones\n  - Guantelete de conmoción o arma de plasma\n- 9 agentes RECUPERADOR HEARTHKYN elegidos de la siguiente lista:\n  - DOZR\n  - MÉDICO DE CAMPAÑA\n  - GRANADERO\n  - GUERRERO CON RETRORREACTOR\n  - KINLYNK*\n  - KOGNITAAR*\n  - LOKATR*\n  - LUGGER*\n  - GUERRERO*\n  - ARTILLERO con una de las siguientes opciones:\n    - Proyector de plasma EtaCarn; puños\n    - Rifle automático HYLas; puños\n    - Cañón rotativo HYLas; puños\n    - Lanzamisiles L7; puños\n    - Rifle magna-riel; puños\n\nSalvo los agentes ARTILLERO y GUERRERO, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta tres agentes ARTILLERO (cada uno debe tener una opción diferente).\n\n*Con una de las siguientes opciones:\n\n- Bólter patrón Autoch; puños\n- Bláster de iones; puños\n"
+  },
+  "ploys": {
+    "VOT-HKS-S-NK": {
+      "ployName": "Lo necesario se conserva",
+      "description": "Elige un marcador de objetivo o uno de tus marcadores de misión.\n\n- Siempre que se determine el control de ese marcador, trata el atributo LPA total de los agentes RECUPERADOR HEARTHKYN amigos que lo disputan como 1 más alto si al menos un agente RECUPERADOR HEARTHKYN amigo disputa ese marcador.\nTen en cuenta que esto no es un cambio en el atributo LPA, por lo que cualquier cambio es acumulativo con esto.\n- Siempre que un agente RECUPERADOR HEARTHKYN amigo esté a 3\" o menos de ese marcador, suma 1 al atributo Ataques de sus armas cuerpo a cuerpo (hasta un máximo de 4); si el arma ya tiene un atributo Ataques de 4, tiene la regla de armas Equilibrada."
+    },
+    "VOT-HKS-S-PFP": {
+      "ployName": "Potencia de fuego cercana",
+      "description": "Siempre que un agente RECUPERADOR HEARTHKYN amigo dispare contra un agente enemigo a 6\" o menos de él, mejora en 1 el atributo Impactar de las armas a distancia de ese agente amigo (hasta un máximo de 3+)."
+    },
+    "VOT-HKS-S-TE": {
+      "ployName": "El esfuerzo recompensa",
+      "description": "Elige un marcador de objetivo o uno de tus marcadores de misión.\nSiempre que un agente enemigo esté a 3\" o menos de ese marcador, trátalo como si tuviera una ficha de Agravio adicional."
+    },
+    "VOT-HKS-S-WD": {
+      "ployName": "Defensa forjada",
+      "description": "Siempre que un agente dispare contra un agente RECUPERADOR HEARTHKYN amigo, si has obtenido uno o menos éxitos (incluidas las repeticiones), puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo."
+    },
+    "VOT-HKS-T-TAAW": {
+      "ployName": "Los Ancestros observan",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente RECUPERADOR HEARTHKYN amigo. Hasta el final de esa activación, ese agente puede realizar una acción gratuita de Disparar o una acción gratuita de Combatir, y puedes ignorar cualquier cambio en los atributos de las armas de ese agente por estar herido."
+    },
+    "VOT-HKS-T-ST": {
+      "ployName": "Robusto",
+      "description": "Usa este ardid de tiroteo cuando un agente dispare contra un agente RECUPERADOR HEARTHKYN amigo, al reunir tus dados de defensa. Cambia los éxitos críticos conservados del atacante a éxitos normales\n(las reglas de armas que ya se hayan resuelto no se ven afectadas, p. ej., Penetración Crítica)."
+    },
+    "VOT-HKS-T-ETA": {
+      "ployName": "Combatir para adquirir",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente RECUPERADOR HEARTHKYN amigo, si está disparando o combatiendo contra un agente enemigo que controla\nun marcador de objetivo o uno de tus marcadores de misión. Puedes repetir cualquiera de tus dados de ataque."
+    },
+    "VOT-HKS-T-WI": {
+      "ployName": "Merece la pena",
+      "description": "Usa este ardid de tiroteo cuando un agente RECUPERADOR HEARTHKYN amigo quede incapacitado. Puede realizar una acción de misión gratuita antes de ser retirado de la zona de aniquilación."
+    }
+  },
+  "equipments": {
+    "VOT-HKS-PK": {
+      "eqName": "Cuchillos de plasma",
+      "description": "Los agentes RECUPERADOR HEARTHKYN amigos tienen la siguiente arma cuerpo a cuerpo. Ten en cuenta que el agente MÉDICO DE CAMPAÑA ya tiene esta arma pero con mejores atributos; en ese caso, usa la mejor versión.",
+      "weapons": {
+        "VOT-HKS-PK-PLASMA-KNIFE": {
+          "wepName": "Cuchillo de plasma"
+        }
+      }
+    },
+    "VOT-HKS-CR": {
+      "eqName": "Equipo de escalada",
+      "description": "Durante la activación de cada agente RECUPERADOR HEARTHKYN amigo, puedes hacer una de las siguientes cosas:\n• Cuando ese agente esté trepando, puedes tratar la distancia vertical como 2\" (independientemente de cuánto se mueva realmente en vertical el agente).\n• Cuando ese agente se esté dejando caer, ignora la distancia vertical."
+    },
+    "VOT-HKS-ET": {
+      "eqName": "Herramientas de excavación",
+      "description": "Los agentes RECUPERADOR HEARTHKYN amigos pueden realizar la acción Recoger Marcador por 1 PA menos, y no necesitan controlar el marcador para hacerlo (lo que tiene prioridad sobre las condiciones de esa acción - solo necesitan disputar el marcador)."
+    },
+    "VOT-HKS-WOC": {
+      "eqName": "Título de reclamación",
+      "description": "Una vez por batalla, si agentes RECUPERADOR HEARTHKYN amigos disputan dos o más marcadores de objetivo, tras la tirada de desempate para decidir la iniciativa, puedes repetir tu dado."
+    }
+  },
+  "teamAbilities": {
+    "VOT-HKS-TA-GR": {
+      "abilityName": "Agravio",
+      "description": "Siempre que un agente enemigo incapacite a un agente RECUPERADOR HEARTHKYN amigo, ese agente enemigo obtiene una de tus fichas de Agravio durante el resto de la batalla.\nSiempre que un agente RECUPERADOR HEARTHKYN amigo dispare, combata o contraataque contra un agente enemigo,\npor cada una de tus fichas de Agravio que tenga ese agente enemigo, puedes conservar uno de tus éxitos normales como éxito crítico en su lugar (incluidos los éxitos normales ya conservados como resultado de la regla de armas Certera).  \n\nTen en cuenta que las fichas de Agravio no se retiran cuando haces esto."
+    }
+  },
+  "opTypes": {
+    "VOT-HKS-TH": {
+      "opTypeName": "Theyn Hearthkyn",
+      "weapons": {
+        "VOT-HKS-TH-APBP": {
+          "wepName": "Pistola bólter patrón Autoch"
+        },
+        "VOT-HKS-TH-APB": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-TH-BR": {
+          "wepName": "Revólver bólter"
+        },
+        "VOT-HKS-TH-ECPP": {
+          "wepName": "Pistola de plasma EtaCarn"
+        },
+        "VOT-HKS-TH-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-TH-IP": {
+          "wepName": "Pistola de iones"
+        },
+        "VOT-HKS-TH-CG": {
+          "wepName": "Guantelete de conmoción"
+        },
+        "VOT-HKS-TH-PW": {
+          "wepName": "Arma de plasma"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-TH-A-EOTA": {
+          "abilityName": "Ojo de los Ancestros",
+          "description": "**GAMBITO ESTRATÉGICO** Elige un agente enemigo, o hasta dos agentes enemigos si tres o más agentes RECUPERADOR HEARTHKYN amigos están incapacitados.\nCada uno de esos agentes enemigos obtiene una de tus fichas de Agravio."
+        },
+        "VOT-HKS-TH-A-WC": {
+          "abilityName": "Emblema de campo de urdimbre",
+          "description": "Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido"
+        }
+      }
+    },
+    "VOT-HKS-DO": {
+      "opTypeName": "Dozr Hearthkyn",
+      "weapons": {
+        "VOT-HKS-DO-APBP": {
+          "wepName": "Pistola bólter patrón Autoch"
+        },
+        "VOT-HKS-DO-CK": {
+          "wepName": "Nudilleras de conmoción"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-DO-A-BR": {
+          "abilityName": "Camorrista",
+          "description": "Siempre que este agente combata o contraataque:\n\n- Los agentes enemigos no pueden prestar apoyo.\n- Si queda incapacitado, puedes golpear al agente enemigo de esa secuencia con uno de tus éxitos sin resolver antes de que sea retirado de la zona de aniquilación.\n- El Daño normal de 4 o más le inflige 1 punto de daño menos."
+        }
+      },
+      "actions": {
+        "VOT-HKS-DO-KS": {
+          "name": "Golpe de nudilleras",
+          "effects": [
+            "Elige un agente enemigo dentro de la zona de control de este agente.",
+            "Puedes mover a ese agente enemigo hasta 3\" a un lugar donde pueda colocarse.",
+            "Después inflígele D3+1 de daño (aunque no lo muevas); si el resultado del D3 es un 3, resta también 1 al atributo LPA de ese agente enemigo hasta el final de su siguiente activación.",
+            "Después este agente puede realizar de inmediato una acción gratuita de Cargar (aunque ya haya realizado la acción Cargar durante esa activación), pero no puede moverse más de 3\" durante esa acción."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción a menos que haya un agente enemigo dentro de su zona de control."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-MDC": {
+      "opTypeName": "Médico de campaña Hearthkyn",
+      "weapons": {
+        "VOT-HKS-MDC-BR": {
+          "wepName": "Revólver bólter"
+        },
+        "VOT-HKS-MDC-PK": {
+          "wepName": "Cuchillo de plasma"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-MDC-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente RECUPERADOR HEARTHKYN amigo fuera a ser retirado de la zona de aniquilación como incapacitado mientras esté visible y a 3\" o menos de este agente,\npuedes usar esta regla, siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\nSi lo haces, ese agente amigo no queda incapacitado y le queda 1 herida.\nDespués ese agente amigo puede realizar de inmediato una acción gratuita de Correr, pero debe terminar ese movimiento dentro de la zona de control de este agente.\nResta 1 al atributo LPA de este agente y de ese agente hasta el final de sus respectivas siguientes activaciones y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.\nNo puedes usar esta regla si este agente está incapacitado."
+        }
+      },
+      "actions": {
+        "VOT-HKS-MDC-MDK": {
+          "name": "Botiquín",
+          "effects": [
+            "Elige un agente RECUPERADOR HEARTHKYN amigo dentro de la zona de control de este agente para que recupere hasta 2D3 heridas perdidas.",
+            "No puede ser un agente con el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-GRN": {
+      "opTypeName": "Granadero Hearthkyn",
+      "weapons": {
+        "VOT-HKS-GRN-APBP": {
+          "wepName": "Pistola bólter patrón Autoch"
+        },
+        "VOT-HKS-GRN-C8HX": {
+          "wepName": "Carga C8 HX"
+        },
+        "VOT-HKS-GRN-F": {
+          "wepName": "Puños"
+        },
+        "VOT-HKS-GRN-FRAG": {
+          "wepName": "Granada Frag"
+        },
+        "VOT-HKS-GRN-KRAK": {
+          "wepName": "Granada Krak"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-GRN-A-GRN": {
+          "abilityName": "Granadero",
+          "description": "Este agente puede usar granadas frag, krak, de humo y aturdidoras (ver equipo universal).\nHacerlo no cuenta para ningún uso limitado que tengas (es decir, si también eliges esas granadas del equipo para otros agentes).\nSiempre que este agente use una granada frag o krak, mejora en 1 el atributo Impactar de esa arma."
+        }
+      },
+      "actions": {
+        "VOT-HKS-GRN-SMK": {
+          "name": "Granada de humo",
+          "effects": [
+            "Coloca uno de tus marcadores de Granada de humo a 6\" o menos de este agente. Debe ser visible para este agente, o estar sobre terreno Aventajado de un elemento de escenografía que sea visible para este agente. El marcador crea una zona de humo de 1\" en horizontal y de altura ilimitada en vertical desde él (pero no por debajo).",
+            "Mientras un agente esté totalmente dentro de una zona de humo, está ofuscado para los agentes a más de 2\" de él, y viceversa.",
+            "Además, siempre que un agente dispare contra un agente enemigo totalmente dentro de una zona de humo, las armas con la regla de armas Penetración 2 o Penetración Crítica 2 tienen en su lugar la regla de armas Penetración 1 o Penetración Crítica 1 (respectivamente), a menos que estén a 2\" o menos el uno del otro.",
+            "En el paso de Preparación de la siguiente fase de estrategia, tira un D3. Retira ese marcador de Granada de humo después de que se hayan completado un número de activaciones igual a ese D3 o al final del punto de inflexión (lo que ocurra primero)."
+          ],
+          "conditions": [
+            "Un agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo, ni si has alcanzado el número total de veces que tu comando puede realizarla."
+          ]
+        },
+        "VOT-HKS-GRN-V3UG": {
+          "name": "Granada especial Bayr-3",
+          "effects": [
+            "Coloca uno de tus marcadores de Granada especial a 6\" o menos de este agente.",
+            "Debe ser visible para este agente, o estar sobre terreno Aventajado de un elemento de escenografía que sea visible para este agente.",
+            "Siempre que un agente esté a 3\" o menos de ese marcador de Granada especial, el jugador que lo controla debe gastar 1 PA adicional para que ese agente realice la acción Recoger Marcador y acciones de misión.",
+            "En el paso de Preparación de la siguiente fase de estrategia, tira un D3. Retira ese marcador de Granada especial después de que se hayan completado un número de activaciones igual al resultado, o al final del punto de inflexión (lo que ocurra primero)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-GNR": {
+      "opTypeName": "Artillero Hearthkyn",
+      "weapons": {
+        "VOT-HKS-GNR-ECPB": {
+          "wepName": "Proyector de plasma EtaCarn"
+        },
+        "VOT-HKS-GNR-HLAR": {
+          "wepName": "Rifle automático HYLas"
+        },
+        "VOT-HKS-GNR-HLRC": {
+          "wepName": "Cañón rotativo HYLas",
+          "profiles": {
+            "VOT-HKS-GNR-HLRC-0": {
+              "profileName": "Concentrado"
+            },
+            "VOT-HKS-GNR-HLRC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "VOT-HKS-GNR-L7ML": {
+          "wepName": "Lanzamisiles L7",
+          "profiles": {
+            "VOT-HKS-GNR-L7ML-0": {
+              "profileName": "Área"
+            },
+            "VOT-HKS-GNR-L7ML-1": {
+              "profileName": "Concentrado"
+            }
+          }
+        },
+        "VOT-HKS-GNR-MRR": {
+          "wepName": "Rifle magna-riel"
+        },
+        "VOT-HKS-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "VOT-HKS-JMP": {
+      "opTypeName": "Guerrero con retrorreactor Hearthkyn",
+      "weapons": {
+        "VOT-HKS-JMP-APBP": {
+          "wepName": "Pistola bólter patrón Autoch"
+        },
+        "VOT-HKS-JMP-PW": {
+          "wepName": "Arma de plasma"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-JMP-A-JP": {
+          "abilityName": "Retrorreactor",
+          "description": "Siempre que este agente realice una acción en la que se mueva, puede VOLAR. Si lo hace, no lo muevas.\nEn su lugar, retíralo de la zona de aniquilación y vuelve a desplegarlo totalmente a una distancia igual a su atributo Movimiento (o 3\" si era una acción de Correr) o menos de su ubicación original,\nmidiendo solo la distancia horizontal (en una zona de aniquilación que use las reglas de combate cerrado, p. ej., Zona de aniquilación: Gallowdark, esta distancia no puede medirse por encima ni a través de terreno Muro,\ny ese agente no puede desplegarse al otro lado de un punto de acceso - en otras palabras, no puede VOLAR a través de una escotilla abierta).\nTen en cuenta que no gana distancia adicional al realizar la acción Cargar.\nDebe desplegarse en un lugar donde pueda colocarse y, a menos que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
+        }
+      }
+    },
+    "VOT-HKS-KL": {
+      "opTypeName": "Kinlynk Hearthkyn",
+      "weapons": {
+        "VOT-HKS-KL-APB": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-KL-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-KL-F": {
+          "wepName": "Puños"
+        }
+      },
+      "actions": {
+        "VOT-HKS-KL-JAM": {
+          "name": "Bloqueo de sistemas",
+          "effects": [
+            "Elige un agente enemigo que sea un blanco válido para este agente y que no tenga una de tus fichas de Bloqueo de sistemas; obtiene una.",
+            "Hasta el final de la batalla, siempre que un agente enemigo tenga una de tus fichas de Bloqueo de sistemas, no puede activarse hasta que todos los agentes enemigos sin una estén gastados.",
+            "Cuando se active un agente enemigo que tenga una de tus fichas de Bloqueo de sistemas, retira esa ficha."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "VOT-HKS-KL-SIG": {
+          "name": "Señal",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente RECUPERADOR HEARTHKYN amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-KOG": {
+      "opTypeName": "Kognitaar Hearthkyn",
+      "weapons": {
+        "VOT-HKS-KOG-APB": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-KOG-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-KOG-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-KOG-A-TAC": {
+          "abilityName": "Táctico",
+          "description": "**GAMBITO ESTRATÉGICO**\nColoca tu marcador de Ataque o tu marcador de Defensa en la zona de aniquilación. Siempre que un agente RECUPERADOR HEARTHKYN amigo dispare, combata o contraataque contra un agente enemigo\nque esté a 3\" o menos de tu marcador de Ataque, las armas de ese agente amigo tienen la regla de armas Equilibrada.\nSiempre que un agente enemigo dispare contra un agente RECUPERADOR HEARTHKYN amigo que esté a 3\" o menos de tu marcador de Defensa, puedes repetir uno de tus dados de defensa.\nEn el paso de Preparación de la siguiente fase de estrategia, retira ese marcador."
+        }
+      },
+      "actions": {
+        "VOT-HKS-KOG-AA": {
+          "name": "Evaluación acelerada",
+          "effects": [
+            "Si tu marcador de Ataque o de Defensa está en la zona de aniquilación, retíralo.",
+            "Coloca tu marcador de Ataque o de Defensa en la zona de aniquilación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-LOK": {
+      "opTypeName": "Lokatr Hearthkyn",
+      "weapons": {
+        "VOT-HKS-LOK-APB": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-LOK-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-LOK-F": {
+          "wepName": "Puños"
+        }
+      },
+      "actions": {
+        "VOT-HKS-LOK-PSS": {
+          "name": "Escaneo panespectral",
+          "effects": [
+            "Coloca tu marcador de Escaneo panespectral en la zona de aniquilación.",
+            "Siempre que un agente RECUPERADOR HEARTHKYN amigo dispare contra un agente enemigo que esté a 3\" o menos de ese marcador, las armas a distancia de ese agente amigo tienen las reglas de armas Certera 1 y Saturación.",
+            "Cuando este agente se active de nuevo, quede incapacitado o vuelva a realizar esta acción (lo que ocurra primero), retira ese marcador."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "VOT-HKS-LOK-SPT": {
+          "name": "Localizar",
+          "effects": [
+            "**APOYO**",
+            "Elige un agente enemigo visible para este agente. Hasta el final del punto de inflexión, siempre que un agente RECUPERADOR HEARTHKYN amigo a 3\" o menos de este agente dispare contra ese agente enemigo, puedes usar este efecto.",
+            "Si lo haces:",
+            "- Las armas a distancia de ese agente amigo tienen la regla de armas Buscadora (Ligero).",
+            "- Ese agente enemigo no puede estar ofuscado."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "VOT-HKS-LUG": {
+      "opTypeName": "Lugger Hearthkyn",
+      "weapons": {
+        "VOT-HKS-LUG-APB": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-LUG-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-LUG-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-LUG-A-IGI": {
+          "abilityName": "Lo tengo",
+          "description": "Una vez durante cada una de las activaciones de este agente, puede realizar una acción de misión por 1 PA menos."
+        },
+        "VOT-HKS-LUG-A-WS": {
+          "abilityName": "Bien abastecido",
+          "description": "Puedes elegir una opción de equipo adicional y, en el paso de Preparación de la primera fase de estrategia, ganas 1 PM adicional."
+        }
+      }
+    },
+    "VOT-HKS-WAR": {
+      "opTypeName": "Guerrero Hearthkyn",
+      "weapons": {
+        "VOT-HKS-WAR-APBP": {
+          "wepName": "Bólter patrón Autoch"
+        },
+        "VOT-HKS-WAR-IB": {
+          "wepName": "Bláster de iones"
+        },
+        "VOT-HKS-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "VOT-HKS-WAR-A-SS": {
+          "abilityName": "Asegurar el botín",
+          "description": "Siempre que un agente enemigo dispare, combata o contraataque contra este agente, si este agente disputa un marcador de objetivo o uno de tus marcadores de misión, en el paso de Resolver dados de ataque\npuedes restar 1 al daño que le inflija un éxito."
+        }
+      }
+    }
+  }
+}

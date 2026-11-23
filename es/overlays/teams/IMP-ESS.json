@@ -1,0 +1,312 @@
+{
+  "killteamId": "IMP-ESS",
+  "locale": "es",
+  "team": {
+    "killteamName": "Caminaestrellas Elucidianos",
+    "description": "Elucia Vhane es vástago de una noble dinastía mercantil. Dejando atrás las operaciones de su familia en el norte galáctico, Vhane condujo a sus Caminaestrellas Elucidianos hasta el Confín Oriental. Junto a su esotérica tripulación, la audaz Comerciante Independiente busca eclipsar la rica historia de sus antepasados con su propio ascenso a la gloria, o morir en el intento.",
+    "composition": "Ten en cuenta que no seleccionas tus agentes de una lista.\nLos agentes de este equipo de exterminio están especificados.\n\nUn equipo de exterminio CAMINAESTRELLAS ELUCIDIANOS se compone de todos los agentes CAMINAESTRELLAS ELUCIDIANO de la siguiente lista:\n\n- 1 ELUCIA VHANE\n- 1 CÁNIDO\n- 1 EJECUTOR DEL CULTO DE LA MUERTE\n- 1 LECTROMAESTRE\n- 1 ADEPTO REJUVENECEDOR\n- 1 MAESTRO DEL VACÍO\n- 3 TRIPULANTE DEL VACÍO con rifle láser y culata\n- 1 TRIPULANTE DEL VACÍO con cañón rotor y culata\n"
+  },
+  "ploys": {
+    "IMP-ESS-S-LP": {
+      "ployName": "Proximidad Letal",
+      "description": "Siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo dispare contra un agente a 6\" o menos de él, las armas a distancia de ese agente amigo (excepto las armas RECURSO DE APOYO CORSARIO) tienen la regla de armas Equilibrada.  \n**Equilibrada:** Puede repetir un dado de ataque."
+    },
+    "IMP-ESS-S-QM": {
+      "ployName": "Marcha Rápida",
+      "description": "Siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo realice la acción Reposicionarse durante su activación, puedes usar esta regla. Si lo haces, suma 1\" a su atributo Movimiento hasta el final de esa activación, pero debe terminar ese movimiento más cerca de la zona de despliegue de tu oponente y no puede usar un RECURSO DE APOYO CORSARIO durante esa activación."
+    },
+    "IMP-ESS-S-SC": {
+      "ployName": "Reclamar Derechos",
+      "description": "Coloca tu marcador de Reclamación en la zona de aniquilación. Siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo dispare (excepto con armas RECURSO DE APOYO CORSARIO), combata o contraataque contra un agente enemigo que esté a 3\" o menos de ese marcador, en el paso de Tirar dados de ataque, puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo, o conservar uno de tus éxitos normales como éxito crítico en su lugar. Al final del punto de inflexión, retira tu marcador de Reclamación de la zona de aniquilación."
+    },
+    "IMP-ESS-S-UX": {
+      "ployName": "Exploradores Impávidos",
+      "description": "La primera vez durante el punto de inflexión que un dado de ataque inflija daño a cada agente CAMINAESTRELLAS ELUCIDIANO amigo en el paso de Resolver dados de ataque, puedes reducir a la mitad ese daño infligido (redondeando hacia arriba, hasta un mínimo de 2)."
+    },
+    "IMP-ESS-T-CA": {
+      "ployName": "Armas Combinadas",
+      "description": "Usa este ardid de tiroteo tras tirar tus dados de ataque por un agente CAMINAESTRELLAS ELUCIDIANO amigo, si está disparando contra un agente enemigo al que haya disparado otro agente CAMINAESTRELLAS ELUCIDIANO amigo durante este punto de inflexión. Puedes repetir cualquiera de tus dados de ataque. No puedes usar este ardid mientras dispares con un RECURSO DE APOYO CORSARIO."
+    },
+    "IMP-ESS-T-GE": {
+      "ployName": "Gran Resistencia",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CAMINAESTRELLAS ELUCIDIANO NAVIS amigo. Hasta el final de la activación, suma 1 a su atributo LPA."
+    },
+    "IMP-ESS-T-SURV": {
+      "ployName": "Superviviente",
+      "description": "Usa este ardid de tiroteo cuando se active un agente CAMINAESTRELLAS ELUCIDIANO amigo. Ese agente amigo recupera hasta D3+2 heridas perdidas y durante esa activación puedes ignorar cualquier cambio en su atributo LPA."
+    },
+    "IMP-ESS-T-WD": {
+      "ployName": "Bien Entrenados",
+      "description": "Usa este ardid de tiroteo cuando se active un agente CAMINAESTRELLAS ELUCIDIANO NAVIS amigo. Elige otro agente CAMINAESTRELLAS ELUCIDIANO NAVIS amigo preparado que sea visible para ese agente y esté a 3\" o menos de él.\nCuando ese primer agente amigo quede gastado, puedes activar ese otro agente amigo antes de que active tu oponente.\nCuando ese otro agente quede gastado, tu oponente activa entonces de forma normal."
+    }
+  },
+  "equipments": {
+    "IMP-ESS-AUS": {
+      "eqName": "Traje Interior Blindado",
+      "description": "Siempre que un agente dispare contra un agente CAMINAESTRELLAS ELUCIDIANO amigo que tenga un atributo Salvación de 5+ (excepto CÁNIDO), puedes conservar uno de tus resultados de 4 en los dados de defensa como éxito normal."
+    },
+    "IMP-ESS-HSCP": {
+      "eqName": "Mochila Condensadora de Disparo Infernal",
+      "description": "Hasta dos veces por punto de inflexión, siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté realizando la acción Disparar y selecciones una pistola láser, un rifle láser o una pistola láser reliquia, puedes usar esta regla.\nSi lo haces, hasta el final del punto de inflexión, suma 1 a ambos atributos de Daño de esa arma y esta tiene las reglas de armas Sobrecalentamiento y Penetración Crítica 1."
+    },
+    "IMP-ESS-ICUL": {
+      "eqName": "Enlace de Coordenadas Mejorado",
+      "description": "Siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté usando un RECURSO DE APOYO CORSARIO, si el objetivo está a 6\" o menos de un agente CAMINAESTRELLAS ELUCIDIANO NAVIS amigo, el objetivo no puede estar ofuscado y esa arma tiene la regla de armas Saturación."
+    },
+    "IMP-ESS-RG": {
+      "eqName": "Artillería Rápida",
+      "description": "Una vez por batalla, al seleccionar un RECURSO DE APOYO CORSARIO, puedes seleccionar uno que ya se haya usado durante la batalla. Esto tiene preferencia sobre las reglas normales de RECURSO DE APOYO CORSARIO."
+    }
+  },
+  "opTypes": {
+    "IMP-ESS-EV": {
+      "opTypeName": "Elucia Vhane",
+      "weapons": {
+        "IMP-ESS-EV-HRP": {
+          "wepName": "Pistola reliquia familiar"
+        },
+        "IMP-ESS-EV-MMCR": {
+          "wepName": "Bastón-estoque monomolecular"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-EV-A-DF": {
+          "abilityName": "Campo disruptor",
+          "description": "Siempre que un agente dispare contra este agente, ignora la regla de armas Penetración."
+        },
+        "IMP-ESS-EV-A-DL": {
+          "abilityName": "Láseres digitales",
+          "description": "Siempre que este agente realice la acción Combatir, al inicio del paso de Tirar dados de ataque, puedes usar esta regla. Si lo haces, inflige 1 de daño al agente enemigo en esa secuencia."
+        },
+        "IMP-ESS-EV-A-ML": {
+          "abilityName": "Despiadada",
+          "description": "Siempre que este agente dispare, combata o contraataque contra un agente enemigo que ya estuviera herido cuando empezó la acción, las armas de este agente tienen la regla de armas Equilibrada;\r si el arma ya tiene esa regla de armas, tiene la regla de armas Incesante en lugar de Equilibrada."
+        },
+        "IMP-ESS-EV-A-PSA": {
+          "abilityName": "Recursos de apoyo corsarios",
+          "description": "Una vez por fase de tiroteo, cuando un agente CAMINAESTRELLAS ELUCIDIANO NAVIS o CAMINAESTRELLAS ELUCIDIANO ELUCIA VHANE amigo realice la acción Disparar, puedes seleccionar una de las siguientes armas a distancia RECURSO DE APOYO CORSARIO para que la use. No puedes usar cada RECURSO DE APOYO CORSARIO más de una vez por batalla.  \n \nSiempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté usando un RECURSO DE APOYO CORSARIO, determina las salvaciones por cobertura de otra forma. En su lugar, el objetivo tiene salvación por cobertura si cualquier parte de su peana está debajo de terreno Aventajado. Ten en cuenta que, aunque esto puede afectar a la salvación por cobertura del objetivo, debes seguir seleccionando un objetivo válido de forma normal. En otras palabras, el disparo lo guía un agente en la zona de aniquilación, pero llega desde arriba.\n\n|**Nombre**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Haz arcanotecnológico|4|3+|6/7|\n|Pesada (Reposicionarse), Penetración 2, Silenciosa||||\n|Batería de plasma|5|4+|5/6|\n|Pesada (Reposicionarse), Letal 5+, Penetración 1, Silenciosa||||\n|Macrocañón|5|4|4/5|\n|Pesada (Reposicionarse), Penetración Crítica 1, Saturación, Silenciosa, Ráfaga 2\"||||\n|Proyectil guiado|5|4+|3/4|\n|Pesada (Reposicionarse), Área 2\", Silenciosa||||\n|Bomba de racimo|5|4+|2/3|\n|Pesada (Reposicionarse), Área 3\", Silenciosa||||"
+        },
+        "IMP-ESS-EV-A-RTM": {
+          "abilityName": "Una reputación que mantener",
+          "description": "La primera vez durante la batalla que este agente incapacite a un agente enemigo, puedes ganar 1 PM adicional o usar una regla PATENTE DE COMERCIO adicional\n(hasta cinco usos por batalla, en lugar de cuatro). Ten en cuenta que sigues sin poder usar la misma regla PATENTE DE COMERCIO más de una vez por batalla."
+        },
+        "IMP-ESS-EV-A-WOT": {
+          "abilityName": "Patente de  comercio",
+          "description": "Hasta cuatro veces por batalla, puedes usar una regla PATENTE DE COMERCIO (abajo). Cada una especifica cuándo puede usarse, y no puedes usar la misma regla PATENTE DE COMERCIO más de una vez por batalla.  \n  \n\n**Consideración**\n- Cuándo: En el paso de Seleccionar agentes, tras revelar tus opciones de equipo.\n- Efecto: Selecciona una opción de equipo adicional. No puede ser una opción que hayas seleccionado previamente.\n  \n\n**Coordinar**  \n\n- Cuándo: Al final del paso de Seleccionar agentes.\nEfecto: Ganas 1 PM adicional.\n  \n\n**Coaccionar**\n- Cuándo: Al inicio del paso de Desplegar agentes.\n- Efecto: Tu oponente debe desplegar todos sus agentes antes de que tú despliegues ninguno. Además, selecciona una de las siguientes opciones:\n\n- Tu oponente debe desplegar todo su equipo antes de que tú despliegues nada del tuyo.\n- Puedes desplegar todo tu equipo antes de que tu oponente despliegue nada del suyo.\n\n  \n\n\n**Explorar**  \n\n- Cuándo: GAMBITO ESTRATÉGICO en el primer punto de inflexión.\n- Efecto: Realiza una acción libre de Reposicionarse con D3 agentes CAMINAESTRELLAS ELUCIDIANO amigos que estén totalmente dentro de tu zona de despliegue. Cada uno que lo haga debe terminar ese movimiento totalmente a 4\" o menos de tu zona de despliegue.\n  \n\n\n**Sobornar**  \n\n- Cuándo: Es tu turno de activar un agente.\n- Efecto: Puedes saltarte esa activación.\n  \n\n\n**Apoderarse**  \n\n- Cuándo: En la fase de estrategia, tras la tirada enfrentada para decidir la iniciativa.\n- Efecto: Puedes repetir tus dados.\n  \n\n\n**Términos adaptables (solo Operaciones Aprobadas)**  \n\n- Cuándo: Al final del segundo punto de inflexión.\n- Efecto: Selecciona una nueva operación táctica o una nueva operación primaria. Si seleccionas una nueva operación táctica, se descartan los puntos obtenidos con la operación táctica anterior."
+        }
+      }
+    },
+    "IMP-ESS-CAN": {
+      "opTypeName": "Cánido",
+      "weapons": {
+        "IMP-ESS-CAN-VB": {
+          "wepName": "Mordisco feroz"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-CAN-A-BST": {
+          "abilityName": "Bestia",
+          "description": "Este agente no puede realizar ninguna acción salvo Cargar, Correr, Retroceder, Combatir, Recolectar, Ponerse en guardia, Reposicionarse, Recoger Marcador y Colocar Marcador. No puede usar ninguna arma que no esté en su ficha de datos."
+        },
+        "IMP-ESS-CAN-A-LC": {
+          "abilityName": "Compañero leal",
+          "description": "Siempre que un agente enemigo realice la acción Combatir, si este agente es un agente válido contra el que combatir, puedes obligarle a seleccionar a este agente para combatir contra él en su lugar.\nSiempre que un agente enemigo termine la acción Cargar dentro de la zona de control de otro agente CAMINAESTRELLAS ELUCIDIANO amigo que esté a 3\" o menos de este agente, si este agente no está dentro de la zona de control de agentes enemigos,\neste agente puede realizar de inmediato una acción libre de Cargar (puedes cambiar su orden a Trabarse para hacerlo, pero debe terminar ese movimiento dentro de la zona de control de ese agente enemigo."
+        },
+        "IMP-ESS-CAN-A-PSA": {
+          "abilityName": "Recursos de apoyo corsarios",
+          "description": "Una vez por fase de tiroteo, cuando un agente CAMINAESTRELLAS ELUCIDIANO NAVIS o CAMINAESTRELLAS ELUCIDIANO ELUCIA VHANE amigo realice la acción Disparar, puedes seleccionar una de las siguientes armas a distancia RECURSO DE APOYO CORSARIO para que la use. No puedes usar cada RECURSO DE APOYO CORSARIO más de una vez por batalla.  \n \nSiempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté usando un RECURSO DE APOYO CORSARIO, determina las salvaciones por cobertura de otra forma. En su lugar, el objetivo tiene salvación por cobertura si cualquier parte de su peana está debajo de terreno Aventajado. Ten en cuenta que, aunque esto puede afectar a la salvación por cobertura del objetivo, debes seguir seleccionando un objetivo válido de forma normal. En otras palabras, el disparo lo guía un agente en la zona de aniquilación, pero llega desde arriba.\n\n|**Nombre**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Haz arcanotecnológico|4|3+|6/7|\n|Pesada (Reposicionarse), Penetración 2, Silenciosa||||\n|Batería de plasma|5|4+|5/6|\n|Pesada (Reposicionarse), Letal 5+, Penetración 1, Silenciosa||||\n|Macrocañón|5|4|4/5|\n|Pesada (Reposicionarse), Penetración Crítica 1, Saturación, Silenciosa, Ráfaga 2\"||||\n|Proyectil guiado|5|4+|3/4|\n|Pesada (Reposicionarse), Área 2\", Silenciosa||||\n|Bomba de racimo|5|4+|2/3|\n|Pesada (Reposicionarse), Área 3\", Silenciosa||||"
+        }
+      },
+      "actions": {
+        "IMP-ESS-CAN-GAT": {
+          "name": "Recolectar",
+          "effects": [
+            "Realiza una acción libre de Correr o Reposicionarse con este agente. Durante ese movimiento, puedes realizar una acción libre de Recoger Marcador o Colocar Marcador con este agente",
+            "(puedes determinar el control durante esa acción para hacerlo), y cualquier distancia de movimiento restante que tuviera de la acción de Correr o Reposicionarse puede usarse después de hacerlo."
+          ]
+        }
+      }
+    },
+    "IMP-ESS-DCE": {
+      "opTypeName": "Ejecutor del Culto de la Muerte",
+      "weapons": {
+        "IMP-ESS-DCE-DM": {
+          "wepName": "Máscara de dardos"
+        },
+        "IMP-ESS-DCE-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-DCE-A-BS": {
+          "abilityName": "Postura de filo",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        },
+        "IMP-ESS-DCE-A-RR": {
+          "abilityName": "Reflejos rápidos",
+          "description": "Siempre que un agente dispare contra este agente, ignora la regla de armas Penetración."
+        },
+        "IMP-ESS-DCE-A-ZL": {
+          "abilityName": "Fanático",
+          "description": "Si este agente queda incapacitado durante la acción Combatir, puedes golpear al agente enemigo en esa secuencia con uno de tus éxitos sin resolver antes de que este agente se retire de la zona de aniquilación."
+        }
+      },
+      "actions": {
+        "IMP-ESS-DCE-TA": {
+          "name": "Asesino entrenado",
+          "effects": [
+            "Cambia la orden de este agente."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-ESS-LM": {
+      "opTypeName": "Lectromaestre",
+      "weapons": {
+        "IMP-ESS-LM-VP": {
+          "wepName": "Pistola voltaica"
+        },
+        "IMP-ESS-LM-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-LM-A-MOTMC": {
+          "abilityName": "Misionero del Credo Marciano",
+          "description": "Una vez durante cada una de las activaciones de este agente, puede realizar la acción Recoger Marcador, Colocar Marcador o una acción de misión por 1 PA menos."
+        },
+        "IMP-ESS-LM-A-VGA": {
+          "abilityName": "Matriz voltagheist",
+          "description": "Siempre que un agente dispare contra un agente CAMINAESTRELLAS ELUCIDIANO amigo que esté a 4\" o menos de este agente, puedes repetir uno de tus dados de defensa."
+        }
+      },
+      "actions": {
+        "IMP-ESS-LM-CVG": {
+          "name": "Calibrar voltagheist",
+          "effects": [
+            "Selecciona uno de los siguientes efectos, que dura hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero):",
+            "- Carga: La pistola voltaica de este agente tiene la regla de armas Letal 4+.",
+            "- Campo: Siempre que un agente enemigo termine la acción Cargar, Correr, Retroceder o Reposicionarse siendo visible para este agente y a 4\" o menos de él, inflige D6 de daño a ese agente enemigo."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-ESS-REJAD": {
+      "opTypeName": "Adepto Rejuvenecedor",
+      "weapons": {
+        "IMP-ESS-REJAD-LP": {
+          "wepName": "Pistola láser"
+        },
+        "IMP-ESS-REJAD-SC": {
+          "wepName": "Garra escalpelo"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-REJAD-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente CAMINAESTRELLAS ELUCIDIANO amigo fuera a quedar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese otro estén dentro de la zona de control de un agente enemigo. Si lo haces, ese agente amigo no queda incapacitado, le quedan 3 heridas y no puede quedar incapacitado durante el resto de esa acción.\r Tras esa acción, ese agente amigo puede realizar de inmediato una acción libre de Correr, pero debe terminar ese movimiento dentro de la zona de control de este agente.\r Si esta regla se usó durante la activación de ese agente amigo, esa activación termina. No puedes usar esta regla si este agente está incapacitado, o si es una acción de Disparar y este agente fuera a ser un blanco principal o secundario."
+        },
+        "IMP-ESS-REJAD-A-NH": {
+          "abilityName": "Yelmo normalizador",
+          "description": "Siempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté a 6\" o menos de este agente, puedes ignorar cualquier cambio en los atributos de ese agente por estar herido (incluidos los atributos de sus armas)."
+        }
+      },
+      "actions": {
+        "IMP-ESS-REJAD-HS": {
+          "name": "Suero curativo",
+          "effects": [
+            "Selecciona un agente CAMINAESTRELLAS ELUCIDIANO amigo dentro de la zona de control de este agente para que recupere hasta D3+3 heridas perdidas. No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-ESS-VMST": {
+      "opTypeName": "Maestro del Vacío",
+      "weapons": {
+        "IMP-ESS-VMST-ASG": {
+          "wepName": "Escopeta de artífice",
+          "profiles": {
+            "IMP-ESS-VMST-ASG-0": {
+              "profileName": "Corto alcance"
+            },
+            "IMP-ESS-VMST-ASG-1": {
+              "profileName": "Largo alcance"
+            }
+          }
+        },
+        "IMP-ESS-VMST-RLP": {
+          "wepName": "Pistola láser reliquia"
+        },
+        "IMP-ESS-VMST-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-VMST-A-DISC": {
+          "abilityName": "Disciplinario",
+          "description": "**APOYO** Siempre que otro agente NAVIS amigo esté a 3\" o menos de este agente, las armas a distancia de ese agente amigo (excepto las armas RECURSO DE APOYO CORSARIO) tienen la regla de armas Equilibrada;\r si el arma ya tiene esa regla de armas, tiene la regla de armas Incesante en lugar de Equilibrada."
+        },
+        "IMP-ESS-VMST-A-HRD": {
+          "abilityName": "Curtido",
+          "description": "Una vez por batalla, cuando un dado de ataque inflija Daño normal a este agente, puedes ignorar ese daño infligido."
+        },
+        "IMP-ESS-VMST-A-PSA": {
+          "abilityName": "Recursos de apoyo corsarios",
+          "description": "Una vez por fase de tiroteo, cuando un agente CAMINAESTRELLAS ELUCIDIANO NAVIS o CAMINAESTRELLAS ELUCIDIANO ELUCIA VHANE amigo realice la acción Disparar, puedes seleccionar una de las siguientes armas a distancia RECURSO DE APOYO CORSARIO para que la use. No puedes usar cada RECURSO DE APOYO CORSARIO más de una vez por batalla.  \n \nSiempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté usando un RECURSO DE APOYO CORSARIO, determina las salvaciones por cobertura de otra forma. En su lugar, el objetivo tiene salvación por cobertura si cualquier parte de su peana está debajo de terreno Aventajado. Ten en cuenta que, aunque esto puede afectar a la salvación por cobertura del objetivo, debes seguir seleccionando un objetivo válido de forma normal. En otras palabras, el disparo lo guía un agente en la zona de aniquilación, pero llega desde arriba.\n\n|**Nombre**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Haz arcanotecnológico|4|3+|6/7|\n|Pesada (Reposicionarse), Penetración 2, Silenciosa||||\n|Batería de plasma|5|4+|5/6|\n|Pesada (Reposicionarse), Letal 5+, Penetración 1, Silenciosa||||\n|Macrocañón|5|4|4/5|\n|Pesada (Reposicionarse), Penetración Crítica 1, Saturación, Silenciosa, Ráfaga 2\"||||\n|Proyectil guiado|5|4+|3/4|\n|Pesada (Reposicionarse), Área 2\", Silenciosa||||\n|Bomba de racimo|5|4+|2/3|\n|Pesada (Reposicionarse), Área 3\", Silenciosa||||"
+        }
+      },
+      "actions": {
+        "IMP-ESS-VMST-UCF": {
+          "name": "Fuego implacable",
+          "effects": [
+            "Realiza dos acciones libres de Disparar con este agente (esto tiene preferencia sobre las restricciones de acciones). Debes seleccionar su pistola láser reliquia para una acción y su escopeta de artífice (corto alcance) para la otra (en cualquier orden)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni durante una activación en la que haya realizado la acción Disparar (ni viceversa)."
+          ]
+        }
+      }
+    },
+    "IMP-ESS-VM": {
+      "opTypeName": "Tripulante del Vacío",
+      "weapons": {
+        "IMP-ESS-VM-LG": {
+          "wepName": "Rifle láser"
+        },
+        "IMP-ESS-VM-RC": {
+          "wepName": "Cañón rotor",
+          "profiles": {
+            "IMP-ESS-VM-RC-0": {
+              "profileName": "Concentrado"
+            },
+            "IMP-ESS-VM-RC-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "IMP-ESS-VM-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-ESS-VM-A-CM": {
+          "abilityName": "Tripulantes",
+          "description": "Una vez por punto de inflexión, si no has usado un RECURSO DE APOYO CORSARIO durante este punto de inflexión, puedes reaccionar con un agente TRIPULANTE DEL VACÍO amigo que tenga una orden de Ocultarse,\npero no puedes realizar ninguna acción salvo Disparar, y debes usar un RECURSO DE APOYO CORSARIO para hacerlo."
+        },
+        "IMP-ESS-VM-A-PSA": {
+          "abilityName": "Recursos de apoyo corsarios",
+          "description": "Una vez por fase de tiroteo, cuando un agente CAMINAESTRELLAS ELUCIDIANO NAVIS o CAMINAESTRELLAS ELUCIDIANO ELUCIA VHANE amigo realice la acción Disparar, puedes seleccionar una de las siguientes armas a distancia RECURSO DE APOYO CORSARIO para que la use. No puedes usar cada RECURSO DE APOYO CORSARIO más de una vez por batalla.  \n \nSiempre que un agente CAMINAESTRELLAS ELUCIDIANO amigo esté usando un RECURSO DE APOYO CORSARIO, determina las salvaciones por cobertura de otra forma. En su lugar, el objetivo tiene salvación por cobertura si cualquier parte de su peana está debajo de terreno Aventajado. Ten en cuenta que, aunque esto puede afectar a la salvación por cobertura del objetivo, debes seguir seleccionando un objetivo válido de forma normal. En otras palabras, el disparo lo guía un agente en la zona de aniquilación, pero llega desde arriba.\n\n|**Nombre**|**ATK**|**HIT**|**DMG**|\n|---|:---:|:---:|:---:|\n|Haz arcanotecnológico|4|3+|6/7|\n|Pesada (Reposicionarse), Penetración 2, Silenciosa||||\n|Batería de plasma|5|4+|5/6|\n|Pesada (Reposicionarse), Letal 5+, Penetración 1, Silenciosa||||\n|Macrocañón|5|4|4/5|\n|Pesada (Reposicionarse), Penetración Crítica 1, Saturación, Silenciosa, Ráfaga 2\"||||\n|Proyectil guiado|5|4+|3/4|\n|Pesada (Reposicionarse), Área 2\", Silenciosa||||\n|Bomba de racimo|5|4+|2/3|\n|Pesada (Reposicionarse), Área 3\", Silenciosa||||"
+        }
+      }
+    }
+  }
+}

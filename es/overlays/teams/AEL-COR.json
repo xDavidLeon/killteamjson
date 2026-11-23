@@ -1,0 +1,373 @@
+{
+  "killteamId": "AEL-COR",
+  "locale": "es",
+  "team": {
+    "killteamName": "Corsarios Marcados por el Vacío",
+    "description": "Los Corsarios Aeldari, o Anhrathe, son bandas de Proscritos Aeldari dedicados a la piratería. Son una amenaza constante para el transporte mercante, aunque muy rara vez suponen una amenaza para una gran flota de batalla imperial.\n  \n  \n\nHay muchas bandas de los llamados Corsarios dispersas por la galaxia, y todas son incursores salvajes y letales. Proscritos de los estrictos confines de los Mundos Astronave, los Corsarios viven en un exilio autoimpuesto, buscando explorar la galaxia y experimentar toda la gama de emociones y sensaciones accesibles a la sensible psique de los Eldar. ",
+    "composition": "Un equipo de exterminio CORSARIO MARCADO POR EL VACÍO está compuesto por:\n- 1 agente Felarca CORSARIO MARCADO POR EL VACÍO con una de las siguientes opciones:\n  - Rifle shuriken, pistola shuriken, arma de energía\n  - Neurodisruptor, arma de energía\n- 8 agentes CORSARIO MARCADO POR EL VACÍO elegidos de la siguiente lista:\n  - Repartidor del Destino\n  - Artillero con una de las siguientes opciones:\n  - Bláster (X), pistola shuriken, puños\n    - Desgarrador, pistola shuriken, puños\n  - Artillero Pesado con una de las siguientes opciones:\n    - Cañón shuriken, pistola shuriken, puños\n    - Cañón espectral (X), pistola shuriken, puños  \n  - Kurnathi\n  - Cazador Kurnita\n  - Corredor de Sombras\n  - Tejedor de Almas\n  - Duelista Tormenta Estelar\n  - Guerrero con una de las siguientes opciones:\n    - Pistola shuriken, arma de energía\n  - Rifle shuriken, puños  \n  - Buscador de la Senda\n\nSalvo los agentes Guerrero, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\n(X) Tu comando no puede incluir a la vez un bláster y un cañón espectral."
+  },
+  "ploys": {
+    "AEL-COR-S-ME": {
+      "ployName": "Enfrentamiento móvil",
+      "description": "Siempre que un agente dispare a un agente CORSARIO MARCADO POR EL VACÍO amigo que haya realizado una acción en la que se movió durante este punto de inflexión, puedes repetir uno de tus dados."
+    },
+    "AEL-COR-S-OC": {
+      "ployName": "Proscritos",
+      "description": "Siempre que un agente CORSARIO MARCADO POR EL VACÍO amigo esté a más de 5\" de otros agentes amigos, sus armas tienen la regla de armas Castigadora.  \n**Castigadora:** Si conservas algún éxito crítico, puedes conservar uno de tus fallos como éxito normal en lugar de descartarlo."
+    },
+    "AEL-COR-S-PL": {
+      "ployName": "Saqueadores",
+      "description": "Hasta 1D3 agentes CORSARIO MARCADO POR EL VACÍO amigos pueden realizar inmediatamente una acción Correr gratuita en el orden que elijas.\nEn este punto de inflexión, cada uno que lo haga no puede realizar la acción Correr durante su activación. No puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "AEL-COR-S-PP": {
+      "ployName": "Especuladores piratas",
+      "description": "Siempre que un agente CORSARIO MARCADO POR EL VACÍO amigo esté disparando, combatiendo o contraatacando, si él o el agente enemigo de esa secuencia disputa un marcador de objetivo o uno de tus marcadores de misión, las armas de ese agente tienen la regla especial Equilibrada.  \n**Equilibrada:** Puedes repetir un dado de ataque."
+    },
+    "AEL-COR-T-CA": {
+      "ployName": "Aventurero desdeñoso",
+      "description": "Usa este ardid de tiroteo cuando actives a tu primer agente CORSARIO MARCADO POR EL VACÍO amigo durante el punto de inflexión, si está a más de 5\" de otros agentes amigos.\nLa primera vez que ese agente realice la acción Disparar o Combatir durante esa activación, sus armas tienen la regla Implacable.\nTen en cuenta que este ardid no puede surtir efecto más de una vez por activación (no puedes usarlo tanto en la acción Disparar como en la acción Combatir en la misma activación).  \n**Implacable:** Puedes repetir cualquiera o todos tus dados de ataque."
+    },
+    "AEL-COR-T-CF": {
+      "ployName": "Huida caprichosa",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CORSARIO MARCADO POR EL VACÍO amigo, antes o después de que realice una acción. Durante esa activación, ese agente puede realizar la acción Retroceder por 1 PA menos."
+    },
+    "AEL-COR-T-LF": {
+      "ployName": "Dedos ligeros",
+      "description": "Usa este ardid de tiroteo durante la activación de un agente CORSARIO MARCADO POR EL VACÍO amigo.\nHasta el final de esa activación, tener un agente enemigo dentro de su zona de control no impide que ese agente amigo realice la acción Recoger Marcador o acciones de misión."
+    },
+    "AEL-COR-T-OF": {
+      "ployName": "Luchadores oportunistas",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo realice la acción Retroceder. Antes de que se mueva, inflige 2D3 de daño a ese agente por cada agente CORSARIO MARCADO POR EL VACÍO amigo dentro de su zona de control."
+    }
+  },
+  "equipments": {
+    "AEL-COR-DM": {
+      "eqName": "Mantos diuturnos",
+      "description": "Siempre que un agente dispare a un agente CORSARIO MARCADO POR EL VACÍO amigo, si el arma a distancia de esa secuencia tiene la regla de armas Área o Ráfaga, puedes repetir uno de tus dados de defensa.\nAdemás, los agentes CORSARIO MARCADO POR EL VACÍO amigos no se ven afectados por la regla de armas X\" Devastadora X (es decir, Devastadora con una distancia) a menos que sean el objetivo durante esa secuencia."
+    },
+    "AEL-COR-MF": {
+      "eqName": "Campo de bruma",
+      "description": "Una vez por punto de inflexión, cuando un agente esté disparando a un agente CORSARIO MARCADO POR EL VACÍO amigo que esté a más de 3\" de él, al inicio del paso de Tirar dados de defensa, puedes usar esta regla.\nSi lo haces, empeora en 1 la X de la regla de armas Penetración (si la hay) hasta el final de esa secuencia. Ten en cuenta que, por tanto, Penetración 1 se ignoraría."
+    },
+    "AEL-COR-ROG": {
+      "eqName": "Runas de guía",
+      "description": "Una vez por punto de inflexión, siempre que un agente BUSCADOR DE LA SENDA CORSARIO MARCADO POR EL VACÍO o TEJEDOR DE ALMAS CORSARIO MARCADO POR EL VACÍO amigo esté realizando una acción única PSÍQUICA (excepto Pliegue disforme),\npuedes usar esta regla. Si lo haces, hasta el final de esa acción, suma 3\" a su requisito de distancia. Ten en cuenta que esto no tiene efecto sobre las armas PSÍQUICAS (p. ej., el requisito de distancia de Devastadora de Rayo fulminante)."
+    },
+    "AEL-COR-SC": {
+      "eqName": "Cartas estelares",
+      "description": "**GAMBITO ESTRATÉGICO**  \n\nTira 1D3; si el resultado es mayor que el número del punto de inflexión actual, obtienes 1PM y no puedes usar este GAMBITO ESTRATÉGICO durante el resto de la batalla."
+    }
+  },
+  "teamAbilities": {
+    "AEL-COR-TA-AERA": {
+      "abilityName": "Incursores aeldari",
+      "description": "Cada agente CORSARIO MARCADO POR EL VACÍO amigo puede realizar una acción Correr gratuita durante su activación."
+    }
+  },
+  "opTypes": {
+    "AEL-COR-FEL": {
+      "opTypeName": "Felarca Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-FEL-ND": {
+          "wepName": "Neurodisruptor"
+        },
+        "AEL-COR-FEL-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-FEL-SR": {
+          "wepName": "Rifle shuriken"
+        },
+        "AEL-COR-FEL-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "AEL-COR-FEL-A-OSA": {
+          "abilityName": "Un paso por delante",
+          "description": "Una vez por batalla, después de que un agente enemigo realice una acción durante su activación, si este agente está preparado, puedes usar esta regla.\nSi lo haces, tira 1D6; si el resultado es mayor que el atributo LPA de ese agente enemigo, puedes interrumpir esa activación y realizar inmediatamente una acción Disparar gratuita o una acción Combatir gratuita con este agente,\npero no se pueden elegir otros agentes enemigos como objetivo válido ni para combatir contra ellos durante esa acción (ten en cuenta que los objetivos secundarios de la regla de armas Área aún pueden ser elegidos).\nDespués de realizar esa acción, resta 1 al atributo LPA de este agente hasta el final de su siguiente activación."
+        },
+        "AEL-COR-FEL-A-RFL": {
+          "abilityName": "Fusileros",
+          "description": "Siempre que un agente CORSARIO MARCADO POR EL VACÍO amigo esté disparando con un rifle shuriken o un rifle largo de explorador durante una activación en la que no haya realizado la acción Cargar, Retroceder o Reposicionarse,\nese agente tiene la regla de armas Certera 1. Ten en cuenta que ese agente no tiene restringido realizar esas acciones después de disparar."
+        },
+        "AEL-COR-FEL-A-VET": {
+          "abilityName": "Incursor veterano",
+          "description": "Este agente puede realizar gratis una acción de 1PA durante su activación como resultado de la regla Incursores aeldari (en lugar de la acción Correr)."
+        }
+      }
+    },
+    "AEL-COR-GNR": {
+      "opTypeName": "Artillero Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-GNR-BL": {
+          "wepName": "Bláster"
+        },
+        "AEL-COR-GNR-SH": {
+          "wepName": "Desgarrador"
+        },
+        "AEL-COR-GNR-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-GNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "AEL-COR-HGNR": {
+      "opTypeName": "Artillero Pesado Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-HGNR-SCP": {
+          "wepName": "Cañón shuriken",
+          "profiles": {
+            "AEL-COR-HGNR-SCP-0": {
+              "profileName": "Concentrado"
+            },
+            "AEL-COR-HGNR-SCP-1": {
+              "profileName": "Barrido"
+            }
+          }
+        },
+        "AEL-COR-HGNR-WC": {
+          "wepName": "Cañón espectral"
+        },
+        "AEL-COR-HGNR-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-HGNR-F": {
+          "wepName": "Puños"
+        }
+      }
+    },
+    "AEL-COR-FD": {
+      "opTypeName": "Repartidor del Destino Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-FD-RLR": {
+          "wepName": "Rifle largo de explorador",
+          "profiles": {
+            "AEL-COR-FD-RLR-0": {
+              "profileName": "Móvil"
+            },
+            "AEL-COR-FD-RLR-1": {
+              "profileName": "Estacionario"
+            }
+          }
+        },
+        "AEL-COR-FD-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-FD-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "AEL-COR-FD-A-CAM": {
+          "abilityName": "Capa de camuflaje",
+          "description": "Siempre que un agente dispare a este agente:\n\n- Ignora la regla de armas Saturación.\n- Si puedes conservar alguna salvación por cobertura, puedes conservar una salvación por cobertura adicional, o puedes conservar en su lugar una salvación por cobertura como éxito crítico.\n\nEsto no es acumulable con las salvaciones por cobertura mejoradas del terreno Aventajado."
+        },
+        "AEL-COR-FD-A-RFL": {
+          "abilityName": "Fusileros",
+          "description": "Siempre que un agente CORSARIO MARCADO POR EL VACÍO amigo esté disparando con un rifle shuriken o un rifle largo de explorador durante una activación en la que no haya realizado la acción Cargar, Retroceder o Reposicionarse,\nese agente tiene la regla de armas Certera 1. Ten en cuenta que ese agente no tiene restringido realizar esas acciones después de disparar."
+        }
+      }
+    },
+    "AEL-COR-KUR": {
+      "opTypeName": "Kurnathi Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-KUR-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-KUR-DPW": {
+          "wepName": "Armas de energía dobles"
+        }
+      },
+      "abilities": {
+        "AEL-COR-KUR-A-BM": {
+          "abilityName": "Maestro de la espada",
+          "description": "Este agente puede realizar la acción Correr durante una activación en la que haya realizado la acción Cargar, pero solo puede usar la distancia de movimiento que le quedara de esa acción Cargar (hasta un máximo de 3\")."
+        },
+        "AEL-COR-KUR-A-BS": {
+          "abilityName": "Postura acerada",
+          "description": "Siempre que este agente esté combatiendo o contraatacando, puedes resolver uno de tus éxitos antes del orden normal. Si lo haces, ese éxito debe usarse para bloquear."
+        }
+      }
+    },
+    "AEL-COR-HNT": {
+      "opTypeName": "Cazador Kurnita Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-HNT-FAO": {
+          "wepName": "Faolchú"
+        },
+        "AEL-COR-HNT-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-HNT-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "AEL-COR-HNT-A-EH": {
+          "abilityName": "Cazador erudito",
+          "description": "**GAMBITO ESTRATÉGICO**  \r \r Elige un agente enemigo a 9\" o menos de este agente. Una vez durante este punto de inflexión, durante la activación de ese agente enemigo, después de que realice una acción en la que se mueva,\r puedes interrumpir esa activación y realizar una acción Reposicionarse gratuita con este agente (no puede terminar ese movimiento más lejos de ese agente enemigo) o una acción Cargar gratuita con este agente\r (puedes cambiar su orden para hacerlo, y debe terminar ese movimiento dentro de la zona de control de ese agente enemigo)."
+        },
+        "AEL-COR-HNT-A-FB": {
+          "abilityName": "Vínculo con el Faolchú",
+          "description": "La primera vez en cada punto de inflexión que este agente contraataque, si está preparado,\r en el paso de Resolver dados de ataque de esa secuencia, tú resuelves el primer dado de ataque (es decir, el defensor en lugar del atacante)."
+        }
+      }
+    },
+    "AEL-COR-SW": {
+      "opTypeName": "Tejedor de Almas Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-SW-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-SW-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "actions": {
+        "AEL-COR-SW-SC": {
+          "name": "Canalizar alma",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige otro agente CORSARIO MARCADO POR EL VACÍO amigo visible para este agente y a 6\" o menos de él. Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "AEL-COR-SW-SH": {
+          "name": "Sanación del alma",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente CORSARIO MARCADO POR EL VACÍO amigo visible para este agente y a 6\" o menos de él. Ese agente recupera 2D3 heridas perdidas."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "AEL-COR-SR": {
+      "opTypeName": "Corredor de Sombras Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-SR-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-SR-TB": {
+          "wepName": "Cuchillas arrojadizas"
+        },
+        "AEL-COR-SR-HB": {
+          "wepName": "Cuchillas hekatarii"
+        }
+      },
+      "abilities": {
+        "AEL-COR-SR-A-BP": {
+          "abilityName": "Retrorreactor de parpadeo",
+          "description": "Siempre que este agente realice la acción Cargar, Retroceder o Reposicionarse, puede hacer un Salto disforme.\r Si lo hace, no lo muevas; en su lugar, retíralo de la zona de exterminio y vuelve a desplegarlo totalmente a 7\" o menos de su ubicación original, midiendo solo la distancia horizontal\r (en la zona de exterminio Gallowdark, esta distancia puede medirse a través de muros).\r Debe desplegarse en una ubicación donde pueda colocarse y, a menos que sea la acción Cargar, no puede desplegarse dentro de la zona de control de un agente enemigo."
+        },
+        "AEL-COR-SR-A-SA": {
+          "abilityName": "Ataque cortante",
+          "description": "Siempre que este agente realice la acción Reposicionarse con un Salto disforme (ver Retrorreactor de parpadeo), puedes usar esta regla.\r Si lo haces, después de que se mueva, traza una línea imaginaria de 1mm de diámetro y hasta 7\" de longitud entre él y su ubicación anterior.\r Ten en cuenta que no tiene por qué ser una línea recta. Inflige 1D3+2 de daño a un agente enemigo que cruce esa línea. No puedes infligir daño a un agente enemigo que no fuera visible para este agente al inicio de esa acción. Puede colocarse temporalmente un marcador redondo de 28mm debajo de este agente antes de que se mueva para ayudar a determinarlo."
+        }
+      }
+    },
+    "AEL-COR-SD": {
+      "opTypeName": "Duelista Tormenta Estelar Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-SD-FP": {
+          "wepName": "Pistola de fusión"
+        },
+        "AEL-COR-SD-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-SD-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "AEL-COR-SD-A-QOTD": {
+          "abilityName": "Gatillo fácil",
+          "description": "Este agente puede realizar la acción Disparar mientras esté dentro de la zona de control de un agente enemigo.\nSi lo hace, al elegir un objetivo válido, solo puedes elegir un agente enemigo que esté dentro de la zona de control de este agente, y puedes hacerlo aunque haya otros agentes amigos dentro de la zona de control de ese agente enemigo."
+        }
+      },
+      "actions": {
+        "AEL-COR-SD-PB": {
+          "name": "Andanada de pistolas",
+          "effects": [
+            "Realiza 2 acciones Disparar gratuitas con este agente (esto tiene prioridad sobre las restricciones de acciones). Debes elegir su pistola de fusión para una acción y su pistola shuriken para la otra (en cualquier orden)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras tenga una orden de Ocultarse, ni durante una activación en la que haya realizado la acción Disparar (o viceversa)."
+          ]
+        }
+      }
+    },
+    "AEL-COR-WS": {
+      "opTypeName": "Buscador de la Senda Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-WS-FG": {
+          "wepName": "Agarre gélido"
+        },
+        "AEL-COR-WS-LS": {
+          "wepName": "Rayo fulminante"
+        },
+        "AEL-COR-WS-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-WS-WS": {
+          "wepName": "Báculo de brujo"
+        }
+      },
+      "actions": {
+        "AEL-COR-WS-WF": {
+          "name": "Pliegue disforme",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige 2 agentes CORSARIO MARCADO POR EL VACÍO amigos visibles para este agente y a 5\" o menos de él. Retíralos a ambos de la zona de exterminio y vuelve a desplegar cada uno en la ubicación del otro (en otras palabras, intercambia sus posiciones). Si uno de ellos realizó una acción Cargar, Retroceder o Reposicionarse durante este punto de inflexión y el otro está preparado, el otro no puede realizar ninguna de esas acciones en su activación durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        },
+        "AEL-COR-WS-WS": {
+          "name": "Escudo protector",
+          "effects": [
+            "*PSÍQUICA*",
+            "Elige un agente CORSARIO MARCADO POR EL VACÍO amigo visible para este agente y a 6\" o menos de él.\r  Hasta el inicio de la siguiente activación de este agente, hasta que quede incapacitado o hasta que vuelva a realizar esta acción (lo que ocurra primero), la primera vez que un dado de ataque inflija daño normal a ese agente amigo, ignora ese daño infligido."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "AEL-COR-WAR": {
+      "opTypeName": "Guerrero Marcado por el Vacío",
+      "weapons": {
+        "AEL-COR-WAR-SP": {
+          "wepName": "Pistola shuriken"
+        },
+        "AEL-COR-WAR-SR": {
+          "wepName": "Rifle shuriken"
+        },
+        "AEL-COR-WAR-PW": {
+          "wepName": "Arma de energía"
+        },
+        "AEL-COR-WAR-F": {
+          "wepName": "Puños"
+        }
+      },
+      "abilities": {
+        "AEL-COR-WAR-A-PR": {
+          "abilityName": "Incursores al acecho",
+          "description": "Puedes usar los ardides de tiroteo Huida caprichosa y Dedos ligeros por 0PM cada uno si un GUERRERO amigo es el agente CORSARIO MARCADO POR EL VACÍO especificado."
+        },
+        "AEL-COR-WAR-A-RFL": {
+          "abilityName": "Fusileros",
+          "description": "Siempre que un agente CORSARIO MARCADO POR EL VACÍO amigo esté disparando con un rifle shuriken o un rifle largo de explorador durante una activación en la que no haya realizado la acción Cargar, Retroceder o Reposicionarse,\nese agente tiene la regla de armas Certera 1. Ten en cuenta que ese agente no tiene restringido realizar esas acciones después de disparar."
+        }
+      }
+    }
+  }
+}

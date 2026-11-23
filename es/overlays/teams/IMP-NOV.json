@@ -1,0 +1,337 @@
+{
+  "killteamId": "IMP-NOV",
+  "locale": "es",
+  "team": {
+    "killteamName": "Novicias",
+    "description": "Nuevas incorporaciones a las filas de las Adepta Sororitas, las Hermanas Novicias que muestran gran fervor y determinación suelen\ndesplegarse juntas en equipos de exterminio para dar caza a apóstatas o erradicar herejes. Al cumplir estos deberes, puede que algún día lleguen a convertirse en Hermanas de pleno derecho, extendiendo cada vez más la luz del Emperador.",
+    "composition": "Un equipo de exterminio NOVICIAS está compuesto por:\n\n- 1 agente NOVICIA SUPERIORA con una de las siguientes opciones:\n  - Pistola de plasma; arma de energía\n  - Bólter reliquia; culata\n  - Pistola bólter reliquia; arma de energía\n- 9 agentes NOVICIA elegidos de la siguiente lista:\n  - CONDENADORA\n  - DIALOGUS\n  - DUELISTA\n  - EXACTORA\n  - HOSPITALARIA\n  - PENITENTE\n  - PRECEPTORA\n  - PRONATUS\n  - PURGATUS\n  - RELIQUARIUS\n  - MILITANTE con una de las siguientes opciones:\n    - Pistola automática; hoja de novicia\n    - Rifle automático; culata\n\nSalvo los agentes MILITANTE y PURGATUS, tu comando solo puede incluir a cada agente de esta lista una vez.  \n\nTu comando solo puede incluir hasta dos agentes PURGATUS."
+  },
+  "ploys": {
+    "IMP-NOV-S-AV": {
+      "ployName": "Venganza ardiente",
+      "description": "Siempre que un agente NOVICIA amigo dispare, combata o contraataque contra un agente enemigo gastado, las armas de ese agente amigo tienen la regla de armas Castigadora.  \n**Castigadora:** Si guardas algún éxito crítico, puedes guardar uno de tus fallos como éxito normal en lugar de descartarlo."
+    },
+    "IMP-NOV-S-BR": {
+      "ployName": "Rejuvenecimiento bendito",
+      "description": "Siempre que gastes puntos de Fe, al final de esa acción, el agente amigo en el que los gastaste puede recuperar hasta D3 Heridas perdidas.\r Ten en cuenta que este ardid no tiene efecto si el ACTO DE FE no cuesta ningún punto de Fe, p. ej., el equipo Autoflageladores."
+    },
+    "IMP-NOV-S-DOTF": {
+      "ployName": "Defensoras de la fe",
+      "description": "Siempre que un agente dispare, combata o contraataque contra un agente NOVICIA amigo que dispute un marcador de objetivo,\r en el paso de Resolver dados de ataque de esa secuencia, puedes reducir a la mitad el daño infligido (redondeando hacia arriba y hasta un mínimo de 2) a ese agente amigo por un éxito."
+    },
+    "IMP-NOV-S-RA": {
+      "ployName": "Avance justiciero",
+      "description": "Hasta un tercio de los agentes NOVICIA amigos que haya en la zona de aniquilación (redondeando hacia abajo, hasta un mínimo de 1) pueden realizar inmediatamente una acción gratuita de Correr en el orden que elijas,\npero cada uno que lo haga debe terminar ese movimiento más cerca de su agente enemigo más cercano, de su marcador de objetivo más cercano o de la zona de despliegue de tu oponente (puedes elegir por separado para cada uno).  \n\nNo puedes usar este ardid durante el primer punto de inflexión."
+    },
+    "IMP-NOV-T-BA": {
+      "ployName": "Aura cegadora",
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo esté realizando la acción Disparar y seleccione un agente NOVICIA amigo como objetivo válido.\nHasta el final de esa activación/reacción, mientras ese agente amigo esté a más de 2\" de ese agente enemigo, tu oponente no puede seleccionarlo como objetivo válido.\nSi no hay otros objetivos válidos que tu oponente pueda seleccionar, esa acción termina (no se cancela, por lo que ese agente sí la ha realizado).\nTen en cuenta que este ardid no tiene efecto si no es el agente seleccionado, p. ej., si es un objetivo secundario de la regla de armas Área."
+    },
+    "IMP-NOV-T-BI": {
+      "ployName": "Infierno abrasador",
+      "description": "Usa este ardid de tiroteo cuando un agente NOVICIA amigo esté disparando con un lanzallamas del Ministorum e infligas daño con algún éxito crítico.\r El objetivo gana una de tus fichas de Llamas (si no tiene ya una). Siempre que se active un agente que tenga una de tus fichas de Llamas:\r \r - Inflígele D3 de daño.\r - El jugador que lo controla puede restar 1 al atributo LPA de ese agente hasta el final de esa activación para retirar esa ficha. Ten en cuenta que debe hacerse antes de que ese agente realice ninguna acción durante esa activación.\r "
+    },
+    "IMP-NOV-T-GBF": {
+      "ployName": "Guiadas por la fe",
+      "description": "Usa este ardid de tiroteo cuando un agente NOVICIA amigo esté realizando la acción Disparar y estés seleccionando un arma a distancia.\nHasta el final de esa acción, siempre que ese agente dispare contra un agente que esté a 6\" o menos de él, esa arma tiene la regla de armas Buscadora (Ligero).  \n\n**Buscadora (Ligero):** Al seleccionar un objetivo válido, los agentes no pueden usar el terreno ligero como cobertura. Aunque esto puede permitir que esos agentes sean elegidos como objetivo (siempre que sean visibles), no elimina su salvación por cobertura (si la tienen)."
+    },
+    "IMP-NOV-T-GM": {
+      "ployName": "Martirio glorioso",
+      "description": "Usa este ardid de tiroteo cuando un agente NOVICIA amigo resulte incapacitado, antes de retirarlo de la zona de aniquilación. Por cada agente enemigo que sea visible para él y esté a 2\" o menos de él, ganas 1 punto de Fe e infliges D3 de daño a ese agente enemigo (tira por separado para cada uno)."
+    }
+  },
+  "equipments": {
+    "IMP-NOV-IOF": {
+      "eqName": "Icono de la fe",
+      "description": "Una vez por punto de inflexión, puedes usar hasta dos ACTOS DE FE durante una secuencia, pero cada uno debe ser diferente. Esto tiene preferencia sobre las reglas normales de ACTOS DE FE."
+    },
+    "IMP-NOV-SR": {
+      "eqName": "Munición santificada",
+      "description": "Siempre que un agente NOVICIA amigo dispare con un rifle automático, pistola automática, pistola bólter reliquia o bólter reliquia, si gastas un punto de Fe, esa arma tiene la regla de armas Penetración Crítica 1 hasta el final de esa secuencia."
+    },
+    "IMP-NOV-AC": {
+      "eqName": "Autoflageladores",
+      "description": "Una vez por punto de inflexión, cuando un agente NOVICIA amigo dispare, combata o contraataque, en el paso de Tirar dados de ataque,\npuedes infligir 1-3 de daño a ese agente amigo (pero no lo suficiente para incapacitarlo).\nSi lo haces, puedes usar un ACTO DE FE gratis durante esa secuencia cuyo coste en puntos de Fe no sea mayor que el daño que hayas infligido con esta regla."
+    },
+    "IMP-NOV-HE": {
+      "eqName": "Ungüentos sagrados",
+      "description": "Puedes ignorar cualquier cambio en el atributo Movimiento de los agentes NOVICIA amigos por estar heridos."
+    }
+  },
+  "teamAbilities": {
+    "IMP-NOV-TA-ACOFFA": {
+      "abilityName": "Actos de fe",
+      "description": "En el paso de Preparación de cada fase de estrategia, ganas un número de puntos de Fe igual a la mitad del número de agentes NOVICIA amigos que no hayan resultado incapacitados (redondeando hacia arriba).\nSiempre que un agente NOVICIA amigo dispare, combata o contraataque, o un agente dispare contra él, en el paso de Tirar dados de ataque (o en el paso de Tirar dados de defensa si un agente está disparando contra él),\npuedes gastar tus puntos de Fe para usar un ACTO DE FE.  \n\nNo puedes usar más de un ACTO DE FE por secuencia, y sus costes y efectos son los siguientes:  \n\n\n- **GUÍA - 1 PUNTO DE FE**  \nPuedes repetir uno de tus dados.\n- **BENDICIÓN - 2 PUNTOS DE FE**  \n Puedes guardar uno de tus éxitos normales como éxito crítico en su lugar.\n- **INTERVENCIÓN - 3 PUNTOS DE FE**  \nPuedes guardar uno de tus fallos como éxito normal en lugar de descartarlo.\n"
+    }
+  },
+  "opTypes": {
+    "IMP-NOV-SUP": {
+      "opTypeName": "Novicia Superiora",
+      "weapons": {
+        "IMP-NOV-SUP-PP": {
+          "wepName": "Pistola de plasma",
+          "profiles": {
+            "IMP-NOV-SUP-PP-0": {
+              "profileName": "Estándar"
+            },
+            "IMP-NOV-SUP-PP-1": {
+              "profileName": "Sobrecarga"
+            }
+          }
+        },
+        "IMP-NOV-SUP-RBP": {
+          "wepName": "Pistola bólter reliquia"
+        },
+        "IMP-NOV-SUP-RBG": {
+          "wepName": "Bólter reliquia"
+        },
+        "IMP-NOV-SUP-GB": {
+          "wepName": "Culata"
+        },
+        "IMP-NOV-SUP-PW": {
+          "wepName": "Arma de energía"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-SUP-A-IE": {
+          "abilityName": "Ejemplo inspirador",
+          "description": "Siempre que este agente incapacite a un agente enemigo, ganas 1 punto de Fe, o 2 puntos de Fe si ese agente enemigo tenía un atributo Heridas de 12 o más.\nEsta regla no tiene efecto al usar el ardid de tiroteo Martirio glorioso."
+        }
+      }
+    },
+    "IMP-NOV-CON": {
+      "opTypeName": "Novicia Condenadora",
+      "weapons": {
+        "IMP-NOV-CON-CST": {
+          "wepName": "Lanzaestacas condenador"
+        },
+        "IMP-NOV-CON-NR": {
+          "wepName": "Vara nulificadora"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-CON-A-NR": {
+          "abilityName": "Vara nulificadora",
+          "description": "Las armas a distancia PSÍQUICAS no pueden infligir daño a este agente.\nA efectos de las acciones PSÍQUICAS, este agente no puede ser seleccionado y nunca se considera que está dentro de las distancias requeridas por esas acciones.\nSiempre que un agente esté a 6\" o menos de este agente:\n\n- Ese agente no puede realizar acciones PSÍQUICAS ni usar reglas adicionales PSÍQUICAS.\n- Ese agente no puede usar armas a distancia PSÍQUICAS.\n- Las armas de combate PSÍQUICAS no tienen reglas de armas y no pueden tener atributos de Daño superiores a 3/4.\n"
+        }
+      }
+    },
+    "IMP-NOV-DIA": {
+      "opTypeName": "Novicia Dialogus",
+      "weapons": {
+        "IMP-NOV-DIA-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-DIA-DS": {
+          "wepName": "Báculo de Dialogus"
+        }
+      },
+      "actions": {
+        "IMP-NOV-DIA-ABC": {
+          "name": "Autotransmisor",
+          "effects": [
+            "Si tu marcador de Autotransmisor no está en la zona de aniquilación, colócalo a 8\" o menos en horizontal de este agente; de lo contrario, mueve tu marcador de Autotransmisor hasta 8\" en horizontal.",
+            "Si este agente es retirado de la zona de aniquilación, retira tu marcador de Autotransmisor de la zona de aniquilación.",
+            "Siempre que un agente enemigo que esté a 3\" o menos de tu marcador de Autotransmisor dispare, combata o contraataque, tu oponente no puede repetir sus dados de ataque."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        },
+        "IMP-NOV-DIA-SR": {
+          "name": "Retórica conmovedora",
+          "effects": [
+            "**APOYO**",
+            "Elige otro agente NOVICIA amigo que sea visible para este agente y esté a 6\" o menos de él, o que esté a 6\" o menos de tu marcador de Autotransmisor.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA (hasta un máximo de 3 después de sumar todos los cambios al atributo LPA)."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-NOV-DUE": {
+      "opTypeName": "Novicia Duelista",
+      "weapons": {
+        "IMP-NOV-DUE-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-DUE-DB": {
+          "wepName": "Hojas de duelo"
+        }
+      }
+    },
+    "IMP-NOV-EXA": {
+      "opTypeName": "Novicia Exactora",
+      "weapons": {
+        "IMP-NOV-EXA-NWR": {
+          "wepName": "Látigos neurales"
+        },
+        "IMP-NOV-EXA-NWM": {
+          "wepName": "Látigos neurales"
+        }
+      },
+      "actions": {
+        "IMP-NOV-EXA-WIF": {
+          "name": "Azuzar al frenesí",
+          "effects": [
+            "Elige otro agente NOVICIA amigo (salvo SUPERIORA) que sea visible para este agente y esté a 3\" o menos de él y que no se esté beneficiando actualmente de los efectos de esta acción.",
+            "Hasta el final de la siguiente activación de ese agente, suma 1 a su atributo LPA, suma 1\" a su atributo Movimiento, y puede realizar dos acciones de Combatir durante su siguiente activación."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-NOV-HOS": {
+      "opTypeName": "Novicia Hospitalaria",
+      "weapons": {
+        "IMP-NOV-HOS-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-HOS-SS": {
+          "wepName": "Sierra quirúrgica"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-HOS-A-MDC": {
+          "abilityName": "¡Médico!",
+          "description": "La primera vez durante cada punto de inflexión que otro agente NOVICIA amigo fuera a resultar incapacitado mientras es visible para este agente y está a 3\" o menos de él,\r puedes usar esta regla, siempre que ni este agente ni ese otro estén en la zona de control de un agente enemigo.\r Si lo haces, ese agente amigo no resulta incapacitado, le queda 1 herida y no puede resultar incapacitado durante el resto de esa acción. Después de esa acción, ese agente amigo puede realizar inmediatamente una acción gratuita de Correr, pero debe terminar ese movimiento en la\r zona de control de este agente. Resta 1 a los atributos LPA de este agente y de ese agente hasta el final de sus siguientes activaciones respectivas y, si esta regla se usó durante la activación de ese agente amigo, esa activación termina.\r No puedes usar esta regla si este agente está incapacitado, o si es una acción de Disparar y este agente fuera a ser un objetivo principal o secundario."
+        }
+      },
+      "actions": {
+        "IMP-NOV-HOS-CT": {
+          "name": "Herramientas de cirujano",
+          "effects": [
+            "Elige un agente NOVICIA amigo en la zona de control de este agente para que recupere hasta 2D3 heridas perdidas. No puede ser un agente sobre el que se haya usado la regla ¡Médico! durante este punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente no puede realizar esta acción mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    },
+    "IMP-NOV-MIL": {
+      "opTypeName": "Novicia Militante",
+      "weapons": {
+        "IMP-NOV-MIL-AG": {
+          "wepName": "Rifle automático"
+        },
+        "IMP-NOV-MIL-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-MIL-GB": {
+          "wepName": "Culata"
+        },
+        "IMP-NOV-MIL-NB": {
+          "wepName": "Hoja de novicia"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-MIL-A-MF": {
+          "abilityName": "Fe militante",
+          "description": "Siempre que este agente dispare, combata o contraataque, si usas un ACTO DE FE durante esa secuencia y un agente enemigo resulta incapacitado,\nse te devuelven los puntos de Fe gastados en ese ACTO DE FE. Si usas el equipo Icono de la fe, solo se devuelven los puntos de Fe de uno de esos ACTOS DE FE (a tu elección)."
+        }
+      }
+    },
+    "IMP-NOV-PEN": {
+      "opTypeName": "Novicia Penitente",
+      "weapons": {
+        "IMP-NOV-PEN-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-PEN-PE": {
+          "wepName": "Eviscerador penitente"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-PEN-A-ATD": {
+          "abilityName": "Absolución mediante la destrucción",
+          "description": "Siempre que este agente realice la acción Combatir, si no está incapacitado, puede realizar inmediatamente después una acción gratuita de Combatir.\nEsto tiene preferencia sobre las restricciones de acciones, y no puedes realizar más de dos acciones de Combatir seguidas como resultado de esta regla.\nSi este agente se está beneficiando de los efectos de la acción Azuzar al frenesí (ver EXACTORA), esto se aplica a cada una de las acciones de Combatir de esos efectos."
+        }
+      }
+    },
+    "IMP-NOV-PRE": {
+      "opTypeName": "Novicia Preceptora",
+      "weapons": {
+        "IMP-NOV-PRE-MOTR": {
+          "wepName": "Maza de los Justos"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-PRE-A-GH": {
+          "abilityName": "Himnario glorioso",
+          "description": "**APOYO** Siempre que un agente NOVICIA amigo esté a 3\" o menos de este agente, las armas de ese agente amigo tienen la regla de armas Severa."
+        },
+        "IMP-NOV-PRE-A-UE": {
+          "abilityName": "Ejemplo inquebrantable",
+          "description": "Siempre que este agente incapacite a un agente enemigo preparado que esté en su zona de control, ganas 1 punto de Fe, o 2 puntos de Fe si ese agente enemigo tenía un atributo Heridas de 12 o más."
+        }
+      }
+    },
+    "IMP-NOV-PRO": {
+      "opTypeName": "Novicia Pronatus",
+      "weapons": {
+        "IMP-NOV-PRO-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-PRO-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-PRO-A-DA": {
+          "abilityName": "Adquisición divina",
+          "description": "Una vez por punto de inflexión, cuando este agente realice una acción de misión que requiera que controle un objetivo o un marcador de misión, ganas un número de puntos de Fe igual al número del punto de inflexión."
+        }
+      }
+    },
+    "IMP-NOV-PUR": {
+      "opTypeName": "Novicia Purgatus",
+      "weapons": {
+        "IMP-NOV-PUR-MF": {
+          "wepName": "Lanzallamas del Ministorum"
+        },
+        "IMP-NOV-PUR-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-PUR-A-PWF": {
+          "abilityName": "Purgar con fuego",
+          "description": "Una vez por punto de inflexión, puedes usar el ardid de tiroteo Infierno abrasador por 0PM si este es el agente NOVICIA amigo especificado."
+        }
+      }
+    },
+    "IMP-NOV-REL": {
+      "opTypeName": "Novicia Reliquarius",
+      "weapons": {
+        "IMP-NOV-REL-AP": {
+          "wepName": "Pistola automática"
+        },
+        "IMP-NOV-REL-GB": {
+          "wepName": "Culata"
+        }
+      },
+      "abilities": {
+        "IMP-NOV-REL-A-IB": {
+          "abilityName": "Portaicono",
+          "description": "Siempre que se determine el control de un marcador, considera que el atributo LPA de este agente es 1 mayor. Ten en cuenta que esto no es un cambio a su atributo LPA, por lo que cualquier cambio es acumulativo con esto."
+        }
+      },
+      "actions": {
+        "IMP-NOV-REL-RI": {
+          "name": "Alzar icono",
+          "effects": [
+            "Ganas 1 punto de Fe. Si este agente controla un marcador de objetivo, también ganas un número de puntos de Fe igual al número del punto de inflexión."
+          ],
+          "conditions": [
+            "Este agente solo puede realizar esta acción una vez por punto de inflexión, y no puede realizarla mientras esté en la zona de control de un agente enemigo."
+          ]
+        }
+      }
+    }
+  }
+}
