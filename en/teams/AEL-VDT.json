@@ -793,7 +793,7 @@
           "name": "Mirror Of Minds",
           "description": null,
           "effects": [
-            "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 4, 2, 1 and your opponent rolled 6, 5, 4, 4, 3, 1, you would inflict 4D3 damage on that enemy operative."
+            "**PSYCHIC** Select one enemy operative that's a valid target for and within 8\" of this operative.\r Both players roll five D6. Pair your dice with your opponent's dice based on matching results.\r For each matching pair, inflict D3 damage on that enemy operative (to a maximum of 8). For example, if you rolled 6, 5, 5, 2, 1 and your opponent rolled 6, 5, 4, 3, 1, you would inflict 3D3 damage on that enemy operative."
           ],
           "conditions": [
             "This operative cannot perform this action while within control range of an enemy operative."

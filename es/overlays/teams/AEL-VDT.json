@@ -186,7 +186,7 @@
         "AEL-VDT-SDS-MOM": {
           "name": "Espejo de Mentes",
           "effects": [
-            "**PSÍQUICA** Elige un agente enemigo que sea un objetivo válido para este agente y esté a 8\" o menos de él.\r Ambos jugadores tiran cinco D6. Empareja tus dados con los dados de tu oponente según los resultados coincidentes.\r Por cada pareja coincidente, inflige D3 de daño a ese agente enemigo (hasta un máximo de 8). Por ejemplo, si tú sacaste 6, 5, 5, 4, 2, 1 y tu oponente sacó 6, 5, 4, 4, 3, 1, infligirías 4D3 de daño a ese agente enemigo."
+            "**PSÍQUICA** Elige un agente enemigo que sea un objetivo válido para este agente y esté a 8\" o menos de él.\r Ambos jugadores tiran cinco D6. Empareja tus dados con los dados de tu oponente según los resultados coincidentes.\r Por cada pareja coincidente, inflige D3 de daño a ese agente enemigo (hasta un máximo de 8). Por ejemplo, si tú sacaste 6, 5, 5, 2, 1 y tu oponente sacó 6, 5, 4, 3, 1, infligirías 3D3 de daño a ese agente enemigo."
           ],
           "conditions": [
             "Este agente no puede realizar esta acción mientras esté dentro de la zona de control de un agente enemigo."
