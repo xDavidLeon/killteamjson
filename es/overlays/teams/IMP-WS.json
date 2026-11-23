@@ -3,7 +3,7 @@
   "locale": "es",
   "team": {
     "description": "Los equipos de exterminio de los Lobos Exploradores son los cazadores más temidos y consumados de su Gran Compañía, que se adelantan mucho a las fuerzas de ataque de los Lobos Espaciales en misiones solitarias y sin apoyo. Causan muerte y anarquía tras las líneas enemigas mediante asesinatos, sabotajes y otras acciones, a menudo ocultos tras extrañas nieblas o furiosas tormentas.",
-    "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista.",
+    "composition": "Un equipo de exterminio EXPLORADORES LOBO está compuesto por:\n- 1 LOBO FENRISIANO\n- 5 agentes EXPLORADOR LOBO elegidos de la siguiente lista:\n  - JEFE DE MANADA\n  - PORTACOLMILLOS\n  - OJOGÉLIDO\n  - TIRADOR\n  - MAESTRO TRAMPERO\n  - SACERDOTE RÚNICO ESCALDO\n  - CAZADOR\n\nSalvo agentes CAZADOR, tu comando solo puede incluir una vez cada uno de los agentes de esta lista.",
     "killteamName": "Exploradores lobo"
   },
   "ploys": {
@@ -20,7 +20,7 @@
       "ployName": "MORDISCO DE LA TORMENTA"
     },
     "IMP-WS-S-SF": {
-      "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado y sigue en la zona de control del agente enemigo de esa secuencia, puedes infligir 1D3+1 daños a ese agente enemigo.",
+      "description": "Siempre que un agente EXPLORADOR LOBO amigo termine de contraatacar, si no resulta incapacitado y sigue en la zona de control del agente enemigo de esa secuencia, puedes infligir D3+1 daños a ese agente enemigo.",
       "ployName": "LUCHADORES SALVAJES"
     },
     "IMP-WS-T-AS": {
@@ -28,7 +28,7 @@
       "ployName": "SENTIDOS AGUZADOS"
     },
     "IMP-WS-T-CA": {
-      "description": "Usa este ardid de tiroteo al final de la activación de un agente enemigo, o después de que un agente enemigo realice la acción de Combatir. 1 agente EXPLORADOR LOBO amigo puede realizar de inmediato una acción libre de Combatir, pero solo puede combatir contra ese agente enemigo.",
+      "description": "Usa este ardid de tiroteo al final de la activación de un agente enemigo, o después de que un agente enemigo realice la acción de Combatir. Un agente EXPLORADOR LOBO amigo puede realizar de inmediato una acción libre de Combatir, pero solo puede combatir contra ese agente enemigo.",
       "ployName": "DEVOLVER EL ATAQUE"
     },
     "IMP-WS-T-TBL": {
@@ -89,7 +89,7 @@
       },
       "abilities": {
         "IMP-WS-PL-LG": {
-          "description": " Una vez por batalla, después de desempatar para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tu D6.",
+          "description": "Una vez por batalla, después de desempatar para decidir la iniciativa, si este agente está en la zona de aniquilación, puedes repetir tu dado.",
           "abilityName": "Astucia lupina"
         },
         "IMP-WS-PL-GV": {
@@ -110,7 +110,7 @@
       },
       "abilities": {
         "IMP-WS-FB-SC": {
-          "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar lesionados (incluyendo los atributos de sus armas). Recuerda que los agentes amigos solo tienen esta regla si incluyes a este agente en la batalla (incluso si luego resulta incapacitado).",
+          "description": " Puedes ignorar los cambios a los atributos de los agentes EXPLORADOR LOBO amigos (salvo LOBO FENRISIANO) por estar heridos (incluyendo los atributos de sus armas). Recuerda que los agentes amigos solo tienen esta regla si incluyes a este agente en la batalla (incluso si luego resulta incapacitado).",
           "abilityName": "Cirugía espiritual"
         },
         "IMP-WS-FB-HB": {
@@ -135,7 +135,7 @@
           "abilityName": "Tormenta ejecutora"
         },
         "IMP-WS-FE-HS": {
-          "description": "1AP. Elige 1 de las siguientes reglas para el perfil de la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nThis operative cannot perform this action while within control range of an enemy operative.",
+          "description": "1AP. Elige una de las siguientes reglas para la carabina bólter instigador de este agente. La tendrán hasta el inicio de su siguiente activación:\n- Severa.\n- Saturación, y siempre que este agente dispare con esa arma, los agentes enemigos no pueden estar ofuscados.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo.",
           "abilityName": "SENTIDOS DE CAZADOR"
         }
       }
@@ -212,7 +212,7 @@
           "abilityName": "Lanzar las runas"
         },
         "IMP-WS-RPS-CTS": {
-          "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige 1 agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté totalmente en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo.",
+          "description": "1AP. PSÍQUICA. Retira tu marcador de Tormenta de la zona de aniquilación (si lo hay). A continuación, colócalo en la zona de aniquilación.\n\nPSÍQUICA. Alternativamente, en lugar de resolver el efecto anterior, elige un agente EXPLORADOR LOBO amigo. Hasta el inicio de la siguiente activación de este agente, hasta que resulte incapacitado, o hasta que realice esta acción de nuevo (lo que ocurra antes), siempre que ese agente amigo esté totalmente en tu TORMENTA y a más de 3\" del agente activo, estará ofuscado.\n\nEste agente no puede realizar esta acción si se encuentra en la zona de control de algún agente enemigo.",
           "abilityName": "LLAMAR A LA TORMENTA"
         }
       }
@@ -241,7 +241,7 @@
           "abilityName": "Mina de disrupción"
         },
         "IMP-WS-TM-PM": {
-          "description": "La primera vez que tu marcador de Mina de disrupción quede dentro de la zona de control de otro agente, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación, e inflígele 2D3+3 daños (o 1D3+6 si ese marcador está a 6” o menos horizontalmente de tu marcador de Tormenta); si no resulta incapacitado, termina su acción (si está realizando una), aunque los efectos de la misma no se hayan completado. Si no puede ser colocado, muévelo la distancia mínima hasta que pueda. Este agente se ignora de cara a esos efectos (no puede activar ese marcador ni sufrir daños debido al mismo).",
+          "description": "La primera vez que tu marcador de Mina de disrupción quede dentro de la zona de control de otro agente, retira ese marcador, resta 1 al atributo LPA de ese agente hasta el final de su siguiente activación, e inflígele 2D3+3 daños (o D3+6 si ese marcador está a 6\" o menos horizontalmente de tu marcador de Tormenta); si no resulta incapacitado, termina su acción (si está realizando una), aunque los efectos de la misma no se hayan completado. Si no puede ser colocado, muévelo la distancia mínima hasta que pueda. Este agente se ignora de cara a esos efectos (no puede activar ese marcador ni sufrir daños debido al mismo).",
           "abilityName": "Mina de proximidad"
         }
       }

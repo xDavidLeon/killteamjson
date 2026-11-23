@@ -3,7 +3,7 @@
   "locale": "es",
   "team": {
     "description": "Los equipos de exterminio de exoarmaduras xv26 sigilo proporcionan al Imperio T'au expertos en tácticas innovadoras consideradas poco convencionales, en el mejor de los casos, por las academias de la casta del Fuego. Utilizan la infiltración para identificar y eliminar objetivos clave, penetran en regiones hostiles para llevar a cabo reconocimientos agresivos y lanzan emboscadas desde el seno mismo del enemigo.",
-    "composition": "Un Comando de exoarmaduras xv26 sigilo está compuesto por:\n- 1 SHAS’VRE EXOARMADURA XV26 SIGILO\n  Cañón rotativo o bláster fundidor\n- 1 DRON TELEMÉTRICO MV75\n- 1 DRON DE COMBATE MV15\n- 4 agentes EXOARMADURA XV26 SIGILO elegidos de la siguiente lista:\n  - DESIGNADOR*\n  - INFILTRADOR*\n  - LIBERADOR*\n  - FARO CELESTE*\n  - NEUTRALIZADOR*\n\nSalvo agentes INFILTRADOR, tu comando solo puede incluir 1 de cada uno de los agentes de esta lista. Tu comando solo puede incluir hasta 2 blásteres fundidores.\n\n*Con 1 de las siguientes opciones:\n  - Cañón rotativo y puños\n  - Bláster fundidor y puños ",
+    "composition": "Un comando de EXOARMADURAS XV26 SIGILO está compuesto por:\n- 1 agente SHAS’VRE EXOARMADURA XV26 SIGILO\n- 1 agente DRON TELEMÉTRICO MV75 EXOARMADURA XV26 SIGILO\n- 1 agente DRON DE COMBATE MV15 EXOARMADURA XV26 SIGILO\n- 4 agentes EXOARMADURA XV26 SIGILO elegidos de la siguiente lista:\n  - DESIGNADOR\n  - INFILTRADOR\n  - LIBERADOR\n  - FARO CELESTE\n  - NEUTRALIZADOR\n\nSalvo agentes INFILTRADOR, tu comando solo puede incluir una vez cada uno de los agentes de esta lista. Tu comando solo puede incluir hasta dos blásteres fundidores.",
     "killteamName": "Comando de exoarmaduras xv26 sigilo"
   },
   "ploys": {
@@ -12,15 +12,15 @@
       "ployName": "CAZADORES PACIENTES"
     },
     "TAU-SB-S-BOU": {
-      "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) se active, si es visible para otro agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) y está a 6\" o menos de él, puedes ignorar cualquier modificador al LPA de ese primer agente amigo y elegir una de las siguientes opciones:\n- Ignora cualquier cambio al atributo Movimiento de ese primer agente amigo por estar lesionado hasta el final de esa activación.\n- Ignora cualquier cambio al atributo Impactar de las armas de ese primer agente amigo por estar lesionado hasta el final de esa activación.",
+      "description": "Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) se active, si es visible para otro agente **EXOARMADURA XV26 SIGILO** amigo (salvo **DRON**) y está a 6\" o menos de él, puedes ignorar cualquier modificador al LPA de ese primer agente amigo y elegir una de las siguientes opciones:\n- Ignora cualquier cambio al atributo Movimiento de ese primer agente amigo por estar herido hasta el final de esa activación.\n- Ignora cualquier cambio al atributo Impactar de las armas de ese primer agente amigo por estar herido hasta el final de esa activación.",
       "ployName": "VÍNCULOS DE UNIDAD"
     },
     "TAU-SB-S-PA": {
-      "description": "1 de tus marcadores de Emboscada completamente en tu territorio y a más de 2\" de todo agente enemigo. Puedes usar Coloca esta regla siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente enemigo que esté a 2\" o menos de ese marcador. Si lo haces, retira ese marcador y las armas a distancia de ese agente amigo tienen la regla de armas Buscadora hasta el final de la acción. En el paso de Preparación de la siguiente fase de Estrategia, si ese marcador está aún en la zona de aniquilación, retíralo del juego.",
+      "description": "Coloca uno de tus marcadores de Emboscada completamente en tu territorio y a más de 2\" de todo agente enemigo. Siempre que un agente **EXOARMADURA XV26 SIGILO** amigo dispare a un agente enemigo que esté a 2\" o menos de ese marcador, puedes usar esta regla. Si lo haces, retira ese marcador y las armas a distancia de ese agente amigo tienen la regla de armas Buscadora hasta el final de la acción. En el paso de Preparación de la siguiente fase de Estrategia, si ese marcador está aún en la zona de aniquilación, retíralo del juego.",
       "ployName": "PREPARAR EMBOSCADA"
     },
     "TAU-SB-S-HC": {
-      "description": "Siempre que un agente dispare a un agente **EXOARMADURA XV26 SIGILO** amigo a más de 6\" de él, en el paso de Tirar dados de ataque, el atacante debe descartar 1 de sus éxitos normales sin resolver (o 1 de sus éxitos críticos si no hay normales). Esto no es acumulativo con estar ofuscado.",
+      "description": "Siempre que un agente dispare a un agente **EXOARMADURA XV26 SIGILO** amigo a más de 6\" de él, en el paso de Tirar dados de ataque, el atacante debe descartar uno de sus éxitos normales sin resolver (o uno de sus éxitos críticos si no hay normales). Esto no es acumulativo con estar ofuscado.",
       "ployName": "CONTRAMEDIDAS DE OLEADA HOLOGRÁFICA"
     },
     "TAU-SB-T-G": {
@@ -55,7 +55,7 @@
     },
     "TAU-SB-HTL": {
       "eqName": "SELECTORES DE OBJETIVO INTEGRADOS",
-      "description": "Siempre que reacciones, puedes hacerlo con 1 AGENTE **EXOARMADURA XV26 SIGILO** amigo que tenga una orden de ocultarse y que esté a más de 3\" de todo agente enemigo, pero, antes de reaccionar, debes cambiar su orden a trabarse y solo puede realizar la acción Disparar durante esa reacción."
+      "description": "Siempre que reacciones, puedes hacerlo con un agente **EXOARMADURA XV26 SIGILO** amigo que tenga una orden de ocultarse y que esté a más de 3\" de todo agente enemigo, pero, antes de reaccionar, debes cambiar su orden a trabarse y solo puede realizar la acción Disparar durante esa reacción."
     }
   },
   "teamAbilities": {
@@ -70,7 +70,7 @@
   },
   "opTypes": {
     "TAU-SB-SHAS": {
-      "opTypeName": "SHAS’VRE",
+      "opTypeName": "SHAS’VRE XV26",
       "weapons": {
         "TAU-SB-SHAS-BC": {
           "wepName": "Cañón rotativo",
@@ -113,7 +113,7 @@
       },
       "abilities": {
         "TAU-SB-SHAS-DC": {
-          "description": "**GAMBITO ESTRATÉGICO** siempre que este agente se encuentre en la zona de aniquilación. Elige 1 agente **EXOARMADURA XV26 SIGILO DRON** amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, ignora los dos primeros puntos de su regla de **Dron** (esto tiene prioridad frente a esa regla).",
+          "description": "**GAMBITO ESTRATÉGICO** siempre que este agente se encuentre en la zona de aniquilación. Elige un agente **EXOARMADURA XV26 SIGILO DRON** amigo en la zona de aniquilación. Hasta el final de la siguiente activación de ese agente, ignora los dos primeros puntos de su regla de **Dron** (esto tiene prioridad frente a esa regla).",
           "abilityName": "Controlador de Dron XV26"
         },
         "TAU-SB-SHAS-FGG": {
@@ -123,7 +123,7 @@
       }
     },
     "TAU-SB-DES": {
-      "opTypeName": "DESIGNADOR",
+      "opTypeName": "DESIGNADOR XV26",
       "weapons": {
         "TAU-SB-DES-BC": {
           "wepName": "Cañón rotativo",
@@ -170,7 +170,7 @@
       }
     },
     "TAU-SB-INF": {
-      "opTypeName": "INFILTRADOR",
+      "opTypeName": "INFILTRADOR XV26",
       "weapons": {
         "TAU-SB-INF-BC": {
           "wepName": "Cañón rotativo",
@@ -206,7 +206,7 @@
       }
     },
     "TAU-SB-LIB": {
-      "opTypeName": "LIBERADOR",
+      "opTypeName": "LIBERADOR XV26",
       "weapons": {
         "TAU-SB-LIB-BC": {
           "wepName": "Cañón rotativo",
@@ -245,7 +245,7 @@
       }
     },
     "TAU-SB-LOD": {
-      "opTypeName": "FARO CELESTE",
+      "opTypeName": "FARO CELESTE XV26",
       "weapons": {
         "TAU-SB-LOD-BC": {
           "wepName": "Cañón rotativo",
@@ -279,13 +279,13 @@
           "abilityName": "Lanzador de electrobengalas"
         },
         "TAU-SB-LOD-HB": {
-          "description": "Este agente porta tu marcador de baliza. Los agentes (salvo **DRON**) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está colocado en la zona de aniquilación, tira 1D6 y suma 1 al resultado por cada marcador de objetivo que esté a 6\" o menos de tu marcador de baliza. Si el resultado es 5+, ganas 1PM.",
+          "description": "Este agente porta tu marcador de baliza. Los agentes (salvo **DRON**) pueden realizar la acción Recoger marcador sobre ese marcador. La primera vez que un agente enemigo realice la acción Recoger marcador sobre tu marcador de baliza, descarta ese marcador (retíralo del juego).\n\nEn el paso de Preparación de cada fase de estrategia, cuando ganes PM, si tu marcador de baliza está colocado en la zona de aniquilación, tira un D6 y suma 1 al resultado por cada marcador de objetivo que esté a 6\" o menos de tu marcador de baliza. Si el resultado es 5+, ganas 1PM.",
           "abilityName": "Baliza"
         }
       }
     },
     "TAU-SB-NEU": {
-      "opTypeName": "NEUTRALIZADOR",
+      "opTypeName": "NEUTRALIZADOR XV26",
       "weapons": {
         "TAU-SB-NEU-BC": {
           "wepName": "Cañón rotativo",
@@ -340,13 +340,13 @@
           "abilityName": "Dron"
         },
         "TAU-SB-GD-PGL": {
-          "description": "**1AP**. Elige 1 agente enemigo visible para este agente y tira 1D6. Con 3+, Hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo.",
+          "description": "**1AP**. Elige un agente enemigo visible para este agente y tira un D6: con un 3+, hasta el final de la siguiente activación de ese agente, resta 2\" a su atributo Movimiento.\n\nEste agente no puede realizar esta acción si está en la zona de control de algún agente enemigo.",
           "abilityName": "LANZADOR DE GRANADA DE FOTONES"
         }
       }
     },
     "TAU-SB-MD": {
-      "opTypeName": "DRON DE COMBATE MV15",
+      "opTypeName": "DRON TELEMÉTRICO MV75",
       "weapons": {
         "TAU-SB-MD-R": {
           "wepName": "Topetazo"

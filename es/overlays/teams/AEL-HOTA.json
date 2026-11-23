@@ -8,7 +8,7 @@
   },
   "ploys": {
     "AEL-HOTA-S-BA": {
-      "description": "Las armas de combate de los agentes **MANO DEL ARCONTE** amigos tienen la regla de armas Desgarradora.",
+      "description": "Las armas de combate de los agentes **MANO DEL ARCONTE** amigos tienen la regla de armas Desgarradora.  \n**Desgarradora:** Si conservas algún impacto crítico, conserva 1 impacto normal como impacto crítico en su lugar.",
       "ployName": "ARTISTAS DE LA HOJA"
     },
     "AEL-HOTA-S-DON": {
@@ -58,13 +58,13 @@
     },
     "AEL-HOTA-RP": {
       "eqName": "VENENO REFINADO",
-      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo realice la acción Disparar y elijas una carabina cristalina, un cañón cristalino, una pistola cristalina, un rifle cristalino o una pistola aguijón, puedes usar esta regla.\n Si lo haces, hasta el final de la acción suma al atributo Daño normal de dicha arma.",
+      "description": "Hasta dos veces por punto de inflexión, cuando un agente MANO DEL ARCONTE amigo realice la acción Disparar y elijas una carabina cristalina, un cañón cristalino, una pistola cristalina, un rifle cristalino o una pistola aguijón, puedes usar esta regla.\n Si lo haces, hasta el final de la acción suma 1 al atributo Daño normal de dicha arma.",
       "effects": ""
     }
   },
   "teamAbilities": {
     "AEL-HOTA-TA-POFRPA": {
-      "description": "Después de que un agente **MANO DEL ARCONTE** amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha sido lesionado durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición **\"cuándo\"**. No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera 1D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n",
+      "description": "Después de que un agente **MANO DEL ARCONTE** amigo realice una acción, ganará una de tus fichas de Dolor si:\n\n- Un agente enemigo ha quedado herido durante esa acción, pero no ha quedado incapacitado.\n- Un agente enemigo ha quedado incapacitado durante esa acción. Si ese agente enemigo tenía un atributo Heridas de 12 o más, en lugar de lo anterior el agente amigo en cuestión gana dos de tus fichas de Dolor.\n\nPuedes gastar fichas de Dolor de agentes amigos en potenciaciones siempre que se cumpla la condición **\"cuándo\"**. No puedes usar más de una potenciación por activación o reacción, excepto Sentidos estimulados, que puede utilizarse una vez por activación o reacción además de otra potenciación.  \n  \n\n**Ánima oscura**\n\n- **Cuándo:**  Durante la activación del agente, antes o después de que realice una acción.\n- **Efecto:** Hasta el inicio de la siguiente activación del agente, suma 1 a su atributo LPA\n\n**Rejuvenecimiento acelerado**\n\n- **Cuándo:** Durante la activación o la reacción del agente, antes o después de que realice una acción\n- **Efecto:** El agente recupera D3+1 heridas perdidas.\n\n**Incremento de vitalidad**\n\n- **Cuándo:** Después de que el agente incapacite a un agente enemigo y dicho agente enemigo sea retirado de la zona de aniquilación.\n- **Efecto:** El agente puede realizar de inmediato una acción libre de Correr, incluso aunque hubiese realizado una acción que le impidiera realizar acciones de Correr.\n\n**Sentidos estimulados**\n\n- **Cuándo:** Tras tirar tus dados de ataque o de defensa por el agente.\n- **Efecto:** Puedes repetir cualquiera de tus dados que tengan un resultado concreto (p. ej., los que hayan obtenido un resultado de 2).\n",
       "abilityName": "PODER DEL DOLOR"
     }
   },
@@ -140,7 +140,7 @@
       },
       "abilities": {
         "AEL-HOTA-KCD-A-CD": {
-          "description": " Este agente puede realizar 2 acciones de Combatir durante su activación.",
+          "description": "Este agente puede realizar dos acciones de Combatir durante su activación.",
           "abilityName": "Duelista Carmesí"
         }
       }
@@ -159,8 +159,8 @@
         "AEL-HOTA-KDOY-TG": {
           "effects": [
             "Elige un agente enemigo a 6\" o menos de este agente y visible para él. El agente enemigo elegido y cada otro agente a 1\" o menos de él hacen un chequeo de veneno.",
-            "Para que un agente haga un chequeo de veneno, tira 1D6, sumando 1 al resultado si ese agente tiene un atributo Salvación de 4+ o peor:",
-            "si el resultado es 3+, infliges 1D3 daños a ese agente y este obtiene una de tus fichas de Veneno (si no tiene ya una). Cuando un agente que tenga una de tus fichas de Veneno sea activado, inflígele 1D3 daños."
+            "Para que un agente haga un chequeo de veneno, tira un D6, sumando 1 al resultado si ese agente tiene un atributo Salvación de 4+ o peor:",
+            "si el resultado es 3+, infliges D3 daños a ese agente y este obtiene una de tus fichas de Veneno (si no tiene ya una). Cuando un agente que tenga una de tus fichas de Veneno sea activado, inflígele D3 daños."
           ],
           "conditions": [
             "Este agente no puede realizar esta acción si está en la zona de control de un agente enemigo."
@@ -184,7 +184,7 @@
       },
       "abilities": {
         "AEL-HOTA-KELX-A-CD": {
-          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira 1D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  En la fase de Preparación de cada fase de Estrategia, puedes elegir un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar lesionado.\n",
+          "description": "Al final del paso de Elegir agentes, si este agente es elegido para el despliegue, elige una de las siguientes reglas **DROGA DE COMBATE**, que tendrán los agentes **MANO DEL ARCONTE** durante esta batalla:\n\n- **Dolorosa:**  Cuando un dado de ataque inflija un daño de 3 o más a este agente, tira un D6: con un 6, resta 1 al daño infligido.\n- ** Adrenaluz:**  En el paso de Preparación de cada fase de Estrategia, puedes elegir un agente amigo que tenga esta **DROGA DE COMBATE;** ese agente obtiene una de tus fichas de Dolor.\n- **Velocet:** Puedes ignorar cualquier cambio al atributo Movimiento de este agente por estar herido.\n",
           "abilityName": "Drogas de combate"
         },
         "AEL-HOTA-KELX-A-RIF": {

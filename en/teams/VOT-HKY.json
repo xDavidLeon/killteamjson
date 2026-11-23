@@ -4,7 +4,7 @@
   "version": "November '26",
   "classified": true,
   "season": "BHETA-DECIMA",
-  "file": "https://assets.warhammer-community.com/eng_hernkyn_yaegirs_online_rules-7vprxsaew8-0p1ctuqlni.pdf",
+  "file": "https://assets.warhammer-community.com/eng_28-10_kill_team_team_rules_hernkyn_yaegirs-zro9mop6gm-5dh92aq2hh.pdf",
   "killteamName": "Hernkyn Yaegirs",
   "description": "The Hernkyn are those Kin who serve as the Leagues of Votann's explorers, scouts, prospectors and pioneers. To the Kin, any region of blank space upon their star charts is a mystery in need of solving. The desire to plumb the depths of the void, to discover its secrets and claim its riches is deeply ingrained in their psyche, as is the need to know what -- if any -- sources of peril might lurk amidst the shadows. ",
   "composition": "A HERNKYN YAEGIR killteam is composed of:\n\n- 1 HERNKYN YAEGIR Theyn operative\n- 9 HERNKYN YAEGIR operatives selected from the following list:\n  - Bladekyn\n  - Bombast\n  - Gunner\n  - Ironbraek\n  - Riflekyn\n  - Tracker\n  - Warrior with one of the following options:\n    - Bolt Revolver, plasma knife\n    - Bolt Shotgun, Fists\nOther than Warrior operatives, your kill team can only include each operative on this list once.",
@@ -75,7 +75,7 @@
       "ployType": "T",
       "seq": 1,
       "ployName": "Stalwart Defence",
-      "description": "Use this firefight ploy when an enemy operative ends a move within control range of a friendly HERNKYN YAEGIR operative.\r Select one other friendly HERNKYN YAEGIR operative visible to and within 6\" of that friendly operative, but that is not itself within control range of enemy operatives.\r The selected operative can perform a shoot action.\r During that action:\r \r - It can target that enemy operative even though it is within control range of a friendly operative.\r - Other enemy operatives cannot be selected as a valid target.\r - You cannot select a frag or krak grenade, or a weapon with the Blast or x\" Devastating x weapon rule (i.e, Devastating with a distance)\r "
+      "description": "Use this firefight ploy when an enemy operative ends the Charge action within control range of a friendly HERNKYN YAEGIR operative. Select one other friendly HERNKYN YAEGIR operative visible to and within 6\" of that friendly operative, but that isn't itself within control range of enemy operatives. The selected operative can perform a free Shoot action. During that action:\n- It can target that enemy operative even though it's within control range of a friendly operative.\n- You cannot select any other enemy operative as a valid target.\n- You cannot select a frag or krak grenade, or a weapon with the Blast or x\" Devastating x weapon rule (i.e. Devastating with a distance).\n\nYou cannot use this ploy during an activation in which you've interrupted with the Guard action (or vice versa)."
     }
   ],
   "equipments": [

@@ -37,7 +37,7 @@
     },
     "VOT-HKY-T-SD": {
       "ployName": "Defensa firme",
-      "description": "Usa este ardid de tiroteo cuando un agente enemigo termine un movimiento dentro de la zona de control de un agente HERNKYN YAEGIR amigo.\r Elige otro agente HERNKYN YAEGIR amigo que sea visible para ese agente amigo y esté a 6\" o menos de él, pero que no esté a su vez dentro de la zona de control de agentes enemigos.\r El agente elegido puede realizar una acción Disparar.\r Durante esa acción:\r \r - Puede seleccionar como objetivo a ese agente enemigo aunque esté dentro de la zona de control de un agente amigo.\r - No se puede seleccionar a otros agentes enemigos como objetivo válido.\r - No puedes seleccionar una granada frag o krak, ni un arma con la regla de armas Área o x\" Devastadora x (es decir, Devastadora con una distancia)\r "
+      "description": "Usa este ardid de tiroteo cuando un agente enemigo termine la acción Cargar dentro de la zona de control de un agente HERNKYN YAEGIR amigo. Elige otro agente HERNKYN YAEGIR amigo que sea visible para ese agente amigo y esté a 6\" o menos de él, pero que no esté a su vez dentro de la zona de control de agentes enemigos. El agente elegido puede realizar una acción Disparar gratuita. Durante esa acción:\n- Puede seleccionar como objetivo a ese agente enemigo aunque esté dentro de la zona de control de un agente amigo.\n- No puedes seleccionar a ningún otro agente enemigo como objetivo válido.\n- No puedes seleccionar una granada frag o krak, ni un arma con la regla de armas Área o x\" Devastadora x (es decir, Devastadora con una distancia).\n\nNo puedes usar este ardid durante una activación en la que hayas interrumpido con la acción Guardia (o viceversa)."
     }
   },
   "equipments": {

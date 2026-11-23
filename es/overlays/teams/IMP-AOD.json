@@ -12,7 +12,7 @@
       "ployName": "Tácticas Flexibles"
     },
     "IMP-AOD-S-ATSKNF": {
-      "description": "Puedes ignorar cualquier cambio a los atributos de agentes ÁNGEL DE LA MUERTE amigos debido a estar lesionados (incluyendo los atributos de sus armas).",
+      "description": "Puedes ignorar cualquier cambio a los atributos de agentes ÁNGEL DE LA MUERTE amigos debido a estar heridos (incluyendo los atributos de sus armas).",
       "ployName": "Y no conocerán el miedo"
     },
     "IMP-AOD-S-CD": {
@@ -89,7 +89,7 @@
       "abilityName": "[TC] Resueltos"
     },
     "IMP-AOD-TA-CTSH": {
-      "description": "Siempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.\n\n**Certera:** Puedes guardar hasta x dados de ataque como éxitos normales sin tirarlos. Si un arma tiene más de una mención de Certera x, considérala una mención de Certera 2 en su lugar.\n\n**Severa:** Si no guardas algún éxito crítico, puedes cambiar uno de tus éxitos normales por un éxito crítico. Las reglas de arma Devastadora y Críticos de penetración aún tienen efecto; Castigadora y Desgarradora ya no.",
+      "description": "Siempre que este agente dispare durante una activación en la que no ha realizado acciones de Cargar, Reposicionarse o Retroceder, sus armas bólter ganan las reglas de armas **Certera 1** y **Severa**.",
       "abilityName": "[TC] Tirador Certero"
     },
     "IMP-AOD-TA-CTSISP": {

@@ -24,7 +24,7 @@
       "ployName": "INSTILAR MIEDO"
     },
     "CHAOS-MW-T-MN": {
-      "description": "Usa este ardid de tiroteo cuando sea tu turno para activar un agente amigo, si solo hay apostado un único agente ALA ASESINA amigo. Hasta el final del punto de inflexión, siempre que tengas menos agentes amigos apostados que tu oponente, puedes no activar (es decir, puedes retrasar la activación de ese agente ALA ASESINA amigo hasta que a tu oponente solo le quede 1 agente apostado). Ten en cuenta que no puedes Reaccionar hasta que ese agente ALA ASESINA amigo haya sido usado.",
+      "description": "Usa este ardid de tiroteo cuando sea tu turno para activar un agente amigo, si solo hay apostado un único agente ALA ASESINA amigo. Hasta el final del punto de inflexión, siempre que tengas menos agentes amigos apostados que tu oponente, puedes no activar (es decir, puedes retrasar la activación de ese agente ALA ASESINA amigo hasta que a tu oponente solo le quede un agente apostado). Ten en cuenta que no puedes Reaccionar hasta que ese agente ALA ASESINA amigo haya sido usado.",
       "ployName": "NARCISISMO MALICIOSO"
     },
     "CHAOS-MW-T-MD": {
@@ -43,7 +43,7 @@
   "equipments": {
     "CHAOS-MW-BF": {
       "eqName": "FILOALETAS",
-      "description": "Los agentes ALA ASESINA amigos pueden realizar la siguiente acción única:\n\n**REBANAR DESDE LO ALTO  (1AP):** Acción de IMPULSO. Inflige 1D3+1 daños a un agente enemigo en la ZONA DE IMPULSO de este agente. Un agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante la acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO. Un agente DEPREDADOR no puede realizar esta acción durante la misma activación en la que realizara la acción Golpe cercenador (o viceversa)."
+      "description": "Los agentes ALA ASESINA amigos pueden realizar la siguiente acción única:\n\n**REBANAR DESDE LO ALTO  (1AP):** Acción de IMPULSO. Inflige D3+1 daños a un agente enemigo en la ZONA DE IMPULSO de este agente. Un agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante la acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO. Un agente DEPREDADOR no puede realizar esta acción durante la misma activación en la que realizara la acción Golpe cercenador (o viceversa)."
     },
     "CHAOS-MW-CA": {
       "eqName": "ARMADURA CON GARRAS",
@@ -55,7 +55,7 @@
     },
     "CHAOS-MW-VC": {
       "eqName": "VOCOEMISORES",
-      "description": "Once per turning point, one friendly MURDERWING operative can perform the following unique action:\n\n**VOCOGRITO (1AP):** Cada agente enemigo a 2\" o menos de este agente hace un chequeo de aturdimiento. Para ello, tira 1D6: con 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación. Un agente no puede realizar esta acción si tiene una orden de ocultarse."
+      "description": "Una vez por punto de inflexión, un agente ALA ASESINA amigo puede realizar la siguiente acción única:\n\n**VOCOGRITO (1AP):** Cada agente enemigo a 2\" o menos de este agente hace un chequeo de aturdimiento. Para ello, tira un D6: con 3+, resta 1 a su atributo LPA hasta el final de su siguiente activación. Un agente no puede realizar esta acción si tiene una orden de ocultarse."
     }
   },
   "teamAbilities": {
@@ -105,7 +105,7 @@
       },
       "abilities": {
         "CHAOS-MW-CL-PTD": {
-          "description": " Este agente empieza la batalla con 1 punto de Condenación. Una vez por acción, puedes intentar usar un Don de Condenación cuando se especifique (ver a la derecha). Si lo haces, tira 1D6 y compara el resultado con el número de puntos de Condenación que tenga este agente; si el resultado es:\n- Mayor: Resuelve la regla, y a continuación este agente gana 1 punto de Condenación.\n- Igual: No resuelvas la regla.\n- Menor: Inflige a este agente tantos daños como su número de puntos de Condenación y no resuelvas la regla.\n\nSi este agente tiene 6 puntos de Condenación, resuelve la regla sin tirar. Ten en cuenta que no puedes hacer un intento más de una vez por acción, con independencia del resultado del D6.\n\n**Dones de Condenación:**\n- Cuando un dado de ataque inflija 3 o más daños a este agente, puedes ignorar tantos daños como los puntos de Condenación de este agente.\n- Cuando este agente combata o contraataca y golpeas con un dado de ataque, puedes infligir tantos daños adicionales como los puntos de Condenación de este agente.",
+          "description": "Este agente empieza la batalla con 1 punto de Condenación. Una vez por acción, puedes intentar usar un Don de Condenación cuando se especifique. Si lo haces, tira un D6 y compara el resultado con el número de puntos de Condenación que tenga este agente; si el resultado es:\n- Mayor: Resuelve la regla, y a continuación este agente gana 1 punto de Condenación.\n- Igual: No resuelvas la regla.\n- Menor: Inflige a este agente tantos daños como su número de puntos de Condenación y no resuelvas la regla.\n\nSi este agente tiene 6 puntos de Condenación, resuelve la regla sin tirar. Ten en cuenta que no puedes hacer un intento más de una vez por acción, con independencia del resultado del D6.\n\n**Dones de Condenación:**\n- Cuando un dado de ataque inflija 3 o más daños a este agente, puedes ignorar tantos daños como los puntos de Condenación de este agente.\n- Cuando este agente combata o contraataca y golpeas con un dado de ataque, puedes infligir tantos daños adicionales como los puntos de Condenación de este agente.",
           "abilityName": "Senda hacia la condenación"
         }
       }
@@ -164,7 +164,7 @@
       "actions": {
         "CHAOS-MW-CC-SN": {
           "effects": [
-            " **Acción de IMPULSO.** Elige un agente enemigo en la ZONA DE IMPULSO de este agente. Ambos jugadores tiran 1D6 y suman a su resultado el atributo Heridas de su respectivo agente. Si tu resultado es mayor, retira de la zona de aniquilación a ese agente enemigo y vuelve a desplegarlo en la ZONA DE IMPULSO o la zona de control de este agente. Debe desplegarse en una ubicación en la que pueda colocarse y no puede desplegarse más lejos de lo que estaba de este agente. Si ese agente enemigo se despliega en la zona de control de este agente, la acción de Retroceder o Reposicionarse termina (permitiendo a este agente terminar esa acción en la zona de control de agentes enemigos)."
+            " **Acción de IMPULSO.** Elige un agente enemigo en la ZONA DE IMPULSO de este agente. Ambos jugadores tiran un D6 y suman a su resultado el atributo Heridas de su respectivo agente. Si tu resultado es mayor, retira de la zona de aniquilación a ese agente enemigo y vuelve a desplegarlo en la ZONA DE IMPULSO o la zona de control de este agente. Debe desplegarse en una ubicación en la que pueda colocarse y no puede desplegarse más lejos de lo que estaba de este agente. Si ese agente enemigo se despliega en la zona de control de este agente, la acción de Retroceder o Reposicionarse termina (permitiendo a este agente terminar esa acción en la zona de control de agentes enemigos)."
           ],
           "conditions": [
             "Este agente no puede realizar esta acción de manera normal. En lugar de ello, la realiza durante una acción de Retroceder o Reposicionarse, tras desplegarse debido a un IMPULSO."
@@ -213,7 +213,7 @@
       },
       "abilities": {
         "CHAOS-MW-HM-PP": {
-          "description": " Siempre que un agente enemigo vaya a realizar una acción de Retroceder estando en la zona de control de este agente, si no hay otros agentes enemigos en la zona de control de este agente, puedes usar esta regla. Si lo haces, tira 2D6, o 1D6 si ese agente enemigo tiene un atributo Heridas mayor que este agente. Si sacas algún 4+, el agente enemigo no puede realizar esa acción durante esta activación/ reacción (y no gasta PA en ella).",
+          "description": "Siempre que un agente enemigo vaya a realizar una acción de Retroceder estando en la zona de control de este agente, si no hay otros agentes enemigos en la zona de control de este agente, puedes usar esta regla. Si lo haces, tira dos D6, o un D6 si ese agente enemigo tiene un atributo Heridas mayor que este agente. Si sacas algún 4+, el agente enemigo no puede realizar esa acción durante esta activación/ reacción (y no gasta PA en ella).",
           "abilityName": "Presa acorralada"
         }
       },
@@ -252,7 +252,7 @@
       },
       "abilities": {
         "CHAOS-MW-RPT-TOF": {
-          "description": " Siempre que este agente se dé un IMPULSO durante su activación:\n-  Puedes retirar cualesquiera cambios a su atributo LPA.\n-  Puedes ignorar cualesquiera cambios a sus atributos por estar lesionado (incluyendo los atributos de sus armas) hasta el final de la activación.",
+          "description": " Siempre que este agente se dé un IMPULSO durante su activación:\n-  Puedes retirar cualesquiera cambios a su atributo LPA.\n-  Puedes ignorar cualesquiera cambios a sus atributos por estar herido (incluyendo los atributos de sus armas) hasta el final de la activación.",
           "abilityName": "La excitación del vuelo"
         }
       }
@@ -276,8 +276,8 @@
       "actions": {
         "CHAOS-MW-SHR-SH": {
           "effects": [
-            "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Como alternativa, elige a un agente enemigo en la ZONA DE IMPULSO de este agente (con lo cual esta acción se convierte en una acción de IMPULSO). Si hay agentes enemigos en la zona de control de este agente, no puedes elegir a un agente enemigo que no lo esté",
-            "Inflige 1D3 daños al agente elegido y resta 1 a su atributo LPA hasta el final de su siguiente activación."
+            "Elige un agente enemigo a 6\" o menos de este agente y visible para él. Como alternativa, elige a un agente enemigo en la ZONA DE IMPULSO de este agente (con lo cual esta acción se convierte en una acción de IMPULSO).",
+            "Inflige D3 daños al agente elegido y resta 1 a su atributo LPA hasta el final de su siguiente activación."
           ],
           "conditions": [
             "Si hay operativos enemigos dentro de la zona de control de este operativo, no puedes seleccionar a un operativo enemigo que no lo esté.",

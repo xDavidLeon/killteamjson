@@ -20,7 +20,7 @@
       "ployName": "EL ESCUDO QUE MATA"
     },
     "IMP-DW-S-ATSKNF": {
-      "description": "Puedes ignorar cualquier cambio en los atributos de los agentes VIGÍAS DE LA MUERTE amigos por estar lesionados (incluidos los atributos de sus armas).",
+      "description": "Puedes ignorar cualquier cambio en los atributos de los agentes VIGÍAS DE LA MUERTE amigos por estar heridos (incluidos los atributos de sus armas).",
       "ployName": "Y NO CONOCERÁN EL MIEDO"
     },
     "IMP-DW-T-SNTA": {
@@ -53,7 +53,7 @@
     },
     "IMP-DW-SVBSC": {
       "eqName": "BRAZALETES DE BIOESCRUTINIO SANCTUS-V",
-      "description": "Una vez durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, antes o después de que realice una acción, si no está en la zona de control de agentes enemigos puedes usar esta regla. Si lo haces, elige una de las siguientes opciones:\n- Ese agente amigo recupera 1D3 heridas perdidas.\n- Retira cualesquiera cambios al atributo LPA de ese agente amigo.\n- Retira una de las siguientes fichas que tenga ese agente amigo (antes de que los efectos de activación de esa ficha se resuelvan, si es relevante): fragmento de neutrones, Veneno, Terrotoxina.",
+      "description": "Una vez durante la activación de cada agente VIGÍAS DE LA MUERTE amigo, antes o después de que realice una acción, si no está en la zona de control de agentes enemigos puedes usar esta regla. Si lo haces, elige una de las siguientes opciones:\n- Ese agente amigo recupera hasta D3 heridas perdidas.\n- Retira cualesquiera cambios al atributo LPA de ese agente amigo.\n- Retira una de las siguientes fichas que tenga ese agente amigo (antes de que los efectos de activación de esa ficha se resuelvan, si es relevante): fragmento de neutrones, Veneno, Terrotoxina.",
       "effects": ""
     },
     "IMP-DW-AR": {
@@ -199,7 +199,7 @@
       },
       "abilities": {
         "IMP-DW-DEM-AF": {
-          "description": "Siempre que este agente combata o contraataque, resta 1 a ambos atributos de Daño de las armas que tenga el agente enemigo en esa secuencia (hasta un mínimo de 2). Esto no es acumulable con el ardid estratégico **El escudo que mata**.",
+          "description": "Siempre que este agente combata o contraataque, el Daño normal y el Daño crítico de 3 o más le infligen 1 daño menos. Esto no es acumulable con el ardid estratégico **El escudo que mata**.",
           "abilityName": "Fuerza agresiva"
         },
         "IMP-DW-DEM-BA": {
@@ -220,7 +220,7 @@
       },
       "abilities": {
         "IMP-DW-DIS-AOS": {
-          "description": "**GAMBITO ESTRATÉGICO**.\nElige un agente enemigo visible para este agente o a 6\" o menos de él, y a continuación tira 1D6. En la fase de tiroteo del punto de inflexión, dicho agente enemigo no puede ser activado ni realizar acciones hasta que se dé una de las siguientes circunstancias:\n-  Tu oponente ha activado a un número de agentes enemigos igual al resultado del 1D6.\n-  Es el último agente enemigo en ser activado.",
+          "description": "**GAMBITO ESTRATÉGICO**.\nElige un agente enemigo visible para este agente o a 6\" o menos de él, y a continuación tira un D6. En la fase de tiroteo del punto de inflexión, dicho agente enemigo no puede ser activado ni realizar acciones hasta que se dé una de las siguientes circunstancias:\n-  Tu oponente ha activado a un número de agentes enemigos igual al resultado del D6.\n-  Es el último agente enemigo en ser activado.",
           "abilityName": "Omniinterferidor avanzado"
         },
         "IMP-DW-DIS-AT": {
@@ -317,7 +317,7 @@
       },
       "abilities": {
         "IMP-DW-MRK-VIG": {
-          "description": "Este agente puede realizar la acción En guardia (ver las reglas de combate cerrado, pág. 58) en cualquier zona de aniquilación.\nAl usar las reglas de combate cerrado, una vez por punto de inflexión, después de que este agente realice una acción libre de Disparar estando en guardia, puede realizar de inmediato una acción libre de En guardia.\nNo obstante, si lo hace, no podrá reaccionar (ni ponerse En guardia dos veces si sufre una reacción).",
+          "description": "Este agente puede realizar la acción En guardia durante su activación en cualquier zona de aniquilación (ver las reglas de combate cerrado, Kill Team: Mundo Necrópolis).\nAl usar las reglas de combate cerrado, una vez por punto de inflexión, después de que este agente realice una acción libre de Disparar estando en guardia, puede realizar de inmediato una acción libre de En guardia.\nNo obstante, si lo hace, no podrá reaccionar (ni ponerse En guardia dos veces si sufre una reacción).",
           "abilityName": "Tirador vigilante"
         }
       }

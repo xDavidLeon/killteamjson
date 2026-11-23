@@ -14,7 +14,7 @@
       },
       "abilities": {
         "SPEC-NEMESIS-AMB-ED": {
-          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté lesionado.",
+          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté herido.",
           "abilityName": "Defensa adicional"
         },
         "SPEC-NEMESIS-AMB-BLK": {
@@ -61,7 +61,7 @@
       },
       "abilities": {
         "SPEC-NEMESIS-ARC-ED": {
-          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté lesionado.",
+          "description": "Siempre que un operativo dispare a este operativo, coge y lanza un dado de defensa adicional, salvo que este operativo esté herido.",
           "abilityName": "Defensa adicional"
         },
         "SPEC-NEMESIS-ARC-BLK": {
@@ -73,7 +73,7 @@
           "abilityName": "Comportamiento"
         },
         "SPEC-NEMESIS-ARC-XS": {
-          "description": "Siempre que un operativo dispare a este NPO:\n- Ignora la regla de armas Penetración.\n- El daño normal y crítico de 4 o más inflige 1 daño menos a este operativo.\n- Este NPO puede beneficiarse de los efectos de la regla básica Defensa adicional aunque esté lesionado (esto prevalece sobre esa regla).",
+          "description": "Siempre que un operativo dispare a este NPO:\n- Ignora la regla de armas Penetración.\n- El daño normal y crítico de 4 o más inflige 1 daño menos a este operativo.\n- Este NPO puede beneficiarse de los efectos de la regla básica Defensa adicional aunque esté herido (esto prevalece sobre esa regla).",
           "abilityName": "Blindaje xenotecnológico"
         }
       }
