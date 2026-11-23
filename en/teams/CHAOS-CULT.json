@@ -142,12 +142,12 @@
     {
       "abilityId": "CHAOS-CULT-TA-SI",
       "abilityName": "Sinewed",
-      "description": "You can ignore any changes to the Hit stat of this operative's"
+      "description": "You can ignore any changes to the Hit stat of this operative's melee weapons from being injured. This operative's melee weapons have the Brutal weapon rule."
     },
     {
       "abilityId": "CHAOS-CULT-TA-BA",
       "abilityName": "Barbed",
-      "description": "Whenever this operative is fighting or retaliating:\n- Enemy operatives cannot assist.\n- The first time your strike during that sequence, also inflict 1 damage on each other enemy operative within this operative's control range, or D3 damage instead if this operative is a TORMENT (roll separately for each)."
+      "description": "Whenever this operative is fighting or retaliating:\n- Enemy operatives cannot assist.\n- The first time you strike during that sequence, also inflict 1 damage on each other enemy operative within this operative's control range, or D3 damage instead if this operative is a TORMENT (roll separately for each)."
     }
   ],
   "opTypes": [
